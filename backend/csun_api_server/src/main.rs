@@ -3,6 +3,22 @@ use std::{fs::File, io::prelude::*, path::Path};
 extern crate rocket;
 use rocket::http::Status;
 use rocket::response::{content, status};
+use serde_derive::{Serialize, Deserialize};
+
+#[derive(Debug, Serialize, Deserialize)]
+struct Rating {
+    star_rating: i32,
+    author: String,
+    professor_first_name: String,
+    professor_last_name: String,
+    paragraph: String,
+    author_grade: char,
+    subject: String,
+    catalog_number: String
+}
+
+
+
 
 #[get("/<subject>/<data>")]
 fn json(subject: &str, data: &str) -> status::Custom<content::RawJson<String>> {
@@ -32,8 +48,13 @@ fn json(subject: &str, data: &str) -> status::Custom<content::RawJson<String>> {
     status::Custom(Status::ImATeapot, content::RawJson(response))
 }
 
+use rocket::serde::json::{Json};
+#[post("/rating", format = "application/json", data = "<rating>")]
+fn new_rating(rating: Json<Rating>) { 
+    println!("{:?}", rating);
+}
 
 #[launch]
 fn rocket() -> _ {
-    rocket::build().mount("/", routes![json, new_user])
+    rocket::build().mount("/", routes![json, new_rating])
 }
