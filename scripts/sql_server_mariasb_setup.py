@@ -1,4 +1,3 @@
-# bot.py
 import urllib3
 import json
 from dotenv import load_dotenv

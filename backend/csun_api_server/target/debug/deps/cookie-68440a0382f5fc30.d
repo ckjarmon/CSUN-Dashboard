@@ -1,0 +1,12 @@
+C:\Users\kyeou\Dropbox\PC (2)\Desktop\Stuff On Github\Rust-Projects\csun_api_server\target\debug\deps\cookie-68440a0382f5fc30.rmeta: C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\lib.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\builder.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\parse.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\jar.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\delta.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\draft.rs
+
+C:\Users\kyeou\Dropbox\PC (2)\Desktop\Stuff On Github\Rust-Projects\csun_api_server\target\debug\deps\libcookie-68440a0382f5fc30.rlib: C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\lib.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\builder.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\parse.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\jar.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\delta.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\draft.rs
+
+C:\Users\kyeou\Dropbox\PC (2)\Desktop\Stuff On Github\Rust-Projects\csun_api_server\target\debug\deps\cookie-68440a0382f5fc30.d: C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\lib.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\builder.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\parse.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\jar.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\delta.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\draft.rs
+
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\lib.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\builder.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\parse.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\jar.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\delta.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.4\src\draft.rs:

@@ -1,0 +1,13 @@
+c:\Users\kyeou\Dropbox\PC (2)\Desktop\Stuff On Github\Rust-Projects\csun_api_server\target\debug\deps\url-41d565b75754ad92.rmeta: C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\lib.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\encoding.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\host.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\origin.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\path_segments.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\parser.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\slicing.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\form_urlencoded.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\quirks.rs
+
+c:\Users\kyeou\Dropbox\PC (2)\Desktop\Stuff On Github\Rust-Projects\csun_api_server\target\debug\deps\url-41d565b75754ad92.d: C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\lib.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\encoding.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\host.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\origin.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\path_segments.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\parser.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\slicing.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\form_urlencoded.rs C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\quirks.rs
+
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\lib.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\encoding.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\host.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\origin.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\path_segments.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\parser.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\slicing.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\form_urlencoded.rs:
+C:\Users\kyeou\.cargo\registry\src\github.com-1ecc6299db9ec823\url-1.7.2\src\quirks.rs:
