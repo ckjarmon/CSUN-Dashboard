@@ -3,9 +3,13 @@ use std::{fs::File, io::prelude::*, path::Path};
 extern crate rocket;
 use rocket::http::Status;
 use rocket::response::{content, status};
-use serde_derive::{Serialize, Deserialize};
+
+
+
+use rocket::serde::{Serialize, Deserialize, json::Json};
 
 #[derive(Debug, Serialize, Deserialize)]
+#[serde(crate = "rocket::serde")]
 struct Rating {
     star_rating: i32,
     author: String,
@@ -48,10 +52,16 @@ fn json(subject: &str, data: &str) -> status::Custom<content::RawJson<String>> {
     status::Custom(Status::ImATeapot, content::RawJson(response))
 }
 
-use rocket::serde::json::{Json};
+
+extern crate serde_json;
+
+
+use std::io::{Error, Write};
 #[post("/rating", format = "application/json", data = "<rating>")]
-fn new_rating(rating: Json<Rating>) { 
-    println!("{:#?}", rating);
+fn new_rating(rating: Json<Rating>) -> Result<(), _> { 
+     println!("{:#?}", rating.into_inner());
+     write!(File::create("test.json"), "{:?}", rating.into_inner());
+  Ok(())
 }
 
 #[launch]
