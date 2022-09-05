@@ -51,7 +51,7 @@ fn json(subject: &str, data: &str) -> status::Custom<content::RawJson<String>> {
 use rocket::serde::json::{Json};
 #[post("/rating", format = "application/json", data = "<rating>")]
 fn new_rating(rating: Json<Rating>) { 
-    println!("{:?}", rating);
+    println!("{:#?}", rating);
 }
 
 #[launch]
