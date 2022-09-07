@@ -6,12 +6,12 @@ app = Flask(__name__)
 
 @app.route('/<string:subject>/<string:data>')
 def get(**kwargs):
-    return json.load(open('./json_' + kwargs["data"] +  '/' + kwargs["subject"].upper() + '_' + kwargs["data"] + '.json'))
+    return json.load(open(f'./json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
 @app.route('/<string:subject>/rating', methods=['POST'])
 def new_rating(**kwargs):
-    current_ratings = json.load(open('./json_' + 'rating' +  '/' + kwargs["subject"].upper() + '_' + 'rating' + '.json'))
-    rating_file = open('./json_' + 'rating' +  '/' + kwargs["subject"].upper() + '_' + 'rating' + '.json', "w")
+    current_ratings = json.load(open(f'./json_rating/{kwargs["subject"].upper()}_rating.json'))
+    rating_file = open(f'./json_rating/{kwargs["subject"].upper()}_rating.json', "w")
     new_rating = request.get_json(force=True) 
     print ('Post Body:', new_rating)
     try:
