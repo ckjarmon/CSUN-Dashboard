@@ -12,7 +12,7 @@ for code in class_codes:
         if course["description"] is not None:
             try:
                 print(course["subject"] + " " + course["catalog_number"] + ": " + course["description"][0:course["description"].index('.')])
-                course["prerequisites"] = course["subject"] + " " + course["catalog_number"] + ": " + course["description"][0:course["description"].index('.')]
+                course["prerequisites"] = course["description"][0:course["description"].index('.')]
             except ValueError:
                 print(course["subject"] + " " + course["catalog_number"] + ": " + course["description"])
                 course["prerequisites"] = "N/A"

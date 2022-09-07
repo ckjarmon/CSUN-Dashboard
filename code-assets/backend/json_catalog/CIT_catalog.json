@@ -6,7 +6,7 @@
         "description": "Corequisite: CIT 101L. The discipline of CIT. Pervasive CIT themes; CIT history; organizational issues; relationship of CIT to other computing disciplines; application domains; application of math and statistics to CIT. Lab: three hours per week; covers installation and optimization of operating systems system management utilities applications including word processing spreadsheets and databases virus checkers and spyware.\n",
         "units": "2",
         "class_type": "LEC",
-        "prerequisites": "CIT 101: Corequisite: CIT 101L"
+        "prerequisites": "Corequisite: CIT 101L"
     },
     {
         "subject": "CIT",
@@ -15,7 +15,7 @@
         "description": "Corequisite: CIT 101. The discipline of CIT. Pervasive CIT themes; CIT history; organizational issues; relationship of CIT to other computing disciplines; application domains; application of math and statistics to CIT. Lab: three hours per week; covers installation and optimization of operating systems system management utilities applications including word processing spreadsheets and databases virus checkers and spyware.\n",
         "units": "1",
         "class_type": "LAB",
-        "prerequisites": "CIT 101L: Corequisite: CIT 101"
+        "prerequisites": "Corequisite: CIT 101"
     },
     {
         "subject": "CIT",
@@ -24,7 +24,7 @@
         "description": "Corequisite: CIT 160L. Architecture of the Internet; Internet protocols including http ftp telnet; browser technologies; current developments in Internet technologies and usage characteristics; Hypertext; self descriptive text; webpage design; web site design; ADA compliance; commercialization of the Internet; role of the Internet in CIT. Lab: 3 hours per week.\n",
         "units": "2",
         "class_type": "LEC",
-        "prerequisites": "CIT 160: Corequisite: CIT 160L"
+        "prerequisites": "Corequisite: CIT 160L"
     },
     {
         "subject": "CIT",
@@ -33,7 +33,7 @@
         "description": "Corequisite: CIT 160. Architecture of the Internet; Internet protocols including http ftp telnet; browser technologies; current developments in Internet technologies and usage characteristics; Hypertext; self descriptive text; webpage design; web site design; ADA compliance; commercialization of the Internet; role of the Internet in CIT. Lab: 3 hours per week.\n",
         "units": "1",
         "class_type": "LAB",
-        "prerequisites": "CIT 160L: Corequisite: CIT 160"
+        "prerequisites": "Corequisite: CIT 160"
     },
     {
         "subject": "CIT",
@@ -42,7 +42,7 @@
         "description": "Prerequisites: CIT 101/L 122/L; Lower Division writing requirement. Corequisite: CIT 210L. Introduction to the basic components of CIT systems including networking web systems databases scripting system administration and maintenance and system integration. A deeper study of operating system principles network architecture and resource management including shared resources.\n",
         "units": "3",
         "class_type": "LEC",
-        "prerequisites": "CIT 210: Prerequisites: CIT 101/L 122/L; Lower Division writing requirement"
+        "prerequisites": "Prerequisites: CIT 101/L 122/L; Lower Division writing requirement"
     },
     {
         "subject": "CIT",
@@ -51,7 +51,7 @@
         "description": "Prerequisites: CIT 101/L 122/L; Lower Division writing requirement. Corequisite: CIT 210. Introduction to the basic components of CIT systems including networking web systems databases scripting system administration and maintenance and system integration. A deeper study of operating system principles network architecture and resource management including shared resources.\n",
         "units": "1",
         "class_type": "LAB",
-        "prerequisites": "CIT 210L: Prerequisites: CIT 101/L 122/L; Lower Division writing requirement"
+        "prerequisites": "Prerequisites: CIT 101/L 122/L; Lower Division writing requirement"
     },
     {
         "subject": "CIT",
@@ -60,7 +60,7 @@
         "description": "Prerequisites: CIT 160/L; COMP 182/L; MATH 103 150A or 255A. Corequisite: CIT 270L. Role of integrative programming in information technology: operating systems system management application reuse. Tools and techniques for integrative programming such as Perl TCL/tk VBscript and Python. Script programming development environments. Role of scripting in system installation and management. Client-server architecture. Interface management wrappers facades brokers and proxies. XML and XML-related technologies with emphasis on data exchange for application/system integration. Integration technologies such as web services Ruby on Rails CORBA and DCOM. Integration platforms such as .net and J2EE. Lab: 3 hours per week.\n",
         "units": "3",
         "class_type": "LEC",
-        "prerequisites": "CIT 270: Prerequisites: CIT 160/L; COMP 182/L; MATH 103 150A or 255A"
+        "prerequisites": "Prerequisites: CIT 160/L; COMP 182/L; MATH 103 150A or 255A"
     },
     {
         "subject": "CIT",
@@ -69,7 +69,7 @@
         "description": "Prerequisites: CIT 160/L; COMP 182/L; MATH 103 150A or 255A. Corequisite: CIT 270. Role of integrative programming in information technology: operating systems system management application reuse. Tools and techniques for integrative programming such as Perl TCL/tk VBscript and Python. Script programming development environments. Role of scripting in system installation and management. Client-server architecture. Interface management wrappers facades brokers and proxies. XML and XML-related technologies with emphasis on data exchange for application/system integration. Integration technologies such as web services Ruby on Rails CORBA and DCOM. Integration platforms such as .net and J2EE. Lab: 3 hours per week.\n",
         "units": "1",
         "class_type": "LAB",
-        "prerequisites": "CIT 270L: Prerequisites: CIT 160/L; COMP 182/L; MATH 103 150A or 255A"
+        "prerequisites": "Prerequisites: CIT 160/L; COMP 182/L; MATH 103 150A or 255A"
     },
     {
         "subject": "CIT",
@@ -86,7 +86,7 @@
         "description": "Prerequisites: CIT 210/L 270/L. Overview of enterprise system architecture principles and practices of systems administration and system management including firewalls and proxy servers networked file systems user account management resources allocation installation and configuration of operating systems startup and shutdown booting performance monitoring storage backup and restore system administration tools system maintenance user support issues web administration and integration of network storage system resources to meet user needs. Enterprise goals and objectives roles and responsibilities of a system administrator.\n",
         "units": "3",
         "class_type": "LEC",
-        "prerequisites": "CIT 360: Prerequisites: CIT 210/L 270/L"
+        "prerequisites": "Prerequisites: CIT 210/L 270/L"
     },
     {
         "subject": "CIT",
@@ -135,7 +135,7 @@
         "description": "Prerequisites: COMP 484/L; IS 451; Upper Division Writing Proficiency Exam. Corequisite: 480L. CIT senior project first semester includes project proposal methods and processes feasibility studies teamwork CASE tools work breakdown structure estimating and budgeting schedule planning peer reviews and inspections and technical presentation. Professional communication. Teamwork concepts and issues. Organizational Context. Professional and ethical Issues roles and responsibilities. Lab: 3 hours per week.\n",
         "units": "2",
         "class_type": "LEC",
-        "prerequisites": "CIT 480: Prerequisites: COMP 484/L; IS 451; Upper Division Writing Proficiency Exam"
+        "prerequisites": "Prerequisites: COMP 484/L; IS 451; Upper Division Writing Proficiency Exam"
     },
     {
         "subject": "CIT",
@@ -144,7 +144,7 @@
         "description": "Prerequisites: COMP 484; IS 451; Upper Division Writing Proficiency Exam. Corequisite: 480. CIT senior project first semester includes project proposal methods and processes feasibility studies teamwork CASE tools work breakdown structure estimating and budgeting schedule planning peer reviews and inspections and technical presentation. Professional communication. Teamwork concepts and issues. Organizational Context. Professional and ethical Issues roles and responsibilities. Lab: 3 hours per week.\n",
         "units": "1",
         "class_type": "LAB",
-        "prerequisites": "CIT 480L: Prerequisites: COMP 484; IS 451; Upper Division Writing Proficiency Exam"
+        "prerequisites": "Prerequisites: COMP 484; IS 451; Upper Division Writing Proficiency Exam"
     },
     {
         "subject": "CIT",
