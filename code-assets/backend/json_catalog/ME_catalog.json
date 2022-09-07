@@ -13,7 +13,8 @@
         "title": "Introduction to Mechanical Engineering",
         "description": "Prerequisite: MATH 102 104 105 150A or 150B or a passing score on the Math Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: ME 101L. Freshman orientation course introducing the Mechanical Engineering Program the profession and the University.Tools of the trade -- the internet word processing spreadsheets power point computer-aided design basic lab measurement instruments commercial component catalogs and numerically controlled machine tools to support prototype fabrication -- are introduced in the context of engineering practice. Fundamental engineering analysis/design is explored through simple examples covering all aspects of mechanical engineering. 1 hour lecture 3 hours lab per week. (Available for General Education Lifelong Learning for ME majors.)\n",
         "units": "1",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 101: Prerequisite: MATH 102 104 105 150A or 150B or a passing score on the Math Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A"
     },
     {
         "subject": "ME",
@@ -21,7 +22,8 @@
         "title": "Introduction to Mechanical Engineering Lab",
         "description": "Prerequisite: MATH 102 104 105 150A or 150B or a passing score on the Math Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: ME 101. Freshman orientation course introducing the Mechanical Engineering Program the profession and the University.Tools of the trade -- the internet word processing spreadsheets power point computer-aided design basic lab measurement instruments commercial component catalogs and numerically controlled machine tools to support prototype fabrication -- are introduced in the context of engineering practice. Fundamental engineering analysis/design is explored through simple examples covering all aspects of mechanical engineering. 1 hour lecture 3 hours lab per week. (Available for General Education Lifelong Learning for ME majors.)\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 101L: Prerequisite: MATH 102 104 105 150A or 150B or a passing score on the Math Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A"
     },
     {
         "subject": "ME",
@@ -29,7 +31,8 @@
         "title": "Computer-Aided Design",
         "description": "Prerequisites: ME 101/L; MATH 102 104 105 150A or 150B or a passing score on the Math Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: ME 186L. Introduction to concepts in engineering graphics and their implementation with computer-aided design (CAD) parametric modeling tools. Creation of sketches parts assemblies and engineering drawings. Application to group project including oral and written reports. 1 hour lecture 3 hours of lab per week.\n",
         "units": "1",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 186: Prerequisites: ME 101/L; MATH 102 104 105 150A or 150B or a passing score on the Math Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A"
     },
     {
         "subject": "ME",
@@ -37,7 +40,8 @@
         "title": "Computer-Aided Design Lab",
         "description": "Prerequisites: ME 101/L; MATH 102 104 105 150A or 150B or a passing score on the Math Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: ME 186. Introduction to concepts in engineering graphics and their implementation with computer-aided design (CAD) parametric modeling tools. Creation of sketches parts assemblies and engineering drawings. Application to group project including oral and written reports. 1 hour lecture 3 hours of lab per week.\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 186L: Prerequisites: ME 101/L; MATH 102 104 105 150A or 150B or a passing score on the Math Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A"
     },
     {
         "subject": "ME",
@@ -45,7 +49,8 @@
         "title": "Programming for Mechanical Engineers",
         "description": "Corequisite: MATH 150A. Basic programming concepts implemented with Visual Basic for Applications (VBA) with an emphasis on engineering problem solving. Topics include the use of flowcharts variable types the Excel/VBA environment decision and looping structures and program debugging. (Available for General Education Lifelong Learning for ME majors.)\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 209: Corequisite: MATH 150A"
     },
     {
         "subject": "ME",
@@ -53,7 +58,8 @@
         "title": "Differential Equations for Mechanical Engineers",
         "description": "Prerequisite: Math 150B. Recommended preparatory course: Math 250. Introduction to differential equations used in engineering applications. Engineering analysis of physical systems described by differential equations: pendulums mass-spring damper R-L-C circuits vibrations beam bending heat transfer and hydrodynamics. Exploration of solution techniques including undetermined coefficients power series and Laplace Transform. Determination of initial/boundary conditions. Linear algebra and solution of systems of differential equations. Introduction to partial differential equations and separation of variables. Not available to students with credit for Math 280 or ECE 280.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 280: Prerequisite: Math 150B"
     },
     {
         "subject": "ME",
@@ -61,7 +67,8 @@
         "title": "Mechanical Engineering Design",
         "description": "Prerequisite: ME 186/L. Introduction to mechanical design design methodology and design for manufacturing. Engineering materials selection metal forming/removal theory and practice. A group design project is required. 2 hours lecture per week.\n",
         "units": "2",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 286: Prerequisite: ME 186/L"
     },
     {
         "subject": "ME",
@@ -77,7 +84,8 @@
         "title": "Numerical analysis of Engineering Systems",
         "description": "Prerequisites: MATH 150B; ME 209 or COMP 106/L or ECE 206/L or CE 280/L. Features engineering problems which require the use of algorithms and numerical analysis to obtain a solution. Modern tools such as spreadsheets with imbedded high level-languages are used for analysis and code development. Program documentation that requires extensive use of computer-based technical writing skills with graphical presentations. Cross section of problems are selected from various branches of engineering. Two 3-hour labs per week.\n",
         "units": "2",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 309: Prerequisites: MATH 150B; ME 209 or COMP 106/L or ECE 206/L or CE 280/L"
     },
     {
         "subject": "ME",
@@ -85,7 +93,8 @@
         "title": "Machine Design",
         "description": "Prerequisites: CE 340; ME 286. Engineering principles and practice in the selection and design of fasteners bearings couplings shafting transmissions and other mechanical power transmission devices. Design project. 3 hours lecture per week.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 330: Prerequisites: CE 340; ME 286"
     },
     {
         "subject": "ME",
@@ -93,7 +102,8 @@
         "title": "Mechanical Measurements",
         "description": "Prerequisite: PHYS 220B. Corequisite: ME 335L. Measurement of temperature pressure flow rate force and motion. Statistical methods for analysis of uncertainty and experiment design. Use of data acquisition software for data collection and storage. Analysis of dynamic response of instruments. Written and oral presentations of experimental results. 1 hour lecture one 3-hour lab per week.\n",
         "units": "1",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 335: Prerequisite: PHYS 220B"
     },
     {
         "subject": "ME",
@@ -101,7 +111,8 @@
         "title": "Mechanical Measurements Lab",
         "description": "Prerequisite: PHYS 220B. Corequisite: ME 335. Measurement of temperature pressure flow rate force and motion. Statistical methods for analysis of uncertainty and experiment design. Use of data acquisition software for data collection and storage. Analysis of dynamic response of instruments. Written and oral presentations of experimental results. 1 hour lecture one 3-hour lab per week.\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 335L: Prerequisite: PHYS 220B"
     },
     {
         "subject": "ME",
@@ -109,7 +120,8 @@
         "title": "Thermodynamics",
         "description": "Prerequisites: MATH 250; PHYS 220A/L. Fundamental theories and engineering applications of thermodynamics with emphasis of First and Second Laws of Thermodynamics. Thermodynamic properties of solids liquids gases and mixtures. Work-producing and work-absorbing systems. Applications to design.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 370: Prerequisites: MATH 250; PHYS 220A/L"
     },
     {
         "subject": "ME",
@@ -117,7 +129,8 @@
         "title": "Heat Transfer I",
         "description": "Prerequisites: MATH 250; PHYS 220A/L. Basic principles of heat transfer and their application. Introduction to conductive convective and radiative heat transfer. Applications to design.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 375: Prerequisites: MATH 250; PHYS 220A/L"
     },
     {
         "subject": "ME",
@@ -133,7 +146,8 @@
         "title": "System Dynamics: Modeling",
         "description": "Analysis and SimulationPrerequisites: AM 316; ECE 240/L. Corequisite: ME 390. Modeling of dynamic engineering systems in various energy domains\n",
         "units": "1",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 384: Analysis and SimulationPrerequisites: AM 316; ECE 240/L"
     },
     {
         "subject": "ME",
@@ -141,7 +155,8 @@
         "title": "Computer-Aided Analysis and Design",
         "description": "Prerequisite: ME 286. Corequisite: ME 330 386L. This course addresses the use of finite element analysis (FEA) tools for effective and efficient design of mechanical elements. A commercial general purpose FEA software application is used for the solution of non-trivial problems. Emphasis will be placed on the selection of suitable FEA models and interpretation and critical evaluation of the results. The integration of the use of FEA tools in a well-organized design process also is emphasized. Lecture material is complemented by laboratory case studies and a design project.  2 hours lecture 3 hours lab per week.\n",
         "units": "2",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 386: Prerequisite: ME 286"
     },
     {
         "subject": "ME",
@@ -149,7 +164,8 @@
         "title": "Computer-Aided Analysis and Design Lab",
         "description": "Prerequisite: ME 286. Corequisite: ME 330 386. This course addresses the use of finite element analysis (FEA) tools for effective and efficient design of mechanical elements. A commercial general purpose FEA software application is used for the solution of non-trivial problems. Emphasis will be placed on the selection of suitable FEA models and interpretation and critical evaluation of the results. The integration of the use of FEA tools in a well-organized design process also is emphasized. Lecture material is complemented by laboratory case studies and a design project.  2 hours lecture 3 hours lab per week.\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 386L: Prerequisite: ME 286"
     },
     {
         "subject": "ME",
@@ -157,7 +173,8 @@
         "title": "Fluid Mechanics",
         "description": "Prerequisites: MATH 250; PHYS 220A/L. Fundamental equations of fluid mechanics are derived and applied to engineering problems with emphasis on understanding the physical principles involved. Basic developments are applied to compressible as well as incompressible fluids. Selective exploration of the state of the art of experimental knowledge in major areas of applications. Applications to design.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 390: Prerequisites: MATH 250; PHYS 220A/L"
     },
     {
         "subject": "ME",
@@ -173,7 +190,8 @@
         "title": "Kinematics of Mechanisms",
         "description": "Prerequisites: AM 316; Upper Division standing. Study of forces and motion of constrained mechanisms in machine systems. Analysis of linkages cams sliders crank and rocker offset crank-slider universal joints and more. An internal combustion engine is utilized to demonstrate application of these elements at a systems level.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 415: Prerequisites: AM 316; Upper Division standing"
     },
     {
         "subject": "ME",
@@ -197,7 +215,8 @@
         "title": "Mechatronics",
         "description": "Prerequisite: ECE 240/L. Corequisite: ME 435L. Recommended corequisite: ME 335 or ECE 320. Machine and process control applications data acquisition systems sensors and transducers actuating devices hardware controllers transducer signal processing and conditioning. 2 hours lecture one 3-hour lab each week. (Cross listed with ECE 435/L)\n",
         "units": "2",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 435: Prerequisite: ECE 240/L"
     },
     {
         "subject": "ME",
@@ -205,7 +224,8 @@
         "title": "Mechatronics Lab",
         "description": "Prerequisite: ECE 240/L. Corequisite: ME 435. Recommended corequisite: ME 335 or ECE 320. Machine and process control applications data acquisition systems sensors and transducers actuating devices hardware controllers transducer signal processing and conditioning. 2 hours lecture one 3-hour lab each week. (Cross listed with ECE 435/L)\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 435L: Prerequisite: ECE 240/L"
     },
     {
         "subject": "ME",
@@ -237,7 +257,8 @@
         "title": "Thermodynamics II",
         "description": "Prerequisite: ME 370. Continuation of Thermodynamics I with applications to engineering systems. Gas and vapor cycles for power and refrigeration. Reactive and non-reactive mixtures. Introduction to combustion.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 470: Prerequisite: ME 370"
     },
     {
         "subject": "ME",
@@ -253,7 +274,8 @@
         "title": "Senior Design in Mechanical Engineering I",
         "description": "Prerequisites: ME 309; ME 386. First semester of a 2-semester capstone design experience simulating professional mechanical engineering practice. Emphasis is on the application of engineering fundamentals to a comprehensive design project utilizing computer-aided design and analysis tools. Addresses effective group participation and preparation of written and oral preliminary and critical design reviews. Ethical regulatory manufacturing and economic issues are considered as required by the project definition. Two 3-hour labs per week.\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 486A: Prerequisites: ME 309; ME 386"
     },
     {
         "subject": "ME",
@@ -261,7 +283,8 @@
         "title": "Senior Design in Mechanical Engineering II",
         "description": "Prerequisite: ME 486A. Continuation and realization of the design project initiated in ME 486A. Project culminates in a final written report and oral presentation. Two 3-hour labs per week.\n",
         "units": "2",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 486B: Prerequisite: ME 486A"
     },
     {
         "subject": "ME",
@@ -269,7 +292,8 @@
         "title": "Fluid Dynamics",
         "description": "Prerequisite: ME 390. Second-semester fluids course with applications to systems of engineering interest. Potential flows boundary layers duct flows lubrication theory lift and drag. 1-dimensional compressible flow with area change friction heating/cooling normal shock waves oblique shock waves and Prandtl-Meyer expansions. Both numerical and analytical solution techniques are explored.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 490: Prerequisite: ME 390"
     },
     {
         "subject": "ME",
@@ -277,7 +301,8 @@
         "title": "Thermal-Fluids Lab",
         "description": "Prerequisites: ME 335 370 375 390. Experimental studies of fluid mechanics thermodynamics and heat transfer. Measurement and analysis of performance of simple cyclic devices aerodynamic shapes turbo machines piping systems and heat exchangers. One 3-hour lab per week.\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 491: Prerequisites: ME 335 370 375 390"
     },
     {
         "subject": "ME",
@@ -285,7 +310,8 @@
         "title": "Hydraulics",
         "description": "Prerequisite: ME 390. Fundamental principles of incompressible fluid flow and their applications to pipe flow open channel flow and the performance of hydraulic turbomachines. Flow in pipe systems ranging from simple series systems to complex branched networks. Uniform flows gradually varying flows rapid transitions and hydraulic jumps in open channels. Performance of radial mixed-flow and axial flow centrifugal pumps and turbines and of impulse turbines.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 493: Prerequisite: ME 390"
     },
     {
         "subject": "ME",
@@ -301,7 +327,8 @@
         "title": "Seminar in Engineering Analysis",
         "description": "Analytic and numerical methods applied to the solution of engineering problems at an advanced level. Solution methods are demonstrated on a wide range of engineering topics including structures fluids thermal thermal energy transport and mechanical systems. This course emphasizes physical phenomena that can be described by systems of ordinary differential equations.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 501A: Analytic and numerical methods applied to the solution of engineering problems at an advanced level"
     },
     {
         "subject": "ME",
@@ -309,7 +336,8 @@
         "title": "Robot Mechanics and Control",
         "description": "Prerequisite: ME 384 or equivalent. Corequisite: ME 415 or consent of instructor. Overview of the state-of-the-art of robotics and tele-robotics. Analysis modeling and simulation of motions differential motions and dynamics of robots. Emphasis will be placed on various aspects of robot controls including position and force. Experience in robot design will be gained through course projects.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 520: Prerequisite: ME 384 or equivalent"
     },
     {
         "subject": "ME",
@@ -341,7 +369,8 @@
         "title": "Thermal-Fluid Systems Design",
         "description": "Preparatory: ME 470 490. System design and optimization course that integrates the disciplines of fluid mechanics thermodynamics and heat transfer. Intent is to build on and extend information previously acquired in these courses. Emphasis is placed on the synthesis of components into a thermal-fluid system to accomplish a specified task with technical economical and social constraints. Series of design problems are assigned to the class as homework. These problems require students to incorporate design methodology into their work.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 583: Preparatory: ME 470 490"
     },
     {
         "subject": "ME",
@@ -349,7 +378,8 @@
         "title": "Modeling and Simulation of Dynamic Systems",
         "description": "Prerequisites: AM 316; ME 501A. Comprehensive and advanced treatment of the modeling techniques and response analyses of engineering dynamic systems. Both linear and nonlinear dynamic behavior of physical systems of different technical disciplines are studied with the aid of computer simulation. Mixed systems composed of electromechanical fluid-mechanical and electrohydraulic components also are investigated. Computational and visualization tools such as Matlab and Simulink are used to enhance analyzing and understanding of system performance.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 584: Prerequisites: AM 316; ME 501A"
     },
     {
         "subject": "ME",
@@ -357,7 +387,8 @@
         "title": "Advanced Fluid Dynamics",
         "description": "Prerequisite: ME 490. Analytical and computational techniques for the solution of fluid dynamic problems. Topics include generalized 1-dimensional compressible flows unsteady and 2-dimensional compressible flows method of characteristics compressible laminar and turbulent boundary layers transition to turbulence turbulent stress models and application of computational codes to the solution of practical problems.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 590: Prerequisite: ME 490"
     },
     {
         "subject": "ME",
@@ -381,7 +412,8 @@
         "title": "Design and Control of Dynamic Systems",
         "description": "Prerequisite: ME 484. Design and control of mechanical systems. Time-domain and state space methods integrated into the design of dynamic processes. Application to automotive aircraft spacecraft robots and related mechanical/aerospace systems. Digital simulations.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 684: Prerequisite: ME 484"
     },
     {
         "subject": "ME",
@@ -389,7 +421,8 @@
         "title": "Directed Graduate Research",
         "description": "No course description.\n",
         "units": "3",
-        "class_type": "SUP"
+        "class_type": "SUP",
+        "prerequisites": "ME 696C: No course description"
     },
     {
         "subject": "ME",
@@ -397,7 +430,8 @@
         "title": "Directed Comprehensive Studies",
         "description": "Prerequisite: Classified status in the MSME program. Registration is by permission number only through the ME Graduate Coordinator.\n",
         "units": "3",
-        "class_type": "SUP"
+        "class_type": "SUP",
+        "prerequisites": "ME 697: Prerequisite: Classified status in the MSME program"
     },
     {
         "subject": "ME",
@@ -413,7 +447,8 @@
         "title": "Thesis or Graduate Project",
         "description": "Prerequisite: Classified status in the MSME program. Registration is by permission number only through the thesis committee chairperson.\n",
         "units": "2",
-        "class_type": "SUP"
+        "class_type": "SUP",
+        "prerequisites": "ME 698B: Prerequisite: Classified status in the MSME program"
     },
     {
         "subject": "ME",
@@ -421,7 +456,8 @@
         "title": "Machine Design Applications",
         "description": "Prerequisites: CE 340; ME 330. Continuation of ME 330 with emphasis on fatigue of machine parts life wear and friction considerations. Turbine pump transmissions and other devices discussed and analyzed as case studies. Design project.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 430: Prerequisites: CE 340; ME 330"
     },
     {
         "subject": "ME",
@@ -429,7 +465,8 @@
         "title": "Geometric Dimensioning and Tolerancing",
         "description": "Prerequisite: ME 330. Fundamental principles of geometric dimensioning and tolerancing (GD&amp;T) and their applications in computer aided mechanical design. Interpretation of fits limits and tolerances. Thorough analysis of coordinate and positional tolerancing. Gaging techniques material conditions and current standards examined. Design project required. Available for graduate credit. 3 hours lecture per week.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 434: Prerequisite: ME 330"
     },
     {
         "subject": "ME",
@@ -445,7 +482,8 @@
         "title": "Alternative Energy Engineering II",
         "description": "Prerequisites: ME 370 375. Solar radiation characteristics. Solar energy collection and conversion devices. Design and analysis of passive and active solar energy systems. Solar electric power production. Wind energy conversion. Economic analysis.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 483: Prerequisites: ME 370 375"
     },
     {
         "subject": "ME",
@@ -453,7 +491,8 @@
         "title": "Control of Mechanical Systems",
         "description": "Prerequisite: ME 384. Corequisite 484L. Classical feedback control theory emphasizing mechanical systems. Time domain frequency domain stability criteria and system sensitivity techniques. Introduction to design compensation and methods. Digital computer simulation of translational and rotational mechanical hydraulic and pneumatic systems. Control system design projects. 2 hours lecture one 3-hour lab per week.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 484: Prerequisite: ME 384"
     },
     {
         "subject": "ME",
@@ -461,7 +500,8 @@
         "title": "Control of Mechanical Systems Lab",
         "description": "Prerequisite: ME 384. Corequisite 484. Classical feedback control theory emphasizing mechanical systems. Time domain frequency domain stability criteria and system sensitivity techniques. Introduction to design compensation and methods. Digital computer simulation of translational and rotational mechanical hydraulic and pneumatic systems. Control system design projects. 2 hours lecture one 3-hour lab per week.\n",
         "units": "1",
-        "class_type": "LAB"
+        "class_type": "LAB",
+        "prerequisites": "ME 484L: Prerequisite: ME 384"
     },
     {
         "subject": "ME",
@@ -469,7 +509,8 @@
         "title": "Introduction to Environmental Engineering",
         "description": "Prerequisite: ME 370. Application of concepts of mass and energy balances to environmental problems as a basis for analyzing and understanding the multimedia aspect of environmental engineering. Introduction of principles of air-pollution control and global-climate change water and wastewater treatment groundwater contamination hazardous waste risk assessment and resource recovery. Qualitative and quantitative analysis of sources of pollutants and treatment and reduction processes. Description of pertinent environmental legislations.  A semester-long team design project is assigned.\n",
         "units": "3",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 485: Prerequisite: ME 370"
     },
     {
         "subject": "ME",
@@ -477,7 +518,8 @@
         "title": "Seminar in Engineering Analysis",
         "description": "Analytic and numerical methods applied to the solution of engineering problems at an advanced level. Solution methods are demonstrated on a wide range of engineering topics including structures fluids thermal thermal energy transport and mechanical systems. This course emphasizes physical phenomena that can be described by partial differential equations.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 501B: Analytic and numerical methods applied to the solution of engineering problems at an advanced level"
     },
     {
         "subject": "ME",
@@ -485,7 +527,8 @@
         "title": "Dynamics of Machines",
         "description": "Prerequisite: ME 415. Recommended Corequisite: ME 501A. Forces motion and inertia in machines. Analysis of linkages cams rotor dynamics reciprocal and rotational balancing whirl modes and orbits and signature analysis of machine elements. Computer simulation of machinery dynamics including the inverse dynamics.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 515: Prerequisite: ME 415"
     },
     {
         "subject": "ME",
@@ -501,7 +544,8 @@
         "title": "Applied Heat and Mass Transfer",
         "description": "Prerequisite: ME 375 or equivalent. Continuation of ME 375 with emphasis on the convective modes of heat and mass transfer. Heat exchangers evaporation boiling condensation high speed flows and combined processes are considered with application to design.\n",
         "units": "4",
-        "class_type": "LEC"
+        "class_type": "LEC",
+        "prerequisites": "ME 575: Prerequisite: ME 375 or equivalent"
     },
     {
         "subject": "ME",
@@ -509,7 +553,8 @@
         "title": "Computational Fluid Dynamics",
         "description": "Prerequisites: ME 309 490. Introduction to the numerical analysis of fluid flows. Special techniques required for solution of the governing equations for viscous inviscid and boundary layer flows. Applications to convective heat and mass transfer. Turbulence modeling and other submodels for complex engineering applications.\n",
         "units": "3",
-        "class_type": "SEM"
+        "class_type": "SEM",
+        "prerequisites": "ME 692: Prerequisites: ME 309 490"
     },
     {
         "subject": "ME",
@@ -517,7 +562,8 @@
         "title": "Thesis or Graduate Project",
         "description": "Prerequisite: Classified status in the MSME program. Registration is by permission number only through the thesis committee chairperson.\n",
         "units": "3",
-        "class_type": "SUP"
+        "class_type": "SUP",
+        "prerequisites": "ME 698C: Prerequisite: Classified status in the MSME program"
     },
     {
         "subject": "ME",
@@ -533,6 +579,7 @@
         "title": "Independent Study",
         "description": "Independent Study\n",
         "units": "1",
-        "class_type": "SUP"
+        "class_type": "SUP",
+        "prerequisites": "N/A"
     }
 ]
