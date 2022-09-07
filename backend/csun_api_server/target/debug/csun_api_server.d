@@ -1,1 +1,0 @@
-/home/kyeou/Dropbox/PC\ (2)/Desktop/Stuff\ On\ Github/Kyeou-490/backend/csun_api_server/target/debug/csun_api_server: /home/kyeou/Dropbox/PC\ (2)/Desktop/Stuff\ On\ Github/Kyeou-490/backend/csun_api_server/src/main.rs
