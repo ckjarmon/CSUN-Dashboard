@@ -1,6 +1,7 @@
+
 from flask import Flask, request, jsonify
 import json
-
+import itertools
 
 app = Flask(__name__)
 
@@ -32,5 +33,12 @@ def new_rating(**kwargs):
     
     json.dump(current_ratings, rating_file, indent=4)
     return new_rating
+
+@app.route('/<string:subject>/<string:catalog_number>/history/<int:amount>')
+def historical_profs(**kwargs):
+    with open(f"../backend/json_historical_profs/{kwargs['subject'].upper()}_history.json") as subject:
+        classes = json.load(subject)
+        return dict(itertools.islice(classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number'].upper()}"].items(), kwargs["amount"]))
+        
 
 app.run(port=8000)

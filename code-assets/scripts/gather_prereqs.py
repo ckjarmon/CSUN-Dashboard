@@ -1,3 +1,8 @@
+"""
+simply adds a new attribute to every course in every file in 
+json_catalog named "prerequisite" that is the first sentence of every course description    
+"""
+
 import json
 
 

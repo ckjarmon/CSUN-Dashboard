@@ -1,41 +1,24 @@
 {
-    "AIS 101": [
-        "julia.coates@csun.edu",
-        "gina.worthington@csun.edu",
-        "gina.worthington@csun.edu",
-        "scott.andrews@csun.edu",
-        "nicole.blalock@csun.edu",
-        "gina.worthington@csun.edu",
-        "nicole.blalock@csun.edu",
-        "scott.andrews@csun.edu",
-        "nicole.blalock@csun.edu",
-        "gina.worthington@csun.edu"
-    ],
-    "AIS 210": [
-        "bert.cueva@csun.edu"
-    ],
-    "AIS 222": [
-        "bert.cueva@csun.edu",
-        "bert.cueva@csun.edu",
-        "bert.cueva@csun.edu",
-        "bert.cueva@csun.edu",
-        "pauline.alvarez@csun.edu"
-    ],
-    "AIS 304": [
-        "nicole.blalock@csun.edu",
-        "julia.coates@csun.edu",
-        "julia.coates@csun.edu",
-        "clementine.bordeaux@csun.edu",
-        "julia.coates@csun.edu",
-        "nicole.blalock@csun.edu",
-        "julia.coates@csun.edu",
-        "nicole.blalock@csun.edu",
-        "nicole.blalock@csun.edu"
-    ],
-    "AIS 301": [
-        "scott.andrews@csun.edu",
-        "nicole.blalock@csun.edu",
-        "scott.andrews@csun.edu",
-        "scott.andrews@csun.edu"
-    ]
+    "AIS 101": {
+        "gina.worthington@csun.edu": 4,
+        "nicole.blalock@csun.edu": 3,
+        "scott.andrews@csun.edu": 2,
+        "julia.coates@csun.edu": 1
+    },
+    "AIS 210": {
+        "bert.cueva@csun.edu": 1
+    },
+    "AIS 222": {
+        "bert.cueva@csun.edu": 4,
+        "pauline.alvarez@csun.edu": 1
+    },
+    "AIS 304": {
+        "julia.coates@csun.edu": 4,
+        "nicole.blalock@csun.edu": 4,
+        "clementine.bordeaux@csun.edu": 1
+    },
+    "AIS 301": {
+        "scott.andrews@csun.edu": 3,
+        "nicole.blalock@csun.edu": 1
+    }
 }
