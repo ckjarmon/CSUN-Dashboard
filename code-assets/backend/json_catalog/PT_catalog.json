@@ -1,451 +1,251 @@
 [
     {
         "subject": "PT",
-        "catalog_number": "700",
-        "title": "APPL ANT",
-        "description": null,
-        "units": "2",
-        "class_type": "LEC"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "700L",
-        "title": "APPL ANAT LAB",
-        "description": null,
-        "units": "2",
-        "class_type": "LAB"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "702",
-        "title": "APPL BIOMECH I",
-        "description": null,
-        "units": "2",
-        "class_type": "LEC"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "702L",
-        "title": "APPL BIOMEC I LAB",
-        "description": null,
-        "units": "1",
-        "class_type": "LAB"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "704",
-        "title": "APPL PHYS",
-        "description": null,
-        "units": "4",
-        "class_type": "LEC"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "704L",
-        "title": "APPL PHYS LAB",
-        "description": null,
-        "units": "1",
-        "class_type": "LAB"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "708",
-        "title": "Pathophysiology",
-        "description": "Prerequisite: Successful completion of all first-year course work in the DPT Program. Study of abnormal functioning of neuromusculoskeletal circulatory respiratory digestive integumentary metabolic and endocrine systems.\n",
-        "units": "3",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Successful completion of all first-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "711",
-        "title": "Physical Therapy Management II",
-        "description": "Prerequisite: PT 710. Corequisite: PT 711L. Covers basic patient  handling techniques and therapeutic physical modalities. Emphasis on body mechanics draping positioning bed mobility transfer  ambulation ambulatory aids wheelchair mobility and fitting. Physiological and physical bases for selection and application of therapeutic physical modalities including thermal mechanical electromagnetic and hydrodynamic agents in treatment of musculoskeletal neuromuscular and integumentary disorders.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: PT 710"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "711L",
-        "title": "Physical Therapy Management II Lab",
-        "description": "Prerequisite: PT 710. Corequisite: PT 711. Covers basic patient  handling techniques and therapeutic physical modalities. Emphasis on body mechanics draping positioning bed mobility transfer  ambulation ambulatory aids wheelchair mobility and fitting. Physiological and physical bases for selection and application of therapeutic physical modalities including thermal mechanical electromagnetic and hydrodynamic agents in treatment of musculoskeletal neuromuscular and integumentary disorders.\n",
-        "units": "1",
-        "class_type": "LAB",
-        "prerequisites": "Prerequisite: PT 710"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "712",
-        "title": "ELECTROTHER",
-        "description": null,
-        "units": "2",
-        "class_type": "LEC"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "712L",
-        "title": "ELECTROTHER LAB",
-        "description": null,
-        "units": "1",
-        "class_type": "LAB"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "730",
-        "title": "MUSC SKEL PRAC II",
-        "description": null,
-        "units": "2",
-        "class_type": "LEC"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "730L",
-        "title": "MUSC SKEL II LAB",
-        "description": null,
-        "units": "2",
-        "class_type": "LAB"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "733",
-        "title": "Neurologic Practice Management II",
-        "description": "Prerequisites: PT 732/L. Corequisite: PT 733L. Advanced study of the philosophies treatment approaches and intervention skills used for the physical therapy management of patients/clients with neurologic system dysfunction. Emphasis is on the choice and application of evidence-based treatment interventions and the development of clinical decision-making skills.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisites: PT 732/L"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "733L",
-        "title": "Neurologic Practice Management II Lab",
-        "description": "Prerequisites: PT 732/L. Corequisite: PT 733. Advanced study of the philosophies treatment approaches and intervention skills used for the physical therapy management of patients/clients with neurologic system dysfunction. Emphasis is on the choice and application of evidence-based treatment interventions and the development of clinical decision-making skills.\n",
-        "units": "2",
-        "class_type": "LAB",
-        "prerequisites": "Prerequisites: PT 732/L"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "734",
-        "title": "Cardiovascular and Pulmonary Practice Management",
-        "description": "Prerequisite: Successful completion of all first-year course work in DPT Program. Corequisite: PT 734L. Principles of cardiovascular and pulmonary pathophysiology and the physical therapy evaluation and treatment of patients with these disorders. Aspects of acute care will be emphasized. Utilization of selected demonstrations lab activities and assigned readings.\n",
-        "units": "3",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Successful completion of all first-year course work in DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "734L",
-        "title": "Cardiovascular and Pulmonary Practice Management Lab",
-        "description": "Prerequisite: Successful completion of all first-year course work in DPT Program. Corequisite: PT 734. Principles of cardiovascular and pulmonary pathophysiology and the physical therapy evaluation and treatment of patients with these disorders. Aspects of acute care will be emphasized. Utilization of selected demonstrations lab activities and assigned readings.\n",
-        "units": "1",
-        "class_type": "LAB",
-        "prerequisites": "Prerequisite: Successful completion of all first-year course work in DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "740",
-        "title": "Musculoskeletal Practice Management III",
-        "description": "Prerequisites: PT 720/L PT 730/L. Corequisite:  740L. The third of a 3-semester course sequence focusing on the development of differential diagnosis advanced examination and evaluation skills and therapeutic intervention strategies in the management of musculoskeletal system dysfunction.  Emphasis is on critical thinking collaborative learning in clinical decision making evidence-based practice and service learning. Students will apply theory to practice through service learning administering physical therapy services at CSUNs Student Health Center to meets the needs of a diverse student community.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisites: PT 720/L PT 730/L"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "740L",
-        "title": "Musculoskeletal Practice Management III Lab",
-        "description": "Prerequisites: PT 720/L PT 730/L. Corequisite:  740. The third of a 3-semester course sequence focusing on the development of differential diagnosis advanced examination and evaluation skills and therapeutic intervention strategies in the management of musculoskeletal system dysfunction.  Emphasis is on critical thinking collaborative learning in clinical decision making evidence-based practice and service learning. Students will apply theory to practice through service learning administering physical therapy services at CSUNs Student Health Center to meets the needs of a diverse student community.\n",
-        "units": "1",
-        "class_type": "LAB",
-        "prerequisites": "Prerequisites: PT 720/L PT 730/L"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "742",
-        "title": "Pediatric Practice Management",
-        "description": "Prerequisite: Successful completion of all second-year course work in the DPT Program. Corequisite: PT 742L.  Examination evaluation and management of pediatric populations with genetic and acquired disorders resulting in impairments in neurologic and musculoskeletal systems cognitive dysfunction and learning disabilities. Emphasis is on developing observation skills to identify developmental delays in infants and toddlers.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Successful completion of all second-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "742L",
-        "title": "Pediatric Practice Management Lab",
-        "description": "Prerequisite: Successful completion of all second-year course work in the DPT Program. Corequisite: PT 742.  Examination evaluation and management of pediatric populations with genetic and acquired disorders resulting in impairments in neurologic and musculoskeletal systems cognitive dysfunction and learning disabilities. Emphasis is on developing observation skills to identify developmental delays in infants and toddlers.\n",
-        "units": "1",
-        "class_type": "LAB",
-        "prerequisites": "Prerequisite: Successful completion of all second-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "744",
-        "title": "Geriatric Practice Management",
-        "description": "Prerequisite:  Successful completion of all second-year course work in the DPT Program. Designed to develop the students ability to choose optimal interventions for the older adult by integrating the basic sciences and evidence-based application of examination evaluation and intervention. The continuum of the elite older adult athlete to the frail older adult will be explored to describe issues related to wellness prevention disease and disability. Physical therapy interventions designed for the older adult in various clinical settings including acute care inpatient rehabilitation outpatient clinics and home health will be discussed.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite:  Successful completion of all second-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "750",
-        "title": "Evidence-Based Physical Therapy Practice I",
-        "description": "Prerequisite: Successful completion of all first-year course work in the DPT Program. An introduction to the research methods that apply to evidence-based clinical decision making in the practice of physical therapy.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Successful completion of all first-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "752B",
-        "title": "Evidence-Based Physical Therapy Practice III",
-        "description": "Prerequisite: PT752A. Corequisite: PT752C. \u00a0Doctoral research project requiring the student under the guidance of \u00a0faculty sponsor to answer a research question that a) evaluate the effectiveness of physical therapy interventions associated with specific physical therapy and medical diagnoses by completing a systematic literature review or b) provides physical therapy related research evidence by conducting a supervised research study. \u00a0Students will write a defense and make an oral presenation of their position. (Credit/No Credit Only).\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: PT752A"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "752C",
-        "title": "Supervised Doctoral Project",
-        "description": "Prerequisites: PT 750. Corequisites: PT 752A PT 752B. Advancement to Candidacy and consent of advisor. \u00a0Researched doctoral project in an area of specialization in physical therapy under the direction of a faculty sponsor. \u00a0The student will select one of the two emphases: systematic literature review and supervised research. \u00a0In systematic literature review emphasis the student will perform a critical analysis of the physical therapy research covering a physical therapy intervention and formulate a position regarding current evidenced based practice. \u00a0The student will complete a written paper of their analysis. \u00a0In supervised research emphasis the student will significantly contribute to or conduct a research study under supervision of a faculty sponsor and formulate a conclusion to provide evidence related to physical therapy practice. \u00a0The student will complete a written paper of their research study. \u00a0A total of two (2) units must be completed. \u00a0Courses may be repeated in different semesters to a maximum of 2 units. (Credit/No Credit Only)\n",
-        "units": "1",
-        "class_type": "SUP",
-        "prerequisites": "Prerequisites: PT 750"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "760",
-        "title": "Professional Practice I",
-        "description": "Prerequisite: Admission to the DPT Program. Introduction to the practice of physical therapy including the APTA code of Ethics and Standards and professional expectations. Study of multifaceted patient adjustment problems of hospitalization illness and disability. Emphasis on patient management and intervention in culturally-diverse settings.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Admission to the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "760L",
-        "title": "PROF PRAC LAB I",
-        "description": null,
-        "units": "1",
-        "class_type": "LAB"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "770",
-        "title": "Pharmacological Interventions",
-        "description": "Prerequisite: Successful completion of all first-year course work in the DPT Program. A study of pharmacological interventions for individuals with dysfunction of the neuromusculoskeletal cardiovascular pulmonary and integumentary systems.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Successful completion of all first-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "771",
-        "title": "Lifespan Sciences",
-        "description": "Prerequisite: Successful completion of all first-year course work in the DPT Program. Designed to promote an understanding of the relationship between principles of neurology and the development of motor skills from birth through senescence. Emphasis is placed on the acquisition of perceptual-motor skills in infants and toddlers. Motor control and motor learning principles and theories will be discussed. May require off campus client evaluations.\n",
-        "units": "3",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Successful completion of all first-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "773",
-        "title": "Medical Imaging",
-        "description": "Prerequisite:  Successful completion of all second-year course work in the DPT Program. Introduction to principles of imaging including radiography CT scans MRI special studies and arthrography used in diagnosing a variety of medical conditions and diseases.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite:  Successful completion of all second-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "775",
-        "title": "ORTHOT & PROSTH",
-        "description": null,
-        "units": "2",
-        "class_type": "LEC"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "775L",
-        "title": "ORTHO & PROST LAB",
-        "description": null,
-        "units": "1",
-        "class_type": "LAB"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "776",
-        "title": "Integrated Patient Management",
-        "description": "Prerequisite: Successful completion of all second-year course work in the DPT Program. Integrative physical therapy management of patients with complex and/or concurrent medical surgical neurological cardiopulmonary and musculoskeletal conditions will be covered in this course. The purpose of this course is to provide an advanced learning opportunity to the physical therapy student to integrate their physical therapy knowledge in order to create a comprehensive evaluation assessment treatment and management plans for patients with complex or concurrent conditions and impairments. Both evidence-based knowledge and anecdotal information related to patients conditions and impairments and their management will be discussed.\n",
-        "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Successful completion of all second-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "776L",
-        "title": "MVMT IMPAIR LAB",
-        "description": null,
-        "units": "1",
-        "class_type": "LAB"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "785A",
-        "title": "PT IN INTERNATIONAL SETTING",
-        "description": null,
-        "units": "3",
-        "class_type": "SEM"
-    },
-    {
-        "subject": "PT",
-        "catalog_number": "785B",
-        "title": "Special Topics In Physical Therapy: PT in Pilates",
-        "description": "Prerequisite: Successful completion of all second-year course work in the DPT Program. A seminar-discussion course centering on advanced study in subject matter areas at the doctoral level in physical therapy. Emphasis will be placed on critical thinking collaborative learning in clinical decision making and evidence-based practice.\n",
-        "units": "3",
-        "class_type": "SEM",
-        "prerequisites": "Prerequisite: Successful completion of all second-year course work in the DPT Program"
-    },
-    {
-        "subject": "PT",
         "catalog_number": "703",
-        "title": "Applied Biomechanics For The Physical Therapist II",
-        "description": "Prerequisite:  PT 702/L.  Corequisite:  PT 703L.  Designed to explore the biomechanical and kinesiological principles underlying movement of the spine and lower extremities during functional activities and exercise.  Lectures will focus on applied biomechanics of the lower extremities and spine with an emphasis on functional activities such as gait. Labs will focus on the application and integration of these principles and assessment of  LE and spine function including manual muscle testing goniometry and dynamometry. Case studies will be integrated into both lecture and lab.\n",
+        "title": "Applied Biomechanics For The Physical Therapist Ii",
+        "description": "Prerequisites: PT 702/L. Corequisite: PT 703L. Designed to explore the biomechanical and kinesiological principles underlying movement of the spine and lower extremities during functional activities and exercise. Lectures will focus on applied biomechanics of the lower extremities and spine, with an emphasis on functional activities such as gait. Labs will focus on the application and integration of these principles, and assessment of LE and spine function including manual muscle testing, goniometry and dynamometry. Case studies will be integrated into both lecture and lab.",
         "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite:  PT 702/L"
+        "prerequisites": "Prerequisites: PT 702/L"
     },
     {
         "subject": "PT",
         "catalog_number": "703L",
-        "title": "Applied Biomechanics For The Physical Therapist II Lab",
-        "description": "Prerequisite:  PT 702/L.  Corequisite:  PT 703.  Designed to explore the biomechanical and kinesiological principles underlying movement of the spine and lower extremities during functional activities and exercise.  Lectures will focus on applied biomechanics of the lower extremities and spine with an emphasis on functional activities such as gait. Labs will focus on the application and integration of these principles and assessment of  LE and spine function including manual muscle testing goniometry and dynamometry. Case studies will be integrated into both lecture and lab.\n",
+        "title": "Applied Biomechanics For The Physical Therapist Ii Lab",
+        "description": "Prerequisites: PT 702/L. Corequisite: PT 703L. Designed to explore the biomechanical and kinesiological principles underlying movement of the spine and lower extremities during functional activities and exercise. Lectures will focus on applied biomechanics of the lower extremities and spine, with an emphasis on functional activities such as gait. Labs will focus on the application and integration of these principles, and assessment of LE and spine function including manual muscle testing, goniometry and dynamometry. Case studies will be integrated into both lecture and lab.",
         "units": "1",
-        "class_type": "LAB",
-        "prerequisites": "Prerequisite:  PT 702/L"
+        "prerequisites": "Prerequisites: PT 702/L"
     },
     {
         "subject": "PT",
         "catalog_number": "706",
         "title": "Applied Neuroscience",
-        "description": "Prerequisite: Admission to the DPT Program. Corequisite: PT 706L. Study of the normal structure and function of the peripheral and central nervous system as a basis for understanding clinical manifestations seen in individuals with neurologic disorders.  Includes an in-depth introduction to neuroanatomy neuropharmacology and neurophysiology.\n",
+        "description": "Prerequisite: Admission to the Doctor of Physical Therapy (DPT) Program. Corequisite: PT 706L. Study of the normal structure and function of the peripheral and central nervous system as a basis for understanding clinical manifestations seen in individuals with neurologic disorders. Includes an in-depth introduction to neuroanatomy, neuropharmacology and neurophysiology.",
         "units": "4",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Admission to the DPT Program"
+        "prerequisites": "Prerequisite: Admission to the Doctor of Physical Therapy (DPT) Program"
     },
     {
         "subject": "PT",
         "catalog_number": "706L",
         "title": "Applied Neuroscience Lab",
-        "description": "Prerequisite: Admission to the DPT Program. Corequisite: PT 706. Study of the normal structure and function of the peripheral and central nervous system as a basis for understanding clinical manifestations seen in individuals with neurologic disorders.  Includes an in-depth introduction to neuroanatomy neuropharmacology and neurophysiology.\n",
+        "description": "Prerequisite: Admission to the Doctor of Physical Therapy (DPT) Program. Corequisite: PT 706L. Study of the normal structure and function of the peripheral and central nervous system as a basis for understanding clinical manifestations seen in individuals with neurologic disorders. Includes an in-depth introduction to neuroanatomy, neuropharmacology and neurophysiology.",
         "units": "1",
-        "class_type": "LAB",
-        "prerequisites": "Prerequisite: Admission to the DPT Program"
+        "prerequisites": "Prerequisite: Admission to the Doctor of Physical Therapy (DPT) Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "711",
+        "title": "Physical Therapy Management Ii",
+        "description": "Prerequisite: Admission to the Doctor of Physical Therapy (DPT) program. Corequisite: PT 711L. Covers basic patient handling techniques and therapeutic physical modalities. Emphasis on body mechanics, draping, positioning, bed mobility, transfer, ambulation, ambulatory aids, wheelchair mobility and fitting. Physiological and physical bases for selection and application of therapeutic physical modalities, including thermal, mechanical, electromagnetic and hydrodynamic agents in treatment of musculoskeletal, neuromuscular and integumentary disorders.",
+        "units": "2",
+        "prerequisites": "Prerequisite: Admission to the Doctor of Physical Therapy (DPT) program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "711L",
+        "title": "Physical Therapy Management Ii Lab",
+        "description": "Prerequisite: Admission to the Doctor of Physical Therapy (DPT) program. Corequisite: PT 711L. Covers basic patient handling techniques and therapeutic physical modalities. Emphasis on body mechanics, draping, positioning, bed mobility, transfer, ambulation, ambulatory aids, wheelchair mobility and fitting. Physiological and physical bases for selection and application of therapeutic physical modalities, including thermal, mechanical, electromagnetic and hydrodynamic agents in treatment of musculoskeletal, neuromuscular and integumentary disorders.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Admission to the Doctor of Physical Therapy (DPT) program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "712",
+        "title": "Electrother",
+        "description": "Prerequisite: Successful completion of all first-year coursework in the DPT Program. Corequisite: PT 712L. Clinical evidence for selection and application of electrotherapy and electrophysiologic assessment procedures commonly used in evaluation and treatment of neuromuscular and musculoskeletal disorders using physiologic and physical principles. Three major areas of electrotherapy, including pain, neuromuscular and wound management, will be covered through lectures and hands-on experiences. Electrophysiologic assessment, including diagnostic electromyography (EMG), nerve conduction study (NCS) and kinesiologic electromyography (KEMG), will be integrated. Covers research and methods in evaluation and management of wounds, including debridement, topical agents, dressings and use of physical modalities.",
+        "units": "2",
+        "prerequisites": "Prerequisite: Successful completion of all first-year coursework in the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "712L",
+        "title": "Electrother Lab",
+        "description": "Prerequisite: Successful completion of all first-year coursework in the DPT Program. Corequisite: PT 712L. Clinical evidence for selection and application of electrotherapy and electrophysiologic assessment procedures commonly used in evaluation and treatment of neuromuscular and musculoskeletal disorders using physiologic and physical principles. Three major areas of electrotherapy, including pain, neuromuscular and wound management, will be covered through lectures and hands-on experiences. Electrophysiologic assessment, including diagnostic electromyography (EMG), nerve conduction study (NCS) and kinesiologic electromyography (KEMG), will be integrated. Covers research and methods in evaluation and management of wounds, including debridement, topical agents, dressings and use of physical modalities.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Successful completion of all first-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "720",
         "title": "Musculoskeletal Practice Management I",
-        "description": "Prerequisite: PT 700/L. Corequisite: PT 720L. The first of a 3-semester course sequence focusing on the examination and treatment of patients with musculoskeletal dysfunction. Emphasis is on the evaluation of and evidence-based treatment interventions for orthopaedic peripheral dysfunction and impairments.\n",
+        "description": "Prerequisites: PT 700/L. Corequisite: PT 720L. The first of a 3-semester course sequence focusing on the examination and treatment of patients with musculoskeletal dysfunction. Emphasis is on the evaluation of and evidence-based treatment interventions for orthopaedic peripheral dysfunction and impairments.",
         "units": "3",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: PT 700/L"
+        "prerequisites": "Prerequisites: PT 700/L"
     },
     {
         "subject": "PT",
         "catalog_number": "720L",
         "title": "Musculoskeletal Practice Management I Lab",
-        "description": "Prerequisite: PT 700/L. Corequisite: PT 720. The first of a 3-semester course sequence focusing on the examination and treatment of patients with musculoskeletal dysfunction. Emphasis is on the evaluation of and evidence-based treatment interventions for orthopaedic peripheral dysfunction and impairments.\n",
+        "description": "Prerequisites: PT 700/L. Corequisite: PT 720L. The first of a 3-semester course sequence focusing on the examination and treatment of patients with musculoskeletal dysfunction. Emphasis is on the evaluation of and evidence-based treatment interventions for orthopaedic peripheral dysfunction and impairments.",
         "units": "2",
-        "class_type": "LAB",
-        "prerequisites": "Prerequisite: PT 700/L"
+        "prerequisites": "Prerequisites: PT 700/L"
     },
     {
         "subject": "PT",
         "catalog_number": "732",
-        "title": "NEURO MGMT I",
-        "description": null,
+        "title": "Neuro Mgmt I",
+        "description": "Prerequisite: Successful completion of all first-year coursework in the DPT Program. Corequisite: PT 732L. Physical therapy examination and management of patients/clients with neurologic system impairments and related activity limitations. Emphasis is on knowledge, choice, technical performance, interpretation of results, and clinical decision making related to sensory, motor and functional testing for patients with nervous system pathology.",
         "units": "2",
-        "class_type": "LEC"
+        "prerequisites": "Prerequisite: Successful completion of all first-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "732L",
-        "title": "NEURO MGMT I LAB",
-        "description": null,
+        "title": "Neuro Mgmt I Lab",
+        "description": "Prerequisite: Successful completion of all first-year coursework in the DPT Program. Corequisite: PT 732L. Physical therapy examination and management of patients/clients with neurologic system impairments and related activity limitations. Emphasis is on knowledge, choice, technical performance, interpretation of results, and clinical decision making related to sensory, motor and functional testing for patients with nervous system pathology.",
         "units": "2",
-        "class_type": "LAB"
+        "prerequisites": "Prerequisite: Successful completion of all first-year coursework in the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "734",
+        "title": "Cardiovascular And Pulmonary Practice Management",
+        "description": "Prerequisite: Successful completion of all first-year coursework in DPT Program. Corequisite: PT 734L. Principles of cardiovascular and pulmonary pathophysiology and the physical therapy evaluation and treatment of patients with these disorders. Aspects of acute care will be emphasized. Utilization of selected demonstrations, lab activities and assigned readings.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Successful completion of all first-year coursework in DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "734L",
+        "title": "Cardiovascular And Pulmonary Practice Management Lab",
+        "description": "Prerequisite: Successful completion of all first-year coursework in DPT Program. Corequisite: PT 734L. Principles of cardiovascular and pulmonary pathophysiology and the physical therapy evaluation and treatment of patients with these disorders. Aspects of acute care will be emphasized. Utilization of selected demonstrations, lab activities and assigned readings.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Successful completion of all first-year coursework in DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "746L",
-        "title": "APPL THER EX LAB",
-        "description": null,
+        "title": "Appl Ther Ex Lab",
+        "description": "Prerequisite: Successful completion of all first year coursework in the DPT Program. Advanced concepts and application of therapeutic exercise to address functional limitations and to promote health, fitness and wellness. Emphasis is on therapeutic exercise as an optimal intervention to address impairments and to promote health and quality of life.",
         "units": "1",
-        "class_type": "LAB"
+        "prerequisites": "Prerequisite: Successful completion of all first year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "752A",
-        "title": "Evidence-Based Physical Therapy Practice II",
-        "description": "Prerequisite: PT750. Corequisite: PT752C. \u00a0This course is designed to provide the students with guidance in the appraisal of physical therapy and medical research literature in order to develop a written doctoral project to a) evaluate the effectiveness of physical therapy interventions associated with specific physical therapy and medical diagnoses by completing a systematic literature review or b) provide physical therapy related research evidence by conducting a supervised research study. \u00a0Students will develop the doctoral proposal in PT 752A (Credit/No Credit Only).\n",
+        "title": "Evidence-based Physical Therapy Practice Ii",
+        "description": "Prerequisite: PT 750. Corequisite: PT 752C. This course is designed to provide the students with guidance in the appraisal of physical therapy and medical research literature in order to develop a written doctoral project to a) evaluate the effectiveness of physical therapy interventions associated with specific physical therapy and medical diagnoses by completing a systematic literature review or b) provide physical therapy related research evidence by conducting a supervised research study. Students will develop the doctoral proposal in PT 752A. (Credit/No Credit only)",
         "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: PT750"
+        "prerequisites": "Prerequisite: PT 750"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "752C",
+        "title": "Supervised Doctoral Project",
+        "description": "Prerequisite: PT 750. Corequisites: PT 752A, PT 752B. Advancement to Candidacy and consent of advisor. Researched doctoral project in an area of specialization in physical therapy under the direction of a faculty sponsor. The student will select one of the two emphases: systematic literature review and supervised research. In systematic literature review emphasis, the student will perform a critical analysis of the physical therapy research covering a physical therapy intervention and formulate a position regarding current evidence-based practice. The student will complete a written paper of their analysis. In supervised research emphasis, the student will significantly contribute to or conduct a research study under supervision of a faculty sponsor and formulate a conclusion to provide evidence related to physical therapy practice. The student will complete a written paper of their research study. A total of 2 units must be completed. Courses may be repeated in different semesters to a maximum of 2 units. (Credit/No Credit only)",
+        "units": "1",
+        "prerequisites": "Prerequisite: PT 750"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "760",
+        "title": "Professional Practice I",
+        "description": "Prerequisite: Admission to the DPT Program. Corequisite: PT 760L. Introduction to the practice of physical therapy, including the APTA Code of Ethics and Standards and professional expectations. Instruction in foundational clinical skills, including subjective examination, history taking and medical record documentation for the practice of physical therapy. Theory, principles and current research applicable to patient/family education, patient compliance and management, staff development, and clinical and continuing education.",
+        "units": "2",
+        "prerequisites": "Prerequisite: Admission to the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "760L",
+        "title": "Prof Prac Lab I",
+        "description": "Prerequisite: Admission to the DPT Program. Corequisite: PT 760L. Introduction to the practice of physical therapy, including the APTA Code of Ethics and Standards and professional expectations. Instruction in foundational clinical skills, including subjective examination, history taking and medical record documentation for the practice of physical therapy. Theory, principles and current research applicable to patient/family education, patient compliance and management, staff development, and clinical and continuing education.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Admission to the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "770",
+        "title": "Pharmacological Interventions",
+        "description": "Prerequisite: Successful completion of all first-year coursework in the DPT Program. A study of pharmacological interventions for individuals with dysfunction of the neuromusculoskeletal, cardiovascular, pulmonary and integumentary systems.",
+        "units": "2",
+        "prerequisites": "Prerequisite: Successful completion of all first-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "772",
-        "title": "GAIT ANALYSIS",
-        "description": null,
+        "title": "Gait Analysis",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Corequisite: PT 772L. Designed to promote an in-depth understanding of the arthrokinematic, biomechanical, kinematic and kinetic characteristics of gait and running in normal individuals, and functional movement analysis in patients/clients with disabilities and functional limitations. Both observational and instrumented gait analyses will be emphasized when evaluating client videotapes in the laboratory setting. Instrumented analyses include the study of kinesiological electromyography, motion analysis (kinematics), ground reaction forces and vectors (kinetics), and stride characteristics. Laboratory sessions will focus on evaluating patients/clients. Patient/clients videos will include individuals diagnosed with cerebral palsy, stroke, post-polio syndrome, multiple sclerosis, Parkinson\u2019s disease, spina bifida, spinal cord injury, arthritis, amputations and traumatic brain injury.",
         "units": "1",
-        "class_type": "LEC"
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "772L",
-        "title": "GAIT ANALYSIS LAB",
-        "description": null,
+        "title": "Gait Analysis Lab",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Corequisite: PT 772L. Designed to promote an in-depth understanding of the arthrokinematic, biomechanical, kinematic and kinetic characteristics of gait and running in normal individuals, and functional movement analysis in patients/clients with disabilities and functional limitations. Both observational and instrumented gait analyses will be emphasized when evaluating client videotapes in the laboratory setting. Instrumented analyses include the study of kinesiological electromyography, motion analysis (kinematics), ground reaction forces and vectors (kinetics), and stride characteristics. Laboratory sessions will focus on evaluating patients/clients. Patient/clients videos will include individuals diagnosed with cerebral palsy, stroke, post-polio syndrome, multiple sclerosis, Parkinson\u2019s disease, spina bifida, spinal cord injury, arthritis, amputations and traumatic brain injury.",
         "units": "1",
-        "class_type": "LAB"
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "773",
+        "title": "Medical Imaging",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Introduction to principles of imaging, including radiography, CT scans, MRI, special studies and arthrography used in diagnosing a variety of medical conditions and diseases.",
+        "units": "2",
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "774",
         "title": "Medical Screening",
-        "description": "Prerequisite: Successful completion of all second-year course work in the DPT Program. Study of the signs and symptoms manifested by patients/clients and the process of relating them to specific medical conditions and diseases. Instruction on systematic techniques used to identify symptom patterns for the determination of a PT diagnosis. Includes screening process for referral to other medical practioners.\n",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Study of the signs and symptoms manifested by patients/clients and the process of relating them to specific medical conditions and diseases. Instruction on systematic techniques used to identify symptom patterns for the determination of a PT diagnosis. Includes screening process for referral to other medical practioners.",
         "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Successful completion of all second-year course work in the DPT Program"
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "775",
+        "title": "Orthot & Prosth",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Corequisite: PT 775L. Designed to promote an in-depth understanding of the arthrokinematic, biomechanical, kinematic and kinetic characteristics of functional movement in patients/clients with amputations and functional loss. Students will study the biomechanical principles of upper and lower extremity orthotic and prosthetic management and apply these principles to patient/client assessment and intervention. Students are expected to integrate their knowledge and skills from previous classes when engaging in the patient/client examination, evaluation, determining a physical therapy diagnosis, prognosis, plan of care and intervention strategies consistent with evidence-based clinical decision making. Both observational and instrumented gait analyses will be emphasized when evaluating client video in the laboratory setting. Patient/client videos will include individuals diagnosed with cerebral palsy, stroke, post-polio syndrome, multiple sclerosis, Parkinson\u2019s disease, spina bifida, spinal cord injury, arthritis, amputations and traumatic brain injury.",
+        "units": "2",
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "775L",
+        "title": "Ortho & Prost Lab",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Corequisite: PT 775L. Designed to promote an in-depth understanding of the arthrokinematic, biomechanical, kinematic and kinetic characteristics of functional movement in patients/clients with amputations and functional loss. Students will study the biomechanical principles of upper and lower extremity orthotic and prosthetic management and apply these principles to patient/client assessment and intervention. Students are expected to integrate their knowledge and skills from previous classes when engaging in the patient/client examination, evaluation, determining a physical therapy diagnosis, prognosis, plan of care and intervention strategies consistent with evidence-based clinical decision making. Both observational and instrumented gait analyses will be emphasized when evaluating client video in the laboratory setting. Patient/client videos will include individuals diagnosed with cerebral palsy, stroke, post-polio syndrome, multiple sclerosis, Parkinson\u2019s disease, spina bifida, spinal cord injury, arthritis, amputations and traumatic brain injury.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "776",
+        "title": "Integrated Patient Management",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Corequisite: PT 776L. This course will provide graduate students in physical therapy with an opportunity to improve their skills in evaluating, analyzing and treating patients with musculoskeletal pain using the current concept and techniques of movement system impairment (MSI). An emphasis is placed on (a) analysis of normal and abnormal movements based on normal kinesiology, biomechanics and neuromuscular control; (b) evaluation, classification/diagnosis and treatment of the musculoskeletal pain of the spine, lower extremity, upper extremity using MSI concepts; and (c) integration of MSI into the traditional physical therapy management of musculoskeletal system. This course will also focus on the current scientific literature related to diagnostic accuracy, efficacy and effectiveness of MSI related to musculoskeletal pain. Additionally, current concepts of motor control and motor learning will also be integrated into this class.",
+        "units": "2",
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
+    },
+    {
+        "subject": "PT",
+        "catalog_number": "776L",
+        "title": "Mvmt Impair Lab",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Corequisite: PT 776L. This course will provide graduate students in physical therapy with an opportunity to improve their skills in evaluating, analyzing and treating patients with musculoskeletal pain using the current concept and techniques of movement system impairment (MSI). An emphasis is placed on (a) analysis of normal and abnormal movements based on normal kinesiology, biomechanics and neuromuscular control; (b) evaluation, classification/diagnosis and treatment of the musculoskeletal pain of the spine, lower extremity, upper extremity using MSI concepts; and (c) integration of MSI into the traditional physical therapy management of musculoskeletal system. This course will also focus on the current scientific literature related to diagnostic accuracy, efficacy and effectiveness of MSI related to musculoskeletal pain. Additionally, current concepts of motor control and motor learning will also be integrated into this class.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "778",
         "title": "Topics In Therapeutic Exercise",
-        "description": "Wellness and Health and LabPrerequisite: Successful completion of all second-year course work in the DPT Program. Corequisite: PT 778L.  Advanced concepts and application of therapeutic exercise to address functional limitations and to promote health fitness and wellness.  Emphasis is on therapeutic exercise as an optimal intervention to address impairments and to promote health and quality of life.\n",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Corequisite: PT 778L. Advanced concepts and application of wellness practices in physical therapy and alternative complementary therapeutic interventions to address functional limitations and to promote health, fitness and wellness. Emphasis is on addressing overall health and quality of life.",
         "units": "2",
-        "class_type": "LEC",
-        "prerequisites": "Wellness and Health and LabPrerequisite: Successful completion of all second-year course work in the DPT Program"
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "778L",
         "title": "Topics In Therapeutic Exercise Lab",
-        "description": "Wellness and Health and LabPrerequisite: Successful completion of all second-year course work in the DPT Program. Corequisite: PT 778.  Advanced concepts and application of therapeutic exercise to address functional limitations and to promote health fitness and wellness.  Emphasis is on therapeutic exercise as an optimal intervention to address impairments and to promote health and quality of life.\n",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. Corequisite: PT 778L. Advanced concepts and application of wellness practices in physical therapy and alternative complementary therapeutic interventions to address functional limitations and to promote health, fitness and wellness. Emphasis is on addressing overall health and quality of life.",
         "units": "1",
-        "class_type": "LAB",
-        "prerequisites": "Wellness and Health and LabPrerequisite: Successful completion of all second-year course work in the DPT Program"
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "780",
-        "title": "Professional Practice II",
-        "description": "Prerequisite: Successful completion of all second-year course work in the DPT Program. This course examines the role of the professional physical therapist as an administrator and manager of patient care personnel and resources with consideration for ethical medical and legal implications. Various business models reimbursement practices and organizational structures will be examined.\n",
+        "title": "Professional Practice Ii",
+        "description": "Prerequisite: Successful completion of all second-year coursework in the DPT Program. This course examines the role of the professional physical therapist as an administrator and manager of patient care, personnel and resources, with consideration for ethical, medical and legal implications. Various business models, reimbursement practices and organizational structures will be examined.",
         "units": "2",
-        "class_type": "SEM",
-        "prerequisites": "Prerequisite: Successful completion of all second-year course work in the DPT Program"
+        "prerequisites": "Prerequisite: Successful completion of all second-year coursework in the DPT Program"
     },
     {
         "subject": "PT",
@@ -453,50 +253,44 @@
         "title": "Special Topics In Physical Therapy: Movement Impairment",
         "description": "Prerequisite: Successful completion of all second-year course work in the DPT Program. A seminar-discussion course centering on advanced study in subject matter areas at the doctoral level in physical therapy. Emphasis will be placed on critical thinking collaborative learning in clinical decision making and evidence-based practice.\n",
         "units": "3",
-        "class_type": "SEM",
         "prerequisites": "Prerequisite: Successful completion of all second-year course work in the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "785F",
-        "title": "PT PRO BONO",
+        "title": "Pt Pro Bono",
         "description": null,
-        "units": "3",
-        "class_type": "SEM"
+        "units": "3"
     },
     {
         "subject": "PT",
         "catalog_number": "785H",
-        "title": "PT STRENGTH COND",
+        "title": "Pt Strength Cond",
         "description": null,
-        "units": "3",
-        "class_type": "LEC"
+        "units": "3"
     },
     {
         "subject": "PT",
         "catalog_number": "790",
         "title": "Clinical Practice I",
-        "description": "Prerequisite:  Admission to the DPT Program. Preparation for the students clinical internships. Applying the didatic skills and education to the clinical practice setting.\n",
+        "description": "Prerequisite: Admission to the DPT Program. Preparation for the students\u2019 clinical internships. Applying the didatic skills and education to the clinical practice setting.",
         "units": "1",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite:  Admission to the DPT Program"
+        "prerequisites": "Prerequisite: Admission to the DPT Program"
     },
     {
         "subject": "PT",
         "catalog_number": "792",
-        "title": "Clinical Practice II",
-        "description": "Prerequisite:  PT 794/I.  Preparation for the students\n",
+        "title": "Clinical Practice Ii",
+        "description": "Prerequisites: PT 794 and PT 794I. Preparation for the students\u2019 clinical internships. Applying the didactic skills and education to the clinical practice setting.",
         "units": "1",
-        "class_type": "SEM",
-        "prerequisites": "Prerequisite:  PT 794/I"
+        "prerequisites": "Prerequisites: PT 794 and PT 794I"
     },
     {
         "subject": "PT",
         "catalog_number": "797",
         "title": "Directed Comprehensive Exam",
-        "description": "Prerequisite: Enrolled in last semester of course work in the DPT Program. Guided preparation and review for the Culminating Examination. (Credit/No Credit only)\n",
+        "description": "Prerequisite: Enrolled in last semester of coursework in the DPT Program. Guided preparation and review for the culminating examination. (Credit/No Credit only)",
         "units": "3",
-        "class_type": "LEC",
-        "prerequisites": "Prerequisite: Enrolled in last semester of course work in the DPT Program"
+        "prerequisites": "Prerequisite: Enrolled in last semester of coursework in the DPT Program"
     }
 ]
