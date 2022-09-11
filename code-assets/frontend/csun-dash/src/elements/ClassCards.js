@@ -12,7 +12,6 @@ function ClassCards(props){
     const [classList, setClassList] = useState([])
     const [classTitle, setClassTitle] = useState("")
 
-    const [selectedClass, setSelectedClass] = useState([])
 
     useEffect(() => {
         let classes = []
@@ -20,6 +19,7 @@ function ClassCards(props){
             if(classItem.catalog_number == props.classCatalogNumber){
                 setClassTitle(classItem.title)
                 classes.push({
+                    classInfo: classItem,
                     classNumber: classItem.class_number, 
                     seatsAvailable: (classItem.enrollment_cap - classItem.enrollment_count), 
                     location: classItem.meetings[0].location,
@@ -32,16 +32,9 @@ function ClassCards(props){
         setClassList(classes)
     }, [])
 
-    console.log(selectedClass)
+    
 
-
-    const onSelectClick = (classitem)=>{
-        let arr = selectedClass
-        arr.push(classitem)
-        setSelectedClass(arr)
-    console.log(arr)
-
-    }
+    
 
     return(
         <div>
@@ -63,18 +56,18 @@ function ClassCards(props){
                     </TableRow>
                     </TableHead>
                     <TableBody>
-                    {classList.map((classItem) => (
+                    {classList.map((classItem,i) => (
                         <TableRow
                         key={classItem.classNumber}
                         sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                         >
-                        <TableCell style={rowStyle}>{classItem.classNumber}</TableCell>
-                        <TableCell  style={rowStyle}>{classItem.seatsAvailable}</TableCell>
-                        <TableCell  style={rowStyle}>{classItem.location}</TableCell>
-                        <TableCell  style={rowStyle}>{classItem.days}</TableCell>
-                        <TableCell  style={rowStyle}>{classItem.time}</TableCell>
-                        <TableCell  style={rowStyle}>{classItem.instructor}</TableCell>
-                        <TableCell ><Button onClick={()=>onSelectClick(classItem)} style={addClassButton} variant="contained">Select</Button></TableCell>
+                        <TableCell key={classItem} style={rowStyle}>{classItem.classNumber}</TableCell>
+                        <TableCell key={classItem}  style={rowStyle}>{classItem.seatsAvailable}</TableCell>
+                        <TableCell key={classItem}  style={rowStyle}>{classItem.location}</TableCell>
+                        <TableCell key={classItem}  style={rowStyle}>{classItem.days}</TableCell>
+                        <TableCell key={classItem}  style={rowStyle}>{classItem.time}</TableCell>
+                        <TableCell key={classItem}  style={rowStyle}>{classItem.instructor}</TableCell>
+                        <TableCell key={classItem} ><Button onClick={()=>props.onSelectClick(classItem)} style={addClassButton} variant="contained">Select</Button></TableCell>
                         </TableRow>
                     ))}
                     </TableBody>
@@ -84,18 +77,7 @@ function ClassCards(props){
 
 
 
-                {
-                    selectedClass.map((item)=>(
-                        <div style={{backgroundColor:'red'}}>
-                        <p>{item.classNumber}</p>
-                        <p>{item.seatsAvailable}</p>
-                        <p>{item.location}</p>
-                        <p>{item.days}</p>
-                        <p>{item.time}</p>
-                        <p>{item.instructor}</p>
-                        </div>
-                    ))
-                }
+             
 
             {/* <div>
                 {classList.map(classItem => {

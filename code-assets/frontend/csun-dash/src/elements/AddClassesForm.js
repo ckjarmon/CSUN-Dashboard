@@ -9,6 +9,11 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import ClassCards from './ClassCards';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Alert from '@mui/material/Alert';
+
 
 
 function AddClassesForm(props){
@@ -20,7 +25,10 @@ function AddClassesForm(props){
     const [catalogNumberDropDown, setCatalogNumberDropDown] = useState(false)
     const [searchClassesButton, setSearchClassesButton] = useState(false)
     const [openSearchModal, setOpenSearchModal] = useState(false)
-    
+    const [addedSuccessfully, setAddedSuccessfully] = useState(false)
+    const [removedSuccessfully, setRemovedSuccessfully] = useState(false)
+
+    const [selectedClass, setSelectedClass] = useState([])
     const [catalogList,setcatalogList] = useState([])
     const [classList, setClassList] = useState([])
 
@@ -64,6 +72,35 @@ function AddClassesForm(props){
                 setClassList(classList)
             })
         
+    }
+
+
+    function onSelectClick(classItem){
+
+        let arr = selectedClass
+        console.log(classItem)
+        if(arr.includes(classItem)){
+            alert('Class Has Already Been Added')
+        }else{
+            arr.push(classItem)
+            setSelectedClass(arr)
+            handleSearchButtonClick(!openSearchModal)
+            setAddedSuccessfully(true)
+            setTimeout(() => {
+                setAddedSuccessfully(false)
+            }, 1500)
+        }
+    
+    }
+
+    const deleteClass = (classItem) => {
+        let arr = selectedClass
+         const filtredArr = arr.filter(element => element !== classItem)  
+         setSelectedClass(filtredArr)
+         setRemovedSuccessfully(true)
+        setTimeout(() => {
+            setRemovedSuccessfully(false)
+        }, 1500) 
     }
   
     return(
@@ -153,11 +190,70 @@ function AddClassesForm(props){
                         classSubject={subject} 
                         classCatalogNumber={catalogNumber} 
                         classList={classList}
+                        onSelectClick={(item)=>onSelectClick(item)}
                     >
                     </ClassCards>
                 </Typography>
             </Box>
             </Modal>
+
+            {addedSuccessfully ? 
+                <div style={{display:'flex', justifyContent:'center', marginTop: "40px"}}>
+                    <Alert style={{width:'300px'}} variant="filled" severity="success">
+                        Class Successfully Added
+                    </Alert> 
+                </div>
+                : <div></div>}
+
+            {removedSuccessfully ? 
+                            <div style={{display:'flex', justifyContent:'center', marginTop: "40px"}}>
+                                <Alert style={{width:'300px'}} variant="filled" severity="error">
+                                    Class Successfully Removed
+                                </Alert> 
+                            </div>
+                            : <div></div>}
+
+            <div style={{display:'flex', justifyContent:'center', flexWrap:'wrap'}}>
+            {
+                    selectedClass.map((item,i)=>(
+
+                        <Box key={i} sx={{display:'flex', justifyContent:'center'}} style={{marginTop: "30px"}}>
+                            <Card style={{width:'350px', margin: '20px'}} variant="outlined">
+                            <CardContent sx={{p: 3}}>
+                                <Typography style={{fontWeight: "bold" }} variant="h7" component="div">
+                                    {item.classInfo.subject} {item.classInfo.catalog_number} - {item.classInfo.title}
+                                </Typography>
+                                <Typography style={{fontWeight: 'bold'}} sx={{ mb: 1.5 }} color="text.secondary">
+                                    Professor: {item.instructor}
+                                </Typography>
+                                <Typography style={{fontWeight: 'bold'}} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                                    Class Number: {item.classNumber}
+                                </Typography>
+                                <Typography style={{fontWeight: 'bold'}} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                                    Location: {item.location}
+                                </Typography>
+                                <Typography style={{fontWeight: 'bold'}} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                                    Days: {item.days}
+                                </Typography>
+                                <Typography style={{fontWeight: 'bold'}} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                                    Time: {item.time}
+                                </Typography>
+                                <Typography style={{fontWeight: 'bold'}} sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                                    Seats Available: {item.seatsAvailable}
+                                </Typography>
+                                </CardContent>
+                                <CardActions style={{display:'flex', justifyContent:'center', paddingBottom:'20px'}}>
+                                    <Button style={cardButtons} size="small" variant="contained">Ratings</Button>
+                                    <Button onClick={() => deleteClass(item)}  style={cardButtons} size="small" variant="contained">Remove</Button>
+                                </CardActions>
+                            </Card>
+                        </Box>
+
+
+                    ))
+                }
+            </div>
+
 
         </div>
     )
@@ -168,7 +264,7 @@ export default AddClassesForm;
 const formContainer = {
     display: 'flex',
     justifyContent: 'center',
-    marginTop: "75px"
+    marginTop: "50px"
 }
 
 const formStyle = {
@@ -208,4 +304,9 @@ const modalStyle = {
     boxShadow: 24,
     p: 4,
     overflow: 'scroll',
+  }
+
+  const cardButtons = {
+    backgroundColor: "#E31C25",
+    width: '100px'
   }
