@@ -1,6 +1,5 @@
 import re
 import json
-import urllib3
 from dotenv import load_dotenv
 import mysql.connector
 from mysql.connector import errorcode

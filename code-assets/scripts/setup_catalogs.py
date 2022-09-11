@@ -3,7 +3,6 @@ combine course listings from most recent fall and spring semester to produce cat
 '''-------------------------------------------------------------------------"""
 import urllib3
 import json
-import sys
 
 class_codes = ["AE","AM","AAS","ACCT","AFRS","AIS","ANTH","ARAB","ARMN","ART","ASTR","ATHL","BANA","BIOL","BLAW","BUS","CE","CADV","CAS","CCE","CD","CECS","CHS","CHEM","CHIN","CIT","CJS","CLAS","CM","COMP","COMS","CTVA","DEAF","EED","ECE","ECON","EDUC","ELPS","ENGL","EOH","EPC","FCS","FIN","FLIT","FREN","GBUS","GEOG","GEOL","GWS","HEBR","HIST","HSCI","HUM","INDS","IS","ITAL","JS","JAPN","JOUR","KIN","KNFC","KOR","LING","LRS","ME","MATH","MCOM","MGT","MKT","MSE","MUS","NURS","PERS","PHIL","PHSC","PHYS","POLS","PSY","PT","QS","RS","RE","RTM","RUSS","SED","SCI","SCM","SOC","SOM","SPAN","SPED","SUST","SWRK","TH","UNIV","URBS"]
 
@@ -62,7 +61,6 @@ for code in class_codes:
 Webscrape desciprtions.
 '''-------------------------------------------------------------------------"""
 from selenium.common.exceptions import NoSuchElementException
-import sys
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
@@ -70,8 +68,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
-import time
-import json
 
 s = Service(ChromeDriverManager().install())
 op = webdriver.ChromeOptions()
