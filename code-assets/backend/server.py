@@ -45,5 +45,10 @@ def historical_profs(**kwargs):
         classes = json.load(subject)
         return dict(itertools.islice(classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number'].upper()}"].items(), kwargs["amount"]))
 
+@app.route('/<string:subject>/classes')
+def catalog(**kwargs):
+    with open(f"../backend/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
+        classes = json.load(subject)
+        return ([x["catalog_number"] + " - " + x["title"] for x in classes])
 
 app.run(port=8000)
