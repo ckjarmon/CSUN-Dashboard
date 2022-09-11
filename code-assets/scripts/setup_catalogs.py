@@ -48,6 +48,16 @@ for code in class_codes:
 
 
 
+
+
+
+
+
+
+
+
+
+
 """-------------------------------------------------------------------------'''
 Webscrape desciprtions.
 '''-------------------------------------------------------------------------"""
@@ -68,12 +78,6 @@ op = webdriver.ChromeOptions()
 op.add_argument('headless')
 op.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(service=s, options=op)
-
-
-
-
-
-
 
 
 for code in class_codes:
@@ -113,10 +117,16 @@ for code in class_codes:
         json.dump(subject_dict, subject_file, indent=4)
         subject_file.close()
 
+
+
+
+
+
+
 """-------------------------------------------------------------------------'''
 sorts every course document blob by its catalog number
 '''-------------------------------------------------------------------------"""
-import json
+
 
 
 for code in class_codes:
@@ -127,14 +137,13 @@ for code in class_codes:
         subject_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
         json.dump(subject_dict, subject_file, indent=4)
         subject_file.close()
-        
+            
         
 
 """-------------------------------------------------------------------------'''
 simply adds a new attribute to every course in every file in 
 json_catalog named "prerequisite" that is the first sentence of every course description  
 '''-------------------------------------------------------------------------"""
-import json
 
 
 
