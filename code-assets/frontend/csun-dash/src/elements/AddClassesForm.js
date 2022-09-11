@@ -31,6 +31,7 @@ function AddClassesForm(props){
     const [selectedClass, setSelectedClass] = useState([])
     const [catalogList,setcatalogList] = useState([])
     const [classList, setClassList] = useState([])
+    const [assignedProf, setAssignedProf] = useState([])
 
     function handleTermChange(event){
         setTerm(event.target.value);
@@ -57,28 +58,55 @@ function AddClassesForm(props){
 
     function fetchMenuItems(value){
 
-        fetch(`http://127.0.0.1:8000/${value}/schedule`)
+        fetch(`http://127.0.0.1:8000/${value}/catalog`)
             .then(response => response.json())
             .then(data => {
                 let catalogNums = []
+
+                for(let i=0; i < data.length; i++){
+                    catalogNums.push(data[i].catalog_number)
+                }
+
+                setcatalogList(catalogNums)
+            })
+
+        fetch(`http://127.0.0.1:8000/${value}/schedule`)
+            .then(response => response.json())
+            .then(data => {
+                
                 let classList = []
 
                 for(let i=0; i < data.classes.length; i++){
-                    catalogNums.push(data.classes[i].catalog_number)
                     classList.push(data.classes[i])
                 }
-                const unique = [...new Set(catalogNums.map(item => item))]
-                setcatalogList(unique)
                 setClassList(classList)
             })
         
+        fetch(`http://127.0.0.1:8000/${value}/prof`)
+            .then(response => response.json())
+            .then(data => {
+                let profList = []
+                let arrAssignedProf = []
+
+                for(let i=0; i < data.profs.length; i++){
+                    profList.push(data.profs[i])
+                }
+
+                for(let i=0; i < profList.length; i++){
+                    for(let j=0; j < data[profList[i]].classes.length; j++){
+                        arrAssignedProf.push(data[profList[i]].classes[j])
+                    }
+                }
+                console.log(arrAssignedProf)
+                setAssignedProf(arrAssignedProf)
+            })
+            
     }
 
 
     function onSelectClick(classItem){
 
         let arr = selectedClass
-        console.log(classItem)
         if(arr.includes(classItem)){
             alert('Class Has Already Been Added')
         }else{
@@ -190,6 +218,7 @@ function AddClassesForm(props){
                         classSubject={subject} 
                         classCatalogNumber={catalogNumber} 
                         classList={classList}
+                        assignedProf={assignedProf}
                         onSelectClick={(item)=>onSelectClick(item)}
                     >
                     </ClassCards>

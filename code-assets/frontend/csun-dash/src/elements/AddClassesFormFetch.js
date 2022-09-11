@@ -7,7 +7,7 @@ function AddClassesFormFetch(){
 
     return(
         <div>
-            <AddClassesForm classCodes={class_codes} terms={["Fall 2022", "Spring 2023"]}></AddClassesForm>
+            <AddClassesForm classCodes={class_codes} terms={["Fall-2022", "Spring-2023"]}></AddClassesForm>
         </div>
     )
 }
