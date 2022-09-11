@@ -1,6 +1,22 @@
 [
     {
         "subject": "NURS",
+        "catalog_number": "302",
+        "title": "Basic Pathophysiology",
+        "description": "Prerequisite: Approval of faculty advisor. This course provides an understanding of complex pathophysiologic processes as a basis for safe and evidence-based nursing management of common disease processes across the lifespan.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Approval of faculty advisor"
+    },
+    {
+        "subject": "NURS",
+        "catalog_number": "303",
+        "title": "Professional Nursing",
+        "description": "Preparatory: Admission to Nursing Program; Completion of the lower division writing requirement. Focuses on the practice of professional nursing, critical thinking, therapeutic nursing interventions, nursing process, advocacy, humanistic approach to the treatment of human beings, selected bio-psycho-social and nursing theories, spirituality, communication, information technology, role change, values, culture, and oral and written communication skills. Regular written assignments and oral presentations are required.",
+        "units": "3",
+        "prerequisites": "Preparatory: Admission to Nursing Program; Completion of the lower division writing requirement"
+    },
+    {
+        "subject": "NURS",
         "catalog_number": "306",
         "title": "Supportive/educative Nursing Systems",
         "description": "Application of nursing knowledge and skills in self-care agency with individuals, families, groups, communities and populations. Content includes theories and principles of learning, teaching strategies and methodologies, teaching resources, and evaluation of instruction as applied to the development of nursing systems in the nursing process. Regular written assignments and oral presentations required.",
@@ -46,6 +62,22 @@
         "description": "Prerequisite: Admission into the Accelerated BSN Pathway. This course examines the principles of pharmacokinetics and pharmacodynamics for major drug classes as they impact the individual. Assessment and management of the therapeutic and toxic effects of pharmacological interventions are emphasized.",
         "units": "2",
         "prerequisites": "Prerequisite: Admission into the Accelerated BSN Pathway"
+    },
+    {
+        "subject": "NURS",
+        "catalog_number": "318",
+        "title": "Intro Profnursing",
+        "description": "Introduction to the practice of professional nursing, including critical thinking, assessment, therapeutic nursing interventions and communication. This course explores related models and theories, professional roles, nursing process and use of nursing skills to promote wellness of individuals. Bio-psycho-social-spiritual, cultural and developmental considerations included. Lab: Supervised clinical lab provides opportunities for role development and application of knowledge and skills. Passing grades must be earned in both lecture and lab concurrently for credit in both courses.",
+        "units": "3",
+        "prerequisites": "Introduction to the practice of professional nursing, including critical thinking, assessment, therapeutic nursing interventions and communication"
+    },
+    {
+        "subject": "NURS",
+        "catalog_number": "318L",
+        "title": "Intro Profnurslab",
+        "description": "Introduction to the practice of professional nursing, including critical thinking, assessment, therapeutic nursing interventions and communication. This course explores related models and theories, professional roles, nursing process and use of nursing skills to promote wellness of individuals. Bio-psycho-social-spiritual, cultural and developmental considerations included. Lab: Supervised clinical lab provides opportunities for role development and application of knowledge and skills. Passing grades must be earned in both lecture and lab concurrently for credit in both courses.",
+        "units": "4",
+        "prerequisites": "Introduction to the practice of professional nursing, including critical thinking, assessment, therapeutic nursing interventions and communication"
     },
     {
         "subject": "NURS",
@@ -165,5 +197,21 @@
         "description": "Prerequisite: Instructor consent. This course focuses on providing mentored training in integrating evidence-based, learning-centered teaching and learning strategies. Students are teamed with faculty mentors in the classroom, skill laboratory and clinical settings to apply and implement learned teaching strategies under the direct supervision of faculty mentors. Special emphasis is made on integrating multiculturalism in teaching and learning.",
         "units": "3",
         "prerequisites": "Prerequisite: Instructor consent"
+    },
+    {
+        "subject": "NURS",
+        "catalog_number": "563",
+        "title": "Evaluation And Assessment In Nursing Educations",
+        "description": "Prerequisites: NURS 560, NURS 561, NURS 562; Instructor consent. This course explores various theories on assessments and evaluation, and examines important theoretical, ethical and practical issues in assessment, evaluations, measurement and testing in nursing education.",
+        "units": "3",
+        "prerequisites": "Prerequisites: NURS 560, NURS 561, NURS 562; Instructor consent"
+    },
+    {
+        "subject": "NURS",
+        "catalog_number": "664",
+        "title": "Faculty Role Development In Nursing",
+        "description": "Prerequisites: NURS 560, NURS 562, NURS 563; Instructor consent. This course focuses on examining models of the nurse faculty role and on analyzing strategies for effective teaching, practice, scholarship and service. Leadership is examined through the lens of a system framework for effective change and transformation.",
+        "units": "3",
+        "prerequisites": "Prerequisites: NURS 560, NURS 562, NURS 563; Instructor consent"
     }
 ]

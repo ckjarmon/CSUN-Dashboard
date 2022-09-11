@@ -65,6 +65,14 @@
     },
     {
         "subject": "ACCT",
+        "catalog_number": "412L",
+        "title": "Excel Spec Cert",
+        "description": "Prerequisites: Grades of \u201cC\u201d or higher in IS 212 and IS 312. Pre-Accountancy major or Accountancy major or enrollment in the Master of Professional Accountancy degree program or enrollment in the Master of Science in Taxation degree program or department approval. The Microsoft Excel Specialist Certification demonstrates competency at the associate level in the fundamentals of creating and managing worksheets and workbooks, creating cells and ranges, creating tables, applying formulas and functions and creating charts and objects. The certification exam covers the ability to create and edit a workbook with multiple sheets, and use a graphic element to represent data visually. Workbook examples include professional-looking budgets, financial statements, team performance charts, sales invoices, and data-entry logs. Available for graduate credit. (Credit/No Credit only)",
+        "units": "1",
+        "prerequisites": "Prerequisites: Grades of \u201cC\u201d or higher in IS 212 and IS 312"
+    },
+    {
+        "subject": "ACCT",
         "catalog_number": "440",
         "title": "Income Tax I",
         "description": "Prerequisites: Grades of \u201cC\u201d or higher in ACCT 350 and BUS 302, and a passing score in BUS 302L; May be taken concurrently with ACCT 351. This course examines fundamentals of individual federal income taxation, including the following topics: tax determination; inclusions and exclusions from gross income; deductions and losses; property transactions (gain or loss, basis considerations, nontaxable exchanges, capital gains and losses, Section 1231, and recapture provisions); depreciation; employee expenses; deductions of the self-employed; itemized deductions; and passive activity losses. The course emphasizes the development of written and oral communication skills, tax research, as well as individual tax compliance.",
@@ -129,6 +137,22 @@
     },
     {
         "subject": "ACCT",
+        "catalog_number": "499C",
+        "title": "Independent Study Accounting",
+        "description": "Prerequisites: Consent of Department Chair and consent of an instructor to act as sponsor. In order to do an Independent Study assignment in the College of Business and Economics a student must have at least a 3.0 overall GPA and a 2.0 or higher GPA in all major courses. A student who does not meet these requirements will not receive credit for any ACCT 499. Admission is based on evidence of ability to pursue Independent Study in-depth and on approval of a project submitted at the time of registration. Regular progress meetings and reports are required throughout the semester. Completion of the project is required before credit may be received. Enrollment in Independent Study is not allowed for the purpose of substitution for an existing course. A maximum of 6 units of Independent Study (499) may be earned in the College of Business and Economics. A maximum of 12 units may be earned by combining Field Assignments and Reports (498) and Independent Study (499). \n",
+        "units": "3",
+        "prerequisites": "Prerequisites: Consent of Department Chair and consent of an instructor to act as sponsor"
+    },
+    {
+        "subject": "ACCT",
+        "catalog_number": "501",
+        "title": "Mba Financial Accounting",
+        "description": "Prerequisite: Admission to a Nazarian College of Business and Economics graduate program or consent of instructor. Study of financial reporting principles, structure of the balance sheet, income statement and statement of cash flows. Measurement principles for assets; liabilities and stockholders\u2019 equity; revenue and expenses. Covers management\u2019s responsibility for full and fair disclosure of financial information.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Admission to a Nazarian College of Business and Economics graduate program or consent of instructor"
+    },
+    {
+        "subject": "ACCT",
         "catalog_number": "511",
         "title": "Acct Ethics",
         "description": "Prerequisite: Grade of \u201cC\u201d or higher in ACCT 350 or enrollment in the Master of Professional Accounting (MPAcc) program. This course aims to develop students\u2019 ability to recognize, analyze, and properly resolve ethical challenges in the practice of accounting to uphold professional responsibilities in the accounting profession. Emphasizes the application of ethical theories, the AICPA\u2019s Code of Professional Conduct, and relevant legal regulations.",
@@ -145,11 +169,35 @@
     },
     {
         "subject": "ACCT",
+        "catalog_number": "600",
+        "title": "Individual Tax",
+        "description": "This course is designed to provide students with a fundamental understanding of federal income taxation of individuals and tax implications incidental to property transactions. Also, this course aims enhance students\u2019 written and oral communication skills, as well as critical thinking skills. Lastly, this course is designed to provide students with the tools to engage in tax research.",
+        "units": "3",
+        "prerequisites": "This course is designed to provide students with a fundamental understanding of federal income taxation of individuals and tax implications incidental to property transactions"
+    },
+    {
+        "subject": "ACCT",
         "catalog_number": "605",
         "title": "Intro To Audit",
         "description": "Prerequisite: ACCT 620B. This course provides students with an introduction to the field of auditing and assurance services and the related decision-making processes. Topics include: nature and scope of audit engagements; terms of engagement and engagement letter; requirements for engagement documentation; a firm\u2019s systems of quality control; planning an engagement; understanding an entity\u2019s environment and internal controls; risk assessment; and materiality.",
         "units": "3",
         "prerequisites": "Prerequisite: ACCT 620B"
+    },
+    {
+        "subject": "ACCT",
+        "catalog_number": "620A",
+        "title": "Fin Report I",
+        "description": "This course explores financial reporting focused on for-profit business entities. Topics include: revenue recognition; nonreciprocal transfers; fair value measurements; and financial accounting reporting of cash and cash equivalents, trade receivables, inventory, property, plant and equipment, intangible assets, and investments.",
+        "units": "3",
+        "prerequisites": "This course explores financial reporting focused on for-profit business entities"
+    },
+    {
+        "subject": "ACCT",
+        "catalog_number": "620B",
+        "title": "Fin Report Ii",
+        "description": "Prerequisite: ACCT 620A. Building on ACCT 620A: Financial Accounting Reporting I, this course further explores financial reporting focused on for-profit business entities. Topics include financial accounting reporting of payable and accrued liabilities, contingencies and commitments, long-term debt, leases, compensation and benefits, financial statements of employee benefit plans, equity, income taxes, accounting for changes and error corrections and accounting for subsequent events.",
+        "units": "3",
+        "prerequisites": "Prerequisite: ACCT 620A"
     },
     {
         "subject": "ACCT",
@@ -166,6 +214,22 @@
         "description": "Prerequisite: ACCT 605. Auditing theory and practices; auditing standards; SEC (Securities and Exchange Commission) and stock exchange regulations; auditor\u2019s legal liability; statement trends and techniques. Concepts and principles governing independent professional services that provide assurance on the reliability and relevance of information, including financial statement information.",
         "units": "2",
         "prerequisites": "Prerequisite: ACCT 605"
+    },
+    {
+        "subject": "ACCT",
+        "catalog_number": "625",
+        "title": "Taxation Of Entities",
+        "description": "This course is designed to provide students with understanding of concepts of U.S. federal income taxation of business entities, including C corporations, S corporations, partnerships, limited liability companies, trusts and estates, and tax exempt organizations.",
+        "units": "3",
+        "prerequisites": "This course is designed to provide students with understanding of concepts of U"
+    },
+    {
+        "subject": "ACCT",
+        "catalog_number": "697",
+        "title": "Acct Comp Exam",
+        "description": "Prerequisites: ACCT 511, ACCT 536, ACCT 600, ACCT 605, ACCT 620A, ACCT 620B, ACCT 620C, ACCT 624, ACCT 625, and IS 530, or department chair\u2019s consent. A culminating experience course in the Master of Professional Accountancy program.",
+        "units": "3",
+        "prerequisites": "Prerequisites: ACCT 511, ACCT 536, ACCT 600, ACCT 605, ACCT 620A, ACCT 620B, ACCT 620C, ACCT 624, ACCT 625, and IS 530, or department chair\u2019s consent"
     },
     {
         "subject": "ACCT",

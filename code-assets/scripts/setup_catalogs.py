@@ -8,10 +8,11 @@ import sys
 class_codes = ["AE","AM","AAS","ACCT","AFRS","AIS","ANTH","ARAB","ARMN","ART","ASTR","ATHL","BANA","BIOL","BLAW","BUS","CE","CADV","CAS","CCE","CD","CECS","CHS","CHEM","CHIN","CIT","CJS","CLAS","CM","COMP","COMS","CTVA","DEAF","EED","ECE","ECON","EDUC","ELPS","ENGL","EOH","EPC","FCS","FIN","FLIT","FREN","GBUS","GEOG","GEOL","GWS","HEBR","HIST","HSCI","HUM","INDS","IS","ITAL","JS","JAPN","JOUR","KIN","KNFC","KOR","LING","LRS","ME","MATH","MCOM","MGT","MKT","MSE","MUS","NURS","PERS","PHIL","PHSC","PHYS","POLS","PSY","PT","QS","RS","RE","RTM","RUSS","SED","SCI","SCM","SOC","SOM","SPAN","SPED","SUST","SWRK","TH","UNIV","URBS"]
 
 sems = ["Fall", "Spring"]
-
-for sem in sems:
-    for code in class_codes:
-
+for code in class_codes:
+    tuples = []
+    json_blobs = []
+    for sem in sems:
+    
         url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/" + sem + "-2022/courses/" + code
 
         print("Data Link: " + url)
@@ -23,8 +24,7 @@ for sem in sems:
             data = json.loads({})
 
 
-        tuples = []
-        json_blobs = []
+        
 
 
         current_class = ""
@@ -41,9 +41,9 @@ for sem in sems:
         #print(*tuples, sep='\n')
         #print(*json_blobs, sep="\n")
         #print("\n\n\n\n")
-        catalog_file = open(f"../../code-assets/backend/json_catalog/{code}_catalog.json", "w")
+    catalog_file = open(f"../../code-assets/backend/json_catalog/{code}_catalog.json", "w")
 
-        json.dump(json_blobs, catalog_file, indent=4)
+    json.dump(json_blobs, catalog_file, indent=4)
 
 
 

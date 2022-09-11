@@ -233,11 +233,59 @@
     },
     {
         "subject": "CE",
+        "catalog_number": "638",
+        "title": "Advanced Reinforced Concrete Design",
+        "description": "Prerequisite: CE 438. Advanced topics in concrete design, including frames and slabs.",
+        "units": "3",
+        "prerequisites": "Prerequisite: CE 438"
+    },
+    {
+        "subject": "CE",
         "catalog_number": "639",
         "title": "Advanced Structural Steel Design",
         "description": "Prerequisite: CE 439. Advanced topics in structural steel design, such as frames, bridges and buildings.",
         "units": "3",
         "prerequisites": "Prerequisite: CE 439"
+    },
+    {
+        "subject": "CE",
+        "catalog_number": "640",
+        "title": "Adv Analysis Meth",
+        "description": "Prerequisite: CE 536. Analytical methods for calculation of stress deflection and stability of structures. Unsymmetrical bending, torsion, plates, treatment of the buckling characteristics of various structural elements. Applications of energy methods. Fundamentals of applied elasticity. Consideration given to modern structural materials. (Design units: 1.)",
+        "units": "3",
+        "prerequisites": "Prerequisite: CE 536"
+    },
+    {
+        "subject": "CE",
+        "catalog_number": "641",
+        "title": "Earthquake Engineering",
+        "description": "Prerequisites: AM 410; CE 335. Study of the earthquake problem. Topics covered include plate tectonics, seismology, dynamic response of structures, dynamics of sites and design for earthquakes.",
+        "units": "3",
+        "prerequisites": "Prerequisites: AM 410; CE 335"
+    },
+    {
+        "subject": "CE",
+        "catalog_number": "642",
+        "title": "Finite Element",
+        "description": "Prerequisites: AM 410; CE 536. Corequisite: CE 642L. Study of structural mechanics problems by use of finite element method. Formulation of the basic elements, assemblage of elements and application of the method to selected topics in structural mechanics.",
+        "units": "3",
+        "prerequisites": "Prerequisites: AM 410; CE 536"
+    },
+    {
+        "subject": "CE",
+        "catalog_number": "642L",
+        "title": "Finite Anal Lab",
+        "description": "Prerequisites: AM 410; CE 536. Corequisite: CE 642L. Study of structural mechanics problems by use of finite element method. Formulation of the basic elements, assemblage of elements and application of the method to selected topics in structural mechanics.",
+        "units": "1",
+        "prerequisites": "Prerequisites: AM 410; CE 536"
+    },
+    {
+        "subject": "CE",
+        "catalog_number": "648",
+        "title": "Prestressed Concrete Design",
+        "description": "Prerequisite: CE 638. Prestressed concrete design and analysis for gravity and lateral loading. Design of reinforced and prestressed structural elements. Safety and economy. Connection design for earthquake and wind loadings. Design projects using professional practice standards, including latest codes. 3 hours of lecture. (Design units: 3.)",
+        "units": "3",
+        "prerequisites": "Prerequisite: CE 638"
     },
     {
         "subject": "CE",
@@ -254,5 +302,13 @@
         "description": "Prerequisites: Advancement to candidacy for the M.S. degree; Written approvals of faculty advisor and department graduate coordinator or department chair.",
         "units": "3",
         "prerequisites": "Prerequisites: Advancement to candidacy for the M"
+    },
+    {
+        "subject": "CE",
+        "catalog_number": "699C",
+        "title": "Independent Study",
+        "description": "Prerequisites: Classified status in the M.S. program; Written approvals from faculty sponsor and department graduate coordinator or department chair. Admission is based in part on evidence of the ability to pursue Independent Study or research in-depth and approval of a proposal submitted prior to the time of registration.",
+        "units": "3",
+        "prerequisites": "Prerequisites: Classified status in the M"
     }
 ]

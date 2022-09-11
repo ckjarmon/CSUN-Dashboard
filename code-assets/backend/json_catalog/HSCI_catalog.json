@@ -25,6 +25,14 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "181",
+        "title": "Medical Imaging Sciences I",
+        "description": "Prerequisite: Acceptance into the Radiologic Technology Program or instructor consent. Introduction to the role of the radiologic technologist. Study of the function and manipulation of equipment and technical factors used in the production of X-ray and in imaging systems used within radiology. Includes a progressive series of radiographic exercises in preparation for clinical experiences. (Offered Fall semester.)",
+        "units": "3",
+        "prerequisites": "Prerequisite: Acceptance into the Radiologic Technology Program or instructor consent"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "182",
         "title": "Medical Imaging Sciences Ii",
         "description": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification. Corequisite: HSCI 281. Study of imaging modalities and equipment utilized in radiology. Includes a progressive series of exercises involving radiation protection procedures, problem-solving techniques and quality assurance programs to be used during clinical education. Considers the manipulation and use of body section radiography, phototiming, image intensification and stereoscopic equipment. (Offered Spring semester.)",
@@ -41,6 +49,14 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "280",
+        "title": "Radiological Sciences: Clinical Education I",
+        "description": "Prerequisite: Acceptance into the Radiologic Sciences Program. Corequisite: HSCI 285. Orientation and introduction to clinical education in medical radiography. At an affiliated hospital, each student participates with direct supervision in selected darkroom, clerical and basic radiographic procedures. Includes lectures in hospital organization, departmental administration and medical ethics. (Offered Fall semester.)",
+        "units": "2",
+        "prerequisites": "Prerequisite: Acceptance into the Radiologic Sciences Program"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "281",
         "title": "Radiological Sciences: Clinical Education Ii",
         "description": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification. Corequisites: HSCI 182, HSCI 286, HSCI 385. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors, film analysis and methods of patient care. (Offered Spring semester.)",
@@ -49,11 +65,35 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "282",
+        "title": "Radiological Sciences: Clinical Education Iii",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 286, HSCI 385, or ARRT Certification. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors, film analysis and methods of patient care.",
+        "units": "3",
+        "prerequisites": "Prerequisites: HSCI 182, HSCI 281, HSCI 286, HSCI 385, or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "283",
+        "title": "Radiological Sciences: Clinical Education Iv",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385, or ARRT Certification. Corequisites: HSCI 380, HSCI 384, HSCI 480, HSCI 482. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors and advanced film analysis. (Offered Fall semester.)",
+        "units": "3",
+        "prerequisites": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385, or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "284",
         "title": "Radiological Sciences: Clinical Education V",
         "description": "Prerequisites: HSCI 283, HSCI 380, HSCI 384, HSCI 480, HSCI 482, or ARRT Certification. Corequisites: HSCI 302, HSCI 485, HSCI 487. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors and advanced film analysis. (Offered Spring semester.)",
         "units": "4",
         "prerequisites": "Prerequisites: HSCI 283, HSCI 380, HSCI 384, HSCI 480, HSCI 482, or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "285",
+        "title": "Radiographic Anatomy And Positioning I",
+        "description": "Prerequisites: BIOL 211, BIOL 212; Acceptance into the Radiologic Technology Program. Corequisite: HSCI 280. Comprehensive modular approach to radiographic positioning of the appendicular skeleton, vertebral column, genito-urinary tract, chest and abdomen, with emphasis on the associated anatomy, physiology and medical terminology.",
+        "units": "6",
+        "prerequisites": "Prerequisites: BIOL 211, BIOL 212; Acceptance into the Radiologic Technology Program"
     },
     {
         "subject": "HSCI",
@@ -153,11 +193,43 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "380",
+        "title": "Cross-sectional Anatomy For Radiographers",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification. Corequisite: HSCI 283. Introduction to cross-sectional anatomy with the use of advanced imaging techniques, including Computerized Tomography, Magnetic Resonance Imaging and Ultrasonography. Includes comparisons of the various modalities in demonstrating certain anatomy.",
+        "units": "2",
+        "prerequisites": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "382",
+        "title": "Mammography",
+        "description": "Prerequisite: California State Certificate for Radiologic Technology (CRT) or senior status in an accredited RT program. Study of breast anatomy, physiology and pathology, with an emphasis on breast cancer, risk factors and detection techniques. Additionally, mammography imaging, instrumentation requirements and mammographic techniques are emphasized. Labs in quality assurance are scheduled off site. (Offered only through Open University, Fall semester.)",
+        "units": "3",
+        "prerequisites": "Prerequisite: California State Certificate for Radiologic Technology (CRT) or senior status in an accredited RT program"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "384",
+        "title": "Computers In Diagnostic Imaging",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification. Corequisite: HSCI 283. Study of state-of-the-art equipment and procedures available to radiology departments. Focuses on computer software, algorithms and digitization of imaging data. Topics prepare the student for specific computer applications in advanced imaging coursework for MRI, CT and Digital Subtraction Angiography. Clinical applications and processes that highlight the course content are conducted at affiliated medical centers.",
+        "units": "2",
+        "prerequisites": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "385",
         "title": "Quality Assurance And Evaluation Of Radiology Imaging Equipment",
         "description": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification. Corequisite: HSCI 281. Study of quality assurance concepts and application for radiology departments. Includes evaluation of imaging equipment in one of the affiliated medical centers.",
         "units": "2",
         "prerequisites": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "387",
+        "title": "Radiologic Sciences Clinical Education Vii",
+        "description": "Prerequisites: HSCI 386, or ARRT Certification. Corequisite: HSCI 483A. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors and advanced film analysis. Advanced Imaging techniques in MR, CT, IR and Cardiac Cath are included.",
+        "units": "3",
+        "prerequisites": "Prerequisites: HSCI 386, or ARRT Certification"
     },
     {
         "subject": "HSCI",
@@ -230,6 +302,14 @@
         "description": "Prerequisites: HSCI 312, HSCI 412. Introduction to the administration, organization and evaluation of hospital services and the role of the hospital in the community health system. Topics include governance, financing, medical staff relations and other current topics.",
         "units": "3",
         "prerequisites": "Prerequisites: HSCI 312, HSCI 412"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "422",
+        "title": "Health Services For The Elderly And The Mentally Ill",
+        "description": "Prerequisite: HSCI 412. Problems in planning, financing, delivering and evaluating health services for the elderly and the mentally ill. Administrative structures and public and private delivery systems are compared and critiqued. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "Prerequisite: HSCI 412"
     },
     {
         "subject": "HSCI",
@@ -377,6 +457,38 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "480",
+        "title": "Computed Tomography",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification. Corequisite: HSCI 283. Principles of Computed Tomography provide the Radiologic Technology student with a broad understanding of the applied physics and imaging techniques used in clinical Computed Tomography Imaging. Overviews all five generations of CT imaging. Clinical applications and processes that highlight the course content are conducted at the affiliated medical centers. (Offered Fall semester.)",
+        "units": "2",
+        "prerequisites": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "482",
+        "title": "Angiography And Interventional Technology",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification. Corequisite: HSCI 283. Radiographic examinations involving surgical procedures and specialized equipment. (Offered Fall semester.)",
+        "units": "4",
+        "prerequisites": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "483A",
+        "title": "Medical Imaging Pathology",
+        "description": "Prerequisites: HSCI 284, HSCI 302, or ARRT Certification. Corequisite: HSCI 387. Understanding the basic principles of pathology is an essential part of the radiologic technologist\u2019s training. Knowing how disease processes work and recognizing the radiographic appearance of specific diseases can aid the technologist in selecting proper modalities and determining the need for repeat radiographs in different situations. This kind of knowledge enables the radiologic technologist to become a more competent professional and a contributing member of the diagnostic team.",
+        "units": "2",
+        "prerequisites": "Prerequisites: HSCI 284, HSCI 302, or ARRT Certification"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "484A",
+        "title": "Pet Fusion Imaging",
+        "description": "Prerequisites: HSCI 380, HSCI 480, HSCI 483A, HSCI 485 and EOH 467. The Fusion Positron Emission Tomography: Fusion Imaging (PET/CT) course instructs students in the use of radioactive material through proper utilization of specialized equipment and techniques. This course prepares students to perform dose calculations, prepare radiopharmaceuticals, and discuss related quality control and quality assurance procedures on instrumentation. Course includes topics on radiation safety and radiobiology with an emphasis in radiation protection, storage and disposal of radioactive materials and inventory and control of radiopharmaceuticals.",
+        "units": "3",
+        "prerequisites": "Prerequisites: HSCI 380, HSCI 480, HSCI 483A, HSCI 485 and EOH 467"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "485",
         "title": "Principles Of Mri",
         "description": "Prerequisites: HSCI 283, HSCI 380, HSCI 384, HSCI 480, HSCI 482, or ARRT Certification. Corequisite: HSCI 284. Principles of Magnetic Resonance Imaging (MRI) provides the Radiologic Technology student with a basic understanding of the applied physics, imaging techniques and imaged anatomy/pathology used in clinical magnetic resonance imaging. Clinical applications and processes that highlight the course content are conducted at the affiliated medical centers. (Offered Spring semester.)",
@@ -457,11 +569,51 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "505A",
+        "title": "Health Informatics",
+        "description": "The course prepares students of healthcare administration or similar background to lead in the field of healthcare administration informatics by providing a wide ranging exploration of topics related to informatics and health information technology in the U.S. healthcare delivery system. The course starts with the unique needs of the U.S. healthcare industry by introducing the basic components of the U.S. healthcare system, payment systems, and healthcare reform issues related to health information technology. Other topics will include: basic concepts of computer science, health information management, the electronic medical records (EMR), workflow analysis tools and approaches to re-design of healthcare processes.",
+        "units": "3",
+        "prerequisites": "The course prepares students of healthcare administration or similar background to lead in the field of healthcare administration informatics by providing a wide ranging exploration of topics related to informatics and health information technology in the U"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "510",
+        "title": "Sys Hlth Delv Us",
+        "description": "Introductory course describes the organization of public and private systems of care, role of governments and private healthcare systems, the evolution of health services in the U.S., and key federal and state legislation and regulation impacting provider reimbursement, healthcare entitlements, quality of care, preparation of healing arts professionals, and how healthcare organizations develop and function.",
+        "units": "3",
+        "prerequisites": "Introductory course describes the organization of public and private systems of care, role of governments and private healthcare systems, the evolution of health services in the U"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "511",
+        "title": "Health Services Administration Theory And Practice",
+        "description": "Preparatory: Bachelor\u2019s degree; Conditionally classified status for the master\u2019s degree in Health Administration. Introduction to the basic historical and current theory and practice of the administration of health services organizations. Emphasis on the administrator\u2019s role in a systems approach to assessing and responding proactively to the external forces in the health services delivery system and in the development of the organization\u2019s culture and processes for the provision of quality service.",
+        "units": "3",
+        "prerequisites": "Preparatory: Bachelor\u2019s degree; Conditionally classified status for the master\u2019s degree in Health Administration"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "513",
+        "title": "Leadership In Health Administration Practice",
+        "description": "Seminar in which special emphasis is placed on the leadership skills needed in healthcare organizations. Describes basic leadership principles, reviews literature, examines factors associated with successful leadership and discusses case studies on leadership strategies used in the healthcare field. In addition, a personal assessment of leadership styles are conducted, as well as a culminating community class project.",
+        "units": "3",
+        "prerequisites": "Seminar in which special emphasis is placed on the leadership skills needed in healthcare organizations"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "515",
         "title": "Seminar In Healthcare Information Management",
         "description": "Prerequisites: Graduate status; Basic computer literacy. Investigates current status of both clinical and administrative healthcare information management systems. Topics include, emerging technology, selection of information systems, management of information, electronic medical records, the Internet\u2019s impact on a healthcare organization\u2019s business processes, and other current events. For MSHA, MPT, MPH and other graduate students.",
         "units": "3",
         "prerequisites": "Prerequisites: Graduate status; Basic computer literacy"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "517",
+        "title": "Health Economics And National Health Policy",
+        "description": "Application of economic theory and concepts to the analysis and formulation of both managerial decision and healthcare policy. Provides a basic introduction to the relevant technical and economic aspects of the healthcare industry and local, state and national health-policy issues.",
+        "units": "3",
+        "prerequisites": "Application of economic theory and concepts to the analysis and formulation of both managerial decision and healthcare policy"
     },
     {
         "subject": "HSCI",
@@ -478,6 +630,14 @@
         "description": "Prerequisite: Graduate standing. Framework for analysis of legal and ethical issues in the provision of healthcare, including conceptual foundations for societal, institutional and individual dilemmas in healthcare delivery and the legal aspects of clinical and financial decision making in the administration of healthcare.",
         "units": "3",
         "prerequisites": "Prerequisite: Graduate standing"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "523",
+        "title": "Seminar In Health-care Organization",
+        "description": "This introductory healthcare organization course examines the structure and interrelationships of health status and healthcare resources, including human resources, facilities and services. The approach is interdisciplinary and designed to provide the student with an understanding of issues in healthcare delivery. Emphasis is placed on providers and populations within the clinical, legal, political and economic systems.",
+        "units": "3",
+        "prerequisites": "This introductory healthcare organization course examines the structure and interrelationships of health status and healthcare resources, including human resources, facilities and services"
     },
     {
         "subject": "HSCI",
@@ -521,6 +681,14 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "536",
+        "title": "Cultural Issues In Health Care",
+        "description": "Preparatory: Graduate standing or instructor consent. Provides the health professions student with an increased understanding of the cross-cultural factors that can influence health and disease practices across a wide range of cultural groups. Using readings, classroom exercises and student-developed case studies, participants explore the cultural variables impacting the delivery of health promotion/disease prevention programs and services.",
+        "units": "3",
+        "prerequisites": "Preparatory: Graduate standing or instructor consent"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "537",
         "title": "Communications In Health Education",
         "description": "This course provides learners with principles, theories and methods for effective individual and community health communication strategies. Students will analyze the basic components of communication; identify persuasive communication strategies applicable to public health communication practice; and evaluate the role of communication in public health settings.",
@@ -534,6 +702,14 @@
         "description": "Prerequisite: HSCI 533. Comprehensive analysis of methods and techniques appropriate to community health action.",
         "units": "3",
         "prerequisites": "Prerequisite: HSCI 533"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "539",
+        "title": "Seminar: Current Issues In Health Education",
+        "description": "Theory, principles and research applicable to public health. Investigation of problems of social, economic, cultural and educational origin as they apply to sound public health programs.",
+        "units": "3",
+        "prerequisites": "Theory, principles and research applicable to public health"
     },
     {
         "subject": "HSCI",
@@ -553,6 +729,14 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "569",
+        "title": "Hiv / Sti Prevent",
+        "description": "This course aims to provide advance understanding of epidemiology, determinants, preventive efforts, theoretical framework, interventional designs, policy considerations, and testing/treatment mechanisms for sexually transmitted infections (STIs) and HIV/AIDS. This course will address health disparities, social, behavioral, medical, and political correlates as well as examine the consequences of HIV/STIs through discussions, assigned readings, assignments, and guest lectures.",
+        "units": "3",
+        "prerequisites": "This course aims to provide advance understanding of epidemiology, determinants, preventive efforts, theoretical framework, interventional designs, policy considerations, and testing/treatment mechanisms for sexually transmitted infections (STIs) and HIV/AIDS"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "587",
         "title": "Seminar: Epidemiology",
         "description": "Prerequisite: HSCI 488 or graduate standing. Critical analysis of literature related to the newer concepts of epidemiology as applied to preventative medicine, healthcare management and public health.",
@@ -564,6 +748,14 @@
         "catalog_number": "588",
         "title": "Epidemiology Of Infectious Diseases",
         "description": "Prerequisite: HSCI 587. Critical review of infectious diseases, their transmission, control, prevention and significance in the past, present and future.",
+        "units": "3",
+        "prerequisites": "Prerequisite: HSCI 587"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "589",
+        "title": "Epidemiology Of Common Chronic Diseases",
+        "description": "Prerequisite: HSCI 587. Selected models to evaluate, analyze and investigate risk factors related to common chronic diseases.",
         "units": "3",
         "prerequisites": "Prerequisite: HSCI 587"
     },
@@ -617,11 +809,35 @@
     },
     {
         "subject": "HSCI",
+        "catalog_number": "616",
+        "title": "Quality Assurance In Health Care",
+        "description": "Prerequisite: Graduate standing in Health Administration. Overview of fundamentals and tools using a systems approach to quality management and process improvement in healthcare. Use practical approaches with an exposure to real-world healthcare settings to translate tools, theory, concepts and knowledge into practice. Understand tools that managers need to know including managerial, organizational, regulatory and policy issues related to healthcare quality.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Graduate standing in Health Administration"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "618",
+        "title": "Strategic Planning In Health Administration",
+        "description": "Prerequisites: HSCI 614; HSCI 615; Classified graduate status in Health Administration. This graduate seminar is intended to integrate the various disciplines\u2014finance, human resources, law, ethics, policy, etc.\u2014into a comprehensive and practical framework. This course requires the student to put the acquired skills, theories and strategies into practice within the healthcare industry.",
+        "units": "3",
+        "prerequisites": "Prerequisites: HSCI 614; HSCI 615; Classified graduate status in Health Administration"
+    },
+    {
+        "subject": "HSCI",
         "catalog_number": "619",
         "title": "Third Party Payer Impact On Health Delivery",
         "description": "Prerequisite: Classified graduate status in Health Administration. Examines how third-party pay mechanisms, including traditional indemnity insurance/fee-for-service, Medicare and Medicaid, prospective payment systems, various managed care models and other forms, impact provider and consumer behavior, and risk management. Other items include, Workers Compensation, disability insurance and liability insurance for the healing arts professions, self-insured employers and ERISA, and the impact of these mechanisms on access to care, quality and consumer/provider economic incentives.",
         "units": "3",
         "prerequisites": "Prerequisite: Classified graduate status in Health Administration"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "620",
+        "title": "Seminar In Hospital Administration",
+        "description": "Preparatory: Graduate status in the College of Health and Human Development. Hospital organization; governance; relationship of administration to the medical staff; inpatient and outpatient services; professional staff organization; implications of changing MediCal and Medicare and private payer reimbursement; payer contracting; Title 22 and 24 requirements; licensing; make vs. buy decisions; community need and community benefit; differences and similarities between public, private nonprofit and private investor-owned hospitals; and DSH and District and teaching hospitals are examined. Course may involve field trips to area hospitals.",
+        "units": "3",
+        "prerequisites": "Preparatory: Graduate status in the College of Health and Human Development"
     },
     {
         "subject": "HSCI",

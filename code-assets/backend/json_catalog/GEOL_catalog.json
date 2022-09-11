@@ -137,6 +137,38 @@
     },
     {
         "subject": "GEOL",
+        "catalog_number": "307",
+        "title": "Petrology",
+        "description": "Prerequisites: GEOL 306/L, CHEM 101 and CHEM 101L. Corequisite: GEOL 307L. Introduction to the classification and origin of igneous and metamorphic rocks, including the optical properties of minerals. Lab study of these rocks utilizing hand-specimen characteristics and the petrographic microscope. 3 hours lecture, 3 hours lab, field trips, fee required.",
+        "units": "2",
+        "prerequisites": "Prerequisites: GEOL 306/L, CHEM 101 and CHEM 101L"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "307L",
+        "title": "Petrology Lab",
+        "description": "Prerequisites: GEOL 306/L, CHEM 101 and CHEM 101L. Corequisite: GEOL 307L. Introduction to the classification and origin of igneous and metamorphic rocks, including the optical properties of minerals. Lab study of these rocks utilizing hand-specimen characteristics and the petrographic microscope. 3 hours lecture, 3 hours lab, field trips, fee required.",
+        "units": "1",
+        "prerequisites": "Prerequisites: GEOL 306/L, CHEM 101 and CHEM 101L"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "309",
+        "title": "Tectonics",
+        "description": "Prerequisite: Any 3-unit 100-level GEOL course. Corequisite: GEOL 309L. Study of the basic principles of plate tectonics and structural geology that provide ways to interpret Earth\u2019s interior. Topics will include the basics of plate tectonic theory, stress and strain, classification of structures, and structural-tectonic evolution of modern and ancient plate boundaries. 3 hours lecture, 3 hours lab, field trip, fee required.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Any 3-unit 100-level GEOL course"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "309L",
+        "title": "Tectonics Lab",
+        "description": "Prerequisite: Any 3-unit 100-level GEOL course. Corequisite: GEOL 309L. Study of the basic principles of plate tectonics and structural geology that provide ways to interpret Earth\u2019s interior. Topics will include the basics of plate tectonic theory, stress and strain, classification of structures, and structural-tectonic evolution of modern and ancient plate boundaries. 3 hours lecture, 3 hours lab, field trip, fee required.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Any 3-unit 100-level GEOL course"
+    },
+    {
+        "subject": "GEOL",
         "catalog_number": "310",
         "title": "Structural Geology",
         "description": "Prerequisites: GEOL 309/L. Corequisite: GEOL 310L. Study of rock deformational processes and resulting structures in the Earth\u2019s crust. Lab work emphasizes the use of graphic methods to assist in the geometric and kinematic interpretation of rock structures. 3 hours lecture, 3 hours lab, field trip, fee required.",
@@ -161,11 +193,43 @@
     },
     {
         "subject": "GEOL",
+        "catalog_number": "314",
+        "title": "Earth Systems",
+        "description": "Prerequisite: Any 3-unit 100-level GEOL course. Corequisite: GEOL 314L. This course focuses on the four Earth systems (geosphere, hydrosphere, atmosphere, and biosphere) and interactions between these systems and humankind. Major course topics include water and energy resources, global climate change, sedimentary processes at the Earth\u2019s surface, and how the fossil record is used to understand Earth history and the geologic timescale. Special focus will be placed on feedbacks between each system and the role of humans in these interactions. The laboratory will reinforce and expand concepts introduced in the lecture. 3 hours lecture, 3 hours lab, field trips, fee required.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Any 3-unit 100-level GEOL course"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "314L",
+        "title": "Earth Systems Lab",
+        "description": "Prerequisite: Any 3-unit 100-level GEOL course. Corequisite: GEOL 314L. This course focuses on the four Earth systems (geosphere, hydrosphere, atmosphere, and biosphere) and interactions between these systems and humankind. Major course topics include water and energy resources, global climate change, sedimentary processes at the Earth\u2019s surface, and how the fossil record is used to understand Earth history and the geologic timescale. Special focus will be placed on feedbacks between each system and the role of humans in these interactions. The laboratory will reinforce and expand concepts introduced in the lecture. 3 hours lecture, 3 hours lab, field trips, fee required.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Any 3-unit 100-level GEOL course"
+    },
+    {
+        "subject": "GEOL",
         "catalog_number": "324",
         "title": "Dinosaurs",
         "description": "Prerequisite: Completion of the lower division writing requirement. This course is a study of dinosaurs and the world in which they lived from the time of their first appearance to their extinction. The evolutionary patterns exhibited by dinosaurs are explored via an examination of their spatial and temporal distribution through time, considering connections to the evolving Mesozoic world\u2019s paleogeography, paleoclimate, and paleo-environment as interpreted from the rock record. Topics include dinosaur origins, anatomy, reproduction, diets, diversity, and classification, as well as a survey of other vertebrate animals that lived at the same time. Hypotheses for dinosaur extinction are compared and contrasted. (Cross-listed with BIOL 324.) (Available for General Education B5, Scientific Inquiry and Quantitative Reasoning.)",
         "units": "3",
         "prerequisites": "Prerequisite: Completion of the lower division writing requirement"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "341",
+        "title": "Sed/strat Lect",
+        "description": "Prerequisites: GEOL 314/L. Corequisite: 341L. Introduction to the processes of sedimentation; the texture, composition and classification of sedimentary rocks; depositional environments; and stratigraphic sequences and correlation techniques. 3 hours lecture, 3 hours lab, field trips, fee required.",
+        "units": "2",
+        "prerequisites": "Prerequisites: GEOL 314/L"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "341L",
+        "title": "Sed/strat Lab",
+        "description": "Prerequisites: GEOL 314/L. Corequisite: 341L. Introduction to the processes of sedimentation; the texture, composition and classification of sedimentary rocks; depositional environments; and stratigraphic sequences and correlation techniques. 3 hours lecture, 3 hours lab, field trips, fee required.",
+        "units": "1",
+        "prerequisites": "Prerequisites: GEOL 314/L"
     },
     {
         "subject": "GEOL",
@@ -190,6 +254,14 @@
         "description": "Prerequisites: GEOL 303, GEOL 306, GEOL 309, GEOL 313, GEOL 314; B.S. Geology majors only. Students engage in a semester-long case study problem where a community must make a decision about how to effectively use a geologically complex site such as an eroding coastline, a contaminated industrial site, or a landfill facing landslides (topics change yearly). Students work in collaborative teams to investigate the geologic, economic, social, and political factors that affect that decision.",
         "units": "3",
         "prerequisites": "Prerequisites: GEOL 303, GEOL 306, GEOL 309, GEOL 313, GEOL 314; B"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "497",
+        "title": "Research Methods And Design",
+        "description": "Preparatory: Junior or senior standing; Instructor consent. Students are advised and guided in research methods and design. Students use critical reasoning and the scientific method to develop and write their own research proposal to execute the project for their senior thesis. The written proposal is patterned after those required by the National Science Foundation.",
+        "units": "1",
+        "prerequisites": "Preparatory: Junior or senior standing; Instructor consent"
     },
     {
         "subject": "GEOL",
@@ -222,6 +294,14 @@
         "description": "Preparatory: GEOL 310. Lecture topics will include a review of plate tectonics, rock mechanics, seismology, tectonic geodesy, paleoseismology, tectonic geomorphology and seismic hazard assessment. Detailed discussions will include study of recent major earthquakes that have occurred in strike-slip, thrust-reverse, megathrust (subduction zone) and normal-fault tectonic settings. Labs will include study of air photos, geologic maps, trench logs and core descriptions from studies of recent earthquakes, and the collection and analysis of field data used in earthquake studies. 2 hours lecture, 3 hours lab, field trips.",
         "units": "1",
         "prerequisites": "Preparatory: GEOL 310"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "536",
+        "title": "Igneous Petrology",
+        "description": "Corequisite: GEOL 536L. Preparatory: GEOL 307. Study of the more important kinds of igneous rocks, emphasizing distribution, origin, causes of compositional variation and relation to tectonic factors. Representative rock suites and computer techniques are studied in the lab. 3 hours lecture, 3 hours lab, field trips.",
+        "units": "3",
+        "prerequisites": "Corequisite: GEOL 536L"
     },
     {
         "subject": "GEOL",
@@ -262,6 +342,29 @@
         "description": "Corequisite: GEOL 575L. Preparatory: Upper division standing in Geology; Formal geologic field reports, including geologic maps and cross-sections, one for GEOL 430A and one for GEOL 430B. Students must enroll in both courses during the same Summer session. Available for graduate credit.",
         "units": "1",
         "prerequisites": "Corequisite: GEOL 575L"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "590",
+        "title": "Lit Seminar",
+        "description": "Preparatory: Senior undergraduate or graduate standing in Geological Sciences. Students will make oral presentations of and lead discussions about current research literature in geological sciences.",
+        "units": "1",
+        "prerequisites": "Preparatory: Senior undergraduate or graduate standing in Geological Sciences"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "595U",
+        "title": "Hydrogeochemistry",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "GEOL",
+        "catalog_number": "694",
+        "title": "Grad Res Design",
+        "description": "Instruction and practice in the process required to construct a research proposal, culminating in the development of a graduate-level research proposal suitable as a master\u2019s thesis project.",
+        "units": "1",
+        "prerequisites": "Instruction and practice in the process required to construct a research proposal, culminating in the development of a graduate-level research proposal suitable as a master\u2019s thesis project"
     },
     {
         "subject": "GEOL",

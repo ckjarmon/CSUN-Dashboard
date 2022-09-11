@@ -65,6 +65,13 @@
     },
     {
         "subject": "CIT",
+        "catalog_number": "292IP",
+        "title": "Programming I",
+        "description": null,
+        "units": "4"
+    },
+    {
+        "subject": "CIT",
         "catalog_number": "360",
         "title": "Cit System Management",
         "description": "Prerequisites: CIT 210/L, CIT 270/L. Corequisites: CIT 360 and CIT 360L are corequisites of each other. Overview of enterprise system architecture, principles and practices of systems administration and system management including firewalls and proxy servers; networked file systems; user account management; resources allocation, installation and configuration of operating systems, startup and shutdown, booting, performance monitoring, storage backup and restore; system administration tools; system maintenance, user support issues, web administration; integration of network, storage, system resources to meet user needs and enterprise goals and objectives, roles and responsibilities of a system administrator. Lab portion of the course will provide hands-on implementation and troubleshooting exercises. Two hour lecture and three hour laboratory per week.",
@@ -110,6 +117,22 @@
         "description": "Prerequisites: CIT 360/L and IS 435. This course will provide a comprehensive introduction and study into a broad selection of contemporary information systems security issues, concepts and policies, including the survey of state-of-the art technology used to address security problems. Topics of study include the basic principles of information systems security, including cryptography, identifications and authentications, access control models and mechanisms, multilevel database security, Internet security, planning and administering security, risk analysis, social issues such as individual privacy, and the role of public policy. The students will gain an understanding of the threats to information resources and learn about counter measurements and their limitations. Two hours of lecture and three hours of laboratory per week. Credit not allowed for both CIT 425/L and COMP 424.",
         "units": "1",
         "prerequisites": "Prerequisites: CIT 360/L and IS 435"
+    },
+    {
+        "subject": "CIT",
+        "catalog_number": "480",
+        "title": "Cit System Design And Implementation I",
+        "description": "Prerequisite: IS 451. Corequisites: COMP 484/L; CIT 480L. CIT senior project first semester includes project proposal, methods and processes, feasibility studies, teamwork, CASE tools, work breakdown structure, estimating and budgeting, schedule planning, peer reviews and inspections, and technical presentation. Professional communication. Teamwork concepts and issues. Organizational context. Professional and ethical issues, roles and responsibilities. Two hour lecture and three hour laboratory per week.",
+        "units": "2",
+        "prerequisites": "Prerequisite: IS 451"
+    },
+    {
+        "subject": "CIT",
+        "catalog_number": "480L",
+        "title": "Cit System Design And Implementation I Lab",
+        "description": "Prerequisite: IS 451. Corequisites: COMP 484/L; CIT 480L. CIT senior project first semester includes project proposal, methods and processes, feasibility studies, teamwork, CASE tools, work breakdown structure, estimating and budgeting, schedule planning, peer reviews and inspections, and technical presentation. Professional communication. Teamwork concepts and issues. Organizational context. Professional and ethical issues, roles and responsibilities. Two hour lecture and three hour laboratory per week.",
+        "units": "1",
+        "prerequisites": "Prerequisite: IS 451"
     },
     {
         "subject": "CIT",

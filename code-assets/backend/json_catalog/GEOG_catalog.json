@@ -88,6 +88,20 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "111HL",
+        "title": "Climate Change Lb",
+        "description": null,
+        "units": "1"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "111HON",
+        "title": "Climate Change",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "111L",
         "title": "Climate Change Lb",
         "description": "Corequisite: GEOG 111. Laboratory exercises include climate prediction modeling, the use of proxy data, and examination of the impacts of climate change. 3 hours lab per week. Students receive credit for only one course chosen from either GEOG 111L, SUST 111L, or SCI 111L. (Available for General Education, B3 Science Laboratory Activity requirement provided GEOG 111 is also completed.)",
@@ -101,6 +115,14 @@
         "description": "Geographical survey of the world\u2019s major regions, with emphasis on those features important to an understanding of current global concerns and problems. (Available for General Education, D1 Social Sciences.)",
         "units": "3",
         "prerequisites": "Geographical survey of the world\u2019s major regions, with emphasis on those features important to an understanding of current global concerns and problems"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "170",
+        "title": "Water Resource Ca",
+        "description": "This course examines the nature and challenges of California\u2019s water resources. Topics include the physical attributes of water (sources, quantity, and quality), the underlying climatic and hydrologic processes that determine the surface and subsurface distribution of water, and the physical, social, economic and management issues that occur as California\u2019s water resources face increasing pressure from agriculture, industry, and human populations and climate change. (Available for General Education, D1 Social Sciences.)",
+        "units": "3",
+        "prerequisites": "This course examines the nature and challenges of California\u2019s water resources"
     },
     {
         "subject": "GEOG",
@@ -149,6 +171,22 @@
         "description": "Prerequisite: GEOG 101 or GEOG 101A or GEOG 150. Corequisite: GEOG 304L. Introduction to reading maps and interpreting aerial imagery. Emphasis on making simple measurements from maps and imagery, techniques of interpreting the physical and cultural landscape and elementary map-making. 2 hours lecture, 2 hours lab.",
         "units": "2",
         "prerequisites": "Prerequisite: GEOG 101 or GEOG 101A or GEOG 150"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "305",
+        "title": "Maps And Graphics",
+        "description": "Corequisite: GEOG 305L. Preparatory: Lower division course in Geography or other relevant field. Design, use and preparation of maps and graphs. 2 hours lecture, 2 hours lab.",
+        "units": "2",
+        "prerequisites": "Corequisite: GEOG 305L"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "305L",
+        "title": "Maps And Graphics Lab",
+        "description": "Corequisite: GEOG 305L. Preparatory: Lower division course in Geography or other relevant field. Design, use and preparation of maps and graphs. 2 hours lecture, 2 hours lab.",
+        "units": "2",
+        "prerequisites": "Corequisite: GEOG 305L"
     },
     {
         "subject": "GEOG",
@@ -224,11 +262,35 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "326",
+        "title": "Africa",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Geographical analysis of the peoples and cultures of Africa, emphasizing features important to an understanding of Africa\u2019s cultural and regional diversity and contemporary problems. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "Prerequisite: Completion of the lower division writing requirement"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "330",
         "title": "California",
         "description": "Prerequisites: Lower division course in the social sciences; Completion of the lower division writing requirement. An exploration of the diverse physical and human landscapes of California. The course examines the state\u2019s environmental context (climate, landforms, water, vegetation, wildlife, minerals); human imprints on the natural landscape (population, agriculture, industry, urbanization); and the physical and human challenges facing California today. (Available for General Education, D1 Social Sciences.)",
         "units": "3",
         "prerequisites": "Prerequisites: Lower division course in the social sciences; Completion of the lower division writing requirement"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "334",
+        "title": "Geography Of Oceania",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Cultural and regional geography of Oceania, including Australia, New Zealand and the Pacific nations, territories and protectorates. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "Prerequisite: Completion of the lower division writing requirement"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "340",
+        "title": "Economic Geography",
+        "description": "Prerequisite: Lower division course in Geography or ECON 160 or ECON 300. Principles governing spatial organization of society. Theoretical and empirical approaches to location of urban and rural settlement and economic activities. Spatial structures, their interrelationships and changes in organization.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Lower division course in Geography or ECON 160 or ECON 300"
     },
     {
         "subject": "GEOG",
@@ -272,6 +334,14 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "366L",
+        "title": "Envin Hazards Lab",
+        "description": "Prerequisites: A lower division science course from Physical Geography, Geological Sciences, Physics, Chemistry, or Biology; completion of the lower division writing requirement. Corequisite: GEOG 366. Observations, experiments and demonstrations designed to familiarize students with the scientific investigation of environmental hazards. 2 hours lab.",
+        "units": "1",
+        "prerequisites": "Prerequisites: A lower division science course from Physical Geography, Geological Sciences, Physics, Chemistry, or Biology; completion of the lower division writing requirement"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "370",
         "title": "Water Soc Env",
         "description": "Prerequisite: Completion of the lower division writing requirement. This course critically examines the complex relationships between human societies and water. A broad understanding of the coupled natural and human systems and their dependence on water will be examined. Topics include the global distribution of water, hydrological cycle, water supply and demand, water policy and law, water and public health, and the economics of water. This course will conclude with an examination of the growing water/energy nexus and provide insight into the future of water on our planet. Relevant examples will be drawn from California, the United States and from around the world. (Available for General Education, D1 Social Sciences.)",
@@ -294,6 +364,13 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "404TC",
+        "title": "Fld Std Urban",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "406",
         "title": "Advanced Geographical Information Science",
         "description": "Prerequisite: GEOG 306 or permission of instructor. Corequisite: GEOG 406L. This course will cover advanced topics in geographical information science. Students will investigate geographic data structures, advanced concepts in database design, algorithms for spatial data analysis, web-based mapping applications, customized applications, and implementation and management issues associated with Geographic Information Systems (GIS). Lab will demonstrate these issues through the use of GIS software packages. Available for graduate credit. 2 hours lecture, 3 hours lab.",
@@ -310,11 +387,43 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "407",
+        "title": "Remote Sensing",
+        "description": "Prerequisites: GEOG 304/L or GEOG 305/ L or GEOG 306/L or permission of the instructor. Corequisite: GEOG 407L. Theory and practice of remote sensing by satellites and aircraft in visible, infrared and microwave portions of the spectrum. Problem-oriented course emphasizing the application of image processing software and techniques to digital satellite imagery. Available for graduate credit. 2 hours lecture, 2 hours lab.",
+        "units": "3",
+        "prerequisites": "Prerequisites: GEOG 304/L or GEOG 305/ L or GEOG 306/L or permission of the instructor"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "407L",
+        "title": "Remote Sensng Lab",
+        "description": "Prerequisites: GEOG 304/L or GEOG 305/ L or GEOG 306/L or permission of the instructor. Corequisite: GEOG 407L. Theory and practice of remote sensing by satellites and aircraft in visible, infrared and microwave portions of the spectrum. Problem-oriented course emphasizing the application of image processing software and techniques to digital satellite imagery. Available for graduate credit. 2 hours lecture, 2 hours lab.",
+        "units": "1",
+        "prerequisites": "Prerequisites: GEOG 304/L or GEOG 305/ L or GEOG 306/L or permission of the instructor"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "408B",
         "title": "Env Appl In Gis",
         "description": "Prerequisites: GEOG 306/L or permission of instructor. Corequisite: GEOG 408BL. Advanced applications of geographical information systems. Includes analysis of environmental hazards, animal and plant species distributions, distributions of archaeological sites, mineral exploration, forest inventory and management, navigation, hydrology, climatology, geomorphology. Project may result in the development of customized applications of software. Available for graduate credit. 2 hours lecture, 3 hours lab.",
         "units": "2",
         "prerequisites": "Prerequisites: GEOG 306/L or permission of instructor"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "408D",
+        "title": "Spatial Database Management",
+        "description": "Prerequisites: GEOG 206/L or permission of instructor. Corequisite: GEOG 408DL. Advanced concepts in spatial database management. This course explores the management and design of spatial datasets and their association with Geographical Information Systems. Students will be introduced to concepts such as the principles of spatial database planning, design, implementation, and administration. Final projects will result in the development of a customized geospatial database. Available for graduate credit. 2 hours lecture, 3 hours lab.",
+        "units": "2",
+        "prerequisites": "Prerequisites: GEOG 206/L or permission of instructor"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "408DL",
+        "title": "Spatial Database Management Lab",
+        "description": "Prerequisites: GEOG 206/L or permission of instructor. Corequisite: GEOG 408DL. Advanced concepts in spatial database management. This course explores the management and design of spatial datasets and their association with Geographical Information Systems. Students will be introduced to concepts such as the principles of spatial database planning, design, implementation, and administration. Final projects will result in the development of a customized geospatial database. Available for graduate credit. 2 hours lecture, 3 hours lab.",
+        "units": "1",
+        "prerequisites": "Prerequisites: GEOG 206/L or permission of instructor"
     },
     {
         "subject": "GEOG",
@@ -334,6 +443,22 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "408F",
+        "title": "Webgis",
+        "description": "Prerequisites: GEOG 206/L or permission of instructor. Corequisite: GEOG 408FL. Introduction to the design, development, and implementation of interactive and accessible customized web-based GIS applications. The course provides an overview of conceptual and theoretical backgrounds of WebGIS system architecture and offers programming concepts and skill sets underlying development and implementation of distributed geographical information on the Internet. Available for graduate credit. 2 hours lecture, 3 hours lab.",
+        "units": "2",
+        "prerequisites": "Prerequisites: GEOG 206/L or permission of instructor"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "408FL",
+        "title": "Webgis Lab",
+        "description": "Prerequisites: GEOG 206/L or permission of instructor. Corequisite: GEOG 408FL. Introduction to the design, development, and implementation of interactive and accessible customized web-based GIS applications. The course provides an overview of conceptual and theoretical backgrounds of WebGIS system architecture and offers programming concepts and skill sets underlying development and implementation of distributed geographical information on the Internet. Available for graduate credit. 2 hours lecture, 3 hours lab.",
+        "units": "1",
+        "prerequisites": "Prerequisites: GEOG 206/L or permission of instructor"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "409",
         "title": "Digital Cartography",
         "description": "Prerequisites: GEOG 305/L. Corequisite: GEOG 409L. Advanced design, use and presentation of maps and information graphics. Course will explore computer-assisted cartography in theory and practice. Topics will include cartographic communications, data acquisition and design for computer generated mapping. 2 hours lecture, 2 hours lab. Available for graduate credit.",
@@ -347,6 +472,14 @@
         "description": "Prerequisites: GEOG 305/L. Corequisite: GEOG 409L. Advanced design, use and presentation of maps and information graphics. Course will explore computer-assisted cartography in theory and practice. Topics will include cartographic communications, data acquisition and design for computer generated mapping. 2 hours lecture, 2 hours lab. Available for graduate credit.",
         "units": "1",
         "prerequisites": "Prerequisites: GEOG 305/L"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "449",
+        "title": "Mixed Methods Geog",
+        "description": "Prerequisites: Lower division course in geography; Completion of the lower division writing requirement. Preparatory: GEOG 300. This course provides training in a selection of qualitative and quantitative methods and their applications in human and environmental geography. This is useful for research into human dimensions of space, place, and landscape; the human-environment interface; and socio-ecological processes. Through seminar-based discussions and assignments, students will examine methods such as: questionnaires; participant observation; interviews; archival maps; discourse analysis; and participatory, feminist, and community-based approaches to geographic information systems (GIS). There is emphasis on integrating these methods into the research design process and on writing analytical research papers. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "Prerequisites: Lower division course in geography; Completion of the lower division writing requirement"
     },
     {
         "subject": "GEOG",
@@ -398,6 +531,14 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "600",
+        "title": "Geographic Thought",
+        "description": "Introductory seminar designed for first-year graduate students. Analysis of the trends in the theories, methods and problems pertinent to contemporary geography, including a review of the skills required for geographical research, analysis and writing.",
+        "units": "3",
+        "prerequisites": "Introductory seminar designed for first-year graduate students"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "630A",
         "title": "Environmental Studies: Environmental Geography",
         "description": "(A) Environmental Geography, (B) Biogeography, (C) Special Topics in Environmental Geography, (E) Human Impact on the Environment.",
@@ -406,11 +547,35 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "630C",
+        "title": "Environmental Studies: Special Topics In Environmental Geography",
+        "description": "(A) Environmental Geography (B) Biogeography (C) Special Topics in Environmental Geography (D) Ecosystem Studies (E) Human Impact on the Environment (F) Natural Resources.\n",
+        "units": "3",
+        "prerequisites": "(A) Environmental Geography (B) Biogeography (C) Special Topics in Environmental Geography (D) Ecosystem Studies (E) Human Impact on the Environment (F) Natural Resources"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "630E",
         "title": "Environmental Studies: Human Impact On The Environment",
         "description": "(A) Environmental Geography (B) Biogeography (C) Special Topics in Environmental Geography (D) Ecosystem Studies (E) Human Impact on the Environment (F) Natural Resources.\n",
         "units": "3",
         "prerequisites": "(A) Environmental Geography (B) Biogeography (C) Special Topics in Environmental Geography (D) Ecosystem Studies (E) Human Impact on the Environment (F) Natural Resources"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "650A",
+        "title": "Urban Geography: Special Topics In Urban Geography",
+        "description": "(A) Special Topics in Urban Geography, (C) Urban Social Geography, (D) Metropolitan Los Angeles.",
+        "units": "3",
+        "prerequisites": "(A) Special Topics in Urban Geography, (C) Urban Social Geography, (D) Metropolitan Los Angeles"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "650C",
+        "title": "Urban Geography: Urban Social Geography",
+        "description": "(A) Special Topics in Urban Geography (B) Housing and Community Development (C) Urban Social Geography (D) Metropolitan Los Angeles\n",
+        "units": "3",
+        "prerequisites": "N/A"
     },
     {
         "subject": "GEOG",
@@ -435,6 +600,21 @@
         "description": "(A) Special Topics in GIS\u00a0: selected topics in digital mapping with course content to be\u00a0determined.\u00a0 Can be taken twice for six units.\u00a0(B) Spatial Statistics. (C) Digital Cartography: Selected topics in digital cartography with course content to be\u00a0determined. Can be taken twice for six units.\u00a0(D) Remote Sensing. (E) Image Interpretation. (F) Methods in GIS. (G) Applications in GIS: selected topics in GIS applications with course content to be determined. Can be taken twice for six units. (H) Environmental Applications of GIS.\n",
         "units": "3",
         "prerequisites": "(A) Special Topics in GIS\u00a0: selected topics in digital mapping with course content to be\u00a0determined"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "690J",
+        "title": "Found Gis",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "696",
+        "title": "Directed Graduate Research",
+        "description": "To be taken near the end of the student\u2019s graduate program and prior to GEOG 698. Supervised research leading to the development of a thesis topic, preparation of a preliminary bibliography and a formal thesis proposal, and selection of a faculty thesis committee.",
+        "units": "3",
+        "prerequisites": "To be taken near the end of the student\u2019s graduate program and prior to GEOG 698"
     },
     {
         "subject": "GEOG",

@@ -1,6 +1,14 @@
 [
     {
         "subject": "ME",
+        "catalog_number": "100",
+        "title": "Intro To Cad And Fab",
+        "description": "Introduction to computer aided design and 3D solid modeling using Fusion 360 or another commercially available package. Students will learn the procedure used to create parametric relations between features and manage basic design changes. The course project entails fabrication of student\u2019s design using a 3D printer. The concepts in the course could be used in a broad range of applications from art projects to custom made items. Students\u2019 knowledge of the fundamental concepts of these imminent technologies would make them more qualified for industry positions. (Available for General Education, E Lifelong Learning.)",
+        "units": "3",
+        "prerequisites": "Introduction to computer aided design and 3D solid modeling using Fusion 360 or another commercially available package"
+    },
+    {
+        "subject": "ME",
         "catalog_number": "101",
         "title": "Introduction To Mechanical Engineering",
         "description": "Prerequisite: MATH 102, MATH 104, MATH 105, MATH 150A or MATH 150B, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: ME 101L. Freshman orientation course introducing the Mechanical Engineering Program, the profession and the University. \u201cTools of the trade\u201d\u2014the Internet, word processing, spreadsheets, power point, computer-aided design, basic lab measurement instruments, commercial component catalogs and numerically controlled machine tools to support prototype fabrication\u2014are introduced in the context of engineering practice. Fundamental engineering analysis/design is explored through simple examples covering all aspects of mechanical engineering. 1 hour lecture, 3 hours lab per week. (Available for General Education, E Lifelong Learning for Mechanical Engineering majors.)",
@@ -54,6 +62,13 @@
         "description": "Prerequisites: ME 186/L; Corequisite MSE 227. Introduction to mechanical design, design methodology and design for manufacturing. Engineering materials selection, metal forming/removal theory and practice. A group design project is required. 2 hours lecture per week.",
         "units": "2",
         "prerequisites": "Prerequisites: ME 186/L; Corequisite MSE 227"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "292IP",
+        "title": "Automotive Technology",
+        "description": null,
+        "units": "3"
     },
     {
         "subject": "ME",
@@ -145,11 +160,42 @@
     },
     {
         "subject": "ME",
+        "catalog_number": "400AC",
+        "title": "Design Clinic I",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "415",
+        "title": "Kinematics Of Mechanisms",
+        "description": "Prerequisites: AM 316, ME 309, and upper division standing. Introduction to the kinematic analysis of mechanisms, as well as mechanism design and synthesis. Mechanisms considered include pin-jointed linkages, sliders, and cams. In addition to analytical and graphical approaches, computational analysis techniques are presented. The topics are integrated into a semester-long project utilizing simulation software to design a novel mechanism.",
+        "units": "3",
+        "prerequisites": "Prerequisites: AM 316, ME 309, and upper division standing"
+    },
+    {
+        "subject": "ME",
         "catalog_number": "430",
         "title": "Machine Design Applications",
         "description": "Prerequisites: CE 340; ME 330. Continuation of ME 330, with emphasis on fatigue of machine parts, life, wear and friction considerations. Turbine, pump, transmissions and other devices discussed and analyzed as case studies. Design project.",
         "units": "3",
         "prerequisites": "Prerequisites: CE 340; ME 330"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "431",
+        "title": "Machine Dsgn Manu",
+        "description": "Prerequisites: ME 286; CE 340. Corequisite: ME 431L. An advanced mechanical design course with emphasis on computer aided design and design for manufacturing of machine parts. Introduction to machine elements. Metal machining theory, operation, and tool technology. Non-traditional machining and surface treatment. Working drawings, tolerancing, and limits of fit. Fixture design and planning. 2 hours of lecture and 3 hours of lab per week.",
+        "units": "2",
+        "prerequisites": "Prerequisites: ME 286; CE 340"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "431L",
+        "title": "Machine Dsgn Lab",
+        "description": "Prerequisites: ME 286; CE 340. Corequisite: ME 431L. An advanced mechanical design course with emphasis on computer aided design and design for manufacturing of machine parts. Introduction to machine elements. Metal machining theory, operation, and tool technology. Non-traditional machining and surface treatment. Working drawings, tolerancing, and limits of fit. Fixture design and planning. 2 hours of lecture and 3 hours of lab per week.",
+        "units": "1",
+        "prerequisites": "Prerequisites: ME 286; CE 340"
     },
     {
         "subject": "ME",
@@ -193,10 +239,33 @@
     },
     {
         "subject": "ME",
+        "catalog_number": "460",
+        "title": "Automotive Engr",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "ME",
         "catalog_number": "462",
         "title": "Int Comb Engines",
         "description": null,
         "units": "2"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "470",
+        "title": "Thermodynamics Ii",
+        "description": "Prerequisite: ME 370. Continuation of Thermodynamics I, with applications to engineering systems. Gas and vapor cycles for power and refrigeration. Reactive and non-reactive mixtures. Introduction to combustion.",
+        "units": "3",
+        "prerequisites": "Prerequisite: ME 370"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "482",
+        "title": "Alt Energy Fund",
+        "description": "Prerequisites: ME 375, ME 390, MSE 304. Alternative energy basics, energy economics, fuel cell fundamentals, fuel cell operating principles and performance, fuel cell types, construction features, balance of fuel cell power plant, hydrogen infrastructure.",
+        "units": "3",
+        "prerequisites": "Prerequisites: ME 375, ME 390, MSE 304"
     },
     {
         "subject": "ME",
@@ -248,6 +317,14 @@
     },
     {
         "subject": "ME",
+        "catalog_number": "490",
+        "title": "Fluid Dynamics",
+        "description": "Prerequisite: ME 390. Second-semester fluids course with applications to systems of engineering interest. Potential flows, boundary layers, duct flows, lubrication theory, lift and drag. One-dimensional compressible flow with area change, friction, heating/cooling, normal shock waves, oblique shock waves and Prandtl-Meyer expansions. Both numerical and analytical solution techniques are explored.",
+        "units": "3",
+        "prerequisites": "Prerequisite: ME 390"
+    },
+    {
+        "subject": "ME",
         "catalog_number": "491",
         "title": "Thermal-fluids Lab",
         "description": "Prerequisites: ME 335, ME 370, ME 375, ME 390. Experimental studies of fluid mechanics, thermodynamics, and heat transfer. Measurement and analysis of performance of simple cyclic devices, aerodynamic shapes, turbo machines, piping systems and heat exchangers. One 3-hour lab per week.",
@@ -261,6 +338,29 @@
         "description": "Prerequisite: ME 390. Fundamental principles of incompressible fluid flow and their applications to pipe flow, open channel flow and the performance of hydraulic turbomachines. Flow in pipe systems ranging from simple series systems to complex branched networks. Uniform flows, gradually varying flows, rapid transitions and hydraulic jumps in open channels. Performance of radial, mixed-flow and axial flow centrifugal pumps and turbines, and of impulse turbines.",
         "units": "3",
         "prerequisites": "Prerequisite: ME 390"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "494A",
+        "title": "Academic Internship",
+        "description": "Prerequisites: Sophomore, junior or senior standing in the Department of Mechanical Engineering; Prior approval of the department internship coordinator. Supervised practical professional experience relevant to the field of study in approved public or private organizations. Industrial supervisor and faculty sponsor performance evaluations and student self assessment are required. A final report written by students describing the work accomplished and knowledge and skills acquired are required. Units earned may not be used to fulfill major program requirements. Enrollment is limited to 6 units total in any combination of A, B, C. Available for graduate credit. (Letter Grade only)",
+        "units": "1",
+        "prerequisites": "Prerequisites: Sophomore, junior or senior standing in the Department of Mechanical Engineering; Prior approval of the department internship coordinator"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "496CFD",
+        "title": "Ugrad Comp Fld Dyn",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "501A",
+        "title": "Seminar In Engineering Analysis",
+        "description": "Analytic and numerical methods applied to the solution of engineering problems at an advanced level. Solution methods are demonstrated on a wide range of engineering topics, including structures, fluids, thermal, thermal energy transport and mechanical systems. This course emphasizes physical phenomena that can be described by systems of ordinary differential equations.",
+        "units": "3",
+        "prerequisites": "Analytic and numerical methods applied to the solution of engineering problems at an advanced level"
     },
     {
         "subject": "ME",
@@ -280,6 +380,22 @@
     },
     {
         "subject": "ME",
+        "catalog_number": "520",
+        "title": "Robot Mechanics And Control",
+        "description": "Prerequisite: ME 384 or equivalent. Corequisite: ME 415 or consent of instructor. Overview of the state-of-the-art of robotics and tele-robotics. Analysis, modeling and simulation of motions, differential motions and dynamics of robots. Emphasis will be placed on various aspects of robot controls, including position and force. Experience in robot design will be gained through course projects.",
+        "units": "3",
+        "prerequisites": "Prerequisite: ME 384 or equivalent"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "522",
+        "title": "Auto Mobile Robot",
+        "description": "Prerequisite: Senior standing. Overview of the state of the art on autonomous ground vehicles. Locomotion, mobile kinematics, perception, localization, obstacle avoidance and navigation of autonomous vehicles. Emphasis will be placed on chassis design, various sensor performance and navigation algorithm development. Knowledge of motion control, vision perception, sensor active ranging and GPS navigation will be gained through course projects.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Senior standing"
+    },
+    {
+        "subject": "ME",
         "catalog_number": "530",
         "title": "Mechanics Of Solids",
         "description": "Prerequisite: ME 330 (or equivalent). Solid mechanics fundamentals, including concepts of stress and strain, elasticity, as well as failure and modal analysis of discrete and continuous mechanical systems. Contemporary topics of mechanical engineering practice and scientific research in the area of solid mechanics and related fields. Conducting a successful literature review. Research-based class project.",
@@ -296,6 +412,14 @@
     },
     {
         "subject": "ME",
+        "catalog_number": "536",
+        "title": "Design Composites",
+        "description": "Prerequisite: ME 330. Introduction to various types of composite materials, their classifications and properties. Mechanics of composite materials with a focus on macromechanics of lamina and laminate. Stress, stiffness and failure analysis of laminate. Design and analysis of symmetric and non-symmetric laminated beams. Shaft design under torsional and bending loading scenarios. Design and analysis of walled-cylinders. Integration of numerical design and analysis software suites.",
+        "units": "3",
+        "prerequisites": "Prerequisite: ME 330"
+    },
+    {
+        "subject": "ME",
         "catalog_number": "575",
         "title": "Applied Heat And Mass Transfer",
         "description": "Prerequisite: ME 375 or equivalent. Continuation of ME 375, with emphasis on the convective modes of heat and mass transfer. Heat exchangers, evaporation, boiling, condensation, high speed flows and combined processes are considered with application to design.",
@@ -304,11 +428,50 @@
     },
     {
         "subject": "ME",
+        "catalog_number": "583",
+        "title": "Thermal-fluid Systems Design",
+        "description": "Preparatory: ME 470, ME 490. System design and optimization course that integrates the disciplines of fluid mechanics, thermodynamics and heat transfer. Intent is to build on and extend information previously acquired in these courses. Emphasis is placed on the synthesis of components into a thermal-fluid system to accomplish a specified task with technical, economical and social constraints. Series of design problems are assigned to the class as homework. These problems require students to incorporate design methodology into their work.",
+        "units": "3",
+        "prerequisites": "Preparatory: ME 470, ME 490"
+    },
+    {
+        "subject": "ME",
         "catalog_number": "584",
         "title": "Modeling And Simulation Of Dynamic Systems",
         "description": "Prerequisite: ME 384 or equivalent. Corequisite ME 501A. Comprehensive and advanced treatment of the modeling techniques and response analyses of engineering dynamic systems. Both linear and nonlinear dynamic behavior of physical systems of different technical disciplines are studied with the aid of computer simulation. Mixed systems composed of electromechanical, fluid-mechanical and electrohydraulic components also are investigated. Computational and visualization tools, such as MATLAB, are used to enhance analyzing and understanding of system performance.",
         "units": "3",
         "prerequisites": "Prerequisite: ME 384 or equivalent"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "590",
+        "title": "Advanced Fluid Dynamics",
+        "description": "Prerequisite: ME 390 or equivalent. Corequisite: ME 501A. Derivation of conservation equations from fundamental principles and the constitutive relations for Newtonian fluids. Exact solutions of the Navier-Stokes equations, including transient and oscillatory solutions. Laminar and turbulent boundary layers as well as Stokes flow solutions. Introduction to the vorticity equation and vortex dynamics. Potential flow applications.",
+        "units": "3",
+        "prerequisites": "Prerequisite: ME 390 or equivalent"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "593",
+        "title": "Comp Flow",
+        "description": "Prerequisites: Background equivalent to a two semester undergraduate course sequence in fluid mechanics; Enrollment for graduate students only. Corequisite: ME 501A or ME 501B. Fundamental treatment of compressible flows including generalized one-dimensional flows, normal and oblique shock waves, Prandtl-Meyer expansion waves, unsteady waves, linearized potential flow. Method of characteristics. Hypersonic flow, high temperature and low density effects.",
+        "units": "3",
+        "prerequisites": "Prerequisites: Background equivalent to a two semester undergraduate course sequence in fluid mechanics; Enrollment for graduate students only"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "595COM",
+        "title": "Combustion",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "684",
+        "title": "Design And Control Of Dynamic Systems",
+        "description": "Prerequisite: ME 484. Design and control of mechanical systems. Time-domain and state space methods integrated into the design of dynamic processes. Application to automotive, aircraft, spacecraft, robots and related mechanical/aerospace systems. Digital simulations.",
+        "units": "3",
+        "prerequisites": "Prerequisite: ME 484"
     },
     {
         "subject": "ME",
@@ -341,6 +504,14 @@
         "description": "Prerequisites: Graduate classification, completion of and/or concurrent enrollment in remaining units required for the M.S. degree. Comprehensive examination of material covered in required core courses and emphasis area electives.",
         "units": "1",
         "prerequisites": "Prerequisites: Graduate classification, completion of and/or concurrent enrollment in remaining units required for the M"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "698B",
+        "title": "Thesis Or Graduate Project",
+        "description": "Prerequisite: Classified status in the MSME program. Registration is by permission number only through the thesis committee chairperson.\n",
+        "units": "2",
+        "prerequisites": "Prerequisite: Classified status in the MSME program"
     },
     {
         "subject": "ME",

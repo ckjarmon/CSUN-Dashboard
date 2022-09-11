@@ -25,6 +25,14 @@
     },
     {
         "subject": "CHEM",
+        "catalog_number": "101D",
+        "title": "Gen Chem I Disc",
+        "description": "Prerequisite: Satisfactory score on the Chemistry Placement Test (CPT) or a grade of \u201cC\u201d or higher (\u201cC-\u201d does not satisfy the prerequisite) in CHEM 100 taken at CSUN only. Corequisites: CHEM 101 and CHEM 101L. Critical analysis of topics introduced in CHEM 101. Structured group work is used to develop essential analysis and problem-solving skills. 1 hour discussion per week.",
+        "units": "1",
+        "prerequisites": "Prerequisite: Satisfactory score on the Chemistry Placement Test (CPT) or a grade of \u201cC\u201d or higher (\u201cC-\u201d does not satisfy the prerequisite) in CHEM 100 taken at CSUN only"
+    },
+    {
+        "subject": "CHEM",
         "catalog_number": "101L",
         "title": "General Chemistry I Lab",
         "description": "Prerequisite: Satisfactory score on the Chemistry Placement Test (CPT) or a grade of \u201cC\u201d or higher (\u201cC-\u201d does not satisfy the prerequisite) in CHEM 100 taken at CSUN only. Corequisites: CHEM 101 and CHEM 101D. Lab section emphasizes basic lab skills, quantitative relationships in chemistry and inorganic preparative procedures. 3 hour lab per week. (Available for General Education, B3 Science Laboratory Activity requirement provided CHEM 101 is also completed.)",
@@ -38,6 +46,14 @@
         "description": "Prerequisites: CHEM 101, CHEM 101D, and CHEM 101L with a minimum grade of \u201cC-\u201d in CHEM 101. Corequisites: CHEM 102D and CHEM 102L. Continuation of CHEM 101. Introduction to kinetics, gas phase and solution equilibria, electrochemistry, chemical thermodynamics and radio/nuclear chemistry. (Available for General Education, B1 Physical Science. Students may satisfy the B3 Science Laboratory Activity requirement by completing CHEM 102L). All three components of this course (CHEM 102, CHEM 102D, and CHEM 102L) must be completed before enrollment in CHEM 333/CHEM 333D/CHEM 333L and/or CHEM 321/L. 3 hour lecture per week.",
         "units": "3",
         "prerequisites": "Prerequisites: CHEM 101, CHEM 101D, and CHEM 101L with a minimum grade of \u201cC-\u201d in CHEM 101"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "102D",
+        "title": "Gen Chem Ii Disc",
+        "description": "Prerequisites: CHEM 101 and CHEM 101L with a grade of \u201cC-\u201d or better in CHEM 101. Corequisites: CHEM 102 and CHEM 102L. Structured group work, individual problems, and worked examples are used to develop essential problem-solving skills necessary in CHEM 102. 1 hour discussion per week.",
+        "units": "1",
+        "prerequisites": "Prerequisites: CHEM 101 and CHEM 101L with a grade of \u201cC-\u201d or better in CHEM 101"
     },
     {
         "subject": "CHEM",
@@ -121,6 +137,14 @@
     },
     {
         "subject": "CHEM",
+        "catalog_number": "333D",
+        "title": "Organic Chem I Disc",
+        "description": "Prerequisite: CHEM 102 with a grade of \u201cC-\u201d or better. Corequisites: CHEM 333/L. Critical analysis of topics introduced in CHEM 333. Structured group work is used to develop essential analysis and problem-solving skills. 1 hour discussion per week.",
+        "units": "1",
+        "prerequisites": "Prerequisite: CHEM 102 with a grade of \u201cC-\u201d or better"
+    },
+    {
+        "subject": "CHEM",
         "catalog_number": "333L",
         "title": "Organic Chemistry I Lab",
         "description": "Prerequisites: CHEM 102, CHEM 102D, and CHEM 102L with a minimum grade of \u201cC-\u201d in CHEM 102. Corequisites: CHEM 333D and CHEM 333L. The study of the structure and properties of organic molecules, with special emphasis on functional groups and their reactions. Attention given to the mechanisms of organic reactions and the spectroscopic techniques used to determine the structure of organic molecules. Lab: An introduction to the techniques of synthesis, purification, and characterization of organic compounds. 3 hour lecture and 3 hour lab per week.",
@@ -153,6 +177,22 @@
     },
     {
         "subject": "CHEM",
+        "catalog_number": "351",
+        "title": "Physical Chemistry I",
+        "description": "Prerequisites: CHEM 102 and CHEM 102L; PHYS 220A or PHYS 225; MATH 150B or MATH 255B. Corequisite for Chemistry B.A. and B.S. majors: CHEM 351L. Recommended Corequisite or Preparatory: CHEM 351L and MATH 250. Basic laws of thermodynamics, states and changes of state, solutions, equilibria, phase rule, kinetic molecular theory, chemical kinetics and electrochemistry. 4 hours lecture per week. (Offered Fall semester.)",
+        "units": "4",
+        "prerequisites": "Prerequisites: CHEM 102 and CHEM 102L; PHYS 220A or PHYS 225; MATH 150B or MATH 255B"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "351L",
+        "title": "Physical Chemistry I Lab",
+        "description": "Corequisite: CHEM 351. Laboratory course for CHEM 351. Introduction to the experimental methods of physical chemistry based on the concepts covered in CHEM 351. One 3-hour lab per week. (Offered Fall semester.)",
+        "units": "1",
+        "prerequisites": "Corequisite: CHEM 351"
+    },
+    {
+        "subject": "CHEM",
         "catalog_number": "352",
         "title": "Physical Chemistry Ii",
         "description": "Prerequisites: CHEM 321/L, CHEM 351; PHYS 220B or PHYS 226. Corequisite for Chemistry B.S. majors: CHEM 352L. Recommended Corequisite for Biochemistry B.S.: CHEM 352L; Recommended preparatory: MATH 250 and MATH 280. Continuation of CHEM 351. Quantum mechanics, atomic and molecular structure, spectroscopy, and new developments and trends in physical chemistry. (Offered Spring semester)",
@@ -169,6 +209,22 @@
     },
     {
         "subject": "CHEM",
+        "catalog_number": "365",
+        "title": "Intro Biochem",
+        "description": "Prerequisites: CHEM 235/L. A course designed for non-science majors, describing chemistry and metabolism of proteins, carbohydrates, lipids, vitamins, hormones, etc. 3 hours of lecture per week. No credit for Science or Engineering majors, except for certain options in Biology; consult your major department.",
+        "units": "3",
+        "prerequisites": "Prerequisites: CHEM 235/L"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "365L",
+        "title": "Intro Biochem Lab",
+        "description": "Prerequisites: CHEM 235/L. Corequisite: CHEM 365. A course designed for non-science majors, describing chemistry and metabolism of proteins, carbohydrates, lipids, vitamins, hormones, etc. One 3-hour laboratory per week. No credit for Science or Engineering majors except for certain options in Biology; consult your major department.",
+        "units": "0",
+        "prerequisites": "Prerequisites: CHEM 235/L"
+    },
+    {
+        "subject": "CHEM",
         "catalog_number": "401",
         "title": "Inorganic Chemistry",
         "description": "Prerequisite: CHEM 351. Principles of chemical bonding and molecular structure; survey of the chemistry of the elements of the periodic system. Available for graduate credit. 3 hours lecture per week.",
@@ -182,6 +238,14 @@
         "description": "Corequisite: CHEM 401. Synthesis and characterization of inorganic and organometallic compounds. Synthetic techniques important to inorganic chemistry, such as electrochemical synthesis, autoclave reactions and inert atmosphere techniques, as well as inorganic spectroscopic techniques. Available for graduate credit. One 3-hour lab per week.",
         "units": "1",
         "prerequisites": "Corequisite: CHEM 401"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "411",
+        "title": "Synthesis",
+        "description": "Prerequisite: CHEM 334. Preparation of inorganic and organic compounds and their identification, using advanced methods. Available for graduate credit. 1 hour lecture; two 3-hour lab periods per week.",
+        "units": "3",
+        "prerequisites": "Prerequisite: CHEM 334"
     },
     {
         "subject": "CHEM",
@@ -206,6 +270,22 @@
         "description": "Prerequisite: CHEM 334. Identification of organic compounds using advanced spectrometric techniques that include modern NMR methods. Available for graduate credit. 1 hour lecture; two 3-hour lab periods per week.",
         "units": "3",
         "prerequisites": "Prerequisite: CHEM 334"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "461",
+        "title": "Biochem I",
+        "description": "Prerequisites: CHEM 321/L, CHEM 334. Corequisites: CHEM 461L. The first part of a two-semester biochemistry lecture series designed for biochemistry majors that includes study of protein structure and function, enzyme mechanisms, biological membranes, carbohydrate metabolism, ATP generation and lipid metabolism. Lab includes experiments involving acid/base chemistry, peptide analysis, spectrophotometric analysis, protein isolation and characterization, and enzyme kinetics. Available for graduate credit. 3 hours lecture per week; one 3-hour lab per week.",
+        "units": "3",
+        "prerequisites": "Prerequisites: CHEM 321/L, CHEM 334"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "461L",
+        "title": "Biochem I Lab",
+        "description": "Prerequisites: CHEM 321/L, CHEM 334. Corequisites: CHEM 461L. The first part of a two-semester biochemistry lecture series designed for biochemistry majors that includes study of protein structure and function, enzyme mechanisms, biological membranes, carbohydrate metabolism, ATP generation and lipid metabolism. Lab includes experiments involving acid/base chemistry, peptide analysis, spectrophotometric analysis, protein isolation and characterization, and enzyme kinetics. Available for graduate credit. 3 hours lecture per week; one 3-hour lab per week.",
+        "units": "1",
+        "prerequisites": "Prerequisites: CHEM 321/L, CHEM 334"
     },
     {
         "subject": "CHEM",
@@ -265,6 +345,22 @@
     },
     {
         "subject": "CHEM",
+        "catalog_number": "500",
+        "title": "Chemistry Teaching Assistant Workshop",
+        "description": "Prerequisite: Required core course for all Chemistry and Biochemistry graduate students, to be taken in first or second semester in the program. A workshop to help prepare all Chemistry graduate students with appropriate skills for future pedagogical opportunities while simultaneously improving their public speaking and scientific communication. Participants learn by presenting short videotaped lessons or presentations to the class and by receiving feedback on the basic skills demonstrated in the lesson or presentation. Participants are presented with a basic model for clear chemistry lab teaching and are taught effective feedback techniques. 2 hours per week. (Credit/No Credit only)",
+        "units": "1",
+        "prerequisites": "Prerequisite: Required core course for all Chemistry and Biochemistry graduate students, to be taken in first or second semester in the program"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "522",
+        "title": "Advanced Analytical Chemistry",
+        "description": "Prerequisites: CHEM 422/L or approval of the instructor. An advanced-level discussion of topics in analytical chemistry with particular emphasis on separation sciences and optical spectroscopy. Topics that will be discussed in detail are fluorescence, phosphorescence, phase and distribution equilibria, extraction techniques, electrophoresis and micro-fluid separation. 3 hours lecture per week.",
+        "units": "3",
+        "prerequisites": "Prerequisites: CHEM 422/L or approval of the instructor"
+    },
+    {
+        "subject": "CHEM",
         "catalog_number": "552",
         "title": "Quantum Chemistry",
         "description": "Prerequisite: CHEM 352. Elements of wave mechanics and the application to chemical problems. 3 hours lecture per week.",
@@ -286,6 +382,14 @@
         "description": "Prerequisites: CHEM 464, or CHEM 461 and CHEM 462. An advanced biochemistry course with an in-depth study of the biochemistry of DNA-protein interactions. The course focuses on subfields of biochemistry that involve direct physical interaction between DNA and proteins, including DNA repair, mutagenesis, replication, transcription, translation, RNA interference, DNA packaging and chromosomal maintenance. 3 hours of lecture per week.",
         "units": "3",
         "prerequisites": "Prerequisites: CHEM 464, or CHEM 461 and CHEM 462"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "595D",
+        "title": "Experimental Topics Courses: Bioinorganic",
+        "description": "Prerequisites: Advisor and instructor consent. Specialized topics from a concentrated field of current interest presented at an advanced level. Since the topic chosen is different each semester students may repeat this course with approval. \n",
+        "units": "3",
+        "prerequisites": "Prerequisites: Advisor and instructor consent"
     },
     {
         "subject": "CHEM",
@@ -325,6 +429,14 @@
         "description": "Prerequisites: Classified status; Consent of a faculty member who will serve as thesis advisor. Program of research conducted under the direction of the thesis advisor in an area of interest to the student. May be repeated, but no more than 7 units are allowed toward the M.S. degree.",
         "units": "1",
         "prerequisites": "Prerequisites: Classified status; Consent of a faculty member who will serve as thesis advisor"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "698A",
+        "title": "Thesis",
+        "description": "Prerequisites: Classified standing; Advisor\u2019s consent. For the M.S. degree: Thesis includes the preparation and writing of the master thesis. May be repeated once, but not more than 3 units are allowed towards the M.S. degree.",
+        "units": "1",
+        "prerequisites": "Prerequisites: Classified standing; Advisor\u2019s consent"
     },
     {
         "subject": "CHEM",

@@ -65,6 +65,13 @@
     },
     {
         "subject": "MATH",
+        "catalog_number": "131HON",
+        "title": "Math Ideas",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "MATH",
         "catalog_number": "140BUS",
         "title": "Intro Stat Bus",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Methods for displaying, describing and producing data. Normal distribution. Correlation and regression. Sampling distributions and probability. Statistical inference for means and proportions. Applications to business. Open to students in the College of Business and Economics. Students who are exploratory majors may enroll in this course. (Cross-listed with MATH 140, MATH 140SCI, and MATH 141/L.) (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
@@ -297,6 +304,14 @@
     },
     {
         "subject": "MATH",
+        "catalog_number": "370",
+        "title": "Foundations Of Geometry",
+        "description": "Prerequisite or Corequisite: MATH 320. One of the goals of this course is to help students write rigorous proofs of results of plane Euclidean geometry. It is also expected that students visualize and develop geometric intuition through the use of dynamic geometry software. The content includes history, axiomatic structure and theorems of plane Euclidean geometry, geometric transformations of the plane, rigid motions, similarities, and inversion, coordinate geometry and an introduction to non-Euclidean geometries.",
+        "units": "3",
+        "prerequisites": "Prerequisite or Corequisite: MATH 320"
+    },
+    {
+        "subject": "MATH",
         "catalog_number": "382",
         "title": "Introduction To Scientific Computing",
         "description": "Corequisite: MATH 262. This course gives students an introduction to basic numerical techniques and to programming using some of the common software packages used in mathematics. Students apply these techniques in projects from different branches of mathematics. (This course does not replace a rigorous course in numerical analysis.) 2 hours lecture, 2 hours lab.",
@@ -369,6 +384,22 @@
     },
     {
         "subject": "MATH",
+        "catalog_number": "455",
+        "title": "Complex Variables",
+        "description": "Prerequisite: Completion of MATH 450A with a grade of \u201cC\u201d or better. Complex numbers, analytic functions, complex integration, Cauchy\u2019s Theorem, power series, calculus of residues and conformal mappings. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Completion of MATH 450A with a grade of \u201cC\u201d or better"
+    },
+    {
+        "subject": "MATH",
+        "catalog_number": "460",
+        "title": "Abstract Algebra Ii",
+        "description": "Prerequisite: Completion of MATH 360 with a grade of \u201cC\u201d or better. Second course in abstract algebra. Group theory, rings and modules, and field extensions. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Completion of MATH 360 with a grade of \u201cC\u201d or better"
+    },
+    {
+        "subject": "MATH",
         "catalog_number": "462",
         "title": "Advanced Linear Algebra",
         "description": "Prerequisites: Completion of MATH 262 and MATH 320 with a grade of \u201cC\u201d or better. Recommended Corequisite or Preparatory: MATH 360. This course covers vector spaces and linear transformations from a more theoretical perspective than that covered in MATH 262. The course begins with a review of abstract vector spaces, including the invariance of dimension of a finite dimensional vector space, the correspondence between linear transformations and matrices, similarity, as well as the definition and basic properties of determinants. The concepts of eigenvalues, eigenvectors, and diagonalization will be reviewed. The course will also cover real and complex inner product spaces, Hermitian operators, the spectral theorem, minimal and characteristic polynomials, the Cayley Hamilton theorem, and the Jordan canonical form.",
@@ -382,6 +413,14 @@
         "description": "Prerequisite: Completion of MATH 320 with a grade of \u201cC\u201d or better. Recommended Corequisite or Preparatory: MATH 360. Euclidean algorithm and the unique factorization theorem, congruences, primitive roots and indices, quadratic residues and the law of quadratic reciprocity, and distribution of primes. Available for graduate credit.",
         "units": "3",
         "prerequisites": "Prerequisite: Completion of MATH 320 with a grade of \u201cC\u201d or better"
+    },
+    {
+        "subject": "MATH",
+        "catalog_number": "480",
+        "title": "Partial Differential Equations",
+        "description": "Prerequisite: Completion of MATH 351 with a grade of \u201cC\u201d or better, or MATH 280 with a grade of \u201cC\u201d or better. Orthogonal functions, Laplace\u2019s equation, Poisson\u2019s equation, Bessel\u2019s equation, self-adjoint operators, Sturm-Liouville theory, Fourier series, separation of variables applied to the heat equation and wave equation, nonhomogeneous problems, Green\u2019s functions for time-independent problems, and infinite domain problems. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "Prerequisite: Completion of MATH 351 with a grade of \u201cC\u201d or better, or MATH 280 with a grade of \u201cC\u201d or better"
     },
     {
         "subject": "MATH",
@@ -465,11 +504,35 @@
     },
     {
         "subject": "MATH",
+        "catalog_number": "543",
+        "title": "Multivariate Statist",
+        "description": "Prerequisite: MATH 440A or MATH 541. Multivariate normal distribution, multivariate data analysis, inference about a mean vector including Hotelling\u2019s T2 and the likelihood ratio statistic, Wishart distribution, MANOVA, classification and discriminant analysis, principal components, factor analysis, canonical correlation, multidimensional scaling. Applications and use of statistical software.",
+        "units": "3",
+        "prerequisites": "Prerequisite: MATH 440A or MATH 541"
+    },
+    {
+        "subject": "MATH",
         "catalog_number": "544",
         "title": "Stochastic Processes",
         "description": "Prerequisite: MATH 340. Markov chains, first step analysis, recurrent and transient states, stationary and limiting distributions, random walks, branching processes, Poisson and birth and death processes, renewal theory, martingales, introduction to Brownian motion and related Gaussian processes.",
         "units": "3",
         "prerequisites": "Prerequisite: MATH 340"
+    },
+    {
+        "subject": "MATH",
+        "catalog_number": "547",
+        "title": "Categ Data Analysis",
+        "description": "Prerequisite: MATH 440A or MATH 541. Inference and measures of association for categorical data, generalized linear model, logistic and Poisson regression, logit, probit and loglinear models, analysis of matched pairs.",
+        "units": "3",
+        "prerequisites": "Prerequisite: MATH 440A or MATH 541"
+    },
+    {
+        "subject": "MATH",
+        "catalog_number": "550",
+        "title": "Calculus On Manifolds",
+        "description": "Prerequisites: MATH 450B and MATH 501. Differentiable forms and exterior derivatives on R^n; line integrals on R^n; differentiable manifolds and differentiable forms; Stokes\u2019 theorem and applications; additional topics as time permits.",
+        "units": "3",
+        "prerequisites": "Prerequisites: MATH 450B and MATH 501"
     },
     {
         "subject": "MATH",
@@ -489,9 +552,33 @@
     },
     {
         "subject": "MATH",
+        "catalog_number": "570",
+        "title": "Differential Geometry",
+        "description": "Prerequisite: MATH 450B. The local theory of regular curves in R3 and Frenet formulas. Regular surfaces in R3, the first and second fundamental forms, Gaussian and mean curvatures, and the Egregium Gauss theorem. Geodesics and the Gauss-Bonnet theorem.",
+        "units": "3",
+        "prerequisites": "Prerequisite: MATH 450B"
+    },
+    {
+        "subject": "MATH",
+        "catalog_number": "581",
+        "title": "Numerical Methods For Linear Systems",
+        "description": "Prerequisite: MATH 462. Methods for solving large linear problems and eigenvalue problems are presented at an advanced level. Direct methods such as LU factorization, Cholesky factorization and the Least Squares method, and Iterative methods, such as the Jacobi, Gauss-Seidel, SOR and conjugate Gradient methods, are discussed in detail. Eigenvalue problems are solved via power iteration, the QR method and the Jacobi method.",
+        "units": "3",
+        "prerequisites": "Prerequisite: MATH 462"
+    },
+    {
+        "subject": "MATH",
         "catalog_number": "582A",
         "title": "Topics In Numerical Analysis: Numerical Methods In Optimization",
         "description": "Prerequisite: MATH 581 or consent of instructor. The course will cover topics in numerical analysis which are important in many applications and which are not covered elsewhere in the program. Part A usually covers numerical methods in optimization, Part B covers numerical methods for ordinary differential equations, and Part C covers numerical solution of partial differential equations. Part D covers a subject chosen by the instructor.",
+        "units": "3",
+        "prerequisites": "Prerequisite: MATH 581 or consent of instructor"
+    },
+    {
+        "subject": "MATH",
+        "catalog_number": "582C",
+        "title": "Topics In Numerical Analysis: Numerical Solution Of Partial Differential Equations",
+        "description": "Prerequisite: MATH 581 or consent of instructor. The course will cover topics in numerical analysis which are important in many applications and which are not covered elsewhere in the program. Part A usually covers numerical methods in optimization Part B covers numerical methods for ordinary differential equations and Part C covers numerical solution of partial differential equations. Part D covers a subject chosen by the instructor.\n",
         "units": "3",
         "prerequisites": "Prerequisite: MATH 581 or consent of instructor"
     },
@@ -548,6 +635,14 @@
         "title": "Top Alg Disc Math",
         "description": null,
         "units": "3"
+    },
+    {
+        "subject": "MATH",
+        "catalog_number": "662",
+        "title": "Intro Comm Algebra",
+        "description": "Prerequisite: MATH 560 or consent of instructor. Topics covered include modules, localization, integral dependence, chain conditions (Noetherian and Artinian), discrete valuation rings (DVRs) and Dedekind domains.",
+        "units": "3",
+        "prerequisites": "Prerequisite: MATH 560 or consent of instructor"
     },
     {
         "subject": "MATH",
