@@ -15,10 +15,8 @@ def get(**kwargs):
 
 @app.route('/<string:subject>/rating', methods=['POST'])
 def new_rating(**kwargs):
-    current_ratings = json.load(
-        open(f'./json_rating/{kwargs["subject"].upper()}_rating.json'))
-    rating_file = open(
-        f'./json_rating/{kwargs["subject"].upper()}_rating.json', "w")
+    current_ratings = json.load(open(f'./json_rating/{kwargs["subject"].upper()}_rating.json'))
+    rating_file = open(f'./json_rating/{kwargs["subject"].upper()}_rating.json', "w")
     new_rating = request.get_json(force=True)
     print('Post Body:', new_rating)
     try:
