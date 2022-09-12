@@ -13,10 +13,11 @@ def one():
                     #print(f"Settings prereqs and coreqs for {_class['subject']} {_class['catalog_number']}")
                     if _class["description"] is not None:
                         if _class["description"].__contains__("Prerequisite") or _class["description"].__contains__("Prerequisites"):
+                            prereq_substr = _class["description"][_class["description"].index("Prerequisite"):]
                             try:
-                                _class["prerequisites"] = _class["description"][_class["description"].index(':')+2:_class["description"].index('.')]
+                                _class["prerequisites"] = prereq_substr[prereq_substr.index(':')+2:prereq_substr.index('.')]
                             except ValueError:
-                                _class["prerequisites"] = _class["description"][_class["description"].index("Prerequisite")+len("Prerequisite")+1:_class["description"].index('.')]
+                                _class["prerequisites"] = prereq_substr[prereq_substr.index("Prerequisite")+len("Prerequisite")+1:prereq_substr.index('.')]
                         else: 
                             _class["prerequisites"] = "None"
 
@@ -73,5 +74,5 @@ def two():
                     
                                  
 if __name__ == "__main__":
-    two()
+    one()
         

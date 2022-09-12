@@ -130,7 +130,6 @@ and coreqs respectively from the description
 
 
 
-
 for code in class_codes:
     print(f"Settings prereqs and coreqs for {code}")
     with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
@@ -140,10 +139,11 @@ for code in class_codes:
                 #print(f"Settings prereqs and coreqs for {_class['subject']} {_class['catalog_number']}")
                 if _class["description"] is not None:
                     if _class["description"].__contains__("Prerequisite") or _class["description"].__contains__("Prerequisites"):
+                        prereq_substr = _class["description"][_class["description"].index("Prerequisite"):]
                         try:
-                            _class["prerequisites"] = _class["description"][_class["description"].index(':')+2:_class["description"].index('.')]
+                            _class["prerequisites"] = prereq_substr[prereq_substr.index(':')+2:prereq_substr.index('.')]
                         except ValueError:
-                            _class["prerequisites"] = _class["description"][_class["description"].index("Prerequisite")+len("Prerequisite")+1:_class["description"].index('.')]
+                            _class["prerequisites"] = prereq_substr[prereq_substr.index("Prerequisite")+len("Prerequisite")+1:prereq_substr.index('.')]
                     else: 
                         _class["prerequisites"] = "None"
                     if _class["description"].__contains__("Corequisite") or _class["description"].__contains__("Corequisites"):
@@ -171,8 +171,7 @@ for code in class_codes:
             with open('ERROR_LOG.txt', 'a') as f:
                 f.write(str(jce))
                 f.write("\n")
-    
-    
+
 
 
 """-------------------------------------------------------------------------'''
