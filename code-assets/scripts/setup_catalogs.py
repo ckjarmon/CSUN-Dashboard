@@ -175,8 +175,8 @@ for code in class_codes:
 
 
 """-------------------------------------------------------------------------'''
-For every class title, it formats so that every word begins with capital letter
-and the rest lowercase
+For every class title, format every word so that it 
+begins with capital letter and the rest lowercase
 '''-------------------------------------------------------------------------"""
 print("Setting titles...............")
 for code in class_codes:
