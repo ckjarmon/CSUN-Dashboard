@@ -5,7 +5,7 @@
         "title": "Introduction To Electrical Engineering",
         "description": "Corequisite: ECE 101L. A freshman orientation course for the Electrical Engineering program, the profession and the University. Technical writing, engineering case studies, design and analysis procedures, computer aided design, and analysis tools are integrated into the course. 1 hour lecture-discussion, 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "Corequisite: ECE 101L"
+        "prerequisites": "None"
     },
     {
         "subject": "ECE",
@@ -13,7 +13,7 @@
         "title": "Introduction To Electrical Engineering Lab",
         "description": "Corequisite: ECE 101L. A freshman orientation course for the Electrical Engineering program, the profession and the University. Technical writing, engineering case studies, design and analysis procedures, computer aided design, and analysis tools are integrated into the course. 1 hour lecture-discussion, 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "Corequisite: ECE 101L"
+        "prerequisites": "None"
     },
     {
         "subject": "ECE",
@@ -21,7 +21,8 @@
         "title": "Computing For Electrical Engineers",
         "description": "Prerequisite: MATH 150A. Corequisite: ECE 206L. Introduction to computer programming with emphasis on ECE problem solving. Major topics include problem solving, algorithm development, hardware integration and programming in NQC and C++. 2 hours lecture, one 3-hour lab per week. (Available in General Education, E Lifelong Learning if required by major.)",
         "units": "2",
-        "prerequisites": "Prerequisite: MATH 150A"
+        "prerequisites": "MATH 150A",
+        "corequisites": "ECE 206L"
     },
     {
         "subject": "ECE",
@@ -29,7 +30,8 @@
         "title": "Computing For Electrical Engineers Lab",
         "description": "Prerequisite: MATH 150A. Corequisite: ECE 206L. Introduction to computer programming with emphasis on ECE problem solving. Major topics include problem solving, algorithm development, hardware integration and programming in NQC and C++. 2 hours lecture, one 3-hour lab per week. (Available in General Education, E Lifelong Learning if required by major.)",
         "units": "1",
-        "prerequisites": "Prerequisite: MATH 150A"
+        "prerequisites": "MATH 150A",
+        "corequisites": "ECE 206"
     },
     {
         "subject": "ECE",
@@ -37,7 +39,8 @@
         "title": "Electrical Engineering Fundamentals",
         "description": "Prerequisites: PHYS 220B, PHYS 220BL and MATH 250. Corequisites: ECE 280 or MATH 280 or ME 280; ECE 240L for ECE, ME, and MSE majors. Introduction to the theory and analysis of electrical circuits; basic circuit elements, including the operational amplifier; circuit theorems; dc circuits; forced and natural responses of simple circuits; sinusoidal steady state analysis; and the use of a standard computer aided circuit analysis program. Consideration will be given to power, energy, impedance, phasors, frequency response and their use in circuit design. 3 hours lecture per week.",
         "units": "3",
-        "prerequisites": "Prerequisites: PHYS 220B, PHYS 220BL and MATH 250"
+        "prerequisites": "PHYS 220B, PHYS 220BL and MATH 250",
+        "corequisites": "ECE 280 or MATH 280 or ME 280; ECE 240L for ECE, ME, and MSE majors"
     },
     {
         "subject": "ECE",
@@ -45,7 +48,8 @@
         "title": "Electrical Engineering Fundamentals Lab",
         "description": "Prerequisites: MATH 250; PHYS 220B and PHYS 220BL. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits, analysis and design. Lab includes experiments on resistive circuits, operational amplifiers, network theorems, first and second order circuits, dc meters, passive filters, resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: MATH 250; PHYS 220B and PHYS 220BL"
+        "prerequisites": "MATH 250; PHYS 220B and PHYS 220BL",
+        "corequisites": "ECE 240"
     },
     {
         "subject": "ECE",
@@ -53,7 +57,8 @@
         "title": "Applied Differential Equations In Electrical Engineering",
         "description": "Prerequisite: MATH 150B. Recommended Corequisite or Preparatory: MATH 250. Modeling of systems by ordinary differential equations. Determination of initial conditions using dynamic behavior of physical systems. Solution of ordinary differential equations by various methods, such as separation of variables, undetermined coefficients, series, and Laplace Transform. Linear algebra and solution of systems of differential equations. Numerical methods and use of application software such as MATLAB and Mathematica in solving differential equations and systems of differential equations.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 150B"
+        "prerequisites": "MATH 150B",
+        "corequisites": "MATH 250"
     },
     {
         "subject": "ECE",
@@ -61,7 +66,8 @@
         "title": "Numerical Methods In Electrical Engineering",
         "description": "Prerequisites: ECE 240; MATH 280 or ECE 280; ECE 206/L or COMP 110/L. This course includes numerical techniques implemented in MATLAB for the solution of problems in electrical and computer engineering. Topics covered include an introduction to MATLAB, number representation and error analysis, interpolation and curve-fitting, numerical solutions to systems of linear equations, root-finding, differentiation, integration, and basic statistics. Two 3-hour labs per week.",
         "units": "2",
-        "prerequisites": "Prerequisites: ECE 240; MATH 280 or ECE 280; ECE 206/L or COMP 110/L"
+        "prerequisites": "ECE 240; MATH 280 or ECE 280; ECE 206/L or COMP 110/L",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -69,7 +75,8 @@
         "title": "Theory Of Digital Systems",
         "description": "Prerequisite: MATH 150B. Corequisite: ECE 320L. Introduction to digital systems. Topics include number systems, binary codes, Boolean algebra, combinational logic design, logic minimization techniques, sequential circuits design, arithmetic operations, data transfers using register transfer notation, memory devices, digital system organization and digital subsystems design. 3 hours lecture, one 3-hour lab per week.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 150B"
+        "prerequisites": "MATH 150B",
+        "corequisites": "ECE 320L"
     },
     {
         "subject": "ECE",
@@ -77,7 +84,8 @@
         "title": "Theory Of Digital Systems Lab",
         "description": "Prerequisite: MATH 150B. Corequisite: ECE 320L. Introduction to digital systems. Topics include number systems, binary codes, Boolean algebra, combinational logic design, logic minimization techniques, sequential circuits design, arithmetic operations, data transfers using register transfer notation, memory devices, digital system organization and digital subsystems design. 3 hours lecture, one 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisite: MATH 150B"
+        "prerequisites": "MATH 150B",
+        "corequisites": "ECE 320"
     },
     {
         "subject": "ECE",
@@ -85,7 +93,8 @@
         "title": "Electronics I",
         "description": "Prerequisite: ECE 240 and ECE 240L. Corequisite: ECE 340L. Recommended Corequisite: ECE 350. Linear, piecewise-linear and nonlinear models for active devices and their interaction with passive network elements. Characteristics and behavior of operational amplifiers, diodes and transistors. Small signal amplifiers and their analysis at low, midband and high frequencies. 3 hours lecture, one 3-hour lab per week.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 240 and ECE 240L"
+        "prerequisites": "ECE 240 and ECE 240L",
+        "corequisites": "ECE 340L"
     },
     {
         "subject": "ECE",
@@ -93,7 +102,8 @@
         "title": "Electronics I Lab",
         "description": "Prerequisite: ECE 240 and ECE 240L. Corequisite: ECE 340L. Recommended Corequisite: ECE 350. Linear, piecewise-linear and nonlinear models for active devices and their interaction with passive network elements. Characteristics and behavior of operational amplifiers, diodes and transistors. Small signal amplifiers and their analysis at low, midband and high frequencies. 3 hours lecture, one 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisite: ECE 240 and ECE 240L"
+        "prerequisites": "ECE 240 and ECE 240L",
+        "corequisites": "ECE 340"
     },
     {
         "subject": "ECE",
@@ -101,7 +111,8 @@
         "title": "Linear Systems I",
         "description": "Prerequisites: ECE 240; MATH 280 or ECE 280. Systematic development of linear system response models in both the time and frequency domains. Concentrates on continuous system models. Techniques developed include Laplace transform, Fourier analysis, impulse response, convolution and state variables for continuous linear systems.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 240; MATH 280 or ECE 280"
+        "prerequisites": "ECE 240; MATH 280 or ECE 280",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -109,7 +120,8 @@
         "title": "Linear Systems Ii",
         "description": "Prerequisite: ECE 350. Continuation of ECE 350, with concentration on discrete system models. Techniques developed include Z-transforms, Fourier Analysis, impulse response, convolution and state variables for discrete linear systems.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 350"
+        "prerequisites": "ECE 350",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -117,7 +129,8 @@
         "title": "Electromagnetic Fields And Waves I",
         "description": "Prerequisites: ECE 240; MATH 280 or ECE 280. Study of waves in transmission line circuits, transient and steady state solutions, phasors, reflection coefficient, Smith chart, matching circuits, wave propagation in materials, vector analysis, electrostatics, magnetostatics, steady electric currents, quasi-statics and electromagnetic fields.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 240; MATH 280 or ECE 280"
+        "prerequisites": "ECE 240; MATH 280 or ECE 280",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -125,7 +138,8 @@
         "title": "Microwave Lab",
         "description": "Prerequisites: ECE 240 and ECE 240L. Corequisite: ECE 370. Introduction to the applied aspects of electromagnetics. Design, simulation, and experimentation with waveguiding systems including microstrip, stripline, and coaxial transmission lines. Introduction to basic microwave measurements and techniques including network analyzers, impedance matching, and antenna radiation pattern characterization. Culminates in a design project. One 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 240 and ECE 240L"
+        "prerequisites": "ECE 240 and ECE 240L",
+        "corequisites": "ECE 370"
     },
     {
         "subject": "ECE",
@@ -133,7 +147,8 @@
         "title": "Electrical Machines And Energy Conversion",
         "description": "Prerequisite: ECE 240. Corequisite: ECE 410L. This course covers single and three phase power, including phasor diagrams and electromagnetic laws. Maxwell\u2019s Equations as applied to energy conversion is covered, as are analysis of magnetic circuits and their losses, and single and three phase transformers, including voltage regulation end efficiency. Electromechanical energy conversion principles followed by rotating machinery modeling and analysis. Machines include induction motors, synchronous generators and direct current motors. Application of these concepts as they apply to energy sustainability is discussed. Several projects are included in which students design, simulate, build, test and report on their findings. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 240"
+        "prerequisites": "ECE 240",
+        "corequisites": "ECE 410L"
     },
     {
         "subject": "ECE",
@@ -141,7 +156,8 @@
         "title": "Electrical Machines And Energy Conversion Lab",
         "description": "Prerequisite: ECE 240. Corequisite: ECE 410L. This course covers single and three phase power, including phasor diagrams and electromagnetic laws. Maxwell\u2019s Equations as applied to energy conversion is covered, as are analysis of magnetic circuits and their losses, and single and three phase transformers, including voltage regulation end efficiency. Electromechanical energy conversion principles followed by rotating machinery modeling and analysis. Machines include induction motors, synchronous generators and direct current motors. Application of these concepts as they apply to energy sustainability is discussed. Several projects are included in which students design, simulate, build, test and report on their findings. Available for graduate credit.",
         "units": "1",
-        "prerequisites": "Prerequisite: ECE 240"
+        "prerequisites": "ECE 240",
+        "corequisites": "ECE 410"
     },
     {
         "subject": "ECE",
@@ -149,7 +165,8 @@
         "title": "Electric Power Systems",
         "description": "Prerequisite: ECE 240. Recommended Prerequisite: ECE 410. Review of single phase, three phase power and calculations of power using the \u201cper-unit\u201d method. Study of single line diagrams using reactance and impedance, and three phase transformers as applied to power systems and synchronous machines. Discussion of series impedance, capacitance, voltage and current as related to power transmission lines. Modeling of admittance, impedance and network calculations are included. Flexible AC Transmission Systems (FACTS) and Automated Transmission Operations (ATO) are discussed as a consequence of the implementation of the smart grid. The effects of magnetic field in power transmission lines also are discussed. Design and simulation projects are included. Students make presentations about their findings. PSPICE and MATLAB are utilized. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 240"
+        "prerequisites": "ECE 240",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -157,7 +174,8 @@
         "title": "Power Electronics",
         "description": "Prerequisites: ECE 240, ECE 340. Recommended Prerequisite: ECE 410. Switching losses in power semiconductor switches are covered in detail. Computer simulation of power electronic converters is taught using PSPICE and MATLAB. Study of line-frequency diode rectifiers (line-frequency ac-to-uncontrolled dc) as well as line-frequency phase-controlled rectifiers and inverters (line-frequency ac-to-controlled dc). Dc-to-dc switch-mode converters and switch-mode dc-to-ac inverters also are discussed. Power electronics applications in solar energy are studied with emphasis in applications. Application of these concepts as they apply to energy sustainability is discussed. Several projects are included in which students design, simulate, build, test and report on their findings. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 240, ECE 340"
+        "prerequisites": "ECE 240, ECE 340",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -165,7 +183,8 @@
         "title": "Digital Systems Design With Programmable Logic",
         "description": "Prerequisite: ECE 320. Designed to cover and compare a variety of programmable logic devices with design examples to show their applications. Emphasizes the implementation of digital systems with programmable logic devices and uses VHDL in design description and Vivado software in design simulation and verification. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 320"
+        "prerequisites": "ECE 320",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -173,7 +192,8 @@
         "title": "Design Of Digital Computers",
         "description": "Prerequisite: ECE 320. Structure and operation of a stored-program general-purpose digital computer. Design of computer hardware modules: arithmetic-logic units, control units, input-output units and memories. Basic organizations of digital computers. Fault diagnosis and fault tolerant design of digital systems. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 320"
+        "prerequisites": "ECE 320",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -181,7 +201,8 @@
         "title": "Microprocessor Systems",
         "description": "Prerequisites: ECE 320/L. Corequisite: ECE 425L. Studies of microprocessor architectures and microcomputer systems. Basic microprocessor software consideration and assembly language programming. Microcomputers system design considerations, applications and design with a microcontroller. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 320/L"
+        "prerequisites": "ECE 320/L",
+        "corequisites": "ECE 425L"
     },
     {
         "subject": "ECE",
@@ -189,7 +210,8 @@
         "title": "Microprocessor Systems Lab",
         "description": "Prerequisites: ECE 320/L. Corequisite: ECE 425L. Studies of microprocessor architectures and microcomputer systems. Basic microprocessor software consideration and assembly language programming. Microcomputers system design considerations, applications and design with a microcontroller. Available for graduate credit.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 320/L"
+        "prerequisites": "ECE 320/L",
+        "corequisites": "ECE 425"
     },
     {
         "subject": "ECE",
@@ -197,7 +219,8 @@
         "title": "Electronics Ii",
         "description": "Prerequisites: ECE 340/L. Corequisite: ECE 440L. Continuation of ECE 340. Feedback amplifiers, power amplifiers, tuned amplifiers, stability, oscillators, LRC active and passive filters. Graduate students enrolled in the class will be required to develop computer simulation design programs that will produce results that meet a set of circuit specifications. These assignments will be 20 percent of their total grade in the class. Available for graduate credit. 3 hours lecture, one 3-hour lab per week.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 340/L"
+        "prerequisites": "ECE 340/L",
+        "corequisites": "ECE 440L"
     },
     {
         "subject": "ECE",
@@ -205,7 +228,8 @@
         "title": "Electronics Ii Lab",
         "description": "Prerequisites: ECE 340/L. Corequisite: ECE 440L. Continuation of ECE 340. Feedback amplifiers, power amplifiers, tuned amplifiers, stability, oscillators, LRC active and passive filters. Graduate students enrolled in the class will be required to develop computer simulation design programs that will produce results that meet a set of circuit specifications. These assignments will be 20 percent of their total grade in the class. Available for graduate credit. 3 hours lecture, one 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 340/L"
+        "prerequisites": "ECE 340/L",
+        "corequisites": "ECE 440"
     },
     {
         "subject": "ECE",
@@ -213,7 +237,8 @@
         "title": "Digital Electronics",
         "description": "Prerequisites: ECE 320/L, ECE 340, ECE 350. Corequisite: ECE 442L. This course covers models of electronic nonlinear devices and their analysis for digital circuit applications. Additional topics include: the limitations of digital circuits; design of logic gates, memory elements and registers at the device level; system considerations with reference to various technologies including CMOS, Pseudo-NMOS, ECL, Pass Transistor, and dynamic logic circuits; and integrated circuit layout. Graduate students enrolled in the class will be required to develop computer simulation design programs that will produce results that meet a set of circuit specifications. Available for graduate credit. 3 hours lecture, one 3-hour lab per week.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 320/L, ECE 340, ECE 350"
+        "prerequisites": "ECE 320/L, ECE 340, ECE 350",
+        "corequisites": "ECE 442L"
     },
     {
         "subject": "ECE",
@@ -221,7 +246,8 @@
         "title": "Digital Electronics Lab",
         "description": "Prerequisites: ECE 320/L, ECE 340, ECE 350. Corequisite: ECE 442L. This course covers models of electronic nonlinear devices and their analysis for digital circuit applications. Additional topics include: the limitations of digital circuits; design of logic gates, memory elements and registers at the device level; system considerations with reference to various technologies including CMOS, Pseudo-NMOS, ECL, Pass Transistor, and dynamic logic circuits; and integrated circuit layout. Graduate students enrolled in the class will be required to develop computer simulation design programs that will produce results that meet a set of circuit specifications. Available for graduate credit. 3 hours lecture, one 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 320/L, ECE 340, ECE 350"
+        "prerequisites": "ECE 320/L, ECE 340, ECE 350",
+        "corequisites": "ECE 442"
     },
     {
         "subject": "ECE",
@@ -229,7 +255,8 @@
         "title": "Pulse And Waveshaping Circuit Design",
         "description": "Prerequisites: ECE 320/L, ECE 340/L, ECE 350. Corequisite: ECE 443L. Waveshaping and generation circuits with application to data acquisition and instrumentation. Design of multivibrator circuits, analog-to-digital and digital-to-analog converters, sample and hold amplifiers, and general interface circuits. Graduate students enrolled in the class will be required to develop computer simulation design programs that will produce results that meet a set of circuit specifications. Available for graduate credit. 3 hours lecture, one-3 hour lab per week.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 320/L, ECE 340/L, ECE 350"
+        "prerequisites": "ECE 320/L, ECE 340/L, ECE 350",
+        "corequisites": "ECE 443L"
     },
     {
         "subject": "ECE",
@@ -237,7 +264,8 @@
         "title": "Pulse And Waveshaping Circuit Design Lab",
         "description": "Prerequisites: ECE 320/L, ECE 340/L, ECE 350. Corequisite: ECE 443L. Waveshaping and generation circuits with application to data acquisition and instrumentation. Design of multivibrator circuits, analog-to-digital and digital-to-analog converters, sample and hold amplifiers, and general interface circuits. Graduate students enrolled in the class will be required to develop computer simulation design programs that will produce results that meet a set of circuit specifications. Available for graduate credit. 3 hours lecture, one-3 hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 320/L, ECE 340/L, ECE 350"
+        "prerequisites": "ECE 320/L, ECE 340/L, ECE 350",
+        "corequisites": "ECE 443"
     },
     {
         "subject": "ECE",
@@ -245,7 +273,8 @@
         "title": "Introduction To Solid State Devices",
         "description": "Prerequisite: ECE 340. Electric and magnetic properties of materials are examined with emphasis on engineering applications. Typical devices that are considered include ohmic and non-ohmic contacts, voltaic cells, PN junction devices, ferroelectric energy converters, ferrite devices and integrated circuits. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 340"
+        "prerequisites": "ECE 340",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -253,7 +282,8 @@
         "title": "Probabilistic Systems In Electrical Engineering-design And Analysis",
         "description": "Prerequisite: ECE 350. Develops and demonstrates techniques and models useful for solving a wide range of problems associated with the design and analysis of various probabilistic systems in electrical engineering application. These include radar, communication systems, sonar, control systems, information theory, computer systems, circuit design, measurement theory, vulnerability analysis and propagation.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 350"
+        "prerequisites": "ECE 350",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -261,7 +291,8 @@
         "title": "Real-time Digital Signal Processing",
         "description": "Prerequisite: ECE 351. Corequisite: ECE 451L. Real-time digital signal processing using DSP processors; architecture, instruction set, sampling, filtering, fast fourier transform and other applications. Available for graduate credit.",
         "units": "2",
-        "prerequisites": "Prerequisite: ECE 351"
+        "prerequisites": "ECE 351",
+        "corequisites": "ECE 451L"
     },
     {
         "subject": "ECE",
@@ -269,7 +300,8 @@
         "title": "Real-time Digital Signal Processing Laboratory",
         "description": "Prerequisite: ECE 351. Corequisite: ECE 451. Real-time digital signal processing using DSP processors; architecture, instruction set, sampling, filtering, fast fourier transform and other applications. 2 hours lecture, 4 hours lab per week. Available for graduate credit.",
         "units": "1",
-        "prerequisites": "Prerequisite: ECE 351"
+        "prerequisites": "ECE 351",
+        "corequisites": "ECE 451"
     },
     {
         "subject": "ECE",
@@ -277,7 +309,8 @@
         "title": "Mathematical Models In Electrical Engineering",
         "description": "Prerequisite: ECE 350. Advanced topics in mathematics in the areas of complex variables, linear algebra, partial differential equations and series solutions to differential equations are discussed. These mathematical tools are used to model and solve electrical engineering-related problems in the areas of circuits, controls, electromagnetics, solid state and communication theories. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 350"
+        "prerequisites": "ECE 350",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -285,7 +318,8 @@
         "title": "Introduction To Communication Systems",
         "description": "Prerequisite: ECE 350. Corequisite: ECE 460L. Recommended Corequisites: ECE 351, ECE 450. Introduction to information transmission. Analog communication systems: AM, DSB, SSB, VSB, FM and PM. Frequency-division multiplexing techniques. Superheterodyne receiver. 3 hours lecture, one 3-hour lab per week. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 350"
+        "prerequisites": "ECE 350",
+        "corequisites": "ECE 460L"
     },
     {
         "subject": "ECE",
@@ -293,7 +327,8 @@
         "title": "Introduction To Communication Systems Lab",
         "description": "Prerequisite: ECE 350. Corequisite: ECE 460L. Recommended Corequisites: ECE 351, ECE 450. Introduction to information transmission. Analog communication systems: AM, DSB, SSB, VSB, FM and PM. Frequency-division multiplexing techniques. Superheterodyne receiver. 3 hours lecture, one 3-hour lab per week. Available for graduate credit.",
         "units": "1",
-        "prerequisites": "Prerequisite: ECE 350"
+        "prerequisites": "ECE 350",
+        "corequisites": "ECE 460"
     },
     {
         "subject": "ECE",
@@ -301,7 +336,8 @@
         "title": "Fundamentals Of Control Systems",
         "description": "Prerequisite: ECE 350. Review of the relations between transient responses, systems transfer functions and methods of specifying system performance. Analysis and synthesis of feedback control systems by means of Root-Locus methods. Nyquist diagrams, phase-gain-frequency diagrams. Use of compensating networks to optimize control system performance. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 350"
+        "prerequisites": "ECE 350",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -309,7 +345,8 @@
         "title": "Fundamentals Of Control Systems Lab",
         "description": "Prerequisite: ECE 350. Corequisite: ECE 480. As an accompaniment to the 3-unit course Fundamentals of Control Systems (ECE 480), this laboratory provides experiments to verify theoretical studies and use their applications in the design of a control system with given specifications. The experiments are mainly electrical circuits with actual measurements and simulations and design applications using system response, Routh-Hurwitz stability criterion, system identification, steady state error, root-locus, Nyquist criterion and the effects of disturbance. Use of MATLAB, Simulink and PSPICE is emphasized for analysis and design. Available for graduate credit. 3-hours lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisite: ECE 350"
+        "prerequisites": "ECE 350",
+        "corequisites": "ECE 480"
     },
     {
         "subject": "ECE",
@@ -317,7 +354,8 @@
         "title": "Senior Design Project-electrical I",
         "description": "Prerequisites: ECE 340, ECE 350, and two 400-level ECE courses. Recommended Corequisite: Enrollment in a 400-level electrical and computer engineering senior lab course with at least 2.5 design units. Students will design complex engineering projects, one as individuals and one as part of a team. Projects are subject to realistic constraints and require the integrated application and extension of science, engineering, economic and social concepts. Ethics, professional standards, written and oral communication skills and methods of technical problem-solving will be addressed. Requires completion of the individual project. May not be used for graduate credit.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 340, ECE 350, and two 400-level ECE courses"
+        "prerequisites": "ECE 340, ECE 350, and two 400-level ECE courses",
+        "corequisites": "Enrollment in a 400-level electrical and computer engineering senior lab course with at least 2"
     },
     {
         "subject": "ECE",
@@ -325,7 +363,8 @@
         "title": "Senior Design Project-electrical Ii",
         "description": "Prerequisite: ECE 492. Continuation of ECE 492. Issues concerning science, engineering, economic and social concepts, as well as ethics, written, oral communication and methods of technical problem solving will be further treated. Completion of the design project under faculty supervision culminating in a comprehensive report. Students who enter their projects in an appropriate technical paper contest are excused from submission of a comprehensive report. May not be used for graduate credit.",
         "units": "2",
-        "prerequisites": "Prerequisite: ECE 492"
+        "prerequisites": "ECE 492",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -333,7 +372,8 @@
         "title": "Academic Internship A",
         "description": "Prerequisites: Sophomore, junior, senior or graduate standing in the Department of Electrical and Computer Engineering; Prior approval of the department chair. Supervised practical professional experience relevant to the field of study in approved public or private organizations. Industrial supervisor and faculty sponsor performance evaluations and student self assessment are required. A final report written by students describing the work accomplished and knowledge and skills acquired are required. Units earned may not be used to fulfill major program requirements. Any combination of internship courses \u201cA\u201d, \u201cB\u201d or \u201cC\u201d cannot exceed 6 units total. Available for graduate credit.",
         "units": "1",
-        "prerequisites": "Prerequisites: Sophomore, junior, senior or graduate standing in the Department of Electrical and Computer Engineering; Prior approval of the department chair"
+        "prerequisites": "Sophomore, junior, senior or graduate standing in the Department of Electrical and Computer Engineering; Prior approval of the department chair",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -341,7 +381,7 @@
         "title": "Introduction To Biomedical Engineering",
         "description": "Preparatory: Senior or graduate standing. Characterization and properties of anatomical and physiological elements in engineering applications will be studied. Also includes the design of basic medical instrumentation.",
         "units": "3",
-        "prerequisites": "Preparatory: Senior or graduate standing"
+        "prerequisites": "None"
     },
     {
         "subject": "ECE",
@@ -349,7 +389,7 @@
         "title": "Biomedical Instrumentation",
         "description": "Preparatory: ECE 350 or instructor consent. A comprehensive introduction to medical imaging systems will be explored. Common imaging modalities are introduced from the perspectives of both physics and system, including X-Ray, CT, Ultrasound, MRI, PET and SPECT. (Cross-listed with ME 503.)",
         "units": "3",
-        "prerequisites": "Preparatory: ECE 350 or instructor consent"
+        "prerequisites": "None"
     },
     {
         "subject": "ECE",
@@ -357,7 +397,8 @@
         "title": "Dist Energy Gen",
         "description": "Prerequisite: ECE 350 or equivalent background in linear signals and systems. This is a graduate level course on alternative energy resources while they are used in electric power systems. This course covers the operation principles of different distributed energy technologies such as combustion turbines, fuel cells, wind turbines, micro turbines, hybrid systems, photovoltaic systems and energy storage systems. Basics of smart grid, microgrid, distributed generators modeling, control, interconnection methods, principles of power electronic interfacing circuits, and application of each power generator will be presented and discussed. Students are encouraged to do a project on one topic related to today\u2019s distributed energy needs and challenges.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 350 or equivalent background in linear signals and systems"
+        "prerequisites": "ECE 350 or equivalent background in linear signals and systems",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -365,7 +406,8 @@
         "title": "Power Sys Protection",
         "description": "Prerequisites: ECE 240; MATH 280 or ECE 280. Introduction to general philosophies and classification of relays is covered. VTs (voltage transformers) and CTs (current transformers) and their selectivity are studied in detail following ANSI/IEEE standards. Design principles and protection with time-overcurrent relays, distance relays, instantaneous current-voltage relays, directional-sensing relays, generator, transformer, bus and line protection using relays are also studied. R-X, MHO, reactance and ground relays are covered as well. A project is assigned in which students select a topic related to the course, perform bibliographical research, write a report and make presentations about their findings. Tools used include MATLAB and ETAP.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 240; MATH 280 or ECE 280"
+        "prerequisites": "ECE 240; MATH 280 or ECE 280",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -373,7 +415,8 @@
         "title": "Soc Design",
         "description": "Prerequisites: ECE 420, ECE 425. Corequisite: ECE 520L. Introduction to system on chip design methodology that includes the study of ZYNQ and ARM architectures, AXI Interconnect, memory, real-time operating system (RTOS), peripheral interface and components, and contemporary high-density FPGAs. Lab: This laboratory course reinforces the system-on-chip design concept developed in the lecture course. It focuses on software hardware co-design and development and hardware verification of ZYNQ systems using Vivado software tools and ZYNQ development boards.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 420, ECE 425"
+        "prerequisites": "ECE 420, ECE 425",
+        "corequisites": "ECE 520L"
     },
     {
         "subject": "ECE",
@@ -381,7 +424,8 @@
         "title": "Soc Design Lab",
         "description": "Prerequisites: ECE 420, ECE 425. Corequisite: ECE 520L. Introduction to system on chip design methodology that includes the study of ZYNQ and ARM architectures, AXI Interconnect, memory, real-time operating system (RTOS), peripheral interface and components, and contemporary high-density FPGAs. Lab: This laboratory course reinforces the system-on-chip design concept developed in the lecture course. It focuses on software hardware co-design and development and hardware verification of ZYNQ systems using Vivado software tools and ZYNQ development boards.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 420, ECE 425"
+        "prerequisites": "ECE 420, ECE 425",
+        "corequisites": "ECE 520"
     },
     {
         "subject": "ECE",
@@ -389,7 +433,8 @@
         "title": "Fpga/asic Design And Optimization Using Vhdl",
         "description": "Prerequisite: ECE 420. Corequisite: ECE 524L. This course covers top down design methodology for FPGA and ASIC using VHDL. Hardware Description Language, (VHDL) modeling, simulation and synthesis tools are utilized to elaborate the material covered throughout the course. Xilinx (the Virtex series) and Actel (the SX and AX series) FPGA architectures and design methodologies are studied. Several sample designs are targeted and tested for each FPGA technology. ASIC design flow and design optimization techniques are discussed. ASIC design flow, constraint file generation and test benches also are studied, along with their applications to some designs samples. The use of FPGAs in space and military applications and their reliability issues are discussed. Lab: The lab covers modeling of digital systems and electronic circuit design hierarchy and the role of methodology in FPGA/ASIC design. Hardware Description Language, VHDL, simulation and synthesis tools are utilized to elaborate the material covered throughout the course. The lab introduces the systematic top-down design methodology to design complex digital hardware such as FPGAs and ASICs. FPGA and ASIC design flow as well as design optimization techniques are discussed. For FPGAs, Xilinx Virtex and Actel SX architecture are covered. Individual and group projects are assigned to students. 3 hours lecture, 3 hours lab per week.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 420"
+        "prerequisites": "ECE 420",
+        "corequisites": "ECE 524L"
     },
     {
         "subject": "ECE",
@@ -397,7 +442,8 @@
         "title": "Fpga/asic Design Lab",
         "description": "Prerequisite: ECE 420. Corequisite: ECE 524L. This course covers top down design methodology for FPGA and ASIC using VHDL. Hardware Description Language, (VHDL) modeling, simulation and synthesis tools are utilized to elaborate the material covered throughout the course. Xilinx (the Virtex series) and Actel (the SX and AX series) FPGA architectures and design methodologies are studied. Several sample designs are targeted and tested for each FPGA technology. ASIC design flow and design optimization techniques are discussed. ASIC design flow, constraint file generation and test benches also are studied, along with their applications to some designs samples. The use of FPGAs in space and military applications and their reliability issues are discussed. Lab: The lab covers modeling of digital systems and electronic circuit design hierarchy and the role of methodology in FPGA/ASIC design. Hardware Description Language, VHDL, simulation and synthesis tools are utilized to elaborate the material covered throughout the course. The lab introduces the systematic top-down design methodology to design complex digital hardware such as FPGAs and ASICs. FPGA and ASIC design flow as well as design optimization techniques are discussed. For FPGAs, Xilinx Virtex and Actel SX architecture are covered. Individual and group projects are assigned to students. 3 hours lecture, 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisite: ECE 420"
+        "prerequisites": "ECE 420",
+        "corequisites": "ECE 524"
     },
     {
         "subject": "ECE",
@@ -405,7 +451,8 @@
         "title": "Digital Design With Verilog And System Verilog",
         "description": "Prerequisites: ECE 320/L. Corequisite: ECE 526L. This course covers the use of Verilog and SystemVerilog Languages (IEEE Std. 1800) for the design and development of digital integrated circuits, including mask-programmed integrated circuits (ASICs) and field programmable devices (FPGAs). Hierarchical top down vs. bottom up design, synthesizable vs. non-synthesizable code, design scalability and reuse, verification, hardware modeling, simulation system tasks, compiler directives and subroutines are all covered and illustrated with design examples. 3 hours lecture, one 3-hour lab per week.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 320/L"
+        "prerequisites": "ECE 320/L",
+        "corequisites": "ECE 526L"
     },
     {
         "subject": "ECE",
@@ -413,7 +460,8 @@
         "title": "Digital Design With Verilog And System Verilog Lab",
         "description": "Prerequisites: ECE 320/L. Corequisite: ECE 526L. This course covers the use of Verilog and SystemVerilog Languages (IEEE Std. 1800) for the design and development of digital integrated circuits, including mask-programmed integrated circuits (ASICs) and field programmable devices (FPGAs). Hierarchical top down vs. bottom up design, synthesizable vs. non-synthesizable code, design scalability and reuse, verification, hardware modeling, simulation system tasks, compiler directives and subroutines are all covered and illustrated with design examples. 3 hours lecture, one 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 320/L"
+        "prerequisites": "ECE 320/L",
+        "corequisites": "ECE 526"
     },
     {
         "subject": "ECE",
@@ -421,7 +469,8 @@
         "title": "Application Specific Integrated Circuit Development",
         "description": "Prerequisites: ECE 526/L. Corequisite: ECE 527L. Study of the tools and techniques used to develop application specific integrated circuits, including mask programmed devices and field programmable circuits. Topics include synthesis methodologies, performance tradeoffs and constraints. Asynchronous interfacing is covered in detail for both single bit and bus interfaces. A non-theoretical introduction to test and testability also is included. Lab: This course is a companion to ECE 527\u2013Application Specific Integrated Circuit Development. In the lab, students apply the lessons of ECE 527 to code circuits in Verilog HDL, synthesize them for varying performance goals and modify the implemented designs for testability. This is accomplished through use of state-of-the-art industrial design automation software.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 526/L"
+        "prerequisites": "ECE 526/L",
+        "corequisites": "ECE 527L"
     },
     {
         "subject": "ECE",
@@ -429,7 +478,8 @@
         "title": "Asic Dev Lab",
         "description": "Prerequisites: ECE 526/L. Corequisite: ECE 527L. Study of the tools and techniques used to develop application specific integrated circuits, including mask programmed devices and field programmable circuits. Topics include synthesis methodologies, performance tradeoffs and constraints. Asynchronous interfacing is covered in detail for both single bit and bus interfaces. A non-theoretical introduction to test and testability also is included. Lab: This course is a companion to ECE 527\u2013Application Specific Integrated Circuit Development. In the lab, students apply the lessons of ECE 527 to code circuits in Verilog HDL, synthesize them for varying performance goals and modify the implemented designs for testability. This is accomplished through use of state-of-the-art industrial design automation software.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 526/L"
+        "prerequisites": "ECE 526/L",
+        "corequisites": "ECE 527"
     },
     {
         "subject": "ECE",
@@ -437,7 +487,8 @@
         "title": "Dp Lng For Patt Rec",
         "description": "Prerequisites: ECE 351 and ECE 450 or equivalent; or instructor\u2019s permission. Pattern recognition techniques are used to design automated systems that improve their own performance through experience. This course covers the methodologies, technologies and algorithms of deep learning-based pattern recognition from a variety of perspectives.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 351 and ECE 450 or equivalent; or instructor\u2019s permission"
+        "prerequisites": "ECE 351 and ECE 450 or equivalent; or instructor\u2019s permission",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -445,7 +496,8 @@
         "title": "Solid State Devices",
         "description": "Prerequisite: ECE 445 or instructor consent. An in-depth study of quantum mechanics, semiconductor materials and solid state devices, including the Schrodinger equation, potential barriers and wells, energy band diagrams, mobility, effective mass, charge carrier transport, scattering mechanisms, continuity equation, and bandgap engineering, as well as the design of p-n junction diodes, bipolar junction transistors, Schottky diodes, field effect transistors, hetero-junction devices and high electron mobility transistors are undertaken in this course.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 445 or instructor consent"
+        "prerequisites": "ECE 445 or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -453,7 +505,8 @@
         "title": "Very Large Scale Integrated Circuit Design",
         "description": "Prerequisite: ECE 442. Survey of VLSI technology and very large scale integrated systems. Problems that occur when ordinary circuits are replicated to involve millions of devices. CMOS technology, design styles up to the point of submission for fabrication. Computerized methods with high-density circuits with optimized speed and power consumption. Students perform simple layouts and simulations suitable for extension to a very large scale.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 442"
+        "prerequisites": "ECE 442",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -461,7 +514,8 @@
         "title": "Image Processing",
         "description": "Prerequisites: ECE 320 and ECE 351; or instructor consent. Students must be familiar with basic concepts of linear algebra and calculus such as matrix operations, processing arrays of one or more dimensions, and basic concept of signal processing such as convolution, Fourier and Laplace transforms. The techniques discussed in this course include but are not limited to: image sampling and quantization, image formation, color correction, convolution, spatial filtering, morphological image processing, linear image filtering and correlation, image transforms, noise reduction and restoration, feature extraction and recognition. Emphasis is on the general principles of image processing. Students learn to apply material by implementing processing algorithms in MATLAB and optionally on hardware/software platforms such as FPGAs/microprocessors.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 320 and ECE 351; or instructor consent"
+        "prerequisites": "ECE 320 and ECE 351; or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -469,7 +523,8 @@
         "title": "Digital Communications Systems",
         "description": "Prerequisite: ECE 450. Recommended Corequisite: ECE 561L. Basic principles of the analysis and design of modern digital communication systems. Topics include baseband transmission, bandpass modulation and demodulation techniques, link budget analysis, optimum receiver design, and performance of digital communication systems in the presence of noise.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 450"
+        "prerequisites": "ECE 450",
+        "corequisites": "ECE 561L"
     },
     {
         "subject": "ECE",
@@ -477,7 +532,8 @@
         "title": "Dig Comm Syst Lab",
         "description": "Prerequisite: ECE 450. Corequisite: ECE 561. This is a lab course that reinforces the theory taught in the ECE 561 course on digital communications systems. The lab is taught using simulation software. Topics covered include elementary signal and system design and analysis, baseband communication systems, and bandpass communication systems.",
         "units": "1",
-        "prerequisites": "Prerequisite: ECE 450"
+        "prerequisites": "ECE 450",
+        "corequisites": "ECE 561"
     },
     {
         "subject": "ECE",
@@ -485,7 +541,8 @@
         "title": "Data Communication Networks",
         "description": "Prerequisite: ECE 450. Layered network architectures and the TCP/IP model. Link layer error and flow control mechanisms. Packet switching. Wired and wireless local and wide area networks. Medium access control procedures. Internet working with switches, bridges and routers. Routing algorithms. Network security.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 450"
+        "prerequisites": "ECE 450",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -493,7 +550,8 @@
         "title": "Electromagnetic Fields And Waves Ii",
         "description": "Prerequisite: ECE 370. Analysis of time-varying electromagnetic fields. Maxwell\u2019s equations, waves in ideal and lossy matter. Impedance concept, duality, equivalence principle, energy flow, reciprocity theorem. Transmission lines, wave-guides, resonators, surface waves, antennas.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 370"
+        "prerequisites": "ECE 370",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -501,7 +559,8 @@
         "title": "Rf And Microwave Active Circuit Design",
         "description": "Prerequisites: ECE 370 and ECE 571, or instructor consent. Basic concepts in RF and microwave electronics, including loaded Q, RLC resonant circuits, L-network matching circuits, wave propagation in transmission line circuits, S-parameters, signal-flow graphs, Smith chart, design of matching circuits using stubs, stability criteria and circles, unilateral and bilateral cases for maximum gain design, and noise figure circles, as well as the analysis and design of microwave high-gain amplifiers (HGAs) and low-noise amplifiers (LNAs), are treated in depth.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 370 and ECE 571, or instructor consent"
+        "prerequisites": "ECE 370 and ECE 571, or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -509,7 +568,8 @@
         "title": "Mw & Photonic Device",
         "description": "Prerequisites: ECE 340, ECE 370. Features the physical principles and applications of microwave solid state devices as well as photonic devices, which are treated analytically and in further depth. Microwave diodes and transistors, avalanche transit-time devices, BARRITT devices, and transferred electron devices are studied in conjunction with their photonic counterparts of optical diodes and transistors, optical lasers, infra-red and THz devices. Modern applications and practical design considerations are also included in this course.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 340, ECE 370"
+        "prerequisites": "ECE 340, ECE 370",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -517,7 +577,8 @@
         "title": "Photonics",
         "description": "Prerequisite: ECE 370. An in-depth study of the principles and applications of ray optics, matrix optics, wave optics, diffraction, interference, lens and mirrors, monochromatic and polychromatic light, Fourier optics, holography, electromagnetic optics, absorption, dispersion, polarization of light, crystal optics, solar cells and electro-optics are included in this course.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 370"
+        "prerequisites": "ECE 370",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -525,7 +586,8 @@
         "title": "Digital Control Systems",
         "description": "Prerequisites: ECE 351, ECE 480. Application of z-transform and state variable methods to the analysis and design of digital and sampled-data control systems\u2013the sampling process, data reconstruction devices, stability analysis, frequency response methods, continuous network compensation, digital controllers, z-plane synthesis, state-variable feedback compensation, and variable gain methods in nonlinear sampled-data system analysis.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 351, ECE 480"
+        "prerequisites": "ECE 351, ECE 480",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -533,7 +595,8 @@
         "title": "Fuzzy Control",
         "description": "Prerequisite: ECE 480. Consists of two parts. First part: Introduces basic concepts of fuzzy logic, such as fuzzy set, rules, definitions, graphs and properties related to fuzzification and defuzzification. Second part: Introduces fuzzy logic control and its application to control engineering and discusses the basic fuzzy logic controllers, the relevant analytical issues and their roles in advanced hierarchical control systems.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 480"
+        "prerequisites": "ECE 480",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -541,22 +604,15 @@
         "title": "State Var In Ctrl",
         "description": "Prerequisite: ECE 480. Application of state-space methods to the analysis and synthesis of feedback control systems-matrices, vectors and vector spaces, coordinate transformations, solution of the vector matrix differential equation, stability, controllability and observability, and optimal control systems.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 480"
-    },
-    {
-        "subject": "ECE",
-        "catalog_number": "595AIC",
-        "title": "Analog Ic Design",
-        "description": null,
-        "units": "3"
+        "prerequisites": "ECE 480",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
         "catalog_number": "602",
         "title": "Biomedical Engineering I",
         "description": "Prerequisites: ECE 309/ME 309 and ECE 351, or instructor consent. A project-based comprehensive introduction to computational modeling in biomedical engineering will be explored, including biomedical models of bioelectric events, lumped-element formulations, and compartmental models of organ systems.",
-        "units": "3",
-        "prerequisites": "Prerequisites: ECE 309/ME 309 and ECE 351, or instructor consent"
+        "units": "3"
     },
     {
         "subject": "ECE",
@@ -564,7 +620,8 @@
         "title": "Biomedical Engineering Ii",
         "description": "Prerequisites: ECE 309/ME 309 and ECE 351, or instructor consent. The course focuses on application of discrete-time signal processing to measured biomedical signals. Topics include data acquisition and characteristics of physiologic and bioelectric signals, frequency and time-domain methods to analyze biomedical waveforms, methods for noise and artifact removal, event detection, and introduction to medical image analysis.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 309/ME 309 and ECE 351, or instructor consent"
+        "prerequisites": "ECE 309/ME 309 and ECE 351, or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -572,7 +629,8 @@
         "title": "Power Distribution Systems",
         "description": "Prerequisites: ECE 410/L. Corequisite: ECE 411. \u201cLoad Analysis\u201d and \u201cLoad Forecasting\u201d using Box-Jenkins Methodology are introduced. Distribution transformers, design of sub-transmission lines and distribution lines, design of primary systems and secondary systems leading to voltage drop and voltage regulation and power losses are covered. Detailed study of the \u201cK\u201d factor is given. Reliability of distribution systems is analyzed and distributed generation (DG) is discussed. Automated distribution operations (ADO), where the problem of voltage-drop and voltage regulation is resolved using IED (intelligent electric devices), is discussed; this topic is a consequence of the implementation of the smart grid. The application of the concepts covered in this course is discussed in relation with sustainability. A project is assigned in which students select a topic related to the course, perform bibliographical research, write a report and make presentations about their findings. Tools used include MATLAB and PSPICE.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 410/L"
+        "prerequisites": "ECE 410/L",
+        "corequisites": "ECE 411"
     },
     {
         "subject": "ECE",
@@ -580,7 +638,8 @@
         "title": "Advanced Switching Theory",
         "description": "Prerequisite: ECE 320. Detailed study of synchronous and asynchronous circuits, their design, characterization, optimization and decomposition. Combinational and sequential hazards and how to remove them. A detailed study of race free and critical race free asynchronous design. Non-Boolean logic design such as Galois logic and many value logics and algorithmic state machine (ASM) designs are covered.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 320"
+        "prerequisites": "ECE 320",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -588,7 +647,8 @@
         "title": "Computer Arithmetic Design",
         "description": "Prerequisite: ECE 422. Design analysis of high speed adders, subtractors, multipliers and dividers of digital computers, integrated circuits and digital devices. Signed-digit adder/subtractor, multiplicative and division algorithms and hardware. Iterative cellular array multipliers and dividers. Floating point arithmetic processor and pipelined arithmetic.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 422"
+        "prerequisites": "ECE 422",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -596,7 +656,8 @@
         "title": "Digital Systems Structure",
         "description": "Prerequisite: ECE 422. Studies of digital systems architectures primarily from the hardware viewpoint. Techniques and design methods employed for general purpose computers. Unconventional and special-purpose computers, such as parallel processors, associative processors, pipeline processors, array processors, list processors, hardware compilers.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 422"
+        "prerequisites": "ECE 422",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -604,7 +665,8 @@
         "title": "Diagnosis And Reliable Design Of Digital Systems",
         "description": "Prerequisite: ECE 620. Basic theory and techniques for testing VLSI circuits and systems. Fault Modeling, logic simulation and fault simulation techniques are discussed. Test generation for combinational and sequential logic circuits, as well as checking experiments. Gate-level digital simulation and its application to fault diagnosis. Design techniques using static and dynamic redundancy for reliable systems, design for testability (DFT), Built-in self-test (BIST) and design techniques for fault tolerant and early diagnosable systems. The use of DFT tools for test generation, fault diagnosis, fault coverage, design for testability, reliability computations and test synthesis. Delay faults and testing, fault diagnosis, quiescent current testing (Iddq), functional testing and crosstalk.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 620"
+        "prerequisites": "ECE 620",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -612,7 +674,8 @@
         "title": "Modern Electronic Techniques",
         "description": "Prerequisite: Instructor consent. Advanced electronic design techniques, such as switching regulators and switching amplifiers are covered. Also included are thermal effects and manufacturing defects. Finally, advanced audio design also is emphasized. Computerized design techniques are used.",
         "units": "3",
-        "prerequisites": "Prerequisite: Instructor consent"
+        "prerequisites": "Instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -620,7 +683,8 @@
         "title": "Electrical Network Theory",
         "description": "Prerequisite: Instructor consent. Analysis and synthesis of passive networks, using two port theory, Matrix, signal flow graphing and computerized techniques in active network design, with emphasis on signal processing.",
         "units": "3",
-        "prerequisites": "Prerequisite: Instructor consent"
+        "prerequisites": "Instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -628,7 +692,8 @@
         "title": "Random Processes",
         "description": "Prerequisite: ECE 450. Random vectors, sequences and processes. Linear systems with random inputs. Second moment theory and spectral analysis. Narrowband processes. Gaussian and Poisson processes. Application to filtering, detection and estimation of signals in white and non-white noise.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 450"
+        "prerequisites": "ECE 450",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -636,7 +701,8 @@
         "title": "Digital Signal Processing I",
         "description": "Prerequisite: ECE 351. FIR filter structures and implementation, IIR filter structures and implementation; FIR filter design techniques; IIR filter design techniques; fundamentals of multi-rate DSP; and introduction to discrete wavelet transform.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 351"
+        "prerequisites": "ECE 351",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -644,7 +710,8 @@
         "title": "Digital Signal Processing Ii",
         "description": "Prerequisites: ECE 450, ECE 651. Preparatory: ECE 351. Discrete random process, linear prediction filter, FIR Wiener filter, IIR Wiener filter, nonparametric spectrum estimation, parametric spectrum estimation, LMS adaptive filter and RLS adaptive filter.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 450, ECE 651"
+        "prerequisites": "ECE 450, ECE 651",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -652,7 +719,8 @@
         "title": "Wireless Comm",
         "description": "Prerequisites: ECE 561, ECE 650. Characterization of wireless channels, including path loss models, and flat and frequency selective fading. Multiple access techniques. Performance of digital modulation techniques under channel impairments. Mitigation techniques, including diversity, equalization, multi-carrier modulation and spread spectrum.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 561, ECE 650"
+        "prerequisites": "ECE 561, ECE 650",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -660,7 +728,8 @@
         "title": "Fiber Optic Communication Lab",
         "description": "Prerequisites: ECE 460/L. Corequisite: ECE 666. This lab accompanying course ECE 666 covers fiber optic communication design, measurements and simulations. This includes numerical aperture, fiber attenuation, power distribution in single mode fibers, mode distribution in multimode fibers, fiber coupling efficiency and connectors/splices losses. Design, construction and simulation of WDM communication system components also are covered. Individual and group projects are assigned to students. 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: ECE 460/L"
+        "prerequisites": "ECE 460/L",
+        "corequisites": "ECE 666"
     },
     {
         "subject": "ECE",
@@ -668,7 +737,8 @@
         "title": "Microwave Engineering",
         "description": "Prerequisite: ECE 571. Application of the concepts of modern network theory to waveguiding systems. Impedance transformation and matching, scattering matrix, propagation in non-isotropic media, passive microwave devices, electromagnetic resonators, and measurements in microwave systems.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 571"
+        "prerequisites": "ECE 571",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -676,7 +746,8 @@
         "title": "Advanced Microwave Circuit Design",
         "description": "Prerequisite: ECE 572. Preparatory: Instructor consent. Advanced microwave circuit design and in-depth analysis of microwave transistor amplifiers, microwave oscillators, detectors, mixers, microwave control circuits and microwave integrated circuits (MIC\u2019s) are included in this course. Practical design issues of microwave circuits are emphasized. Materials, mask layout and fabrication techniques of microwave integrated circuits (MIC\u2019s) also are treated.",
         "units": "3",
-        "prerequisites": "Prerequisite: ECE 572"
+        "prerequisites": "ECE 572",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -684,22 +755,15 @@
         "title": "Stochastic Control",
         "description": "Prerequisites: ECE 450 and ECE 480, or instructor consent. Recommended Preparatory: ECE 582 and ECE 650. Control of linear, discrete-time and continuous-time stochastic systems; statistical filtering, estimation and control with emphasis on the Kalman filter and its applications; Wiener filtering.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 450 and ECE 480, or instructor consent"
-    },
-    {
-        "subject": "ECE",
-        "catalog_number": "695DFP",
-        "title": "Micro Device Fab",
-        "description": null,
-        "units": "3"
+        "prerequisites": "ECE 450 and ECE 480, or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
         "catalog_number": "696C",
         "title": "Directed Graduate Research",
         "description": "(Credit/No Credit only)",
-        "units": "3",
-        "prerequisites": "N/A"
+        "units": "3"
     },
     {
         "subject": "ECE",
@@ -707,7 +771,7 @@
         "title": "Directed Comprehensive Studies",
         "description": "(Credit/No Credit only)",
         "units": "3",
-        "prerequisites": "N/A"
+        "prerequisites": "None"
     },
     {
         "subject": "ECE",
@@ -715,7 +779,8 @@
         "title": "Thesis Or Graduate Project",
         "description": "Prerequisite: Enrollment requires the consent of the instructor and the graduate coordinator. Graduate students in the project plan will enroll in ECE 698C once. Students in the thesis plan will enroll in ECE 698C twice.",
         "units": "3",
-        "prerequisites": "Prerequisite: Enrollment requires the consent of the instructor and the graduate coordinator"
+        "prerequisites": "Enrollment requires the consent of the instructor and the graduate coordinator",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -723,6 +788,6 @@
         "title": "Independent Study",
         "description": "Independent Study",
         "units": "1",
-        "prerequisites": "N/A"
+        "prerequisites": "None"
     }
 ]

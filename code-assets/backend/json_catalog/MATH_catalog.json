@@ -5,7 +5,8 @@
         "title": "College Algebra",
         "description": "Prerequisites: Listed in Table 1. Students who are conditionally prepared must have credit for or concurrently enroll in MATH 102L. A preparation for the algebra necessary for calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. It builds on student\u2019s familiarity with linear, quadratic, and rational expressions to achieve fluent proficiency in analyzing the local and global behavior of functions involving such expressions. Not open to students who have credit in MATH 105. (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "3",
-        "prerequisites": "Prerequisites: Listed in Table 1"
+        "prerequisites": "Listed in Table 1",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -13,7 +14,8 @@
         "title": "College Algebra Lab",
         "description": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 102. All students in MATH 102 are encouraged to enroll in this course. This is a Credit/No Credit hybrid enrichment laboratory for students in MATH 102. This course will include a self-paced, modular online component. 2 hours lab per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 102"
+        "prerequisites": "Required for all conditionally prepared students enrolled in MATH 102",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -21,7 +23,8 @@
         "title": "Mathematical Methods For Business",
         "description": "Prerequisites: Listed in Table 1. Students who are conditionally prepared must have credit for or concurrently enroll in MATH 103L. Concepts and applications of algebra and calculus to business. Topics include functions, systems of equations, matrices, the derivative and business-related topics in calculus. (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "3",
-        "prerequisites": "Prerequisites: Listed in Table 1"
+        "prerequisites": "Listed in Table 1",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -29,7 +32,8 @@
         "title": "Mathematics For Business Laboratory",
         "description": "Prerequisite: Conditionally prepared for MATH 103. Corequisite: MATH 103. This self-paced, module-based laboratory is designed to give students additional exposure to the applications of college algebra to business and economics beyond what can be done in lecture. The additional hands-on problem-solving skills learned in this class enhance the lecture experience and strengthen the skills necessary for success in MATH 103 and subsequent courses in business majors. The lab environment allows students to both work at their own pace and receive small-group instruction with the laboratory instructor on all modules. 2 hours lab per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Prerequisite: Conditionally prepared for MATH 103"
+        "prerequisites": "Conditionally prepared for MATH 103",
+        "corequisites": "MATH 103"
     },
     {
         "subject": "MATH",
@@ -37,7 +41,8 @@
         "title": "Pre-calculus",
         "description": "Prerequisites: Listed in Table 1. Students who are conditionally prepared must have credit for or concurrently enroll in MATH 105L. A preparation for the trigonometric, exponential, and logarithmic functions used in calculus. This course is intended for computer science, engineering, mathematics, and natural science majors. This course builds on student\u2019s familiarity with exponential, logarithmic, and trigonometric expressions to achieve proficiency in analyzing the local and global behavior of functions involving such expressions. (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "5",
-        "prerequisites": "Prerequisites: Listed in Table 1"
+        "prerequisites": "Listed in Table 1",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -45,7 +50,8 @@
         "title": "Precalculus Lab",
         "description": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 105. All students in MATH 105 are encouraged to enroll in this course. This is a Credit/No Credit hybrid enrichment laboratory for students in MATH 105. This course will include a self-paced, modular online component. 3 hours lab per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 105"
+        "prerequisites": "Required for all conditionally prepared students enrolled in MATH 105",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -53,7 +59,8 @@
         "title": "Math Noncalc Phys",
         "description": "Prerequisites: Listed in Table 1. Mathematics applicable to problems in non-calculus based physics. Sets, inequalities; functions and graphs: polynomial, rational, exponential, logarithmic, trigonometric; introduction to vectors, angular velocity, and parametric equations. This course is not open to students who have credit in MATH 105 or MATH 255A. (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "5",
-        "prerequisites": "Prerequisites: Listed in Table 1"
+        "prerequisites": "Listed in Table 1",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -61,22 +68,15 @@
         "title": "Mathematical Ideas",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. General Education course intended to acquaint the student with basic mathematical ideas. (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "3",
-        "prerequisites": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent"
-    },
-    {
-        "subject": "MATH",
-        "catalog_number": "131HON",
-        "title": "Math Ideas",
-        "description": null,
-        "units": "3"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
         "catalog_number": "140BUS",
         "title": "Intro Stat Bus",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Methods for displaying, describing and producing data. Normal distribution. Correlation and regression. Sampling distributions and probability. Statistical inference for means and proportions. Applications to business. Open to students in the College of Business and Economics. Students who are exploratory majors may enroll in this course. (Cross-listed with MATH 140, MATH 140SCI, and MATH 141/L.) (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
-        "units": "4",
-        "prerequisites": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent"
+        "units": "4"
     },
     {
         "subject": "MATH",
@@ -84,7 +84,8 @@
         "title": "Intro Stat Stem",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Methods for displaying, describing and producing data. Normal distribution. Correlation and regression. Sampling distributions and probability. Statistical inference for means and proportions. Applications to STEM fields. Open to all students except those in the College of Business, College of Social and Behavioral Sciences, and CADV (Child and Adolescent Development). Students who are exploratory majors may enroll in this course. (Cross-listed with MATH 140, MATH 140BUS, and MATH 141/L.) (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "4",
-        "prerequisites": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -92,7 +93,8 @@
         "title": "Essential Stat",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics or concurrent enrollment in MATH 091S. Basic statistical concepts and reasoning, including methods for displaying, summarizing, interpreting, and producing data. The normal model and variability in random samples. Statistical inference for means and proportions. The linear model: correlation and regression. This course is intended for students majoring in the social and behavioral sciences or in child and adolescent development. Students majoring in the arts, media, communications, the humanities, or those who are exploratory may also enroll. 3 hours lecture, 2 hours lab per week. (Cross-listed with MATH 140, MATH 140BUS, and MATH 140SCI.) (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "3",
-        "prerequisites": "Prerequisite: Multiple Measures Placement in GE-level Mathematics or concurrent enrollment in MATH 091S"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics or concurrent enrollment in MATH 091S",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -100,7 +102,8 @@
         "title": "Essential Stat Lab",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics or concurrent enrollment in MATH 091S. Basic statistical concepts and reasoning, including methods for displaying, summarizing, interpreting, and producing data. The normal model and variability in random samples. Statistical inference for means and proportions. The linear model: correlation and regression. This course is intended for students majoring in the social and behavioral sciences or in child and adolescent development. Students majoring in the arts, media, communications, the humanities, or those who are exploratory may also enroll. 3 hours lecture, 2 hours lab per week. (Cross-listed with MATH 140, MATH 140BUS, and MATH 140SCI.) (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "1",
-        "prerequisites": "Prerequisite: Multiple Measures Placement in GE-level Mathematics or concurrent enrollment in MATH 091S"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics or concurrent enrollment in MATH 091S",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -108,7 +111,8 @@
         "title": "Calculus I",
         "description": "Prerequisites: Listed in Table 1. Students who are conditionally prepared or who transfer the equivalent of MATH 105 or both MATH 102 and MATH 104 must have credit for or concurrently enroll in MATH 150AL. Limits, derivatives, and applications of differentiation. Definite and indefinite integrals. The fundamental theorem of calculus and applications of integration. (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "5",
-        "prerequisites": "Prerequisites: Listed in Table 1"
+        "prerequisites": "Listed in Table 1",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -116,7 +120,8 @@
         "title": "Calculus I Laboratory",
         "description": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 150A or MATH 255A. All students in MATH 150A and MATH 255A are encouraged to enroll in this course. This is a Credit/No Credit hybrid enrichment laboratory for students in MATH 150A and MATH 255A. This course will include a self-paced, modular online component. 3 hours lab per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 150A or MATH 255A"
+        "prerequisites": "Required for all conditionally prepared students enrolled in MATH 150A or MATH 255A",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -124,7 +129,8 @@
         "title": "Calculus Ii",
         "description": "Prerequisites: Listed in Table 1. Students who are conditionally prepared must have credit for or concurrently enroll in MATH 150BL. Techniques of integration and improper integrals. Sequences and series. Power series and Taylor polynomials. Parametric and polar coordinates. Vectors and solid geometry.",
         "units": "5",
-        "prerequisites": "Prerequisites: Listed in Table 1"
+        "prerequisites": "Listed in Table 1",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -132,7 +138,8 @@
         "title": "Calculus Ii Laboratory",
         "description": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 150B or MATH 255B. All students in MATH 150B and MATH 255B are encouraged to enroll in this course. This is a Credit/No Credit hybrid enrichment laboratory for students in MATH 150B and MATH 255B. This course will include a self-paced, modular online component. 3 hours lab per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Prerequisite: Required for all conditionally prepared students enrolled in MATH 150B or MATH 255B"
+        "prerequisites": "Required for all conditionally prepared students enrolled in MATH 150B or MATH 255B",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -140,7 +147,8 @@
         "title": "Basic Number Concepts",
         "description": "Prerequisites: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Language of sets, systems of numeration, nature of numbers and fundamentals of operations, relations and functions, domain of integers, and field of rational and real numbers. Designed primarily for students intending to teach in elementary or junior high school. Not available for credit toward the major or minor in Mathematics.",
         "units": "3",
-        "prerequisites": "Prerequisites: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -148,7 +156,8 @@
         "title": "Stat&prob For Tch",
         "description": "Prerequisite: Completion of MATH 210 with a grade of \u201cC\u201d or better. Univariate and bivariate data analysis; probability and probability distributions; design of studies and concepts of inferential statistics; applications to procedures used to evaluate teaching and learning. Not available for credit toward a Mathematics major or minor.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 210 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 210 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -156,7 +165,8 @@
         "title": "Calculus Iii",
         "description": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better. Continuation of MATH 150B. Solid analytic geometry and space curves. Partial differentiation and applications. Multiple integrals. Line integrals and independence of path. Vector calculus including the divergence theorem and Stokes\u2019 theorem.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 150B with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -164,7 +174,8 @@
         "title": "Calculus For The Life Sciences I",
         "description": "Prerequisites: Listed in Table 1. Students who are conditionally prepared must have credit for or concurrently enroll in MATH 255AL. Knowledge of trigonometry is assumed. First semester of a brief course in calculus. Topics include calculus of functions of one real variable, techniques of differentiation, applications to graphing, optimization problems, and an introduction to integration. Applications to life sciences are emphasized. Not open for credit to students who have successfully completed MATH 150A. (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
         "units": "3",
-        "prerequisites": "Prerequisites: Listed in Table 1"
+        "prerequisites": "Listed in Table 1",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -172,7 +183,7 @@
         "title": "Calc Life Sci I Lab",
         "description": "Required for all conditionally prepared students enrolled in MATH 255A. All students in MATH 255A are encouraged to enroll in this lab. This course will include a self-paced, modular outline component. 3 lab hours per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Required for all conditionally prepared students enrolled in MATH 255A"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -180,7 +191,8 @@
         "title": "Calculus For The Life Sciences Ii",
         "description": "Prerequisites: Listed in Table 1. Students who are conditionally prepared must have credit for or concurrently enroll in MATH 255BL. Second semester of a brief course in calculus. Topics include techniques of integration, introduction to differential equations, applications of calculus in probability, elements of multivariable calculus, and linear algebra. Applications to life sciences are emphasized. Not open for students who have successfully completed MATH 150AB.",
         "units": "3",
-        "prerequisites": "Prerequisites: Listed in Table 1"
+        "prerequisites": "Listed in Table 1",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -188,7 +200,7 @@
         "title": "Calc Life Sci Ii Lab",
         "description": "Required for all conditionally prepared students enrolled in MATH 255B. All students in MATH 255B are encouraged to enroll in this course. This course will include a self-paced, modular online component. 3 lab hours per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Required for all conditionally prepared students enrolled in MATH 255B"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -196,7 +208,8 @@
         "title": "Introduction To Linear Algebra",
         "description": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better. Systems of linear equations, matrices, determinants, eigenvalues, vector spaces and linear transformations, as well as introduction to inner products on Rn and spectral theorem for symmetric matrices.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 150B with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -204,7 +217,8 @@
         "title": "Applied Differential Equations",
         "description": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better. Recommended Corequisite or Preparatory: MATH 250. First order equations. Explicit solution methods, existence and uniqueness for initial value problems. Higher order linear equations. Undetermined coefficients and variation of parameters. Laplace transforms and transform solution methods. Linear first-order systems. Emphasis on engineering applications. Not available for students majoring in Mathematics.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 150B with a grade of \u201cC\u201d or better",
+        "corequisites": "MATH 250"
     },
     {
         "subject": "MATH",
@@ -212,7 +226,8 @@
         "title": "Basic Concepts Of Geometry",
         "description": "Prerequisite: Completion of MATH 210 with a grade of \u201cC\u201d or better. Second course for students intending to teach in elementary or junior high school. Geometry as a system; congruence and similarity through construction with straightedge and compass; transformational geometry; the nature of measurement, precision and accuracy. Not available for credit toward the major or minor in Mathematics.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 210 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 210 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -220,7 +235,7 @@
         "title": "Geometry",
         "description": "Recommended Corequisite or Preparatory: MATH 310. Problem solving using models and simulation in mathematics appropriate for the elementary-school classroom. 2 hours of activities per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Recommended Corequisite or Preparatory: MATH 310"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -228,7 +243,8 @@
         "title": "Basic Geometric Concepts",
         "description": "Prerequisites: Completion of MATH 210 and MATH 310 with grades of \u201cC\u201d or better, or instructor consent. Continuation of the investigation of elementary geometry begun in MATH 310. Topics selected from topology, motion geometry, metric geometry, geometry as a mathematical system, absolute geometry, Euclidean geometry and non-Euclidean geometry. Not available for credit toward the Mathematics major or minor.",
         "units": "3",
-        "prerequisites": "Prerequisites: Completion of MATH 210 and MATH 310 with grades of \u201cC\u201d or better, or instructor consent"
+        "prerequisites": "Completion of MATH 210 and MATH 310 with grades of \u201cC\u201d or better, or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -236,7 +252,8 @@
         "title": "Basic Algebraic Concepts",
         "description": "Prerequisites: Completion of MATH 210 and MATH 310 with grades of \u201cC\u201d or better, or instructor consent. Topics selected from: abstract algebra and applied algebra using elementary mathematical models. Not available for credit toward the Mathematics major or minor.",
         "units": "3",
-        "prerequisites": "Prerequisites: Completion of MATH 210 and MATH 310 with grades of \u201cC\u201d or better, or instructor consent"
+        "prerequisites": "Completion of MATH 210 and MATH 310 with grades of \u201cC\u201d or better, or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -244,7 +261,8 @@
         "title": "Foundations Of Higher Mathematics",
         "description": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better. The goal of this course is to help students transition from a primarily computational mode of doing mathematics to a more conceptual mode. The emphasis will be on proofs, which are taught in the context of elementary number theory, combinatorics and analysis; the language of sets, relations, order, equivalence classes, functions and cardinality is introduced. Students are expected to write large numbers of proofs and communicate mathematical ideas clearly.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 150B with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -252,7 +270,8 @@
         "title": "Discrete Mathematics",
         "description": "Prerequisites: ECE 320 or PHIL 230; Completion of MATH 150B with a grade of \u201cC\u201d or better. Propositional calculus, predicate calculus, set algebra, relations, functions, mappings, fields and number systems.",
         "units": "3",
-        "prerequisites": "Prerequisites: ECE 320 or PHIL 230; Completion of MATH 150B with a grade of \u201cC\u201d or better"
+        "prerequisites": "ECE 320 or PHIL 230; Completion of MATH 150B with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -260,7 +279,8 @@
         "title": "Mathematical Explorations",
         "description": "Prerequisites: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S. Completion of the lower division writing requirement; Upper division standing. A course designed to give students an appreciation of the diversity of mathematics and the spirit in which it is employed in various applications. The character and origin of key topics from different branches of mathematics are explored. The contributions of various cultures to the field are studied, along with the use of mathematical models for physical problems. The development is conceptual rather than axiomatic, and includes several supervised reading and writing assignments. One significant writing assignment is required. Strongly recommended for prospective teachers in all fields. Not available for credit toward the major or minor in Mathematics. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.)",
         "units": "3",
-        "prerequisites": "Prerequisites: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -268,7 +288,8 @@
         "title": "Introductory Probability",
         "description": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better. Sample spaces, probability rules, independence, conditional probability, Bayes Theorem, discrete and continuous random variables and distributions (e.g., binomial, Poisson, geometric, normal, exponential, uniform), expectation, moment generating functions, joint distributions and central limit theorem.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 150B with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -276,7 +297,8 @@
         "title": "Applied Statistics I",
         "description": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better. Introduction to the practice of statistics, emphasizing the role of probability. Includes basic probability, discrete and continuous probability distributions, expectation and variance, sample surveys and experiments, displaying and summarizing data, sampling distributions, central limit theorem, inference for proportions, chi-square test and least squares regression. Mathematics majors who are not in the Secondary Teaching option may not receive credit for both MATH 340 and MATH 341.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 150B with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 150B with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -284,7 +306,8 @@
         "title": "Differential Equations",
         "description": "Prerequisites: Completion of MATH 250 and MATH 262 with a grade of \u201cC\u201d or better. Not open to students who have credit for MATH 280. First-order equations and explicit solution methods. The Picard-Lindel\u00f6f existence and uniqueness theorem. Higher order linear equations. Undetermined coefficients and variation of parameters. Power series solutions. Linear systems and eigenvector methods. Linearization and solution sketching for autonomous systems.",
         "units": "3",
-        "prerequisites": "Prerequisites: Completion of MATH 250 and MATH 262 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 250 and MATH 262 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -292,7 +315,8 @@
         "title": "Abstract Algebra I",
         "description": "Prerequisites: Completion of MATH 262 and MATH 320 with a grade of \u201cC\u201d or better. Survey course in abstract algebra. Introduction to groups, rings, fields and vector spaces.",
         "units": "3",
-        "prerequisites": "Prerequisites: Completion of MATH 262 and MATH 320 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 262 and MATH 320 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -300,7 +324,7 @@
         "title": "Combinatorics",
         "description": "Corequisite: MATH 320 or MATH 326. This is a one-semester introduction to combinatorics. Topics include enumerative combinatorics (inclusion-exclusion, generating functions, Polya\u2019s Theorem, etc.) and combinatorial structures (graphs, designs, etc.).",
         "units": "3",
-        "prerequisites": "Corequisite: MATH 320 or MATH 326"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -308,7 +332,8 @@
         "title": "Foundations Of Geometry",
         "description": "Prerequisite or Corequisite: MATH 320. One of the goals of this course is to help students write rigorous proofs of results of plane Euclidean geometry. It is also expected that students visualize and develop geometric intuition through the use of dynamic geometry software. The content includes history, axiomatic structure and theorems of plane Euclidean geometry, geometric transformations of the plane, rigid motions, similarities, and inversion, coordinate geometry and an introduction to non-Euclidean geometries.",
         "units": "3",
-        "prerequisites": "Prerequisite or Corequisite: MATH 320"
+        "prerequisites": "MATH 320",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -316,7 +341,7 @@
         "title": "Introduction To Scientific Computing",
         "description": "Corequisite: MATH 262. This course gives students an introduction to basic numerical techniques and to programming using some of the common software packages used in mathematics. Students apply these techniques in projects from different branches of mathematics. (This course does not replace a rigorous course in numerical analysis.) 2 hours lecture, 2 hours lab.",
         "units": "2",
-        "prerequisites": "Corequisite: MATH 262"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -324,7 +349,7 @@
         "title": "Introduction To Scientific Computing Lab",
         "description": "Corequisite: MATH 262. This course gives students an introduction to basic numerical techniques and to programming using some of the common software packages used in mathematics. Students apply these techniques in projects from different branches of mathematics. (This course does not replace a rigorous course in numerical analysis.) 2 hours lecture, 2 hours lab.",
         "units": "1",
-        "prerequisites": "Corequisite: MATH 262"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -332,7 +357,8 @@
         "title": "Field Experience In The Mathematics Of The Public Schools",
         "description": "Prerequisites: Multiple Subject Candidates\u2014MATH 210 and MATH 310 or corequisite with MATH 310. Single Subject Candidates\u2014MATH 150A, MATH 150B; Junior standing. Field experience course designed to give the prospective teacher an appreciation of a quality mathematics program in public schools. Requirements include 45 hours of participation in an assigned school and regular group meetings to discuss the classroom experience. (Credit/No Credit only)",
         "units": "2",
-        "prerequisites": "Prerequisites: Multiple Subject Candidates\u2014MATH 210 and MATH 310 or corequisite with MATH 310"
+        "prerequisites": "Multiple Subject Candidates\u2014MATH 210 and MATH 310 or corequisite with MATH 310",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -340,7 +366,8 @@
         "title": "Mathematical Statistics I",
         "description": "Prerequisites: Completion of MATH 262 and MATH 340 with a grade of \u201cC\u201d or better. Point estimation, bias and mean squared error, optimality theory for estimates, maximum likelihood estimation, confidence intervals, test of hypotheses, power, and optimality theory for tests. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: Completion of MATH 262 and MATH 340 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 262 and MATH 340 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -348,7 +375,8 @@
         "title": "Mathematical Statistics Ii",
         "description": "Prerequisite: Completion of MATH 440A with a grade of \u201cC\u201d or better. Chi-square goodness of fit tests, simple and multiple linear regression, 1- and 2-way analysis of variance, and statistical analysis using the computer. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 440A with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 440A with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -356,7 +384,8 @@
         "title": "Stat Modeling",
         "description": "Prerequisite: MATH 340. This course will cover the fundamental concepts of statistical model building, including inference, applied linear regression, multiple regression, prediction and variable selection, nonlinear and nonparametric regression, principal component analysis and factor analysis. Software and coding will be used to apply the theory to examples and real data sets, but no previous coding experience is required.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 340"
+        "prerequisites": "MATH 340",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -364,7 +393,8 @@
         "title": "Stat Learning",
         "description": "Prerequisite: MATH 444 or MATH 440A or graduate standing with approval from the coordinator/instructor. This course will cover concepts of linear models and prediction models including generalized linear models, supervised and unsupervised learning such as classification techniques and clustering. It also includes missing data techniques and concepts of time-series analysis. Software and coding will be used to apply the theory to examples and real data sets. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 444 or MATH 440A or graduate standing with approval from the coordinator/instructor"
+        "prerequisites": "MATH 444 or MATH 440A or graduate standing with approval from the coordinator/instructor",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -372,7 +402,8 @@
         "title": "Adv Calculus I",
         "description": "Prerequisite: Completion of MATH 320 with a grade of \u201cC\u201d or better. Brief exposure to real numbers including completeness, Bolzano Weierstrass theorem, countability of subsets; continuity and differentiability of real valued functions on the real line; the inverse function theorem on R; integration; the fundamental theorem of calculus; improper Riemann integration; infinite series; uniform convergence; power series and real analytic functions.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 320 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 320 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -380,7 +411,8 @@
         "title": "Adv Calculus Ii",
         "description": "Prerequisite: Completion of MATH 450A with a grade of \u201cC\u201d or better. Topics include topology on R^n, continuity and differentiability of functions from domains in R^m to R^n, Taylor\u2019s formula, the inverse and implicit function theorems, integration of functions on Jordan regions, iterated integrals, the change of variables theorem, curves and surfaces in R^n, and the theorems of Green, Gauss, and Stokes. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 450A with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 450A with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -388,7 +420,8 @@
         "title": "Complex Variables",
         "description": "Prerequisite: Completion of MATH 450A with a grade of \u201cC\u201d or better. Complex numbers, analytic functions, complex integration, Cauchy\u2019s Theorem, power series, calculus of residues and conformal mappings. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 450A with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 450A with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -396,7 +429,8 @@
         "title": "Abstract Algebra Ii",
         "description": "Prerequisite: Completion of MATH 360 with a grade of \u201cC\u201d or better. Second course in abstract algebra. Group theory, rings and modules, and field extensions. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 360 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 360 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -404,7 +438,8 @@
         "title": "Advanced Linear Algebra",
         "description": "Prerequisites: Completion of MATH 262 and MATH 320 with a grade of \u201cC\u201d or better. Recommended Corequisite or Preparatory: MATH 360. This course covers vector spaces and linear transformations from a more theoretical perspective than that covered in MATH 262. The course begins with a review of abstract vector spaces, including the invariance of dimension of a finite dimensional vector space, the correspondence between linear transformations and matrices, similarity, as well as the definition and basic properties of determinants. The concepts of eigenvalues, eigenvectors, and diagonalization will be reviewed. The course will also cover real and complex inner product spaces, Hermitian operators, the spectral theorem, minimal and characteristic polynomials, the Cayley Hamilton theorem, and the Jordan canonical form.",
         "units": "3",
-        "prerequisites": "Prerequisites: Completion of MATH 262 and MATH 320 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 262 and MATH 320 with a grade of \u201cC\u201d or better",
+        "corequisites": "MATH 360"
     },
     {
         "subject": "MATH",
@@ -412,7 +447,8 @@
         "title": "Number Theory",
         "description": "Prerequisite: Completion of MATH 320 with a grade of \u201cC\u201d or better. Recommended Corequisite or Preparatory: MATH 360. Euclidean algorithm and the unique factorization theorem, congruences, primitive roots and indices, quadratic residues and the law of quadratic reciprocity, and distribution of primes. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 320 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 320 with a grade of \u201cC\u201d or better",
+        "corequisites": "MATH 360"
     },
     {
         "subject": "MATH",
@@ -420,7 +456,8 @@
         "title": "Partial Differential Equations",
         "description": "Prerequisite: Completion of MATH 351 with a grade of \u201cC\u201d or better, or MATH 280 with a grade of \u201cC\u201d or better. Orthogonal functions, Laplace\u2019s equation, Poisson\u2019s equation, Bessel\u2019s equation, self-adjoint operators, Sturm-Liouville theory, Fourier series, separation of variables applied to the heat equation and wave equation, nonhomogeneous problems, Green\u2019s functions for time-independent problems, and infinite domain problems. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of MATH 351 with a grade of \u201cC\u201d or better, or MATH 280 with a grade of \u201cC\u201d or better"
+        "prerequisites": "Completion of MATH 351 with a grade of \u201cC\u201d or better, or MATH 280 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -428,7 +465,8 @@
         "title": "Numerical Analysis",
         "description": "Prerequisites: COMP 110/L; Completion of MATH 262 with a grade of \u201cC\u201d or better. Techniques of applied mathematics, solution of equations, interpolation, numerical integration and numerical solution of differential equations. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 110/L; Completion of MATH 262 with a grade of \u201cC\u201d or better"
+        "prerequisites": "COMP 110/L; Completion of MATH 262 with a grade of \u201cC\u201d or better",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -436,7 +474,8 @@
         "title": "Combinatorial Algorithms",
         "description": "Prerequisites: Completion of MATH 150B and MATH 262 with a grade of \u201cC\u201d or better; Some computer programming experience. Computer-oriented study of seminumerical and non-numerical algorithms. Sorting, tree searching, generation of combinatorial structures, algorithm proof techniques, best algorithms and programming complexity. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: Completion of MATH 150B and MATH 262 with a grade of \u201cC\u201d or better; Some computer programming experience"
+        "prerequisites": "Completion of MATH 150B and MATH 262 with a grade of \u201cC\u201d or better; Some computer programming experience",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -444,7 +483,8 @@
         "title": "Mathematical Modeling",
         "description": "Prerequisites: MATH 340 with a grade of \u201cC\u201d or better, and MATH 351 with a grade of \u201cC\u201d or better, or graduate standing. Applications of mathematical techniques to solve selected problems in ecology, biology, economics, finance, social sciences, life sciences, physical sciences and engineering. Models discussed include deterministic, stochastic, optimization, static, and dynamic ones. Emphasis is placed on the initial phase of building mathematical models and the final phase of interpreting the solutions in terms of real-life applications. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: MATH 340 with a grade of \u201cC\u201d or better, and MATH 351 with a grade of \u201cC\u201d or better, or graduate standing"
+        "prerequisites": "MATH 340 with a grade of \u201cC\u201d or better, and MATH 351 with a grade of \u201cC\u201d or better, or graduate standing",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -452,7 +492,8 @@
         "title": "Capstone Course",
         "description": "Prerequisite: Senior standing. A course where prospective teachers see high-school level mathematics from a more advanced perspective, where there is considerably more emphasis on issues of pedagogy than in other content courses, and where students will see connections between the mathematics they have learned and some of the activities that they will themselves be engaged in as teachers. MATH 490 is required for the Secondary Teaching option, but a student may choose, in consultation with an advisor, to take the course a second time as an elective.",
         "units": "3",
-        "prerequisites": "Prerequisite: Senior standing"
+        "prerequisites": "Senior standing",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -460,7 +501,8 @@
         "title": "Undergraduate Seminar In Mathematics",
         "description": "Prerequisite: Junior standing in the major. Students will study current topics in mathematical and/or statistical literature and will prepare written summaries and give oral presentations to the class. Students will be active participants in all seminars by asking questions and providing written critiques and summaries of the presentations of other students.",
         "units": "3",
-        "prerequisites": "Prerequisite: Junior standing in the major"
+        "prerequisites": "Junior standing in the major",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -468,7 +510,8 @@
         "title": "Practical Experience In Mathematics",
         "description": "Prerequisite: Junior standing in the major. Students will gain practical experience in the profession by either participating in an internship doing mathematical/statistical work at an outside organization or by doing directed research within the department. All students are expected to work a minimum of 8 hours per week on this assignment and meet with the course instructor on a regular basis. All students are required to produce a written report on their work at the end of the semester. Students will give oral reports to the department and their peers.",
         "units": "3",
-        "prerequisites": "Prerequisite: Junior standing in the major"
+        "prerequisites": "Junior standing in the major",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -476,7 +519,7 @@
         "title": "Independent Study",
         "description": "See Independent Study under courses of study.",
         "units": "1",
-        "prerequisites": "See Independent Study under courses of study"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -484,7 +527,8 @@
         "title": "Topology",
         "description": "Prerequisite: MATH 450A. Metric spaces, topological spaces, compactness, completeness and connectedness. Introduction to function spaces, with emphasis on the uniform topology.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 450A"
+        "prerequisites": "MATH 450A",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -492,7 +536,8 @@
         "title": "Regression Analysis",
         "description": "Prerequisite: MATH 440A. General linear model in matrix form, simple and multiple regression analysis, transformations, variable selection, multicollinearity, analysis of variance, robust regression, logistic regression, principal components and factor analysis. Statistical software utilized.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 440A"
+        "prerequisites": "MATH 440A",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -500,7 +545,8 @@
         "title": "Theor Stat Inference",
         "description": "Prerequisites: MATH 340, MATH 450A and MATH 462. Hogg-Craig Theorem, Cochran Theorem, convergence in probability and distribution, Cramer-Wold Theorem, Continuous Mapping Theorem, Weak-Law-of-Large-Numbers, Lindberg-Feller Central Limit Theorem (CLT), Lyapunov CLT, Regular Exponential families, Neyman-Factorization Criterion, the substitution principle, asymptotic relative efficiency, the method of the moments, the MLE and its asymptotic efficiency, Uniformly Minimum Variance Unbiased Estimation, Rao-Blackwell Theorem, Lehmann-Scheffe Theorem, minimal complete sufficient statistics, ancillary statistics, Basu Theorem, confidence regions, likelihood ratio tests, Wilk\u2019s Theorem, Neyman-Pearson Lemma, Uniformly Most Powerful test, Karlin-Rubin Theorem, other large-sample tests.",
         "units": "3",
-        "prerequisites": "Prerequisites: MATH 340, MATH 450A and MATH 462"
+        "prerequisites": "MATH 340, MATH 450A and MATH 462",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -508,7 +554,8 @@
         "title": "Multivariate Statist",
         "description": "Prerequisite: MATH 440A or MATH 541. Multivariate normal distribution, multivariate data analysis, inference about a mean vector including Hotelling\u2019s T2 and the likelihood ratio statistic, Wishart distribution, MANOVA, classification and discriminant analysis, principal components, factor analysis, canonical correlation, multidimensional scaling. Applications and use of statistical software.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 440A or MATH 541"
+        "prerequisites": "MATH 440A or MATH 541",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -516,7 +563,8 @@
         "title": "Stochastic Processes",
         "description": "Prerequisite: MATH 340. Markov chains, first step analysis, recurrent and transient states, stationary and limiting distributions, random walks, branching processes, Poisson and birth and death processes, renewal theory, martingales, introduction to Brownian motion and related Gaussian processes.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 340"
+        "prerequisites": "MATH 340",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -524,7 +572,8 @@
         "title": "Categ Data Analysis",
         "description": "Prerequisite: MATH 440A or MATH 541. Inference and measures of association for categorical data, generalized linear model, logistic and Poisson regression, logit, probit and loglinear models, analysis of matched pairs.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 440A or MATH 541"
+        "prerequisites": "MATH 440A or MATH 541",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -532,7 +581,8 @@
         "title": "Calculus On Manifolds",
         "description": "Prerequisites: MATH 450B and MATH 501. Differentiable forms and exterior derivatives on R^n; line integrals on R^n; differentiable manifolds and differentiable forms; Stokes\u2019 theorem and applications; additional topics as time permits.",
         "units": "3",
-        "prerequisites": "Prerequisites: MATH 450B and MATH 501"
+        "prerequisites": "MATH 450B and MATH 501",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -540,7 +590,8 @@
         "title": "Real Analysis",
         "description": "Prerequisite: MATH 501. Introduction to measure theory and Lebesgue integration, and their application to probability theory. Monotone and dominated convergence theorems, Fubini\u2019s theorem, Fourier analysis and Banach spaces.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 501"
+        "prerequisites": "MATH 501",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -548,7 +599,8 @@
         "title": "Abstract Algebra Iii",
         "description": "Prerequisite: MATH 460. Graduate course in abstract algebra. Group theory, Galois theory and other topics.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 460"
+        "prerequisites": "MATH 460",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -556,7 +608,8 @@
         "title": "Differential Geometry",
         "description": "Prerequisite: MATH 450B. The local theory of regular curves in R3 and Frenet formulas. Regular surfaces in R3, the first and second fundamental forms, Gaussian and mean curvatures, and the Egregium Gauss theorem. Geodesics and the Gauss-Bonnet theorem.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 450B"
+        "prerequisites": "MATH 450B",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -564,7 +617,8 @@
         "title": "Numerical Methods For Linear Systems",
         "description": "Prerequisite: MATH 462. Methods for solving large linear problems and eigenvalue problems are presented at an advanced level. Direct methods such as LU factorization, Cholesky factorization and the Least Squares method, and Iterative methods, such as the Jacobi, Gauss-Seidel, SOR and conjugate Gradient methods, are discussed in detail. Eigenvalue problems are solved via power iteration, the QR method and the Jacobi method.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 462"
+        "prerequisites": "MATH 462",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -572,7 +626,8 @@
         "title": "Topics In Numerical Analysis: Numerical Methods In Optimization",
         "description": "Prerequisite: MATH 581 or consent of instructor. The course will cover topics in numerical analysis which are important in many applications and which are not covered elsewhere in the program. Part A usually covers numerical methods in optimization, Part B covers numerical methods for ordinary differential equations, and Part C covers numerical solution of partial differential equations. Part D covers a subject chosen by the instructor.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 581 or consent of instructor"
+        "prerequisites": "MATH 581 or consent of instructor",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -580,7 +635,8 @@
         "title": "Topics In Numerical Analysis: Numerical Solution Of Partial Differential Equations",
         "description": "Prerequisite: MATH 581 or consent of instructor. The course will cover topics in numerical analysis which are important in many applications and which are not covered elsewhere in the program. Part A usually covers numerical methods in optimization Part B covers numerical methods for ordinary differential equations and Part C covers numerical solution of partial differential equations. Part D covers a subject chosen by the instructor.\n",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 581 or consent of instructor"
+        "prerequisites": "MATH 581 or consent of instructor",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -588,7 +644,8 @@
         "title": "Seminar In Mathematics",
         "description": "Prerequisite: Senior or graduate standing in the Mathematics Department. Students will read about advanced topics in the recent literature in Mathematics and report on them in a lecture. This course may be taken up to two times with the consent of the advisor. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "Prerequisite: Senior or graduate standing in the Mathematics Department"
+        "prerequisites": "Senior or graduate standing in the Mathematics Department",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -596,7 +653,8 @@
         "title": "Topics In Applied Mathematics: Mathematical Theory Of Partial Differential Equations",
         "description": "Prerequisite: MATH 552 or consent of instructor. This course is devoted to a variety of important topics in applied mathematics that are not covered elsewhere in the program. In particular, Part A will cover the mathematical theory of partial differential equations, Part B covers mathematical optimization and operations research, and Part C covers mathematical biology.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 552 or consent of instructor"
+        "prerequisites": "MATH 552 or consent of instructor",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -604,7 +662,8 @@
         "title": "Topics In Applied Mathematics: Mathematical Biology",
         "description": "Prerequisites: MATH 552 or consent of instructor. This course is devoted to a variety of important topics in applied Mmathematics that are not covered elsewhere in the Program. In particular Part A will cover the mathematical theory of partial differential equations Part B covers mathematical optimization and operations research and Part C covers mathematical biology. The topic of Part D is left to the individual instructor.\n",
         "units": "3",
-        "prerequisites": "Prerequisites: MATH 552 or consent of instructor"
+        "prerequisites": "MATH 552 or consent of instructor",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -612,7 +671,8 @@
         "title": "Topics An Geo Top",
         "description": "Prerequisite: Consent of instructor. Advanced topics not covered in the previous classes on the subject. Part A covers topics in analysis, Part B covers topics in geometry, and Part C covers topics in topology. May be repeated with the consent of the advisor.",
         "units": "3",
-        "prerequisites": "Prerequisite: Consent of instructor"
+        "prerequisites": "Consent of instructor",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -620,14 +680,8 @@
         "title": "Complex Analysis",
         "description": "Prerequisites: MATH 501, MATH 455. Topics covered include the general Cauchy theorem, power series and analytic continuation, series and product expansions, conformal mapping and the Dirichlet problem.",
         "units": "3",
-        "prerequisites": "Prerequisites: MATH 501, MATH 455"
-    },
-    {
-        "subject": "MATH",
-        "catalog_number": "661B",
-        "title": "Top Alg Dis Math",
-        "description": null,
-        "units": "3"
+        "prerequisites": "MATH 501, MATH 455",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -642,7 +696,8 @@
         "title": "Intro Comm Algebra",
         "description": "Prerequisite: MATH 560 or consent of instructor. Topics covered include modules, localization, integral dependence, chain conditions (Noetherian and Artinian), discrete valuation rings (DVRs) and Dedekind domains.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 560 or consent of instructor"
+        "prerequisites": "MATH 560 or consent of instructor",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -650,7 +705,7 @@
         "title": "Directed Comprehensive Studies",
         "description": "Directed Comprehensive Studies",
         "units": "1",
-        "prerequisites": "N/A"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -658,7 +713,7 @@
         "title": "Thesis Or Graduate Project",
         "description": "Thesis or Graduate Project",
         "units": "1",
-        "prerequisites": "N/A"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",
@@ -666,14 +721,7 @@
         "title": "Independent Study",
         "description": "See Independent Study under courses of study.",
         "units": "1",
-        "prerequisites": "See Independent Study under courses of study"
-    },
-    {
-        "subject": "MATH",
-        "catalog_number": "91B",
-        "title": "Ge Math Support",
-        "description": null,
-        "units": "1"
+        "prerequisites": "None"
     },
     {
         "subject": "MATH",

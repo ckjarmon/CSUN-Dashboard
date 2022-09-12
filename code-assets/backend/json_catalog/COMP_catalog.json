@@ -5,7 +5,7 @@
         "title": "Computers: Their Impact And Use",
         "description": "Not open to Computer Science majors. Introduction to the uses, concepts, techniques and terminology of computing. Places the possibilities and problems of computer use in historical, economic and social contexts. Shows how computers can assist in a wide range of personal, commercial and organizational activities. Typical computer applications, including word processing, spreadsheets and databases. (Available for General Education, E Lifelong Learning.) (IC)",
         "units": "3",
-        "prerequisites": "Not open to Computer Science majors"
+        "prerequisites": "None"
     },
     {
         "subject": "COMP",
@@ -13,7 +13,8 @@
         "title": "Computer Programming In Basic",
         "description": "Prerequisite: COMP 101 110/L or 106/L. Instruction and practice in a particular computer programming language as listed below. 3 hours of lab per week. ; COMP\t105BAS\t\tComputer Programming in BASIC (1) ; COMP\t105C\t\tComputer Programming in C (1) ; COMP\t105COB\tComputer Programming in COBOL (1) ; COMP\t105FOR\t\tComputer Programming in FORTRAN (1) ; COMP\t105JAV\t\tComputer Programming in JAVA (1)\n",
         "units": "1",
-        "prerequisites": "Prerequisite: COMP 101 110/L or 106/L"
+        "prerequisites": "COMP 101 110/L or 106/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -21,7 +22,8 @@
         "title": "Orientation To Computer Science",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Not a required course in the major. Recommended for incoming Computer Science majors with limited computing experience as well as those considering a major in Computer Science. Introduction to the Computer Science major and profession. Main focus on developing problem solving, algorithm development and programming skills, and acquiring critical thinking abilities, especially when applied to computer science. Additional emphasis on orientation to the university, campus resources, study skills, motivation and career awareness.",
         "units": "3",
-        "prerequisites": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -29,7 +31,8 @@
         "title": "Introduction To Algorithms And Programming",
         "description": "Prerequisite: Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: COMP 110L. Introduction to algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. Lab: 3 hours per week. (Available for General Education, E Lifelong Learning if required by student\u2019s major.)",
         "units": "2",
-        "prerequisites": "Prerequisite: Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A"
+        "prerequisites": "Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A",
+        "corequisites": "COMP 110L"
     },
     {
         "subject": "COMP",
@@ -37,7 +40,8 @@
         "title": "Introduction To Algorithms And Programming Lab",
         "description": "Prerequisite: Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: COMP 110L. Introduction to algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. Lab: 3 hours per week. (Available for General Education, E Lifelong Learning if required by student\u2019s major.)",
         "units": "1",
-        "prerequisites": "Prerequisite: Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A"
+        "prerequisites": "Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A",
+        "corequisites": "COMP 110"
     },
     {
         "subject": "COMP",
@@ -45,7 +49,8 @@
         "title": "Algrth Prog A",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Corequisite: COMP 111AL. Recommended for incoming Computer Science majors with minimal prior experience programming in a high level language. Introduction to the Computer Science major and profession with a focus on developing problem solving, algorithm development and programming skills, and acquiring critical thinking abilities, especially when applied to computer science. The first of a two-course sequence for those not ready to enroll in COMP 110/L. Completion of COMP 111A/L and COMP 111B/L will provide credit equivalent to COMP 110/L. Not available for course credit if grade of \u201cC\u201d or better has been received for COMP 108 or COMP 110/L. Lab: 3 hours per week.",
         "units": "2",
-        "prerequisites": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent",
+        "corequisites": "COMP 111AL"
     },
     {
         "subject": "COMP",
@@ -53,7 +58,8 @@
         "title": "Algrth/prog A Lab",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Corequisite: COMP 111AL. Recommended for incoming Computer Science majors with minimal prior experience programming in a high level language. Introduction to the Computer Science major and profession with a focus on developing problem solving, algorithm development and programming skills, and acquiring critical thinking abilities, especially when applied to computer science. The first of a two-course sequence for those not ready to enroll in COMP 110/L. Completion of COMP 111A/L and COMP 111B/L will provide credit equivalent to COMP 110/L. Not available for course credit if grade of \u201cC\u201d or better has been received for COMP 108 or COMP 110/L. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent"
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent",
+        "corequisites": "COMP 111A"
     },
     {
         "subject": "COMP",
@@ -61,7 +67,8 @@
         "title": "Algrth Prog B",
         "description": "Prerequisites: COMP 111A/L; Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: COMP 111BL. Introduction to algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. The second of a two-course sequence for those not ready to enroll in COMP 110/L. Completion of COMP 111A/L and COMP 111B/L will provide credit equivalent to COMP 110/L. Not available for course credit if grade of \u201cC\u201d or better has been received for COMP 108 or COMP 110/L. Lab: 3 hours per week.",
         "units": "2",
-        "prerequisites": "Prerequisites: COMP 111A/L; Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A"
+        "prerequisites": "COMP 111A/L; Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A",
+        "corequisites": "COMP 111BL"
     },
     {
         "subject": "COMP",
@@ -69,7 +76,8 @@
         "title": "Algrth Prog B Lab",
         "description": "Prerequisites: COMP 111A/L; Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: COMP 111BL. Introduction to algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. The second of a two-course sequence for those not ready to enroll in COMP 110/L. Completion of COMP 111A/L and COMP 111B/L will provide credit equivalent to COMP 110/L. Not available for course credit if grade of \u201cC\u201d or better has been received for COMP 108 or COMP 110/L. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: COMP 111A/L; Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A"
+        "prerequisites": "COMP 111A/L; Grade of \u201cC\u201d or better in MATH 102, MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A",
+        "corequisites": "COMP 111B"
     },
     {
         "subject": "COMP",
@@ -77,7 +85,8 @@
         "title": "Computer Architecture And Assembly Language",
         "description": "Prerequisites: Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement. Corequisite: COMP 122L. Introduction to computer architecture, assembly language programming, system software and computer applications. Number systems and data representation. Internal organization of a computer. Primitive instructions and operations. Assembly language. Integrated lecture/lab environment. Lab: 3 hours per week.",
         "units": "2",
-        "prerequisites": "Prerequisites: Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement"
+        "prerequisites": "Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement",
+        "corequisites": "COMP 122L"
     },
     {
         "subject": "COMP",
@@ -85,7 +94,8 @@
         "title": "Computer Architecture And Assembly Language Lab",
         "description": "Prerequisites: Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement. Corequisite: COMP 122L. Introduction to computer architecture, assembly language programming, system software and computer applications. Number systems and data representation. Internal organization of a computer. Primitive instructions and operations. Assembly language. Integrated lecture/lab environment. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement"
+        "prerequisites": "Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement",
+        "corequisites": "COMP 122"
     },
     {
         "subject": "COMP",
@@ -93,7 +103,8 @@
         "title": "Data Structures And Program Design",
         "description": "Prerequisites: Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement. Corequisite: COMP 182L. Introduction to data structures and the algorithms that use them. Review of composite data types, such as arrays, records, strings and sets. Role of the abstract data type in program design. Definition, implementation and application of data structures, such as stacks, queues, linked lists, trees and graphs. Recursion. Use of time complexity expressions in evaluating algorithms. Comparative study of sorting and searching algorithms. Lab: 3 hours per week.",
         "units": "2",
-        "prerequisites": "Prerequisites: Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement"
+        "prerequisites": "Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement",
+        "corequisites": "COMP 182L"
     },
     {
         "subject": "COMP",
@@ -101,7 +112,8 @@
         "title": "Data Structures And Program Design Lab",
         "description": "Prerequisites: Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement. Corequisite: COMP 182L. Introduction to data structures and the algorithms that use them. Review of composite data types, such as arrays, records, strings and sets. Role of the abstract data type in program design. Definition, implementation and application of data structures, such as stacks, queues, linked lists, trees and graphs. Recursion. Use of time complexity expressions in evaluating algorithms. Comparative study of sorting and searching algorithms. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement"
+        "prerequisites": "Grade of \u201cC\u201d or better in COMP 110/L; Grade of \u201cC\u201d or better in MATH 103, MATH 104, MATH 105, MATH 150A or MATH 255A, or a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement",
+        "corequisites": "COMP 182"
     },
     {
         "subject": "COMP",
@@ -109,7 +121,8 @@
         "title": "Computer Organization",
         "description": "Prerequisites: Grade of \u201cC\u201d or better in COMP 122/L and COMP 182/L. Extension of basic addressing concepts to more advanced addressability, such as base register and self-relative addressing. Comparative computer architecture focusing on such organizations as multiple register processors and stack machines. Basics of virtual memory input-output. Introduction to the concept of microprogrammable systems. Low-level language translation process associated with assemblers. System functions such as relocatable loading and memory management. Application of data structure and hashing techniques to the above. Other related topics.",
         "units": "3",
-        "prerequisites": "Prerequisites: Grade of \u201cC\u201d or better in COMP 122/L and COMP 182/L"
+        "prerequisites": "Grade of \u201cC\u201d or better in COMP 122/L and COMP 182/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -117,7 +130,8 @@
         "title": "Discrete Structures For Computer Science",
         "description": "Prerequisites: COMP 182/L; MATH 150A; PHIL 230. Study of discrete mathematical structures and proof techniques as used in computer science. Discrete structures, such as functions, relations, sets, graphs and trees. Proof techniques, such as proof by induction, proof by contradiction and proof by cases. Counting techniques. Lab: 3 hours per week.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 182/L; MATH 150A; PHIL 230"
+        "prerequisites": "COMP 182/L; MATH 150A; PHIL 230",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -125,7 +139,8 @@
         "title": "Discrete Structures For Computer Science Lab",
         "description": "Prerequisites: COMP 182/L; MATH 150A; PHIL 230. Study of discrete mathematical structures and proof techniques as used in computer science. Discrete structures, such as functions, relations, sets, graphs and trees. Proof techniques, such as proof by induction, proof by contradiction and proof by cases. Counting techniques. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: COMP 182/L; MATH 150A; PHIL 230"
+        "prerequisites": "COMP 182/L; MATH 150A; PHIL 230",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -133,7 +148,8 @@
         "title": "Advanced Data Structures",
         "description": "Prerequisites: Grade of \u201cC\u201d or better in COMP 182/L and MATH 150A. Introduction to advanced data structures (particularly persistent structures) using object-oriented design. Main memory structures, hash tables and trees. Architectural foundations for files. Large-scale sorting. Hash-based persistent structures. Indexed files. Introduction to databases.",
         "units": "2",
-        "prerequisites": "Prerequisites: Grade of \u201cC\u201d or better in COMP 182/L and MATH 150A"
+        "prerequisites": "Grade of \u201cC\u201d or better in COMP 182/L and MATH 150A",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -141,7 +157,8 @@
         "title": "Computer Fluency",
         "description": "Prerequisite: Completion of the lower division writing requirement. Does not provide credit toward Computer Science major. Study of fundamental computing concepts related to: information technology, data and its digital representation, technological power, computing limitations and social impact. Survey of essential and advanced applications designed to process different forms of information other than text. Promote such computing skills as basic algorithmic thinking, debugging, logical reasoning and critical use of information. Develop capabilities for applying the technology. (Available for General Education, E Lifelong Learning.)",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of the lower division writing requirement"
+        "prerequisites": "Completion of the lower division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -149,7 +166,8 @@
         "title": "Automata, Languages, And Computation",
         "description": "Prerequisite: COMP 256/L or MATH 326. Study of the relation of languages (defined as sets of strings) and machines for processing these languages, with emphasis on classes of languages and corresponding classes of machines. Phrase structure languages and grammar. Types of grammar and classes of languages. Regular languages and finite state automata. Context-free languages and pushdown automata. Unrestricted languages and Turing Machines. Computability models of Turing, Church, Markov and McCarthy. Applications to programming languages, compiler design, and program design and testing.",
         "units": "3",
-        "prerequisites": "Prerequisite: COMP 256/L or MATH 326"
+        "prerequisites": "COMP 256/L or MATH 326",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -157,7 +175,8 @@
         "title": "Introduction To Operating Systems And System Architecture",
         "description": "Prerequisite: COMP 222, or ECE 422 and ECE 425/L. Corequisite: COMP 322L. Recommended Prerequisite: COMP 105C or knowledge of \u201cC\u201d Language. Examination of the principal types of systems, including batch, multi-programming and time-sharing. Discusses networked system. Considers the salient problems associated with implementing systems, including interrupt of event driven systems, multitasking, storage and database management and input-output. Emphasizes some of the simple algorithms used to solve common problems encountered, such as deadlocks, queue service and multiple access to data. Projects are implemented to reinforce the lectures. One 3-hour lab per week.",
         "units": "3",
-        "prerequisites": "Prerequisite: COMP 222, or ECE 422 and ECE 425/L"
+        "prerequisites": "COMP 222, or ECE 422 and ECE 425/L",
+        "corequisites": "COMP 322L"
     },
     {
         "subject": "COMP",
@@ -165,7 +184,8 @@
         "title": "Introduction To Operating Systems And System Architecture Lab",
         "description": "Prerequisite: COMP 222, or ECE 422 and ECE 425/L. Corequisite: COMP 322L. Recommended Prerequisite: COMP 105C or knowledge of \u201cC\u201d Language. Examination of the principal types of systems, including batch, multi-programming and time-sharing. Discusses networked system. Considers the salient problems associated with implementing systems, including interrupt of event driven systems, multitasking, storage and database management and input-output. Emphasizes some of the simple algorithms used to solve common problems encountered, such as deadlocks, queue service and multiple access to data. Projects are implemented to reinforce the lectures. One 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisite: COMP 222, or ECE 422 and ECE 425/L"
+        "prerequisites": "COMP 222, or ECE 422 and ECE 425/L",
+        "corequisites": "COMP 322"
     },
     {
         "subject": "COMP",
@@ -173,7 +193,8 @@
         "title": "Concepts Of Programming Languages",
         "description": "Prerequisite: COMP 282. Discussion of issues in the design, implementation and use of high-level programming languages through a historical framework, including how languages reflect different design philosophies and use requirements and the technical issues in the design of main abstraction constructs of programming languages. Other approaches to imperative or object-oriented programming, functional programming, logical programming and parallel programming.",
         "units": "3",
-        "prerequisites": "Prerequisite: COMP 282"
+        "prerequisites": "COMP 282",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -181,7 +202,8 @@
         "title": "Introduction To Software Engineering",
         "description": "Prerequisites: COMP 270/L or COMP 282; PHIL 230; and Oral Communication GE Basic Skills Section A.1. Corequisite: COMP 380L. Concepts and techniques for systems engineering, requirements analysis, design, implementation and testing of large-scale computer systems. Principles of software engineering for production of reliable, maintainable and portable software products. Emphasis on object-oriented analysis and design techniques. Topics include unit, integration and systems testing, configuration management, software quality assurance practices and an introduction to Computer Aided Software Engineering (CASE). This is a lecture portion of a course in software engineering involving the design and partial implementation of a software system as a group project. Lab: 3 hours per week.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 270/L or COMP 282; PHIL 230; and Oral Communication GE Basic Skills Section A"
+        "prerequisites": "COMP 270/L or COMP 282; PHIL 230; and Oral Communication GE Basic Skills Section A",
+        "corequisites": "COMP 380L"
     },
     {
         "subject": "COMP",
@@ -189,22 +211,15 @@
         "title": "Introduction To Software Engineering Lab",
         "description": "Prerequisites: COMP 270/L or COMP 282; PHIL 230; and Oral Communication GE Basic Skills Section A.1. Corequisite: COMP 380L. Concepts and techniques for systems engineering, requirements analysis, design, implementation and testing of large-scale computer systems. Principles of software engineering for production of reliable, maintainable and portable software products. Emphasis on object-oriented analysis and design techniques. Topics include unit, integration and systems testing, configuration management, software quality assurance practices and an introduction to Computer Aided Software Engineering (CASE). This is a lecture portion of a course in software engineering involving the design and partial implementation of a software system as a group project. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: COMP 270/L or COMP 282; PHIL 230; and Oral Communication GE Basic Skills Section A"
-    },
-    {
-        "subject": "COMP",
-        "catalog_number": "392IP",
-        "title": "Database Design",
-        "description": null,
-        "units": "3"
+        "prerequisites": "COMP 270/L or COMP 282; PHIL 230; and Oral Communication GE Basic Skills Section A",
+        "corequisites": "COMP 380"
     },
     {
         "subject": "COMP",
         "catalog_number": "410",
         "title": "Logic Programming",
         "description": "Prerequisites: COMP 282, COMP 310, COMP 333. Programming techniques in the logic programming language PROLOG. Prenex conjunctive normal form and grammatical algorithms. Tableaux, sequenzen, resolution and other semi-decision procedures. Closures of relations, fixed point theory, control mechanisms, relationship to functional programming. Available for graduate credit.",
-        "units": "2",
-        "prerequisites": "Prerequisites: COMP 282, COMP 310, COMP 333"
+        "units": "2"
     },
     {
         "subject": "COMP",
@@ -212,7 +227,8 @@
         "title": "Computer System Security",
         "description": "Prerequisites: COMP 322/L and COMP 380/L, or CIT 360/L and IS 435. Analysis of the need for computer system security and the security techniques in operating systems, databases and computer networks. Supporting techniques, such as auditing, risk analysis and cost-benefit tradeoffs, are discussed. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L and COMP 380/L, or CIT 360/L and IS 435"
+        "prerequisites": "COMP 322/L and COMP 380/L, or CIT 360/L and IS 435",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -220,7 +236,8 @@
         "title": "Computer Network Software",
         "description": "Prerequisites: COMP 322/L. Basic software design and analysis considerations in networking computers into coherent, cooperating systems capable of processing computational tasks in a distributed manner. Network topology, routing procedures, message multiplexing and process scheduling techniques. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L"
+        "prerequisites": "COMP 322/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -228,7 +245,8 @@
         "title": "Language Design And Compilers",
         "description": "Prerequisites: COMP 310, COMP 380/L. Examination of the issues involved in the design and subsequent implementation of programming languages. Considerations of implementation difficulties, including various features in a programming language. Tools and techniques to facilitate both the processing of programming languages and the building of programming processors. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 310, COMP 380/L"
+        "prerequisites": "COMP 310, COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -236,7 +254,8 @@
         "title": "Database Design",
         "description": "Prerequisites: COMP 380/L. Database structure, including: structure definition, data models, semantics of relations and operation on data models. Database schemas, including element definition and use and manipulation of the schema. Elements of implementation. Algebra of relations on a database. Hierarchical databases. Discussion of information retrieval, reliability, protection and integrity of databases. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -244,7 +263,8 @@
         "title": "Machine Learning",
         "description": "Prerequisites: COMP 182/L and MATH 444; or COMP 380/L and MATH 340; or COMP 380/L and MATH 341. A study of the concepts, principles, techniques, and applications of machine learning. Topics include concept-based learning, information-based learning (decision trees and ID3 algorithms), rule-based learning (association rules, learning ordered rules, learning unordered rules, and descriptive rule learning), distance-based learning (nearest neighbor algorithms), probability-based learning (Bayesian classifiers and networks), and error-based learning (perceptron, multivariable linear regression with gradient descent, nonlinear and multidimensional models, artificial neural networks, and support vector machines). Model ensembles learning and reinforcement learning are also discussed. Available for graduate credit. Graduate students will be required to complete advanced projects.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 182/L and MATH 444; or COMP 380/L and MATH 340; or COMP 380/L and MATH 341"
+        "prerequisites": "COMP 182/L and MATH 444; or COMP 380/L and MATH 340; or COMP 380/L and MATH 341",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -252,7 +272,8 @@
         "title": "Computer Graphic Systems And Design",
         "description": "Prerequisite: MATH 262. Corequisite: COMP 465L. Fundamental concepts of computer graphics. Graphics devices; graphics languages; interactive systems. Applications to art, science, engineering and business. Trade-offs between hardware devices and software support. Lab: 3 hours per week. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisite: MATH 262"
+        "prerequisites": "MATH 262",
+        "corequisites": "COMP 465L"
     },
     {
         "subject": "COMP",
@@ -260,7 +281,8 @@
         "title": "Computer Graphic Systems And Design Lab",
         "description": "Prerequisite: MATH 262. Corequisite: COMP 465L. Fundamental concepts of computer graphics. Graphics devices; graphics languages; interactive systems. Applications to art, science, engineering and business. Trade-offs between hardware devices and software support. Lab: 3 hours per week. Available for graduate credit.",
         "units": "1",
-        "prerequisites": "Prerequisite: MATH 262"
+        "prerequisites": "MATH 262",
+        "corequisites": "COMP 465"
     },
     {
         "subject": "COMP",
@@ -268,7 +290,8 @@
         "title": "Multimedia Systems Design",
         "description": "Prerequisites: COMP 380/L. Study of fundamentals of multimedia storage, processing, communication, presentation and display by digital means with emphasis on audio, still images and video media. Includes sampling theory, compression techniques and synchronization. Discussion of hypermedia and methodology issues. Multimedia programming; software tools for authoring multimedia applications and interfaces. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -276,7 +299,8 @@
         "title": "Introduction To Artificial Intelligence",
         "description": "Prerequisites: COMP 310, COMP 380/L, COMP 410. Exploration of the use of computers to perform computations normally associated with intelligence. These include game playing, theorem proving, problem solving, question answering and visual perception. Topics include languages, system architectures and heuristic strategies for advanced, high-level computations. Covers computational models for knowledge representation, natural language and vision. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 310, COMP 380/L, COMP 410"
+        "prerequisites": "COMP 310, COMP 380/L, COMP 410",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -284,7 +308,8 @@
         "title": "Algorithm Design",
         "description": "Prerequisites: COMP 282; COMP 256/L or MATH 320 or MATH 326. The analysis of algorithms, in terms of time and space complexity for best/average/worst case execution using asymptotic notation; the application of standard algorithmic approaches, including greedy, divide and conquer, and dynamic programming, to algorithm design; and a review of classical algorithms, including sorting, searching, and graph algorithms.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 282; COMP 256/L or MATH 320 or MATH 326"
+        "prerequisites": "COMP 282; COMP 256/L or MATH 320 or MATH 326",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -292,7 +317,8 @@
         "title": "Web Engineering I",
         "description": "Prerequisites: COMP 322/L or COMP 380/L or CIT 360. Corequisite: COMP 484L. Internet infrastructure and the underlying networking technologies. Study of system and software architectures for web applications, e-business and e-commerce systems. Principles of website design. Advances in web-engineering technologies. Principles of web-based based transaction processing. XML and the associated technologies. Web service technology. Security and privacy issues. Study of the emerging Internet technologies. Available for graduate credit. Two hour lecture and three hour lab per week.",
         "units": "2",
-        "prerequisites": "Prerequisites: COMP 322/L or COMP 380/L or CIT 360"
+        "prerequisites": "COMP 322/L or COMP 380/L or CIT 360",
+        "corequisites": "COMP 484L"
     },
     {
         "subject": "COMP",
@@ -300,7 +326,8 @@
         "title": "Web Engineering I Lab",
         "description": "Prerequisites: COMP 322/L or COMP 380/L or CIT 360. Corequisite: COMP 484L. Internet infrastructure and the underlying networking technologies. Study of system and software architectures for web applications, e-business and e-commerce systems. Principles of website design. Advances in web-engineering technologies. Principles of web-based based transaction processing. XML and the associated technologies. Web service technology. Security and privacy issues. Study of the emerging Internet technologies. Available for graduate credit. Two hour lecture and three hour lab per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: COMP 322/L or COMP 380/L or CIT 360"
+        "prerequisites": "COMP 322/L or COMP 380/L or CIT 360",
+        "corequisites": "COMP 484"
     },
     {
         "subject": "COMP",
@@ -308,7 +335,8 @@
         "title": "Human-computer Interaction",
         "description": "Prerequisites: COMP 380/L or CIT 360. Examines the information exchange between humans and computer systems. Discusses aspects of input/output devices, software engineering and human factors with respect to human-computer interactions. Topics include text and graphic display; user modeling; program design, debugging, complexity and comprehension; and current research studies and methodologies. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L or CIT 360"
+        "prerequisites": "COMP 380/L or CIT 360",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -316,7 +344,8 @@
         "title": "Senior Design Project",
         "description": "Prerequisites: COMP 380/L. Corequisite: COMP 490L. Project-oriented course to allow students to apply their knowledge of software engineering to the design and implementation of a system to solve a real-world problem. Students select and specify a suitable problem, investigate design alternatives and select an appropriate one, implement a solution and verify and validate the result, all as part of a team effort. The role of digital computers in modern society are investigated, including the dangers of computer misuse, as well as the proper and intelligent use of computers. Ethical concerns of software professionals are studied. Lab: 3 hours per week.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "COMP 490L"
     },
     {
         "subject": "COMP",
@@ -324,7 +353,8 @@
         "title": "Senior Design Project Lab",
         "description": "Prerequisites: COMP 380/L. Corequisite: COMP 490L. Project-oriented course to allow students to apply their knowledge of software engineering to the design and implementation of a system to solve a real-world problem. Students select and specify a suitable problem, investigate design alternatives and select an appropriate one, implement a solution and verify and validate the result, all as part of a team effort. The role of digital computers in modern society are investigated, including the dangers of computer misuse, as well as the proper and intelligent use of computers. Ethical concerns of software professionals are studied. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "COMP 490"
     },
     {
         "subject": "COMP",
@@ -332,22 +362,15 @@
         "title": "Senior Project Lab",
         "description": "Prerequisites: COMP 490/L. Project-oriented lab to allow students to complete the design, implementation and testing of the team-based software engineering project started in COMP 490/L. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: COMP 490/L"
-    },
-    {
-        "subject": "COMP",
-        "catalog_number": "492IP",
-        "title": "Internet Security A",
-        "description": null,
-        "units": "4"
+        "prerequisites": "COMP 490/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
         "catalog_number": "522",
         "title": "Embedded Apps",
         "description": "Prerequisites: COMP 322/L or instructor\u2019s consent. Embedded systems present cost effective, challenging and flexible computational platforms. Instruction in the unique aspects of embedded systems including architectures, instruction sets, development environments, concurrent programming, networking, applications of embedded platforms, data acquisition from sensors and interaction with surrounding environment.",
-        "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L or instructor\u2019s consent"
+        "units": "3"
     },
     {
         "subject": "COMP",
@@ -355,7 +378,8 @@
         "title": "Mobile Computing",
         "description": "Prerequisites: COMP 322/L or COMP 380/L. Issues related to the design, development, networking, and deployment of mobile computing system for pervasive and mobile applications.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L or COMP 380/L"
+        "prerequisites": "COMP 322/L or COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -363,7 +387,8 @@
         "title": "Mobile Comp Lab",
         "description": "Prerequisites: COMP 322/L or COMP 380/L. Issues related to the design, development, networking, and deployment of mobile computing system for pervasive and mobile applications. Three hours of laboratory per week.",
         "units": "1",
-        "prerequisites": "Prerequisites: COMP 322/L or COMP 380/L"
+        "prerequisites": "COMP 322/L or COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -371,7 +396,8 @@
         "title": "Advanced Network Topics",
         "description": "Prerequisites: COMP 429 or instructor consent; MATH 340 or MATH 341. Corequisite: COMP 529L. Architectural principles: naming, addressing, routing; congestion control, traffic management, QoS; wireless networks; overlay networks and virtualization; queueing theory; measurements; network security; switching and routing; content distribution; and proposals for future Internet structures.",
         "units": "2",
-        "prerequisites": "Prerequisites: COMP 429 or instructor consent; MATH 340 or MATH 341"
+        "prerequisites": "COMP 429 or instructor consent; MATH 340 or MATH 341",
+        "corequisites": "COMP 529L"
     },
     {
         "subject": "COMP",
@@ -379,7 +405,8 @@
         "title": "Adv Network Lab",
         "description": "Prerequisites: COMP 429 or instructor consent; MATH 340 or MATH 341. Corequisite: COMP 529L. Architectural principles: naming, addressing, routing; congestion control, traffic management, QoS; wireless networks; overlay networks and virtualization; queueing theory; measurements; network security; switching and routing; content distribution; and proposals for future Internet structures.",
         "units": "1",
-        "prerequisites": "Prerequisites: COMP 429 or instructor consent; MATH 340 or MATH 341"
+        "prerequisites": "COMP 429 or instructor consent; MATH 340 or MATH 341",
+        "corequisites": "COMP 529"
     },
     {
         "subject": "COMP",
@@ -387,7 +414,8 @@
         "title": "Network Infras",
         "description": "Prerequisite: COMP 424 or COMP 429 or instructor\u2019s consent. Topics regarding the implementation and administration of network and information infrastructure components will be presented. Issues covered include security administration, packet filtering, proxy services and virus protection. Fundamentals of administering information services such as SMTP, DNS, LDAP and HTTP will be investigated. Internet infrastructure administration and routing protocols such as RIP, BGP and link redundancy will also be explored.",
         "units": "3",
-        "prerequisites": "Prerequisite: COMP 424 or COMP 429 or instructor\u2019s consent"
+        "prerequisites": "COMP 424 or COMP 429 or instructor\u2019s consent",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -395,7 +423,8 @@
         "title": "Data Mining",
         "description": "Prerequisites: COMP 380/L. A study of the concepts, principles, techniques and applications of data mining. Topics include data preprocessing, the ChiMerge algorithm, data warehousing, OLAP technology, the Apriori algorithm for mining frequent patterns, classification methods (such as decision tree induction, Bayesian classification, neural networks, support vector machines and genetic algorithms), clustering methods (such as k-means algorithm, hierarchical clustering methods and self-organizing feature map)and data mining applications (such as Web, finance, telecommunication, biology, medicine, science and engineering). Privacy protection and information security in data mining are also discussed.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -403,7 +432,8 @@
         "title": "Machine Learning",
         "description": "Prerequisites: COMP 380/L and MATH 340 or MATH 341; or graduate standing. A study of the concepts, principles, techniques, and applications of machine learning. Topics include concept-based learning, information-based learning (decision trees and ID3 algorithms), rule-based learning (association rules, learning ordered rules, learning unordered rules, and descriptive rule learning), distance-based learning (nearest neighbor algorithms), probability-based learning (Bayesian classifiers and networks), and error-based learning (perceptron, multivariable linear regression with gradient descent, nonlinear and multidimensional models, artificial neural networks, and support vector machines). Model ensembles learning and reinforcement learning are also discussed.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L and MATH 340 or MATH 341; or graduate standing"
+        "prerequisites": "COMP 380/L and MATH 340 or MATH 341; or graduate standing",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -411,7 +441,8 @@
         "title": "Expert Systems",
         "description": "Prerequisite: COMP 469. Extensive introduction to the concepts and techniques of expert systems. Rationale for such systems, including evaluation of prospective domains. Explores existing systems, those under development and likely future areas. Basic architecture is demonstrated using both example and rule-based systems. Commercial tools for building expert systems are surveyed and evaluated. Knowledge acquisition methods. Guidelines given for planning and managing development projects.",
         "units": "3",
-        "prerequisites": "Prerequisite: COMP 469"
+        "prerequisites": "COMP 469",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -419,7 +450,8 @@
         "title": "Advanced Computer Graphics",
         "description": "Prerequisites: COMP 322/L. This course will cover the theory, design, implementation and application of advanced computer graphics environments. Accelerated 3D graphics APIs; the modeling and simulation of light, sound, physical objects, motion and collisions; and user interaction in single- and multi-user virtual environments will be studied. The application domain for this class is interactive 3D computer games, scientific visualization and virtual reality.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L"
+        "prerequisites": "COMP 322/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -427,7 +459,8 @@
         "title": "Open Source Software Engineering",
         "description": "Prerequisite: COMP 380/L. Introduction to open source software engineering concepts principles and applications. Topics include history of open source software open source software engineering models open source products and software quality strategies and business models government policies toward open source software work organization of open source software development software and intellectual property rights organizations of the open source community and case studies. Different open source software products for various applications are also discussed and used for group projects.\n",
         "units": "3",
-        "prerequisites": "Prerequisite: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -435,7 +468,8 @@
         "title": "Software Requirements Analysis And Specification",
         "description": "Prerequisites: COMP 380/L. An in-depth study of the early phases of the software development life cycle commonly called software requirements analysis and specification. Topics include the gathering of both functional and nonfunctional requirements, customer communication, requirements prototyping, requirements modeling, requirements validation, the documentation of requirements in terms of a formal software requirements specification, and the management of software requirements.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -443,7 +477,8 @@
         "title": "Software Engineering Management",
         "description": "Prerequisites: COMP 380/L. Provides a framework for understanding software engineering management models, technologies, trends, tools and planning processes. Emphasizes the development of an individualized approach to managing software teams, projects and systems. The role of management as an increasingly critical factor in software engineering is examined.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -451,7 +486,8 @@
         "title": "Advanced Web Engineering",
         "description": "Prerequisites: COMP 380/L. A study of the concepts, principles, techniques and methods of Web engineering. Topics include requirements engineering, modeling and architectures, design and technologies, testing, operation and maintenance, Web project management, application development process, usability, and performance and security of Web applications. Technologies, business models and strategies and societal issues of Web 2.0 and Semantic Web also are discussed.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -459,7 +495,8 @@
         "title": "Graphical User Interfaces",
         "description": "Prerequisites: COMP 322/L, COMP 380/L. The design, development and analysis of programs requiring graphical, direct manipulation and user interfaces (GUIs) will be examined. The majority of modern software includes a GUI. The development tools, environments and style guides for common GUIs will be used in course assignments and discussed in lecture. The course involves the design and development of several GUI programs. The aesthetic and human computer interaction aspects and future trends in GUIs design and development also will be reviewed.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L, COMP 380/L"
+        "prerequisites": "COMP 322/L, COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -467,7 +504,8 @@
         "title": "Object-oriented Software Development",
         "description": "Prerequisites: COMP 322/L, COMP 380/L. Review of object-oriented concepts. Comparison with functional methods. Benefits and pitfalls of object orientation. Fundamentals of object-oriented modeling\u2014associations, links and states. Survey of object-oriented development methods. In-depth study of a current object-oriented method. Object-oriented software requirements analysis and modeling. Object-oriented preliminary design. Designing concurrent and multiprocessor systems. Object-oriented detailed design. Object-oriented and object-based implementations. Object-oriented testing.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L, COMP 380/L"
+        "prerequisites": "COMP 322/L, COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -475,7 +513,8 @@
         "title": "Software V And V",
         "description": "Prerequisites: COMP 380/L. An-in depth study of verification and validation strategies and techniques as they apply to the development of quality software. Topics include test planning and management, testing tools, technical reviews, formal methods and the economics of software testing. The relationship of testing to other quality assurance activities as well as the integration of verification and validation into the overall software development process are also discussed.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L"
+        "prerequisites": "COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -483,7 +522,8 @@
         "title": "Software Metrics",
         "description": "Prerequisites: COMP 380/L; MATH 340 or MATH 341. The role of metrics and quantitative models in software development. Product metrics, process metrics, measurement models and techniques for empirical validation. Measurement and analysis. Implementation of a metrics program. Measuring software size, complexity and functionality at different stages of software development. Use of measures to predict effort and schedule required for software projects. Measures of software quality. Analyzing defect data to predict software reliability. Performance measures. Management applications for metrics. Tools that support metrics collection, analysis, summary and presentation.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L; MATH 340 or MATH 341"
+        "prerequisites": "COMP 380/L; MATH 340 or MATH 341",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -491,7 +531,8 @@
         "title": "Data Structures And Algorithms",
         "description": "Prerequisites: COMP 310; MATH 482. Topics include design strategies for data structures and algorithms, theoretical limits to space and time requirements time/space trade offs, and open problems in the field.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 310; MATH 482"
+        "prerequisites": "COMP 310; MATH 482",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -499,7 +540,8 @@
         "title": "Advanced Topics In Computation Theory",
         "description": "Prerequisites: COMP 310; MATH 482. Languages and the theory of computation are studied in depth. Covers advanced material concerning regular and context free languages. Study of deterministic context-free languages, context sensitive languages, recursive and recursively enumerable sets. Investigation of current areas of interest.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 310; MATH 482"
+        "prerequisites": "COMP 310; MATH 482",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -507,7 +549,8 @@
         "title": "Computer System Architecture",
         "description": "Prerequisites: COMP 322/L, COMP 380/L. Analysis and evaluation of individual computers, networks of computers and the programs that support their operation and use. Emphasis on comparison of architectures and the risks and benefits associated with various approaches and configurations.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L, COMP 380/L"
+        "prerequisites": "COMP 322/L, COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -515,7 +558,8 @@
         "title": "Advanced Topics In Software Engineering",
         "description": "Prerequisites: COMP 322/L, COMP 380/L. New and emerging software engineering technologies and practices covering: principles, concepts, methods, notations, formalisms, techniques, and tools. Study of these technologies and practices from a practical as well as from a theoretical perspective. Explore current problems underlying the development of large software systems and approaches for dealing with them.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 322/L, COMP 380/L"
+        "prerequisites": "COMP 322/L, COMP 380/L",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -523,7 +567,8 @@
         "title": "Software Architecture And Design",
         "description": "Prerequisites: COMP 380/L, COMP 582. Techniques, methods and tools for designing, building, analyzing and evaluating the structural, architectural and behavioral properties of software systems. It includes the study of the fundamental concepts and principles of software architectural design, structured design, object-oriented design, component-level design and design for reuse.",
         "units": "3",
-        "prerequisites": "Prerequisites: COMP 380/L, COMP 582"
+        "prerequisites": "COMP 380/L, COMP 582",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -531,7 +576,8 @@
         "title": "Directed Graduate Research",
         "description": "Prerequisite: Permission of Project/Thesis Committee Cbair. (Credit/No Credit only)\n",
         "units": "3",
-        "prerequisites": "Prerequisite: Permission of Project/Thesis Committee Cbair"
+        "prerequisites": "Permission of Project/Thesis Committee Cbair",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -539,6 +585,6 @@
         "title": "Thesis Or Graduate Project",
         "description": "Thesis",
         "units": "3",
-        "prerequisites": "N/A"
+        "prerequisites": "None"
     }
 ]

@@ -5,7 +5,7 @@
         "title": "Elementary Latin I",
         "description": "Introduction to the structure of Latin, with emphasis on reading Latin and on the role of Latin to the development of English. (Available for General Education, F Comparative Cultural Studies.)",
         "units": "3",
-        "prerequisites": "Introduction to the structure of Latin, with emphasis on reading Latin and on the role of Latin to the development of English"
+        "prerequisites": "None"
     },
     {
         "subject": "CLAS",
@@ -13,7 +13,7 @@
         "title": "Elementary Latin Ii",
         "description": "Continuation of CLAS 101.",
         "units": "3",
-        "prerequisites": "Continuation of CLAS 101"
+        "prerequisites": "None"
     },
     {
         "subject": "CLAS",
@@ -21,6 +21,7 @@
         "title": "Greek And Roman Mythology",
         "description": "Prerequisite: Completion of the lower division writing requirement. Study of the myths of Greeks and Romans, and of their impact on the literature of the Western world. Conducted in English. (Available for General Education, C2 Humanities.)",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of the lower division writing requirement"
+        "prerequisites": "Completion of the lower division writing requirement",
+        "corequisites": "None"
     }
 ]

@@ -23,8 +23,6 @@ for code in class_codes:
             data = json.loads({})
 
 
-        
-
 
         current_class = ""
         for course in data["courses"]:
@@ -37,23 +35,10 @@ for code in class_codes:
                     tuples.append([course["subject"] + " " + course["catalog_number"] + " " +  course["title"], course["description"]])
                     json_blobs.append(course)
 
-        #print(*tuples, sep='\n')
-        #print(*json_blobs, sep="\n")
-        #print("\n\n\n\n")
+
     catalog_file = open(f"../../code-assets/backend/json_catalog/{code}_catalog.json", "w")
 
     json.dump(json_blobs, catalog_file, indent=4)
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -80,23 +65,24 @@ for code in class_codes:
     with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
         try:
             classes = json.load(curr_sub)
+            for course in classes:
+                try:
+                    print("------------------------------------------")
+                    print(f'https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course["catalog_number"]}/')
+                    driver.get(f'https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course["catalog_number"]}/')
+                    #print(driver.find_element("id", "inset-content").text)
+                    #print(driver.find_element(By.CLASS_NAME, "main").find_element(By.CLASS_NAME, "container").find_element(By.CLASS_NAME, "row").find_element(By.CLASS_NAME, "row").text)
+                    print(driver.find_element("id", "inset-content").find_element(By.CLASS_NAME, "section-content").text)
+                    course["description"] = driver.find_element("id", "inset-content").find_element(By.CLASS_NAME, "section-content").text
+                except NoSuchElementException as e:
+                    continue
         except json.JSONDecodeError as jce:
             with open('ERROR_LOG.txt', 'a') as f:
                 f.write(str(jce))
                 f.write("\n")
                 f.write(str(curr_sub))
                 f.write("\n")
-        for course in classes:
-            try:
-                print("------------------------------------------")
-                print(f'https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course["catalog_number"]}/')
-                driver.get(f'https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course["catalog_number"]}/')
-                #print(driver.find_element("id", "inset-content").text)
-                #print(driver.find_element(By.CLASS_NAME, "main").find_element(By.CLASS_NAME, "container").find_element(By.CLASS_NAME, "row").find_element(By.CLASS_NAME, "row").text)
-                print(driver.find_element("id", "inset-content").find_element(By.CLASS_NAME, "section-content").text)
-                course["description"] = driver.find_element("id", "inset-content").find_element(By.CLASS_NAME, "section-content").text
-            except NoSuchElementException as e:
-                continue
+        
     new_desc_file = open(f"../../code-assets/backend/json_catalog/{code}_catalog.json", "w")
     json.dump(classes, new_desc_file, indent=4)
     new_desc_file.close()    
@@ -126,7 +112,7 @@ sorts every course document blob by its catalog number
 
 
 for code in class_codes:
-    print(code)
+    print("Sorting classes for" + code)
     with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
         subject_dict = json.load(curr_sub)
         subject_dict.sort(key = lambda item: item.get("catalog_number"))
@@ -138,57 +124,72 @@ for code in class_codes:
 
 """-------------------------------------------------------------------------'''
 simply adds a new attribute to every course in every file in 
-json_catalog named "prerequisite" that is the first sentence of every course description  
+json_catalog named "prerequisite" that regex's the prereqs from the description 
 '''-------------------------------------------------------------------------"""
 
 
 
 
 for code in class_codes:
-    try:
-        classes = json.load(open(f"../backend/json_catalog/{code}_catalog.json"))
-    except json.JSONDecodeError as jce:
-        with open('ERROR_LOG.txt', 'a') as f:
-            f.write(str(jce))
-            f.write("\n")
-            f.write(str(curr_sub))
-            f.write("\n")
-    for course in classes:
-        print("------------------------------")
-        if course["description"] is not None:
-            try:
-                print(course["subject"] + " " + course["catalog_number"] + ": " + course["description"][0:course["description"].index('.')])
-                course["prerequisites"] = course["description"][0:course["description"].index('.')]
-            except ValueError:
-                print(course["subject"] + " " + course["catalog_number"] + ": " + course["description"])
-                course["prerequisites"] = "N/A"
-        else:
-            print(course["subject"] + " " + course["catalog_number"] + " has no description")
-        print("------------------------------")
-    catalog_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
-    json.dump(classes, catalog_file, indent=4)
+    print(f"Settings prereqs and coreqs for {code}")
+    with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+        try:
+            classes = json.load(catalog_file)
+            for _class in classes:            
+                if _class["description"] is None:
+                    classes.remove(_class)
+                elif _class["description"].__contains__("Prerequisite") or _class["description"].__contains__("Prerequisites"):
+                    try:
+                        _class["prerequisites"] = _class["description"][_class["description"].index(':')+2:_class["description"].index('.')]
+                    except ValueError:
+                        _class["prerequisites"] = _class["description"][_class["description"].index("Prerequisite")+len("Prerequisite")+1:_class["description"].index('.')]
+                    coreq_substr = _class["description"][_class["description"].index('.')+2:]
+                    if coreq_substr.__contains__("Corequisite") or coreq_substr.__contains__("Corequisites"):
+                        coreq_substr = coreq_substr[coreq_substr.index("Corequisite"):]
+                        try:
+                            _class["corequisites"] = coreq_substr[coreq_substr.index(':')+2:coreq_substr.index('.')]
+                        except ValueError:
+                            _class["corequisites"] = coreq_substr[coreq_substr.index("Corequisite")+len("Corequisite")+1:coreq_substr.index('.')]
+                    else:
+                        _class["corequisites"] = "None"
+                else: 
+                    _class["prerequisites"] = "None"
+                try:
+                    if _class["corequisites"] == f"{_class['subject']} {_class['catalog_number']}":
+                        _class["corequisites"] = _class["corequisites"].replace("L", "")
+                except KeyError:
+                    continue
+            catalog_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
+            json.dump(classes, catalog_file, indent=4)
+        except json.JSONDecodeError as jce:
+            with open('ERROR_LOG.txt', 'a') as f:
+                f.write(str(jce))
+                f.write("\n")
     
     
 
 
-
-
+"""-------------------------------------------------------------------------'''
+For every class title, it formats so that every word begins with capital letter
+and the rest lowercase
+'''-------------------------------------------------------------------------"""
+print("Setting titles...............")
 for code in class_codes:
-    print(code)
+    
     with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
         try:
             subject_dict = json.load(curr_sub)
+            for course in subject_dict:
+                title_split = course["title"].split(" ")
+                for i in range(0, len(title_split)):
+                    title_split[i] = f"{title_split[i][0:1].upper()}{title_split[i][1:].lower()}"
+                course["title"] = ' '.join(title_split)
+            subject_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
+            json.dump(subject_dict, subject_file, indent=4)
+            subject_file.close()
         except json.JSONDecodeError as jce:
             with open('ERROR_LOG.txt', 'a') as f:
                 f.write(str(jce))
                 f.write("\n")
                 f.write(str(curr_sub)) 
                 f.write("\n")
-        for course in subject_dict:
-            title_split = course["title"].split(" ")
-            for i in range(0, len(title_split)):
-                title_split[i] = f"{title_split[i][0:1].upper()}{title_split[i][1:].lower()}"
-            course["title"] = ' '.join(title_split)
-        subject_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
-        json.dump(subject_dict, subject_file, indent=4)
-        subject_file.close()
