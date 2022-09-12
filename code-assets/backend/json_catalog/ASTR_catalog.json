@@ -5,7 +5,7 @@
         "title": "Elementary Astronomy",
         "description": "An introduction to astronomy. Topics to be covered include the historical development of astronomy; the laws that govern the behavior of the universe; a survey of the properties of stars and galaxies, including their origin and evolution; and the Big Bang Theory. Students may not receive credit for both ASTR 152 and ASTR 154. (Available for General Education, B1 Physical Science.)\nNote: Students should only enroll in ASTR 152 if meeting the B3 Science Laboratory Activity in Life Science.",
         "units": "3",
-        "prerequisites": "An introduction to astronomy"
+        "prerequisites": "None"
     },
     {
         "subject": "ASTR",
@@ -13,7 +13,7 @@
         "title": "Elementary Astronomy",
         "description": "Corequisite: ASTR 154L. An introduction to astronomy. Topics to be covered include the historical development of astronomy; the laws that govern the behavior of the universe; a survey of the properties of stars and galaxies, including their origin and evolution; and the Big Bang Theory. Students may not receive credit for both ASTR 154 and ASTR 152. (Available for General Education, B1 Physical Science. Students satisfy the B3 Science Laboratory Activity requirement by completing ASTR 154L.)",
         "units": "2",
-        "prerequisites": "Corequisite: ASTR 154L"
+        "prerequisites": "None"
     },
     {
         "subject": "ASTR",
@@ -21,7 +21,7 @@
         "title": "Observational Astronomy",
         "description": "Corequisite: ASTR 154. Introduction to the techniques of observational astronomy, including data acquisition and interpretation. Testing of astronomical hypotheses by using data from observations of the moon, planets, sun, stars and galaxies. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided ASTR 154 is also completed.)",
         "units": "1",
-        "prerequisites": "Corequisite: ASTR 154"
+        "prerequisites": "None"
     },
     {
         "subject": "ASTR",
@@ -29,7 +29,8 @@
         "title": "Intr Astrophysics",
         "description": "Prerequisites: MATH 150B; PHYS 220A or PHYS 225; PHYS 227; and completion of the lower division writing requirement. An upper division course intended for astrophysics majors. The course covers stellar and planetary systems, including: our solar system and planetary and satellite motion, extra-solar planets, the properties of stars, binary and multiple star systems, the stellar life cycle, clusters of stars, and an introduction to radiative transfer. Both Newtonian and relativistic dynamics will be applied to these astrophysical systems.",
         "units": "3",
-        "prerequisites": "Prerequisites: MATH 150B; PHYS 220A or PHYS 225; PHYS 227; and completion of the lower division writing requirement"
+        "prerequisites": "MATH 150B; PHYS 220A or PHYS 225; PHYS 227; and completion of the lower division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "ASTR",
@@ -37,7 +38,8 @@
         "title": "The Dynamical Universe",
         "description": "Prerequisites: ASTR 300; MATH 150B; PHYS 225; Completion of the lower division writing requirement. Course will cover a variety of astrophysics topics: Celestial Mechanics, Magnetohydrodynamic and Cosmology. These topics will include: planetary and satellite motion, planetary rings, binary and multiple star systems, Kepler\u2019s laws, Hydrodynamics, Maxwell\u2019s equations, MHD waves, the solar dynamo and wind, and Dark Matter and Energy, Hubble\u2019s law and the Big Bang.",
         "units": "3",
-        "prerequisites": "Prerequisites: ASTR 300; MATH 150B; PHYS 225; Completion of the lower division writing requirement"
+        "prerequisites": "ASTR 300; MATH 150B; PHYS 225; Completion of the lower division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "ASTR",
@@ -45,7 +47,8 @@
         "title": "Current Developments In Astronomy",
         "description": "Prerequisite: Completion of the lower division writing requirement. In-depth examination and interpretation of astronomical discoveries occurring at the time the course is taught. Reading includes both background material and current periodicals accessible to upper division, General Education students. Likely areas of discussion include spacecraft exploration of the solar system, satellite observations of high-energy radiation from space, exotic astronomical objects (e.g., double quasars, black hole candidates), and new cosmological data. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.) (IC)",
         "units": "3",
-        "prerequisites": "Prerequisite: Completion of the lower division writing requirement"
+        "prerequisites": "Completion of the lower division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "ASTR",
@@ -53,7 +56,7 @@
         "title": "Current Developments In Astronomy Lab",
         "description": "Preparatory: Completion of the lower division writing requirement. Recommended Corequisite or Preparatory: ASTR 352. Use of observational and laboratory facilities and published data to explore current developments in astronomy. 3 hours per week.",
         "units": "1",
-        "prerequisites": "Preparatory: Completion of the lower division writing requirement"
+        "prerequisites": "None"
     },
     {
         "subject": "ASTR",
@@ -61,6 +64,6 @@
         "title": "The Radiative Universe",
         "description": "Preparatory: PHYS 227. Application of the laws of radiation, atomic structure and subatomic structure to astrophysical systems. Cosmic magnetic fields, energy sources, analysis of radiation from stars, nebulae, supernovae, active galaxies and quasars, the early universe and origin of the elements. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "Preparatory: PHYS 227"
+        "prerequisites": "None"
     }
 ]
