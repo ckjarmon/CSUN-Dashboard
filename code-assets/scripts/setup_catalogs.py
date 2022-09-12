@@ -175,6 +175,7 @@ and the rest lowercase
 '''-------------------------------------------------------------------------"""
 print("Setting titles...............")
 for code in class_codes:
+    print(f"\t{code}")
     with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
         try:
             subject_dict = json.load(curr_sub)
