@@ -52,7 +52,17 @@ def two():
             try:
                 classes = json.load(catalog_file)
                 for _class in classes:
-                    if _class['prerequisites'] != "None" and _class['corequisites'] != "None":
+                    if (_class['prerequisites'] != "None" and  
+                        _class['corequisites'] != "None" and 
+                        not _class['prerequisites'].__contains__("passing score") and
+                        not _class['prerequisites'].__contains__("Instructor consent") and
+                        not _class['prerequisites'].__contains__("Admission") and
+                        not _class['prerequisites'].__contains__("Acceptance") and
+                        not _class['prerequisites'].__contains__("standing") and
+                        not _class['prerequisites'].__contains__("Admitted") and
+                        not _class['prerequisites'].__contains__("admitted") and
+                        not _class['prerequisites'].__contains__("Successful")):
+                        
                         print(f"{_class['subject']} {_class['catalog_number']} - Prereqs: {_class['prerequisites']}, Coreqs: {_class['corequisites']}")   
             except json.JSONDecodeError as jce:
                 with open('ERROR_LOG.txt', 'a') as f:
