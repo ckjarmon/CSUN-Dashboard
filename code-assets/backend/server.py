@@ -36,7 +36,7 @@ def new_rating(**kwargs):
                         new_rating["professor_last_name"][1:].lower()].append(new_rating)
 
     json.dump(current_ratings, rating_file, indent=4)
-    return new_rating
+    return current_ratings
 
 
 @app.route('/<string:subject>/<string:catalog_number>/history/<int:amount>')
