@@ -211,7 +211,9 @@
         "catalog_number": "499A",
         "title": "Independent Study",
         "description": "Preparatory: Consent of instructor and Linguistics/TESL department chair.",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "LING",
@@ -380,7 +382,9 @@
         "catalog_number": "604",
         "title": "Acoustic And Instrumental Phonetics",
         "description": "Prerequisite: LING 402. This course focuses on acoustic phonetics. In depth empirical and theoretical study of the acoustic properties of speech production, perception, and audition. In addition, students will develop expertise in the use of laboratory equipment and instrumentation in the analysis of experimental phonetic data.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "LING 402",
+        "corequisites": "None"
     },
     {
         "subject": "LING",

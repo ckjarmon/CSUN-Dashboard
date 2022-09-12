@@ -31,7 +31,9 @@
         "catalog_number": "220A",
         "title": "Intermediate Spanish I",
         "description": "Prerequisite: SPAN 102 or SPAN 104 or equivalent. Recommended Corequisite: SPAN 210. Improves listening and speaking skills, although reading and writing skills are strengthened as necessary. Review of basic grammar and introduction of more advanced grammatical structures and syntax. Vocabulary expansion. May not be challenged if principal schooling has been in Spanish. (Available for General Education, F Comparative Cultural Studies.)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "SPAN 102 or SPAN 104 or equivalent",
+        "corequisites": "SPAN 210"
     },
     {
         "subject": "SPAN",
@@ -245,7 +247,9 @@
         "catalog_number": "462",
         "title": "Legal & Biz Trans",
         "description": "Prerequisite: SPAN 362. A course designed to train students in written translation of legal, administrative, commercial and business documents. Students will develop the skills necessary for the acquisition of more advanced terminology in those fields. Discussion will emphasize the importance of accuracy in translation as well as ethical considerations that arise in legal and commercial documentation. Practice includes speed reading, vocabulary building and translation. English into Spanish and vice versa. Conducted in Spanish. Available for graduate credit.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "SPAN 362",
+        "corequisites": "None"
     },
     {
         "subject": "SPAN",
@@ -513,7 +517,9 @@
         "catalog_number": "697",
         "title": "Directed Comprehensive Studies",
         "description": "Required for comprehensive examinations. Taken in final semester. Conducted in Spanish.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "SPAN",

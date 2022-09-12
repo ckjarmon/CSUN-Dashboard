@@ -22,7 +22,9 @@
         "catalog_number": "307",
         "title": "Data Analysis And Modeling For Business",
         "description": "Prerequisites: MATH 103; SOM 120 or MATH 140. Recommended Corequisite or Preparatory: BUS 302 and BUS 302L. Statistical methods and stochastic models to support decision making by managers. Topics include: exploratory data analysis, probability distributions and assessment, expected value, variation, estimation of means and proportions, hypothesis testing for one and several populations, F test, chi-square test, simple and multiple regression and correlation, decision trees, waiting lines and simulation. Applications to business are emphasized. Written assignments based on computer software required.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "MATH 103; SOM 120 or MATH 140",
+        "corequisites": "BUS 302 and BUS 302L"
     },
     {
         "subject": "SOM",
@@ -101,7 +103,9 @@
         "catalog_number": "591",
         "title": "Statistics And Stochastic Models For Managers",
         "description": "Prerequisite: Permission of the director of Nazarian Graduate Programs. Statistical methods and stochastic models to support decision making by managers. Topics include: exploratory data analysis, probability distributions and assessment, expected value, variation, estimation of means and proportions, hypothesis testing for one and several populations, F test, chi square test, simple and multiple regression and correlation, time series and forecasting, decision trees, waiting lines and simulation. Applications in service organizations and small businesses are provided along with applications for production organizations and large businesses. A key element is a group project involving the application of one or more course topics to a current business problem.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Permission of the director of Nazarian Graduate Programs",
+        "corequisites": "None"
     },
     {
         "subject": "SOM",

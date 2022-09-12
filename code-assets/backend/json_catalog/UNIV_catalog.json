@@ -10,20 +10,6 @@
     },
     {
         "subject": "UNIV",
-        "catalog_number": "396A",
-        "title": "Transfer Seminar",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "UNIV",
-        "catalog_number": "60BB",
-        "title": "Si Cas 115",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "UNIV",
         "catalog_number": "60C",
         "title": "Supplemental Instruction: Chem 100",
         "description": "Supplemental Instruction is an academic-assistance program designed to help students master difficult course material in historically challenging classes. Students participate in a series of weekly peer-facilitated small-group study sessions that focus on learning strategies and problem-solving skills specific to the corresponding lecture course. Students enroll in University 60 for 1 unit non-Baccalaureate credit.\n",
@@ -54,7 +40,9 @@
         "catalog_number": "60JJ",
         "title": "Supplemental Instruction: Hist 271",
         "description": "Supplemental Instruction is an academic-assistance program designed to help students master difficult course material in historically challenging classes. Students participate in a series of weekly peer-facilitated small-group study sessions that focus on learning strategies and problem-solving skills specific to the corresponding lecture course. Students enroll in University 60 for 1 unit non-Baccalaureate credit.\n",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "UNIV",
@@ -85,73 +73,57 @@
     },
     {
         "subject": "UNIV",
-        "catalog_number": "60M",
-        "title": "Si Ch S 115",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "UNIV",
         "catalog_number": "60N",
         "title": "Supplemental Instruction: Math 102",
         "description": "Supplemental Instruction is an academic-assistance program designed to help students master difficult course material in historically challenging classes. Students participate in a series of weekly peer-facilitated small-group study sessions that focus on learning strategies and problem-solving skills specific to the corresponding lecture course. Students enroll in University 60 for 1 unit non-Baccalaureate credit.\n",
-        "units": "1"
-    },
-    {
-        "subject": "UNIV",
-        "catalog_number": "60O",
-        "title": "Si Engl 115",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "UNIV",
-        "catalog_number": "60QR",
-        "title": "Si Math 196qr",
-        "description": null,
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "UNIV",
         "catalog_number": "60T",
         "title": "Supplemental Instruction: Biol 360",
         "description": "Supplemental Instruction is an academic-assistance program designed to help students master difficult course material in historically challenging classes. Students participate in a series of weekly peer-facilitated small-group study sessions that focus on learning strategies and problem-solving skills specific to the corresponding lecture course. Students enroll in University 60 for 1 unit non-Baccalaureate credit.\n",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "UNIV",
         "catalog_number": "60X",
         "title": "Supplemental Instruction: Math 140",
         "description": "Supplemental Instruction is an academic-assistance program designed to help students master difficult course material in historically challenging classes. Students participate in a series of weekly peer-facilitated small-group study sessions that focus on learning strategies and problem-solving skills specific to the corresponding lecture course. Students enroll in University 60 for 1 unit non-Baccalaureate credit.\n",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "UNIV",
         "catalog_number": "61A",
         "title": "Supplemental Instruction In Writing: Aas 113a",
         "description": "UNIV 61/62 is a mandatory corequisite for 113A/B--Approaches to University Writing. Students enrolled in AAS CAS CH S ENGL PAS or QS 113 must enroll concurrently in Supplemental Instruction for which they will receive a maximum of 1 additional unit of non-Baccalaureate credit per semester. UNIV61/62 sessions are led by experienced peers who have been successful in writing courses.\n",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "UNIV",
         "catalog_number": "61E",
         "title": "Supplemental Instruction In Writing: Engl 113a",
         "description": "UNIV 61/62 is a mandatory corequisite for 113A/B--Approaches to University Writing. Students enrolled in AAS CAS CH S ENGL PAS or QS 113 must enroll concurrently in Supplemental Instruction for which they will receive a maximum of 1 additional unit of non-Baccalaureate credit per semester. UNIV61/62 sessions are led by experienced peers who have been successful in writing courses.\n",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "UNIV",
         "catalog_number": "61H",
         "title": "Supplemental Instruction In Writing: Chs 113a",
         "description": "UNIV 61/62 is a mandatory corequisite for 113A/B--Approaches to University Writing. Students enrolled in AAS CAS CH S ENGL PAS or QS 113 must enroll concurrently in Supplemental Instruction for which they will receive a maximum of 1 additional unit of non-Baccalaureate credit per semester. UNIV61/62 sessions are led by experienced peers who have been successful in writing courses.\n",
-        "units": "1"
-    },
-    {
-        "subject": "UNIV",
-        "catalog_number": "61P",
-        "title": "Si Afrs 113a",
-        "description": null,
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "UNIV",
@@ -212,7 +184,9 @@
         "catalog_number": "62P",
         "title": "Supplemental Instruction In Writing: Afrs 113b",
         "description": "UNIV 61/62 is a mandatory corequisite for 113A/B--Approaches to University Writing. Students enrolled in AAS CAS CH S ENGL PAS or QS 113 must enroll concurrently in Supplemental Instruction for which they will receive a maximum of 1 additional unit of non-Baccalaureate credit per semester. UNIV61/62 sessions are led by experienced peers who have been successful in writing courses.\n",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "UNIV",

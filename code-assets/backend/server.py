@@ -51,4 +51,10 @@ def catalog(**kwargs):
         classes = json.load(subject)
         return ([x["catalog_number"] + " - " + x["title"] for x in classes])
 
+@app.route('/<string:subject>/prof/name/<string:prof_email>')
+def prof_name(**kwargs):
+    with open(f"../backend/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
+        profs = json.load(profs)
+        return profs[kwargs['prof_email']]
+
 app.run(port=8000)

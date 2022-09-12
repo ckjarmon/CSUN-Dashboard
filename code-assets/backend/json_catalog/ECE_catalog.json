@@ -616,7 +616,9 @@
         "catalog_number": "602",
         "title": "Biomedical Engineering I",
         "description": "Prerequisites: ECE 309/ME 309 and ECE 351, or instructor consent. A project-based comprehensive introduction to computational modeling in biomedical engineering will be explored, including biomedical models of bioelectric events, lumped-element formulations, and compartmental models of organ systems.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "ECE 309/ME 309 and ECE 351, or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -767,7 +769,9 @@
         "catalog_number": "696C",
         "title": "Directed Graduate Research",
         "description": "(Credit/No Credit only)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",

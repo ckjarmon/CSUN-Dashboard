@@ -112,7 +112,9 @@
         "catalog_number": "301",
         "title": "Analytical Mechanics I",
         "description": "Preparatory: MATH 250, PHYS 280; PHYS 227; Recommended Corequisite or Preparatory: PHYS 389. Newtonian mechanics of a single particle, oscillations, systems of particles, central force motion, calculus of variations and Lagrangian and Hamiltonian mechanics.",
-        "units": "4"
+        "units": "4",
+        "prerequisites": "None",
+        "corequisites": "PHYS 389"
     },
     {
         "subject": "PHYS",
@@ -293,13 +295,6 @@
         "units": "1",
         "prerequisites": "None",
         "corequisites": "None"
-    },
-    {
-        "subject": "PHYS",
-        "catalog_number": "495C",
-        "title": "Dir Undergrad Res",
-        "description": null,
-        "units": "3"
     },
     {
         "subject": "PHYS",

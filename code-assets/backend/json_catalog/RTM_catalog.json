@@ -154,17 +154,12 @@
     },
     {
         "subject": "RTM",
-        "catalog_number": "294CSL",
-        "title": "Rec Svc Lrn Th/pr Lb",
-        "description": null,
-        "units": "2"
-    },
-    {
-        "subject": "RTM",
         "catalog_number": "300",
         "title": "Recreation And Community Development",
         "description": "Prerequisite: Lower division writing requirement. Examination of the multicultural dynamics of urban life, and recreation\u2019s role in building community and in developing youth capacity and indigenous leadership.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Lower division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -423,7 +418,9 @@
         "catalog_number": "498A",
         "title": "Field Assignment And Reports",
         "description": "Analysis and reports of the student\u2019s study project in a field site location. Available for graduate credit.",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",

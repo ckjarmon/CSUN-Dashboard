@@ -472,7 +472,9 @@
         "catalog_number": "300",
         "title": "Foundations And Analysis Of Human Movement",
         "description": "Prerequisites: BIOL 211 and BIOL 212, or BIOL 212 and BIOL 213, or BIOL 383/L. Examination of anatomical and neuromechanical concepts relevant to human movement analysis and muscular control of movement. Application of functional anatomy to fundamental movements and select movement forms in exercise, sport and dance, emphasizing movement analysis across the lifespan and across a full range of abilities.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "BIOL 211 and BIOL 212, or BIOL 212 and BIOL 213, or BIOL 383/L",
+        "corequisites": "None"
     },
     {
         "subject": "KIN",
@@ -866,7 +868,9 @@
         "catalog_number": "405",
         "title": "Ethics And Kinesiology",
         "description": "Prerequisite: KIN 305. This course examines how basic ethical theories relate to problems in kinesiology. It provides critical analysis of ethical dilemmas in contemporary sport. It also emphasizes the understanding of ethical frameworks and the application of these frameworks to ethical problems arising in other contexts related to kinesiology professions. Available for graduate credit.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "KIN 305",
+        "corequisites": "None"
     },
     {
         "subject": "KIN",
@@ -1260,7 +1264,9 @@
         "catalog_number": "494A",
         "title": "Acad Internship",
         "description": "Academic internship course. On- and off-campus study and research in selected areas of kinesiology with course content to be determined. Enrollment is limited to 6 units total in any combination of KIN 494A and KIN 494B. (See subtitle in appropriate Schedule of Classes.) (Credit/No Credit only)",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "KIN",
@@ -1285,7 +1291,9 @@
         "catalog_number": "511",
         "title": "Perceptual-motor Development Of Students With Disabilities",
         "description": "Prerequisite: KIN 347 or instructor consent. Descriptive analysis of motor characteristics of students with disabilities including theories of specialized instruction evaluation and prescribing and implementing instruction in adapted physical education/activity programs.\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "KIN 347 or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "KIN",

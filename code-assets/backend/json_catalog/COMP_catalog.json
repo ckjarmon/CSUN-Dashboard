@@ -220,7 +220,9 @@
         "catalog_number": "410",
         "title": "Logic Programming",
         "description": "Prerequisites: COMP 282, COMP 310, COMP 333. Programming techniques in the logic programming language PROLOG. Prenex conjunctive normal form and grammatical algorithms. Tableaux, sequenzen, resolution and other semi-decision procedures. Closures of relations, fixed point theory, control mechanisms, relationship to functional programming. Available for graduate credit.",
-        "units": "2"
+        "units": "2",
+        "prerequisites": "COMP 282, COMP 310, COMP 333",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",
@@ -371,7 +373,9 @@
         "catalog_number": "522",
         "title": "Embedded Apps",
         "description": "Prerequisites: COMP 322/L or instructor\u2019s consent. Embedded systems present cost effective, challenging and flexible computational platforms. Instruction in the unique aspects of embedded systems including architectures, instruction sets, development environments, concurrent programming, networking, applications of embedded platforms, data acquisition from sensors and interaction with surrounding environment.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "COMP 322/L or instructor\u2019s consent",
+        "corequisites": "None"
     },
     {
         "subject": "COMP",

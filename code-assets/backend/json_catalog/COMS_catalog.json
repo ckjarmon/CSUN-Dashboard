@@ -28,13 +28,6 @@
     },
     {
         "subject": "COMS",
-        "catalog_number": "151HON",
-        "title": "Fund Public Speaking",
-        "description": null,
-        "units": "2"
-    },
-    {
-        "subject": "COMS",
         "catalog_number": "195",
         "title": "Forensics",
         "description": "Supervised activity in competitive intercollegiate forensics.",
@@ -218,7 +211,9 @@
         "catalog_number": "395",
         "title": "Forensics",
         "description": "Prerequisite: COMS 195 or instructor consent. Faculty mentored activity in competitive intercollegiate forensics.",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "COMS 195 or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "COMS",
@@ -477,7 +472,9 @@
         "catalog_number": "499A",
         "title": "Independent Study",
         "description": "Independent Study",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "COMS",

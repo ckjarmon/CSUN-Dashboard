@@ -40,7 +40,9 @@
         "catalog_number": "345",
         "title": "The General Plan and Zoning",
         "description": "This course deals with the requirements for comprehensive planning and zoning in the state of California. Emphasis will be placed on the mandated general plan elements of land use housing circulation Open space conservation safety and noise. Special attention will be paid to formulating a framework for a general plan and preparation adoption and amendment of the general plan. As the major tool for the implementation of the general plan zoning will be addressed in terms of the enactment process and administration through the use of the variance conditional use permits and zone changes. Students will be required to participate in a series of field-based and studio-based exercises focusing on general plan formulation and current zoning problems.\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "URBS",
@@ -65,7 +67,9 @@
         "catalog_number": "400",
         "title": "Planning for the Natural and Built Environment",
         "description": "Prerequisites: ECON 160 or 161 or 300; Completion of the Lower Division writing requirement. Relationships between people and technology in the city and the application of resources to supply such urban needs as transportation waste disposal water and communication. Technological change and forecasting.\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "ECON 160 or 161 or 300; Completion of the Lower Division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "URBS",
@@ -168,17 +172,12 @@
     },
     {
         "subject": "URBS",
-        "catalog_number": "670",
-        "title": "VISUAL COMM SKILL",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "URBS",
         "catalog_number": "690",
         "title": "Field Project in Urban Planning",
         "description": "This course will serve as the Capstone course for the Certificate Program. Field projects will be defined and approved prior to the students completion of the 4 preceding courses. The course will focus on application of Certificate course content to a specific urban-environmental planning problem at the local level in a local city. Students will be required to be in contact with the professor as the project evolves.\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "URBS",
@@ -194,7 +193,9 @@
         "catalog_number": "412",
         "title": "Grant Writing",
         "description": "Prerequisites: URBS 340A and 340B; Upper Division standing. This course is intended to provide students with basic knowledge in the research writing and planning skills involved in preparing grant proposals. The presumption is that students possess no substantive prior knowledge of grant writing. Students will learn the basic phases of writing a grant proposal how to search for sources of grant funding and the process of submitting grant proposals to public and private agencies and foundations. Students also will learn how to use the internet to search for grant opportunities. Emphasis will be placed on non-profit organizations that deal with human service needs. The course will address how to manage the implementation of a grant proposal and how to measure the impact a particular service has on a community.\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "URBS 340A and 340B; Upper Division standing",
+        "corequisites": "None"
     },
     {
         "subject": "URBS",
@@ -237,7 +238,9 @@
         "catalog_number": "620",
         "title": "Seminar in Comprehensive Planning",
         "description": "This course provides a comprehensive introduction to the general plan and zoning process in the U.S. and California.  Special emphasis will be placed on the plan elements dealing with land use housing circulation open space conservation safety and noise. Zoning will be addressed in terms of the structure and content of zoning ordinances and the administration process. Other topics include administrative aspects of planning and negotiation skills for planners in implementing the comprehensive plan. Supporting field trips and discussions with planners and project managers are planned.\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "URBS",
@@ -247,12 +250,5 @@
         "units": "3",
         "prerequisites": "None",
         "corequisites": "None"
-    },
-    {
-        "subject": "URBS",
-        "catalog_number": "685",
-        "title": "QUALITAT RESEARCH",
-        "description": null,
-        "units": "3"
     }
 ]

@@ -13,7 +13,9 @@
         "catalog_number": "101",
         "title": "Spanish For Chicanos I",
         "description": "Prerequisite: Instructor consent, subject to verification of oral skills at the beginning of the semester. Basic instruction in spoken and written formal Spanish for students who already have some comprehension of and fluency in the language. Designed for Chicano/Latino and other students from a Spanish-speaking background. Emphasis is placed on improving speaking, writing and reading in academic registers. (Available for General Education, F Comparative Cultural Studies.)",
-        "units": "5"
+        "units": "5",
+        "prerequisites": "Instructor consent, subject to verification of oral skills at the beginning of the semester",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -38,21 +40,27 @@
         "catalog_number": "113A",
         "title": "Approaches To University Writing A",
         "description": "Prerequisite: Placement in a supported GE subarea A2 Written Communication course. Corequisite: UNIV 061. Expository prose writing with a focus on both content and form. Specific emphases include the exercise of logical thought and clear expression, the development of effective organizational strategies and the appropriate gathering and utilization of evidence. Includes instruction on diction, syntax and grammar, as well as the elements of prose style. Students receive credit for only one course chosen from AAS 113A, AFRS 113A, CAS 113A, CHS 113A, ENGL 113A, LING 113A or QS 113A. Students also are required to enroll in UNIV 061 (1 credit) or equivalent. Individual tutoring is available through the Chicana/o Writing Lab and Learning Resource Center.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Placement in a supported GE subarea A2 Written Communication course",
+        "corequisites": "UNIV 061"
     },
     {
         "subject": "CHS",
         "catalog_number": "113B",
         "title": "Approaches To University Writing B",
         "description": "Prerequisite: Successful completion of 113A. Corequisite: UNIV 062. Expository prose writing with a focus on both content and form. Specific emphases include the exercise of logical thought and clear expression, the development of effective organizational strategies and the appropriate gathering and utilization of evidence. Includes instruction on diction, syntax and grammar, as well as the elements of prose style. Students receive credit for only one course chosen from AAS 113B, AFRS 113B, CAS 113B, CHS 113B, ENGL 113B, LING 113B or QS 113B. Students also are required to enroll in UNIV 062 (1 credit) or equivalent. Individual tutoring is available through the Chicana/o Writing Lab and Learning Resource Center. (Available for General Education, Basic Skills A2 Written Communication.) (IC)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Successful completion of 113A",
+        "corequisites": "UNIV 062"
     },
     {
         "subject": "CHS",
         "catalog_number": "114A",
         "title": "Appr Univ Wrtng A",
         "description": "Prerequisite: Placement in supported GE subarea A2 Written Communication course. Expository prose writing with a focus on both content and form. Specific emphases include the exercise of logical thought and clear expression, the development of effective organizational strategies and the appropriate gathering and utilization of evidence. Includes instruction on diction, syntax and grammar, as well as the elements of prose style. Students receive credit for only one course chosen from AAS 114A, AFRS 114A, CAS 114A, CHS 114A, ENGL 114A or QS 114A. Individual tutoring is available through the Learning Resource Center.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Placement in supported GE subarea A2 Written Communication course",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -86,7 +94,9 @@
         "catalog_number": "201",
         "title": "Survey Of Mexican Literature In Translation",
         "description": "Preparatory: Completion of the lower division writing requirement. Comprehensive overview of the literary heritage of Mexico from pre-Colombian times to the present. Includes an analysis of its historical, technical and lyrical dimensions and its relationship with other Hispanic literature in order to develop a critical appreciation of literary art. Meets the Ethnic Studies requirement. (Available for General Education, C2 Humanities.) (ES)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -102,7 +112,9 @@
         "catalog_number": "214",
         "title": "Guitar Music Of The Southwest And Mexico",
         "description": "Develops the fundamental skills for guitar. Incorporates the study of various regional musical styles of the Southwest and Mexico. (Credit/No Credit only)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -181,14 +193,18 @@
         "catalog_number": "270SOC",
         "title": "Field Work In Barrio Studies",
         "description": "Students will engage in and practice the skills, methods, and awareness necessary for social change in the barrio. The course will focus on connections between students\u2019 life experiences, community institutions, and social justice issues in the Chicana/o/Latina/o community. Freire\u2019s problem-posing processes, cooperative learning, grant writing, and reflection are used to deepen student\u2019s understanding of Chicano/Latina communities. Course requires 20 hours of fieldwork in Chicano/Latina communities. Meets the Ethnic Studies requirement. (Available for General Education, E Lifelong Learning.) (ES)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "280",
         "title": "Workshop In Minority Creative Writing",
         "description": "Introductory course in minority creative writing. Students study and experiment with techniques and strategies from four genres: personal narrative prose fiction drama and poetry and then introduce these to secondary students in schools. Consult with the instructor about the semester syllabus and the minority literature concentration. Students must complete 15 hours of service learning at either a middle school a high school or an agency that serves the Chicano/a or Latino/a community. (Available for General Education Arts and Humanities.) (Crosslisted with ENGL and PAS 280.).\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -213,7 +229,9 @@
         "catalog_number": "310",
         "title": "Regional Music Of Mexico",
         "description": "Prerequisite: Completion of the lower division writing requirement. Study of the cultural, instrumental and musical aspects of predominant regional musical styles of Mexico from Pre-Cuauhtemoc to contemporary times. Meets the Ethnic Studies requirement. (Available for General Education, C1 Arts.) (ES)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Completion of the lower division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -586,38 +604,21 @@
     },
     {
         "subject": "CHS",
-        "catalog_number": "495H",
-        "title": "Ethnic St Comm",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "495I",
-        "title": "Form Incar Women",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
         "catalog_number": "495P",
         "title": "Selected Topics In Chiana/o Studies",
         "description": "Prerequisite: Completion of Lower Division writing requirement. Preparatory: Senior or Graduate status or permission from instructor.In-depth study of a selected theme or issue in Chicana/o Studies. Topics will change from semester to semester and be restricted in scope and aimed at gaining depth on a particular issue. Critical writing and reading required. Offered for Credit/No Credit or letter grade and elective credit for Chicana/o Studies majors and Minors as well as other students seeking Upper Division elective credit. \n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Completion of Lower Division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "495S",
         "title": "Selected Topics In Chiana/o Studies",
         "description": "Prerequisite: Completion of Lower Division writing requirement. Preparatory: Senior or Graduate status or permission from instructor.In-depth study of a selected theme or issue in Chicana/o Studies. Topics will change from semester to semester and be restricted in scope and aimed at gaining depth on a particular issue. Critical writing and reading required. Offered for Credit/No Credit or letter grade and elective credit for Chicana/o Studies majors and Minors as well as other students seeking Upper Division elective credit. \n",
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "495W",
-        "title": "Ch Fem Queer Theo",
-        "description": null,
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Completion of Lower Division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -765,31 +766,12 @@
     },
     {
         "subject": "CHS",
-        "catalog_number": "596B",
-        "title": "Contindigmigdiasp",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "596D",
-        "title": "Decol Chi Sprtlty",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "596F",
-        "title": "Lang Chx Communities",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
         "catalog_number": "697",
         "title": "Directed Comprehensive Studies",
         "description": "Prerequisites: Classified graduate status; Instructor consent. Enrollment is required in the semester in which the comprehensive exam is taken.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Classified graduate status; Instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
