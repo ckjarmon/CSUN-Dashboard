@@ -61,6 +61,8 @@ def two():
                         not _class['prerequisites'].__contains__("standing") and
                         not _class['prerequisites'].__contains__("Admitted") and
                         not _class['prerequisites'].__contains__("admitted") and
+                        not _class['prerequisites'].__contains__("courses") and
+                        not _class['prerequisites'].__contains__("skills") and
                         not _class['prerequisites'].__contains__("Successful")):
                         
                         print(f"{_class['subject']} {_class['catalog_number']} - Prereqs: {_class['prerequisites']}, Coreqs: {_class['corequisites']}")   
