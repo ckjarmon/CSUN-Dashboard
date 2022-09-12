@@ -5,7 +5,8 @@
         "title": "Introduction To Civil Engineering",
         "description": "Freshman orientation course for the Civil Engineering program, the profession and an introduction to the University. Introduction to the tools for civil engineering studies: Internet, word processing and spreadsheets. Development of communication skills and the ability to work in teams. Development of learning skills in civil engineering studies. 1 hour lecture/discussion, 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CE",
@@ -13,7 +14,8 @@
         "title": "Introduction To Civil Engineering Lab",
         "description": "Freshman orientation course for the Civil Engineering program, the profession and an introduction to the University. Introduction to the tools for civil engineering studies: Internet, word processing and spreadsheets. Development of communication skills and the ability to work in teams. Development of learning skills in civil engineering studies. 1 hour lecture/discussion, 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CE",
@@ -48,7 +50,8 @@
         "title": "Surveying",
         "description": "Corequisite: CE 308L. Fundamentals of plane and geodetic surveying. Concepts of linear and angular measurements, precision, errors and corrections. Field problems in chaining, differential and profile leveling, triangulation and highway curves. 2 hours lecture, 3 hours lab. (Design units: 0.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CE 308L"
     },
     {
         "subject": "CE",
@@ -56,7 +59,8 @@
         "title": "Surveying Lab",
         "description": "Corequisite: CE 308L. Fundamentals of plane and geodetic surveying. Concepts of linear and angular measurements, precision, errors and corrections. Field problems in chaining, differential and profile leveling, triangulation and highway curves. 2 hours lecture, 3 hours lab. (Design units: 0.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CE 308"
     },
     {
         "subject": "CE",
@@ -325,7 +329,8 @@
         "title": "Directed Comprehensive Studies",
         "description": "(Credit/No Credit only)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CE",

@@ -5,7 +5,8 @@
         "title": "Intro Queer Studies",
         "description": "Provides an introduction to the interdisciplinary field of Queer Studies, which aims to problematize rigid identity categories and destabilize essentialized norms of expression. The course will cover the history of how concepts such as gender and desire have been understood and articulated; heteronormativity and its relationship to capitalism, race, and gender roles; queer aesthetics; and queer strategies and tactics of resistance. (Available for General Education, C2 Humanities or F Comparative Cultural Studies.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "QS",
@@ -21,14 +22,18 @@
         "catalog_number": "113B",
         "title": "Approaches To University Writing B",
         "description": "Prerequisite: Successful completion of 113A. Corequisite: UNIV 062. Expository prose writing, with a focus on both content and form. Specific emphases include the exercise of logical thought and clear expression, the development of effective organizational strategies, and the appropriate gathering and utilization of evidence. Includes instruction on diction, syntax and grammar, as well as the elements of prose style. Students receive credit for only one course chosen from AAS 113B, AFRS 113B, CAS 113B, CHS 113B, ENGL 113B, LING 113B or QS 113B. Students also are required to enroll in UNIV 062 (1 credit) or equivalent. Individual tutoring is available through the Learning Resource Center. (Available for General Education, Basic Skills A2 Written Communication.) (IC)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Successful completion of 113A",
+        "corequisites": "UNIV 062"
     },
     {
         "subject": "QS",
         "catalog_number": "114A",
         "title": "Approaches To University Writing A",
         "description": "Prerequisite: Placement in a supported GE subarea A2 Written Communication course. Expository prose writing, with a focus on both content and form. Specific emphases include the exercise of logical thought and clear expression, the development of effective organizational strategies, and the appropriate gathering and utilization of evidence. Includes instruction on diction, syntax and grammar, as well as the elements of prose style. Students receive credit for only one course chosen from AAS 114A, AFRS 114A, CAS 114A, CHS 114A, ENGL 114A or QS 114A. Individual tutoring is available through the Learning Resource Center.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Placement in a supported GE subarea A2 Written Communication course",
+        "corequisites": "None"
     },
     {
         "subject": "QS",
@@ -63,7 +68,8 @@
         "title": "Rcethnc In Queerstud",
         "description": "Preparatory: Completion of the lower division writing requirement is recommended. Introduction to the process of critical thinking through the lens of race, ethnicity and sexuality. QS 201 offers an exploration of race and ethnicity and its relationship to queer studies, emphasizing critical reading of theory, praxis, and artistic texts. This course also examines the specific development of queer of color critique, its indebtedness to women of color feminism, and its emergence as a response to the whiteness of mainstream queer theory. Students will engage the work of artists, scholars, and activists to interrogate the dominant discourses in the intersections of race, gender, sexuality, class, nation, and diaspora within the context of empire and neoliberalism and in relation to citizenship, welfare, and terrorism. (Available for General Education, Basic Skills A3 Critical Thinking.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "QS",
@@ -71,7 +77,8 @@
         "title": "Queer Pop Music",
         "description": "This course analyzes queer identity and its relation to pop music, focusing primarily on explicit representations of LGBTQ themes, experiences, characters, and communities in pop music. Course themes include positive images, creation of alternative space, AIDS, coming out, celebrity, and the gay audience. Through close readings of queer theory and criticism, we will analyze the phenomenon of queer music by exploring the contested relationships between spectator and text, identity and commodity, realism and fantasy, activism and entertainment, desire and politics.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "QS",
@@ -79,7 +86,8 @@
         "title": "Queer Health",
         "description": "Issues in Queer Health explores and analyzes various health and illness topics affecting individuals and communities in non-normative and non-heterosexist positions in society. We explore experiences in health and illness through an interdisciplinary approach to navigate critical constructs of identity, gender, and sexuality. Through this course, we examine the intersection of non-normative communities with health status, health disparities, the healthcare system, and medicine, with a focus on the U.S., but also including a diversity of geographic contexts. (Available for General Education, F Comparative Cultural Studies.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "QS",
@@ -131,21 +139,18 @@
         "catalog_number": "401L",
         "title": "Advanced Topics In Queer Studies: Queer Leadership",
         "description": "Intensive study of selected topics in queer studies such as queer theory transgender theory queer issues in education queer popular culture the queer diaspora and the globalization and medicalization of sex and gender. Topics change from semester to semester. May be repeated for credit with instructors consent.\n",
-        "units": "3"
-    },
-    {
-        "subject": "QS",
-        "catalog_number": "401QFV",
-        "title": "Queer Film&video",
-        "description": null,
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "QS",
         "catalog_number": "490",
         "title": "Queer Studies Senior Capstone",
         "description": "Students develop and complete theoretically informed individualized research projects in queer studies in a structured setting. The project will include peer and instructor feedback and guidance on selecting an appropriate topic; conducting research, drafting and revising the project; and presenting the completed project. Course may be offered online or in a classroom setting.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "QS",
@@ -153,6 +158,7 @@
         "title": "Queer Studies Independent Study",
         "description": "Queer Studies independent study is for advanced students who are interested in working on an independent project with a faculty sponsor. The student needs to complete an Independent Study Form with the approval signature from the faculty sponsor and the Queer Studies Coordinator.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     }
 ]

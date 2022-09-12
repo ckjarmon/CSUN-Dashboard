@@ -5,7 +5,8 @@
         "title": "Construction Drawings",
         "description": "Corequisite: CM 110L. This course is designed to provide students with the foundational knowledge and practice at reading blueprints. Both residential and commercial construction drawings will be covered in this course. The set of plans, such as the foundation plan, floor plan, elevations, sections and details that must be assembled into an organized set of drawings to show as much about a project as can be placed on paper in one- or two-dimensional views, are analyzed and studied.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CM 110L"
     },
     {
         "subject": "CM",
@@ -13,7 +14,8 @@
         "title": "Construction Drawings Lab",
         "description": "Corequisite: CM 110L. This course is designed to provide students with the foundational knowledge and practice at reading blueprints. Both residential and commercial construction drawings will be covered in this course. The set of plans, such as the foundation plan, floor plan, elevations, sections and details that must be assembled into an organized set of drawings to show as much about a project as can be placed on paper in one- or two-dimensional views, are analyzed and studied.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CM 110"
     },
     {
         "subject": "CM",
@@ -39,7 +41,8 @@
         "title": "Construction Contract Documents",
         "description": "Corequisite: CM 210L. Recommended Corequisite: BLAW 280. Basic skills and techniques required to produce construction documents conforming to current building codes and standards, including working drawing, specifications, bid documents, addenda and change orders. 2 hours lecture, 3 hours technical activity/lab per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CM 210L"
     },
     {
         "subject": "CM",
@@ -47,7 +50,8 @@
         "title": "Construction Contract Documents Lab",
         "description": "Corequisite: CM 210L. Recommended Corequisite: BLAW 280. Basic skills and techniques required to produce construction documents conforming to current building codes and standards, including working drawing, specifications, bid documents, addenda and change orders. 2 hours lecture, 3 hours technical activity/lab per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CM 210"
     },
     {
         "subject": "CM",
@@ -288,6 +292,8 @@
         "catalog_number": "494",
         "title": "Cooperative Educational Experience",
         "description": "Prerequisites: CM 310/L, CM 312/L. Supervised off-campus professional experience in construction management technology for students with junior or senior standing in the major. Positions are paid and usually run for a full year with summer work available. Course may be repeated for up to 6 semester units of credit with a maximum of 2 semester units counting toward the major degree requirements.",
-        "units": "2"
+        "units": "2",
+        "prerequisites": "CM 310/L, CM 312/L",
+        "corequisites": "None"
     }
 ]

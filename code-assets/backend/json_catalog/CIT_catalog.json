@@ -5,7 +5,8 @@
         "title": "Cit Fundamentals",
         "description": "Corequisite: CIT 101L. The course provides an introduction to the computer hardware and software skills needed to help meet the growing demand for information technology (IT) professionals. The lecture portion of the course introduces the fundamentals of computer hardware and software management, and introduces key IT concepts including security, networking, and professional responsibilities. The lab portion of the course provides hands-on practice in the management of computing systems and the troubleshooting of technical problems. Two hour lecture and three hour laboratory per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CIT 101L"
     },
     {
         "subject": "CIT",
@@ -13,7 +14,8 @@
         "title": "Cit Fundamentals Lab",
         "description": "Corequisite: CIT 101L. The course provides an introduction to the computer hardware and software skills needed to help meet the growing demand for information technology (IT) professionals. The lecture portion of the course introduces the fundamentals of computer hardware and software management, and introduces key IT concepts including security, networking, and professional responsibilities. The lab portion of the course provides hands-on practice in the management of computing systems and the troubleshooting of technical problems. Two hour lecture and three hour laboratory per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CIT 101"
     },
     {
         "subject": "CIT",
@@ -21,7 +23,8 @@
         "title": "Internet Technologies",
         "description": "Corequisite: CIT 160L. Architecture of the Internet; Internet protocols, including http, ftp, telnet; browser technologies; current developments in Internet technologies and usage characteristics; Hypertext; self descriptive text; webpage design; website design; ADA compliance; commercialization of the Internet; role of the Internet in CIT. Lab: 3 hours per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CIT 160L"
     },
     {
         "subject": "CIT",
@@ -29,7 +32,8 @@
         "title": "Internet Technologies Lab",
         "description": "Corequisite: CIT 160L. Architecture of the Internet; Internet protocols, including http, ftp, telnet; browser technologies; current developments in Internet technologies and usage characteristics; Hypertext; self descriptive text; webpage design; website design; ADA compliance; commercialization of the Internet; role of the Internet in CIT. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CIT 160"
     },
     {
         "subject": "CIT",
@@ -72,7 +76,9 @@
         "catalog_number": "360",
         "title": "Cit System Management",
         "description": "Prerequisites: CIT 210/L, CIT 270/L. Corequisites: CIT 360 and CIT 360L are corequisites of each other. Overview of enterprise system architecture, principles and practices of systems administration and system management including firewalls and proxy servers; networked file systems; user account management; resources allocation, installation and configuration of operating systems, startup and shutdown, booting, performance monitoring, storage backup and restore; system administration tools; system maintenance, user support issues, web administration; integration of network, storage, system resources to meet user needs and enterprise goals and objectives, roles and responsibilities of a system administrator. Lab portion of the course will provide hands-on implementation and troubleshooting exercises. Two hour lecture and three hour laboratory per week.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "CIT 210/L, CIT 270/L",
+        "corequisites": "CIT 360 and CIT 360L are corequisites of each other"
     },
     {
         "subject": "CIT",

@@ -5,14 +5,17 @@
         "title": "Chicana/o Culture",
         "description": "Introductory study of cultural, economic, educational and political issues as they impact the Chicana/o in the U.S. Includes a study of the contributions that Chicana/os have made in these areas. Meets the Ethnic Studies requirement. (Available for General Education, F Comparative Cultural Studies.) (ES)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "101",
         "title": "Spanish For Chicanos I",
         "description": "Prerequisite: Instructor consent, subject to verification of oral skills at the beginning of the semester. Basic instruction in spoken and written formal Spanish for students who already have some comprehension of and fluency in the language. Designed for Chicano/Latino and other students from a Spanish-speaking background. Emphasis is placed on improving speaking, writing and reading in academic registers. (Available for General Education, F Comparative Cultural Studies.)",
-        "units": "5"
+        "units": "5",
+        "prerequisites": "Instructor consent, subject to verification of oral skills at the beginning of the semester",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -29,28 +32,35 @@
         "title": "The Chicana/o And The Arts",
         "description": "Survey of Chicana/o visual art, music and drama and their role in Chicana/o culture. Offers a historical approach to Chicana/o contributions in the arts. Meets the Ethnic Studies requirement. (Available for General Education, C1 Arts.) (ES)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "113A",
         "title": "Approaches To University Writing A",
         "description": "Prerequisite: Placement in a supported GE subarea A2 Written Communication course. Corequisite: UNIV 061. Expository prose writing with a focus on both content and form. Specific emphases include the exercise of logical thought and clear expression, the development of effective organizational strategies and the appropriate gathering and utilization of evidence. Includes instruction on diction, syntax and grammar, as well as the elements of prose style. Students receive credit for only one course chosen from AAS 113A, AFRS 113A, CAS 113A, CHS 113A, ENGL 113A, LING 113A or QS 113A. Students also are required to enroll in UNIV 061 (1 credit) or equivalent. Individual tutoring is available through the Chicana/o Writing Lab and Learning Resource Center.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Placement in a supported GE subarea A2 Written Communication course",
+        "corequisites": "UNIV 061"
     },
     {
         "subject": "CHS",
         "catalog_number": "113B",
         "title": "Approaches To University Writing B",
         "description": "Prerequisite: Successful completion of 113A. Corequisite: UNIV 062. Expository prose writing with a focus on both content and form. Specific emphases include the exercise of logical thought and clear expression, the development of effective organizational strategies and the appropriate gathering and utilization of evidence. Includes instruction on diction, syntax and grammar, as well as the elements of prose style. Students receive credit for only one course chosen from AAS 113B, AFRS 113B, CAS 113B, CHS 113B, ENGL 113B, LING 113B or QS 113B. Students also are required to enroll in UNIV 062 (1 credit) or equivalent. Individual tutoring is available through the Chicana/o Writing Lab and Learning Resource Center. (Available for General Education, Basic Skills A2 Written Communication.) (IC)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Successful completion of 113A",
+        "corequisites": "UNIV 062"
     },
     {
         "subject": "CHS",
         "catalog_number": "114A",
         "title": "Appr Univ Wrtng A",
         "description": "Prerequisite: Placement in supported GE subarea A2 Written Communication course. Expository prose writing with a focus on both content and form. Specific emphases include the exercise of logical thought and clear expression, the development of effective organizational strategies and the appropriate gathering and utilization of evidence. Includes instruction on diction, syntax and grammar, as well as the elements of prose style. Students receive credit for only one course chosen from AAS 114A, AFRS 114A, CAS 114A, CHS 114A, ENGL 114A or QS 114A. Individual tutoring is available through the Learning Resource Center.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Placement in supported GE subarea A2 Written Communication course",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -84,7 +94,9 @@
         "catalog_number": "201",
         "title": "Survey Of Mexican Literature In Translation",
         "description": "Preparatory: Completion of the lower division writing requirement. Comprehensive overview of the literary heritage of Mexico from pre-Colombian times to the present. Includes an analysis of its historical, technical and lyrical dimensions and its relationship with other Hispanic literature in order to develop a critical appreciation of literary art. Meets the Ethnic Studies requirement. (Available for General Education, C2 Humanities.) (ES)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -100,7 +112,9 @@
         "catalog_number": "214",
         "title": "Guitar Music Of The Southwest And Mexico",
         "description": "Develops the fundamental skills for guitar. Incorporates the study of various regional musical styles of the Southwest and Mexico. (Credit/No Credit only)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -108,7 +122,8 @@
         "title": "Regional Music Of The Southwest And Mexico",
         "description": "Corequisite: CHS 215L. Advanced study of regional music styles of Mexico and the Southwest. In addition to the guitar attention is also given to other string instruments in each regional style. The various styles presented are practiced in class. 2 hours lecture per week; 2 hours lab per week. \n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHS 215L"
     },
     {
         "subject": "CHS",
@@ -116,7 +131,8 @@
         "title": "Regional Music Of The Southwest And Mexico Lab",
         "description": "Corequisite: CHS 215. Advanced study of regional music styles of Mexico and the Southwest. In addition to the guitar attention is also given to other string instruments in each regional style. The various styles presented are practiced in class. 2 hours lecture per week; 2 hours lab per week. \n",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHS 215"
     },
     {
         "subject": "CHS",
@@ -133,7 +149,8 @@
         "title": "History Of The Americas",
         "description": "Comparative analysis of significant political and social events in the U.S. from colonial times to the present. Emphasis placed on the historical development of American institutions and ideals as they have been affected by regional dynamics within the U.S. and by international, socio-political and economic relationships, particularly with Latin America. (Available for General Education, C3 American History, Institutions and Ideals.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -141,7 +158,8 @@
         "title": "Contemporary Issues Of The Chicana",
         "description": "Using a sociological framework for understanding the contemporary experiences of Mexican American women in the U.S., focuses on the sexual division of labor in families, the workplace and community. Each section explores the variation and heterogeneity in women\u2019s class, ethnic/racial and gender identity. Meets the Ethnic Studies requirement. (Available for General Education, F Comparative Cultural Studies.) (ES)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -149,7 +167,8 @@
         "title": "Constitutional Issues And The Chicana/o",
         "description": "Study of important constitutional issues and cases that have affected the Chicano community. Examines how American political institutions, operating under the framework of the U.S. Constitution, have influenced the civil and political rights of Chicanos. (Available for General Education, D3/D4 Constitution of the United States/State and Local Government.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -157,7 +176,8 @@
         "title": "Race, Racism, Sci",
         "description": "This course will provide a survey of different schools of thought within the natural sciences with special attention to historical and contemporary debates around race and racism. Students will learn about how intelligence testing, forced sterilization, eugenics movements, modern psychiatry, and environmental conservation have impacted Chicana/o communities from a social science interdisciplinary approach. With this interdisciplinary approach, students will read scholarly debates within the fields of the history of science, critical environmental studies, Chicana/o Studies and comparative ethnic studies. (Available for General Education, D1 Social Sciences.) (IC)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -165,21 +185,26 @@
         "title": "Field Work In Barrio Studies",
         "description": "Field study observation of selected barrio institutions and agencies conducted under supervision and after preparatory instruction to acquaint the student with the barrio. Academic Internship course. Prospective teacher candidates must participate in field experience in public school classrooms. (Available for General Education Lifelong Learning.)\n",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "270SOC",
         "title": "Field Work In Barrio Studies",
         "description": "Students will engage in and practice the skills, methods, and awareness necessary for social change in the barrio. The course will focus on connections between students\u2019 life experiences, community institutions, and social justice issues in the Chicana/o/Latina/o community. Freire\u2019s problem-posing processes, cooperative learning, grant writing, and reflection are used to deepen student\u2019s understanding of Chicano/Latina communities. Course requires 20 hours of fieldwork in Chicano/Latina communities. Meets the Ethnic Studies requirement. (Available for General Education, E Lifelong Learning.) (ES)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "280",
         "title": "Workshop In Minority Creative Writing",
         "description": "Introductory course in minority creative writing. Students study and experiment with techniques and strategies from four genres: personal narrative prose fiction drama and poetry and then introduce these to secondary students in schools. Consult with the instructor about the semester syllabus and the minority literature concentration. Students must complete 15 hours of service learning at either a middle school a high school or an agency that serves the Chicano/a or Latino/a community. (Available for General Education Arts and Humanities.) (Crosslisted with ENGL and PAS 280.).\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -187,7 +212,8 @@
         "title": "The Chicana/o In Films",
         "description": "Preparatory: Completion of the lower division requirement. Analysis of the image of the Chicana and Chicano as presented in films and documentaries. Includes historical background, content analysis and social implications of selected feature films and documentaries. Students prepare a written analysis of each film viewed. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -195,14 +221,17 @@
         "title": "Days Of The Dead",
         "description": "Preparatory: Upper division standing; completion of one or more introductory courses in Chicana/o Studies, Religious Studies or Art; or by consent of the instructor. This lecture/studio course examines the concepts inspiring the Dias de los Muertos celebration from ancient Mesoamerican mythology and worldview to contemporary expressions of the Days of the Dead in the Chicana/o community. Areas of discussion also include cross-cultural perspectives on death and eschatology \u2014 an overview of cultural attitudes and religious beliefs on death, mourning rituals and the afterlife. Students also will participate in artmaking and traditional activities in preparation for Days of the Dead celebrations. 2 hours lecture, 3 hours laboratory. (Offered Fall semester.)",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "310",
         "title": "Regional Music Of Mexico",
         "description": "Prerequisite: Completion of the lower division writing requirement. Study of the cultural, instrumental and musical aspects of predominant regional musical styles of Mexico from Pre-Cuauhtemoc to contemporary times. Meets the Ethnic Studies requirement. (Available for General Education, C1 Arts.) (ES)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Completion of the lower division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -327,7 +356,8 @@
         "title": "Pre-cuauhtemoc Meso-american Civilizations",
         "description": "General survey of civilized life in Mexico and Central America prior to 1519. Examines the Meso-American variant of world civilization and directs special attention to the societies of central Mexico during the 13th-16th centuries. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -335,7 +365,8 @@
         "title": "Chicanas/os And The Media",
         "description": "Analysis of the portrayal of Chicanas and Chicanos in the media, including newspapers, magazines, television, film and advertising. Examination of sources and techniques of reporting events in the barrio is also studied. Field study included and designed for the non-professional student. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -352,7 +383,8 @@
         "title": "Dance Of Mexico I",
         "description": "Corequisite: CHS 414L. Introduction to selected dance forms representative of diverse regions of Mexico. Emphasis on basic dance techniques, mastery of characteristic foot work, as well as a study of the historical development of dance. Available for graduate credit.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHS 414L"
     },
     {
         "subject": "CHS",
@@ -360,7 +392,8 @@
         "title": "Dance Of Mexico I Lab",
         "description": "Corequisite: CHS 414L. Introduction to selected dance forms representative of diverse regions of Mexico. Emphasis on basic dance techniques, mastery of characteristic foot work, as well as a study of the historical development of dance. Available for graduate credit.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHS 414"
     },
     {
         "subject": "CHS",
@@ -368,7 +401,8 @@
         "title": "Dance Of Mexico Ii",
         "description": "Corequisite: CHS 415L. Advanced study of Mexican regional dance forms. Focuses on further investigation of the varied and complex dances and their historical background. Available for graduate credit. 1 hour lecture; 4 hours activity.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHS 415L"
     },
     {
         "subject": "CHS",
@@ -376,7 +410,8 @@
         "title": "Dance Of Mexico Ii Lab",
         "description": "Corequisite: CHS 415L. Advanced study of Mexican regional dance forms. Focuses on further investigation of the varied and complex dances and their historical background. Available for graduate credit. 1 hour lecture; 4 hours activity.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHS 415"
     },
     {
         "subject": "CHS",
@@ -384,7 +419,8 @@
         "title": "Equity And Diversity In School",
         "description": "Prepares teacher candidates to examine principles of educational equity, diversity and the implementation of curriculum content and school practices for elementary/secondary students. Focuses on the history and culture of a specific ethnic experience and a comparative analysis is made with other ethnic groups in California. Engages students to examine, critique and reflect on their personal biases regarding children of color. Not available for credit in addition to AAS 417, AFRS 417, ARMN 417 or ELPS 417. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -392,7 +428,8 @@
         "title": "Chicano In Us Eco",
         "description": "Examines and studies Chicanas/os in relation to the U.S. economy. Study of the development of the capitalist state and its relationship to the U.S society. Includes analysis of labor history in the U.S with a specific emphasis on Chicano labor history. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -400,7 +437,8 @@
         "title": "The Chicana/o Child",
         "description": "Review of the cognitive, affective and psychomotor development of Chicana/o and Latina/o children. Examines patterns of school adjustment and achievement of Chicana/o and Latina/o children and other language minority students. Explores the sociocultural and linguistic aspects of learning and current theoretical frameworks and standards of implementation related to programs for language-minority students. Available for Section A of the Multicultural Requirement for Credential Candidates. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -408,7 +446,8 @@
         "title": "The Chicana/o Adolescent",
         "description": "Preparatory: Completion of the lower division writing requirement. Explores patterns of selection, innovation and recreation of ethnic and gender identity and theories of adolescent formation among Chicana/o and other Latina/o adolescents. Fieldwork/observation and regular written assignments required. For prospective elementary and secondary school teachers. Available for Section A of the Multicultural Requirement for credential candidates. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -416,7 +455,8 @@
         "title": "Counseling The Chicana/o Child",
         "description": "Preparatory: Completion of the lower division writing requirement. Overview of social, cultural and educational factors that impact the psychological development of Chicana/o and other Latina/o children. Studies the nature of psychological issues associated with the immigrant and acculturation process and the role of the teacher, counselor and family in dealing with these issues. Primarily for prospective teachers and school counselors at the elementary- and secondary-school levels and is a viable option for those seeking either a teaching or counseling credential. Available for Section A of the Multicultural requirement for credential candidates. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -424,7 +464,8 @@
         "title": "Language Acquisition Of The Chicana/o And Esl Speakers",
         "description": "An introduction to the study of language acquisition, specifically focusing on the linguistic factors that influence language development among Chicanas/os and other language-minority children. The course provides an introduction to the structure and function of language and to theories of first and second language acquisition. We will relate these theories to monolingual language acquisition as well as language acquisition among bilingual Chicano/Latino and other immigrant children. There also will be an emphasis on the relationship of language to ethnic identity and how this relates to second language acquisition and language development. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -450,7 +491,8 @@
         "title": "Theory And The Chicana/o Experience",
         "description": "Study of contemporary political, social and cultural theories and their relationship to the Chicana/o experience in the U.S. Emphasis on theories developed by Chicanas and Chicanos. Questions on the role of praxis, democracy and the transformation of society are also examined. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -458,7 +500,8 @@
         "title": "Politics Of The Chicana/o",
         "description": "Critical study of Chicana/o issues, organizations, political models, participation, behavior and the electoral process in the U.S. Includes an examination of race, gender and class dynamics and their relationship to Chicana/o Politics. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -466,7 +509,8 @@
         "title": "Envnr Just",
         "description": "This course will provide students with the knowledge to understand how built environments, ecological degradation, water privatization and land confiscation have structured racial inequality in the 20th and 21st centuries. Students will read about the contingent relationships between race, class and economic development that have made Chicana/o, Latina/o, Asian American, African American and Native American populations vulnerable to environmental racism. Together, we will examine the core methods and theories that environmental justice advocates have employed to contest racial, class, gendered and sexual hierarchies. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -474,7 +518,8 @@
         "title": "Cultural Differences And The Chicana/o",
         "description": "Preparatory: Completion of the lower division writing requirement. Study of the processes, effects and possible causes of social and cultural differences and conflict among Chicanos. Includes a study of preventive measures and plans to ameliorate the situation. Intended primarily for elementary and secondary school teachers. Available for Section B of the Multicultural requirement for credential candidates. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -482,7 +527,8 @@
         "title": "Chicano Families",
         "description": "Preparatory: Completion of the Lower Division writing requirement.Overview of demographic social cultural and historical perspectives of Chicano families in the U.S. Critiques social science stereotypes of Chicano families and contrast these with contemporary profiles of diverse family types. Family history project and other writing assignments are required. Intended for prospective elementary and secondary school teachers. Available for Section B of the Multicultural requirement for credential candidates. \n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -490,7 +536,8 @@
         "title": "The Chicana/o And Social Institutions",
         "description": "Preparatory: Completion of the lower division writing requirement. Study of the interaction between the Chicano Community and the educational and social institutions of the dominant society. Topics such as institutional racism, segregation and abuse of authority are analyzed along with a focus on the Chicano community\u2019s organized attempts to advocate for their values and interests. Intended for, but not limited to, prospective elementary and secondary teachers. Regular writing assignments are required. Available for Section B of the Multicultural requirement for credential candidates. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -498,7 +545,8 @@
         "title": "Chicana/o-latina/o Children&#8217;s Literature In Communities",
         "description": "Preparatory: Completion of a lower division literature course or CHS 380. Critical analysis of themes and meanings of U.S.-based Chicana/o-Latina/o children\u2019s literature using contemporary literary and cultural theory tools. Students explore and practice the use of Chicana/o-Latina/o children\u2019s literature in school communities to promote cultural awareness and humanization among children and families. Course requires fieldwork in Chicano/Latino communities. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -506,7 +554,8 @@
         "title": "Language Of The Barrio",
         "description": "Preparatory: Completion of the lower division writing requirement. Examines the origin and current features of informal spoken Spanish in the Southwestern U.S. Includes an analysis of common colloquial forms, slang, profanity and code-switching. Addresses English usage among Chicanas/os. Available for Section C of the Multicultural requirement for credential candidates. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -514,7 +563,8 @@
         "title": "Nahuatl I",
         "description": "Study of the basic structures of the Nahuatl language as it is reflected in written manuscripts. Phonology, syntax and lexicon of Classic Nahuatl is examined with the purpose of enabling the student to translate passages from primary sources. Available for graduate credit. Meets the Ethnic Studies requirement. (ES)\n*Not available for General Education credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -522,7 +572,8 @@
         "title": "Nahuatl Ii",
         "description": "Preparatory: CHS 486A.Intermediate course in Nahuatl covers more complex structures not included in the first course. Passages from classical prose and poetry are read and translated with interest directed at basic language training. Emphasis on development of the ability to read selections from various Nahuatl documents. \n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -530,7 +581,8 @@
         "title": "Literature Of Borders And Globalization: The Americas",
         "description": "Recommended Preparatory: CHS 115 201 or equivalent. The idea of a dialogical literature in the countries in the American continent an idea that has influenced Latin American writers in the 20th century has also been an important concept in Chicana/o literature. This course studies the fiction poetry essays and criticism of Chicana/o and Latin American writers in the 20th and 21st century and explores literary production in the context of borders nationality colonialism globalization and cultural identity.  \n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -552,38 +604,21 @@
     },
     {
         "subject": "CHS",
-        "catalog_number": "495H",
-        "title": "Ethnic St Comm",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "495I",
-        "title": "Form Incar Women",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
         "catalog_number": "495P",
         "title": "Selected Topics In Chiana/o Studies",
         "description": "Prerequisite: Completion of Lower Division writing requirement. Preparatory: Senior or Graduate status or permission from instructor.In-depth study of a selected theme or issue in Chicana/o Studies. Topics will change from semester to semester and be restricted in scope and aimed at gaining depth on a particular issue. Critical writing and reading required. Offered for Credit/No Credit or letter grade and elective credit for Chicana/o Studies majors and Minors as well as other students seeking Upper Division elective credit. \n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Completion of Lower Division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "495S",
         "title": "Selected Topics In Chiana/o Studies",
         "description": "Prerequisite: Completion of Lower Division writing requirement. Preparatory: Senior or Graduate status or permission from instructor.In-depth study of a selected theme or issue in Chicana/o Studies. Topics will change from semester to semester and be restricted in scope and aimed at gaining depth on a particular issue. Critical writing and reading required. Offered for Credit/No Credit or letter grade and elective credit for Chicana/o Studies majors and Minors as well as other students seeking Upper Division elective credit. \n",
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "495W",
-        "title": "Ch Fem Queer Theo",
-        "description": null,
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Completion of Lower Division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -600,7 +635,8 @@
         "title": "Independent Study",
         "description": "Independent Study",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -635,7 +671,8 @@
         "title": "Seminar On Chicana/o And The Arts",
         "description": "Study of the music, drama and graphic arts produced by Chicanas/os as an expression of the Chicana/o experience in the U.S. Emphasizes Chicana/o artistic expression that has its roots and inspiration in Mexican art forms, often combined with U.S. or European influences.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -652,7 +689,8 @@
         "title": "Advanced Field Work In The Barrio",
         "description": "Advanced field study. Students are exposed to rigorous analysis of behavioral studies of the Chicano community and techniques in fieldwork.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -660,7 +698,8 @@
         "title": "Studies In The Education Of The Chicana/o",
         "description": "Evaluation of the American educational system. Emphasizes school organizational structure, administrative theory and application, multicultural curriculum and instruction, parent involvement and community relations. Designed to give graduate students an opportunity to explore strategies for promoting change in our educational institutions to benefit Chicana/o and other language-minority students.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -677,7 +716,8 @@
         "title": "Chs Feminism",
         "description": "Critical examination of the origin and development of Chicana feminism(s) from an interdisciplinary perspective and review of the ways Chicana feminist thought, visions of social justice, and the construction of knowledge may inform research.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -685,7 +725,8 @@
         "title": "Perform & Identit",
         "description": "Introduction to issues of identity in popular Chicana/o performance. The course explores current theories of identity formation and uses performance methodologies to create solo and group performances that reflect contemporary issues in the Chicana/o Community.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -693,7 +734,8 @@
         "title": "Seminar In Chicana/o Politics",
         "description": "Advanced comprehensive study of Chicana/o politics that includes political models issues ideologies organizations participation behavior and the electoral process. Attention given to race gender class and sexual-orientation dynamics. Applied qualitative and quantitative research is an integral part of the course. \n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
@@ -719,35 +761,17 @@
         "title": "Race&stateviolnce",
         "description": "In-depth study of a selected theme or issue in Chicana/o Studies. Topics will change from semester to semester and be restricted in scope and aimed at gaining depth on a particular issue in Chicana/o Studies.",
         "units": "3",
-        "prerequisites": "None"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "596B",
-        "title": "Contindigmigdiasp",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "596D",
-        "title": "Decol Chi Sprtlty",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "CHS",
-        "catalog_number": "596F",
-        "title": "Lang Chx Communities",
-        "description": null,
-        "units": "3"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",
         "catalog_number": "697",
         "title": "Directed Comprehensive Studies",
         "description": "Prerequisites: Classified graduate status; Instructor consent. Enrollment is required in the semester in which the comprehensive exam is taken.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Classified graduate status; Instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "CHS",

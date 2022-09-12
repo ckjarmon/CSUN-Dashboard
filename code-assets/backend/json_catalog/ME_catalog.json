@@ -5,7 +5,8 @@
         "title": "Intro To Cad And Fab",
         "description": "Introduction to computer aided design and 3D solid modeling using Fusion 360 or another commercially available package. Students will learn the procedure used to create parametric relations between features and manage basic design changes. The course project entails fabrication of student\u2019s design using a 3D printer. The concepts in the course could be used in a broad range of applications from art projects to custom made items. Students\u2019 knowledge of the fundamental concepts of these imminent technologies would make them more qualified for industry positions. (Available for General Education, E Lifelong Learning.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ME",
@@ -49,7 +50,8 @@
         "title": "Programming For Mechanical Engineers",
         "description": "Corequisite: MATH 150A. Basic programming concepts implemented with Visual Basic for Applications (VBA), with an emphasis on engineering problem solving. Topics include the use of flowcharts, variable types, the Excel/VBA environment, decision and looping structures, and program debugging. (Available for General Education, E Lifelong Learning for Mechanical Engineering majors.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "MATH 150A"
     },
     {
         "subject": "ME",
@@ -67,14 +69,16 @@
         "description": "Prerequisites: ME 186/L; Corequisite MSE 227. Introduction to mechanical design, design methodology and design for manufacturing. Engineering materials selection, metal forming/removal theory and practice. A group design project is required. 2 hours lecture per week.",
         "units": "2",
         "prerequisites": "ME 186/L; Corequisite MSE 227",
-        "corequisites": "None"
+        "corequisites": "MSE 227"
     },
     {
         "subject": "ME",
         "catalog_number": "309",
         "title": "Numerical Analysis Of Engineering Systems",
         "description": "Prerequisites: MATH 150B; ME 209 or COMP 110/L or ECE 206/L. Review of technical computing and control flow programming fundamentals. Solution of a variety of non-trivial engineering problems through the use of modern analysis tools. Discussion of numerical methods covering nonlinear algebraic equations, linear algebraic systems of equations, eigenvalue problems, regression and curve fitting, numerical differentiation and integration and ordinary differential equations. Two 3-hour labs per week.",
-        "units": "2"
+        "units": "2",
+        "prerequisites": "MATH 150B; ME 209 or COMP 110/L or ECE 206/L",
+        "corequisites": "None"
     },
     {
         "subject": "ME",
@@ -171,7 +175,9 @@
         "catalog_number": "415",
         "title": "Kinematics Of Mechanisms",
         "description": "Prerequisites: AM 316, ME 309, and upper division standing. Introduction to the kinematic analysis of mechanisms, as well as mechanism design and synthesis. Mechanisms considered include pin-jointed linkages, sliders, and cams. In addition to analytical and graphical approaches, computational analysis techniques are presented. The topics are integrated into a semester-long project utilizing simulation software to design a novel mechanism.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "AM 316, ME 309, and upper division standing",
+        "corequisites": "None"
     },
     {
         "subject": "ME",
@@ -244,13 +250,6 @@
         "units": "1",
         "prerequisites": "ME 330, ME 386/L",
         "corequisites": "ME 436"
-    },
-    {
-        "subject": "ME",
-        "catalog_number": "462",
-        "title": "Int Comb Engines",
-        "description": null,
-        "units": "2"
     },
     {
         "subject": "ME",
@@ -365,7 +364,9 @@
         "catalog_number": "501A",
         "title": "Seminar In Engineering Analysis",
         "description": "Analytic and numerical methods applied to the solution of engineering problems at an advanced level. Solution methods are demonstrated on a wide range of engineering topics, including structures, fluids, thermal, thermal energy transport and mechanical systems. This course emphasizes physical phenomena that can be described by systems of ordinary differential equations.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ME",
@@ -373,7 +374,8 @@
         "title": "Seminar In Engineering Analysis",
         "description": "Analytic and numerical methods applied to the solution of engineering problems at an advanced level. Solution methods are demonstrated on a wide range of engineering topics, including structures, fluids, thermal, thermal energy transport and mechanical systems. This course emphasizes physical phenomena that can be described by partial differential equations.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ME",
@@ -444,7 +446,8 @@
         "title": "Thermal-fluid Systems Design",
         "description": "Preparatory: ME 470, ME 490. System design and optimization course that integrates the disciplines of fluid mechanics, thermodynamics and heat transfer. Intent is to build on and extend information previously acquired in these courses. Emphasis is placed on the synthesis of components into a thermal-fluid system to accomplish a specified task with technical, economical and social constraints. Series of design problems are assigned to the class as homework. These problems require students to incorporate design methodology into their work.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ME",
@@ -478,7 +481,9 @@
         "catalog_number": "684",
         "title": "Design And Control Of Dynamic Systems",
         "description": "Prerequisite: ME 484. Design and control of mechanical systems. Time-domain and state space methods integrated into the design of dynamic processes. Application to automotive, aircraft, spacecraft, robots and related mechanical/aerospace systems. Digital simulations.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "ME 484",
+        "corequisites": "None"
     },
     {
         "subject": "ME",
@@ -504,7 +509,8 @@
         "title": "Directed Comprehensive Studies",
         "description": "Classified graduate status is required for enrollment. (Credit/No Credit only)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ME",
@@ -548,6 +554,7 @@
         "title": "Independent Study",
         "description": "Independent Study",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     }
 ]

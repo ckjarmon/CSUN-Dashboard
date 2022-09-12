@@ -212,7 +212,8 @@
         "title": "Physical Chemistry I Lab",
         "description": "Corequisite: CHEM 351. Laboratory course for CHEM 351. Introduction to the experimental methods of physical chemistry based on the concepts covered in CHEM 351. One 3-hour lab per week. (Offered Fall semester.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHEM 351"
     },
     {
         "subject": "CHEM",
@@ -229,7 +230,8 @@
         "title": "Physical Chemistry Ii Lab",
         "description": "Corequisite: CHEM 352. Laboratory course for CHEM 352. Selected experiments illustrating some of the important concepts covered in CHEM 352. One 3-hour lab per week. (Offered Spring semester.)",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHEM 352"
     },
     {
         "subject": "CHEM",
@@ -264,7 +266,8 @@
         "title": "Inorganic Chemistry Lab",
         "description": "Corequisite: CHEM 401. Synthesis and characterization of inorganic and organometallic compounds. Synthetic techniques important to inorganic chemistry, such as electrochemical synthesis, autoclave reactions and inert atmosphere techniques, as well as inorganic spectroscopic techniques. Available for graduate credit. One 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CHEM 401"
     },
     {
         "subject": "CHEM",
@@ -380,7 +383,8 @@
         "title": "Independent Study",
         "description": "See Independent Study under courses of study.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHEM",
@@ -441,7 +445,9 @@
         "catalog_number": "599A",
         "title": "Independent Study",
         "description": "Independent Study",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CHEM",

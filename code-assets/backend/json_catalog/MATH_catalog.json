@@ -76,7 +76,9 @@
         "catalog_number": "140BUS",
         "title": "Intro Stat Bus",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Methods for displaying, describing and producing data. Normal distribution. Correlation and regression. Sampling distributions and probability. Statistical inference for means and proportions. Applications to business. Open to students in the College of Business and Economics. Students who are exploratory majors may enroll in this course. (Cross-listed with MATH 140, MATH 140SCI, and MATH 141/L.) (Available for General Education, Basic Skills B4 Mathematics and Quantitative Reasoning.)",
-        "units": "4"
+        "units": "4",
+        "prerequisites": "Multiple Measures Placement in GE-level Mathematics, or credit in MATH 093 or MATH 196QR or MATH 196S or equivalent",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -183,7 +185,8 @@
         "title": "Calc Life Sci I Lab",
         "description": "Required for all conditionally prepared students enrolled in MATH 255A. All students in MATH 255A are encouraged to enroll in this lab. This course will include a self-paced, modular outline component. 3 lab hours per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -200,7 +203,8 @@
         "title": "Calc Life Sci Ii Lab",
         "description": "Required for all conditionally prepared students enrolled in MATH 255B. All students in MATH 255B are encouraged to enroll in this course. This course will include a self-paced, modular online component. 3 lab hours per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -235,7 +239,8 @@
         "title": "Geometry",
         "description": "Recommended Corequisite or Preparatory: MATH 310. Problem solving using models and simulation in mathematics appropriate for the elementary-school classroom. 2 hours of activities per week. (Credit/No Credit only)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "MATH 310"
     },
     {
         "subject": "MATH",
@@ -324,7 +329,8 @@
         "title": "Combinatorics",
         "description": "Corequisite: MATH 320 or MATH 326. This is a one-semester introduction to combinatorics. Topics include enumerative combinatorics (inclusion-exclusion, generating functions, Polya\u2019s Theorem, etc.) and combinatorial structures (graphs, designs, etc.).",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "MATH 320 or MATH 326"
     },
     {
         "subject": "MATH",
@@ -333,7 +339,7 @@
         "description": "Prerequisite or Corequisite: MATH 320. One of the goals of this course is to help students write rigorous proofs of results of plane Euclidean geometry. It is also expected that students visualize and develop geometric intuition through the use of dynamic geometry software. The content includes history, axiomatic structure and theorems of plane Euclidean geometry, geometric transformations of the plane, rigid motions, similarities, and inversion, coordinate geometry and an introduction to non-Euclidean geometries.",
         "units": "3",
         "prerequisites": "MATH 320",
-        "corequisites": "None"
+        "corequisites": "MATH 320"
     },
     {
         "subject": "MATH",
@@ -341,7 +347,8 @@
         "title": "Introduction To Scientific Computing",
         "description": "Corequisite: MATH 262. This course gives students an introduction to basic numerical techniques and to programming using some of the common software packages used in mathematics. Students apply these techniques in projects from different branches of mathematics. (This course does not replace a rigorous course in numerical analysis.) 2 hours lecture, 2 hours lab.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "MATH 262"
     },
     {
         "subject": "MATH",
@@ -349,7 +356,8 @@
         "title": "Introduction To Scientific Computing Lab",
         "description": "Corequisite: MATH 262. This course gives students an introduction to basic numerical techniques and to programming using some of the common software packages used in mathematics. Students apply these techniques in projects from different branches of mathematics. (This course does not replace a rigorous course in numerical analysis.) 2 hours lecture, 2 hours lab.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "MATH 262"
     },
     {
         "subject": "MATH",
@@ -519,7 +527,8 @@
         "title": "Independent Study",
         "description": "See Independent Study under courses of study.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -685,13 +694,6 @@
     },
     {
         "subject": "MATH",
-        "catalog_number": "661C",
-        "title": "Top Alg Disc Math",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "MATH",
         "catalog_number": "662",
         "title": "Intro Comm Algebra",
         "description": "Prerequisite: MATH 560 or consent of instructor. Topics covered include modules, localization, integral dependence, chain conditions (Noetherian and Artinian), discrete valuation rings (DVRs) and Dedekind domains.",
@@ -705,7 +707,8 @@
         "title": "Directed Comprehensive Studies",
         "description": "Directed Comprehensive Studies",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -713,7 +716,8 @@
         "title": "Thesis Or Graduate Project",
         "description": "Thesis or Graduate Project",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "MATH",
@@ -721,13 +725,7 @@
         "title": "Independent Study",
         "description": "See Independent Study under courses of study.",
         "units": "1",
-        "prerequisites": "None"
-    },
-    {
-        "subject": "MATH",
-        "catalog_number": "91S",
-        "title": "Support Stats",
-        "description": null,
-        "units": "1"
+        "prerequisites": "None",
+        "corequisites": "None"
     }
 ]

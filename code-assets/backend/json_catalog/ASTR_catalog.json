@@ -5,7 +5,8 @@
         "title": "Elementary Astronomy",
         "description": "An introduction to astronomy. Topics to be covered include the historical development of astronomy; the laws that govern the behavior of the universe; a survey of the properties of stars and galaxies, including their origin and evolution; and the Big Bang Theory. Students may not receive credit for both ASTR 152 and ASTR 154. (Available for General Education, B1 Physical Science.)\nNote: Students should only enroll in ASTR 152 if meeting the B3 Science Laboratory Activity in Life Science.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ASTR",
@@ -13,7 +14,8 @@
         "title": "Elementary Astronomy",
         "description": "Corequisite: ASTR 154L. An introduction to astronomy. Topics to be covered include the historical development of astronomy; the laws that govern the behavior of the universe; a survey of the properties of stars and galaxies, including their origin and evolution; and the Big Bang Theory. Students may not receive credit for both ASTR 154 and ASTR 152. (Available for General Education, B1 Physical Science. Students satisfy the B3 Science Laboratory Activity requirement by completing ASTR 154L.)",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "ASTR 154L"
     },
     {
         "subject": "ASTR",
@@ -21,7 +23,8 @@
         "title": "Observational Astronomy",
         "description": "Corequisite: ASTR 154. Introduction to the techniques of observational astronomy, including data acquisition and interpretation. Testing of astronomical hypotheses by using data from observations of the moon, planets, sun, stars and galaxies. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided ASTR 154 is also completed.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "ASTR 154"
     },
     {
         "subject": "ASTR",
@@ -56,7 +59,8 @@
         "title": "Current Developments In Astronomy Lab",
         "description": "Preparatory: Completion of the lower division writing requirement. Recommended Corequisite or Preparatory: ASTR 352. Use of observational and laboratory facilities and published data to explore current developments in astronomy. 3 hours per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "ASTR 352"
     },
     {
         "subject": "ASTR",
@@ -64,6 +68,7 @@
         "title": "The Radiative Universe",
         "description": "Preparatory: PHYS 227. Application of the laws of radiation, atomic structure and subatomic structure to astrophysical systems. Cosmic magnetic fields, energy sources, analysis of radiation from stars, nebulae, supernovae, active galaxies and quasars, the early universe and origin of the elements. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     }
 ]

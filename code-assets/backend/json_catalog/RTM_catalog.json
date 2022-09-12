@@ -14,7 +14,8 @@
         "title": "Backpacking",
         "description": "Introduction to backpacking as an outdoor pursuit. Emphasis on proper use of equipment and safety of participants in the natural environment. This course is designed to give students a general overview of and experience in backpacking and spending time in the back country. Arranged field trips are required.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -22,7 +23,8 @@
         "title": "Rock Climbing And Mountaineering",
         "description": "Basic elements of rock climbing, mountaineering and alpine travel will be examined, including climbing ethics, fitness and the physiological effects of environmental stress and work at high altitudes. Emphasis will be on safety, proper use of equipment, climbing technique and minimizing impacts on the natural environment. Arranged field trips are required.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -30,7 +32,8 @@
         "title": "Winter Mountaineering",
         "description": "Advanced instruction in mountaineering and travel in the back country, with particular emphasis on snow and ice climbing, avalanche prediction, physical effects of high altitudes and winter camping skills. Emphasis is on technique, proper use of equipment, environmental practices and safety. Arranged field trips are required.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -38,7 +41,8 @@
         "title": "Flat-water Boating",
         "description": "Introduction to safe travel by kayak or canoe on lakes, rivers and oceans. Includes equipment, navigation and techniques for flat-water boating and emergency self-rescue. Emphasis will be on safety, environmental awareness and skill development. Arranged field trips are required.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -46,7 +50,8 @@
         "title": "Survival",
         "description": "Studies in the skills essential for wilderness survival in a variety of physical environments. Includes topics of shelters, water, navigation and edible plants and animals. Emphasis on techniques with primitive technologies, environmental conservation and safety. Arranged field trips are required.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -54,7 +59,8 @@
         "title": "Challenge/ropes Courses",
         "description": "Introduction to the safe operation of challenge/ropes course activities for outdoor experience. Emphasis on proper use of equipment and safety of both high- and low-component challenge courses. This course is designed to give students a general overview of and experience in the practice of group challenges utilizing initiatives and high ropes elements. Arranged field trips are required.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -62,7 +68,8 @@
         "title": "Caving",
         "description": "Introduction to the safe exploration of caves and the underground environment, including cave formations and features, techniques and special hazards. Emphasis on safety techniques for horizontal and vertical caves, environmental awareness and skill development. Arranged field trips are required.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -71,7 +78,7 @@
         "description": "Prerequisite: Lower division writing requirement; Corequisite: RTM 202L. Overview of the program- and event-planning processes as they relate to the provision of human and leisure services through play, recreation and leisure experiences for a variety of service recipients and settings. Lab experiences applying skills and principles addressed.",
         "units": "2",
         "prerequisites": "Lower division writing requirement; Corequisite: RTM 202L",
-        "corequisites": "None"
+        "corequisites": "RTM 202L"
     },
     {
         "subject": "RTM",
@@ -80,7 +87,7 @@
         "description": "Prerequisite: Lower division writing requirement; Corequisite: RTM 202L. Overview of the program- and event-planning processes as they relate to the provision of human and leisure services through play, recreation and leisure experiences for a variety of service recipients and settings. Lab experiences applying skills and principles addressed.",
         "units": "1",
         "prerequisites": "Lower division writing requirement; Corequisite: RTM 202L",
-        "corequisites": "None"
+        "corequisites": "RTM 202"
     },
     {
         "subject": "RTM",
@@ -88,7 +95,8 @@
         "title": "Introduction To Recreation Therapy",
         "description": "Study of the nature and function of recreation in a variety of agencies and settings. Overview of the physical, cognitive, affective and social characteristics of a variety of individuals with special needs, with emphasis on planning and adapting recreation programs both in clinical and community/inclusive settings. Participation in fieldwork is required.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -96,7 +104,8 @@
         "title": "Recreation And The Natural Environment",
         "description": "Study of recreational use of outdoor/natural areas and the trends creating changing patterns of use. Overview of human, animal and vehicular impacts on the outdoor recreation resources. (Available for General Education, E Lifelong Learning.) (IC)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -131,7 +140,8 @@
         "title": "Recreation And Leisure In Contemporary Society",
         "description": "Introduction to conceptual foundations in tourism, hospitality, recreation, and parks. Overview of tourism, hospitality, recreation, and parks and the various sectors that make up these industry groups from local to international levels. Exposure to career opportunities in tourism, hospitality, recreation, and parks. Regular written assignments are required. (Available for General Education, E Lifelong Learning).",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -139,21 +149,17 @@
         "title": "Organizing Campus Recreation And Sport",
         "description": "Overview of the concepts and applications for effective campus recreation and sport programming and administration. Of value to current and future leaders in the field of campus recreation and sport. Includes specific field observation experiences.",
         "units": "2",
-        "prerequisites": "None"
-    },
-    {
-        "subject": "RTM",
-        "catalog_number": "294CSL",
-        "title": "Rec Svc Lrn Th/pr Lb",
-        "description": null,
-        "units": "2"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
         "catalog_number": "300",
         "title": "Recreation And Community Development",
         "description": "Prerequisite: Lower division writing requirement. Examination of the multicultural dynamics of urban life, and recreation\u2019s role in building community and in developing youth capacity and indigenous leadership.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Lower division writing requirement",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -170,7 +176,8 @@
         "title": "Promotion Of The Recreation Experience",
         "description": "Interpretation and promotion of recreation programs and services through the use of media processes and resources, marketing principles and computer applications.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -178,7 +185,8 @@
         "title": "Entrepreneurial Ventures In Recreation And Human Services",
         "description": "Analysis of approaches and techniques necessary to initiate an entrepreneurial start-up in the recreation and human service arenas. Topics include the nature of entrepreneurialism, development of a business plan, organization of the enterprise, financial and operations management, and computer applications.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -186,7 +194,8 @@
         "title": "Dynamics Of Early Childhood Play",
         "description": "Study of play in relation to the child\u2019s early growth and development. Implications for functional, environmental and leadership dimensions of organized play experiences in early years. Some sections of this course may offer a community service opportunity with activities relating to concepts and theories presented. Check the Schedule of Classes for the CS Designation.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -194,7 +203,8 @@
         "title": "Leadership Coaching",
         "description": "Preparatory: RTM 302. A basic foundation for understanding and practicing coaching methodology for leadership development. Content includes core coaching competencies and principles, the coaching conversation model, ethics and standards, application of skills necessary for one-to-one coaching to produce positive change in leaders.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -238,7 +248,8 @@
         "title": "Outdoor And Environmental Education",
         "description": "Study of outdoor educational philosophy and methods as they apply to the outdoor educator. Includes the history, development and basic principles of outdoor/ environmental education, but emphasizes strategies for teaching, interpreting and program planning in outdoor environments.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -273,7 +284,8 @@
         "title": "Models Of Play",
         "description": "Examines the historical, theoretical and philosophical foundations of play, leisure and recreation and their relevance to the professional today. Explores how play theory and philosophy impact the provision of service to individuals across the lifespan and with diverse needs. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -281,7 +293,8 @@
         "title": "Evaluation Research In Recreation And Human Services",
         "description": "Investigation into the fields and methods of recreation and leisure systems, including special techniques and concepts of research as applicable to these systems.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -289,7 +302,8 @@
         "title": "Enhancing Childhood Creativity",
         "description": "Corequisite: RTM 406L. Integrative seminar and lab experience focusing on the theoretical approaches for enhancing childhood creativity. The uses of play and fantasy are explored as the means for developing programs that are child-oriented. Regular written assignments are required. Available for graduate credit. (Cross-listed with CADV 406/L.)",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "RTM 406L"
     },
     {
         "subject": "RTM",
@@ -297,7 +311,8 @@
         "title": "Enhancing Childhood Creativity Lab",
         "description": "Corequisite: RTM 406L. Integrative seminar and lab experience focusing on the theoretical approaches for enhancing childhood creativity. The uses of play and fantasy are explored as the means for developing programs that are child-oriented. Regular written assignments are required. Available for graduate credit. (Cross-listed with CADV 406/L.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "RTM 406"
     },
     {
         "subject": "RTM",
@@ -305,7 +320,8 @@
         "title": "Food And Beverage Management",
         "description": "Understand food and beverage operations in the hospitality industry. Study operations, food service marketing, menu cost and pricing strategies, hospitality accounting, customer service experiences, facility design, and sanitation and safety issues. Opportunity to qualify for the American Hotel and Lodging Association (AHLA) Food and Beverage Management Certification. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -313,7 +329,8 @@
         "title": "Leisure And Aging",
         "description": "Study of the psycho-social aspects of aging as related to leisure and recreation. Implications for functional environmental and leadership dimensions of leisure and recreation experiences in the later years. Some sections of this course may offer a community service opportunity with activities relating to concepts and theories presented. Check the Schedule of Classes for the CS Designation. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -321,7 +338,8 @@
         "title": "Meetings And Conventions Management",
         "description": "Preparatory: RTM 314. The meetings and conventions sector represents a significant component of hospitality and tourism. Components of planning, coordinating and managing meetings and conventions will be examined. Factors such as impacts, policies, feasibility, and risk management of meetings and conventions will be examined in detail. Case studies will be evaluated and critiqued. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -329,7 +347,8 @@
         "title": "Accommodations Management",
         "description": "Preparatory: RTM 314. Students develop a sound understanding of the accommodations industry. Students will examine techniques, issues, and problems of rooms division management systems, food and beverage, and other functional areas according to hotel category. Review current information technology used in hotel operations. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -337,7 +356,8 @@
         "title": "Non-profit Organizations And Fund-development In Leisure And Human Services",
         "description": "Historical survey of the development of the volunteer movement and its leisure function in American society; theory of voluntary participation and philanthropy; structure and function of volunteer boards; and analysis of fundraising organization and techniques. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -372,7 +392,8 @@
         "title": "Principles Of Sustainable Tourism",
         "description": "Preparatory: RTM 480. An indepth analysis of the principles and theories of sustainability as they pertain to tourism. Various types of tourism will be examined and evaluated from economic, social and natural environment perspectives. Striking a balance among competing impacts of tourism development will be emphasized. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -380,7 +401,8 @@
         "title": "Challenges In Leisure Services Seminar",
         "description": "Analytical approach to theories and principles of recreation, leisure and play as they relate to field observations and practical applications.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -396,7 +418,9 @@
         "catalog_number": "498A",
         "title": "Field Assignment And Reports",
         "description": "Analysis and reports of the student\u2019s study project in a field site location. Available for graduate credit.",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -404,7 +428,8 @@
         "title": "Independent Study",
         "description": "Independent study. Available for graduate credit.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -412,7 +437,8 @@
         "title": "Foundations Thrm",
         "description": "This course examines hospitality, tourism, and recreation from psychological, social, and economic perspectives, and reviews different segments of the hospitality, tourism, and recreation industries.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -420,7 +446,8 @@
         "title": "Trends And Issues In Hospitality And Tourism",
         "description": "Identification and analysis of current and future trends, challenges and issues that affect management of tourism, hospitality and recreation services and programs.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -428,7 +455,8 @@
         "title": "Trends And Issues In Recreational Sport",
         "description": "Identification and analysis of current trends, challenges and issues that affect management of recreational sport facilities and programs. An examination of history of the profession, current professional and research issues, along with anticipation and preparation for the future.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -436,7 +464,8 @@
         "title": "Cultural Aspects And Global Perspectives In Tourism",
         "description": "Preparatory: RTM 314 or RTM 480. Addresses issues culture as it is affected by tourism. We will examine issues of authenticity, co modification of culture and the interaction of hosts and guests in different contexts, ranging from the industrialized world to developing countries.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -444,7 +473,8 @@
         "title": "Human Resources In Recreational Sport And Tourism",
         "description": "This course provides an understanding and application of key concepts/practices in human resource management as related to the tourism, hospitality and recreation industries.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -452,7 +482,8 @@
         "title": "Marketing And Promotions In Recreational Sport And Tourism",
         "description": "An in-depth study of the theory and application of marketing and promotion as they relate to the tourism, hospitality and recreation industries.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -460,7 +491,8 @@
         "title": "Facility Design In Recreational Sport",
         "description": "Investigation of principles of design, planning, management and operation of recreational sport facilities. Students will be introduced to facility and event management, facility components, specifications, recreation spaces, specialty areas and facility trends.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -468,7 +500,8 @@
         "title": "Seminar In Tourism Planning: A Cultural And International Perspective",
         "description": "Analysis and evaluation of the impact of historical tourism planning trends and their influence on human services and quality-of-life issues. Advanced study of the application of contemporary tourism planning models.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -476,7 +509,8 @@
         "title": "Sustainability In Hospitality &#038; Tourism",
         "description": "Addresses issues of sustainability as they pertain to hospitality and tourism. Traditionally, these sectors have operated with a short-term perspective and have been largely consumptive in nature. Students will evaluate principles of sustainability, how they relate to hospitality and tourism, and their effectiveness in different regions of the world.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -484,7 +518,8 @@
         "title": "Effective Teams And Leaders In Tourism",
         "description": "Application of research on effective teams and executive leadership for organizations in the tourism, hospitality, and recreational sport industries.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -492,7 +527,8 @@
         "title": "Crisis Mgmt Thrm",
         "description": "Preparation for and response to a major crisis for a hospitality, tourism, or recreation destination. Students will gain the knowledge and skills to identify potential threats such as a natural disaster or human tragedy and develop disaster mitigation and crisis management procedures from guest safety to media response.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -500,7 +536,8 @@
         "title": "Research Methods And Design",
         "description": "Discussion and application of scientific research in the field of tourism, hospitality, and recreation. Procedure in research design, data collection, data analysis, data presentation, and data interpretation/utilization.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",
@@ -517,7 +554,8 @@
         "title": "Directed Comprehensive Studies",
         "description": "This course is for students to enroll in during the preparation and examination phase of their M.S. degree. This course will allow students to review and synthesize the information learned during the program, reflect and assess the level of mastery attained, prepare preparatory case studies and complete their culminating examination. Students will be expected to develop links between the various courses and, during the course of the exam, apply this integrated information to develop answers to current problems in the field. (Credit/No Credit only)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "RTM",

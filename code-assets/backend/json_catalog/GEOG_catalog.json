@@ -5,7 +5,8 @@
         "title": "The Physical Environment",
         "description": "Study of the natural environment\u2013nature, distribution and relationships of climate, landforms, vegetation, hydrology and soils. (Available for General Education, B1 Physical Science.)\nNote: Students should only enroll in GEOG 101 if meeting the B3 Science Laboratory Activity in Life Science.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -13,7 +14,8 @@
         "title": "Physical Environ",
         "description": "Corequisite: GEOG 101AL. Examines the natural environment including the distribution of and relationships between weather, climate, landforms, vegetation, hydrology, and soils. Students will learn critical skills to understand the processes shaping the physical world and gain an understanding of environmental and landscape change over time. Students may not receive credit for both GEOG 101A and GEOG 101. (Available for General Education, B1 Physical Science. Students satisfy the B3 Science Laboratory Activity requirement by completing GEOG 101AL.)",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 101AL"
     },
     {
         "subject": "GEOG",
@@ -21,14 +23,17 @@
         "title": "Physical Environ Lab",
         "description": "Corequisite: GEOG 101A. Examines the natural environment including the distribution of and relationships between weather, climate, landforms, vegetation, hydrology, and soils. Students will learn critical skills to understand the processes shaping the physical world and gain an understanding of environmental and landscape change over time. 2 hours lab. Students may not receive credit for both GEOG 101AL and GEOG 102. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B1 Physical Science requirement by completing GEOG 101A.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 101A"
     },
     {
         "subject": "GEOG",
         "catalog_number": "102",
         "title": "Physical Geography Lab",
         "description": "Corequisite: GEOG 101. Observations, experiments and demonstrations designed to familiarize students with techniques utilized by physical geographers. 2 hours lab.\nNote: Students should enroll in GEOG 101A/AL instead of GEOG 101/102.",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "GEOG 101"
     },
     {
         "subject": "GEOG",
@@ -36,7 +41,8 @@
         "title": "Weather",
         "description": "Study of atmospheric processes. (Available for General Education, B1 Physical Science.)\nNote: Students should only enroll in GEOG 103 if meeting the B3 Science Laboratory Activity in Life Science.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -44,7 +50,8 @@
         "title": "Weather",
         "description": "Corequisite: GEOG 103AL. Explores the fundamental concepts of the dynamics of Earth\u2019s atmosphere, its composition, and the processes and patterns of weather. The topics covered in this course include an examination of how Earth\u2019s atmosphere is warmed and cooled, daily and seasonal temperature variations, the development and type of clouds, moisture (rain, snow, humidity, dew, fog), wind systems, air masses and fronts, and special topics such as thunderstorms, tornadoes, and hurricanes, as well as weather forecasting. Students may not receive credit for both GEOG 103A and GEOG 103. (Available for General Education, B1 Physical Science. Students satisfy the B3 Science Laboratory Activity requirement by completing GEOG 103AL.)",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 103AL"
     },
     {
         "subject": "GEOG",
@@ -52,7 +59,8 @@
         "title": "Weather Lab",
         "description": "Corequisite: GEOG 103A. Explores the fundamental concepts of the dynamics of Earth\u2019s atmosphere, its composition, and the processes and patterns of weather. The topics covered in this course include an examination of how Earth\u2019s atmosphere is warmed and cooled, daily and seasonal temperature variations, the development and type of clouds, moisture (rain, snow, humidity, dew, fog), wind systems, air masses and fronts, and special topics such as thunderstorms, tornadoes, and hurricanes, as well as weather forecasting. 2 hours lab. Students may not receive credit for both GEOG 103AL and GEOG 105. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B1 Physical Science requirement by completing GEOG 103A.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 103A"
     },
     {
         "subject": "GEOG",
@@ -60,7 +68,8 @@
         "title": "Weather Lab",
         "description": "Corequisite: GEOG 103. Observations, experiments and demonstrations designed to familiarize students with the nature of California\u2019s weather and climate. 2 hours lab per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 103"
     },
     {
         "subject": "GEOG",
@@ -68,7 +77,8 @@
         "title": "Introduction To Human Geography",
         "description": "Examines the patterns and processes of human occupance of the Earth, with a focus on the U.S. Topics such as population, agriculture, language, religion, ethnicity, politics and economics are covered using the tools, methods and perspective of the geographer. (Available for General Education, D1 Social Sciences.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -76,14 +86,8 @@
         "title": "Climate Change",
         "description": "Severe global climate change will have disastrous consequences for Earth\u2019s population. This course will develop the basic science behind the predictions for Earth\u2019s climate, and explain why human activities, primarily the emission of greenhouse gases, is the main driver of global warming. Course topics include the causes of climate change, its impacts, projections for the future, possible mitigation, and economic barriers imposed by the global capitalist system. 3 hours lecture per week. Students receive credit for only one course chosen from either GEOG 111, SUST 111, or SCI 111. (Available for General Education, B1 Physical Science. Students may satisfy the B3 Science Laboratory Activity requirement by completing GEOG 111L.)",
         "units": "3",
-        "prerequisites": "None"
-    },
-    {
-        "subject": "GEOG",
-        "catalog_number": "111HON",
-        "title": "Climate Change",
-        "description": null,
-        "units": "3"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -91,7 +95,8 @@
         "title": "Climate Change Lb",
         "description": "Corequisite: GEOG 111. Laboratory exercises include climate prediction modeling, the use of proxy data, and examination of the impacts of climate change. 3 hours lab per week. Students receive credit for only one course chosen from either GEOG 111L, SUST 111L, or SCI 111L. (Available for General Education, B3 Science Laboratory Activity requirement provided GEOG 111 is also completed.)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 111"
     },
     {
         "subject": "GEOG",
@@ -99,7 +104,8 @@
         "title": "World Geography",
         "description": "Geographical survey of the world\u2019s major regions, with emphasis on those features important to an understanding of current global concerns and problems. (Available for General Education, D1 Social Sciences.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -107,7 +113,8 @@
         "title": "Water Resource Ca",
         "description": "This course examines the nature and challenges of California\u2019s water resources. Topics include the physical attributes of water (sources, quantity, and quality), the underlying climatic and hydrologic processes that determine the surface and subsurface distribution of water, and the physical, social, economic and management issues that occur as California\u2019s water resources face increasing pressure from agriculture, industry, and human populations and climate change. (Available for General Education, D1 Social Sciences.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -115,7 +122,8 @@
         "title": "Introduction To Geographical Information Science",
         "description": "Corequisite: GEOG 206L. Introduction to fundamental concepts of geographical information science. Course will cover technical and context knowledge for basic spatial analysis, including data gathering, analysis and display through digital methods. Geographic Information Systems (GIS) will be used to explore spatial questions about environmental and social issues. Lab demonstrates these principles through hands-on experience with the dominant GIS software, ArcGIS. Students also will be exposed to other online GIS software applications. 2 hours lecture, 2 hours lab. (Available for General Education, E Lifelong Learning.) (IC)",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 206L"
     },
     {
         "subject": "GEOG",
@@ -123,7 +131,8 @@
         "title": "Introduction To Geographical Information Science Lab",
         "description": "Corequisite: GEOG 206L. Introduction to fundamental concepts of geographical information science. Course will cover technical and context knowledge for basic spatial analysis, including data gathering, analysis and display through digital methods. Geographic Information Systems (GIS) will be used to explore spatial questions about environmental and social issues. Lab demonstrates these principles through hands-on experience with the dominant GIS software, ArcGIS. Students also will be exposed to other online GIS software applications. 2 hours lecture, 2 hours lab. (Available for General Education, E Lifelong Learning.) (IC)",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 206"
     },
     {
         "subject": "GEOG",
@@ -131,7 +140,8 @@
         "title": "The Geographer&#8217;s Craft",
         "description": "Introduction to geography as a discipline, emphasizing its approach to analysis and problem solving, resources for conducting geographic research, methods for answering geographic questions, and techniques for communicating insights.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -166,7 +176,8 @@
         "title": "Maps And Graphics",
         "description": "Corequisite: GEOG 305L. Preparatory: Lower division course in Geography or other relevant field. Design, use and preparation of maps and graphs. 2 hours lecture, 2 hours lab.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 305L"
     },
     {
         "subject": "GEOG",
@@ -174,7 +185,8 @@
         "title": "Maps And Graphics Lab",
         "description": "Corequisite: GEOG 305L. Preparatory: Lower division course in Geography or other relevant field. Design, use and preparation of maps and graphs. 2 hours lecture, 2 hours lab.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "GEOG 305"
     },
     {
         "subject": "GEOG",
@@ -358,17 +370,12 @@
     },
     {
         "subject": "GEOG",
-        "catalog_number": "404BC",
-        "title": "Fld Std Foreign",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "GEOG",
         "catalog_number": "406",
         "title": "Advanced Geographical Information Science",
         "description": "Prerequisite: GEOG 306 or permission of instructor. Corequisite: GEOG 406L. This course will cover advanced topics in geographical information science. Students will investigate geographic data structures, advanced concepts in database design, algorithms for spatial data analysis, web-based mapping applications, customized applications, and implementation and management issues associated with Geographic Information Systems (GIS). Lab will demonstrate these issues through the use of GIS software packages. Available for graduate credit. 2 hours lecture, 3 hours lab.",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "GEOG 306 or permission of instructor",
+        "corequisites": "GEOG 406L"
     },
     {
         "subject": "GEOG",
@@ -529,7 +536,8 @@
         "title": "Independent Study",
         "description": "Independent Study",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -546,7 +554,8 @@
         "title": "Geographic Thought",
         "description": "Introductory seminar designed for first-year graduate students. Analysis of the trends in the theories, methods and problems pertinent to contemporary geography, including a review of the skills required for geographical research, analysis and writing.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -554,7 +563,8 @@
         "title": "Environmental Studies: Environmental Geography",
         "description": "(A) Environmental Geography, (B) Biogeography, (C) Special Topics in Environmental Geography, (E) Human Impact on the Environment.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -562,7 +572,8 @@
         "title": "Environmental Studies: Special Topics In Environmental Geography",
         "description": "(A) Environmental Geography (B) Biogeography (C) Special Topics in Environmental Geography (D) Ecosystem Studies (E) Human Impact on the Environment (F) Natural Resources.\n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -570,7 +581,8 @@
         "title": "Environmental Studies: Human Impact On The Environment",
         "description": "(A) Environmental Geography (B) Biogeography (C) Special Topics in Environmental Geography (D) Ecosystem Studies (E) Human Impact on the Environment (F) Natural Resources.\n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -578,7 +590,8 @@
         "title": "Urban Geography: Special Topics In Urban Geography",
         "description": "(A) Special Topics in Urban Geography, (C) Urban Social Geography, (D) Metropolitan Los Angeles.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -586,7 +599,8 @@
         "title": "Urban Geography: Urban Social Geography",
         "description": "(A) Special Topics in Urban Geography (B) Housing and Community Development (C) Urban Social Geography (D) Metropolitan Los Angeles\n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -594,7 +608,8 @@
         "title": "Geographic Information Science: Special Topics In Gis",
         "description": "Selected topics in digital mapping with course content to be determined. Can be taken twice for 6 units.\nCourse Title\nGEOG 690A Special Topics in GIS\nGEOG 690B Spatial Statistics\nGEOG 690D Remote Sensing\nGEOG 690E WebGIS\nGEOG 690G Applications in GIS\nGEOG 690J Foundations in Geographic Information Science",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -602,7 +617,8 @@
         "title": "Geographic Information Science: Spatial Statistics",
         "description": "(A) Special Topics in GIS\u00a0: selected topics in digital mapping with course content to be\u00a0determined.\u00a0 Can be taken twice for six units.\u00a0(B) Spatial Statistics. (C) Digital Cartography: Selected topics in digital cartography with course content to be\u00a0determined. Can be taken twice for six units.\u00a0(D) Remote Sensing. (E) Image Interpretation. (F) Methods in GIS. (G) Applications in GIS: selected topics in GIS applications with course content to be determined. Can be taken twice for six units. (H) Environmental Applications of GIS.\n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
@@ -610,14 +626,17 @@
         "title": "Geographic Information Science: Image Interpretation",
         "description": "(A) Special Topics in GIS\u00a0: selected topics in digital mapping with course content to be\u00a0determined.\u00a0 Can be taken twice for six units.\u00a0(B) Spatial Statistics. (C) Digital Cartography: Selected topics in digital cartography with course content to be\u00a0determined. Can be taken twice for six units.\u00a0(D) Remote Sensing. (E) Image Interpretation. (F) Methods in GIS. (G) Applications in GIS: selected topics in GIS applications with course content to be determined. Can be taken twice for six units. (H) Environmental Applications of GIS.\n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",
         "catalog_number": "696",
         "title": "Directed Graduate Research",
         "description": "To be taken near the end of the student\u2019s graduate program and prior to GEOG 698. Supervised research leading to the development of a thesis topic, preparation of a preliminary bibliography and a formal thesis proposal, and selection of a faculty thesis committee.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "GEOG",

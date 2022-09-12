@@ -5,7 +5,8 @@
         "title": "Intro To Business",
         "description": "For non-Business majors only. Designed to provide an introduction to the American enterprise system, its economic foundation and basic concepts of business organization and the nature of business activity. (Available for General Education, E Lifelong Learning.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "BUS",
@@ -30,7 +31,9 @@
         "catalog_number": "296BHK",
         "title": "Business Honors Selected Topics",
         "description": "Prerequisite: Admission to the Business Honors Program. This course consists of individual seminars that vary in content and approach. Seminars may be interdisciplinary spotlight cutting-edge ideas or focus on specific business related disciplines. The goal of each seminar is to develop excellent communication skills to participate in in-depth critical reasoning and problem solving approaches and build successful teamwork and leadership skills. Maximum of 6 units may be applied toward degree requirement. (Credit/No Credit only) \n",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "Admission to the Business Honors Program",
+        "corequisites": "None"
     },
     {
         "subject": "BUS",
@@ -64,49 +67,9 @@
         "catalog_number": "296BHR",
         "title": "Business Honors Selected Topics: Organization Innovation",
         "description": "Prerequisite: Admission to the Business Honors Program. This course consists of individual seminars that vary in content and approach. Seminars may be interdisciplinary spotlight cutting-edge ideas or focus on specific business related disciplines. The goal of each seminar is to develop excellent communication skills to participate in in-depth critical reasoning and problem solving approaches and build successful teamwork and leadership skills. Maximum of 6 units may be applied toward degree requirement. (Credit/No Credit only) \n",
-        "units": "1"
-    },
-    {
-        "subject": "BUS",
-        "catalog_number": "296BHT",
-        "title": "E-portfolios",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "BUS",
-        "catalog_number": "296BHV",
-        "title": "Entrepreneurship",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "BUS",
-        "catalog_number": "296BHX",
-        "title": "Prof Life Skills",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "BUS",
-        "catalog_number": "296HAA",
-        "title": "Brand Strategy",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "BUS",
-        "catalog_number": "296HAC",
-        "title": "Bus Lifelong Lear",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "BUS",
-        "catalog_number": "296HAE",
-        "title": "Ideas To Prod",
-        "description": null,
-        "units": "1"
+        "units": "1",
+        "prerequisites": "Admission to the Business Honors Program",
+        "corequisites": "None"
     },
     {
         "subject": "BUS",
@@ -122,7 +85,9 @@
         "catalog_number": "302L",
         "title": "The Gateway Experience Laboratory",
         "description": "Prerequisites: Junior standing; Completion of all lower division business core courses. To be taken by all business majors prior to, or concurrently with, the student\u2019s first upper division business core courses. This laboratory class is designed to certify and solidify a student\u2019s knowledge of lower division business core course concepts. The laboratory includes instruction, practice quizzes, examinations and other activities designed to ensure that students moving to the upper division business curriculum have the knowledge and ability to apply core concepts necessary for success in the program. (Credit/No Credit only)",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "Junior standing; Completion of all lower division business core courses",
+        "corequisites": "None"
     },
     {
         "subject": "BUS",
@@ -156,20 +121,26 @@
         "catalog_number": "497A",
         "title": "Capstone: Strategic Management",
         "description": "Prerequisites: BUS 302 and BUS 302L; FIN 303; MGT 360; MKT 304; Graduating senior standing. Integrates previous coursework and introduces concepts and approaches for analyzing, formulating and implementing business interdependencies between the functional areas within organizations, and examining how these are impacted by external factors.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "BUS 302 and BUS 302L; FIN 303; MGT 360; MKT 304; Graduating senior standing",
+        "corequisites": "None"
     },
     {
         "subject": "BUS",
         "catalog_number": "497B",
         "title": "Capstone: Small Business Planning And Growth",
         "description": "Prerequisites: BUS 302 and BUS 302L; FIN 303; MGT 360; MKT 304; Senior standing. Seminar integrating a broad range of business disciplines, requiring students to apply them to actual problems facing local small businesses. Course reviews and integrates functional areas of business as they relate to small business problems. Examines business strategy for effective small business management and growth. Using a consultancy approach, students assess business owner\u2019s situation and provide strategic, implementable recommendations in the form of a business plan. Offers a community service opportunity with service learning activities relating to concepts and theories presented.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "BUS 302 and BUS 302L; FIN 303; MGT 360; MKT 304; Senior standing",
+        "corequisites": "None"
     },
     {
         "subject": "BUS",
         "catalog_number": "498",
         "title": "Honors Mentorship",
         "description": "Prerequisites: BUS 302 and BUS 302L; Junior standing; Admission to the Business Honors Program. Provides business honors students with the opportunity to work on a project within the University or a community organization. The range of possibilities is wide. Students may assist faculty members with research or teaching, tutoring or developing an original project. All mentorships involve careful guidance and training from faculty members who supervise the student\u2019s work. Proposed mentorships must be approved by the Business Honors Program Director. (Credit/No Credit only)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "BUS 302 and BUS 302L; Junior standing; Admission to the Business Honors Program",
+        "corequisites": "None"
     }
 ]

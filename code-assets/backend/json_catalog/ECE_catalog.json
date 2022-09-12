@@ -5,7 +5,8 @@
         "title": "Introduction To Electrical Engineering",
         "description": "Corequisite: ECE 101L. A freshman orientation course for the Electrical Engineering program, the profession and the University. Technical writing, engineering case studies, design and analysis procedures, computer aided design, and analysis tools are integrated into the course. 1 hour lecture-discussion, 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "ECE 101L"
     },
     {
         "subject": "ECE",
@@ -13,7 +14,8 @@
         "title": "Introduction To Electrical Engineering Lab",
         "description": "Corequisite: ECE 101L. A freshman orientation course for the Electrical Engineering program, the profession and the University. Technical writing, engineering case studies, design and analysis procedures, computer aided design, and analysis tools are integrated into the course. 1 hour lecture-discussion, 3 hours lab per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "ECE 101"
     },
     {
         "subject": "ECE",
@@ -381,7 +383,8 @@
         "title": "Introduction To Biomedical Engineering",
         "description": "Preparatory: Senior or graduate standing. Characterization and properties of anatomical and physiological elements in engineering applications will be studied. Also includes the design of basic medical instrumentation.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -389,7 +392,8 @@
         "title": "Biomedical Instrumentation",
         "description": "Preparatory: ECE 350 or instructor consent. A comprehensive introduction to medical imaging systems will be explored. Common imaging modalities are introduced from the perspectives of both physics and system, including X-Ray, CT, Ultrasound, MRI, PET and SPECT. (Cross-listed with ME 503.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -612,7 +616,9 @@
         "catalog_number": "602",
         "title": "Biomedical Engineering I",
         "description": "Prerequisites: ECE 309/ME 309 and ECE 351, or instructor consent. A project-based comprehensive introduction to computational modeling in biomedical engineering will be explored, including biomedical models of bioelectric events, lumped-element formulations, and compartmental models of organ systems.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "ECE 309/ME 309 and ECE 351, or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -763,7 +769,9 @@
         "catalog_number": "696C",
         "title": "Directed Graduate Research",
         "description": "(Credit/No Credit only)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -771,7 +779,8 @@
         "title": "Directed Comprehensive Studies",
         "description": "(Credit/No Credit only)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "ECE",
@@ -788,6 +797,7 @@
         "title": "Independent Study",
         "description": "Independent Study",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     }
 ]

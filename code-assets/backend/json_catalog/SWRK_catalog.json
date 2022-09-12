@@ -199,30 +199,11 @@
     },
     {
         "subject": "SWRK",
-        "catalog_number": "650C",
-        "title": "Recovery",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "SWRK",
-        "catalog_number": "650M",
-        "title": "Group Therapy",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "SWRK",
-        "catalog_number": "650U",
-        "title": "Intl Social Work",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "SWRK",
         "catalog_number": "698",
         "title": "Capstone Project",
         "description": "Prerequisite: SWRK 635. The MSW graduate program culminates in an individual, or collaborative of two, research projects reflecting the students interests and needs as developers and critical consumers of science-based information to inform practice decisions. The Graduate Project requires students to collect, analyze and report direct observations; and write a research paper that includes an introduction, method, results, and discussion chapters. The paper must conform to Graduate Studies requirements and APA publication guidelines. Students will also present a poster in an open community-invited forum. The Graduate Project may include an alternative research project, such as a documentary, program evaluation, policy analysis, or grant. Students are exposed to social work research through the lens of intersectionality, power, and privilege to promote the well-being of individuals, families and communities in urban settings.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "SWRK 635",
+        "corequisites": "None"
     }
 ]

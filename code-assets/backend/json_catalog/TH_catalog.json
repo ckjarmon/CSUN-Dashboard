@@ -14,7 +14,8 @@
         "title": "Introduction To Theatre: Text/drama/performance",
         "description": "Introduction to theatre through reading and discussing play scripts, analyzing dramatic forms and writing about live performances. Regular critical writing assignments and attendance at live performances are required. (Available for General Education, C1 Arts.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -30,7 +31,9 @@
         "catalog_number": "120",
         "title": "Arts Immersion: Theatre",
         "description": "Prerequisite: Limited to students in the ITEP-Freshman Option. Corequisite: TH 120L. Introductory course in which students engage in the study and practice of theatre and process drama. Exploration of the role of playwright, director, designer, actor, technician and dramaturg/critic as they relate to the art of theatre and the design of drama experiences for children. Focuses on identifying and experiencing the relationship of theatre and drama experiences for children to learning and achievement. Students are expected to apply and integrate the knowledge of the art form under study to all of the arts and to address the five standards of the Visual and Performing Arts Framework in a holistic manner. 1 hour lecture, 2 hours lab per week.",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "Limited to students in the ITEP-Freshman Option",
+        "corequisites": "TH 120L"
     },
     {
         "subject": "TH",
@@ -47,7 +50,8 @@
         "title": "Movement I",
         "description": "Introduction to movement for performance. This course focuses on the development of individual creativity through physical expression. Movement fundamentals taught include basic anatomy, stretching and strengthening exercises, somatic practices that develop the breath/movement connection, Laban effort vocabulary and compositional projects that foster an expressive use of theatrical space. Course meets 4 hours per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -55,7 +59,8 @@
         "title": "Voice/speech I",
         "description": "Introduction to fundamentals of voice for the stage, including studio experiences exploring foundation skills in vocal production. Understanding the role of voice training in the development of the actor\u2019s craft and introduction to the methods, systems and techniques of voice training.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -63,7 +68,8 @@
         "title": "Color And Design For The Theatre",
         "description": "This course acquaints students with the basic principles of design that govern all forms of visual expression, emphasizing those used in the theatre. It provides students with the ability to communicate in visual terms and introduces students to the creative process.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -71,7 +77,8 @@
         "title": "Theatre Production Participation",
         "description": "Participation in various aspects of Theatre CSUN\u2019s production program, including acting, directing, technical, or managerial assignments. May be repeated once.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -97,7 +104,8 @@
         "title": "Fundamentals Of Scenery And Properties Technology",
         "description": "Corequisite: TH 261P. Preparatory: TH 155. Practical introduction to the theories and application of construction techniques for the scenic environment; visual language, principles, techniques and tools used in creating scenery and properties; and safety in the theatre.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "TH 261P"
     },
     {
         "subject": "TH",
@@ -105,7 +113,8 @@
         "title": "Prod Scn/prop Tch",
         "description": "Corequisite: TH 261. Preparatory: TH 155. Participation in the scenery and/or properties department of a CSUN theatre production.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "TH 261"
     },
     {
         "subject": "TH",
@@ -113,7 +122,8 @@
         "title": "Fundamentals Of Costume Technology",
         "description": "Corequisite: TH 262P. Preparatory: TH 155. A practical introduction to the theory and application of costume and accessory construction for the stage, including use of equipment, fabrics and materials appropriate to costume technology.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "TH 262P"
     },
     {
         "subject": "TH",
@@ -121,7 +131,8 @@
         "title": "Prod Costume Tech",
         "description": "Corequisite: TH 262. Preparatory: TH 155. Participation in the costume department of a CSUN theatre production.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "TH 262"
     },
     {
         "subject": "TH",
@@ -129,7 +140,8 @@
         "title": "Fundamentals Of Lighting And Sound Technology",
         "description": "Corequisite: TH 263P. Preparatory: TH 155. Introduction to technical principles and applications of stage lighting and sound, including basic lighting and sound equipment, nomenclature, and skills and practices used in creating lighting and sound for stage productions.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "TH 263P"
     },
     {
         "subject": "TH",
@@ -137,7 +149,8 @@
         "title": "Prod Light/sound",
         "description": "Corequisite: TH 263. Preparatory: TH 155. Participation in the scenery and/or properties department of a CSUN theatre production.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "TH 263"
     },
     {
         "subject": "TH",
@@ -145,14 +158,17 @@
         "title": "Theatre Production Participation",
         "description": "Participation in various aspects of Theatre CSUN\u2019s production program, including acting, directing, technical or managerial assignments. May be repeated once.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
         "catalog_number": "304",
         "title": "Proc Drama Child",
         "description": "Prerequisites: TH 120; Restricted to students in the ITEP-Freshman Option. Provides students the opportunity to revisit Theatre and apply their knowledge of this area to working with children and develop skills as a leader of drama experiences for children through the practice of planning, implementing and evaluating drama experiences with peers and in the context of field based-settings. Two hours of lab per week.",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "TH 120; Restricted to students in the ITEP-Freshman Option",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -213,7 +229,9 @@
         "catalog_number": "342M",
         "title": "Theatre Movement Ii",
         "description": "Prerequisite: TH 142M. Intermediate training of the body for stage movement, including exercise for strength, flexibility, relaxation, control, physicalization and movement as a part of character development. 6 hours lab.",
-        "units": "2"
+        "units": "2",
+        "prerequisites": "TH 142M",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -347,7 +365,8 @@
         "title": "Creative Drama",
         "description": "Corequisite: TH 371L. Theory and techniques for developing the creative capacities of children and young people through dramatization; participation and leadership in creative drama. 4 hours per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "TH 371L"
     },
     {
         "subject": "TH",
@@ -355,7 +374,8 @@
         "title": "Creative Drama Lab",
         "description": "Corequisite: TH 371L. Theory and techniques for developing the creative capacities of children and young people through dramatization; participation and leadership in creative drama. 4 hours per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "TH 371"
     },
     {
         "subject": "TH",
@@ -408,7 +428,8 @@
         "title": "Theatre Production Participation",
         "description": "Participation in various aspects of Theatre CSUN\u2019s production program, including acting, directing, technical or managerial assignments. Maximum of 4 units may be earned.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -605,7 +626,8 @@
         "title": "Prin Directing",
         "description": "Theories and techniques of directing plays. 6 hours per week.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",
@@ -640,7 +662,8 @@
         "title": "Seminar In Research Methods And Bibliography In Theatre",
         "description": "Introduction to theatre research, involving bibliographical methods, the tools of research and the organization and writing of the research study.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "TH",

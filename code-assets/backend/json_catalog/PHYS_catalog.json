@@ -42,7 +42,7 @@
         "description": "Prerequisite: MATH 150A or MATH 255A; Recommended Corequisite or Preparatory: MATH 150B or MATH 255B. Dynamics and statics of particles and rigid bodies, harmonic vibrations and fluid mechanics. (Available for General Education, B1 Physical Science. Students may satisfy the B3 Science Laboratory Activity requirement by completing PHYS 220AL.)",
         "units": "3",
         "prerequisites": "MATH 150A or MATH 255A; Recommended Corequisite or Preparatory: MATH 150B or MATH 255B",
-        "corequisites": "None"
+        "corequisites": "MATH 150B or MATH 255B"
     },
     {
         "subject": "PHYS",
@@ -104,14 +104,17 @@
         "title": "Physics Iii Lab",
         "description": "Recommended Corequisite or Preparatory: PHYS 227. 3 hours per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "PHYS 227"
     },
     {
         "subject": "PHYS",
         "catalog_number": "301",
         "title": "Analytical Mechanics I",
         "description": "Preparatory: MATH 250, PHYS 280; PHYS 227; Recommended Corequisite or Preparatory: PHYS 389. Newtonian mechanics of a single particle, oscillations, systems of particles, central force motion, calculus of variations and Lagrangian and Hamiltonian mechanics.",
-        "units": "4"
+        "units": "4",
+        "prerequisites": "None",
+        "corequisites": "PHYS 389"
     },
     {
         "subject": "PHYS",
@@ -137,7 +140,8 @@
         "title": "Electromagnetism I",
         "description": "Preparatory: MATH 250, MATH 280; PHYS 227; Recommended Corequisite or Preparatory: PHYS 389. Vector calculus, electrostatics, magnetostatics, Faradays Law and introduction to Maxwell\u2019s equations.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "PHYS 389"
     },
     {
         "subject": "PHYS",
@@ -154,7 +158,8 @@
         "title": "Experimental Physics I",
         "description": "Preparatory: MATH 250, MATH 280; PHYS 227, PHYS 227L; Recommended Corequisite or Preparatory: PHYS 389. Introduction to computational physics with application to topics including dynamical systems, celestial mechanics, climate science, thermodynamics, electromagnetism, and other topics chosen by the instructor. Students are trained to use constructs, such as variables, loops, branching, and functions, in a modern programing language. Concurrently, students use these skills to implement basic numerical procedures to solve physical and mathematical problems.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "PHYS 389"
     },
     {
         "subject": "PHYS",
@@ -162,7 +167,8 @@
         "title": "Experimental Physics Ii",
         "description": "Preparatory: MATH 250, MATH 280; PHYS 227 and PHYS 227L, PHYS 389. Advanced experimental techniques in physics, with topics including optics, nuclear physics, thin-film characteristics, microwaves, data acquisition via computer interface, computer simulations, solar observations and other topics chosen by the instructor. Students are trained in advanced experimental techniques and complete two experimental modules for 2 units of credit. 6 hours per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -170,7 +176,8 @@
         "title": "Quantum Physics I",
         "description": "Preparatory: PHYS 301, PHYS 389. Classical background, the wave function, Schroedinger equation, time development and stationary states, 1-dimensional problems, harmonic oscillator and formalism of quantum mechanics.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -178,7 +185,8 @@
         "title": "Radiologic Physics",
         "description": "Preparatory: PHYS 100A, PHYS 100AL, PHYS 100B, PHYS 100BL or instructor consent. Specialized course devoted to the nature and production of X-radiation. Topics include the interaction of radiation with matter, attenuation of X-rays and the principles behind radiographic equipment and components.",
         "units": "4",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -186,7 +194,8 @@
         "title": "Mathematical Methods In Physics I",
         "description": "Preparatory: PHYS 227; MATH 280 or MATH 351. An introduction to the mathematical methods used in junior and senior level physics courses. Topics covered include vector analysis, linear algebra, and partial differentiation.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -194,7 +203,8 @@
         "title": "Analytical Mechanics Ii",
         "description": "Preparatory: PHYS 301, PHYS 389. Noninertial reference frames, rigid body motion, coupled oscillations, nonlinear mechanics, scattering, vibrating string and Fourier analysis. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -202,7 +212,8 @@
         "title": "Electromagnetism Ii",
         "description": "Preparatory: PHYS 301, PHYS 311, PHYS 389. Maxwell\u2019s equations and applications, electromagnetic waves, radiation and special relativity. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -210,7 +221,8 @@
         "title": "Modern Optics",
         "description": "Preparatory: PHYS 311, PHYS 375. Propagation of electromagnetic waves. Geometrical optics. Physical optics, including refraction, reflection, interference, diffraction, and polarization. Atomic spectroscopy. Lasers. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -218,7 +230,8 @@
         "title": "Thermodynamics And Statistical Mechanics",
         "description": "Preparatory: PHYS 301, PHYS 375. Laws of thermodynamics, thermodynamic potentials, kinetic theory, phase transitions, equilibrium ensembles and related formalism with applications to classical and quantum systems. Available for graduate credit.",
         "units": "4",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -226,7 +239,8 @@
         "title": "Quantum Physics Ii",
         "description": "Preparatory: PHYS 311, PHYS 375. Hydrogen atom, angular momentum, spin, matrix representation, quantum statistics, perturbation theory and scattering. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -234,7 +248,8 @@
         "title": "Experimental Physics Iii",
         "description": "Preparatory: PHYS 365. Advanced experimental techniques in physics with topics including optics, nuclear physics, thin-film characteristics, microwaves, data acquisition via computer interface, computer simulations, solar observations and other topics chosen by the instructor. Students are trained in advanced experimental techniques and will complete two experimental modules for 2 units of credit. Available for graduate credit. 6 hours per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -242,7 +257,8 @@
         "title": "Experimental Physics Iv",
         "description": "Preparatory: PHYS 365. Advanced experimental techniques in physics with topics including optics, nuclear physics, thin-film characteristics, microwaves, data acquisition via computer interface, computer simulations, solar observations and topics chosen by the instructor. Students are trained in advanced experimental techniques and will complete two experimental modules for 2 units of credit. Available for graduate credit. 6 hours per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -250,7 +266,8 @@
         "title": "Introduction To Solid State Physics",
         "description": "Preparatory: PHYS 311, PHYS 375. Structure of crystals; electron theory of metals; theory of semiconductors; and mechanical, electrical and magnetic behavior of substances in the solid state. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -267,7 +284,8 @@
         "title": "Computer Applications In Physics",
         "description": "Preparatory: PHYS 301 and 365 or instructor consent. Applications of numerical analysis and computer programming to the solution of problems in classical and modern physics. Available for graduate credit.\n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -275,14 +293,8 @@
         "title": "Physics And Astronomy Colloquium",
         "description": "Preparatory: Junior, senior or graduate standing in Physics. Series of lectures presented weekly by faculty members and invited speakers on topics of current interest in physics, astronomy and related fields. Available for graduate credit. May be repeated twice for credit.",
         "units": "1",
-        "prerequisites": "None"
-    },
-    {
-        "subject": "PHYS",
-        "catalog_number": "495C",
-        "title": "Dir Undergrad Res",
-        "description": null,
-        "units": "3"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -299,7 +311,8 @@
         "title": "Undergraduate Thesis",
         "description": "Preparatory: Admission to Honors Program in Physics.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -307,7 +320,8 @@
         "title": "Independent Study",
         "description": "See Independent Study under Courses of Study.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -333,7 +347,8 @@
         "title": "Classical Mechanics",
         "description": "Preparatory: PHYS 402, PHYS 410, PHYS 451. Advanced course in classical mechanics, with topics selected from Lagrangian and Hamiltonian dynamics, continuum mechanics, nonlinear systems and chaos.",
         "units": "4",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -341,7 +356,8 @@
         "title": "Selected Topics In Astrophysics",
         "description": "Preparatory: PHYS 375, PHYS 402, PHYS 410. Advanced treatment of the observational and theoretical foundations of astrophysics. Topics may include stellar structure, radio sources, relativistic cosmology, the origin of the elements and galaxy formation.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -349,7 +365,8 @@
         "title": "Electromagnetic Theory",
         "description": "Preparatory: PHYS 410, PHYS 489. Advanced theoretical treatment of the electrostatic field with introduction of mathematical techniques. Introduction to electromagnetic waves and radiation from sources.",
         "units": "4",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -357,7 +374,8 @@
         "title": "Statistical Physics",
         "description": "Preparatory: PHYS 431, PHYS 451, PHYS 600. Theoretical foundations of thermodynamics and statistical mechanics for equilibrium and non-equilibrium systems. Applications to Bose and Fermi assemblies, real gases, liquids, solids, solutions, phase transitions and chemical reactions.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -365,7 +383,8 @@
         "title": "Quantum Mechanics I",
         "description": "Preparatory: PHYS 451. Recommended Corequisite or Preparatory: PHYS 600. Mathematical foundation of quantum theory. Scattering theory. Angular momentum and spin. Identical particles. Heisenberg and Schrodinger representations. Perturbation theory.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "PHYS 600"
     },
     {
         "subject": "PHYS",
@@ -373,7 +392,8 @@
         "title": "Quantum Mechanics Ii",
         "description": "Preparatory: PHYS 650. Relativistic wave equations. Advanced scattering theory. Selected topics from quantum theory of atoms and molecules.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -381,7 +401,8 @@
         "title": "Directed Graduate Research",
         "description": "Directed Graduate Research",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -398,7 +419,8 @@
         "title": "Thesis",
         "description": "Preparatory: Classified graduate status; Permission of the Department; Instructors consent to serve as Thesis Advisor. Dissertation of a specialized advanced topic in physics such as a critical evaluation and extension of an existing theoretical treatment the construction and use of advanced research apparatus or an original theoretical analysis.\n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PHYS",
@@ -406,6 +428,7 @@
         "title": "Independent Study",
         "description": "Preparatory: At least one graduate course in Physics; Instructor consent. Investigation of a special topic in physics, with emphasis on advanced theoretical or experimental skills. See Independent Study under Courses of Study.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     }
 ]

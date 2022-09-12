@@ -5,7 +5,8 @@
         "title": "Introduction To Mass Communication Arts",
         "description": "Not open to students with credit in JOUR 100. Survey of the fields of radio, television and film as they relate to other mass media. Comparative analysis and evaluation, including historical, societal, legal and individual considerations. (Available for General Education, E Lifelong Learning.) (IC)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CTVA",
@@ -13,7 +14,8 @@
         "title": "Television-film Aesthetics",
         "description": "TV and film communicative art forms. Representative films and television programs are exhibited and analyzed. (Available for General Education, C1 Arts.) (IC)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CTVA",
@@ -39,7 +41,8 @@
         "title": "Fundamentals Of Audio Production",
         "description": "Introductory course in audio production. Training in digital production, audio console operation, use of tape recorders and microphones, tape editing, program formats and announcing. Lab with accompanying lecture, 6 hours per week.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CTVA",
@@ -47,7 +50,8 @@
         "title": "Fundamentals Of Video Production",
         "description": "Basic introduction to all aspects of television studio production, audio and video; microphones, audio recorders, cameras, lenses, switching and lighting equipment. Principles of graphics and scenery. Lab with accompanying lecture, 6 hours per week.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CTVA",
@@ -64,7 +68,8 @@
         "title": "Intro Dgtl Flmkng",
         "description": "This course provides an introduction to the basic techniques and aesthetics of motion picture production and editing with an emphasis on digital media. Areas of focus include developing, writing, directing, producing, shooting and editing a narrative short project in a digital format. Not available for credit to Film Production, Film Production-Provisional or Television Production majors. 6 hours per week.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CTVA",
@@ -252,7 +257,8 @@
         "title": "Advanced Cinematography",
         "description": "Corequisite: CTVA 355. Advanced course in film production techniques and aesthetics, including detailed examination of film grammar as it is created in the camera, lighting technology and practice, camera technology, optics of lenses and their effect on aesthetics, principles of composition, new technologies, computerized application and special cinematic situations (e.g., infrared, underwater and macro-cine). 6 hours of lab per week.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "CTVA 355"
     },
     {
         "subject": "CTVA",
@@ -261,7 +267,7 @@
         "description": "Corequisite: CTVA 355 (for film production option). Prerequisite: grade of \u201cC\u201d or higher in CTVA 100, CTVA 210, CTVA 220 and CTVA 240 (for television production option). Advanced course in the theory and practice of sound gathering and mixing for motion picture production, including technical and aesthetic requirements. Use of various technologies and microphones. Presents the mix and postproduction sound editing. 3 hours lecture; 3 hours lab per week.",
         "units": "3",
         "prerequisites": "CTVA 355 (for film production option)",
-        "corequisites": "None"
+        "corequisites": "CTVA 355 (for film production option)"
     },
     {
         "subject": "CTVA",
@@ -314,7 +320,8 @@
         "title": "Immersive Audio",
         "description": "Recommended Preparatory: CTVA 359. Intermediate course with a specialized foundation in the theory and practice of creating, designing, implementing, testing, and outputting audio for immersive media productions. 3 hours of lecture; 3 hours of lab activity per week.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "CTVA",
@@ -330,7 +337,9 @@
         "catalog_number": "400",
         "title": "Media And Society",
         "description": "Prerequisites: Grade of \u201cC\u201d or higher in CTVA 100 and CTVA 210. An examination of the relationship between media, culture and society with special emphasis on analyzing the function, role and responsibility of mass media in contemporary society. The course covers the social influences (e.g., economics, politics, technology, law and culture) that shape media messages and the effects of those messages on audiences.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Grade of \u201cC\u201d or higher in CTVA 100 and CTVA 210",
+        "corequisites": "None"
     },
     {
         "subject": "CTVA",
@@ -518,7 +527,8 @@
         "title": "Production Mgmt",
         "description": "Corequisites: For Television Production majors, CTVA 340; for Film Production majors, CTVA 355. This course explores the theory and practice of managing live-action media productions. Students will study the most efficient and economic ways to schedule shoots, negotiate business deals for crews, locations and technical equipment, and make day-to-day production decisions to ensure that productions proceed safely and professionally. At the end of the course, each student will have completed a script breakdown, production schedule and budget.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "For Television Production majors, CTVA 340; for Film Production majors, CTVA 355"
     },
     {
         "subject": "CTVA",
@@ -627,13 +637,6 @@
         "units": "1",
         "prerequisites": "CTVA majors who are seniors in good academic standing only\u2013approval through application and instructor consent",
         "corequisites": "CTVA 494A and CTVA 494B"
-    },
-    {
-        "subject": "CTVA",
-        "catalog_number": "495V",
-        "title": "Curr Trd Virt Previs",
-        "description": null,
-        "units": "3"
     },
     {
         "subject": "CTVA",

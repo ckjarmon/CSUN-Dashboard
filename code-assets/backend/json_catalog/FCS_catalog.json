@@ -5,7 +5,8 @@
         "title": "Interior Ds Mtrs",
         "description": "This course is an introduction to the profession of interior design. Students will be introduced to the interior design process, basic interior design vocabulary and various presentation skills and techniques. Professional practices, responsibilities in health, safety, and welfare of the public, trade resources, and the value of design organizations will be discussed. Provides a survey of the interdisciplinary design professions and their impact on global culture and human behavior. Students will understand the rich history and diversity of human knowledge, discourse and achievements of their own and other cultures as they are expressed in the arts, literatures, religions, and philosophy. (Available for General Education, C1 Arts.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -13,14 +14,17 @@
         "title": "Drafting For Interior Design",
         "description": "Recommended Preparatory: ART 124A and ART 141. This course introduces students to the basic principles of three-dimensional and spatial representation and communication. Since architecture and interior design rely on representation and clear communication as a medium between the designed artifact and the built artifact, design communication is essential to relaying ideas and exploring design processes. This course provides students a foundation for acquiring skills that will help them communicate their ideas and represent their projects. 6 hours per week.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
         "catalog_number": "114L",
         "title": "Introduction To Interior Design Lab",
         "description": "Corequisite: FCS 114. Introductory survey of interior design. 1 hour lecture one 3-hour lab\n",
-        "units": "1"
+        "units": "1",
+        "prerequisites": "None",
+        "corequisites": "FCS 114"
     },
     {
         "subject": "FCS",
@@ -28,7 +32,8 @@
         "title": "Apparel Construction I",
         "description": "Corequisite: FCS 150L. Fundamental principles and terminology of clothing construction, with emphasis on the interrelationship of fiber, fabric, construction techniques, fit and care. 2 hours lecture, one 3-hour lab.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "FCS 150L"
     },
     {
         "subject": "FCS",
@@ -36,7 +41,8 @@
         "title": "Apparel Construction I Lab",
         "description": "Corequisite: FCS 150L. Fundamental principles and terminology of clothing construction, with emphasis on the interrelationship of fiber, fabric, construction techniques, fit and care. 2 hours lecture, one 3-hour lab.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "FCS 150"
     },
     {
         "subject": "FCS",
@@ -44,7 +50,8 @@
         "title": "Introductory Textiles",
         "description": "Lecture-discussion course presenting an introductory analysis of textile fibers, yarns, fabrics, dyestuffs and finishes as they relate to the selection of end-use products. Emphasis given to textiles in apparel and interiors.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -52,7 +59,8 @@
         "title": "Creative Expression In Family And Consumer Sciences",
         "description": "Develops awareness of the relationships between creative expression and the quality of life in the family unit.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -60,7 +68,8 @@
         "title": "Introductory Food Science",
         "description": "Corequisite: FCS 201L. Introduction to the chemical, physical and nutritional properties of foods and changes that occur during processing and storage. Methods currently used in food preparation are emphasized. 2 hours lecture, one 3-hour lab.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "FCS 201L"
     },
     {
         "subject": "FCS",
@@ -68,7 +77,8 @@
         "title": "Introductory Food Science Lab",
         "description": "Corequisite: FCS 201L. Introduction to the chemical, physical and nutritional properties of foods and changes that occur during processing and storage. Methods currently used in food preparation are emphasized. 2 hours lecture, one 3-hour lab.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "FCS 201"
     },
     {
         "subject": "FCS",
@@ -76,7 +86,8 @@
         "title": "Nutrition For Life",
         "description": "Basics of sensible and safe food choices related to the science of nutrition. Achievement and maintenance of nutritional well-being throughout life as influenced by social, cultural, economic and environmental conditions. Credit not allowed for both FCS 207 and HSCI 337. (Available for General Education, E Lifelong Learning.) (IC)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -121,7 +132,7 @@
         "description": "Prerequisites: FCS 113, FCS 114/L, FCS 160; Corequisite: FCS 214L. Study of material applications, practices, standards and specifications used in the design and construction of interior environments including sustainability and testing. 1 hour lecture, 4 hours lab per week.",
         "units": "1",
         "prerequisites": "FCS 113, FCS 114/L, FCS 160; Corequisite: FCS 214L",
-        "corequisites": "None"
+        "corequisites": "FCS 214L"
     },
     {
         "subject": "FCS",
@@ -130,7 +141,7 @@
         "description": "Prerequisites: FCS 113, FCS 114/L, FCS 160; Corequisite: FCS 214L. Study of material applications, practices, standards and specifications used in the design and construction of interior environments including sustainability and testing. 1 hour lecture, 4 hours lab per week.",
         "units": "2",
         "prerequisites": "FCS 113, FCS 114/L, FCS 160; Corequisite: FCS 214L",
-        "corequisites": "None"
+        "corequisites": "FCS 214"
     },
     {
         "subject": "FCS",
@@ -147,7 +158,8 @@
         "title": "Individual And Family Development",
         "description": "Relationships and adjustments during the normal stages of family living.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -155,7 +167,8 @@
         "title": "The Child In The Family And Community",
         "description": "Dynamics of children\u2019s relationships with their families and others throughout their development and with various contexts. Lecture-discussion.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -181,7 +194,8 @@
         "title": "The Fashion Industry",
         "description": "Overview of the structure and functioning of the fashion industry as it relates to apparel. Field trips required.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -206,7 +220,9 @@
         "catalog_number": "300",
         "title": "Family And Community Services",
         "description": "In-depth study of various types of family service agencies (local/state/federal, nonprofit/for-profit) and the services they provide to families in the community.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -251,7 +267,7 @@
         "description": "Prerequisites: CHEM 365 and CHEM 365L with a passing grade of \u201cC\u201d or better; Corequisite: FCS 307. The role of micronutrients, vitamins and minerals in human nutrition, including digestion, absorption, metabolism, and major biological, physiological and metabolic roles. Emphasis is placed on interactions and interrelationships of the nutrients at the organism and cellular levels.",
         "units": "3",
         "prerequisites": "CHEM 365 and CHEM 365L with a passing grade of \u201cC\u201d or better; Corequisite: FCS 307",
-        "corequisites": "None"
+        "corequisites": "FCS 307"
     },
     {
         "subject": "FCS",
@@ -269,7 +285,7 @@
         "description": "Prerequisites: FCS 211, FCS 213/L, and FCS 214/L; Corequisite: FCS 312L. Principles of lighting and electrical systems, thermal control systems and ancillary services applied to residential and commercial design. Lab involves design of lighting systems and an understanding of mechanical systems for residential and commercial applications. 2 hours lecture, one 2-hour studio.",
         "units": "3",
         "prerequisites": "FCS 211, FCS 213/L, and FCS 214/L; Corequisite: FCS 312L",
-        "corequisites": "None"
+        "corequisites": "FCS 312L"
     },
     {
         "subject": "FCS",
@@ -278,7 +294,7 @@
         "description": "Prerequisites: FCS 211, FCS 213/L, and FCS 214/L; Corequisite: FCS 312L. Principles of lighting and electrical systems, thermal control systems and ancillary services applied to residential and commercial design. Lab involves design of lighting systems and an understanding of mechanical systems for residential and commercial applications. 2 hours lecture, one 2-hour studio.",
         "units": "1",
         "prerequisites": "FCS 211, FCS 213/L, and FCS 214/L; Corequisite: FCS 312L",
-        "corequisites": "None"
+        "corequisites": "FCS 312"
     },
     {
         "subject": "FCS",
@@ -340,7 +356,8 @@
         "title": "Family Resource Management",
         "description": "Management theory applied to the family. Emphasis on clarifying values, setting goals, decision making and allocating resources as they relate to individual and family choice across the lifespan. Such skills as communication, time management, team building and stress management are developed.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -366,7 +383,8 @@
         "title": "Equipment I",
         "description": "Corequisite: FCS 322L. Principles of electricity and gas; materials, physical structures, safety and economic factors of household appliances; use and care of appliances; and kitchen planning. 2 hours lecture; one 3-hour lab per week.",
         "units": "2",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "FCS 322L"
     },
     {
         "subject": "FCS",
@@ -374,7 +392,8 @@
         "title": "Equipment I Lab",
         "description": "Corequisite: FCS 322L. Principles of electricity and gas; materials, physical structures, safety and economic factors of household appliances; use and care of appliances; and kitchen planning. 2 hours lecture; one 3-hour lab per week.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "FCS 322"
     },
     {
         "subject": "FCS",
@@ -517,7 +536,8 @@
         "title": "Undergraduate Internship",
         "description": "Directed field experience in selected area of Family and Consumer Sciences related to business industry and public service agencies. Written reports required. Academic Internship course.\n",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -588,7 +608,8 @@
         "title": "Geriatric Nutrition",
         "description": "Special problems of the aging population with regard to nutrient requirements food use and selection as well as government intervention programs related to nutrition. Non-majors taking this course must demonstrate that they have had sufficient experience in gerontology to benefit from the content.\n",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -677,7 +698,8 @@
         "title": "Resource Management For The Elderly",
         "description": "Concentrates on allocation of resources during the late phases of the family life cycle. Attention is given to retirement planning and alternative lifestyles for the aging and elderly. Government, community and private resources are analyzed relative to benefits useful to this age group. Non-majors taking this course for the Certificate Program for Service to the Aging must demonstrate that they have had sufficient experience in gerontology to benefit from the course. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -712,7 +734,8 @@
         "title": "Family And Consumer Public Policy",
         "description": "Exploration of the reciprocal influences between families and consumer functioning and public policies at the local, state, and federal levels. Emphasis is placed on the process of policy formation, implementation, evaluation and advocacy from a family and consumer perspective. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -792,7 +815,8 @@
         "title": "Human Sexuality",
         "description": "Provides biological, sociological and psychological aspects of human sexuality. Principles of sexual therapy. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -917,7 +941,8 @@
         "title": "The Helping Professional",
         "description": "Designed to facilitate the self-exploration, skills building and knowledge of future helping professionals. Students are challenged to enhance their knowledge of the helping professions while understanding the various career paths that are available. Available for graduate credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -1087,14 +1112,17 @@
         "title": "The Family And Conusmer Sciences Profession",
         "description": "A study of Family Consumer Sciences (FCS) as a profession, including its vision and mission, history, theoretical framework and professional and ethical standards. Applications of the Human Ecological Theory to one\u2019s Area of study is examined. Course is required for graduate students who do not have a FCS undergraduate degree. Credit does not count toward the graduate program, and completion of the course must occur before Classification, which must occur within the first 12 units.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
         "catalog_number": "601",
         "title": "Nutrition Policy",
         "description": "Prerequisite: Available for graduate students in Human Nutrition only or by instructor consent. Seminar on food and nutrition policy and programs domestically and globally. In-depth analyses of professional practice-, community- and population-based approaches to prevent or reduce problems of chronic disease as they relate to food and nutrition. The seminar will familiarize and engage students in the steps and dynamics of policy making processes that address nutrition problems, issues and the regulations that result. Students will compare and contrast food and nutrition policies and programs domestically and internationally and develop a community of learning through their explorations of this topic.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Available for graduate students in Human Nutrition only or by instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -1102,7 +1130,8 @@
         "title": "Eth Soc Jus Nutr",
         "description": "Advanced discussion of the history and practice of research and professional ethics, with a focus on human nutrition. Application of theories in shaping ethical reasoning and exploration of social justice within the context of nutrigenomics and public health nutrition, genetically modified organisms, biodiversity and hunger, climate change and nutrition security, and sustainability and food security. Collectively these changes contribute to global environmental change and subsequently influence behavioral, social and cultural practices, including nutritional health at the individual, community and population level.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -1128,7 +1157,8 @@
         "title": "Ntr Genes",
         "description": "Review and advanced discussion of the relationship between nutrition molecules, genetics and polymorphisms (variation), and biological systems with specific attention to etiologic aspects of chronic disease. Students will appraise the application of nutrigenomics and nutrigenetics in chronic disease treatment, prevention and health promotion, at the individual and population levels.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",
@@ -1190,7 +1220,8 @@
         "title": "Cur Issues In Fcs",
         "description": "Students will analyze current issues relevant to Family and Consumer Sciences and apply relevant theories in Family and Consumer Sciences and related fields to advance understanding of these issues. They will further combine elements in the Family and Consumer Sciences\u2019 body of knowledge to propose solutions to local and global issues. This course is available for graduate students in Family and Consumer Sciences.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FCS",

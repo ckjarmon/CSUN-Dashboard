@@ -5,14 +5,17 @@
         "title": "Principles Of Human Behavior",
         "description": "Psychology is the scientific study of behavior and mental processes. The content focuses on the exploration of major theories and concepts, methods, and research findings in psychology. Topics include the biological bases of behavior, ethics involved in research, perception, cognition, learning, memory, emotion, motivation, development, personality, social psychology, psychological disorders and therapeutic approaches, and applied psychology. Students are required to spend approximately 2.5 hours during the term in research-related activities. (Available for General Education, D1 Social Sciences.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PSY",
         "catalog_number": "200",
         "title": "Introduction To Lifespan Psychology",
         "description": "Prerequisite: PSY 150. Introduction to the patterns of growth change and stability in behavior that occurs through the entire lifespan. In addition to physical development this course examines growth and change in intellectual abilities as well as how interactions with others and social relationships develop from infancy to late adulthood. (Available for General Education Social Sciences.) PSY 230. Introduction to Human Sexual Behavior (3)\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "PSY 150",
+        "corequisites": "None"
     },
     {
         "subject": "PSY",
@@ -100,7 +103,9 @@
         "catalog_number": "327",
         "title": "Infancy And Early Childhood",
         "description": "Prerequisites: PSY 150 or CADV 150; Completion of the lower division writing requirement. Corequisite/Prerequisite for Psychology majors only: Concurrent enrollment in or prior completion of PSY 301. Relevant aspects of physical, social, cognitive and emotional change are highlighted as part of human development from conception to early childhood (8 years). Emphasis on study of the underlying processes and influences on human development. Cultural contexts of development, key changes, continuity and individual differences are examined. Includes evaluation of selected theories, contemporary issues and practical applications. This course fulfills the 300-level Developmental Psychology Cluster requirement for Psychology majors. (Cross-listed with CADV 327.)",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "PSY 150 or CADV 150; Completion of the lower division writing requirement",
+        "corequisites": "Concurrent enrollment in or prior completion of PSY 301"
     },
     {
         "subject": "PSY",
@@ -215,14 +220,9 @@
         "catalog_number": "406",
         "title": "Developmental Psychopathology*",
         "description": "Prerequisite: PSY 313. Recommended Preparatory: PSY 301. Study of disorders diagnosed in infancy, childhood or adolescence (e.g., autism, mental retardation, communication disorders) and the empirically validated interventions appropriate for each population. Available for graduate credit with consent of student\u2019s graduate advisor. 3 hours lecture-discussion per week.\nThis course serves in a series of courses that prepares students to apply for the Board Certified Assistant Behavior Analyst (BCaBA) Exam.",
-        "units": "4"
-    },
-    {
-        "subject": "PSY",
-        "catalog_number": "420L",
-        "title": "Lab Adv Stat",
-        "description": null,
-        "units": "1"
+        "units": "4",
+        "prerequisites": "PSY 313",
+        "corequisites": "None"
     },
     {
         "subject": "PSY",
@@ -343,13 +343,6 @@
     },
     {
         "subject": "PSY",
-        "catalog_number": "471CBS",
-        "title": "Adv Inq Clin Sem",
-        "description": null,
-        "units": "2"
-    },
-    {
-        "subject": "PSY",
         "catalog_number": "471CN",
         "title": "Advanced Inquiry In Clinical/personality Psychology: Clinical Neuropsychology",
         "description": "Prerequisites: PSY 301 320/L 321/L; Any course from required Clinical Cluster (PSY 310 351 353 370 or 380); Score of 8 or better on the Upper Division Writing Proficiency Exam. Corequisite: Corresponding PSY 471AA-ZZ Seminar. This Capstone course provides advanced study of areas of current interest in sub-areas of Clinical/Personality Psychology. Topics within sub-areas listed below may change each semester. Seminar: Includes student presentation of written and oral reports based on relevant topics from current literature and intensive student-led discussions of selected research and application of theories. Students will demonstrate knowledge of statistics and research methods obtained in prerequisite courses. Letters indicate sub-areas within Clinical/Personality Psychology. Each may be taken 1 time for credit: (AB) Applied Behavior Analysis (C) Clinical (CN) Clinical Neuropsychology and (P) Personality. Satisfies the Capstone requirement for Psychology Majors. Available for graduate credit with consent of students graduate advisor. 3 hours lecture 2 hours seminar.\n",
@@ -362,7 +355,9 @@
         "catalog_number": "471PH",
         "title": "Advanced Inquiry In Clinical/personality Psychology: Personality",
         "description": "Prerequisites: PSY 301 320/L 321/L; Any course from required Clinical Cluster (PSY 310 351 353 370 or 380); Score of 8 or better on the Upper Division Writing Proficiency Exam. Corequisite: Corresponding PSY 471AA-ZZ Seminar. This Capstone course provides advanced study of areas of current interest in sub-areas of Clinical/Personality Psychology. Topics within sub-areas listed below may change each semester. Seminar: Includes student presentation of written and oral reports based on relevant topics from current literature and intensive student-led discussions of selected research and application of theories. Students will demonstrate knowledge of statistics and research methods obtained in prerequisite courses. Letters indicate sub-areas within Clinical/Personality Psychology. Each may be taken 1 time for credit: (AB) Applied Behavior Analysis (C) Clinical (CN) Clinical Neuropsychology and (P) Personality. Satisfies the Capstone requirement for Psychology Majors. Available for graduate credit with consent of students graduate advisor. 3 hours lecture 2 hours seminar.\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "PSY 301 320/L 321/L; Any course from required Clinical Cluster (PSY 310 351 353 370 or 380); Score of 8 or better on the Upper Division Writing Proficiency Exam",
+        "corequisites": "Corresponding PSY 471AA-ZZ Seminar"
     },
     {
         "subject": "PSY",
@@ -393,20 +388,6 @@
     },
     {
         "subject": "PSY",
-        "catalog_number": "475CCS",
-        "title": "Adv Inq Dev Sem",
-        "description": null,
-        "units": "2"
-    },
-    {
-        "subject": "PSY",
-        "catalog_number": "475EAS",
-        "title": "Adv Inq Dev Sem",
-        "description": null,
-        "units": "2"
-    },
-    {
-        "subject": "PSY",
         "catalog_number": "479AS",
         "title": "Advanced Inquiry In Social Psychology: Applied Social Psychology",
         "description": "Prerequisites: PSY 301 320/L 321/L 345; Score of 8 or better on the Upper Division Writing Proficiency Exam. Corequisite: Corresponding PSY 479AA-ZZ Seminar. This Capstone course provides advanced study of topics of current interest in sub-areas of Social Psychology. Topics within sub-areas listed below may change each semester. Seminar: Includes student presentation of written and oral reports based on relevant topics from current literature and intensive student-led discussions of selected research and application of theories. Students will demonstrate knowledge of statistics and research methods obtained in prerequisite courses. Letters indicate sub-areas within social psychology. Each may be taken 1 time for credit: (A) Attitudes; (AG) Aggression; (AH) Altruism and Helping; (AI) Attraction and Intimacy; (AS) Applied Social Psychology; (AT) Attribution; (C) Culture; (CO) Conformity and Obedience; (G) Gender; (GS) General Social Psychology; (IR) Intergroup Relations; (P) Persuasion; (PD) Prejudice and Discrimination; (S) Self; and (SC) Social Cognition. Satisfies Capstone Requirement for Psychology Majors. Available for graduate credit with consent of students graduate advisor. 3 hours lecture 2 hours seminar.\n",
@@ -425,38 +406,12 @@
     },
     {
         "subject": "PSY",
-        "catalog_number": "479CSS",
-        "title": "Adv Inq Soc Sem",
-        "description": null,
-        "units": "2"
-    },
-    {
-        "subject": "PSY",
-        "catalog_number": "479GGS",
-        "title": "Adv Scpsy Gam Sem",
-        "description": null,
-        "units": "2"
-    },
-    {
-        "subject": "PSY",
-        "catalog_number": "479PDS",
-        "title": "Adv Soc Psy Sem",
-        "description": null,
-        "units": "2"
-    },
-    {
-        "subject": "PSY",
-        "catalog_number": "485AD",
-        "title": "Adv Inq Res Meth",
-        "description": null,
-        "units": "3"
-    },
-    {
-        "subject": "PSY",
         "catalog_number": "485GT",
         "title": "Advanced Inquiry In Research And Analysis Methods: Grounded Theory",
         "description": "Prerequisites: PSY 301 320/L 321/L; Score of 8 or better on the Upper Division Writing Proficiency Exam. Corequisite: Corresponding PSY 485AA-ZZ Seminar. This Capstone course provides advanced study of areas of current interest in sub-areas of Research Methods in psychology. Topics within sub-areas listed below may change each semester. Seminar: Includes student presentation of written and oral reports based on relevant topics from current literature and intensive student-led discussions of selected research and application of theories. Students will demonstrate knowledge of statistics and research methods obtained in prerequisite courses. Letters indicate sub-areas within Research Methods. Each may be taken one time for credit: (AD) Archival Data (CS) Case Study (DA) Discourse Analysis (ET) Ethnography (GT) Grounded Theory (NA) Narrative Analysis (PA) Participatory Action Research (QL) Qualitative Methods; (QT) Quantitative Methods; and (SD) Survey Data. Satisfies the Capstone Requirement for Psychology Majors. Available for graduate credit with consent of students graduate advisor. 3 hours lecture 2 hours seminar.\n",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "PSY 301 320/L 321/L; Score of 8 or better on the Upper Division Writing Proficiency Exam",
+        "corequisites": "Corresponding PSY 485AA-ZZ Seminar"
     },
     {
         "subject": "PSY",
@@ -466,13 +421,6 @@
         "units": "2",
         "prerequisites": "PSY 301 320/L 321/L; Score of 8 or better on the Upper Division Writing Proficiency Exam",
         "corequisites": "Corresponding PSY 485AA-ZZ"
-    },
-    {
-        "subject": "PSY",
-        "catalog_number": "485USS",
-        "title": "Adv Inq Meth Sem",
-        "description": null,
-        "units": "2"
     },
     {
         "subject": "PSY",
@@ -506,14 +454,9 @@
         "catalog_number": "488CFS",
         "title": "Advanced Inquiry In Cognitive Psychology: Cognition And Food Seminar",
         "description": "Prerequisites: PSY 301 320/L 321/L; Any course from required Cognitive Cluster (PSY 304 367 369 or 382); Score of 8 or higher on the Upper Division Writing Proficiency Exam. Corequisite: Corresponding PSY 488AA-ZZ. This Capstone course provides advanced study of topics of current interest in sub-areas of Cognitive Psychology. Topics within sub-areas listed below may change each semester. Seminar: Includes student presentation of written and oral reports based on relevant topics from current literature and intensive student-led discussions of selected research and application of theories. Students will demonstrate knowledge of statistics and research methods obtained in prerequisite courses. Letters indicate sub-areas within Cognitive Psychology. Each may be taken 1 time for credit: (AC) Attention and Consciousness (C) General Cognition (CA) Cognition and Action (CF) Cognition and Food (CI) Creativity and Innovation (DM) Decision Making (E) Expertise (HF) Human Factors (I) Intelligence (L) Language (M) Memory (MI) Mental Imagery (OP) Origins and Perspectives (P) Perception (PM) Pattern Matching (PS) Problem Solving and (R) Reasoning. Satisfies the Capstone requirement for Psychology Majors. Available for graduate credit with consent of students graduate advisor. 3 hours lecture 2 hours seminar.\n",
-        "units": "2"
-    },
-    {
-        "subject": "PSY",
-        "catalog_number": "488CIS",
-        "title": "Adv Inq Cog Sem",
-        "description": null,
-        "units": "2"
+        "units": "2",
+        "prerequisites": "PSY 301 320/L 321/L; Any course from required Cognitive Cluster (PSY 304 367 369 or 382); Score of 8 or higher on the Upper Division Writing Proficiency Exam",
+        "corequisites": "Corresponding PSY 488AA-ZZ"
     },
     {
         "subject": "PSY",
@@ -647,7 +590,8 @@
         "title": "Topics In Behavior Analysis*",
         "description": "In this course, students will learn applications of behavior analytic theories, procedures and methods as it pertains to special populations (e.g., children with autism, geriatrics, learners with developmental disabilities). Specific behavioral challenges and research in the selected topics will be discussed. Emphasis will be placed on evidence-based practices and procedures to eliminate or minimize challenges, teach and increase appropriate behaviors. Given the focus on application, students will be required to conduct and complete a comprehensive written project utilizing behavior analytic principles.\nThis course serves in a series of courses that prepares students to apply for the Board Certified Behavior Analyst Exam.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PSY",
@@ -669,20 +613,6 @@
     },
     {
         "subject": "PSY",
-        "catalog_number": "593AS",
-        "title": "Comm Res Sem I",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "PSY",
-        "catalog_number": "594HA",
-        "title": "Tutorial In Psy",
-        "description": null,
-        "units": "1"
-    },
-    {
-        "subject": "PSY",
         "catalog_number": "594HC",
         "title": "Tutorial In Psychology",
         "description": "Prerequisite: Admission into the Graduate Program or instructor consent. Tutorial content varies by instructor and related areas of faculty specialty. Sections meet in small groups for reading and discussion to cover topics such as cognition social psychology traumatic stress mental disorders and substance dependence clinical neuropsychology and human factors design. May be repeated for credit.\n",
@@ -695,7 +625,9 @@
         "catalog_number": "594RD",
         "title": "Tutorial In Psychology: Research Methods",
         "description": "Prerequisite: Admission into the Graduate Program or instructor consent. Tutorial content varies by instructor and related areas of faculty specialty. Sections meet in small groups for reading and discussion to cover topics such as cognition social psychology traumatic stress mental disorders and substance dependence clinical neuropsychology and human factors design. May be repeated for credit.\n",
-        "units": "4"
+        "units": "4",
+        "prerequisites": "Admission into the Graduate Program or instructor consent",
+        "corequisites": "None"
     },
     {
         "subject": "PSY",
@@ -721,7 +653,8 @@
         "title": "Adv Psy Testing",
         "description": "Corequisite: PSY 624L. Recommended Preparatory: PSY 310, PSY 427. Practical implementation of psychological assessment tools including cognitive, academic, emotional, social, psychological and behavioral measures used in human assessment. Students will learn how to administer and score a range of standardized instruments and how these measures are interpreted and reported to stakeholders.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "PSY 624L"
     },
     {
         "subject": "PSY",
@@ -729,7 +662,8 @@
         "title": "Adv Psy Test Lab",
         "description": "Corequisite: PSY 624L. Recommended Preparatory: PSY 310, PSY 427. Practical implementation of psychological assessment tools including cognitive, academic, emotional, social, psychological and behavioral measures used in human assessment. Students will learn how to administer and score a range of standardized instruments and how these measures are interpreted and reported to stakeholders.",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "PSY 624"
     },
     {
         "subject": "PSY",
@@ -755,7 +689,8 @@
         "title": "Advanced Social Psychology I",
         "description": "Extensive coverage of major research and theories advanced in contemporary social psychology, with emphasis on individual behavior as a function of social variables. Topics include interpersonal attraction, person perception and attributional processes, attitude formation and change, social motivation, aggression and altruism.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PSY",
@@ -808,7 +743,8 @@
         "title": "Directed Graduate Research",
         "description": "May be repeated once for credit.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PSY",
@@ -816,7 +752,8 @@
         "title": "Directed Comprehensive Studies",
         "description": "Directed Comprehensive Studies",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "PSY",

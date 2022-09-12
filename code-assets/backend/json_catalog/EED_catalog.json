@@ -51,7 +51,7 @@
         "description": "Prerequisite: Intent to Apply or Admission to the Multiple Subject Credential Program; Corequisite: EED 500/EPC 500. This course addresses technology-driven skills and understandings that Multiple Subject Credential candidates need to effectively plan, implement, and evaluate instructional tools and software programs to teach to the California Core State Standards (CA-CCSS) and Next Generation Science Standards (NGSS), including those for STEM/STEAM education and diverse student populations. It is designed to provide teacher candidates with models of instruction consistent with learning technology research and our current understanding of learning processes, opportunities to develop related STEM/STEAM practices, and skills in implementing collaborative lessons and units of study to lay a foundation for K-5 students to develop into technologically literate citizens. In addition, teacher candidates will explore and apply the various dimensions of teacher knowledge, including curriculum frameworks and instructional tools and software curriculum materials; students\u2019 alternative conceptions; and teaching strategies. Teacher candidates will apply key practices to the specific content demands of the new curriculum based on the International Society for Technology in Education National Educational Technology Standards for Teachers. They will develop strategies for teaching children of widely differing cultural, linguistic, and ethnic backgrounds, developmental levels and learning styles, as well as students with special learning needs to provide all children equal access to the elementary curriculum.",
         "units": "2",
         "prerequisites": "Intent to Apply or Admission to the Multiple Subject Credential Program; Corequisite: EED 500/EPC 500",
-        "corequisites": "None"
+        "corequisites": "EED 500/EPC 500"
     },
     {
         "subject": "EED",
@@ -77,7 +77,8 @@
         "title": "Student Teaching In The Elementary School",
         "description": "Recommended Corequisite: Enrollment in required multiple subject credential coursework. Specially arranged student teaching for students not in the regular student teaching program. Open to students only upon departmental approval.",
         "units": "4",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "Enrollment in required multiple subject credential coursework"
     },
     {
         "subject": "EED",
@@ -95,7 +96,7 @@
         "description": "Prerequisites/Corequisites: EED 500 (or EPC 500), EED 520, EED 565M. Corequisite: EED 560C or EED 567ACT. This course is a 2-unit supervised fieldwork seminar for students completing the Traditional, Accelerated Collaborative Teacher (ACT) Preparation or Internship pathway for Multiple Subject Credential candidates. The seminar provides opportunities for candidates to reflect on and analyze fieldwork experiences. Student teachers learn to: (1) assess their needs; (2) gather data; (3) analyze results; (4) problem solve; (5) modify teaching practices; and (6) determine implications of their experience for future instruction. The seminar will promote teacher candidates\u2019 rehearsal of the Teaching Event of the adopted Teacher Performance Assessment. This course is taken concurrently with the first semester of supervised fieldwork in the Traditional (EED 560C), ACT (EED 567ACT) and Intern (EED 550B 3) pathways. (Credit/No Credit only)",
         "units": "1",
         "prerequisites": "EED 500 (or EPC 500), EED 520, EED 565M",
-        "corequisites": "EED 560C or EED 567ACT"
+        "corequisites": "EED 500 (or EPC 500), EED 520, EED 565M"
     },
     {
         "subject": "EED",
@@ -346,7 +347,8 @@
         "title": "Directed Comprehensive Studies",
         "description": "Preparatory: Restricted to and required of M.A. degree candidates in the semester in which they take the comprehensive examination for the degree. This course is designed to provide encouragement, support, and opportunity for students to complete the comprehensive exam and the portfolio. Assignments focused on leadership and professionalism are also part of this course, the final class of the M.A. program. A comprehensive examination is an assessment of the student\u2019s ability to integrate the knowledge of the area, show critical and independent thinking, and demonstrate mastery of the subject matter. The results of the examination evidences independent thinking, appropriate organization, critical analysis and accuracy of documentation.",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "EED",
@@ -363,6 +365,7 @@
         "title": "Independent Study",
         "description": "Independent Study",
         "units": "1",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     }
 ]

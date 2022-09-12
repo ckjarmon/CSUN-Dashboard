@@ -5,7 +5,8 @@
         "title": "Financial Literacy",
         "description": "Covers basic financial terms and institutions and the tools necessary for students to make wise financial decisions. Topics covered include budgeting, borrowing, managing credit, financial planning and related topics. (Available for General Education, E Lifelong Learning.)",
         "units": "3",
-        "prerequisites": "None"
+        "prerequisites": "None",
+        "corequisites": "None"
     },
     {
         "subject": "FIN",
@@ -30,7 +31,9 @@
         "catalog_number": "336",
         "title": "Principles Of Insurance",
         "description": "Corequisites for Business Majors: BUS 302 and BUS 302L. Risk Management and Insurance as an economic and business institution. Survey of risk management, fire, marine, casualty and life insurance for those interested as potential customers, salespersons or brokers.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "None",
+        "corequisites": "BUS 302 and BUS 302L"
     },
     {
         "subject": "FIN",
@@ -55,14 +58,18 @@
         "catalog_number": "355",
         "title": "Corporate Finance I",
         "description": "Prerequisite: Grade of \u201cC\u201d or higher in FIN 303. BUS 302 and BUS 302L are prerequisites for Business majors. Advanced readings and case studies in current problems and trends in corporate financial policy formulation. Students will be required to analyze selected problems orally and in writing.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Grade of \u201cC\u201d or higher in FIN 303",
+        "corequisites": "None"
     },
     {
         "subject": "FIN",
         "catalog_number": "359",
         "title": "Quantitative Finance I",
         "description": "Prerequisite: Grade of \u201cC\u201d or higher in FIN 303. BUS 302 and BUS 302L are prerequisites for Business majors. Quantitative analysis of various problems in corporate finance and investments. Emphasis is placed on developing computer skills.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Grade of \u201cC\u201d or higher in FIN 303",
+        "corequisites": "None"
     },
     {
         "subject": "FIN",
@@ -213,7 +220,9 @@
         "catalog_number": "495A",
         "title": "Seminar Insurance",
         "description": "Prerequisite: Grade of \u201cC\u201d or higher in FIN 303. BUS 302 and BUS 302L are prerequisites for Business majors. Advanced issues in a subfield in insurance are analyzed by means of case studies, readings and class discussion. Up to two different courses of this series may be taken for credit in the following areas: (A) Insurance Operations, (B) Insurance Management, (C) Risk Management.",
-        "units": "3"
+        "units": "3",
+        "prerequisites": "Grade of \u201cC\u201d or higher in FIN 303",
+        "corequisites": "None"
     },
     {
         "subject": "FIN",

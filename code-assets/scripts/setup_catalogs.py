@@ -124,7 +124,8 @@ for code in class_codes:
 
 """-------------------------------------------------------------------------'''
 simply adds a new attribute to every course in every file in 
-json_catalog named "prerequisite" that regex's the prereqs from the description 
+json_catalog named "prerequisites" and "corequisites" that regex's the prereqs 
+and coreqs respectively from the description 
 '''-------------------------------------------------------------------------"""
 
 
@@ -135,30 +136,35 @@ for code in class_codes:
     with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
         try:
             classes = json.load(catalog_file)
-            for _class in classes:            
-                if _class["description"] is None:
-                    classes.remove(_class)
-                elif _class["description"].__contains__("Prerequisite") or _class["description"].__contains__("Prerequisites"):
-                    try:
-                        _class["prerequisites"] = _class["description"][_class["description"].index(':')+2:_class["description"].index('.')]
-                    except ValueError:
-                        _class["prerequisites"] = _class["description"][_class["description"].index("Prerequisite")+len("Prerequisite")+1:_class["description"].index('.')]
-                    coreq_substr = _class["description"][_class["description"].index('.')+2:]
-                    if coreq_substr.__contains__("Corequisite") or coreq_substr.__contains__("Corequisites"):
-                        coreq_substr = coreq_substr[coreq_substr.index("Corequisite"):]
+            for _class in classes:
+                #print(f"Settings prereqs and coreqs for {_class['subject']} {_class['catalog_number']}")
+                if _class["description"] is not None:
+                    if _class["description"].__contains__("Prerequisite") or _class["description"].__contains__("Prerequisites"):
+                        try:
+                            _class["prerequisites"] = _class["description"][_class["description"].index(':')+2:_class["description"].index('.')]
+                        except ValueError:
+                            _class["prerequisites"] = _class["description"][_class["description"].index("Prerequisite")+len("Prerequisite")+1:_class["description"].index('.')]
+                    else: 
+                        _class["prerequisites"] = "None"
+                    if _class["description"].__contains__("Corequisite") or _class["description"].__contains__("Corequisites"):
+                        coreq_substr = _class["description"][_class["description"].index("Corequisite"):]
                         try:
                             _class["corequisites"] = coreq_substr[coreq_substr.index(':')+2:coreq_substr.index('.')]
                         except ValueError:
-                            _class["corequisites"] = coreq_substr[coreq_substr.index("Corequisite")+len("Corequisite")+1:coreq_substr.index('.')]
+                            try:
+                                _class["corequisites"] = coreq_substr[coreq_substr.index("Corequisite")+len("Corequisite")+1:coreq_substr.index('.')]
+                            except ValueError:
+                                _class["corequisites"] = "ERROR"
                     else:
                         _class["corequisites"] = "None"
-                else: 
-                    _class["prerequisites"] = "None"
-                try:
-                    if _class["corequisites"] == f"{_class['subject']} {_class['catalog_number']}":
-                        _class["corequisites"] = _class["corequisites"].replace("L", "")
-                except KeyError:
-                    continue
+                    try:
+                        if _class["corequisites"] == f"{_class['subject']} {_class['catalog_number']}":
+                            _class["corequisites"] = _class["corequisites"].replace("L", "")
+                    except KeyError:
+                        continue
+                else:
+                    print(f"{_class['subject']} {_class['catalog_number']} removed")
+                    classes.remove(_class)
             catalog_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
             json.dump(classes, catalog_file, indent=4)
         except json.JSONDecodeError as jce:
