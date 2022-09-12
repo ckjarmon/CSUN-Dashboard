@@ -31,9 +31,7 @@
         "catalog_number": "102",
         "title": "Physical Geography Lab",
         "description": "Corequisite: GEOG 101. Observations, experiments and demonstrations designed to familiarize students with techniques utilized by physical geographers. 2 hours lab.\nNote: Students should enroll in GEOG 101A/AL instead of GEOG 101/102.",
-        "units": "1",
-        "prerequisites": "None",
-        "corequisites": "GEOG 101"
+        "units": "1"
     },
     {
         "subject": "GEOG",
@@ -88,6 +86,13 @@
         "units": "3",
         "prerequisites": "None",
         "corequisites": "None"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "111HON",
+        "title": "Climate Change",
+        "description": null,
+        "units": "3"
     },
     {
         "subject": "GEOG",
@@ -370,12 +375,17 @@
     },
     {
         "subject": "GEOG",
+        "catalog_number": "404BC",
+        "title": "Fld Std Foreign",
+        "description": null,
+        "units": "3"
+    },
+    {
+        "subject": "GEOG",
         "catalog_number": "406",
         "title": "Advanced Geographical Information Science",
         "description": "Prerequisite: GEOG 306 or permission of instructor. Corequisite: GEOG 406L. This course will cover advanced topics in geographical information science. Students will investigate geographic data structures, advanced concepts in database design, algorithms for spatial data analysis, web-based mapping applications, customized applications, and implementation and management issues associated with Geographic Information Systems (GIS). Lab will demonstrate these issues through the use of GIS software packages. Available for graduate credit. 2 hours lecture, 3 hours lab.",
-        "units": "1",
-        "prerequisites": "GEOG 306 or permission of instructor",
-        "corequisites": "GEOG 406L"
+        "units": "1"
     },
     {
         "subject": "GEOG",
@@ -634,9 +644,7 @@
         "catalog_number": "696",
         "title": "Directed Graduate Research",
         "description": "To be taken near the end of the student\u2019s graduate program and prior to GEOG 698. Supervised research leading to the development of a thesis topic, preparation of a preliminary bibliography and a formal thesis proposal, and selection of a faculty thesis committee.",
-        "units": "3",
-        "prerequisites": "None",
-        "corequisites": "None"
+        "units": "3"
     },
     {
         "subject": "GEOG",
