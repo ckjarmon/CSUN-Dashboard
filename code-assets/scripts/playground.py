@@ -132,6 +132,6 @@ def four():
 
 
 if __name__ == "__main__":
-    three()
+    two()
     
         
