@@ -129,7 +129,8 @@ def four():
                     f.write(str(jce))
                     f.write("\n")
 
-
+def test():
+    print("Hi david.")
 
 if __name__ == "__main__":
     two()
