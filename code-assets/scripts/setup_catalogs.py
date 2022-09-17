@@ -88,7 +88,10 @@ for code in class_codes:
         
            
 
-
+"""-------------------------------------------------------------------------'''
+If course in subject dictionary has no desc even after the webscrape, 
+delete the course
+'''-------------------------------------------------------------------------"""
 for code in class_codes:
     print(code)
     with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
