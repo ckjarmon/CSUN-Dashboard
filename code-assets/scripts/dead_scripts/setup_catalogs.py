@@ -1,7 +1,6 @@
 """-------------------------------------------------------------------------'''
 combine course listings from most recent fall and spring semester to produce catalogs 
 '''-------------------------------------------------------------------------"""
-
 import urllib3
 import json
 
@@ -38,7 +37,7 @@ for code in class_codes:
                     json_blobs.append(course)
 
 
-    catalog_file = open(f"../../code-assets/backend/json_catalog/{code}_catalog.json", "w")
+    catalog_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
     json.dump(json_blobs, catalog_file, indent=4)
 
 
@@ -63,7 +62,7 @@ driver = webdriver.Chrome(service=s, options=op)
 
 
 for code in class_codes:
-    with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
+    with open(f"../backend/json_catalog/{code}_catalog.json") as curr_sub:
         try:
             classes = json.load(curr_sub)
             for course in classes:
@@ -77,7 +76,7 @@ for code in class_codes:
                     course["description"] = driver.find_element("id", "inset-content").find_element(By.CLASS_NAME, "section-content").text
                 except NoSuchElementException as e:
                     continue
-            new_desc_file = open(f"../../code-assets/backend/json_catalog/{code}_catalog.json", "w")
+            new_desc_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
             json.dump(classes, new_desc_file, indent=4)
             new_desc_file.close() 
         except json.JSONDecodeError as jce:
@@ -88,10 +87,13 @@ for code in class_codes:
         
            
 
-
+"""-------------------------------------------------------------------------'''
+If course in subject dictionary has no desc even after the webscrape, 
+delete the course
+'''-------------------------------------------------------------------------"""
 for code in class_codes:
     print(code)
-    with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
+    with open(f"../backend/json_catalog/{code}_catalog.json") as curr_sub:
         try:
             subject_dict = json.load(curr_sub)
             for course in subject_dict:
@@ -114,12 +116,9 @@ for code in class_codes:
 """-------------------------------------------------------------------------'''
 sorts every course document blob by its catalog number
 '''-------------------------------------------------------------------------"""
-
-
-
 for code in class_codes:
     print(code)
-    with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
+    with open(f"../backend/json_catalog/{code}_catalog.json") as curr_sub:
         try:
             subject_dict = json.load(curr_sub)
             subject_dict.sort(key = lambda item: item.get("catalog_number"))
@@ -132,17 +131,16 @@ for code in class_codes:
                 f.write("\n")      
         
 
+
 """-------------------------------------------------------------------------'''
 simply adds a new attribute to every course in every file in 
 json_catalog named "prerequisites" and "corequisites" that regex's the prereqs 
 and coreqs respectively from the description 
 '''-------------------------------------------------------------------------"""
-
-
 for i in range(6):
     for code in class_codes:
         print(f"Settings prereqs and coreqs for {code}")
-        with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+        with open(f"../backend/json_catalog/{code}_catalog.json") as catalog_file:
             try:
                 classes = json.load(catalog_file)
                 for _class in classes:
@@ -192,7 +190,7 @@ begins with capital letter and the rest lowercase
 print("Setting titles...............")
 for code in class_codes:
     print(f"\t{code}")
-    with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
+    with open(f"../backend/json_catalog/{code}_catalog.json") as curr_sub:
         try:
             subject_dict = json.load(curr_sub)
             for course in subject_dict:
