@@ -207,7 +207,11 @@ def four():
                     f.write("\n")
 
 
-
+"""
+Replace all ', or " with " or "
+Replace all ", " with " and "
+Count "Class and Class" and "Class or Class" combos
+"""
 def five():
     class_codes = ["COMP"]
     for code in class_codes:
@@ -227,7 +231,9 @@ def five():
                     # not _class['prerequisites'].__contains__("Successful")):
                     
                     #print(f"{_class['subject']} {_class['catalog_number']} - Prereqs: {_class['prerequisites']}, Coreqs: {_class['corequisites']}")   
+                    #print(f"{_class['prerequisites'].replace(', or', ' or').replace(', ',' and ').replace('; or ' , ' || ')}")  
                     print(f"{_class['prerequisites']}")  
+                    
                     # [A-Z]+[ ][0-9]*[\/?][L?][ and]* [A-Z]+[ ][0-9]*[\/?]*[L?]*[;?]* 
                     # [A-Z]+[ ][0-9]+[\/L]?[[\/?]*[L?]*]?[A*B*C*]? Pattern for Subject Catalog_Number Combo
                     # print("-------------------------------------------------------")
