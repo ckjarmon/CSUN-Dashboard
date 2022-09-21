@@ -1,4 +1,5 @@
 import json
+from textwrap import indent
 
 
 
@@ -208,43 +209,52 @@ def four():
 
 
 """
-Replace all ', or " with " or "
-Replace all ", " with " and "
-Count "Class and Class" and "Class or Class" combos
+To get operator stack for current hierarchy
+    print symbol stack
+    if || or && operator and stack length is 1
+
 """
+def parse(prereq):
+    parse_stack = []
+    for char in prereq:
+        if char != '{' and char != '}':
+            if char == '|' or char == '&':
+                if parse_stack[len(parse_stack)-1] == char:
+                    parse_stack[len(parse_stack)-1] = char*2
+                else:
+                    parse_stack.append(char)
+        else:
+            parse_stack.append(char)
+    if len(parse_stack) == 2:
+        print(prereq[1:len(prereq)-1])
+    #print(*parse_stack, sep='\t')
+
+
+
+
 def five():
     class_codes = ["COMP"]
     for code in class_codes:
         with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
             classes = json.load(catalog_file)
             for _class in classes:
-                if (_class['prerequisites'] != "None"):
-                    # not _class['prerequisites'].__contains__("passing score") and
-                    # not _class['prerequisites'].__contains__("Instructor consent") and
-                    # not _class['prerequisites'].__contains__("Admission") and
-                    # not _class['prerequisites'].__contains__("Acceptance") and
-                    # not _class['prerequisites'].__contains__("standing") and
-                    # not _class['prerequisites'].__contains__("Admitted") and
-                    # not _class['prerequisites'].__contains__("admitted") and
-                    # not _class['prerequisites'].__contains__("courses") and
-                    # not _class['prerequisites'].__contains__("skills") and
-                    # not _class['prerequisites'].__contains__("Successful")):
-                    
-                    #print(f"{_class['subject']} {_class['catalog_number']} - Prereqs: {_class['prerequisites']}, Coreqs: {_class['corequisites']}")   
-                    #print(f"{_class['prerequisites'].replace(', or', ' or').replace(', ',' and ').replace('; or ' , ' || ')}")  
-                    print(f"{_class['prerequisites']}")  
-                    
-                    # [A-Z]+[ ][0-9]*[\/?][L?][ and]* [A-Z]+[ ][0-9]*[\/?]*[L?]*[;?]* 
-                    # [A-Z]+[ ][0-9]+[\/L]?[[\/?]*[L?]*]?[A*B*C*]? Pattern for Subject Catalog_Number Combo
-                    # print("-------------------------------------------------------")
-                    # print(f"{_class['subject']} {_class['catalog_number']}")
-                    # print(f"Prereqs: {_class['prerequisites']}")
-                    # 
-                    # subject_code_pairs = set(re.findall("[A-Z]+[ ][0-9]+[\/L]?[[\/?]*[L?]*]?[[\/?]*[P?]*]?[A*B*C*]?[[\/?]*[L?]*]?[[A-Z]*]?", _class['prerequisites']))
-                    # sentence_prereqs = [(x.lstrip(), set(re.findall("[A-Z]+[ ][0-9]+[\/L]?[[\/?]*[L?]*]?[[\/?]*[P?]*]?[A*B*C*]?[[\/?]*[L?]*]?[[A-Z]*]?", x))) for x in re.findall("[a-zA-Z0-9_\-\’\/\(\)\“\”\, ]*", _class['prerequisites']) if x != '']
-    
-        
+                if (_class['prerequisites'] != "{None}"):
+                    print(f"--------------\n{_class['prerequisites']}")  
+                    parse(_class['prerequisites'])
+                    print("\n--------------")
+       
+def six():
+    import os
+    print(os.getcwd())
+    with open(f"{os.getcwd()}/../statistical-data/time_stats.json") as time_json:
+        time_dict = json.load(time_json)
+        for code in class_codes:    
+            time_dict[code] = {key: val for key, val in sorted(time_dict[code].items(), key = lambda ele: ele[0])}
+        json.dump(time_dict, open(f"{os.getcwd()}/../statistical-data/time_stats.json", "w"), indent=4)
+
+
+
 if __name__ == "__main__":
-    five()
+    six()
     
         

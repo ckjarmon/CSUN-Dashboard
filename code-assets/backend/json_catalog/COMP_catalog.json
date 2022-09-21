@@ -14,7 +14,7 @@
         "title": "Computer Programming In Basic",
         "description": "Prerequisite: COMP 101 110/L or 106/L. Instruction and practice in a particular computer programming language as listed below. 3 hours of lab per week. ; COMP\t105BAS\t\tComputer Programming in BASIC (1) ; COMP\t105C\t\tComputer Programming in C (1) ; COMP\t105COB\tComputer Programming in COBOL (1) ; COMP\t105FOR\t\tComputer Programming in FORTRAN (1) ; COMP\t105JAV\t\tComputer Programming in JAVA (1)\n",
         "units": "1",
-        "prerequisites": "{COMP 101 || COMP 110/L || COMP 106/L}",
+        "prerequisites": "{{COMP 101} || {COMP 110/L} || {COMP 106/L}}",
         "corequisites": "{None}"
     },
     {
@@ -23,7 +23,7 @@
         "title": "Orientation To Computer Science",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics || credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Not a required course in the major. Recommended for incoming Computer Science majors with limited computing experience as well as those considering a major in Computer Science. Introduction to the Computer Science major and profession. Main focus on developing problem solving, algorithm development and programming skills, and acquiring critical thinking abilities, especially when applied to computer science. Additional emphasis on orientation to the university, campus resources, study skills, motivation and career awareness.",
         "units": "3",
-        "prerequisites": "{{Multiple Measures Placement in GE-level Mathematics} || {MATH 093 || MATH 196QR || MATH 196S || equivalent}}",
+        "prerequisites": "{{Multiple Measures Placement in GE-level Mathematics} || {{MATH 093} || {MATH 196QR} || {MATH 196S}}}",
         "corequisites": "{None}"
     },
     {
@@ -32,8 +32,8 @@
         "title": "Introduction To Algorithms And Programming",
         "description": "Prerequisite: MATH 102 or MATH 103 or MATH 104 or MATH 105 or MATH 150A or MATH 255A || a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: COMP 110L. Introduction to algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. Lab: 3 hours per week. (Available for General Education, E Lifelong Learning if required by student\u2019s major.)",
         "units": "2",
-        "prerequisites": "{{MATH 102 || MATH 103 || MATH 104 || MATH 105 || MATH 150A || MATH 255A} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A}}",
-        "corequisites": "COMP 110L"
+        "prerequisites": "{{{MATH 102} || {MATH 103} || {MATH 104} || {MATH 105} || {MATH 150A} || {MATH 255A}} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A}}",
+        "corequisites": "{COMP 110L}"
     },
     {
         "subject": "COMP",
@@ -41,8 +41,8 @@
         "title": "Introduction To Algorithms And Programming Lab",
         "description": "Prerequisite: MATH 102 or MATH 103 or MATH 104 or MATH 105 or MATH 150A or MATH 255A || a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: COMP 110L. Introduction to algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. Lab: 3 hours per week. (Available for General Education, E Lifelong Learning if required by student\u2019s major.)",
         "units": "1",
-        "prerequisites": "{{MATH 102 || MATH 103 || MATH 104 || MATH 105 || MATH 150A || MATH 255A} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A}}",
-        "corequisites": "COMP 110"
+        "prerequisites": "{{{MATH 102} || {MATH 103} || {MATH 104} || {MATH 105} || {MATH 150A} || {MATH 255A}} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A}}",
+        "corequisites": "{COMP 110}"
     },
     {
         "subject": "COMP",
@@ -50,8 +50,8 @@
         "title": "Algrth Prog A",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics || credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Corequisite: COMP 111AL. Recommended for incoming Computer Science majors with minimal prior experience programming in a high level language. Introduction to the Computer Science major and profession with a focus on developing problem solving, algorithm development and programming skills, and acquiring critical thinking abilities, especially when applied to computer science. The first of a two-course sequence for those not ready to enroll in COMP 110/L. Completion of COMP 111A/L and COMP 111B/L will provide credit equivalent to COMP 110/L. Not available for course credit if grade of \u201cC\u201d or better has been received for COMP 108 or COMP 110/L. Lab: 3 hours per week.",
         "units": "2",
-        "prerequisites": "{{Multiple Measures Placement in GE-level Mathematics} || {MATH 093 || MATH 196QR || MATH 196S || equivalent}}",
-        "corequisites": "COMP 111AL"
+        "prerequisites": "{{Multiple Measures Placement in GE-level Mathematics} || {{MATH 093} || {MATH 196QR} || {MATH 196S}}}",
+        "corequisites": "{COMP 111AL}"
     },
     {
         "subject": "COMP",
@@ -59,8 +59,8 @@
         "title": "Algrth/prog A Lab",
         "description": "Prerequisite: Multiple Measures Placement in GE-level Mathematics || credit in MATH 093 or MATH 196QR or MATH 196S or equivalent. Corequisite: COMP 111AL. Recommended for incoming Computer Science majors with minimal prior experience programming in a high level language. Introduction to the Computer Science major and profession with a focus on developing problem solving, algorithm development and programming skills, and acquiring critical thinking abilities, especially when applied to computer science. The first of a two-course sequence for those not ready to enroll in COMP 110/L. Completion of COMP 111A/L and COMP 111B/L will provide credit equivalent to COMP 110/L. Not available for course credit if grade of \u201cC\u201d or better has been received for COMP 108 or COMP 110/L. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "{{Multiple Measures Placement in GE-level Mathematics} || {MATH 093 || MATH 196QR || MATH 196S || equivalent}}",
-        "corequisites": "COMP 111A"
+        "prerequisites": "{{Multiple Measures Placement in GE-level Mathematics} || {{MATH 093} || {MATH 196QR} || {MATH 196S}}}",
+        "corequisites": "{COMP 111A}"
     },
     {
         "subject": "COMP",
@@ -68,8 +68,8 @@
         "title": "Algrth Prog B",
         "description": "Prerequisites: COMP 111A/L; MATH 102 or MATH 103 or MATH 104 or MATH 105 or MATH 150A or MATH 255A || a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: COMP 111BL. Introduction to algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. The second of a two-course sequence for those not ready to enroll in COMP 110/L. Completion of COMP 111A/L and COMP 111B/L will provide credit equivalent to COMP 110/L. Not available for course credit if grade of \u201cC\u201d or better has been received for COMP 108 or COMP 110/L. Lab: 3 hours per week.",
         "units": "2",
-        "prerequisites": "{{COMP 111A/L} && {{MATH 102 || MATH 103 || MATH 104 || MATH 105 || MATH 150A || MATH 255A} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A}}}",
-        "corequisites": "COMP 111BL"
+        "prerequisites": "{{COMP 111A/L} && {{{MATH 102} || {MATH 103} || {MATH 104} || {MATH 105} || {MATH 150A} || {MATH 255A}} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A}}}",
+        "corequisites": "{COMP 111BL}"
     },
     {
         "subject": "COMP",
@@ -77,8 +77,8 @@
         "title": "Algrth Prog B Lab",
         "description": "Prerequisites: COMP 111A/L; MATH 102 or MATH 103 or MATH 104 or MATH 105 or MATH 150A or MATH 255A || a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A. Corequisite: COMP 111BL. Introduction to algorithms, their representation, design, structuring, analysis and optimization. Implementation of algorithms as structured programs in a high level language. The second of a two-course sequence for those not ready to enroll in COMP 110/L. Completion of COMP 111A/L and COMP 111B/L will provide credit equivalent to COMP 110/L. Not available for course credit if grade of \u201cC\u201d or better has been received for COMP 108 or COMP 110/L. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "{{COMP 111A/L} && {{MATH 102 || MATH 103 || MATH 104 || MATH 105 || MATH 150A || MATH 255A} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A}}}", 
-        "corequisites": "COMP 111B"
+        "prerequisites": "{{COMP 111A/L} && {{{MATH 102} || {MATH 103} || {MATH 104} || {MATH 105} || {MATH 150A} || {MATH 255A}} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or MATH 255A}}}", 
+        "corequisites": "{COMP 111B}"
     },
     {
         "subject": "COMP",
@@ -86,7 +86,7 @@
         "title": "Computer Architecture And Assembly Language",
         "description": "Prerequisites: COMP 110/L; MATH 103 or MATH 104 or MATH 105 or MATH 150A or MATH 255A || a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement. Corequisite: COMP 122L. Introduction to computer architecture, assembly language programming, system software and computer applications. Number systems and data representation. Internal organization of a computer. Primitive instructions and operations. Assembly language. Integrated lecture/lab environment. Lab: 3 hours per week.",
         "units": "2",
-        "prerequisites": "{{COMP 110/L} && {{MATH 103 || MATH 104 || MATH 105 || MATH 150A || MATH 255A} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A}} && {Lower division writing requirement}}",
+        "prerequisites": "{{COMP 110/L} && {{{MATH 103} || {MATH 104} || {MATH 105} || {MATH 150A} || {MATH 255A}} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A}} && {Lower division writing requirement}}",
         "corequisites": "COMP 122L"
     },
     {
@@ -95,7 +95,7 @@
         "title": "Computer Architecture And Assembly Language Lab",
         "description": "Prerequisites: COMP 110/L; MATH 103 or MATH 104 or MATH 105 or MATH 150A or MATH 255A || a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A; Lower division writing requirement. Corequisite: COMP 122L. Introduction to computer architecture, assembly language programming, system software and computer applications. Number systems and data representation. Internal organization of a computer. Primitive instructions and operations. Assembly language. Integrated lecture/lab environment. Lab: 3 hours per week.",
         "units": "1",
-        "prerequisites": "{{COMP 110/L} && {{MATH 103 || MATH 104 || MATH 105 || MATH 150A || MATH 255A} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A}} && {Lower division writing requirement}}",
+        "prerequisites": "{{COMP 110/L} && {{{MATH 103} || {MATH 104} || {MATH 105} || {MATH 150A} || {MATH 255A}} || {a passing score on the Mathematics Placement Test (MPT) that satisfies prerequisites for MATH 150A or 255A}} && {Lower division writing requirement}}",
         "corequisites": "COMP 122"
     },
     {
