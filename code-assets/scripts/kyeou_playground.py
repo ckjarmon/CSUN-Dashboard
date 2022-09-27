@@ -215,19 +215,23 @@ To get operator stack for current hierarchy
 
 """
 def parse(prereq):
+    prereq = prereq.replace(' && ', '&').replace(' || ', '|')
     parse_stack = []
-    for char in prereq:
-        if char != '{' and char != '}':
-            if char == '|' or char == '&':
-                if parse_stack[len(parse_stack)-1] == char:
-                    parse_stack[len(parse_stack)-1] = char*2
-                else:
-                    parse_stack.append(char)
-        else:
+    parsed_prereq = ""
+    if not prereq.__contains__('|') and not prereq.__contains__('&') and prereq != "{}" and prereq != "":
+        parsed_prereq += " " + prereq.lstrip('{').rstrip('}')
+    else:
+        for char in prereq:
+            
             parse_stack.append(char)
-    if len(parse_stack) == 2:
-        print(prereq[1:len(prereq)-1])
-    #print(*parse_stack, sep='\t')
+            
+            if parse_stack.count('{') - 1 == parse_stack.count('}'):
+                print(f"New parse stack call {''.join(parse_stack[1:])}")
+                parsed_prereq += str(parse(''.join(parse_stack[1:])))
+                parse_stack = ['{']
+            
+    return parsed_prereq
+    
 
 
 
@@ -240,7 +244,7 @@ def five():
             for _class in classes:
                 if (_class['prerequisites'] != "{None}"):
                     print(f"--------------\n{_class['prerequisites']}")  
-                    parse(_class['prerequisites'])
+                    print(parse(_class['prerequisites']).lstrip())
                     print("\n--------------")
        
 def six():
@@ -255,6 +259,6 @@ def six():
 
 
 if __name__ == "__main__":
-    six()
+    five()
     
         
