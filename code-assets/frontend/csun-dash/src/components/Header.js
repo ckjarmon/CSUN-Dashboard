@@ -1,4 +1,5 @@
 import Button from '@mui/material/Button';
+import { textAlign } from '@mui/system';
 import {Link} from 'react-scroll'
 
 function Header(props){
@@ -8,6 +9,8 @@ function Header(props){
                 <ul style={list}>
                     <li style={link}><Link to="classes" spy={true} smooth={true}>Start Planning</Link></li>
                     <li style={link}>Professor Ratings</li>
+                    <li style={link}>Class search</li>
+                    <li style={toprightContainer}>Sign in</li>
                 </ul>
             </div>
 
@@ -51,6 +54,15 @@ const link = {
     padding: '20px 20px',
     fontWeight: '700',
     fontSize: 'large',
+    cursor: 'pointer'
+}
+
+const toprightContainer =  {
+    float: 'right',
+    display: 'inline',
+    color: 'red',
+    marginTop: 0,
+    width: 100,
     cursor: 'pointer'
 }
 
