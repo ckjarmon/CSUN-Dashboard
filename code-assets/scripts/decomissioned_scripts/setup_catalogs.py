@@ -133,9 +133,9 @@ for code in class_codes:
 
 
 """-------------------------------------------------------------------------'''
-simply adds a new attribute to every course in every file in 
-json_catalog named "prerequisites" and "corequisites" that regex's the prereqs 
-and coreqs respectively from the description 
+simply adds a new attribute to every course in every file in json_catalog 
+named "prerequisites" and "corequisites" that regex's the prereqs and coreqs 
+respectively from the description 
 '''-------------------------------------------------------------------------"""
 for i in range(6):
     for code in class_codes:
