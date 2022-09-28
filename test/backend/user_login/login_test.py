@@ -1,9 +1,9 @@
 from unittest import TestCase
-import sys
 import importlib
-sys.path.append("/../../code-assets/backend/user_login/")
+import sys
+sys.path.append(".\\code-assets\\backend\\user_login")
 #code_assets = importlib.import_module("code-assets")
-#from code_assets.backend.user_login import sum_it
+from login import sum_it
 
 print(sys.path)
 
