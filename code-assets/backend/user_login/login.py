@@ -9,15 +9,15 @@ app = Flask(__name__)
 def login():
     return render_template("index.html")
 
-print("Passing the numbers: 1,2,3")
-answer = sum([1,2,3])
-print("What is the result of 1+2+3?: %d" %answer)
-
-def sum(*args):
+def sum_it(*args):
     finalResult = 0
-    for number in args:
+    for number in args[0]:  # note this only works when 1 argument is passed, i need to modifiy this later
         finalResult += number
     return finalResult
+
+print("Passing the numbers: 1,2,3")
+answer = sum_it([1,2,3])
+print("What is the result of 1+2+3?: %d" %answer)
 
 if __name__ == '__main__':
     app.run(debug=True)
