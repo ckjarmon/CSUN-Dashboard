@@ -25,10 +25,10 @@
   },
   "scripts": {
     "postinstall": "cd code-assets/frontend/csun-dash/ && npm install",
-    "start": "cd code-assets/frontend/csun-dash/ react-scripts start",
-    "build": "cd code-assets/frontend/csun-dash/ react-scripts build",
-    "test": "cd code-assets/frontend/csun-dash/ react-scripts test",
-    "eject": "cd code-assets/frontend/csun-dash/ react-scripts eject"
+    "start": "cd code-assets/frontend/csun-dash/ && react-scripts start && npm start",
+    "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
+    "test": "cd code-assets/frontend/csun-dash/ && react-scripts test",
+    "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": "16.17.1" ,
+    "npm": "8.15.0" 
   }
 }
