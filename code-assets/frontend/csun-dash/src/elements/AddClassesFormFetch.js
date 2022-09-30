@@ -1,6 +1,7 @@
 import AddClassesForm from './AddClassesForm'
 import {class_codes} from '../classCodes'
 import {useState} from 'react'
+import React, { Component }  from 'react';
 
 function AddClassesFormFetch(){
 
