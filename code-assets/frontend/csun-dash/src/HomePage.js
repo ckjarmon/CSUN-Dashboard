@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Classes from './components/Classes'
+import React, { Component }  from 'react';
 import {useRef} from 'react'
 
 function HomePage(){
