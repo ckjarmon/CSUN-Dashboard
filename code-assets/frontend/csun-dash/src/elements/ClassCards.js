@@ -11,6 +11,7 @@ import {BsInfoLg} from "react-icons/bs"
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+import React, { Component }  from 'react';
 
 
 function ClassCards(props){

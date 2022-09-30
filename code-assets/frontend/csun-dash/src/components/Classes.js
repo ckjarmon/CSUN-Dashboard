@@ -1,5 +1,7 @@
 import AddClassesFormFetch from '../elements/AddClassesFormFetch'
 import AddClassesForm from '../elements/AddClassesForm';
+import React, { Component }  from 'react';
+
 function Classes(){
     return(
         <div id="classes" style={{height:"100vh", backgroundColor:"#1C1C1C", borderTop: "1px solid white", paddingTop:"25px"}}>
