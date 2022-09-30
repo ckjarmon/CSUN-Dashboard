@@ -1,2 +1,4 @@
 heroku ps:scale web=1
-web: gunicorn wsgi --chdir ./code-assets/backend/
+# try running the front end
+web: npm start --chdir ./code-assets/frontend/csun-dash/
+#web: gunicorn wsgi --chdir ./code-assets/backend/
