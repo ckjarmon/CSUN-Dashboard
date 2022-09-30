@@ -24,11 +24,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "cd frontend/csun-dash/ && npm install",
-    "start": "cd frontend/csun-dash/ && react-scripts start",
-    "build": "cd frontend/csun-dash/ && react-scripts build",
-    "test": "cd frontend/csun-dash/ && react-scripts test",
-    "eject": "cd frontend/csun-dash/ && react-scripts eject"
+    "postinstall": "cd code-assets/frontend/csun-dash/ && npm install",
+    "start": "cd code-assets/frontend/csun-dash/ react-scripts start",
+    "build": "cd code-assets/frontend/csun-dash/ react-scripts build",
+    "test": "cd code-assets/frontend/csun-dash/ react-scripts test",
+    "eject": "cd code-assets/frontend/csun-dash/ react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
