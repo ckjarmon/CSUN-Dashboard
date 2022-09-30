@@ -5,6 +5,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+# login should be shown on every page
 @app.route('/')
 def login():
     return render_template("index.html")
