@@ -409,16 +409,16 @@ major_links = [
 ,"https://catalog.csun.edu/academics/urbs/programs/ba-urban-studies-and-planning/"
 ]
 major_names = [
-  "B.A., Africana Studies; African and African-American Humanities and Cultural Studies",
-"B.A., Africana Studies; African and African-American Social Sciences",
-"B.A., Africana Studies; African-American Urban Education",
-"B.A., Anthropology",
-"B.A., Art",
-"B.A., Asian American Studies; Double Major",
-"B.A., Asian American Studies; Standard Major",
-"B.A., Biology",
-"B.A., Central American Studies; Double Major",
-"B.A., Central American Studies; Standard Major",
+#   "B.A., Africana Studies; African and African-American Humanities and Cultural Studies",
+# "B.A., Africana Studies; African and African-American Social Sciences",
+# "B.A., Africana Studies; African-American Urban Education",
+# "B.A., Anthropology",
+# "B.A., Art",
+# "B.A., Asian American Studies; Double Major",
+# "B.A., Asian American Studies; Standard Major",
+# "B.A., Biology",
+# "B.A., Central American Studies; Double Major",
+# "B.A., Central American Studies; Standard Major",
 "B.A., Chemistry",
 "B.A., Chicano and Chicana Studies; Chicana---o Studies Social Science Subject Matter Waiver Program",
 "B.A., Chicano and Chicana Studies; Double Major",
@@ -517,7 +517,7 @@ major_names = [
 "B.S., Civil Engineering",
 "B.S., Computer Engineering",
 "B.S., Computer Information Technology",
-"B.S., Computer Science",
+#"B.S., Computer Science",
 "B.S., Construction Management",
 "B.S., Electrical Engineering",
 "B.S., Engineering Management Technology",
@@ -564,10 +564,28 @@ def seven():
         with open(f"../../code-assets/backend/json_majors/{name}.json") as major_file:
                 major = json.load(major_file)
                 #major["course-sets"] = major["prog-reqq-blob"]
+                major["course-sets"] = {}
+                major["course-sets"]["required"] = major["prog-reqq-blob"]
                 major = OrderedDict(sorted(major.items()))
                 json.dump(major, open(f"../../code-assets/backend/json_majors/{name}.json", "w"), indent=4) 
 
+
+def eight():
+    for name in major_names:
+        print(name)
+        with open(f"../../code-assets/backend/json_majors/{name}.json") as major_file:
+                major = json.load(major_file)
+                #major["course-sets"] = major["prog-reqq-blob"]
+                #major["course-sets"] = {}
+                #major["course-sets"]["required"] = major["prog-reqq-blob"]
+                try:
+                    major["prog-reqq-blob"].remove("&")
+                except ValueError:
+                    continue
+                major = OrderedDict(sorted(major.items()))
+                json.dump(major, open(f"../../code-assets/backend/json_majors/{name}.json", "w"), indent=4) 
+    
 if __name__ == "__main__":
-    seven()
+    eight()
     
         

@@ -1,38 +1,43 @@
 {
-    "course-sets": [
-        "Program Requirements",
-        "1. Lower Division Required Courses (9 units)",
-        "Select one of the following:",
-        "CAS 100 Introduction to Central American Studies (3)",
-        "CAS 102 The Salvadoran Experience (3)",
-        "Select one of the following:",
-        "CAS 201 Survey of Central American Literature (3)",
-        "CAS 202 Survey of Central American Visual, Installation and Performance Arts (3)",
-        "Required Course:",
-        "CAS 270/F Fieldwork in Central American Communities (1/2)",
-        "2. Upper Division Requirements (21 units)",
-        "Select seven of the following courses:",
-        "CAS 303 Central American Film (3)",
-        "CAS 309 Ancient to Pre-Modern History of the Central American People (3)",
-        "CAS 310 Modern History of Central American People (3)",
-        "CAS 311 The Central American Diaspora (3)",
-        "CAS 350 Urbanization in Central America (3)",
-        "CAS 355 Environment, Development and Social Exclusion in Central America (3)",
-        "CAS 356 Afro-Caribbean Central American Cultures and Identities (3)",
-        "CAS 364 Culture and Violence in Central America (3)",
-        "CAS 365 Changing Roles of Central American Women (3)",
-        "CAS 366 Contemporary Indigenous Peoples of Central America (3)",
-        "CAS 367 Contemporary Religious Movements in Central America (3)",
-        "CAS 368 Central American Revolutionary Movements (3)",
-        "CAS 369 Contemporary Social Movements in Central America (3)",
-        "CAS 410 The Central American Child (3)",
-        "3. Central American Studies Seminar (3 units)",
-        "Select one of the following:",
-        "CAS 421 Central American Literature Seminar (3)",
-        "CAS 440 Research Seminar on Central American Culture (3)",
-        "CAS 460 Research Seminar on Central American Political Issues (3)",
-        "Total Units in the Double Major Option: 33"
-    ],
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "CAS 100",
+                "CAS 102"
+            ],
+            [
+                "|1",
+                "CAS 201",
+                "CAS 202"
+            ],
+            "CAS 270/F Fieldwork in Central American Communities (1/2)",
+            [
+                "|7",
+                "CAS 303",
+                "CAS 309",
+                "CAS 310",
+                "CAS 311",
+                "CAS 350",
+                "CAS 355",
+                "CAS 356",
+                "CAS 364",
+                "CAS 365",
+                "CAS 366",
+                "CAS 367",
+                "CAS 368",
+                "CAS 369",
+                "CAS 410"
+            ],
+            [
+                "|1",
+                "CAS 421",
+                "CAS 440",
+                "CAS 460"
+            ]
+        ]
+    },
     "link-to-major": "https://catalog.csun.edu/academics/cas/programs/ba-central-american-studies-ii/double-major/",
     "name": "B.A., Central American Studies: Double Major",
     "prog-reqq-blob": [
