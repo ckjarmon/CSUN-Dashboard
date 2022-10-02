@@ -1,4 +1,85 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ANTH 151",
+            "ANTH 152",
+            "ANTH 153",
+            "ANTH 303",
+            [
+                "|1",
+                "ANTH 306",
+                "ANTH 307",
+                "ANTH 338",
+                "ANTH 345",
+                "ANTH 351",
+                "ANTH 352",
+                "ANTH 353",
+                "ANTH 356"
+            ],
+            [
+                "|1",
+                "ANTH 473",
+                "ANTH 474",
+                "ANTH 475",
+                "ANTH 519",
+                "ANTH 574",
+                "ANTH 575"
+            ],
+            [
+                "|1",
+                "ANTH 490A-E",
+                "ANTH 516",
+                "ANTH 521",
+                "ANTH 560"
+            ],
+            [
+                "&",
+                [
+                    "|1",
+                    "ANTH 310 ",
+                    "ANTH 326",
+                    "ANTH 404",
+                    "ANTH 405",
+                    "ANTH 424",
+                    "ANTH 430",
+                    "ANTH 450",
+                    "ANTH 451",
+                    "ANTH 462"
+                ],
+                [
+                    "|1",
+                    "ANTH 311",
+                    "ANTH 341",
+                    "ANTH 421",
+                    "ANTH 423",
+                    "ANTH 440",
+                    "ANTH 445/L",
+                    "ANTH 453"
+                ],
+                [
+                    "|1",
+                    "ANTH 426",
+                    "ANTH 427",
+                    "ANTH 428",
+                    "ANTH 429",
+                    "ANTH 449",
+                    "ANTH 460"
+                ],
+                [
+                    "|1",
+                    "ANTH 302",
+                    "ANTH 346",
+                    "ANTH 425",
+                    "ANTH 432",
+                    "ANTH 465",
+                    "ANTH 468",
+                    "ANTH 486"
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/anth/programs/ba-anthropology/",
     "name": "B.A., Anthropology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -82,86 +163,5 @@
         "General Education Units: 39",
         "Additional Units: 36",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "course-sets": {
-        "required": [
-            "&",
-            "ANTH 151",
-            "ANTH 152",
-            "ANTH 153",
-            "ANTH 303",
-            [
-                "|1",
-                "ANTH 306",
-                "ANTH 307",
-                "ANTH 338",
-                "ANTH 345",
-                "ANTH 351",
-                "ANTH 352",
-                "ANTH 353",
-                "ANTH 356"
-            ],
-            [
-                "|1",
-                "ANTH 473",
-                "ANTH 474",
-                "ANTH 475",
-                "ANTH 519",
-                "ANTH 574",
-                "ANTH 575"
-            ],
-            [
-                "|1",
-                "ANTH 490A-E",
-                "ANTH 516",
-                "ANTH 521",
-                "ANTH 560"
-            ],
-            [
-                "&",
-                [
-                    "|1",
-                    "ANTH 310 ",
-                    "ANTH 326",
-                    "ANTH 404",
-                    "ANTH 405",
-                    "ANTH 424",
-                    "ANTH 430",
-                    "ANTH 450",
-                    "ANTH 451",
-                    "ANTH 462"
-                ],
-                [
-                    "|1",
-                    "ANTH 311",
-                    "ANTH 341",
-                    "ANTH 421",
-                    "ANTH 423",
-                    "ANTH 440",
-                    "ANTH 445/L",
-                    "ANTH 453"
-                ],
-                [
-                    "|1",
-                    "ANTH 426",
-                    "ANTH 427",
-                    "ANTH 428",
-                    "ANTH 429",
-                    "ANTH 449",
-                    "ANTH 460"
-                ],
-                [
-                    "|1",
-                    "ANTH 302",
-                    "ANTH 346",
-                    "ANTH 425",
-                    "ANTH 432",
-                    "ANTH 465",
-                    "ANTH 468",
-                    "ANTH 486"
-                ]
-            ]
-        ]
-    },
-    "link-to-major": "https://catalog.csun.edu/academics/anth/programs/ba-anthropology/"
+    ]
 }

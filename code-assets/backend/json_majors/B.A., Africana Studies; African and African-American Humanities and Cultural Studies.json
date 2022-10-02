@@ -1,4 +1,65 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "AFRS 100",
+            "AFRS 168",
+            "AFRS 201",
+            [
+                "|1",
+                "AFRS 220",
+                "AFRS 221"
+            ],
+            [
+                "|1",
+                "AFRS 245",
+                "AFRS 252"
+            ],
+            "AFRS 271",
+            "AFRS 272",
+            "AFRS 226",
+            [
+                "|1",
+                "AFRS 332",
+                "AFRS 346"
+            ],
+            [
+                "|1",
+                "AFRS 344",
+                "AFRS 451"
+            ],
+            "AFRS 350",
+            [
+                "|1",
+                "AFRS 366",
+                "AFRS 382"
+            ],
+            "AFRS 498",
+            [
+                [
+                    "|2",
+                    "AFRS 244",
+                    "AFRS 246",
+                    "AFRS 280",
+                    "AFRS 331/L",
+                    "AFRS 333",
+                    "AFRS 337",
+                    "AFRS 345",
+                    "AFRS 447"
+                ],
+                [
+                    "|2",
+                    "AFRS 171",
+                    "AFRS 274",
+                    "AFRS 282",
+                    "AFRS 355",
+                    "AFRS 368",
+                    "AFRS 376"
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/afrs/programs/ba-africana-studies-ii/african-and-african-american-humanities-and-cultural-studies/",
     "name": "B.A., Africana Studies: African and African-American Humanities and Cultural Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -52,45 +113,5 @@
         "General Education Units: 33",
         "Additional Units: 42",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "course-sets": {
-        "required": [
-            "&",
-            "AFRS 100",
-            "AFRS 168",
-            "AFRS 201",
-            ["|1", "AFRS 220", "AFRS 221"],
-            ["|1", "AFRS 245", "AFRS 252"],
-            "AFRS 271",
-            "AFRS 272",
-            "AFRS 226",
-            ["|1", "AFRS 332", "AFRS 346"],
-            ["|1", "AFRS 344", "AFRS 451"],
-            "AFRS 350",
-            ["|1", "AFRS 366", "AFRS 382"],
-            "AFRS 498",
-            [
-                ["|2",
-                    "AFRS 244",
-                    "AFRS 246",
-                    "AFRS 280",
-                    "AFRS 331/L",
-                    "AFRS 333",
-                    "AFRS 337",
-                    "AFRS 345",
-                    "AFRS 447"
-                ],
-                ["|2",
-                    "AFRS 171",
-                    "AFRS 274",
-                    "AFRS 282",
-                    "AFRS 355",
-                    "AFRS 368",
-                    "AFRS 376"
-                ]
-            ]
-
-        ]
-    },
-    "link-to-major": "https://catalog.csun.edu/academics/afrs/programs/ba-africana-studies-ii/african-and-african-american-humanities-and-cultural-studies/"
+    ]
 }
