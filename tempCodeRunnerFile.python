@@ -1,0 +1,6 @@
+from re import L
+
+
+l1 = [1, 2, [1, 2]]
+
+print(l1[2] == l1[0:2] )

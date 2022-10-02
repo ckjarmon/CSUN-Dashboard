@@ -342,9 +342,11 @@ for major in major_links:
           
     major_dict = {}
     major_dict["name"] = name_of_program
-    major_dict["prog-reqq-blob"] = driver.find_element(By.XPATH,"//*[text()='Program Requirements']").find_element(By.XPATH,"..").find_element(By.XPATH,"..").find_element(By.XPATH,"..").text
+    major_dict["prog-reqq-blob"] = driver.find_element(By.XPATH,"//*[text()='Program Requirements']").find_element(By.XPATH,"..").find_element(By.XPATH,"..").find_element(By.XPATH,"..").text.replace('\u201c', '').replace('\u201d', '').replace('\u2019','\'').split('\n')
+    major_dict["course-sets"] = [x for x in driver.find_element(By.XPATH,"//*[text()='Program Requirements']").find_element(By.XPATH,"..").find_element(By.XPATH,"..").find_element(By.XPATH,"..").text.replace('\u201c', '').replace('\u201d', '').replace('\u2019','\'').split('\n')]
+    major_dict["link-to-major"] = major
     
-    major_file = open(f"../../code-assets/backend/json_majors/{name_of_program.replace('/', ' - ').replace(':', ',')}.json", "w")
+    major_file = open(f"../../../code-assets/backend/json_majors/{name_of_program.replace('/', '---').replace(':', ';')}.json", "w")
     #print(major_dict)
 
     json.dump(major_dict, major_file, indent=4)

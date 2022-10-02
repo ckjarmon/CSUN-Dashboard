@@ -189,7 +189,7 @@ Example:
 def catalog(**kwargs):
     with open(f"../backend/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
         classes = json.load(subject)
-        return ([x["catalog_number"] + " - " + x["title"] for x in classes])
+        return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
 
 """
 given {string:prof_email} return the name of the prof
