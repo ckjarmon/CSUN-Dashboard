@@ -409,16 +409,16 @@ major_links = [
 ,"https://catalog.csun.edu/academics/urbs/programs/ba-urban-studies-and-planning/"
 ]
 major_names = [
-#   "B.A., Africana Studies; African and African-American Humanities and Cultural Studies",
-# "B.A., Africana Studies; African and African-American Social Sciences",
-# "B.A., Africana Studies; African-American Urban Education",
-# "B.A., Anthropology",
-# "B.A., Art",
-# "B.A., Asian American Studies; Double Major",
-# "B.A., Asian American Studies; Standard Major",
-# "B.A., Biology",
-# "B.A., Central American Studies; Double Major",
-# "B.A., Central American Studies; Standard Major",
+   "B.A., Africana Studies; African and African-American Humanities and Cultural Studies",
+ "B.A., Africana Studies; African and African-American Social Sciences",
+ "B.A., Africana Studies; African-American Urban Education",
+ "B.A., Anthropology",
+ "B.A., Art",
+ "B.A., Asian American Studies; Double Major",
+ "B.A., Asian American Studies; Standard Major",
+ "B.A., Biology",
+ "B.A., Central American Studies; Double Major",
+ "B.A., Central American Studies; Standard Major",
 "B.A., Chemistry",
 "B.A., Chicano and Chicana Studies; Chicana---o Studies Social Science Subject Matter Waiver Program",
 "B.A., Chicano and Chicana Studies; Double Major",
@@ -557,6 +557,7 @@ major_names = [
 "B.S., Radiologic Sciences",
 "B.S., Tourism, Hospitality, and Recreation Management",
 ]
+
 from collections import OrderedDict
 def seven():
     for name in major_names:
@@ -569,23 +570,146 @@ def seven():
                 major = OrderedDict(sorted(major.items()))
                 json.dump(major, open(f"../../code-assets/backend/json_majors/{name}.json", "w"), indent=4) 
 
-
+import re
 def eight():
     for name in major_names:
-        print(name)
+        print(f"\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ => {name}")
         with open(f"../../code-assets/backend/json_majors/{name}.json") as major_file:
-                major = json.load(major_file)
+                major_file = json.load(major_file)
                 #major["course-sets"] = major["prog-reqq-blob"]
                 #major["course-sets"] = {}
                 #major["course-sets"]["required"] = major["prog-reqq-blob"]
-                try:
-                    major["prog-reqq-blob"].remove("&")
-                except ValueError:
-                    continue
-                major = OrderedDict(sorted(major.items()))
-                json.dump(major, open(f"../../code-assets/backend/json_majors/{name}.json", "w"), indent=4) 
-    
+                
+                for i in range(len(major_file['course-sets']['required'])):    
+                    if type(major_file['course-sets']['required'][i]) == str:
+                        try:
+                            print(str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,}", major_file['course-sets']['required'][i]).group()) + " ==> From: " + major_file['course-sets']['required'][i])
+                            if major_file['course-sets']['required'][i].__contains__(str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,}", major_file['course-sets']['required'][i]).group()) + "L"):
+                                major_file['course-sets']['required'][i] = str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,} ", major_file['course-sets']['required'][i]).group()) + "/L"
+                            else:
+                                major_file['course-sets']['required'][i] = str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,} ", major_file['course-sets']['required'][i]).group()) 
+                          
+                        except AttributeError:
+                            #print("|||___________||| => string")
+                            continue
+                            
+                    elif type(major_file['course-sets']['required'][i]) == list:
+                        #print(f"||||||: Not string => {type(major_file['course-sets']['required'][i])}")
+                        for j in range(len(major_file['course-sets']['required'][i][1:])):
+                            try:
+                                print(str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,}", major_file['course-sets']['required'][i][1:][j]).group()) + " ==> From: " + major_file['course-sets']['required'][i][1:][j])
+                                if major_file['course-sets']['required'][i][1:][j].__contains__(str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,}", major_file['course-sets']['required'][i][1:][j]).group()) + "L"):
+                                    major_file['course-sets']['required'][i][1:][j] = str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,} ", major_file['course-sets']['required'][i][1:][j]).group()) + "/L"
+                                else:
+                                    major_file['course-sets']['required'][i][1:][j] = str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,} ", major_file['course-sets']['required'][i][1:][j]).group()) 
+                              
+                            except AttributeError:
+                                #print("|||___________||| => string")
+                                continue
+                                                        
+                json.dump(major_file, open(f"../../code-assets/backend/json_majors/{name}.json", "w"), indent=4)
+                
+randomarray = [
+                "CADV 327 Infancy and Early Childhood (3)",
+                "PSY 327 Infancy and Early Childhood (3)",
+                "CADV 335 Middle Childhood (3)",
+                "PSY 335 Middle Childhood (3)",
+                "CADV 361 Adolescence (3)",
+                "PSY 361 Adolescence (3)",
+                "CADV 373 Emerging Adulthood (3)",
+                "CADV 406/L Enhancing Childhood Creativity and Lab (2/1)",
+                "RTM 406/L Enhancing Childhood Creativity and Lab (2/1)",
+                "CADV 451 Alternative Approaches to Discipline (3)",
+                "CADV 497AA-ZZ Selected Topics in Child and Adolescent Development (3)",
+                "CD 405 Phonetics (3)",
+                "CD 415 Speech and Language Development (3)",
+                "ENGL 301 Language and Linguistics (3)",
+                "FCS 335 Prenatal and Infant Development (3)",
+                "FCS 438 Adolescents in the Family Context (3)",
+                "LING 417 Language Development and Acquisition (3)",
+                "PSY 453 Psychological Aspects of Human Sexuality (3)",
+                "CADV 310 Developmental Impacts of Abuse and Neglect (3)",
+                "CADV 453 Autism and Neurodevelopmental Disorders (3)",
+                "PSY 310 Abnormal Psychology (3)",
+                "PSY 351 Behavioral Psychology and Therapy (3)",
+                "PSY 454 Clinical Psychology (3)",
+                "PSY 464 Cognitive and Behavioral Intervention Techniques (3)",
+                "SOC 348 Juvenile Delinquency (3)",
+                "SPED 400 Developmental Differences and Implications in Special Education (3)",
+                "SPED 402 Promoting and Supporting a Positive and Inclusive School Climate (3)",
+                "SPED 431 Atypical Development in Young Children with Disabilities (3)",
+                "ART 383/L Art in Early Childhood and Lab (2/1)",
+                "ART 385/L Children's Crafts and Lab (2/1)",
+                "ART 579/L Art Education Across Cultures and Lab (2/1)",
+                "CADV 406/L Enhancing Childhood Creativity and Lab (2/1)",
+                "CADV 451 Alternative Approaches to Discipline (3)",
+                "CADV 452 Child Advocacy (3)",
+                "ENGL 428 Children's Literature (3)",
+                "ENGL 429 Literature for Adolescents (3)",
+                "EPC 314 Psychological Foundations, K-12 (3)",
+                "EPC 315 Psychological Foundations of Learning and Teaching (3)",
+                "FCS 433 Administration of Children's Programs (3)",
+                "FCS 436 Parental Development (3)",
+                "KIN 470/L Physical Education for Children and Lab (2/1)",
+                "MUS 361/L Music Literature for Children and Lab (2/1)",
+                "MUS 362/L Music for Early Childhood and Lab (2/1)",
+                "PSY 312 Psychological Aspects of Parenthood (3)",
+                "RTM 305 Dynamics of Early Childhood Play (3)",
+                "RTM 352 Play and Human Potential (3)",
+                "RTM 405 Play and the Exceptional Child (3)",
+                "SOC 411 Sociology of Education (3)",
+                "SOC 420CSL Mentoring to Overcome Struggles and Inspire Courage (MOSAIC) (3)",
+                "CADV 450 Helping Children Cope with Medical Environments (3)",
+                "EPC 451 Fundamentals of Counseling and Guidance (3)",
+                "FCS 340 Marriage and Family Relations (3)",
+                "FCS 432 Family Theories (3)",
+                "FCS 480 The Helping Professional (3)",
+                "PSY 460 Counseling and Interviewing (3)",
+                "SOC 426 Social Legislation and Social Policy (3)",
+                "SOC 459 Child Welfare (3)",
+                "AAS 355 Biracial and Multiracial Identity (3)",
+                "AAS 450 Asian American Child and the Schools (3)",
+                "AFRS 322 African-American Family (3)",
+                "AFRS 420 The Black Child (3)",
+                "AIS 401 Contemporary American Indian Social Issues (3)",
+                "ANTH 308 Gender and Culture (3)",
+                "ANTH 310 Language in Culture: Anthropological Linguistics (3)",
+                "ARMN 440 Armenian American Child (3)",
+                "CAS 410 The Central American Child (3)",
+                "CHS 430 The Chicana/o Child (3)",
+                "CHS 431 The Chicana/o Adolescent (3)",
+                "CHS 432 Counseling the Chicana/o Child (3)",
+                "CHS 433 Language Acquisition of the Chicano/a and ESL Speakers (3)",
+                "DEAF 160 American Sign Language I (4)",
+                "DEAF 200 Introduction to Deaf Studies (3)",
+                "ENGL 301 Language and Linguistics (3)",
+                "LING 417 Language Development and Acquisition (3)",
+                "SOC 401 Class, Status and Power (3)",
+                "SOC 452 Sociology of Lesbian, Gay, Bisexual and Transgender Communities (3)",
+                "CADV 250 Professional Pathways and Careers in Child and Adolescent Development (3)",
+                "CADV 495A Child and Adolescent Development Graduate School Skills and Applied Research Training I (3)",
+                "CADV 495B Child and Adolescent Development Graduate School Skills and Applied Research Training II (3)",
+                "CADV 499C Independent Study (3)",
+                "FCS 431/L Child and Family Assessment and Lab (3/1)",
+                "FCS 480 The Helping Professional (3)",
+                "PSY 420/L Advanced Statistical Methods and Lab (3/1)"
+            ]
+def nine():
+    for j in range(len(randomarray)):
+        try:
+            #print(str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,}", randomarray[j]).group()) + " ==> From: " + randomarray[j])
+            if randomarray[j].__contains__(str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,}", randomarray[j]).group()) + "L"):
+                randomarray[j] = str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,} ", randomarray[j]).group()) + "/L"
+            else:
+                randomarray[j] = str(re.match("[A-Z]{2,4} [0-9A-Z\/\-]{1,} ", randomarray[j]).group()) 
+          
+        except AttributeError:
+            #print("|||___________||| => string")
+            continue
+    print(*[f"\"{x.rstrip(' ')}\"," for x in randomarray], sep="\n")                                      
+
+
 if __name__ == "__main__":
-    eight()
+    nine()
     
         
