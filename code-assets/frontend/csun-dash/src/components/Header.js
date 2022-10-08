@@ -1,7 +1,6 @@
 import Button from '@mui/material/Button';
 import { textAlign } from '@mui/system';
-import {Link} from 'react-scroll'
-import React, { Component }  from 'react';
+import {Link} from 'react-router-dom'
 
 function Header(props){
     return(
