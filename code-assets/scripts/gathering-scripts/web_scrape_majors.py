@@ -318,7 +318,7 @@ names_of_programs = [
 
 
 for major in major_links:
-    print("------------------------------------------")
+    #print("------------------------------------------")
     #print(major)
     driver.get(major)
     #print(driver.find_element("id", "inset-content").text)
@@ -332,19 +332,25 @@ for major in major_links:
     #print(driver.find_elements(By.CLASS_NAME, "section-title"))
     name_of_program = driver.find_element(By.XPATH,"//*[text()='Program:']").find_element(By.XPATH,"..").text
     name_of_program = name_of_program[name_of_program.find(":")+2:]
-    print(name_of_program)
+    #print(name_of_program)
+    
+    
     try:
         sub_major = driver.find_element(By.XPATH,"//*[text()='Program:']").find_element(By.XPATH,"..").find_element(By.XPATH,"..").find_element(By.TAG_NAME, "h3").text
         name_of_program = f"{name_of_program}: {sub_major}"
-        print(name_of_program +  " " + major)  
+        print(name_of_program.replace('/', '---').replace(':', ';'))
+        #print(name_of_program +  " " + major)  
     except NoSuchElementException:
-        print(name_of_program +  " " + major)     
-          
+        print(name_of_program.replace('/', '---').replace(':', ';'))
+        #print(name_of_program +  " " + major)     
+    """      
     major_dict = {}
     major_dict["name"] = name_of_program
-    major_dict["prog-reqq-blob"] = driver.find_element(By.XPATH,"//*[text()='Program Requirements']").find_element(By.XPATH,"..").find_element(By.XPATH,"..").find_element(By.XPATH,"..").text
+    major_dict["prog-reqq-blob"] = driver.find_element(By.XPATH,"//*[text()='Program Requirements']").find_element(By.XPATH,"..").find_element(By.XPATH,"..").find_element(By.XPATH,"..").text.replace('\u201c', '').replace('\u201d', '').replace('\u2019','\'').split('\n')
+    major_dict["course-sets"] = [x for x in driver.find_element(By.XPATH,"//*[text()='Program Requirements']").find_element(By.XPATH,"..").find_element(By.XPATH,"..").find_element(By.XPATH,"..").text.replace('\u201c', '').replace('\u201d', '').replace('\u2019','\'').split('\n')]
+    major_dict["link-to-major"] = major
     
-    major_file = open(f"../../code-assets/backend/json_majors/{name_of_program.replace('/', ' - ').replace(':', ',')}.json", "w")
+    major_file = open(f"../../../code-assets/backend/json_majors/{name_of_program.replace('/', '---').replace(':', ';')}.json", "w")
     #print(major_dict)
 
     json.dump(major_dict, major_file, indent=4)
@@ -352,3 +358,4 @@ for major in major_links:
     
 
 
+"""
