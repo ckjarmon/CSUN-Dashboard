@@ -2,8 +2,6 @@
     "course-sets": {
         "required": [
             "&",
-            "Program Requirements",
-            "1. Lower Division Required Courses (32 units)",
             "BIOL 106",
             "BIOL 106L",
             "BIOL 107",
@@ -20,7 +18,6 @@
             "PHYS 220AL",
             "PHYS 220B",
             "PHYS 220BL",
-            "2. Upper Division Required Courses (43 units)",
             "BIOL 380",
             "CHEM 321/L",
             "CHEM 333/L",
@@ -34,22 +31,16 @@
             "CHEM 461/L",
             "CHEM 462/L",
             "CHEM 465",
-            "3. Upper Division Electives (9 units)",
-            "A minimum of 3 units of upper division electives selected from the following courses:",
-            "CHEM 411",
-            "CHEM 433",
-            "CHEM 471",
-            "CHEM 481",
-            "CHEM 495A-C",
-            "CHEM 499A-C",
-            "CHEM 538",
-            "A minimum of 6 units of electives selected with approval of major advisor from upper division courses in Biology.",
-            "4. General Education (48 units)",
-            "Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.",
-            "12 units are satisfied by the following courses in the major: CHEM 101 satisfies B1 Physical Science; BIOL 106 satisfies B2 Life Science; CHEM 101L satisfies B3 Science Laboratory Activity; MATH 255A satisfies Basic Skills B4 Mathematics/Quantitative Reasoning; and CHEM 333 satisfies B5 Scientific Inquiry and Quantitative Reasoning.",
-            "Total Units in the Major: 84",
-            "General Education Units: 36",
-            "Total Units Required for the B.S. Degree: 120"
+            [
+                "|1",
+                "CHEM 411",
+                "CHEM 433",
+                "CHEM 471",
+                "CHEM 481",
+                "CHEM 495A-C",
+                "CHEM 499A-C",
+                "CHEM 538"
+            ]
         ]
     },
     "link-to-major": "https://catalog.csun.edu/academics/chem/programs/bs-biochemistry/",
