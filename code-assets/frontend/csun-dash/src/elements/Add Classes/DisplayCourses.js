@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import AllCoursesAccordian from './AllCoursesAccordian';
 
-function DisplayCourses({term, subject}){
+function DisplayCourses({term, subject, addedClassHandler, addIcon}){
     const [classList, setClassList] = useState([])
     const [scheduleList, setScheduleList] = useState({})
     const [fullSchedule, setFullSchedule] = useState([])
@@ -44,7 +44,7 @@ function DisplayCourses({term, subject}){
     
     return(
         <div>
-            <AllCoursesAccordian classes={classList} scheduleExistDict={scheduleList} schedule={fullSchedule}></AllCoursesAccordian>
+            <AllCoursesAccordian addIcon={addIcon} addedClassHandler={addedClassHandler} classes={classList} scheduleExistDict={scheduleList} schedule={fullSchedule}></AllCoursesAccordian>
         </div>
     )
 }

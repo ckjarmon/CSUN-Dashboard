@@ -7,16 +7,12 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import {IoAdd} from 'react-icons/io5'
-import {FiX} from 'react-icons/fi'
 import {useState, useEffect} from 'react'
-import { globalState } from '../../globalState';
-import {useSnapshot} from "valtio"
 
-function CourseDataTable({classes, course}){
-    const globalValtioState = useSnapshot(globalState)
+
+function CourseDataTable({classes, course, addedClassHandler, addIcon}){
     
     const [displayClasses, setDisplayClasses] = useState([])
-    const [addedClass, setAddedClass] = useState({})
 
     function fetchCourseList(){
         let filterSection = classes.filter(classItem => classItem.catalog_number == course)
@@ -27,44 +23,6 @@ function CourseDataTable({classes, course}){
         fetchCourseList()
     }, [])
 
-    function classAlreadyAdded(event){
-        // globalValtioState.addedClasses.map(classItem => {
-        //     if(event.catalog_number == classItem.catalog_number){
-        //         return true
-        //     }
-        // })
-        // return false
-        
-        for(let i = 0; i < globalValtioState.addedClasses.length; i++){
-            if(event.catalog_number == globalValtioState.addedClasses[i].catalog_number){
-                return true
-            }
-        }
-        return false
-    }
-
-    function handleClassAdditon(event){
-
-        if(!addedClass[event.class_number]){
-            if(!classAlreadyAdded(event)){
-                setAddedClass({
-                    ...addedClass,
-                    [event.class_number]:  !addedClass[event.class_number]
-                })
-                globalState.addedClasses.push(event)
-                console.log(globalValtioState.addedClasses)
-            }else{
-                console.log("This Class Is Already Added To Your Schedule!")
-            }
-        }else{
-            setAddedClass({
-                ...addedClass,
-                [event.class_number]:  !addedClass[event.class_number]
-            })
-            globalState.addedClasses.filter(classItem => classItem.class_number != event.class_number)
-            console.log(globalValtioState.addedClasses)
-        }
-    }
 
     return(
         <TableContainer component={Paper} style={{backgroundColor: "#1C1C1C"}}>
@@ -85,7 +43,7 @@ function CourseDataTable({classes, course}){
                         <TableRow
                         key={row.class_number}
                         >
-                        <TableCell style={tableCellStyle} align="center"><Button onClick={() => handleClassAdditon(row)}>{addedClass[row.class_number] ? <FiX style={removeIconStyle}/>: <IoAdd style={addIconStyle}/>}</Button></TableCell>
+                        <TableCell style={tableCellStyle} align="center"><Button onClick={() => addedClassHandler(row)}>{addIcon[row.class_number] ? <div></div>: <IoAdd style={addIconStyle}/>}</Button></TableCell>
                         <TableCell style={tableCellStyle} align="center">{row.class_number}</TableCell>
                         <TableCell style={tableCellStyle} align="center">{(row.enrollment_cap - row.enrollment_count)}</TableCell>
                         <TableCell style={tableCellStyle} align="center">{row.meetings[0].location}</TableCell>

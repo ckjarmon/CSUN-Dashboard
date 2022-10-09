@@ -3,7 +3,7 @@ import DisplayCourses from "./DisplayCourses";
 import {useState} from 'react'
 
 
-function AddClasses(){
+function AddClasses({addedClassHandler, addIcon}){
     const [searchDone, setSearchDone] = useState(null)
     const [term, setTerm] = useState("")
     const [subject, setSubject] = useState("")
@@ -19,7 +19,7 @@ function AddClasses(){
         <div>
             <h2 style={sectionTitle}>Add Classes</h2>
             <AddClassesDropDown searchDone={searchDoneHandler}></AddClassesDropDown>
-            {searchDone ? <DisplayCourses term={term} subject={subject}></DisplayCourses> : <div></div>}
+            {searchDone ? <DisplayCourses addIcon={addIcon} addedClassHandler={addedClassHandler} term={term} subject={subject}></DisplayCourses> : <div></div>}
         </div>
     )
 }

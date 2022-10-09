@@ -8,7 +8,7 @@ import CourseDataTable from './CourseDataTable';
 
 
 
-function AllCoursesAccordian({classes, scheduleExistDict, schedule}){
+function AllCoursesAccordian({classes, scheduleExistDict, schedule, addedClassHandler, addIcon}){
     useEffect(() => {
         classes.map(course => {
             // console.log(course.substring(0, course.indexOf(' ')))
@@ -33,7 +33,7 @@ function AllCoursesAccordian({classes, scheduleExistDict, schedule}){
                             <Typography style={{fontWeight: "bold"}}>{course}</Typography>
                             </AccordionSummary>
                             <AccordionDetails>
-                                <CourseDataTable classes={schedule} course={course.substring(0,course.indexOf(' '))}></CourseDataTable>
+                                <CourseDataTable addIcon={addIcon} addedClassHandler={addedClassHandler} classes={schedule} course={course.substring(0,course.indexOf(' '))}></CourseDataTable>
                             </AccordionDetails>
                         </Accordion> : <div key={course}></div>
                 ))}
