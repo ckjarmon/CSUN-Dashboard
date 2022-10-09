@@ -2,15 +2,12 @@
     "course-sets": {
         "required": [
             "&",
-            "Program Requirements",
-            "A. Core Courses Required of All Options (14 units)",
             "FCS 170",
             "FCS 232",
             "FCS 320",
             "FCS 380",
             "FCS 494",
             "FCS 494I",
-            "B. Family and Consumer Sciences Education Option",
             "BIOL 101",
             "BIOL 101L",
             "CHEM 110",
@@ -19,8 +16,11 @@
             "FCS 160",
             "FCS 201/L",
             "FCS 207",
-            "FCS 303",
-            "or FCS 309 Maternal, Infant and Child Nutrition (3)",
+            [
+                "|1",
+                "FCS 303",
+                "FCS 309"
+            ],
             "FCS 315",
             "FCS 321/L",
             "FCS 322/L",
@@ -28,14 +28,7 @@
             "FCS 330",
             "FCS 340",
             "FCS 357",
-            "FCS 436",
-            "General Education (48 units)",
-            "Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.",
-            "15 units are satisfied by the following courses in the major: CHEM 110 satisfies B1 Physical Science; BIOL 101 satisfies B2 Life Science; BIOL 101L satisfies B3 Science Laboratory Activity; FCS 315 satisfies B5 Scientific Inquiry and Quantitative Reasoning; FCS 340 and FCS 357 satisfy D1 Social Sciences; and FCS 207 satisfies E Lifelong Learning and fulfills the Information Competence requirement.",
-            "Total Units in the Major/Option: 61",
-            "General Education Units: 33",
-            "Additional Units: 26",
-            "Total Units for the B.S. Degree: 120"
+            "FCS 436"
         ]
     },
     "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-iii/family-and-consumer-sciences-education/",
