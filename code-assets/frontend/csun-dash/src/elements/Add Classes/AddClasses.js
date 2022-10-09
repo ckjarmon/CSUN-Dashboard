@@ -13,7 +13,7 @@ function AddClasses(){
         setSubject(subjectSelected)
         setSearchDone(true)
     }
-    console.log(searchDone)
+    
 
     return(
         <div>

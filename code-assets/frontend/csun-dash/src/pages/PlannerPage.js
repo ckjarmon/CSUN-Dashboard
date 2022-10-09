@@ -1,6 +1,6 @@
 import Header from "../components/Header";
-import AddClasses from "../elements/AddClasses";
-import ClassSelections from "../elements/ClassSelections";
+import AddClasses from "../elements/Add Classes/AddClasses";
+import ClassSelections from "../elements/Add Classes/ClassSelections";
 
 function PlannerPage(){
     return(

@@ -1,4 +1,4 @@
-import {class_codes} from "../classCodes"
+import {class_codes} from "../../classCodes"
 import {useState} from 'react'
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
