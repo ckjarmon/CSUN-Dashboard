@@ -2,42 +2,23 @@
     "course-sets": {
         "required": [
             "&",
-            [
-                "|1",
-                "BIOL 101/L",
-                [
-                    "&",
-                    "BIOL 106/L",
-                    "BIOL 107/L"
-                ]
-            ],
+            "Program Requirements",
+            "1. Required Core Courses (51-62 units)",
+            "BIOL 101/L",
+            "or BIOL 106 and BIOL 106L Biological Principles I and Lab (3/1)",
+            "and BIOL 107 and BIOL 107L Biological Principles II and Lab (3/1)",
             "BIOL 215/L",
             "BIOL 281",
-            [
-                "|1",
-                "CHEM 103/L",
-                "CHEM 101/L/D"
-            ],
-            [
-                "|1",
-                "CHEM 104/L",
-                "CHEM 102/L/D"
-            ],
-            [
-                "|1",
-                "CHEM 235/L",
-                [
-                    "&",
-                    "CHEM 333/L/D",
-                    "CHEM 334/L"
-                ]
-            ],
+            "CHEM 103/L",
+            "or CHEM 101 and CHEM 101L and CHEM 101D General Chemistry I and Lab and Discussion (3/1/1)",
+            "CHEM 104/L",
+            "or CHEM 102 and CHEM 102L and CHEM 102D General Chemistry II and Lab and Discussion (3/1/1)",
+            "CHEM 235/L",
+            "or CHEM 333/L and CHEM 333D Organic Chemistry I and Lab and Discussion (3/1/1)",
+            "and CHEM 334/L Organic Chemistry II and Lab (3/1)",
             "FCS 201/L",
-            [
-                "|1",
-                "FCS 207",
-                "HSCI 337"
-            ],
+            "FCS 207",
+            "or HSCI 337 Nutrition and Health (3)",
             "FCS 301",
             "FCS 307",
             "FCS 321/L",
@@ -46,36 +27,36 @@
             "FCS 494",
             "FCS 494I",
             "MATH 140",
-            [
-                "|1",
-                "CHEM 365/L",
-                "CHEM 464/L"
-            ],
+            "2. Nutrition and Dietetics Option Courses (39-40 units)",
+            "CHEM 365/L",
+            "or CHEM 464 and CHEM 464L Principles of Biochemistry and Laboratory (3/1)",
             "FCS 304",
             "FCS 308",
             "FCS 402",
             "FCS 403",
             "FCS 405",
             "FCS 408",
-            [
-                "|1",
-                "POLS 155",
-                "POLS 403 "
-            ],
+            "POLS 155",
+            "or POLS 403 State and Local Government (3)",
             "PSY 150",
-            [
-                "|1",
-                "SOC 150",
-                "ANTH 150"
-            ],
-            [
-                "|1",
-                "FCS 309",
-                "FCS 481",
-                "HSCI 390/L",
-                "HSCI 434",
-                "HSCI 446"
-            ]
+            "SOC 150",
+            "or ANTH 150 The Human Adventure: Introduction to Anthropology (3)",
+            "GE Section A1: Oral Communication Course (3)",
+            "GE Section A2: Written Communication Course (3)",
+            "Elective (3-4 units)",
+            "FCS 309",
+            "FCS 481",
+            "HSCI 390/L",
+            "HSCI 434",
+            "HSCI 446",
+            "3. General Education (48 units)",
+            "Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.",
+            "24 units are satisfied by coursework in the major: A1 Oral Communication; A2 Written Communication; CHEM 101 or CHEM 103 satisfies B1 Physical Science; BIOL 101 or BIOL 106 satisfies B2 Life Science; BIOL 101L or BIOL 106L satisfies B3 Science Laboratory Activity; MATH 140 satisfies B4 Mathematics and Quantitative Reasoning; PSY 150 and ANTH 150 or SOC 150 satisfies D1 Social Sciences; and FCS 207 satisfies E Lifelong Learning and fulfills Information Competence, or HSCI 337 satisfies B5 Scientific Inquiry and Quantitative Reasoning or E Lifelong Learning.",
+            "If taken, POLS 155 satisfies D3/D4 Constitution of the United States/State and Local Government, or POLS 403 satisfies D4 California State and Local Government.",
+            "Total Units in the Major/Option: 90-102",
+            "General Education Units: 24",
+            "Additional Units: 0-6",
+            "Total Units Required for the B.S. Degree: 120-126"
         ]
     },
     "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-nutrition-dietetics-and-food-science-i/nutrition-and-dietetics/",
