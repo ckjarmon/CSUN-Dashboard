@@ -2,23 +2,42 @@
     "course-sets": {
         "required": [
             "&",
-            "Program Requirements",
-            "1. Required Core Courses (51-62 units)",
-            "BIOL 101/L",
-            "or BIOL 106 and BIOL 106L Biological Principles I and Lab (3/1)",
-            "and BIOL 107 and BIOL 107L Biological Principles II and Lab (3/1)",
+            [
+                "|1",
+                "BIOL 101/L",
+                [
+                    "&",
+                    "BIOL 106/L",
+                    "BIOL 107/L"
+                ]
+            ],
             "BIOL 215/L",
             "BIOL 281",
-            "CHEM 103/L",
-            "or CHEM 101 and CHEM 101L and CHEM 101D General Chemistry I and Lab and Discussion (3/1/1)",
-            "CHEM 104/L",
-            "or CHEM 102 and CHEM 102L and CHEM 102D General Chemistry II and Lab and Discussion (3/1/1)",
-            "CHEM 235/L",
-            "or CHEM 333/L and CHEM 333D Organic Chemistry I and Lab and Discussion (3/1/1)",
-            "and CHEM 334/L Organic Chemistry II and Lab (3/1)",
+            [
+                "|1",
+                "CHEM 103/L",
+                "CHEM 101/L/D"
+            ],
+            [
+                "|1",
+                "CHEM 104/L",
+                "CHEM 102/L/D"
+            ],
+            [
+                "|1",
+                "CHEM 235/L",
+                [
+                    "&",
+                    "CHEM 333/L/D",
+                    "CHEM 334/L "
+                ]
+            ],
             "FCS 201/L",
-            "FCS 207",
-            "or HSCI 337 Nutrition and Health (3)",
+            [
+                "|1",
+                "FCS 207",
+                "HSCI 337"
+            ],
             "FCS 301",
             "FCS 307",
             "FCS 321/L",
@@ -27,38 +46,31 @@
             "FCS 494",
             "FCS 494I",
             "MATH 140",
-            "2. Food Science Option Courses (17 units)",
             "FCS 302",
             "FCS 306",
             "FCS 400",
             "FCS 401/L",
-            "Electives (6 units)",
-            "BIOL 285",
-            "BIOL 431/L",
-            "BLAW 280",
-            "EOH 456",
-            "FCS 308",
-            "FCS 323",
-            "FCS 324",
-            "FCS 428",
-            "JOUR 100",
-            "JOUR 110/L",
-            "JOUR 310",
-            "JOUR 350",
-            "JOUR 460",
-            "MATH 150A",
-            "PHYS 100A/L",
-            "PHYS 100B/L",
-            "SUST 310",
-            "SUS 500",
-            "3. General Education (48 units)",
-            "Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.",
-            "12 units are satisfied by the following courses in the major: CHEM 101 or CHEM 103 satisfies B1 Physical Science; BIOL 101 or BIOL 106 satisfies B2 Life Science; BIOL 101L or BIOL 106L satisfies B3 Science Laboratory Activity; and MATH 140 satisfies B4 Mathematics and Quantitative Reasoning. FCS 207 satisfies E Lifelong Learning and fulfills Information Competence, or HSCI 337 satisfies B5 Scientific Inquiry and Quantitative Reasoning or E Lifelong Learning.",
-            "If taken, FCS 323 or FCS 324 satisfies B5 Scientific Inquiry and Quantitative Reasoning or E Lifelong Learning and fulfills Information Competence; BLAW 280, JOUR 100 or SUST 310 satisfies E Lifelong Learning.",
-            "Total Units in the Major/Option: 68-79",
-            "General Education Units: 36",
-            "Additional Units: 5-16",
-            "Total Units Required for the B.S. Degree: 120"
+            [
+                "|2",
+                "BIOL 285",
+                "BIOL 431/L",
+                "BLAW 280",
+                "EOH 456",
+                "FCS 308",
+                "FCS 323",
+                "FCS 324",
+                "FCS 428",
+                "JOUR 100",
+                "JOUR 110/L",
+                "JOUR 310",
+                "JOUR 350",
+                "JOUR 460",
+                "MATH 150A",
+                "PHYS 100A/L",
+                "PHYS 100B/L",
+                "SUST 310",
+                "SUS 500"
+            ]
         ]
     },
     "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-nutrition-dietetics-and-food-science-ii/food-science/",
