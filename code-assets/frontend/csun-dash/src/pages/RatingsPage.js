@@ -1,6 +1,7 @@
 import Header from "../components/Header"
 import ProfessorRatingsSearch from "../elements/Professor Ratings/ProfessorRatingsSearch"
 import {useState} from "react"
+import ProfessorHeader from "../elements/Professor Ratings/ProfessorHeader"
 
 function RatingsPage(){
     const [subject, setSubject] = useState("")
@@ -39,6 +40,7 @@ function RatingsPage(){
                 enableSearch={enableSearch}
                 >
             </ProfessorRatingsSearch>
+            {professorSelected.length > 0 ? <ProfessorHeader></ProfessorHeader> : <div></div>}
         </div>
     )
 }
