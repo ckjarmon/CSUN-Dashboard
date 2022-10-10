@@ -1,4 +1,122 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "GEOG 206/L",
+            "GEOL 125",
+            "GEOL 303",
+            "GEOL 314/L",
+            "GEOL 362",
+            [
+                "|1",
+                "GEOL 456",
+                "GEOL 440/L"
+            ],
+            "GEOL 490",
+            "SUST 310",
+            [
+                "|1",
+                "BIOL 101/L",
+                "BIOL 106/L"
+            ],
+            "CHEM 101/L/D",
+            "MATH 105",
+            "MATH 140SCI",
+            [
+                "|1",
+                [
+                    "&",
+                    "GEOG 101",
+                    "GEOG 102"
+                ],
+                [
+                    "&",
+                    "GEOG 101A",
+                    "GEOG 101AL"
+                ],
+                [
+                    "&",
+                    "GEOL 101",
+                    "GEOL 102"
+                ],
+                [
+                    "&",
+                    "GEOL 110",
+                    "GEOL 112"
+                ],
+                [
+                    "&",
+                    "GEOL 113",
+                    "GEOL 112"
+                ],
+                [
+                    "&",
+                    "GEOL 117",
+                    "GEOL 117L"
+                ],
+                [
+                    "&",
+                    "GEOL 122",
+                    "GEOL 123"
+                ],
+                [
+                    "&",
+                    "SCI 111",
+                    "SCI 111L"
+                ]
+            ],
+            [
+                "|1",
+                "BIOL 107/L",
+                "CHEM 102/L/D",
+                "PHYS 100A/L"
+            ],
+            [
+                "|2",
+                [
+                    "&",
+                    "BIOL 316CS",
+                    "BIOL 316LCS"
+                ],
+                "BIOL 322",
+                "EOH 356A",
+                "EOH 459",
+                "EOH 468",
+                "GEOG 306/L",
+                "GEOG 316",
+                "GEOG 364/L",
+                "GEOG 365/L",
+                "GEOG 366/L",
+                "GEOG 406/L",
+                "GEOL 306/L",
+                "GEOL 309/L",
+                "GEOL 313",
+                "GEOL 464/L",
+                "GEOL 501",
+                "GEOL 552",
+                "GEOL 575/L"
+            ],
+            [
+                "|2",
+                "ANTH 432",
+                "CAS 355",
+                "ECON 360",
+                "EOH 454",
+                "GEOG 350",
+                "GEOG 370",
+                "GEOG 444",
+                "GEOG 459",
+                "GEOG 473",
+                "POLS 461",
+                "RS 370",
+                "SUST 401",
+                "URBS 310",
+                "URBS 415",
+                "URBS 425"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/geol/programs/ba-environmental-science/",
     "name": "B.A., Environmental Science",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -92,6 +210,5 @@
         "General Education: 36",
         "Additional Units: 18-23",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/geol/programs/ba-environmental-science/"
+    ]
 }

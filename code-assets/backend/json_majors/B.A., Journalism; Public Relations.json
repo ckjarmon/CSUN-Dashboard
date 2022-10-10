@@ -1,4 +1,67 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "JOUR 100",
+            "JOUR 104",
+            "JOUR 110/L",
+            "JOUR 210/L",
+            "JOUR 225",
+            [
+                "|1",
+                "JOUR 250 ",
+                " JOUR 255"
+            ],
+            [
+                "|1",
+                "JOUR 325 ",
+                " JOUR 341"
+            ],
+            "JOUR 400",
+            [
+                "|1",
+                "JOUR 480 ",
+                " JOUR 478"
+            ],
+            "JOUR 498",
+            [
+                "|1",
+                [
+                    "&",
+                    "JOUR 395B",
+                    "JOUR 395C"
+                ],
+                [
+                    "&",
+                    "JOUR 397B",
+                    "JOUR 397C"
+                ],
+                [
+                    "&",
+                    "JOUR 398B",
+                    "JOUR 398C"
+                ]
+            ],
+            "JOUR 362",
+            "JOUR 440",
+            [
+                "|4",
+                "JOUR 365",
+                [
+                    "|1",
+                    "JOUR 371 ",
+                    " JOUR 372"
+                ],
+                "JOUR 374SLJ",
+                "JOUR 375",
+                "JOUR 465",
+                "JOUR 491",
+                "JOUR 494AEE/BEE",
+                "JOUR 495A-Z"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/jour/programs/ba-journalism-iii/public-relations/",
     "name": "B.A., Journalism: Public Relations",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -56,6 +119,5 @@
         "General Education Units: 45",
         "Additional Units: 27",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/jour/programs/ba-journalism-iii/public-relations/"
+    ]
 }

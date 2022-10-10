@@ -1,4 +1,69 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "ACCT 230",
+            "BLAW 280",
+            "ECON 160",
+            "ECON 161",
+            "ENGL 205",
+            "IS 212",
+            "MATH 103",
+            "SOM 120",
+            "BUS 302",
+            "BUS 302L",
+            "BUS 497A",
+            "FIN 303",
+            "MGT 360",
+            "MKT 304",
+            "SOM 306",
+            "MKT 346",
+            "MKT 348",
+            "MKT 449",
+            [
+                "|4",
+                "BANA 310",
+                "BANA 430",
+                "BLAW 430",
+                "BLAW 450",
+                "BUS 491CS",
+                "ECON 308",
+                "ECON 309",
+                "ECON 310",
+                "MKT 350",
+                "MKT 356",
+                "MKT 440",
+                "MKT 441",
+                [
+                    "|1",
+                    "MKT 442",
+                    "SCM 442"
+                ],
+                "MKT 443",
+                "MKT 445",
+                [
+                    "|1",
+                    "MKT 447",
+                    "SCM 447"
+                ],
+                "MKT 448",
+                "MKT 459",
+                "MKT 498B",
+                "SOM 307"
+            ],
+            [
+                "|1",
+                "BUS 491CS",
+                [
+                    "&",
+                    "MKT 498A",
+                    "MKT 498B"
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/mkt/programs/bs-business-administration-x/marketing/",
     "name": "B.S., Business Administration: Marketing",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -75,6 +140,5 @@
         "General Education Units: 33",
         "Additional Units: 16-18",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/mkt/programs/bs-business-administration-x/marketing/"
+    ]
 }

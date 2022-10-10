@@ -1,4 +1,51 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "FLIT 234",
+            [
+                "|1",
+                "FLIT 230",
+                "FLIT 245",
+                "FLIT 250",
+                "FLIT 260",
+                "FLIT 261",
+                "FLIT 295A",
+                "FLIT 295B"
+            ],
+            "FLIT 391",
+            "FLIT 491",
+            [
+                "|2",
+                "ARMN 310",
+                "ARMN 360",
+                "FLIT 320",
+                "FLIT 321",
+                "FLIT 322",
+                "FLIT 330",
+                "FLIT 331",
+                "FLIT 340",
+                "FLIT 341",
+                "FLIT 370",
+                "FLIT 371",
+                "FLIT 380",
+                "FLIT 381",
+                "FLIT 383",
+                "FLIT 384",
+                "FLIT 402",
+                "FLIT 455"
+            ],
+            "ARMN 102",
+            "ARMN 201",
+            "ARMN 202",
+            "ARMN 306",
+            "ARMN 310",
+            "ARMN 315",
+            "ARMN 360",
+            "ARMN 380"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-languages-and-cultures-i/armenian/",
     "name": "B.A., Languages and Cultures: Armenian",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -57,6 +104,5 @@
         "General Education Units: 39",
         "Additional Units: 39",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-languages-and-cultures-i/armenian/"
+    ]
 }

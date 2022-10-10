@@ -1,4 +1,115 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 101",
+            "BIOL 101L",
+            [
+                "|1",
+                "BIOL 211",
+                "BIOL 213"
+            ],
+            "BIOL 212",
+            "BIOL 281",
+            [
+                "|1",
+                "MATH 140",
+                "MATH 141/L"
+            ],
+            "BIOL 106",
+            "BIOL 106L",
+            "BIOL 107",
+            "BIOL 107L",
+            "BIOL 382/L",
+            "BIOL 383/L",
+            "KIN 200",
+            [
+                "|1",
+                "KIN 137A",
+                "KIN 139A",
+                "KIN 139B",
+                "KIN 141A",
+                "KIN 141B",
+                "KIN 142A",
+                "KIN 142B",
+                "KIN 143A",
+                "KIN 143B",
+                "KIN 144A"
+            ],
+            [
+                "|1",
+                "KIN 125A",
+                "KIN 126A",
+                "KIN 128",
+                "KIN 129A",
+                "KIN 135A",
+                "KIN 136A",
+                "KIN 147",
+                "KIN 148",
+                "KIN 149",
+                "KIN 177A",
+                "KIN 178A",
+                "KIN 179A"
+            ],
+            [
+                "|1",
+                "KIN 122A",
+                "KIN 123A",
+                "KIN 124A",
+                "KIN 130A",
+                "KIN 131A",
+                "KIN 132A",
+                "KIN 133A",
+                "KIN 134",
+                "KIN 152A",
+                "KIN 155A",
+                "KIN 164A",
+                "KIN 171A",
+                "KIN 172",
+                "KIN 185A",
+                "KIN 185B",
+                "KIN 191A",
+                "KIN 195A"
+            ],
+            "KIN 300",
+            "KIN 305",
+            "KIN 306",
+            "KIN 345/L",
+            "KIN 346/L",
+            "KIN 377",
+            "PHYS 100A",
+            "PHYS 100AL",
+            [
+                "|1",
+                "CHEM 101/L/D",
+                "CHEM 103/L"
+            ],
+            "KIN 445",
+            "KIN 446/L",
+            "KIN 477",
+            "KIN 478",
+            [
+                "|5",
+                "KIN 311/L",
+                "KIN 313/L",
+                "KIN 336/L",
+                "KIN 337/L",
+                "KIN 402/L",
+                "KIN 415",
+                "KIN 436",
+                "KIN 452/L",
+                "KIN 456",
+                "KIN 476",
+                "KIN 479",
+                "KIN 494A-B",
+                "KIN 494I",
+                "KIN 499A-C",
+                "KIN 560",
+                "KIN 575/L"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-ii/exercise-science/",
     "name": "B.S., Kinesiology: Exercise Science",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -118,6 +229,5 @@
         "General Education Units: 33",
         "Additional Units: 5-12",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-ii/exercise-science/"
+    ]
 }

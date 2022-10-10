@@ -1,4 +1,65 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "MATH 140",
+            "SOC 150",
+            "SOC 424/L",
+            "SOC 430",
+            "SOC 468",
+            "SOC 497/L",
+            [
+                "|1",
+                [
+                    "&",
+                    "SOC 357",
+                    "SOC 490S/F",
+                    [
+                        "|1",
+                        "SOC 356",
+                        "SOC 420CSL",
+                        "SOC 426",
+                        "SOC 484",
+                        "SOC 490S/F",
+                        "SOC 492",
+                        "SOC 493"
+                    ]
+                ],
+                [
+                    "&",
+                    "SOC 401",
+                    [
+                        "|2",
+                        "SOC 307",
+                        "SOC 324",
+                        "SOC 335",
+                        "SOC 452",
+                        "SOC 461"
+                    ]
+                ],
+                [
+                    "&",
+                    [
+                        "|1",
+                        "SOC 370",
+                        "SOC 476"
+                    ],
+                    [
+                        "|2",
+                        "SOC 370",
+                        [
+                            "|1",
+                            "SOC 433",
+                            "POLS 480"
+                        ],
+                        "SOC 476",
+                        "SOC 484"
+                    ]
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/soc/programs/ba-sociology/",
     "name": "B.A., Sociology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -51,6 +112,5 @@
         "General Education Units: 39",
         "Additional Units: 37",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/soc/programs/ba-sociology/"
+    ]
 }

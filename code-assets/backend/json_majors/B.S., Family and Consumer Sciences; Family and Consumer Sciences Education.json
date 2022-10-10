@@ -1,4 +1,37 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "FCS 170",
+            "FCS 232",
+            "FCS 320",
+            "FCS 380",
+            "FCS 494",
+            "FCS 494I",
+            "BIOL 101",
+            "BIOL 101L",
+            "CHEM 110",
+            "CHEM 110L",
+            "FCS 150/L",
+            "FCS 160",
+            "FCS 201/L",
+            "FCS 207",
+            [
+                "|1",
+                "FCS 303",
+                "FCS 309"
+            ],
+            "FCS 315",
+            "FCS 321/L",
+            "FCS 322/L",
+            "FCS 324",
+            "FCS 330",
+            "FCS 340",
+            "FCS 357",
+            "FCS 436"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-iii/family-and-consumer-sciences-education/",
     "name": "B.S., Family and Consumer Sciences: Family and Consumer Sciences Education",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -35,6 +68,5 @@
         "General Education Units: 33",
         "Additional Units: 26",
         "Total Units for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-iii/family-and-consumer-sciences-education/"
+    ]
 }

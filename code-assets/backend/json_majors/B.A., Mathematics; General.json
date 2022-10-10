@@ -1,4 +1,28 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "COMP 106/L",
+                "COMP 110/L"
+            ],
+            "MATH 150A",
+            "MATH 150B",
+            "MATH 250",
+            "MATH 262",
+            "PHYS 220A/L",
+            "MATH 320",
+            "MATH 340",
+            "MATH 351",
+            "MATH 360",
+            "MATH 382/L",
+            "MATH 450A",
+            "MATH 462",
+            "MATH 493"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/math/programs/ba-mathematics-i/general/",
     "name": "B.A., Mathematics: General",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -34,6 +58,5 @@
         "General Education Units: 36",
         "Additional Units: 27-28",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/math/programs/ba-mathematics-i/general/"
+    ]
 }

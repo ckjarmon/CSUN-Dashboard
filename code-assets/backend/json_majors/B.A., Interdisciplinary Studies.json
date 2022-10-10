@@ -1,4 +1,74 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "INDS 250",
+            "INDS 300",
+            "INDS 350",
+            "INDS 400",
+            "INDS 490",
+            [
+                "|1",
+                "COMS 321",
+                "COMS 351",
+                "ENGL 436",
+                "ENGL 455",
+                "LING 408",
+                "PHIL 350",
+                "PHIL 355"
+            ],
+            [
+                "|1",
+                "BIOL 330/L",
+                "ECON 309",
+                "GEOG 306/L",
+                "LING 455",
+                "SBS 320",
+                "SOM 120",
+                "URBS 340A"
+            ],
+            [
+                "|1",
+                "AAS 331",
+                "AFRS 398",
+                "ART 313",
+                "GWS 302",
+                "PHIL 380",
+                "RS 395",
+                "URBS 340B"
+            ],
+            [
+                "&",
+                [
+                    "|1",
+                    "AAS 100",
+                    [
+                        "|1",
+                        "AIS 222",
+                        "GWS 222"
+                    ],
+                    "CAS 100",
+                    "CHS 202",
+                    "FLIT 150",
+                    "JS 100 ",
+                    "LING 250",
+                    "RS 256 "
+                ],
+                [
+                    "|1",
+                    "AFRS 300",
+                    "AIS 333",
+                    "CAS 311",
+                    "CHS 351",
+                    "ENGL 421A-Z",
+                    "GWS 351",
+                    "LING 325",
+                    "QS 301"
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/lrs/programs/ba-interdisciplinary-studies/",
     "name": "B.A., Interdisciplinary Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -68,6 +138,5 @@
         "General Education Units: 42-45",
         "Additional Units: 27-30",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/lrs/programs/ba-interdisciplinary-studies/"
+    ]
 }

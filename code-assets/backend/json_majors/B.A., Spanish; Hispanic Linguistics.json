@@ -1,4 +1,45 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "SPAN 220A",
+            "SPAN 220B",
+            "SPAN 304",
+            "SPAN 306",
+            "SPAN 307",
+            "SPAN 401",
+            [
+                "|1",
+                "SPAN 315A",
+                "SPAN 315B"
+            ],
+            [
+                "|1",
+                "SPAN 363",
+                "SPAN 364"
+            ],
+            "SPAN 400",
+            "SPAN 425",
+            "SPAN 497",
+            [
+                "|1",
+                "ENGL 301",
+                "LING 300"
+            ],
+            [
+                "|2",
+                "LING 402",
+                "LING 403",
+                "LING 404",
+                "LING 408",
+                "LING 417",
+                "LING 441",
+                "SPAN 495A-Z",
+                "SPAN 496A-Z"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-spanish-iii/hispanic-linguistics/",
     "name": "B.A., Spanish: Hispanic Linguistics",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -40,6 +81,5 @@
         "General Education Units: 42",
         "Additional Units: 36",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-spanish-iii/hispanic-linguistics/"
+    ]
 }

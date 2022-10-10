@@ -1,4 +1,48 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "ECE 101/L",
+            "ECE 206/L",
+            "MATH 150A",
+            "MATH 150B",
+            "PHYS 220A",
+            "PHYS 220AL",
+            "CE 240",
+            "ECE 240",
+            "ECE 240L",
+            "MATH 250",
+            [
+                "|1",
+                "MATH 280",
+                "ECE 280"
+            ],
+            "MSE 227",
+            "PHYS 220B",
+            "PHYS 220BL",
+            "ECE 309",
+            "ECE 320/L",
+            "ECE 340/L",
+            "ECE 350",
+            "ECE 351",
+            "ECE 455",
+            "MSE 304",
+            [
+                "|1",
+                "ME 370",
+                "ME 376"
+            ],
+            "ECE 370",
+            "ECE 450",
+            "ECE 480",
+            "ECE 492",
+            "ECE 493"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/ece/programs/bs-electrical-engineering/",
     "name": "B.S., Electrical Engineering",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -66,6 +110,5 @@
         "Total Units in the Major: 99",
         "General Education Units: 27",
         "Total Units Required for the Degree: 126"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/ece/programs/bs-electrical-engineering/"
+    ]
 }

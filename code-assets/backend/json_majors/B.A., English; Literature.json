@@ -1,4 +1,70 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ENGL 258",
+            "ENGL 259",
+            "ENGL 275",
+            "ENGL 355",
+            "ENGL 436",
+            [
+                "|1",
+                "AIS 318",
+                "ENGL 311",
+                "ENGL 318",
+                "ENGL 368",
+                "ENGL 369",
+                "ENGL 371",
+                "ENGL 431",
+                "ENGL 433",
+                "ENGL 434",
+                "ENGL 487"
+            ],
+            [
+                "|1",
+                "ENGL 414",
+                "ENGL 416",
+                "ENGL 417",
+                "ENGL 418",
+                "ENGL 443",
+                "ENGL 449"
+            ],
+            [
+                "|1",
+                "ENGL 419",
+                "ENGL 420",
+                "ENGL 452",
+                "ENGL 456",
+                "ENGL 466"
+            ],
+            [
+                "|1",
+                "ENGL 458",
+                "ENGL 460",
+                "ENGL 467"
+            ],
+            [
+                "|1",
+                "ENGL 473",
+                "ENGL 474",
+                "ENGL 477"
+            ],
+            [
+                "|2",
+                "ENGL 427",
+                "ENGL 461",
+                "ENGL 462",
+                "ENGL 463A",
+                "ENGL 463B",
+                "ENGL 468",
+                "ENGL 475",
+                "ENGL 476",
+                "ENGL 478"
+            ],
+            "ENGL 495"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/engl/programs/ba-english-i/literature/",
     "name": "B.A., English: Literature",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -71,6 +137,5 @@
         "General Education Units: 45",
         "Additional Units: 27",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/engl/programs/ba-english-i/literature/"
+    ]
 }

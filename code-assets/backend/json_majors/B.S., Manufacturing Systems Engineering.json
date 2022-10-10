@@ -1,4 +1,45 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "MATH 150A",
+            "MATH 150B",
+            "MSE 101/L",
+            "PHYS 220A",
+            "PHYS 220AL",
+            "CE 240",
+            "ECE 240",
+            "ECE 240L",
+            "MATH 250",
+            "MATH 280",
+            "MSE 227",
+            "MSE 227L",
+            "MSE 248/L",
+            "PHYS 220B",
+            "PHYS 220BL",
+            [
+                "|1",
+                "AM 316",
+                "ME 370"
+            ],
+            "CE 340",
+            "MSE 304",
+            "MSE 362",
+            "MSE 402",
+            "MSE 407",
+            "MSE 409/L",
+            "MSE 412/L",
+            "MSE 403CS",
+            "MSE 410/L",
+            "MSE 415",
+            "MSE 488A",
+            "MSE 488BCS"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/msem/programs/bs-manufacturing-systems-engineering/",
     "name": "B.S., Manufacturing Systems Engineering",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -58,6 +99,5 @@
         "Total Units in the Major: 94",
         "General Education Units: 27",
         "Total Units Required for the Degree: 121"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/msem/programs/bs-manufacturing-systems-engineering/"
+    ]
 }

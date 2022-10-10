@@ -1,4 +1,94 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 101/L",
+                    "BIOL 281",
+                    "BIOL 282"
+                ],
+                [
+                    "&",
+                    "BIOL 106/L",
+                    "BIOL 107/L"
+                ]
+            ],
+            [
+                "|1",
+                [
+                    "&",
+                    "CHEM 101/L/D",
+                    "CHEM 102/L/D"
+                ],
+                [
+                    "&",
+                    "CHEM 103/L",
+                    "CHEM 104/L"
+                ]
+            ],
+            [
+                "|1",
+                "CHEM 235/L",
+                [
+                    "&",
+                    "CHEM 333/L/D",
+                    "CHEM 334/L"
+                ]
+            ],
+            "EOH 455/L",
+            [
+                "|1",
+                "HSCI 132",
+                "HSCI 345"
+            ],
+            [
+                "|1",
+                "MATH 105",
+                [
+                    "&",
+                    "MATH 102",
+                    "MATH 104"
+                ]
+            ],
+            "PHYS 100A/L",
+            "PHYS 100B/L",
+            "EOH 352",
+            "EOH 356A",
+            "EOH 356B",
+            "EOH 456",
+            "EOH 466A",
+            "EOH 494B",
+            "HSCI 488",
+            [
+                "|1",
+                "HSCI 390/L",
+                "MATH 140"
+            ],
+            [
+                "|5",
+                "EOH 365",
+                "EOH 453",
+                "EOH 454",
+                "EOH 457",
+                "EOH 458",
+                "EOH 459",
+                "EOH 465",
+                "EOH 466B/L",
+                "EOH 466C",
+                "EOH 467",
+                "EOH 468",
+                "EOH 469",
+                "EOH 556",
+                "EOH 560",
+                "EOH 569",
+                "EOH 570"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/eoh/programs/bs-environmental-and-occupational-health-i/",
     "name": "B.S., Environmental and Occupational Health",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -83,6 +173,5 @@
         "General Education Units: 30",
         "Additional Units: 2-11",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/eoh/programs/bs-environmental-and-occupational-health-i/"
+    ]
 }

@@ -1,4 +1,99 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 101",
+                    "BIOL 101L",
+                    "BIOL 281",
+                    "BIOL 282"
+                ],
+                [
+                    "&",
+                    "BIOL 106",
+                    "BIOL 106L",
+                    "BIOL 107",
+                    "BIOL 107L"
+                ]
+            ],
+            [
+                "|1",
+                [
+                    "&",
+                    "CHEM 101",
+                    "CHEM 101D",
+                    "CHEM 101L",
+                    "CHEM 102",
+                    "CHEM 102D",
+                    "CHEM 102L"
+                ],
+                [
+                    "&",
+                    "CHEM 103",
+                    "CHEM 103L",
+                    "CHEM 104",
+                    "CHEM 104L"
+                ]
+            ],
+            [
+                "|1",
+                "CHEM 235/L",
+                [
+                    "&",
+                    "CHEM 333/L",
+                    "CHEM 333D",
+                    "CHEM 334/L"
+                ]
+            ],
+            "EOH 455/L",
+            [
+                "|1",
+                "HSCI 132",
+                "HSCI 345"
+            ],
+            [
+                "|1",
+                "MATH 105",
+                [
+                    "&",
+                    "MATH 102",
+                    "MATH 104"
+                ]
+            ],
+            "PHYS 100A",
+            "PHYS 100AL",
+            "PHYS 100B",
+            "PHYS 100BL",
+            "EOH 352",
+            "EOH 356A",
+            "EOH 356B",
+            "EOH 456",
+            "EOH 466A",
+            "EOH 494B",
+            "HSCI 488",
+            [
+                "|1",
+                "HSCI 390/L",
+                "MATH 140"
+            ],
+            "EOH 465",
+            "EOH 466B/L",
+            "EOH 466C",
+            [
+                "|2",
+                "EOH 459",
+                "EOH 467",
+                "EOH 468",
+                "EOH 469",
+                "EOH 560",
+                "EOH 570"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/eoh/programs/bs-environmental-and-occupational-health-ii/industrial-hygiene/",
     "name": "B.S., Environmental and Occupational Health: Industrial Hygiene",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -77,6 +172,5 @@
         "General Education Units: 30",
         "Additional Units: 2-10",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/eoh/programs/bs-environmental-and-occupational-health-ii/industrial-hygiene/"
+    ]
 }

@@ -1,4 +1,24 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "CHS 100",
+            "CHS 201",
+            "CHS 270SOC/F",
+            "CHS 445",
+            "CHS 453",
+            "CHS 473",
+            "CHS 497",
+            [
+                "|2",
+                "CHS 351",
+                "CHS 401",
+                "CHS 432",
+                "CHS 470"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/chs/programs/ba-chicano-and-chicana-studies-ii/double-major/",
     "name": "B.A., Chicano and Chicana Studies: Double Major",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -20,6 +40,5 @@
         "4. Additional Upper Division Electives (6 units)",
         "Electives in upper division Chicana/o Studies are to be selected with the advice and approval of the advisor.",
         "Total Units in the Double Major Option: 33"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/chs/programs/ba-chicano-and-chicana-studies-ii/double-major/"
+    ]
 }

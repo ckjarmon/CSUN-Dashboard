@@ -1,4 +1,47 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|2",
+                "RS 100",
+                "RS 101",
+                "RS 150",
+                "RS 160",
+                "RS 240"
+            ],
+            "RS 395",
+            [
+                "|2",
+                "RS 305",
+                "RS 306",
+                "RS 307",
+                "RS 308",
+                "RS 378"
+            ],
+            [
+                "|3",
+                "JS 300",
+                "RS 345",
+                "RS 365",
+                "RS 380",
+                "RS 385",
+                "RS 390",
+                "RS 426"
+            ],
+            [
+                "|1",
+                "RS 320",
+                "RS 325",
+                "RS 327",
+                "RS 375",
+                "RS 383",
+                "RS 384"
+            ],
+            "RS 497B"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/rs/programs/ba-religious-studies-i/",
     "name": "B.A., Religious Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -47,6 +90,5 @@
         "General Education Units: 48",
         "Additional Units: 30",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/rs/programs/ba-religious-studies-i/"
+    ]
 }

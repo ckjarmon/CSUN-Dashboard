@@ -1,4 +1,43 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "ACCT 230",
+            "BLAW 280",
+            "ECON 160",
+            "ECON 161",
+            "ENGL 205",
+            "IS 212",
+            "MATH 103",
+            "SOM 120",
+            "BUS 302",
+            "BUS 302L",
+            "BUS 497A",
+            "FIN 303",
+            "MGT 360",
+            "MKT 304",
+            "SOM 306",
+            "COMP 110/L",
+            "IS 312",
+            "IS 431",
+            "IS 435",
+            "IS 441",
+            "IS 451",
+            "IS 335",
+            "IS 355",
+            [
+                "|4",
+                "HSCI 314",
+                "HSCI 391",
+                "HSCI 412",
+                "HSCI 415",
+                "IS 498C",
+                "IS 499C"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/som/programs/bs-information-systems-iv/health-systems/",
     "name": "B.S., Information Systems: Health Systems",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -58,6 +97,5 @@
         "General Education Units: 33",
         "Additional Units: 4",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/som/programs/bs-information-systems-iv/health-systems/"
+    ]
 }

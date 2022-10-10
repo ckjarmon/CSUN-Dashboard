@@ -1,4 +1,37 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "&",
+                "BIOL 211",
+                "BIOL 212"
+            ],
+            "BIOL 215/L",
+            [
+                "&",
+                "BIOL 281",
+                "BIOL 282"
+            ],
+            "CHEM 103/L",
+            "MATH 140",
+            "NURS 302",
+            "NURS 307/L",
+            "NURS 310",
+            "NURS 315",
+            "NURS 318/L",
+            "NURS 320/L",
+            "NURS 422/L",
+            "NURS 426",
+            "NURS 427/L",
+            "NURS 428/L",
+            "NURS 430/L",
+            "NURS 443/L",
+            "NURS 444/L",
+            "NURS 498L"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/nurs/programs/bs-nursing-ii/accelerated/",
     "name": "B.S., Nursing: Accelerated",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -48,6 +81,5 @@
         "NURS 444/L Nursing Care of Childbearing Family and Clinical Lab (2/1.5)",
         "NURS 498L Clinical Intensive (2) ",
         "Total Units Required Beyond Original B.A./B.S. Degree: 58"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/nurs/programs/bs-nursing-ii/accelerated/"
+    ]
 }

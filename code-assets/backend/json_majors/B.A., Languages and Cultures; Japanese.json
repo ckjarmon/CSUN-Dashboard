@@ -1,4 +1,65 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "FLIT 234",
+            [
+                "|1",
+                "FLIT 230",
+                "FLIT 245",
+                "FLIT 250",
+                "FLIT 260",
+                "FLIT 261",
+                "FLIT 295A",
+                "FLIT 295B"
+            ],
+            "FLIT 391",
+            "FLIT 491",
+            [
+                "|2",
+                "ARMN 310",
+                "ARMN 360",
+                "FLIT 320",
+                "FLIT 321",
+                "FLIT 322",
+                "FLIT 330",
+                "FLIT 331",
+                "FLIT 340",
+                "FLIT 341",
+                "FLIT 370",
+                "FLIT 371",
+                "FLIT 380",
+                "FLIT 381",
+                "FLIT 383",
+                "FLIT 384",
+                "FLIT 402",
+                "FLIT 455"
+            ],
+            "JAPN 201",
+            "JAPN 202",
+            [
+                "|1",
+                "FLIT 250",
+                "JAPN 204",
+                "JAPN 205"
+            ],
+            [
+                "|3",
+                "FLIT 370",
+                "JAPN 300",
+                "JAPN 304",
+                "JAPN 305",
+                "JAPN 306"
+            ],
+            [
+                "|2",
+                "FLIT 402",
+                "JAPN 400",
+                "JAPN 401"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-languages-and-cultures-iv/japanese/",
     "name": "B.A., Languages and Cultures: Japanese",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -66,6 +127,5 @@
         "General Education Units: 39",
         "Additional Units: 37",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-languages-and-cultures-iv/japanese/"
+    ]
 }

@@ -1,4 +1,269 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 106",
+            "BIOL 106/L",
+            "BIOL 107",
+            "BIOL 107/L",
+            "CHEM 101/L/D",
+            "CHEM 102/L/D",
+            "PHYS 100A/L",
+            "PHYS 100B/L",
+            "BIOL 322",
+            "BIOL 360",
+            "BIOL 380",
+            "CHEM 333/L/D",
+            "CHEM 333D",
+            "CHEM 334/L",
+            {
+                "no-intersection": [
+                    "&",
+                    [
+                        "|1",
+                        "BIOL 315/L",
+                        "BIOL 382/L",
+                        "BIOL 383/L",
+                        "BIOL 408/L",
+                        "BIOL 411/L",
+                        "BIOL 417/L",
+                        "BIOL 441/L",
+                        "BIOL 442/L",
+                        "BIOL 472/L",
+                        "BIOL 475/L",
+                        "BIOL 477/L",
+                        "BIOL 480/L",
+                        "BIOL 481/L",
+                        "BIOL 482/L",
+                        "BIOL 483/L",
+                        "BIOL 485/L",
+                        "BIOL 487/L",
+                        "BIOL 551/L",
+                        "BIOL 316CS/LCS"
+                    ],
+                    [
+                        "|1",
+                        "BIOL 408/L",
+                        "BIOL 411/L",
+                        "BIOL 417/L",
+                        "BIOL 441/L",
+                        "BIOL 442/L",
+                        "BIOL 472/L",
+                        "BIOL 475/L",
+                        "BIOL 477/L",
+                        "BIOL 480/L",
+                        "BIOL 481/L",
+                        "BIOL 482/L",
+                        "BIOL 483/L",
+                        "BIOL 485/L",
+                        "BIOL 487/L",
+                        "BIOL 444",
+                        "BIOL 461",
+                        "BIOL 462",
+                        "BIOL 464",
+                        "BIOL 466",
+                        "BIOL 468",
+                        "BIOL 469",
+                        "BIOL 470",
+                        "BIOL 471A",
+                        "BIOL 473",
+                        "BIOL 476",
+                        "BIOL 479",
+                        "BIOL 489",
+                        "BIOL 493"
+                    ]
+                ]
+            },
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 312/L",
+                    "BIOL 392F"
+                ],
+                [
+                    "&",
+                    "BIOL 313/L",
+                    "BIOL 392B"
+                ],
+                "BIOL 403/L",
+                [
+                    "&",
+                    "BIOL 404/L",
+                    "BIOL 492Y"
+                ],
+                [
+                    "&",
+                    "BIOL 406/L",
+                    "BIOL 492K"
+                ],
+                [
+                    "&",
+                    "BIOL 409/L",
+                    "BIOL 492J"
+                ],
+                "BIOL 410/L ",
+                [
+                    "&",
+                    "BIOL 412/L",
+                    "BIOL 492E"
+                ],
+                [
+                    "&",
+                    "BIOL 413/L",
+                    "BIOL 492AA"
+                ],
+                [
+                    "&",
+                    "BIOL 415/L",
+                    "BIOL 492M"
+                ],
+                "BIOL 418/L",
+                [
+                    "&",
+                    "BIOL 430/L",
+                    "BIOL 492BB"
+                ],
+                "BIOL 432/L",
+                "BIOL 433/L",
+                "BIOL 435/L",
+                [
+                    "&",
+                    "BIOL 437/L",
+                    "BIOL 492V"
+                ],
+                [
+                    "&",
+                    "BIOL 438/L",
+                    "BIOL 492R"
+                ],
+                [
+                    "&",
+                    "BIOL 446/L",
+                    "BIOL 492T"
+                ],
+                [
+                    "&",
+                    "BIOL 448",
+                    "BIOL 492U"
+                ],
+                "BIOL 452/L"
+            ],
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 407/L",
+                    "BIOL 492N"
+                ],
+                [
+                    "&",
+                    "BIOL 414/L",
+                    "BIOL 492A"
+                ],
+                [
+                    "&",
+                    "BIOL 419/L",
+                    "BIOL 492C"
+                ],
+                [
+                    "&",
+                    "BIOL 421/L",
+                    "BIOL 492B"
+                ],
+                "BIOL 422/L",
+                [
+                    "&",
+                    "BIOL 423",
+                    "BIOL 492F "
+                ],
+                [
+                    "&",
+                    "BIOL 424/L",
+                    "BIOL 492G "
+                ],
+                [
+                    "&",
+                    "BIOL 425",
+                    "BIOL 492D "
+                ],
+                [
+                    "&",
+                    "BIOL 426/L",
+                    "BIOL 492P "
+                ],
+                [
+                    "&",
+                    "BIOL 427/L",
+                    "BIOL 492H "
+                ],
+                [
+                    "&",
+                    "BIOL 427A/AL",
+                    "BIOL 492L"
+                ],
+                [
+                    "&",
+                    "BIOL 428/L",
+                    "BIOL 492W"
+                ],
+                [
+                    "&",
+                    "BIOL 429/L",
+                    "BIOL 492I"
+                ],
+                [
+                    "&",
+                    "BIOL 434/L",
+                    "BIOL 492Q"
+                ],
+                [
+                    "&",
+                    "BIOL 439/L",
+                    "BIOL 492S"
+                ],
+                [
+                    "&",
+                    "BIOL 451",
+                    "BIOL 326"
+                ],
+                [
+                    "&",
+                    "BIOL 453/L",
+                    "BIOL 492Z"
+                ],
+                [
+                    "&",
+                    "BIOL 456",
+                    "BIOL 492O"
+                ]
+            ],
+            [
+                "|?",
+                "BIOL 330/L",
+                "BIOL 431/L",
+                "BIOL 447/L",
+                "BIOL 449",
+                [
+                    "|1",
+                    "BIOL 490",
+                    "BIOL 495",
+                    "BIOL 499",
+                    "BIOL 526"
+                ],
+                "BIOL 502/L",
+                "BIOL 503/L",
+                "BIOL 560 ",
+                "CHEM 365/L",
+                "CHEM 461/L",
+                "CHEM 464/L",
+                "GEOL 322/L",
+                "GEOL 351/L",
+                "MATH 255A"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/ba-biology/",
     "name": "B.A., Biology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -136,6 +401,5 @@
         "General Education Units: 36",
         "Additional Units: 15",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/ba-biology/"
+    ]
 }

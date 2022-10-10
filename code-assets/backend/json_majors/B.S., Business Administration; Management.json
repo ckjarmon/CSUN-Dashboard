@@ -1,4 +1,56 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "ACCT 230",
+            "BLAW 280",
+            "ECON 160",
+            "ECON 161",
+            "ENGL 205",
+            "IS 212",
+            "MATH 103",
+            "SOM 120",
+            "BUS 302",
+            "BUS 302L",
+            "BUS 497A",
+            "FIN 303",
+            "MGT 360",
+            "MKT 304",
+            "SOM 306",
+            "BLAW 308",
+            "MGT 370",
+            "MGT 380",
+            [
+                "|1",
+                "COMS 323",
+                "COMS 443",
+                "ENGL 305",
+                "ENGL 306",
+                "ENGL 407",
+                "PHIL 305"
+            ],
+            "ECON 308",
+            "MGT 498C",
+            [
+                "|2",
+                "MGT 340",
+                "MGT 450",
+                "MGT 454",
+                "MGT 456",
+                "MGT 458",
+                "MGT 460",
+                "MGT 462",
+                "MGT 464",
+                "MGT 466",
+                "MGT 468",
+                "MGT 491",
+                "MGT 496",
+                "MGT 499"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/mgt/programs/bs-business-administration-ix/management/",
     "name": "B.S., Business Administration: Management",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -80,6 +132,5 @@
         "General Education Units: 33",
         "Additional Units: 16-17",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/mgt/programs/bs-business-administration-ix/management/"
+    ]
 }

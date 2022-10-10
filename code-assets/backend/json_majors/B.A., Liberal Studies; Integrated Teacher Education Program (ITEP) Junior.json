@@ -1,4 +1,422 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            ["|1",
+                ["&",
+                    [
+                        "|1",
+                        "AAS 113B",
+                        "AAS 114B",
+                        "AAS 115",
+                        "AFRS 113B",
+                        "AFRS 114B",
+                        "AFRS 115",
+                        "CAS 113B",
+                        "CAS 114B",
+                        "CAS 115",
+                        "CHS 113B",
+                        "CHS 114B",
+                        "CHS 115",
+                        "ENGL 113B",
+                        "ENGL 114B",
+                        "ENGL 115",
+                        "QS 113B",
+                        "QS 114B",
+                        "QS 115"
+                    ],
+                    [
+                        "|1",
+                        "AAS 201",
+                        "AFRS 204",
+                        "CHS 202",
+                        "COMS 225",
+                        "PHIL 100",
+                        "PHIL 200",
+                        "PHIL 210",
+                        "RS 204"
+                    ],
+                    [
+                        "|1",
+                        "AAS 151",
+                        "AFRS 151",
+                        "CAS 151",
+                        "CHS 151",
+                        "COMS 151"
+                    ],
+                    "MATH 210",
+                    [
+                        "|1",
+                        "BIOL 100/BIOL",
+                        "BIOL 101/BIOL",
+                        "BIOL 102CS/LCS"
+                    ],
+                    "PHSC 170",
+                    [
+                        "|1",
+                        "AAS 220",
+                        "AFRS 245",
+                        "CAS 201",
+                        "CHS 201",
+                        "ENGL 255",
+                        "ENGL 258",
+                        "ENGL 259",
+                        "ENGL 275",
+                        "FLIT 295A",
+                        "FLIT 295B"
+                    ],
+                    [
+                        "|1",
+                        "ART 100/L",
+                        "ART 110",
+                        "ART 112",
+                        "ART 114",
+                        "CAS 202",
+                        "CHS 111",
+                        "MUS 105",
+                        "MUS 107",
+                        "TH 110",
+                        "TH 111"
+                    ],
+                    "MATH 211",
+                    "GEOG 150",
+                    [
+                        "|1",
+                        "GEOG 106LRS",
+                        "GEOL 106LRS"
+                    ],
+                    "HIST 110",
+                    [
+                        "|1",
+                        "AFRS 271",
+                        "CHS 245",
+                        "HIST 270"
+                    ],
+                    [
+                        "|1",
+                        "AFRS 161",
+                        "CHS 260",
+                        "POLS 155",
+                        "RS 255"
+                    ],
+                    "ELPS 203",
+                    [
+                        "|1",
+                        "CADV 150",
+                        "FCS 330"
+                    ],
+                    "LRS 300",
+                    "ENGL 305",
+                    "EPC 315",
+                    "ART 380/L",
+                    "KIN 314/L",
+                    "MUS 361/L",
+                    "TH 371/L",
+                    [
+                        "|1",
+                        "GEOG 417",
+                        "HIST 417"
+                    ],
+                    "ENGL 303/L",
+                    "KIN 470/L",
+                    "MATH 310",
+                    "MATH 312",
+                    "EED 472",
+                    "LING 417",
+                    "HSCI 465ELM",
+                    [
+                        "|1",
+                        "AAS 450",
+                        "AFRS 420",
+                        "ARMN 440",
+                        "CAS 410",
+                        "CHS 430"
+                    ],
+                    "ENGL 428",
+                    "EED 477A",
+                    "EED 477B",
+                    "EED 578A",
+                    "EED 579A",
+                    "SPED 420",
+                    "GEOL 406LRS",
+                    "EED 480",
+                    "EED 579D",
+                    "EED 578D"
+                ],
+                ["&",
+                    [
+                        "|1",
+                        "AAS 113B",
+                        "AAS 114B",
+                        "AAS 115",
+                        "AFRS 113B",
+                        "AFRS 114B",
+                        "AFRS 115",
+                        "CAS 113B",
+                        "CAS 114B",
+                        "CAS 115",
+                        "CHS 113B",
+                        "CHS 114B",
+                        "CHS 115",
+                        "ENGL 113B",
+                        "ENGL 114B",
+                        "ENGL 115",
+                        "QS 113B",
+                        "QS 114B",
+                        "QS 115"
+                    ],
+                    [
+                        "|1",
+                        "AAS 201",
+                        "AFRS 204",
+                        "CHS 202",
+                        "COMS 225",
+                        "PHIL 100",
+                        "PHIL 200",
+                        "PHIL 210",
+                        "RS 204"
+                    ],
+                    [
+                        "|1",
+                        "AAS 151",
+                        "AFRS 151",
+                        "CAS 151",
+                        "CHS 151",
+                        "COMS 151"
+                    ],
+                    "MATH 210",
+                    [
+                        "|1",
+                        "BIOL 100/BIOL",
+                        "BIOL 101/BIOL",
+                        "BIOL 102CS/LCS"
+                    ],
+                    "PHSC 170",
+                    [
+                        "|1",
+                        "AAS 220",
+                        "AFRS 245",
+                        "CAS 201",
+                        "CHS 201",
+                        "ENGL 255",
+                        "ENGL 258",
+                        "ENGL 259",
+                        "ENGL 275",
+                        "FLIT 295A",
+                        "FLIT 295B"
+                    ],
+                    [
+                        "|1",
+                        "ART 100/L",
+                        "ART 110",
+                        "ART 112",
+                        "ART 114",
+                        "CAS 202",
+                        "CHS 111",
+                        "MUS 105",
+                        "MUS 107",
+                        "TH 110",
+                        "TH 111"
+                    ],
+                    "MATH 211",
+                    "GEOG 150",
+                    [
+                        "|1",
+                        "GEOG 106LRS",
+                        "GEOL 106LRS"
+                    ],
+                    "HIST 110",
+                    [
+                        "|1",
+                        "AFRS 271",
+                        "CHS 245",
+                        "HIST 270"
+                    ],
+                    [
+                        "|1",
+                        "AFRS 161",
+                        "CHS 260",
+                        "POLS 155",
+                        "RS 255"
+                    ],
+                    "SPED 400",
+                    [
+                        "|1",
+                        "CADV 150",
+                        "FCS 330"
+                    ],
+                    "LRS 300",
+                    "ENGL 305",
+                    "SPED 402",
+                    "ART 380/L",
+                    "KIN 314/L",
+                    "MUS 361/L",
+                    "TH 371/L",
+                    "ENGL 303/L",
+                    "MATH 310",
+                    "MATH 312",
+                    "EED 472",
+                    "SPED 406",
+                    "ENGL 428",
+                    "SPED 407",
+                    "LING 417",
+                    "KIN 470/L",
+                    [
+                        "|1",
+                        "AAS 450",
+                        "AFRS 420",
+                        "ARMN 440",
+                        "CAS 410",
+                        "CHS 430"
+                    ],
+                    "SPED 420",
+                    "SPED 416",
+                    "SPED 511",
+                    [
+                        "|1",
+                        "GEOG 417",
+                        "HIST 417"
+                    ],
+                    "SPED 403MME",
+                    "SPED 502MME",
+                    "SPED 503MME",
+                    "GEOL 406LRS",
+                    "SPED 545",
+                    "SPED 580MME",
+                    [
+                        "|1",
+                        [
+                            [
+                                "|1",
+                                "AAS 420",
+                                "AFRS 346",
+                                "AIS 318", 
+                                "ENGL 318",
+                                "CHS 480/F",
+                                "ENGL 311"
+                            ],
+                            [
+                                "|1",
+                                "AFRS 395",
+                                "CHS 482",
+                                "ENGL 405",
+                                "LING 427",
+                                "LING 447"
+                            ],
+                            [
+                                "|1",
+                                "ENGL 495ESM",
+                                "LING 325"
+                            ]
+                        ],
+                        [
+                            "LRS 333",
+                            "LRS 433/F",
+                            "CHS 480/F"
+                        ]
+                    ],
+                    "MATH 131",
+                    "MATH 311",
+                    "MATH 331",
+                    [
+                        "|1",
+                        "AFRS 366",
+                        "CAS 309",
+                        "CAS 310",
+                        "CHS 345",
+                        "CHS 445",
+                        "GEOG 321",
+                        "HIST 355",
+                        "HIST 369"
+                    ],
+                    [
+                        "|1",
+                        "AAS 210",
+                        "AAS 345",
+                        "AAS 347",
+                        "AFRS 272",
+                        "AFRS 300",
+                        "AIS 304",
+                        "AIS 401",
+                        "CAS 369",
+                        "CHS 260",
+                        "CHS 471",
+                        "GEOG 300",
+                        "GEOG 350",
+                        "GWS 110",
+                        "GWS 300",
+                        "GWS 370",
+                        "HIST 301",
+                        "HIST 380",
+                        "QS 301"
+                    ],
+                    [
+                        "|1",
+                        "AAS 417",
+                        "AFRS 417",
+                        "ARMN 417",
+                        "CHS 417",
+                        "ELPS 417"
+                    ],
+                    "D. Sciences",
+                    [
+                        "|1",
+                        "ASTR 152",
+                        "ASTR 154L",
+                        "ASTR 352",
+                        "ASTR 352L",
+                        "CHEM 110",
+                        "CHEM 110L",
+                        "PHYS 305",
+                        "PHYS 305L"
+                    ],
+                    [
+                        "|1",
+                        "BIOL 211",
+                        "BIOL 212",
+                        "BIOL 281",
+                        "BIOL 282",
+                        "BIOL 285",
+                        "BIOL 316CS/LCS",
+                        "BIOL 317/L",
+                        "BIOL 323",
+                        "BIOL 325",
+                        "BIOL 325L",
+                        "BIOL 341",
+                        "BIOL 362",
+                        "BIOL 362L",
+                        "GEOL 101",
+                        "GEOL 102",
+                        "GEOL 110",
+                        "GEOL 112",
+                        "GEOL 122",
+                        "GEOL 123",
+                        "GEOL 300",
+                        "GEOL 301",
+                        "SCI 456"
+                    ],
+                    [
+                        "|2",
+                        "ART 385/L",
+                        "KIN 314/L",
+                        "MUS 361/L"
+                    ],
+                    "TH 371/L",
+                    [
+                        "|1",
+                        "ART 305",
+                        "KIN 380/L",
+                        "MUS 307",
+                        "TH 310"
+                    ],
+                    "CADV 335",
+                    "ENGL 429",
+                    "LRS 425A-Z"
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/lrs/programs/ba-liberal-studies-ii/integrated-teacher-education-program-itep-junior/",
     "name": "B.A., Liberal Studies: Integrated Teacher Education Program (ITEP) Junior",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -439,6 +857,5 @@
         "LRS 425A-Z Selected Topics in Childhood Studies (3)",
         "General Education",
         "Liberal Studies majors in Teacher Preparation options satisfy General Education requirements by completion of the major. In addition, students must complete 3 units of coursework to meet the Ethnic Studies (ES) graduation requirement. If taken, one of the following courses in the major will also meet the Ethnic Studies (ES) requirement: AAS 210, AAS 220, AAS 345, AFRS 161, AFRS 245, AFRS 272, AFRS 366, AFRS 417, AFRS 420, CAS 201, CAS 309, CAS 369, CHS 201, CHS 345, CHS 417, CHS 430 or CHS 480/F."
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/lrs/programs/ba-liberal-studies-ii/integrated-teacher-education-program-itep-junior/"
+    ]
 }

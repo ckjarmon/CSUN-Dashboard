@@ -1,4 +1,81 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 101/L",
+            "BIOL 211",
+            "BIOL 212",
+            "MATH 140",
+            "CD 405",
+            "CD 410",
+            "CD 415",
+            "CD 442",
+            "CD 445",
+            "CD 446",
+            "CD 451",
+            "CD 462",
+            "CD 469A",
+            "CD 485",
+            "ENGL 302",
+            "PHYS 305/L",
+            [
+                "|1",
+                [
+                    "&",
+                    "CD 450",
+                    "CD 480",
+                    [
+                        "|1",
+                        "ART 383/L",
+                        "ART 385/L",
+                        "BIOL 241/L",
+                        "CD 465",
+                        "CD 469O",
+                        "EPC 314",
+                        "FCS 330",
+                        "HSCI 314",
+                        "HSCI 336",
+                        "HSCI 337",
+                        "HSCI 345",
+                        "PSY 200",
+                        "PSY 302",
+                        "PSY 313",
+                        "PSY 351",
+                        "PSY 365",
+                        "RTM 305",
+                        "RTM 352",
+                        "RTM 415",
+                        "SOC 440"
+                    ]
+                ],
+                [
+                    "|U10",
+                    "ART 383/L",
+                    "ART 385",
+                    "BIOL 241/L",
+                    "CD 465",
+                    "CD 469O",
+                    "CD 471",
+                    "CD 475",
+                    "CD 576",
+                    "HSCI 314",
+                    "HSCI 336",
+                    "HSCI 337",
+                    "HSCI 345",
+                    "PSY 200",
+                    "PSY 302",
+                    "PSY 313",
+                    "PSY 351",
+                    "PSY 365",
+                    "RTM 305",
+                    "RTM 352",
+                    "RTM 415",
+                    "SOC 440"
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/cd/programs/ba-communicative-disorders/",
     "name": "B.A., Communicative Disorders",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -90,6 +167,5 @@
         "General Education Units: 39",
         "Additional Units: 23-24",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/cd/programs/ba-communicative-disorders/"
+    ]
 }

@@ -1,4 +1,89 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ENGL 208",
+            [
+                "|1",
+                "ENGL 258",
+                "ENGL 259",
+                "ENGL 275"
+            ],
+            "ENGL 355",
+            "ENGL 436",
+            [
+                "|1",
+                "AIS 318",
+                "ENGL 311",
+                "ENGL 318",
+                "ENGL 368",
+                "ENGL 369",
+                "ENGL 371",
+                "ENGL 431",
+                "ENGL 433",
+                "ENGL 434",
+                "ENGL 487"
+            ],
+            [
+                "|1",
+                "ENGL 414",
+                "ENGL 416",
+                "ENGL 417",
+                "ENGL 418",
+                "ENGL 419",
+                "ENGL 420",
+                "ENGL 443",
+                "ENGL 449",
+                "ENGL 452",
+                "ENGL 456",
+                "ENGL 458",
+                "ENGL 460",
+                "ENGL 466",
+                "ENGL 467"
+            ],
+            [
+                "|1",
+                "ENGL 473",
+                "ENGL 474",
+                "ENGL 477"
+            ],
+            [
+                "|1",
+                "ENGL 427",
+                "ENGL 461",
+                "ENGL 462",
+                "ENGL 463A",
+                "ENGL 463B",
+                "ENGL 468",
+                "ENGL 475",
+                "ENGL 476",
+                "ENGL 478"
+            ],
+            [
+                "|3",
+                "ENGL 308",
+                "ENGL 309",
+                "ENGL 310",
+                "ENGL 408",
+                "ENGL 409",
+                "ENGL 410",
+                "ENGL 457A-Z"
+            ],
+            [
+                "|1",
+                "ENGL 464",
+                "ENGL 465"
+            ],
+            [
+                "|1",
+                "ENGL 457A-Z",
+                "ENGL 490",
+                "ENGL 491",
+                "ENGL 512"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/engl/programs/ba-english-ii/creative-writing/",
     "name": "B.A., English: Creative Writing",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -91,6 +176,5 @@
         "General Education Units: 42",
         "Additional Units: 33",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/engl/programs/ba-english-ii/creative-writing/"
+    ]
 }

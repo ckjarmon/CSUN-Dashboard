@@ -1,4 +1,56 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "ACCT 230",
+            "BLAW 280",
+            "ECON 160",
+            "ECON 161",
+            "ENGL 205",
+            "IS 212",
+            "MATH 103",
+            "SOM 120",
+            "BUS 302",
+            "BUS 302L",
+            "BUS 497A",
+            "FIN 303",
+            "MGT 360",
+            "MKT 304",
+            "SOM 306",
+            "BANA 320",
+            "BANA 410",
+            "BANA 420",
+            "IS 312",
+            "SOM 307",
+            [
+                "|1",
+                "BLAW 368",
+                "BLAW 372",
+                "ENGL 306",
+                "PHIL 305"
+            ],
+            {
+                "no-intersection": [
+                    "&",
+                    [
+                        "BANA 310",
+                        "BANA 430",
+                        "BANA 440"
+                    ],
+                    [
+                        "BANA 310",
+                        "BANA 430",
+                        "BANA 440",
+                        "IS 441 ",
+                        "MKT 356",
+                        "SOM 485"
+                    ]
+                ]
+            }
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/som/programs/bs-business-administration-iii/business-analytics/",
     "name": "B.S., Business Administration: Business Analytics",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -61,6 +113,5 @@
         "General Education Units: 33",
         "Additional Units: 16-17",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/som/programs/bs-business-administration-iii/business-analytics/"
+    ]
 }

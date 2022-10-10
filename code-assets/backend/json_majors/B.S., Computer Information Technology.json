@@ -1,4 +1,92 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "CIT 101/L",
+            "CIT 160/L",
+            "CIT 210/L",
+            "CIT 270/L",
+            "COMP 110/L",
+            "COMP 122/L",
+            "COMP 182/L",
+            [
+                "|1",
+                "MATH 103",
+                "MATH 150A",
+                "MATH 255A"
+            ],
+            [
+                "|1",
+                "MATH 140",
+                "SOM 120"
+            ],
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 106/L",
+                    "BIOL 107/L"
+                ],
+                [
+                    "&",
+                    "CHEM 101/L/D",
+                    "CHEM 102/D/L"
+                ],
+                [
+                    "&",
+                    [
+                        "&",
+                        "GEOG 101",
+                        "GEOG 102"
+                    ],
+                    [
+                        "&",
+                        "GEOG 103",
+                        "GEOG 105"
+                    ]
+                ],
+                [
+                    "&",
+                    [
+                        "&",
+                        "GEOL 101",
+                        "GEOL 102"
+                    ],
+                    [
+                        "&",
+                        "GEOL 110",
+                        "GEOL 112"
+                    ]
+                ],
+                [
+                    "&",
+                    "PHYS 100A/L",
+                    [
+                        "&",
+                        "ASTR 152",
+                        "ASTR 154L"
+                    ]
+                ],
+                [
+                    "&",
+                    "PHYS 220A/L",
+                    "PHYS 220B/L"
+                ]
+            ],
+            "CIT 360/L",
+            "CIT 384/L",
+            "CIT 425/L",
+            "CIT 480/L",
+            "CIT 481/L",
+            "COMP 485",
+            "IS 312",
+            "IS 431",
+            "IS 435",
+            "IS 441",
+            "IS 451"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/comp/programs/bs-computer-information-technology/",
     "name": "B.S., Computer Information Technology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -62,6 +150,5 @@
         "General Education Units: 30",
         "Additional Units: 0-4",
         "Total Units Required for the B.S. Degree: 120-124"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/comp/programs/bs-computer-information-technology/"
+    ]
 }

@@ -1,4 +1,71 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "FCS 170",
+            "FCS 232",
+            "FCS 320",
+            "FCS 380",
+            "FCS 494",
+            "FCS 494I",
+            "ECON 160",
+            "FCS 323",
+            "FCS 324",
+            "FCS 420",
+            "MKT 304",
+            "MKT 348",
+            [
+                "|1",
+                [
+                    "&",
+                    "BLAW 280",
+                    "BUS 104",
+                    "ENGL 205",
+                    "FCS 428",
+                    "MGT 360",
+                    [
+                        "|5",
+                        "FCS 315",
+                        "FCS 322/L",
+                        "FCS 340",
+                        "FCS 357",
+                        "FCS 422",
+                        "FCS 423",
+                        "FCS 424",
+                        "FCS 426",
+                        "FCS 427",
+                        "FCS 429"
+                    ]
+                ],
+                [
+                    "&",
+                    [
+                        "|1",
+                        "BLAW 108",
+                        "BLAW 280"
+                    ],
+                    "FCS 422",
+                    "FCS 423",
+                    "FCS 424",
+                    "FCS 429",
+                    "RE 414 ",
+                    [
+                        "|5",
+                        "FCS 315",
+                        "FCS 322/L",
+                        "FCS 340",
+                        "FCS 357",
+                        "FCS 426",
+                        "FCS 427",
+                        "FCS 428",
+                        "FCS 480",
+                        "FCS 499A-C"
+                    ]
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-ii/consumer-affairs/",
     "name": "B.S., Family and Consumer Sciences: Consumer Affairs",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -67,6 +134,5 @@
         "General Education Units: 39",
         "Additional Units: 16",
         "Total Units for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-ii/consumer-affairs/"
+    ]
 }

@@ -1,4 +1,85 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "COMP 110/L",
+            "COMP 122/L",
+            "COMP 182/L",
+            "COMP 222",
+            "COMP 256/L",
+            "COMP 282",
+            "MATH 150A",
+            "MATH 150B",
+            "MATH 262",
+            "PHIL 230",
+            "COMP 310",
+            "COMP 322/L",
+            "COMP 333",
+            "COMP 380/L",
+            "COMP 490/L",
+            "COMP 491L",
+            [
+                "|1",
+                "COMP 482",
+                "MATH 482"
+            ],
+            [
+                "|1",
+                "MATH 340",
+                "MATH 341"
+            ],
+            {
+                "no-intersection": [
+                    "&",
+                    [
+                        "|1",
+                        [
+                            "&",
+                            "BIOL 106/L",
+                            "BIOL 107/L"
+                        ],
+                        [
+                            "&",
+                            "CHEM 101/L/D",
+                            "CHEM 102/L/D"
+                        ],
+                        [
+                            "&",
+                            "PHYS 220A/L",
+                            "PHYS 220B/L"
+                        ]
+                    ],
+                    [
+                        "|1",
+                        "BIOL 106/L",
+                        "CHEM 101/L/D",
+                        [
+                            "&",
+                            "GEOG 101",
+                            "GEOG 102"
+                        ],
+                        [
+                            "&",
+                            "GEOG 103",
+                            "GEOG 105"
+                        ],
+                        [
+                            "&",
+                            "GEOL 101",
+                            "GEOL 102"
+                        ],
+                        [
+                            "&",
+                            "GEOL 110",
+                            "GEOL 112"
+                        ],
+                        "PHYS 220A/L"
+                    ]
+                ]
+            }
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/comp/programs/bs-computer-science/",
     "name": "B.S., Computer Science",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -59,49 +140,5 @@
         "General Education Units: 30",
         "Additional Units: 1-3",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "course-sets": {
-        "required": ["&",
-            "COMP 110/L",
-            "COMP 122/L",
-            "COMP 182/L",
-            "COMP 222",
-            "COMP 256/L",
-            "COMP 282",
-            "MATH 150A",
-            "MATH 150B",
-            "MATH 262",
-            "PHIL 230",
-            "COMP 310",
-            "COMP 322/L",
-            "COMP 333",
-            "COMP 380/L",
-            "COMP 490/L",
-            "COMP 491L",
-            ["|1", "COMP 482", "MATH 482"],
-            ["|1", "MATH 340", "MATH 341"],
-            {
-                "no-intersection": [
-                    "&",
-                    [
-                        "|1",
-                        ["&", "BIOL 106/L", "BIOL 107/L"],
-                        ["&", "CHEM 101/L/D", "CHEM 102/L/D"],
-                        ["&", "PHYS 220A/L", "PHYS 220B/L"]
-                    ],
-                    [
-                        "|1",
-                        ["BIOL 106/L"],
-                        ["CHEM 101/L/D"],
-                        ["&", "GEOG 101", "GEOG 102"],
-                        ["&", "GEOG 103", "GEOG 105"],
-                        ["&", "GEOL 101", "GEOL 102"],
-                        ["&", "GEOL 110", "GEOL 112"],
-                        ["PHYS 220A/L"]
-                    ]
-                ]
-            }
-        ]
-    },
-    "link-to-major": "https://catalog.csun.edu/academics/comp/programs/bs-computer-science/"
+    ]
 }

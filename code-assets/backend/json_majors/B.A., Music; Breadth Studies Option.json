@@ -1,4 +1,41 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "MUS 110A",
+            "MUS 110B",
+            "MUS 111/L",
+            "MUS 112/L",
+            "MUS 191/L",
+            "MUS 201",
+            "MUS 202",
+            "MUS 210A",
+            "MUS 211/L",
+            "MUS 307",
+            "MUS 483ME/L",
+            "MUS 495",
+            "MUS 210B",
+            "MUS 212/L",
+            "MUS 213",
+            "MUS 214",
+            [
+                "|2",
+                "MUS 306",
+                "MUS 309",
+                "MUS 310",
+                "MUS 401",
+                "MUS 403",
+                "MUS 404",
+                "MUS 405",
+                "MUS 407A",
+                "MUS 407B",
+                "MUS 409",
+                "MUS 411",
+                "MUS 412"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/mus/programs/ba-music-i/breadth-studies/",
     "name": "B.A., Music: Breadth Studies Option",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -68,6 +105,5 @@
         "General Education Units: 39",
         "Additional Units: 16",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/mus/programs/ba-music-i/breadth-studies/"
+    ]
 }

@@ -1,4 +1,72 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 106",
+            "COMP 110/L",
+            "COMP 182/L",
+            "MATH 150A",
+            "MATH 150B",
+            "PHYS 220A",
+            "PHYS 220AL",
+            "COMP 282",
+            "ECE 240",
+            "ECE 240L",
+            "MATH 250",
+            [
+                "|1",
+                "MATH 280",
+                "ECE 280 "
+            ],
+            "PHYS 220B/L",
+            [
+                "|1",
+                "BIOL 106L",
+                "BIOL 107/L",
+                "CHEM 101/L/D",
+                "CHEM 102/L/D",
+                "MATH 262",
+                "MATH 326",
+                "PHYS 227",
+                "PHYS 227L",
+                "PHYS 375"
+            ],
+            "ECE 309",
+            "ECE 320/L",
+            "ECE 340/L",
+            "ECE 350",
+            "ECE 351",
+            "MSE 304",
+            "ECE 420",
+            "ECE 422",
+            "ECE 425/L",
+            "ECE 442/L",
+            "ECE 450",
+            "ECE 492",
+            "ECE 493",
+            [
+                "|4",
+                "COMP 322/L",
+                "COMP 380/L",
+                "COMP 424",
+                "COMP 429",
+                "COMP 522",
+                "COMP 529/L",
+                "COMP 539",
+                "COMP 581",
+                "ECE 422L",
+                "ECE 443/L",
+                "ECE 520/L",
+                "ECE 524/L",
+                "ECE 526/L",
+                "ECE 527/L",
+                "ECE 546",
+                "ECE 551",
+                "ECE 562"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/",
     "name": "B.S., Computer Engineering",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -93,6 +161,5 @@
         "Total Units in the Major: 96",
         "General Education Units: 27",
         "Total Units Required for the Degree: 123"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/"
+    ]
 }

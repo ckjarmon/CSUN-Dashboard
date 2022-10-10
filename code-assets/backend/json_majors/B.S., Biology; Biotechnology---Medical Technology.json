@@ -1,4 +1,92 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 106",
+            "BIOL 106L",
+            "BIOL 107",
+            "BIOL 107L",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "CHEM 102",
+            "CHEM 102D",
+            "CHEM 102L",
+            "MATH 255A",
+            "PHYS 100A",
+            "PHYS 100B",
+            "BIOL 322",
+            "BIOL 360",
+            "BIOL 380",
+            "PHYS 100AL",
+            "PHYS 100BL",
+            "BIOL 315/L",
+            "BIOL 381",
+            "CHEM 333/L",
+            "CHEM 333D",
+            "CHEM 334/L",
+            "CHEM 464",
+            "CHEM 464L",
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 470",
+                    "BIOL 472/L",
+                    "BIOL 477/L",
+                    [
+                        "|2",
+                        "BIOL 330/L",
+                        "BIOL 382/L",
+                        "BIOL 383/L",
+                        "BIOL 408/L",
+                        "BIOL 417/L",
+                        "BIOL 418/L",
+                        [
+                            "&",
+                            "BIOL 419/L",
+                            "BIOL 492C"
+                        ],
+                        "BIOL 431/L ",
+                        [
+                            "&",
+                            "BIOL 437/L",
+                            "BIOL 492V"
+                        ],
+                        "BIOL 442/L",
+                        "BIOL 444",
+                        "BIOL 461",
+                        "BIOL 462",
+                        "BIOL 464",
+                        "BIOL 466",
+                        "BIOL 468",
+                        "BIOL 471A",
+                        "BIOL 473",
+                        "BIOL 475/L",
+                        "BIOL 476",
+                        "BIOL 481/L",
+                        "BIOL 482/L",
+                        "BIOL 483/L",
+                        "BIOL 485/L",
+                        "BIOL 489",
+                        "BIOL 493",
+                        "BIOL 503/L",
+                        "BIOL 551/L",
+                        "CHEM 321/L"
+                    ]
+                ],
+                [
+                    "&",
+                    "BIOL 410/L",
+                    "BIOL 435/L",
+                    "BIOL 485/L",
+                    "BIOL 487/L",
+                    "CHEM 321/L"
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/bs-biology-iv/biotechnology-medical-technology/",
     "name": "B.S., Biology: Biotechnology/Medical Technology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -87,6 +175,5 @@
         "General Education Units: 36",
         "Additional Units: 8-11",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/bs-biology-iv/biotechnology-medical-technology/"
+    ]
 }

@@ -1,4 +1,75 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "JS 100",
+            "HEBR 102",
+            [
+                "|3",
+                "ENGL 371",
+                [
+                    "|1",
+                    "JS 306",
+                    "SOC 306"
+                ],
+                "JS 330",
+                [
+                    "|1",
+                    "JS 335",
+                    "SOC 335 "
+                ],
+                "RS 378"
+            ],
+            [
+                "|3",
+                [
+                    "|1",
+                    "HIST 210",
+                    "JS 210"
+                ],
+                "HIST 356",
+                "HIST 357",
+                "HIST 406",
+                [
+                    "|1",
+                    "HIST 409",
+                    "JS 409"
+                ],
+                [
+                    "|1",
+                    "HIST 427",
+                    "JS 427"
+                ],
+                [
+                    "|1",
+                    "HIST 486J",
+                    "JS 486J"
+                ]
+            ],
+            [
+                "|3",
+                "JS 300",
+                "JS 318",
+                "RS 320",
+                "RS 375",
+                "RS 377",
+                "RS 379",
+                "RS 476"
+            ],
+            [
+                "|3",
+                "HEBR 101",
+                [
+                    "&",
+                    "JS 151",
+                    "RTM 151F"
+                ],
+                "JS 390CS",
+                "JS 499C"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/js/programs/ba-jewish-studies/",
     "name": "B.A., Jewish Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -45,6 +116,5 @@
         "General Education Units: 42",
         "Additional Units: 35",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/js/programs/ba-jewish-studies/"
+    ]
 }

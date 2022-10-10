@@ -1,4 +1,57 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "COMS 309",
+            "COMS 323",
+            "COMS 354",
+            [
+                "|1",
+                "COMS 356",
+                "SOC 307"
+            ],
+            "COMS 494/L",
+            "MGT 360",
+            "MGT 370",
+            "MGT 454",
+            "MGT 460",
+            "POLS 360",
+            "POLS 361",
+            "POLS 406",
+            "POLS 407",
+            "POLS 462",
+            "POLS 466",
+            "SBS 320",
+            [
+                "|4",
+                "COMS 321",
+                "SOC 305",
+                "SOC 390",
+                "SOC 440",
+                "POLS 380",
+                "SOC 410",
+                "URBS 310",
+                "URBS 430",
+                "POLS 403",
+                "POLS 404",
+                "POLS 441",
+                "POLS 443",
+                "SOC 325",
+                "SOC 340",
+                "SOC 400",
+                "SOC 350",
+                "SOC 356",
+                "SOC 401",
+                "SOC 426",
+                "CJS 344",
+                "CJS 418",
+                "POLS 464",
+                "SOC 355",
+                "URBS 420"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/psm/programs/ba-public-sector-management/",
     "name": "B.A., Public Sector Management",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -69,6 +122,5 @@
         "General Education Units: 48",
         "Additional Units: 12",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/psm/programs/ba-public-sector-management/"
+    ]
 }

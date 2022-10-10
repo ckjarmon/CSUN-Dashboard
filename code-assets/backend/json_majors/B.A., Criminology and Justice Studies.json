@@ -1,4 +1,111 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "CJS 102",
+                "CJS 302"
+            ],
+            "CJS 360",
+            "CJS 310",
+            "CJS 370",
+            "CJS 320",
+            "CJS 340",
+            "CJS 350",
+            ["|1",
+                [
+                    "&",
+                    "CJS 280",
+                    "CJS 380/L"
+                ],
+                [
+                    "&",
+                    "GEOG 206/L",
+                    "GEOG 306/L"
+                ]
+            ],
+            [
+                "|1",
+                "CJS 480",
+                "CJS 494A-E/AA-EE",
+                "POLS 494J/A",
+                "SOC 420"
+            ],
+            [
+                "|1",
+                "AIS 304",
+                "CJS 328",
+                "CJS 418",
+                "CJS 438",
+                "CJS 448"
+            ],
+            [
+                "|1",
+                "CADV 310",
+                "CJS 326",
+                "CJS 446"
+            ],
+            {
+                "no-intersection": [
+                    "&",
+                    [
+                        "|1",
+                        "GWS 370",
+                        "CJS 328",
+                        "CJS 402",
+                        "CJS 418",
+                        "CJS 422",
+                        "CJS 432",
+                        "CJS 448",
+                        "CJS 452AA-ZZ"
+                    ],
+                    [
+                        "|1",
+                        "CJS 328",
+                        "CJS 402",
+                        "CJS 418",
+                        "CJS 422",
+                        "CJS 432",
+                        "CJS 448",
+                        "CJS 452AA-ZZ"
+                    ]
+                ]
+            },
+            {
+                "no-intersection": [
+                    "&",
+                    [
+                        "|1",
+                        "AIS 304",
+                        "CJS 334",
+                        "CJS 344",
+                        "CJS 438",
+                        "CJS 444",
+                        "CJS 448",
+                        "CJS 454AA-ZZ",
+                        "LING 310",
+                        "POLS 426",
+                        "POLS 450",
+                        "POLS 455",
+                        "POLS 457B",
+                        "PSY 443",
+                        "SOC 434"
+                    ],
+                    [
+                        "|1",
+                        "CJS 334",
+                        "CJS 344",
+                        "CJS 438",
+                        "CJS 444",
+                        "CJS 448",
+                        "CJS 454AA-ZZ"
+                    ]
+                ]
+            }
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/cjs/programs/ba-criminology-and-justice-studies/",
     "name": "B.A., Criminology and Justice Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -76,6 +183,5 @@
         "General Education Units: 45",
         "Additional Units: 27",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/cjs/programs/ba-criminology-and-justice-studies/"
+    ]
 }

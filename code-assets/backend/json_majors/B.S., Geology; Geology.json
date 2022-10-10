@@ -1,4 +1,33 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "MATH 150A",
+            [
+                "|1",
+                "MATH 150B",
+                "MATH 140"
+            ],
+            "PHYS 220A",
+            "PHYS 225",
+            "PHYS 220AL",
+            "GEOL 303",
+            "GEOL 306/L",
+            "GEOL 309/L",
+            "GEOL 313",
+            "GEOL 314/L",
+            "GEOL 307/L",
+            "GEOL 310/L",
+            "GEOL 341/L",
+            "GEOL 430",
+            "GEOL 430B",
+            "GEOL 490"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/geol/programs/bs-geology-i/geology/",
     "name": "B.S., Geology: Geology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -36,6 +65,5 @@
         "General Education Units: 39",
         "Additional Units: 6-12",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/geol/programs/bs-geology-i/geology/"
+    ]
 }

@@ -1,4 +1,49 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "ACCT 230",
+            "BLAW 280",
+            "ECON 160",
+            "ECON 161",
+            "ENGL 205",
+            "IS 212",
+            "MATH 103",
+            "SOM 120",
+            "BUS 302",
+            "BUS 302L",
+            "BUS 497A",
+            "FIN 303",
+            "MGT 360",
+            "MKT 304",
+            "SOM 306",
+            "FIN 352",
+            [
+                "|1",
+                "BLAW 308",
+                "BLAW 368",
+                "COMS 323",
+                "ENGL 305",
+                "ENGL 306",
+                "ENGL 407",
+                "PHIL 305"
+            ],
+            "FIN 336",
+            "FIN 355",
+            "FIN 431",
+            "FIN 434",
+            "FIN 495A-C",
+            [
+                "|1",
+                "ACCT 440",
+                "ACCT 450",
+                "ECON 310",
+                "ECON 409"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/fin/programs/bs-business-administration-viii/risk-management-and-insurance/",
     "name": "B.S., Business Administration: Risk Management and Insurance",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -68,6 +113,5 @@
         "General Education Units: 33",
         "Additional Units: 16-17",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/fin/programs/bs-business-administration-viii/risk-management-and-insurance/"
+    ]
 }

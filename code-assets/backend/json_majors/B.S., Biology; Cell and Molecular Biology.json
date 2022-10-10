@@ -1,4 +1,101 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 106",
+            "BIOL 106L",
+            "BIOL 107",
+            "BIOL 107L",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "CHEM 102",
+            "CHEM 102D",
+            "CHEM 102L",
+            "MATH 255A",
+            "PHYS 100A",
+            "PHYS 100B",
+            "BIOL 322",
+            "BIOL 360",
+            "BIOL 380",
+            "BIOL 381",
+            "CHEM 333/L",
+            "CHEM 333D",
+            "CHEM 334/L",
+            "PHYS 100AL",
+            "PHYS 100BL",
+            [
+                "|1",
+                "CHEM 365/L",
+                [
+                    "|1",
+                    "CHEM 464",
+                    [
+                        "&",
+                        "CHEM 461/L",
+                        "CHEM 462/L"
+                    ]
+                ]
+            ],
+            [
+                "|2",
+                "BIOL 382/L",
+                "BIOL 383/L",
+                "BIOL 410/L",
+                "BIOL 411/L",
+                "BIOL 417/L",
+                [
+                    "&",
+                    "BIOL 437/L",
+                    "BIOL 492V"
+                ],
+                "BIOL 441/L",
+                "BIOL 475/L",
+                "BIOL 476",
+                "BIOL 477/L",
+                "BIOL 479",
+                "BIOL 480/L",
+                "BIOL 481/L",
+                "BIOL 482/L",
+                "BIOL 483/L",
+                "BIOL 485/L",
+                "BIOL 487/L",
+                "BIOL 489",
+                "BIOL 493"
+            ],
+            [
+                "|2",
+                "BIOL 408/L",
+                "BIOL 442/L",
+                "BIOL 444",
+                "BIOL 461",
+                "BIOL 462",
+                "BIOL 464",
+                "BIOL 466",
+                "BIOL 468",
+                "BIOL 469",
+                "BIOL 470",
+                "BIOL 471A",
+                "BIOL 472/L",
+                "BIOL 473"
+            ],
+            [
+                "|5",
+                "BIOL 315/L",
+                "BIOL 330/L",
+                "BIOL 435/L",
+                "BIOL 447/L",
+                "BIOL 490",
+                "BIOL 502",
+                "BIOL 502L",
+                "BIOL 503/L",
+                "BIOL 551/L",
+                "CHEM 464L",
+                "MATH 255B"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/bs-biology-i/cell-and-molecular-biology/",
     "name": "B.S., Biology: Cell and Molecular Biology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -94,6 +191,5 @@
         "General Education Units: 36",
         "Additional Units: 6",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/bs-biology-i/cell-and-molecular-biology/"
+    ]
 }

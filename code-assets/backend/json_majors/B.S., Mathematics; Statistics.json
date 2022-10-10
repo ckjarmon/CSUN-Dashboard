@@ -1,4 +1,31 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "COMP 106/L",
+                "COMP 110/L"
+            ],
+            "MATH 150A",
+            "MATH 150B",
+            "MATH 250",
+            "MATH 262",
+            "PHYS 220A",
+            "PHYS 220AL",
+            "MATH 320",
+            "MATH 340",
+            "MATH 351",
+            "MATH 382/L",
+            "MATH 440A",
+            "MATH 440B",
+            "MATH 450A",
+            "MATH 462",
+            "MATH 483",
+            "MATH 494"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/math/programs/bs-mathematics-ii/statistics/",
     "name": "B.S., Mathematics: Statistics",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -37,6 +64,5 @@
         "General Education Units: 36",
         "Additional Units: 21-22",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/math/programs/bs-mathematics-ii/statistics/"
+    ]
 }

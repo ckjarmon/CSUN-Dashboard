@@ -1,4 +1,72 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "COMS 301",
+            "COMS 321",
+            "COMS 327",
+            "COMS 351",
+            "COMS 356",
+            [
+                "|1",
+                "COMS 430",
+                "COMS 440",
+                "COMS 450"
+            ],
+            [
+                "|1",
+                "COMS 303",
+                "COMS 304",
+                "COMS 354",
+                "COMS 401",
+                "COMS 404",
+                "COMS 445"
+            ],
+            [
+                "|1",
+                "COMS 425",
+                "COMS 435",
+                "COMS 442",
+                "COMS 444",
+                "COMS 448"
+            ],
+            [
+                "|1",
+                "COMS 320",
+                "COMS 350",
+                "COMS 431",
+                "COMS 451",
+                "COMS 453"
+            ],
+            [
+                "|1",
+                "COMS 323",
+                "COMS 400C",
+                "COMS 410",
+                "COMS 437",
+                "COMS 452",
+                "COMS 494/L"
+            ],
+            [
+                "|U15",
+                "COMS 309",
+                "COMS 312",
+                "COMS 315",
+                "COMS 325",
+                "COMS 360",
+                "COMS 395",
+                "COMS 399",
+                "COMS 406",
+                "COMS 420",
+                "COMS 428",
+                "COMS 436",
+                "COMS 443",
+                "COMS 446",
+                "COMS 464"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/coms/programs/ba-communication-studies/",
     "name": "B.A., Communication Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -70,6 +138,5 @@
         "General Education Units: 45",
         "Additional Units: 30",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/coms/programs/ba-communication-studies/"
+    ]
 }

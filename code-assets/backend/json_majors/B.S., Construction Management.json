@@ -1,4 +1,54 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 106",
+            "BIOL 106L",
+            "COMP 100",
+            "CM 110/L",
+            "ECON 160",
+            "PHYS 100A",
+            "PHYS 100AL",
+            "PHYS 100B",
+            "PHYS 100BL",
+            "ACCT 220",
+            "BLAW 280",
+            "CM 208/L",
+            "CM 210/L",
+            "CM 240/L",
+            "MATH 255A",
+            [
+                "|1",
+                "MATH 255B",
+                "MATH 140",
+                "SOM 120"
+            ],
+            "MSE 220/L",
+            "CM 309",
+            "CM 310/L",
+            "CM 312/L",
+            "CM 321",
+            "CM 326/L",
+            "CM 334/L",
+            "CM 336/L",
+            "CM 340",
+            "ENGL 306",
+            "MGT 360",
+            "MSE 300",
+            "BLAW 481",
+            "CM 401",
+            "CM 415/L",
+            "CM 434",
+            "CM 440/L",
+            "CM 441/L",
+            "CM 449",
+            "CM 480",
+            "CM 488A",
+            "CM 488B",
+            "CM 494"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/cecm/programs/bs-construction-management/",
     "name": "B.S., Construction Management",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -59,6 +109,5 @@
         "Total Units in the Major: 103-104",
         "General Education Units: 21",
         "Total Units Required for the B.S. Degree: 124-125"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/cecm/programs/bs-construction-management/"
+    ]
 }

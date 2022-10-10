@@ -1,4 +1,103 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "DEAF 200",
+            "DEAF 280",
+            "DEAF 281",
+            "DEAF 360",
+            "DEAF 484",
+            "DEAF 497",
+            [
+                "|2",
+                "DEAF 300",
+                "DEAF 370",
+                "DEAF 430",
+                "DEAF 489/L",
+                "DEAF 490A-G"
+            ],
+            [
+                "|3",
+                "CD 410",
+                "DEAF 350",
+                "DEAF 400",
+                "DEAF 401",
+                "DEAF 402",
+                "DEAF 404",
+                "DEAF 406",
+                "DEAF 485"
+            ],
+            [
+                "|1",
+                [
+                    [
+                        "&",
+                        "DEAF 380",
+                        "DEAF 383"
+                    ],
+                    [
+                        "&",
+                        "DEAF 381",
+                        "DEAF 383"
+                    ],
+                    "DEAF 420",
+                    [
+                        "|1",
+                        "DEAF 482",
+                        "DEAF 491A-F"
+                    ]
+                ],
+                [
+                    "&",
+                    "DEAF 401",
+                    "DEAF 402",
+                    "DEAF 405",
+                    "DEAF 485",
+                    [
+                        "|1",
+                        "DEAF 300",
+                        "DEAF 370",
+                        "DEAF 489/L"
+                    ]
+                ],
+                [
+                    "&",
+                    "CD 410",
+                    "DEAF 400",
+                    "DEAF 401",
+                    "DEAF 402",
+                    "DEAF 406"
+                ],
+                [
+                    "&",
+                    "DEAF 400",
+                    "DEAF 401",
+                    "DEAF 404",
+                    "DEAF 407",
+                    [
+                        "|1",
+                        "DEAF 300",
+                        "DEAF 410",
+                        "DEAF 415"
+                    ]
+                ],
+                [
+                    "&",
+                    "DEAF 400",
+                    "DEAF 401",
+                    "DEAF 402",
+                    "DEAF 410",
+                    [
+                        "|1",
+                        "DEAF 404",
+                        "DEAF 406",
+                        "DEAF 407"
+                    ]
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/deaf/programs/ba-deaf-studies/",
     "name": "B.A., Deaf Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -79,6 +178,5 @@
         "General Education Units: 48",
         "Additional Units: 22",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/deaf/programs/ba-deaf-studies/"
+    ]
 }

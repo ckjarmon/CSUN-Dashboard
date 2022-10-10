@@ -1,4 +1,49 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 106",
+            "BIOL 106L",
+            "BIOL 107",
+            "BIOL 107L",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "CHEM 102",
+            "CHEM 102D",
+            "CHEM 102L",
+            "MATH 255A",
+            "MATH 255B",
+            "PHYS 220A",
+            "PHYS 220AL",
+            "PHYS 220B",
+            "PHYS 220BL",
+            "BIOL 380",
+            "CHEM 321/L",
+            "CHEM 333/L",
+            "CHEM 333D",
+            "CHEM 334/L",
+            "CHEM 334R",
+            "CHEM 351",
+            "CHEM 352",
+            "CHEM 401",
+            "CHEM 422/L",
+            "CHEM 461/L",
+            "CHEM 462/L",
+            "CHEM 465",
+            [
+                "|1",
+                "CHEM 411",
+                "CHEM 433",
+                "CHEM 471",
+                "CHEM 481",
+                "CHEM 495A-C",
+                "CHEM 499A-C",
+                "CHEM 538"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/chem/programs/bs-biochemistry/",
     "name": "B.S., Biochemistry",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -49,6 +94,5 @@
         "Total Units in the Major: 84",
         "General Education Units: 36",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/chem/programs/bs-biochemistry/"
+    ]
 }

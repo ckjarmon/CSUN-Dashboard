@@ -1,4 +1,72 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "CTVA 100",
+            "CTVA 210",
+            "CTVA 220",
+            [
+                "|1",
+                "CTVA 240",
+                "CTVA 250",
+                "CTVA 260"
+            ],
+            [
+                "|1",
+                "CTVA 305",
+                "CTVA 310"
+            ],
+            "CTVA 319",
+            [
+                "|1",
+                "CTVA 351",
+                "CTVA 480",
+                "CTVA 482",
+                "CTVA 487"
+            ],
+            [
+                "|1",
+                "CTVA 329A/B/",
+                "CTVA 329C",
+                "CTVA 494A/B"
+            ],
+            "CTVA 340",
+            "CTVA 341",
+            "CTVA 346",
+            "CTVA 442",
+            [
+                "|1",
+                "CTVA 342",
+                "CTVA 343",
+                "CTVA 352",
+                "CTVA 455"
+            ],
+            [
+                "|2",
+                "CTVA 359",
+                "CTVA 422",
+                "CTVA 440",
+                "CTVA 475",
+                "CTVA 480",
+                "CTVA 481",
+                "CTVA 482",
+                "CTVA 487"
+            ],
+            "CTVA 301",
+            "CTVA 331",
+            "CTVA 341",
+            "CTVA 416",
+            "CTVA 441",
+            [
+                "|1",
+                "CTVA 342",
+                "CTVA 343 ",
+                "CTVA 352 ",
+                "CTVA 455 "
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/ctva/programs/ba-cinema-and-television-arts-i/television-production/",
     "name": "B.A., Cinema and Television Arts: Television Production",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -81,6 +149,5 @@
         "General Education Units: 42",
         "Additional Units: 33",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/ctva/programs/ba-cinema-and-television-arts-i/television-production/"
+    ]
 }

@@ -1,4 +1,64 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "GEOG 101A/L",
+                "GEOG 103A/L"
+            ],
+            [
+                "|1",
+                "GEOG 107",
+                "GEOG 108",
+                "GEOG 111/L",
+                "GEOG 150",
+                "GEOG 170"
+            ],
+            "GEOG 206/L",
+            "GEOG 300",
+            "GEOG 404A-Z",
+            [
+                "|2",
+                "GEOG 301",
+                "GEOG 311",
+                "GEOG 316",
+                "GEOG 340",
+                "GEOG 351",
+                "GEOG 364/L",
+                "GEOG 365/L",
+                "GEOG 366",
+                "GEOG 370",
+                "GEOG 375"
+            ],
+            "GEOG 306/L",
+            "GEOG 406/L",
+            [
+                "|1",
+                "GEOG 305/L",
+                "GEOG 409/L"
+            ],
+            "GEOG 407/L",
+            "GEOG 408D/L",
+            "GEOG 408E/L",
+            "GEOG 460/L",
+            [
+                "|2",
+                "GEOG 408A/L",
+                "GEOG 408B/L",
+                "GEOG 408C/L",
+                "GEOG 408F/L",
+                "GEOG 408G/L",
+                "GEOG 408H/L",
+                "GEOG 408I/L",
+                "GEOG 494",
+                "GEOG 497A-F",
+                "GEOG 550F"
+            ],
+            "GEOG 490"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/geog/programs/bs-geographic-information-science/",
     "name": "B.S., Geographic Information Science",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -75,6 +135,5 @@
         "General Education Units: 42",
         "Additional Units: 20-21",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/geog/programs/bs-geographic-information-science/"
+    ]
 }

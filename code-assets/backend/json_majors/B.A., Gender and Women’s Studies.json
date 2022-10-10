@@ -1,4 +1,121 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "GWS 100",
+                "GWS 110"
+            ],
+            "GWS 300",
+            "GWS 301",
+            "GWS 302",
+            "GWS 305/CS",
+            "GWS 400",
+            "GWS 220",
+            "GWS 222",
+            "GWS 230",
+            "GWS 315",
+            "GWS 320",
+            "GWS 340",
+            "GWS 351",
+            "GWS 360",
+            "GWS 370",
+            "GWS 380",
+            "GWS 396A-Z",
+            "GWS 410",
+            "GWS 420",
+            "GWS 430",
+            "GWS 440",
+            "GWS 495A-Z",
+            [
+                "|1",
+                [
+                    "|4",
+                    "ANTH 308",
+                    "GWS 315",
+                    "GWS 420",
+                    "JS 330",
+                    "PHIL 337",
+                    "PHIL 348",
+                    "RS 304"
+                ],
+                [
+                    "|4",
+                    "AAS 340",
+                    "AFRS 324",
+                    "CAS 365",
+                    [
+                        "|1",
+                        "CHS 246",
+                        "CHS 346",
+                        "CHS 365"
+                    ],
+                    "GWS 222",
+                    "GWS 315",
+                    "GWS 351",
+                    "GWS 420",
+                    "GWS 440",
+                    "JS 330",
+                    "RTM 330"
+                ],
+                [
+                    "|4",
+                    [
+                        "|1",
+                        "ART 468",
+                        "CTVA 413"
+                    ],
+                    "COMS 360",
+                    "COMS 435",
+                    "GWS 230",
+                    "GWS 315",
+                    "GWS 410",
+                    "JOUR 371",
+                    "JOUR 372"
+                ],
+                [
+                    "|4",
+                    "BLAW 391",
+                    "GWS 370",
+                    "HIST 349",
+                    "POLS 350",
+                    "POLS 361",
+                    "POLS 448"
+                ],
+                [
+                    "|4",
+                    "GWS 370",
+                    "FCS 340",
+                    "HSCI 231",
+                    "SOC 324",
+                    "SOC 325",
+                    "SOC 357"
+                ],
+                [
+                    "|4",
+                    "BLAW 391",
+                    "CJS 418",
+                    "GWS 370",
+                    "SOC 304",
+                    "SOC 324",
+                    "SOC 355"
+                ],
+                [
+                    "|4",
+                    "AFRS 346",
+                    "CHS 381",
+                    "ENGL 369",
+                    "ENGL 431",
+                    "ENGL 433",
+                    "ENGL 434",
+                    "FLIT 455",
+                    "GWS 310"
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/gws/programs/ba-gender-and-womens-studies-i/",
     "name": "B.A., Gender and Women\u2019s Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -103,6 +220,5 @@
         "General Education Units: 39",
         "Additional Units: 36",
         "Total Units for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/gws/programs/ba-gender-and-womens-studies-i/"
+    ]
 }

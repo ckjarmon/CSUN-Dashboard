@@ -1,4 +1,73 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "CHEM 100",
+                "CHEM 103"
+            ],
+            "PSY 150",
+            "SOC 150",
+            [
+                "|1",
+                "MATH 102/L",
+                "MATH 103/L",
+                "MATH 104/L",
+                "MATH 140",
+                "MATH 140BUS",
+                "MATH 140SCI",
+                "MATH 141/L"
+            ],
+            "BIOL 101/L",
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 211",
+                    "BIOL 212"
+                ],
+                "BIOL 213",
+                "BIOL 218/L",
+                "BIOL 281",
+                "BIOL 285",
+                "BIOL 341",
+                "BIOL 366",
+                "BIOL 375"
+            ],
+            "HSCI 390/L",
+            "HSCI 488",
+            "ENGL 306",
+            "EOH 353",
+            "HSCI 314",
+            "HSCI 331",
+            "HSCI 345",
+            "HSCI 391",
+            "HSCI 431",
+            "HSCI 437",
+            "HSCI 439",
+            "HSCI 441",
+            "HSCI 445",
+            "HSCI 494PH",
+            "HSCI 494IPH",
+            [
+                "|4",
+                "HSCI 231",
+                "HSCI 335",
+                "HSCI 336",
+                "HSCI 337",
+                "HSCI 433",
+                "HSCI 434",
+                "HSCI 435",
+                "HSCI 436",
+                "HSCI 438",
+                "HSCI 440",
+                "HSCI 442",
+                "HSCI 446"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/hsci/programs/bs-public-health/",
     "name": "B.S., Public Health",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -71,6 +140,5 @@
         "General Education Units: 27",
         "Additional Units: 18",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/hsci/programs/bs-public-health/"
+    ]
 }

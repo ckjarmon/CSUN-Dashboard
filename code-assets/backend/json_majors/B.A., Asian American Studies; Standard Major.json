@@ -1,4 +1,61 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "AAS 100",
+                "AAS 345"
+            ],
+            "AAS 201",
+            "AAS 210",
+            [
+                "|1",
+                "AAS 220",
+                "AAS 230"
+            ],
+            "AAS 311",
+            "AAS 360",
+            "AAS 390/F",
+            [
+                "|1",
+                "AAS 321",
+                "AAS 325A",
+                "AAS 325B",
+                "AAS 420",
+                "AAS 430"
+            ],
+            [
+                "|1",
+                "AAS 345",
+                "AAS 355",
+                "AAS 361A-Z"
+            ],
+            [
+                "|1",
+                "AAS 340",
+                "AAS 455"
+            ],
+            [
+                "|1",
+                "AAS 347",
+                "AAS 417",
+                "AAS 440"
+            ],
+            [
+                "|1",
+                "AAS 350",
+                "AAS 450",
+                "AAS 453"
+            ],
+            [
+                "|1",
+                "AAS 495",
+                "AAS 497"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/aas/programs/ba-asian-american-studies-i/standard-major/",
     "name": "B.A., Asian American Studies: Standard Major",
     "prog-reqq-blob": [
         "Take all seven courses below:",
@@ -44,60 +101,5 @@
         "Select one of the following:",
         "AAS 495 Selected Topics in Asian American Studies (3)",
         "AAS 497 Senior Seminar in Asian American Studies (3)"
-    ],
-    "course-sets": [
-        "&",
-        [
-            "|1",
-            "AAS 100",
-            "AAS 345"
-        ],
-        "AAS 201",
-        "AAS 210",
-        [
-            "|1",
-            "AAS 220",
-            "AAS 230"
-        ],
-        "AAS 311",
-        "AAS 360",
-        "AAS 390/F",
-        [
-            "|1",
-            "AAS 321",
-            "AAS 325A",
-            "AAS 325B",
-            "AAS 420",
-            "AAS 430"
-        ],
-        [
-            "|1",
-            "AAS 345",
-            "AAS 355",
-            "AAS 361A-Z"
-        ],
-        [
-            "|1",
-            "AAS 340",
-            "AAS 455"
-        ],
-        [
-            "|1",
-            "AAS 347",
-            "AAS 417",
-            "AAS 440"
-        ],
-        [
-            "|1",
-            "AAS 350",
-            "AAS 450",
-            "AAS 453"
-        ],
-        [
-            "|1",
-            "AAS 495",
-            "AAS 497"
-        ]
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/aas/programs/ba-asian-american-studies-i/standard-major/"
+    ]
 }

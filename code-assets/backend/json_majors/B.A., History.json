@@ -1,4 +1,44 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            [
+                "|1",
+                "HIST 110",
+                "HIST 150",
+                "HIST 303"
+            ],
+            [
+                "|1",
+                "HIST 111",
+                "HIST 151",
+                "HIST 302",
+                "HIST 304"
+            ],
+            [
+                "|1",
+                "HIST 270",
+                "HIST 370"
+            ],
+            [
+                "|1",
+                "HIST 271",
+                "HIST 371"
+            ],
+            [
+                "|1",
+                "HIST 145",
+                "HIST 161",
+                "HIST 185",
+                "HIST 191",
+                "HIST 192"
+            ],
+            "HIST 301",
+            "HIST 497A-Z",
+            "HIST 498"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/hist/programs/ba-history-i/",
     "name": "B.A., History",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -47,6 +87,5 @@
         "General Education Units: 45",
         "Additional Units: 27",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/hist/programs/ba-history-i/"
+    ]
 }

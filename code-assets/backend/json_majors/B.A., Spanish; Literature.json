@@ -1,4 +1,50 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "SPAN 220A",
+            "SPAN 220B",
+            "SPAN 304",
+            "SPAN 306",
+            "SPAN 307",
+            "SPAN 401",
+            [
+                "|1",
+                "SPAN 315A",
+                "SPAN 315B"
+            ],
+            [
+                "|1",
+                "SPAN 363",
+                "SPAN 364"
+            ],
+            [
+                "|1",
+                "FLIT 295A",
+                "FLIT 295B"
+            ],
+            [
+                "|1",
+                "SPAN 380",
+                "SPAN 381"
+            ],
+            [
+                "|4",
+                "SPAN 408",
+                "SPAN 409",
+                "SPAN 411",
+                "SPAN 414",
+                "SPAN 415",
+                "SPAN 421",
+                "SPAN 427",
+                "SPAN 428",
+                "SPAN 450",
+                "SPAN 495A-Z",
+                "SPAN 496A-Z"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-spanish-i/literature/",
     "name": "B.A., Spanish: Literature",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -43,6 +89,5 @@
         "General Education Units: 39",
         "Additional Units: 39",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-spanish-i/literature/"
+    ]
 }

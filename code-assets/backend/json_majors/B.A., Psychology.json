@@ -1,4 +1,40 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "MATH 140",
+            "PSY 150",
+            "PSY 250",
+            "PSY 301",
+            "PSY 320/L",
+            "PSY 321/L",
+            [
+                "|1",
+                "PSY 310",
+                "PSY 351",
+                "PSY 353",
+                "PSY 370",
+                "PSY 380"
+            ],
+            [
+                "|1",
+                "PSY 304",
+                "PSY 367",
+                "PSY 369",
+                "PSY 382"
+            ],
+            [
+                "|1",
+                "PSY 313",
+                "PSY 327",
+                "PSY 335",
+                "PSY 361",
+                "PSY 365"
+            ],
+            "PSY 345"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/psy/programs/ba-psychology-i/",
     "name": "B.A., Psychology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -54,6 +90,5 @@
         "General Education Units: 39",
         "Additional Units: 39",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/psy/programs/ba-psychology-i/"
+    ]
 }

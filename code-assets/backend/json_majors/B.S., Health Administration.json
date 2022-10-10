@@ -1,4 +1,51 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "BIOL 101",
+            "BIOL 101L",
+            [
+                "|1",
+                "HSCI 132",
+                "HSCI 345"
+            ],
+            [
+                "|1",
+                "MATH 103",
+                "MATH 105",
+                "MATH 140 "
+            ],
+            "PSY 150",
+            "SOC 150",
+            "HSCI 314",
+            "HSCI 390/L",
+            "HSCI 488",
+            "ENGL 306",
+            "HSCI 312",
+            "HSCI 313",
+            "HSCI 391",
+            "HSCI 412",
+            "HSCI 413",
+            "HSCI 414",
+            "HSCI 415",
+            "HSCI 416",
+            "HSCI 424",
+            "HSCI 425",
+            "HSCI 494HA",
+            "HSCI 494IHA",
+            [
+                "|2",
+                "EOH 353",
+                "HSCI 419",
+                "HSCI 422",
+                "HSCI 438",
+                "HSCI 478",
+                "PSY 365"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/hsci/programs/bs-health-administration/",
     "name": "B.S., Health Administration",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -48,6 +95,5 @@
         "General Education Units: 33",
         "Required Additional Units: 16",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/hsci/programs/bs-health-administration/"
+    ]
 }

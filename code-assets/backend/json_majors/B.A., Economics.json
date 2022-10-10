@@ -1,4 +1,26 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            [
+                "|1",
+                "ENGL 205",
+                "ENGL 305",
+                "ENGL 306"
+            ],
+            "ECON 160",
+            "ECON 161",
+            "IS 212",
+            "MATH 103",
+            "SOM 120",
+            "ECON 309",
+            "ECON 310",
+            "ECON 311",
+            "ECON 312"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/econ/programs/ba-economics/",
     "name": "B.A., Economics",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -36,6 +58,5 @@
         "General Education Units: 33",
         "Additional Units: 39",
         "Total Units Required for the B.A. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/econ/programs/ba-economics/"
+    ]
 }

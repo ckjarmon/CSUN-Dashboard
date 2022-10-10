@@ -1,4 +1,78 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "FCS 170",
+            "FCS 232",
+            "FCS 320",
+            "FCS 380",
+            [
+                "|1",
+                "FCS 491A/B",
+                "FCS 494/I"
+            ],
+            "FCS 330",
+            "FCS 340",
+            "FCS 431",
+            "FCS 431L",
+            "FCS 432",
+            [
+                "|1",
+                "FCS 436",
+                "CADV 451 "
+            ],
+            "FCS 480",
+            "PSY 150",
+            [
+                "|1",
+                [
+                    "&",
+                    "FCS 234",
+                    "FCS 335",
+                    "FCS 433",
+                    "FCS 434",
+                    "FCS 435",
+                    [
+                        "|2",
+                        "AAS 450",
+                        "AFRS 420",
+                        "ART 383/L",
+                        "CADV 452"
+                    ],
+                    "CD 361 ",
+                    "CHS 416",
+                    "CHS 430",
+                    "ENGL 428",
+                    "MUS 362/L",
+                    "RTM 305",
+                    "SPED 400"
+                ],
+                [
+                    "&",
+                    "FCS 300",
+                    "FCS 426",
+                    "FCS 438",
+                    "FCS 441",
+                    "FCS 485",
+                    [
+                        "|2",
+                        "FCS 309",
+                        "FCS 323",
+                        "FCS 420",
+                        "FCS 424",
+                        [
+                            "|1",
+                            "FCS 427",
+                            "CADV 452 Child Advocacy (3)"
+                        ],
+                        "FCS 495A-C",
+                        "FCS 543"
+                    ]
+                ]
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-iv/family-studies/",
     "name": "B.S., Family and Consumer Sciences: Family Studies",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -62,6 +136,5 @@
         "General Education Units: 39",
         "Additional Units: 24",
         "Total Units for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-iv/family-studies/"
+    ]
 }

@@ -1,4 +1,57 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "ACCT 230",
+            "BLAW 280",
+            "ECON 160",
+            "ECON 161",
+            "ENGL 205",
+            "IS 212",
+            "MATH 103",
+            [
+                "|1",
+                "SOM 120",
+                "MATH 140",
+                "MATH 140BUS"
+            ],
+            "BUS 302",
+            "BUS 302L",
+            "BUS 497A",
+            "FIN 303",
+            "MGT 360",
+            "MKT 304",
+            "SOM 306",
+            "BLAW 308",
+            "IS 312",
+            "ACCT 350",
+            "ACCT 351",
+            "ACCT 352",
+            "ACCT 380",
+            "ACCT 412L",
+            "ACCT 440",
+            "ACCT 460",
+            "COMS 356",
+            "RS 361",
+            "ACCT 441",
+            "ACCT 450",
+            "ACCT 475",
+            [
+                "|1",
+                "BLAW 368",
+                "JS 318",
+                "PHIL 305"
+            ],
+            [
+                "|1",
+                "ACCT 465",
+                "ACCT 497A-Z",
+                "ACCT 542"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/acct/programs/bs-accountancy-i/professional-accountancy/",
     "name": "B.S., Accountancy: Professional Accountancy",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -75,6 +128,5 @@
         "Total Units Required for the B.S. Degree: 120",
         "CPA Licensure",
         "To obtain CPA licensure, a 3-unit accounting ethics course such as ACCT 511 or equivalent is required. ACCT 511 may be taken by undergraduate students."
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/acct/programs/bs-accountancy-i/professional-accountancy/"
+    ]
 }

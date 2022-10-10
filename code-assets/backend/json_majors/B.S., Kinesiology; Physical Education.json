@@ -1,4 +1,61 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 101",
+            "BIOL 101L",
+            [
+                "|1",
+                "BIOL 211",
+                "BIOL 213"
+            ],
+            "BIOL 212",
+            "BIOL 281",
+            [
+                "|1",
+                "MATH 140",
+                "MATH 141/L"
+            ],
+            "BIOL 106",
+            "BIOL 106L",
+            "BIOL 107",
+            "BIOL 107L",
+            "BIOL 382/L",
+            "BIOL 383/L",
+            "KIN 200",
+            [
+                "|1",
+                "KIN 130A",
+                "KIN 131A",
+                "KIN 132A",
+                "KIN 133A",
+                "KIN 151A"
+            ],
+            [
+                "|1",
+                "KIN 242",
+                "KIN 250SW"
+            ],
+            "KIN 300",
+            "KIN 305",
+            "KIN 306",
+            "KIN 345/L",
+            "KIN 346/L",
+            "KIN 377",
+            "KIN 271/L",
+            "KIN 272/L",
+            "KIN 273/L",
+            "KIN 315/L",
+            "KIN 335/L",
+            "KIN 347",
+            "KIN 371/L",
+            "KIN 462/L",
+            "KIN 472/L",
+            "KIN 477",
+            "KIN 478"
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-i/physical-education/",
     "name": "B.S., Kinesiology: Physical Education",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -58,6 +115,5 @@
         "General Education Units: 36",
         "Additional Units: 5-11",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-i/physical-education/"
+    ]
 }

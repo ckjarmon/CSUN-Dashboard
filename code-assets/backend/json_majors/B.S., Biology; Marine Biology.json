@@ -1,4 +1,159 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 106",
+            "BIOL 106L",
+            "BIOL 107",
+            "BIOL 107L",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "CHEM 102",
+            "CHEM 102D",
+            "CHEM 102L",
+            "MATH 255A",
+            "PHYS 100A",
+            "PHYS 100B",
+            "BIOL 322",
+            "BIOL 360",
+            "BIOL 380",
+            [
+                "|1",
+                "BIOL 330/L",
+                "BIOL 502/L"
+            ],
+            [
+                "&",
+                "BIOL 421/L",
+                "BIOL 492B"
+            ],
+            "PHYS 100AL",
+            "PHYS 100BL",
+            [
+                "|1",
+                "CHEM 235/L",
+                [
+                    "&",
+                    "CHEM 333/L/D",
+                    "CHEM 334/L"
+                ]
+            ],
+            [
+                "&",
+                "BIOL 313/L",
+                "BIOL 392B"
+            ],
+            [
+                "&",
+                "BIOL 404/L",
+                "BIOL 492Y"
+            ],
+            [
+                "&",
+                "BIOL 427A/AL",
+                "BIOL 492L"
+            ],
+            [
+                "&",
+                "BIOL 429/L",
+                "BIOL 492I"
+            ],
+            [
+                "&",
+                "BIOL 430/L",
+                "BIOL 492BB"
+            ],
+            [
+                "&",
+                "BIOL 434/L",
+                "BIOL 492Q"
+            ],
+            [
+                "|4",
+                [
+                    "&",
+                    "BIOL 312/L",
+                    "BIOL 392F"
+                ],
+                "BIOL 316CS/LCS",
+                "BIOL 403/L",
+                [
+                    "&",
+                    "BIOL 406/L",
+                    "BIOL 492K"
+                ],
+                [
+                    "&",
+                    "BIOL 407/L",
+                    "BIOL 492N"
+                ],
+                [
+                    "&",
+                    "BIOL 409/L",
+                    "BIOL 492J"
+                ],
+                [
+                    "&",
+                    "BIOL 414/L",
+                    "BIOL 492A"
+                ],
+                [
+                    "&",
+                    "BIOL 415/L",
+                    "BIOL 492M"
+                ],
+                "BIOL 422/L",
+                [
+                    "&",
+                    "BIOL 423",
+                    "BIOL 492F"
+                ],
+                [
+                    "&",
+                    "BIOL 424/L",
+                    "BIOL 492G"
+                ],
+                "BIOL 425",
+                [
+                    "&",
+                    "BIOL 427/L",
+                    "BIOL 492H"
+                ],
+                [
+                    "&",
+                    "BIOL 428/L",
+                    "BIOL 492W"
+                ],
+                "BIOL 433/L",
+                "BIOL 452/L",
+                [
+                    "&",
+                    "BIOL 453/L",
+                    "BIOL 492Z"
+                ],
+                [
+                    "&",
+                    "BIOL 456",
+                    "BIOL 492O"
+                ],
+                "BIOL 481/L",
+                [
+                    "|1",
+                    "BIOL 490",
+                    "BIOL 495",
+                    "BIOL 499",
+                    "BIOL 526"
+                ],
+                "BIOL 492D",
+                "BIOL 502/L",
+                "BIOL 532/L",
+                "BIOL 560",
+                "GEOL 322/L"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/bs-biology-v/marine-biology/",
     "name": "B.S., Biology: Marine Biology",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -73,6 +228,5 @@
         "General Education Units: 36",
         "Additional Units: 2-8",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/bs-biology-v/marine-biology/"
+    ]
 }

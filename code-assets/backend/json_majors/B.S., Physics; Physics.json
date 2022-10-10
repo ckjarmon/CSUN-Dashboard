@@ -1,4 +1,48 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "MATH 150A",
+            "MATH 150B",
+            "MATH 250",
+            "MATH 280",
+            "PHYS 225",
+            "PHYS 220AL",
+            "PHYS 226",
+            "PHYS 220BL",
+            "PHYS 227",
+            "PHYS 227L",
+            "PHYS 301",
+            "PHYS 311",
+            "PHYS 365",
+            "PHYS 366",
+            "PHYS 375",
+            "PHYS 389",
+            "PHYS 402",
+            "PHYS 410",
+            "PHYS 431",
+            "PHYS 451",
+            "PHYS 465",
+            "PHYS 466",
+            "PHYS 493",
+            "PHYS 497",
+            [
+                "|3",
+                "ASTR 301",
+                "ASTR 401",
+                "PHYS 420",
+                "PHYS 421",
+                "PHYS 470",
+                "PHYS 480",
+                "PHYS 489",
+                "PHYS 490"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/phys/programs/bs-physics-i/physics/",
     "name": "B.S., Physics: Physics",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -49,6 +93,5 @@
         "General Education Units: 39",
         "Additional Units: 2",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/phys/programs/bs-physics-i/physics/"
+    ]
 }

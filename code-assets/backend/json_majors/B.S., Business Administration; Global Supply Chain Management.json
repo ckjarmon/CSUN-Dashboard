@@ -1,4 +1,65 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "ACCT 230",
+            "BLAW 280",
+            "ECON 160",
+            "ECON 161",
+            "ENGL 205",
+            "IS 212",
+            "MATH 103",
+            "SOM 120",
+            "BUS 302",
+            "BUS 302L",
+            "BUS 497A",
+            "FIN 303",
+            "MGT 360",
+            "MKT 304",
+            "SOM 306",
+            [
+                "|1",
+                "BLAW 308",
+                "ENGL 306",
+                "ENGL 407"
+            ],
+            "IS 312",
+            [
+                "|1",
+                "MKT 442",
+                "SCM 442"
+            ],
+            [
+                "|1",
+                "MKT 447",
+                "SCM 447"
+            ],
+            [
+                "|1",
+                "SCM 416",
+                "SOM 416"
+            ],
+            "SCM 492",
+            [
+                "|2",
+                "ACCT 470",
+                [
+                    "|1",
+                    "BUS 491CS ",
+                    " SOM 498"
+                ],
+                "ECON 310",
+                "MKT 346",
+                "MKT 443",
+                "MKT 445",
+                "SOM 464",
+                "SOM 467",
+                "SOM 468"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/som/programs/bs-business-administration-ii/global-supply-chain-management/",
     "name": "B.S., Business Administration: Global Supply Chain Management",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -64,6 +125,5 @@
         "General Education Units: 33",
         "Additional Units: 16-17",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/som/programs/bs-business-administration-ii/global-supply-chain-management/"
+    ]
 }

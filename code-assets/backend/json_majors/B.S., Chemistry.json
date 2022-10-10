@@ -1,4 +1,42 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "CHEM 101",
+            "CHEM 101D",
+            "CHEM 101L",
+            "CHEM 102",
+            "CHEM 102D",
+            "CHEM 102L",
+            "MATH 150A",
+            "MATH 150B",
+            "MATH 250",
+            "MATH 280",
+            "PHYS 225",
+            "PHYS 220AL",
+            "PHYS 226",
+            "PHYS 220BL",
+            "CHEM 321/L",
+            "CHEM 333/L/D",
+            "CHEM 334/L",
+            "CHEM 334R",
+            "CHEM 351",
+            "CHEM 351L",
+            "CHEM 352",
+            "CHEM 352L",
+            "CHEM 401",
+            "CHEM 401L",
+            "CHEM 411",
+            "CHEM 422/L",
+            "CHEM 464",
+            [
+                "|1",
+                "CHEM 495A",
+                "CHEM 499A"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/chem/programs/bs-chemistry/",
     "name": "B.S., Chemistry",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -43,6 +81,5 @@
         "General Education Units: 39",
         "Additional Units: 2",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/chem/programs/bs-chemistry/"
+    ]
 }

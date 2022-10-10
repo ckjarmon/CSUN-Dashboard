@@ -1,4 +1,47 @@
 {
+    "course-sets": {
+        "required": [
+            "&",
+            "ACCT 220",
+            "ACCT 230",
+            "BLAW 280",
+            "ECON 160",
+            "ECON 161",
+            "ENGL 205",
+            "IS 212",
+            "MATH 103",
+            "SOM 120",
+            "BUS 302",
+            "BUS 302L",
+            "BUS 497A",
+            "FIN 303",
+            "MGT 360",
+            "MKT 304",
+            "SOM 306",
+            "IS 312",
+            "SOM 307",
+            "SOM 464",
+            "SOM 467",
+            "SOM 485",
+            [
+                "|1",
+                "BLAW 308",
+                "COMS 443",
+                "ENGL 407",
+                "PHIL 305"
+            ],
+            [
+                "|2",
+                "ECON 310",
+                "SCM 447",
+                "SOM 416",
+                "SOM 466",
+                "SOM 468",
+                "SOM 498"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/som/programs/bs-business-administration-v/systems-and-operations-management/",
     "name": "B.S., Business Administration: Systems and Operations Management",
     "prog-reqq-blob": [
         "Program Requirements",
@@ -59,6 +102,5 @@
         "General Education Units: 33",
         "Additional Units: 16-17",
         "Total Units Required for the B.S. Degree: 120"
-    ],
-    "link-to-major": "https://catalog.csun.edu/academics/som/programs/bs-business-administration-v/systems-and-operations-management/"
+    ]
 }
