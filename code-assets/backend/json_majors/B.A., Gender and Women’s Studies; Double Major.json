@@ -2,38 +2,57 @@
     "course-sets": {
         "required": [
             "&",
-            "Program Requirements",
-            "1. Lower Division Required Courses (3 units)",
-            "GWS 100",
-            "or GWS 110 Women, Work and Family (3)",
-            "(Either course serves as a preparatory course for all other GWS courses).",
-            "2. Upper Division Required Courses (15 units)",
+            [
+                "|1",
+                "GWS 100",
+                "GWS 110"
+            ],
             "GWS 300",
             "GWS 301",
             "GWS 302",
             "GWS 351",
             "GWS 400",
-            "3. Electives (12 units)",
-            "Choose four courses, subject to the following conditions:",
-            "At least one course (3 units) must be at the 400-level other than GWS 400.",
-            "At least one course (3 units) must be at the 300-level or higher (excluding courses otherwise counted toward the major requirements).",
-            "GWS 220",
-            "GWS 222",
-            "GWS 230",
-            "GWS 305CS",
-            "GWS 315",
-            "GWS 320",
-            "GWS 340",
-            "GWS 360",
-            "GWS 370",
-            "GWS 380",
-            "GWS 396A-Z",
-            "GWS 410",
-            "GWS 420",
-            "GWS 430",
-            "GWS 440",
-            "GWS 495A-Z",
-            "Total Units in the Double Major Option: 30"
+            {
+                "no-intersection": [
+                    "&",
+                    [
+                        "|1",
+                        "GWS 410",
+                        "GWS 420"
+                    ],
+                    [
+                        "|1",
+                        "GWS 300",
+                        "GWS 301",
+                        "GWS 302",
+                        "GWS 305",
+                        "GWS 305CS",
+                        "GWS 320",
+                        "GWS 340",
+                        "GWS 351",
+                        "GWS 370"
+                    ],
+                    [
+                        "|2",
+                        "GWS 220",
+                        "GWS 222",
+                        "GWS 230",
+                        "GWS 305CS",
+                        "GWS 315",
+                        "GWS 320",
+                        "GWS 340",
+                        "GWS 360",
+                        "GWS 370",
+                        "GWS 380",
+                        "GWS 396A-Z",
+                        "GWS 410",
+                        "GWS 420",
+                        "GWS 430",
+                        "GWS 440",
+                        "GWS 495A-Z"
+                    ]
+                ]
+            }
         ]
     },
     "link-to-major": "https://catalog.csun.edu/academics/gws/programs/ba-gender-womens-studies-ii/double-major/",

@@ -2,67 +2,74 @@
     "course-sets": {
         "required": [
             "&",
-            "Program Requirements",
-            "1. Required Core Courses (30 units)",
-            "a. Lower Division (16 units)",
             "JOUR 100",
             "JOUR 104",
             "JOUR 110/L",
             "JOUR 210/L",
             "JOUR 225",
-            "JOUR 250",
-            "or JOUR 255 Introduction to Public Relations (3)**",
-            "b. Upper Division (14 units)",
-            "JOUR 325",
-            "or JOUR 341 Writing for Public Relations (3)**",
+            [
+                "|1",
+                "JOUR 250",
+                "JOUR 255"
+            ],
+            [
+                "|1",
+                "JOUR 325",
+                "JOUR 341"
+            ],
             "JOUR 400",
-            "JOUR 480",
-            "or JOUR 478 International News Media (3)",
+            [
+                "|1",
+                "JOUR 480",
+                "JOUR 478"
+            ],
             "JOUR 498",
-            "Journalism Practicum (4 units)",
-            "Select one set of courses from the following:",
-            "JOUR 395B",
-            "and JOUR 395C Broadcast News (2)",
-            "JOUR 397B",
-            "and JOUR 397C News\u2014The Sundial (2)",
-            "JOUR 398B",
-            "and JOUR 398C Public Relations\u2014Agency 398 (2)",
-            "*Credit/No Credit only.",
-            "**Required for Public Relations option.",
-            "2. Journalism Option Courses (18 units)",
-            "a. Required (6 units)",
-            "Select two courses from the following:",
-            "JOUR 310",
-            "JOUR 350",
-            "JOUR 410",
-            "or JOUR 474SLJ Spanish-Language Media Writing (3)",
-            "JOUR 450",
-            "b. Electives (12 units)",
-            "Select four courses from the following:",
-            "JOUR 365",
-            "JOUR 371",
-            "or JOUR 372 Diversity and the Media (3)***",
-            "JOUR 374SLJ",
-            "JOUR 375",
-            "JOUR 455",
-            "JOUR 460",
-            "JOUR 465",
-            "JOUR 491",
-            "JOUR 494AEE/BEE",
-            "JOUR 495A-Z",
-            "***May not take both JOUR 371 and JOUR 372.",
-            "\u2020Repeatable one time.",
-            "3. Courses Outside of Journalism (72 units)",
-            "Majors are required to take at least 72 units of the 120 required for graduation outside of Journalism and Mass Communication to meet national accreditation standards.",
-            "Students are strongly recommended to select an interdisciplinary field that complements the Journalism major. The interdisciplinary field must contain at least five upper division courses, totaling a minimum of 15 units in a selected area of study. See an advisor for recommendations.",
-            "4. General Education (48 units)",
-            "Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.",
-            "3 units are satisfied by the following course in the major: JOUR 100 satisfies E Lifelong Learning.",
-            "If taken, JOUR 365 satisfies 3 units of upper division D1 Social Sciences and fulfills the Information Competence requirement. JOUR 371 or JOUR 372 satisfies 3 units of upper division F Comparative Cultural Studies and fulfills the Information Competence requirement.",
-            "Total Units in the Major/Option: 48",
-            "General Education Units: 45",
-            "Additional Units: 27",
-            "Total Units Required for the B.A. Degree: 120"
+            [
+                "|1",
+                [
+                    "&",
+                    "JOUR 395B",
+                    "JOUR 395C"
+                ],
+                [
+                    "&",
+                    "JOUR 397B",
+                    "JOUR 397C"
+                ],
+                [
+                    "&",
+                    "JOUR 398B",
+                    "JOUR 398C"
+                ]
+            ],
+            [
+                "|2",
+                "JOUR 310",
+                "JOUR 350",
+                [
+                    "|1",
+                    "JOUR 410",
+                    "JOUR 474SLJ"
+                ],
+                "JOUR 450"
+            ],
+            [
+                "|4",
+                "JOUR 365",
+                [
+                    "|1",
+                    "JOUR 371",
+                    "JOUR 372"
+                ],
+                "JOUR 374SLJ",
+                "JOUR 375",
+                "JOUR 455",
+                "JOUR 460",
+                "JOUR 465",
+                "JOUR 491",
+                "JOUR 494AEE/BEE",
+                "JOUR 495A-Z"
+            ]
         ]
     },
     "link-to-major": "https://catalog.csun.edu/academics/jour/programs/ba-journalism-i/",

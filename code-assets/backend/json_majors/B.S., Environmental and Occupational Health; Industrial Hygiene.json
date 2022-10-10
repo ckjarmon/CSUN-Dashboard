@@ -2,53 +2,71 @@
     "course-sets": {
         "required": [
             "&",
-            "Program Requirements",
-            "Note: A minimum grade of C is required in all courses within the major.",
-            "1. Required Courses (40-48 units)",
-            "a. Choose one of these course groups:",
-            "BIOL 101",
-            "BIOL 101L",
-            "BIOL 281",
-            "BIOL 282",
-            "OR",
-            "BIOL 106",
-            "BIOL 106L",
-            "BIOL 107",
-            "BIOL 107L",
-            "b. Choose one of these course groups:",
-            "CHEM 101",
-            "CHEM 101D",
-            "CHEM 101L",
-            "CHEM 102",
-            "CHEM 102D",
-            "CHEM 102L",
-            "OR",
-            "CHEM 103",
-            "CHEM 103L",
-            "CHEM 104",
-            "CHEM 104L",
-            "c. Choose one of these course groups:",
-            "CHEM 235/L",
-            "OR",
-            "CHEM 333/L",
-            "CHEM 333D",
-            "CHEM 334/L",
-            "d. Take the following:",
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 101",
+                    "BIOL 101L",
+                    "BIOL 281",
+                    "BIOL 282"
+                ],
+                [
+                    "&",
+                    "BIOL 106",
+                    "BIOL 106L",
+                    "BIOL 107",
+                    "BIOL 107L"
+                ]
+            ],
+            [
+                "|1",
+                [
+                    "&",
+                    "CHEM 101",
+                    "CHEM 101D",
+                    "CHEM 101L",
+                    "CHEM 102",
+                    "CHEM 102D",
+                    "CHEM 102L"
+                ],
+                [
+                    "&",
+                    "CHEM 103",
+                    "CHEM 103L",
+                    "CHEM 104",
+                    "CHEM 104L"
+                ]
+            ],
+            [
+                "|1",
+                "CHEM 235/L",
+                [
+                    "&",
+                    "CHEM 333/L",
+                    "CHEM 333D",
+                    "CHEM 334/L"
+                ]
+            ],
             "EOH 455/L",
-            "e. Take one of the following:",
-            "HSCI 132",
-            "HSCI 345",
-            "f. Choose one of these course groups:",
-            "MATH 105",
-            "OR",
-            "MATH 102",
-            "MATH 104",
-            "g. Take the following:",
+            [
+                "|1",
+                "HSCI 132",
+                "HSCI 345"
+            ],
+            [
+                "|1",
+                "MATH 105",
+                [
+                    "&",
+                    "MATH 102",
+                    "MATH 104"
+                ]
+            ],
             "PHYS 100A",
             "PHYS 100AL",
             "PHYS 100B",
             "PHYS 100BL",
-            "2. Upper Division Required Courses (24 units)",
             "EOH 352",
             "EOH 356A",
             "EOH 356B",
@@ -56,28 +74,23 @@
             "EOH 466A",
             "EOH 494B",
             "HSCI 488",
-            "Choose one of the following:",
-            "HSCI 390/L",
-            "MATH 140",
-            "3. Industrial Hygiene Option (16 units)",
-            "Graduates with a B.S. in Environmental and Occupational Health with the Industrial Hygiene option are prepared for entry-level work in positions such as industrial hygiene, hazardous waste management, environmental compliance and a variety of similar positions.",
+            [
+                "|1",
+                "HSCI 390/L",
+                "MATH 140"
+            ],
             "EOH 465",
             "EOH 466B/L",
             "EOH 466C",
-            "Choose two of the following:",
-            "EOH 459",
-            "EOH 467",
-            "EOH 468",
-            "EOH 469",
-            "EOH 560",
-            "EOH 570",
-            "4. General Education (48 units)",
-            "Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.",
-            "18 units are satisfied by the following courses in the major: PHYS 100A satisfies B1 Physical Science; BIOL 101 or BIOL 106 satisfies B2 Life Science; PHYS 100AL satisfies B3 Science Laboratory Activity; MATH 102 or MATH 105 satisfies Basic Skills B4 Mathematics/Quantitative Reasoning; EOH 456 satisfies B5 Scientific Inquiry and Quantitative Reasoning; and EOH 352 and HSCI 132 or HSCI 345 satisfy D1 Social Sciences.",
-            "Total Units in the Major/Option: 80-88",
-            "General Education Units: 30",
-            "Additional Units: 2-10",
-            "Total Units Required for the B.S. Degree: 120"
+            [
+                "|2",
+                "EOH 459",
+                "EOH 467",
+                "EOH 468",
+                "EOH 469",
+                "EOH 560",
+                "EOH 570"
+            ]
         ]
     },
     "link-to-major": "https://catalog.csun.edu/academics/eoh/programs/bs-environmental-and-occupational-health-ii/industrial-hygiene/",

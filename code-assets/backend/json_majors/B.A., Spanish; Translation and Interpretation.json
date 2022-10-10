@@ -2,40 +2,36 @@
     "course-sets": {
         "required": [
             "&",
-            "Program Requirements",
-            "1. Core Courses Common to All Options (24 units)",
-            "Take all of the following courses (18 units):",
             "SPAN 220A",
             "SPAN 220B",
             "SPAN 304",
             "SPAN 306",
             "SPAN 307",
             "SPAN 401",
-            "Choose one course from the following (3 units):",
-            "SPAN 315A",
-            "SPAN 315B",
-            "Choose one course from the following (3 units):",
-            "SPAN 363",
-            "SPAN 364",
-            "2. Interpretation and Translation Option Courses (18 units)",
-            "Take all of the following courses (12 units):",
+            [
+                "|1",
+                "SPAN 315A",
+                "SPAN 315B"
+            ],
+            [
+                "|1",
+                "SPAN 363",
+                "SPAN 364"
+            ],
             "SPAN 362",
             "SPAN 372",
             "SPAN 400",
             "SPAN 497",
-            "Choose one course from the following (3 units):",
-            "SPAN 462",
-            "SPAN 463",
-            "Choose one course from the following (3 units):",
-            "SPAN 472",
-            "SPAN 473",
-            "3. General Education (48 units)",
-            "Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.",
-            "6 units are satisfied by the following courses in the major: SPAN 220A and SPAN 220B satisfy F Comparative Cultural Studies.",
-            "Total Units in the Major/Option: 42",
-            "General Education Units: 42",
-            "Additional Units: 36",
-            "Total Units Required for the B.A. Degree: 120"
+            [
+                "|1",
+                "SPAN 462",
+                "SPAN 463"
+            ],
+            [
+                "|1",
+                "SPAN 472",
+                "SPAN 473"
+            ]
         ]
     },
     "link-to-major": "https://catalog.csun.edu/academics/mcll/programs/ba-spanish-iv/translation-and-interpretation/",
