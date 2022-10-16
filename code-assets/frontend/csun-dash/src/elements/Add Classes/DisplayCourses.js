@@ -26,8 +26,8 @@ function DisplayCourses({term, subject, addedClassHandler, addIcon}){
         .then(scheduleData => {
             let scheduleDict = {}
             let fullScheduleList = []
-
-            scheduleData.classes.map(course => {
+            
+            scheduleData.map(course => {
                 scheduleDict[`${course.catalog_number}`] = course.catalog_number
                 fullScheduleList.push(course)
             })
