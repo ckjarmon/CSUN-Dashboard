@@ -1,4 +1,5 @@
 import json
+from turtle import title
 from unicodedata import name
 
 
@@ -1121,15 +1122,29 @@ def t13():
                             "instructor": course["instructors"][0]["instructor"],
                         } | course["meetings"][0]]
 
-
-
                 json.dump(all_classes, open(f"../../code-assets/backend/json_schedule/{code}_schedule.json", "w"), indent=4)
                 #print(*all_classes, sep="\n")
         except FileNotFoundError:
             continue
-            
+
+
+def t14():
+    with open("../scratch-data/actual_titles.json") as titles:
+        titles = json.load(titles)
+        for key in titles.keys():
+            try:    
+                with open(f"../../code-assets/backend/json_catalog/{key}_catalog.json") as curr_catalog:
+                    curr_catalog = json.load(curr_catalog)
+                    for course in titles[key].keys():
+                        for cinc in curr_catalog:
+                            if cinc["catalog_number"] == course.split()[1]:
+                                cinc["title"] = titles[key][course]
+                    json.dump(curr_catalog, open(f"../../code-assets/backend/json_catalog/{key}_catalog.json", "w"), indent=4)
+            except FileNotFoundError:
+                continue                
+                
 if __name__ == "__main__":
-    t13()
+    t14()
     
     
         

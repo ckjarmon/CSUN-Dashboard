@@ -2,7 +2,7 @@
     {
         "subject": "MSE",
         "catalog_number": "101",
-        "title": "Introduction To Engineering",
+        "title": "Introduction to Engineering",
         "description": "Corequisite: MSE 101L. Introduction to the engineering profession and academic programs. Orientation to the University, the College and its Departments. Development of study, communication, problem-solving, design, analytical and computing skills. Introduction to Internet, word processing, spread sheet, computer-aided design and presentation software. Design project development and team experience. 1 hour lecture-discussion, 3 hours lab per week. (Design units: 0.5)",
         "units": "1",
         "prerequisites": "{None}",
@@ -11,7 +11,7 @@
     {
         "subject": "MSE",
         "catalog_number": "101L",
-        "title": "Introduction To Engineering Lab",
+        "title": "Introduction to Engineering Lab",
         "description": "Corequisite: MSE 101L. Introduction to the engineering profession and academic programs. Orientation to the University, the College and its Departments. Development of study, communication, problem-solving, design, analytical and computing skills. Introduction to Internet, word processing, spread sheet, computer-aided design and presentation software. Design project development and team experience. 1 hour lecture-discussion, 3 hours lab per week. (Design units: 0.5)",
         "units": "1",
         "prerequisites": "{None}",
@@ -56,7 +56,7 @@
     {
         "subject": "MSE",
         "catalog_number": "227L",
-        "title": "Engineering Materials Lab",
+        "title": "Engineering Materials Lab Lab",
         "description": "Prerequisites: MATH 150A, CHEM 101, CHEM 101L, PHYS 220A, PHYS 220AL. Corequisite: MSE 227. Introductory lab course in engineering materials and their properties. Includes experiments in mechanical properties, heat treatment, metallography, corrosion properties and X-ray diffraction. Course culminates in a special project in which students identify, design and perform an experiment of their choosing. One 3-hour lab per week.",
         "units": "1",
         "prerequisites": "{{MATH 150A} && {CHEM 101/L} && {PHYS 220A/L}}",
@@ -65,7 +65,7 @@
     {
         "subject": "MSE",
         "catalog_number": "248",
-        "title": "Engineering Cad And Graphics",
+        "title": "Engineering CAD and Graphics",
         "description": "Prerequisite: MATH 150B for Manufacturing Systems Engineering (MSE) and Engineering Management (EM) Majors; MATH 103 for Engineering Management Technology (EMT) Majors. Corequisite: MSE 248L. Development of concepts and skills in engineering graphics and computer-aided design (CAD). Reading, interpretation and preparation of working drawings; dimensioning and tolerances; and interpretation of blueprints. Orthographic and isometric representations; auxiliary and sectional views. 3-dimensional solid modeling. Application of CAD graphics in the design and development of an assembly. 2 hours lecture-discussion, 3 hours lab per week. (May be used in General Education, Lifelong Learning if required by students major.)",
         "units": "2",
         "prerequisites": "{{MATH 150B for Manufacturing Systems Engineering (MSE) and Engineering Management (EM) Majors} && {MATH 103 for Engineering Management Technology (EMT) Majors}}",
@@ -74,7 +74,7 @@
     {
         "subject": "MSE",
         "catalog_number": "248L",
-        "title": "Engineering Cad And Graphics Lab",
+        "title": "Engineering CAD and Graphics Lab",
         "description": "Prerequisite: MATH 150B for Manufacturing Systems Engineering (MSE) and Engineering Management (EM) Majors; MATH 103 for Engineering Management Technology (EMT) Majors. Corequisite: MSE 248L. Development of concepts and skills in engineering graphics and computer-aided design (CAD). Reading, interpretation and preparation of working drawings; dimensioning and tolerances; and interpretation of blueprints. Orthographic and isometric representations; auxiliary and sectional views. 3-dimensional solid modeling. Application of CAD graphics in the design and development of an assembly. 2 hours lecture-discussion, 3 hours lab per week. (May be used in General Education, Lifelong Learning if required by students major.)",
         "units": "1",
         "prerequisites": "{{MATH 150B for Manufacturing Systems Engineering (MSE) and Engineering Management (EM) Majors} && {MATH 103 for Engineering Management Technology (EMT) Majors}}",
@@ -92,7 +92,7 @@
     {
         "subject": "MSE",
         "catalog_number": "302",
-        "title": "Women In Mathematics",
+        "title": "Women in Mathematics, Science and Engineering",
         "description": "Prerequisite: Completion of the lower division writing requirement. Exploration of the activities, contributions, and struggles of women in mathematics, science, engineering and related areas and professions, such as computer science. Research on individual women engaged in these fields. Investigation of different international, ethnic and culture-based practices and perspectives. Consideration of policy-related issues and intervention strategies addressing the participation and achievement of women in pertinent areas of study. (Available for General Education, F Comparative Cultural Studies.) (IC)",
         "units": "3",
         "prerequisites": "{Completion of the lower division writing requirement}",
@@ -101,7 +101,7 @@
     {
         "subject": "MSE",
         "catalog_number": "303",
-        "title": "Innovation",
+        "title": "Innovation, Invention and Technology",
         "description": "Prerequisite: Completion of lower division writing requirement. Course includes exploration of the history, processes, methods, and models of technological innovations and inventions. This includes evaluations of global contributions, creator diversity and technological failures. Critical assessments of technological innovation and invention, include evaluation of and drawing conclusions of whether the innovation is feasible or not. Not available for credit toward an Engineering degree. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning or E Lifelong Learning.) (IC)",
         "units": "3",
         "prerequisites": "{Completion of lower division writing requirement}",
@@ -128,7 +128,7 @@
     {
         "subject": "MSE",
         "catalog_number": "401",
-        "title": "Introduction To Engineering And Technology Management",
+        "title": "Introduction to Engineering and Technology Management",
         "description": "Recommended Preparatory: MSE 304, MSE 362. An introduction to the roles of the engineer in managing engineering and technology activities. Responsibilities of engineering and technology managers, and transitioning into these roles. Challenges and risks in engineering and technology management. Available for graduate credit.",
         "units": "3",
         "prerequisites": "{None}",
@@ -146,7 +146,7 @@
     {
         "subject": "MSE",
         "catalog_number": "403CS",
-        "title": "Facilities Planning And Design",
+        "title": "Facilities Planning and Design",
         "description": "Prerequisite: MSE 248/L or equivalent, or graduate status. Basic concepts in the planning and design of manufacturing facilities, product analysis, manufacturing processes and equipment selection, and schedule design; flow, space, activity relationships and space planning; location and layout; material handling systems; and facilities planning models. Offers a community service opportunity with activities relating to concepts and theories presented. Available for graduate credit. (Design units: 1.5)",
         "units": "3",
         "prerequisites": "{{MSE 248/L} || {graduate status}}",
@@ -173,7 +173,7 @@
     {
         "subject": "MSE",
         "catalog_number": "409",
-        "title": "Fundamentals Of Computer-aided Manufacturing",
+        "title": "Fundamentals of Computer-Aided Manufacturing",
         "description": "Prerequisites: MSE 248/L or equivalent, or graduate status. Corequisite: MSE 409L. Topics in computer-aided manufacturing (CAM). Fixed, programmable and flexible automation; numerical control technology; manual NC programming; post-processing; graphical NC programming; and NC programming with CAD/CAM systems. Selection and design of tooling. Available for graduate credit. 2 hours lecture-discussion, 3 hours of lab per week. (Design units: 1.5)",
         "units": "2",
         "prerequisites": "{{MSE 248/L} || {graduate status}}",
@@ -182,7 +182,7 @@
     {
         "subject": "MSE",
         "catalog_number": "409L",
-        "title": "Fundamentals Of Computer-aided Manufacturing Lab",
+        "title": "Fundamentals of Computer-Aided Manufacturing Lab",
         "description": "Prerequisites: MSE 248/L or equivalent, or graduate status. Corequisite: MSE 409L. Topics in computer-aided manufacturing (CAM). Fixed, programmable and flexible automation; numerical control technology; manual NC programming; post-processing; graphical NC programming; and NC programming with CAD/CAM systems. Selection and design of tooling. Available for graduate credit. 2 hours lecture-discussion, 3 hours of lab per week. (Design units: 1.5)",
         "units": "1",
         "prerequisites": "{{MSE 248/L} || {graduate status}}",
@@ -236,7 +236,7 @@
     {
         "subject": "MSE",
         "catalog_number": "420",
-        "title": "Innov & Tech Entr",
+        "title": "New Product Innovation and Technical Entrepreneurship for Engineers",
         "description": "Prerequisite: MSE 304 or instructor\u2019s consent; Recommended Preparatory: MSE 406. This course will focus on the skills needed by engineers related to new product development. This will include students\u2019 understanding of creativity and innovation as well as understanding customer needs and wants. The course will also focus on product design as well as entrepreneurship tools such as design thinking and the Business Model Canvas. Available for graduate credit with approval of the graduate coordinator.",
         "units": "3",
         "prerequisites": "{{MSE 304} || {instructor consent}}",
@@ -245,7 +245,7 @@
     {
         "subject": "MSE",
         "catalog_number": "488A",
-        "title": "Msem Senior Design I",
+        "title": "MSEM Senior Design I",
         "description": "Prerequisites for Manufacturing Systems Engineering majors: MSE 402, MSE 407, MSE 409/L and MSE 412/L. Prerequisites for Engineering Management majors: MSE 402 and MSE 407; Corequisite: MSE 420. Student teams engage in complex engineering design projects subject to multiple realistic constraints. Economic, environmental, social, political, ethical, health and safety, manufacturability, sustainability and other relevant factors are addressed. Formal design reviews demonstrating written and oral communication skills are required. MSE 488A and MSE 488BCS must be completed during the same academic year. 6 hours of lab per week. Not available for graduate degree program credit.",
         "units": "1",
         "prerequisites": "{{MSE 402} && {MSE 407} && {MSE 409/L} && {MSE 412/L}}",
@@ -254,7 +254,7 @@
     {
         "subject": "MSE",
         "catalog_number": "488BCS",
-        "title": "Msem Senior Design II",
+        "title": "MSEM Senior Design II",
         "description": "Prerequisite: MSE 488A. Continuation of MSE 488A. Includes a community service opportunity with activities relating to concepts and theories presented. MSE 488A and 488BCS must be completed during the same academic year. 6 hours of lab per week. Not available for graduate degree program credit. (Offered Spring semester.) (Design units: 2.0)",
         "units": "2",
         "prerequisites": "{MSE 488A}",
@@ -263,7 +263,7 @@
     {
         "subject": "MSE",
         "catalog_number": "494A",
-        "title": "Mse Intern A",
+        "title": "Academic Internship",
         "description": "Prerequisite: Senior or graduate standing in a major in the Department of Manufacturing Systems Engineering and Management; Prior approval of the department chair. Supervised practical professional experience relevant to the field of study in approved public or private organizations. Learning contracts and written reports required. Students may earn up to 3 units credit per semester and up to 3 units total for program elective credit. Available for graduate credit. (Credit/No Credit only)",
         "units": "1",
         "prerequisites": "{{Senior or graduate standing in a major in the Department of Manufacturing Systems Engineering and Management} && {Prior approval of the department chair}}",
@@ -317,7 +317,7 @@
     {
         "subject": "MSE",
         "catalog_number": "508",
-        "title": "Cad/cam Systems",
+        "title": "CAD/CAM Systems",
         "description": "Prerequisite: Instructor consent. Corequisite: MSE 508L. Concepts and applications of computer-aided design and manufacturing systems. 3-dimensional geometric modeling, surface and solid modeling, and finite element modeling and analysis. Data exchange standards. Survey and evaluation of commercial CAD/CAM systems. Computer integrated manufacturing and management systems, and e-factory implementation. Emphasis on advanced modeling tools and applications. 2 hours lecture-discussion, 3 hours lab per week. (Design units: 1.0)",
         "units": "3",
         "prerequisites": "{Instructor consent}",
@@ -326,7 +326,7 @@
     {
         "subject": "MSE",
         "catalog_number": "508L",
-        "title": "Cad/cam Systems And Lab",
+        "title": "CAD/CAM Systems Lab",
         "description": "Prerequisite: Instructor consent. Corequisite: MSE 508L. Concepts and applications of computer-aided design and manufacturing systems. 3-dimensional geometric modeling, surface and solid modeling, and finite element modeling and analysis. Data exchange standards. Survey and evaluation of commercial CAD/CAM systems. Computer integrated manufacturing and management systems, and e-factory implementation. Emphasis on advanced modeling tools and applications. 2 hours lecture-discussion, 3 hours lab per week. (Design units: 1.0)",
         "units": "1",
         "prerequisites": "{Instructor consent}",
@@ -335,7 +335,7 @@
     {
         "subject": "MSE",
         "catalog_number": "509",
-        "title": "Computer-aided Manufacturing Systems",
+        "title": "Computer-Aided Manufacturing Systems",
         "description": "Prerequisite: MSE 409/L or equivalent. Introduction to the design of computer-aided manufacturing systems. Concepts and principles of computer-aided manufacturing programming language development. Methods, tools, practices and projects for design and implementation of computer-aided manufacturing systems.",
         "units": "3",
         "prerequisites": "{MSE 409/L}",
@@ -344,7 +344,7 @@
     {
         "subject": "MSE",
         "catalog_number": "511",
-        "title": "Robotics W/apps",
+        "title": "Robotics with Applications",
         "description": "Prerequisite: Instructor consent. Corequisite: MSE 511L. Fundamentals of robotics and robot applications. Topics include control system components, end effectors, sensors, programming, robotic cell design and programmable automation. 2 hours lecture-discussion, 3 hours of lab per week. (Design units: 2.0)",
         "units": "3",
         "prerequisites": "{Instructor consent}",
@@ -353,7 +353,7 @@
     {
         "subject": "MSE",
         "catalog_number": "511L",
-        "title": "Robotics Apps Lab",
+        "title": "Robotics with Applications Lab",
         "description": "Prerequisite: Instructor consent. Corequisite: MSE 511L. Fundamentals of robotics and robot applications. Topics include control system components, end effectors, sensors, programming, robotic cell design and programmable automation. 2 hours lecture-discussion, 3 hours of lab per week. (Design units: 2.0)",
         "units": "1",
         "prerequisites": "{Instructor consent}",
@@ -362,7 +362,7 @@
     {
         "subject": "MSE",
         "catalog_number": "513",
-        "title": "Nde Methods And Analyses",
+        "title": "NDE Methods and Analyses",
         "description": "Prerequisite: Instructor consent. Study of the methods of measuring quality in manufacturing products, including metrology and non-destructive evaluation (NDE) methods; radiographic, ultrasonic, surface examination; and acoustic emission. The capability limitations and economics of the methods of gathering and interpreting data for measurement of quality. Reliability engineering topics introduced. (Design units: 1.5)",
         "units": "3",
         "prerequisites": "{Instructor consent}",
@@ -371,7 +371,7 @@
     {
         "subject": "MSE",
         "catalog_number": "515",
-        "title": "Eng Sup Chn Sys",
+        "title": "Engineering Supply Chain Systems",
         "description": "Prerequisite: MSE 304 or equivalent, or instructor\u2019s consent. Supply chain design and distribution networks for engineers, information, coordination and communication, sourcing, pricing and promotion, supplier qualification in a global environment.",
         "units": "3",
         "prerequisites": "{{MSE 304} || {instructor consent}}",
@@ -380,7 +380,7 @@
     {
         "subject": "MSE",
         "catalog_number": "516",
-        "title": "Cad/cam Adv Tools",
+        "title": "CAD/CAM Advanced Tools",
         "description": "Prerequisite: Instructor consent. Corequisite: MSE 516L. Advanced approaches to 2- and 3-dimensional computer-aided design and manufacturing. Part and assembly design, stress and mock-up using such advanced tools as CATIA. Design projects and applications. 2 hours lecture-discussion, 3 hours lab per week.",
         "units": "2",
         "prerequisites": "{Instructor consent}",
@@ -389,7 +389,7 @@
     {
         "subject": "MSE",
         "catalog_number": "516L",
-        "title": "Cad/cam Adv T Lab",
+        "title": "CAD/CAM Advanced Tools Lab",
         "description": "Prerequisite: Instructor consent. Corequisite: MSE 516L. Advanced approaches to 2- and 3-dimensional computer-aided design and manufacturing. Part and assembly design, stress and mock-up using such advanced tools as CATIA. Design projects and applications. 2 hours lecture-discussion, 3 hours lab per week.",
         "units": "1",
         "prerequisites": "{Instructor consent}",
@@ -398,7 +398,7 @@
     {
         "subject": "MSE",
         "catalog_number": "528",
-        "title": "Prin Mtls Engr",
+        "title": "Principles of Materials Engineering",
         "description": "Prerequisite: Instructor consent. Corequisite: MSE 528L. Study of the principles governing the selection, treatment and use of metals and alloys. Introduction to crystal structures, their imperfections and the effect on diffusion, and phase transformations. The application of thermodynamic laws to metallic alloys; solid solutions; alloying and solubility in solids; and metal/metal, metal/liquid and metal/gas interactions. 2 hours of lecture-discussion, 3 hours of lab per week. (Design units: 1.0)",
         "units": "2",
         "prerequisites": "{Instructor consent}",
@@ -407,7 +407,7 @@
     {
         "subject": "MSE",
         "catalog_number": "528L",
-        "title": "Prin Mtls Engr Lab",
+        "title": "Principles of Materials Engineering Lab",
         "description": "Prerequisite: Instructor consent. Corequisite: MSE 528L. Study of the principles governing the selection, treatment and use of metals and alloys. Introduction to crystal structures, their imperfections and the effect on diffusion, and phase transformations. The application of thermodynamic laws to metallic alloys; solid solutions; alloying and solubility in solids; and metal/metal, metal/liquid and metal/gas interactions. 2 hours of lecture-discussion, 3 hours of lab per week. (Design units: 1.0)",
         "units": "1",
         "prerequisites": "{Instructor consent}",
@@ -416,7 +416,7 @@
     {
         "subject": "MSE",
         "catalog_number": "540",
-        "title": "Sust For Engrs",
+        "title": "Sustainability for Engineers",
         "description": "Prerequisite: MSE 602 or MSE 303. Exploration of concepts to think innovatively about achieving sustainability in the engineering domain by introducing the three aspects of sustainability, namely, economic, environmental and social. The course also includes identification and understanding of best practices and development of sustainability models for engineers.",
         "units": "3",
         "prerequisites": "{{MSE 602} || {MSE 303}}",
@@ -425,7 +425,7 @@
     {
         "subject": "MSE",
         "catalog_number": "600",
-        "title": "Dec Tools For Em",
+        "title": "Decision Tools for Engineering Managers",
         "description": "Prerequisite: Admission into graduate program. Identification and formulation of engineering management problems with alternative approaches to modeling and analysis. Students will undertake data collection and utilize appropriate tools in statistics, forecasting, optimization, and simulation to make and analyze decisions in engineering-management. Focuses on formal quantitative modeling with strong recognition of the behavioral and political contexts of decision making in complex organizations.",
         "units": "3",
         "prerequisites": "{Admission into graduate program}",
@@ -443,7 +443,7 @@
     {
         "subject": "MSE",
         "catalog_number": "602",
-        "title": "Engineering Innovation Management",
+        "title": "Entrepreneurship and Innovation for Engineering Professionals",
         "description": "This course will assist engineers as well as engineering managers working in high tech organizations obtain an in-depth understanding of what entrepreneurship is, how to manage an entrepreneurial project in the high tech environment and will relate how innovation is the key aspect of being a successful entrepreneur. This course will also cover an analysis of why engineers and other tech personnel should understand how innovation is a key aspect of the value proposition in high tech organizations which will include writing a real business plan using latest software.",
         "units": "3",
         "prerequisites": "{None}",
@@ -461,7 +461,7 @@
     {
         "subject": "MSE",
         "catalog_number": "604",
-        "title": "Engineering Economy And Financial Analysis",
+        "title": "Engineering Economy and Financial Analysis",
         "description": "Prerequisite: Consent of instructor. Evaluation of economic feasibility from an engineering perspective. Application of various methods of comparing alternatives on an economic basis. Implications of depreciation, inflation, currency exchange rates and taxation on the profitability of engineering projects. Reviewing the basics of cost estimation and accounting. Development of income statement, cash flow statement and balance sheet for engineering projects. Other applications in corporate financial decision making are briefly covered.",
         "units": "3",
         "prerequisites": "{Consent of instructor}",
@@ -470,7 +470,7 @@
     {
         "subject": "MSE",
         "catalog_number": "606",
-        "title": "Pr & Opr Mgt For Eng",
+        "title": "Production and Operations Management for Engineers",
         "description": "This course explores a wide variety of production and operations management topics including managing operations related to production planning processes, manufacturing, and service organizations.",
         "units": "3",
         "prerequisites": "{None}",
@@ -488,7 +488,7 @@
     {
         "subject": "MSE",
         "catalog_number": "608B",
-        "title": "Management Of Engineering Professionals",
+        "title": "Leadership of Engineering Professionals and High-Tech Firms",
         "description": "Prerequisite: Admission to the program. Advanced study of the leadership attributes, skills, theories, and concepts required for high-tech\ncompanies in today\u2019s rapidly changing workplace. Study of special considerations in the management of engineering professionals, including selection, performance, termination and conflict situations.",
         "units": "3",
         "prerequisites": "{Admission to the program}",
@@ -506,7 +506,7 @@
     {
         "subject": "MSE",
         "catalog_number": "609",
-        "title": "Advanced Topics In Cad/cam",
+        "title": "Advanced Topics in CAD/CAM",
         "description": "Recommended Preparatory: MSE 508/L or equivalent. Areas of current interest in computer-aided design and manufacturing. Topics include computer graphics software and hardware, mathematical bases of geometric modeling, simultaneous engineering, manufacturability analysis, feature-based processing and database management for manufacturing environments.",
         "units": "3",
         "prerequisites": "{None}",
@@ -515,7 +515,7 @@
     {
         "subject": "MSE",
         "catalog_number": "611",
-        "title": "Robotics And Programmable Automation",
+        "title": "Robotics and Programmable Automation",
         "description": "Prerequisite: Instructor consent. Recommended Preparatory: MSE 511/L. Introduction to the design of programmable automation with robotic applications. Concepts, principles and applications of programmable automation in manufacturing environments. Methods, tools, practices and projects for design and implementation of programmable automation systems.",
         "units": "3",
         "prerequisites": "{Instructor consent}",
@@ -524,7 +524,7 @@
     {
         "subject": "MSE",
         "catalog_number": "617",
-        "title": "Seminar In Quality Management",
+        "title": "Seminar in Quality Management",
         "description": "Comprehensive overview of quality management concepts needed by engineering managers. Information covered will include the application of relevant engineering-related case studies that allow students working in high tech organizations to understand and apply quality management theory to the contemporary engineering or related projects carried high-tech firm. Additionally, students will design surveys, with a focus on the voice of customer and they will learn to implement quality management tools such as Quality Function Deployment (QFD), which are increasingly required in engineering and high-tech firms.",
         "units": "3",
         "prerequisites": "{None}",
@@ -605,7 +605,7 @@
     {
         "subject": "MSE",
         "catalog_number": "697MTL",
-        "title": "Directed Comprehensive Studies: Materials Engineering",
+        "title": "Materials Engineering Comprehensive Directed Studies Lab",
         "description": "Preparatory: MSE 690; Classified status in M.S. Materials Engineering Program; Permission from supervising faculty advisor and Department Graduate Coordinator. Preparation for and completion of written comprehensive examination culminating experience requirement for the Master of Science in Materials Engineering Degree. (Credit/No Credit only)",
         "units": "3",
         "prerequisites": "{None}",
