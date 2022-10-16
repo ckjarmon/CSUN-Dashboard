@@ -212,7 +212,10 @@ def schedule(**kwargs):
         try:    
             return classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number']}"]
         except KeyError:
-            return classes
+            ret = []
+            for key in classes.keys():
+                ret += classes[key]
+            return ret
             
 
 

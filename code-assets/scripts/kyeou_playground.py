@@ -1,6 +1,6 @@
 import json
-from turtle import title
-from unicodedata import name
+
+
 
 
 
@@ -1155,9 +1155,27 @@ def t15():
             continue
     print(max)
              
- 
+
+
+
+def t16():
+    for code in class_codes:
+        try:    
+            with open(f"../../code-assets/backend/json_schedule/{code}_schedule.json") as catalog_file:
+                catalog_file = json.load(catalog_file)
+
+                for key in catalog_file.keys():
+                    curr_key = []
+                    for course in catalog_file[key]:
+                        curr_key.append(course | {"catalog_number": key.split(" ")[1]})
+                    catalog_file[key] = curr_key
+
+                json.dump(catalog_file,open(f"../../code-assets/backend/json_schedule/{code}_schedule.json", "w"), indent=4)
+        except FileNotFoundError:
+            continue
+
 if __name__ == "__main__":
-    t15()
+    t16()
     
     
         
