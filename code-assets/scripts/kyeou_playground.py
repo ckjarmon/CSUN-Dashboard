@@ -1167,7 +1167,7 @@ def t16():
                 for key in catalog_file.keys():
                     curr_key = []
                     for course in catalog_file[key]:
-                        curr_key.append(course | {"catalog_number": key.split(" ")[1]})
+                        curr_key.append(course | {"subject": key.split(" ")[0]})
                     catalog_file[key] = curr_key
 
                 json.dump(catalog_file,open(f"../../code-assets/backend/json_schedule/{code}_schedule.json", "w"), indent=4)
