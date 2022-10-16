@@ -1101,11 +1101,7 @@ def t13():
         classes = []
         try:
             with open(f"../../code-assets/backend/json_schedule_dead/{code}_schedule.json") as schedule_file:
-                curr_cat_num = ""
                 all_classes = {}
-                curr_meetings = []
-
-
                 for course in json.load(schedule_file)["classes"]:
                     try:
                         all_classes[f"{code.upper()} {course['catalog_number']}"].append({
