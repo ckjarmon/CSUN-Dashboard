@@ -1,1054 +1,562 @@
 {
-    "classes": [
+    "PT 703": [
         {
-            "subject": "PT",
-            "catalog_number": "703",
-            "title": "APP BIOMECH II",
             "class_number": "19289",
             "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
-        },
+            "instructor": "Adams,Janet M",
+            "days": "W",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    ],
+    "PT 703L": [
         {
-            "subject": "PT",
-            "catalog_number": "703L",
-            "title": "APP BIOM II LAB",
             "class_number": "19290",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD1580",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
+            "instructor": "Adams,Janet M",
+            "days": "W",
+            "location": "JD1580",
+            "start_time": "1400h",
+            "end_time": "1645h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "703L",
-            "title": "APP BIOM II LAB",
             "class_number": "19291",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Adams,Janet M",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 706": [
         {
-            "subject": "PT",
-            "catalog_number": "706",
-            "title": "APPL NEURO",
             "class_number": "19983",
             "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        }
+    ],
+    "PT 706L": [
         {
-            "subject": "PT",
-            "catalog_number": "706L",
-            "title": "APPL NEURO LAB",
             "class_number": "19984",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "F",
+            "location": "TBA",
+            "start_time": "0900h",
+            "end_time": "1145h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "706L",
-            "title": "APPL NEURO LAB",
             "class_number": "19985",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 711": [
         {
-            "subject": "PT",
-            "catalog_number": "711",
-            "title": "PT MGMT",
             "class_number": "20051",
             "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JD1580",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
-                }
-            ]
-        },
+            "instructor": "Mathiyakom,Witaya",
+            "days": "T",
+            "location": "JD1580",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    ],
+    "PT 711L": [
         {
-            "subject": "PT",
-            "catalog_number": "711L",
-            "title": "PT MGMT LAB",
             "class_number": "20052",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "JD1580",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
+            "instructor": "Mathiyakom,Witaya",
+            "days": "T",
+            "location": "JD1580",
+            "start_time": "0800h",
+            "end_time": "1045h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "711L",
-            "title": "PT MGMT LAB",
             "class_number": "20053",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Mathiyakom,Witaya",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 712": [
         {
-            "subject": "PT",
-            "catalog_number": "712",
-            "title": "ELECTROTHER",
             "class_number": "20055",
             "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1580",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
-                }
-            ]
-        },
+            "instructor": "Mathiyakom,Witaya",
+            "days": "R",
+            "location": "JD1580",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    ],
+    "PT 712L": [
         {
-            "subject": "PT",
-            "catalog_number": "712L",
-            "title": "ELECTROTHER LAB",
             "class_number": "20056",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1580",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
+            "instructor": "Mathiyakom,Witaya",
+            "days": "R",
+            "location": "JD1580",
+            "start_time": "1400h",
+            "end_time": "1645h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "712L",
-            "title": "ELECTROTHER LAB",
             "class_number": "20057",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Mathiyakom,Witaya",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 720": [
         {
-            "subject": "PT",
-            "catalog_number": "720",
-            "title": "MUSC SKEL PRAC I",
             "class_number": "19292",
             "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kachingwe,Aimie F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "1200h",
-                    "end_time": "1315h"
-                }
-            ]
-        },
+            "instructor": "Kachingwe,Aimie F",
+            "days": null,
+            "location": "TBA",
+            "start_time": "1200h",
+            "end_time": "1315h"
+        }
+    ],
+    "PT 720L": [
         {
-            "subject": "PT",
-            "catalog_number": "720L",
-            "title": "MUSC SKEL I LAB",
             "class_number": "19293",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kachingwe,Aimie F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "JD1621",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
+            "instructor": "Kachingwe,Aimie F",
+            "days": null,
+            "location": "JD1621",
+            "start_time": "0800h",
+            "end_time": "1045h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "720L",
-            "title": "MUSC SKEL I LAB",
             "class_number": "19294",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kachingwe,Aimie F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Kachingwe,Aimie F",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 732": [
         {
-            "subject": "PT",
-            "catalog_number": "732",
-            "title": "NEURO MGMT I",
             "class_number": "19669",
             "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    ],
+    "PT 732L": [
         {
-            "subject": "PT",
-            "catalog_number": "732L",
-            "title": "NEURO MGMT I LAB",
             "class_number": "19670",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD1621",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "JD1621",
+            "start_time": "1400h",
+            "end_time": "1645h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "732L",
-            "title": "NEURO MGMT I LAB",
             "class_number": "19671",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 740": [
         {
-            "subject": "PT",
-            "catalog_number": "740",
-            "title": "MUS SKEL PRAC III",
             "class_number": "20632",
             "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1625",
-                    "start_time": "1300h",
-                    "end_time": "1440h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JD1625",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    ],
+    "PT 740L": [
         {
-            "subject": "PT",
-            "catalog_number": "740L",
-            "title": "MUSC SKEL III LAB",
             "class_number": "20633",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "JD1625",
-                    "start_time": "1500h",
-                    "end_time": "1745h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JD1625",
+            "start_time": "1500h",
+            "end_time": "1745h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "740L",
-            "title": "MUSC SKEL III LAB",
             "class_number": "20634",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 742": [
         {
-            "subject": "PT",
-            "catalog_number": "742",
-            "title": "PED PRAC MGMT",
             "class_number": "20629",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD1580",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "JD1580",
+            "start_time": "0800h",
+            "end_time": "0940h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "742",
-            "title": "PED PRAC MGMT",
             "class_number": "20640",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 742L": [
         {
-            "subject": "PT",
-            "catalog_number": "742L",
-            "title": "PED PRAC MGMT LAB",
             "class_number": "20630",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "JD1580",
-                    "start_time": "1000h",
-                    "end_time": "1245h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "JD1580",
+            "start_time": "1000h",
+            "end_time": "1245h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "742L",
-            "title": "PED PRAC MGMT LAB",
             "class_number": "20631",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 746L": [
         {
-            "subject": "PT",
-            "catalog_number": "746L",
-            "title": "APPL THER EX LAB",
             "class_number": "20006",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JD1621",
-                    "start_time": "1200h",
-                    "end_time": "1445h"
-                }
-            ]
+            "instructor": "Jaber,Hatem M",
+            "days": "F",
+            "location": "JD1621",
+            "start_time": "1200h",
+            "end_time": "1445h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "746L",
-            "title": "APPL THER EX LAB",
             "class_number": "20007",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Jaber,Hatem M",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 752A": [
         {
-            "subject": "PT",
-            "catalog_number": "752A",
-            "title": "EBPT II",
             "class_number": "19436",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
+            "instructor": "Mathiyakom,Witaya",
+            "days": "R",
+            "location": "TBA",
+            "start_time": "0800h",
+            "end_time": "0940h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "752A",
-            "title": "EBPT II",
             "class_number": "19690",
             "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1000h",
-                    "end_time": "1140h"
-                }
-            ]
-        },
+            "instructor": "Mathiyakom,Witaya",
+            "days": "R",
+            "location": "TBA",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    ],
+    "PT 752C": [
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19437",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ferreira,Paula"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Ferreira,Paula",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19438",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Jaber,Hatem M",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19439",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Kachingwe,Aimie F"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Kachingwe,Aimie F",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19440",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Mathiyakom,Witaya"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Mathiyakom,Witaya",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19441",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Phillips,Beth Jo"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Phillips,Beth Jo",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19442",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Bartlett,Andrew S",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "752C",
-            "title": "DOC PROJ",
             "class_number": "19539",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Jaber,Hatem M",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 772": [
         {
-            "subject": "PT",
-            "catalog_number": "772",
-            "title": "GAIT ANALYSIS",
             "class_number": "20002",
             "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1330h",
-                    "end_time": "1420h"
-                }
-            ]
-        },
+            "instructor": "Adams,Janet M",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1330h",
+            "end_time": "1420h"
+        }
+    ],
+    "PT 772L": [
         {
-            "subject": "PT",
-            "catalog_number": "772L",
-            "title": "GAIT ANALYSIS LAB",
             "class_number": "20003",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1430h",
-                    "end_time": "1715h"
-                }
-            ]
+            "instructor": "Adams,Janet M",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1430h",
+            "end_time": "1715h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "772L",
-            "title": "GAIT ANALYSIS LAB",
             "class_number": "20004",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Adams,Janet M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Adams,Janet M",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 773": [
         {
-            "subject": "PT",
-            "catalog_number": "773",
-            "title": "MED IMAGING",
             "class_number": "20054",
             "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Ferreira,Paula"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "ONLINE",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
-            ]
-        },
+            "instructor": "Ferreira,Paula",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    ],
+    "PT 774": [
         {
-            "subject": "PT",
-            "catalog_number": "774",
-            "title": "MED SCREENING",
             "class_number": "19672",
             "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Jaber,Hatem M"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
-            ]
-        },
+            "instructor": "Jaber,Hatem M",
+            "days": "T",
+            "location": "TBA",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    ],
+    "PT 778": [
         {
-            "subject": "PT",
-            "catalog_number": "778",
-            "title": "WELL PREVENT",
             "class_number": "20028",
             "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD1580",
-                    "start_time": "1100h",
-                    "end_time": "1150h"
-                }
-            ]
-        },
+            "instructor": "Bartlett,Andrew S",
+            "days": "M",
+            "location": "JD1580",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    ],
+    "PT 778L": [
         {
-            "subject": "PT",
-            "catalog_number": "778L",
-            "title": "WELL PREVENT LAB",
             "class_number": "19550",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "JD1580",
-                    "start_time": "1200h",
-                    "end_time": "1445h"
-                }
-            ]
+            "instructor": "Bartlett,Andrew S",
+            "days": "M",
+            "location": "JD1580",
+            "start_time": "1200h",
+            "end_time": "1445h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "778L",
-            "title": "WELL PREVENT LAB",
             "class_number": "19551",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Bartlett,Andrew S"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Bartlett,Andrew S",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PT 780": [
         {
-            "subject": "PT",
-            "catalog_number": "780",
-            "title": "PROF PRACTI II",
             "class_number": "20005",
             "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "TBA",
-                    "start_time": "1530h",
-                    "end_time": "1710h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "TBA",
+            "start_time": "1530h",
+            "end_time": "1710h"
+        }
+    ],
+    "PT 785H": [
         {
-            "subject": "PT",
-            "catalog_number": "785H",
-            "title": "PT STRENGTH COND",
             "class_number": "20060",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "JD1580",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JD1580",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    ],
+    "PT 790": [
         {
-            "subject": "PT",
-            "catalog_number": "790",
-            "title": "CLIN PRAC I",
             "class_number": "19295",
             "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stewart,Myra Nichole"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
-            ]
-        },
+            "instructor": "Stewart,Myra Nichole",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    ],
+    "PT 792": [
         {
-            "subject": "PT",
-            "catalog_number": "792",
-            "title": "CLIN PRAC II",
             "class_number": "19435",
             "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Stewart,Myra Nichole"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1020h"
-                }
-            ]
-        },
+            "instructor": "Stewart,Myra Nichole",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        }
+    ],
+    "PT 797": [
         {
-            "subject": "PT",
-            "catalog_number": "797",
-            "title": "CULM EXAM",
             "class_number": "19553",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
         {
-            "subject": "PT",
-            "catalog_number": "797",
-            "title": "CULM EXAM",
             "class_number": "19554",
             "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ]
 }

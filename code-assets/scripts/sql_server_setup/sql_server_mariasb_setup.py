@@ -35,18 +35,20 @@ else:
                        'subject varchar(6),' 
                        'office varchar(15) null)')
     for code in class_codes:
-        url = u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/" + code
-        print(url)
+        urls = [u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/" + code, u"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2022/classes/" + code]
         profs = []
-        try:
-            data = json.loads(urllib3.PoolManager().request("GET", url).data)
-        except Exception as e:
-            data = json.loads({})
-
-        for course in data["classes"]:
-            if len(course["instructors"]) > 0:
-                if course["instructors"][0]["instructor"] not in profs and course["instructors"][0]["instructor"] != "Staff":
-                    profs.append(course["instructors"][0]["instructor"])
+        
+        
+        for us in urls:
+            try:
+                data = json.loads(urllib3.PoolManager().request("GET", us).data)
+            except Exception as e:
+                data = json.loads({})
+                
+            for course in data["classes"]:
+                if len(course["instructors"]) > 0:
+                    if course["instructors"][0]["instructor"] not in profs and course["instructors"][0]["instructor"] != "Staff":
+                        profs.append(course["instructors"][0]["instructor"])
 
         for prof in profs:
             if prof is not None:
