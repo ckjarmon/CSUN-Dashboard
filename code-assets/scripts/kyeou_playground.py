@@ -1138,9 +1138,26 @@ def t14():
                     json.dump(curr_catalog, open(f"../../code-assets/backend/json_catalog/{key}_catalog.json", "w"), indent=4)
             except FileNotFoundError:
                 continue                
-                
+
+def t15():
+    max = 0
+    for code in class_codes:
+        try:
+            with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+                for course in json.load(catalog_file):
+                    try:
+                        if len(course["title"]) > max:
+                            max = len(course["title"])
+                    except KeyError:
+                        print(course)
+                        
+        except FileNotFoundError:
+            continue
+    print(max)
+             
+ 
 if __name__ == "__main__":
-    t14()
+    t15()
     
     
         

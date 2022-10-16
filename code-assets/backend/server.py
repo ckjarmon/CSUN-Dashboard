@@ -204,12 +204,16 @@ def prof_name(**kwargs):
         profs = json.load(profs)
         return profs[kwargs['prof_email']]
 
+@app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
     with open(f"../backend/json_schedule/{kwargs['subject'].upper()}_schedule.json") as subject:
         classes = json.load(subject)
-        return classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number']}"]
-
+        try:    
+            return classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number']}"]
+        except KeyError:
+            return classes
+            
 
 
 app.run(port=(8000))
