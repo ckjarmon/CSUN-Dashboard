@@ -1,25 +1,16 @@
 {
-    "classes": [
+    "ARAB 101": [
         {
-            "subject": "ARAB",
-            "catalog_number": "101",
-            "title": "ELEM ARABIC I",
             "class_number": "14912",
             "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1200h",
-                    "end_time": "1340h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1200h",
+            "end_time": "1340h",
+            "catalog_number": "101",
+            "subject": "ARAB"
         }
     ]
 }

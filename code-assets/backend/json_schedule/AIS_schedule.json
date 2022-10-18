@@ -1,130 +1,82 @@
 {
-    "classes": [
+    "AIS 101": [
         {
-            "subject": "AIS",
-            "catalog_number": "101",
-            "title": "INTRO AMER IND ST",
             "class_number": "14298",
             "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "catalog_number": "101",
+            "subject": "AIS"
         },
         {
-            "subject": "AIS",
-            "catalog_number": "101",
-            "title": "INTRO AMER IND ST",
             "class_number": "14326",
             "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "catalog_number": "101",
+            "subject": "AIS"
+        }
+    ],
+    "AIS 222": [
         {
-            "subject": "AIS",
-            "catalog_number": "222",
-            "title": "AMER IND GENDER",
             "class_number": "15126",
             "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "TBA",
-                    "start_time": "1400h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "catalog_number": "222",
+            "subject": "AIS"
+        }
+    ],
+    "AIS 301": [
         {
-            "subject": "AIS",
-            "catalog_number": "301",
-            "title": "POP CULTURE",
             "class_number": "15220",
             "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "F",
+            "location": "TBA",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "catalog_number": "301",
+            "subject": "AIS"
+        }
+    ],
+    "AIS 304": [
         {
-            "subject": "AIS",
-            "catalog_number": "304",
-            "title": "AMER IND LAW POL",
             "class_number": "14669",
             "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "catalog_number": "304",
+            "subject": "AIS"
         },
         {
-            "subject": "AIS",
-            "catalog_number": "304",
-            "title": "AMER IND LAW POL",
             "class_number": "15327",
             "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h",
+            "catalog_number": "304",
+            "subject": "AIS"
         }
     ]
 }

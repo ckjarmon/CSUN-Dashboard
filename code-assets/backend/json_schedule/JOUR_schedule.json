@@ -1,1243 +1,786 @@
 {
-    "classes": [
+    "JOUR 100": [
         {
-            "subject": "JOUR",
-            "catalog_number": "100",
-            "title": "MASS COMM",
             "class_number": "11099",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "MZ361",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "MZ361",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "catalog_number": "100",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 110": [
         {
-            "subject": "JOUR",
-            "catalog_number": "110",
-            "title": "NEWS REPORT I",
             "class_number": "11717",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h",
+            "catalog_number": "110",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "110",
-            "title": "NEWS REPORT I",
             "class_number": "11718",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "TBA",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "T",
+            "location": "TBA",
+            "start_time": "0800h",
+            "end_time": "0940h",
+            "catalog_number": "110",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 110L": [
         {
-            "subject": "JOUR",
-            "catalog_number": "110L",
-            "title": "NEWS REPORT I LAB",
             "class_number": "11723",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h",
+            "catalog_number": "110L",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "110L",
-            "title": "NEWS REPORT I LAB",
             "class_number": "11724",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ360",
-                    "start_time": "0800h",
-                    "end_time": "0940h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ360",
+            "start_time": "0800h",
+            "end_time": "0940h",
+            "catalog_number": "110L",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 210": [
         {
-            "subject": "JOUR",
-            "catalog_number": "210",
-            "title": "NEWS REPORT II",
             "class_number": "11729",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "ONLINE",
-                    "start_time": "1900h",
-                    "end_time": "2040h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2040h",
+            "catalog_number": "210",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "210",
-            "title": "NEWS REPORT II",
             "class_number": "11730",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ361",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ361",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "catalog_number": "210",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "210",
-            "title": "NEWS REPORT II",
             "class_number": "11731",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ360",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ360",
+            "start_time": "0900h",
+            "end_time": "1040h",
+            "catalog_number": "210",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 210L": [
         {
-            "subject": "JOUR",
-            "catalog_number": "210L",
-            "title": "NEWS REPORT II LA",
             "class_number": "11736",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ONLINE",
-                    "start_time": "1900h",
-                    "end_time": "2040h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2040h",
+            "catalog_number": "210L",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "210L",
-            "title": "NEWS REPORT II LA",
             "class_number": "11737",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ360",
-                    "start_time": "1100h",
-                    "end_time": "1240h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ360",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "catalog_number": "210L",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "210L",
-            "title": "NEWS REPORT II LA",
             "class_number": "11738",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "MZ211",
-                    "start_time": "0900h",
-                    "end_time": "1040h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ211",
+            "start_time": "0900h",
+            "end_time": "1040h",
+            "catalog_number": "210L",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 225": [
         {
-            "subject": "JOUR",
-            "catalog_number": "225",
-            "title": "MULTI STORYTELL",
             "class_number": "11993",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "catalog_number": "225",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "225",
-            "title": "MULTI STORYTELL",
             "class_number": "11994",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "catalog_number": "225",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "225",
-            "title": "MULTI STORYTELL",
             "class_number": "11995",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ211",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "catalog_number": "225",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 250": [
         {
-            "subject": "JOUR",
-            "catalog_number": "250",
-            "title": "VISUAL COMM",
             "class_number": "11429",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "ONLINE",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "catalog_number": "250",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 255": [
         {
-            "subject": "JOUR",
-            "catalog_number": "255",
-            "title": "INTRO PR",
             "class_number": "11903",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ361",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ361",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "catalog_number": "255",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 310": [
         {
-            "subject": "JOUR",
-            "catalog_number": "310",
-            "title": "FEATURE WRITING",
             "class_number": "10646",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ360",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ360",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "catalog_number": "310",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 315": [
         {
-            "subject": "JOUR",
-            "catalog_number": "315",
-            "title": "BROADCAST REPORT",
             "class_number": "10055",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ211",
-                    "start_time": "1230h",
-                    "end_time": "1515h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "catalog_number": "315",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 325": [
         {
-            "subject": "JOUR",
-            "catalog_number": "325",
-            "title": "MULTIPLAT STORY",
             "class_number": "10536",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ211",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ211",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "catalog_number": "325",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "325",
-            "title": "MULTIPLAT STORY",
             "class_number": "10858",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "ONLINE",
-                    "start_time": "1200h",
-                    "end_time": "1445h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1200h",
+            "end_time": "1445h",
+            "catalog_number": "325",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "325",
-            "title": "MULTIPLAT STORY",
             "class_number": "11324",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ211",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ211",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "catalog_number": "325",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 341": [
         {
-            "subject": "JOUR",
-            "catalog_number": "341",
-            "title": "WRITING FOR PR",
             "class_number": "10598",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ211",
-                    "start_time": "1400h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ211",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "catalog_number": "341",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 350": [
         {
-            "subject": "JOUR",
-            "catalog_number": "350",
-            "title": "PHOTOJOURNALISM",
             "class_number": "10056",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "MZ360",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ360",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "catalog_number": "350",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 365": [
         {
-            "subject": "JOUR",
-            "catalog_number": "365",
-            "title": "NEWS LITERACY",
             "class_number": "11909",
             "enrollment_cap": 70,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "catalog_number": "365",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "365",
-            "title": "NEWS LITERACY",
             "class_number": "12036",
             "enrollment_cap": 70,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "catalog_number": "365",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 371": [
         {
-            "subject": "JOUR",
-            "catalog_number": "371",
-            "title": "GENDER AND MEDIA",
             "class_number": "10532",
             "enrollment_cap": 70,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "1100h",
-                    "end_time": "1215h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "catalog_number": "371",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 372": [
         {
-            "subject": "JOUR",
-            "catalog_number": "372",
-            "title": "DIVRSTY & MEDIA",
             "class_number": "10057",
             "enrollment_cap": 70,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "TR",
-                    "location": "ONLINE",
-                    "start_time": "1230h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "catalog_number": "372",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 375": [
         {
-            "subject": "JOUR",
-            "catalog_number": "375",
-            "title": "ENGAGE COMM",
             "class_number": "11920",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "MZ360",
-                    "start_time": "1000h",
-                    "end_time": "1245h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ360",
+            "start_time": "1000h",
+            "end_time": "1245h",
+            "catalog_number": "375",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "375",
-            "title": "ENGAGE COMM",
             "class_number": "11997",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "TBA",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "catalog_number": "375",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 395B": [
         {
-            "subject": "JOUR",
-            "catalog_number": "395B",
-            "title": "BRDCAST NEWS PRAC",
             "class_number": "10058",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h",
+            "catalog_number": "395B",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "395B",
-            "title": "BRDCAST NEWS PRAC",
             "class_number": "11496",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h",
+            "catalog_number": "395B",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 395C": [
         {
-            "subject": "JOUR",
-            "catalog_number": "395C",
-            "title": "BRDCST NEWS",
             "class_number": "11904",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ211",
-                    "start_time": "1600h",
-                    "end_time": "1740h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "1600h",
+            "end_time": "1740h",
+            "catalog_number": "395C",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "395C",
-            "title": "BRDCST NEWS",
             "class_number": "11905",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ360",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ360",
+            "start_time": "1400h",
+            "end_time": "1540h",
+            "catalog_number": "395C",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 397B": [
         {
-            "subject": "JOUR",
-            "catalog_number": "397B",
-            "title": "NEWS PRACTICUM",
             "class_number": "10060",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "MZ140",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "MZ140",
+            "start_time": "0000h",
+            "end_time": "0000h",
+            "catalog_number": "397B",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 397C": [
         {
-            "subject": "JOUR",
-            "catalog_number": "397C",
-            "title": "NEWS SUNDIAL",
             "class_number": "11906",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ140",
-                    "start_time": "0930h",
-                    "end_time": "1110h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ140",
+            "start_time": "0930h",
+            "end_time": "1110h",
+            "catalog_number": "397C",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 398B": [
         {
-            "subject": "JOUR",
-            "catalog_number": "398B",
-            "title": "PR PRACTICUM",
             "class_number": "10651",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h",
+            "catalog_number": "398B",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 398C": [
         {
-            "subject": "JOUR",
-            "catalog_number": "398C",
-            "title": "PR AGENCY",
             "class_number": "11907",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "MZ211",
-                    "start_time": "1400h",
-                    "end_time": "1540h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ211",
+            "start_time": "1400h",
+            "end_time": "1540h",
+            "catalog_number": "398C",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 400": [
         {
-            "subject": "JOUR",
-            "catalog_number": "400",
-            "title": "MEDIA LAW+ ETHICS",
             "class_number": "10533",
             "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "MW",
-                    "location": "ONLINE",
-                    "start_time": "0930h",
-                    "end_time": "1045h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "catalog_number": "400",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "400",
-            "title": "MEDIA LAW+ ETHICS",
             "class_number": "10534",
             "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "TBA",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "TBA",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "catalog_number": "400",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 410": [
         {
-            "subject": "JOUR",
-            "catalog_number": "410",
-            "title": "INVEST REPORTING",
             "class_number": "10691",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ360",
-                    "start_time": "0900h",
-                    "end_time": "1145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ360",
+            "start_time": "0900h",
+            "end_time": "1145h",
+            "catalog_number": "410",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 430": [
         {
-            "subject": "JOUR",
-            "catalog_number": "430",
-            "title": "PUB AFFS JOUR",
             "class_number": "11908",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ150E",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ150E",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "catalog_number": "430",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 440": [
         {
-            "subject": "JOUR",
-            "catalog_number": "440",
-            "title": "PR MANAGEMENT",
             "class_number": "10061",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ361",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ361",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "catalog_number": "440",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 445": [
         {
-            "subject": "JOUR",
-            "catalog_number": "445",
-            "title": "ADV TV NEWS",
             "class_number": "10541",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ150E",
-                    "start_time": "1100h",
-                    "end_time": "1645h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ150E",
+            "start_time": "1100h",
+            "end_time": "1645h",
+            "catalog_number": "445",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 455": [
         {
-            "subject": "JOUR",
-            "catalog_number": "455",
-            "title": "DOC PHOTOJOURNLSM",
             "class_number": "10065",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ211",
-                    "start_time": "1900h",
-                    "end_time": "2145h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ211",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "catalog_number": "455",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 460": [
         {
-            "subject": "JOUR",
-            "catalog_number": "460",
-            "title": "MAG JOURNALISM",
             "class_number": "10652",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "MZ211",
-                    "start_time": "1600h",
-                    "end_time": "1845h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ211",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "catalog_number": "460",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 474SLJ": [
         {
-            "subject": "JOUR",
-            "catalog_number": "474SLJ",
-            "title": "SLJ MEDIA WRIT",
             "class_number": "10599",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "F",
-                    "location": "TBA",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "F",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "catalog_number": "474SLJ",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 478": [
         {
-            "subject": "JOUR",
-            "catalog_number": "478",
-            "title": "INTL NEWS MEDIA",
             "class_number": "10062",
             "enrollment_cap": 40,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "ONLINE",
-                    "start_time": "1530h",
-                    "end_time": "1815h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1530h",
+            "end_time": "1815h",
+            "catalog_number": "478",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 494AEE": [
         {
-            "subject": "JOUR",
-            "catalog_number": "494AEE",
-            "title": "INTERNSHIP",
             "class_number": "11585",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h",
+            "catalog_number": "494AEE",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 494BEE": [
         {
-            "subject": "JOUR",
-            "catalog_number": "494BEE",
-            "title": "INTERNSHIP",
             "class_number": "11586",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": null,
-                    "location": "TBA",
-                    "start_time": "0000h",
-                    "end_time": "0000h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h",
+            "catalog_number": "494BEE",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 495POD": [
         {
-            "subject": "JOUR",
-            "catalog_number": "495POD",
-            "title": "PODCAST STORY",
             "class_number": "12001",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "MZ361",
-                    "start_time": "1100h",
-                    "end_time": "1345h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ361",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "catalog_number": "495POD",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 495SJ": [
         {
-            "subject": "JOUR",
-            "catalog_number": "495SJ",
-            "title": "SPORTS JOUR",
             "class_number": "11925",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ361",
-                    "start_time": "1300h",
-                    "end_time": "1545h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ361",
+            "start_time": "1300h",
+            "end_time": "1545h",
+            "catalog_number": "495SJ",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 495SLT": [
         {
-            "subject": "JOUR",
-            "catalog_number": "495SLT",
-            "title": "SPAN-LANG TV",
             "class_number": "10845",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ211",
-                    "start_time": "0800h",
-                    "end_time": "1045h"
-                }
-            ]
-        },
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "catalog_number": "495SLT",
+            "subject": "JOUR"
+        }
+    ],
+    "JOUR 498": [
         {
-            "subject": "JOUR",
-            "catalog_number": "498",
-            "title": "SENIOR PROJECT",
             "class_number": "10064",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ212",
-                    "start_time": "1000h",
-                    "end_time": "1050h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ212",
+            "start_time": "1000h",
+            "end_time": "1050h",
+            "catalog_number": "498",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "498",
-            "title": "SENIOR PROJECT",
             "class_number": "10067",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ212",
-                    "start_time": "1000h",
-                    "end_time": "1050h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ212",
+            "start_time": "1000h",
+            "end_time": "1050h",
+            "catalog_number": "498",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "498",
-            "title": "SENIOR PROJECT",
             "class_number": "10815",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ212",
-                    "start_time": "1300h",
-                    "end_time": "1350h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ212",
+            "start_time": "1300h",
+            "end_time": "1350h",
+            "catalog_number": "498",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "498",
-            "title": "SENIOR PROJECT",
             "class_number": "10063",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "T",
-                    "location": "MZ212",
-                    "start_time": "0900h",
-                    "end_time": "0950h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ212",
+            "start_time": "0900h",
+            "end_time": "0950h",
+            "catalog_number": "498",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "498",
-            "title": "SENIOR PROJECT",
             "class_number": "10546",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "M",
-                    "location": "MZ212",
-                    "start_time": "1200h",
-                    "end_time": "1250h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ212",
+            "start_time": "1200h",
+            "end_time": "1250h",
+            "catalog_number": "498",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "498",
-            "title": "SENIOR PROJECT",
             "class_number": "10066",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "R",
-                    "location": "MZ212",
-                    "start_time": "0900h",
-                    "end_time": "0950h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ212",
+            "start_time": "0900h",
+            "end_time": "0950h",
+            "catalog_number": "498",
+            "subject": "JOUR"
         },
         {
-            "subject": "JOUR",
-            "catalog_number": "498",
-            "title": "SENIOR PROJECT",
             "class_number": "11154",
             "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructors": [
-                {
-                    "instructor": "Staff"
-                }
-            ],
-            "meetings": [
-                {
-                    "days": "W",
-                    "location": "MZ212",
-                    "start_time": "1400h",
-                    "end_time": "1450h"
-                }
-            ]
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ212",
+            "start_time": "1400h",
+            "end_time": "1450h",
+            "catalog_number": "498",
+            "subject": "JOUR"
         }
     ]
 }

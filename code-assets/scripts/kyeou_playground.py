@@ -5,6 +5,8 @@ import json
 
 
 
+
+
 class_codes = ["AE","AM","AAS","ACCT","AFRS","AIS","ANTH","ARAB","ARMN","ART","ASTR","ATHL","BANA","BIOL","BLAW","BUS","CE","CADV","CAS","CCE","CD","CECS","CHS","CHEM","CHIN","CIT","CJS","CLAS","CM","COMP","COMS","CTVA","DEAF","EED","ECE","ECON","EDUC","ELPS","ENGL","EOH","EPC","FCS","FIN","FLIT","FREN","GBUS","GEOG","GEOL","GWS","HEBR","HIST","HSCI","HUM","INDS","IS","ITAL","JS","JAPN","JOUR","KIN","KNFC","KOR","LING","LRS","ME","MATH","MCOM","MGT","MKT","MSE","MUS","NURS","PERS","PHIL","PHSC","PHYS","POLS","PSY","PT","QS","RS","RE","RTM","RUSS","SED","SCI","SCM","SOC","SOM","SPAN","SPED","SUST","SWRK","TH","UNIV","URBS"]
 
 
@@ -629,44 +631,551 @@ major_names = [
 "B.S., Radiologic Sciences",
 "B.S., Tourism, Hospitality, and Recreation Management",
 ]
+final_dict = {}
+def mark_core_count(item, weight):
+    if type(item) == str:
+        p = item.split("/")
 
+        try:
+            final_dict[p[0].rstrip(" ").lstrip(" ")] += weight
+        except KeyError:
+            final_dict[p[0].rstrip(" ").lstrip(" ")] = weight
+            
+        for c in p[1:]:
+            #print(f"{p[0]}{c}")
+            try:
+                final_dict[f"{p[0].rstrip(' ').lstrip(' ')}{c}"] += weight
+            except KeyError:
+                final_dict[f"{p[0].rstrip(' ').lstrip(' ')}{c}"] = weight
+    elif type(item) == list:
+        if item[0][0] == "|":
+            for i in item[1:]:
+                mark_core_count(i, weight/(len(item)-1))
+        else:
+            for i in item[1:]:
+                mark_core_count(i, weight)
+    elif type(item) == dict:
+        pprint.pprint(item)
+        
+        
+        
 #major_names = ["B.S., Computer Science", "B.S., Chemistry"]
+
+import pprint
 def ten():
     opers = []
     for name in major_names:
         #print(f"\n-_-_=> {name}")
         with open(f"../../code-assets/backend/json_majors/{name}.json") as major_file:
             major_course_set = json.load(major_file)["course-sets"]["required"]
-            for item in major_course_set:
-                if type(item) == list:
-                    if item[0] not in [x[0] for x in opers]:
-                        opers.append((item[0], name))
-    print(*opers, sep='\n')
-    
+            mark_core_count(major_course_set, 1)
+    final_dict = dict(sorted(final_dict.items(), key= lambda x:x[1], reverse=True))
+    json.dump(final_dict, open("core_counts.json", "w"), indent=4)        
 
-def mark_core_count(item):
-    final_dict = {}
-    """if type(item) == str:
-        p = item.split("/")
-        #print(p)
-        print(p[0])
-        for c in p[1:]:
-            print(f"{p[0]}{c}")
-    elif type(item) == list:
-        for i in item[1:]:
-            mark_core_count(i)
+
+
+
+
+    
+class_codes = ["AE","AM","AAS","ACCT","AFRS","AIS","ANTH","ARAB","ARMN","ART","ASTR","AT","ATHL","BANA","BIOL","BLAW","BUS","CE","CADV","CAS","CCE","CD","CECS","CHS","CHEM","CHIN","CIT","CJS","CLAS","CM","COMP","COMS","CTVA","DEAF","EED","ECE","ECON","EDUC","ELPS","ENGL","ENT","EOH","EPC","FCFC","FCHC","FCS","FIN","FLIT","FREN","GBUS","GEOG","GEOL","GWS","HEBR","HHD","HIST","HSCI","HUM","INDS","IS","ITAL","JS","JAPN","JOUR","KIN","KNFC","KOR","LIB","LING","LRS","ME","MATH","MCOM","MGT","MKT","MSE","MUS","NURS","PERS","PHIL","PHSC","PHYS","POLS","PSY","PT","QS","RS","RE","RTM","RUSS","SED","SCI","SCM","SOC","SOM","SPAN","SPED","SUS","SUST","SWRK","TH","UNIV","URBS"]
+
+def eleven():
+    for code in class_codes:
+        course_links = []
+        with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+            for course in json.load(catalog_file):
+                course_links.append(f"https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course['catalog_number']}/")
+    print(*course_links, sep='\n')
+
+
+def twelve():
+    from selenium.common.exceptions import NoSuchElementException
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+    from selenium import webdriver
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.common.keys import Keys
+    from webdriver_manager.chrome import ChromeDriverManager
+    from selenium.webdriver.common.by import By
+
+    s = Service(ChromeDriverManager().install())
+    op = webdriver.ChromeOptions()
+    op.add_argument('headless')
+    op.add_experimental_option('excludeSwitches', ['enable-logging'])
+    driver = webdriver.Chrome(service=s, options=op)
+
+    broken = []
     """
-    import pprint
-    for item in item:
-        if type(item) == dict:
-            pprint.pprint(item)
-    
-        
+    Broken links, classes dont exist on csun.edu
+https://catalog.csun.edu/academics/acct/courses/acct-499C/
+https://catalog.csun.edu/academics/ais/courses/ais-401/
+https://catalog.csun.edu/academics/anth/courses/anth-346/
+https://catalog.csun.edu/academics/anth/courses/anth-490B/
+https://catalog.csun.edu/academics/anth/courses/anth-490C/
+https://catalog.csun.edu/academics/anth/courses/anth-490E/
+https://catalog.csun.edu/academics/anth/courses/anth-698A/
+https://catalog.csun.edu/academics/anth/courses/anth-698B/
+https://catalog.csun.edu/academics/art/courses/art-219/
+https://catalog.csun.edu/academics/art/courses/art-300/
+https://catalog.csun.edu/academics/art/courses/art-313/
+https://catalog.csun.edu/academics/art/courses/art-337A/
+https://catalog.csun.edu/academics/art/courses/art-337B/
+https://catalog.csun.edu/academics/art/courses/art-400/
+https://catalog.csun.edu/academics/art/courses/art-400L/
+https://catalog.csun.edu/academics/art/courses/art-412/
+https://catalog.csun.edu/academics/art/courses/art-415/
+https://catalog.csun.edu/academics/art/courses/art-424/
+https://catalog.csun.edu/academics/art/courses/art-425/
+https://catalog.csun.edu/academics/art/courses/art-445/
+https://catalog.csun.edu/academics/art/courses/art-484/
+https://catalog.csun.edu/academics/art/courses/art-686/
+https://catalog.csun.edu/academics/athl/courses/athl-197BKM/
+https://catalog.csun.edu/academics/athl/courses/athl-197BKW/
+https://catalog.csun.edu/academics/athl/courses/athl-197CCM/
+https://catalog.csun.edu/academics/athl/courses/athl-197CCW/
+https://catalog.csun.edu/academics/athl/courses/athl-197SOM/
+https://catalog.csun.edu/academics/athl/courses/athl-197SOW/
+https://catalog.csun.edu/academics/athl/courses/athl-197VBW/
+https://catalog.csun.edu/academics/biol/courses/biol-285/
+https://catalog.csun.edu/academics/biol/courses/biol-299A/
+https://catalog.csun.edu/academics/biol/courses/biol-317/
+https://catalog.csun.edu/academics/biol/courses/biol-317L/
+https://catalog.csun.edu/academics/biol/courses/biol-408/
+https://catalog.csun.edu/academics/biol/courses/biol-408L/
+https://catalog.csun.edu/academics/biol/courses/biol-426/
+https://catalog.csun.edu/academics/biol/courses/biol-426L/
+https://catalog.csun.edu/academics/biol/courses/biol-495B/
+https://catalog.csun.edu/academics/biol/courses/biol-495C/
+https://catalog.csun.edu/academics/biol/courses/biol-495D/
+https://catalog.csun.edu/academics/biol/courses/biol-495E/
+https://catalog.csun.edu/academics/biol/courses/biol-497EEA/
+https://catalog.csun.edu/academics/biol/courses/biol-615C/
+https://catalog.csun.edu/academics/biol/courses/biol-615D/
+https://catalog.csun.edu/academics/biol/courses/biol-615E/
+https://catalog.csun.edu/academics/biol/courses/biol-615F/
+https://catalog.csun.edu/academics/biol/courses/biol-615G/
+https://catalog.csun.edu/academics/biol/courses/biol-655B/
+https://catalog.csun.edu/academics/biol/courses/biol-655C/
+https://catalog.csun.edu/academics/biol/courses/biol-655D/
+https://catalog.csun.edu/academics/biol/courses/biol-655E/
+https://catalog.csun.edu/academics/biol/courses/biol-655G/
+https://catalog.csun.edu/academics/biol/courses/biol-655H/
+https://catalog.csun.edu/academics/biol/courses/biol-696B/
+https://catalog.csun.edu/academics/biol/courses/biol-696C/
+https://catalog.csun.edu/academics/biol/courses/biol-696D/
+https://catalog.csun.edu/academics/biol/courses/biol-696E/
+https://catalog.csun.edu/academics/biol/courses/biol-698C/
+https://catalog.csun.edu/academics/bus/courses/bus-296BHG/
+https://catalog.csun.edu/academics/bus/courses/bus-296BHK/
+https://catalog.csun.edu/academics/bus/courses/bus-296BHN/
+https://catalog.csun.edu/academics/bus/courses/bus-296BHO/
+https://catalog.csun.edu/academics/bus/courses/bus-296BHP/
+https://catalog.csun.edu/academics/bus/courses/bus-296BHR/
+https://catalog.csun.edu/academics/bus/courses/bus-480/
+https://catalog.csun.edu/academics/cadv/courses/cadv-497AB/
+https://catalog.csun.edu/academics/cadv/courses/cadv-497AC/
+https://catalog.csun.edu/academics/cadv/courses/cadv-497AD/
+https://catalog.csun.edu/academics/cas/courses/cas-460/
+https://catalog.csun.edu/academics/chs/courses/chs-102/
+https://catalog.csun.edu/academics/chs/courses/chs-215/
+https://catalog.csun.edu/academics/chs/courses/chs-215L/
+https://catalog.csun.edu/academics/chs/courses/chs-270F/
+https://catalog.csun.edu/academics/chs/courses/chs-280/
+https://catalog.csun.edu/academics/chs/courses/chs-471/
+https://catalog.csun.edu/academics/chs/courses/chs-486B/
+https://catalog.csun.edu/academics/chs/courses/chs-488/
+https://catalog.csun.edu/academics/chs/courses/chs-495C/
+https://catalog.csun.edu/academics/chs/courses/chs-495E/
+https://catalog.csun.edu/academics/chs/courses/chs-495P/
+https://catalog.csun.edu/academics/chs/courses/chs-495S/
+https://catalog.csun.edu/academics/chs/courses/chs-560/
+https://catalog.csun.edu/academics/chem/courses/chem-595D/
+https://catalog.csun.edu/academics/chem/courses/chem-698B/
+https://catalog.csun.edu/academics/comp/courses/comp-105BAS/
+https://catalog.csun.edu/academics/comp/courses/comp-581/
+https://catalog.csun.edu/academics/comp/courses/comp-696C/
+https://catalog.csun.edu/academics/ctva/courses/ctva-401/
+https://catalog.csun.edu/academics/ctva/courses/ctva-415C/
+https://catalog.csun.edu/academics/ctva/courses/ctva-415J/
+https://catalog.csun.edu/academics/ctva/courses/ctva-415S/
+https://catalog.csun.edu/academics/ctva/courses/ctva-501/
+https://catalog.csun.edu/academics/ctva/courses/ctva-512/
+https://catalog.csun.edu/academics/ctva/courses/ctva-595D/
+https://catalog.csun.edu/academics/ctva/courses/ctva-595E/
+https://catalog.csun.edu/academics/ctva/courses/ctva-595F/
+https://catalog.csun.edu/academics/ctva/courses/ctva-595G/
+https://catalog.csun.edu/academics/ctva/courses/ctva-595H/
+https://catalog.csun.edu/academics/ctva/courses/ctva-622/
+https://catalog.csun.edu/academics/deaf/courses/deaf-434B/
+https://catalog.csun.edu/academics/deaf/courses/deaf-435/
+https://catalog.csun.edu/academics/deaf/courses/deaf-490C/
+https://catalog.csun.edu/academics/deaf/courses/deaf-490D/
+https://catalog.csun.edu/academics/deaf/courses/deaf-490E/
+https://catalog.csun.edu/academics/deaf/courses/deaf-490G/
+https://catalog.csun.edu/academics/deaf/courses/deaf-491D/
+https://catalog.csun.edu/academics/deaf/courses/deaf-491E/
+https://catalog.csun.edu/academics/deaf/courses/deaf-491F/
+https://catalog.csun.edu/academics/econ/courses/econ-348/
+https://catalog.csun.edu/academics/econ/courses/econ-375/
+https://catalog.csun.edu/academics/engl/courses/engl-400/
+https://catalog.csun.edu/academics/engl/courses/engl-431/
+https://catalog.csun.edu/academics/engl/courses/engl-449/
+https://catalog.csun.edu/academics/engl/courses/engl-452/
+https://catalog.csun.edu/academics/engl/courses/engl-457HN/
+https://catalog.csun.edu/academics/engl/courses/engl-457IL/
+https://catalog.csun.edu/academics/engl/courses/engl-457WSF/
+https://catalog.csun.edu/academics/engl/courses/engl-459RS/
+https://catalog.csun.edu/academics/engl/courses/engl-459WR/
+https://catalog.csun.edu/academics/engl/courses/engl-463A/
+https://catalog.csun.edu/academics/engl/courses/engl-470GS/
+https://catalog.csun.edu/academics/engl/courses/engl-495AGE/
+https://catalog.csun.edu/academics/engl/courses/engl-495AUS/
+https://catalog.csun.edu/academics/engl/courses/engl-495BB/
+https://catalog.csun.edu/academics/engl/courses/engl-495JB/
+https://catalog.csun.edu/academics/engl/courses/engl-495LVE/
+https://catalog.csun.edu/academics/engl/courses/engl-495RTW/
+https://catalog.csun.edu/academics/engl/courses/engl-495SG/
+https://catalog.csun.edu/academics/engl/courses/engl-495SH/
+https://catalog.csun.edu/academics/engl/courses/engl-501CP/
+https://catalog.csun.edu/academics/engl/courses/engl-502AF/
+https://catalog.csun.edu/academics/engl/courses/engl-502P/
+https://catalog.csun.edu/academics/engl/courses/engl-502PF/
+https://catalog.csun.edu/academics/engl/courses/engl-595PB/
+https://catalog.csun.edu/academics/engl/courses/engl-620M/
+https://catalog.csun.edu/academics/engl/courses/engl-630AA/
+https://catalog.csun.edu/academics/engl/courses/engl-630B/
+https://catalog.csun.edu/academics/engl/courses/engl-630DW/
+https://catalog.csun.edu/academics/engl/courses/engl-630FA/
+https://catalog.csun.edu/academics/engl/courses/engl-630LR/
+https://catalog.csun.edu/academics/engl/courses/engl-630SN/
+https://catalog.csun.edu/academics/engl/courses/engl-685/
+https://catalog.csun.edu/academics/engl/courses/engl-698C/
+https://catalog.csun.edu/academics/engl/courses/engl-90/
+https://catalog.csun.edu/academics/epc/courses/epc-695S/
+https://catalog.csun.edu/academics/epc/courses/epc-695WC/
+https://catalog.csun.edu/academics/epc/courses/epc-699C/
+https://catalog.csun.edu/academics/fcs/courses/fcs-114L/
+https://catalog.csun.edu/academics/fcs/courses/fcs-394A/
+https://catalog.csun.edu/academics/fcs/courses/fcs-409/
+https://catalog.csun.edu/academics/fcs/courses/fcs-496S/
+https://catalog.csun.edu/academics/fcs/courses/fcs-543/
+https://catalog.csun.edu/academics/fcs/courses/fcs-635/
+https://catalog.csun.edu/academics/fcs/courses/fcs-690B/
+https://catalog.csun.edu/academics/fcs/courses/fcs-690C/
+https://catalog.csun.edu/academics/fcs/courses/fcs-690I/
+https://catalog.csun.edu/academics/fcs/courses/fcs-690J/
+https://catalog.csun.edu/academics/fcs/courses/fcs-690K/
+https://catalog.csun.edu/academics/fcs/courses/fcs-690M/
+https://catalog.csun.edu/academics/fcs/courses/fcs-696A/
+https://catalog.csun.edu/academics/fin/courses/fin-338/
+https://catalog.csun.edu/academics/fin/courses/fin-433/
+https://catalog.csun.edu/academics/fin/courses/fin-439/
+https://catalog.csun.edu/academics/flit/courses/flit-295B/
+https://catalog.csun.edu/academics/flit/courses/flit-383/
+https://catalog.csun.edu/academics/flit/courses/flit-455/
+https://catalog.csun.edu/academics/flit/courses/flit-485/
+https://catalog.csun.edu/academics/fren/courses/fren-204/
+https://catalog.csun.edu/academics/fren/courses/fren-208/
+https://catalog.csun.edu/academics/fren/courses/fren-300/
+https://catalog.csun.edu/academics/fren/courses/fren-305/
+https://catalog.csun.edu/academics/fren/courses/fren-306/
+https://catalog.csun.edu/academics/fren/courses/fren-313/
+https://catalog.csun.edu/academics/fren/courses/fren-315A/
+https://catalog.csun.edu/academics/fren/courses/fren-315B/
+https://catalog.csun.edu/academics/fren/courses/fren-406/
+https://catalog.csun.edu/academics/fren/courses/fren-415D/
+https://catalog.csun.edu/academics/fren/courses/fren-415F/
+https://catalog.csun.edu/academics/fren/courses/fren-415P/
+https://catalog.csun.edu/academics/fren/courses/fren-499C/
+https://catalog.csun.edu/academics/gbus/courses/gbus-599C/
+https://catalog.csun.edu/academics/geog/courses/geog-630C/
+https://catalog.csun.edu/academics/geog/courses/geog-630E/
+https://catalog.csun.edu/academics/geog/courses/geog-650C/
+https://catalog.csun.edu/academics/geog/courses/geog-690B/
+https://catalog.csun.edu/academics/geog/courses/geog-690E/
+https://catalog.csun.edu/academics/geog/courses/geog-697/
+https://catalog.csun.edu/academics/hist/courses/hist-402/
+https://catalog.csun.edu/academics/hist/courses/hist-445/
+https://catalog.csun.edu/academics/hist/courses/hist-461/
+https://catalog.csun.edu/academics/hist/courses/hist-485A/
+https://catalog.csun.edu/academics/hist/courses/hist-495SS/
+https://catalog.csun.edu/academics/hist/courses/hist-498A/
+https://catalog.csun.edu/academics/hist/courses/hist-498C/
+https://catalog.csun.edu/academics/hist/courses/hist-499C/
+https://catalog.csun.edu/academics/hist/courses/hist-505/
+https://catalog.csun.edu/academics/hist/courses/hist-596EG/
+https://catalog.csun.edu/academics/hist/courses/hist-596G/
+https://catalog.csun.edu/academics/hist/courses/hist-610/
+https://catalog.csun.edu/academics/hist/courses/hist-693/
+https://catalog.csun.edu/academics/hist/courses/hist-699C/
+https://catalog.csun.edu/academics/is/courses/is-497B/
+https://catalog.csun.edu/academics/is/courses/is-497C/
+https://catalog.csun.edu/academics/is/courses/is-499B/
+https://catalog.csun.edu/academics/is/courses/is-599C/
+https://catalog.csun.edu/academics/is/courses/is-655/
+https://catalog.csun.edu/academics/is/courses/is-699C/
+https://catalog.csun.edu/academics/ital/courses/ital-204/
+https://catalog.csun.edu/academics/ital/courses/ital-305/
+https://catalog.csun.edu/academics/ital/courses/ital-315/
+https://catalog.csun.edu/academics/ital/courses/ital-499C/
+https://catalog.csun.edu/academics/japn/courses/japn-401/
+https://catalog.csun.edu/academics/jour/courses/jour-495DME/
+https://catalog.csun.edu/academics/jour/courses/jour-495LF/
+https://catalog.csun.edu/academics/jour/courses/jour-495SLT/
+https://catalog.csun.edu/academics/kin/courses/kin-134/
+https://catalog.csun.edu/academics/kin/courses/kin-155A/
+https://catalog.csun.edu/academics/kin/courses/kin-167A/
+https://catalog.csun.edu/academics/kin/courses/kin-511/
+https://catalog.csun.edu/academics/kin/courses/kin-512/
+https://catalog.csun.edu/academics/kin/courses/kin-603/
+https://catalog.csun.edu/academics/ling/courses/ling-407/
+https://catalog.csun.edu/academics/me/courses/me-698B/
+https://catalog.csun.edu/academics/me/courses/me-698C/
+https://catalog.csun.edu/academics/math/courses/math-582C/
+https://catalog.csun.edu/academics/math/courses/math-592C/
+https://catalog.csun.edu/academics/mcom/courses/mcom-694C/
+https://catalog.csun.edu/academics/mgt/courses/mgt-491/
+https://catalog.csun.edu/academics/mgt/courses/mgt-667/
+https://catalog.csun.edu/academics/mkt/courses/mkt-641/
+https://catalog.csun.edu/academics/mkt/courses/mkt-642/
+https://catalog.csun.edu/academics/mse/courses/mse-105/
+https://catalog.csun.edu/academics/mse/courses/mse-499C/
+https://catalog.csun.edu/academics/mse/courses/mse-608C/
+https://catalog.csun.edu/academics/mus/courses/mus-219B/
+https://catalog.csun.edu/academics/mus/courses/mus-232B/
+https://catalog.csun.edu/academics/mus/courses/mus-233/
+https://catalog.csun.edu/academics/mus/courses/mus-235B/
+https://catalog.csun.edu/academics/mus/courses/mus-235C/
+https://catalog.csun.edu/academics/mus/courses/mus-235D/
+https://catalog.csun.edu/academics/mus/courses/mus-339B/
+https://catalog.csun.edu/academics/mus/courses/mus-339D/
+https://catalog.csun.edu/academics/mus/courses/mus-385/
+https://catalog.csun.edu/academics/mus/courses/mus-406B/
+https://catalog.csun.edu/academics/mus/courses/mus-603B/
+https://catalog.csun.edu/academics/mus/courses/mus-603C/
+https://catalog.csun.edu/academics/mus/courses/mus-603D/
+https://catalog.csun.edu/academics/mus/courses/mus-603E/
+https://catalog.csun.edu/academics/mus/courses/mus-673/
+https://catalog.csun.edu/academics/phil/courses/phil-319/
+https://catalog.csun.edu/academics/phil/courses/phil-331/
+https://catalog.csun.edu/academics/phil/courses/phil-380/
+https://catalog.csun.edu/academics/phil/courses/phil-390/
+https://catalog.csun.edu/academics/phil/courses/phil-495/
+https://catalog.csun.edu/academics/phys/courses/phys-698C/
+https://catalog.csun.edu/academics/pols/courses/pols-420B/
+https://catalog.csun.edu/academics/pols/courses/pols-420C/
+https://catalog.csun.edu/academics/pols/courses/pols-420D/
+https://catalog.csun.edu/academics/pols/courses/pols-420E/
+https://catalog.csun.edu/academics/pols/courses/pols-420F/
+https://catalog.csun.edu/academics/pols/courses/pols-420G/
+https://catalog.csun.edu/academics/pols/courses/pols-420H/
+https://catalog.csun.edu/academics/pols/courses/pols-432B/
+https://catalog.csun.edu/academics/pols/courses/pols-434A/
+https://catalog.csun.edu/academics/pols/courses/pols-434B/
+https://catalog.csun.edu/academics/pols/courses/pols-435B/
+https://catalog.csun.edu/academics/pols/courses/pols-460/
+https://catalog.csun.edu/academics/pols/courses/pols-471B/
+https://catalog.csun.edu/academics/pols/courses/pols-471C/
+https://catalog.csun.edu/academics/pols/courses/pols-471D/
+https://catalog.csun.edu/academics/pols/courses/pols-471E/
+https://catalog.csun.edu/academics/pols/courses/pols-471F/
+https://catalog.csun.edu/academics/pols/courses/pols-530D/
+https://catalog.csun.edu/academics/pols/courses/pols-530E/
+https://catalog.csun.edu/academics/pols/courses/pols-530H/
+https://catalog.csun.edu/academics/pols/courses/pols-530I/
+https://catalog.csun.edu/academics/pols/courses/pols-530J/
+https://catalog.csun.edu/academics/pols/courses/pols-540C/
+https://catalog.csun.edu/academics/pols/courses/pols-540E/
+https://catalog.csun.edu/academics/pols/courses/pols-540F/
+https://catalog.csun.edu/academics/pols/courses/pols-540G/
+https://catalog.csun.edu/academics/pols/courses/pols-540H/
+https://catalog.csun.edu/academics/pols/courses/pols-540J/
+https://catalog.csun.edu/academics/pols/courses/pols-599B/
+https://catalog.csun.edu/academics/psy/courses/psy-200/
+https://catalog.csun.edu/academics/psy/courses/psy-370/
+https://catalog.csun.edu/academics/psy/courses/psy-383/
+https://catalog.csun.edu/academics/psy/courses/psy-421J/
+https://catalog.csun.edu/academics/psy/courses/psy-421M/
+https://catalog.csun.edu/academics/psy/courses/psy-421N/
+https://catalog.csun.edu/academics/psy/courses/psy-464/
+https://catalog.csun.edu/academics/psy/courses/psy-471ABS/
+https://catalog.csun.edu/academics/psy/courses/psy-471C/
+https://catalog.csun.edu/academics/psy/courses/psy-471CN/
+https://catalog.csun.edu/academics/psy/courses/psy-471PH/
+https://catalog.csun.edu/academics/psy/courses/psy-471PHS/
+https://catalog.csun.edu/academics/psy/courses/psy-473CN/
+https://catalog.csun.edu/academics/psy/courses/psy-473CNS/
+https://catalog.csun.edu/academics/psy/courses/psy-479AS/
+https://catalog.csun.edu/academics/psy/courses/psy-479ASS/
+https://catalog.csun.edu/academics/psy/courses/psy-485GT/
+https://catalog.csun.edu/academics/psy/courses/psy-485GTS/
+https://catalog.csun.edu/academics/psy/courses/psy-488C/
+https://catalog.csun.edu/academics/psy/courses/psy-488CF/
+https://catalog.csun.edu/academics/psy/courses/psy-488CFS/
+https://catalog.csun.edu/academics/psy/courses/psy-488CS/
+https://catalog.csun.edu/academics/psy/courses/psy-488DM/
+https://catalog.csun.edu/academics/psy/courses/psy-488DMS/
+https://catalog.csun.edu/academics/psy/courses/psy-594HC/
+https://catalog.csun.edu/academics/psy/courses/psy-594RD/
+https://catalog.csun.edu/academics/psy/courses/psy-655AC/
+https://catalog.csun.edu/academics/psy/courses/psy-655BC/
+https://catalog.csun.edu/academics/psy/courses/psy-691A/
+https://catalog.csun.edu/academics/pt/courses/pt-785B/
+https://catalog.csun.edu/academics/pt/courses/pt-785C/
+https://catalog.csun.edu/academics/qs/courses/qs-401L/
+https://catalog.csun.edu/academics/rs/courses/rs-346/
+https://catalog.csun.edu/academics/rs/courses/rs-497B/
+https://catalog.csun.edu/academics/soc/courses/soc-486SOC/
+https://catalog.csun.edu/academics/soc/courses/soc-498AEE/
+https://catalog.csun.edu/academics/som/courses/som-498C/
+https://catalog.csun.edu/academics/span/courses/span-581/
+https://catalog.csun.edu/academics/sped/courses/sped-506ECA/
+https://catalog.csun.edu/academics/sped/courses/sped-595T/
+https://catalog.csun.edu/academics/sped/courses/sped-652/
+https://catalog.csun.edu/academics/th/courses/th-396VT/
+https://catalog.csun.edu/academics/univ/courses/univ-60C/
+https://catalog.csun.edu/academics/univ/courses/univ-60E/
+https://catalog.csun.edu/academics/univ/courses/univ-60G/
+https://catalog.csun.edu/academics/univ/courses/univ-60JJ/
+https://catalog.csun.edu/academics/univ/courses/univ-60K/
+https://catalog.csun.edu/academics/univ/courses/univ-60KK/
+https://catalog.csun.edu/academics/univ/courses/univ-60L/
+https://catalog.csun.edu/academics/univ/courses/univ-60N/
+https://catalog.csun.edu/academics/univ/courses/univ-60T/
+https://catalog.csun.edu/academics/univ/courses/univ-60X/
+https://catalog.csun.edu/academics/univ/courses/univ-61A/
+https://catalog.csun.edu/academics/univ/courses/univ-61E/
+https://catalog.csun.edu/academics/univ/courses/univ-61H/
+https://catalog.csun.edu/academics/univ/courses/univ-61Q/
+https://catalog.csun.edu/academics/univ/courses/univ-62A/
+https://catalog.csun.edu/academics/univ/courses/univ-62C/
+https://catalog.csun.edu/academics/univ/courses/univ-62E/
+https://catalog.csun.edu/academics/univ/courses/univ-62EOP/
+https://catalog.csun.edu/academics/univ/courses/univ-62H/
+https://catalog.csun.edu/academics/univ/courses/univ-62P/
+https://catalog.csun.edu/academics/univ/courses/univ-62Q/
+https://catalog.csun.edu/academics/urbs/courses/urbs-408/
+https://catalog.csun.edu/academics/urbs/courses/urbs-494C/
+https://catalog.csun.edu/academics/urbs/courses/urbs-412/
+    """
+    titles = {}
+    for code in class_codes:
+        print(code.upper())
+        titles[code.upper()] = {}
+        try:    
+            with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+                for course in json.load(catalog_file):
+                    try:
+                        #print("------------------------------------------")
+                        #print(f"https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course['catalog_number']}/")
+                        driver.get(f"https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course['catalog_number']}/")
+                        #print(driver.find_element("id", "inset-content").text)
+                        title = driver.find_element(By.CLASS_NAME, "main").find_element(By.CLASS_NAME, "container").find_element(By.CLASS_NAME, "row").find_element(By.CLASS_NAME, "row").text
+                        title = " ".join(title.split(" ")[0:len(title.split())-1])
+                        if course['catalog_number'][len(course['catalog_number'])-1] != 'L':
+                            title = title.replace(" and Lab", "")
+                        else:
+                            if title.__contains__(" and Lab"):
+                                title = title.replace(" and Lab", ' Lab')
+                            else:
+                                title += " Lab" 
+                        titles[code.upper()][   f"{code.upper()} {course['catalog_number']}"] = ' '.join(title.split()[3:len(title.split())])     
+                        #print(driver.find_element("id", "wrap").find_element(By.CLASS_NAME, "row").text)
+                        #course["description"] = driver.find_element("id", "inset-content").find_element(By.CLASS_NAME, "section-content").text
+                    except NoSuchElementException:
+                        broken.append(f"https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course['catalog_number']}/")
+        except FileNotFoundError:
+            continue
+    #print()
+    #print(*[f"{x[0]} {' '.join(x[1].split()[3:len(x[1].split())-1])}" for x in titles], sep='\n')
+    pprint.pprint(titles)
+    print()
+    print(*broken, sep='\n')
+    json.dump(titles, open("actual_titles.json", "w"), indent=4)  
 
+
+
+
+def t13():
+    for code in class_codes:
+        classes = []
+        try:
+            with open(f"../../code-assets/backend/json_schedule_dead/{code}_schedule.json") as schedule_file:
+                all_classes = {}
+                for course in json.load(schedule_file)["classes"]:
+                    try:
+                        all_classes[f"{code.upper()} {course['catalog_number']}"].append({
+                            "class_number": course["class_number"],
+                            "enrollment_cap": course["enrollment_cap"],
+                            "enrollment_count": course["enrollment_count"],
+                            "instructor": course["instructors"][0]["instructor"],
+                        } | course["meetings"][0])
+                    except KeyError:
+                        all_classes[f"{code.upper()} {course['catalog_number']}"] = [{
+                            "class_number": course["class_number"],
+                            "enrollment_cap": course["enrollment_cap"],
+                            "enrollment_count": course["enrollment_count"],
+                            "instructor": course["instructors"][0]["instructor"],
+                        } | course["meetings"][0]]
+
+                json.dump(all_classes, open(f"../../code-assets/backend/json_schedule/{code}_schedule.json", "w"), indent=4)
+                #print(*all_classes, sep="\n")
+        except FileNotFoundError:
+            continue
+
+
+def t14():
+    with open("../scratch-data/actual_titles.json") as titles:
+        titles = json.load(titles)
+        for key in titles.keys():
+            try:    
+                with open(f"../../code-assets/backend/json_catalog/{key}_catalog.json") as curr_catalog:
+                    curr_catalog = json.load(curr_catalog)
+                    for course in titles[key].keys():
+                        for cinc in curr_catalog:
+                            if cinc["catalog_number"] == course.split()[1]:
+                                cinc["title"] = titles[key][course]
+                    json.dump(curr_catalog, open(f"../../code-assets/backend/json_catalog/{key}_catalog.json", "w"), indent=4)
+            except FileNotFoundError:
+                continue                
+
+def t15():
+    max = 0
+    for code in class_codes:
+        try:
+            with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+                for course in json.load(catalog_file):
+                    try:
+                        if len(course["title"]) > max:
+                            max = len(course["title"])
+                    except KeyError:
+                        print(course)
+                        
+        except FileNotFoundError:
+            continue
+    print(max)
+             
+
+
+
+def t16():
+    for code in class_codes:
+        try:    
+            with open(f"../../code-assets/backend/json_schedule/{code}_schedule.json") as catalog_file:
+                catalog_file = json.load(catalog_file)
+
+                for key in catalog_file.keys():
+                    curr_key = []
+                    for course in catalog_file[key]:
+                        curr_key.append(course | {"subject": key.split(" ")[0]})
+                    catalog_file[key] = curr_key
+
+                json.dump(catalog_file,open(f"../../code-assets/backend/json_schedule/{code}_schedule.json", "w"), indent=4)
+        except FileNotFoundError:
+            continue
 
 if __name__ == "__main__":
-    #ten()
-    for name in major_names:
-        mark_core_count(json.load(open(f"../../code-assets/backend/json_majors/{name}.json"))["course-sets"]["required"])
+    t16()
+    
     
         

@@ -11,7 +11,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "100AL",
-        "title": "General Physics I Lab",
+        "title": "General Physics I Lab Lab",
         "description": "Prerequisite: MATH 105 or MATH 106, or a score on the Mathematics Placement Test (MPT) sufficient for entry into MATH 150A or MATH 255A. Recommended Corequisite or Preparatory: PHYS 100A. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided PHYS 100A is also completed.)",
         "units": "1",
         "prerequisites": "{{MATH 105} || {MATH 106} || {or a score on the Mathematics Placement Test (MPT) sufficient for entry into MATH 150A or MATH 255A}}",
@@ -29,7 +29,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "100BL",
-        "title": "General Physics II Lab",
+        "title": "General Physics II Lab Lab",
         "description": "Prerequisite: PHYS 100A. Recommended Corequisite or Preparatory: PHYS 100B. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided PHYS 100B is also completed.)",
         "units": "1",
         "prerequisites": "{PHYS 100A}",
@@ -47,7 +47,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "220AL",
-        "title": "Mechanics Lab",
+        "title": "Mechanics Lab Lab",
         "description": "Prerequisite: MATH 150A or MATH 255A. Recommended Corequisite or Preparatory: MATH 150B or MATH 255B and PHYS 220A or PHYS 225. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided PHYS 220A or PHYS 225 is also completed.)",
         "units": "1",
         "prerequisites": "{{MATH 150A} || {MATH 255A}}",
@@ -56,7 +56,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "220B",
-        "title": "Electricity And Magnetism",
+        "title": "Electricity and Magnetism",
         "description": "Prerequisites: PHYS 220A; MATH 150B or MATH 255B. Recommended Corequisite or Preparatory: MATH 250. Electric and magnetic fields, circuit theory and electromagnetic induction. (Available for General Education, B1 Physical Science. Students may satisfy the B3 Science Laboratory Activity requirement by completing PHYS 220BL.)",
         "units": "3",
         "prerequisites": "{PHYS 220A} && {{MATH 150B} || {MATH 255B}}",
@@ -65,7 +65,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "220BL",
-        "title": "Electricity And Magnetism Lab",
+        "title": "Electricity and Magnetism Lab Lab",
         "description": "Prerequisites: PHYS 220A or PHYS 225; MATH 150B or MATH 255B. Recommended Corequisite or Preparatory: MATH 250; PHYS 220B or PHYS 226. 3 hours per week. (Available for General Education, B3 Science Laboratory Activity requirement provided PHYS 220B or PHYS 226 is also completed.)",
         "units": "1",
         "prerequisites": "{{PHYS 220A} || {PHYS 225}} && {{MATH 150B} || {MATH 255B}}",
@@ -101,7 +101,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "227L",
-        "title": "Physics III Lab",
+        "title": "Physics III Lab Lab",
         "description": "Recommended Corequisite or Preparatory: PHYS 227. 3 hours per week.",
         "units": "1",
         "prerequisites": "{None}",
@@ -119,7 +119,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "305",
-        "title": "Physics Of Music",
+        "title": "Physics of Music",
         "description": "Prerequisite: Completion of the lower division writing requirement. This course is currently taught entirely and only online. History and development of the science of sound and music, physical concepts necessary for the study of wave motion, mechanics of the construction of sound and musical tones, and basic physical principles involved in the production of sound in instruments and the human voice, including studies of the production of language. A good understanding of the composition of sounds and musical tones is obtained without detailed mathematics through experiments carried out in the home or other locations using the student\u2019s computer with installed software. A final project is required. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.) (IC)",
         "units": "3",
         "prerequisites": "{Completion of the lower division writing requirement}",
@@ -128,7 +128,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "305L",
-        "title": "Physics Of Music Lab",
+        "title": "Physics of Music Laboratory Lab",
         "description": "Prerequisite: Completion of the lower division writing requirement. Corequisite: PHYS 305. This course is currently taught entirely and only online. History and development of the science of sound and music, physical concepts necessary for the study of wave motion, mechanics of the construction of sound and musical tones, and basic physical principles involved in the production of sound in instruments and the human voice, including studies of the production of language. A good understanding of the composition of sounds and musical tones is obtained without detailed mathematics through experiments carried out in the home or other locations using the student\u2019s computer with installed software. A final project is required.",
         "units": "1",
         "prerequisites": "{Completion of the lower division writing requirement}",
@@ -146,7 +146,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "331",
-        "title": "Physics Of Sports",
+        "title": "Physics of Sports",
         "description": "Prerequisite: Completion of the lower division writing requirement. Why do ice skaters spin faster when they pull their arms in? Why does a golf ball have dimples? How does a baseball pitcher make a ball curve? Why does a quarterback throw a spiral? These and similar questions can be understood via the laws of physics. In this course, students use sports to explore the laws and concepts of physics: kinematics, dynamics, momentum, angular momentum, energy, and power. For each physics concept studied, students explore real-world applications in sports. At the end of the course, students will embark on a project where they apply what they learn to a situation in their favorite sport. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.)",
         "units": "3",
         "prerequisites": "{Completion of the lower division writing requirement}",
@@ -191,7 +191,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "389",
-        "title": "Mathematical Methods In Physics I",
+        "title": "Mathematical Methods in Physics I",
         "description": "Preparatory: PHYS 227; MATH 280 or MATH 351. An introduction to the mathematical methods used in junior and senior level physics courses. Topics covered include vector analysis, linear algebra, and partial differentiation.",
         "units": "3",
         "prerequisites": "{None}",
@@ -227,7 +227,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "431",
-        "title": "Thermodynamics And Statistical Mechanics",
+        "title": "Thermodynamics and Statistical Mechanics",
         "description": "Preparatory: PHYS 301, PHYS 375. Laws of thermodynamics, thermodynamic potentials, kinetic theory, phase transitions, equilibrium ensembles and related formalism with applications to classical and quantum systems. Available for graduate credit.",
         "units": "4",
         "prerequisites": "{None}",
@@ -254,7 +254,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "466",
-        "title": "Experimental Physics Iv",
+        "title": "Experimental Physics IV",
         "description": "Preparatory: PHYS 365. Advanced experimental techniques in physics with topics including optics, nuclear physics, thin-film characteristics, microwaves, data acquisition via computer interface, computer simulations, solar observations and topics chosen by the instructor. Students are trained in advanced experimental techniques and will complete two experimental modules for 2 units of credit. Available for graduate credit. 6 hours per week.",
         "units": "2",
         "prerequisites": "{None}",
@@ -263,7 +263,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "480",
-        "title": "Introduction To Solid State Physics",
+        "title": "Introduction to Solid State Physics",
         "description": "Preparatory: PHYS 311, PHYS 375. Structure of crystals; electron theory of metals; theory of semiconductors; and mechanical, electrical and magnetic behavior of substances in the solid state. Available for graduate credit.",
         "units": "3",
         "prerequisites": "{None}",
@@ -272,7 +272,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "489",
-        "title": "Mathematical Methods In Physics II",
+        "title": "Mathematical Methods in Physics II",
         "description": "Prerequisite: PHYS 389 or graduate standing; Preparatory: MATH 380, PHYS 375 (may be taken concurrently). Topics include complex variables, ordinary and partial differential equations, special functions, and boundary value problems with physical applications. Available for graduate credit.",
         "units": "3",
         "prerequisites": "{{PHYS 389} || {graduate standing}}",
@@ -281,7 +281,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "490",
-        "title": "Computer Applications In Physics",
+        "title": "Computer Applications in Physics",
         "description": "Preparatory: PHYS 301 and 365 or instructor consent. Applications of numerical analysis and computer programming to the solution of problems in classical and modern physics. Available for graduate credit.\n",
         "units": "3",
         "prerequisites": "{None}",
@@ -290,7 +290,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "493",
-        "title": "Physics And Astronomy Colloquium",
+        "title": "Physics and Astronomy Colloquium",
         "description": "Preparatory: Junior, senior or graduate standing in Physics. Series of lectures presented weekly by faculty members and invited speakers on topics of current interest in physics, astronomy and related fields. Available for graduate credit. May be repeated twice for credit.",
         "units": "1",
         "prerequisites": "{None}",
@@ -326,7 +326,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "585",
-        "title": "Comp Mat Theory",
+        "title": "Computational Materials Theory",
         "description": "Prerequisite: PHYS 451 or PHYS 650 or instructor permission. Introduction to the mathematical and physical principles underlying computational materials theory based on quantum mechanics. Topics will include the density functional theory\u2013 the cornerstone of modern electronic structure calculations for atoms, molecules, and solids. We will also cover quantum transport, magnetism, and many body physics. The emphasis is to develop theoretical models for real materials and solve the problem by applying advanced numerical methods. The course is aimed at advanced undergraduates and graduate students in understanding advanced physics in material science through hands-on research projects.",
         "units": "3",
         "prerequisites": "{{PHYS 451} || {PHYS 650} || {instructor permission}}",
@@ -335,7 +335,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "588",
-        "title": "Multiferroics",
+        "title": "Multiferroic Materials and Systems",
         "description": "Prerequisite: PHYS 451. The lectures cover a wide area of topics ranging from electronic structure, to mechanical properties, to experimental methods of multiferroic systems. Upon completing the course, the student will gain a good overview of multiferroic materials ranging from history to devices applications. Different types of multiferroic materials will be studied with basic crystal structure of single-phase multiferroics presented as well as the fundamental physics underlying ferroelectricity and ferromagnetism. A material science description of these materials focusing on linear and nonlinear behavior with associated mechanisms such as spin reorientation will be discussed. We will also present analytical tools used to predict materials\u2019 response ranging from constitutive relations to governing equations including elastodynamics and Maxwell\u2019s. Analytical and physical descriptions used to explain several devices manufactured with multiferroics including magnetometers, memory devices, motors and antennas will also be presented.",
         "units": "3",
         "prerequisites": "{PHYS 451}",
@@ -353,7 +353,7 @@
     {
         "subject": "PHYS",
         "catalog_number": "601",
-        "title": "Selected Topics In Astrophysics",
+        "title": "Selected Topics in Astrophysics",
         "description": "Preparatory: PHYS 375, PHYS 402, PHYS 410. Advanced treatment of the observational and theoretical foundations of astrophysics. Topics may include stellar structure, radio sources, relativistic cosmology, the origin of the elements and galaxy formation.",
         "units": "3",
         "prerequisites": "{None}",
