@@ -3,9 +3,43 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 import itertools
+import mariadb
+import mysql
+import mysql.connector
+from mysql.connector import errorcode
+import sys
 
 app = Flask(__name__)
 CORS(app)
+
+
+if sys.platform.startswith("win32"):
+    try:
+        rootConnection = mysql.connector.connect(
+            user="root",
+            password="dapassword",
+            host='127.0.0.1',
+            database='csun')
+        rootCursor = rootConnection.cursor()
+    except mysql.connector.Error as err:
+        if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+            print('Invalid credentials')
+        elif err.errno == errorcode.ER_BAD_DB_ERROR:
+            print('Database not found')
+        else:
+            print('Cannot connect to database:', err)
+else:
+    try:
+        rootConnection = mariadb.connect(
+            user="root",
+            password="dapassword",
+            host='127.0.0.1',
+            port=3306,
+            database='csun')
+        rootCursor = rootConnection.cursor()
+    except mariadb.Error as err:
+        print(f"Error connecting to MariaDB Platform: {err}")
+
 
 """
 Abstract that returns any and all {subject} data from json_{data}
@@ -15,6 +49,11 @@ Primarily used for testing
 def get(**kwargs):
     return json.load(open(f'./json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
+#@app.route('/sql')
+#def sql(**kwargs):
+#    rootCursor.execute("select * from csun.COMP_view")
+#    return [x for x in rootCursor.fetchall()]
+        
 
 """
 Addings a rating for a {string:prof} in a specific {string:subject}
@@ -187,9 +226,12 @@ Example:
 """
 @app.route('/<string:subject>/classes')
 def catalog(**kwargs):
-    with open(f"../backend/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
-        classes = json.load(subject)
-        return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
+    #with open(f"../backend/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
+    #    classes = json.load(subject)
+    #    return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
+    rootCursor.execute(f"select catalog_number, title from csun.{kwargs['subject'].upper()}_view")
+    return [f"{x[0]} - {x[1]}" for x in rootCursor.fetchall()]
+
 
 """
 given {string:prof_email} return the name of the prof
@@ -200,9 +242,11 @@ Returns: John Noga
 """
 @app.route('/<string:subject>/prof/name/<string:prof_email>')
 def prof_name(**kwargs):
-    with open(f"../backend/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
-        profs = json.load(profs)
-        return profs[kwargs['prof_email']]
+    #with open(f"../backend/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
+    #    profs = json.load(profs)
+    #    return profs[kwargs['prof_email']]
+    rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'")
+    return [f"{x[0]} {x[1]}" for x in rootCursor.fetchall()][0]
 
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')

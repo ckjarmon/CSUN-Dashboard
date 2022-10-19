@@ -22,7 +22,7 @@ except mariadb.Error as err:
     print(f"Error connecting to MariaDB Platform: {err}")
     
 else:
-    rootCursor.execute('create table professor('
+    rootCursor.execute('create table professor ('
                        'email varchar(50), '
                        'first_name varchar(50) not null, '
                        'last_name varchar(50) not null, '
@@ -51,7 +51,7 @@ else:
 
         for prof in profs:
             if prof is not None:
-                url = u"https://api.metalab.csun.edu/directory/api/members?email=" + prof
+                url = f"https://api.metalab.csun.edu/directory/api/members?email={prof}"
                 print(url)
                 try:
                     prof_info = json.loads(
