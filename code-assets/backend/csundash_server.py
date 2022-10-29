@@ -7,6 +7,7 @@ import itertools
 import mariadb
 import mysql
 import mysql.connector
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -30,8 +31,8 @@ if sys.platform.startswith("win32"):
 else:
     try:
         rootConnection = mariadb.connect(
-            user="root",
-            password="dapassword",
+            user="py_serv",
+            password=json.load("secret_stuffs")["server_pass"],
             host='127.0.0.1',
             port=3306,
             database='csun')
