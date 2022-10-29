@@ -11,7 +11,7 @@ function Header(props){
                     <li style={link}><Link style={link} to="/planner">Planner</Link></li>
                     <li style={link}><Link style={link} to="/ratings">Ratings</Link></li>
                     <li style={link}>Class search</li>
-                    <li style={toprightContainer}>Sign in</li>
+                    <li style={signInContainer}><Link style={link} to="/signIn">Sign in</Link></li>
                 </ul>
             </div>
         </div>

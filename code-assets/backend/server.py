@@ -1,13 +1,12 @@
-
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from mysql.connector import errorcode
+import sys
 import json
 import itertools
 import mariadb
 import mysql
 import mysql.connector
-from mysql.connector import errorcode
-import sys
 
 app = Flask(__name__)
 CORS(app)
@@ -49,11 +48,17 @@ Primarily used for testing
 def get(**kwargs):
     return json.load(open(f'./json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
+
 #@app.route('/sql')
 #def sql(**kwargs):
 #    rootCursor.execute("select * from csun.COMP_view")
 #    return [x for x in rootCursor.fetchall()]
         
+@app.route('/<string:subject>/professors')
+def professors(**kwargs):
+    rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
+    return [f"{x[0][0:1].upper()}{x[0][1:].lower()} {x[1][0:1].upper()}{x[1][1:].lower()}" for x in rootCursor.fetchall()]
+
 
 """
 Addings a rating for a {string:prof} in a specific {string:subject}
@@ -150,6 +155,21 @@ def historical_profs(**kwargs):
         classes = json.load(subject)
         return dict(itertools.islice(classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number'].upper()}"].items(), kwargs["amount"]))
 
+"""
+given {string:prof_email} return the name of the prof
+Example:
+/comp/prof/name/john.noga@csun.edu
+
+Returns: John Noga
+"""
+@app.route('/<string:subject>/prof/name/<string:prof_email>')
+def prof_name(**kwargs):
+    #with open(f"../backend/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
+    #    profs = json.load(profs)
+    #    return profs[kwargs['prof_email']]
+    rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'")
+    return [f"{x[0]} {x[1]}" for x in rootCursor.fetchall()][0]
+
 
 """
 Simply returns an array of strings of all classes in a {string:subject}
@@ -233,21 +253,6 @@ def catalog(**kwargs):
     return [f"{x[0]} - {x[1]}" for x in rootCursor.fetchall()]
 
 
-"""
-given {string:prof_email} return the name of the prof
-Example:
-/comp/prof/name/john.noga@csun.edu
-
-Returns: John Noga
-"""
-@app.route('/<string:subject>/prof/name/<string:prof_email>')
-def prof_name(**kwargs):
-    #with open(f"../backend/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
-    #    profs = json.load(profs)
-    #    return profs[kwargs['prof_email']]
-    rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'")
-    return [f"{x[0]} {x[1]}" for x in rootCursor.fetchall()][0]
-
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
@@ -262,5 +267,15 @@ def schedule(**kwargs):
             return ret
             
 
+@app.route('/planner', methods=['POST'])
+def cost(**kwargs):
+    new_data = request.get_json(force=True)
+    units = 0
+    for c in new_data["selections"]:
+        rootCursor.execute(f"select units from csun.{c.split()[0].upper()}_view where catalog_number = '{c.split()[1]}'")
+        units += int(rootCursor.fetchall()[0][0])
+    return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
 
-app.run(port=(8000))
+
+
+app.run(host='0.0.0.0')

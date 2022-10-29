@@ -14,7 +14,7 @@ function RatingsPage(){
         setSubject(event.target.value)
         setEnableSearch(true)
 
-        fetch(`http://127.0.0.1:8000/${event.target.value}/profname`)
+        fetch(`http://127.0.0.1:5000/${event.target.value}/profname`)
         .then(response => response.json())
         .then(professorItems => {
             setProfessors(Object.values(professorItems))
