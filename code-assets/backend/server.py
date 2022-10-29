@@ -278,4 +278,4 @@ def cost(**kwargs):
 
 
 
-app.run(port=(8000), host='0.0.0.0')
+app.run(host='0.0.0.0')
