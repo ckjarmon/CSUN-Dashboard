@@ -30,7 +30,7 @@ CREATE TABLE `catalog` (
   `units` varchar(3) NOT NULL,
   `prerequisites` varchar(474) NOT NULL,
   `corequisites` varchar(130) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
