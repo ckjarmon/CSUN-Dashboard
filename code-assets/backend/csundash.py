@@ -278,5 +278,5 @@ def cost(**kwargs):
     return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
 
 
-
-app.run(host='0.0.0.0')
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
