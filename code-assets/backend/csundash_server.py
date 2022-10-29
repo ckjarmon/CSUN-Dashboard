@@ -32,7 +32,7 @@ else:
     try:
         rootConnection = mariadb.connect(
             user="py_serv",
-            password=json.loads("secret_stuffs")["server_pass"],
+            password=json.load("secret_stuffs")["server_pass"],
             host='127.0.0.1',
             port=3306,
             database='csun')
