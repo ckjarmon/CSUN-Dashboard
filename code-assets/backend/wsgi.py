@@ -1,4 +1,4 @@
-from csundash_server import app
+from csundash import app
 
 if __name__ == "__main__":
     app.run()
