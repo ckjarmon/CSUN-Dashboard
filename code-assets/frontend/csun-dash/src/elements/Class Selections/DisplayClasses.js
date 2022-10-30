@@ -24,7 +24,7 @@ function DisplayClasses({classesAdded, removeClassHandler}){
         console.log(event)
         setOpenModal(!openModal)
 
-        fetch(`http://127.0.0.1:8000/${event.subject}/catalog`)
+        fetch(`http://127.0.0.1:5000/${event.subject}/catalog`)
         .then(response => response.json())
         .then(catalogData => {
             let catalogInfo = {}

@@ -1,7 +1,15 @@
-import { Button, Rating, Typography  } from "@mui/material"
+import { Button, Rating, Typography, Box, Modal  } from "@mui/material"
+import {useState} from 'react'
+import RatingsForm from "./RatingsForm"
 
 
-function ProfessorHeader(){
+function ProfessorHeader({professorSelected, subject}){
+    const [rateModal, setRateModal] = useState(false)
+
+    function handleRateModal(){
+        setRateModal(!rateModal)
+    }
+
     return(
         <div style={mainContainerStyle}>
             <div style={headerContainerStyle}>
@@ -18,7 +26,7 @@ function ProfessorHeader(){
                         <h4>Level of Difficulty</h4>
                     </div>
                 </div>
-                <Button style={rateButtonStyle}>Rate Professor Gregorian</Button>
+                <Button style={rateButtonStyle} onClick={handleRateModal}>Rate Professor Gregorian</Button>
             </div>
 
             <div style={starsContainerStyle}>
@@ -42,6 +50,25 @@ function ProfessorHeader(){
                     <Rating name="read-only" value={1} readOnly />
                     <Typography component="legend">0 ratings</Typography>
                 </div>
+            </div>
+
+            <div>
+                <Modal
+                    open={rateModal}
+                    onClose={handleRateModal}
+                >
+                    <Box sx={modalStyle}>
+                        <Typography variant="h4" component="h2" style={{textAlign:"center"}}>
+                            Post New Rating for <span style={{fontWeight:"bold"}}>{professorSelected}</span>
+                        </Typography>
+                        <RatingsForm 
+                            rateModal={rateModal} 
+                            setRateModal={setRateModal} 
+                            professorSelected={professorSelected} 
+                            subject={subject}>
+                        </RatingsForm>
+                    </Box>
+                </Modal>
             </div>
             
         </div>
@@ -114,3 +141,17 @@ const starsRatingsContainer = {
     display: "flex",
     padding: "10px"
 }
+
+
+const modalStyle = {
+    position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: "75vw",
+    height: "75vh",
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
