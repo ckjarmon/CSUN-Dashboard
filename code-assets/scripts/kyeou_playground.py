@@ -1,5 +1,14 @@
 import json
-
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+from mysql.connector import errorcode
+import sys
+import json
+import itertools
+import mariadb
+import mysql
+import mysql.connector
+import os
 
 
 
@@ -1174,8 +1183,39 @@ def t16():
         except FileNotFoundError:
             continue
 
+
+def t17():
+    try:
+        rootConnection = mysql.connector.connect(
+            user="root",
+            password="dapassword",
+            host='127.0.0.1',
+            database='csun')
+        rootCursor = rootConnection.cursor()
+    except mysql.connector.Error as err:
+        if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+            print('Invalid credentials')
+        elif err.errno == errorcode.ER_BAD_DB_ERROR:
+            print('Database not found')
+        else:
+            print('Cannot connect to database:', err)
+
+    rootCursor.execute('select email, first_name, last_name, image_link, phone_number, location, website, mail_drop, subject, office from professor')
+    
+    allprofs = []
+    for row in rootCursor.fetchall():
+        allprofs.append({"email": row[0], "first_name": row[1], "last_name": row[2], "image_link": row[3], "phone_number": row[4], "location": row[5], "website": row[6], "mail_drop": row[7], "subject": row[8], "office": row[9]})
+    
+    json.dump(allprofs, open(f"../../code-assets/backend/json_professor/all_profs.json", "w"), indent=4)
+ 
+def t18():
+    with open(f"../../code-assets/backend/json_professor/all_profs.json") as profs:
+        profs = json.load(profs)
+        for code in class_codes:
+            json.dump([x for x in profs if x["subject"] == code], open(f"../../code-assets/backend/json_professor/{code}_professor.json", "w"), indent=4)
+    
 if __name__ == "__main__":
-    t16()
+    t18()
     
     
         
