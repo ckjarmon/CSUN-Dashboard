@@ -41,23 +41,25 @@ function RatingsPage(){
     // }, [professorSelected])
 
     return(
-        <div style={{backgroundColor: "#1C1C1C"}}>
-            <Header></Header>
-            <ProfessorRatingsSearch 
-                handleSubjectChange={handleSubjectChange}
-                handleProfessorChange={handleProfessorChange}
-                subject={subject}
-                professorSelected={professorSelected}
-                professors={professors}
-                enableSearch={enableSearch}
-                >
-            </ProfessorRatingsSearch>
-            {professorSelected.length > 0 ? 
-                <div>
-                    <ProfessorHeader professorSelected={professorSelected} subject={subject}></ProfessorHeader> 
-                    <StudentReviews subject={subject} professorSelected={professorSelected}></StudentReviews>
-                </div> : <div></div>
-            }
+        <div style={{minHeight: "100vh", backgroundColor:"#1C1C1C"}}>
+            <div>
+                <Header></Header>
+                <ProfessorRatingsSearch 
+                    handleSubjectChange={handleSubjectChange}
+                    handleProfessorChange={handleProfessorChange}
+                    subject={subject}
+                    professorSelected={professorSelected}
+                    professors={professors}
+                    enableSearch={enableSearch}
+                    >
+                </ProfessorRatingsSearch>
+                {professorSelected.length > 0 ? 
+                    <div>
+                        <ProfessorHeader professorSelected={professorSelected} subject={subject}></ProfessorHeader> 
+                        <StudentReviews subject={subject} professorSelected={professorSelected}></StudentReviews>
+                    </div> : <div></div>
+                }
+            </div>
         </div>
     )
 }

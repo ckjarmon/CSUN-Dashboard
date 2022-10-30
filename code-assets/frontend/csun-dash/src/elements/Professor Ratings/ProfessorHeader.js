@@ -1,10 +1,95 @@
 import { Button, Rating, Typography, Box, Modal  } from "@mui/material"
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import RatingsForm from "./RatingsForm"
 
 
 function ProfessorHeader({professorSelected, subject}){
     const [rateModal, setRateModal] = useState(false)
+    const [reviews, setReviews] = useState([])
+
+    const [overallRating, setOverallRating] = useState(0.0)
+    const [overallDifficulty, setOverallDifficulty] = useState(0.0)
+    const [overallRetake, setOverallRetake] = useState("")
+    const [ratingsOutlook, setRatingsOutlook] = useState({"5": 0, "4": 0, "3": 0, "2": 0, "1": 0,})
+
+
+    useEffect(() => {
+        console.log("here")
+        fetch(`http://127.0.0.1:5000/${subject}/rating`)
+        .then(response => response.json())
+        .then(reviews => {
+            console.log(reviews)
+            if(!(professorSelected in reviews)){
+                setReviews([])
+                setOverallRating(0.0)
+                setOverallDifficulty(0.0)
+                setOverallRetake("N/A")
+                setRatingsOutlook({"5": 0, "4": 0, "3": 0, "2": 0, "1": 0,})
+            }else{
+                let reviewArray = []
+            
+                reviews[professorSelected].map((review) => {
+                    reviewArray.push(review)
+                })
+
+                setReviews(reviewArray)
+            }
+        })
+    }, [subject, professorSelected])
+
+    useEffect(() => {
+        let numReviews = reviews.length
+        let ratingsAdded = 0
+        let difficultyAdded = 0
+        let retakeAgain = 0
+
+        if(numReviews > 0){
+            let ratingsOutlook = {
+                "5": 0,
+                "4": 0,
+                "3": 0,
+                "2": 0,
+                "1": 0,
+            }
+    
+            reviews.map((review) => {
+                ratingsAdded += review.star_rating
+                difficultyAdded += review.difficulty
+                
+                if(review.retake_professor == "Yes"){
+                    retakeAgain += 1
+                }
+    
+                switch(review.star_rating){
+                    case 5:
+                        ratingsOutlook["5"] += 1
+                        break
+                    case 4:
+                        ratingsOutlook["4"] += 1
+                        break
+                    case 3:
+                        ratingsOutlook["3"] += 1
+                        break
+                    case 2:
+                        ratingsOutlook["2"] += 1
+                        break
+                    case 1:
+                        ratingsOutlook["3"] += 1
+                        break
+                }
+            })
+    
+            ratingsAdded = ratingsAdded / numReviews
+            difficultyAdded = difficultyAdded / numReviews
+            retakeAgain = (retakeAgain / numReviews) * 100
+
+            setOverallRating(ratingsAdded)
+            setOverallDifficulty(difficultyAdded)
+            setOverallRetake(retakeAgain)
+            setRatingsOutlook(ratingsOutlook)
+        }
+
+    }, [reviews])
 
     function handleRateModal(){
         setRateModal(!rateModal)
@@ -13,42 +98,42 @@ function ProfessorHeader({professorSelected, subject}){
     return(
         <div style={mainContainerStyle}>
             <div style={headerContainerStyle}>
-                <h1 style={ratingStyle}>4.7/5</h1>
-                <h3 style={totalRatingstyle}>Overall Quality Based on 7 ratings</h3>
-                <h1 style={professorNameStyle}>Arin Gregorian</h1>
+                <h1 style={ratingStyle}>{overallRating}/5</h1>
+                <h3 style={totalRatingstyle}>Overall Quality Based on {reviews.length} ratings</h3>
+                <h1 style={professorNameStyle}>{professorSelected}</h1>
                 <div style={professorStatsStyle}>
                     <div style={wouldTakeAgainStyle}>
-                        <h2>100%</h2>
+                        <h2>{overallRetake}%</h2>
                         <h4>Would take again</h4>
                     </div>
                     <div style={difficultyStyle}>
-                        <h2>3.1</h2>
+                        <h2>{overallDifficulty}</h2>
                         <h4>Level of Difficulty</h4>
                     </div>
                 </div>
-                <Button style={rateButtonStyle} onClick={handleRateModal}>Rate Professor Gregorian</Button>
+                <Button style={rateButtonStyle} onClick={handleRateModal}>Rate Professor {professorSelected.split(/\s(.+)/)[1]}</Button>
             </div>
 
             <div style={starsContainerStyle}>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={5} readOnly />
-                    <Typography component="legend">5 ratings</Typography>
+                    <Typography component="legend">{ratingsOutlook["5"]} ratings</Typography>
                 </div>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={4} readOnly />
-                    <Typography component="legend">2 ratings</Typography>
+                    <Typography component="legend">{ratingsOutlook["4"]} ratings</Typography>
                 </div>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={3} readOnly />
-                    <Typography component="legend">0 ratings</Typography>
+                    <Typography component="legend">{ratingsOutlook["3"]} ratings</Typography>
                 </div>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={2} readOnly />
-                    <Typography component="legend">0 ratings</Typography>
+                    <Typography component="legend">{ratingsOutlook["2"]} ratings</Typography>
                 </div>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={1} readOnly />
-                    <Typography component="legend">0 ratings</Typography>
+                    <Typography component="legend">{ratingsOutlook["1"]} ratings</Typography>
                 </div>
             </div>
 
