@@ -3,11 +3,15 @@ import ProfessorRatingsSearch from "../elements/Professor Ratings/ProfessorRatin
 import {useEffect, useState} from "react"
 import ProfessorHeader from "../elements/Professor Ratings/ProfessorHeader"
 import StudentReviews from "../elements/Professor Ratings/SudentReviews"
+import { Alert } from "@mui/material"
 
 function RatingsPage(){
     const [subject, setSubject] = useState("")
     const [professorSelected, setProfessorSelected] = useState("")
     const [professors, setProfessors] = useState([])
+    const [allClassesInSubject, setAllClassesInSubject] = useState([])
+
+    const [postedReview, setPostedReview] = useState(false)
 
     // const [classesTaught, setClassesTaught] = useState([])
     // const [ratings, setRatings] = useState([])
@@ -22,6 +26,18 @@ function RatingsPage(){
         .then(response => response.json())
         .then(professorItems => {
             setProfessors(Object.values(professorItems))
+        })
+
+        fetch(`http://127.0.0.1:5000/${event.target.value}/classes`)
+        .then(response => response.json())
+        .then(classes => {
+            let classesArray = []
+
+            classes.map((classItem) => {
+                classesArray.push(classItem)
+            })
+
+            setAllClassesInSubject(classesArray)
         })
 
 
@@ -53,10 +69,21 @@ function RatingsPage(){
                     enableSearch={enableSearch}
                     >
                 </ProfessorRatingsSearch>
+                {
+                    postedReview == true ?
+                        <Alert style={{float:"right"}} variant="filled" severity="success">
+                            Successfully Posted Review!
+                        </Alert> : <div></div>
+                }
                 {professorSelected.length > 0 ? 
                     <div>
-                        <ProfessorHeader professorSelected={professorSelected} subject={subject}></ProfessorHeader> 
-                        <StudentReviews subject={subject} professorSelected={professorSelected}></StudentReviews>
+                        <ProfessorHeader 
+                            professorSelected={professorSelected} 
+                            subject={subject} 
+                            setPostedReview={setPostedReview}
+                            allClassesInSubject={allClassesInSubject}>
+                        </ProfessorHeader> 
+                        <StudentReviews subject={subject} professorSelected={professorSelected} postedReview={postedReview}></StudentReviews>
                     </div> : <div></div>
                 }
             </div>

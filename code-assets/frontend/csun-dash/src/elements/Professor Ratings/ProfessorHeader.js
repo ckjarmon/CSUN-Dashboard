@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react'
 import RatingsForm from "./RatingsForm"
 
 
-function ProfessorHeader({professorSelected, subject}){
+function ProfessorHeader({professorSelected, subject, setPostedReview, allClassesInSubject}){
     const [rateModal, setRateModal] = useState(false)
     const [reviews, setReviews] = useState([])
 
@@ -83,9 +83,9 @@ function ProfessorHeader({professorSelected, subject}){
             difficultyAdded = difficultyAdded / numReviews
             retakeAgain = (retakeAgain / numReviews) * 100
 
-            setOverallRating(ratingsAdded)
-            setOverallDifficulty(difficultyAdded)
-            setOverallRetake(retakeAgain)
+            setOverallRating(ratingsAdded.toFixed(2))
+            setOverallDifficulty(difficultyAdded.toFixed(2))
+            setOverallRetake(retakeAgain.toFixed(2))
             setRatingsOutlook(ratingsOutlook)
         }
 
@@ -150,7 +150,9 @@ function ProfessorHeader({professorSelected, subject}){
                             rateModal={rateModal} 
                             setRateModal={setRateModal} 
                             professorSelected={professorSelected} 
-                            subject={subject}>
+                            subject={subject}
+                            setPostedReview={setPostedReview}
+                            allClassesInSubject={allClassesInSubject}>
                         </RatingsForm>
                     </Box>
                 </Modal>
@@ -234,7 +236,7 @@ const modalStyle = {
     left: '50%',
     transform: 'translate(-50%, -50%)',
     width: "75vw",
-    height: "75vh",
+    height: "80vh",
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,

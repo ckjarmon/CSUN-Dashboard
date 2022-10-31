@@ -8,9 +8,9 @@ import Typography from '@mui/material/Typography';
 
 
 
-function StudentReviews({subject, professorSelected}){
+function StudentReviews({subject, professorSelected, postedReview}){
     const [reviews, setReviews] = useState([])
-    const [coures, setCourses] = useState([])
+    const [courses, setCourses] = useState([])
  
     useEffect(() => {
         fetch(`http://127.0.0.1:5000/${subject}/rating`)
@@ -39,7 +39,7 @@ function StudentReviews({subject, professorSelected}){
                 setCourses(uniqueClassArray)
             }
         })
-    }, [subject, professorSelected])
+    }, [subject, professorSelected, postedReview])
 
     return(
         <div>

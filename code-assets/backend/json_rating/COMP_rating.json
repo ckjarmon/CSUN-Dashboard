@@ -25,6 +25,19 @@
             "require_textbooks": "Yes",
             "mandatory": "Yes",
             "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin sed libero enim sed faucibus turpis in. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus. At urna condimentum mattis pellentesque id nibh tortor id. Pulvinar proin gravida hendrerit lectus. Nec ullamcorper sit amet risus nullam. Ornare arcu odio ut sem nulla pharetra. Eget gravida cum sociis natoque penatibus et magnis dis. Mi bibendum neque egestas congue quisque egestas diam in arcu. Pellentesque diam volutpat commodo sed."
+        },
+        {
+            "professor_first_name": "Ani",
+            "professor_last_name": "Nahapetian",
+            "subject": "COMP",
+            "catalog_number": "Comp 110",
+            "star_rating": 4,
+            "grade": "B",
+            "difficulty": 3,
+            "retake _professor": "Yes",
+            "require_textbooks": "No",
+            "mandatory": "Yes",
+            "review": "Fair"
         }
     ],
     "John Noga": [
@@ -40,6 +53,45 @@
             "require_textbooks": "No",
             "mandatory": "Yes",
             "review": "Takes long to grade."
+        },
+        {
+            "professor_first_name": "John",
+            "professor_last_name": "Noga",
+            "subject": "COMP",
+            "catalog_number": "Comp 210",
+            "star_rating": 1,
+            "grade": "C",
+            "difficulty": 1,
+            "retake _professor": "No",
+            "require_textbooks": "No",
+            "mandatory": "No",
+            "review": "Bad!"
+        },
+        {
+            "professor_first_name": "John",
+            "professor_last_name": "Noga",
+            "subject": "COMP",
+            "catalog_number": "Comp 410",
+            "star_rating": 5,
+            "grade": "A",
+            "difficulty": 5,
+            "retake _professor": "Yes",
+            "require_textbooks": "Yes",
+            "mandatory": "Yes",
+            "review": "Best class"
+        },
+        {
+            "professor_first_name": "John",
+            "professor_last_name": "Noga",
+            "subject": "COMP",
+            "catalog_number": "Comp 410",
+            "star_rating": 1,
+            "grade": "B+",
+            "difficulty": 1,
+            "retake _professor": "No",
+            "require_textbooks": "No",
+            "mandatory": "Yes",
+            "review": "Lazy"
         }
     ]
 }
