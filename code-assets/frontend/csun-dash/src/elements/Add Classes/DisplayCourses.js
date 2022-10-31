@@ -8,7 +8,7 @@ function DisplayCourses({term, subject, addedClassHandler, addIcon}){
 
     function fetchAllData(){
 
-        fetch(`http://127.0.0.1:8000/${subject}/classes`)
+        fetch(`http://127.0.0.1:5000/${subject}/classes`)
         .then(response => response.json())
         .then(classesData => {
             let allClassList = []
@@ -21,7 +21,7 @@ function DisplayCourses({term, subject, addedClassHandler, addIcon}){
             setClassList(allClassList)
         })
 
-        fetch(`http://127.0.0.1:8000/${subject}/schedule`)
+        fetch(`http://127.0.0.1:5000/${subject}/schedule`)
         .then(response => response.json())
         .then(scheduleData => {
             let scheduleDict = {}

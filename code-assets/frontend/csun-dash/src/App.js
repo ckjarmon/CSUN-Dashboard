@@ -2,6 +2,8 @@ import React from 'react';
 import HomePage from './pages/HomePage'
 import PlannerPage from './pages/PlannerPage';
 import RatingsPage from './pages/RatingsPage';
+import CS from './elements/majors/CS';
+import SignInPage from './pages/SignInPage'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 function App() {
