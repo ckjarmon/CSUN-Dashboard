@@ -1,0 +1,405 @@
+{
+    "course-sets": {
+        "required": [
+            "&",
+            "BIOL 106",
+            "BIOL 106/L",
+            "BIOL 107",
+            "BIOL 107/L",
+            "CHEM 101/L/D",
+            "CHEM 102/L/D",
+            "PHYS 100A/L",
+            "PHYS 100B/L",
+            "BIOL 322",
+            "BIOL 360",
+            "BIOL 380",
+            "CHEM 333/L/D",
+            "CHEM 333D",
+            "CHEM 334/L",
+            {
+                "no-intersection": [
+                    "&",
+                    [
+                        "|1",
+                        "BIOL 315/L",
+                        "BIOL 382/L",
+                        "BIOL 383/L",
+                        "BIOL 408/L",
+                        "BIOL 411/L",
+                        "BIOL 417/L",
+                        "BIOL 441/L",
+                        "BIOL 442/L",
+                        "BIOL 472/L",
+                        "BIOL 475/L",
+                        "BIOL 477/L",
+                        "BIOL 480/L",
+                        "BIOL 481/L",
+                        "BIOL 482/L",
+                        "BIOL 483/L",
+                        "BIOL 485/L",
+                        "BIOL 487/L",
+                        "BIOL 551/L",
+                        "BIOL 316CS/LCS"
+                    ],
+                    [
+                        "|1",
+                        "BIOL 408/L",
+                        "BIOL 411/L",
+                        "BIOL 417/L",
+                        "BIOL 441/L",
+                        "BIOL 442/L",
+                        "BIOL 472/L",
+                        "BIOL 475/L",
+                        "BIOL 477/L",
+                        "BIOL 480/L",
+                        "BIOL 481/L",
+                        "BIOL 482/L",
+                        "BIOL 483/L",
+                        "BIOL 485/L",
+                        "BIOL 487/L",
+                        "BIOL 444",
+                        "BIOL 461",
+                        "BIOL 462",
+                        "BIOL 464",
+                        "BIOL 466",
+                        "BIOL 468",
+                        "BIOL 469",
+                        "BIOL 470",
+                        "BIOL 471A",
+                        "BIOL 473",
+                        "BIOL 476",
+                        "BIOL 479",
+                        "BIOL 489",
+                        "BIOL 493"
+                    ]
+                ]
+            },
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 312/L",
+                    "BIOL 392F"
+                ],
+                [
+                    "&",
+                    "BIOL 313/L",
+                    "BIOL 392B"
+                ],
+                "BIOL 403/L",
+                [
+                    "&",
+                    "BIOL 404/L",
+                    "BIOL 492Y"
+                ],
+                [
+                    "&",
+                    "BIOL 406/L",
+                    "BIOL 492K"
+                ],
+                [
+                    "&",
+                    "BIOL 409/L",
+                    "BIOL 492J"
+                ],
+                "BIOL 410/L ",
+                [
+                    "&",
+                    "BIOL 412/L",
+                    "BIOL 492E"
+                ],
+                [
+                    "&",
+                    "BIOL 413/L",
+                    "BIOL 492AA"
+                ],
+                [
+                    "&",
+                    "BIOL 415/L",
+                    "BIOL 492M"
+                ],
+                "BIOL 418/L",
+                [
+                    "&",
+                    "BIOL 430/L",
+                    "BIOL 492BB"
+                ],
+                "BIOL 432/L",
+                "BIOL 433/L",
+                "BIOL 435/L",
+                [
+                    "&",
+                    "BIOL 437/L",
+                    "BIOL 492V"
+                ],
+                [
+                    "&",
+                    "BIOL 438/L",
+                    "BIOL 492R"
+                ],
+                [
+                    "&",
+                    "BIOL 446/L",
+                    "BIOL 492T"
+                ],
+                [
+                    "&",
+                    "BIOL 448",
+                    "BIOL 492U"
+                ],
+                "BIOL 452/L"
+            ],
+            [
+                "|1",
+                [
+                    "&",
+                    "BIOL 407/L",
+                    "BIOL 492N"
+                ],
+                [
+                    "&",
+                    "BIOL 414/L",
+                    "BIOL 492A"
+                ],
+                [
+                    "&",
+                    "BIOL 419/L",
+                    "BIOL 492C"
+                ],
+                [
+                    "&",
+                    "BIOL 421/L",
+                    "BIOL 492B"
+                ],
+                "BIOL 422/L",
+                [
+                    "&",
+                    "BIOL 423",
+                    "BIOL 492F "
+                ],
+                [
+                    "&",
+                    "BIOL 424/L",
+                    "BIOL 492G "
+                ],
+                [
+                    "&",
+                    "BIOL 425",
+                    "BIOL 492D "
+                ],
+                [
+                    "&",
+                    "BIOL 426/L",
+                    "BIOL 492P "
+                ],
+                [
+                    "&",
+                    "BIOL 427/L",
+                    "BIOL 492H "
+                ],
+                [
+                    "&",
+                    "BIOL 427A/AL",
+                    "BIOL 492L"
+                ],
+                [
+                    "&",
+                    "BIOL 428/L",
+                    "BIOL 492W"
+                ],
+                [
+                    "&",
+                    "BIOL 429/L",
+                    "BIOL 492I"
+                ],
+                [
+                    "&",
+                    "BIOL 434/L",
+                    "BIOL 492Q"
+                ],
+                [
+                    "&",
+                    "BIOL 439/L",
+                    "BIOL 492S"
+                ],
+                [
+                    "&",
+                    "BIOL 451",
+                    "BIOL 326"
+                ],
+                [
+                    "&",
+                    "BIOL 453/L",
+                    "BIOL 492Z"
+                ],
+                [
+                    "&",
+                    "BIOL 456",
+                    "BIOL 492O"
+                ]
+            ],
+            [
+                "|?",
+                "BIOL 330/L",
+                "BIOL 431/L",
+                "BIOL 447/L",
+                "BIOL 449",
+                [
+                    "|1",
+                    "BIOL 490",
+                    "BIOL 495",
+                    "BIOL 499",
+                    "BIOL 526"
+                ],
+                "BIOL 502/L",
+                "BIOL 503/L",
+                "BIOL 560 ",
+                "CHEM 365/L",
+                "CHEM 461/L",
+                "CHEM 464/L",
+                "GEOL 322/L",
+                "GEOL 351/L",
+                "MATH 255A"
+            ]
+        ]
+    },
+    "link-to-major": "https://catalog.csun.edu/academics/biol/programs/ba-biology/",
+    "name": "B.A., Biology",
+    "prog-reqq-blob": [
+        "Program Requirements",
+        "Each student is required to complete the core program, plus all of the requirements in the selective program.",
+        "A. Core Program",
+        "1. Lower Division Courses (26 units)",
+        "BIOL 106 Biological Principles I (3)",
+        "BIOL 106L Biological Principles I Lab (1)",
+        "BIOL 107 Biological Principles II (3)",
+        "BIOL 107L Biological Principles II Lab (1)",
+        "CHEM 101 General Chemistry I (3)",
+        "CHEM 101D Problem Solving in General Chemistry I (1)",
+        "CHEM 101L General Chemistry I Lab (1)",
+        "CHEM 102 General Chemistry II (3)",
+        "CHEM 102D Problem Solving in General Chemistry II (1)",
+        "CHEM 102L General Chemistry II Lab (1)",
+        "PHYS 100A General Physics I (3)",
+        "PHYS 100AL General Physics I Lab (1)",
+        "PHYS 100B General Physics II (3)",
+        "PHYS 100BL General Physics II Lab (1)",
+        "2. Upper Division Courses (18 units)",
+        "BIOL 322 Evolutionary Biology (3)",
+        "BIOL 360 Genetics (3)",
+        "BIOL 380 Cell Biology (3)",
+        "CHEM 333/L Organic Chemistry I and Lab (3/1)",
+        "CHEM 333D Problem Solving in Organic Chemistry I (1)",
+        "CHEM 334/L Organic Chemistry II and Lab (3/1)",
+        "3. Mathematics Requirement",
+        "All Biology B.A. students are required to demonstrate proficiency in mathematics equivalent to a passing grade in MATH 105, MATH 106 (or MATH 102 and MATH 104). They may do this by receiving a passing score on the Mathematics Placement Test sufficient for admission to MATH 255A.",
+        "B. Selective Program (20 units)",
+        "Students must take a minimum of 20 units of specialized coursework in addition to the core. With the approval of a faculty advisor and the concurrence of the department curriculum committee, students may create their own program. Approval for such individualized programs must be obtained before enrollment in the last 12 units of Biology courses. By appropriate choice of courses, students may obtain the equivalent of a traditional degree in Botany or Zoology.",
+        "1. Molecular, Cellular and Physiological Biology",
+        "Take at least 7 units from the following, including at least one course that has a bench lab designated by an L and at least one course that is at the 400-level or above:",
+        "BIOL 315/L Principles of Microbiology and Lab (2/2)",
+        "BIOL 316CS/LCS Plant Biology and Lab (2/2)",
+        "BIOL 381 Cell Biology Lab (1) (not an L course)",
+        "BIOL 382/L Human Anatomy and Physiology I and Lab (3/1)",
+        "BIOL 383/L Human Anatomy and Physiology II and Lab (3/1)",
+        "BIOL 408/L Applied Microbiology and Lab (2/2)",
+        "BIOL 411/L Animal Histology and Lab (2/2)",
+        "BIOL 417/L Microbial Physiology and Lab (2/2)",
+        "BIOL 441/L Embryology and Lab (2/2)",
+        "BIOL 442/L Development Biology and Lab (3/1)",
+        "BIOL 444 Biology of Viruses (3)",
+        "BIOL 461 The Molecular Genetics of Microorganisms (3)",
+        "BIOL 462 Molecular Genetics of Eukaryotic Organisms (3)",
+        "BIOL 464 Human Biochemical Genetics (3)",
+        "BIOL 466 Genetics of Bacteria and Their Viruses (3)",
+        "BIOL 468 Human Genetics (3)",
+        "BIOL 469 Molecular Diagnostics and Clinical Chemistry (3)",
+        "BIOL 470 Biotechnology (3)",
+        "BIOL 471A Molecular Diagnostics (3)",
+        "BIOL 472/L Recombinant DNA Techniques and Lab (2/2)",
+        "BIOL 473 Clinical Cytogenetics and Cancer Genetics (3)",
+        "BIOL 475/L Biological Imaging and Lab (2/2)",
+        "BIOL 476 Topics in Stem Cell Biology (3)",
+        "BIOL 477/L Cell and Tissue Culture and Lab (2/2)",
+        "BIOL 479 Endocrinology (3)",
+        "BIOL 480/L Cellular Physiology and Lab (2/2)",
+        "BIOL 481/L Plant Physiology and Lab (2/2)",
+        "BIOL 482/L Animal Physiology and Lab (2/2)",
+        "BIOL 483/L Principles of Neurophysiology and Lab (3/1)",
+        "BIOL 485/L Immunology with Serology Lab (2/2)",
+        "BIOL 487/L Hematology and Lab (2/2)",
+        "BIOL 489 Cellular Immunology (3)",
+        "BIOL 493 Mechanisms of Bacterial Pathogenesis (3)",
+        "BIOL 551/L Computer Modeling in Biology and Lab (2/2)",
+        "This requirement ensures that the student will study two examples of the molecular and functional mechanisms that occur within individual organisms.",
+        "2. Systematics and Comparative Biology",
+        "Choose one from the following list. Either the course chosen here in List 2 (Systematics and Comparative Biology) or the one chosen in List 3 (Ecology and Environmental Biology) must have a field studies component, as designated by an asterisk (*).",
+        "BIOL 312/L/BIOL 392F Vertebrate Biology and Lab/Field Studies (2/1/1)*",
+        "BIOL 313/L/BIOL 392B Invertebrate Zoology and Lab/Field Studies (2/1/1)*",
+        "BIOL 403/L Plant Morphology and Lab (2/2)",
+        "BIOL 404/L/BIOL 492Y Phycology and Lab/Field Studies (2/1/1)*",
+        "BIOL 406/L/BIOL 492K Flowering Plant Systematics and Lab/Field Studies (2/1/1)*",
+        "BIOL 409/L/BIOL 492J Non-Flowering Plants and Lab/Field Studies (2/1/1)*",
+        "BIOL 410/L Medical Microbiology and Lab (2/2)",
+        "BIOL 412/L/BIOL 492E Herpetology and Lab/Field Studies (2/1/1)*",
+        "BIOL 413/L/BIOL 492AA Entomology and Lab/Field Studies (2/1/1)*",
+        "BIOL 415/L/BIOL 492M Mammalogy and Lab/Field Studies (2/1/1)*",
+        "BIOL 418/L Bacterial Diversity (2/2)",
+        "BIOL 430/L/BIOL 492BB Ichthyology and Lab/Field Studies (2/1/1)*",
+        "BIOL 432/L Comparative Anatomy and Lab (2/2)",
+        "BIOL 433/L Biology of Marine Tetrapods and Lab (2/1)",
+        "BIOL 435/L Parasitology and Lab (2/2)",
+        "BIOL 437/L/BIOL 492V Biology of Fungi and Lab/Field Studies (2/1/1)*",
+        "BIOL 438/L/BIOL 492R Tropical Botany and Lab/Field Studies (2/1/2)*",
+        "BIOL 446/L/BIOL 492T Biology of Tropical Vertebrates and Lab/Field Studies (2/1/2)*",
+        "BIOL 448/BIOL 492U Tropical Biodiversity/Field Studies (2/1)*",
+        "BIOL 452/L Molecular Markers in Evolutionary Studies and Lab (2/2)",
+        "This requirement ensures that the student will have the opportunity to study biodiversity closely in one group of organisms from the points of view of adaptive diversification, phylogeny, biogeography and classification.",
+        "3. Ecology and Environmental Biology",
+        "Choose one from the following list. Either the course chosen here in List 3 (Ecology and Environmental Biology) or the one chosen in List 2 (Systematics and Comparative Biology) must have a field studies component, as designated by an asterisk (*).",
+        "BIOL 407/L/BIOL 492N Plant Ecology and Lab/Field Studies (2/1/1)*",
+        "BIOL 414/L/BIOL 492A Avian Ecology and Lab/Field Studies (2/1/1)*",
+        "BIOL 419/L/BIOL 492C Microbial Ecology and Lab/Field Studies (2/1/1)*",
+        "BIOL 421/L/BIOL 492B Marine Biology and Lab/Field Studies (2/1/1)*",
+        "BIOL 422/L Physiological Ecology and Lab (2/2)",
+        "BIOL 423/BIOL 492F Field Ecology/Field Studies (2/2)*",
+        "BIOL 424/L/BIOL 492G Ecological Modeling and Lab/Field Studies (2/1/1)",
+        "BIOL 425/BIOL 492D Animal Behavior/Field Studies (3/1)*",
+        "BIOL 426/L/BIOL 492P Biology of Deserts and Lab/Field Studies (2/1/1)*",
+        "BIOL 427/L/BIOL 492H Principles of Ecology and Lab/Field Studies (2/1/1)*",
+        "BIOL 427A/AL/BIOL 492L Biology of Pelagic Organisms and Lab/Field Studies (2/1/1)*",
+        "BIOL 428/L/BIOL 492W Wildlife Ecology and Management and Lab/Field Studies (2/1/1)",
+        "BIOL 429/L/BIOL 492I Marine Ecology and Lab/Field Studies (2/1/1)*",
+        "BIOL 434/L/BIOL 492Q Ecology of Marine Fishes and Lab/Field Studies (2/1/1)*",
+        "BIOL 439/L/BIOL 492S Tropical Ecology and Conservation and Lab/Field Studies (2/1/2)*",
+        "BIOL 451/BIOL 326 Tropical Biology/Regional Excursions (3/1)*",
+        "BIOL 453/L/BIOL 492Z Behavioral Ecology and Lab/Field Studies (2/1/1)*",
+        "BIOL 456/BIOL 492O Conservation Biology/Field Studies (3/1)*",
+        "This requirement ensures that the student will study some aspect of the interactions between organisms and their environment.",
+        "4. Elective Requirement",
+        "Electives should be taken to bring the total beyond the core courses to 20 units, including at least 17 units at the upper division level. No more than 3 units of BIOL 490, BIOL 495, BIOL 499 and BIOL 526 combined may be used, and they may not be used to satisfy either lab or field requirements. Electives may include any upper division Biology course (except those explicitly excluded in their description) or the following:",
+        "BIOL 330/L Design and Analysis of Experiments and Lab (2/1)",
+        "BIOL 431/L Food Microbiology and Lab (2/2)",
+        "BIOL 447/L Full Immersion Research Experience (FIRE) and Lab (2/2)",
+        "BIOL 449 Seminar on Topics in Tropical Biology (3)",
+        "BIOL 490, BIOL 495, BIOL 499, BIOL 526 (no more than 3 units combined)",
+        "BIOL 502/BIOL 502L Biometry and Lab (3/1)",
+        "BIOL 503/L Bioinformatics and Lab (3/1)",
+        "BIOL 560 Advanced Topics in Evolution (3)",
+        "CHEM 365 Introduction to Biochemistry (3)",
+        "CHEM 365L Introduction to Biochemistry Lab (1)",
+        "CHEM 461/L Biochemistry I and Lab (3/1)",
+        "CHEM 464/CHEM 464L Principles of Biochemistry and Laboratory (3/1)",
+        "GEOL 322/L Introductory Oceanography and Lab (3/1)",
+        "GEOL 351/L Fundamentals of Paleontology and Lab (3/1)",
+        "MATH 255A Calculus for the Life Sciences I (3)",
+        "This requirement gives additional opportunity for student choices in the program, while guaranteeing that students are exposed to biological concepts and practices.",
+        "C. General Education (48 units)",
+        "Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.",
+        "12 units are satisfied by the following courses in the major: CHEM 101 satisfies B1 Physical Science; BIOL 106 satisfies B2 Life Science; BIOL 106L satisfies B3 Science Laboratory Activity; MATH 105 satisfies Basic Skills B4 Mathematics/Quantitative Reasoning; and BIOL 360 satisfies B5 Scientific Inquiry and Quantitative Reasoning.",
+        "Total Units in the Major: 69",
+        "General Education Units: 36",
+        "Additional Units: 15",
+        "Total Units Required for the B.A. Degree: 120"
+    ]
+}

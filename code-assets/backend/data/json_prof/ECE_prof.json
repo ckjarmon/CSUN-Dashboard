@@ -1,0 +1,3035 @@
+{
+    "htaouk@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16326",
+                "subject": "ECE",
+                "catalog_number": "101",
+                "section_number": "01",
+                "title": "Introduction to Electrical Engineering",
+                "course_id": 23563,
+                "description": "Corequisite: ECE 101L. A Freshman orientation course for the Electrical Engineering Program the profession and the University. Word processing spreadsheet and presentation software along with computer aided design and analysis tools are integrated into the course. 1 hour lecture-discussion 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 26,
+                "enrollment_count": 29,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "0925h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "htaouk@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16277",
+                "subject": "ECE",
+                "catalog_number": "101L",
+                "section_number": "01",
+                "title": "Introduction to Electrical Engineering Lab",
+                "course_id": 23564,
+                "description": "Corequisite: ECE 101. A Freshman orientation course for the Electrical Engineering Program the profession and the University. Word processing spreadsheet and presentation software along with computer aided design and analysis tools are integrated into the course. 1 hour lecture-discussion 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 26,
+                "enrollment_count": 29,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "0930h",
+                        "end_time": "1045h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "htaouk@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16623",
+                "subject": "ECE",
+                "catalog_number": "309",
+                "section_number": "01",
+                "title": "Numerical Methods in Electrical Engineering",
+                "course_id": 42491,
+                "description": "Prerequisites: ECE 240; Math 280 or ECE 280; ECE 206/L or Comp 110/L. This course includes numerical techniques implemented in MATLAB for the solution of problems in electrical and computer engineering. Topics covered include an introduction to MATLAB number representation and error analysis interpolation and curve-fitting numerical solutions to systems of linear equations root-finding differentiation integration and basic statistics. Two 3-hour labs per week.\n",
+                "units": "2",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 9,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2204",
+                        "start_time": "1100h",
+                        "end_time": "1345h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "htaouk@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16629",
+                "subject": "ECE",
+                "catalog_number": "450",
+                "section_number": "01",
+                "title": "Probabilistic Systems in Electrical Engineering-Design and Analysis",
+                "course_id": 23365,
+                "description": "Prerequisite: ECE 350. Develops and demonstrates techniques and models useful for solving a wide range of problems associated with the design and analysis of various probabilistic systems in electrical engineering application. These include radar communication systems sonar control systems information theory computer systems circuit design measurement theory vulnerability analysis and propagation.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 4,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "R"
+                    },
+                    {
+                        "meeting_number": 2,
+                        "location": "JD2204",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "R"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "htaouk@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "profs": [
+        "htaouk@csun.edu",
+        "george.law@csun.edu",
+        "sembiam.rengarajan@csun.edu",
+        "somnath.chattopadhyay@csun.edu",
+        "xiyi.hang.14@csun.edu",
+        "matthew.radmanesh@csun.edu",
+        "sequare.daniel-berhe@csun.edu",
+        "shahryar.ghidari@csun.edu",
+        "soraya.roosta@csun.edu",
+        "vijay.bhatt@csun.edu",
+        "ali.amini@csun.edu",
+        "franco.mikhailidis@csun.edu",
+        "nagi.elnaga@csun.edu",
+        "ramin.roosta@csun.edu",
+        "bradley.jackson@csun.edu",
+        "jack.ou@csun.edu",
+        "ali.zahid@csun.edu",
+        "md-sahabul.alam@csun.edu",
+        "kourosh.sedghisigarchi@csun.edu",
+        "bruno.osorno@csun.edu",
+        "farahnaz.nezhad@csun.edu",
+        "linda.megerdichian.827@my.csun.edu",
+        "shahnam.mirzaei@csun.edu",
+        "neda.khavari@csun.edu",
+        "james.flynn@csun.edu",
+        "shahriar.vazan@csun.edu",
+        "saba.janamian@csun.edu",
+        "orod.haghighiara@csun.edu",
+        "austin.chen@csun.edu",
+        "xiaojun.geng@csun.edu",
+        "ruting.jia@csun.edu"
+    ],
+    "george.law@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16278",
+                "subject": "ECE",
+                "catalog_number": "206",
+                "section_number": "01",
+                "title": "Computing for Electrical Engineers",
+                "course_id": 24619,
+                "description": "Prerequisite: MATH 150A. Corequisite: ECE 206L. Introduction to computer programming with emphasis on ECE problem solving. Major topics include problem solving algorithm development hardware integration and programming in NQC and C++. 2 hours lecture one 3-hour lab per week. (Available in General Education Lifelong Learning if required by major.)\n",
+                "units": "2",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 26,
+                "enrollment_count": 27,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 2,
+                        "location": "ONLINE",
+                        "start_time": "1300h",
+                        "end_time": "1350h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "george.law@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16279",
+                "subject": "ECE",
+                "catalog_number": "206L",
+                "section_number": "01",
+                "title": "Computing for Electrical Engineers Lab",
+                "course_id": 24618,
+                "description": "Prerequisite: MATH 150A. Corequisite: ECE 206. Introduction to computer programming with emphasis on ECE problem solving. Major topics include problem solving algorithm development hardware integration and programming in NQC and C++. 2 hours lecture one 3-hour lab per week. (Available in General Education Lifelong Learning if required by major.)\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 26,
+                "enrollment_count": 27,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 2,
+                        "location": "ONLINE",
+                        "start_time": "1400h",
+                        "end_time": "1515h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "george.law@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16288",
+                "subject": "ECE",
+                "catalog_number": "320L",
+                "section_number": "01",
+                "title": "Theory of Digital Systems Lab",
+                "course_id": 23331,
+                "description": "Prerequisite: MATH 150B. Corequisite: ECE 320. Introduction to digital systems. Topics include number systems binary codes Boolean algebra combinational logic design logic minimization techniques sequential circuits design arithmetic operations data transfers using register transfer notation memory devices digital system organization and digital subsystems design. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 16,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "M"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "george.law@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "sembiam.rengarajan@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16281",
+                "subject": "ECE",
+                "catalog_number": "240",
+                "section_number": "02",
+                "title": "Electrical Engineering Fundamentals",
+                "course_id": 23327,
+                "description": "Prerequisite: PHYSICS 220B/L and Math 250. Co-requisite: Math 280 or ECE 280. Recommended Co-requisite: ECE 240L.\u00a0Introduction to the theory and analysis of electrical circuits; basic circuit elements including the operational amplifier; circuit theorems; dc circuits; forced and natural responses of simple circuits; sinusoidal steady state analysis; and the use of a standard computer aided circuit analysis program. Consideration is given to power energy impedance phasors frequency response and their use in circuit design. 3 hours lecture per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 5,
+                "waitlist_count": 2,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1553",
+                        "start_time": "1230h",
+                        "end_time": "1345h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "sembiam.rengarajan@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21416",
+                "subject": "ECE",
+                "catalog_number": "671",
+                "section_number": "01",
+                "title": "Microwave Engineering",
+                "course_id": 23246,
+                "description": "Prerequisite: ECE 471. Application of the concepts of modern network theory to waveguiding systems. Impedance transformation and matching scattering matrix propagation in non-isotropic media passive microwave devices electromagnetic resonators and measurements in microwave systems.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 20,
+                "enrollment_count": 10,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "sembiam.rengarajan@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "somnath.chattopadhyay@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16282",
+                "subject": "ECE",
+                "catalog_number": "240",
+                "section_number": "03",
+                "title": "Electrical Engineering Fundamentals",
+                "course_id": 23327,
+                "description": "Prerequisite: PHYSICS 220B/L and Math 250. Co-requisite: Math 280 or ECE 280. Recommended Co-requisite: ECE 240L.\u00a0Introduction to the theory and analysis of electrical circuits; basic circuit elements including the operational amplifier; circuit theorems; dc circuits; forced and natural responses of simple circuits; sinusoidal steady state analysis; and the use of a standard computer aided circuit analysis program. Consideration is given to power energy impedance phasors frequency response and their use in circuit design. 3 hours lecture per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 5,
+                "waitlist_count": 4,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1400h",
+                        "end_time": "1515h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "somnath.chattopadhyay@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16283",
+                "subject": "ECE",
+                "catalog_number": "240L",
+                "section_number": "01",
+                "title": "Electrical Engineering Fundamentals Lab",
+                "course_id": 23328,
+                "description": "Prerequisites: MATH 250; PHYS 220B/L. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits analysis and design. Lab includes experiments on resistive circuits operational amplifiers network theorems 1st and 2nd order circuits dc meters passive filters resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 12,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1562",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "somnath.chattopadhyay@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16284",
+                "subject": "ECE",
+                "catalog_number": "240L",
+                "section_number": "02",
+                "title": "Electrical Engineering Fundamentals Lab",
+                "course_id": 23328,
+                "description": "Prerequisites: MATH 250; PHYS 220B/L. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits analysis and design. Lab includes experiments on resistive circuits operational amplifiers network theorems 1st and 2nd order circuits dc meters passive filters resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 11,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1562",
+                        "start_time": "1300h",
+                        "end_time": "1545h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "somnath.chattopadhyay@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16292",
+                "subject": "ECE",
+                "catalog_number": "340L",
+                "section_number": "01",
+                "title": "Electronics I Lab",
+                "course_id": 23333,
+                "description": "Prerequisite ECE 240. Corequisite: ECE 340. Preparatory: ECE 240L. Recommended Corequisite: ECE 350. Linear piecewise-linear and nonlinear models for active devices and their interaction with passive network elements. Characteristics and behavior of operational amplifiers diodes and transistors. Small signal amplifiers and their analysis at low midband and high frequencies. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 18,
+                "waitlist_cap": 10,
+                "waitlist_count": 5,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1566",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "somnath.chattopadhyay@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16404",
+                "subject": "ECE",
+                "catalog_number": "445",
+                "section_number": "01",
+                "title": "Introduction to Solid State Devices",
+                "course_id": 23364,
+                "description": "Prerequisite: ECE 340. Electric and magnetic properties of materials are examined with emphasis on engineering applications. Typical devices that are considered include ohmic and non-ohmic contacts voltaic cells PN junction devices ferroelectric energy converters ferrite devices and integrated circuits.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 20,
+                "enrollment_count": 17,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "somnath.chattopadhyay@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21587",
+                "subject": "ECE",
+                "catalog_number": "695DFP",
+                "section_number": "01",
+                "title": "MICRO DEVICE FAB",
+                "course_id": 42832,
+                "description": null,
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 12,
+                "enrollment_count": 13,
+                "waitlist_cap": 12,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "R"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "somnath.chattopadhyay@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16418",
+                "subject": "ECE",
+                "catalog_number": "698C",
+                "section_number": "05",
+                "title": "Thesis or Graduate Project",
+                "course_id": 23280,
+                "description": "No Course Description.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 0,
+                "enrollment_count": 2,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "somnath.chattopadhyay@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "xiyi.hang.14@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16581",
+                "subject": "ECE",
+                "catalog_number": "240",
+                "section_number": "04",
+                "title": "Electrical Engineering Fundamentals",
+                "course_id": 23327,
+                "description": "Prerequisite: PHYSICS 220B/L and Math 250. Co-requisite: Math 280 or ECE 280. Recommended Co-requisite: ECE 240L.\u00a0Introduction to the theory and analysis of electrical circuits; basic circuit elements including the operational amplifier; circuit theorems; dc circuits; forced and natural responses of simple circuits; sinusoidal steady state analysis; and the use of a standard computer aided circuit analysis program. Consideration is given to power energy impedance phasors frequency response and their use in circuit design. 3 hours lecture per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1553",
+                        "start_time": "1100h",
+                        "end_time": "1215h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "xiyi.hang.14@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16622",
+                "subject": "ECE",
+                "catalog_number": "240",
+                "section_number": "05",
+                "title": "Electrical Engineering Fundamentals",
+                "course_id": 23327,
+                "description": "Prerequisite: PHYSICS 220B/L and Math 250. Co-requisite: Math 280 or ECE 280. Recommended Co-requisite: ECE 240L.\u00a0Introduction to the theory and analysis of electrical circuits; basic circuit elements including the operational amplifier; circuit theorems; dc circuits; forced and natural responses of simple circuits; sinusoidal steady state analysis; and the use of a standard computer aided circuit analysis program. Consideration is given to power energy impedance phasors frequency response and their use in circuit design. 3 hours lecture per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "xiyi.hang.14@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16331",
+                "subject": "ECE",
+                "catalog_number": "350",
+                "section_number": "02",
+                "title": "Linear Systems I",
+                "course_id": 23335,
+                "description": "Prerequisites: ECE 240; MATH 280. Systematic development of linear system response models in both the time and frequency domains. Concentrates on continuous system models. Techniques developed include Laplace transform Fourier analysis impulse response convolution and state variables for continuous linear systems.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 6,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1400h",
+                        "end_time": "1515h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "xiyi.hang.14@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21405",
+                "subject": "ECE",
+                "catalog_number": "501",
+                "section_number": "01",
+                "title": "Introduction to Biomedical Engineering",
+                "course_id": 23188,
+                "description": "Preparatory: Senior or graduate standing. Characterization and properties of anatomical and physiological elements in engineering applications will be studied. Also includes the design of basic medical instrumentation.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 29,
+                "waitlist_cap": 10,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "R"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "xiyi.hang.14@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "matthew.radmanesh@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16790",
+                "subject": "ECE",
+                "catalog_number": "240",
+                "section_number": "07",
+                "title": "Electrical Engineering Fundamentals",
+                "course_id": 23327,
+                "description": "Prerequisite: PHYSICS 220B/L and Math 250. Co-requisite: Math 280 or ECE 280. Recommended Co-requisite: ECE 240L.\u00a0Introduction to the theory and analysis of electrical circuits; basic circuit elements including the operational amplifier; circuit theorems; dc circuits; forced and natural responses of simple circuits; sinusoidal steady state analysis; and the use of a standard computer aided circuit analysis program. Consideration is given to power energy impedance phasors frequency response and their use in circuit design. 3 hours lecture per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 24,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "R"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "matthew.radmanesh@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16309",
+                "subject": "ECE",
+                "catalog_number": "455",
+                "section_number": "01",
+                "title": "Mathematical Models in Electrical Engineering",
+                "course_id": 23366,
+                "description": "Prerequisite: ECE 350. Advanced topics in mathematics in the areas of complex variables linear algebra partial differential equations and series solutions to differential equations are discussed. These mathematical tools are used to model and solve electrical engineering-related problems in the areas of circuits controls electromagnetics solid state and communication theories.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 13,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1600",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "matthew.radmanesh@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16555",
+                "subject": "ECE",
+                "catalog_number": "572",
+                "section_number": "01",
+                "title": "RF and Microwave Active Circuit Design",
+                "course_id": 23201,
+                "description": "Prerequisites: ECE 370 571 or instructor consent. Basic concepts in RF and microwave electronics including loaded Q RLC resonant circuits L-network matching circuits wave propagation in transmission line circuits S-parameters signal-flow graphs Smith chart design of matching circuits using stubs stability criteria and circles unilateral and bilateral cases for maximum gain design and noise figure circles as well as the analysis and design of microwave high-gain amplifiers (HGAs) and low-noise amplifiers (LNAs) are treated in depth.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 14,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "M"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "matthew.radmanesh@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16630",
+                "subject": "ECE",
+                "catalog_number": "573",
+                "section_number": "01",
+                "title": "MW & PHOTONIC DEVICE",
+                "course_id": 23248,
+                "description": null,
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 15,
+                "enrollment_count": 10,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "matthew.radmanesh@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "sequare.daniel-berhe@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16285",
+                "subject": "ECE",
+                "catalog_number": "240L",
+                "section_number": "03",
+                "title": "Electrical Engineering Fundamentals Lab",
+                "course_id": 23328,
+                "description": "Prerequisites: MATH 250; PHYS 220B/L. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits analysis and design. Lab includes experiments on resistive circuits operational amplifiers network theorems 1st and 2nd order circuits dc meters passive filters resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 17,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1562",
+                        "start_time": "1530h",
+                        "end_time": "1815h",
+                        "days": "R"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "sequare.daniel-berhe@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16626",
+                "subject": "ECE",
+                "catalog_number": "340L",
+                "section_number": "02",
+                "title": "Electronics I Lab",
+                "course_id": 23333,
+                "description": "Prerequisite ECE 240. Corequisite: ECE 340. Preparatory: ECE 240L. Recommended Corequisite: ECE 350. Linear piecewise-linear and nonlinear models for active devices and their interaction with passive network elements. Characteristics and behavior of operational amplifiers diodes and transistors. Small signal amplifiers and their analysis at low midband and high frequencies. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 18,
+                "waitlist_cap": 10,
+                "waitlist_count": 5,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1566",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "R"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "sequare.daniel-berhe@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16308",
+                "subject": "ECE",
+                "catalog_number": "442L",
+                "section_number": "01",
+                "title": "Digital Electronics Lab",
+                "course_id": 23361,
+                "description": "Prerequisites: ECE 320/L 350 340. Corequisite: ECE 442. Models of electronic nonlinear devices and their analysis. The limitations of digital circuits. Design of logic gates and of memory elements and registers. System considerations with reference to various technologies including NMOS PMOS CMOS RTL DTL TTL IIL and ECL. Study of VLSI. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 15,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1607",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "W"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "sequare.daniel-berhe@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16554",
+                "subject": "ECE",
+                "catalog_number": "442L",
+                "section_number": "02",
+                "title": "Digital Electronics Lab",
+                "course_id": 23361,
+                "description": "Prerequisites: ECE 320/L 350 340. Corequisite: ECE 442. Models of electronic nonlinear devices and their analysis. The limitations of digital circuits. Design of logic gates and of memory elements and registers. System considerations with reference to various technologies including NMOS PMOS CMOS RTL DTL TTL IIL and ECL. Study of VLSI. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 17,
+                "waitlist_cap": 15,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1607",
+                        "start_time": "1300h",
+                        "end_time": "1545h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "sequare.daniel-berhe@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "shahryar.ghidari@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16545",
+                "subject": "ECE",
+                "catalog_number": "240L",
+                "section_number": "04",
+                "title": "Electrical Engineering Fundamentals Lab",
+                "course_id": 23328,
+                "description": "Prerequisites: MATH 250; PHYS 220B/L. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits analysis and design. Lab includes experiments on resistive circuits operational amplifiers network theorems 1st and 2nd order circuits dc meters passive filters resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 18,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1562",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "M"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "shahryar.ghidari@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "soraya.roosta@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16624",
+                "subject": "ECE",
+                "catalog_number": "240L",
+                "section_number": "06",
+                "title": "Electrical Engineering Fundamentals Lab",
+                "course_id": 23328,
+                "description": "Prerequisites: MATH 250; PHYS 220B/L. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits analysis and design. Lab includes experiments on resistive circuits operational amplifiers network theorems 1st and 2nd order circuits dc meters passive filters resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 18,
+                "waitlist_cap": 5,
+                "waitlist_count": 3,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1562",
+                        "start_time": "1530h",
+                        "end_time": "1815h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "soraya.roosta@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16791",
+                "subject": "ECE",
+                "catalog_number": "240L",
+                "section_number": "07",
+                "title": "Electrical Engineering Fundamentals Lab",
+                "course_id": 23328,
+                "description": "Prerequisites: MATH 250; PHYS 220B/L. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits analysis and design. Lab includes experiments on resistive circuits operational amplifiers network theorems 1st and 2nd order circuits dc meters passive filters resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 18,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1562",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "soraya.roosta@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16290",
+                "subject": "ECE",
+                "catalog_number": "320L",
+                "section_number": "03",
+                "title": "Theory of Digital Systems Lab",
+                "course_id": 23331,
+                "description": "Prerequisite: MATH 150B. Corequisite: ECE 320. Introduction to digital systems. Topics include number systems binary codes Boolean algebra combinational logic design logic minimization techniques sequential circuits design arithmetic operations data transfers using register transfer notation memory devices digital system organization and digital subsystems design. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 18,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1601",
+                        "start_time": "1300h",
+                        "end_time": "1545h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "soraya.roosta@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16293",
+                "subject": "ECE",
+                "catalog_number": "340L",
+                "section_number": "03",
+                "title": "Electronics I Lab",
+                "course_id": 23333,
+                "description": "Prerequisite ECE 240. Corequisite: ECE 340. Preparatory: ECE 240L. Recommended Corequisite: ECE 350. Linear piecewise-linear and nonlinear models for active devices and their interaction with passive network elements. Characteristics and behavior of operational amplifiers diodes and transistors. Small signal amplifiers and their analysis at low midband and high frequencies. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 19,
+                "waitlist_cap": 10,
+                "waitlist_count": 5,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1566",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "soraya.roosta@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "vijay.bhatt@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16893",
+                "subject": "ECE",
+                "catalog_number": "240L",
+                "section_number": "08",
+                "title": "Electrical Engineering Fundamentals Lab",
+                "course_id": 23328,
+                "description": "Prerequisites: MATH 250; PHYS 220B/L. Corequisite: ECE 240. Introduction to the practical aspects of electrical circuits analysis and design. Lab includes experiments on resistive circuits operational amplifiers network theorems 1st and 2nd order circuits dc meters passive filters resonant circuits and RC active filters. Several experiments emphasize the design process. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 18,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1562",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "vijay.bhatt@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16289",
+                "subject": "ECE",
+                "catalog_number": "320L",
+                "section_number": "02",
+                "title": "Theory of Digital Systems Lab",
+                "course_id": 23331,
+                "description": "Prerequisite: MATH 150B. Corequisite: ECE 320. Introduction to digital systems. Topics include number systems binary codes Boolean algebra combinational logic design logic minimization techniques sequential circuits design arithmetic operations data transfers using register transfer notation memory devices digital system organization and digital subsystems design. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 9,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1601",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "vijay.bhatt@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "ali.amini@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16648",
+                "subject": "ECE",
+                "catalog_number": "280",
+                "section_number": "01",
+                "title": "Applied Differential Equations in Electrical Engineering",
+                "course_id": 41970,
+                "description": "Prerequisite: Math 150B. Recommended Corerequisite or Preparatory: Math 250. Modeling of systems by ordinary differential equations. Determination of initial conditions using dynamic behavior of physical systems. Solution of ordinary differential equations by various methods such as separation of variables undetermined coefficients series and Laplace Transform. Linear algebra and solution of systems of differential equations. Numerical methods and use of application software such as MatLab &amp; Mathematica in solving differential equations and systems of differential equations.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 20,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1100h",
+                        "end_time": "1215h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ali.amini@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16311",
+                "subject": "ECE",
+                "catalog_number": "480",
+                "section_number": "01",
+                "title": "Fundamentals of Control Systems",
+                "course_id": 23370,
+                "description": "Prerequisite: ECE 350. Review of the relations between transient responses systems transfer functions and methods of specifying system performance. Analysis and synthesis of feedback control systems by means of Root-Locus methods. Nyquist diagrams phase-gain-frequency diagrams. Use of compensating networks to optimize control system performance. Available for graduate credit.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 15,
+                "waitlist_count": 6,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "0900h",
+                        "end_time": "1015h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ali.amini@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "franco.mikhailidis@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16693",
+                "subject": "ECE",
+                "catalog_number": "309",
+                "section_number": "02",
+                "title": "Numerical Methods in Electrical Engineering",
+                "course_id": 42491,
+                "description": "Prerequisites: ECE 240; Math 280 or ECE 280; ECE 206/L or Comp 110/L. This course includes numerical techniques implemented in MATLAB for the solution of problems in electrical and computer engineering. Topics covered include an introduction to MATLAB number representation and error analysis interpolation and curve-fitting numerical solutions to systems of linear equations root-finding differentiation integration and basic statistics. Two 3-hour labs per week.\n",
+                "units": "2",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 30,
+                "enrollment_count": 18,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "franco.mikhailidis@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16694",
+                "subject": "ECE",
+                "catalog_number": "320L",
+                "section_number": "04",
+                "title": "Theory of Digital Systems Lab",
+                "course_id": 23331,
+                "description": "Prerequisite: MATH 150B. Corequisite: ECE 320. Introduction to digital systems. Topics include number systems binary codes Boolean algebra combinational logic design logic minimization techniques sequential circuits design arithmetic operations data transfers using register transfer notation memory devices digital system organization and digital subsystems design. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 17,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1601",
+                        "start_time": "1230h",
+                        "end_time": "1515h",
+                        "days": "W"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "franco.mikhailidis@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21931",
+                "subject": "ECE",
+                "catalog_number": "340L",
+                "section_number": "04",
+                "title": "Electronics I Lab",
+                "course_id": 23333,
+                "description": "Prerequisite ECE 240. Corequisite: ECE 340. Preparatory: ECE 240L. Recommended Corequisite: ECE 350. Linear piecewise-linear and nonlinear models for active devices and their interaction with passive network elements. Characteristics and behavior of operational amplifiers diodes and transistors. Small signal amplifiers and their analysis at low midband and high frequencies. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 3,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1566",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "W"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "franco.mikhailidis@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16312",
+                "subject": "ECE",
+                "catalog_number": "480L",
+                "section_number": "01",
+                "title": "Fundamentals of Control Systems Lab",
+                "course_id": 23371,
+                "description": "Prerequisite: ECE 350. Corequisite: ECE 480. As an accompaniment to the 3-unit course Fundamentals of Control Systems (ECE480) this laboratory provides experiments to verify theoretical studies and use their applications in the design of a control system with given specifications. The experiments are mainly electrical circuits with actual measurements and simulations and design applications using system response Routh-Hurwitz stability criterion system identification steady state error root-locus Nyquist criterion and the effects of disturbance. Use of Matlab Simulink and PSPICE is emphasized for analysis and design. 3-hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 9,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1300h",
+                        "end_time": "1545h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "franco.mikhailidis@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "nagi.elnaga@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16286",
+                "subject": "ECE",
+                "catalog_number": "320",
+                "section_number": "01",
+                "title": "Theory of Digital Systems",
+                "course_id": 23330,
+                "description": "Prerequisite: MATH 150B. Corequisite: ECE 320L. Introduction to digital systems. Topics include number systems binary codes Boolean algebra combinational logic design logic minimization techniques sequential circuits design arithmetic operations data transfers using register transfer notation memory devices digital system organization and digital subsystems design. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 21,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1400h",
+                        "end_time": "1515h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "nagi.elnaga@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16287",
+                "subject": "ECE",
+                "catalog_number": "320",
+                "section_number": "02",
+                "title": "Theory of Digital Systems",
+                "course_id": 23330,
+                "description": "Prerequisite: MATH 150B. Corequisite: ECE 320L. Introduction to digital systems. Topics include number systems binary codes Boolean algebra combinational logic design logic minimization techniques sequential circuits design arithmetic operations data transfers using register transfer notation memory devices digital system organization and digital subsystems design. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 28,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1553",
+                        "start_time": "1100h",
+                        "end_time": "1215h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "nagi.elnaga@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "ramin.roosta@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16808",
+                "subject": "ECE",
+                "catalog_number": "320",
+                "section_number": "03",
+                "title": "Theory of Digital Systems",
+                "course_id": 23330,
+                "description": "Prerequisite: MATH 150B. Corequisite: ECE 320L. Introduction to digital systems. Topics include number systems binary codes Boolean algebra combinational logic design logic minimization techniques sequential circuits design arithmetic operations data transfers using register transfer notation memory devices digital system organization and digital subsystems design. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 5,
+                "waitlist_count": 5,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "W"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ramin.roosta@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "17081",
+                "subject": "ECE",
+                "catalog_number": "623",
+                "section_number": "01",
+                "title": "Diagnosis and Reliable Design of Digital Systems",
+                "course_id": 23217,
+                "description": "Prerequisite: ECE 620. Basic theory and techniques for testing VLSI circuits and systems. Fault Modeling logic simulationand fault simulation techniques are discussed. Test generation for combinational and sequential logic circuits as well as checking experiments. Gate-level digital simulation and its application to fault diagnosis. Design techniques using static and dynamic redundancy for reliable systems design for testability (DFT) Built-in self-test (BIST) and design techniques for fault tolerant and early diagnosable systems. The use of DFT tools for test generation fault diagnosis fault coverage design for testability reliability computationsand test synthesis. Delay faults and testing fault diagnosis quiescent current testing (Iddq) functional testing and crosstalk.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 16,
+                "enrollment_count": 20,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1600h",
+                        "end_time": "1845h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ramin.roosta@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "bradley.jackson@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16291",
+                "subject": "ECE",
+                "catalog_number": "340",
+                "section_number": "01",
+                "title": "Electronics I",
+                "course_id": 23332,
+                "description": "Prerequisite ECE 240. Corequisite: ECE 340L. Preparatory: ECE 240L. Recommended Corequisite: ECE 350. Linear piecewise-linear and nonlinear models for active devices and their interaction with passive network elements. Characteristics and behavior of operational amplifiers diodes and transistors. Small signal amplifiers and their analysis at low midband and high frequencies. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 15,
+                "waitlist_count": 9,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1553",
+                        "start_time": "1530h",
+                        "end_time": "1645h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "bradley.jackson@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16301",
+                "subject": "ECE",
+                "catalog_number": "370",
+                "section_number": "01",
+                "title": "Electromagnetic Fields and Waves I",
+                "course_id": 23337,
+                "description": "Prerequisites: ECE 240; MATH 280.  Study of waves in transmission line circuits transient and steady state solutions phasors reflection coefficient Smith chart matching circuits wave propagation in materials vector analysis electrostatics magnetostatics steady electric currents quasi-statics and electromagnetic fields.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 16,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1590A",
+                        "start_time": "1100h",
+                        "end_time": "1215h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "bradley.jackson@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16809",
+                "subject": "ECE",
+                "catalog_number": "370",
+                "section_number": "02",
+                "title": "Electromagnetic Fields and Waves I",
+                "course_id": 23337,
+                "description": "Prerequisites: ECE 240; MATH 280.  Study of waves in transmission line circuits transient and steady state solutions phasors reflection coefficient Smith chart matching circuits wave propagation in materials vector analysis electrostatics magnetostatics steady electric currents quasi-statics and electromagnetic fields.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 21,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1590A",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "bradley.jackson@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21382",
+                "subject": "ECE",
+                "catalog_number": "370L",
+                "section_number": "01",
+                "title": "Microwave Lab",
+                "course_id": 23338,
+                "description": "Prerequisite: ECE 240L. Corequisite: ECE 370. Introduction to the practical aspects of waveguiding systems: stripline microstrip and coaxial transmission lines; and rectangular waveguides. Introduction to basic microwave measurements and techniques: impedance matching network analyzers antenna impedance and pattern measurements and computer-controlled instrumentation. Culminating in a design project. One 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 11,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1590A",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "M"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "bradley.jackson@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16415",
+                "subject": "ECE",
+                "catalog_number": "698C",
+                "section_number": "02",
+                "title": "Thesis or Graduate Project",
+                "course_id": 23280,
+                "description": "No Course Description.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 0,
+                "enrollment_count": 0,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "bradley.jackson@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "jack.ou@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16628",
+                "subject": "ECE",
+                "catalog_number": "340",
+                "section_number": "02",
+                "title": "Electronics I",
+                "course_id": 23332,
+                "description": "Prerequisite ECE 240. Corequisite: ECE 340L. Preparatory: ECE 240L. Recommended Corequisite: ECE 350. Linear piecewise-linear and nonlinear models for active devices and their interaction with passive network elements. Characteristics and behavior of operational amplifiers diodes and transistors. Small signal amplifiers and their analysis at low midband and high frequencies. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 15,
+                "waitlist_count": 5,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1553",
+                        "start_time": "0900h",
+                        "end_time": "1015h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "jack.ou@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16305",
+                "subject": "ECE",
+                "catalog_number": "440",
+                "section_number": "01",
+                "title": "Electronics II",
+                "course_id": 23358,
+                "description": "Prerequisite: ECE 340/L. Corequisite: ECE 440L. Continuation of ECE 340. Power amplifiers feedback amplifiers stability oscillators RC active filters and switched-capacitor circuits. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 8,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1102",
+                        "start_time": "1030h",
+                        "end_time": "1145h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "jack.ou@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16307",
+                "subject": "ECE",
+                "catalog_number": "442",
+                "section_number": "01",
+                "title": "Digital Electronics",
+                "course_id": 23360,
+                "description": "Prerequisites: ECE 320/L 350 340. Corequisite: ECE 442L. Models of electronic nonlinear devices and their analysis. The limitations of digital circuits. Design of logic gates and of memory elements and registers. System considerations with reference to various technologies including NMOS PMOS CMOS RTL DTL TTL IIL and ECL. Study of VLSI. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 15,
+                "waitlist_count": 9,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2204",
+                        "start_time": "1230h",
+                        "end_time": "1345h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "jack.ou@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21413",
+                "subject": "ECE",
+                "catalog_number": "595AIC",
+                "section_number": "01",
+                "title": "ANALOG IC DESIGN",
+                "course_id": 43878,
+                "description": null,
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 20,
+                "enrollment_count": 17,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "1100h",
+                        "end_time": "1215h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "jack.ou@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "ali.zahid@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16299",
+                "subject": "ECE",
+                "catalog_number": "350",
+                "section_number": "01",
+                "title": "Linear Systems I",
+                "course_id": 23335,
+                "description": "Prerequisites: ECE 240; MATH 280. Systematic development of linear system response models in both the time and frequency domains. Concentrates on continuous system models. Techniques developed include Laplace transform Fourier analysis impulse response convolution and state variables for continuous linear systems.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 8,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1553",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ali.zahid@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16696",
+                "subject": "ECE",
+                "catalog_number": "450",
+                "section_number": "02",
+                "title": "Probabilistic Systems in Electrical Engineering-Design and Analysis",
+                "course_id": 23365,
+                "description": "Prerequisite: ECE 350. Develops and demonstrates techniques and models useful for solving a wide range of problems associated with the design and analysis of various probabilistic systems in electrical engineering application. These include radar communication systems sonar control systems information theory computer systems circuit design measurement theory vulnerability analysis and propagation.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 13,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1530h",
+                        "end_time": "1645h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ali.zahid@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16317",
+                "subject": "ECE",
+                "catalog_number": "562",
+                "section_number": "01",
+                "title": "Data Communication Networks",
+                "course_id": 23197,
+                "description": "Prerequisite: ECE450. Layered network architectures and the TCP/IP model. Link layer error and flow control mechanisms. Packet switching. Wired and wireless local and wide area networks. Medium access control procedures. Internet working with switches bridges and routers. Routing algorithms. Network security.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 9,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "W"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ali.zahid@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16489",
+                "subject": "ECE",
+                "catalog_number": "581",
+                "section_number": "01",
+                "title": "Fuzzy Control",
+                "course_id": 24493,
+                "description": "Prerequisite: ECE 480. Consists of two parts. First part: Introduces basic concepts of fuzzy logic such as fuzzy set rules definitions graphs and properties related to fuzzification and defuzzification. Second part: Introduces fuzzy logic control and its application to control engineering and discusses the basic fuzzy logic controllers the relevant analytical issues and their roles in advanced hierarchical control systems.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 14,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1609",
+                        "start_time": "1230h",
+                        "end_time": "1345h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ali.zahid@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "md-sahabul.alam@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16300",
+                "subject": "ECE",
+                "catalog_number": "351",
+                "section_number": "01",
+                "title": "Linear Systems II",
+                "course_id": 23450,
+                "description": "Prerequisite: ECE 350. Continuation of ECE 350 with concentration on discrete system models. Techniques developed include Z-transforms Fourier Analysis impulse response convolution and state variables for discrete linear systems.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 31,
+                "waitlist_cap": 10,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1553",
+                        "start_time": "0900h",
+                        "end_time": "1015h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "md-sahabul.alam@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16585",
+                "subject": "ECE",
+                "catalog_number": "351",
+                "section_number": "02",
+                "title": "Linear Systems II",
+                "course_id": 23450,
+                "description": "Prerequisite: ECE 350. Continuation of ECE 350 with concentration on discrete system models. Techniques developed include Z-transforms Fourier Analysis impulse response convolution and state variables for discrete linear systems.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 2,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1555",
+                        "start_time": "1230h",
+                        "end_time": "1345h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "md-sahabul.alam@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16319",
+                "subject": "ECE",
+                "catalog_number": "650",
+                "section_number": "01",
+                "title": "Random Processes",
+                "course_id": 23232,
+                "description": "Prerequisite: ECE450. Random vectors sequences and processes. Linear systems with random inputs. Second moment theory and spectral analysis. Narrowband processes. Gaussian and Poisson processes. Application to filtering detection and estimation of signals in white and non-white noise.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 20,
+                "enrollment_count": 16,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "md-sahabul.alam@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16417",
+                "subject": "ECE",
+                "catalog_number": "698C",
+                "section_number": "04",
+                "title": "Thesis or Graduate Project",
+                "course_id": 23280,
+                "description": "No Course Description.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 0,
+                "enrollment_count": 1,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "md-sahabul.alam@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "kourosh.sedghisigarchi@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16761",
+                "subject": "ECE",
+                "catalog_number": "410L",
+                "section_number": "01",
+                "title": "Electrical Machines and Energy Conversion Lab",
+                "course_id": 23347,
+                "description": "Prerequisite: ECE 240. Corequisite: ECE410. This course covers single and three phase power including phasor diagrams and electromagnetic laws. Maxwells Equations as applied to energy conversion is covered as are analysis of magnetic circuits and their losses and single and three phase transformers including voltage regulation end efficiency. Electromechanical energy conversion principles followed by rotating machinery modeling and analysis. Machines include induction motors synchronous generators and direct current motors. Application of these concepts as they apply to energy sustainability is discussed. Several projects are included in which students design simulate build test and report on their findings. Available for graduate credit.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 16,
+                "enrollment_count": 16,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1570",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "kourosh.sedghisigarchi@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "17079",
+                "subject": "ECE",
+                "catalog_number": "412",
+                "section_number": "01",
+                "title": "Power Electronics",
+                "course_id": 23349,
+                "description": "Prerequisite: ECE 240 340. Recommended prerequisite: ECE 410. Switching losses in power semiconductor switches are covered in detail. Computer simulation of power electronic converters is taught using PSPICE and Matlab. Study of line-frequency diode rectifiers (line-frequency ac-to-uncontrolled dc) as well as line-frequency phase-controlled rectifiers and inverters (line-frequency ac-to-controlled dc). Dc-to-dc switch-mode converters and switch-mode dc-to-ac inverters also are discussed. Power electronics applications in solar energy are studied with emphasis in applications. Application of these concepts as they apply to energy sustainability is discussed. Several projects are included in which students design simulate build test and report on their findings. Available for graduate credit.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 16,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1590A",
+                        "start_time": "1400h",
+                        "end_time": "1515h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "kourosh.sedghisigarchi@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21410",
+                "subject": "ECE",
+                "catalog_number": "512",
+                "section_number": "01",
+                "title": "POWER SYS PROTECTION",
+                "course_id": 23213,
+                "description": null,
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 20,
+                "enrollment_count": 16,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1530h",
+                        "end_time": "1645h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "kourosh.sedghisigarchi@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16416",
+                "subject": "ECE",
+                "catalog_number": "698C",
+                "section_number": "03",
+                "title": "Thesis or Graduate Project",
+                "course_id": 23280,
+                "description": "No Course Description.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 0,
+                "enrollment_count": 0,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "kourosh.sedghisigarchi@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "bruno.osorno@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16695",
+                "subject": "ECE",
+                "catalog_number": "411",
+                "section_number": "01",
+                "title": "Electric Power Systems",
+                "course_id": 23348,
+                "description": "Prerequisite: ECE 240. Recommended prerequisite: ECE410. Review of single phase three phase power and calculations of power using theper-unit method. Study of single line diagrams using reactance and impedance and three phase transformers as applied to power systems and synchronous machines. Discussion of series impedance capacitance voltage and current as related to power transmission lines. Modeling of admittance impedance and network calculations are included. Flexible AC Transmission Systems (FACTS) and Automated Transmission Operations (ATO) are discussed as a consequence of the implementation of the smart grid. The effects of magnetic field in power transmission lines also are discussed. Design and simulation projects are included. Students make presentations about their findings. PSPICE and Matlab are utilized. Available for graduate credit.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "1000h",
+                        "end_time": "1245h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "bruno.osorno@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "farahnaz.nezhad@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16302",
+                "subject": "ECE",
+                "catalog_number": "420",
+                "section_number": "01",
+                "title": "Digital Systems Design with Programmable Logic",
+                "course_id": 23352,
+                "description": "Prerequisite: ECE 320. Designed to cover and compare a variety of programmable logic devices with design examples to show their applications. Emphasizes the implementation of digital systems with programmable logic devices using VHDL in design description and Maxplus II software in design simulation and verification.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 25,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2204",
+                        "start_time": "1100h",
+                        "end_time": "1215h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "farahnaz.nezhad@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16303",
+                "subject": "ECE",
+                "catalog_number": "425",
+                "section_number": "01",
+                "title": "Microprocessor Systems",
+                "course_id": 23354,
+                "description": "Prerequisite: ECE 320/L. Corequisite: ECE 425L. Studies of microprocessor architectures and microcomputer systems. Basic microprocessor software consideration and assembly language programming. Microcomputers system design considerations applications and design with a microcontroller.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1600",
+                        "start_time": "1030h",
+                        "end_time": "1145h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "farahnaz.nezhad@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "linda.megerdichian.827@my.csun.edu": {
+        "classes": [
+            {
+                "class_number": "21421",
+                "subject": "ECE",
+                "catalog_number": "420",
+                "section_number": "02",
+                "title": "Digital Systems Design with Programmable Logic",
+                "course_id": 23352,
+                "description": "Prerequisite: ECE 320. Designed to cover and compare a variety of programmable logic devices with design examples to show their applications. Emphasizes the implementation of digital systems with programmable logic devices using VHDL in design description and Maxplus II software in design simulation and verification.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "linda.megerdichian.827@my.csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "shahnam.mirzaei@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16332",
+                "subject": "ECE",
+                "catalog_number": "422",
+                "section_number": "01",
+                "title": "Design of Digital Computers",
+                "course_id": 23353,
+                "description": "Prerequisite: ECE 320. Structure and operation of a stored-program general-purpose digital computer. Design of computer hardware modules: arithmetic-logic units control units input-output units and memories. Basic organizations of digital computers. Fault diagnosis and fault tolerant design of digital systems.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 60,
+                "enrollment_count": 60,
+                "waitlist_cap": 10,
+                "waitlist_count": 3,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "SQ104",
+                        "start_time": "1400h",
+                        "end_time": "1645h",
+                        "days": "W"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "shahnam.mirzaei@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16459",
+                "subject": "ECE",
+                "catalog_number": "524",
+                "section_number": "01",
+                "title": "FPGA/ASIC Design and Optimization Using VHDL",
+                "course_id": 41053,
+                "description": "Prerequisites: ECE 420. Corequisite: ECE 524L. This course covers top down design methodology for FPGA and ASIC using VHDL. Hardware Description Language (VHDL) modeling simulation and synthesis tools are utilized to elaborate the material covered throughout the course. Xilinx (the Virtex series) and Actel (the SX and AX series) FPGA architectures and design methodologies are studied. Several sample designs are targeted and tested for each FPGA technology. ASIC design flow and design optimization techniques are discussed. ASIC design flow constraint file generation and test benches also are studied along with their applications to some designs samples. The use of FPGAs in space and military applications and their reliability issues are discussed. 3 hours lecure per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 25,
+                "enrollment_count": 23,
+                "waitlist_cap": 15,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1612",
+                        "start_time": "1100h",
+                        "end_time": "1215h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "shahnam.mirzaei@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "17087",
+                "subject": "ECE",
+                "catalog_number": "551",
+                "section_number": "01",
+                "title": "IMAGE PROCESSING",
+                "course_id": 43498,
+                "description": null,
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 22,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1612",
+                        "start_time": "0900h",
+                        "end_time": "1015h",
+                        "days": "MW"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "shahnam.mirzaei@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "17083",
+                "subject": "ECE",
+                "catalog_number": "621",
+                "section_number": "01",
+                "title": "Computer Arithmetic Design",
+                "course_id": 23215,
+                "description": "Prerequisite: ECE 422. Design analysis of high speed adders subtractors multipliers and dividers of digital computers integrated circuits and digital devices. Signed-digit adder/subtractor multiplicative and division algorithms and hardware. Iterative cellular array multipliers and dividers. Floating point arithmetic processor and pipelined arithmetic.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 30,
+                "enrollment_count": 30,
+                "waitlist_cap": 10,
+                "waitlist_count": 6,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "1400h",
+                        "end_time": "1645h",
+                        "days": "M"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "shahnam.mirzaei@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16414",
+                "subject": "ECE",
+                "catalog_number": "698C",
+                "section_number": "01",
+                "title": "Thesis or Graduate Project",
+                "course_id": 23280,
+                "description": "No Course Description.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 0,
+                "enrollment_count": 3,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "shahnam.mirzaei@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "neda.khavari@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16304",
+                "subject": "ECE",
+                "catalog_number": "425L",
+                "section_number": "01",
+                "title": "Microprocessor Systems Lab",
+                "course_id": 23355,
+                "description": "Prerequisite: ECE 320/L. Corequisite: ECE 425. Studies of microprocessor architectures and microcomputer systems. Basic microprocessor software consideration and assembly language programming. Microcomputers system design considerations applications and design with a microcontroller.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 16,
+                "enrollment_count": 13,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1607",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "R"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "neda.khavari@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "james.flynn@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16582",
+                "subject": "ECE",
+                "catalog_number": "425L",
+                "section_number": "02",
+                "title": "Microprocessor Systems Lab",
+                "course_id": 23355,
+                "description": "Prerequisite: ECE 320/L. Corequisite: ECE 425. Studies of microprocessor architectures and microcomputer systems. Basic microprocessor software consideration and assembly language programming. Microcomputers system design considerations applications and design with a microcontroller.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 16,
+                "enrollment_count": 16,
+                "waitlist_cap": 10,
+                "waitlist_count": 2,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1607",
+                        "start_time": "1230h",
+                        "end_time": "1515h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "james.flynn@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16310",
+                "subject": "ECE",
+                "catalog_number": "460",
+                "section_number": "01",
+                "title": "Introduction to Communication Systems",
+                "course_id": 23367,
+                "description": "Prerequisite: ECE 350. Corequisite: 460L. Recommended Corequisites: ECE 351 450. Introduction to information transmission. Analog communication systems. AM. DSB SSB VSB FM and PM. Frequency-division multiplexing techniques. Superheterodyne receiver. 3 hours lecture. Available for graduate credit.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 20,
+                "enrollment_count": 18,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD2203",
+                        "start_time": "1730h",
+                        "end_time": "1845h",
+                        "days": "TR"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "james.flynn@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16531",
+                "subject": "ECE",
+                "catalog_number": "460L",
+                "section_number": "01",
+                "title": "Introduction to Communication Systems Lab",
+                "course_id": 23368,
+                "description": "Prerequisite: ECE 350. Corequisite: 460. Recommended Corequisites: ECE 351 450. Introduction to information transmission. Analog communication systems: AM. DSB SSB VSB FM and PM. Frequency-division multiplexing techniques. Superheterodyne receiver. One 3-hour lab per week. Available for graduate credit.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 17,
+                "waitlist_cap": 14,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1536",
+                        "start_time": "1300h",
+                        "end_time": "1545h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "james.flynn@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16313",
+                "subject": "ECE",
+                "catalog_number": "492",
+                "section_number": "01",
+                "title": "Senior Design Project-Electrical I",
+                "course_id": 23373,
+                "description": "Prerequisite: ECE 340 ECE 350 and two 400-level ECE courses. Recommended Corequisite: Enrollment in a 400-level electrical and computer engineering senior lab course with at least 2.5 design units. Students will design complex engineering projects one as individuals and one as part of a team. Projects are subject to realistic constraints and require the integrated application and extension of science engineering economic and social concepts. Ethics professional standards written and oral communication skills and methods of technical problem-solving will be addressed. Requires completion of the individual project. May not be used for graduate credit.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 50,
+                "enrollment_count": 54,
+                "waitlist_cap": 10,
+                "waitlist_count": 4,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1590A",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "W"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "james.flynn@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16314",
+                "subject": "ECE",
+                "catalog_number": "493",
+                "section_number": "01",
+                "title": "Senior Design Project-Electrical II",
+                "course_id": 23374,
+                "description": "Prerequisite: ECE 492. Continuation of ECE 492. Issues concerning science engineering economic and social concepts as well as ethics written oral communication and methods of technical problem solving will be further treated. Completion of the design project under faculty supervision culminating in a comprehensive report. Students who enter their projects in an appropriate technical paper contest are excused from submission of a comprehensive report. May not be used for graduate credit.\n",
+                "units": "2",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 40,
+                "enrollment_count": 43,
+                "waitlist_cap": 10,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1590A",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "james.flynn@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "shahriar.vazan@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16306",
+                "subject": "ECE",
+                "catalog_number": "440L",
+                "section_number": "01",
+                "title": "Electronics II Lab",
+                "course_id": 23359,
+                "description": "Prerequisite: ECE 340/L. Corequisite: ECE 440. Continuation of ECE 340. Power amplifiers feedback amplifiers stability oscillators RC active filters and switched-capacitor circuits. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 14,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1566",
+                        "start_time": "1300h",
+                        "end_time": "1545h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "shahriar.vazan@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16490",
+                "subject": "ECE",
+                "catalog_number": "440L",
+                "section_number": "02",
+                "title": "Electronics II Lab",
+                "course_id": 23359,
+                "description": "Prerequisite: ECE 340/L. Corequisite: ECE 440. Continuation of ECE 340. Power amplifiers feedback amplifiers stability oscillators RC active filters and switched-capacitor circuits. 3 hours lecture one 3-hour lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 18,
+                "enrollment_count": 15,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1566",
+                        "start_time": "1600h",
+                        "end_time": "1845h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "shahriar.vazan@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "saba.janamian@csun.edu": {
+        "classes": [
+            {
+                "class_number": "21411",
+                "subject": "ECE",
+                "catalog_number": "520",
+                "section_number": "01",
+                "title": "SOC DESIGN",
+                "course_id": 40860,
+                "description": null,
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 25,
+                "enrollment_count": 25,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1102",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "T"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "saba.janamian@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21412",
+                "subject": "ECE",
+                "catalog_number": "520L",
+                "section_number": "01",
+                "title": "SOC DESIGN LAB",
+                "course_id": 40861,
+                "description": null,
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 25,
+                "enrollment_count": 25,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1102",
+                        "start_time": "1300h",
+                        "end_time": "1545h",
+                        "days": "S"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "saba.janamian@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21761",
+                "subject": "ECE",
+                "catalog_number": "524",
+                "section_number": "03",
+                "title": "FPGA/ASIC Design and Optimization Using VHDL",
+                "course_id": 41053,
+                "description": "Prerequisites: ECE 420. Corequisite: ECE 524L. This course covers top down design methodology for FPGA and ASIC using VHDL. Hardware Description Language (VHDL) modeling simulation and synthesis tools are utilized to elaborate the material covered throughout the course. Xilinx (the Virtex series) and Actel (the SX and AX series) FPGA architectures and design methodologies are studied. Several sample designs are targeted and tested for each FPGA technology. ASIC design flow and design optimization techniques are discussed. ASIC design flow constraint file generation and test benches also are studied along with their applications to some designs samples. The use of FPGAs in space and military applications and their reliability issues are discussed. 3 hours lecure per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 25,
+                "enrollment_count": 26,
+                "waitlist_cap": 15,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1102",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "F"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "saba.janamian@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21661",
+                "subject": "ECE",
+                "catalog_number": "524L",
+                "section_number": "02",
+                "title": "FPGA/ASIC Design Lab",
+                "course_id": 41054,
+                "description": "Prerequisite: ECE 420. Recommended corequisite: ECE 524. The lab accompanying course EE524 covers modeling of digital systems and electronic circuit design hierarchy and the role of methodology in FPGA/ASIC design. Hardware Description Language VHDL simulation and synthesis tools are utilized to elaborate the material covered throughout the course. The lab introduces the systematic top-down design methodology to design complex digital hardware such as FPGAs and ASICs. FPGA and ASIC design flow as well as design optimization techniques are discussed. For FPGAs Xilinx Virtex and Actel SX architecture are covered. Individual and group projects are assigned to students. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 25,
+                "enrollment_count": 23,
+                "waitlist_cap": 15,
+                "waitlist_count": 1,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1102",
+                        "start_time": "1600h",
+                        "end_time": "1845h",
+                        "days": "S"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "saba.janamian@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "21762",
+                "subject": "ECE",
+                "catalog_number": "524L",
+                "section_number": "03",
+                "title": "FPGA/ASIC Design Lab",
+                "course_id": 41054,
+                "description": "Prerequisite: ECE 420. Recommended corequisite: ECE 524. The lab accompanying course EE524 covers modeling of digital systems and electronic circuit design hierarchy and the role of methodology in FPGA/ASIC design. Hardware Description Language VHDL simulation and synthesis tools are utilized to elaborate the material covered throughout the course. The lab introduces the systematic top-down design methodology to design complex digital hardware such as FPGAs and ASICs. FPGA and ASIC design flow as well as design optimization techniques are discussed. For FPGAs Xilinx Virtex and Actel SX architecture are covered. Individual and group projects are assigned to students. 3 hours lab per week.\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "LAB",
+                "enrollment_cap": 25,
+                "enrollment_count": 25,
+                "waitlist_cap": 0,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1612",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "saba.janamian@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "orod.haghighiara@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16315",
+                "subject": "ECE",
+                "catalog_number": "526",
+                "section_number": "01",
+                "title": "Digital Design with Verilog and System Verilog",
+                "course_id": 23190,
+                "description": "Prerequisite: ECE 320/L. Corequisite: ECE 526L.\u00a0This course covers the use of Verilog and\u00a0SystemVerilog Languages (IEEE Std. 1800) for the design and development of digital integrated circuits\u00a0including mask-programmed integrated circuits (ASICs) and field programmable devices (FPGAs).\u00a0Hierarchical top down vs. bottom up design synthesizable vs. non-synthesizable code design scalability\u00a0and reuse verification hardware modeling simulation system tasks compiler directives and subroutines\u00a0are all covered and illustrated with design examples.\u00a03 hours lecture one 3-hour lab per week.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "LEC",
+                "enrollment_cap": 28,
+                "enrollment_count": 29,
+                "waitlist_cap": 10,
+                "waitlist_count": 2,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "JD1102",
+                        "start_time": "1900h",
+                        "end_time": "2145h",
+                        "days": "M"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "orod.haghighiara@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "austin.chen@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16948",
+                "subject": "ECE",
+                "catalog_number": "640",
+                "section_number": "01",
+                "title": "Modern Electronic Techniques",
+                "course_id": 23226,
+                "description": "Prerequisite: Instructor consent. Advanced electronic design techniques such as switching regulators and switching amplifiers are covered. Also included are thermal effects and manufacturing defects. Finally advanced audio design also is emphasized. Computerized design techniques are used.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SEM",
+                "enrollment_cap": 12,
+                "enrollment_count": 13,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    },
+                    {
+                        "meeting_number": 2,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    },
+                    {
+                        "meeting_number": 3,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    },
+                    {
+                        "meeting_number": 4,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    },
+                    {
+                        "meeting_number": 5,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    },
+                    {
+                        "meeting_number": 6,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    },
+                    {
+                        "meeting_number": 7,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    },
+                    {
+                        "meeting_number": 8,
+                        "location": "JD2203",
+                        "start_time": "0900h",
+                        "end_time": "1145h",
+                        "days": "S"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "austin.chen@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "xiaojun.geng@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16662",
+                "subject": "ECE",
+                "catalog_number": "697",
+                "section_number": "01",
+                "title": "Directed Comprehensive Studies",
+                "course_id": 23277,
+                "description": "(Credit/No Credit only)\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 1,
+                "enrollment_count": 0,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "xiaojun.geng@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "16419",
+                "subject": "ECE",
+                "catalog_number": "698C",
+                "section_number": "06",
+                "title": "Thesis or Graduate Project",
+                "course_id": 23280,
+                "description": "No Course Description.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 0,
+                "enrollment_count": 0,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "xiaojun.geng@csun.edu"
+                    }
+                ]
+            },
+            {
+                "class_number": "17065",
+                "subject": "ECE",
+                "catalog_number": "699A",
+                "section_number": "01",
+                "title": "Independent Study",
+                "course_id": 23281,
+                "description": "Independent Study\n",
+                "units": "1",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 0,
+                "enrollment_count": 1,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "xiaojun.geng@csun.edu"
+                    }
+                ]
+            }
+        ]
+    },
+    "ruting.jia@csun.edu": {
+        "classes": [
+            {
+                "class_number": "16420",
+                "subject": "ECE",
+                "catalog_number": "698C",
+                "section_number": "07",
+                "title": "Thesis or Graduate Project",
+                "course_id": 23280,
+                "description": "No Course Description.\n",
+                "units": "3",
+                "term": "Fall-2022",
+                "class_type": "SUP",
+                "enrollment_cap": 0,
+                "enrollment_count": 1,
+                "waitlist_cap": 10,
+                "waitlist_count": 0,
+                "meetings": [
+                    {
+                        "meeting_number": 1,
+                        "location": "ONLINE",
+                        "start_time": "0000h",
+                        "end_time": "0000h",
+                        "days": "A"
+                    }
+                ],
+                "instructors": [
+                    {
+                        "instructor": "ruting.jia@csun.edu"
+                    }
+                ]
+            }
+        ]
+    }
+}

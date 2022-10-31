@@ -152,7 +152,7 @@ Example: /comp/182/history/5
 """
 @app.route('/<string:subject>/<string:catalog_number>/history/<int:amount>')
 def historical_profs(**kwargs):
-    with open(f"../backend/json_historical_profs/{kwargs['subject'].upper()}_history.json") as subject:
+    with open(f"../backend/data/json_historical_profs/{kwargs['subject'].upper()}_history.json") as subject:
         classes = json.load(subject)
         return dict(itertools.islice(classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number'].upper()}"].items(), kwargs["amount"]))
 
@@ -165,7 +165,7 @@ Returns: John Noga
 """
 @app.route('/<string:subject>/prof/name/<string:prof_email>')
 def prof_name(**kwargs):
-    #with open(f"../backend/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
+    #with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
     #    profs = json.load(profs)
     #    return profs[kwargs['prof_email']]
     rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'")
@@ -247,7 +247,7 @@ Example:
 """
 @app.route('/<string:subject>/classes')
 def catalog(**kwargs):
-    #with open(f"../backend/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
+    #with open(f"../backend/data/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
     #    classes = json.load(subject)
     #    return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
     rootCursor.execute(f"select catalog_number, title from csun.{kwargs['subject'].upper()}_view")
@@ -257,7 +257,7 @@ def catalog(**kwargs):
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
-    with open(f"../backend/json_schedule/{kwargs['subject'].upper()}_schedule.json") as subject:
+    with open(f"../backend/data/json_schedule/{kwargs['subject'].upper()}_schedule.json") as subject:
         classes = json.load(subject)
         try:    
             return classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number']}"]
