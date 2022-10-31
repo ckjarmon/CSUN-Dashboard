@@ -23,14 +23,11 @@ function RatingsForm({rateModal, setRateModal, professorSelected, subject, setPo
     const [postingErrorMessage, setPostingErrorMessage] = useState("")
 
     function courseExists(allClasses){
+        let regExArray = []
         allClasses.map((classItem => {
-            console.log(courseCode.split(/\s(.+)/)[1] === classItem.split(/\s(.+)/)[0])
-            if(courseCode.split(/\s(.+)/)[1] === classItem.split(/\s(.+)/)[0]){
-                return true
-            }
+            regExArray.push(classItem.split(/\s(.+)/)[0])
         }))
-        console.log("here")
-        return false
+        return regExArray.includes(courseCode.split(/\s(.+)/)[1])
     }
 
     function handleCancel(){

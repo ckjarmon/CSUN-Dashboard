@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react'
 import RatingsForm from "./RatingsForm"
 
 
-function ProfessorHeader({professorSelected, subject, setPostedReview, allClassesInSubject}){
+function ProfessorHeader({professorSelected, subject, postedReview, setPostedReview, allClassesInSubject}){
     const [rateModal, setRateModal] = useState(false)
     const [reviews, setReviews] = useState([])
 
@@ -35,7 +35,7 @@ function ProfessorHeader({professorSelected, subject, setPostedReview, allClasse
                 setReviews(reviewArray)
             }
         })
-    }, [subject, professorSelected])
+    }, [subject, professorSelected, postedReview])
 
     useEffect(() => {
         let numReviews = reviews.length
