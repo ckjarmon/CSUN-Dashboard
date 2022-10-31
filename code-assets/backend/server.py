@@ -41,6 +41,12 @@ else:
         print(f"Error connecting to MariaDB Platform: {err}")
 
 
+
+def name_normalize(str):
+    return f"{str[0:1].upper()}{str[1:].lower()}"
+    
+
+
 """
 Abstract that returns any and all {subject} data from json_{data}
 Primarily used for testing
@@ -58,7 +64,7 @@ def get(**kwargs):
 @app.route('/<string:subject>/professors')
 def professors(**kwargs):
     rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
-    return [f"{x[0][0:1].upper()}{x[0][1:].lower()} {x[1][0:1].upper()}{x[1][1:].lower()}" for x in rootCursor.fetchall()]
+    return [f"{name_normalize(x[0])} {name_normalize(x[1])}" for x in rootCursor.fetchall()]
 
 
 """
@@ -88,22 +94,30 @@ Example:
 {
     "John Noga": [
         {
-            "star_rating": 4,
-            "professor_first_name": "jOhn",
-            "professor_last_name": "noGA",
-            "paragraph": "Noga takes forever to grade.",
-            "author_grade": "A",
+            "professor_first_name": "John",
+            "professor_last_name": "Noga",
             "subject": "COMP",
-            "catalog_number": "482"
+            "catalog_number": "Comp 410",
+            "star_rating": 5,
+            "grade": "A",
+            "difficulty": 3,
+            "retake_professor": "Yes",
+            "require_textbooks": "No",
+            "mandatory": "Yes",
+            "review": "Takes long to grade."
         },
         {
-            "star_rating": 4,
-            "professor_first_name": "jOhn",
-            "professor_last_name": "noGA",
-            "paragraph": "Noga takes forever to grade.",
-            "author_grade": "A",
+            "professor_first_name": "John",
+            "professor_last_name": "Noga",
             "subject": "COMP",
-            "catalog_number": "482"
+            "catalog_number": "Comp 210",
+            "star_rating": 1,
+            "grade": "C",
+            "difficulty": 1,
+            "retake _professor": "No",
+            "require_textbooks": "No",
+            "mandatory": "No",
+            "review": "Bad!"
         },
         ...
         ] //End of array
@@ -115,20 +129,11 @@ def new_rating(**kwargs):
     new_rating = request.get_json(force=True)
     print('Post Body:', new_rating)
     try:
-        current_ratings[new_rating["professor_first_name"][0:1].upper() +
-                        new_rating["professor_first_name"][1:].lower() + " " +
-                        new_rating["professor_last_name"][0:1].upper() +
-                        new_rating["professor_last_name"][1:].lower()].append(new_rating)
+        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"].append(new_rating)
     except KeyError:
-        current_ratings[new_rating["professor_first_name"][0:1].upper() +
-                        new_rating["professor_first_name"][1:].lower() + " " +
-                        new_rating["professor_last_name"][0:1].upper() +
-                        new_rating["professor_last_name"][1:].lower()] = []
+        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"]= []
+        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"].append(new_rating)
 
-        current_ratings[new_rating["professor_first_name"][0:1].upper() +
-                        new_rating["professor_first_name"][1:].lower() + " " +
-                        new_rating["professor_last_name"][0:1].upper() +
-                        new_rating["professor_last_name"][1:].lower()].append(new_rating)
 
     json.dump(current_ratings, rating_file, indent=4)
     return current_ratings
