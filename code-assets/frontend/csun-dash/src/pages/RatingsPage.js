@@ -80,6 +80,7 @@ function RatingsPage(){
                         <ProfessorHeader 
                             professorSelected={professorSelected} 
                             subject={subject} 
+                            postedReview={postedReview}
                             setPostedReview={setPostedReview}
                             allClassesInSubject={allClassesInSubject}>
                         </ProfessorHeader> 
