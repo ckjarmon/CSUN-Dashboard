@@ -27,8 +27,8 @@
   },
   "scripts": {
 
-    "start": "cd code-assets/frontend/csun-dash/ && react-scripts start --openssl-legacy-provider start",
-    "build": "cd code-assets/frontend/csun-dash/ && react-scripts build --openssl-legacy-provider build",
+    "start": "cd code-assets/frontend/csun-dash/ && react-scripts start",
+    "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
     "test": "cd code-assets/frontend/csun-dash/ && react-scripts test",
     "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject"
   },
@@ -51,7 +51,7 @@
     ]
   },
   "engines": {
-    "node": "v18.12.0",
+    "node": "v16.x",
     "npm": "8.19.2"
   }
 }
