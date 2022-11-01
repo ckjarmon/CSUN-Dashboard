@@ -6,6 +6,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
+import React from 'react';
 
 function ProfessorRatingsSearch({handleSubjectChange, handleProfessorChange, subject, professorSelected, professors, enableSearch}){
     

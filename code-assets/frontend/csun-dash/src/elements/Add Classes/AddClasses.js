@@ -1,6 +1,7 @@
 import AddClassesDropDown from "./AddClassesDropDown";
 import DisplayCourses from "./DisplayCourses";
 import {useState} from 'react'
+import React from 'react';
 
 
 function AddClasses({addedClassHandler, addIcon}){

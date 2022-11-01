@@ -4,6 +4,7 @@ import {useEffect, useState} from "react"
 import ProfessorHeader from "../elements/Professor Ratings/ProfessorHeader"
 import StudentReviews from "../elements/Professor Ratings/SudentReviews"
 import { Alert } from "@mui/material"
+import React from 'react';
 
 function RatingsPage(){
     const [subject, setSubject] = useState("")

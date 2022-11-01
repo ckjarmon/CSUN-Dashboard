@@ -4,6 +4,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import React from 'react';
 
 function AddClassesDropDown({searchDone}){
     const terms = ["Fall 2022", "Spring 2023", "Fall 2023"]

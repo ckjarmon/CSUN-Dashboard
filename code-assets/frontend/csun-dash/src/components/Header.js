@@ -1,6 +1,7 @@
 import Button from '@mui/material/Button';
 import { textAlign } from '@mui/system';
 import {Link} from 'react-router-dom'
+import React from 'react';
 
 function Header(props){
     return(

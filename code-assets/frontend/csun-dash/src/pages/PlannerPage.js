@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import AddClasses from "../elements/Add Classes/AddClasses";
 import ClassSelections from "../elements/Class Selections/ClassSelections";
 import {useState} from 'react'
+import React from 'react';
 
 function PlannerPage(){
     const [addedClasses, setAddedClasses] = useState([])

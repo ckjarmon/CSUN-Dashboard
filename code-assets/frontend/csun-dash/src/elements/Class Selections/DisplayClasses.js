@@ -14,6 +14,7 @@ import Fade from '@mui/material/Fade';
 import Typography from '@mui/material/Typography';
 import {FiX} from 'react-icons/fi'
 import {BsInfoCircleFill} from 'react-icons/bs'
+import React from 'react';
 
 
 function DisplayClasses({classesAdded, removeClassHandler}){

@@ -1,4 +1,5 @@
 import DisplayClasses from "./DisplayClasses";
+import React from 'react';
 
 
 function ClassSelections({classesAdded, removeClassHandler}){
