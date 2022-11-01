@@ -26,9 +26,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-
-    "start": "cd code-assets/frontend/csun-dash/ && serve -s build",
-    "dev": "cd code-assets/frontend/csun-dash/ && react-scripts start",
+    "start": "cd code-assets/frontend/csun-dash/ && react-scripts start",
     "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
     "test": "cd code-assets/frontend/csun-dash/ && react-scripts test",
     "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject"
