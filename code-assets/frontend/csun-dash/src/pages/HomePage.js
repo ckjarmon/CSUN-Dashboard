@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import LandingPageSection from '../components/LandingPageSection';
+import React from 'react';
 
 function HomePage(){
 
