@@ -27,7 +27,8 @@
   },
   "scripts": {
 
-    "start": "cd code-assets/frontend/csun-dash/ && react-scripts start",
+    "start": "cd code-assets/frontend/csun-dash/ && serve -s build",
+    "dev": "cd code-assets/frontend/csun-dash/ && react-scripts start",
     "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
     "test": "cd code-assets/frontend/csun-dash/ && react-scripts test",
     "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject"
@@ -51,7 +52,7 @@
     ]
   },
   "engines": {
-    "node": "16.17.1",
-    "npm": "8.15.0"
+    "node": "v16.17.0",
+    "npm": "8.18.0"
   }
 }
