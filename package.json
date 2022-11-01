@@ -27,7 +27,7 @@
   },
   "scripts": {
     "postinstall": "cd code-assets/frontend/csun-dash/ && npm run build",
-    "start": "cd code-assets/frontend/csun-dash/ && node index.js",
+    "start": "cd code-assets/frontend/csun-dash/ && node server.js",
     "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
     "test": "cd code-assets/frontend/csun-dash/ && react-scripts test",
     "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject",
