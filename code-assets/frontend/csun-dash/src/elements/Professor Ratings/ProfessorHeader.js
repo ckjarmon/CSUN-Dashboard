@@ -1,6 +1,7 @@
 import { Button, Rating, Typography, Box, Modal  } from "@mui/material"
 import {useEffect, useState} from 'react'
 import RatingsForm from "./RatingsForm"
+import React from 'react';
 
 
 function ProfessorHeader({professorSelected, subject, postedReview, setPostedReview, allClassesInSubject}){

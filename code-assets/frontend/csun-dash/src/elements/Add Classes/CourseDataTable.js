@@ -8,6 +8,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import {IoAdd} from 'react-icons/io5'
 import {useState, useEffect} from 'react'
+import React from 'react';
 
 
 function CourseDataTable({classes, course, addedClassHandler, addIcon}){

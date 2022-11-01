@@ -1,5 +1,6 @@
 import { FormControl, InputLabel, Input, TextField, Slider, RadioGroup, Radio, FormControlLabel, Typography, Button, Select, MenuItem, Alert } from "@mui/material"
 import {useState} from 'react'
+import React from 'react';
 
 const gradesPossible = ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-", "F", "Audit/No Grade", "Drop/Withdrawl", "Incomplete", "Not Sure Yet", "Rather Not Say"]
 

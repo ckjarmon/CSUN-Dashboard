@@ -5,7 +5,7 @@ import {MdOutlineExpandMore} from 'react-icons/md';
 import Typography from '@mui/material/Typography';
 import {useEffect} from 'react'
 import CourseDataTable from './CourseDataTable';
-
+import React from 'react';
 
 
 function AllCoursesAccordian({classes, scheduleExistDict, schedule, addedClassHandler, addIcon}){

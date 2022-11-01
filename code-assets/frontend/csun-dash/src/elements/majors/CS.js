@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
 import Box from '@mui/system/Box'
+import React from 'react';
 
 const prog_reqqs = [
     "Program Requirements",
