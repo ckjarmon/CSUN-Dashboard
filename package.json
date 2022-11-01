@@ -26,12 +26,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "cd code-assets/frontend/csun-dash/ && npm run build",
-    "start": "cd code-assets/frontend/csun-dash/ && node server.js",
+
+    "start": "cd code-assets/frontend/csun-dash/ && react-scripts start",
     "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
     "test": "cd code-assets/frontend/csun-dash/ && react-scripts test",
     "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject",
-    "heroku-postbuild": "cd code-assets/frontend/csun-dash/ && npm install && npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,7 +51,7 @@
     ]
   },
   "engines": {
-    "node": "16.17.1",
-    "npm": "8.15.0"
+    "node": "v18.12.0",
+    "npm": "8.19.2"
   }
 }
