@@ -11,7 +11,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-App = express()
-App.use(express.static('code-assets/frontend/csun-dash/build'));
-App.get('*', (req, res) => res.sendFile(path.resolve(__dirname, 'code-assets/frontend/csun-dash', 'build', 'index.html')));
