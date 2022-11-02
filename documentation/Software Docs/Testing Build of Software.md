@@ -8,6 +8,6 @@ npm install -g serve
 3. Run the command
 ```serve --single build```
 
-A window should appear showing you where to go to view the website locally, and on your network
+A window should appear showing you where to go to view the website locally, and on your network <br />
 ![Serve](https://github.com/kyeou/CSUN-Dashboard/tree/main/documentation/images/serve.png "")
 
