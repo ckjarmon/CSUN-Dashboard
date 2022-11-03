@@ -53,7 +53,7 @@ Primarily used for testing
 """
 @app.route('/<string:subject>/<string:data>')
 def get(**kwargs):
-    return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+    return json.load(open(f'../backend/data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
 
 #@app.route('/sql')
@@ -63,6 +63,18 @@ def get(**kwargs):
         
 @app.route('/<string:subject>/professors')
 def professors(**kwargs):
+    rootCursor.execute(f"select email, first_name, last_name, image_link, phone_number, location, website, mail_drop, subject, office from professor where subject = '{kwargs['subject'].upper()}'")
+    return [{"email": x[0], 
+             "first_name": name_normalize(x[1]), 
+             "last_name": name_normalize(x[2]), 
+             "image_link": x[3] if x[3] not in [None, ""] else "N/A", 
+             "phone_number": x[4] if x[4] not in [None, ""] else "N/A", 
+             "location": x[5] if x[5] not in [None, ""] else "N/A", 
+             "website": x[6]  if x[6] not in [None, ""] else "N/A", 
+             "mail_drop": x[7] if x[7] not in [None, ""] else "N/A", 
+             "subject": x[8] if x[8] not in [None, ""] else "N/A", 
+             "office": x[9] if x[9] not in [None, ""] else "N/A"} 
+            for x in rootCursor.fetchall()]
     rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
     return [f"{name_normalize(x[0])} {name_normalize(x[1])}" for x in rootCursor.fetchall()]
 
@@ -124,14 +136,14 @@ Example:
 """
 @app.route('/<string:subject>/rating', methods=['POST'])
 def new_rating(**kwargs):
-    current_ratings = json.load(open(f'./data/json_rating/{kwargs["subject"].upper()}_rating.json'))
-    rating_file = open(f'./data/json_rating/{kwargs["subject"].upper()}_rating.json', "w")
+    current_ratings = json.load(open(f'../backend/data/json_rating/{kwargs["subject"].upper()}_rating.json'))
+    rating_file = open(f'../backend/data/json_rating/{kwargs["subject"].upper()}_rating.json', "w")
     new_rating = request.get_json(force=True)
     print('Post Body:', new_rating)
     try:
         current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"].append(new_rating)
     except KeyError:
-        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"]= []
+        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"] = []
         current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"].append(new_rating)
 
 
@@ -157,7 +169,7 @@ Example: /comp/182/history/5
 """
 @app.route('/<string:subject>/<string:catalog_number>/history/<int:amount>')
 def historical_profs(**kwargs):
-    with open(f"./data/json_historical_profs/{kwargs['subject'].upper()}_history.json") as subject:
+    with open(f"../backend/data/json_historical_profs/{kwargs['subject'].upper()}_history.json") as subject:
         classes = json.load(subject)
         return dict(itertools.islice(classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number'].upper()}"].items(), kwargs["amount"]))
 
@@ -170,7 +182,7 @@ Returns: John Noga
 """
 @app.route('/<string:subject>/prof/name/<string:prof_email>')
 def prof_name(**kwargs):
-    #with open(f"./data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
+    #with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
     #    profs = json.load(profs)
     #    return profs[kwargs['prof_email']]
     rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'")
@@ -252,17 +264,19 @@ Example:
 """
 @app.route('/<string:subject>/classes')
 def catalog(**kwargs):
-    #with open(f"./data/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
+    #with open(f"../backend/data/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
     #    classes = json.load(subject)
     #    return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
     rootCursor.execute(f"select catalog_number, title from csun.{kwargs['subject'].upper()}_view")
+    import os
+    print(os.getcwd())
     return [f"{x[0]} - {x[1]}" for x in rootCursor.fetchall()]
 
 
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
-    with open(f"./data/json_schedule/{kwargs['subject'].upper()}_schedule.json") as subject:
+    with open(f"../backend/data/json_schedule/{kwargs['subject'].upper()}_schedule.json") as subject:
         classes = json.load(subject)
         try:    
             return classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number']}"]
