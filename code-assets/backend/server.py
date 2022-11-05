@@ -148,7 +148,7 @@ def new_rating(**kwargs):
 
 
     json.dump(current_ratings, rating_file, indent=4)
-    return current_ratings
+    return current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"]
 
 
 

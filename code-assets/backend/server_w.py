@@ -34,9 +34,9 @@ def name_normalize(str):
 Abstract that returns any and all {subject} data from json_{data}
 Primarily used for testing
 """
-@app.route('/<string:subject>/<string:data>')
-def get(**kwargs):
-    return json.load(open(f'../backend/data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+# @app.route('/<string:subject>/<string:data>')
+# def get(**kwargs):
+    # return json.load(open(f'../backend/data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
 
 #@app.route('/sql')
@@ -58,8 +58,7 @@ def professors(**kwargs):
              "subject": x[8] if x[8] not in [None, ""] else "N/A", 
              "office": x[9] if x[9] not in [None, ""] else "N/A"} 
             for x in rootCursor.fetchall()]
-    rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
-    return [f"{name_normalize(x[0])} {name_normalize(x[1])}" for x in rootCursor.fetchall()]
+
 
 
 """
@@ -117,21 +116,40 @@ Example:
         ...
         ] //End of array
 """
+import pprint
 @app.route('/<string:subject>/rating', methods=['POST'])
 def new_rating(**kwargs):
-    current_ratings = json.load(open(f'../backend/data/json_rating/{kwargs["subject"].upper()}_rating.json'))
-    rating_file = open(f'../backend/data/json_rating/{kwargs["subject"].upper()}_rating.json', "w")
-    new_rating = request.get_json(force=True)
-    print('Post Body:', new_rating)
-    try:
-        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"].append(new_rating)
-    except KeyError:
-        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"] = []
-        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"].append(new_rating)
+    new_rating = request.get_json(force=True) 
+    pprint.pprint('Post Body:', new_rating)
+ 
+    tup = (name_normalize(new_rating["professor_first_name"]),
+           name_normalize(new_rating["professor_last_name"]),
+           new_rating["subject"],
+           new_rating["catalog_number"],
+           new_rating["star_rating"],
+           new_rating["grade"],
+           new_rating["difficulty"],
+           new_rating["retake_professor"],
+           new_rating["require_textbooks"],
+           new_rating["mandatory"],
+           new_rating["review"])
+    print(tup.__str__())
+    rootCursor.execute(f"insert into rating(professor_first_name,professor_last_name,subject,catalog_number,star_rating,grade,difficulty,retake_professor,require_textbooks,mandatory,review) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)", tup)
+    rootConnection.commit()
+    
+    rootCursor.execute(f"select professor_first_name,professor_last_name,subject,catalog_number,star_rating,grade,difficulty,retake_professor,require_textbooks,mandatory,review from rating where professor_first_name = '{name_normalize(new_rating['professor_first_name'])}' and professor_last_name = '{name_normalize(new_rating['professor_last_name'])}' ")
+    return [{"professor_first_name": c[0],
+             "professor_last_name": c[1],
+             "subject": c[2],
+             "catalog_number": c[3],
+             "star_rating": c[4],
+             "grade": c[5],
+             "difficulty": c[6],
+             "retake_professor": c[7],
+             "require_textbooks": c[8],
+             "mandatory": c[9],
+             "review": c[10]} for c in rootCursor.fetchall()]
 
-
-    json.dump(current_ratings, rating_file, indent=4)
-    return current_ratings
 
 """
 Returns a dictionary of the {int:amount} professors who have taught the Subject Catalog_Number the most in past Fall-Spring iterations.
@@ -259,15 +277,12 @@ def catalog(**kwargs):
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
-    with open(f"../backend/data/json_schedule/{kwargs['subject'].upper()}_schedule.json") as subject:
-        classes = json.load(subject)
-        try:    
-            return classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number']}"]
-        except KeyError:
-            ret = []
-            for key in classes.keys():
-                ret += classes[key]
-            return ret
+    try:
+        rootCursor.execute(f"select class_number, enrollment_cap, enrollment_count, instructor, days, location, start_time, end_time, catalog_number, subject from section where subject = '{kwargs['subject'].upper()}' and catalog_number = '{kwargs['catalog_number']}'")
+        return [{"class_number": c[0], "enrollment_cap": c[1], "enrollment_count": c[2], "instructor": c[3], "days": c[4], "location": c[5], "start_time": c[6], "end_time": c[7], "catalog_number": c[8], "subject": c[9]} for c in rootCursor.fetchall()]  
+    except KeyError:
+        rootCursor.execute(f"select class_number, enrollment_cap, enrollment_count, instructor, days, location, start_time, end_time, catalog_number, subject from section where subject = '{kwargs['subject'].upper()}'")
+        return [{"class_number": c[0], "enrollment_cap": c[1], "enrollment_count": c[2], "instructor": c[3], "days": c[4], "location": c[5], "start_time": c[6], "end_time": c[7], "catalog_number": c[8], "subject": c[9]} for c in rootCursor.fetchall()]
             
 
 @app.route('/planner', methods=['POST'])

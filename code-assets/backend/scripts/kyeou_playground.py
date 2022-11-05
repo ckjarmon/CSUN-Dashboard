@@ -1,5 +1,5 @@
 import json
-
+import mysql
 
 
 
@@ -13,7 +13,7 @@ class_codes = ["AE","AM","AAS","ACCT","AFRS","AIS","ANTH","ARAB","ARMN","ART","A
 def one():
     for code in class_codes:
         print(f"Settings prereqs and coreqs for {code}")
-        with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+        with open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json") as catalog_file:
             try:
                 classes = json.load(catalog_file)
                 for _class in classes:
@@ -47,7 +47,7 @@ def one():
                     else:
                         print(f"{_class['subject']} {_class['catalog_number']} removed")
                         classes.remove(_class)
-                catalog_file = open(f"../backend/json_catalog/{code}_catalog.json", "w")
+                catalog_file = open(f"../backend/data/json_catalog/{code}_catalog.json", "w")
                 json.dump(classes, catalog_file, indent=4)
             except json.JSONDecodeError as jce:
                 with open('ERROR_LOG.txt', 'a') as f:
@@ -71,7 +71,7 @@ import re
 def two():
     class_codes = ["COMP"]
     for code in class_codes:
-        with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+        with open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json") as catalog_file:
             try:
                 classes = json.load(catalog_file)
                 for _class in classes:
@@ -157,7 +157,7 @@ def two():
 
 def three():
     for code in class_codes:
-        with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+        with open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json") as catalog_file:
             classes = json.load(catalog_file)
             for _class in classes:
                 try:
@@ -188,7 +188,7 @@ def four():
 
 
     for code in class_codes:
-        with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as curr_sub:
+        with open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json") as curr_sub:
             try:
                 classes = json.load(curr_sub)
                 for course in classes:
@@ -202,7 +202,7 @@ def four():
                         course["description"] = driver.find_element("id", "inset-content").find_element(By.CLASS_NAME, "section-content").text
                     except NoSuchElementException as e:
                         continue
-                new_desc_file = open(f"../../code-assets/backend/json_catalog/{code}_catalog.json", "w")
+                new_desc_file = open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json", "w")
                 json.dump(classes, new_desc_file, indent=4)
                 new_desc_file.close() 
             except json.JSONDecodeError as jce:
@@ -242,7 +242,7 @@ def parse(prereq):
 def five():
     class_codes = ["COMP"]
     for code in class_codes:
-        with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+        with open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json") as catalog_file:
             classes = json.load(catalog_file)
             for _class in classes:
                 if (_class['prerequisites'] != "{None}"):
@@ -415,19 +415,19 @@ from collections import OrderedDict
 def seven():
     for name in major_names:
         print(name)
-        with open(f"../../code-assets/backend/json_majors/{name}.json") as major_file:
+        with open(f"../../code-assets/backend/data/json_majors/{name}.json") as major_file:
                 major = json.load(major_file)
                 #major["course-sets"] = major["prog-reqq-blob"]
                 major["course-sets"] = {}
                 major["course-sets"]["required"] = major["prog-reqq-blob"]
                 major = OrderedDict(sorted(major.items()))
-                json.dump(major, open(f"../../code-assets/backend/json_majors/{name}.json", "w"), indent=4) 
+                json.dump(major, open(f"../../code-assets/backend/data/json_majors/{name}.json", "w"), indent=4) 
 
 import re
 def eight():
     for name in major_names:
         print(f"\n-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_ => {name}")
-        with open(f"../../code-assets/backend/json_majors/{name}.json") as major_file:
+        with open(f"../../code-assets/backend/data/json_majors/{name}.json") as major_file:
                 major_file = json.load(major_file)
                 #major["course-sets"] = major["prog-reqq-blob"]
                 #major["course-sets"] = {}
@@ -460,7 +460,7 @@ def eight():
                                 #print("|||___________||| => string")
                                 continue
                                                         
-                json.dump(major_file, open(f"../../code-assets/backend/json_majors/{name}.json", "w"), indent=4)
+                json.dump(major_file, open(f"../../code-assets/backend/data/json_majors/{name}.json", "w"), indent=4)
                 
 randomarray = [
                 "CADV 327 Infancy and Early Childhood (3)",
@@ -666,7 +666,7 @@ def ten():
     opers = []
     for name in major_names:
         #print(f"\n-_-_=> {name}")
-        with open(f"../../code-assets/backend/json_majors/{name}.json") as major_file:
+        with open(f"../../code-assets/backend/data/json_majors/{name}.json") as major_file:
             major_course_set = json.load(major_file)["course-sets"]["required"]
             mark_core_count(major_course_set, 1)
     final_dict = dict(sorted(final_dict.items(), key= lambda x:x[1], reverse=True))
@@ -682,7 +682,7 @@ class_codes = ["AE","AM","AAS","ACCT","AFRS","AIS","ANTH","ARAB","ARMN","ART","A
 def eleven():
     for code in class_codes:
         course_links = []
-        with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+        with open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json") as catalog_file:
             for course in json.load(catalog_file):
                 course_links.append(f"https://catalog.csun.edu/academics/{code.lower()}/courses/{code.lower()}-{course['catalog_number']}/")
     print(*course_links, sep='\n')
@@ -1063,7 +1063,7 @@ https://catalog.csun.edu/academics/urbs/courses/urbs-412/
         print(code.upper())
         titles[code.upper()] = {}
         try:    
-            with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+            with open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json") as catalog_file:
                 for course in json.load(catalog_file):
                     try:
                         #print("------------------------------------------")
@@ -1100,7 +1100,7 @@ def t13():
     for code in class_codes:
         classes = []
         try:
-            with open(f"../../code-assets/backend/json_schedule_dead/{code}_schedule.json") as schedule_file:
+            with open(f"../../code-assets/backend/data/json_schedule_dead/{code}_schedule.json") as schedule_file:
                 all_classes = {}
                 for course in json.load(schedule_file)["classes"]:
                     try:
@@ -1118,7 +1118,7 @@ def t13():
                             "instructor": course["instructors"][0]["instructor"],
                         } | course["meetings"][0]]
 
-                json.dump(all_classes, open(f"../../code-assets/backend/json_schedule/{code}_schedule.json", "w"), indent=4)
+                json.dump(all_classes, open(f"../../code-assets/backend/data/json_schedule/{code}_schedule.json", "w"), indent=4)
                 #print(*all_classes, sep="\n")
         except FileNotFoundError:
             continue
@@ -1129,13 +1129,13 @@ def t14():
         titles = json.load(titles)
         for key in titles.keys():
             try:    
-                with open(f"../../code-assets/backend/json_catalog/{key}_catalog.json") as curr_catalog:
+                with open(f"../../code-assets/backend/data/json_catalog/{key}_catalog.json") as curr_catalog:
                     curr_catalog = json.load(curr_catalog)
                     for course in titles[key].keys():
                         for cinc in curr_catalog:
                             if cinc["catalog_number"] == course.split()[1]:
                                 cinc["title"] = titles[key][course]
-                    json.dump(curr_catalog, open(f"../../code-assets/backend/json_catalog/{key}_catalog.json", "w"), indent=4)
+                    json.dump(curr_catalog, open(f"../../code-assets/backend/data/json_catalog/{key}_catalog.json", "w"), indent=4)
             except FileNotFoundError:
                 continue                
 
@@ -1143,7 +1143,7 @@ def t15():
     max = 0
     for code in class_codes:
         try:
-            with open(f"../../code-assets/backend/json_catalog/{code}_catalog.json") as catalog_file:
+            with open(f"../../code-assets/backend/data/json_catalog/{code}_catalog.json") as catalog_file:
                 for course in json.load(catalog_file):
                     try:
                         if len(course["title"]) > max:
@@ -1161,7 +1161,7 @@ def t15():
 def t16():
     for code in class_codes:
         try:    
-            with open(f"../../code-assets/backend/json_schedule/{code}_schedule.json") as catalog_file:
+            with open(f"../../code-assets/backend/data/json_schedule/{code}_schedule.json") as catalog_file:
                 catalog_file = json.load(catalog_file)
 
                 for key in catalog_file.keys():
@@ -1170,13 +1170,59 @@ def t16():
                         curr_key.append(course | {"subject": key.split(" ")[0]})
                     catalog_file[key] = curr_key
 
-                json.dump(catalog_file,open(f"../../code-assets/backend/json_schedule/{code}_schedule.json", "w"), indent=4)
+                json.dump(catalog_file,open(f"../../code-assets/backend/data/json_schedule/{code}_schedule.json", "w"), indent=4)
         except FileNotFoundError:
             continue
+        
 
+import mysql.connector
+from mysql.connector import errorcode
+def t17():
+    try:
+        rootConnection = mysql.connector.connect(
+            user="py_serv",
+            password=json.load(open("secret.json", "r"))["db_pass"],
+            host='127.0.0.1',
+            database='csun')
+        rootCursor = rootConnection.cursor()
+    except mysql.connector.Error as err:
+        if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
+            print('Invalid credentials')
+        elif err.errno == errorcode.ER_BAD_DB_ERROR:
+            print('Database not found')
+        else:
+            print('Cannot connect to database:', err)
+    else:    
+        for code in class_codes:
+            print(code)
+            try:
+                with open(f"../data/json_schedule/{code}_schedule.json") as schedule_file:
+                    schedule = json.load(schedule_file)
+                    for key in schedule.keys():
+                        for c in schedule[key]:
+                            tup = (c["class_number"],
+                                   c["enrollment_cap"],
+                                   c["enrollment_count"],
+                                   c["instructor"],
+                                   c["days"],
+                                   c["location"],
+                                   c["start_time"],
+                                   c["end_time"],
+                                   c["catalog_number"],
+                                   c["subject"])
+                            print(tup.__str__())
+                            rootCursor.execute('insert into section values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)', tup)
+            except FileNotFoundError as f:
+                print(f)
+                continue
+                
+    rootConnection.commit()
+    rootCursor.close()
+    rootConnection.close()
+           
 
 if __name__ == "__main__":
-    t16()
+    t17()
     
     
         
