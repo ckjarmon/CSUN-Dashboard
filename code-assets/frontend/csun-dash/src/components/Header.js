@@ -10,6 +10,7 @@ function Header(props){
                     <li style={link}><Link style={link} to="/">Home</Link></li>
                     <li style={link}><Link style={link} to="/planner">Planner</Link></li>
                     <li style={link}><Link style={link} to="/ratings">Ratings</Link></li>
+                    <li style={link}><Link style={link} to="/professor-search">Faculty Members</Link></li>
                     <li style={link}>Class search</li>
                     <li style={link}><Link style={link} to="/signIn">Sign in</Link></li>
                 </ul>
