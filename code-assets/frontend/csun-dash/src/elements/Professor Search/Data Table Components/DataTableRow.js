@@ -56,7 +56,7 @@ function DataTableRow({professor}){
                                     <Typography><span style={detailsStyle}>Mail Drop: </span>{row.mail_drop}</Typography>
                                     <Typography><span style={detailsStyle}>Office: </span>{row.office}</Typography>
                                     <Button style={ratingsButton} onClick={handleRatingsPage}>
-                                        <Link style={ratingsLinkStyle} target="_blank" to={`/ratings-two/${row.subject}/${row.first_name}/${row.last_name}`}>Professor Ratings</Link>
+                                        <Link style={ratingsLinkStyle} target="_blank" to={`/ratings/${row.subject}/${row.first_name}/${row.last_name}`}>Professor Ratings</Link>
                                     </Button>
                                 </Box>
                             </div>                            

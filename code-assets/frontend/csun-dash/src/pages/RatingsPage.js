@@ -1,34 +1,31 @@
+import {useParams} from "react-router-dom";
+import {useState, useEffect} from 'react'
 import Header from "../components/Header"
-import ProfessorRatingsSearch from "../elements/Professor Ratings/ProfessorRatingsSearch"
-import {useEffect, useState} from "react"
-import ProfessorHeader from "../elements/Professor Ratings/ProfessorHeader"
-import StudentReviews from "../elements/Professor Ratings/SudentReviews"
-import { Alert } from "@mui/material"
+import ProfessorRatingsHeader from "../elements/Professor Search/ProfessorRatingsHeader";
+import StudentRatings from "../elements/Professor Search/StudentRatings";
+import { Alert  } from "@mui/material"
 
 function RatingsPage(){
-    const [subject, setSubject] = useState("")
-    const [professorSelected, setProfessorSelected] = useState("")
-    const [professors, setProfessors] = useState([])
+    const {subject, first_name, last_name} = useParams()
     const [allClassesInSubject, setAllClassesInSubject] = useState([])
-
+    const [ratings, setRatings] = useState([])
     const [postedReview, setPostedReview] = useState(false)
 
-    // const [classesTaught, setClassesTaught] = useState([])
-    // const [ratings, setRatings] = useState([])
-    
-    const [enableSearch, setEnableSearch] = useState(false)
 
-    function handleSubjectChange(event){
-        setSubject(event.target.value)
-        setEnableSearch(true)
-
-        fetch(`http://127.0.0.1:5000/${event.target.value}/profname`)
+    function fetchRatingsAndClasses(){
+        fetch(`http://127.0.0.1:5000/${subject}/rating/${first_name}/${last_name}`)
         .then(response => response.json())
-        .then(professorItems => {
-            setProfessors(Object.values(professorItems))
+        .then(ratings => {
+            let ratingsArray = []
+
+            ratings.map((rating) => {
+                ratingsArray.push(rating)
+            })
+            
+            setRatings(ratingsArray)
         })
 
-        fetch(`http://127.0.0.1:5000/${event.target.value}/classes`)
+        fetch(`http://127.0.0.1:5000/${subject}/classes`)
         .then(response => response.json())
         .then(classes => {
             let classesArray = []
@@ -39,55 +36,46 @@ function RatingsPage(){
 
             setAllClassesInSubject(classesArray)
         })
-
-
     }
 
-    function handleProfessorChange(event){
-        setProfessorSelected(event.target.value)
-    }
 
-    // useEffect(() => {
-    //     fetch(`http://127.0.0.1:5000/${professorSelected}/rating`)
-    //     .then(response => response.json())
-    //     .then(professorHistory => {
-            
-    //     })
+    useEffect(() => {
+        fetchRatingsAndClasses()
+    }, [])
 
-    // }, [professorSelected])
+    useEffect(() => {
+        fetchRatingsAndClasses()
+    }, [postedReview])
+
+    
 
     return(
         <div style={{minHeight: "100vh", backgroundColor:"#1C1C1C"}}>
+            <Header></Header>
+            {
+                postedReview == true ?
+                    <Alert style={{float:"right"}} variant="filled" severity="success">
+                        Successfully Posted Review!
+                    </Alert> : <div></div>
+            }
+
             <div>
-                <Header></Header>
-                <ProfessorRatingsSearch 
-                    handleSubjectChange={handleSubjectChange}
-                    handleProfessorChange={handleProfessorChange}
+                <ProfessorRatingsHeader 
+                    ratings={ratings}
+                    professorName={`${first_name} ${last_name}`} 
+                    postedReview={postedReview}
+                    setPostedReview={setPostedReview}
                     subject={subject}
-                    professorSelected={professorSelected}
-                    professors={professors}
-                    enableSearch={enableSearch}
-                    >
-                </ProfessorRatingsSearch>
-                {
-                    postedReview == true ?
-                        <Alert style={{float:"right"}} variant="filled" severity="success">
-                            Successfully Posted Review!
-                        </Alert> : <div></div>
-                }
-                {professorSelected.length > 0 ? 
-                    <div>
-                        <ProfessorHeader 
-                            professorSelected={professorSelected} 
-                            subject={subject} 
-                            postedReview={postedReview}
-                            setPostedReview={setPostedReview}
-                            allClassesInSubject={allClassesInSubject}>
-                        </ProfessorHeader> 
-                        <StudentReviews subject={subject} professorSelected={professorSelected} postedReview={postedReview}></StudentReviews>
-                    </div> : <div></div>
-                }
+                    allClassesInSubject={allClassesInSubject}>
+                </ProfessorRatingsHeader> 
+                <StudentRatings 
+                    subject={subject} 
+                    first_name={first_name}
+                    last_name={last_name} 
+                    postedReview={postedReview}>
+                </StudentRatings>
             </div>
+
         </div>
     )
 }
