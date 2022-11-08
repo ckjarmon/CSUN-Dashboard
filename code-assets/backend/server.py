@@ -13,32 +13,17 @@ app = Flask(__name__)
 CORS(app)
 
 
-if sys.platform.startswith("win32"):
-    try:
-        rootConnection = mysql.connector.connect(
-            user="root",
-            password="dapassword",
-            host='127.0.0.1',
-            database='csun')
-        rootCursor = rootConnection.cursor()
-    except mysql.connector.Error as err:
-        if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
-            print('Invalid credentials')
-        elif err.errno == errorcode.ER_BAD_DB_ERROR:
-            print('Database not found')
-        else:
-            print('Cannot connect to database:', err)
-else:
-    try:
-        rootConnection = mariadb.connect(
-            user="root",
-            password="dapassword",
-            host='127.0.0.1',
-            port=3306,
-            database='csun')
-        rootCursor = rootConnection.cursor()
-    except mariadb.Error as err:
-        print(f"Error connecting to MariaDB Platform: {err}")
+
+try:
+    rootConnection = mariadb.connect(
+        user="root",
+        password="dapassword",
+        host='127.0.0.1',
+        port=3306,
+        database='csun')
+    rootCursor = rootConnection.cursor()
+except mariadb.Error as err:
+    print(f"Error connecting to MariaDB Platform: {err}")
 
 
 
@@ -143,14 +128,15 @@ def new_rating(**kwargs):
     try:
         current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"].append(new_rating)
     except KeyError:
-        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"] = []
-        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"].append(new_rating)
+        current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"] = [new_rating]
 
 
     json.dump(current_ratings, rating_file, indent=4)
     return current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"]
 
-
+@app.route('/<string:subject>/test', methods=['POST'])
+def psot_test(**kwargs):
+    return kwargs
 
 
 @app.route('/<string:subject>/rating/<string:first_name>/<string:last_name>')
