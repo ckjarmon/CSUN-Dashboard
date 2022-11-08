@@ -1,6 +1,5 @@
 import {useState} from 'react'
-// import Link from '@mui/material/Link';
-import {Link} from 'react-router-dom'
+import Link from '@mui/material/Link';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -21,10 +20,6 @@ function DataTableRow({professor}){
     const row = professor;
     const [openRow, setOpenRow] = useState(false)
     console.log(row)
-
-    function handleRatingsPage(){
-
-    }
 
     return(
         <>
@@ -51,13 +46,11 @@ function DataTableRow({professor}){
                             <div style={{display:"flex", margin: "10px", gap:"40px"}}>
                                 <img style={imageStyle} src={row.image_link}/>
                                 <Box>
-                                    <Typography><span style={detailsStyle}>Website: </span><Link target="_blank" to={row.website}>{row.website}</Link></Typography>
+                                    <Typography><span style={detailsStyle}>Website: </span><Link href={row.website}>{row.website}</Link></Typography>
                                     <Typography><span style={detailsStyle}>Phone Number: </span>{row.phone_number}</Typography>
                                     <Typography><span style={detailsStyle}>Mail Drop: </span>{row.mail_drop}</Typography>
                                     <Typography><span style={detailsStyle}>Office: </span>{row.office}</Typography>
-                                    <Button style={ratingsButton} onClick={handleRatingsPage}>
-                                        <Link style={ratingsLinkStyle} target="_blank" to={`/ratings/${row.subject}/${row.first_name}/${row.last_name}`}>Professor Ratings</Link>
-                                    </Button>
+                                    <Button style={ratingsButton}>Professor Ratings</Button>
                                 </Box>
                             </div>                            
                         </Box>
@@ -89,11 +82,4 @@ const ratingsButton = {
     marginTop:"8px",
     backgroundColor: "#E31C25",
     color:"white"
-}
-
-const ratingsLinkStyle = {
-    backgroundColor: "#E31C25",
-    color:"white",
-    textDecoration: "none",
-    fontWeight:"bold"
 }
