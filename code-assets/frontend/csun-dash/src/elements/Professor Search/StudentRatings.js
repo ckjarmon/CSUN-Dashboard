@@ -9,22 +9,22 @@ import React from 'react';
 
 
 
-function StudentReviews({subject, professorSelected, postedReview}){
+function StudentRatings({subject, first_name, last_name, postedReview}){
     const [reviews, setReviews] = useState([])
     const [courses, setCourses] = useState([])
  
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/${subject}/rating`)
+        fetch(`http://127.0.0.1:5000/${subject}/rating/${first_name}/${last_name}`)
         .then(response => response.json())
         .then(reviews => {
-            if(!(professorSelected in reviews)){
+            if(!reviews.length){
                 setReviews([])
                 setCourses([])
             }else{
                 let reviewArray = []
                 let classArray = []
                 
-                reviews[professorSelected].map((review) => {
+                reviews.map((review) => {
                     reviewArray.push(review)
                     classArray.push(review.catalog_number)
                 })
@@ -40,7 +40,7 @@ function StudentReviews({subject, professorSelected, postedReview}){
                 setCourses(uniqueClassArray)
             }
         })
-    }, [subject, professorSelected, postedReview])
+    }, [subject, first_name, postedReview])
 
     return(
         <div>
@@ -82,7 +82,7 @@ function StudentReviews({subject, professorSelected, postedReview}){
                             </CardContent>
                         </Card>
                     </div>
-                )) : <h1 style={noReviewsTextStyle}>Be the first review for professor {professorSelected}</h1>
+                )) : <h1 style={noReviewsTextStyle}>Be the first review for professor {`${first_name} ${last_name}`}</h1>
             }
             
 
@@ -90,7 +90,7 @@ function StudentReviews({subject, professorSelected, postedReview}){
     )
 }
 
-export default StudentReviews
+export default StudentRatings
 
 
 const headerStyle = {

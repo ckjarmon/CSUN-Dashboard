@@ -1,10 +1,10 @@
-import { FormControl, InputLabel, Input, TextField, Slider, RadioGroup, Radio, FormControlLabel, Typography, Button, Select, MenuItem, Alert } from "@mui/material"
+import { TextField, Slider, RadioGroup, Radio, FormControlLabel, Typography, Button, Select, MenuItem, Alert } from "@mui/material"
 import {useState} from 'react'
 import React from 'react';
 
 const gradesPossible = ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-", "F", "Audit/No Grade", "Drop/Withdrawl", "Incomplete", "Not Sure Yet", "Rather Not Say"]
 
-function RatingsForm({rateModal, setRateModal, professorSelected, subject, setPostedReview, allClassesInSubject}){
+function RatingsForm({rateModal, setRateModal, professorName, subject, setPostedReview, allClassesInSubject}){
     const [courseCode, setCourseCode] = useState("")
     const [rating, setRating] = useState(3)
     const [difficulty, setDifficulty] = useState(3)
@@ -13,13 +13,9 @@ function RatingsForm({rateModal, setRateModal, professorSelected, subject, setPo
     const [requireTextbooks, setRequireTextbooks] = useState(null)
     const [mandatory, setMandatory] = useState(null)
     const [reviewText, setReviewText] = useState("")
-    const [cancelForm, setCancelForm] = useState(null)
 
     const [allRequiredFields, setAllRequiredFields] = useState(null)
     const [doesCourseExist, setDoesCourseExist] = useState(null)
-
-    const [postBody, setPostBody] = useState({})
-    const [postedSuccessfully, setPostedSuccessfully] = useState(false)
 
     const [postingErrorMessage, setPostingErrorMessage] = useState("")
 
@@ -36,30 +32,25 @@ function RatingsForm({rateModal, setRateModal, professorSelected, subject, setPo
     }
 
     function handleSubmit(){
-        // console.log(courseCode.length)
-        // console.log(reviewText.length)
-        // console.log(courseExists(allClassesInSubject))
         if(courseCode.length > 0 && reviewText.length > 0 && courseExists(allClassesInSubject)){
             setRateModal(!rateModal)
 
             //Post Request Here
             let body = {
-                "professor_first_name": professorSelected.split(/\s(.+)/)[0],
-                "professor_last_name": professorSelected.split(/\s(.+)/)[1],
+                "professor_first_name": professorName.split(/\s(.+)/)[0],
+                "professor_last_name": professorName.split(/\s(.+)/)[1],
                 "subject": subject,
                 "catalog_number": courseCode,
                 "star_rating": rating,
                 "grade": grade,
                 "difficulty": difficulty,
-                "retake _professor": retakeProfessor,
+                "retake_professor": retakeProfessor,
                 "require_textbooks": requireTextbooks,
                 "mandatory": mandatory,
                 "review": reviewText
             }
 
             console.log(body)
-            setPostBody(body)
-
             fetch(`http://127.0.0.1:5000/${subject}/rating`, {
                 method: 'POST',
                 headers: {

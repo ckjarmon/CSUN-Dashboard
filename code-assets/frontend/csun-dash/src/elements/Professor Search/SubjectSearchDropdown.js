@@ -8,17 +8,10 @@ import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 import React from 'react';
 
-function ProfessorRatingsSearch({handleSubjectChange, handleProfessorChange, subject, professorSelected, professors, enableSearch}){
-    
-
-    
-
-    
-
+function SubjectSearchDropdown({handleSubjectChange, subject}){
     return(
-        <div>
-            <div style={searchStyle}>
-                <FormControl error style={formStyle}>
+        <div style={searchContainer}>
+            <FormControl error style={dropdownStyle}>
                     <InputLabel style={{color:"white"}}>Select Subject</InputLabel>
                     <Select
                     style={{color:"white"}}
@@ -36,43 +29,21 @@ function ProfessorRatingsSearch({handleSubjectChange, handleProfessorChange, sub
                         ))}
                     </Select>
                 </FormControl>
-
-                {enableSearch ? 
-                    <FormControl error style={formStyle}>
-                        <InputLabel style={{color:"white"}}>Professors</InputLabel>
-                        <Select
-                        style={{color:"white"}}
-                        value={professorSelected}
-                        label="Subject"
-                        onChange={handleProfessorChange}
-                        MenuProps={{
-                            style: {
-                            maxHeight: 250,
-                                },
-                            }}
-                        >
-                            {professors.map(professorItem =>(
-                                <MenuItem key={professorItem} value={professorItem}>{professorItem}</MenuItem>
-                            ))}
-                        </Select>
-                    </FormControl> : <div></div>
-                }
-
-            </div>
         </div>
     )
 }
 
-export default ProfessorRatingsSearch
 
-const searchStyle = {
+export default SubjectSearchDropdown
+
+const searchContainer = {
     display: 'flex',
     justifyContent: "center",
     margin: "15px",
     color: "white"
 }
 
-const formStyle = {
+const dropdownStyle = {
     width: "150px",
     color: "white",
     margin: "15px",

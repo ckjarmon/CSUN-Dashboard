@@ -1,42 +1,24 @@
+import {useState, useEffect} from 'react'
 import { Button, Rating, Typography, Box, Modal  } from "@mui/material"
-import {useEffect, useState} from 'react'
-import RatingsForm from "./RatingsForm"
+import RatingsForm from './RatingsForm'
 import React from 'react';
 
+function ProfessorRatingsHeader({ratings, professorName, postedReview, setPostedReview, subject, allClassesInSubject}){
 
-function ProfessorHeader({professorSelected, subject, postedReview, setPostedReview, allClassesInSubject}){
     const [rateModal, setRateModal] = useState(false)
-    const [reviews, setReviews] = useState([])
 
+    const [reviews, setReviews] = useState([])
+    const [selectedSubject, setSelectedSubject] = useState("")
     const [overallRating, setOverallRating] = useState(0.0)
     const [overallDifficulty, setOverallDifficulty] = useState(0.0)
-    const [overallRetake, setOverallRetake] = useState("")
+    const [overallRetake, setOverallRetake] = useState("N/A")
     const [ratingsOutlook, setRatingsOutlook] = useState({"5": 0, "4": 0, "3": 0, "2": 0, "1": 0,})
 
-
     useEffect(() => {
-        console.log("here")
-        fetch(`http://127.0.0.1:5000/${subject}/rating`)
-        .then(response => response.json())
-        .then(reviews => {
-            console.log(reviews)
-            if(!(professorSelected in reviews)){
-                setReviews([])
-                setOverallRating(0.0)
-                setOverallDifficulty(0.0)
-                setOverallRetake("N/A")
-                setRatingsOutlook({"5": 0, "4": 0, "3": 0, "2": 0, "1": 0,})
-            }else{
-                let reviewArray = []
-            
-                reviews[professorSelected].map((review) => {
-                    reviewArray.push(review)
-                })
+        setReviews(ratings)
+        setSelectedSubject(subject)
+    }, [ratings, subject])
 
-                setReviews(reviewArray)
-            }
-        })
-    }, [subject, professorSelected, postedReview])
 
     useEffect(() => {
         let numReviews = reviews.length
@@ -44,19 +26,19 @@ function ProfessorHeader({professorSelected, subject, postedReview, setPostedRev
         let difficultyAdded = 0
         let retakeAgain = 0
 
-        if(numReviews > 0){
-            let ratingsOutlook = {
-                "5": 0,
-                "4": 0,
-                "3": 0,
-                "2": 0,
-                "1": 0,
-            }
-    
+        let ratingsOutlook = {
+            "5": 0,
+            "4": 0,
+            "3": 0,
+            "2": 0,
+            "1": 0,
+        }
+
+        if(numReviews > 0){            
             reviews.map((review) => {
                 ratingsAdded += review.star_rating
                 difficultyAdded += review.difficulty
-                
+
                 if(review.retake_professor == "Yes"){
                     retakeAgain += 1
                 }
@@ -75,20 +57,19 @@ function ProfessorHeader({professorSelected, subject, postedReview, setPostedRev
                         ratingsOutlook["2"] += 1
                         break
                     case 1:
-                        ratingsOutlook["3"] += 1
+                        ratingsOutlook["1"] += 1
                         break
                 }
             })
-    
+        }
             ratingsAdded = ratingsAdded / numReviews
             difficultyAdded = difficultyAdded / numReviews
             retakeAgain = (retakeAgain / numReviews) * 100
-
+        
             setOverallRating(ratingsAdded.toFixed(2))
             setOverallDifficulty(difficultyAdded.toFixed(2))
             setOverallRetake(retakeAgain.toFixed(2))
             setRatingsOutlook(ratingsOutlook)
-        }
 
     }, [reviews])
 
@@ -101,7 +82,7 @@ function ProfessorHeader({professorSelected, subject, postedReview, setPostedRev
             <div style={headerContainerStyle}>
                 <h1 style={ratingStyle}>{overallRating}/5</h1>
                 <h3 style={totalRatingstyle}>Overall Quality Based on {reviews.length} ratings</h3>
-                <h1 style={professorNameStyle}>{professorSelected}</h1>
+                <h1 style={professorNameStyle}>{professorName}</h1>
                 <div style={professorStatsStyle}>
                     <div style={wouldTakeAgainStyle}>
                         <h2>{overallRetake}%</h2>
@@ -112,7 +93,7 @@ function ProfessorHeader({professorSelected, subject, postedReview, setPostedRev
                         <h4>Level of Difficulty</h4>
                     </div>
                 </div>
-                <Button style={rateButtonStyle} onClick={handleRateModal}>Rate Professor {professorSelected.split(/\s(.+)/)[1]}</Button>
+                <Button style={rateButtonStyle} onClick={handleRateModal}>Rate Professor {professorName.split(/\s(.+)/)[1]}</Button>
             </div>
 
             <div style={starsContainerStyle}>
@@ -145,13 +126,13 @@ function ProfessorHeader({professorSelected, subject, postedReview, setPostedRev
                 >
                     <Box sx={modalStyle}>
                         <Typography variant="h4" component="h2" style={{textAlign:"center"}}>
-                            Post New Rating for <span style={{fontWeight:"bold"}}>{professorSelected}</span>
+                            Post New Rating for <span style={{fontWeight:"bold"}}>{professorName}</span>
                         </Typography>
                         <RatingsForm 
                             rateModal={rateModal} 
                             setRateModal={setRateModal} 
-                            professorSelected={professorSelected} 
-                            subject={subject}
+                            professorName={professorName} 
+                            subject={selectedSubject}
                             setPostedReview={setPostedReview}
                             allClassesInSubject={allClassesInSubject}>
                         </RatingsForm>
@@ -163,7 +144,9 @@ function ProfessorHeader({professorSelected, subject, postedReview, setPostedRev
     )
 }
 
-export default ProfessorHeader
+export default ProfessorRatingsHeader
+
+
 
 const mainContainerStyle = {
     display: "flex",

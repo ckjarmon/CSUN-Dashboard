@@ -148,7 +148,18 @@ def new_rating(**kwargs):
 
 
     json.dump(current_ratings, rating_file, indent=4)
-    return current_ratings
+    return current_ratings[f"{name_normalize(new_rating['professor_first_name'])} {name_normalize(new_rating['professor_last_name'])}"]
+
+
+
+
+@app.route('/<string:subject>/rating/<string:first_name>/<string:last_name>')
+def get_rating(**kwargs):
+    current_ratings = json.load(open(f'../backend/data/json_rating/{kwargs["subject"].upper()}_rating.json'))
+    try:
+        return current_ratings[f"{name_normalize(kwargs['first_name'])} {name_normalize(kwargs['last_name'])}"]
+    except KeyError:
+        return []
 
 """
 Returns a dictionary of the {int:amount} professors who have taught the Subject Catalog_Number the most in past Fall-Spring iterations.
