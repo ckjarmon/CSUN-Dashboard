@@ -265,8 +265,6 @@ def catalog(**kwargs):
     #    classes = json.load(subject)
     #    return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
     rootCursor.execute(f"select catalog_number, title from csun.{kwargs['subject'].upper()}_view")
-    import os
-    print(os.getcwd())
     return [f"{x[0]} - {x[1]}" for x in rootCursor.fetchall()]
 
 
