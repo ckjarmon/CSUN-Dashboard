@@ -27,6 +27,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "serve": "python ../../backend/server.py",
     "postinstall": "cd code-assets/frontend/csun-dash/ && npm run build",
     "start": "cd code-assets/frontend/csun-dash/ && node server.js",
     "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
