@@ -30,8 +30,7 @@
     "start": "cd code-assets/frontend/csun-dash/ && node server.js",
     "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
     "test": "cd code-assets/frontend/csun-dash/ && react-scripts test",
-    "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject",
-    "serve": "python ../../backend/server.py"
+    "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
