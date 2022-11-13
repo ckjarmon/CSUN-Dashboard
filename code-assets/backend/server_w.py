@@ -43,8 +43,18 @@ Primarily used for testing
 
 @app.route('/<string:subject>/professors')
 def professors(**kwargs):
-    rootCursor.execute(
-        f"select email, first_name, last_name, image_link, phone_number, location, website, mail_drop, subject, office from professor where subject = '{kwargs['subject'].upper()}'")
+    rootCursor.execute(f"""select 
+                       email, 
+                       first_name, 
+                       last_name, 
+                       image_link, 
+                       phone_number, 
+                       location, 
+                       website, 
+                       mail_drop, 
+                       subject, 
+                       office 
+                       from professor where subject = '{kwargs['subject'].upper()}'""")
     return [{"email": x[0],
              "first_name": name_normalize(x[1]),
              "last_name": name_normalize(x[2]),
@@ -132,11 +142,35 @@ def new_rating(**kwargs):
            new_rating["mandatory"],
            new_rating["review"])
     print(tup.__str__())
-    rootCursor.execute(f"insert into rating(professor_first_name,professor_last_name,subject,catalog_number,star_rating,grade,difficulty,retake_professor,require_textbooks,mandatory,review) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)", tup)
+    rootCursor.execute(f"""insert into rating(
+        professor_first_name,
+        professor_last_name,
+        subject,
+        catalog_number,
+        star_rating,
+        grade,
+        difficulty,
+        retake_professor,
+        require_textbooks,
+        mandatory,
+        review) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""", tup)
     rootConnection.commit()
 
-    rootCursor.execute(
-        f"select professor_first_name,professor_last_name,subject,catalog_number,star_rating,grade,difficulty,retake_professor,require_textbooks,mandatory,review from rating where professor_first_name = '{name_normalize(new_rating['professor_first_name'])}' and professor_last_name = '{name_normalize(new_rating['professor_last_name'])}' ")
+    rootCursor.execute(f"""select 
+                       professor_first_name,
+                       professor_last_name,
+                       subject,
+                       catalog_number,
+                       star_rating,
+                       grade,
+                       difficulty,
+                       retake_professor,
+                       require_textbooks,
+                       mandatory,
+                       review 
+                       from rating where professor_first_name = '{name_normalize(new_rating['professor_first_name'])}' 
+                                         and 
+                                         professor_last_name = '{name_normalize(new_rating['professor_last_name'])}' """)
     return [{"professor_first_name": c[0],
              "professor_last_name": c[1],
              "subject": c[2],
@@ -190,8 +224,10 @@ def prof_name(**kwargs):
     # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
     #    profs = json.load(profs)
     #    return profs[kwargs['prof_email']]
-    rootCursor.execute(
-        f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'")
+    rootCursor.execute(f"""select 
+                       first_name, 
+                       last_name 
+                       from professor where subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'""")
     return [f"{x[0]} {x[1]}" for x in rootCursor.fetchall()][0]
 
 
@@ -275,8 +311,10 @@ def catalog(**kwargs):
     # with open(f"../backend/data/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
     #    classes = json.load(subject)
     #    return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
-    rootCursor.execute(
-        f"select catalog_number, title from csun.{kwargs['subject'].upper()}_view")
+    rootCursor.execute(f"""select 
+                       catalog_number, 
+                       title 
+                       from csun.{kwargs['subject'].upper()}_view""")
     return [f"{x[0]} - {x[1]}" for x in rootCursor.fetchall()]
 
 
@@ -284,8 +322,18 @@ def catalog(**kwargs):
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
     try:
-        rootCursor.execute(
-            f"select class_number, enrollment_cap, enrollment_count, instructor, days, location, start_time, end_time, catalog_number, subject from section where subject = '{kwargs['subject'].upper()}' and catalog_number = '{kwargs['catalog_number']}'")
+        rootCursor.execute(f"""select 
+                           class_number, 
+                           enrollment_cap, 
+                           enrollment_count, 
+                           instructor, 
+                           days, 
+                           location, 
+                           start_time, 
+                           end_time, 
+                           catalog_number, 
+                           subject 
+                           from section where subject = '{kwargs['subject'].upper()}' and catalog_number = '{kwargs['catalog_number']}'""")
         return [{"class_number": c[0], 
                  "enrollment_cap": c[1], 
                  "enrollment_count": c[2], 
@@ -297,8 +345,18 @@ def schedule(**kwargs):
                  "catalog_number": c[8], 
                  "subject": c[9]} for c in rootCursor.fetchall()]
     except KeyError:
-        rootCursor.execute(
-            f"select class_number, enrollment_cap, enrollment_count, instructor, days, location, start_time, end_time, catalog_number, subject from section where subject = '{kwargs['subject'].upper()}'")
+        rootCursor.execute(f"""select 
+                           class_number, 
+                           enrollment_cap, 
+                           enrollment_count, 
+                           instructor, 
+                           days, 
+                           location, 
+                           start_time, 
+                           end_time, 
+                           catalog_number, 
+                           subject 
+                           from section where subject = '{kwargs['subject'].upper()}'""")
         return [{"class_number": c[0], 
                  "enrollment_cap": c[1], 
                  "enrollment_count": c[2], 
@@ -316,8 +374,7 @@ def cost(**kwargs):
     new_data = request.get_json(force=True)
     units = 0
     for c in new_data["selections"]:
-        rootCursor.execute(
-            f"select units from csun.{c.split()[0].upper()}_view where catalog_number = '{c.split()[1]}'")
+        rootCursor.execute(f"select units from csun.{c.split()[0].upper()}_view where catalog_number = '{c.split()[1]}'")
         units += int(rootCursor.fetchall()[0][0])
     return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
 
