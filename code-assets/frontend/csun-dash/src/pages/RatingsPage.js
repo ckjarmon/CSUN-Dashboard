@@ -1,46 +1,81 @@
+import {useParams} from "react-router-dom";
+import {useState, useEffect} from 'react'
 import Header from "../components/Header"
-import ProfessorRatingsSearch from "../elements/Professor Ratings/ProfessorRatingsSearch"
-import {useState} from "react"
-import ProfessorHeader from "../elements/Professor Ratings/ProfessorHeader"
+import ProfessorRatingsHeader from "../elements/Professor Search/ProfessorRatingsHeader";
+import StudentRatings from "../elements/Professor Search/StudentRatings";
+import { Alert  } from "@mui/material"
 
 function RatingsPage(){
-    const [subject, setSubject] = useState("")
-    const [professorSelected, setProfessorSelected] = useState("")
-    const [professors, setProfessors] = useState([])
+    const {subject, first_name, last_name} = useParams()
+    const [allClassesInSubject, setAllClassesInSubject] = useState([])
+    const [ratings, setRatings] = useState([])
+    const [postedReview, setPostedReview] = useState(false)
 
-    const [enableSearch, setEnableSearch] = useState(false)
 
-    function handleSubjectChange(event){
-        setSubject(event.target.value)
-        setEnableSearch(true)
-
-        fetch(`http://127.0.0.1:8000/${event.target.value}/profname`)
+    function fetchRatingsAndClasses(){
+        fetch(`http://127.0.0.1:5000/${subject}/rating/${first_name}/${last_name}`)
         .then(response => response.json())
-        .then(professorItems => {
-            setProfessors(Object.values(professorItems))
+        .then(ratings => {
+            let ratingsArray = []
+
+            ratings.map((rating) => {
+                ratingsArray.push(rating)
+            })
+            
+            setRatings(ratingsArray)
         })
 
+        fetch(`http://127.0.0.1:5000/${subject}/classes`)
+        .then(response => response.json())
+        .then(classes => {
+            let classesArray = []
 
+            classes.map((classItem) => {
+                classesArray.push(classItem)
+            })
+
+            setAllClassesInSubject(classesArray)
+        })
     }
 
-    function handleProfessorChange(event){
-        setProfessorSelected(event.target.value)
-    }
 
+    useEffect(() => {
+        fetchRatingsAndClasses()
+    }, [])
+
+    useEffect(() => {
+        fetchRatingsAndClasses()
+    }, [postedReview])
+
+    
 
     return(
-        <div style={{backgroundColor: "#1C1C1C"}}>
+        <div style={{minHeight: "100vh", backgroundColor:"#1C1C1C"}}>
             <Header></Header>
-            <ProfessorRatingsSearch 
-                handleSubjectChange={handleSubjectChange}
-                handleProfessorChange={handleProfessorChange}
-                subject={subject}
-                professorSelected={professorSelected}
-                professors={professors}
-                enableSearch={enableSearch}
-                >
-            </ProfessorRatingsSearch>
-            {professorSelected.length > 0 ? <ProfessorHeader></ProfessorHeader> : <div></div>}
+            {
+                postedReview == true ?
+                    <Alert style={{float:"right"}} variant="filled" severity="success">
+                        Successfully Posted Review!
+                    </Alert> : <div></div>
+            }
+
+            <div>
+                <ProfessorRatingsHeader 
+                    ratings={ratings}
+                    professorName={`${first_name} ${last_name}`} 
+                    postedReview={postedReview}
+                    setPostedReview={setPostedReview}
+                    subject={subject}
+                    allClassesInSubject={allClassesInSubject}>
+                </ProfessorRatingsHeader> 
+                <StudentRatings 
+                    subject={subject} 
+                    first_name={first_name}
+                    last_name={last_name} 
+                    postedReview={postedReview}>
+                </StudentRatings>
+            </div>
+
         </div>
     )
 }

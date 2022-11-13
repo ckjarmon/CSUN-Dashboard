@@ -24,7 +24,7 @@ function DisplayClasses({classesAdded, removeClassHandler}){
         console.log(event)
         setOpenModal(!openModal)
 
-        fetch(`http://127.0.0.1:8000/${event.subject}/catalog`)
+        fetch(`http://127.0.0.1:5000/${event.subject}/catalog`)
         .then(response => response.json())
         .then(catalogData => {
             let catalogInfo = {}
@@ -38,6 +38,10 @@ function DisplayClasses({classesAdded, removeClassHandler}){
             
             setSelectedCourseInfo(catalogInfo)
         })
+    }
+
+    function handleInfoButtonClose(){
+        setOpenModal(!openModal)
     }
     
     return(
@@ -66,10 +70,10 @@ function DisplayClasses({classesAdded, removeClassHandler}){
                             <TableCell style={tableCellStyle} align="center">{row.class_number}</TableCell>
                             <TableCell style={tableCellStyle} align="center">{`${row.subject} - ${row.catalog_number}`}</TableCell>
                             <TableCell style={tableCellStyle} align="center">{(row.enrollment_cap - row.enrollment_count)}</TableCell>
-                            <TableCell style={tableCellStyle} align="center">{row.meetings[0].location}</TableCell>
-                            <TableCell style={tableCellStyle} align="center">{row.meetings[0].days}</TableCell>
-                            <TableCell style={tableCellStyle} align="center">{`${row.meetings[0].start_time}` + `-` + `${row.meetings[0].end_time}`}</TableCell>
-                            <TableCell style={tableCellStyle} align="center">{row.instructors[0].instructor}</TableCell>
+                            <TableCell style={tableCellStyle} align="center">{row.location}</TableCell>
+                            <TableCell style={tableCellStyle} align="center">{row.days}</TableCell>
+                            <TableCell style={tableCellStyle} align="center">{`${row.start_time}` + `-` + `${row.end_time}`}</TableCell>
+                            <TableCell style={tableCellStyle} align="center">{row.instructor}</TableCell>
                             <TableCell style={tableCellStyle} align="center"><Button onClick={() => handleInfoButton(row)}>{<BsInfoCircleFill style={infoIconStyle}/>}</Button></TableCell>
                             </TableRow>
                         ))}
@@ -81,7 +85,7 @@ function DisplayClasses({classesAdded, removeClassHandler}){
 
             <Modal
                 open={openModal}
-                onClose={handleInfoButton}
+                onClose={handleInfoButtonClose}
                 closeAfterTransition
                 BackdropComponent={Backdrop}
                 BackdropProps={{
