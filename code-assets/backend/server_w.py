@@ -371,7 +371,7 @@ def schedule(**kwargs):
 def cost(**kwargs):
     new_data = request.get_json(force=True)
     units = 0
-    for c in new_data["SELECTions"]:
+    for c in new_data["selections"]:
         rootCursor.execute(f"SELECT units FROM csun.{c.split()[0].upper()}_view WHERE catalog_number = '{c.split()[1]}'")
         units += int(rootCursor.fetchall()[0][0])
     return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}

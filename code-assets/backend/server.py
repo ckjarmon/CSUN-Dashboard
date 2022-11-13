@@ -49,16 +49,16 @@ def get(**kwargs):
 @app.route('/<string:subject>/professors')
 def professors(**kwargs):
     rootCursor.execute(f"select email, first_name, last_name, image_link, phone_number, location, website, mail_drop, subject, office from professor where subject = '{kwargs['subject'].upper()}'")
-    return [{"email": x[0], 
-             "first_name": name_normalize(x[1]), 
-             "last_name": name_normalize(x[2]), 
-             "image_link": x[3] if x[3] not in [None, ""] else "N/A", 
-             "phone_number": x[4] if x[4] not in [None, ""] else "N/A", 
-             "location": x[5] if x[5] not in [None, ""] else "N/A", 
-             "website": x[6]  if x[6] not in [None, ""] else "N/A", 
-             "mail_drop": x[7] if x[7] not in [None, ""] else "N/A", 
-             "subject": x[8] if x[8] not in [None, ""] else "N/A", 
-             "office": x[9] if x[9] not in [None, ""] else "N/A"} 
+    return [{"email": x[0],
+             "first_name": name_normalize(x[1]),
+             "last_name": name_normalize(x[2]),
+             "image_link": x[3] if x[3] not in [None, ""] else "N/A",
+             "phone_number": x[4] if x[4] not in [None, ""] else "N/A",
+             "location": x[5] if x[5] not in [None, ""] else "N/A",
+             "website": x[6] if x[6] not in [None, ""] else "N/A",
+             "mail_drop": x[7] if x[7] not in [None, ""] else "N/A",
+             "subject": x[8] if x[8] not in [None, ""] else "N/A",
+             "office": x[9] if x[9] not in [None, ""] else "N/A"}
             for x in rootCursor.fetchall()]
     rootCursor.execute(f"select first_name, last_name from professor where subject = '{kwargs['subject'].upper()}'")
     return [f"{name_normalize(x[0])} {name_normalize(x[1])}" for x in rootCursor.fetchall()]
@@ -276,10 +276,8 @@ def schedule(**kwargs):
         try:    
             return classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number']}"]
         except KeyError:
-            ret = []
-            for key in classes.keys():
-                ret += classes[key]
-            return ret
+            return [classes[key] for key in classes.keys()]
+
             
 
 @app.route('/planner', methods=['POST'])
