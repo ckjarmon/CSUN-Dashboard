@@ -4,8 +4,6 @@ from flask_cors import CORS
 import json
 import itertools
 import mariadb
-import mysql
-
 
 app = Flask(__name__)
 CORS(app)
