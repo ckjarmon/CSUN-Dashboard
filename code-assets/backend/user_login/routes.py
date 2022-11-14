@@ -25,6 +25,7 @@ def create_token():
     return jsonify(access_token=access_token)
 
 
+# this is welcome message users can see when logged in
 """
 @api.route('/hello', methods=['POST', 'GET'])
 def handle_hello():
