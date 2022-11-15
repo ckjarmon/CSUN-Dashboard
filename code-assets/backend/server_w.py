@@ -16,7 +16,7 @@ def establish_conn():
             host='127.0.0.1',
             port=3306,
             database='csun')
-        return rootConnection.cursor()
+        return rootConnection
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
         
@@ -25,6 +25,11 @@ rootCursor = rootConnection.cursor()
 
 def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
+
+
+@app.route('/')
+def home():
+    return "<h1 style='color:blue'>Hello There!</h1>"
 
 
 """
