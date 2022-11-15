@@ -47,6 +47,8 @@ Primarily used for testing
 
 @app.route('/<string:subject>/professors')
 def professors(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     while True:    
         try:    
             rootCursor.execute(f"""SELECT 
@@ -136,6 +138,8 @@ Example:
 
 @app.route('/<string:subject>/rating', methods=['POST'])
 def new_rating(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     while True:
         try:
             new_rating = request.get_json(force=True)
@@ -234,6 +238,8 @@ Returns: John Noga
 
 @app.route('/<string:subject>/prof/name/<string:prof_email>')
 def prof_name(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     while True:
         try:        
             # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
@@ -325,6 +331,8 @@ Example:
 
 @app.route('/<string:subject>/classes')
 def catalog(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     while True:
         try:        
             # with open(f"../backend/data/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
@@ -342,6 +350,8 @@ def catalog(**kwargs):
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     while True:
         try:
             try:
@@ -396,6 +406,8 @@ def schedule(**kwargs):
 
 @app.route('/planner', methods=['POST'])
 def cost(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     while True:
         try:            
             new_data = request.get_json(force=True)
@@ -409,6 +421,4 @@ def cost(**kwargs):
             rootCursor = rootConnection.cursor()
 
 if __name__ == "__main__":
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
     app.run(host='0.0.0.0')
