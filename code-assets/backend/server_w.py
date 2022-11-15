@@ -20,8 +20,7 @@ def establish_conn():
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
         
-rootConnection = establish_conn()
-rootCursor = rootConnection.cursor()
+
 
 def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
@@ -410,4 +409,6 @@ def cost(**kwargs):
             rootCursor = rootConnection.cursor()
 
 if __name__ == "__main__":
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     app.run(host='0.0.0.0')
