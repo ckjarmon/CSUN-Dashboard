@@ -1,6 +1,8 @@
 import Header from "../../components/Header";
 import Box from '@mui/system/Box'
+//import { fontStyle } from "@mui/system";
 
+// eslint-disable-next-line no-unused-vars
 const prog_reqqs = [
     "Program Requirements",
     "The B.S. in Computer Science program requires a total of 120 units, including General Education requirements, major core courses and a 15-unit senior electives package. To graduate, a student must complete a minimum of 18 residency units from the list of upper division required courses listed below in addition to all other institutional residency requirements.",
@@ -61,18 +63,20 @@ const prog_reqqs = [
     "Additional Units: 1-3",
     "Total Units Required for the B.S. Degree: 120"
 ]
-const titleStyle = { color: 'green' }
-const redBoldStyle = { color: 'red', fontWeight: 'bold', textDecorationLine: 'underline' }
-const boldStyle = { fontweight: 'bold' }
+
+
+const titleStyle = { color: '#E31C25' }
+const redBoldStyle = { color: 'red', fontWeight: 'bold', textDecorationLine: 'underline', padding: "50px", textAlign: "center" }
+const subHeaderStyle = {color:'black', fontweight: 'heavy', textDecorationLine: 'underline' }
+
 function CS() {
     return (
-        <div style={{ backgroundColor: "#BB000E" }}>
+        <div style={{ backgroundColor: "#1C1C1C", fontFamily: "Helvetica"}}>
             <Header></Header>
-
-            <div style={{ marginRight: '5%', marginLeft: '5%', marginTop: '30px', width: '95%' }}>
+            <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '100px', width: '80%' }}>
                 <Box color="black" bgcolor="white" p={1}>
-                    <div style={{ float: "right", marginTop: '30px', width: '20%' ,padding: "20px"}}>
-                        <Box color="white" bgcolor="purple" p={1}> {/* second box within the box*/}
+                    <div style={{ float: "right", marginTop: '30px', width: '20%', padding: "10px" }}>
+                        <Box color="white" bgcolor="#E31C25" p={1}>
                             This is a test box <br></br>
                             for all the csun stuff <br></br>
                             quick links <br></br>
@@ -80,15 +84,14 @@ function CS() {
                             not entirely sure how to expand the box but it expands as you type it so good luck<br></br>
                             <br></br>
                             this is also horribly disorganized but it works so <br></br>
-                            <br></br>
-                            another issue is that the main box is glued to the right edge and idk how to fix that
-                            
                         </Box>
                     </div>
+                    <div style = {{marginLeft: '1%', padding: ""}}>
                     <h2 style={titleStyle}>Computer Science</h2>
+                    <br></br>
                     <div style={redBoldStyle}>Program Requirements</div>
                     <div>The B.S. in Computer Science program requires a total of 120 units, including General Education requirements, major core courses and a 15-unit senior electives package. To graduate, a student must complete a minimum of 18 residency units from the list of upper division required courses listed below in addition to all other institutional residency requirements.</div>
-                    <div>Special Grade Requirements</div>
+                    <div style ={subHeaderStyle}>Special Grade Requirements</div>
                     <div>Carefully check course prerequisites as many courses in the major require grades of C or
                         better in prerequisite courses.</div>
                     <div>No grade lower than a C will be accepted on transfer from another institution to satisfy
@@ -105,7 +108,7 @@ function CS() {
                     <div>MATH 262 Introduction to Linear Algebra (3)</div>
                     <div>PHIL 230 Introduction to Formal Logic (3)</div>
                     <div style={redBoldStyle}>2. Lower Division Electives (12-14 units)</div>
-                    <div style={boldStyle}>a. Select one of the following science sequences (8-10 units)</div>
+                    <div style ={subHeaderStyle}>a. Select one of the following science sequences (8-10 units)</div>
                     <div>BIOL 106/BIOL 106L Biological Principles I and Lab (3/1)</div>
                     <div>and BIOL 107/BIOL 107L Biological Principles II and Lab (3/1)*</div>
                     <div>CHEM 101/CHEM 101D/CHEM 101L General Chemistry I and Discussion and Lab (3/1/1)</div>
@@ -113,7 +116,7 @@ function CS() {
                     <div>PHYS 220A/PHYS 220AL Mechanics and Lab (3/1)</div>
                     <div>and PHYS 220B/PHYS 220BL Electricity and Magnetism and Lab (3/1)</div>
                     <div>*BIOL 107/L has recommended prerequisites of CHEM 101 and CHEM 101L.</div>
-                    <div>b. Select an additional science course with corresponding lab outside of the sequence selected above (4-5 units)</div>
+                    <div style ={subHeaderStyle}>b. Select an additional science course with corresponding lab outside of the sequence selected above (4-5 units)</div>
                     <div>BIOL 106/BIOL 106L Biological Principles I and Lab (3/1)</div>
                     <div>CHEM 101/CHEM 101D/CHEM 101L General Chemistry I and Discussion and Lab (3/1/1)</div>
                     <div>GEOG 101/GEOG 102 The Physical Environment and Lab (3/1)</div>
@@ -122,7 +125,7 @@ function CS() {
                     <div>GEOL 110/GEOL 112 Earth and Life through Time and Lab (3/1)</div>
                     <div>PHYS 220A/PHYS 220AL Mechanics and Lab (3/1)</div>
                     <div style={redBoldStyle}>3. Upper Division Required Courses (24 units)</div>
-                    <div>Before taking upper division courses in Computer Science, students must be admitted to the Computer Science major/minor programs, the Computer Information Technology major program, the Computer Engineering major program or the Information Systems/Information Technology major program.</div>
+                    <div style ={subHeaderStyle}>Before taking upper division courses in Computer Science, students must be admitted to the Computer Science major/minor programs, the Computer Information Technology major program, the Computer Engineering major program or the Information Systems/Information Technology major program.</div>
                     <div>COMP 310 Automata, Languages and Computation (3)</div>
                     <div>COMP 322/L Introduction to Operating Systems and System Architecture and Lab (3/1)</div>
                     <div>COMP 333 Concepts of Programming Languages (3)</div>
@@ -131,7 +134,7 @@ function CS() {
                     <div>or MATH 482 Combinatorial Algorithms (3)</div>
                     <div>COMP 490/L Senior Design Project and Lab (3/1)</div>
                     <div>COMP 491L Senior Project Lab (1)</div>
-                    <div>Select one of the following:</div>
+                    <div style ={subHeaderStyle}>Select one of the following:</div>
                     <div>MATH 340 Probability (3)</div>
                     <div>MATH 341 Applied Statistics I (3)</div>
                     <div style={redBoldStyle}>4. Upper Division Electives (15 units)</div>
@@ -143,12 +146,12 @@ function CS() {
                     <div>Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.</div>
                     <div>18 units are satisfied by coursework in the major. Completion of the Computer Science major satisfies A3 Critical Thinking. 6 units of Physical Science or Life Science may be used to
                         satisfy sections B1-3. MATH 150A satisfies Basic Skills B4 Mathematics/Quantitative Reasoning; COMP 310 satisfies B5 Scientific Inquiry and Quantitative Reasoning; and COMP 110/L satisfies E Lifelong Learning.</div>
-                    <div>Total Units in the Major: 87-89</div>
-                    <div>General Education Units: 30</div>
-                    <div>Additional Units: 1-3</div>
-                    <div>Total Units Required for the B.S. Degree: 120</div>
+                    <div style={redBoldStyle}>Total Units in the Major: 87-89</div>
+                    <div style={redBoldStyle}>General Education Units: 30</div>
+                    <div style={redBoldStyle}>Additional Units: 1-3</div>
+                    <div style={redBoldStyle}>Total Units Required for the B.S. Degree: 120</div>
                     <div style={{ marginLeft: '80%', marginTop: '0px', width: '10%' }}>
-
+                    </div>
                     </div>
                 </Box>
             </div>
