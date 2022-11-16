@@ -1,7 +1,6 @@
 import React from "react"
 import Header from "../components/Header"
 import Box from '@mui/system/Box'
-import React from 'react';
 
 const TextInput = props => {
     return(

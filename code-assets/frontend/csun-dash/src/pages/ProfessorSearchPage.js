@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import SubjectSearchDropdown from "../elements/Professor Search/SubjectSearchDropdown";
 import ProfessorsSearchBody from "../elements/Professor Search/ProfessorsSearchBody";
 import {useState} from 'react'
-
+import React, { Component }  from 'react';
 
 function ProfessorsSearchPage(){
     const [allProfessors, setAllProfessors] = useState([])
