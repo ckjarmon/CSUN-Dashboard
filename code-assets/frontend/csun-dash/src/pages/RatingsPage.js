@@ -1,8 +1,8 @@
 import {useParams} from "react-router-dom";
 import {useState, useEffect} from 'react'
 import Header from "../components/Header"
-import ProfessorRatingsHeader from "../elements/Professor Search/ProfessorRatingsHeader";
-import StudentRatings from "../elements/Professor Search/StudentRatings";
+import ProfessorRatingsHeader from "../elements/Professor_Search/ProfessorRatingsHeader";
+import StudentRatings from "../elements/Professor_Search/StudentRatings";
 import { Alert  } from "@mui/material"
 
 function RatingsPage(){
@@ -13,7 +13,7 @@ function RatingsPage(){
 
 
     function fetchRatingsAndClasses(){
-        fetch(`http://127.0.0.1:5000/${subject}/rating/${first_name}/${last_name}`)
+        fetch(`http://kyeou.xyz/${subject}/rating/${first_name}/${last_name}`)
         .then(response => response.json())
         .then(ratings => {
             let ratingsArray = []
@@ -25,7 +25,7 @@ function RatingsPage(){
             setRatings(ratingsArray)
         })
 
-        fetch(`http://127.0.0.1:5000/${subject}/classes`)
+        fetch(`http://kyeou.xyz/${subject}/classes`)
         .then(response => response.json())
         .then(classes => {
             let classesArray = []
