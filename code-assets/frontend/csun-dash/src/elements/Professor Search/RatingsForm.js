@@ -50,7 +50,7 @@ function RatingsForm({rateModal, setRateModal, professorName, subject, setPosted
             }
 
             console.log(body)
-            fetch(`http://kyeou.xyz/${subject}/rating`, {
+            fetch(`http://127.0.0.1:5000/${subject}/rating`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import DataTableRow from './Data_Table_Components/DataTableRow';
+import DataTableRow from './Data Table Components/DataTableRow';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';

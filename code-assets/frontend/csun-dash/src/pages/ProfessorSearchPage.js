@@ -1,6 +1,6 @@
 import Header from "../components/Header";
-import SubjectSearchDropdown from "../elements/Professor_Search/SubjectSearchDropdown";
-import ProfessorsSearchBody from "../elements/Professor_Search/ProfessorsSearchBody";
+import SubjectSearchDropdown from "../elements/Professor Search/SubjectSearchDropdown";
+import ProfessorsSearchBody from "../elements/Professor Search/ProfessorsSearchBody";
 import {useState} from 'react'
 
 
@@ -12,7 +12,7 @@ function ProfessorsSearchPage(){
     function handleSubjectChange(event){
         setSubject(event.target.value)
 
-        fetch(`http://kyeou.xyz/${event.target.value}/professors`)
+        fetch(`http://127.0.0.1:5000/${event.target.value}/professors`)
         .then(response => response.json())
         .then(professors => {
             let professorsArray = []
