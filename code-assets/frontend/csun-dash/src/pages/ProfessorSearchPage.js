@@ -1,6 +1,6 @@
 import Header from "../components/Header";
-import SubjectSearchDropdown from "../elements/Professor Search/SubjectSearchDropdown";
-import ProfessorsSearchBody from "../elements/Professor Search/ProfessorsSearchBody";
+import SubjectSearchDropdown from "../elements/Professor_Search/SubjectSearchDropdown";
+import ProfessorsSearchBody from "../elements/Professor_Search/ProfessorsSearchBody";
 import {useState} from 'react'
 
 
