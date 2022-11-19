@@ -1,6 +1,6 @@
 import json
 import mysql
-
+from collections import OrderedDict
 
 
 
@@ -411,7 +411,7 @@ major_links = [
 ,"https://catalog.csun.edu/academics/urbs/programs/ba-urban-studies-and-planning/"
 ]
 
-from collections import OrderedDict
+
 def seven():
     for name in major_names:
         print(name)
@@ -1220,9 +1220,18 @@ def t17():
     rootCursor.close()
     rootConnection.close()
            
+def t18():
+    for code in class_codes:
+        try:    
+            with open(f"../data/json_historical_profs/{code}_history.json") as catalog_file:
+                json.dump(OrderedDict(sorted(json.load(catalog_file).items())), open(f"../data/json_historical_profs/{code}_history.json", "w"), indent=4)
 
+                
+        except FileNotFoundError:
+            print("sdfg")
+        
 if __name__ == "__main__":
-    t17()
+    t18()
     
     
         
