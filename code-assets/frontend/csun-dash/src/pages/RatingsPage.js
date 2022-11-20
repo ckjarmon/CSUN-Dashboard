@@ -1,8 +1,8 @@
 import {useParams} from "react-router-dom";
 import {useState, useEffect} from 'react'
 import Header from "../components/Header"
-import ProfessorRatingsHeader from "../elements/Professor Search/ProfessorRatingsHeader";
-import StudentRatings from "../elements/Professor Search/StudentRatings";
+import ProfessorRatingsHeader from "../elements/Professor_Search/ProfessorRatingsHeader";
+import StudentRatings from "../elements/Professor_Search/StudentRatings";
 import { Alert  } from "@mui/material"
 import React from 'react';
 

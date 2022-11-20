@@ -1,6 +1,6 @@
 import Header from "../components/Header";
-import AddClasses from "../elements/Add Classes/AddClasses";
-import ClassSelections from "../elements/Class Selections/ClassSelections";
+import AddClasses from "../elements/Add_Classes/AddClasses";
+import ClassSelections from "../elements/Class_Selections/ClassSelections";
 import {useState} from 'react'
 import React from 'react';
 
