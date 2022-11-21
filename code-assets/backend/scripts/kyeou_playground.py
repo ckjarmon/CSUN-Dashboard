@@ -1231,7 +1231,7 @@ def t18():
             print("sdfg")
         
 if __name__ == "__main__":
-    t18()
+    t17()
     
     
         
