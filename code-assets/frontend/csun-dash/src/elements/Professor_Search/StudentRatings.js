@@ -13,7 +13,7 @@ function StudentRatings({subject, first_name, last_name, postedReview}){
     const [courses, setCourses] = useState([])
  
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/${subject}/rating/${first_name}/${last_name}`)
+        fetch(`http://api.kyeou.xyz/${subject}/rating/${first_name}/${last_name}`)
         .then(response => response.json())
         .then(reviews => {
             if(!reviews.length){

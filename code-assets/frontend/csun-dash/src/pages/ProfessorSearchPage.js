@@ -12,7 +12,7 @@ function ProfessorsSearchPage(){
     function handleSubjectChange(event){
         setSubject(event.target.value)
 
-        fetch(`http://127.0.0.1:5000/${event.target.value}/professors`)
+        fetch(`http://api.kyeou.xyz/${event.target.value}/professors`)
         .then(response => response.json())
         .then(professors => {
             let professorsArray = []
