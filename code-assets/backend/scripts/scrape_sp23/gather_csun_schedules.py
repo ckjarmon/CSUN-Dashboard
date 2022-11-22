@@ -32,6 +32,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 import json
+import pprint
 # Flag Order = Semester Year Position_of_Subject_in_Dropdown Subject_Code
 
 
@@ -222,9 +223,9 @@ def convert_time(time):
     In 24-hour time, every hour after 12pm is (12 + Hour)
     """
     #print(start_is_am)
-    end_hour =  int(time[8:10])
+    end_hour = int(time[8:10])
     #print(end_hour)
-    end_is_am = True if (time[13:15] == "am" or int(time[8:10]) == "12") else False
+    end_is_am = True if (time[13:15] == "am" or time[8:10] == "12") else False
     #print(end_is_am)
     
     if not start_is_am:
@@ -304,7 +305,7 @@ def open_and_gather():
 
     id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
     id_box.click()
-    time.sleep(1)
+    time.sleep(3)
     #id_box.send_keys(sys.argv[4])
     for i in range(0, int(sys.argv[3]) + 1):
         id_box.send_keys(Keys.ARROW_DOWN)
@@ -312,7 +313,7 @@ def open_and_gather():
     time.sleep(3)
 
     driver.find_element("name", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
-    time.sleep(2)
+    time.sleep(5)
 
 
     #--------------------------------------------------------------------
@@ -337,11 +338,12 @@ def open_and_gather():
     for a in range(0, 60):
         try:
             subject_dict = {}
-            print(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text)
-            driver.find_element("name", "SOC_DETAIL$IMG$" + str(a)).click()
+            section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text
+            print(section_title)
+            driver.find_element("name", "SOC_DETAIL$" + str(a)).click()
             time.sleep(4)
             #print("Session\tSection\tClass#\tSeats\tStatus\tComp\tLoc\tDays\tTime\t\t   Faculty")
-            section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text.split()
+            section_title = section_title.split()
             #print(section_title)
             for i in range(0, 50):
                 try:
@@ -389,10 +391,9 @@ def open_and_gather():
                     """
                     The enrollement count is split by the capacity and the amount of students who enrolled.
                     """
-                    course_dict["class_number"] = driver.find_element(
-                            "id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
-                    course_dict["enrollment_cap"] = int(driver.find_element(
-                            "id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text)
+                    course_dict["class_number"] = driver.find_element("id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
+                    
+                    course_dict["enrollment_cap"] = int(driver.find_element("id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text)
 
                     course_dict["enrollment_count"] = 0
 
@@ -401,18 +402,15 @@ def open_and_gather():
                     The meetings attribute in each object in the Restful API is a dictionary.
                     """
                     meetings = {}
-                    meetings["days"] = convertdays(driver.find_element(
-                            "id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text)
+                    meetings["days"] = convertdays(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text)
                     meetings["location"] = driver.find_element("id", "MAP$" + str(i)).text
-                    meetings["start_time"], meetings["end_time"] = convert_time(driver.find_element(
-                            "id", "NR_SSS_SOC_NSEC_DESCR25_2$" + str(i)).text)
+                    meetings["start_time"], meetings["end_time"] = convert_time(driver.find_element("id", "NR_SSS_SOC_NSEC_DESCR25_2$" + str(i)).text)
                     #instructors = {}
                     print(meetings)
                     try:
                         # row_faculty = driver.find_element(
                             # "id", "FACURL$" + str(i)).text
-                        instructors = {"instructor": driver.find_element(
-                                "id", "FACURL$" + str(i)).text}
+                        instructors = {"instructor": driver.find_element("id", "FACURL$" + str(i)).text}
                     except NoSuchElementException:
                         row_faculty = "Staff"
                         instructors = {"instructor": "Staff"}
@@ -422,20 +420,23 @@ def open_and_gather():
                     course_dict["instructors"].append(instructors)    
                     course_dict["meetings"] = []
                     course_dict["meetings"].append(meetings)
+                    pprint.pprint(course_dict)
                     json_blob.append(course_dict.copy())
-                    print(course_dict)
-                except NoSuchElementException:
+                    
+                except NoSuchElementException: # if no more sections for a class
                     break
             driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
-            time.sleep(1)
-        except NoSuchElementException:
-            break
-
-
-    #print(json_blob)
+            time.sleep(3)
+        except NoSuchElementException as nsee: # if no more classes for a subject
+            print(nsee.__str__().split('\n')[0])
+            
+    print(json_blob)
     subject_dict["classes"] = json_blob
     json.dump(subject_dict, file1, indent=4)
     file1.close()
+
+    #print(json_blob)
+
 
 
 if __name__=="__main__":

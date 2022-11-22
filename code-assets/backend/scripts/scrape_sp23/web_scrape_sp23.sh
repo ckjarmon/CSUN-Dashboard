@@ -4,7 +4,7 @@ class_codes=("AE" "AM" "AR" "AAS" "ACCT" "AFRS" "AIS" "ANTH" "ARAB" "ARMN" "ART"
 for i in ${!class_codes[@]}; do
    echo $i
    python gather_csun_schedules.py Spring 2023 $i ${class_codes[$i]}
-   mv --force ${class_codes[$i]}_schedule.json ../storedschedules/
+   # mv --force ${class_codes[$i]}_schedule.json ../storedschedules/
 done
 
 # python gather_csun_schedules.py Spring 2023 17 "CE"
