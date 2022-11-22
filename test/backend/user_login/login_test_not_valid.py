@@ -14,7 +14,12 @@ sys.path.append(currDirectory)
 
 print("Printing the folder parent here: %s" %currDirectory)
 
-from backend.server import name_normalize
+from backend.user_login.login import sum_it
 
-# test the name_normalization function
-name_normalize("bOb")
+"""
+Tests functionality from login.py
+"""
+
+# def test_sum_empty() -> None:
+#       sum_it(3)
+
