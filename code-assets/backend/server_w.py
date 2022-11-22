@@ -63,7 +63,7 @@ def professors(**kwargs):
                                subject, 
                                office 
                                FROM professor WHERE subject = '{kwargs['subject'].upper()}'""")
-            return [{"email": x[0],
+            return sorted([{"email": x[0],
                      "first_name": name_normalize(x[1]),
                      "last_name": name_normalize(x[2]),
                      "image_link": x[3] if x[3] not in [None, ""] else "N/A",
@@ -73,7 +73,7 @@ def professors(**kwargs):
                      "mail_drop": x[7] if x[7] not in [None, ""] else "N/A",
                      "subject": x[8] if x[8] not in [None, ""] else "N/A",
                      "office": x[9] if x[9] not in [None, ""] else "N/A"}
-                    for x in rootCursor.fetchall()]
+                    for x in rootCursor.fetchall()], key=lambda x:x["last_name"])
         except mariadb.InterfaceError:
             rootConnection = establish_conn()
             rootCursor = rootConnection.cursor()
