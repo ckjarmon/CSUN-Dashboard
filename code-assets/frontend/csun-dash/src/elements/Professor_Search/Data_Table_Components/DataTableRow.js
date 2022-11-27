@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import Link from '@mui/material/Link';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -16,19 +16,18 @@ import Button from '@mui/material/Button';
 
 
 
-function DataTableRow({professor}){
+function DataTableRow({ professor }) {
     const row = professor;
     const [openRow, setOpenRow] = useState(false)
     console.log(row)
 
-    return(
+    return (
         <>
             <TableRow>
                 <TableCell style={rowStyle} align="center">
                     <IconButton
                         size="small"
-                        onClick={() => setOpenRow(!openRow)}
-                    >
+                        onClick={() => setOpenRow(!openRow)}>
                         {openRow ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
                     </IconButton>
                 </TableCell>
@@ -37,25 +36,25 @@ function DataTableRow({professor}){
                 <TableCell style={rowStyle} align="center" >{row.email}</TableCell>
                 <TableCell style={rowStyle} align="center">{row.phone_number}</TableCell>
             </TableRow>
-            
-            <TableRow style={{backgroundColor: "#F2F3F4"}}>
+
+            <TableRow style={{ backgroundColor: "#F2F3F4" }}>
                 <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
-                <Collapse in={openRow} timeout="auto" unmountOnExit>
-                    <Box sx={{ margin: 1 }}>
-                        <Box style={{margin:"20px 0px"}}>
-                            <div style={{display:"flex", margin: "10px", gap:"40px"}}>
-                                <img style={imageStyle} src={row.image_link}/>
-                                <Box>
-                                    <Typography><span style={detailsStyle}>Website: </span><Link href={row.website}>{row.website}</Link></Typography>
-                                    <Typography><span style={detailsStyle}>Phone Number: </span>{row.phone_number}</Typography>
-                                    <Typography><span style={detailsStyle}>Mail Drop: </span>{row.mail_drop}</Typography>
-                                    <Typography><span style={detailsStyle}>Office: </span>{row.office}</Typography>
-                                    <Button style={ratingsButton}>Professor Ratings</Button>
-                                </Box>
-                            </div>                            
+                    <Collapse in={openRow} timeout="auto" unmountOnExit>
+                        <Box sx={{ margin: 1 }}>
+                            <Box style={{ margin: "20px 0px" }}>
+                                <div style={{ display: "flex", margin: "10px", gap: "40px" }}>
+                                    <img style={imageStyle} src={row.image_link} />
+                                    <Box>
+                                        <Typography><span style={detailsStyle}>Website: </span><Link href={row.website}>{row.website}</Link></Typography>
+                                        <Typography><span style={detailsStyle}>Phone Number: </span>{row.phone_number}</Typography>
+                                        <Typography><span style={detailsStyle}>Mail Drop: </span>{row.mail_drop}</Typography>
+                                        <Typography><span style={detailsStyle}>Office: </span>{row.office}</Typography>
+                                        <Button style={ratingsButton}>Professor Ratings</Button>
+                                    </Box>
+                                </div>
+                            </Box>
                         </Box>
-                    </Box>
-                </Collapse>
+                    </Collapse>
                 </TableCell>
             </TableRow>
         </>
@@ -79,7 +78,7 @@ const detailsStyle = {
 }
 
 const ratingsButton = {
-    marginTop:"8px",
+    marginTop: "8px",
     backgroundColor: "#E31C25",
-    color:"white"
+    color: "white"
 }

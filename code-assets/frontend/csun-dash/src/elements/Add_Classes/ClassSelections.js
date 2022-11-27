@@ -1,7 +1,7 @@
 
 
-function ClassSelections(){
-    return(
+function ClassSelections() {
+    return (
         <div>
             <h2 style={sectionTitle}>Class Selections</h2>
         </div>

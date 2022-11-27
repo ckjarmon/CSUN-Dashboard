@@ -8,6 +8,7 @@ import mariadb
 app = Flask(__name__)
 CORS(app)
 
+
 def establish_conn():
     try:
         rootConnection = mariadb.connect(
@@ -19,7 +20,6 @@ def establish_conn():
         return rootConnection
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
-        
 
 
 def name_normalize(str):
@@ -35,9 +35,11 @@ def home():
 Abstract that returns any and all {subject} data FROM json_{data}
 Primarily used for testing
 """
+
+
 @app.route('/<string:subject>/<string:data>')
 def get(**kwargs):
-    return json.load(open(f'../backend/data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+    return json.load(open(f'/data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
 
 # @app.route('/sql')
@@ -49,8 +51,8 @@ def get(**kwargs):
 def professors(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
-    while True:    
-        try:    
+    while True:
+        try:
             rootCursor.execute(f"""SELECT 
                                email, 
                                first_name, 
@@ -64,16 +66,16 @@ def professors(**kwargs):
                                office 
                                FROM professor WHERE subject = '{kwargs['subject'].upper()}'""")
             return sorted([{"email": x[0],
-                     "first_name": name_normalize(x[1]),
-                     "last_name": name_normalize(x[2]),
-                     "image_link": x[3] if x[3] not in [None, ""] else "N/A",
-                     "phone_number": x[4] if x[4] not in [None, ""] else "N/A",
-                     "location": x[5] if x[5] not in [None, ""] else "N/A",
-                     "website": x[6] if x[6] not in [None, ""] else "N/A",
-                     "mail_drop": x[7] if x[7] not in [None, ""] else "N/A",
-                     "subject": x[8] if x[8] not in [None, ""] else "N/A",
-                     "office": x[9] if x[9] not in [None, ""] else "N/A"}
-                    for x in rootCursor.fetchall()], key=lambda x:x["last_name"])
+                            "first_name": name_normalize(x[1]),
+                            "last_name": name_normalize(x[2]),
+                            "image_link": x[3] if x[3] not in [None, ""] else "N/A",
+                            "phone_number": x[4] if x[4] not in [None, ""] else "N/A",
+                            "location": x[5] if x[5] not in [None, ""] else "N/A",
+                            "website": x[6] if x[6] not in [None, ""] else "N/A",
+                            "mail_drop": x[7] if x[7] not in [None, ""] else "N/A",
+                            "subject": x[8] if x[8] not in [None, ""] else "N/A",
+                            "office": x[9] if x[9] not in [None, ""] else "N/A"}
+                           for x in rootCursor.fetchall()], key=lambda x: x["last_name"])
         except mariadb.InterfaceError:
             rootConnection = establish_conn()
             rootCursor = rootConnection.cursor()
@@ -201,6 +203,7 @@ def new_rating(**kwargs):
             rootConnection = establish_conn()
             rootCursor = rootConnection.cursor()
 
+
 """
 Returns a dictionary of the {int:amount} professors who have taught the Subject Catalog_Number the most in past Fall-Spring iterations.
 {
@@ -241,7 +244,7 @@ def prof_name(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     while True:
-        try:        
+        try:
             # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
             #    profs = json.load(profs)
             #    return profs[kwargs['prof_email']]
@@ -253,6 +256,7 @@ def prof_name(**kwargs):
         except mariadb.InterfaceError:
             rootConnection = establish_conn()
             rootCursor = rootConnection.cursor()
+
 
 """
 Simply returns an array of strings of all classes in a {string:subject}
@@ -334,7 +338,7 @@ def catalog(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     while True:
-        try:        
+        try:
             # with open(f"../backend/data/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
             #    classes = json.load(subject)
             #    return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
@@ -346,6 +350,7 @@ def catalog(**kwargs):
         except mariadb.InterfaceError:
             rootConnection = establish_conn()
             rootCursor = rootConnection.cursor()
+
 
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
@@ -367,15 +372,15 @@ def schedule(**kwargs):
                                    catalog_number, 
                                    subject 
                                    FROM section WHERE subject = '{kwargs['subject'].upper()}' AND catalog_number = '{kwargs['catalog_number']}'""")
-                return [{"class_number": c[0], 
-                         "enrollment_cap": c[1], 
-                         "enrollment_count": c[2], 
-                         "instructor": c[3], 
-                         "days": c[4], 
-                         "location": c[5], 
-                         "start_time": c[6], 
-                         "end_time": c[7], 
-                         "catalog_number": c[8], 
+                return [{"class_number": c[0],
+                         "enrollment_cap": c[1],
+                         "enrollment_count": c[2],
+                         "instructor": c[3],
+                         "days": c[4],
+                         "location": c[5],
+                         "start_time": c[6],
+                         "end_time": c[7],
+                         "catalog_number": c[8],
                          "subject": c[9]} for c in rootCursor.fetchall()]
             except KeyError:
                 rootCursor.execute(f"""SELECT 
@@ -390,35 +395,38 @@ def schedule(**kwargs):
                                    catalog_number, 
                                    subject 
                                    FROM section WHERE subject = '{kwargs['subject'].upper()}'""")
-                return [{"class_number": c[0], 
-                         "enrollment_cap": c[1], 
-                         "enrollment_count": c[2], 
-                         "instructor": c[3], 
-                         "days": c[4], 
-                         "location": c[5], 
-                         "start_time": c[6], 
-                         "end_time": c[7], 
-                         "catalog_number": c[8], 
+                return [{"class_number": c[0],
+                         "enrollment_cap": c[1],
+                         "enrollment_count": c[2],
+                         "instructor": c[3],
+                         "days": c[4],
+                         "location": c[5],
+                         "start_time": c[6],
+                         "end_time": c[7],
+                         "catalog_number": c[8],
                          "subject": c[9]} for c in rootCursor.fetchall()]
         except mariadb.InterfaceError:
             rootConnection = establish_conn()
             rootCursor = rootConnection.cursor()
+
 
 @app.route('/planner', methods=['POST'])
 def cost(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     while True:
-        try:            
+        try:
             new_data = request.get_json(force=True)
             units = 0
             for c in new_data["selections"]:
-                rootCursor.execute(f"SELECT units FROM csun.{c.split()[0].upper()}_view WHERE catalog_number = '{c.split()[1]}'")
+                rootCursor.execute(
+                    f"SELECT units FROM csun.{c.split()[0].upper()}_view WHERE catalog_number = '{c.split()[1]}'")
                 units += int(rootCursor.fetchall()[0][0])
             return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
         except mariadb.InterfaceError:
             rootConnection = establish_conn()
             rootCursor = rootConnection.cursor()
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')

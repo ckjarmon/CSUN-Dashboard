@@ -1,8 +1,8 @@
-import {useState, useEffect} from 'react'
-import { Button, Rating, Typography, Box, Modal  } from "@mui/material"
+import { useState, useEffect } from 'react'
+import { Button, Rating, Typography, Box, Modal } from "@mui/material"
 import RatingsForm from './RatingsForm'
 
-function ProfessorRatingsHeader({ratings, professorName, postedReview, setPostedReview, subject, allClassesInSubject}){
+function ProfessorRatingsHeader({ ratings, professorName, postedReview, setPostedReview, subject, allClassesInSubject }) {
 
     const [rateModal, setRateModal] = useState(false)
 
@@ -11,7 +11,7 @@ function ProfessorRatingsHeader({ratings, professorName, postedReview, setPosted
     const [overallRating, setOverallRating] = useState(0.0)
     const [overallDifficulty, setOverallDifficulty] = useState(0.0)
     const [overallRetake, setOverallRetake] = useState("N/A")
-    const [ratingsOutlook, setRatingsOutlook] = useState({"5": 0, "4": 0, "3": 0, "2": 0, "1": 0,})
+    const [ratingsOutlook, setRatingsOutlook] = useState({ "5": 0, "4": 0, "3": 0, "2": 0, "1": 0, })
 
     useEffect(() => {
         setReviews(ratings)
@@ -33,16 +33,16 @@ function ProfessorRatingsHeader({ratings, professorName, postedReview, setPosted
             "1": 0,
         }
 
-        if(numReviews > 0){            
+        if (numReviews > 0) {
             reviews.map((review) => {
                 ratingsAdded += review.star_rating
                 difficultyAdded += review.difficulty
 
-                if(review.retake_professor == "Yes"){
+                if (review.retake_professor == "Yes") {
                     retakeAgain += 1
                 }
-    
-                switch(review.star_rating){
+
+                switch (review.star_rating) {
                     case 5:
                         ratingsOutlook["5"] += 1
                         break
@@ -61,22 +61,22 @@ function ProfessorRatingsHeader({ratings, professorName, postedReview, setPosted
                 }
             })
         }
-            ratingsAdded = ratingsAdded / numReviews
-            difficultyAdded = difficultyAdded / numReviews
-            retakeAgain = (retakeAgain / numReviews) * 100
-        
-            setOverallRating(ratingsAdded.toFixed(2))
-            setOverallDifficulty(difficultyAdded.toFixed(2))
-            setOverallRetake(retakeAgain.toFixed(2))
-            setRatingsOutlook(ratingsOutlook)
+        ratingsAdded = ratingsAdded / numReviews
+        difficultyAdded = difficultyAdded / numReviews
+        retakeAgain = (retakeAgain / numReviews) * 100
+
+        setOverallRating(ratingsAdded.toFixed(2))
+        setOverallDifficulty(difficultyAdded.toFixed(2))
+        setOverallRetake(retakeAgain.toFixed(2))
+        setRatingsOutlook(ratingsOutlook)
 
     }, [reviews])
 
-    function handleRateModal(){
+    function handleRateModal() {
         setRateModal(!rateModal)
     }
 
-    return(
+    return (
         <div style={mainContainerStyle}>
             <div style={headerContainerStyle}>
                 <h1 style={ratingStyle}>{overallRating}/5</h1>
@@ -121,16 +121,15 @@ function ProfessorRatingsHeader({ratings, professorName, postedReview, setPosted
             <div>
                 <Modal
                     open={rateModal}
-                    onClose={handleRateModal}
-                >
+                    onClose={handleRateModal}>
                     <Box sx={modalStyle}>
-                        <Typography variant="h4" component="h2" style={{textAlign:"center"}}>
-                            Post New Rating for <span style={{fontWeight:"bold"}}>{professorName}</span>
+                        <Typography variant="h4" component="h2" style={{ textAlign: "center" }}>
+                            Post New Rating for <span style={{ fontWeight: "bold" }}>{professorName}</span>
                         </Typography>
-                        <RatingsForm 
-                            rateModal={rateModal} 
-                            setRateModal={setRateModal} 
-                            professorName={professorName} 
+                        <RatingsForm
+                            rateModal={rateModal}
+                            setRateModal={setRateModal}
+                            professorName={professorName}
                             subject={selectedSubject}
                             setPostedReview={setPostedReview}
                             allClassesInSubject={allClassesInSubject}>
@@ -138,7 +137,7 @@ function ProfessorRatingsHeader({ratings, professorName, postedReview, setPosted
                     </Box>
                 </Modal>
             </div>
-            
+
         </div>
     )
 }
@@ -151,7 +150,7 @@ const mainContainerStyle = {
     display: "flex",
     justifyContent: "center",
     marginTop: "50px",
-    
+
 }
 
 const headerContainerStyle = {
@@ -224,4 +223,4 @@ const modalStyle = {
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
-  };
+};

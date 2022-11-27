@@ -3,18 +3,18 @@ import Header from "../components/Header"
 import Box from '@mui/system/Box'
 
 const TextInput = props => {
-    return(
+    return (
         <div>
             <input
-            type = "text"
-            value ={props.value}
-            onChange={event =>console.log("value changed!")}
+                type="text"
+                value={props.value}
+                onChange={event => console.log("value changed!")}
             />
-            </div>
+        </div>
     )
 }
 
-const underlineStyle = {textDecorationLine: 'underline' }
+const underlineStyle = { textDecorationLine: 'underline' }
 
 
 function SignInPage() {
@@ -23,13 +23,13 @@ function SignInPage() {
             <Header></Header>
             <div style={{ float: "center", marginTop: "20%" }}>
                 <Box color="white" bgcolor="red" p={20}>
-                    Let's get you signed in 
+                    Let's get you signed in
                     <Box>
-                    <div style = {{float: "right"}}>
-                    <TextInput></TextInput>
-                    <TextInput></TextInput>
-                     <div style = {underlineStyle}>Forgot your password?</div>
-                    </div>
+                        <div style={{ float: "right" }}>
+                            <TextInput></TextInput>
+                            <TextInput></TextInput>
+                            <div style={underlineStyle}>Forgot your password?</div>
+                        </div>
                     </Box>
                 </Box>
             </div>
