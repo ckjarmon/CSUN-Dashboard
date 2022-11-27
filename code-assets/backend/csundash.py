@@ -35,9 +35,9 @@ def home():
 Abstract that returns any and all {subject} data FROM json_{data}
 Primarily used for testing
 """
-# @app.route('/<string:subject>/<string:data>')
-# def get(**kwargs):
-# return json.load(open(f'../backend/data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+@app.route('/<string:subject>/<string:data>')
+def get(**kwargs):
+    return json.load(open(f'../backend/data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
 
 # @app.route('/sql')
