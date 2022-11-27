@@ -2,171 +2,197 @@
     "HIST 110": [
         {
             "class_number": "12844",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "110",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "12925",
-            "enrollment_cap": 49,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "TBA",
+            "location": "SH184",
             "start_time": "0930h",
             "end_time": "1045h",
-            "catalog_number": "110",
-            "subject": "HIST"
+            "possible_emails": []
+        },
+        {
+            "class_number": "12925",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         }
     ],
     "HIST 111": [
         {
             "class_number": "12602",
-            "enrollment_cap": 49,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
+            "instructor": "Goldner,Erik H",
+            "days": "TR",
+            "location": "SH186",
             "start_time": "1100h",
             "end_time": "1215h",
-            "catalog_number": "111",
-            "subject": "HIST"
+            "possible_emails": [
+                "erik.goldner@csun.edu"
+            ]
+        },
+        {
+            "class_number": "12603",
+            "enrollment_cap": 42,
+            "enrollment_count": 0,
+            "instructor": "Goldner,Erik H",
+            "days": "TR",
+            "location": "SH186",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "erik.goldner@csun.edu"
+            ]
+        }
+    ],
+    "HIST 150": [
+        {
+            "class_number": "12222",
+            "enrollment_cap": 33,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH309",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
         }
     ],
     "HIST 151": [
         {
             "class_number": "13243",
-            "enrollment_cap": 49,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "151",
-            "subject": "HIST"
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
         },
         {
             "class_number": "13244",
-            "enrollment_cap": 49,
+            "enrollment_cap": 42,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
+            "days": "MW",
+            "location": "SH184",
             "start_time": "1230h",
             "end_time": "1345h",
-            "catalog_number": "151",
-            "subject": "HIST"
+            "possible_emails": []
         }
     ],
     "HIST 161": [
         {
             "class_number": "12209",
-            "enrollment_cap": 49,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "161",
-            "subject": "HIST"
+            "instructor": "Juarez-Dappe,Patricia I",
+            "days": "T",
+            "location": "SH184",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "patricia.juarez-dappe@csun.edu"
+            ]
         }
     ],
     "HIST 185": [
         {
             "class_number": "12795",
-            "enrollment_cap": 49,
+            "enrollment_cap": 45,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Howes,Rachel T",
             "days": "MW",
-            "location": "TBA",
+            "location": "SH286",
             "start_time": "1100h",
             "end_time": "1215h",
-            "catalog_number": "185",
-            "subject": "HIST"
+            "possible_emails": [
+                "rachel.howes@csun.edu"
+            ]
         }
     ],
     "HIST 270": [
         {
             "class_number": "12746",
-            "enrollment_cap": 138,
+            "enrollment_cap": 75,
+            "enrollment_count": 0,
+            "instructor": "Nuno,John Paul A",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "johnpaul.nuno@csun.edu"
+            ]
+        },
+        {
+            "class_number": "12842",
+            "enrollment_cap": 86,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "JA100",
             "start_time": "1100h",
             "end_time": "1215h",
-            "catalog_number": "270",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "12843",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "270",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "13193",
-            "enrollment_cap": 120,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "270",
-            "subject": "HIST"
+            "possible_emails": []
         }
     ],
     "HIST 271": [
         {
             "class_number": "12526",
-            "enrollment_cap": 120,
+            "enrollment_cap": 117,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Devine,Thomas W",
             "days": "TR",
-            "location": "TBA",
+            "location": "CR5122",
             "start_time": "1230h",
             "end_time": "1345h",
-            "catalog_number": "271",
-            "subject": "HIST"
+            "possible_emails": [
+                "tom.devine@csun.edu"
+            ]
+        },
+        {
+            "class_number": "12443",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Kim,Jessica M",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "robert.kim@csun.edu",
+                "stephanie.kim@csun.edu",
+                "jessica.kim@csun.edu",
+                "song.kim@csun.edu",
+                "eunju.kim@csun.edu",
+                "taehyun.kim@csun.edu",
+                "ah.jeong.kim@csun.edu",
+                "jongeun.kim@csun.edu",
+                "choomee.kim@csun.edu",
+                "sungjin.kim@csun.edu",
+                "joo.kim@csun.edu",
+                "joshua.kim@csun.edu",
+                "jinah.kim@csun.edu"
+            ]
         },
         {
             "class_number": "12527",
-            "enrollment_cap": 155,
+            "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "271",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "13111",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
+            "days": "TR",
+            "location": "SH386",
             "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "271",
-            "subject": "HIST"
+            "end_time": "1215h",
+            "possible_emails": []
         }
     ],
     "HIST 301": [
@@ -175,456 +201,449 @@
             "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "301",
-            "subject": "HIST"
+            "days": "W",
+            "location": "SH160",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         },
         {
             "class_number": "12430",
-            "enrollment_cap": 20,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "301",
-            "subject": "HIST"
+            "instructor": "Fitzpatrick-Behrens,Susan R",
+            "days": "F",
+            "location": "SH380",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "susan.fitzpatrick-behrens@csun.edu"
+            ]
         },
         {
             "class_number": "12800",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
+            "instructor": "Kaja,Jeffrey D",
+            "days": "T",
+            "location": "SH184",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "301",
-            "subject": "HIST"
+            "possible_emails": [
+                "jeffrey.kaja@csun.edu"
+            ]
+        },
+        {
+            "class_number": "20733",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Neirick,Miriam B",
+            "days": "TR",
+            "location": "SH279",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "miriam.neirick@csun.edu"
+            ]
         }
     ],
     "HIST 303": [
         {
             "class_number": "12499",
-            "enrollment_cap": 49,
+            "enrollment_cap": 45,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Oliver,Clementine",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "303",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "12855",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
+            "location": "SH186",
             "start_time": "1100h",
             "end_time": "1215h",
-            "catalog_number": "303",
-            "subject": "HIST"
+            "possible_emails": [
+                "clementine.bordeaux@csun.edu",
+                "clementine.oliver@csun.edu"
+            ]
+        }
+    ],
+    "HIST 304": [
+        {
+            "class_number": "20734",
+            "enrollment_cap": 44,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
         }
     ],
     "HIST 341": [
         {
             "class_number": "12907",
-            "enrollment_cap": 30,
+            "enrollment_cap": 44,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "341",
-            "subject": "HIST"
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
         }
     ],
     "HIST 342": [
         {
             "class_number": "12542",
-            "enrollment_cap": 49,
+            "enrollment_cap": 47,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "342",
-            "subject": "HIST"
+            "instructor": "Horowitz,Richard S",
+            "days": "TR",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "richard.horowitz@csun.edu",
+                "bryant.horowitz@csun.edu",
+                "justin.horowitz@csun.edu"
+            ]
         },
         {
             "class_number": "12605",
-            "enrollment_cap": 49,
+            "enrollment_cap": 33,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "342",
-            "subject": "HIST"
+            "instructor": "Horowitz,Richard S",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "richard.horowitz@csun.edu",
+                "bryant.horowitz@csun.edu",
+                "justin.horowitz@csun.edu"
+            ]
         }
     ],
-    "HIST 349B": [
+    "HIST 345": [
         {
-            "class_number": "12908",
-            "enrollment_cap": 30,
+            "class_number": "12978",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructor": "Fitzpatrick-Behrens,Susan R",
+            "days": "R",
+            "location": "SH186",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "susan.fitzpatrick-behrens@csun.edu"
+            ]
+        }
+    ],
+    "HIST 350": [
+        {
+            "class_number": "12741",
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "SH160",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "349B",
-            "subject": "HIST"
+            "possible_emails": []
         }
     ],
-    "HIST 357": [
+    "HIST 351": [
         {
-            "class_number": "13246",
-            "enrollment_cap": 15,
+            "class_number": "20736",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "357",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 366": [
-        {
-            "class_number": "12909",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "366",
-            "subject": "HIST"
+            "days": "MW",
+            "location": "SH160",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         }
     ],
     "HIST 369": [
         {
             "class_number": "12431",
-            "enrollment_cap": 49,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "369",
-            "subject": "HIST"
+            "days": "TR",
+            "location": "SH209",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
         }
     ],
     "HIST 370": [
         {
             "class_number": "12742",
-            "enrollment_cap": 49,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "370",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "12827",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "370",
-            "subject": "HIST"
+            "location": "SH186",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
         }
     ],
     "HIST 370HON": [
         {
             "class_number": "12759",
-            "enrollment_cap": 30,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Kaja,Jeffrey D",
             "days": "TR",
-            "location": "TBA",
+            "location": "SH184",
             "start_time": "1230h",
             "end_time": "1345h",
-            "catalog_number": "370HON",
-            "subject": "HIST"
+            "possible_emails": [
+                "jeffrey.kaja@csun.edu"
+            ]
         }
     ],
     "HIST 371": [
         {
             "class_number": "12221",
-            "enrollment_cap": 42,
+            "enrollment_cap": 70,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "371",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "12540",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "371",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "12541",
-            "enrollment_cap": 49,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "371",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 410": [
-        {
-            "class_number": "13181",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "410",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 415": [
-        {
-            "class_number": "13331",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
+            "location": "SH280",
             "start_time": "1400h",
             "end_time": "1515h",
-            "catalog_number": "415",
-            "subject": "HIST"
+            "possible_emails": []
+        }
+    ],
+    "HIST 380": [
+        {
+            "class_number": "13060",
+            "enrollment_cap": 39,
+            "enrollment_count": 0,
+            "instructor": "Sides,Josh",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "joshua.wentz@csun.edu",
+                "joshua.molina@csun.edu",
+                "joshua.cohen@csun.edu",
+                "joshua.kim@csun.edu",
+                "joshua.schwartz@csun.edu",
+                "josh.sides@csun.edu"
+            ]
         }
     ],
     "HIST 417": [
         {
             "class_number": "12691",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "417",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "13180",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "417",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "13241",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "417",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 427": [
-        {
-            "class_number": "12806",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "427",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 433": [
+            "days": "F",
+            "location": "SH186",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
+        },
         {
-            "class_number": "12604",
-            "enrollment_cap": 30,
+            "class_number": "13180",
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
+            "days": null,
+            "location": "SH184",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "13241",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "SH184",
+            "start_time": "1230h",
+            "end_time": "1515h",
+            "possible_emails": []
+        }
+    ],
+    "HIST 420": [
+        {
+            "class_number": "20737",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH106",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "clementine.bordeaux@csun.edu",
+                "clementine.oliver@csun.edu"
+            ]
+        }
+    ],
+    "HIST 426": [
+        {
+            "class_number": "13106",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "instructor": "Howes,Rachel T",
             "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "433",
-            "subject": "HIST"
+            "location": "SH182",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "rachel.howes@csun.edu"
+            ]
         }
     ],
     "HIST 441": [
         {
             "class_number": "12798",
-            "enrollment_cap": 30,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "O'Sullivan,Donal B",
             "days": "MW",
-            "location": "TBA",
+            "location": "SH102",
             "start_time": "1100h",
             "end_time": "1215h",
-            "catalog_number": "441",
-            "subject": "HIST"
+            "possible_emails": []
         }
     ],
     "HIST 450": [
         {
-            "class_number": "13242",
-            "enrollment_cap": 30,
+            "class_number": "12709",
+            "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Neirick,Miriam B",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "450",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 452": [
-        {
-            "class_number": "13245",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
+            "location": "SH279",
             "start_time": "1400h",
             "end_time": "1515h",
-            "catalog_number": "452",
-            "subject": "HIST"
+            "possible_emails": [
+                "miriam.neirick@csun.edu"
+            ]
+        }
+    ],
+    "HIST 456": [
+        {
+            "class_number": "12983",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Goldner,Erik H",
+            "days": "R",
+            "location": "SH265",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "erik.goldner@csun.edu"
+            ]
+        }
+    ],
+    "HIST 463": [
+        {
+            "class_number": "12944",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": []
         }
     ],
     "HIST 466": [
         {
-            "class_number": "12826",
-            "enrollment_cap": 30,
+            "class_number": "21243",
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "466",
-            "subject": "HIST"
+            "days": "MW",
+            "location": "MZ115",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         }
     ],
-    "HIST 473A": [
+    "HIST 471": [
         {
-            "class_number": "12863",
-            "enrollment_cap": 30,
+            "class_number": "12987",
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Kaja,Jeffrey D",
             "days": "R",
-            "location": "TBA",
+            "location": "SH186",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "473A",
-            "subject": "HIST"
+            "possible_emails": [
+                "jeffrey.kaja@csun.edu"
+            ]
+        }
+    ],
+    "HIST 473B": [
+        {
+            "class_number": "12860",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": []
         }
     ],
     "HIST 474A": [
         {
-            "class_number": "12864",
-            "enrollment_cap": 30,
+            "class_number": "21252",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Devine,Thomas W",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "474A",
-            "subject": "HIST"
+            "location": "SH267",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "tom.devine@csun.edu"
+            ]
         }
     ],
     "HIST 485C": [
         {
             "class_number": "13250",
-            "enrollment_cap": 30,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "485C",
-            "subject": "HIST"
+            "instructor": "Neirick,Miriam B",
+            "days": "F",
+            "location": "SH225",
+            "start_time": "0930h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "miriam.neirick@csun.edu"
+            ]
         }
     ],
-    "HIST 488": [
+    "HIST 491A": [
         {
-            "class_number": "12529",
-            "enrollment_cap": 30,
+            "class_number": "12832",
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Horowitz,Richard S",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "488",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 493": [
-        {
-            "class_number": "12984",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "493",
-            "subject": "HIST"
+            "location": "SH276",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": [
+                "richard.horowitz@csun.edu",
+                "bryant.horowitz@csun.edu",
+                "justin.horowitz@csun.edu"
+            ]
         }
     ],
     "HIST 494SOC": [
@@ -632,217 +651,257 @@
             "class_number": "12081",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Kim,Jessica M",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "494SOC",
-            "subject": "HIST"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "robert.kim@csun.edu",
+                "stephanie.kim@csun.edu",
+                "jessica.kim@csun.edu",
+                "song.kim@csun.edu",
+                "eunju.kim@csun.edu",
+                "taehyun.kim@csun.edu",
+                "ah.jeong.kim@csun.edu",
+                "jongeun.kim@csun.edu",
+                "choomee.kim@csun.edu",
+                "sungjin.kim@csun.edu",
+                "joo.kim@csun.edu",
+                "joshua.kim@csun.edu",
+                "jinah.kim@csun.edu"
+            ]
         }
     ],
     "HIST 497A": [
         {
             "class_number": "12654",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "497A",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 497B": [
-        {
-            "class_number": "12692",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "497B",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 497C": [
-        {
-            "class_number": "12693",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Oliver,Clementine",
             "days": "M",
-            "location": "TBA",
+            "location": "SH288",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "497C",
-            "subject": "HIST"
+            "possible_emails": [
+                "clementine.bordeaux@csun.edu",
+                "clementine.oliver@csun.edu"
+            ]
+        },
+        {
+            "class_number": "13084",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Juarez-Dappe,Patricia I",
+            "days": "T",
+            "location": "SH288",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "patricia.juarez-dappe@csun.edu"
+            ]
+        },
+        {
+            "class_number": "20754",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Sides,Josh",
+            "days": "R",
+            "location": "SH288",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "joshua.wentz@csun.edu",
+                "joshua.molina@csun.edu",
+                "joshua.cohen@csun.edu",
+                "joshua.kim@csun.edu",
+                "joshua.schwartz@csun.edu",
+                "josh.sides@csun.edu"
+            ]
         }
     ],
     "HIST 498C": [
         {
             "class_number": "12240",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1215h",
-            "catalog_number": "498C",
-            "subject": "HIST"
+            "days": "T",
+            "location": "SH186",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
             "class_number": "12606",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "498C",
-            "subject": "HIST"
+            "instructor": "Howes,Rachel T",
+            "days": "MW",
+            "location": "SH182",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": [
+                "rachel.howes@csun.edu"
+            ]
         },
         {
             "class_number": "12743",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "498C",
-            "subject": "HIST"
-        },
-        {
-            "class_number": "12745",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Kim,Jessica M",
             "days": "W",
-            "location": "TBA",
+            "location": "SH184",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "498C",
-            "subject": "HIST"
+            "possible_emails": [
+                "robert.kim@csun.edu",
+                "stephanie.kim@csun.edu",
+                "jessica.kim@csun.edu",
+                "song.kim@csun.edu",
+                "eunju.kim@csun.edu",
+                "taehyun.kim@csun.edu",
+                "ah.jeong.kim@csun.edu",
+                "jongeun.kim@csun.edu",
+                "choomee.kim@csun.edu",
+                "sungjin.kim@csun.edu",
+                "joo.kim@csun.edu",
+                "joshua.kim@csun.edu",
+                "jinah.kim@csun.edu"
+            ]
         }
     ],
-    "HIST 511": [
+    "HIST 563": [
         {
-            "class_number": "13347",
-            "enrollment_cap": 10,
+            "class_number": "20746",
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Fitzpatrick-Behrens,Susan R",
             "days": "R",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "511",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 594": [
-        {
-            "class_number": "12867",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "594",
-            "subject": "HIST"
-        }
-    ],
-    "HIST 596F": [
-        {
-            "class_number": "13115",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
+            "location": "SH288",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "596F",
-            "subject": "HIST"
+            "possible_emails": [
+                "susan.fitzpatrick-behrens@csun.edu"
+            ]
         }
     ],
-    "HIST 596I": [
+    "HIST 570": [
         {
-            "class_number": "13175",
-            "enrollment_cap": 15,
+            "class_number": "12930",
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
+            "instructor": "Kaja,Jeffrey D",
+            "days": "W",
+            "location": "SH288",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "596I",
-            "subject": "HIST"
+            "possible_emails": [
+                "jeffrey.kaja@csun.edu"
+            ]
+        }
+    ],
+    "HIST 596AN": [
+        {
+            "class_number": "20747",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Nuno,John Paul A",
+            "days": "M",
+            "location": "SH106",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "johnpaul.nuno@csun.edu"
+            ]
+        }
+    ],
+    "HIST 596EG": [
+        {
+            "class_number": "13108",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Goldner,Erik H",
+            "days": "T",
+            "location": "SH384",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "erik.goldner@csun.edu"
+            ]
         }
     ],
     "HIST 601": [
         {
             "class_number": "12608",
-            "enrollment_cap": 15,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
+            "instructor": "Horowitz,Richard S",
+            "days": "T",
+            "location": "SH265",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "601",
-            "subject": "HIST"
+            "possible_emails": [
+                "richard.horowitz@csun.edu",
+                "bryant.horowitz@csun.edu",
+                "justin.horowitz@csun.edu"
+            ]
         }
     ],
-    "HIST 620": [
+    "HIST 641": [
         {
-            "class_number": "13348",
-            "enrollment_cap": 15,
+            "class_number": "12928",
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "O'Sullivan,Donal B",
+            "days": "W",
+            "location": "SH288",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "HIST 692C": [
+        {
+            "class_number": "20901",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Zappia,Natale A",
             "days": "M",
-            "location": "TBA",
+            "location": "SH184",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "620",
-            "subject": "HIST"
+            "possible_emails": [
+                "natale.zappia@csun.edu"
+            ]
         }
     ],
     "HIST 694": [
         {
-            "class_number": "12422",
-            "enrollment_cap": 15,
+            "class_number": "21166",
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "694",
-            "subject": "HIST"
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "HIST 698D": [
         {
-            "class_number": "13208",
-            "enrollment_cap": 15,
+            "class_number": "20784",
+            "enrollment_cap": -2,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
+            "instructor": "Neirick,Miriam B",
+            "days": "T",
+            "location": "SH266",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "698D",
-            "subject": "HIST"
+            "possible_emails": [
+                "miriam.neirick@csun.edu"
+            ]
         }
     ]
 }

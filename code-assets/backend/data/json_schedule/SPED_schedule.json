@@ -2,129 +2,141 @@
     "SPED 200SL": [
         {
             "class_number": "15984",
-            "enrollment_cap": 26,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Lasky,Beth A",
             "days": "MW",
-            "location": "TBA",
+            "location": "ED1122",
             "start_time": "1230h",
             "end_time": "1345h",
-            "catalog_number": "200SL",
-            "subject": "SPED"
+            "possible_emails": [
+                "beth.lasky@csun.edu"
+            ]
         },
         {
             "class_number": "15999",
-            "enrollment_cap": 26,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "TBA",
+            "location": "ED1122",
             "start_time": "1230h",
             "end_time": "1345h",
-            "catalog_number": "200SL",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 400": [
         {
             "class_number": "15501",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "SH287",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "400",
-            "subject": "SPED"
+            "possible_emails": []
         },
         {
             "class_number": "15661",
-            "enrollment_cap": 30,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "400",
-            "subject": "SPED"
+            "instructor": "Kennedy,VIrginia E",
+            "days": "T",
+            "location": "ED1122",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "virginia.kennedy@csun.edu",
+                "nola.kennedy@csun.edu"
+            ]
         },
         {
             "class_number": "15502",
-            "enrollment_cap": 30,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "400",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "TBA",
+            "end_time": "TBA",
+            "possible_emails": []
         },
         {
             "class_number": "15879",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Schneiderman,Ellen S",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "400",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "ellen.schneiderman@csun.edu"
+            ]
         },
         {
             "class_number": "15920",
-            "enrollment_cap": 30,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "400",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "SPED 402": [
+        {
+            "class_number": "20859",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "BB1238",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         },
         {
-            "class_number": "15926",
-            "enrollment_cap": 30,
+            "class_number": "20860",
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "400",
-            "subject": "SPED"
+            "days": "T",
+            "location": "ED1127",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         }
     ],
     "SPED 403D": [
         {
             "class_number": "15715",
-            "enrollment_cap": 12,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Friedman-Narr,Rachel A",
             "days": "R",
-            "location": "TBA",
+            "location": "ED3115",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "403D",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 403MME": [
         {
             "class_number": "15711",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Toews,Samantha Gross",
             "days": "M",
-            "location": "TBA",
+            "location": "BH315",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "403MME",
-            "subject": "SPED"
+            "possible_emails": [
+                "samantha.toews@csun.edu"
+            ]
         }
     ],
     "SPED 403MS": [
@@ -134,241 +146,200 @@
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "BH315",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "403MS",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 404": [
         {
             "class_number": "15712",
-            "enrollment_cap": 30,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "404",
-            "subject": "SPED"
-        },
-        {
-            "class_number": "15713",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "404",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 406": [
         {
             "class_number": "15716",
-            "enrollment_cap": 30,
+            "enrollment_cap": 21,
+            "enrollment_count": 0,
+            "instructor": "Deniz,Fatmana",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "fatmana.deniz@csun.edu"
+            ]
+        }
+    ],
+    "SPED 407": [
+        {
+            "class_number": "20862",
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "406",
-            "subject": "SPED"
+            "days": "W",
+            "location": "ED1122",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         }
     ],
     "SPED 416": [
         {
             "class_number": "15718",
-            "enrollment_cap": 25,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Deniz,Fatmana",
             "days": "M",
-            "location": "TBA",
+            "location": "ED1122",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "416",
-            "subject": "SPED"
+            "possible_emails": [
+                "fatmana.deniz@csun.edu"
+            ]
         },
         {
             "class_number": "15798",
-            "enrollment_cap": 25,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "ED1122",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "416",
-            "subject": "SPED"
-        },
-        {
-            "class_number": "16182",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "416",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 420": [
         {
             "class_number": "15719",
-            "enrollment_cap": 30,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "ED1130",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "420",
-            "subject": "SPED"
+            "possible_emails": []
         },
         {
             "class_number": "15720",
-            "enrollment_cap": 30,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "ED1127",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "420",
-            "subject": "SPED"
+            "possible_emails": []
         },
         {
             "class_number": "15721",
-            "enrollment_cap": 30,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
-            "location": "TBA",
+            "location": "BB1238",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "420",
-            "subject": "SPED"
+            "possible_emails": []
         },
         {
             "class_number": "15770",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "420",
-            "subject": "SPED"
-        },
-        {
-            "class_number": "15887",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "420",
-            "subject": "SPED"
-        },
-        {
-            "class_number": "15940",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "420",
-            "subject": "SPED"
-        },
-        {
-            "class_number": "16135",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "420",
-            "subject": "SPED"
-        },
-        {
-            "class_number": "16136",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "420",
-            "subject": "SPED"
-        }
-    ],
-    "SPED 501MM": [
-        {
-            "class_number": "15532",
             "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
-            "location": "TBA",
+            "location": "BH315",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "501MM",
-            "subject": "SPED"
+            "possible_emails": []
+        },
+        {
+            "class_number": "15940",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "BH313",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "16135",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Stuve,Heather",
+            "days": "R",
+            "location": "ED1122",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "heather.mccollum@csun.edu",
+                "heather.stuve@csun.edu",
+                "heather.castle@csun.edu",
+                "heather.clark@csun.edu"
+            ]
         }
     ],
     "SPED 502MME": [
         {
             "class_number": "15507",
-            "enrollment_cap": 22,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
-            "location": "TBA",
+            "location": "JR247",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "502MME",
-            "subject": "SPED"
+            "possible_emails": []
         },
         {
             "class_number": "15508",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Goodwin,Vanessa A",
+            "days": "R",
+            "location": "BB1238",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "vanessa.goodwin@csun.edu"
+            ]
+        }
+    ],
+    "SPED 503MME": [
+        {
+            "class_number": "15503",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ED1122",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "15653",
             "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "502MME",
-            "subject": "SPED"
-        }
-    ],
-    "SPED 505MS": [
-        {
-            "class_number": "15591",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "505MS",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 506DHA": [
@@ -376,27 +347,25 @@
             "class_number": "15722",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Friedman-Narr,Rachel A",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506DHA",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 506DHB": [
         {
             "class_number": "15723",
-            "enrollment_cap": 12,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Friedman-Narr,Rachel A",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506DHB",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 506DHC": [
@@ -404,97 +373,99 @@
             "class_number": "15724",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Friedman-Narr,Rachel A",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506DHC",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 506DHD": [
         {
             "class_number": "15725",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Friedman-Narr,Rachel A",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506DHD",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 506ECA": [
         {
             "class_number": "15608",
-            "enrollment_cap": 26,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Wong,Connie",
             "days": "T",
-            "location": "TBA",
+            "location": "ED3115",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "506ECA",
-            "subject": "SPED"
+            "possible_emails": [
+                "connie.wong@csun.edu",
+                "connie.white@csun.edu"
+            ]
         }
     ],
     "SPED 506ECB": [
         {
             "class_number": "15726",
-            "enrollment_cap": 26,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506ECB",
-            "subject": "SPED"
+            "instructor": "Wong,Connie",
+            "days": "T",
+            "location": "ONCAMP",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "connie.wong@csun.edu",
+                "connie.white@csun.edu"
+            ]
         }
     ],
     "SPED 506ECC": [
         {
             "class_number": "15727",
-            "enrollment_cap": 26,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506ECC",
-            "subject": "SPED"
+            "instructor": "Wong,Connie",
+            "days": "T",
+            "location": "ONCAMP",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "connie.wong@csun.edu",
+                "connie.white@csun.edu"
+            ]
         }
     ],
     "SPED 506MEA": [
         {
             "class_number": "15728",
-            "enrollment_cap": 26,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
+            "days": "M",
+            "location": "ONCAMP",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "506MEA",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 506MEB": [
         {
             "class_number": "15729",
-            "enrollment_cap": 26,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
+            "days": "M",
+            "location": "ONCAMP",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "506MEB",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 506MEC": [
@@ -502,13 +473,14 @@
             "class_number": "15730",
             "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Toews,Samantha Gross",
             "days": "R",
-            "location": "TBA",
+            "location": "ONCAMP",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "506MEC",
-            "subject": "SPED"
+            "possible_emails": [
+                "samantha.toews@csun.edu"
+            ]
         }
     ],
     "SPED 506MED": [
@@ -516,41 +488,14 @@
             "class_number": "15731",
             "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Toews,Samantha Gross",
             "days": "R",
-            "location": "TBA",
+            "location": "ONCAMP",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "506MED",
-            "subject": "SPED"
-        }
-    ],
-    "SPED 506MSA": [
-        {
-            "class_number": "15733",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506MSA",
-            "subject": "SPED"
-        }
-    ],
-    "SPED 506MSB": [
-        {
-            "class_number": "15734",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506MSB",
-            "subject": "SPED"
+            "possible_emails": [
+                "samantha.toews@csun.edu"
+            ]
         }
     ],
     "SPED 506MSC": [
@@ -559,54 +504,68 @@
             "enrollment_cap": 26,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506MSC",
-            "subject": "SPED"
+            "days": "R",
+            "location": "BH313",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         }
     ],
     "SPED 506MSD": [
         {
             "class_number": "15736",
-            "enrollment_cap": 26,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "506MSD",
-            "subject": "SPED"
+            "days": "R",
+            "location": "BH315",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "SPED 511": [
+        {
+            "class_number": "20880",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Goodwin,Vanessa A",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "vanessa.goodwin@csun.edu"
+            ]
         }
     ],
     "SPED 532": [
         {
             "class_number": "15592",
-            "enrollment_cap": 25,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Wong,Connie",
             "days": "M",
-            "location": "TBA",
+            "location": "ED3115",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "532",
-            "subject": "SPED"
+            "possible_emails": [
+                "connie.wong@csun.edu",
+                "connie.white@csun.edu"
+            ]
         }
     ],
     "SPED 537": [
         {
             "class_number": "15553",
-            "enrollment_cap": 18,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "ED3115",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "537",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 538": [
@@ -614,13 +573,15 @@
             "class_number": "15784",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Wong,Connie",
             "days": "T",
-            "location": "TBA",
+            "location": "ED3115",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "538",
-            "subject": "SPED"
+            "possible_emails": [
+                "connie.wong@csun.edu",
+                "connie.white@csun.edu"
+            ]
         }
     ],
     "SPED 542B": [
@@ -628,79 +589,116 @@
             "class_number": "15561",
             "enrollment_cap": 80,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Gudoski,Phyllis J",
             "days": "M",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "542B",
-            "subject": "SPED"
+            "possible_emails": [
+                "phyllis.gudoski@csun.edu"
+            ]
         },
         {
             "class_number": "15562",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Gudoski,Phyllis J",
             "days": "M",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "542B",
-            "subject": "SPED"
+            "possible_emails": [
+                "phyllis.gudoski@csun.edu"
+            ]
         },
         {
             "class_number": "15652",
-            "enrollment_cap": 30,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "542B",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 544CD": [
         {
             "class_number": "16078",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "544CD",
-            "subject": "SPED"
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "SPED 545": [
+        {
+            "class_number": "20999",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "BB1232",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "21000",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "BB1232",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         }
     ],
     "SPED 561D": [
         {
             "class_number": "15788",
-            "enrollment_cap": 30,
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Friedman-Narr,Rachel A",
+            "days": "W",
+            "location": "ED3115",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        }
+    ],
+    "SPED 565": [
+        {
+            "class_number": "15789",
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "561D",
-            "subject": "SPED"
+            "location": "ED3115",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         }
     ],
     "SPED 566D": [
         {
             "class_number": "15787",
-            "enrollment_cap": 30,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Schneiderman,Ellen S",
             "days": "R",
-            "location": "TBA",
+            "location": "ED3115",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "566D",
-            "subject": "SPED"
+            "possible_emails": [
+                "ellen.schneiderman@csun.edu"
+            ]
         }
     ],
     "SPED 578": [
@@ -708,27 +706,30 @@
             "class_number": "15785",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Wong,Connie",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "578",
-            "subject": "SPED"
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "connie.wong@csun.edu",
+                "connie.white@csun.edu"
+            ]
         }
     ],
     "SPED 580ACT": [
         {
             "class_number": "15500",
-            "enrollment_cap": 30,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Gudoski,Phyllis J",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "580ACT",
-            "subject": "SPED"
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "phyllis.gudoski@csun.edu"
+            ]
         }
     ],
     "SPED 580DHH": [
@@ -736,13 +737,12 @@
             "class_number": "15513",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Friedman-Narr,Rachel A",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "580DHH",
-            "subject": "SPED"
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 580EC": [
@@ -750,13 +750,15 @@
             "class_number": "15557",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "580EC",
-            "subject": "SPED"
+            "instructor": "Wong,Connie",
+            "days": "T",
+            "location": "ONCAMP",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "connie.wong@csun.edu",
+                "connie.white@csun.edu"
+            ]
         }
     ],
     "SPED 580MME": [
@@ -765,12 +767,11 @@
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
+            "days": "R",
+            "location": "ED1129",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "580MME",
-            "subject": "SPED"
+            "possible_emails": []
         }
     ],
     "SPED 580MS": [
@@ -781,10 +782,9 @@
             "instructor": "Staff",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "580MS",
-            "subject": "SPED"
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 580S": [
@@ -795,24 +795,27 @@
             "instructor": "Staff",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "580S",
-            "subject": "SPED"
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 610": [
         {
             "class_number": "15505",
-            "enrollment_cap": 26,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Stuve,Heather",
             "days": "R",
-            "location": "TBA",
+            "location": "ED1122",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "610",
-            "subject": "SPED"
+            "possible_emails": [
+                "heather.mccollum@csun.edu",
+                "heather.stuve@csun.edu",
+                "heather.castle@csun.edu",
+                "heather.clark@csun.edu"
+            ]
         }
     ],
     "SPED 628DHH": [
@@ -822,11 +825,10 @@
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "628DHH",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 628EC": [
@@ -836,11 +838,10 @@
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "628EC",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 628MM": [
@@ -848,97 +849,79 @@
             "class_number": "16089",
             "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "628MM",
-            "subject": "SPED"
-        }
-    ],
-    "SPED 628MS": [
-        {
-            "class_number": "16090",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "628MS",
-            "subject": "SPED"
+            "instructor": "Toews,Samantha Gross",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "samantha.toews@csun.edu"
+            ]
         }
     ],
     "SPED 638": [
         {
             "class_number": "15861",
-            "enrollment_cap": 26,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "638",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 642": [
         {
             "class_number": "15600",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "642",
-            "subject": "SPED"
+            "days": "M",
+            "location": "ONCAMP",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         }
     ],
     "SPED 671": [
         {
             "class_number": "15598",
-            "enrollment_cap": 25,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "671",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 676": [
         {
             "class_number": "15620",
-            "enrollment_cap": 30,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "676",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 681": [
         {
             "class_number": "15739",
-            "enrollment_cap": 26,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Friedman-Narr,Rachel A",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "681",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 682D": [
@@ -946,13 +929,12 @@
             "class_number": "15572",
             "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Friedman-Narr,Rachel A",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "682D",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 682EC": [
@@ -962,53 +944,66 @@
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "682EC",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 682MM": [
         {
             "class_number": "15511",
-            "enrollment_cap": 30,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Ashton,Tamarah M",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "682MM",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "tamarah.ashton@csun.edu"
+            ]
         }
     ],
     "SPED 682MS": [
         {
             "class_number": "15966",
-            "enrollment_cap": 25,
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructor": "Toews,Samantha Gross",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "samantha.toews@csun.edu"
+            ]
+        }
+    ],
+    "SPED 683": [
+        {
+            "class_number": "15509",
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "682MS",
-            "subject": "SPED"
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         }
     ],
     "SPED 695A": [
         {
             "class_number": "16094",
-            "enrollment_cap": 26,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "695A",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ],
     "SPED 697": [
@@ -1016,25 +1011,38 @@
             "class_number": "15772",
             "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Ashton,Tamarah M",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "697",
-            "subject": "SPED"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "tamarah.ashton@csun.edu"
+            ]
         },
         {
             "class_number": "15773",
-            "enrollment_cap": 26,
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "SPED 699X": [
+        {
+            "class_number": "15499",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "697",
-            "subject": "SPED"
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ]
 }

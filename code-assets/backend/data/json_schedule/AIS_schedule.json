@@ -2,81 +2,79 @@
     "AIS 101": [
         {
             "class_number": "14298",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "101",
-            "subject": "AIS"
-        },
-        {
-            "class_number": "14326",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "101",
-            "subject": "AIS"
-        }
-    ],
-    "AIS 222": [
-        {
-            "class_number": "15126",
-            "enrollment_cap": 35,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "222",
-            "subject": "AIS"
+            "location": "JR214",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
+        }
+    ],
+    "AIS 210": [
+        {
+            "class_number": "20680",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "instructor": "Worthington,Gina",
+            "days": "MW",
+            "location": "JR221",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "gina.giotta@csun.edu",
+                "gina.masequesmay@csun.edu",
+                "gina.srmabekian@csun.edu",
+                "gina.worthington@csun.edu"
+            ]
         }
     ],
     "AIS 301": [
         {
             "class_number": "15220",
-            "enrollment_cap": 35,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "301",
-            "subject": "AIS"
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
         }
     ],
     "AIS 304": [
         {
             "class_number": "14669",
-            "enrollment_cap": 35,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Coates,Julia",
             "days": "MW",
-            "location": "TBA",
+            "location": "JR217",
             "start_time": "1100h",
             "end_time": "1215h",
-            "catalog_number": "304",
-            "subject": "AIS"
-        },
+            "possible_emails": [
+                "julia.coates@csun.edu",
+                "julia.heinen@csun.edu",
+                "julia.chang@csun.edu",
+                "julia.hoch@csun.edu",
+                "julian.lozos@csun.edu",
+                "julian.corpeno@csun.edu",
+                "julia.schlosser@csun.edu"
+            ]
+        }
+    ],
+    "AIS 318": [
         {
-            "class_number": "15327",
-            "enrollment_cap": 35,
+            "class_number": "21029",
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "304",
-            "subject": "AIS"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ]
 }

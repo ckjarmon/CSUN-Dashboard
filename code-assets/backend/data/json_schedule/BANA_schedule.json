@@ -2,29 +2,48 @@
     "BANA 310": [
         {
             "class_number": "13883",
-            "enrollment_cap": 40,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Sheng,Qiuhua",
             "days": "W",
-            "location": "TBA",
+            "location": "BB2212",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "310",
-            "subject": "BANA"
+            "possible_emails": [
+                "qiuhua.sheng@csun.edu",
+                "donna.sheng@csun.edu"
+            ]
         }
     ],
-    "BANA 410": [
+    "BANA 320": [
         {
-            "class_number": "13885",
-            "enrollment_cap": 35,
+            "class_number": "13884",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
+            "instructor": "Gupta,Akash",
+            "days": "T",
+            "location": "BB2212",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "410",
-            "subject": "BANA"
+            "possible_emails": [
+                "takashi.yagisawa@csun.edu",
+                "akash.gupta@csun.edu"
+            ]
+        }
+    ],
+    "BANA 420": [
+        {
+            "class_number": "20677",
+            "enrollment_cap": 18,
+            "enrollment_count": 0,
+            "instructor": "Farrokhvar,Leily",
+            "days": "M",
+            "location": "BB2206",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "leily@csun.edu"
+            ]
         }
     ]
 }

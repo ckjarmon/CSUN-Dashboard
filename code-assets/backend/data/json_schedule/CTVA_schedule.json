@@ -1,872 +1,1009 @@
 {
     "CTVA 100": [
         {
-            "class_number": "11046",
-            "enrollment_cap": 75,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "100",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11107",
-            "enrollment_cap": 75,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "100",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11975",
-            "enrollment_cap": 75,
+            "class_number": "10072",
+            "enrollment_cap": 46,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h",
-            "catalog_number": "100",
-            "subject": "CTVA"
+            "possible_emails": []
+        },
+        {
+            "class_number": "11046",
+            "enrollment_cap": 51,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "BB1131",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "11107",
+            "enrollment_cap": 47,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "BB1131",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 210": [
+        {
+            "class_number": "10073",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ100",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "10655",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "SH203",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "11048",
+            "enrollment_cap": 74,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "11325",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ100",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "11826",
+            "enrollment_cap": 80,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0915h",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 215": [
+        {
+            "class_number": "20751",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        },
+        {
+            "class_number": "21028",
+            "enrollment_cap": 79,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         }
     ],
     "CTVA 220": [
         {
             "class_number": "10821",
-            "enrollment_cap": 20,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Powers,Kate A",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ113",
             "start_time": "1100h",
             "end_time": "1215h",
-            "catalog_number": "220",
-            "subject": "CTVA"
+            "possible_emails": [
+                "kate.powers@csun.edu"
+            ]
         },
         {
             "class_number": "10796",
-            "enrollment_cap": 20,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ124",
             "start_time": "1230h",
             "end_time": "1345h",
-            "catalog_number": "220",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "10074",
-            "enrollment_cap": 20,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Sturgeon,Scott A",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1515h",
-            "catalog_number": "220",
-            "subject": "CTVA"
+            "possible_emails": [
+                "scott.sturgeon@csun.edu"
+            ]
         },
         {
             "class_number": "10075",
-            "enrollment_cap": 20,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ124",
             "start_time": "1100h",
             "end_time": "1215h",
-            "catalog_number": "220",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11052",
-            "enrollment_cap": 20,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ113",
             "start_time": "1230h",
             "end_time": "1345h",
-            "catalog_number": "220",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11066",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1515h",
-            "catalog_number": "220",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 240": [
         {
             "class_number": "10076",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "240",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "10077",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "240",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11018",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ180",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "240",
-            "subject": "CTVA"
+            "possible_emails": []
+        },
+        {
+            "class_number": "10077",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "MZ180",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "11018",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "MZ180",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
         }
     ],
     "CTVA 250": [
         {
             "class_number": "10078",
-            "enrollment_cap": 24,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "250",
-            "subject": "CTVA"
+            "instructor": "Carpenter,Karen D",
+            "days": "W",
+            "location": "MZ103",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "karen.carpenter@csun.edu"
+            ]
         },
         {
             "class_number": "10079",
-            "enrollment_cap": 24,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "MZ170",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "250",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11019",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "250",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "10080",
-            "enrollment_cap": 24,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ113",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "250",
-            "subject": "CTVA"
+            "possible_emails": []
+        },
+        {
+            "class_number": "10080",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "MZ170",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         }
     ],
     "CTVA 260": [
         {
             "class_number": "11798",
-            "enrollment_cap": 25,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Carpenter,Karen D",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "260",
-            "subject": "CTVA"
+            "location": "MZ113",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "karen.carpenter@csun.edu"
+            ]
         },
         {
             "class_number": "11799",
-            "enrollment_cap": 25,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "catalog_number": "260",
-            "subject": "CTVA"
+            "location": "MZ101",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
         }
     ],
     "CTVA 301": [
+        {
+            "class_number": "10611",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "MZ124",
+            "start_time": "0930h",
+            "end_time": "1045h",
+            "possible_emails": []
+        },
         {
             "class_number": "11045",
             "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "301",
-            "subject": "CTVA"
+            "days": "MW",
+            "location": "MZ113",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         },
         {
             "class_number": "11339",
-            "enrollment_cap": 30,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "301",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11579",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "301",
-            "subject": "CTVA"
+            "days": "TR",
+            "location": "MZ113",
+            "start_time": "1100h",
+            "end_time": "1215h",
+            "possible_emails": []
         }
     ],
     "CTVA 305": [
         {
-            "class_number": "11068",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "305",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11539",
-            "enrollment_cap": 60,
+            "class_number": "10711",
+            "enrollment_cap": 51,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "MZ361",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "305",
-            "subject": "CTVA"
+            "possible_emails": []
+        },
+        {
+            "class_number": "11068",
+            "enrollment_cap": 49,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
         }
     ],
     "CTVA 309": [
         {
             "class_number": "10081",
-            "enrollment_cap": 70,
+            "enrollment_cap": 45,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Wynter,Dianah E",
             "days": "T",
-            "location": "TBA",
+            "location": "MZ100",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "309",
-            "subject": "CTVA"
+            "possible_emails": [
+                "dianah.wynter@csun.edu"
+            ]
         },
         {
-            "class_number": "11323",
-            "enrollment_cap": 70,
+            "class_number": "10082",
+            "enrollment_cap": 62,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
-            "location": "TBA",
+            "location": "MZ100",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "309",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 310": [
         {
             "class_number": "10083",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "310",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11934",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "310",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11952",
-            "enrollment_cap": 60,
+            "enrollment_cap": 50,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "MZ100",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "310",
-            "subject": "CTVA"
+            "possible_emails": []
+        },
+        {
+            "class_number": "11934",
+            "enrollment_cap": 51,
+            "enrollment_count": 0,
+            "instructor": "Wynter,Dianah E",
+            "days": "T",
+            "location": "MZ100",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "dianah.wynter@csun.edu"
+            ]
+        },
+        {
+            "class_number": "11952",
+            "enrollment_cap": 53,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
         }
     ],
     "CTVA 315": [
         {
-            "class_number": "11047",
-            "enrollment_cap": 41,
+            "class_number": "10084",
+            "enrollment_cap": 38,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Piersimoni,Anna Marie",
             "days": "TR",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h",
-            "catalog_number": "315",
-            "subject": "CTVA"
+            "possible_emails": [
+                "annamarie.piersimoni@csun.edu"
+            ]
         }
     ],
     "CTVA 319": [
         {
             "class_number": "10085",
-            "enrollment_cap": 55,
+            "enrollment_cap": 46,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "319",
-            "subject": "CTVA"
+            "days": "M",
+            "location": "MZ100",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
         },
         {
             "class_number": "11804",
-            "enrollment_cap": 55,
+            "enrollment_cap": 43,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
+            "days": "MW",
+            "location": "ONLINE",
             "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "319",
-            "subject": "CTVA"
+            "end_time": "1515h",
+            "possible_emails": []
         },
         {
             "class_number": "11953",
-            "enrollment_cap": 55,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "319",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11954",
-            "enrollment_cap": 55,
+            "enrollment_cap": 47,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "319",
-            "subject": "CTVA"
+            "days": "R",
+            "location": "MZ100",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
         },
         {
             "class_number": "12023",
-            "enrollment_cap": 55,
+            "enrollment_cap": 45,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "319",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 320": [
         {
             "class_number": "10086",
-            "enrollment_cap": 20,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "McWilliams,Thomas",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ124",
             "start_time": "1230h",
             "end_time": "1345h",
-            "catalog_number": "320",
-            "subject": "CTVA"
+            "possible_emails": [
+                "thomas.minehan@csun.edu",
+                "thomas.oshiro@csun.edu",
+                "thomas.wedel@csun.edu",
+                "thomas.mcwilliams@csun.edu",
+                "thomas.hartman@csun.edu",
+                "thomasl.thomas@csun.edu",
+                "thomas.smith@csun.edu",
+                "thomas.chan@csun.edu",
+                "ward.thomas@csun.edu",
+                "nate.thomas@csun.edu"
+            ]
         },
         {
             "class_number": "10931",
-            "enrollment_cap": 20,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
-            "location": "TBA",
+            "location": "MZ124",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "320",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11155",
-            "enrollment_cap": 20,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "McWilliams,Thomas",
             "days": "W",
-            "location": "TBA",
+            "location": "MZ124",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "320",
-            "subject": "CTVA"
+            "possible_emails": [
+                "thomas.minehan@csun.edu",
+                "thomas.oshiro@csun.edu",
+                "thomas.wedel@csun.edu",
+                "thomas.mcwilliams@csun.edu",
+                "thomas.hartman@csun.edu",
+                "thomasl.thomas@csun.edu",
+                "thomas.smith@csun.edu",
+                "thomas.chan@csun.edu",
+                "ward.thomas@csun.edu",
+                "nate.thomas@csun.edu"
+            ]
         }
     ],
     "CTVA 329A": [
         {
             "class_number": "10087",
-            "enrollment_cap": 35,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Rappaport,Jared H",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "329A",
-            "subject": "CTVA"
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "jared.h.rappaport@csun.edu"
+            ]
         }
     ],
     "CTVA 329B": [
         {
             "class_number": "10105",
-            "enrollment_cap": 35,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Rappaport,Jared H",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "329B",
-            "subject": "CTVA"
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "jared.h.rappaport@csun.edu"
+            ]
         }
     ],
     "CTVA 329C": [
         {
             "class_number": "10088",
-            "enrollment_cap": 105,
+            "enrollment_cap": 95,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Rappaport,Jared H",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "329C",
-            "subject": "CTVA"
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "jared.h.rappaport@csun.edu"
+            ]
         }
     ],
     "CTVA 331": [
         {
             "class_number": "11955",
-            "enrollment_cap": 24,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Korin,Judy A",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ130",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "331",
-            "subject": "CTVA"
+            "possible_emails": [
+                "judy.korin@csun.edu"
+            ]
         }
     ],
     "CTVA 340": [
         {
             "class_number": "10089",
-            "enrollment_cap": 24,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ180",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "340",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "10808",
-            "enrollment_cap": 24,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ180",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "340",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 341": [
         {
-            "class_number": "10809",
+            "class_number": "10098",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Boccio,Erik",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ160A",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "erik.sandberg@csun.edu",
+                "erik.goldner@csun.edu",
+                "erik.boccio@csun.edu"
+            ]
+        },
+        {
+            "class_number": "10809",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Boccio,Erik",
+            "days": "TR",
+            "location": "MZ130",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "341",
-            "subject": "CTVA"
+            "possible_emails": [
+                "erik.sandberg@csun.edu",
+                "erik.goldner@csun.edu",
+                "erik.boccio@csun.edu"
+            ]
         },
         {
             "class_number": "11249",
-            "enrollment_cap": 24,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jacchia,Alessandro",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "catalog_number": "341",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11977",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
+            "location": "MZ281",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "341",
-            "subject": "CTVA"
+            "possible_emails": [
+                "alessandro.jacchia@csun.edu"
+            ]
         }
     ],
     "CTVA 342": [
         {
             "class_number": "10774",
-            "enrollment_cap": 22,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "342",
-            "subject": "CTVA"
+            "instructor": "Boccio,Erik",
+            "days": "F",
+            "location": "MZ180",
+            "start_time": "1100h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "erik.sandberg@csun.edu",
+                "erik.goldner@csun.edu",
+                "erik.boccio@csun.edu"
+            ]
         }
     ],
     "CTVA 343": [
         {
             "class_number": "11978",
-            "enrollment_cap": 24,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "343",
-            "subject": "CTVA"
+            "location": "MZ160A",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         }
     ],
     "CTVA 346": [
         {
             "class_number": "12003",
-            "enrollment_cap": 24,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Saunders,Quinn C",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ130",
             "start_time": "0800h",
             "end_time": "1045h",
-            "catalog_number": "346",
-            "subject": "CTVA"
+            "possible_emails": [
+                "carmen.saunders@csun.edu",
+                "quinn.saunders@csun.edu",
+                "kurt.saunders@csun.edu"
+            ]
         }
     ],
     "CTVA 350": [
         {
             "class_number": "10090",
-            "enrollment_cap": 20,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ170",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "350",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "10102",
-            "enrollment_cap": 20,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ170",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "350",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11519",
-            "enrollment_cap": 20,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ170",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "350",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 351": [
         {
             "class_number": "10091",
-            "enrollment_cap": 60,
+            "enrollment_cap": 53,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Thomas,Nate",
             "days": "R",
-            "location": "TBA",
+            "location": "MZ361",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "351",
-            "subject": "CTVA"
+            "possible_emails": [
+                "ward.thomas@csun.edu",
+                "thomasl.thomas@csun.edu",
+                "nate.thomas@csun.edu"
+            ]
         }
     ],
     "CTVA 352": [
         {
             "class_number": "10549",
-            "enrollment_cap": 20,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ295",
             "start_time": "0800h",
             "end_time": "1045h",
-            "catalog_number": "352",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "10700",
-            "enrollment_cap": 20,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
+            "instructor": "Petschek,Paul M",
+            "days": "MW",
+            "location": "MZ295",
             "start_time": "1100h",
-            "end_time": "1645h",
-            "catalog_number": "352",
-            "subject": "CTVA"
+            "end_time": "1345h",
+            "possible_emails": [
+                "paul.petschek@csun.edu"
+            ]
         },
         {
             "class_number": "11073",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "352",
-            "subject": "CTVA"
+            "instructor": "Petschek,Paul M",
+            "days": "TR",
+            "location": "MZ295",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": [
+                "paul.petschek@csun.edu"
+            ]
         }
     ],
     "CTVA 355": [
         {
             "class_number": "10099",
-            "enrollment_cap": 25,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Hoggan,Michael B",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ170",
             "start_time": "0800h",
             "end_time": "1045h",
-            "catalog_number": "355",
-            "subject": "CTVA"
+            "possible_emails": [
+                "michael.hoggan@csun.edu"
+            ]
         },
         {
             "class_number": "10100",
-            "enrollment_cap": 25,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Thomas,Nate",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ170",
             "start_time": "0800h",
             "end_time": "1045h",
-            "catalog_number": "355",
-            "subject": "CTVA"
+            "possible_emails": [
+                "ward.thomas@csun.edu",
+                "thomasl.thomas@csun.edu",
+                "nate.thomas@csun.edu"
+            ]
         }
     ],
     "CTVA 356": [
         {
             "class_number": "10101",
-            "enrollment_cap": 20,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Hoggan,Michael B",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ295",
             "start_time": "0800h",
             "end_time": "1045h",
-            "catalog_number": "356",
-            "subject": "CTVA"
+            "possible_emails": [
+                "michael.hoggan@csun.edu"
+            ]
         }
     ],
     "CTVA 357": [
         {
             "class_number": "10103",
-            "enrollment_cap": 20,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Popper,Ino Yang",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ170",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "357",
-            "subject": "CTVA"
+            "possible_emails": [
+                "ino.yang.popper@csun.edu"
+            ]
         }
     ],
     "CTVA 358": [
         {
-            "class_number": "10810",
-            "enrollment_cap": 20,
+            "class_number": "11058",
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Williams Jr.,Russell",
             "days": "F",
-            "location": "TBA",
+            "location": "MZ170",
             "start_time": "1400h",
             "end_time": "1930h",
-            "catalog_number": "358",
-            "subject": "CTVA"
+            "possible_emails": [
+                "russell.williams@csun.edu",
+                "emily.russell@csun.edu",
+                "cody.russell@csun.edu",
+                "david.russell@csun.edu"
+            ]
         }
     ],
     "CTVA 359": [
         {
             "class_number": "10686",
-            "enrollment_cap": 20,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Krantz,Joel",
             "days": "R",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "359",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11476",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
+            "location": "MZ265",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "359",
-            "subject": "CTVA"
+            "possible_emails": [
+                "joel.krantz@csun.edu",
+                "joel.lemuel@csun.edu",
+                "joel.despain@csun.edu",
+                "joel.rarang@csun.edu",
+                "joel.storch@csun.edu",
+                "joel.mcdonell@csun.edu"
+            ]
+        },
+        {
+            "class_number": "11160",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "Krantz,Joel",
+            "days": "R",
+            "location": "MZ295",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "joel.krantz@csun.edu",
+                "joel.lemuel@csun.edu",
+                "joel.despain@csun.edu",
+                "joel.rarang@csun.edu",
+                "joel.storch@csun.edu",
+                "joel.mcdonell@csun.edu"
+            ]
         }
     ],
     "CTVA 363": [
         {
             "class_number": "11980",
-            "enrollment_cap": 24,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Leister,Elizabeth J",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ285",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "363",
-            "subject": "CTVA"
+            "possible_emails": [
+                "elizabeth.leister@csun.edu"
+            ]
         }
     ],
     "CTVA 364": [
         {
             "class_number": "11951",
-            "enrollment_cap": 30,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jarmick,Martin",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "364",
-            "subject": "CTVA"
+            "location": "MZ285",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "priscilla.martinez.497@my.csun.edu",
+                "jess.martin@csun.edu",
+                "martin.cohen@csun.edu",
+                "vincent.martinez@csun.edu",
+                "martin.eisen@csun.edu",
+                "jonathan.martin@csun.edu",
+                "nathan.martin@csun.edu",
+                "jonathan.martinez@csun.edu",
+                "mario.martinez-quijada@csun.edu",
+                "martin.pousson@csun.edu",
+                "fernando.martinez@csun.edu",
+                "joe.martinez@csun.edu"
+            ]
         }
     ],
     "CTVA 370": [
         {
             "class_number": "11981",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Krantz,Joel",
             "days": "T",
-            "location": "TBA",
+            "location": "MZ265",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "370",
-            "subject": "CTVA"
+            "possible_emails": [
+                "joel.krantz@csun.edu",
+                "joel.lemuel@csun.edu",
+                "joel.despain@csun.edu",
+                "joel.rarang@csun.edu",
+                "joel.storch@csun.edu",
+                "joel.mcdonell@csun.edu"
+            ]
         }
     ],
     "CTVA 384": [
         {
             "class_number": "10093",
-            "enrollment_cap": 40,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Holmes,Todd A",
             "days": "T",
-            "location": "TBA",
+            "location": "MZ101",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "384",
-            "subject": "CTVA"
+            "possible_emails": [
+                "todd.holmes@csun.edu"
+            ]
         }
     ],
     "CTVA 400": [
@@ -876,535 +1013,677 @@
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ101",
             "start_time": "0930h",
             "end_time": "1045h",
-            "catalog_number": "400",
-            "subject": "CTVA"
+            "possible_emails": []
+        }
+    ],
+    "CTVA 405": [
+        {
+            "class_number": "11049",
+            "enrollment_cap": 31,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ103",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         }
     ],
     "CTVA 410": [
         {
             "class_number": "11172",
-            "enrollment_cap": 30,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "MZ100",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "410",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 412": [
         {
             "class_number": "11069",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "MZ101",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "412",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 413": [
         {
             "class_number": "11273",
-            "enrollment_cap": 33,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
-            "location": "TBA",
+            "location": "MZ100",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "413",
-            "subject": "CTVA"
+            "possible_emails": []
+        }
+    ],
+    "CTVA 415C": [
+        {
+            "class_number": "11857",
+            "enrollment_cap": 32,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h",
+            "possible_emails": []
         }
     ],
     "CTVA 416": [
         {
             "class_number": "10775",
-            "enrollment_cap": 33,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "416",
-            "subject": "CTVA"
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h",
+            "possible_emails": []
         }
     ],
     "CTVA 420": [
         {
             "class_number": "10653",
-            "enrollment_cap": 20,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "420",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11094",
-            "enrollment_cap": 20,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
-            "location": "TBA",
+            "location": "MZ113",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "420",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "12029",
-            "enrollment_cap": 20,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
-            "location": "TBA",
+            "location": "MZ124",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "420",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 421": [
         {
             "class_number": "10552",
-            "enrollment_cap": 15,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
+            "days": "M",
+            "location": "SH302",
             "start_time": "1100h",
             "end_time": "1345h",
-            "catalog_number": "421",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11391",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
+            "instructor": "Sturgeon,Scott A",
+            "days": "MW",
+            "location": "ONLINE",
             "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "421",
-            "subject": "CTVA"
+            "end_time": "1215h",
+            "possible_emails": [
+                "scott.sturgeon@csun.edu"
+            ]
         }
     ],
     "CTVA 422": [
         {
             "class_number": "11805",
-            "enrollment_cap": 15,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
+            "instructor": "Carr,Patricia",
+            "days": "W",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "422",
-            "subject": "CTVA"
+            "possible_emails": [
+                "douglas.carranza@csun.edu",
+                "joi.carr@csun.edu",
+                "patricia.seymour@csun.edu",
+                "jose.carranza@csun.edu",
+                "patricia.carr@csun.edu",
+                "patricia.juarez-dappe@csun.edu",
+                "nanci.carr@csun.edu",
+                "kimberly.carroll@csun.edu",
+                "aimee.carrillorowe@csun.edu",
+                "edward.carroll@csun.edu"
+            ]
         },
         {
             "class_number": "11982",
-            "enrollment_cap": 15,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
+            "instructor": "Powers,Kate A",
+            "days": "R",
+            "location": "MZ124",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "422",
-            "subject": "CTVA"
+            "possible_emails": [
+                "kate.powers@csun.edu"
+            ]
         }
     ],
     "CTVA 425": [
         {
             "class_number": "10553",
-            "enrollment_cap": 18,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
-            "location": "TBA",
+            "location": "MZ124",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "425",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "10701",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "425",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "12031",
-            "enrollment_cap": 18,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "425",
-            "subject": "CTVA"
+            "possible_emails": []
+        },
+        {
+            "class_number": "12031",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "MZ113",
+            "start_time": "1400h",
+            "end_time": "1645h",
+            "possible_emails": []
         }
     ],
     "CTVA 428": [
         {
             "class_number": "10094",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "428",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11848",
-            "enrollment_cap": 18,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
-            "location": "TBA",
+            "location": "JR218",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "428",
-            "subject": "CTVA"
+            "possible_emails": []
+        },
+        {
+            "class_number": "11848",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Fink,Hugh",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "hugh.fink@csun.edu",
+                "haifa.hughes@csun.edu",
+                "tyler.hughes@csun.edu"
+            ]
         }
     ],
     "CTVA 440": [
         {
-            "class_number": "11086",
-            "enrollment_cap": 20,
+            "class_number": "10095",
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "440",
-            "subject": "CTVA"
+            "instructor": "Saunders,Quinn C",
+            "days": "T",
+            "location": "MZ180",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "carmen.saunders@csun.edu",
+                "quinn.saunders@csun.edu",
+                "kurt.saunders@csun.edu"
+            ]
+        },
+        {
+            "class_number": "11086",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Shin,Christine",
+            "days": "W",
+            "location": "MZ130",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "christine.shin@csun.edu",
+                "christine.lamonica@csun.edu",
+                "christine.strike@csun.edu",
+                "christine.menzies@csun.edu",
+                "christine.l.firkins@csun.edu"
+            ]
         },
         {
             "class_number": "11688",
-            "enrollment_cap": 20,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jacchia,Alessandro",
             "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "440",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11802",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
+            "location": "MZ180",
             "start_time": "0800h",
             "end_time": "1045h",
-            "catalog_number": "440",
-            "subject": "CTVA"
+            "possible_emails": [
+                "alessandro.jacchia@csun.edu"
+            ]
         }
     ],
     "CTVA 441": [
         {
             "class_number": "10554",
-            "enrollment_cap": 24,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Korin,Judy A",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "441",
-            "subject": "CTVA"
+            "location": "MZ281",
+            "start_time": "0800h",
+            "end_time": "1045h",
+            "possible_emails": [
+                "judy.korin@csun.edu"
+            ]
         }
     ],
     "CTVA 442": [
         {
             "class_number": "10811",
-            "enrollment_cap": 21,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Saunders,Quinn C",
             "days": "MW",
-            "location": "TBA",
+            "location": "MZ281",
             "start_time": "1100h",
             "end_time": "1515h",
-            "catalog_number": "442",
-            "subject": "CTVA"
+            "possible_emails": [
+                "carmen.saunders@csun.edu",
+                "quinn.saunders@csun.edu",
+                "kurt.saunders@csun.edu"
+            ]
         },
         {
             "class_number": "11411",
-            "enrollment_cap": 21,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jacchia,Alessandro",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ281",
             "start_time": "0930h",
             "end_time": "1345h",
-            "catalog_number": "442",
-            "subject": "CTVA"
+            "possible_emails": [
+                "alessandro.jacchia@csun.edu"
+            ]
         }
     ],
     "CTVA 452A": [
         {
             "class_number": "10104",
-            "enrollment_cap": 60,
+            "enrollment_cap": 39,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Thomas,Nate",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ103",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "452A",
-            "subject": "CTVA"
+            "possible_emails": [
+                "ward.thomas@csun.edu",
+                "thomasl.thomas@csun.edu",
+                "nate.thomas@csun.edu"
+            ]
         }
     ],
     "CTVA 452B": [
         {
             "class_number": "11983",
-            "enrollment_cap": 60,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Thomas,Nate",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ103",
             "start_time": "1700h",
             "end_time": "1945h",
-            "catalog_number": "452B",
-            "subject": "CTVA"
+            "possible_emails": [
+                "ward.thomas@csun.edu",
+                "thomasl.thomas@csun.edu",
+                "nate.thomas@csun.edu"
+            ]
         }
     ],
     "CTVA 453": [
         {
             "class_number": "11984",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Krantz,Joel",
             "days": "F",
-            "location": "TBA",
+            "location": "MZ265",
             "start_time": "0900h",
             "end_time": "1400h",
-            "catalog_number": "453",
-            "subject": "CTVA"
+            "possible_emails": [
+                "joel.krantz@csun.edu",
+                "joel.lemuel@csun.edu",
+                "joel.despain@csun.edu",
+                "joel.rarang@csun.edu",
+                "joel.storch@csun.edu",
+                "joel.mcdonell@csun.edu"
+            ]
         },
         {
             "class_number": "12009",
-            "enrollment_cap": 30,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Hoggan,Michael B",
             "days": "F",
-            "location": "TBA",
+            "location": "MZ103",
             "start_time": "0900h",
             "end_time": "1400h",
-            "catalog_number": "453",
-            "subject": "CTVA"
+            "possible_emails": [
+                "michael.hoggan@csun.edu"
+            ]
         }
     ],
     "CTVA 455": [
         {
             "class_number": "11886",
-            "enrollment_cap": 30,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "455",
-            "subject": "CTVA"
+            "instructor": "Sibul,Christina",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "christina.sibul@csun.edu",
+                "christina.m.scholten@csun.edu",
+                "christina.campbell@csun.edu",
+                "christina.vonmayrhauser@csun.edu",
+                "christina.weyant@csun.edu",
+                "christina.ayala-alcantar@csun.edu"
+            ]
         },
         {
             "class_number": "11985",
             "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "455",
-            "subject": "CTVA"
+            "instructor": "Carpenter,Karen D",
+            "days": "W",
+            "location": "MZ103",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": [
+                "karen.carpenter@csun.edu"
+            ]
         }
     ],
     "CTVA 462": [
         {
             "class_number": "12005",
-            "enrollment_cap": 24,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "462",
-            "subject": "CTVA"
+            "instructor": "Jarmick,Martin",
+            "days": "MW",
+            "location": "MZ285",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": [
+                "priscilla.martinez.497@my.csun.edu",
+                "jess.martin@csun.edu",
+                "martin.cohen@csun.edu",
+                "vincent.martinez@csun.edu",
+                "martin.eisen@csun.edu",
+                "jonathan.martin@csun.edu",
+                "nathan.martin@csun.edu",
+                "jonathan.martinez@csun.edu",
+                "mario.martinez-quijada@csun.edu",
+                "martin.pousson@csun.edu",
+                "fernando.martinez@csun.edu",
+                "joe.martinez@csun.edu"
+            ]
         }
     ],
     "CTVA 463CS": [
         {
             "class_number": "12004",
-            "enrollment_cap": 24,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Leister,Elizabeth J",
             "days": "TR",
-            "location": "TBA",
+            "location": "MZ285",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "463CS",
-            "subject": "CTVA"
+            "possible_emails": [
+                "elizabeth.leister@csun.edu"
+            ]
         }
     ],
     "CTVA 475": [
         {
             "class_number": "10883",
-            "enrollment_cap": 40,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Holmes,Todd A",
             "days": "M",
-            "location": "TBA",
+            "location": "MZ103",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "475",
-            "subject": "CTVA"
+            "possible_emails": [
+                "todd.holmes@csun.edu"
+            ]
         },
         {
             "class_number": "11986",
-            "enrollment_cap": 40,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
-            "location": "TBA",
+            "location": "MZ101",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "475",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 480": [
         {
             "class_number": "10927",
-            "enrollment_cap": 40,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
+            "instructor": "Sibul,Christina",
+            "days": "T",
+            "location": "NH209",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "480",
-            "subject": "CTVA"
+            "possible_emails": [
+                "christina.sibul@csun.edu",
+                "christina.m.scholten@csun.edu",
+                "christina.campbell@csun.edu",
+                "christina.vonmayrhauser@csun.edu",
+                "christina.weyant@csun.edu",
+                "christina.ayala-alcantar@csun.edu"
+            ]
         },
         {
             "class_number": "10902",
-            "enrollment_cap": 40,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
-            "location": "TBA",
+            "location": "MZ101",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "480",
-            "subject": "CTVA"
+            "possible_emails": []
         },
         {
             "class_number": "11987",
-            "enrollment_cap": 40,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
+            "instructor": "Holmes,Todd A",
+            "days": "W",
+            "location": "MZ101",
             "start_time": "1600h",
             "end_time": "1845h",
-            "catalog_number": "480",
-            "subject": "CTVA"
+            "possible_emails": [
+                "todd.holmes@csun.edu"
+            ]
         },
         {
             "class_number": "11988",
-            "enrollment_cap": 40,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
-            "location": "TBA",
+            "location": "MZ101",
             "start_time": "1400h",
             "end_time": "1645h",
-            "catalog_number": "480",
-            "subject": "CTVA"
+            "possible_emails": []
         }
     ],
     "CTVA 482": [
         {
             "class_number": "10096",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "482",
-            "subject": "CTVA"
-        },
-        {
-            "class_number": "11061",
-            "enrollment_cap": 20,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "MZ113",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "482",
-            "subject": "CTVA"
+            "possible_emails": []
+        },
+        {
+            "class_number": "11061",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         },
         {
             "class_number": "11989",
-            "enrollment_cap": 20,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Sibul,Christina",
             "days": "R",
-            "location": "TBA",
+            "location": "MZ113",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "482",
-            "subject": "CTVA"
+            "possible_emails": [
+                "christina.sibul@csun.edu",
+                "christina.m.scholten@csun.edu",
+                "christina.campbell@csun.edu",
+                "christina.vonmayrhauser@csun.edu",
+                "christina.weyant@csun.edu",
+                "christina.ayala-alcantar@csun.edu"
+            ]
         }
     ],
     "CTVA 483": [
         {
             "class_number": "11990",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "TBA",
+            "location": "MZ124",
             "start_time": "1900h",
             "end_time": "2145h",
-            "catalog_number": "483",
-            "subject": "CTVA"
+            "possible_emails": []
+        }
+    ],
+    "CTVA 487": [
+        {
+            "class_number": "10097",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "11991",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "11992",
+            "enrollment_cap": 27,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        },
+        {
+            "class_number": "12025",
+            "enrollment_cap": 27,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1345h",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 489": [
+        {
+            "class_number": "21242",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ111",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
         }
     ],
     "CTVA 494A": [
@@ -1415,10 +1694,217 @@
             "instructor": "Staff",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "494A",
-            "subject": "CTVA"
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 494B": [
+        {
+            "class_number": "11823",
+            "enrollment_cap": 80,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 494C": [
+        {
+            "class_number": "11824",
+            "enrollment_cap": 40,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 494D": [
+        {
+            "class_number": "11825",
+            "enrollment_cap": 34,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 495V": [
+        {
+            "class_number": "21027",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 500": [
+        {
+            "class_number": "11803",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "de las Carreras,Maria E",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": []
+        }
+    ],
+    "CTVA 510": [
+        {
+            "class_number": "11648",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Vandergriff,Jonathan L",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "jon.vandergriff@csun.edu"
+            ]
+        }
+    ],
+    "CTVA 525": [
+        {
+            "class_number": "10887",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Land,Morgan E",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "morgan.land@csun.edu"
+            ]
+        }
+    ],
+    "CTVA 595F": [
+        {
+            "class_number": "11649",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Jones,James M",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "james.jones@csun.edu",
+                "kenneth.jones@csun.edu"
+            ]
+        }
+    ],
+    "CTVA 595G": [
+        {
+            "class_number": "11650",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Stahl,Jon",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "jon.beadle@csun.edu",
+                "jonathan.zeledon@my.csun.edu",
+                "kenneth.jones@csun.edu",
+                "jon.vandergriff@csun.edu",
+                "jonathan.kelber@csun.edu",
+                "james.jones@csun.edu",
+                "jonathan.webb@csun.edu",
+                "jonathan.martin@csun.edu",
+                "jon.stahl@csun.edu",
+                "jonathan.martinez@csun.edu",
+                "jarrod.jonsrud@csun.edu",
+                "jongeun.kim@csun.edu",
+                "jonathan.honig@csun.edu",
+                "jonathan.dubois@csun.edu"
+            ]
+        }
+    ],
+    "CTVA 694A": [
+        {
+            "class_number": "11859",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Sturgeon,Scott A",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "scott.sturgeon@csun.edu"
+            ]
+        }
+    ],
+    "CTVA 694B": [
+        {
+            "class_number": "11860",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Sturgeon,Scott A",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "scott.sturgeon@csun.edu"
+            ]
+        }
+    ],
+    "CTVA 698C": [
+        {
+            "class_number": "10703",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Powers,Kate A",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "kate.powers@csun.edu"
+            ]
+        },
+        {
+            "class_number": "10967",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Sturgeon,Scott A",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h",
+            "possible_emails": [
+                "scott.sturgeon@csun.edu"
+            ]
+        },
+        {
+            "class_number": "10968",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": []
         }
     ]
 }

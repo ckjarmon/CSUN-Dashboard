@@ -2,29 +2,45 @@
     "CHIN 101": [
         {
             "class_number": "14311",
-            "enrollment_cap": 34,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Huang,Junliang",
+            "days": "MW",
+            "location": "JR316",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "junliang.huang@csun.edu",
+                "dongling.huang@csun.edu"
+            ]
+        },
+        {
+            "class_number": "14642",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructor": "Runyan,Heng-i L",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1540h",
-            "catalog_number": "101",
-            "subject": "CHIN"
+            "location": "JR203",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "vicky.runyan@csun.edu"
+            ]
         }
     ],
     "CHIN 102": [
         {
             "class_number": "14639",
-            "enrollment_cap": 34,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Runyan,Heng-i L",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1240h",
-            "catalog_number": "102",
-            "subject": "CHIN"
+            "location": "JR212",
+            "start_time": "1300h",
+            "end_time": "1440h",
+            "possible_emails": [
+                "vicky.runyan@csun.edu"
+            ]
         }
     ]
 }

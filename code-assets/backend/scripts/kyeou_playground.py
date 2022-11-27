@@ -1229,7 +1229,9 @@ def t18():
                 
         except FileNotFoundError:
             print("sdfg")
-        
+
+
+    
 if __name__ == "__main__":
     t17()
     

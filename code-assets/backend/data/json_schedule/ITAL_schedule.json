@@ -2,55 +2,61 @@
     "ITAL 101": [
         {
             "class_number": "14231",
-            "enrollment_cap": 42,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Weisberg,Alessia Nanni",
             "days": "TR",
-            "location": "TBA",
+            "location": "JR243",
             "start_time": "1100h",
             "end_time": "1240h",
-            "catalog_number": "101",
-            "subject": "ITAL"
+            "possible_emails": [
+                "alessia.weisberg@csun.edu"
+            ]
         },
         {
             "class_number": "14232",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Weisberg,Alessia Nanni",
             "days": "T",
-            "location": "TBA",
+            "location": "SH221",
             "start_time": "1300h",
             "end_time": "1440h",
-            "catalog_number": "101",
-            "subject": "ITAL"
+            "possible_emails": [
+                "alessia.weisberg@csun.edu"
+            ]
         }
     ],
     "ITAL 102": [
         {
             "class_number": "14233",
-            "enrollment_cap": 32,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Weisberg,Alessia Nanni",
             "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "102",
-            "subject": "ITAL"
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "alessia.weisberg@csun.edu"
+            ]
         }
     ],
-    "ITAL 201": [
+    "ITAL 204": [
         {
-            "class_number": "15249",
+            "class_number": "14836",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Miller,Patricia I",
             "days": "T",
-            "location": "TBA",
+            "location": "EU132",
             "start_time": "0930h",
             "end_time": "1045h",
-            "catalog_number": "201",
-            "subject": "ITAL"
+            "possible_emails": [
+                "amanda.b.miller@csun.edu",
+                "justin.miller.45@csun.edu",
+                "pat.miller@csun.edu"
+            ]
         }
     ]
 }

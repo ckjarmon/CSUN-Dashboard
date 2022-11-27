@@ -1,54 +1,58 @@
 {
     "FREN 101": [
         {
-            "class_number": "14228",
-            "enrollment_cap": 32,
+            "class_number": "14227",
+            "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Posner,Ludmila",
             "days": "TR",
-            "location": "TBA",
+            "location": "JR212",
             "start_time": "0900h",
             "end_time": "1040h",
-            "catalog_number": "101",
-            "subject": "FREN"
+            "possible_emails": [
+                "ludmila.posner@csun.edu"
+            ]
+        },
+        {
+            "class_number": "14228",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Pourabedi,Magdali",
+            "days": "MW",
+            "location": "JR203",
+            "start_time": "1100h",
+            "end_time": "1240h",
+            "possible_emails": [
+                "mahsa.pourabedi@csun.edu"
+            ]
         },
         {
             "class_number": "14229",
-            "enrollment_cap": 42,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0900h",
-            "end_time": "1040h",
-            "catalog_number": "101",
-            "subject": "FREN"
-        },
-        {
-            "class_number": "14813",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
+            "instructor": "Pourabedi,Magdali",
+            "days": "TR",
+            "location": "JR212",
             "start_time": "1100h",
             "end_time": "1240h",
-            "catalog_number": "101",
-            "subject": "FREN"
+            "possible_emails": [
+                "mahsa.pourabedi@csun.edu"
+            ]
         }
     ],
     "FREN 102": [
         {
             "class_number": "14230",
-            "enrollment_cap": 32,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1240h",
-            "catalog_number": "102",
-            "subject": "FREN"
+            "instructor": "Sitbon Slosburg,Corinne",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR",
+            "possible_emails": [
+                "corinne.slosburg@csun.edu"
+            ]
         }
     ]
 }
