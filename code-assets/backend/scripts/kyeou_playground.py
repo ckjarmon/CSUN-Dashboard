@@ -1231,7 +1231,12 @@ def t18():
             print("sdfg")
 
 
-    
+
+def t19():
+    for code in class_codes:  
+        with open(f"../data/json_catalog/{code}_history.json") as catalog_file:
+            json.dump(OrderedDict(sorted(json.load(catalog_file).items())), open(f"../data/json_historical_profs/{code}_history.json", "w"), indent=4)
+
 if __name__ == "__main__":
     t17()
     
