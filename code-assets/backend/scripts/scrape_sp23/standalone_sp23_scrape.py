@@ -230,7 +230,7 @@ def gather(arrow):
                 driver.find_element("id", "NR_SSS_SOC_NWRK_BASIC_SEARCH_PB").click()
                 time.sleep(5)
                 break
-            except selenium.common.exceptions.StaleElementReferenceException:
+            except (selenium.common.exceptions.StaleElementReferenceException, selenium.common.exceptions.ElementClickInterceptedException):
                 continue
         sub_sects = []
 
@@ -239,9 +239,14 @@ def gather(arrow):
                 
                 # section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text
                 # print(section_title, flush=True)
-                section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text
-                print(section_title, flush=True)
-                section_title = section_title.split()
+                while True:
+                    try:
+                        section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text
+                        print(section_title, flush=True)
+                        section_title = section_title.split()
+                        break
+                    except selenium.common.exceptions.StaleElementReferenceException:
+                        continue
                 
                 while True:
                     try:
@@ -284,25 +289,55 @@ def gather(arrow):
 
 
 
-                        course_dict["class_number"] = driver.find_element("id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
+                        while True:
+                            try:
+                                course_dict["class_number"] = driver.find_element("id", "NR_SSS_SOC_NSEC_CLASS_NBR$" + str(i)).text
+                                break
+                            except selenium.common.exceptions.StaleElementReferenceException:
+                                print(f'{class_codes[arrow]}  ========')
+                                continue
+                        while True:
+                            try:
+                                course_dict["enrollment_cap"] = int(driver.find_element("id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text)
+                                break
+                            except selenium.common.exceptions.StaleElementReferenceException:
+                                print(f'{class_codes[arrow]}  ========')
+                                continue
+                        while True:
+                            try:
+                                course_dict["enrollment_count"] = 0
+                                break
+                            except selenium.common.exceptions.StaleElementReferenceException:
+                                print(f'{class_codes[arrow]}  ========')
+                                continue
+                        while True:
+                            try:
+                                course_dict["days"] = convertdays(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text)
+                                break
+                            except selenium.common.exceptions.StaleElementReferenceException:
+                                print(f'{class_codes[arrow]}  ========')
+                                continue
+                        while True:
+                            try:
+                                course_dict["location"] = driver.find_element("id", "MAP$" + str(i)).text
+                                break
+                            except selenium.common.exceptions.StaleElementReferenceException:
+                                print(f'{class_codes[arrow]}  ========')
+                                continue
 
-                        course_dict["enrollment_cap"] = int(driver.find_element("id", "NR_SSS_SOC_NWRK_AVAILABLE_SEATS$" + str(i)).text)
 
-                        course_dict["enrollment_count"] = 0
-
-                        course_dict["days"] = convertdays(driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR20$" + str(i)).text)
-                        course_dict["location"] = driver.find_element("id", "MAP$" + str(i)).text
-
-
-
-
-                        if driver.find_element("id", "TIME$span$" + str(i)).text.__contains__("-"):
-                            course_dict["start_time"], course_dict["end_time"] = convert_time(
-                                        driver.find_element("id", "TIME$span$" + str(i)).text)
-                        else:
-                            course_dict["start_time"], course_dict["end_time"] = driver.find_element(
-                                        "id", "TIME$span$" + str(i)).text, driver.find_element("id", "TIME$span$" + str(i)).text
-
+                        while True:
+                            try:    
+                                if driver.find_element("id", "TIME$span$" + str(i)).text.__contains__("-"):
+                                    course_dict["start_time"], course_dict["end_time"] = convert_time(
+                                                driver.find_element("id", "TIME$span$" + str(i)).text)
+                                    break
+                                else:
+                                    course_dict["start_time"], course_dict["end_time"] = driver.find_element(
+                                                "id", "TIME$span$" + str(i)).text, driver.find_element("id", "TIME$span$" + str(i)).text
+                                    break
+                            except selenium.common.exceptions.StaleElementReferenceException:
+                                continue
 
                         try:
 
@@ -370,6 +405,10 @@ if __name__ == "__main__":
                     tta.append(f"csun.{code}_view")
                 except TypeError:
                     print(course['catalog_number'])
+                    
+                    
+                    
+                    
                 try:
                     course["title"] = rootCursor.fetchall()[0][0]
                 except (IndexError, mariadb.ProgrammingError):
@@ -381,17 +420,23 @@ if __name__ == "__main__":
 
                 rootCursor.execute(f"select email from professor")
                 possible_emails = []
-
-                try:
-                    for r in rootCursor.fetchall():
-                        if r[0].split("@")[0].__contains__(f".{course['instructor'].split(',')[0].lower()}") or r[0].split("@")[0].__contains__(course["instructor"].split(",")[1].lower()):
-                            possible_emails.append(r)
-                except IndexError:
-                    continue
-                if possible_emails == []:
-                    pta.append(course["instructor"])
-                    pta = list(set(pta))
-                course["possible_emails"] = list(set(possible_emails))
+                if course["instructor"] != "Staff":
+                    try:
+                        for r in rootCursor.fetchall():
+                            if r[0].split("@")[0].__contains__(f".{course['instructor'].split(',')[0].lower()}") or r[0].split("@")[0].__contains__(course["instructor"].split(",")[1].lower()):
+                                possible_emails.append(r)
+                    except IndexError:
+                        continue
+                    if possible_emails == []:
+                        pta.append(course["instructor"])
+                        pta = list(set(pta))
+                    course["possible_emails"] = [x[0] for x in list(set(possible_emails))]
+                else:
+                    course["possible_emails"] = []
+                if len(course["possible_emails"]) == 1:
+                    course["instructor"] = course["possible_emails"][0]
+                
+                
                 
             json.dump(sub, open(f"{code}_schedule.json", "w"), indent=4)
     json.dump({"courses_to_add": list(set(cta)), "professors_to_add": list(set(pta)),
@@ -416,7 +461,7 @@ if __name__ == "__main__":
                             "location": course["location"],
                             "start_time": course["start_time"],
                             "end_time": course["end_time"],
-                            "possible_emails": [x[0] for x in  course["possible_emails"]]
+                            "possible_emails": course["possible_emails"]
                         })
                     except KeyError:
                         all_classes[f"{code.upper()} {course['catalog_number']}"] = [{
@@ -428,7 +473,7 @@ if __name__ == "__main__":
                             "location": course["location"],
                             "start_time": course["start_time"],
                             "end_time": course["end_time"],
-                            "possible_emails": [x[0] for x in  course["possible_emails"]]
+                            "possible_emails": course["possible_emails"]
                         }]
                 json.dump(all_classes, open(f"{code}_schedule.json", "w"), indent=4)
                 #print(*all_classes, sep="\n")
