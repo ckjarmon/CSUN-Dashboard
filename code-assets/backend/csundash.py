@@ -339,9 +339,6 @@ def catalog(**kwargs):
     rootCursor = rootConnection.cursor()
     while True:
         try:
-            # with open(f"../backend/data/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
-            #    classes = json.load(subject)
-            #    return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
             rootCursor.execute(f"""SELECT 
                                catalog_number, 
                                title 

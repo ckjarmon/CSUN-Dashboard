@@ -41,7 +41,9 @@ function CourseDataTable({ classes, course, addedClassHandler, addIcon }) {
                 <TableBody>
                     {displayClasses.map((row) => (
                         <TableRow key={row.class_number}>
-                            <TableCell style={tableCellStyle} align="center"><Button onClick={() => addedClassHandler(row)}>{addIcon[row.class_number] ? <div></div> : <IoAdd style={addIconStyle} />}</Button></TableCell>
+                            <TableCell style={tableCellStyle} align="center"><Button onClick={() => addedClassHandler(row)}>
+                            {addIcon[row.class_number] ? <div></div> : <IoAdd style={addIconStyle} />}</Button></TableCell>
+                            
                             <TableCell style={tableCellStyle} align="center">{row.class_number}</TableCell>
                             <TableCell style={tableCellStyle} align="center">{(row.enrollment_cap - row.enrollment_count)}</TableCell>
                             <TableCell style={tableCellStyle} align="center">{row.location}</TableCell>
