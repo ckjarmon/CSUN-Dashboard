@@ -149,6 +149,7 @@ def new_rating(**kwargs):
 
             tup = (name_normalize(new_rating["professor_first_name"]),
                    name_normalize(new_rating["professor_last_name"]),
+                   new_rating["email"].lower(),
                    new_rating["subject"],
                    new_rating["catalog_number"],
                    new_rating["star_rating"],
@@ -157,11 +158,13 @@ def new_rating(**kwargs):
                    new_rating["retake_professor"],
                    new_rating["require_textbooks"],
                    new_rating["mandatory"],
-                   new_rating["review"])
+                   new_rating["review"],
+                   new_rating["class_type"])
             # print(tup.__str__())
             rootCursor.execute(f"""INSERT INTO rating(
                 professor_first_name,
                 professor_last_name,
+                email, 
                 subject,
                 catalog_number,
                 star_rating,
@@ -170,39 +173,99 @@ def new_rating(**kwargs):
                 retake_professor,
                 require_textbooks,
                 mandatory,
-                review) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""", tup)
+                review,
+                class_type) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""", tup)
             rootConnection.commit()
 
+#             rootCursor.execute(f"""SELECT 
+#                                professor_first_name,
+#                                professor_last_name,
+#                                email,
+#                                subject,
+#                                catalog_number,
+#                                star_rating,
+#                                grade,
+#                                difficulty,
+#                                retake_professor,
+#                                require_textbooks,
+#                                mandatory,
+#                                review,
+#                                class_type
+#                                FROM rating WHERE professor_first_name = '{name_normalize(new_rating['professor_first_name'])}' 
+#                                                  AND 
+#                                                  professor_last_name = '{name_normalize(new_rating['professor_last_name'])}' """) 
+
             rootCursor.execute(f"""SELECT 
-                               professor_first_name,
-                               professor_last_name,
-                               subject,
-                               catalog_number,
-                               star_rating,
-                               grade,
-                               difficulty,
-                               retake_professor,
-                               require_textbooks,
-                               mandatory,
-                               review 
-                               FROM rating WHERE professor_first_name = '{name_normalize(new_rating['professor_first_name'])}' 
-                                                 AND 
-                                                 professor_last_name = '{name_normalize(new_rating['professor_last_name'])}' """)
+                                professor_first_name,
+                                professor_last_name,
+                                email,
+                                subject,
+                                catalog_number,
+                                star_rating,
+                                grade,
+                                difficulty,
+                                retake_professor,
+                                require_textbooks,
+                                mandatory,
+                                review,
+                                class_type
+                                FROM rating WHERE email = '{new_rating['email'].lower()}' """)            
             return [{"professor_first_name": c[0],
                      "professor_last_name": c[1],
-                     "subject": c[2],
-                     "catalog_number": c[3],
-                     "star_rating": c[4],
-                     "grade": c[5],
-                     "difficulty": c[6],
-                     "retake_professor": c[7],
-                     "require_textbooks": c[8],
-                     "mandatory": c[9],
-                     "review": c[10]} for c in rootCursor.fetchall()]
+                     "email": c[2],
+                     "subject": c[3],
+                     "catalog_number": c[4],
+                     "star_rating": c[5],
+                     "grade": c[6],
+                     "difficulty": c[7],
+                     "retake_professor": c[8],
+                     "require_textbooks": c[9],
+                     "mandatory": c[10],
+                     "review": c[11],
+                     "class_type": c[12]} for c in rootCursor.fetchall()]
         except mariadb.InterfaceError:
             rootConnection = establish_conn()
             rootCursor = rootConnection.cursor()
 
+
+
+@app.route('/<string:email>/ratings')
+def get_ratings(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
+    while True:
+        try:
+            rootCursor.execute(f"""SELECT 
+                                professor_first_name,
+                                professor_last_name,
+                                email,
+                                subject,
+                                catalog_number,
+                                star_rating,
+                                grade,
+                                difficulty,
+                                retake_professor,
+                                require_textbooks,
+                                mandatory,
+                                review,
+                                class_type
+                                FROM rating WHERE email = '{new_rating['email'].lower()}' """)            
+            return [{"professor_first_name": c[0],
+                     "professor_last_name": c[1],
+                     "email": c[2],
+                     "subject": c[3],
+                     "catalog_number": c[4],
+                     "star_rating": c[5],
+                     "grade": c[6],
+                     "difficulty": c[7],
+                     "retake_professor": c[8],
+                     "require_textbooks": c[9],
+                     "mandatory": c[10],
+                     "review": c[11],
+                     "class_type": c[12]} for c in rootCursor.fetchall()]
+        except mariadb.InterfaceError:
+            rootConnection = establish_conn()
+            rootCursor = rootConnection.cursor()
 
 """
 Returns a dictionary of the {int:amount} professors who have taught the Subject Catalog_Number the most in past Fall-Spring iterations.
@@ -426,4 +489,4 @@ def cost(**kwargs):
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', threaded=True)
