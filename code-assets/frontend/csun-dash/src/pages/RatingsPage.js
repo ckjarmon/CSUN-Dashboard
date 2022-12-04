@@ -13,7 +13,7 @@ function RatingsPage() {
 
 
     function fetchRatingsAndClasses() {
-        fetch(`http://130.166.160.102/${subject}/rating/${first_name}/${last_name}`)
+        fetch(`130.166.160.102/${subject}/rating/${first_name}/${last_name}`)
             .then(response => response.json())
             .then(ratings => {
                 let ratingsArray = []
@@ -25,7 +25,7 @@ function RatingsPage() {
                 setRatings(ratingsArray)
             })
 
-        fetch(`http://130.166.160.102/${subject}/classes`)
+        fetch(`130.166.160.102/${subject}/classes`)
             .then(response => response.json())
             .then(classes => {
                 let classesArray = []
