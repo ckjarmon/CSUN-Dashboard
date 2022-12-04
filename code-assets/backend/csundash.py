@@ -173,7 +173,7 @@ def new_rating(**kwargs):
                 require_textbooks,
                 mandatory,
                 review,
-                class_type) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""", tup)
+                class_type) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, %s, %s)""", tup)
             rootConnection.commit()
 
 #             rootCursor.execute(f"""SELECT 
