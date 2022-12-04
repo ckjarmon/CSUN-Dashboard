@@ -12,7 +12,7 @@ function ProfessorsSearchPage() {
     function handleSubjectChange(event) {
         setSubject(event.target.value)
 
-        fetch(`130.166.160.102/${event.target.value}/professors`)
+        fetch(`http://130.166.160.102/${event.target.value}/professors`)
             .then(response => response.json())
             .then(professors => {
                 let professorsArray = []
