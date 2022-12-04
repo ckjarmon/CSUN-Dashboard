@@ -6,6 +6,8 @@ import ProfessorSearchPage from './pages/ProfessorSearchPage';
 import CS from './elements/Majors/CS';
 import SignInPage from './pages/SignInPage'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import MajorsMenu from './elements/Majors/MajorsMenu';
+import CSMajor from './elements/Majors/CS'
 
 function App() {
   return (
@@ -14,11 +16,13 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/planner' element={<PlannerPage />} />
-          {/* <Route path='/ratings' element={<RatingsPage />} /> */}
+          <Route path='/majors' element={<MajorsMenu />} />
           <Route path='/ratings/:subject/:email' element={<RatingsPage/>} />
           <Route path='/professor-search' element={<ProfessorSearchPage />} />
           <Route path='/cs' element={<CS />} />
           <Route path='/signIn' element={<SignInPage />} />
+
+          <Route path='/majors/cs' element={<CSMajor />} />
         </Routes>
       </Router>
     </div>
