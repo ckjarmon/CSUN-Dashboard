@@ -143,7 +143,7 @@ def new_rating(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     new_rating = request.get_json(force=True)
-    pprint.pprint('Post Body:', new_rating)
+    print(new_rating)
     while True:
         try:
             tup = (name_normalize(new_rating["professor_first_name"]),
