@@ -249,7 +249,7 @@ def get_ratings(**kwargs):
                                 mandatory,
                                 review,
                                 class_type
-                                FROM rating WHERE email = '{new_rating['email'].lower()}' """)            
+                                FROM rating WHERE email = '{kwargs['email'].lower()}' """)            
             return [{"professor_first_name": c[0],
                      "professor_last_name": c[1],
                      "email": c[2],
