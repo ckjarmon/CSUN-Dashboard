@@ -8,12 +8,12 @@ import Typography from '@mui/material/Typography';
 
 
 
-function StudentRatings({ subject, first_name, last_name, postedReview }) {
+function StudentRatings({ subject, email, first_name, last_name, postedReview }) {
     const [reviews, setReviews] = useState([])
     const [courses, setCourses] = useState([])
 
     useEffect(() => {
-        fetch(`http://130.166.160.102/${subject}/rating/${first_name}/${last_name}`)
+        fetch(`http://130.166.160.102/${email}/ratings`)
             .then(response => response.json())
             .then(reviews => {
                 if (!reviews.length) {
@@ -66,11 +66,12 @@ function StudentRatings({ subject, first_name, last_name, postedReview }) {
                                             <Typography style={bodyHeaderTextStyle} variant="h6" component="div">{review.catalog_number}</Typography>
                                         </div>
 
-                                        <div style={{ display: "flex", margin: "25px 0px" }}>
+                                        <div style={{ display: "flex", flexWrap: "wrap", margin: "25px 0px" }}>
                                             <Typography style={bodyHeaderTextStyle} variant="h7" component="div">Attendence Mandatory: <span style={{ fontWeight: "normal" }}>{review.mandatory}</span></Typography>
                                             <Typography style={bodyHeaderTextStyle} variant="h7" component="div">Would Take Again: <span style={{ fontWeight: "normal" }}>{review.retake_professor}</span></Typography>
                                             <Typography style={bodyHeaderTextStyle} variant="h7" component="div">Grade: <span style={{ fontWeight: "normal" }}>{review.grade}</span></Typography>
                                             <Typography style={bodyHeaderTextStyle} variant="h7" component="div">Textbook Required: <span style={{ fontWeight: "normal" }}>{review.require_textbooks}</span></Typography>
+                                            <Typography style={bodyHeaderTextStyle} variant="h7" component="div">Class Type: <span style={{ fontWeight: "normal" }}>{review.class_type}</span></Typography>
                                         </div>
 
                                         <div style={{ margin: "25px 0px" }}>
@@ -119,6 +120,7 @@ const ratingStyle = {
 const bodyHeaderTextStyle = {
     fontWeight: "bold",
     marginRight: "30px",
+    marginBottom: "15px"
 }
 
 const noReviewsTextStyle = {

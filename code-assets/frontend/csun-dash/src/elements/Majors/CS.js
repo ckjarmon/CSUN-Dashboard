@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Box from '@mui/system/Box'
-import WebFont from 'webfontloader';
+// import WebFont from 'webfontloader';
 
 // eslint-disable-next-line no-unused-vars
 const prog_reqqs = [

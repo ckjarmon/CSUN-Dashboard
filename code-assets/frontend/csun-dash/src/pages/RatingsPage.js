@@ -6,14 +6,15 @@ import StudentRatings from "../elements/Professor_Search/StudentRatings";
 import { Alert } from "@mui/material"
 
 function RatingsPage() {
-    const { subject, first_name, last_name } = useParams()
+    const { subject, email } = useParams()
     const [allClassesInSubject, setAllClassesInSubject] = useState([])
     const [ratings, setRatings] = useState([])
     const [postedReview, setPostedReview] = useState(false)
+    const [professor, setProfessor] = useState({})
 
 
     function fetchRatingsAndClasses() {
-        fetch(`http://130.166.160.102/${subject}/rating/${first_name}/${last_name}`)
+        fetch(`http://130.166.160.102/${email}/ratings`)
             .then(response => response.json())
             .then(ratings => {
                 let ratingsArray = []
@@ -38,9 +39,22 @@ function RatingsPage() {
             })
     }
 
+    function fetchProfessor(){
+        fetch(`http://130.166.160.102/${subject}/professors`)
+            .then(response => response.json())
+            .then(professors => {
+                professors.map((professor) => {
+                    if(professor.email == email){
+                        setProfessor(professor)
+                    }
+                })
+            })
+    }
+
 
     useEffect(() => {
         fetchRatingsAndClasses()
+        fetchProfessor()
     }, [])
 
     useEffect(() => {
@@ -62,7 +76,7 @@ function RatingsPage() {
             <div>
                 <ProfessorRatingsHeader
                     ratings={ratings}
-                    professorName={`${first_name} ${last_name}`}
+                    professorName={`${professor.first_name} ${professor.last_name}`}
                     postedReview={postedReview}
                     setPostedReview={setPostedReview}
                     subject={subject}
@@ -70,8 +84,9 @@ function RatingsPage() {
                 </ProfessorRatingsHeader>
                 <StudentRatings
                     subject={subject}
-                    first_name={first_name}
-                    last_name={last_name}
+                    email={professor.email}
+                    first_name={professor.first_name}
+                    last_name={professor.last_name}
                     postedReview={postedReview}>
                 </StudentRatings>
             </div>
