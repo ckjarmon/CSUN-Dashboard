@@ -30,7 +30,7 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
                 let catalogInfo = {}
 
                 for (let i = 0; i < catalogData.length; i++) {
-                    if (event.catalog_number == catalogData[i].catalog_number) {
+                    if (event.catalog_number === catalogData[i].catalog_number) {
                         catalogInfo = catalogData[i]
                     }
                 }

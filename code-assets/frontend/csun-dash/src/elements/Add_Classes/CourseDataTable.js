@@ -15,7 +15,7 @@ function CourseDataTable({ classes, course, addedClassHandler, addIcon }) {
     const [displayClasses, setDisplayClasses] = useState([])
 
     function fetchCourseList() {
-        let filterSection = classes.filter(classItem => classItem.catalog_number == course)
+        let filterSection = classes.filter(classItem => classItem.catalog_number === course)
         setDisplayClasses(filterSection)
     }
 

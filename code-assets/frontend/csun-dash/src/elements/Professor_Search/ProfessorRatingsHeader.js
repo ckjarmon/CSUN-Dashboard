@@ -38,7 +38,7 @@ function ProfessorRatingsHeader({ ratings, professorName, postedReview, setPoste
                 ratingsAdded += review.star_rating
                 difficultyAdded += review.difficulty
 
-                if (review.retake_professor == "Yes") {
+                if (review.retake_professor === "Yes") {
                     retakeAgain += 1
                 }
 

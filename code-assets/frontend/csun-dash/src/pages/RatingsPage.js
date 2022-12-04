@@ -53,7 +53,7 @@ function RatingsPage() {
         <div style={{ minHeight: "100vh", backgroundColor: "#1C1C1C" }}>
             <Header></Header>
             {
-                postedReview == true ?
+                postedReview === true ?
                     <Alert style={{ float: "right" }} variant="filled" severity="success">
                         Successfully Posted Review!
                     </Alert> : <div></div>

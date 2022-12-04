@@ -81,7 +81,7 @@ function RatingsForm({ rateModal, setRateModal, professorName, subject, setPoste
         <div>
             <div>
                 {
-                    allRequiredFields == false || doesCourseExist == false ?
+                    allRequiredFields === false || doesCourseExist === false ?
                         <Alert style={{}} variant="filled" severity="error">
                             {postingErrorMessage}
                         </Alert> : <div></div>
