@@ -1,6 +1,9 @@
 import React from "react"
 import Header from "../components/Header"
 import Box from '@mui/system/Box'
+import matador from "../matador.png"
+
+
 
 const TextInput = props => {
     return (
@@ -14,25 +17,25 @@ const TextInput = props => {
     )
 }
 
-const underlineStyle = { textDecorationLine: 'underline' }
-
 
 function SignInPage() {
     return (
-        <div style={{ backgroundColor: "#1C1C1C", height: '100vh' }}>
+        <div style={{ backgroundColor: "#1C1C1C" }}>
             <Header></Header>
-            <div style={{ float: "center", marginTop: "20%" }}>
-                <Box color="white" bgcolor="red" p={20}>
-                    Let's get you signed in
-                    <Box>
-                        <div style={{ float: "right" }}>
-                            <TextInput></TextInput>
-                            <TextInput></TextInput>
-                            <div style={underlineStyle}>Forgot your password?</div>
-                        </div>
+            <span className="font-link">
+                <div style={{ marginLeft: "37%" }}>
+                    <img src={matador} alt="matador" />
+                </div>
+                <div>
+                    <Box style={{ background: "red", width: "22%", textAlign: 'center', marginLeft: "39%", height: "300px" }}>
+                        <br></br>
+                        <b>Let's get you signed in</b> <br></br> <br></br>
+                        Username: <TextInput></TextInput><br></br>
+                        Password: <TextInput></TextInput> <br></br>
+                        <div>Forgot Password?</div>
                     </Box>
-                </Box>
-            </div>
+                </div>
+            </span>
         </div>
 
     )
