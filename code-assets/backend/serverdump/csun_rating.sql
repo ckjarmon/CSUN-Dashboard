@@ -14,11 +14,11 @@ CREATE TABLE `rating` (
   `mandatory` varchar(4) DEFAULT NULL,
   `review` varchar(1000) NOT NULL,
   `class_type` varchar(20) NOT NULL,
-  CONSTRAINT `ck_difficulty` CHECK (((0.0 < `difficulty`) and (`difficulty` < 5.0))),
+  CONSTRAINT `ck_difficulty` CHECK (((0.0 <= `difficulty`) and (`difficulty` <= 5.0))),
   CONSTRAINT `ck_grade` CHECK ((`grade` in ('A+','A','A-','B+','B','B-','C+','C','C-','D','D','F'))),
   CONSTRAINT `ck_mandatory` CHECK ((`mandatory` in ('yes','no'))),
   CONSTRAINT `ck_retake` CHECK ((`retake_professor` in ('yes','no'))),
-  CONSTRAINT `ck_star` CHECK (((0.0 < `star_rating`) and (`star_rating` < 5.0))),
+  CONSTRAINT `ck_star` CHECK (((0.0 >= `star_rating`) and (`star_rating` <= 5.0))),
   CONSTRAINT `ck_textbooks` CHECK ((`require_textbooks` in ('yes','no'))),
   CONSTRAINT `ck_class_type` CHECK ((`class_type` in ('Online - Async', 'Online - Sync', 'In-Person')))
 );
