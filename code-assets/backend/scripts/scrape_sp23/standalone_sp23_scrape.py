@@ -382,12 +382,7 @@ if __name__ == "__main__":
         t.append(multiprocessing.Process(target=gather, args=(class_codes.index(code),)))
         t[len(t)-1].start()
     
-    ccs = [ class_codes [i:i + 10] for i in range(0, len(class_codes), 6) ]
     
-    # for cc in ccs:
-    #     for code in cc:
-    #         t.append(threading.Thread(target=gather, args=(class_codes.index(code),)))
-    #         t[len(t)-1].start()
     for a in t:    
         a.join()
             
