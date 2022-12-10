@@ -16,10 +16,11 @@ else:
 sys.path.append(currDirectory)
 # currDirectory should return root\code-assets to be in correct dir
 print("Printing the folder parent here: %s" %currDirectory)
+
 ################################################################
 
 # search for correct dir and file and import the methods to be tested
-from backend.server import name_normalize, prof_name
+from backend.server import catalog, name_normalize, prof_name
 
 ################################################################
 # test the name_normalization function
@@ -35,12 +36,8 @@ def test_name_normalize_int_returns_error():
      with pytest.raises(TypeError):
           name_normalize(int_to_pass)
 
-# def test_name_normalize_empty_returns_null():
-#      empty_passed = None
-#      assert name_normalize(empty_passed) == ""
-
 ################################################################
-
+# test prof_name function
 def test_prof_name_returns_correct_name():
      example_prof = "John Noga"
      assert prof_name(subject="comp", prof_email="john.noga@csun.edu") == example_prof
@@ -54,3 +51,24 @@ def test_prof_name_incorrect_returns_error():
           "Throws an IndexError exception if passed invalid subject/prof_email"))
           assert prof_name(subject="null", prof_email="unknown@csun.edu")
 
+################################################################
+# test catalog function
+
+# @app.route('/<string:subject>/classes')
+# def catalog(**kwargs):
+#     #with open(f"../backend/data/json_catalog/{kwargs['subject'].upper()}_catalog.json") as subject:
+#     #    classes = json.load(subject)
+#     #    return ([f"{x['catalog_number']} - {x['title']}"  for x in classes])
+#     rootCursor.execute(f"select catalog_number, title from csun.{kwargs['subject'].upper()}_view")
+#     return [f"{x[0]} - {x[1]}" for x in rootCursor.fetchall()]
+
+# Simply returns an array of strings of all classes in a {string:subject}
+# Example:
+# [
+#   "100 - Computers: Their Impact And Use",
+
+def test_catalog_returns_correct_string():
+     example_subject = "COMP"
+     names = ["bob","joe"]
+     
+     assert catalog(subject=example_subject) == names
