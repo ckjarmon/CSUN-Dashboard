@@ -20,7 +20,7 @@ print("Printing the folder parent here: %s" %currDirectory)
 ################################################################
 
 # search for correct dir and file and import the methods to be tested
-from backend.server import catalog, name_normalize, prof_name
+from backend.scripts.decomissioned_scripts.server import catalog, name_normalize, prof_name
 
 ################################################################
 # test the name_normalization function
