@@ -39,7 +39,7 @@ Primarily used for testing
 
 @app.route('/<string:subject>/<string:data>')
 def get(**kwargs):
-    return json.load(open(f'/data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+    return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
 
 
 # @app.route('/sql')
