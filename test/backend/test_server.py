@@ -17,6 +17,11 @@ sys.path.append(currDirectory)
 print("Printing the folder parent here: %s" %currDirectory)
 
 ################################################################
+
+# search for correct dir and file and import the methods to be tested
+from backend.scripts.decomissioned_scripts.server import catalog, name_normalize, prof_name
+
+################################################################
 # test the name_normalization function
 def test_name_normalize_common_returns_regular():
      string_to_pass = "bOb"
