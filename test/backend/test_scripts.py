@@ -4,6 +4,10 @@ import path
 import pytest
 import warnings
 
+# this file needs to be recopied from test_server
+# as the directory problem needs to be chaned here
+
+
 # determines os and finds files to test
 ################################################################
 currFile = path.Path(__file__).abspath()
@@ -20,7 +24,7 @@ print("Printing the folder parent here: %s" %currDirectory)
 ################################################################
 
 # search for correct dir and file and import the methods to be tested
-from backend.server import catalog, name_normalize, prof_name
+from backend.csundash import catalog, name_normalize, prof_name
 
 # ################################################################
 # # test the name_normalization function

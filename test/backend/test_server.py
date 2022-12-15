@@ -1,25 +1,26 @@
 from unittest import TestCase
-import sys, path, pytest, warnings
-# search for correct dir and file and import the methods to be tested
-from backend.server import catalog, name_normalize, prof_name
-
+import sys, os, path, pytest, warnings
+import json
 # determines os and finds files to test
 ################################################################
 currFile = path.Path(__file__).abspath()
 currDirectory = currFile.parent.parent.parent
 # determines host os and uses correct dir pattern
 if sys.platform.startswith("win32"):
-     currDirectory += r"\code-assets"
+     currDirectory += r"\code-assets\backend"
 else:
-     currDirectory += r"/code-assets"
+     currDirectory += r"/code-assets/backend"
 sys.path.append(currDirectory)
-# currDirectory should return root\code-assets to be in correct dir
-print("Printing the folder parent here: %s" %currDirectory)
+os.chdir(currDirectory)
+# currDirectory should return root\code-assets\backend to be in correct dir
 
 ################################################################
 
 # search for correct dir and file and import the methods to be tested
-from backend.scripts.decomissioned_scripts.server import catalog, name_normalize, prof_name
+from csundash import catalog, name_normalize, prof_name
+
+# test this here
+prof_name(subject="comp", prof_email="john.noga@csun.edu")
 
 ################################################################
 # test the name_normalization function
