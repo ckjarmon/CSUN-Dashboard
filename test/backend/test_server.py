@@ -1,8 +1,7 @@
 from unittest import TestCase
-import sys
-import path
-import pytest
-import warnings
+import sys, path, pytest, warnings
+# search for correct dir and file and import the methods to be tested
+from backend.server import catalog, name_normalize, prof_name
 
 # determines os and finds files to test
 ################################################################
@@ -16,11 +15,6 @@ else:
 sys.path.append(currDirectory)
 # currDirectory should return root\code-assets to be in correct dir
 print("Printing the folder parent here: %s" %currDirectory)
-
-################################################################
-
-# search for correct dir and file and import the methods to be tested
-from backend.server import catalog, name_normalize, prof_name
 
 ################################################################
 # test the name_normalization function
@@ -67,8 +61,8 @@ def test_prof_name_incorrect_returns_error():
 # [
 #   "100 - Computers: Their Impact And Use",
 
-def test_catalog_returns_correct_string():
-     example_subject = "COMP"
-     names = ["bob","joe"]
+# def test_catalog_returns_correct_string():
+#      example_subject = "COMP"
+#      names = ["bob","joe"]
      
-     assert catalog(subject=example_subject) == names
+#      assert catalog(subject=example_subject) == names
