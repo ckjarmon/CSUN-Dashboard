@@ -30,7 +30,7 @@
     "postinstall": "cd code-assets/frontend/csun-dash/ && npm install",
     "start": "cd code-assets/frontend/csun-dash/ && react-scripts start && npm start",
     "build": "cd code-assets/frontend/csun-dash/ && react-scripts build",
-    "test": "cd code-assets/frontend/csun-dash/ && react-scripts test",
+    "test": "jest",
     "eject": "cd code-assets/frontend/csun-dash/ && react-scripts eject"
   },
   "eslintConfig": {
@@ -54,5 +54,8 @@
   "engines": {
     "node": "16.17.1",
     "npm": "8.15.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
   }
 }
