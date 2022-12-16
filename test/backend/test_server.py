@@ -1,6 +1,6 @@
 from unittest import TestCase
 import sys, os, path, pytest, warnings
-import json
+
 # determines os and finds files to test
 ################################################################
 currFile = path.Path(__file__).abspath()

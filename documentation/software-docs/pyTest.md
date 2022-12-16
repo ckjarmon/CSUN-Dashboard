@@ -12,3 +12,8 @@ Check to see if you have correctly installed pyTest by running ```pytest --versi
 You should see some output in the terminal regarding the results of the tets, see below <br />
 ![pyTest](https://raw.githubusercontent.com/kyeou/CSUN-Dashboard/main/documentation/images/test-result.png "")
 
+Run the coverage reports
+```pytest --cov --cov-report=html:pytest_reports/ --cov-report=xml:pytest_reports/coverage.xml```
+
+View the coverage reports
+Located in: `'test/backend/pytest_reports/index.html'`

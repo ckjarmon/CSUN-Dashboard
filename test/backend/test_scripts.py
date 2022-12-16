@@ -1,8 +1,5 @@
 from unittest import TestCase
-import sys
-import path
-import pytest
-import warnings
+import sys, path, pytest, warnings
 
 # this file needs to be recopied from test_server
 # as the directory problem needs to be chaned here
