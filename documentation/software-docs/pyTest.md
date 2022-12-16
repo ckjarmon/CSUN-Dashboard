@@ -13,7 +13,7 @@ You should see some output in the terminal regarding the results of the tets, se
 ![pyTest](https://raw.githubusercontent.com/kyeou/CSUN-Dashboard/main/documentation/images/test-result.png "")
 
 Run the coverage reports
-```pytest --cov --cov-report=html:pytest_reports/ --cov-report=xml:pytest_reports/coverage.xml```
+```pytest --cov --cov-report=html:backend/pytest_reports/ --cov-report=xml:backend/pytest_reports/coverage.xml```
 
-View the coverage reports
+View the coverage reports (run the file on "Live Server")
 Located in: `'test/backend/pytest_reports/index.html'`

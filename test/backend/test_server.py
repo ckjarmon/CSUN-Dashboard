@@ -6,10 +6,11 @@ import sys, os, path, pytest, warnings
 currFile = path.Path(__file__).abspath()
 currDirectory = currFile.parent.parent.parent
 # determines host os and uses correct dir pattern
-if sys.platform.startswith("win32"):
-     currDirectory += r"\code-assets\backend"
-else:
-     currDirectory += r"/code-assets/backend"
+# it appears as though we don't need this and windows can use '/' as well
+# if sys.platform.startswith("win32"):
+#      currDirectory += r"\code-assets\backend"
+# else:
+currDirectory += r"/code-assets/backend"
 sys.path.append(currDirectory)
 os.chdir(currDirectory)
 # currDirectory should return root\code-assets\backend to be in correct dir
@@ -67,8 +68,8 @@ def test_prof_name_incorrect_returns_error():
 # [
 #   "100 - Computers: Their Impact And Use",
 
-# def test_catalog_returns_correct_string():
-#      example_subject = "COMP"
-#      names = ["bob","joe"]
+def test_catalog_returns_correct_string():
+     example_subject = "COMP"
+     names = ["bob","joe"]
      
-#      assert catalog(subject=example_subject) == names
+     assert catalog(subject=example_subject) == names
