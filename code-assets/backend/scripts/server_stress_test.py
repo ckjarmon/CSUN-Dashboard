@@ -8,7 +8,7 @@ import pytz
 
 def req(stats):
     start = time.time()
-    s = urllib3.PoolManager().request("GET", u"api.kyeou.xyz/comp/classes").data
+    s = urllib3.PoolManager().request("GET", u"127.0.0.1:5000/comp/classes").data
     end = time.time()
     # print(f"Time finished: {'%.3f'%(end - start)} secs")
     stats["times"].append(float('%.3f' % (end - start)))
@@ -18,7 +18,7 @@ def test_run(amt):
 
     start_time = f"Test Start Time: {datetime.now(pytz.utc)}"
     t = []
-    stats = {"fins": 0, "times": []}
+    stats = {"fins": 0, "times": [1]}
     for i in range(amt):
         t.append(threading.Thread(target=req, args=(stats, )))
 

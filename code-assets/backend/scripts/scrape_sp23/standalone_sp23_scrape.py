@@ -366,7 +366,7 @@ def gather(arrow):
 
                 
 
-        json.dump(sub_sects, open(f"{class_codes[arrow]}_schedule.json", "w"), indent=4)
+        json.dump(sub_sects, open(f"./results/{class_codes[arrow]}_schedule.json", "w"), indent=4)
         driver.quit()
 
 
@@ -391,7 +391,7 @@ if __name__ == "__main__":
     tta = []
 
     for code in class_codes:
-        with open(f"{code}_schedule.json") as sub:
+        with open(f"./results/{code}_schedule.json") as sub:
             sub = json.load(sub)
             for course in sub:  
                 try:
@@ -413,35 +413,35 @@ if __name__ == "__main__":
 
 
 
-                rootCursor.execute(f"select email from professor")
-                possible_emails = []
-                if course["instructor"] != "Staff":
-                    try:
-                        for r in rootCursor.fetchall():
-                            if r[0].split("@")[0].__contains__(f".{course['instructor'].split(',')[0].lower()}") or r[0].split("@")[0].__contains__(course["instructor"].split(",")[1].lower()):
-                                possible_emails.append(r)
-                    except IndexError:
-                        continue
-                    if possible_emails == []:
-                        pta.append(course["instructor"])
-                        pta = list(set(pta))
-                    course["possible_emails"] = [x[0] for x in list(set(possible_emails))]
-                else:
-                    course["possible_emails"] = []
-                if len(course["possible_emails"]) == 1:
-                    course["instructor"] = course["possible_emails"][0]
+                # rootCursor.execute(f"select email from professor")
+                # possible_emails = []
+                # if course["instructor"] != "Staff":
+                #     try:
+                #         for r in rootCursor.fetchall():
+                #             if r[0].split("@")[0].__contains__(f".{course['instructor'].split(',')[0].lower()}") or r[0].split("@")[0].__contains__(course["instructor"].split(",")[1].lower()):
+                #                 possible_emails.append(r)
+                #     except IndexError:
+                #         continue
+                #     if possible_emails == []:
+                #         pta.append(course["instructor"])
+                #         pta = list(set(pta))
+                #     course["possible_emails"] = [x[0] for x in list(set(possible_emails))]
+                # else:
+                #     course["possible_emails"] = []
+                # if len(course["possible_emails"]) == 1:
+                #     course["instructor"] = course["possible_emails"][0]
                 
                 
                 
-            json.dump(sub, open(f"{code}_schedule.json", "w"), indent=4)
+            json.dump(sub, open(f"./results/{code}_schedule.json", "w"), indent=4)
     json.dump({"courses_to_add": list(set(cta)), "professors_to_add": list(set(pta)),
-              "tables_that_dont_exist": list(set(tta))}, open("shit_to_add.json", "w"), indent=4)
+              "tables_that_dont_exist": list(set(tta))}, open("Missing_Items_2.json", "w"), indent=4)
  
 
     for code in class_codes:
         classes = []
         try:
-            with open(f"{code}_schedule.json") as schedule_file:
+            with open(f"./results/{code}_schedule.json") as schedule_file:
                 all_classes = {}
                 sf = json.load(schedule_file)
                 # pprint.pprint(sf)
@@ -468,16 +468,16 @@ if __name__ == "__main__":
                             "location": course["location"],
                             "start_time": course["start_time"],
                             "end_time": course["end_time"],
-                            "possible_emails": course["possible_emails"]
+                            # "possible_emails": course["possible_emails"]
                         }]
-                json.dump(all_classes, open(f"{code}_schedule.json", "w"), indent=4)
+                json.dump(all_classes, open(f"./results/{code}_schedule.json", "w"), indent=4)
                 #print(*all_classes, sep="\n")
         except FileNotFoundError:
             continue
 
 
     for code in class_codes:
-        with open(f"{code}_schedule.json") as s:
+        with open(f"./results/{code}_schedule.json") as s:
             s = json.load(s)
             try:
                 for c in s.keys():
