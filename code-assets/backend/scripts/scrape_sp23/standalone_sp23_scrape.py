@@ -345,7 +345,7 @@ def gather(arrow):
             
                         except NoSuchElementException:
                             course_dict["instructor"] = "Staff"
-
+                        # print(course_dict)
                         sub_sects.append(dict(course_dict))
                         # print(*sub_sects, sep='\n')
                         # print(sub_sects)
@@ -381,7 +381,7 @@ if __name__ == "__main__":
     for code in class_codes:
         t.append(multiprocessing.Process(target=gather, args=(class_codes.index(code),)))
         t[len(t)-1].start()
-    
+
     
     for a in t:    
         a.join()

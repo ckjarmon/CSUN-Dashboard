@@ -1,51 +1,1178 @@
 {
-    "KOR 101": [
+    "KOR 115A": [
         {
-            "class_number": "14312",
-            "enrollment_cap": 11,
+            "class_number": "18873",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "Yoon,Sung Ja",
+            "instructor": "Jung,Taeyou",
             "days": "TR",
-            "location": "JR315",
-            "start_time": "0900h",
-            "end_time": "1040h",
-            "possible_emails": [
-                "sungwook.yoon@csun.edu",
-                "hyungjo.yoon@csun.edu",
-                "sung.yoon@csun.edu"
-            ]
-        },
-        {
-            "class_number": "15397",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Yoon,Sung Ja",
-            "days": "TR",
-            "location": "JR315",
-            "start_time": "1100h",
-            "end_time": "1240h",
-            "possible_emails": [
-                "sungwook.yoon@csun.edu",
-                "hyungjo.yoon@csun.edu",
-                "sung.yoon@csun.edu"
-            ]
+            "location": "BC156",
+            "start_time": "1300h",
+            "end_time": "1350h"
         }
     ],
-    "KOR 102": [
+    "KOR 117": [
         {
-            "class_number": "14644",
+            "class_number": "18872",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Garcia,Liz M",
+            "days": "TR",
+            "location": "BC126",
+            "start_time": "1730h",
+            "end_time": "1820h"
+        }
+    ],
+    "KOR 118": [
+        {
+            "class_number": "19170",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Komori,Timothy J",
+            "days": "TR",
+            "location": "RE251",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        }
+    ],
+    "KOR 120": [
+        {
+            "class_number": "19251",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Rosenthal,Bethana A",
+            "days": "M",
+            "location": "RE230",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    ],
+    "KOR 120L": [
+        {
+            "class_number": "19252",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Rosenthal,Bethana A",
+            "days": "M",
+            "location": "RE230",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    ],
+    "KOR 123A": [
+        {
+            "class_number": "20152",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "MacQuarrie,James P",
+            "days": "F",
+            "location": "JP0000",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    ],
+    "KOR 124A": [
+        {
+            "class_number": "19842",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE160",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        }
+    ],
+    "KOR 125A": [
+        {
+            "class_number": "19376",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "FT0000",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    ],
+    "KOR 126A": [
+        {
+            "class_number": "19844",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Marchetti,Paulo H",
+            "days": "MW",
+            "location": "RE278",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        }
+    ],
+    "KOR 128": [
+        {
+            "class_number": "19845",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "De La Cruz,Robert D.",
+            "days": null,
+            "location": "FT0000",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 129A": [
+        {
+            "class_number": "19496",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "FT0000",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        }
+    ],
+    "KOR 130A": [
+        {
+            "class_number": "18713",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gale,Paul J",
+            "days": "W",
+            "location": "RE B1",
+            "start_time": "1800h",
+            "end_time": "1940h"
+        }
+    ],
+    "KOR 131A": [
+        {
+            "class_number": "18714",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Gale,Paul J",
+            "days": "TR",
+            "location": "RE B1",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        }
+    ],
+    "KOR 132A": [
+        {
+            "class_number": "18717",
+            "enrollment_cap": 19,
+            "enrollment_count": 0,
+            "instructor": "Komori,Timothy J",
+            "days": "F",
+            "location": "RE251",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    ],
+    "KOR 133A": [
+        {
+            "class_number": "18718",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Gale,Paul J",
+            "days": "T",
+            "location": "RE B1",
+            "start_time": "1800h",
+            "end_time": "1940h"
+        }
+    ],
+    "KOR 135A": [
+        {
+            "class_number": "18720",
+            "enrollment_cap": 21,
+            "enrollment_count": 0,
+            "instructor": "Lenhart,Raquel Rahal",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    ],
+    "KOR 137A": [
+        {
+            "class_number": "19951",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Eusanio,Jacqueline C",
+            "days": "TR",
+            "location": "RE230",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        }
+    ],
+    "KOR 139A": [
+        {
+            "class_number": "19021",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "DiVito,Joanne M",
+            "days": "T",
+            "location": "RE292",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    ],
+    "KOR 139B": [
+        {
+            "class_number": "19004",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Yoon,Sung Ja",
+            "instructor": "Rosenthal,Bethana A",
+            "days": "F",
+            "location": "RE292",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    ],
+    "KOR 141A": [
+        {
+            "class_number": "19118",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Rosenthal,Bethana A",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    ],
+    "KOR 141B": [
+        {
+            "class_number": "19034",
+            "enrollment_cap": 18,
+            "enrollment_count": 0,
+            "instructor": "Rosenthal,Bethana A",
+            "days": "TR",
+            "location": "RE292",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    ],
+    "KOR 142A": [
+        {
+            "class_number": "19859",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Rosenthal,Bethana A",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    ],
+    "KOR 143A": [
+        {
+            "class_number": "19022",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    ],
+    "KOR 143B": [
+        {
+            "class_number": "20865",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE230",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        }
+    ],
+    "KOR 144A": [
+        {
+            "class_number": "18986",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructor": "Rosenblatt,Evan R",
+            "days": "T",
+            "location": "RE292",
+            "start_time": "1800h",
+            "end_time": "1940h"
+        }
+    ],
+    "KOR 147": [
+        {
+            "class_number": "20022",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Lenhart,Raquel Rahal",
+            "days": "F",
+            "location": "RE230",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    ],
+    "KOR 148": [
+        {
+            "class_number": "19850",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Rosenblatt,Evan R",
+            "days": "TR",
+            "location": "RE230",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        }
+    ],
+    "KOR 149": [
+        {
+            "class_number": "18922",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Lenhart,Raquel Rahal",
+            "days": "R",
+            "location": "RE B1",
+            "start_time": "1500h",
+            "end_time": "1640h"
+        }
+    ],
+    "KOR 151A": [
+        {
+            "class_number": "18726",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Lenhart,Raquel Rahal",
+            "days": "R",
+            "location": "RE B1",
+            "start_time": "1900h",
+            "end_time": "2040h"
+        }
+    ],
+    "KOR 152A": [
+        {
+            "class_number": "19401",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "EF0000",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    ],
+    "KOR 153": [
+        {
+            "class_number": "19485",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Lenhart,Raquel Rahal",
+            "days": "W",
+            "location": "RE251",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    ],
+    "KOR 177A": [
+        {
+            "class_number": "20023",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Lane,Kevin",
+            "days": "F",
+            "location": "RESMPOOL",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    ],
+    "KOR 178A": [
+        {
+            "class_number": "19851",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Lane,Kevin",
+            "days": "TR",
+            "location": "RESMPOOL",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    ],
+    "KOR 179A": [
+        {
+            "class_number": "19013",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructor": "Lane,Kevin",
+            "days": "TR",
+            "location": "RESMPOOL",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        }
+    ],
+    "KOR 185A": [
+        {
+            "class_number": "19500",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "De La Cruz,Robert D.",
+            "days": "TR",
+            "location": "TN0000",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    ],
+    "KOR 195A": [
+        {
+            "class_number": "19502",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE160",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    ],
+    "KOR 200": [
+        {
+            "class_number": "19420",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Loy,Steven F",
+            "days": "TR",
+            "location": "RE157",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "KOR 236": [
+        {
+            "class_number": "18982",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Rosenblatt,Evan R",
+            "days": "M",
+            "location": "RE292",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    ],
+    "KOR 236L": [
+        {
+            "class_number": "18983",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Rosenblatt,Evan R",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    ],
+    "KOR 242": [
+        {
+            "class_number": "18741",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Eusanio,Jacqueline C",
+            "days": "TR",
+            "location": "RE292",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        }
+    ],
+    "KOR 250SW": [
+        {
+            "class_number": "18742",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Lane,Kevin",
+            "days": "MW",
+            "location": "RESMPOOL",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    ],
+    "KOR 271": [
+        {
+            "class_number": "19183",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Jung,Yeonhak",
+            "days": "T",
+            "location": "RE180",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    ],
+    "KOR 271L": [
+        {
+            "class_number": "19184",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Jung,Yeonhak",
+            "days": "R",
+            "location": "RE180",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    ],
+    "KOR 272": [
+        {
+            "class_number": "19361",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Mena,Derek",
+            "days": "T",
+            "location": "RE160",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    ],
+    "KOR 272L": [
+        {
+            "class_number": "19362",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Mena,Derek",
+            "days": "T",
+            "location": "RE160",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        }
+    ],
+    "KOR 300": [
+        {
+            "class_number": "19952",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Khachatryan,Nvard",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "KOR 303": [
+        {
+            "class_number": "20866",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Hatcher,Kevin",
+            "days": "MW",
+            "location": "RE159",
+            "start_time": "1800h",
+            "end_time": "1915h"
+        }
+    ],
+    "KOR 305": [
+        {
+            "class_number": "19666",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Jonsrud,Jarrod",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": [
-                "sungwook.yoon@csun.edu",
-                "hyungjo.yoon@csun.edu",
-                "sung.yoon@csun.edu"
-            ]
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 306": [
+        {
+            "class_number": "19415",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Galli,Nick A",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 310": [
+        {
+            "class_number": "19975",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Jensen,Jacob Cannon",
+            "days": "W",
+            "location": "RE155",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "KOR 311": [
+        {
+            "class_number": "19604",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Garcia,Liz M",
+            "days": "TR",
+            "location": "BC140",
+            "start_time": "1500h",
+            "end_time": "1550h"
+        }
+    ],
+    "KOR 311L": [
+        {
+            "class_number": "19605",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Garcia,Liz M",
+            "days": null,
+            "location": "BC140",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 313": [
+        {
+            "class_number": "19510",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Garcia,Liz M",
+            "days": "TR",
+            "location": "BC126",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        }
+    ],
+    "KOR 313L": [
+        {
+            "class_number": "19512",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Garcia,Liz M",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 314": [
+        {
+            "class_number": "18750",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Eusanio,Jacqueline C",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    ],
+    "KOR 314L": [
+        {
+            "class_number": "18751",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Eusanio,Jacqueline C",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        }
+    ],
+    "KOR 315": [
+        {
+            "class_number": "19016",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Eusanio,Jacqueline C",
+            "days": "T",
+            "location": "RE230",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    ],
+    "KOR 315L": [
+        {
+            "class_number": "19017",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Eusanio,Jacqueline C",
+            "days": "R",
+            "location": "RE230",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    ],
+    "KOR 318": [
+        {
+            "class_number": "19018",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Thomson,Paula Susan",
+            "days": "MWF",
+            "location": "RE292",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    ],
+    "KOR 321": [
+        {
+            "class_number": "19744",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Thomson,Paula Susan",
+            "days": "R",
+            "location": "RE292",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "KOR 336": [
+        {
+            "class_number": "19746",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Guillory,Ivan K",
+            "days": "F",
+            "location": "RE279",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    ],
+    "KOR 336L": [
+        {
+            "class_number": "19750",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Guillory,Ivan K",
+            "days": "F",
+            "location": "RE160",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    ],
+    "KOR 337": [
+        {
+            "class_number": "19891",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Rodriguez,Michelle",
+            "days": "MW",
+            "location": "RE104",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "KOR 337L": [
+        {
+            "class_number": "19893",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Curtis,Emily Catherine",
+            "days": "W",
+            "location": "RE159",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    ],
+    "KOR 345": [
+        {
+            "class_number": "19609",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Mcclain,Christopher S",
+            "days": "F",
+            "location": "RE155",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    ],
+    "KOR 345L": [
+        {
+            "class_number": "19611",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Abergel,Rachel Eva",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    ],
+    "KOR 346": [
+        {
+            "class_number": "19894",
+            "enrollment_cap": 24,
+            "enrollment_count": 0,
+            "instructor": "Yaspelkis III,Ben B",
+            "days": "R",
+            "location": "JD1600",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "KOR 346L": [
+        {
+            "class_number": "19895",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "RE151",
+            "start_time": "1700h",
+            "end_time": "1840h"
+        }
+    ],
+    "KOR 347": [
+        {
+            "class_number": "19959",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Fischer,Jay R",
+            "days": "F",
+            "location": "RE278",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    ],
+    "KOR 371": [
+        {
+            "class_number": "19379",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Jung,Yeonhak",
+            "days": "M",
+            "location": "RE278",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    ],
+    "KOR 371L": [
+        {
+            "class_number": "19378",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Jung,Yeonhak",
+            "days": "W",
+            "location": "RE180",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    ],
+    "KOR 377": [
+        {
+            "class_number": "19780",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Furtado Jr,Ovande",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 380": [
+        {
+            "class_number": "18905",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Thomson,Paula Susan",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    ],
+    "KOR 380L": [
+        {
+            "class_number": "18917",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Thomson,Paula Susan",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        }
+    ],
+    "KOR 385": [
+        {
+            "class_number": "20109",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Rohrer,Elizabeth S",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 406": [
+        {
+            "class_number": "19856",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Smith,Daniel",
+            "days": "TR",
+            "location": "RE104",
+            "start_time": "1730h",
+            "end_time": "1845h"
+        }
+    ],
+    "KOR 407": [
+        {
+            "class_number": "19649",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Bolsmann,Chris",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 408": [
+        {
+            "class_number": "19755",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Hatcher,Kevin",
+            "days": "F",
+            "location": "RE159",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    ],
+    "KOR 409": [
+        {
+            "class_number": "19887",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Jensen,Jacob Cannon",
+            "days": "W",
+            "location": "RE155",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "KOR 410": [
+        {
+            "class_number": "19888",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Jensen,Jacob Cannon",
+            "days": "R",
+            "location": "RE157",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "KOR 415": [
+        {
+            "class_number": "18763",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Mestas,Dennis",
+            "days": "F",
+            "location": "RE279",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    ],
+    "KOR 417": [
+        {
+            "class_number": "19658",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Marchetti,Paulo H",
+            "days": "F",
+            "location": "RE104",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    ],
+    "KOR 419": [
+        {
+            "class_number": "19033",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Rosenblatt,Evan R",
+            "days": "F",
+            "location": "RE292",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    ],
+    "KOR 420": [
+        {
+            "class_number": "19961",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Weinstein,Aaron J",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 427": [
+        {
+            "class_number": "19204",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "Thomson,Paula Susan",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "KOR 428": [
+        {
+            "class_number": "19964",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Rohrer,Elizabeth S",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 436": [
+        {
+            "class_number": "19650",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Jalilvand Tehrani,Farzad",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    ],
+    "KOR 445": [
+        {
+            "class_number": "21263",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Flanagan,Sean P",
+            "days": "TR",
+            "location": "RE276",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "KOR 446": [
+        {
+            "class_number": "19769",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Amiss,C Scott",
+            "days": "M",
+            "location": "RE279",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    ],
+    "KOR 446L": [
+        {
+            "class_number": "19771",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Amiss,C Scott",
+            "days": "W",
+            "location": "RE151",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    ],
+    "KOR 451": [
+        {
+            "class_number": "19010",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Hurtado,Ileana M",
+            "days": "M",
+            "location": "BC156",
+            "start_time": "1630h",
+            "end_time": "1810h"
+        }
+    ],
+    "KOR 451L": [
+        {
+            "class_number": "19011",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Hurtado,Ileana M",
+            "days": "W",
+            "location": "BC130",
+            "start_time": "1630h",
+            "end_time": "1810h"
+        }
+    ],
+    "KOR 452": [
+        {
+            "class_number": "19965",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Todd,Teri A",
+            "days": "M",
+            "location": "RE180",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    ],
+    "KOR 452L": [
+        {
+            "class_number": "19966",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Todd,Teri A",
+            "days": "MW",
+            "location": "RE180",
+            "start_time": "1630h",
+            "end_time": "1720h"
+        }
+    ],
+    "KOR 456": [
+        {
+            "class_number": "19651",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Guillory,Ivan K",
+            "days": "MW",
+            "location": "RE157",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "KOR 470": [
+        {
+            "class_number": "18778",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clemmensen III,James H",
+            "days": "W",
+            "location": "RE159",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    ],
+    "KOR 470L": [
+        {
+            "class_number": "18779",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clemmensen III,James H",
+            "days": "W",
+            "location": "RE180",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        }
+    ],
+    "KOR 476": [
+        {
+            "class_number": "19765",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Whiting,William C",
+            "days": "MW",
+            "location": "RE155",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     ]
 }

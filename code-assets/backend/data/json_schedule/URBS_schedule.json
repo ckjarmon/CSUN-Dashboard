@@ -1,424 +1,242 @@
 {
-    "URBS 150": [
+    "URBS 60AA": [
         {
-            "class_number": "12041",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructor": "claude.willey@csun.edu",
-            "days": "MW",
-            "location": "SH286",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "possible_emails": [
-                "claude.willey@csun.edu"
-            ]
-        },
-        {
-            "class_number": "12042",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "claude.willey@csun.edu",
-            "days": "MW",
-            "location": "SH286",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "claude.willey@csun.edu"
-            ]
-        },
-        {
-            "class_number": "12043",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Calvert,Bradley",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "linda.bradley@csun.edu",
-                "bradley.mcauliff@csun.edu",
-                "bradley.jackson@csun.edu",
-                "bradley.calvert@csun.edu",
-                "bradley.batesole@csun.edu",
-                "phil.calvert@csun.edu"
-            ]
-        },
-        {
-            "class_number": "12044",
-            "enrollment_cap": 33,
-            "enrollment_count": 0,
-            "instructor": "claude.willey@csun.edu",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "claude.willey@csun.edu"
-            ]
-        },
-        {
-            "class_number": "12652",
-            "enrollment_cap": 45,
-            "enrollment_count": 0,
-            "instructor": "Calvert,Bradley",
-            "days": "F",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "linda.bradley@csun.edu",
-                "bradley.mcauliff@csun.edu",
-                "bradley.jackson@csun.edu",
-                "bradley.calvert@csun.edu",
-                "bradley.batesole@csun.edu",
-                "phil.calvert@csun.edu"
-            ]
-        },
-        {
-            "class_number": "12701",
-            "enrollment_cap": 43,
-            "enrollment_count": 0,
-            "instructor": "Giottonini,Paloma",
-            "days": "TR",
-            "location": "SH286",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "possible_emails": []
-        },
-        {
-            "class_number": "12738",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructor": "claude.willey@csun.edu",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "claude.willey@csun.edu"
-            ]
-        }
-    ],
-    "URBS 206": [
-        {
-            "class_number": "12768",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Giottonini,Paloma",
-            "days": "TR",
-            "location": "SH278B",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "possible_emails": []
-        }
-    ],
-    "URBS 300": [
-        {
-            "class_number": "12047",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Shannon,Brettany",
-            "days": "TR",
-            "location": "SH286",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "brettany.shannon@csun.edu",
-                "mary.shannon@csun.edu"
-            ]
-        }
-    ],
-    "URBS 310": [
-        {
-            "class_number": "12045",
-            "enrollment_cap": 135,
-            "enrollment_count": 0,
-            "instructor": "Thomas,Ward F",
-            "days": "TR",
-            "location": "UL025",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "possible_emails": [
-                "nate.thomas@csun.edu",
-                "ward.thomas@csun.edu",
-                "thomasl.thomas@csun.edu"
-            ]
-        },
-        {
-            "class_number": "12046",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Vrat,Dev",
-            "days": "F",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "possible_emails": [
-                "maureen.fondevillaperez@csun.edu",
-                "dev.vrat@csun.edu",
-                "tom.devine@csun.edu",
-                "marcella.deveaux@csun.edu"
-            ]
-        },
-        {
-            "class_number": "12059",
-            "enrollment_cap": 45,
-            "enrollment_count": 0,
-            "instructor": "Vrat,Dev",
-            "days": "TR",
-            "location": "SH286",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "maureen.fondevillaperez@csun.edu",
-                "dev.vrat@csun.edu",
-                "tom.devine@csun.edu",
-                "marcella.deveaux@csun.edu"
-            ]
-        }
-    ],
-    "URBS 340B": [
-        {
-            "class_number": "12048",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "zeynep.toker@csun.edu",
-            "days": "TR",
-            "location": "SH303",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "zeynep.toker@csun.edu"
-            ]
-        },
-        {
-            "class_number": "12049",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "zeynep.toker@csun.edu",
-            "days": "TR",
-            "location": "SH278B",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "possible_emails": [
-                "zeynep.toker@csun.edu"
-            ]
-        }
-    ],
-    "URBS 350": [
-        {
-            "class_number": "12739",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "claude.willey@csun.edu",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "possible_emails": [
-                "claude.willey@csun.edu"
-            ]
-        }
-    ],
-    "URBS 380": [
-        {
-            "class_number": "12901",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructor": "Shannon,Brettany",
-            "days": "F",
-            "location": "SH286",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "possible_emails": [
-                "brettany.shannon@csun.edu",
-                "mary.shannon@csun.edu"
-            ]
-        }
-    ],
-    "URBS 400": [
-        {
-            "class_number": "12943",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Giottonini,Paloma",
-            "days": "TR",
-            "location": "SH286",
-            "start_time": "1530h",
-            "end_time": "1645h",
-            "possible_emails": []
-        }
-    ],
-    "URBS 415": [
-        {
-            "class_number": "12902",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Vrat,Dev",
-            "days": "MW",
-            "location": "SH286",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "maureen.fondevillaperez@csun.edu",
-                "dev.vrat@csun.edu",
-                "tom.devine@csun.edu",
-                "marcella.deveaux@csun.edu"
-            ]
-        }
-    ],
-    "URBS 435": [
-        {
-            "class_number": "12054",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Thomas,Ward F",
-            "days": "TR",
-            "location": "SH286",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "possible_emails": [
-                "nate.thomas@csun.edu",
-                "ward.thomas@csun.edu",
-                "thomasl.thomas@csun.edu"
-            ]
-        }
-    ],
-    "URBS 450": [
-        {
-            "class_number": "12055",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "henrik.sarkssian@csun.edu",
-            "days": "MW",
-            "location": "SH286",
-            "start_time": "1600h",
-            "end_time": "1715h",
-            "possible_emails": [
-                "henrik.sarkssian@csun.edu"
-            ]
-        }
-    ],
-    "URBS 490C": [
-        {
-            "class_number": "12057",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "craig.olwert@csun.edu",
-            "days": "F",
-            "location": "SH286",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "possible_emails": [
-                "craig.olwert@csun.edu"
-            ]
-        }
-    ],
-    "URBS 494C": [
-        {
-            "class_number": "12058",
-            "enrollment_cap": 4,
+            "class_number": "21008",
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR",
-            "possible_emails": []
+            "days": "TR",
+            "location": "SH307",
+            "start_time": "1530h",
+            "end_time": "1620h"
         }
     ],
-    "URBS 615": [
+    "URBS 60BB": [
         {
-            "class_number": "12906",
-            "enrollment_cap": 15,
+            "class_number": "20491",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "craig.olwert@csun.edu",
-            "days": "W",
-            "location": "SH278B",
-            "start_time": "1800h",
-            "end_time": "2045h",
-            "possible_emails": [
-                "craig.olwert@csun.edu"
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "BH317",
+            "start_time": "1230h",
+            "end_time": "1320h"
         }
     ],
-    "URBS 620": [
+    "URBS 60C": [
         {
-            "class_number": "12769",
-            "enrollment_cap": 15,
+            "class_number": "20561",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Weintraub,David S",
-            "days": "M",
-            "location": "SH278B",
-            "start_time": "1800h",
-            "end_time": "2045h",
-            "possible_emails": [
-                "david.weintraub@csun.edu",
-                "richard.weintraub@csun.edu"
-            ]
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1530h",
+            "end_time": "1620h"
         }
     ],
-    "URBS 640": [
+    "URBS 60NN": [
         {
-            "class_number": "12904",
-            "enrollment_cap": 15,
+            "class_number": "20557",
+            "enrollment_cap": 11,
             "enrollment_count": 0,
-            "instructor": "Thomas,Ward F",
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH221",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    ],
+    "URBS 60O": [
+        {
+            "class_number": "20499",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "BH319",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    ],
+    "URBS 60S": [
+        {
+            "class_number": "20504",
+            "enrollment_cap": 28,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "BH317",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    ],
+    "URBS 60X": [
+        {
+            "class_number": "20337",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH371",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        }
+    ],
+    "URBS 61A": [
+        {
+            "class_number": "20419",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    ],
+    "URBS 61C": [
+        {
+            "class_number": "21096",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        }
+    ],
+    "URBS 61E": [
+        {
+            "class_number": "20421",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD1593",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
+    "URBS 61L": [
+        {
+            "class_number": "20429",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "BH319",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    ],
+    "URBS 62A": [
+        {
+            "class_number": "20305",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "BH319",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    ],
+    "URBS 62C": [
+        {
+            "class_number": "20228",
+            "enrollment_cap": 18,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH207",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    ],
+    "URBS 62E": [
+        {
+            "class_number": "20265",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "BH319",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    ],
+    "URBS 62H": [
+        {
+            "class_number": "20313",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "MZ124",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    ],
+    "URBS 62L": [
+        {
+            "class_number": "20973",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH205",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    ],
+    "URBS 62P": [
+        {
+            "class_number": "20232",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH305",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    ],
+    "URBS 62Q": [
+        {
+            "class_number": "20402",
+            "enrollment_cap": 18,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH371",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    ],
+    "URBS 100": [
+        {
+            "class_number": "20490",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Quiambao,Gretchelle",
+            "days": "TR",
+            "location": "BB1107",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "URBS 396A": [
+        {
+            "class_number": "21253",
+            "enrollment_cap": 19,
+            "enrollment_count": 0,
+            "instructor": "Pirjan,Sevetlana",
             "days": "R",
-            "location": "SH286",
-            "start_time": "1800h",
-            "end_time": "2045h",
-            "possible_emails": [
-                "nate.thomas@csun.edu",
-                "ward.thomas@csun.edu",
-                "thomasl.thomas@csun.edu"
-            ]
-        }
-    ],
-    "URBS 650": [
-        {
-            "class_number": "13130",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "henrik.sarkssian@csun.edu",
-            "days": "T",
-            "location": "SH278B",
-            "start_time": "1800h",
-            "end_time": "2045h",
-            "possible_emails": [
-                "henrik.sarkssian@csun.edu"
-            ]
-        }
-    ],
-    "URBS 685": [
-        {
-            "class_number": "12771",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "zeynep.toker@csun.edu",
-            "days": null,
-            "location": "SH278B",
-            "start_time": "0930h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "zeynep.toker@csun.edu"
-            ]
-        }
-    ],
-    "URBS 698": [
-        {
-            "class_number": "12903",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "craig.olwert@csun.edu",
-            "days": null,
-            "location": "SH303",
-            "start_time": "0930h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "craig.olwert@csun.edu"
-            ]
+            "location": "BB1236",
+            "start_time": "1100h",
+            "end_time": "1150h"
         }
     ]
 }

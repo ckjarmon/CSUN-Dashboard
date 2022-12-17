@@ -1,132 +1,74 @@
 {
-    "JAPN 101": [
+    "JAPN 100": [
         {
-            "class_number": "14234",
-            "enrollment_cap": 15,
+            "class_number": "14561",
+            "enrollment_cap": 32,
             "enrollment_count": 0,
-            "instructor": "kanzo.takemori@csun.edu",
-            "days": "MW",
-            "location": "JR315",
-            "start_time": "0900h",
-            "end_time": "1040h",
-            "possible_emails": [
-                "kanzo.takemori@csun.edu"
-            ]
-        },
-        {
-            "class_number": "14349",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "kanzo.takemori@csun.edu",
-            "days": "MW",
-            "location": "JR315",
-            "start_time": "1100h",
-            "end_time": "1240h",
-            "possible_emails": [
-                "kanzo.takemori@csun.edu"
-            ]
-        },
-        {
-            "class_number": "14651",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Snyder,Wendy K",
-            "days": "MW",
-            "location": "JR203",
-            "start_time": "1300h",
-            "end_time": "1440h",
-            "possible_emails": [
-                "wendy.snyder@csun.edu",
-                "luke.snyder@csun.edu"
-            ]
-        },
-        {
-            "class_number": "14652",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "nina.golden@csun.edu",
+            "instructor": "Goodfriend,Elaine A",
             "days": "TR",
-            "location": "JR301",
+            "location": "SH108",
             "start_time": "1100h",
-            "end_time": "1240h",
-            "possible_emails": [
-                "nina.golden@csun.edu"
-            ]
+            "end_time": "1215h"
         }
     ],
-    "JAPN 102": [
+    "JAPN 220": [
         {
-            "class_number": "14235",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "nina.golden@csun.edu",
-            "days": "TR",
-            "location": "JR301",
-            "start_time": "0900h",
-            "end_time": "1040h",
-            "possible_emails": [
-                "nina.golden@csun.edu"
-            ]
-        },
-        {
-            "class_number": "14368",
+            "class_number": "20898",
             "enrollment_cap": 18,
             "enrollment_count": 0,
-            "instructor": "Huang,Junliang",
+            "instructor": "Weininger,Melissa",
             "days": "MW",
-            "location": "JR303",
-            "start_time": "1300h",
-            "end_time": "1440h",
-            "possible_emails": [
-                "junliang.huang@csun.edu",
-                "dongling.huang@csun.edu"
-            ]
+            "location": "SH192",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     ],
-    "JAPN 202": [
+    "JAPN 318": [
         {
-            "class_number": "14236",
-            "enrollment_cap": 16,
+            "class_number": "14748",
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructor": "nina.golden@csun.edu",
-            "days": "TR",
-            "location": "JR203",
-            "start_time": "1300h",
-            "end_time": "1440h",
-            "possible_emails": [
-                "nina.golden@csun.edu"
-            ]
+            "instructor": "Goodfriend,Elaine A",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     ],
-    "JAPN 205": [
+    "JAPN 333": [
         {
-            "class_number": "14837",
-            "enrollment_cap": 22,
+            "class_number": "20688",
+            "enrollment_cap": 36,
             "enrollment_count": 0,
-            "instructor": "kanzo.takemori@csun.edu",
+            "instructor": "Weininger,Melissa",
             "days": "MW",
-            "location": "JR202",
-            "start_time": "1300h",
-            "end_time": "1415h",
-            "possible_emails": [
-                "kanzo.takemori@csun.edu"
-            ]
-        }
-    ],
-    "JAPN 304": [
-        {
-            "class_number": "14277",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Langford,Drake",
-            "days": "TR",
-            "location": "JR316",
+            "location": "SH108",
             "start_time": "1100h",
-            "end_time": "1215h",
-            "possible_emails": [
-                "drake.langford@csun.edu",
-                "luke.drake@csun.edu"
-            ]
+            "end_time": "1215h"
+        }
+    ],
+    "JAPN 335": [
+        {
+            "class_number": "15378",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Thompson,Jennifer A",
+            "days": "TR",
+            "location": "SH209",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "JAPN 390CS": [
+        {
+            "class_number": "14296",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Weininger,Melissa",
+            "days": "F",
+            "location": "JR204",
+            "start_time": "0930h",
+            "end_time": "1215h"
         }
     ]
 }
