@@ -21,7 +21,7 @@ print("Printing the folder parent here: %s" %currDirectory)
 ################################################################
 
 # search for correct dir and file and import the methods to be tested
-from backend.csundash import catalog, name_normalize, prof_name
+from backend.csundash import name_normalize, prof_name
 
 # ################################################################
 # # test the name_normalization function
