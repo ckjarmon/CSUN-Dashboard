@@ -25,3 +25,5 @@ For additional mock test features for pyTest &emsp;&emsp;```pip install pytest-m
 Depending on the version of pyTest you have, you may also need this additional install <br />
 
 For viewing code coverage when using pyTest &emsp;&emsp;```pip install pytest-cov```
+
+For testing post results with pyTest and Flask &emsp;&emsp;```pip install pytest-flask```

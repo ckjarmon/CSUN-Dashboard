@@ -1,4 +1,4 @@
-from unittest import TestCase
+from unittest import TestCase, mock
 import sys, os, requests, json
 import path, pytest, warnings, mariadb
 from flask import Flask
@@ -83,6 +83,16 @@ def test_catalog_invalid_returns_null():
      example_subject = "SOFTWARE"
      empty_array = []
      assert catalog(subject=example_subject) == empty_array
+
+# using catalog with no access to the database
+# mocking invalid credentials to the database so we cannot connect
+# def test_catalog_no_db_returns_exception(monkeypatch):
+#      with pytest.raises(mariadb.InterfaceError):
+#           example_subject = "COMP"
+#           rootConnection_invalid = mariadb.connect()
+#           inst = catalog(subject=example_subject)
+#           monkeypatch.setattr(inst, "rootConnection", rootConnection_invalid)
+#           assert inst()
 
 ################################################################
 # test base home route

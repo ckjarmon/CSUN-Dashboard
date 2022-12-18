@@ -10,10 +10,10 @@ import sys, path, pytest, warnings
 currFile = path.Path(__file__).abspath()
 currDirectory = currFile.parent.parent.parent
 # determines host os and uses correct dir pattern
-if sys.platform.startswith("win32"):
-     currDirectory += r"\code-assets"
-else:
-     currDirectory += r"/code-assets"
+# if sys.platform.startswith("win32"):
+#      currDirectory += r"\code-assets"
+# else:
+currDirectory += r"/code-assets"
 sys.path.append(currDirectory)
 # currDirectory should return root\code-assets to be in correct dir
 print("Printing the folder parent here: %s" %currDirectory)
