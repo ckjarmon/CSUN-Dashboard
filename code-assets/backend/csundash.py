@@ -8,6 +8,7 @@ import mariadb
 app = Flask(__name__)
 CORS(app)
 
+rootConnection, rootCursor = None, None
 
 def establish_conn():
     try:
@@ -21,6 +22,7 @@ def establish_conn():
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
 
+# create function to teardown connection after every return 
 
 def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
@@ -49,36 +51,29 @@ def get(**kwargs):
 
 @app.route('/<string:subject>/professors')
 def professors(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
-    while True:
-        try:
-            rootCursor.execute(f"""SELECT 
-                               email, 
-                               first_name, 
-                               last_name, 
-                               image_link, 
-                               phone_number, 
-                               location, 
-                               website, 
-                               mail_drop, 
-                               subject, 
-                               office 
-                               FROM professor WHERE subject = '{kwargs['subject'].upper()}'""")
-            return sorted([{"email": x[0],
-                            "first_name": name_normalize(x[1]),
-                            "last_name": name_normalize(x[2]),
-                            "image_link": x[3] if x[3] not in [None, ""] else "N/A",
-                            "phone_number": x[4] if x[4] not in [None, ""] else "N/A",
-                            "location": x[5] if x[5] not in [None, ""] else "N/A",
-                            "website": x[6] if x[6] not in [None, ""] else "N/A",
-                            "mail_drop": x[7] if x[7] not in [None, ""] else "N/A",
-                            "subject": x[8] if x[8] not in [None, ""] else "N/A",
-                            "office": x[9] if x[9] not in [None, ""] else "N/A"}
-                           for x in rootCursor.fetchall()], key=lambda x: x["last_name"])
-        except mariadb.InterfaceError:
-            rootConnection = establish_conn()
-            rootCursor = rootConnection.cursor()
+    rootCursor.execute(f"""SELECT 
+                       email, 
+                       first_name, 
+                       last_name, 
+                       image_link, 
+                       phone_number, 
+                       location, 
+                       website, 
+                       mail_drop, 
+                       subject, 
+                       office 
+                       FROM professor WHERE subject = '{kwargs['subject'].upper()}'""")
+    return sorted([{"email": x[0],
+                    "first_name": name_normalize(x[1]),
+                    "last_name": name_normalize(x[2]),
+                    "image_link": x[3] if x[3] not in [None, ""] else "N/A",
+                    "phone_number": x[4] if x[4] not in [None, ""] else "N/A",
+                    "location": x[5] if x[5] not in [None, ""] else "N/A",
+                    "website": x[6] if x[6] not in [None, ""] else "N/A",
+                    "mail_drop": x[7] if x[7] not in [None, ""] else "N/A",
+                    "subject": x[8] if x[8] not in [None, ""] else "N/A",
+                    "office": x[9] if x[9] not in [None, ""] else "N/A"}
+                   for x in rootCursor.fetchall()], key=lambda x: x["last_name"])
 
 
 """
@@ -140,41 +135,37 @@ Example:
 
 @app.route('/<string:subject>/rating', methods=['POST'])
 def new_rating(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
     new_rating = request.get_json(force=True)
     print(new_rating)
-    while True:
-        try:
-            tup = (name_normalize(new_rating["professor_first_name"]),
-                   name_normalize(new_rating["professor_last_name"]),
-                   new_rating["email"].lower(),
-                   new_rating["subject"],
-                   new_rating["catalog_number"],
-                   new_rating["star_rating"],
-                   new_rating["grade"],
-                   new_rating["difficulty"],
-                   new_rating["retake_professor"],
-                   new_rating["require_textbooks"],
-                   new_rating["mandatory"],
-                   new_rating["review"],
-                   new_rating["class_type"])
-            # print(tup.__str__())
-            rootCursor.execute(f"""INSERT INTO rating(
-                professor_first_name,
-                professor_last_name,
-                email, 
-                subject,
-                catalog_number,
-                star_rating,
-                grade,
-                difficulty,
-                retake_professor,
-                require_textbooks,
-                mandatory,
-                review,
-                class_type) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, %s, %s)""", tup)
-            rootConnection.commit()
+    tup = (name_normalize(new_rating["professor_first_name"]),
+           name_normalize(new_rating["professor_last_name"]),
+           new_rating["email"].lower(),
+           new_rating["subject"],
+           new_rating["catalog_number"],
+           new_rating["star_rating"],
+           new_rating["grade"],
+           new_rating["difficulty"],
+           new_rating["retake_professor"],
+           new_rating["require_textbooks"],
+           new_rating["mandatory"],
+           new_rating["review"],
+           new_rating["class_type"])
+    # print(tup.__str__())
+    rootCursor.execute(f"""INSERT INTO rating(
+        professor_first_name,
+        professor_last_name,
+        email, 
+        subject,
+        catalog_number,
+        star_rating,
+        grade,
+        difficulty,
+        retake_professor,
+        require_textbooks,
+        mandatory,
+        review,
+        class_type) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, %s, %s)""", tup)
+    rootConnection.commit()
 
 #             rootCursor.execute(f"""SELECT 
 #                                professor_first_name,
@@ -194,77 +185,67 @@ def new_rating(**kwargs):
 #                                                  AND 
 #                                                  professor_last_name = '{name_normalize(new_rating['professor_last_name'])}' """) 
 
-            rootCursor.execute(f"""SELECT 
-                                professor_first_name,
-                                professor_last_name,
-                                email,
-                                subject,
-                                catalog_number,
-                                star_rating,
-                                grade,
-                                difficulty,
-                                retake_professor,
-                                require_textbooks,
-                                mandatory,
-                                review,
-                                class_type
-                                FROM rating WHERE email = '{new_rating['email'].lower()}' """)            
-            return [{"professor_first_name": c[0],
-                     "professor_last_name": c[1],
-                     "email": c[2],
-                     "subject": c[3],
-                     "catalog_number": c[4],
-                     "star_rating": c[5],
-                     "grade": c[6],
-                     "difficulty": c[7],
-                     "retake_professor": c[8],
-                     "require_textbooks": c[9],
-                     "mandatory": c[10],
-                     "review": c[11],
-                     "class_type": c[12]} for c in rootCursor.fetchall()]
-        except mariadb.InterfaceError:
-            rootConnection = establish_conn()
-            rootCursor = rootConnection.cursor()
-
+    rootCursor.execute(f"""SELECT 
+                        professor_first_name,
+                        professor_last_name,
+                        email,
+                        subject,
+                        catalog_number,
+                        star_rating,
+                        grade,
+                        difficulty,
+                        retake_professor,
+                        require_textbooks,
+                        mandatory,
+                        review,
+                        class_type
+                        FROM rating WHERE email = '{new_rating['email'].lower()}' """)            
+    return [{"professor_first_name": c[0],
+             "professor_last_name": c[1],
+             "email": c[2],
+             "subject": c[3],
+             "catalog_number": c[4],
+             "star_rating": c[5],
+             "grade": c[6],
+             "difficulty": c[7],
+             "retake_professor": c[8],
+             "require_textbooks": c[9],
+             "mandatory": c[10],
+             "review": c[11],
+             "class_type": c[12]} for c in rootCursor.fetchall()]
 
 
 @app.route('/<string:email>/ratings')
 def get_ratings(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
-    while True:
-        try:
-            rootCursor.execute(f"""SELECT 
-                                professor_first_name,
-                                professor_last_name,
-                                email,
-                                subject,
-                                catalog_number,
-                                star_rating,
-                                grade,
-                                difficulty,
-                                retake_professor,
-                                require_textbooks,
-                                mandatory,
-                                review,
-                                class_type
-                                FROM rating WHERE email = '{kwargs['email'].lower()}' """)            
-            return [{"professor_first_name": c[0],
-                     "professor_last_name": c[1],
-                     "email": c[2],
-                     "subject": c[3],
-                     "catalog_number": c[4],
-                     "star_rating": c[5],
-                     "grade": c[6],
-                     "difficulty": c[7],
-                     "retake_professor": c[8],
-                     "require_textbooks": c[9],
-                     "mandatory": c[10],
-                     "review": c[11],
-                     "class_type": c[12]} for c in rootCursor.fetchall()]
-        except mariadb.InterfaceError:
-            rootConnection = establish_conn()
-            rootCursor = rootConnection.cursor()
+    rootCursor.execute(f"""SELECT 
+                        professor_first_name,
+                        professor_last_name,
+                        email,
+                        subject,
+                        catalog_number,
+                        star_rating,
+                        grade,
+                        difficulty,
+                        retake_professor,
+                        require_textbooks,
+                        mandatory,
+                        review,
+                        class_type
+                        FROM rating WHERE email = '{kwargs['email'].lower()}' """)            
+    return [{"professor_first_name": c[0],
+             "professor_last_name": c[1],
+             "email": c[2],
+             "subject": c[3],
+             "catalog_number": c[4],
+             "star_rating": c[5],
+             "grade": c[6],
+             "difficulty": c[7],
+             "retake_professor": c[8],
+             "require_textbooks": c[9],
+             "mandatory": c[10],
+             "review": c[11],
+             "class_type": c[12]} for c in rootCursor.fetchall()]
+
 
 """
 Returns a dictionary of the {int:amount} professors who have taught the Subject Catalog_Number the most in past Fall-Spring iterations.
@@ -303,21 +284,15 @@ Returns: John Noga
 
 @app.route('/<string:subject>/prof/name/<string:prof_email>')
 def prof_name(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
-    while True:
-        try:
-            # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
-            #    profs = json.load(profs)
-            #    return profs[kwargs['prof_email']]
-            rootCursor.execute(f"""SELECT 
-                               first_name, 
-                               last_name 
-                               FROM professor WHERE subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'""")
-            return [f"{x[0]} {x[1]}" for x in rootCursor.fetchall()][0]
-        except mariadb.InterfaceError:
-            rootConnection = establish_conn()
-            rootCursor = rootConnection.cursor()
+    # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
+    #    profs = json.load(profs)
+    #    return profs[kwargs['prof_email']]
+    rootCursor.execute(f"""SELECT 
+                       first_name, 
+                       last_name 
+                       FROM professor WHERE subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'""")
+    return [f"{x[0]} {x[1]}" for x in rootCursor.fetchall()][0]
+
 
 
 """
@@ -396,96 +371,83 @@ Example:
 
 
 @app.route('/<string:subject>/classes')
-def catalog(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
+def classes(**kwargs):
     while True:
-        try:
+        try:        
             rootCursor.execute(f"""SELECT 
                                catalog_number, 
                                title 
                                FROM csun.{kwargs['subject'].upper()}_view""")
             return [f"{x[0]} - {x[1]}" for x in rootCursor.fetchall()]
         except mariadb.InterfaceError:
-            rootConnection = establish_conn()
-            rootCursor = rootConnection.cursor()
+            continue
+
 
 
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
-    while True:
-        try:
-            try:
-                rootCursor.execute(f"""SELECT 
-                                   class_number, 
-                                   enrollment_cap, 
-                                   enrollment_count, 
-                                   instructor, 
-                                   days, 
-                                   location, 
-                                   start_time, 
-                                   end_time, 
-                                   catalog_number, 
-                                   subject 
-                                   FROM section WHERE subject = '{kwargs['subject'].upper()}' AND catalog_number = '{kwargs['catalog_number']}'""")
-                return [{"class_number": c[0],
-                         "enrollment_cap": c[1],
-                         "enrollment_count": c[2],
-                         "instructor": c[3],
-                         "days": c[4],
-                         "location": c[5],
-                         "start_time": c[6],
-                         "end_time": c[7],
-                         "catalog_number": c[8],
-                         "subject": c[9]} for c in rootCursor.fetchall()]
-            except KeyError:
-                rootCursor.execute(f"""SELECT 
-                                   class_number, 
-                                   enrollment_cap, 
-                                   enrollment_count, 
-                                   instructor, 
-                                   days, 
-                                   location, 
-                                   start_time, 
-                                   end_time, 
-                                   catalog_number, 
-                                   subject 
-                                   FROM section WHERE subject = '{kwargs['subject'].upper()}'""")
-                return [{"class_number": c[0],
-                         "enrollment_cap": c[1],
-                         "enrollment_count": c[2],
-                         "instructor": c[3],
-                         "days": c[4],
-                         "location": c[5],
-                         "start_time": c[6],
-                         "end_time": c[7],
-                         "catalog_number": c[8],
-                         "subject": c[9]} for c in rootCursor.fetchall()]
-        except mariadb.InterfaceError:
-            rootConnection = establish_conn()
-            rootCursor = rootConnection.cursor()
+    try:
+        rootCursor.execute(f"""SELECT 
+                           class_number, 
+                           enrollment_cap, 
+                           enrollment_count, 
+                           instructor, 
+                           days, 
+                           location, 
+                           start_time, 
+                           end_time, 
+                           catalog_number, 
+                           subject 
+                           FROM section WHERE subject = '{kwargs['subject'].upper()}' AND catalog_number = '{kwargs['catalog_number']}'""")
+        return [{"class_number": c[0],
+                 "enrollment_cap": c[1],
+                 "enrollment_count": c[2],
+                 "instructor": c[3],
+                 "days": c[4],
+                 "location": c[5],
+                 "start_time": c[6],
+                 "end_time": c[7],
+                 "catalog_number": c[8],
+                 "subject": c[9]} for c in rootCursor.fetchall()]
+    except KeyError:
+        rootCursor.execute(f"""SELECT 
+                           class_number, 
+                           enrollment_cap, 
+                           enrollment_count, 
+                           instructor, 
+                           days, 
+                           location, 
+                           start_time, 
+                           end_time, 
+                           catalog_number, 
+                           subject 
+                           FROM section WHERE subject = '{kwargs['subject'].upper()}'""")
+        return [{"class_number": c[0],
+                 "enrollment_cap": c[1],
+                 "enrollment_count": c[2],
+                 "instructor": c[3],
+                 "days": c[4],
+                 "location": c[5],
+                 "start_time": c[6],
+                 "end_time": c[7],
+                 "catalog_number": c[8],
+                 "subject": c[9]} for c in rootCursor.fetchall()]
 
 
 @app.route('/planner', methods=['POST'])
 def cost(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
-    while True:
-        try:
-            new_data = request.get_json(force=True)
-            units = 0
-            for c in new_data["selections"]:
-                rootCursor.execute(
-                    f"SELECT units FROM csun.{c.split()[0].upper()}_view WHERE catalog_number = '{c.split()[1]}'")
-                units += int(rootCursor.fetchall()[0][0])
-            return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
-        except mariadb.InterfaceError:
-            rootConnection = establish_conn()
-            rootCursor = rootConnection.cursor()
+    new_data = request.get_json(force=True)
+    units = 0
+    for c in new_data["selections"]:
+        rootCursor.execute(
+            f"SELECT units FROM csun.{c.split()[0].upper()}_view WHERE catalog_number = '{c.split()[1]}'")
+        units += int(rootCursor.fetchall()[0][0])
+    return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
+
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', threaded=True)
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
+    app.run(threaded=True, host='0.0.0.0')
