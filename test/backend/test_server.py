@@ -1,6 +1,7 @@
 from unittest import TestCase
 import sys, os, requests, json
 import path, pytest, warnings, mariadb
+from flask import Flask
 
 # determines os and finds files to test
 ################################################################
@@ -14,7 +15,8 @@ os.chdir(currDirectory)
 ################################################################
 
 # search for correct dir and file and import the methods to be tested
-from csundash import home, get, professors, catalog, name_normalize, prof_name, establish_conn
+from csundash import home, name_normalize, get, professors, catalog, new_rating, get_ratings, prof_name, schedule
+from csundash import establish_conn, historical_profs
 
 ################################################################
 # test establishing connection to database
@@ -53,7 +55,6 @@ def test_prof_name_returns_correct_name():
 # proves that def prof_name(**kwargs) needs to handle invalid input
 # when supplied invalid information, the function returns an index error
 def test_prof_name_incorrect_returns_error():
-     # with pytest.raises(IndexError):
      warnings.warn(UserWarning("prof_name located in code-assets/backend/server.py \n"
      "Throws an IndexError exception if passed invalid subject/prof_email"))
      assert prof_name(subject="null", prof_email="unknown@csun.edu")
@@ -105,8 +106,66 @@ def test_get_route_returns_correct_json():
 
 ################################################################
 # test professors
+# # 'mocker' fixture provided by pytest-mock
+# def test_get_operating_system(mocker):  
+#     # Mock the slow function and return True always
+#     mocker.patch('application.is_windows', return_value=True) 
+#     assert get_operating_system() == 'Windows'
 
-def test_professors_returns_all_professors_in_subject():
-     subject_kwarg = "comp"
-     print(professors(subject=subject_kwarg))
-     assert professors(subject=subject_kwarg)
+# mock test on providing incorrect database credentials
+# def test_professors_returns_all_professors_in_subject(mocker):
+#      mocker.patch('csundash.rootCursor', return_value=[])
+#      subject_kwarg = "comp"
+#      # print(professors(subject=subject_kwarg))
+#      assert professors(subject=subject_kwarg) == []
+
+################################################################
+# test new rating
+# def test_new_rating_post_result(client):
+#      subject_kwarg = "ae"
+#      assert new_rating(subject=subject_kwarg) == []
+
+     # data = {
+     # 'Data': [20.0, 30.0, 401.0, 50.0],
+     # 'Date': ['2017-08-11', '2017-08-12', '2017-08-13', '2017-08-14'],
+     # 'Day': 4
+     # }
+     # url = '/upload/'
+
+     # response = client.post(url, json=data)
+
+     # assert response.content_type == 'application/json'
+     # assert response.json['Result'] == 39
+
+################################################################
+# test get ratings
+@pytest.mark.xfail(raises=mariadb.ProgrammingError)
+# proves that the current mariadb sql setup script
+# does not allow developers to run this function
+def test_get_ratings_return_prof_ratings():
+     professor_email = "edmund.dantes@csun.edu"
+     #print("What is the type? %s" %type(get_ratings(email=professor_email)))
+     assert get_ratings(email=professor_email)
+
+#def test_get_ratings_invalid_connection():
+
+################################################################
+# test schedule
+
+@pytest.mark.xfail(raises=mariadb.ProgrammingError)
+# proves that the current mariadb sql setup script
+# does not allow developers to run this function
+def test_schedule_return_sched():
+     subject_kwarg = "COMP"
+     catalog_number_kwarg = 1
+     assert schedule(subject=subject_kwarg, catalog_number=catalog_number_kwarg)
+
+################################################################
+# test historical profs
+
+# historical profs are returned
+def test_historical_profs_returns_dict():
+     subject_kwarg = "COMP"
+     catalog_number_kwarg = "110"
+     amount_kwarg = 1
+     assert historical_profs(subject=subject_kwarg,catalog_number=catalog_number_kwarg,amount=amount_kwarg)
