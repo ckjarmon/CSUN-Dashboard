@@ -1,6 +1,46 @@
 {
     "MATH 101": [
         {
+            "class_number": "16302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD1115",
+            "start_time": "1100h",
+            "end_time": "1125h"
+        },
+        {
+            "class_number": "16397",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD1592",
+            "start_time": "1200h",
+            "end_time": "1225h"
+        },
+        {
+            "class_number": "16529",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "JD1592",
+            "start_time": "0900h",
+            "end_time": "0925h"
+        },
+        {
+            "class_number": "16626",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tarn,Robert B",
+            "days": "TR",
+            "location": "JD1592",
+            "start_time": "1400h",
+            "end_time": "1425h"
+        },
+        {
             "class_number": "16682",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -12,6 +52,46 @@
         }
     ],
     "MATH 101L": [
+        {
+            "class_number": "16303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD1115",
+            "start_time": "1130h",
+            "end_time": "1255h"
+        },
+        {
+            "class_number": "16398",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD1592",
+            "start_time": "1230h",
+            "end_time": "1355h"
+        },
+        {
+            "class_number": "16530",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "JD1592",
+            "start_time": "0930h",
+            "end_time": "1055h"
+        },
+        {
+            "class_number": "16627",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tarn,Robert B",
+            "days": "TR",
+            "location": "JD1592",
+            "start_time": "1430h",
+            "end_time": "1555h"
+        },
         {
             "class_number": "16683",
             "enrollment_cap": 0,
@@ -25,11 +105,51 @@
     ],
     "MATH 186": [
         {
+            "class_number": "16459",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Milovanova,Tanya",
+            "days": "MW",
+            "location": "JD1592",
+            "start_time": "1400h",
+            "end_time": "1425h"
+        },
+        {
+            "class_number": "16465",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Nalbandian,Serop K",
+            "days": "S",
+            "location": "JD1592",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        },
+        {
+            "class_number": "16480",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Milovanova,Tanya",
+            "days": "S",
+            "location": "JD1116",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        },
+        {
+            "class_number": "16551",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Nalbandian,Serop K",
+            "days": "S",
+            "location": "JD1592",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        },
+        {
             "class_number": "16588",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Milovanova,Tanya",
-            "days": null,
+            "days": "S",
             "location": "JD1116",
             "start_time": "1300h",
             "end_time": "1350h"
@@ -37,17 +157,87 @@
     ],
     "MATH 186L": [
         {
+            "class_number": "16460",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Milovanova,Tanya",
+            "days": "MW",
+            "location": "JD1592",
+            "start_time": "1430h",
+            "end_time": "1555h"
+        },
+        {
+            "class_number": "16466",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Nalbandian,Serop K",
+            "days": "S",
+            "location": "JD1592",
+            "start_time": "0950h",
+            "end_time": "1230h"
+        },
+        {
+            "class_number": "16481",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Milovanova,Tanya",
+            "days": "S",
+            "location": "JD1116",
+            "start_time": "0950h",
+            "end_time": "1230h"
+        },
+        {
+            "class_number": "16552",
+            "enrollment_cap": 22,
+            "enrollment_count": 0,
+            "instructor": "Nalbandian,Serop K",
+            "days": "S",
+            "location": "JD1592",
+            "start_time": "1350h",
+            "end_time": "1630h"
+        },
+        {
             "class_number": "16589",
             "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Milovanova,Tanya",
-            "days": null,
+            "days": "S",
             "location": "JD1116",
             "start_time": "1350h",
             "end_time": "1630h"
         }
     ],
     "MATH 209": [
+        {
+            "class_number": "16462",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "JD1592",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16468",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Shahpar,Babak",
+            "days": "TR",
+            "location": "JD1592",
+            "start_time": "1200h",
+            "end_time": "1325h"
+        },
+        {
+            "class_number": "16657",
+            "enrollment_cap": 18,
+            "enrollment_count": 0,
+            "instructor": "Shahpar,Babak",
+            "days": "R",
+            "location": "JD1592",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         {
             "class_number": "16684",
             "enrollment_cap": 9,
@@ -73,6 +263,26 @@
     ],
     "MATH 286": [
         {
+            "class_number": "16461",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Milovanova,Tanya",
+            "days": "MW",
+            "location": "JD1593",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        {
+            "class_number": "16467",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Avanessian,Aline",
+            "days": "MW",
+            "location": "JD1593",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
+        {
             "class_number": "16590",
             "enrollment_cap": 14,
             "enrollment_count": 0,
@@ -84,6 +294,36 @@
         }
     ],
     "MATH 309": [
+        {
+            "class_number": "16425",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Tarn,Robert B",
+            "days": "MW",
+            "location": "JD1592",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        {
+            "class_number": "16285",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Tarn,Robert B",
+            "days": "MW",
+            "location": "JD1592",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16284",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Pishvar,Maya",
+            "days": "TR",
+            "location": "JC228",
+            "start_time": "1215h",
+            "end_time": "1500h"
+        },
         {
             "class_number": "16658",
             "enrollment_cap": 0,
@@ -97,6 +337,26 @@
     ],
     "MATH 330": [
         {
+            "class_number": "16419",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Chang,Shuo Hung",
+            "days": "MW",
+            "location": "JD1593",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "16628",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Papila,Melih",
+            "days": "MW",
+            "location": "JD1610",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
             "class_number": "16711",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -109,11 +369,51 @@
     ],
     "MATH 335": [
         {
+            "class_number": "16279",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Amiel Gitai",
+            "days": "MW",
+            "location": "JD1616",
+            "start_time": "0800h",
+            "end_time": "0825h"
+        },
+        {
+            "class_number": "16412",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chang,Shuo Hung",
+            "days": "MW",
+            "location": "JD1616",
+            "start_time": "1700h",
+            "end_time": "1725h"
+        },
+        {
+            "class_number": "16554",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chang,Shuo Hung",
+            "days": "TR",
+            "location": "JD1616",
+            "start_time": "0930h",
+            "end_time": "0955h"
+        },
+        {
+            "class_number": "16707",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Herrera,Guillermo A",
+            "days": "TR",
+            "location": "JD1616",
+            "start_time": "1700h",
+            "end_time": "1725h"
+        },
+        {
             "class_number": "16870",
             "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Herrera,Guillermo A",
-            "days": null,
+            "days": "S",
             "location": "JD1616",
             "start_time": "0900h",
             "end_time": "0950h"
@@ -121,11 +421,51 @@
     ],
     "MATH 335L": [
         {
+            "class_number": "16280",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Amiel Gitai",
+            "days": "MW",
+            "location": "JD1616",
+            "start_time": "0830h",
+            "end_time": "0955h"
+        },
+        {
+            "class_number": "16414",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chang,Shuo Hung",
+            "days": "MW",
+            "location": "JD1616",
+            "start_time": "1730h",
+            "end_time": "1855h"
+        },
+        {
+            "class_number": "16555",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chang,Shuo Hung",
+            "days": "TR",
+            "location": "JD1616",
+            "start_time": "1000h",
+            "end_time": "1125h"
+        },
+        {
+            "class_number": "16708",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Herrera,Guillermo A",
+            "days": "TR",
+            "location": "JD1616",
+            "start_time": "1730h",
+            "end_time": "1855h"
+        },
+        {
             "class_number": "16871",
             "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Herrera,Guillermo A",
-            "days": null,
+            "days": "S",
             "location": "JD1616",
             "start_time": "0950h",
             "end_time": "1235h"
@@ -133,17 +473,67 @@
     ],
     "MATH 370": [
         {
+            "class_number": "16305",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Ghoreishi,Niloufar",
+            "days": "MW",
+            "location": "JD1610",
+            "start_time": "1730h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "16281",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Ghoreishi,Niloufar",
+            "days": "TR",
+            "location": "JD1610",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "16360",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Ghoreishi,Niloufar",
+            "days": "TR",
+            "location": "JD1600",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "16587",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Nekouzadeh,Ali",
+            "days": "F",
+            "location": "JD1600",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        {
             "class_number": "16685",
             "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Nekouzadeh,Ali",
-            "days": null,
+            "days": "S",
             "location": "JD1610",
             "start_time": "0900h",
             "end_time": "1145h"
         }
     ],
     "MATH 375": [
+        {
+            "class_number": "16408",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Maron Sauer,Vinicius",
+            "days": "MW",
+            "location": "JD1610",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         {
             "class_number": "16542",
             "enrollment_cap": 3,
@@ -169,6 +559,26 @@
     ],
     "MATH 384": [
         {
+            "class_number": "16286",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Ploen,Scott Robert",
+            "days": "M",
+            "location": "JD1610",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16629",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Sardarmehni,Tohid",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
             "class_number": "16687",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -180,6 +590,36 @@
         }
     ],
     "MATH 386": [
+        {
+            "class_number": "16463",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Shalaby,Mohab A",
+            "days": "MW",
+            "location": "JD1126",
+            "start_time": "0830h",
+            "end_time": "0920h"
+        },
+        {
+            "class_number": "16537",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Booth,Jamie",
+            "days": "MW",
+            "location": "JD1592",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "16793",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Shalaby,Mohab A",
+            "days": "MW",
+            "location": "JD3508",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
         {
             "class_number": "16822",
             "enrollment_cap": 1,
@@ -193,6 +633,36 @@
     ],
     "MATH 386L": [
         {
+            "class_number": "16464",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Shalaby,Mohab A",
+            "days": "MW",
+            "location": "JD1126",
+            "start_time": "0925h",
+            "end_time": "1055h"
+        },
+        {
+            "class_number": "16538",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Booth,Jamie",
+            "days": "MW",
+            "location": "JD1592",
+            "start_time": "1700h",
+            "end_time": "1825h"
+        },
+        {
+            "class_number": "16794",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Shalaby,Mohab A",
+            "days": "MW",
+            "location": "JR212",
+            "start_time": "1700h",
+            "end_time": "1825h"
+        },
+        {
             "class_number": "16823",
             "enrollment_cap": 1,
             "enrollment_count": 0,
@@ -204,6 +674,36 @@
         }
     ],
     "MATH 390": [
+        {
+            "class_number": "16379",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Maron Sauer,Vinicius",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1730h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "16283",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Maron Sauer,Vinicius",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1730h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "16564",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Farhangi,Shahram",
+            "days": "F",
+            "location": "JD3504",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         {
             "class_number": "16662",
             "enrollment_cap": 4,
@@ -217,6 +717,16 @@
     ],
     "MATH 430": [
         {
+            "class_number": "16688",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Prince,Stewart P",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
             "class_number": "16712",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -228,6 +738,16 @@
         }
     ],
     "MATH 434": [
+        {
+            "class_number": "16482",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Khachatourians,Aram",
+            "days": "MW",
+            "location": "JD1610",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
         {
             "class_number": "16710",
             "enrollment_cap": 0,
@@ -241,6 +761,26 @@
     ],
     "MATH 435": [
         {
+            "class_number": "16415",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Ahmad,Farooq",
+            "days": "MW",
+            "location": "JD1610",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        {
+            "class_number": "16705",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Ahmad,Farooq",
+            "days": "MW",
+            "location": "JD1553",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        },
+        {
             "class_number": "16779",
             "enrollment_cap": 2,
             "enrollment_count": 0,
@@ -252,6 +792,46 @@
         }
     ],
     "MATH 435L": [
+        {
+            "class_number": "16282",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Rafique,Zahid",
+            "days": "M",
+            "location": "JD1616",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16413",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Amiel Gitai",
+            "days": "MW",
+            "location": "JD1616",
+            "start_time": "1000h",
+            "end_time": "1125h"
+        },
+        {
+            "class_number": "16706",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Amiel Gitai",
+            "days": "MW",
+            "location": "JD1616",
+            "start_time": "1330h",
+            "end_time": "1455h"
+        },
+        {
+            "class_number": "16780",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Rafique,Zahid",
+            "days": "W",
+            "location": "JD1616",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         {
             "class_number": "16868",
             "enrollment_cap": 2,
@@ -349,6 +929,46 @@
     ],
     "MATH 486A": [
         {
+            "class_number": "16381",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Mukherjee,Abhijit",
+            "days": "MW",
+            "location": "JD1624",
+            "start_time": "1230h",
+            "end_time": "1520h"
+        },
+        {
+            "class_number": "16346",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Khachatourians,Aram",
+            "days": "TR",
+            "location": "JD1624B",
+            "start_time": "1230h",
+            "end_time": "1520h"
+        },
+        {
+            "class_number": "16399",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Nandikolla,Vidya K",
+            "days": "TR",
+            "location": "JD1123",
+            "start_time": "1230h",
+            "end_time": "1520h"
+        },
+        {
+            "class_number": "16872",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Bishay,Peter L",
+            "days": "MW",
+            "location": "JD1130A",
+            "start_time": "1230h",
+            "end_time": "1520h"
+        },
+        {
             "class_number": "16906",
             "enrollment_cap": 5,
             "enrollment_count": 0,
@@ -360,6 +980,46 @@
         }
     ],
     "MATH 486B": [
+        {
+            "class_number": "16347",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Bishay,Peter L",
+            "days": "MW",
+            "location": "JD1130A",
+            "start_time": "1230h",
+            "end_time": "1520h"
+        },
+        {
+            "class_number": "16348",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructor": "Prince,Stewart P",
+            "days": "TR",
+            "location": "JD1624",
+            "start_time": "1230h",
+            "end_time": "1520h"
+        },
+        {
+            "class_number": "16819",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Amiel Gitai",
+            "days": "TR",
+            "location": "JD1624C",
+            "start_time": "1230h",
+            "end_time": "1515h"
+        },
+        {
+            "class_number": "16895",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Khachatourians,Aram",
+            "days": "TR",
+            "location": "JD1624B",
+            "start_time": "1230h",
+            "end_time": "1520h"
+        },
         {
             "class_number": "16977",
             "enrollment_cap": 20,
@@ -373,17 +1033,67 @@
     ],
     "MATH 491": [
         {
+            "class_number": "16289",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Magrane,Manuel",
+            "days": "T",
+            "location": "JD1616",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16386",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Herrera,Guillermo A",
+            "days": "R",
+            "location": "JD1616",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16703",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chang,Shuo Hung",
+            "days": "F",
+            "location": "JD1616",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        {
+            "class_number": "16709",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chang,Shuo Hung",
+            "days": "S",
+            "location": "JD1600",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        {
             "class_number": "16907",
             "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Herrera,Guillermo A",
-            "days": null,
+            "days": "S",
             "location": "JD1607",
             "start_time": "1300h",
             "end_time": "1545h"
         }
     ],
     "MATH 493": [
+        {
+            "class_number": "16290",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Giljum,Mark J",
+            "days": "MW",
+            "location": "JD1600",
+            "start_time": "1900h",
+            "end_time": "2015h"
+        },
         {
             "class_number": "16549",
             "enrollment_cap": 0,
@@ -468,6 +1178,66 @@
         }
     ],
     "MATH 696C": [
+        {
+            "class_number": "16309",
+            "enrollment_cap": -3,
+            "enrollment_count": 0,
+            "instructor": "Bishay,Peter L",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        {
+            "class_number": "16318",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Schaal,Christoph",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        {
+            "class_number": "16319",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Schaal,Natalie",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        {
+            "class_number": "16350",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Mahjoob,Shadi",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        {
+            "class_number": "16351",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Maron Sauer,Vinicius",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        {
+            "class_number": "17056",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
         {
             "class_number": "17066",
             "enrollment_cap": 1,

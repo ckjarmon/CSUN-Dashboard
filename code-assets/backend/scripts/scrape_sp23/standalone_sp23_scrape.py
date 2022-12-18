@@ -177,30 +177,32 @@ def convertdays(days_str):
             return "MW"
         case "TuTh":
             return "TR"
-        case "Th":
-            return "R"
         case "Mo":
             return "M"
-        case "We":
-            return "W"
         case "Tu":
             return "T"
+        case "We":
+            return "W"
+        case "Th":
+            return "R"
         case "Fr":
             return "F"
-        case "MoTuWeTh":
-            return "MTWR"
-        case "MoWeTh":
-            return "MWR"
-        case "MoTuTh":
-            return "MTR"
-        case "MoWeFr":
-            return "MWF"
         case "MoTuWe":
             return "MTW"
+        case "MoTuTh":
+            return "MTR"
+        case "MoWeTh":
+            return "MWR"
+        case "MoWeFr":
+            return "MWF"
         case "MoTuFr":
             return "MTF"
         case "MoThFr":
             return "MRF"
+        case "MoTuWeTh":
+            return "MTWR"
+        case "Sa":
+            return "S"
 
 
 
@@ -456,7 +458,7 @@ if __name__ == "__main__":
                             "location": course["location"],
                             "start_time": course["start_time"],
                             "end_time": course["end_time"],
-                            "possible_emails": course["possible_emails"]
+                            # "possible_emails": course["possible_emails"]
                         })
                     except KeyError:
                         all_classes[f"{code.upper()} {course['catalog_number']}"] = [{
