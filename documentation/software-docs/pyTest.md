@@ -27,3 +27,15 @@ Depending on the version of pyTest you have, you may also need this additional i
 For viewing code coverage when using pyTest &emsp;&emsp;```pip install pytest-cov```
 
 For testing post results with pyTest and Flask &emsp;&emsp;```pip install pytest-flask```
+
+For running mutation testing with pyTest &emsp;&emsp;```pip install pytest-mutagen```
+
+## How to run mutation testing ##
+Navigate terminal to the testing folder located here:
+`'test/'`
+<br />
+
+Run this command
+``` pytest --mutate --mutagen-stats ```
+<br /> or
+``` pytest --mutate```
