@@ -18,6 +18,15 @@ Run the coverage reports <br />
 View the coverage reports (run the file on "Live Server")
 Located in: `'test/backend/pytest_reports/index.html'`
 
+## How to run mutation testing ##
+Navigate terminal to the testing folder located here:
+`'test/'`
+<br />
+
+Run this command
+<br />
+``` pytest --mutate```
+
 ## Additional Installs Needed ##
 For additional mock test features for pyTest &emsp;&emsp;```pip install pytest-mock```
 
@@ -29,13 +38,3 @@ For viewing code coverage when using pyTest &emsp;&emsp;```pip install pytest-co
 For testing post results with pyTest and Flask &emsp;&emsp;```pip install pytest-flask```
 
 For running mutation testing with pyTest &emsp;&emsp;```pip install pytest-mutagen```
-
-## How to run mutation testing ##
-Navigate terminal to the testing folder located here:
-`'test/'`
-<br />
-
-Run this command
-``` pytest --mutate --mutagen-stats ```
-<br /> or
-``` pytest --mutate```
