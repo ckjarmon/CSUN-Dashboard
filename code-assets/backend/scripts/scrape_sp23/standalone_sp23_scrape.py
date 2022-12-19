@@ -10,8 +10,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 import json
-import pprint
+from pprint import pprint as pp
 import mariadb
+import urllib3
 
 
 class_codes = [
@@ -236,7 +237,7 @@ def gather(arrow):
                 continue
         sub_sects = []
 
-        for a in range(0, 100):
+        for a in range(0, 600):
             try:
                 
                 # section_title = driver.find_element("id", "NR_SSS_SOC_NWRK_DESCR100_2$" + str(a)).text
@@ -262,7 +263,7 @@ def gather(arrow):
                 
                 
                 course_dict = {}
-                for i in range(100):
+                for i in range(600):
                     try:    
                         
                         if (section_title[2].isalnum()):  # Class_Number
@@ -340,13 +341,16 @@ def gather(arrow):
                                     break
                             except selenium.common.exceptions.StaleElementReferenceException:
                                 continue
-
-                        try:
-
-                            course_dict["instructor"] = driver.find_element("id", "FACURL$" + str(i)).text
-            
-                        except NoSuchElementException:
-                            course_dict["instructor"] = "Staff"
+                        while True:        
+                            try:
+                                course_dict["instructor"] = driver.find_element("id", "FACURL$" + str(i)).text
+                                break
+                            except NoSuchElementException:
+                                course_dict["instructor"] = "Staff"
+                                break
+                            except selenium.common.exceptions.StaleElementReferenceException:
+                                continue    
+                        
                         # print(course_dict)
                         sub_sects.append(dict(course_dict))
                         # print(*sub_sects, sep='\n')
@@ -368,20 +372,99 @@ def gather(arrow):
 
                 
 
-        json.dump(sub_sects, open(f"./results/{class_codes[arrow]}_schedule.json", "w"), indent=4)
+        json.dump(sub_sects, open(f"./results_web/{class_codes[arrow]}_schedule.json", "w"), indent=4)
         driver.quit()
+        
+        sub_dict = {}
+        _url = f"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2023/classes/{class_codes[arrow]}"
+        while True:
+            try:
+                data = json.loads(urllib3.PoolManager().request("GET", _url).data)
+                for course in data["classes"]:
+                    if len(course["meetings"]) > 0:    
+                        try:
+                            if len(course["instructors"]) > 0:
+                                sub_dict[f"{class_codes[arrow].upper()} {course['catalog_number']}"].append({
+                                    "class_number": course["class_number"],
+                                    "enrollment_cap": course["enrollment_cap"],
+                                    "enrollment_count": course["enrollment_count"],
+                                    "waitlist_cap": course["waitlist_cap"],
+                                    "waitlist_count": course["waitlist_count"],
+                                    "instructor": course["instructors"][0]["instructor"],
+                                    "days": course["meetings"][0]["days"],
+                                    "location": course["meetings"][0]["location"],
+                                    "start_time": course["meetings"][0]["start_time"],
+                                    "end_time": course["meetings"][0]["end_time"],
+                                })
+                            else:
+                                sub_dict[f"{class_codes[arrow].upper()} {course['catalog_number']}"].append({
+                                    "class_number": course["class_number"],
+                                    "enrollment_cap": course["enrollment_cap"],
+                                    "enrollment_count": course["enrollment_count"],
+                                    "waitlist_cap": course["waitlist_cap"],
+                                    "waitlist_count": course["waitlist_count"],
+                                    "instructor": "Staff",
+                                    "days": course["meetings"][0]["days"],
+                                    "location": course["meetings"][0]["location"],
+                                    "start_time": course["meetings"][0]["start_time"],
+                                    "end_time": course["meetings"][0]["end_time"],
+                                })
+                            # this means that the instructor is staff, then store it
+
+                        except KeyError:
+                            if len(course["instructors"]) > 0:
+                                sub_dict[f"{class_codes[arrow].upper()} {course['catalog_number']}"] = [{
+                                    "class_number": course["class_number"],
+                                    "enrollment_cap": course["enrollment_cap"],
+                                    "enrollment_count": course["enrollment_count"],
+                                    "waitlist_cap": course["waitlist_cap"],
+                                    "waitlist_count": course["waitlist_count"],
+                                    "instructor": course["instructors"][0]["instructor"],
+                                    "days": course["meetings"][0]["days"],
+                                    "location": course["meetings"][0]["location"],
+                                    "start_time": course["meetings"][0]["start_time"],
+                                    "end_time": course["meetings"][0]["end_time"],
+                                }]
+                            else:
+                                sub_dict[f"{class_codes[arrow].upper()} {course['catalog_number']}"] = [{
+                                    "class_number": course["class_number"],
+                                    "enrollment_cap": course["enrollment_cap"],
+                                    "enrollment_count": course["enrollment_count"],
+                                    "waitlist_cap": course["waitlist_cap"],
+                                    "waitlist_count": course["waitlist_count"],
+                                    "instructor": "Staff",
+                                    "days": course["meetings"][0]["days"],
+                                    "location": course["meetings"][0]["location"],
+                                    "start_time": course["meetings"][0]["start_time"],
+                                    "end_time": course["meetings"][0]["end_time"],
+                                }]
+                print(class_codes[arrow]) 
+                break
+            except json.decoder.JSONDecodeError:
+                print(f"{class_codes[arrow]} caused decode error")
+        # pp(sub_dict)
+        sub_dict_section = {}
+        for k in sub_dict.keys():
+            sec_list = sub_dict[k].copy()
+            sub_dict_section[k] = {}
+            for sl in sec_list:
+                sub_dict_section[k][sl["class_number"]] = sl
+           
+        json.dump(sub_dict_section, open(f"./results_api/{class_codes[arrow]}_schedule.json", "w"), indent=4)
+        
 
 
 
 import threading
 import multiprocessing
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":  
+    
     t = []
     
     for code in class_codes:
-        t.append(multiprocessing.Process(target=gather, args=(class_codes.index(code),)))
+        t.append(threading.Thread(target=gather, args=(class_codes.index(code),)))
         t[len(t)-1].start()
 
     
@@ -393,7 +476,7 @@ if __name__ == "__main__":
     tta = []
 
     for code in class_codes:
-        with open(f"./results/{code}_schedule.json") as sub:
+        with open(f"./results_web/{code}_schedule.json") as sub:
             sub = json.load(sub)
             for course in sub:  
                 try:
@@ -401,7 +484,7 @@ if __name__ == "__main__":
                 except mariadb.ProgrammingError:
                     tta.append(f"csun.{code}_view")
                 except TypeError:
-                    print(course['catalog_number'])
+                    print(course)
                     
                     
                     
@@ -410,7 +493,7 @@ if __name__ == "__main__":
                     course["title"] = rootCursor.fetchall()[0][0]
                 except (IndexError, mariadb.ProgrammingError):
                     cta.append(f"{course['subject']} {course['catalog_number']}")
-                    cta = list(set(cta))
+                    cta = sorted(list(set(cta)))
 
 
 
@@ -435,15 +518,15 @@ if __name__ == "__main__":
                 
                 
                 
-            json.dump(sub, open(f"./results/{code}_schedule.json", "w"), indent=4)
-    json.dump({"courses_to_add": list(set(cta)), "professors_to_add": list(set(pta)),
-              "tables_that_dont_exist": list(set(tta))}, open("Missing_Items_2.json", "w"), indent=4)
+            json.dump(sub, open(f"./results_web/{code}_schedule.json", "w"), indent=4)
+    json.dump({"courses_to_add": sorted(list(set(cta))), "professors_to_add": sorted(list(set(pta))),
+              "tables_that_dont_exist": sorted(list(set(tta)))}, open("Missing_Items_2.json", "w"), indent=4)
  
 
     for code in class_codes:
         classes = []
         try:
-            with open(f"./results/{code}_schedule.json") as schedule_file:
+            with open(f"./results_web/{code}_schedule.json") as schedule_file:
                 all_classes = {}
                 sf = json.load(schedule_file)
                 # pprint.pprint(sf)
@@ -457,7 +540,7 @@ if __name__ == "__main__":
                             "days": course["days"],
                             "location": course["location"],
                             "start_time": course["start_time"],
-                            "end_time": course["end_time"],
+                            "end_time": course["end_time"]
                             # "possible_emails": course["possible_emails"]
                         })
                     except KeyError:
@@ -469,30 +552,79 @@ if __name__ == "__main__":
                             "days": course["days"],
                             "location": course["location"],
                             "start_time": course["start_time"],
-                            "end_time": course["end_time"],
+                            "end_time": course["end_time"]
                             # "possible_emails": course["possible_emails"]
                         }]
-                json.dump(all_classes, open(f"./results/{code}_schedule.json", "w"), indent=4)
+                    tup = (course["class_number"],
+                           course["enrollment_cap"],
+                           course["enrollment_count"],
+                           course["instructor"],
+                           course["days"],
+                           course["location"],
+                           course["start_time"],
+                           course["end_time"])
+                    try:
+                        rootCursor.execute("insert into section(class_number,enrollment_cap,enrollment_count,instructor,days,location,start_time,end_time) values(%s,%s,%s,%s,%s,%s,%s,%s)", tup)
+                    except mariadb.IntegrityError:
+                        continue
+                sub_dict_section = {}
+                for k in all_classes.keys():
+                    sec_list = all_classes[k].copy()
+                    sub_dict_section[k] = {}
+                    for sl in sec_list:
+                        sub_dict_section[k][sl["class_number"]] = sl
+                json.dump(sub_dict_section, open(f"./results_web/{code}_schedule.json", "w"), indent=4)
                 #print(*all_classes, sep="\n")
         except FileNotFoundError:
             continue
 
 
     for code in class_codes:
-        with open(f"./results/{code}_schedule.json") as s:
+        with open(f"./results_web/{code}_schedule.json") as s:
             s = json.load(s)
             try:
                 for c in s.keys():
-                    for course in s[c]:
-                            rootCursor.execute(f"""update section set enrollment_cap = '{course['enrollment_cap']}', 
+                    for course in s[c].keys():
+                            rootCursor.execute(f"""update section set enrollment_cap = '{s[c][course]['enrollment_cap']}', 
                                            instructor = %s, 
-                                           days = '{course['days']}', 
-                                           start_time = '{course['start_time']}', 
-                                           end_time = '{course['end_time']}',
-                                           location =  '{course['location']}'
-                                           where class_number = '{course['class_number']}'""", (course['instructor'], ))      
+                                           days = '{s[c][course]['days']}', 
+                                           start_time = '{s[c][course]['start_time']}', 
+                                           end_time = '{s[c][course]['end_time']}',
+                                           location =  '{s[c][course]['location']}'
+                                           where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))      
             except AttributeError:
                 continue
+             
+    for code in class_codes:
+        with open(f"./results_api/{code}_schedule.json") as s:
+            s = json.load(s)
+            try:
+                for c in s.keys():
+                    for course in s[c].keys():
+                        rootCursor.execute(f"""update section set 
+                                               enrollment_cap = '{s[c][course]['enrollment_cap']}', 
+                                               enrollment_count = '{s[c][course]['enrollment_count']}', 
+                                               instructor = %s, 
+                                               waitlist_cap = '{s[c][course]['waitlist_cap']}', 
+                                               waitlist_count = '{s[c][course]['waitlist_count']}'
+                                               where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))         
+            except AttributeError:
+                continue
+            
+    
+    for code in class_codes:
+        with open(f"./results_web/{code}_schedule.json") as web_ss:
+            web_ss = json.load(web_ss)
+            for web_cc in web_ss.keys():
+                for cc in web_ss[web_cc].keys():
+                    with open(f"./results_api/{code}_schedule.json") as api_ss:
+                        api_ss = json.load(api_ss)
+                        try: 
+                            web_ss[web_cc][cc] = api_ss[web_cc][cc]
+                        except KeyError:
+                            continue
+            json.dump(web_ss, open(f"./results/{code}_schedule.json", "w"), indent=4)                  
+
     rootConnection.commit()
     rootCursor.close()
     rootConnection.close()

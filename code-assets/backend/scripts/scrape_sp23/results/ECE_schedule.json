@@ -1,1214 +1,1372 @@
 {
-    "ECE 101": [
-        {
+    "ECE 101": {
+        "16244": {
             "class_number": "16244",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Ramesh,S K",
+            "enrollment_cap": 26,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "s.ramesh@csun.edu",
             "days": "TR",
             "location": "JD2203",
             "start_time": "1530h",
             "end_time": "1555h"
         }
-    ],
-    "ECE 101L": [
-        {
+    },
+    "ECE 101L": {
+        "16246": {
             "class_number": "16246",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Ramesh,S K",
+            "enrollment_cap": 26,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "s.ramesh@csun.edu",
             "days": "TR",
             "location": "JD2203",
             "start_time": "1600h",
             "end_time": "1715h"
         }
-    ],
-    "ECE 206": [
-        {
+    },
+    "ECE 206": {
+        "16299": {
             "class_number": "16299",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Taouk,Habib B",
+            "enrollment_cap": 26,
+            "enrollment_count": 25,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "htaouk@csun.edu",
             "days": "TR",
             "location": "JD1102",
             "start_time": "1000h",
             "end_time": "1050h"
         }
-    ],
-    "ECE 206L": [
-        {
+    },
+    "ECE 206L": {
+        "16300": {
             "class_number": "16300",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Taouk,Habib B",
+            "enrollment_cap": 26,
+            "enrollment_count": 25,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "htaouk@csun.edu",
             "days": "TR",
             "location": "JD1102",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "ECE 240": [
-        {
+    },
+    "ECE 240": {
+        "16245": {
             "class_number": "16245",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Radmanesh,Matthew M",
+            "enrollment_cap": 30,
+            "enrollment_count": 3,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "matthew.radmanesh@csun.edu",
             "days": "T",
             "location": "JD1601",
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "16248": {
             "class_number": "16248",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Chattopadhyay,Somnath",
+            "enrollment_cap": 30,
+            "enrollment_count": 4,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "somnath.chattopadhyay@csun.edu",
             "days": "F",
             "location": "JD1601",
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "16247": {
             "class_number": "16247",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Rengarajan,Sembiam R",
+            "enrollment_cap": 30,
+            "enrollment_count": 10,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "sembiam.rengarajan@csun.edu",
             "days": "MW",
             "location": "JD1601",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "16652": {
             "class_number": "16652",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Hang,Xiyi",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "xiyi.hang.14@csun.edu",
             "days": "MW",
             "location": "JD2203",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "16721": {
             "class_number": "16721",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Hang,Xiyi",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "xiyi.hang.14@csun.edu",
             "days": "MW",
             "location": "JD2204",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "16724": {
             "class_number": "16724",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "jack.ou@csun.edu",
             "days": "TR",
             "location": "JD1601",
             "start_time": "0900h",
             "end_time": "1015h"
         }
-    ],
-    "ECE 240L": [
-        {
+    },
+    "ECE 240L": {
+        "16315": {
             "class_number": "16315",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Chattopadhyay,Somnath",
+            "enrollment_cap": 18,
+            "enrollment_count": 10,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "somnath.chattopadhyay@csun.edu",
             "days": "M",
             "location": "JD1562",
             "start_time": "1600h",
             "end_time": "1845h"
         },
-        {
+        "16249": {
             "class_number": "16249",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Roosta,Soraya A",
+            "enrollment_cap": 18,
+            "enrollment_count": 17,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "soraya.roosta@csun.edu",
             "days": "W",
             "location": "JD1562",
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "16250": {
             "class_number": "16250",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Bhatt,Vijay J",
+            "enrollment_cap": 18,
+            "enrollment_count": 4,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "vijay.bhatt@csun.edu",
             "days": "M",
             "location": "JD1562",
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "16440": {
             "class_number": "16440",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Daniel-Berhe,Sequare Kiflet",
+            "enrollment_cap": 18,
+            "enrollment_count": 4,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "sequare.daniel-berhe@csun.edu",
             "days": "R",
             "location": "JD1562",
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "16609": {
             "class_number": "16609",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Flynn,James A",
+            "enrollment_cap": 18,
+            "enrollment_count": 18,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "james.flynn@csun.edu",
             "days": "F",
             "location": "JD1562",
             "start_time": "1300h",
             "end_time": "1545h"
         },
-        {
+        "16776": {
             "class_number": "16776",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Mikhailidis,Franco",
+            "enrollment_cap": 18,
+            "enrollment_count": 7,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "franco.mikhailidis@csun.edu",
             "days": "R",
             "location": "JD1562",
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "16959": {
             "class_number": "16959",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Chattopadhyay,Somnath",
+            "enrollment_cap": 18,
+            "enrollment_count": 9,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "somnath.chattopadhyay@csun.edu",
             "days": "R",
             "location": "JD1562",
             "start_time": "1530h",
             "end_time": "1815h"
         }
-    ],
-    "ECE 280": [
-        {
+    },
+    "ECE 280": {
+        "16622": {
             "class_number": "16622",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Radmanesh,Matthew M",
+            "enrollment_cap": 20,
+            "enrollment_count": 6,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "matthew.radmanesh@csun.edu",
             "days": "TR",
             "location": "JD2203",
             "start_time": "1730h",
             "end_time": "1845h"
         }
-    ],
-    "ECE 309": [
-        {
+    },
+    "ECE 309": {
+        "16572": {
             "class_number": "16572",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Taouk,Habib B",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 20,
+            "waitlist_count": 7,
+            "instructor": "htaouk@csun.edu",
             "days": "TR",
             "location": "JD2204",
             "start_time": "1230h",
             "end_time": "1515h"
         },
-        {
+        "16831": {
             "class_number": "16831",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Mikhailidis,Franco",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "franco.mikhailidis@csun.edu",
             "days": "MW",
             "location": "JD2204",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 320": [
-        {
+    },
+    "ECE 320": {
+        "16252": {
             "class_number": "16252",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Roosta,Ramin",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "ramin.roosta@csun.edu",
             "days": "F",
             "location": "JD2204",
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "16251": {
             "class_number": "16251",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "El Naga,Nagi M",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "nagi.elnaga@csun.edu",
             "days": "TR",
             "location": "JD2204",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "16725": {
             "class_number": "16725",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "El Naga,Nagi M",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "nagi.elnaga@csun.edu",
             "days": "TR",
             "location": "JD1555",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "ECE 320L": [
-        {
+    },
+    "ECE 320L": {
+        "16253": {
             "class_number": "16253",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Mikhailidis,Franco",
+            "enrollment_cap": 18,
+            "enrollment_count": 7,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "franco.mikhailidis@csun.edu",
             "days": "W",
             "location": "JD1601",
             "start_time": "1530h",
             "end_time": "1815h"
         },
-        {
+        "16297": {
             "class_number": "16297",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Roosta,Soraya A",
+            "enrollment_cap": 18,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "soraya.roosta@csun.edu",
             "days": "T",
             "location": "JD1601",
             "start_time": "1530h",
             "end_time": "1815h"
         },
-        {
+        "16505": {
             "class_number": "16505",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Bhatt,Vijay J",
+            "enrollment_cap": 18,
+            "enrollment_count": 12,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "vijay.bhatt@csun.edu",
             "days": "M",
             "location": "JD1601",
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "16994": {
             "class_number": "16994",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
+            "enrollment_cap": 18,
+            "enrollment_count": 8,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "F",
             "location": "JD1601",
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "ECE 340": [
-        {
+    },
+    "ECE 340": {
+        "16254": {
             "class_number": "16254",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Ramesh,S K",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "s.ramesh@csun.edu",
             "days": "TR",
             "location": "JD2204",
             "start_time": "0900h",
             "end_time": "1015h"
         },
-        {
+        "16506": {
             "class_number": "16506",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Ramesh,S K",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "s.ramesh@csun.edu",
             "days": "TR",
             "location": "JD2204",
             "start_time": "1730h",
             "end_time": "1845h"
         }
-    ],
-    "ECE 340L": [
-        {
+    },
+    "ECE 340L": {
+        "16255": {
             "class_number": "16255",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Chattopadhyay,Somnath",
+            "enrollment_cap": 18,
+            "enrollment_count": 5,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "somnath.chattopadhyay@csun.edu",
             "days": "F",
             "location": "JD1566",
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "16263": {
             "class_number": "16263",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Roosta,Soraya A",
+            "enrollment_cap": 18,
+            "enrollment_count": 19,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "soraya.roosta@csun.edu",
             "days": "T",
             "location": "JD1566",
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "16262": {
             "class_number": "16262",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Roosta,Soraya A",
+            "enrollment_cap": 18,
+            "enrollment_count": 18,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "soraya.roosta@csun.edu",
             "days": "W",
             "location": "JD1566",
             "start_time": "1230h",
             "end_time": "1515h"
         }
-    ],
-    "ECE 350": [
-        {
+    },
+    "ECE 350": {
+        "16301": {
             "class_number": "16301",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Zahid,Ali A",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ali.zahid@csun.edu",
             "days": "MW",
             "location": "JD1553",
             "start_time": "0900h",
             "end_time": "1015h"
         },
-        {
+        "16342": {
             "class_number": "16342",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "JD1102",
             "start_time": "1530h",
             "end_time": "1645h"
         }
-    ],
-    "ECE 351": [
-        {
+    },
+    "ECE 351": {
+        "16349": {
             "class_number": "16349",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Alam,MD Sahabul",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 6,
+            "instructor": "md-sahabul.alam@csun.edu",
             "days": "MW",
             "location": "JD2203",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "16832": {
             "class_number": "16832",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Alam,MD Sahabul",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "md-sahabul.alam@csun.edu",
             "days": "MW",
             "location": "JD2203",
             "start_time": "0900h",
             "end_time": "1015h"
         }
-    ],
-    "ECE 370": [
-        {
+    },
+    "ECE 370": {
+        "16775": {
             "class_number": "16775",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Bradley R",
+            "enrollment_cap": 25,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "bradley.jackson@csun.edu",
             "days": "TR",
             "location": "JD1553",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "ECE 370L": [
-        {
+    },
+    "ECE 370L": {
+        "16995": {
             "class_number": "16995",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Bradley R",
+            "enrollment_cap": 12,
+            "enrollment_count": 5,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "bradley.jackson@csun.edu",
             "days": "R",
             "location": "JD1590A",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 410": [
-        {
+    },
+    "ECE 410": {
+        "16892": {
             "class_number": "16892",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Narimani,Mohammad Rasoul",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "rasoul.narimani@csun.edu",
             "days": "MW",
             "location": "JD1555",
             "start_time": "1530h",
             "end_time": "1645h"
         }
-    ],
-    "ECE 410L": [
-        {
+    },
+    "ECE 410L": {
+        "16893": {
             "class_number": "16893",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Narimani,Mohammad Rasoul",
+            "enrollment_cap": 16,
+            "enrollment_count": 8,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "rasoul.narimani@csun.edu",
             "days": "M",
             "location": "JD1570",
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "16894": {
             "class_number": "16894",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Narimani,Mohammad Rasoul",
+            "enrollment_cap": 16,
+            "enrollment_count": 6,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "rasoul.narimani@csun.edu",
             "days": "W",
             "location": "JD1570",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 411": [
-        {
+    },
+    "ECE 411": {
+        "16996": {
             "class_number": "16996",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Narimani,Mohammad Rasoul",
+            "enrollment_cap": 18,
+            "enrollment_count": 18,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "rasoul.narimani@csun.edu",
             "days": "F",
             "location": "JD1553",
             "start_time": "1000h",
             "end_time": "1245h"
         }
-    ],
-    "ECE 420": [
-        {
+    },
+    "ECE 420": {
+        "16298": {
             "class_number": "16298",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Nezhad,Farahnaz A",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "farahnaz.nezhad@csun.edu",
             "days": "TR",
             "location": "JD2203",
             "start_time": "0900h",
             "end_time": "1015h"
         },
-        {
+        "17050": {
             "class_number": "17050",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Megerdichian,Linda",
+            "enrollment_cap": 25,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "linda.megerdichian@csun.edu",
             "days": "R",
-            "location": "JD1553",
+            "location": "TBA",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 422": [
-        {
+    },
+    "ECE 422": {
+        "16344": {
             "class_number": "16344",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mirzaei,Shahnam",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 10,
+            "waitlist_count": 4,
+            "instructor": "shahnam.mirzaei@csun.edu",
             "days": "MW",
             "location": "JD1102",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "ECE 422L": [
-        {
+    },
+    "ECE 422L": {
+        "20842": {
             "class_number": "20842",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Mirzaei,Shahnam",
+            "enrollment_cap": 15,
+            "enrollment_count": 9,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "shahnam.mirzaei@csun.edu",
             "days": "W",
             "location": "JD1607",
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "ECE 425": [
-        {
+    },
+    "ECE 425": {
+        "16256": {
             "class_number": "16256",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Flynn,James A",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "james.flynn@csun.edu",
             "days": "MW",
             "location": "JD1553",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "ECE 425L": [
-        {
+    },
+    "ECE 425L": {
+        "16257": {
             "class_number": "16257",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Flynn,James A",
+            "enrollment_cap": 18,
+            "enrollment_count": 18,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "james.flynn@csun.edu",
             "days": "F",
             "location": "JD1607",
             "start_time": "0900h",
             "end_time": "1145h"
         },
-        {
+        "16573": {
             "class_number": "16573",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Khavari,Neda",
+            "enrollment_cap": 18,
+            "enrollment_count": 13,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "neda.khavari@csun.edu",
             "days": "W",
             "location": "JD1607",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 440": [
-        {
+    },
+    "ECE 440": {
+        "16258": {
             "class_number": "16258",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 5,
+            "waitlist_count": 3,
+            "instructor": "jack.ou@csun.edu",
             "days": "MW",
             "location": "JD1553",
             "start_time": "1030h",
             "end_time": "1145h"
         }
-    ],
-    "ECE 440L": [
-        {
+    },
+    "ECE 440L": {
+        "16382": {
             "class_number": "16382",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Vazan,Shahriar",
+            "enrollment_cap": 16,
+            "enrollment_count": 17,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "shahriar.vazan@csun.edu",
             "days": "F",
             "location": "JD1566",
             "start_time": "1300h",
             "end_time": "1545h"
         },
-        {
+        "16507": {
             "class_number": "16507",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Vazan,Shahriar",
+            "enrollment_cap": 16,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "shahriar.vazan@csun.edu",
             "days": "R",
             "location": "JD1566",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 442": [
-        {
+    },
+    "ECE 442": {
+        "16352": {
             "class_number": "16352",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Bradley R",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "bradley.jackson@csun.edu",
             "days": "TR",
             "location": "JD1553",
             "start_time": "1530h",
             "end_time": "1645h"
         }
-    ],
-    "ECE 442L": [
-        {
+    },
+    "ECE 442L": {
+        "16353": {
             "class_number": "16353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Daniel-Berhe,Sequare Kiflet",
+            "enrollment_cap": 16,
+            "enrollment_count": 14,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "sequare.daniel-berhe@csun.edu",
             "days": "W",
             "location": "JD1601",
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "16574": {
             "class_number": "16574",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Daniel-Berhe,Sequare Kiflet",
+            "enrollment_cap": 16,
+            "enrollment_count": 15,
+            "waitlist_cap": 10,
+            "waitlist_count": 2,
+            "instructor": "sequare.daniel-berhe@csun.edu",
             "days": "F",
             "location": "JD1607",
             "start_time": "1300h",
             "end_time": "1545h"
         }
-    ],
-    "ECE 443": [
-        {
+    },
+    "ECE 443": {
+        "16259": {
             "class_number": "16259",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
+            "enrollment_cap": 30,
+            "enrollment_count": 6,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "jack.ou@csun.edu",
             "days": "TR",
             "location": "JD1555",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "ECE 443L": [
-        {
+    },
+    "ECE 443L": {
+        "16260": {
             "class_number": "16260",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Daniel-Berhe,Sequare Kiflet",
+            "enrollment_cap": 16,
+            "enrollment_count": 3,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "sequare.daniel-berhe@csun.edu",
             "days": "F",
             "location": "JD1607",
             "start_time": "1600h",
             "end_time": "1845h"
         },
-        {
+        "16575": {
             "class_number": "16575",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Daniel-Berhe,Sequare Kiflet",
+            "enrollment_cap": 16,
+            "enrollment_count": 3,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "sequare.daniel-berhe@csun.edu",
             "days": "S",
             "location": "JD1607",
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "ECE 450": [
-        {
+    },
+    "ECE 450": {
+        "16308": {
             "class_number": "16308",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Taouk,Habib B",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 25,
+            "waitlist_count": 6,
+            "instructor": "htaouk@csun.edu",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1730h",
             "end_time": "1845h"
         },
-        {
+        "16576": {
             "class_number": "16576",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Zahid,Ali A",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "ali.zahid@csun.edu",
             "days": "MW",
             "location": "JD2203",
             "start_time": "1730h",
             "end_time": "1845h"
         }
-    ],
-    "ECE 455": [
-        {
+    },
+    "ECE 455": {
+        "16345": {
             "class_number": "16345",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Amini,Ali",
+            "enrollment_cap": 26,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 19,
+            "instructor": "ali.amini@csun.edu",
             "days": "TR",
             "location": "JD1601",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "ECE 480": [
-        {
+    },
+    "ECE 480": {
+        "16264": {
             "class_number": "16264",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Zahid,Ali A",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "ali.zahid@csun.edu",
             "days": "MW",
             "location": "JD1590A",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "ECE 480L": [
-        {
+    },
+    "ECE 480L": {
+        "16541": {
             "class_number": "16541",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Mikhailidis,Franco",
+            "enrollment_cap": 12,
+            "enrollment_count": 10,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "franco.mikhailidis@csun.edu",
             "days": "R",
             "location": "JD2203",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 492": [
-        {
+    },
+    "ECE 492": {
+        "16265": {
             "class_number": "16265",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Flynn,James A",
+            "enrollment_cap": 30,
+            "enrollment_count": 8,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "james.flynn@csun.edu",
             "days": "W",
             "location": "JD1590A",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 493": [
-        {
+    },
+    "ECE 493": {
+        "16266": {
             "class_number": "16266",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Flynn,James A",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "james.flynn@csun.edu",
             "days": "F",
             "location": "JD1590A",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 494A": [
-        {
+    },
+    "ECE 494A": {
+        "16982": {
             "class_number": "16982",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Geng,Xiaojun",
-            "days": null,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "xiaojun.geng@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "ECE 503": [
-        {
+    },
+    "ECE 503": {
+        "16935": {
             "class_number": "16935",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Valdovinos,John",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "john.valdovinos@csun.edu",
             "days": "TR",
             "location": "JD1555",
             "start_time": "1730h",
             "end_time": "1845h"
         }
-    ],
-    "ECE 520": [
-        {
+    },
+    "ECE 520": {
+        "16577": {
             "class_number": "16577",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Janamian,Saba",
+            "enrollment_cap": 27,
+            "enrollment_count": 27,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "saba.janamian@csun.edu",
             "days": "T",
             "location": "JD1555",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 520L": [
-        {
+    },
+    "ECE 520L": {
+        "16578": {
             "class_number": "16578",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Janamian,Saba",
+            "enrollment_cap": 27,
+            "enrollment_count": 27,
+            "waitlist_cap": 27,
+            "waitlist_count": 1,
+            "instructor": "saba.janamian@csun.edu",
             "days": "S",
             "location": "JD1102",
             "start_time": "1300h",
             "end_time": "1545h"
         }
-    ],
-    "ECE 524": [
-        {
+    },
+    "ECE 524": {
+        "20800": {
             "class_number": "20800",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Janamian,Saba",
+            "enrollment_cap": 27,
+            "enrollment_count": 28,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "saba.janamian@csun.edu",
             "days": "F",
             "location": "JD1555",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 524L": [
-        {
+    },
+    "ECE 524L": {
+        "20801": {
             "class_number": "20801",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Janamian,Saba",
+            "enrollment_cap": 27,
+            "enrollment_count": 28,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "saba.janamian@csun.edu",
             "days": "S",
             "location": "JD1102",
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "ECE 526": [
-        {
+    },
+    "ECE 526": {
+        "16261": {
             "class_number": "16261",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Haghighiara,Orod",
+            "enrollment_cap": 27,
+            "enrollment_count": 27,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "orod.haghighiara@csun.edu",
             "days": "R",
             "location": "JD3510",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 526L": [
-        {
+    },
+    "ECE 526L": {
+        "16267": {
             "class_number": "16267",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "enrollment_cap": 27,
+            "enrollment_count": 27,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "JD1102",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 527": [
-        {
+    },
+    "ECE 527": {
+        "17020": {
             "class_number": "17020",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Burke,Gary",
+            "enrollment_cap": 27,
+            "enrollment_count": 14,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "gary.burke@csun.edu",
             "days": "MW",
             "location": "JD1555",
             "start_time": "1730h",
             "end_time": "1845h"
         }
-    ],
-    "ECE 527L": [
-        {
+    },
+    "ECE 527L": {
+        "17021": {
             "class_number": "17021",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Burke,Gary",
+            "enrollment_cap": 27,
+            "enrollment_count": 14,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "gary.burke@csun.edu",
             "days": "F",
             "location": "JD1102",
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "ECE 537": [
-        {
+    },
+    "ECE 537": {
+        "17003": {
             "class_number": "17003",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Hang,Xiyi",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "xiyi.hang.14@csun.edu",
             "days": "M",
             "location": "JD1553",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 545": [
-        {
+    },
+    "ECE 545": {
+        "16681": {
             "class_number": "16681",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Chattopadhyay,Somnath",
+            "enrollment_cap": 20,
+            "enrollment_count": 12,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "somnath.chattopadhyay@csun.edu",
             "days": "MW",
             "location": "JD1555",
             "start_time": "0900h",
             "end_time": "1015h"
         }
-    ],
-    "ECE 546": [
-        {
+    },
+    "ECE 546": {
+        "16550": {
             "class_number": "16550",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Chattopadhyay,Somnath",
+            "enrollment_cap": 20,
+            "enrollment_count": 11,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "somnath.chattopadhyay@csun.edu",
             "days": "F",
             "location": "JD1555",
             "start_time": "1300h",
             "end_time": "1545h"
         }
-    ],
-    "ECE 561": [
-        {
+    },
+    "ECE 561": {
+        "16268": {
             "class_number": "16268",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Zahid,Ali A",
+            "enrollment_cap": 25,
+            "enrollment_count": 13,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "ali.zahid@csun.edu",
             "days": "F",
             "location": "ONLINE",
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "ECE 561L": [
-        {
+    },
+    "ECE 561L": {
+        "16378": {
             "class_number": "16378",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Flynn,James A",
+            "enrollment_cap": 15,
+            "enrollment_count": 6,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "james.flynn@csun.edu",
             "days": "F",
             "location": "JD1536",
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "ECE 571": [
-        {
+    },
+    "ECE 571": {
+        "16508": {
             "class_number": "16508",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Bradley R",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "bradley.jackson@csun.edu",
             "days": "T",
             "location": "JD1553",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 578": [
-        {
+    },
+    "ECE 578": {
+        "16392": {
             "class_number": "16392",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Radmanesh,Matthew M",
+            "enrollment_cap": 15,
+            "enrollment_count": 7,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "matthew.radmanesh@csun.edu",
             "days": "M",
             "location": "JD1555",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 580": [
-        {
+    },
+    "ECE 580": {
+        "16269": {
             "class_number": "16269",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Amini,Ali",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "ali.amini@csun.edu",
             "days": "TR",
             "location": "JD1553",
             "start_time": "0900h",
             "end_time": "1015h"
         }
-    ],
-    "ECE 582": [
-        {
+    },
+    "ECE 582": {
+        "17004": {
             "class_number": "17004",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Jia,Ruting",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "ruting.jia@csun.edu",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "ECE 603": [
-        {
+    },
+    "ECE 603": {
+        "17005": {
             "class_number": "17005",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
+            "enrollment_cap": 10,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "F",
             "location": "JD1555",
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "ECE 610": [
-        {
+    },
+    "ECE 610": {
+        "20802": {
             "class_number": "20802",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Osorno,Ignacio B",
+            "enrollment_cap": 15,
+            "enrollment_count": 4,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "bruno.osorno@csun.edu",
             "days": "F",
             "location": "ONLINE",
             "start_time": "1300h",
             "end_time": "1545h"
         }
-    ],
-    "ECE 620": [
-        {
+    },
+    "ECE 620": {
+        "16936": {
             "class_number": "16936",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Roosta,Ramin",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "ramin.roosta@csun.edu",
             "days": "W",
             "location": "ONLINE",
             "start_time": "0900h",
             "end_time": "1145h"
         }
-    ],
-    "ECE 622": [
-        {
+    },
+    "ECE 622": {
+        "16937": {
             "class_number": "16937",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Mirzaei,Shahnam",
+            "enrollment_cap": 15,
+            "enrollment_count": 5,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "shahnam.mirzaei@csun.edu",
             "days": "M",
             "location": "JD1552",
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "ECE 651": [
-        {
+    },
+    "ECE 642": {
+        "20803": {
             "class_number": "20803",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
+            "enrollment_cap": 15,
+            "enrollment_count": 8,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "jack.ou@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "ECE 666": [
-        {
-            "class_number": "20803",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        {
+    },
+    "ECE 651": {
+        "20804": {
+            "class_number": "20804",
+            "enrollment_cap": 10,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "JD1552",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "ECE 666": {
+        "20807": {
             "class_number": "20807",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Ramesh,S K",
+            "enrollment_cap": 10,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "s.ramesh@csun.edu",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 672": [
-        {
-            "class_number": "20803",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        {
+    },
+    "ECE 672": {
+        "16834": {
             "class_number": "16834",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Radmanesh,Matthew M",
+            "enrollment_cap": 15,
+            "enrollment_count": 2,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "matthew.radmanesh@csun.edu",
             "days": "R",
             "location": "JD2204",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "ECE 681": [
-        {
-            "class_number": "20803",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        {
+    },
+    "ECE 681": {
+        "20805": {
             "class_number": "20805",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Jia,Ruting",
+            "enrollment_cap": 10,
+            "enrollment_count": 3,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "ruting.jia@csun.edu",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1530h",
             "end_time": "1645h"
         }
-    ],
-    "ECE 697": [
-        {
-            "class_number": "20803",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        {
+    },
+    "ECE 697": {
+        "16981": {
             "class_number": "16981",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Geng,Xiaojun",
-            "days": null,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "xiaojun.geng@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "ECE 698C": [
-        {
-            "class_number": "20803",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        {
+    },
+    "ECE 698C": {
+        "16509": {
             "class_number": "16509",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Jia,Ruting",
-            "days": null,
+            "enrollment_cap": 0,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "ruting.jia@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "16515": {
             "class_number": "16515",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Chattopadhyay,Somnath",
-            "days": null,
+            "enrollment_cap": 0,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "somnath.chattopadhyay@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "16516": {
             "class_number": "16516",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Mirzaei,Shahnam",
-            "days": null,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "shahnam.mirzaei@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "16517": {
             "class_number": "16517",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Jackson,Bradley R",
-            "days": null,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "16518": {
             "class_number": "16518",
             "enrollment_cap": 0,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "16519": {
             "class_number": "16519",
             "enrollment_cap": 0,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "16520": {
             "class_number": "16520",
             "enrollment_cap": 0,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "16521": {
             "class_number": "16521",
             "enrollment_cap": 0,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "ECE 699A": [
-        {
-            "class_number": "20803",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Ou,Jack",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        {
+    },
+    "ECE 699A": {
+        "16954": {
             "class_number": "16954",
             "enrollment_cap": 0,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ]
+    }
 }
