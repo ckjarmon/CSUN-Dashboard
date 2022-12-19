@@ -1,7 +1,7 @@
 from unittest import TestCase, mock
 import sys, os, requests, json
-import path, pytest, warnings, mariadb
-from flask import Flask
+import path, pytest, requests_mock, warnings, mariadb
+from flask import Flask, request
 
 # determines os and finds files to test
 ################################################################
@@ -16,7 +16,7 @@ os.chdir(currDirectory)
 
 # search for correct dir and file and import the methods to be tested
 from csundash import home, name_normalize, get, professors, new_rating, get_ratings, prof_name, schedule
-from csundash import establish_conn, historical_profs, cost
+from csundash import establish_conn, historical_profs, cost, classes
 
 ################################################################
 # test establishing connection to database
@@ -65,11 +65,13 @@ def test_prof_name_incorrect_returns_error():
           assert prof_name(subject="null", prof_email="unknown@csun.edu")
 
 ################################################################
-# test catalog function (was catalog, needs to be classes)
-# def test_catalog_returns_correct_class_string():
-#      example_subject = "AAS"
-#      first_course = "100 - Introduction to Asian American Studies"
-#      assert catalog(subject=example_subject)[0] == first_course
+# test classs function (was catalog, needs to be classes)
+# throws an attribute error, needs to be fixed
+@pytest.mark.xfail(raises=AttributeError)
+def test_catalog_returns_correct_class_string():
+     example_subject = "AAS"
+     first_course = "100 - Introduction to Asian American Studies"
+     assert classes(subject=example_subject)[0] == first_course
 
 # @pytest.mark.xfail(raises=IndexError)
 # # proves that def catalog(**kwargs) doesn't have access to valid data
@@ -121,6 +123,12 @@ def test_get_route_returns_correct_json():
 
 ################################################################
 # test professors
+# throws an attribute error, needs to be fixed
+@pytest.mark.xfail(raises=AttributeError)
+def test_professors():
+     subjet_kwarg = "comp"
+     assert professors(subject=subjet_kwarg)
+
 # # 'mocker' fixture provided by pytest-mock
 # def test_get_operating_system(mocker):  
 #     # Mock the slow function and return True always
@@ -136,21 +144,11 @@ def test_get_route_returns_correct_json():
 
 ################################################################
 # test new rating
-# def test_new_rating_post_result(client):
-#      subject_kwarg = "ae"
-#      assert new_rating(subject=subject_kwarg) == []
+# @app.route('/<string:subject>/rating', methods=['POST']) 
+# new_rating
 
-     # data = {
-     # 'Data': [20.0, 30.0, 401.0, 50.0],
-     # 'Date': ['2017-08-11', '2017-08-12', '2017-08-13', '2017-08-14'],
-     # 'Day': 4
-     # }
-     # url = '/upload/'
+# def test_new_rating_post():
 
-     # response = client.post(url, json=data)
-
-     # assert response.content_type == 'application/json'
-     # assert response.json['Result'] == 39
 
 ################################################################
 # test get ratings
@@ -193,3 +191,5 @@ def test_historical_profs_returns_dict():
 # test cost
 # def test_cost_returns_valid():
 #      assert cost()
+
+################################################################

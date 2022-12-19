@@ -18,9 +18,12 @@ os.chdir(currDirectory)
 from csundash import home, name_normalize, get, professors, new_rating, get_ratings, prof_name, schedule
 from csundash import establish_conn, historical_profs, cost
 
-def try_establish_conn():
-    inst = establish_conn()
-    print("What is the type?: ")
-    print(type(inst))
 
-try_establish_conn()
+def prof_check():
+     subjet_kwarg = "comp"
+     ret_val = professors(subject=subjet_kwarg)
+     print("What is being returned?")
+     print(ret_val)
+     print(type(ret_val))
+    
+prof_check()
