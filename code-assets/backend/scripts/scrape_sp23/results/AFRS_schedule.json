@@ -1,288 +1,342 @@
 {
-    "AFRS 99": [
-        {
+    "AFRS 99": {
+        "12069": {
             "class_number": "12069",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Singleton,Maya L",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "enrollment_cap": 20,
+            "enrollment_count": 1,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "maya.singleton@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 100": [
-        {
+    },
+    "AFRS 100": {
+        "13053": {
             "class_number": "13053",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Singleton,Maya L",
+            "enrollment_cap": 35,
+            "enrollment_count": 36,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "maya.singleton@csun.edu",
             "days": "TR",
             "location": "SH225",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "13054": {
             "class_number": "13054",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 7,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "13333": {
             "class_number": "13333",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Turner,Monica L",
+            "enrollment_cap": 35,
+            "enrollment_count": 14,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "monica.turner@csun.edu",
             "days": "F",
             "location": "SH287",
             "start_time": "1100h",
             "end_time": "1345h"
         },
-        {
+        "21163": {
             "class_number": "21163",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Turner,Monica L",
+            "enrollment_cap": 35,
+            "enrollment_count": 10,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "monica.turner@csun.edu",
             "days": "MW",
             "location": "SH160",
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "AFRS 113B": [
-        {
+    },
+    "AFRS 113B": {
+        "12060": {
             "class_number": "12060",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Glocke,Aimee M",
+            "enrollment_cap": 19,
+            "enrollment_count": 6,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "aimee.glocke@csun.edu",
             "days": "TR",
             "location": "SH287",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AFRS 113BOP": [
-        {
+    },
+    "AFRS 113BOP": {
+        "12814": {
             "class_number": "12814",
-            "enrollment_cap": -2,
-            "enrollment_count": 0,
-            "instructor": "Shaw,Melanie S",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "melanie.shaw@csun.edu",
             "days": "MW",
             "location": "SH287",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "13076": {
             "class_number": "13076",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Turner,Monica L",
+            "enrollment_cap": 19,
+            "enrollment_count": 20,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "monica.turner@csun.edu",
             "days": "MW",
             "location": "SH287",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AFRS 115": [
-        {
+    },
+    "AFRS 115": {
+        "12890": {
             "class_number": "12890",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Singleton,Maya L",
+            "enrollment_cap": 19,
+            "enrollment_count": 3,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "maya.singleton@csun.edu",
             "days": "TR",
             "location": "SH287",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "12895": {
             "class_number": "12895",
             "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructor": "Singleton,Maya L",
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "maya.singleton@csun.edu",
             "days": "TR",
             "location": "SH267",
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "13098": {
             "class_number": "13098",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Richards,Victoria D",
+            "enrollment_cap": 19,
+            "enrollment_count": 1,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "victoria.richards@csun.edu",
             "days": "MW",
             "location": "SH310",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "13332": {
             "class_number": "13332",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Richards,Victoria D",
+            "enrollment_cap": 19,
+            "enrollment_count": 1,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "victoria.richards@csun.edu",
             "days": "MW",
             "location": "SH264",
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "20684": {
             "class_number": "20684",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Richards,Victoria D",
+            "enrollment_cap": 19,
+            "enrollment_count": 1,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "victoria.richards@csun.edu",
             "days": "MW",
             "location": "SH310",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AFRS 151": [
-        {
+    },
+    "AFRS 151": {
+        "12065": {
             "class_number": "12065",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Shaw,Melanie S",
+            "enrollment_cap": 30,
+            "enrollment_count": 31,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "melanie.shaw@csun.edu",
             "days": "MW",
             "location": "SH310",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "12811": {
             "class_number": "12811",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Shaw,Melanie S",
+            "enrollment_cap": 30,
+            "enrollment_count": 22,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "melanie.shaw@csun.edu",
             "days": "MW",
             "location": "SH287",
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "12948": {
             "class_number": "12948",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Turner,Monica L",
+            "enrollment_cap": 30,
+            "enrollment_count": 7,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "monica.turner@csun.edu",
             "days": "F",
             "location": "SH287",
             "start_time": "0800h",
             "end_time": "1045h"
         },
-        {
+        "13062": {
             "class_number": "13062",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "SH203",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "13067": {
             "class_number": "13067",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
+            "enrollment_cap": 30,
+            "enrollment_count": 6,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "SH287",
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "21238": {
             "class_number": "21238",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Turner,Monica L",
+            "enrollment_cap": 30,
+            "enrollment_count": 26,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "monica.turner@csun.edu",
             "days": "MW",
             "location": "SH310",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "AFRS 161": [
-        {
+    },
+    "AFRS 161": {
+        "20769": {
             "class_number": "20769",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gatlin,Darryle J",
-            "days": null,
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 42,
+            "waitlist_count": 5,
+            "instructor": "darryle.j.gatlin@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12533": {
             "class_number": "12533",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Gatlin,Darryle J",
+            "enrollment_cap": 45,
+            "enrollment_count": 23,
+            "waitlist_cap": 45,
+            "waitlist_count": 0,
+            "instructor": "darryle.j.gatlin@csun.edu",
             "days": "F",
             "location": "SH284",
             "start_time": "1100h",
             "end_time": "1345h"
         },
-        {
+        "12949": {
             "class_number": "12949",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Richards,Victoria D",
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 42,
+            "waitlist_count": 2,
+            "instructor": "victoria.richards@csun.edu",
             "days": "MW",
             "location": "SH284",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "12961": {
             "class_number": "12961",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Henry,James L",
+            "enrollment_cap": 42,
+            "enrollment_count": 15,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
+            "instructor": "james.henry@csun.edu",
             "days": "T",
             "location": "SH267",
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        {
+        "12962": {
             "class_number": "12962",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gatlin,Darryle J",
+            "enrollment_cap": 50,
+            "enrollment_count": 48,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "darryle.j.gatlin@csun.edu",
             "days": "TR",
             "location": "UL025",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "13068": {
             "class_number": "13068",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Stanford,Karin L",
-            "days": null,
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 9,
+            "instructor": "karin.stanford@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "13069": {
             "class_number": "13069",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Stanford,Karin L",
-            "days": null,
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 8,
+            "instructor": "karin.stanford@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "13074": {
             "class_number": "13074",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Stanford,Karin L",
-            "days": null,
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 9,
+            "instructor": "karin.stanford@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "13204": {
             "class_number": "13204",
             "enrollment_cap": 40,
             "enrollment_count": 0,
@@ -292,101 +346,117 @@
             "start_time": "TBA",
             "end_time": "TBA"
         }
-    ],
-    "AFRS 161EOP": [
-        {
+    },
+    "AFRS 161EOP": {
+        "12214": {
             "class_number": "12214",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Simmons,James M",
+            "enrollment_cap": 45,
+            "enrollment_count": 32,
+            "waitlist_cap": 45,
+            "waitlist_count": 0,
+            "instructor": "james.simmons@csun.edu",
             "days": "TR",
             "location": "SH284",
             "start_time": "1530h",
             "end_time": "1645h"
         }
-    ],
-    "AFRS 204": [
-        {
+    },
+    "AFRS 204": {
+        "12245": {
             "class_number": "12245",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Simmons,James M",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "james.simmons@csun.edu",
             "days": "TR",
             "location": "SH342",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "12506": {
             "class_number": "12506",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Simmons,James M",
+            "enrollment_cap": 35,
+            "enrollment_count": 7,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "james.simmons@csun.edu",
             "days": "F",
             "location": "SH267",
             "start_time": "0800h",
             "end_time": "1045h"
         },
-        {
+        "21164": {
             "class_number": "21164",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Simmons,James M",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "james.simmons@csun.edu",
             "days": "TR",
             "location": "SH284",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AFRS 220": [
-        {
+    },
+    "AFRS 220": {
+        "13335": {
             "class_number": "13335",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "enrollment_cap": 32,
+            "enrollment_count": 28,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 221": [
-        {
+    },
+    "AFRS 221": {
+        "12649": {
             "class_number": "12649",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Richards,Victoria D",
-            "days": null,
+            "enrollment_cap": 32,
+            "enrollment_count": 31,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "victoria.richards@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 226": [
-        {
+    },
+    "AFRS 226": {
+        "12893": {
             "class_number": "12893",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
+            "enrollment_cap": 35,
+            "enrollment_count": 10,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "MW",
             "location": "UL025",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AFRS 245": [
-        {
+    },
+    "AFRS 245": {
+        "12507": {
             "class_number": "12507",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
-            "instructor": "Johnson,Sharon D",
+            "enrollment_cap": 35,
+            "enrollment_count": 6,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "sharon.johnson@csun.edu",
             "days": "M",
             "location": "SH309",
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "AFRS 246": [
-        {
+    },
+    "AFRS 246": {
+        "20770": {
             "class_number": "20770",
             "enrollment_cap": 30,
             "enrollment_count": 0,
@@ -396,345 +466,403 @@
             "start_time": "TBA",
             "end_time": "TBA"
         }
-    ],
-    "AFRS 252": [
-        {
+    },
+    "AFRS 252": {
+        "12896": {
             "class_number": "12896",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
+            "enrollment_cap": 35,
+            "enrollment_count": 12,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "SH284",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AFRS 271": [
-        {
+    },
+    "AFRS 271": {
+        "12158": {
             "class_number": "12158",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Selassie I,W Gabriel",
+            "enrollment_cap": 35,
+            "enrollment_count": 23,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "gabriel.selassie@csun.edu",
             "days": "MW",
             "location": "SH284",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "13334": {
             "class_number": "13334",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Gatlin,Darryle J",
+            "enrollment_cap": 42,
+            "enrollment_count": 25,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
+            "instructor": "darryle.j.gatlin@csun.edu",
             "days": "TR",
             "location": "SH203",
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "13358": {
             "class_number": "13358",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Selassie I,W Gabriel",
-            "days": null,
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 42,
+            "waitlist_count": 4,
+            "instructor": "gabriel.selassie@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 272": [
-        {
+    },
+    "AFRS 272": {
+        "13052": {
             "class_number": "13052",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Selassie I,W Gabriel",
+            "enrollment_cap": 35,
+            "enrollment_count": 30,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "gabriel.selassie@csun.edu",
             "days": "MW",
             "location": "SH284",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "13086": {
             "class_number": "13086",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gatlin,Darryle J",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 3,
+            "instructor": "darryle.j.gatlin@csun.edu",
             "days": "TR",
             "location": "SH342",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AFRS 280": [
-        {
+    },
+    "AFRS 280": {
+        "13071": {
             "class_number": "13071",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Venugopal,Shubha",
+            "enrollment_cap": 12,
+            "enrollment_count": 8,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "shubha.venugopal@csun.edu",
             "days": "TR",
             "location": "SH284",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AFRS 300": [
-        {
+    },
+    "AFRS 300": {
+        "13061": {
             "class_number": "13061",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Gant-Britton,Lisbeth",
+            "enrollment_cap": 32,
+            "enrollment_count": 9,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "lisbeth.gantbritton@csun.edu",
             "days": "TR",
             "location": "SH280",
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "13070": {
             "class_number": "13070",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gant-Britton,Lisbeth",
-            "days": null,
+            "enrollment_cap": 32,
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 2,
+            "instructor": "lisbeth.gantbritton@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 301": [
-        {
+    },
+    "AFRS 301": {
+        "12723": {
             "class_number": "12723",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Ganther,Duane A",
+            "enrollment_cap": 32,
+            "enrollment_count": 10,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "duane.ganther@csun.edu",
             "days": "MW",
             "location": "SH310",
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "AFRS 304": [
-        {
+    },
+    "AFRS 304": {
+        "20704": {
             "class_number": "20704",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Lo,Sheba AK",
+            "enrollment_cap": 30,
+            "enrollment_count": 7,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "sheba.lo@csun.edu",
             "days": "MW",
             "location": "SH267",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AFRS 311": [
-        {
+    },
+    "AFRS 311": {
+        "12645": {
             "class_number": "12645",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Glocke,Aimee M",
+            "enrollment_cap": 32,
+            "enrollment_count": 2,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "aimee.glocke@csun.edu",
             "days": "TR",
             "location": "SH287",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AFRS 322": [
-        {
+    },
+    "AFRS 322": {
+        "12063": {
             "class_number": "12063",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
+            "enrollment_cap": 35,
+            "enrollment_count": 3,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "MW",
             "location": "SH267",
             "start_time": "0800h",
             "end_time": "0915h"
         }
-    ],
-    "AFRS 324": [
-        {
+    },
+    "AFRS 324": {
+        "12894": {
             "class_number": "12894",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Robinson,Janice",
+            "enrollment_cap": 42,
+            "enrollment_count": 25,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
+            "instructor": "janice.robinson@csun.edu",
             "days": "MW",
             "location": "SH279",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AFRS 325": [
-        {
+    },
+    "AFRS 325": {
+        "13059": {
             "class_number": "13059",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Conley,Timothy L",
+            "enrollment_cap": 35,
+            "enrollment_count": 8,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "timothy.conley@csun.edu",
             "days": "TR",
             "location": "SH266",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AFRS 337": [
-        {
+    },
+    "AFRS 337": {
+        "12066": {
             "class_number": "12066",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Johnson,Sharon D",
-            "days": null,
+            "enrollment_cap": 32,
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "sharon.johnson@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 340A": [
-        {
+    },
+    "AFRS 340A": {
+        "21022": {
             "class_number": "21022",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Stanford,Karin L",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "karin.stanford@csun.edu",
             "days": "M",
             "location": "SH287",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "AFRS 343": [
-        {
+    },
+    "AFRS 343": {
+        "20705": {
             "class_number": "20705",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Lo,Sheba AK",
+            "enrollment_cap": 32,
+            "enrollment_count": 12,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "sheba.lo@csun.edu",
             "days": "MW",
             "location": "SH284",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AFRS 346": [
-        {
+    },
+    "AFRS 346": {
+        "12940": {
             "class_number": "12940",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Venugopal,Shubha",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "shubha.venugopal@csun.edu",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "AFRS 346HON": [
-        {
+    },
+    "AFRS 346HON": {
+        "13345": {
             "class_number": "13345",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Venugopal,Shubha",
+            "enrollment_cap": 20,
+            "enrollment_count": 3,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "shubha.venugopal@csun.edu",
             "days": "TR",
             "location": "SH284",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "AFRS 350": [
-        {
+    },
+    "AFRS 350": {
+        "12067": {
             "class_number": "12067",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Venugopal,Shubha",
+            "enrollment_cap": 25,
+            "enrollment_count": 6,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "shubha.venugopal@csun.edu",
             "days": "TR",
             "location": "SH267",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AFRS 351": [
-        {
+    },
+    "AFRS 351": {
+        "20706": {
             "class_number": "20706",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Glocke,Aimee M",
+            "enrollment_cap": 30,
+            "enrollment_count": 4,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "aimee.glocke@csun.edu",
             "days": "TR",
             "location": "SH287",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AFRS 361": [
-        {
+    },
+    "AFRS 361": {
+        "12479": {
             "class_number": "12479",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Mercer,Tandalea K",
-            "days": null,
+            "enrollment_cap": 35,
+            "enrollment_count": 17,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "tandalea.mercer@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 366": [
-        {
+    },
+    "AFRS 366": {
+        "13057": {
             "class_number": "13057",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Lo,Sheba AK",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "sheba.lo@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AFRS 368": [
-        {
+    },
+    "AFRS 368": {
+        "12064": {
             "class_number": "12064",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Conley,Timothy L",
+            "enrollment_cap": 30,
+            "enrollment_count": 4,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "timothy.conley@csun.edu",
             "days": "TR",
             "location": "SH209",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AFRS 392C": [
-        {
+    },
+    "AFRS 392C": {
+        "13063": {
             "class_number": "13063",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Hackett,Cedric D",
+            "enrollment_cap": 20,
+            "enrollment_count": 8,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "cedric.hackett@csun.edu",
             "days": "F",
             "location": "SH310",
             "start_time": "1100h",
             "end_time": "1345h"
         }
-    ],
-    "AFRS 417": [
-        {
+    },
+    "AFRS 417": {
+        "12505": {
             "class_number": "12505",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Mercer,Tandalea K",
-            "days": null,
+            "enrollment_cap": 55,
+            "enrollment_count": 45,
+            "waitlist_cap": 55,
+            "waitlist_count": 0,
+            "instructor": "tandalea.mercer@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 420": [
-        {
+    },
+    "AFRS 420": {
+        "12859": {
             "class_number": "12859",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Lo,Sheba AK",
-            "days": null,
+            "enrollment_cap": 35,
+            "enrollment_count": 29,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "sheba.lo@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AFRS 498": [
-        {
+    },
+    "AFRS 498": {
+        "12850": {
             "class_number": "12850",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Gammage,Marquita M",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "marquita.gammage@csun.edu",
             "days": "TR",
             "location": "SH186",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ]
+    }
 }

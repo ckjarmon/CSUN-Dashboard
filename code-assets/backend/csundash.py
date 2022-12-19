@@ -281,7 +281,7 @@ Example:
 Returns: John Noga
 """
 
-
+# DEPRECATED
 @app.route('/<string:subject>/prof/name/<string:prof_email>')
 def prof_name(**kwargs):
     # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
