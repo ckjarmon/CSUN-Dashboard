@@ -213,12 +213,19 @@ def gather(arrow):
         
         s = Service(ChromeDriverManager().install())
         op = webdriver.ChromeOptions()
-        op.add_argument('headless')
+        # op.add_argument('headless')
         op.add_experimental_option('excludeSwitches', ['enable-logging'])
         driver = webdriver.Chrome(service=s, options=op)
         driver.get(catalog_link)
         time.sleep(4)
 
+        sem_box = driver.find_element("name", "NR_SSS_SOC_NWRK_STRM")
+        sem_box.click()
+        sem_box.send_keys(Keys.ARROW_UP)
+        time.sleep(1)
+        sem_box.send_keys(Keys.ARROW_UP)
+        time.sleep(1)
+        
         id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
         id_box.click()
         time.sleep(1)
@@ -374,9 +381,9 @@ def gather(arrow):
 
         json.dump(sub_sects, open(f"./results_web/{class_codes[arrow]}_schedule.json", "w"), indent=4)
         driver.quit()
-        
+        """
         sub_dict = {}
-        _url = f"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2023/classes/{class_codes[arrow]}"
+        _url = f"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2023/classes/{class_codes[arrow]}"
         while True:
             try:
                 data = json.loads(urllib3.PoolManager().request("GET", _url).data)
@@ -449,7 +456,7 @@ def gather(arrow):
             sub_dict_section[k] = {}
             for sl in sec_list:
                 sub_dict_section[k][sl["class_number"]] = sl
-           
+        """   
         json.dump(sub_dict_section, open(f"./results_api/{class_codes[arrow]}_schedule.json", "w"), indent=4)
         
 
@@ -462,7 +469,7 @@ import multiprocessing
 if __name__ == "__main__":  
     
     t = []
-    
+    class_codes = ['AE']
     for code in class_codes:
         t.append(threading.Thread(target=gather, args=(class_codes.index(code),)))
         t[len(t)-1].start()
@@ -563,7 +570,7 @@ if __name__ == "__main__":
                            course["location"],
                            course["start_time"],
                            course["end_time"],
-                           "spring",
+                           "fall",
                            2023)
                     try:
                         rootCursor.execute("insert into section(class_number,enrollment_cap,enrollment_count,instructor,days,location,start_time,end_time,semester, year) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%d)", tup)
@@ -593,44 +600,40 @@ if __name__ == "__main__":
                                            start_time = '{s[c][course]['start_time']}', 
                                            end_time = '{s[c][course]['end_time']}',
                                            location =  '{s[c][course]['location']}',
-                                           semester = 'spring',
-                                           year = 2023,
                                            where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))      
             except AttributeError:
                 continue
-             
-    for code in class_codes:
-        with open(f"./results_api/{code}_schedule.json") as s:
-            s = json.load(s)
-            try:
-                for c in s.keys():
-                    for course in s[c].keys():
-                        rootCursor.execute(f"""update section set 
-                                               enrollment_cap = '{s[c][course]['enrollment_cap']}', 
-                                               enrollment_count = '{s[c][course]['enrollment_count']}', 
-                                               instructor = %s, 
-                                               waitlist_cap = '{s[c][course]['waitlist_cap']}', 
-                                               waitlist_count = '{s[c][course]['waitlist_count']}',
-                                               semester = 'spring',
-                                                year = 2023,
-                                               where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))         
-            except AttributeError:
-                continue
-            
-    
-    for code in class_codes:
-        with open(f"./results_web/{code}_schedule.json") as web_ss:
-            web_ss = json.load(web_ss)
-            for web_cc in web_ss.keys():
-                for cc in web_ss[web_cc].keys():
-                    with open(f"./results_api/{code}_schedule.json") as api_ss:
-                        api_ss = json.load(api_ss)
-                        try: 
-                            web_ss[web_cc][cc] = api_ss[web_cc][cc]
-                        except KeyError:
-                            continue
-            json.dump(web_ss, open(f"./results/{code}_schedule.json", "w"), indent=4)                  
-
+   
+#     for code in class_codes:
+#         with open(f"./results_api/{code}_schedule.json") as s:
+#             s = json.load(s)
+#             try:
+#                 for c in s.keys():
+#                     for course in s[c].keys():
+#                         rootCursor.execute(f"""update section set 
+#                                                enrollment_cap = '{s[c][course]['enrollment_cap']}', 
+#                                                enrollment_count = '{s[c][course]['enrollment_count']}', 
+#                                                instructor = %s, 
+#                                                waitlist_cap = '{s[c][course]['waitlist_cap']}', 
+#                                                waitlist_count = '{s[c][course]['waitlist_count']}',
+#                                                where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))         
+#             except AttributeError:
+#                 continue
+#             
+#     
+#     for code in class_codes:
+#         with open(f"./results_web/{code}_schedule.json") as web_ss:
+#             web_ss = json.load(web_ss)
+#             for web_cc in web_ss.keys():
+#                 for cc in web_ss[web_cc].keys():
+#                     with open(f"./results_api/{code}_schedule.json") as api_ss:
+#                         api_ss = json.load(api_ss)
+#                         try: 
+#                             web_ss[web_cc][cc] = api_ss[web_cc][cc]
+#                         except KeyError:
+#                             continue
+#             json.dump(web_ss, open(f"./results/{code}_schedule.json", "w"), indent=4)                  
+      
     rootConnection.commit()
     rootCursor.close()
     rootConnection.close()
