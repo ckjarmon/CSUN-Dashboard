@@ -15,8 +15,8 @@ os.chdir(currDirectory)
 ################################################################
 
 # search for correct dir and file and import the methods to be tested
-from csundash import home, name_normalize, get, professors, new_rating, get_ratings, prof_name, schedule
-from csundash import establish_conn, historical_profs, cost, classes
+from csundash import home, name_normalize, get, professors, get_ratings, prof_name, schedule
+from csundash import establish_conn, historical_profs, classes
 
 ################################################################
 # test establishing connection to database
