@@ -1,0 +1,29 @@
+[
+    {
+        "subject": "PERS",
+        "catalog_number": "101",
+        "title": "Elementary Persian I",
+        "description": "Prerequisite: Not open to students with oral and writing proficiency or who attended schools where Persian was the language of instruction. Study of the fundamentals of Persian, including grammatical structure, alphabet, writing and practice of the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{Not open to students with oral and writing proficiency or who attended schools where Persian was the language of instruction}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "PERS",
+        "catalog_number": "102",
+        "title": "Elementary Persian II",
+        "description": "Prerequisite: PERS 101 or instructor consent. Not open to students with oral and writing proficiency or who attended schools where Persian was the language of instruction. Continuation of the study of the fundamentals of Persian, including grammatical structures, reading, writing, practice in the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "4",
+        "prerequisites": "{{PERS 101} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "PERS",
+        "catalog_number": "201",
+        "title": "Intermediate Persian I",
+        "description": "Prerequisite: PERS 102. Intermediate course designed to strengthen existing communicative skills and cultural knowledge in Persian. Emphasis on oral expression, vocabulary expansion, grammar and, more specifically, reading and writing. Introduction to reading of literature and culture. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{PERS 102}",
+        "corequisites": "{None}"
+    }
+]

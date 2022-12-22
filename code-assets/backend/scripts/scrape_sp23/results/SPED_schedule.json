@@ -1,324 +1,1082 @@
 {
-    "SPED 101": {
-        "14222": {
-            "class_number": "14222",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Loza,Jacqueline P",
-            "days": "MW",
-            "location": "JR203",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        },
-        "14223": {
-            "class_number": "14223",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "JR212",
-            "start_time": "0930h",
-            "end_time": "1110h"
-        },
-        "14224": {
-            "class_number": "14224",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Loza,Jacqueline P",
-            "days": "MW",
-            "location": "JR301",
-            "start_time": "1100h",
-            "end_time": "1240h"
-        },
-        "14350": {
-            "class_number": "14350",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Margolis,Ethan Michael",
-            "days": "MW",
-            "location": "JR315",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        },
-        "14225": {
-            "class_number": "14225",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1800h",
-            "end_time": "1940h"
-        },
-        "14226": {
-            "class_number": "14226",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Rojas-Torres,Jose Ernesto",
-            "days": "TR",
-            "location": "JR203",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        },
-        "14250": {
-            "class_number": "14250",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Aprato,Gabriela F",
-            "days": "TR",
-            "location": "JR330",
-            "start_time": "0930h",
-            "end_time": "1110h"
-        },
-        "14771": {
-            "class_number": "14771",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Rojas-Torres,Jose Ernesto",
-            "days": "TR",
-            "location": "ED1126",
-            "start_time": "1100h",
-            "end_time": "1240h"
-        },
-        "14772": {
-            "class_number": "14772",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Aprato,Gabriela F",
-            "days": "TR",
-            "location": "JR330",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        },
-        "14773": {
-            "class_number": "14773",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Rojas-Torres,Jose Ernesto",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1700h",
-            "end_time": "1840h"
-        },
-        "14774": {
-            "class_number": "14774",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Tyutina,Svetlana V",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14775": {
-            "class_number": "14775",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Hernandez,Fernando G",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15154": {
-            "class_number": "15154",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Hernandez,Fernando G",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 102": {
-        "14221": {
-            "class_number": "14221",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ortiz Alizieri,Carlos Javier",
-            "days": "TR",
-            "location": "JR203",
-            "start_time": "1500h",
-            "end_time": "1640h"
-        },
-        "14393": {
-            "class_number": "14393",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Margolis,Ethan Michael",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 103": {
-        "20883": {
-            "class_number": "20883",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Rojas-Torres,Jose Ernesto",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 220A": {
-        "14251": {
-            "class_number": "14251",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Benvenuto,Adriana Marcela",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 304": {
-        "13913": {
-            "class_number": "13913",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Villalba,Manuel",
-            "days": "W",
-            "location": "SH221",
-            "start_time": "1800h",
-            "end_time": "1915h"
-        }
-    },
-    "SPED 306": {
-        "13914": {
-            "class_number": "13914",
+    "SPED 200SL": {
+        "15984": {
+            "class_number": "15984",
             "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Perez-Boluda,Adrian",
-            "days": "F",
-            "location": "JR315",
-            "start_time": "1000h",
-            "end_time": "1245h"
+            "enrollment_count": 13,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "beth.lasky@csun.edu",
+            "days": "MW",
+            "location": "ED1122",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "15999": {
+            "class_number": "15999",
+            "enrollment_cap": 26,
+            "enrollment_count": 12,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "ellen.stohl@csun.edu",
+            "days": "TR",
+            "location": "ED1122",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
-    "SPED 307": {
-        "13915": {
-            "class_number": "13915",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Montepeque,Axel",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 363": {
-        "14926": {
-            "class_number": "14926",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Montepeque,Axel",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 372": {
-        "15245": {
-            "class_number": "15245",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Icardo Isasa PhD,Ane",
-            "days": "W",
-            "location": "JR330",
-            "start_time": "1500h",
-            "end_time": "1745h"
-        }
-    },
-    "SPED 380": {
-        "14665": {
-            "class_number": "14665",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Tyutina,Svetlana V",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 428": {
-        "20884": {
-            "class_number": "20884",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Montepeque,Axel",
+    "SPED 400": {
+        "15501": {
+            "class_number": "15501",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "virginia.kennedy@csun.edu",
+            "days": "M",
+            "location": "SH287",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "15661": {
+            "class_number": "15661",
+            "enrollment_cap": 30,
+            "enrollment_count": 4,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "virginia.kennedy@csun.edu",
             "days": "T",
-            "location": "JR315",
+            "location": "ED1122",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "15502": {
+            "class_number": "15502",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "monica.boomgard@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "15879": {
+            "class_number": "15879",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "ellen.schneiderman@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "15920": {
+            "class_number": "15920",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 402": {
+        "20859": {
+            "class_number": "20859",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "scott.shepard@csun.edu",
+            "days": "M",
+            "location": "BB1238",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "20860": {
+            "class_number": "20860",
+            "enrollment_cap": 30,
+            "enrollment_count": 21,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "ED1127",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 403D": {
+        "15715": {
+            "class_number": "15715",
+            "enrollment_cap": 12,
+            "enrollment_count": 2,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "R",
+            "location": "ED3115",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     },
-    "SPED 472": {
-        "20885": {
-            "class_number": "20885",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Tyutina,Svetlana V",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "SPED 403MME": {
+        "15711": {
+            "class_number": "15711",
+            "enrollment_cap": 12,
+            "enrollment_count": 10,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "samantha.toews@csun.edu",
+            "days": "M",
+            "location": "BH315",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
-    "SPED 497": {
-        "14649": {
-            "class_number": "14649",
+    "SPED 403MS": {
+        "15795": {
+            "class_number": "15795",
             "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Icardo Isasa PhD,Ane",
-            "days": "R",
-            "location": "JR330",
-            "start_time": "1730h",
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "BH315",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 404": {
+        "15712": {
+            "class_number": "15712",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 4,
+            "instructor": "ellis.crasnow@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "15713": {
+            "class_number": "15713",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ellis.crasnow@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 406": {
+        "15716": {
+            "class_number": "15716",
+            "enrollment_cap": 30,
+            "enrollment_count": 15,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "fatmana.deniz@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 407": {
+        "20862": {
+            "class_number": "20862",
+            "enrollment_cap": 30,
+            "enrollment_count": 15,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "ED1122",
+            "start_time": "1600h",
             "end_time": "1845h"
         }
     },
-    "SPED 603": {
-        "14998": {
-            "class_number": "14998",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Icardo Isasa PhD,Ane",
-            "days": "R",
-            "location": "JR330",
+    "SPED 416": {
+        "15718": {
+            "class_number": "15718",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "fatmana.deniz@csun.edu",
+            "days": "M",
+            "location": "ED1122",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "15798": {
+            "class_number": "15798",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "ED1122",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
-    "SPED 606": {
-        "14648": {
-            "class_number": "14648",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Montepeque,Axel",
-            "days": "T",
-            "location": "JR315",
+    "SPED 420": {
+        "15719": {
+            "class_number": "15719",
+            "enrollment_cap": 30,
+            "enrollment_count": 22,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "erin.studer@csun.edu",
+            "days": "M",
+            "location": "ED1130",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "15720": {
+            "class_number": "15720",
+            "enrollment_cap": 30,
+            "enrollment_count": 32,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "erin.studer@csun.edu",
+            "days": "M",
+            "location": "ED1127",
             "start_time": "1900h",
             "end_time": "2145h"
+        },
+        "15721": {
+            "class_number": "15721",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "martin.eisen@csun.edu",
+            "days": "T",
+            "location": "BB1238",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "15770": {
+            "class_number": "15770",
+            "enrollment_cap": 25,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "adie.buchinsky@csun.edu",
+            "days": "T",
+            "location": "BH315",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "15887": {
+            "class_number": "15887",
+            "enrollment_cap": 25,
+            "enrollment_count": 7,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "martin.eisen@csun.edu",
+            "days": "W",
+            "location": "SH287",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "15940": {
+            "class_number": "15940",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "rose.jauregui@csun.edu",
+            "days": "W",
+            "location": "BH313",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "16135": {
+            "class_number": "16135",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "heather.stuve@csun.edu",
+            "days": "R",
+            "location": "ED1122",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "16136": {
+            "class_number": "16136",
+            "enrollment_cap": 30,
+            "enrollment_count": 1,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "TBA",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 502MME": {
+        "15508": {
+            "class_number": "15508",
+            "enrollment_cap": 15,
+            "enrollment_count": 13,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "vanessa.goodwin@csun.edu",
+            "days": "R",
+            "location": "BB1238",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 503MME": {
+        "15503": {
+            "class_number": "15503",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "adie.buchinsky@csun.edu",
+            "days": "T",
+            "location": "ED1122",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "15653": {
+            "class_number": "15653",
+            "enrollment_cap": 25,
+            "enrollment_count": 15,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "vanessa.goodwin@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 506DHA": {
+        "15722": {
+            "class_number": "15722",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 506DHB": {
+        "15723": {
+            "class_number": "15723",
+            "enrollment_cap": 12,
+            "enrollment_count": 2,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 506DHC": {
+        "15724": {
+            "class_number": "15724",
+            "enrollment_cap": 12,
+            "enrollment_count": 1,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 506DHD": {
+        "15725": {
+            "class_number": "15725",
+            "enrollment_cap": 12,
+            "enrollment_count": 1,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 506ECA": {
+        "15608": {
+            "class_number": "15608",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "connie.wong@csun.edu",
+            "days": "T",
+            "location": "ED3115",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 506ECB": {
+        "15726": {
+            "class_number": "15726",
+            "enrollment_cap": 26,
+            "enrollment_count": 2,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "connie.wong@csun.edu",
+            "days": "T",
+            "location": "ONCAMP",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 506ECC": {
+        "15727": {
+            "class_number": "15727",
+            "enrollment_cap": 26,
+            "enrollment_count": 4,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "connie.wong@csun.edu",
+            "days": "T",
+            "location": "ONCAMP",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 506MEA": {
+        "15728": {
+            "class_number": "15728",
+            "enrollment_cap": 26,
+            "enrollment_count": 1,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "samantha.toews@csun.edu",
+            "days": "M",
+            "location": "ONCAMP",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 506MEB": {
+        "15729": {
+            "class_number": "15729",
+            "enrollment_cap": 26,
+            "enrollment_count": 4,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "samantha.toews@csun.edu",
+            "days": "M",
+            "location": "ONCAMP",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 506MEC": {
+        "15730": {
+            "class_number": "15730",
+            "enrollment_cap": 26,
+            "enrollment_count": 1,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "samantha.toews@csun.edu",
+            "days": "R",
+            "location": "ONCAMP",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 506MED": {
+        "15731": {
+            "class_number": "15731",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "samantha.toews@csun.edu",
+            "days": "R",
+            "location": "ONCAMP",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 506MSC": {
+        "15735": {
+            "class_number": "15735",
+            "enrollment_cap": 26,
+            "enrollment_count": 1,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.strumwasser@csun.edu",
+            "days": "R",
+            "location": "BH313",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 506MSD": {
+        "15736": {
+            "class_number": "15736",
+            "enrollment_cap": 26,
+            "enrollment_count": 8,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.strumwasser@csun.edu",
+            "days": "R",
+            "location": "BH315",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 511": {
+        "20880": {
+            "class_number": "20880",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "vanessa.goodwin@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 532": {
+        "15592": {
+            "class_number": "15592",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "connie.wong@csun.edu",
+            "days": "M",
+            "location": "ED3115",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 537": {
+        "15553": {
+            "class_number": "15553",
+            "enrollment_cap": 18,
+            "enrollment_count": 10,
+            "waitlist_cap": 18,
+            "waitlist_count": 0,
+            "instructor": "brianne.mahlstedt@csun.edu",
+            "days": "M",
+            "location": "ED3115",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 538": {
+        "15784": {
+            "class_number": "15784",
+            "enrollment_cap": 30,
+            "enrollment_count": 2,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "connie.wong@csun.edu",
+            "days": "T",
+            "location": "ED3115",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 542B": {
+        "15561": {
+            "class_number": "15561",
+            "enrollment_cap": 80,
+            "enrollment_count": 10,
+            "waitlist_cap": 80,
+            "waitlist_count": 0,
+            "instructor": "phyllis.gudoski@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "15562": {
+            "class_number": "15562",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "phyllis.gudoski@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "15652": {
+            "class_number": "15652",
+            "enrollment_cap": 30,
+            "enrollment_count": 6,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "phyllis.gudoski@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 544CD": {
+        "16078": {
+            "class_number": "16078",
+            "enrollment_cap": 30,
+            "enrollment_count": 2,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ed.hall@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 545": {
+        "20999": {
+            "class_number": "20999",
+            "enrollment_cap": 25,
+            "enrollment_count": 10,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "viktoria.druz@csun.edu",
+            "days": "T",
+            "location": "BB1232",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "21000": {
+            "class_number": "21000",
+            "enrollment_cap": 15,
+            "enrollment_count": 10,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "viktoria.druz@csun.edu",
+            "days": "T",
+            "location": "BB1232",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 561D": {
+        "15788": {
+            "class_number": "15788",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "W",
+            "location": "ED3115",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 565": {
+        "15789": {
+            "class_number": "15789",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "W",
+            "location": "ED3115",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 566D": {
+        "15787": {
+            "class_number": "15787",
+            "enrollment_cap": 30,
+            "enrollment_count": 8,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ellen.schneiderman@csun.edu",
+            "days": "R",
+            "location": "ED3115",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 578": {
+        "15785": {
+            "class_number": "15785",
+            "enrollment_cap": 30,
+            "enrollment_count": 1,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "connie.wong@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 580ACT": {
+        "15500": {
+            "class_number": "15500",
+            "enrollment_cap": 30,
+            "enrollment_count": 6,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "phyllis.gudoski@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 580DHH": {
+        "15513": {
+            "class_number": "15513",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 580EC": {
+        "15557": {
+            "class_number": "15557",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "connie.wong@csun.edu",
+            "days": "T",
+            "location": "ONCAMP",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 580MME": {
+        "15497": {
+            "class_number": "15497",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "vanessa.goodwin@csun.edu",
+            "days": "R",
+            "location": "ED1129",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 580MS": {
+        "15498": {
+            "class_number": "15498",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 580S": {
+        "15737": {
+            "class_number": "15737",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 610": {
+        "15505": {
+            "class_number": "15505",
+            "enrollment_cap": 26,
+            "enrollment_count": 14,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "heather.stuve@csun.edu",
+            "days": "R",
+            "location": "ED1122",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 628DHH": {
+        "16088": {
+            "class_number": "16088",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 628EC": {
+        "16087": {
+            "class_number": "16087",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 628MM": {
+        "16089": {
+            "class_number": "16089",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "samantha.toews@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 638": {
+        "15861": {
+            "class_number": "15861",
+            "enrollment_cap": 26,
+            "enrollment_count": 10,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "monica.boomgard@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 642": {
+        "15600": {
+            "class_number": "15600",
+            "enrollment_cap": 12,
+            "enrollment_count": 1,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "brianne.mahlstedt@csun.edu",
+            "days": "M",
+            "location": "ONCAMP",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 671": {
+        "15598": {
+            "class_number": "15598",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 676": {
+        "15620": {
+            "class_number": "15620",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "karen.kass@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 681": {
+        "15739": {
+            "class_number": "15739",
+            "enrollment_cap": 26,
+            "enrollment_count": 2,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 682D": {
+        "15572": {
+            "class_number": "15572",
+            "enrollment_cap": 26,
+            "enrollment_count": 0,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 682EC": {
+        "15510": {
+            "class_number": "15510",
+            "enrollment_cap": 26,
+            "enrollment_count": 1,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "connie.wong@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 682MM": {
+        "15511": {
+            "class_number": "15511",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "tamarah.ashton@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 682MS": {
+        "15966": {
+            "class_number": "15966",
+            "enrollment_cap": 25,
+            "enrollment_count": 1,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "samantha.toews@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SPED 683": {
+        "15509": {
+            "class_number": "15509",
+            "enrollment_cap": 28,
+            "enrollment_count": 2,
+            "waitlist_cap": 28,
+            "waitlist_count": 0,
+            "instructor": "wendy.weichel@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPED 695A": {
+        "16094": {
+            "class_number": "16094",
+            "enrollment_cap": 26,
+            "enrollment_count": 8,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     },
     "SPED 697": {
-        "14301": {
-            "class_number": "14301",
-            "enrollment_cap": 6,
+        "15772": {
+            "class_number": "15772",
+            "enrollment_cap": 26,
+            "enrollment_count": 4,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "tamarah.ashton@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "15773": {
+            "class_number": "15773",
+            "enrollment_cap": 26,
+            "enrollment_count": 7,
+            "waitlist_cap": 26,
+            "waitlist_count": 0,
+            "instructor": "rachel.narr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPED 699X": {
+        "15499": {
+            "class_number": "15499",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Perez-Boluda,Adrian",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     }
 }

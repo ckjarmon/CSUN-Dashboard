@@ -1,14 +1,1042 @@
 {
-    "PHYS 170": {
-        "17180": {
-            "class_number": "17180",
+    "PHYS 100A": {
+        "17182": {
+            "class_number": "17182",
+            "enrollment_cap": 120,
+            "enrollment_count": 120,
+            "waitlist_cap": 120,
+            "waitlist_count": 12,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "EH2132",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17467": {
+            "class_number": "17467",
+            "enrollment_cap": 120,
+            "enrollment_count": 116,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "CR5125",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        }
+    },
+    "PHYS 100AL": {
+        "17185": {
+            "class_number": "17185",
+            "enrollment_cap": 48,
+            "enrollment_count": 48,
+            "waitlist_cap": 48,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "17184": {
+            "class_number": "17184",
+            "enrollment_cap": 48,
+            "enrollment_count": 45,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "EH2109",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "17217": {
+            "class_number": "17217",
+            "enrollment_cap": 48,
+            "enrollment_count": 31,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "EH2109",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "17252": {
+            "class_number": "17252",
+            "enrollment_cap": 48,
+            "enrollment_count": 18,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "17461": {
+            "class_number": "17461",
+            "enrollment_cap": 48,
+            "enrollment_count": 46,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "EH2109",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "PHYS 100B": {
+        "17188": {
+            "class_number": "17188",
+            "enrollment_cap": 120,
+            "enrollment_count": 103,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "CR5122",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "17809": {
+            "class_number": "17809",
+            "enrollment_cap": 120,
+            "enrollment_count": 49,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "CR5125",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        }
+    },
+    "PHYS 100BL": {
+        "17191": {
+            "class_number": "17191",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 3,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "LO1107",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "17192": {
+            "class_number": "17192",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "LO1107",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "17193": {
+            "class_number": "17193",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "LO1107",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "17468": {
+            "class_number": "17468",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "LO1107",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "17597": {
+            "class_number": "17597",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "LO1107",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "17631": {
+            "class_number": "17631",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "LO1107",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "PHYS 220A": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 120,
+            "enrollment_count": 98,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 120,
+            "enrollment_count": 78,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "igor.beloborodov@csun.edu",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHYS 220AL": {
+        "17197": {
+            "class_number": "17197",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "17196": {
+            "class_number": "17196",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "EH2109",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "17438": {
+            "class_number": "17438",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "EH2109",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "17462": {
+            "class_number": "17462",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 4,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "18034": {
+            "class_number": "18034",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 23,
+            "waitlist_count": 4,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "EH2109",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "18044": {
+            "class_number": "18044",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "18100": {
+            "class_number": "18100",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 3,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "EH2109",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "PHYS 220B": {
+        "17199": {
+            "class_number": "17199",
+            "enrollment_cap": 120,
+            "enrollment_count": 78,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "CR5122",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "17927": {
+            "class_number": "17927",
+            "enrollment_cap": 120,
+            "enrollment_count": 61,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "igor.beloborodov@csun.edu",
+            "days": "MW",
+            "location": "CR5125",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "PHYS 220BL": {
+        "17202": {
+            "class_number": "17202",
+            "enrollment_cap": 24,
+            "enrollment_count": 12,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "LO1102",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "17201": {
+            "class_number": "17201",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "LO1102",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "17598": {
+            "class_number": "17598",
+            "enrollment_cap": 24,
+            "enrollment_count": 20,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "LO1102",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "17665": {
+            "class_number": "17665",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "LO1102",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "17666": {
+            "class_number": "17666",
+            "enrollment_cap": 24,
+            "enrollment_count": 17,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "LO1102",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "18036": {
+            "class_number": "18036",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "LO1102",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "18037": {
+            "class_number": "18037",
+            "enrollment_cap": 24,
+            "enrollment_count": 13,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "LO1102",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "PHYS 225": {
+        "17318": {
+            "class_number": "17318",
+            "enrollment_cap": 40,
+            "enrollment_count": 16,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "LO1127",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "PHYS 227": {
+        "17319": {
+            "class_number": "17319",
+            "enrollment_cap": 30,
+            "enrollment_count": 8,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1117",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "PHYS 227L": {
+        "17203": {
+            "class_number": "17203",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "PHYS 305": {
+        "18002": {
+            "class_number": "18002",
+            "enrollment_cap": 44,
+            "enrollment_count": 44,
+            "waitlist_cap": 44,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18003": {
+            "class_number": "18003",
+            "enrollment_cap": 44,
+            "enrollment_count": 31,
+            "waitlist_cap": 44,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 305L": {
+        "17998": {
+            "class_number": "17998",
+            "enrollment_cap": 44,
+            "enrollment_count": 44,
+            "waitlist_cap": 44,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17999": {
+            "class_number": "17999",
+            "enrollment_cap": 44,
+            "enrollment_count": 31,
+            "waitlist_cap": 44,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 331": {
+        "18404": {
+            "class_number": "18404",
+            "enrollment_cap": 30,
+            "enrollment_count": 3,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1127",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "PHYS 366": {
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 22,
+            "enrollment_count": 4,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "PHYS 375": {
+        "17470": {
+            "class_number": "17470",
+            "enrollment_cap": 30,
+            "enrollment_count": 6,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "LO1127",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "PHYS 402": {
+        "17471": {
+            "class_number": "17471",
+            "enrollment_cap": 30,
+            "enrollment_count": 4,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHYS 410": {
+        "17472": {
+            "class_number": "17472",
+            "enrollment_cap": 30,
+            "enrollment_count": 3,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1117",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHYS 420": {
+        "17599": {
+            "class_number": "17599",
+            "enrollment_cap": 30,
+            "enrollment_count": 3,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1127",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "PHYS 466": {
+        "17320": {
+            "class_number": "17320",
+            "enrollment_cap": 30,
+            "enrollment_count": 7,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "LO1100",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "PHYS 489": {
+        "18168": {
+            "class_number": "18168",
+            "enrollment_cap": 30,
+            "enrollment_count": 3,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1127",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "PHYS 493": {
+        "17204": {
+            "class_number": "17204",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "BP3100",
+            "start_time": "1530h",
+            "end_time": "1650h"
+        }
+    },
+    "PHYS 495B": {
+        "18643": {
+            "class_number": "18643",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 495C": {
+        "17975": {
+            "class_number": "17975",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 497": {
+        "18319": {
+            "class_number": "18319",
+            "enrollment_cap": 24,
+            "enrollment_count": 11,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "LO1100",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    },
+    "PHYS 498": {
+        "17206": {
+            "class_number": "17206",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "hendrik.postma@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17255": {
+            "class_number": "17255",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 499A": {
+        "17207": {
+            "class_number": "17207",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 588": {
+        "18395": {
+            "class_number": "18395",
             "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "PHYS 610": {
+        "17219": {
+            "class_number": "17219",
+            "enrollment_cap": 25,
+            "enrollment_count": 5,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
             "days": "TR",
-            "location": "LO1227",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LO1124",
+            "start_time": "1500h",
+            "end_time": "1640h"
+        }
+    },
+    "PHYS 630": {
+        "17220": {
+            "class_number": "17220",
+            "enrollment_cap": 30,
+            "enrollment_count": 4,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1127",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        }
+    },
+    "PHYS 651": {
+        "18045": {
+            "class_number": "18045",
+            "enrollment_cap": 24,
+            "enrollment_count": 1,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        }
+    },
+    "PHYS 696A": {
+        "17210": {
+            "class_number": "17210",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 696B": {
+        "17211": {
+            "class_number": "17211",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "tyler.luchko@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 696C": {
+        "17212": {
+            "class_number": "17212",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17261": {
+            "class_number": "17261",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17286": {
+            "class_number": "17286",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17287": {
+            "class_number": "17287",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 697": {
+        "17213": {
+            "class_number": "17213",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 698C": {
+        "17221": {
+            "class_number": "17221",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "debiprasad.choudhary@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17222": {
+            "class_number": "17222",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17292": {
+            "class_number": "17292",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17293": {
+            "class_number": "17293",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 698F": {
+        "17214": {
+            "class_number": "17214",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17264": {
+            "class_number": "17264",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17295": {
+            "class_number": "17295",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 699A": {
+        "17215": {
+            "class_number": "17215",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17265": {
+            "class_number": "17265",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 699B": {
+        "17216": {
+            "class_number": "17216",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "debiprasad.choudhary@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17266": {
+            "class_number": "17266",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 699C": {
+        "17224": {
+            "class_number": "17224",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 699D": {
+        "17377": {
+            "class_number": "17377",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17378": {
+            "class_number": "17378",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     }
 }

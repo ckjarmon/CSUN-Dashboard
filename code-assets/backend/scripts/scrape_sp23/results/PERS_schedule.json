@@ -1,100 +1,30 @@
 {
-    "PERS 306": {
-        "18966": {
-            "class_number": "18966",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Hattar,Marianne Haneh",
-            "days": "W",
-            "location": "JD2523",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "19570": {
-            "class_number": "19570",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Hattar,Marianne Haneh",
-            "days": "W",
-            "location": "JD2523",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        }
-    },
-    "PERS 426": {
-        "18939": {
-            "class_number": "18939",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Hattar,Marianne Haneh",
-            "days": "M",
-            "location": "JD2522",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        },
-        "19255": {
-            "class_number": "19255",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Hattar,Marianne Haneh",
-            "days": "M",
-            "location": "JD2522",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    },
-    "PERS 428": {
-        "18684": {
-            "class_number": "18684",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Der-Tavitian,Dr. Rosine",
-            "days": "W",
-            "location": "JD2523",
+    "PERS 101": {
+        "14255": {
+            "class_number": "14255",
+            "enrollment_cap": 30,
+            "enrollment_count": 18,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "homa.esfarjani@csun.edu",
+            "days": "TR",
+            "location": "SH221",
             "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19566": {
-            "class_number": "19566",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Wallace,Debra R",
-            "days": "T",
-            "location": "SG108",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "end_time": "1740h"
         }
     },
-    "PERS 428L": {
-        "18845": {
-            "class_number": "18845",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Der-Tavitian,Dr. Rosine",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "18907": {
-            "class_number": "18907",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Der-Tavitian,Dr. Rosine",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "19203": {
-            "class_number": "19203",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Der-Tavitian,Dr. Rosine",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "PERS 102": {
+        "14275": {
+            "class_number": "14275",
+            "enrollment_cap": 23,
+            "enrollment_count": 1,
+            "waitlist_cap": 23,
+            "waitlist_count": 0,
+            "instructor": "homa.esfarjani@csun.edu",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1800h",
+            "end_time": "1940h"
         }
     }
 }

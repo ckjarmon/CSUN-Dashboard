@@ -1,618 +1,3938 @@
 {
-    "KIN 100": {
-        "11099": {
-            "class_number": "11099",
-            "enrollment_cap": 47,
-            "enrollment_count": 0,
-            "instructor": "Kim,Taehyun",
-            "days": "TR",
-            "location": "MZ361",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "KIN 110": {
-        "11717": {
-            "class_number": "11717",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kim,Taehyun",
-            "days": "M",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        },
-        "11718": {
-            "class_number": "11718",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Nu\u00f1ez,Linda",
-            "days": "T",
-            "location": "SH305",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        }
-    },
-    "KIN 110L": {
-        "11723": {
-            "class_number": "11723",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kim,Taehyun",
-            "days": "W",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        },
-        "11724": {
-            "class_number": "11724",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Nu\u00f1ez,Linda",
-            "days": "R",
-            "location": "MZ360",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        }
-    },
-    "KIN 210": {
-        "11729": {
-            "class_number": "11729",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Molina,Joshua",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2040h"
-        },
-        "11730": {
-            "class_number": "11730",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kim,Taehyun",
-            "days": "T",
-            "location": "MZ361",
+    "KIN 115A": {
+        "18701": {
+            "class_number": "18701",
+            "enrollment_cap": 8,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "jessica.harrison.403@my.csun.edu",
+            "days": "MW",
+            "location": "BC156",
             "start_time": "1100h",
-            "end_time": "1240h"
-        }
-    },
-    "KIN 210L": {
-        "11736": {
-            "class_number": "11736",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Molina,Joshua",
-            "days": "R",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2040h"
+            "end_time": "1150h"
         },
-        "11737": {
-            "class_number": "11737",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kim,Taehyun",
-            "days": "R",
-            "location": "MZ360",
-            "start_time": "1100h",
-            "end_time": "1240h"
-        }
-    },
-    "KIN 225": {
-        "11993": {
-            "class_number": "11993",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Macchiarella,Gretchen",
-            "days": "M",
-            "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "11994": {
-            "class_number": "11994",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Grewe,David L",
-            "days": "W",
-            "location": "MZ360",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "KIN 250": {
-        "11429": {
-            "class_number": "11429",
-            "enrollment_cap": 38,
-            "enrollment_count": 0,
-            "instructor": "Blumenkrantz,David A",
-            "days": "M",
-            "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "KIN 255": {
-        "11903": {
-            "class_number": "11903",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Hoffman,Edward",
-            "days": "R",
-            "location": "MZ361",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "KIN 310": {
-        "10646": {
-            "class_number": "10646",
+        "18702": {
+            "class_number": "18702",
             "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Bien,Julie S",
-            "days": "M",
-            "location": "MZ360",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    },
-    "KIN 315": {
-        "10055": {
-            "class_number": "10055",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Bender,Aron W",
-            "days": "R",
-            "location": "MZ211",
-            "start_time": "1230h",
-            "end_time": "1515h"
-        }
-    },
-    "KIN 325": {
-        "10536": {
-            "class_number": "10536",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "MZ211",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "10858": {
-            "class_number": "10858",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Fonseca,Ryan A",
-            "days": "R",
-            "location": "SH268",
-            "start_time": "1200h",
-            "end_time": "1445h"
-        },
-        "11324": {
-            "class_number": "11324",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Grewe,David L",
-            "days": "M",
-            "location": "MZ211",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    },
-    "KIN 341": {
-        "10598": {
-            "class_number": "10598",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Long,Stacy K",
-            "days": "M",
-            "location": "MZ211",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "KIN 350": {
-        "10056": {
-            "class_number": "10056",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Grewe,David L",
-            "days": "M",
-            "location": "MZ360",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "KIN 365": {
-        "11909": {
-            "class_number": "11909",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Eisenstock,Bobbie",
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "kyle.miller.536@my.csun.edu",
             "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "12036": {
-            "class_number": "12036",
-            "enrollment_cap": 45,
-            "enrollment_count": 0,
-            "instructor": "Eisenstock,Bobbie",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "KIN 371": {
-        "10532": {
-            "class_number": "10532",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Eisenstock,Bobbie",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "KIN 372": {
-        "10057": {
-            "class_number": "10057",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructor": "Eisenstock,Bobbie",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "KIN 375": {
-        "11920": {
-            "class_number": "11920",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Bien,Julie S",
-            "days": "W",
-            "location": "MZ360",
-            "start_time": "1000h",
-            "end_time": "1245h"
-        },
-        "11997": {
-            "class_number": "11997",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Bien,Julie S",
-            "days": "R",
-            "location": "SH302",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    },
-    "KIN 395B": {
-        "11496": {
-            "class_number": "11496",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Bender,Aron W",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "KIN 395C": {
-        "11905": {
-            "class_number": "11905",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Bender,Aron W",
-            "days": "M",
-            "location": "MZ360",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        }
-    },
-    "KIN 397B": {
-        "10060": {
-            "class_number": "10060",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Ward,Arvli",
-            "days": null,
-            "location": "MZ140",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "KIN 397C": {
-        "11906": {
-            "class_number": "11906",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Ward,Arvli",
-            "days": "M",
-            "location": "MZ140",
-            "start_time": "0930h",
-            "end_time": "1110h"
-        }
-    },
-    "KIN 398B": {
-        "10651": {
-            "class_number": "10651",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Long,Stacy K",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "KIN 398C": {
-        "11907": {
-            "class_number": "11907",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Long,Stacy K",
-            "days": "W",
-            "location": "MZ211",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        }
-    },
-    "KIN 400": {
-        "10533": {
-            "class_number": "10533",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Blakey,Elizabeth E",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "10534": {
-            "class_number": "10534",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Blakey,Elizabeth E",
-            "days": "R",
-            "location": "MZ101",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "KIN 410": {
-        "10691": {
-            "class_number": "10691",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Blumenkrantz,David A",
-            "days": "T",
-            "location": "MZ360",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    },
-    "KIN 415": {
-        "10540": {
-            "class_number": "10540",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "MZ211",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    },
-    "KIN 430": {
-        "11908": {
-            "class_number": "11908",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "MZ150E",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "KIN 440": {
-        "10061": {
-            "class_number": "10061",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Cathcart,Christopher",
-            "days": "M",
-            "location": "MZ361",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "KIN 445": {
-        "10541": {
-            "class_number": "10541",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "MZ150E",
-            "start_time": "1100h",
-            "end_time": "1645h"
-        }
-    },
-    "KIN 460": {
-        "10652": {
-            "class_number": "10652",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Blumenkrantz,David A",
-            "days": "W",
-            "location": "MZ211",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "KIN 474SLJ": {
-        "10599": {
-            "class_number": "10599",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "MZ113",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    },
-    "KIN 478": {
-        "10062": {
-            "class_number": "10062",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wall,Melissa A",
-            "days": "W",
-            "location": "ONLINE",
-            "start_time": "1530h",
-            "end_time": "1815h"
-        }
-    },
-    "KIN 494AEE": {
-        "11585": {
-            "class_number": "11585",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Bien,Julie S",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "KIN 494BEE": {
-        "11586": {
-            "class_number": "11586",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Bien,Julie S",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "KIN 495DA": {
-        "20897": {
-            "class_number": "20897",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Macchiarella,Gretchen",
-            "days": "R",
-            "location": "ONLINE",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "KIN 495POD": {
-        "12001": {
-            "class_number": "12001",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Trujillo,Tammy",
-            "days": "W",
-            "location": "MZ361",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    },
-    "KIN 495SJ": {
-        "11925": {
-            "class_number": "11925",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Whyte,Timothy J",
-            "days": "T",
-            "location": "MZ361",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        }
-    },
-    "KIN 498": {
-        "10064": {
-            "class_number": "10064",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Blumenkrantz,David A",
-            "days": "M",
-            "location": "MZ212",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        },
-        "10067": {
-            "class_number": "10067",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Cathcart,Christopher",
-            "days": "T",
-            "location": "MZ212",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        },
-        "10815": {
-            "class_number": "10815",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "El Zahed,Sahar Y",
-            "days": "T",
-            "location": "MZ212",
+            "location": "BC156",
             "start_time": "1300h",
             "end_time": "1350h"
         },
-        "10063": {
-            "class_number": "10063",
-            "enrollment_cap": 5,
+        "18703": {
+            "class_number": "18703",
+            "enrollment_cap": 8,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "stephan.fitpztrick.977@my.csun.edu",
+            "days": "TR",
+            "location": "BC156",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "19737": {
+            "class_number": "19737",
+            "enrollment_cap": 8,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.truong@csun.edu",
+            "days": "TR",
+            "location": "BC156",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "18873": {
+            "class_number": "18873",
+            "enrollment_cap": 8,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "taeyou.jung@csun.edu",
+            "days": "TR",
+            "location": "BC156",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    },
+    "KIN 117": {
+        "18721": {
+            "class_number": "18721",
+            "enrollment_cap": 8,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "ileana.hurtado@csun.edu",
+            "days": "MW",
+            "location": "BC126",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "18722": {
+            "class_number": "18722",
+            "enrollment_cap": 8,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "tyler.serna.928@my.csun.edu",
+            "days": "MW",
+            "location": "BC126",
+            "start_time": "1730h",
+            "end_time": "1820h"
+        },
+        "19738": {
+            "class_number": "19738",
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Molina,Joshua",
-            "days": "T",
-            "location": "MZ212",
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "ileana.hurtado@csun.edu",
+            "days": "TR",
+            "location": "BC126",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "18871": {
+            "class_number": "18871",
+            "enrollment_cap": 8,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "donald.brolsma@csun.edu",
+            "days": "TR",
+            "location": "BC126",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        },
+        "18872": {
+            "class_number": "18872",
+            "enrollment_cap": 8,
+            "enrollment_count": 3,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.garcia@csun.edu",
+            "days": "TR",
+            "location": "BC126",
+            "start_time": "1730h",
+            "end_time": "1820h"
+        }
+    },
+    "KIN 118": {
+        "19170": {
+            "class_number": "19170",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE251",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        }
+    },
+    "KIN 120": {
+        "19251": {
+            "class_number": "19251",
+            "enrollment_cap": 32,
+            "enrollment_count": 30,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "M",
+            "location": "RE230",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    },
+    "KIN 120L": {
+        "19252": {
+            "class_number": "19252",
+            "enrollment_cap": 32,
+            "enrollment_count": 30,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "M",
+            "location": "RE230",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "KIN 123A": {
+        "20093": {
+            "class_number": "20093",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 4,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JP0000",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "20094": {
+            "class_number": "20094",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 4,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JP0000",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "20152": {
+            "class_number": "20152",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 3,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JP0000",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    },
+    "KIN 124A": {
+        "18704": {
+            "class_number": "18704",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "RE160",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "18705": {
+            "class_number": "18705",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "RE160",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "19842": {
+            "class_number": "19842",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE160",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        }
+    },
+    "KIN 125A": {
+        "18958": {
+            "class_number": "18958",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "FT0000",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        },
+        "19375": {
+            "class_number": "19375",
+            "enrollment_cap": 30,
+            "enrollment_count": 11,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "FT0000",
             "start_time": "0900h",
             "end_time": "0950h"
         },
-        "10546": {
-            "class_number": "10546",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Kim,Taehyun",
-            "days": "M",
-            "location": "MZ212",
+        "19376": {
+            "class_number": "19376",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "FT0000",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    },
+    "KIN 126A": {
+        "18708": {
+            "class_number": "18708",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "john.farr@csun.edu",
+            "days": "MW",
+            "location": "RE200",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        },
+        "18709": {
+            "class_number": "18709",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "john.farr@csun.edu",
+            "days": "MW",
+            "location": "RE200",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "18710": {
+            "class_number": "18710",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "john.farr@csun.edu",
+            "days": "MW",
+            "location": "RE200",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "19844": {
+            "class_number": "19844",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "paulo.marchetti@csun.edu",
+            "days": "MW",
+            "location": "RE278",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        }
+    },
+    "KIN 128": {
+        "19495": {
+            "class_number": "19495",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "FT0000",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "19845": {
+            "class_number": "19845",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 6,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 129A": {
+        "18711": {
+            "class_number": "18711",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "FT0000",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        },
+        "19496": {
+            "class_number": "19496",
+            "enrollment_cap": 30,
+            "enrollment_count": 15,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "FT0000",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        }
+    },
+    "KIN 130A": {
+        "18712": {
+            "class_number": "18712",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "paul.gale@csun.edu",
+            "days": "MW",
+            "location": "RE B1",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "18713": {
+            "class_number": "18713",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "paul.gale@csun.edu",
+            "days": "W",
+            "location": "RE B1",
+            "start_time": "1800h",
+            "end_time": "1940h"
+        }
+    },
+    "KIN 131A": {
+        "18715": {
+            "class_number": "18715",
+            "enrollment_cap": 30,
+            "enrollment_count": 26,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "paul.gale@csun.edu",
+            "days": "MW",
+            "location": "RE B1",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        },
+        "18714": {
+            "class_number": "18714",
+            "enrollment_cap": 30,
+            "enrollment_count": 18,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "paul.gale@csun.edu",
+            "days": "TR",
+            "location": "RE B1",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        }
+    },
+    "KIN 132A": {
+        "18716": {
+            "class_number": "18716",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "RE251",
             "start_time": "1200h",
             "end_time": "1250h"
         },
-        "10066": {
-            "class_number": "10066",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Grewe,David L",
+        "18717": {
+            "class_number": "18717",
+            "enrollment_cap": 30,
+            "enrollment_count": 8,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "RE251",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    },
+    "KIN 133A": {
+        "18718": {
+            "class_number": "18718",
+            "enrollment_cap": 30,
+            "enrollment_count": 11,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "paul.gale@csun.edu",
+            "days": "T",
+            "location": "RE B1",
+            "start_time": "1800h",
+            "end_time": "1940h"
+        }
+    },
+    "KIN 135A": {
+        "18870": {
+            "class_number": "18870",
+            "enrollment_cap": 30,
+            "enrollment_count": 6,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "raquel.lenhart@csun.edu",
+            "days": "M",
+            "location": "RE230",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "18720": {
+            "class_number": "18720",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "raquel.lenhart@csun.edu",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    },
+    "KIN 137A": {
+        "18723": {
+            "class_number": "18723",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "TR",
+            "location": "RE230",
+            "start_time": "1500h",
+            "end_time": "1550h"
+        },
+        "19849": {
+            "class_number": "19849",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.eusanio@csun.edu",
+            "days": "T",
+            "location": "RE230",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19951": {
+            "class_number": "19951",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.eusanio@csun.edu",
+            "days": "TR",
+            "location": "RE230",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        }
+    },
+    "KIN 139A": {
+        "18724": {
+            "class_number": "18724",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
             "days": "R",
-            "location": "MZ212",
+            "location": "RE292",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "19021": {
+            "class_number": "19021",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "RE292",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    },
+    "KIN 139B": {
+        "19004": {
+            "class_number": "19004",
+            "enrollment_cap": 21,
+            "enrollment_count": 10,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "F",
+            "location": "RE292",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    },
+    "KIN 141A": {
+        "18908": {
+            "class_number": "18908",
+            "enrollment_cap": 30,
+            "enrollment_count": 11,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "RE292",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        },
+        "19118": {
+            "class_number": "19118",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "KIN 141B": {
+        "19034": {
+            "class_number": "19034",
+            "enrollment_cap": 21,
+            "enrollment_count": 4,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "TR",
+            "location": "RE292",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    },
+    "KIN 142A": {
+        "19858": {
+            "class_number": "19858",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "M",
+            "location": "RE230",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "19859": {
+            "class_number": "19859",
+            "enrollment_cap": 30,
+            "enrollment_count": 12,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    },
+    "KIN 143A": {
+        "18999": {
+            "class_number": "18999",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "RE292",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "19022": {
+            "class_number": "19022",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "KIN 143B": {
+        "20865": {
+            "class_number": "20865",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE230",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        }
+    },
+    "KIN 144A": {
+        "18725": {
+            "class_number": "18725",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "wendy.hassenpflug@csun.edu",
+            "days": "M",
+            "location": "RE292",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "18986": {
+            "class_number": "18986",
+            "enrollment_cap": 30,
+            "enrollment_count": 4,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "evan.rosenblatt.0@my.csun.edu",
+            "days": "T",
+            "location": "RE292",
+            "start_time": "1800h",
+            "end_time": "1940h"
+        }
+    },
+    "KIN 147": {
+        "19171": {
+            "class_number": "19171",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 4,
+            "instructor": "raquel.lenhart@csun.edu",
+            "days": "F",
+            "location": "RE230",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "20022": {
+            "class_number": "20022",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "raquel.lenhart@csun.edu",
+            "days": "F",
+            "location": "RE230",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    },
+    "KIN 148": {
+        "19850": {
+            "class_number": "19850",
+            "enrollment_cap": 24,
+            "enrollment_count": 9,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "evan.rosenblatt.0@my.csun.edu",
+            "days": "TR",
+            "location": "RE230",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        }
+    },
+    "KIN 149": {
+        "18739": {
+            "class_number": "18739",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "wendy.hassenpflug@csun.edu",
+            "days": "M",
+            "location": "RE B1",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "18740": {
+            "class_number": "18740",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "wendy.hassenpflug@csun.edu",
+            "days": "M",
+            "location": "RE B1",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "18875": {
+            "class_number": "18875",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "christine.lamonica@csun.edu",
+            "days": "T",
+            "location": "RE B1",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        },
+        "18876": {
+            "class_number": "18876",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "christine.lamonica@csun.edu",
+            "days": "T",
+            "location": "RE B1",
+            "start_time": "1500h",
+            "end_time": "1640h"
+        },
+        "18893": {
+            "class_number": "18893",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "wendy.hassenpflug@csun.edu",
+            "days": "W",
+            "location": "RE B1",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "18899": {
+            "class_number": "18899",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "wendy.hassenpflug@csun.edu",
+            "days": "W",
+            "location": "RE B1",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "18900": {
+            "class_number": "18900",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "christine.lamonica@csun.edu",
+            "days": "W",
+            "location": "RE B1",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "18921": {
+            "class_number": "18921",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "raquel.lenhart@csun.edu",
+            "days": "R",
+            "location": "RE B1",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        },
+        "18922": {
+            "class_number": "18922",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "raquel.lenhart@csun.edu",
+            "days": "R",
+            "location": "RE B1",
+            "start_time": "1500h",
+            "end_time": "1640h"
+        }
+    },
+    "KIN 151A": {
+        "18726": {
+            "class_number": "18726",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "raquel.lenhart@csun.edu",
+            "days": "R",
+            "location": "RE B1",
+            "start_time": "1900h",
+            "end_time": "2040h"
+        }
+    },
+    "KIN 152A": {
+        "18729": {
+            "class_number": "18729",
+            "enrollment_cap": 30,
+            "enrollment_count": 21,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "EF0000",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "19401": {
+            "class_number": "19401",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "EF0000",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    },
+    "KIN 153": {
+        "19485": {
+            "class_number": "19485",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "raquel.lenhart@csun.edu",
+            "days": "W",
+            "location": "RE251",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    },
+    "KIN 177A": {
+        "18733": {
+            "class_number": "18733",
+            "enrollment_cap": 21,
+            "enrollment_count": 6,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "kevin.lane@csun.edu",
+            "days": "TR",
+            "location": "RESMPOOL",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20023": {
+            "class_number": "20023",
+            "enrollment_cap": 21,
+            "enrollment_count": 18,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "kevin.lane@csun.edu",
+            "days": "F",
+            "location": "RESMPOOL",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    },
+    "KIN 178A": {
+        "18734": {
+            "class_number": "18734",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kevin.lane@csun.edu",
+            "days": "TR",
+            "location": "RESMPOOL",
             "start_time": "0900h",
             "end_time": "0950h"
         },
-        "11154": {
-            "class_number": "11154",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Eisenstock,Bobbie",
+        "18735": {
+            "class_number": "18735",
+            "enrollment_cap": 30,
+            "enrollment_count": 15,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kevin.lane@csun.edu",
+            "days": "MW",
+            "location": "RESMPOOL",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "19851": {
+            "class_number": "19851",
+            "enrollment_cap": 30,
+            "enrollment_count": 10,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kevin.lane@csun.edu",
+            "days": "TR",
+            "location": "RESMPOOL",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    },
+    "KIN 179A": {
+        "18736": {
+            "class_number": "18736",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kevin.lane@csun.edu",
+            "days": "MW",
+            "location": "RESMPOOL",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "19013": {
+            "class_number": "19013",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kevin.lane@csun.edu",
+            "days": "TR",
+            "location": "RESMPOOL",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        }
+    },
+    "KIN 185A": {
+        "18737": {
+            "class_number": "18737",
+            "enrollment_cap": 30,
+            "enrollment_count": 26,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "TN0000",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "18738": {
+            "class_number": "18738",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "TN0000",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "19499": {
+            "class_number": "19499",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TN0000",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "19500": {
+            "class_number": "19500",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TN0000",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    },
+    "KIN 195A": {
+        "18874": {
+            "class_number": "18874",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE160",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "19502": {
+            "class_number": "19502",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE160",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    },
+    "KIN 200": {
+        "18955": {
+            "class_number": "18955",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "wendy.hassenpflug@csun.edu",
+            "days": "MW",
+            "location": "SG109",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19381": {
+            "class_number": "19381",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "steven.loy@csun.edu",
+            "days": "TR",
+            "location": "RE157",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19420": {
+            "class_number": "19420",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "steven.loy@csun.edu",
+            "days": "TR",
+            "location": "RE157",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "KIN 236": {
+        "18982": {
+            "class_number": "18982",
+            "enrollment_cap": 25,
+            "enrollment_count": 7,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "evan.rosenblatt.0@my.csun.edu",
+            "days": "M",
+            "location": "RE292",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    },
+    "KIN 236L": {
+        "18983": {
+            "class_number": "18983",
+            "enrollment_cap": 25,
+            "enrollment_count": 7,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "evan.rosenblatt.0@my.csun.edu",
             "days": "W",
-            "location": "MZ212",
+            "location": "RE292",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    },
+    "KIN 242": {
+        "18741": {
+            "class_number": "18741",
+            "enrollment_cap": 24,
+            "enrollment_count": 15,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.eusanio@csun.edu",
+            "days": "TR",
+            "location": "RE292",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        }
+    },
+    "KIN 250SW": {
+        "18742": {
+            "class_number": "18742",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "kevin.lane@csun.edu",
+            "days": "MW",
+            "location": "RESMPOOL",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    },
+    "KIN 271": {
+        "19183": {
+            "class_number": "19183",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "yeonhak.jung@csun.edu",
+            "days": "T",
+            "location": "RE180",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    },
+    "KIN 271L": {
+        "19184": {
+            "class_number": "19184",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "yeonhak.jung@csun.edu",
+            "days": "R",
+            "location": "RE180",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    },
+    "KIN 272": {
+        "19361": {
+            "class_number": "19361",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "derek.mena@csun.edu",
+            "days": "T",
+            "location": "RE160",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    },
+    "KIN 272L": {
+        "19362": {
+            "class_number": "19362",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "derek.mena@csun.edu",
+            "days": "T",
+            "location": "RE160",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        }
+    },
+    "KIN 300": {
+        "19363": {
+            "class_number": "19363",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 3,
+            "instructor": "nvard.khachatryan@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "19364": {
+            "class_number": "19364",
+            "enrollment_cap": 40,
+            "enrollment_count": 15,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "chris.mcclain@csun.edu",
+            "days": "TR",
+            "location": "RE159",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19365": {
+            "class_number": "19365",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 2,
+            "instructor": "nvard.khachatryan@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
             "start_time": "1400h",
-            "end_time": "1450h"
+            "end_time": "1515h"
+        },
+        "19503": {
+            "class_number": "19503",
+            "enrollment_cap": 40,
+            "enrollment_count": 11,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "chris.mcclain@csun.edu",
+            "days": "F",
+            "location": "RE155",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "19952": {
+            "class_number": "19952",
+            "enrollment_cap": 40,
+            "enrollment_count": 30,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "nvard.khachatryan@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 303": {
+        "20866": {
+            "class_number": "20866",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kevin.hatcher@csun.edu",
+            "days": "MW",
+            "location": "RE159",
+            "start_time": "1800h",
+            "end_time": "1915h"
+        }
+    },
+    "KIN 305": {
+        "19382": {
+            "class_number": "19382",
+            "enrollment_cap": 40,
+            "enrollment_count": 31,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "kevin.hatcher@csun.edu",
+            "days": "MW",
+            "location": "RE157",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19416": {
+            "class_number": "19416",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "andrew.linden@csun.edu",
+            "days": "TR",
+            "location": "SG110",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "19505": {
+            "class_number": "19505",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 16,
+            "instructor": "jarrod.jonsrud@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19666": {
+            "class_number": "19666",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 13,
+            "instructor": "jarrod.jonsrud@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 306": {
+        "18743": {
+            "class_number": "18743",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 4,
+            "instructor": "daniel.smith@csun.edu",
+            "days": "MW",
+            "location": "RE104",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "18744": {
+            "class_number": "18744",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 9,
+            "instructor": "ashley.samson@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "18745": {
+            "class_number": "18745",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 3,
+            "instructor": "ashley.samson@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19238": {
+            "class_number": "19238",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 2,
+            "instructor": "aaron.weinstein@csun.edu",
+            "days": "F",
+            "location": "RE104",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "19415": {
+            "class_number": "19415",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 21,
+            "instructor": "nick.galli@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 310": {
+        "19975": {
+            "class_number": "19975",
+            "enrollment_cap": 30,
+            "enrollment_count": 21,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacob.jensen@csun.edu",
+            "days": "W",
+            "location": "RE155",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 311": {
+        "18746": {
+            "class_number": "18746",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.truong@csun.edu",
+            "days": "MW",
+            "location": "BC140",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        },
+        "18880": {
+            "class_number": "18880",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "taeyou.jung@csun.edu",
+            "days": "MW",
+            "location": "BC140",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        },
+        "18964": {
+            "class_number": "18964",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "donald.brolsma@csun.edu",
+            "days": "MW",
+            "location": "BC140",
+            "start_time": "1500h",
+            "end_time": "1550h"
+        },
+        "19506": {
+            "class_number": "19506",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.garcia@csun.edu",
+            "days": "TR",
+            "location": "BC140",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        },
+        "19507": {
+            "class_number": "19507",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "taeyou.jung@csun.edu",
+            "days": "TR",
+            "location": "BC140",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        },
+        "19604": {
+            "class_number": "19604",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.garcia@csun.edu",
+            "days": "TR",
+            "location": "BC140",
+            "start_time": "1500h",
+            "end_time": "1550h"
+        }
+    },
+    "KIN 311L": {
+        "18747": {
+            "class_number": "18747",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "taeyou.jung@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18881": {
+            "class_number": "18881",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.garcia@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18965": {
+            "class_number": "18965",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "donald.brolsma@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19508": {
+            "class_number": "19508",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.truong@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19509": {
+            "class_number": "19509",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "taeyou.jung@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19605": {
+            "class_number": "19605",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.garcia@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 313": {
+        "18761": {
+            "class_number": "18761",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.truong@csun.edu",
+            "days": "MW",
+            "location": "BC126",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        },
+        "18762": {
+            "class_number": "18762",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "ileana.hurtado@csun.edu",
+            "days": "MW",
+            "location": "BC126",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        },
+        "19032": {
+            "class_number": "19032",
+            "enrollment_cap": 20,
+            "enrollment_count": 9,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "teri.todd@csun.edu",
+            "days": "MW",
+            "location": "BC126",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        },
+        "19510": {
+            "class_number": "19510",
+            "enrollment_cap": 20,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.garcia@csun.edu",
+            "days": "TR",
+            "location": "BC126",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        }
+    },
+    "KIN 313L": {
+        "19185": {
+            "class_number": "19185",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.truong@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19186": {
+            "class_number": "19186",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "ileana.hurtado@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19187": {
+            "class_number": "19187",
+            "enrollment_cap": 20,
+            "enrollment_count": 9,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "teri.todd@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19512": {
+            "class_number": "19512",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.garcia@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 314": {
+        "18748": {
+            "class_number": "18748",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "M",
+            "location": "RE230",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "18750": {
+            "class_number": "18750",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.eusanio@csun.edu",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    },
+    "KIN 314L": {
+        "18749": {
+            "class_number": "18749",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "M",
+            "location": "RE230",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        },
+        "18751": {
+            "class_number": "18751",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.eusanio@csun.edu",
+            "days": "W",
+            "location": "RE230",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        }
+    },
+    "KIN 315": {
+        "19016": {
+            "class_number": "19016",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.eusanio@csun.edu",
+            "days": "T",
+            "location": "RE230",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    },
+    "KIN 315L": {
+        "19017": {
+            "class_number": "19017",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.eusanio@csun.edu",
+            "days": "R",
+            "location": "RE230",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    },
+    "KIN 318": {
+        "19018": {
+            "class_number": "19018",
+            "enrollment_cap": 15,
+            "enrollment_count": 6,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "paula.thomson@csun.edu",
+            "days": "MWF",
+            "location": "RE292",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    },
+    "KIN 321": {
+        "19744": {
+            "class_number": "19744",
+            "enrollment_cap": 15,
+            "enrollment_count": 7,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "paula.thomson@csun.edu",
+            "days": "M",
+            "location": "RE292",
+            "start_time": "1800h",
+            "end_time": "2045h"
+        }
+    },
+    "KIN 336": {
+        "19606": {
+            "class_number": "19606",
+            "enrollment_cap": 30,
+            "enrollment_count": 28,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "shabnam.islam@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
+        "19745": {
+            "class_number": "19745",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "shabnam.islam@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
+        "19746": {
+            "class_number": "19746",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ivan.guillory@csun.edu",
+            "days": "F",
+            "location": "RE279",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    },
+    "KIN 336L": {
+        "19607": {
+            "class_number": "19607",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "RE200",
+            "start_time": "1730h",
+            "end_time": "1820h"
+        },
+        "19608": {
+            "class_number": "19608",
+            "enrollment_cap": 15,
+            "enrollment_count": 13,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE200",
+            "start_time": "1730h",
+            "end_time": "1820h"
+        },
+        "19747": {
+            "class_number": "19747",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "shabnam.islam@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1730h",
+            "end_time": "1820h"
+        },
+        "19748": {
+            "class_number": "19748",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "shabnam.islam@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1730h",
+            "end_time": "1820h"
+        },
+        "19749": {
+            "class_number": "19749",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "19750": {
+            "class_number": "19750",
+            "enrollment_cap": 15,
+            "enrollment_count": 14,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "ivan.guillory@csun.edu",
+            "days": "F",
+            "location": "RE160",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    },
+    "KIN 337": {
+        "19648": {
+            "class_number": "19648",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "sharon.west-sell@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19652": {
+            "class_number": "19652",
+            "enrollment_cap": 40,
+            "enrollment_count": 21,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "michelle.rodriguez@csun.edu",
+            "days": "MW",
+            "location": "RE104",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "19891": {
+            "class_number": "19891",
+            "enrollment_cap": 40,
+            "enrollment_count": 38,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "michelle.rodriguez@csun.edu",
+            "days": "MW",
+            "location": "RE104",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "KIN 337L": {
+        "19646": {
+            "class_number": "19646",
+            "enrollment_cap": 20,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "emily.curtis@csun.edu",
+            "days": "M",
+            "location": "RE159",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        },
+        "19647": {
+            "class_number": "19647",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "emily.curtis@csun.edu",
+            "days": "W",
+            "location": "RE159",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        },
+        "19653": {
+            "class_number": "19653",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "emily.curtis@csun.edu",
+            "days": "M",
+            "location": "RE159",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "19654": {
+            "class_number": "19654",
+            "enrollment_cap": 20,
+            "enrollment_count": 6,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "emily.curtis@csun.edu",
+            "days": "W",
+            "location": "RE159",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "19892": {
+            "class_number": "19892",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "amanda.duben.309@my.csun.edu",
+            "days": "W",
+            "location": "RE151",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19893": {
+            "class_number": "19893",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "amanda.duben.309@my.csun.edu",
+            "days": "W",
+            "location": "RE159",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "KIN 345": {
+        "18754": {
+            "class_number": "18754",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "vincent.martinez@csun.edu",
+            "days": "M",
+            "location": "RE104",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "18756": {
+            "class_number": "18756",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 3,
+            "instructor": "vincent.martinez@csun.edu",
+            "days": "MW",
+            "location": "RE157",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19269": {
+            "class_number": "19269",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "sean.flanagan@csun.edu",
+            "days": "TR",
+            "location": "RE155",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19369": {
+            "class_number": "19369",
+            "enrollment_cap": 40,
+            "enrollment_count": 38,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "sean.flanagan@csun.edu",
+            "days": "TR",
+            "location": "RE155",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19609": {
+            "class_number": "19609",
+            "enrollment_cap": 40,
+            "enrollment_count": 34,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "chris.mcclain@csun.edu",
+            "days": "F",
+            "location": "RE155",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    },
+    "KIN 345L": {
+        "18757": {
+            "class_number": "18757",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 2,
+            "instructor": "vincent.martinez@csun.edu",
+            "days": "M",
+            "location": "RE151",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "18765": {
+            "class_number": "18765",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "RE151",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "18766": {
+            "class_number": "18766",
+            "enrollment_cap": 20,
+            "enrollment_count": 13,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "RE279",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19270": {
+            "class_number": "19270",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "vincent.martinez@csun.edu",
+            "days": "T",
+            "location": "RE279",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "19371": {
+            "class_number": "19371",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "RE279",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "19372": {
+            "class_number": "19372",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 3,
+            "instructor": "vincent.martinez@csun.edu",
+            "days": "T",
+            "location": "RE279",
+            "start_time": "1600h",
+            "end_time": "1745h"
+        },
+        "19373": {
+            "class_number": "19373",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "RE279",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19515": {
+            "class_number": "19515",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "RE279",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "19610": {
+            "class_number": "19610",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "rachel.abergel@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "19611": {
+            "class_number": "19611",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "rachel.abergel@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "KIN 346": {
+        "18904": {
+            "class_number": "18904",
+            "enrollment_cap": 38,
+            "enrollment_count": 38,
+            "waitlist_cap": 38,
+            "waitlist_count": 6,
+            "instructor": "ben.yaspelkis@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "18759": {
+            "class_number": "18759",
+            "enrollment_cap": 38,
+            "enrollment_count": 39,
+            "waitlist_cap": 38,
+            "waitlist_count": 10,
+            "instructor": "eve.fleck@csun.edu",
+            "days": "MW",
+            "location": "SQ102",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "18758": {
+            "class_number": "18758",
+            "enrollment_cap": 38,
+            "enrollment_count": 38,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "chris.mcclain@csun.edu",
+            "days": "T",
+            "location": "RE157",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19424": {
+            "class_number": "19424",
+            "enrollment_cap": 38,
+            "enrollment_count": 38,
+            "waitlist_cap": 38,
+            "waitlist_count": 2,
+            "instructor": "eve.fleck@csun.edu",
+            "days": "R",
+            "location": "JD1610",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19517": {
+            "class_number": "19517",
+            "enrollment_cap": 38,
+            "enrollment_count": 12,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "ben.yaspelkis@csun.edu",
+            "days": "TR",
+            "location": "RE157",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19894": {
+            "class_number": "19894",
+            "enrollment_cap": 38,
+            "enrollment_count": 11,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "ben.yaspelkis@csun.edu",
+            "days": "R",
+            "location": "JD1600",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "KIN 346L": {
+        "19754": {
+            "class_number": "19754",
+            "enrollment_cap": 19,
+            "enrollment_count": 4,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "RE279",
+            "start_time": "0730h",
+            "end_time": "0920h"
+        },
+        "18985": {
+            "class_number": "18985",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 1,
+            "instructor": "chris.mcclain@csun.edu",
+            "days": "M",
+            "location": "RE151",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19019": {
+            "class_number": "19019",
+            "enrollment_cap": 19,
+            "enrollment_count": 10,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "RE151",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19020": {
+            "class_number": "19020",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 1,
+            "instructor": "richard.andrews@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2040h"
+        },
+        "19188": {
+            "class_number": "19188",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 1,
+            "instructor": "richard.andrews@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1700h",
+            "end_time": "1840h"
+        },
+        "19272": {
+            "class_number": "19272",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "chris.mcclain@csun.edu",
+            "days": "M",
+            "location": "RE151",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "19383": {
+            "class_number": "19383",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "RE104",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        },
+        "19425": {
+            "class_number": "19425",
+            "enrollment_cap": 19,
+            "enrollment_count": 16,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "RE159",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19426": {
+            "class_number": "19426",
+            "enrollment_cap": 19,
+            "enrollment_count": 13,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "RE151",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "19518": {
+            "class_number": "19518",
+            "enrollment_cap": 19,
+            "enrollment_count": 11,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "RE278",
+            "start_time": "1500h",
+            "end_time": "1640h"
+        },
+        "19855": {
+            "class_number": "19855",
+            "enrollment_cap": 19,
+            "enrollment_count": 14,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "RE155",
+            "start_time": "1900h",
+            "end_time": "2040h"
+        },
+        "19895": {
+            "class_number": "19895",
+            "enrollment_cap": 19,
+            "enrollment_count": 8,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "RE151",
+            "start_time": "1700h",
+            "end_time": "1840h"
+        }
+    },
+    "KIN 347": {
+        "18760": {
+            "class_number": "18760",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jay.fischer@csun.edu",
+            "days": "F",
+            "location": "RE278",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "19959": {
+            "class_number": "19959",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jay.fischer@csun.edu",
+            "days": "F",
+            "location": "RE278",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    },
+    "KIN 371": {
+        "19379": {
+            "class_number": "19379",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "yeonhak.jung@csun.edu",
+            "days": "M",
+            "location": "RE278",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    },
+    "KIN 371L": {
+        "19378": {
+            "class_number": "19378",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "yeonhak.jung@csun.edu",
+            "days": "W",
+            "location": "RE180",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    },
+    "KIN 377": {
+        "19390": {
+            "class_number": "19390",
+            "enrollment_cap": 40,
+            "enrollment_count": 35,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "christine.lamonica@csun.edu",
+            "days": "MW",
+            "location": "RE155",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19391": {
+            "class_number": "19391",
+            "enrollment_cap": 40,
+            "enrollment_count": 28,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "christine.lamonica@csun.edu",
+            "days": "MW",
+            "location": "RE155",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "19392": {
+            "class_number": "19392",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 3,
+            "instructor": "ovande.furtado@csun.edu",
+            "days": "TR",
+            "location": "RE159",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19430": {
+            "class_number": "19430",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 11,
+            "instructor": "ovande.furtado@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19780": {
+            "class_number": "19780",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 10,
+            "instructor": "ovande.furtado@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 380": {
+        "18905": {
+            "class_number": "18905",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 16,
+            "waitlist_count": 0,
+            "instructor": "paula.thomson@csun.edu",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    },
+    "KIN 380L": {
+        "18917": {
+            "class_number": "18917",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 16,
+            "waitlist_count": 0,
+            "instructor": "paula.thomson@csun.edu",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        }
+    },
+    "KIN 385": {
+        "20108": {
+            "class_number": "20108",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 28,
+            "instructor": "chris.bolsmann@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20109": {
+            "class_number": "20109",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 15,
+            "instructor": "elizabeth.rohrer@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 405": {
+        "19640": {
+            "class_number": "19640",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 4,
+            "instructor": "jarrod.jonsrud@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19960": {
+            "class_number": "19960",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 4,
+            "instructor": "jarrod.jonsrud@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 406": {
+        "19856": {
+            "class_number": "19856",
+            "enrollment_cap": 30,
+            "enrollment_count": 7,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "daniel.smith@csun.edu",
+            "days": "TR",
+            "location": "RE104",
+            "start_time": "1730h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 407": {
+        "18883": {
+            "class_number": "18883",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "chris.bolsmann@csun.edu",
+            "days": "F",
+            "location": "RE157",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "19649": {
+            "class_number": "19649",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "chris.bolsmann@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 408": {
+        "19755": {
+            "class_number": "19755",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kevin.hatcher@csun.edu",
+            "days": "F",
+            "location": "RE159",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "KIN 409": {
+        "19857": {
+            "class_number": "19857",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "jacob.jensen@csun.edu",
+            "days": "R",
+            "location": "RE157",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19887": {
+            "class_number": "19887",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacob.jensen@csun.edu",
+            "days": "W",
+            "location": "RE155",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "KIN 410": {
+        "19639": {
+            "class_number": "19639",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "ashley.samson@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19888": {
+            "class_number": "19888",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jacob.jensen@csun.edu",
+            "days": "R",
+            "location": "RE157",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "KIN 415": {
+        "18763": {
+            "class_number": "18763",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "RE279",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    },
+    "KIN 417": {
+        "19189": {
+            "class_number": "19189",
+            "enrollment_cap": 30,
+            "enrollment_count": 11,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "john.farr@csun.edu",
+            "days": "TR",
+            "location": "RE278",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "19658": {
+            "class_number": "19658",
+            "enrollment_cap": 30,
+            "enrollment_count": 22,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "paulo.marchetti@csun.edu",
+            "days": "F",
+            "location": "RE104",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    },
+    "KIN 417L": {
+        "19175": {
+            "class_number": "19175",
+            "enrollment_cap": 15,
+            "enrollment_count": 8,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "john.farr@csun.edu",
+            "days": "T",
+            "location": "RE200",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "19613": {
+            "class_number": "19613",
+            "enrollment_cap": 15,
+            "enrollment_count": 3,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "john.farr@csun.edu",
+            "days": "R",
+            "location": "RE200",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "19659": {
+            "class_number": "19659",
+            "enrollment_cap": 15,
+            "enrollment_count": 10,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "paulo.marchetti@csun.edu",
+            "days": "F",
+            "location": "RE200",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        },
+        "19660": {
+            "class_number": "19660",
+            "enrollment_cap": 15,
+            "enrollment_count": 12,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "paulo.marchetti@csun.edu",
+            "days": "F",
+            "location": "RE200",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "KIN 419": {
+        "19033": {
+            "class_number": "19033",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "evan.rosenblatt.0@my.csun.edu",
+            "days": "TR",
+            "location": "RE292",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    },
+    "KIN 420": {
+        "18884": {
+            "class_number": "18884",
+            "enrollment_cap": 30,
+            "enrollment_count": 18,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "aaron.weinstein@csun.edu",
+            "days": "R",
+            "location": "RE155",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19961": {
+            "class_number": "19961",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 9,
+            "instructor": "aaron.weinstein@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 427": {
+        "19204": {
+            "class_number": "19204",
+            "enrollment_cap": 25,
+            "enrollment_count": 9,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "paula.thomson@csun.edu",
+            "days": "W",
+            "location": "RE292",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "KIN 428": {
+        "19964": {
+            "class_number": "19964",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.rohrer@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 436": {
+        "19616": {
+            "class_number": "19616",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ben.yaspelkis@csun.edu",
+            "days": "TR",
+            "location": "RE159",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19650": {
+            "class_number": "19650",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 25,
+            "instructor": "farzad.tehrani@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 445": {
+        "18764": {
+            "class_number": "18764",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 3,
+            "instructor": "sean.flanagan@csun.edu",
+            "days": "W",
+            "location": "RE276",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19538": {
+            "class_number": "19538",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 6,
+            "instructor": "sean.flanagan@csun.edu",
+            "days": "T",
+            "location": "RE276",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19764": {
+            "class_number": "19764",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 18,
+            "instructor": "danielle.jarvis@csun.edu",
+            "days": "TR",
+            "location": "RE276",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "21263": {
+            "class_number": "21263",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "RE276",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "KIN 446": {
+        "19119": {
+            "class_number": "19119",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "scott.amiss@csun.edu",
+            "days": "M",
+            "location": "RE153",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19120": {
+            "class_number": "19120",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "justin.nicoll@csun.edu",
+            "days": "T",
+            "location": "RE104",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19520": {
+            "class_number": "19520",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "justin.nicoll@csun.edu",
+            "days": "R",
+            "location": "RE104",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19655": {
+            "class_number": "19655",
+            "enrollment_cap": 24,
+            "enrollment_count": 15,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "richard.andrews@csun.edu",
+            "days": "M",
+            "location": "RE279",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "19766": {
+            "class_number": "19766",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "richard.andrews@csun.edu",
+            "days": "M",
+            "location": "RE279",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19769": {
+            "class_number": "19769",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "scott.amiss@csun.edu",
+            "days": "M",
+            "location": "RE279",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    },
+    "KIN 446L": {
+        "19121": {
+            "class_number": "19121",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "scott.amiss@csun.edu",
+            "days": "T",
+            "location": "RE278",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "19122": {
+            "class_number": "19122",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "scott.amiss@csun.edu",
+            "days": "R",
+            "location": "RE279",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "19123": {
+            "class_number": "19123",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "justin.nicoll@csun.edu",
+            "days": "T",
+            "location": "RE104",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "19243": {
+            "class_number": "19243",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "justin.nicoll@csun.edu",
+            "days": "R",
+            "location": "RE104",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "19521": {
+            "class_number": "19521",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "justin.nicoll@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19522": {
+            "class_number": "19522",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "justin.nicoll@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19656": {
+            "class_number": "19656",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "richard.andrews@csun.edu",
+            "days": "T",
+            "location": "RE104",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "19657": {
+            "class_number": "19657",
+            "enrollment_cap": 12,
+            "enrollment_count": 3,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "richard.andrews@csun.edu",
+            "days": "R",
+            "location": "RE104",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "19767": {
+            "class_number": "19767",
+            "enrollment_cap": 12,
+            "enrollment_count": 7,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "richard.andrews@csun.edu",
+            "days": "F",
+            "location": "RE155",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "19768": {
+            "class_number": "19768",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "richard.andrews@csun.edu",
+            "days": "W",
+            "location": "RE104",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "19770": {
+            "class_number": "19770",
+            "enrollment_cap": 12,
+            "enrollment_count": 11,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "scott.amiss@csun.edu",
+            "days": "W",
+            "location": "RE153",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "19771": {
+            "class_number": "19771",
+            "enrollment_cap": 12,
+            "enrollment_count": 13,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "scott.amiss@csun.edu",
+            "days": "W",
+            "location": "RE151",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "KIN 451": {
+        "19010": {
+            "class_number": "19010",
+            "enrollment_cap": 20,
+            "enrollment_count": 6,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "ileana.hurtado@csun.edu",
+            "days": "M",
+            "location": "BC156",
+            "start_time": "1630h",
+            "end_time": "1810h"
+        }
+    },
+    "KIN 451L": {
+        "19011": {
+            "class_number": "19011",
+            "enrollment_cap": 20,
+            "enrollment_count": 6,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "ileana.hurtado@csun.edu",
+            "days": "W",
+            "location": "BC130",
+            "start_time": "1630h",
+            "end_time": "1810h"
+        }
+    },
+    "KIN 452": {
+        "19965": {
+            "class_number": "19965",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "teri.todd@csun.edu",
+            "days": "M",
+            "location": "RE180",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "KIN 452L": {
+        "19966": {
+            "class_number": "19966",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "teri.todd@csun.edu",
+            "days": "MW",
+            "location": "RE180",
+            "start_time": "1630h",
+            "end_time": "1720h"
+        }
+    },
+    "KIN 456": {
+        "19176": {
+            "class_number": "19176",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "ivan.guillory@csun.edu",
+            "days": "MW",
+            "location": "RE153",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19548": {
+            "class_number": "19548",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ivan.guillory@csun.edu",
+            "days": "MW",
+            "location": "RE157",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "19651": {
+            "class_number": "19651",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ivan.guillory@csun.edu",
+            "days": "MW",
+            "location": "RE157",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "KIN 470": {
+        "18770": {
+            "class_number": "18770",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "derek.mena@csun.edu",
+            "days": "M",
+            "location": "RE159",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "18772": {
+            "class_number": "18772",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "james.iii@csun.edu",
+            "days": "T",
+            "location": "RE159",
+            "start_time": "1900h",
+            "end_time": "2040h"
+        },
+        "18778": {
+            "class_number": "18778",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "james.iii@csun.edu",
+            "days": "W",
+            "location": "RE159",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    },
+    "KIN 470L": {
+        "18771": {
+            "class_number": "18771",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "derek.mena@csun.edu",
+            "days": "M",
+            "location": "RE180",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        },
+        "18773": {
+            "class_number": "18773",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "james.iii@csun.edu",
+            "days": "T",
+            "location": "RE180",
+            "start_time": "2100h",
+            "end_time": "2145h"
+        },
+        "18779": {
+            "class_number": "18779",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "james.iii@csun.edu",
+            "days": "W",
+            "location": "RE180",
+            "start_time": "1800h",
+            "end_time": "1850h"
+        }
+    },
+    "KIN 476": {
+        "19756": {
+            "class_number": "19756",
+            "enrollment_cap": 30,
+            "enrollment_count": 20,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "william.whiting@csun.edu",
+            "days": "MW",
+            "location": "RE155",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19765": {
+            "class_number": "19765",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "william.whiting@csun.edu",
+            "days": "MW",
+            "location": "RE155",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "KIN 477": {
+        "19387": {
+            "class_number": "19387",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19388": {
+            "class_number": "19388",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19618": {
+            "class_number": "19618",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "RE157",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "19757": {
+            "class_number": "19757",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19772": {
+            "class_number": "19772",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1545h"
+        }
+    },
+    "KIN 478": {
+        "19624": {
+            "class_number": "19624",
+            "enrollment_cap": 15,
+            "enrollment_count": 12,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "RE178",
+            "start_time": "0730h",
+            "end_time": "0820h"
+        },
+        "19625": {
+            "class_number": "19625",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "SH207",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19626": {
+            "class_number": "19626",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "RE178",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19627": {
+            "class_number": "19627",
+            "enrollment_cap": 15,
+            "enrollment_count": 9,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "RE178",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19628": {
+            "class_number": "19628",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "RE180",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19629": {
+            "class_number": "19629",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "RE178",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19630": {
+            "class_number": "19630",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "RE178",
+            "start_time": "1230h",
+            "end_time": "1410h"
+        },
+        "19631": {
+            "class_number": "19631",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "RE178",
+            "start_time": "1230h",
+            "end_time": "1410h"
+        },
+        "19758": {
+            "class_number": "19758",
+            "enrollment_cap": 15,
+            "enrollment_count": 6,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "RE178",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "19759": {
+            "class_number": "19759",
+            "enrollment_cap": 15,
+            "enrollment_count": 9,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "RE159",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    },
+    "KIN 479": {
+        "19866": {
+            "class_number": "19866",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 25,
+            "instructor": "jacob.hinkellipsker@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 481": {
+        "20025": {
+            "class_number": "20025",
+            "enrollment_cap": 30,
+            "enrollment_count": 31,
+            "waitlist_cap": 30,
+            "waitlist_count": 8,
+            "instructor": "andrew.linden@csun.edu",
+            "days": "T",
+            "location": "RE155",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 494A": {
+        "19190": {
+            "class_number": "19190",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19962": {
+            "class_number": "19962",
+            "enrollment_cap": 15,
+            "enrollment_count": 2,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "paulo.marchetti@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 494B": {
+        "19191": {
+            "class_number": "19191",
+            "enrollment_cap": 15,
+            "enrollment_count": 3,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "andrew.linden@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19979": {
+            "class_number": "19979",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "teri.todd@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 494I": {
+        "19394": {
+            "class_number": "19394",
+            "enrollment_cap": 15,
+            "enrollment_count": 1,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "andrew.linden@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 498WC": {
+        "19006": {
+            "class_number": "19006",
+            "enrollment_cap": 10,
+            "enrollment_count": 4,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "bethana.rosenthal.752@csun.edu",
+            "days": "R",
+            "location": "RE292",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 499A": {
+        "21236": {
+            "class_number": "21236",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "justin.nicoll@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 499C": {
+        "21237": {
+            "class_number": "21237",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "justin.nicoll@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 519": {
+        "19200": {
+            "class_number": "19200",
+            "enrollment_cap": 15,
+            "enrollment_count": 9,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "danielle.jarvis@csun.edu",
+            "days": "T",
+            "location": "JD1552",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 520": {
+        "20026": {
+            "class_number": "20026",
+            "enrollment_cap": 15,
+            "enrollment_count": 4,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "aaron.weinstein@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "KIN 526": {
+        "19970": {
+            "class_number": "19970",
+            "enrollment_cap": 15,
+            "enrollment_count": 2,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "yeonhak.jung@csun.edu",
+            "days": "T",
+            "location": "RE279",
+            "start_time": "1900h",
+            "end_time": "2040h"
+        }
+    },
+    "KIN 526L": {
+        "19969": {
+            "class_number": "19969",
+            "enrollment_cap": 15,
+            "enrollment_count": 2,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "yeonhak.jung@csun.edu",
+            "days": "T",
+            "location": "RE279",
+            "start_time": "2100h",
+            "end_time": "2150h"
+        }
+    },
+    "KIN 595PE": {
+        "18774": {
+            "class_number": "18774",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "derek.mena@csun.edu",
+            "days": "R",
+            "location": "RE180",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19763": {
+            "class_number": "19763",
+            "enrollment_cap": 22,
+            "enrollment_count": 18,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "derek.mena@csun.edu",
+            "days": "T",
+            "location": "RE160",
+            "start_time": "1900h",
+            "end_time": "2040h"
+        },
+        "20117": {
+            "class_number": "20117",
+            "enrollment_cap": 22,
+            "enrollment_count": 18,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "derek.mena@csun.edu",
+            "days": "R",
+            "location": "RE160",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    },
+    "KIN 601": {
+        "19971": {
+            "class_number": "19971",
+            "enrollment_cap": 15,
+            "enrollment_count": 5,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "jacob.hinkellipsker@csun.edu",
+            "days": "M",
+            "location": "RE276",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 605": {
+        "18867": {
+            "class_number": "18867",
+            "enrollment_cap": 15,
+            "enrollment_count": 6,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "sarah.jaque@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 610": {
+        "19527": {
+            "class_number": "19527",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "ovande.furtado@csun.edu",
+            "days": "R",
+            "location": "RE276",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 612": {
+        "19528": {
+            "class_number": "19528",
+            "enrollment_cap": 15,
+            "enrollment_count": 2,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "chris.bolsmann@csun.edu",
+            "days": "W",
+            "location": "RE278",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "KIN 617": {
+        "19974": {
+            "class_number": "19974",
+            "enrollment_cap": 15,
+            "enrollment_count": 6,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "paulo.marchetti@csun.edu",
+            "days": "W",
+            "location": "RE276",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "KIN 647": {
+        "19116": {
+            "class_number": "19116",
+            "enrollment_cap": 15,
+            "enrollment_count": 1,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "taeyou.jung@csun.edu",
+            "days": "R",
+            "location": "RE155",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "KIN 696A": {
+        "19967": {
+            "class_number": "19967",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "sarah.jaque@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 696C": {
+        "18776": {
+            "class_number": "18776",
+            "enrollment_cap": 5,
+            "enrollment_count": 6,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "sarah.jaque@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 698A": {
+        "19841": {
+            "class_number": "19841",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "sarah.jaque@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 698C": {
+        "18777": {
+            "class_number": "18777",
+            "enrollment_cap": 10,
+            "enrollment_count": 11,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "sarah.jaque@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "KIN 699C": {
+        "20107": {
+            "class_number": "20107",
+            "enrollment_cap": 5,
+            "enrollment_count": 6,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "sarah.jaque@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     }
 }

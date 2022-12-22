@@ -1,0 +1,533 @@
+[
+    {
+        "subject": "SPAN",
+        "catalog_number": "101",
+        "title": "Elementary Spanish I",
+        "description": "Prerequisite: Not open to students with oral and writing proficiency or who attended schools where Spanish was the language of instruction. Study of the fundamentals of Spanish, including grammatical structures, reading and practice in the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "4",
+        "prerequisites": "{Not open to students with oral and writing proficiency or who attended schools where Spanish was the language of instruction}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "102",
+        "title": "Elementary Spanish II",
+        "description": "Prerequisite: SPAN 101 or instructor consent. Not open to students with oral and writing proficiency or who attended schools where Spanish was the language of instruction. Continuation of the study of the fundamentals of Spanish grammatical structures, reading and practice in the spoken language. May not be challenged by exam. Credit will not be given for both SPAN 102 and SPAN 104. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{{SPAN 101} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "103",
+        "title": "Elementary Written Spanish I",
+        "description": "Prerequisite: Open only to those with oral fluency in Spanish. Preparatory: Instructor consent, subject to verification of oral skills at the beginning of the semester. Emphasizes the development of reading and writing skills, and includes the study of specific areas of grammar. Reading selections emphasize Hispanic culture. Taught in Spanish. May not be challenged. Credit will not be given for both SPAN 101 and SPAN 103. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{Open only to those with oral fluency in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "220A",
+        "title": "Intermediate Spanish I",
+        "description": "Prerequisite: SPAN 102 or SPAN 104 or equivalent. Recommended Corequisite: SPAN 210. Improves listening and speaking skills, although reading and writing skills are strengthened as necessary. Review of basic grammar and introduction of more advanced grammatical structures and syntax. Vocabulary expansion. May not be challenged if principal schooling has been in Spanish. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{{SPAN 102} || {SPAN 104}}",
+        "corequisites": "{SPAN 210}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "220B",
+        "title": "Intermediate Spanish II",
+        "description": "Prerequisite: Completion of SPAN 220A or equivalent. Recommended Corequisite: SPAN 210. Improves reading and writing skills in Spanish and use of these skills in the context of an introductory study of Hispanic literature. Introduces critical theory as an essential to analysis. Reviews application of grammar skills to composition. Conducted in Spanish. May not be challenged if principal schooling has been in Spanish. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{SPAN 220A}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "300",
+        "title": "Advanced Conversational Spanish",
+        "description": "Prerequisite: SPAN 220A or equivalent. Not open to students who have attended schools where Spanish was the language of instruction. Recommended Corequisite: SPAN 220B. Encourages majors and minors in Spanish engaged in the junior-year program to further develop their ability to express themselves in the Spanish language. Strongly recommended for prospective teachers of Spanish. May not be challenged.",
+        "units": "3",
+        "prerequisites": "{SPAN 220A}",
+        "corequisites": "{SPAN 220B}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "304",
+        "title": "Advanced Grammar and Composition",
+        "description": "Prerequisite: Upper division standing in Spanish. One-semester course consisting of the study of difficult problems of syntax unique to the Spanish language, with composition exercises that develop students\u2019 command of the written language.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "306",
+        "title": "Advanced Composition",
+        "description": "Prerequisite: SPAN 304 or upper division standing in Spanish. Analysis and evaluation of types of Spanish style and the practical application of these type patterns in writing.",
+        "units": "3",
+        "prerequisites": "{SPAN 304} || {upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "307",
+        "title": "Introduction to the Analysis of Hispanic Literature",
+        "description": "Prerequisite: SPAN 220B or equivalent. Reading, discussion and practical analysis of selected works of Hispanic literature to acquire the basic knowledge of the genres, archetypes and movements that are unique to it. Introduction to the analytical tools (terminology, critical approaches, research methodology, and term-paper format) necessary to the study of the above. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{SPAN 220B}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "310",
+        "title": "Language and Contemporary Hispanic Life",
+        "description": "Prerequisite: Upper division standing in Spanish. Advanced conversation focused on aspects of contemporary culture.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "315A",
+        "title": "Literature of Spain I",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Introduction to the highlights of Spanish literature from its origins to the Golden Age period, including Cervantes.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "315B",
+        "title": "Literature of Spain II",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Introduction to the highlights of Spanish literature from the Golden Age period to the modern period.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "362",
+        "title": "Introduction to Spanish Translation",
+        "description": "Prerequisite: SPAN 304. A course designed to introduce students to written translation and prepare them to apply the basic techniques essential to translation in a wide range of fields. Discussion emphasizes the importance of cultural and linguistic differences that can affect meaning, and the role of the translator in the translation task. Practice includes speed-reading, vocabulary building, and translation. English into Spanish and vice versa. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{SPAN 304}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "363",
+        "title": "Literature of Latin America I",
+        "description": "Prerequisites: SPAN 306, SPAN 307. First part of a 2-semester course dealing with representative authors of Central and South America; the study of the cultural and social backgrounds of their work; and analysis of literary genres, such as native Indian elements and gauchesco literature.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "364",
+        "title": "Literature of Latin America II",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Second part of a 2-semester course dealing with representative authors of Central and South America; the study of the cultural and social backgrounds of their work; and analysis of literary genres, such as native Indian elements and gauchesco literature.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "372",
+        "title": "Introduction to Spanish Interpretation",
+        "description": "Prerequisite: SPAN 304. A course designed to introduce students to the fundamentals of interpretation. The major goal is to familiarize students with basic methods and techniques of simultaneous, consecutive, and sight interpretation. These techniques include: active listening, memory enhancement, note taking, concentration and others. English into Spanish and vice versa. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{SPAN 304}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "380",
+        "title": "Latin American Civilization",
+        "description": "Prerequisite: Upper division standing in Spanish. Evolution of Latin American civilization, with special reference to social, cultural and artistic elements.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "381",
+        "title": "Spanish Civilization",
+        "description": "Prerequisite: Upper division standing in Spanish. Study of Spanish customs and institutions in the light of their historical development.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "382",
+        "title": "Literature and Society in Latin America",
+        "description": "Prerequisite: Upper division standing in Spanish. Reading and discussion of selected works of fiction and nonfiction, with emphasis on their place in the development of Latin American literature, and their relationship to social and historical movements, the history of ideas and the development of the arts. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "383",
+        "title": "Literature and Society in Spain",
+        "description": "Prerequisite: Upper division standing in Spanish. Reading and discussion of selected works of fiction and nonfiction, with emphasis on their relationships to social and historical movements, the history of ideas and the development of the arts in Spain. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "400",
+        "title": "Structure of the Spanish Language",
+        "description": "Prerequisite: Upper division standing in Spanish. Scientific analysis of the structure of Spanish; comparison with traditional descriptions; and review of problems of usage in writing and speaking Spanish.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "401",
+        "title": "Language and Culture",
+        "description": "Prerequisite: Upper division standing in Spanish. Linguistic study of the Spanish language in a social and cultural context. Topics covered may include the study of cultural influences on the development of the language and its varieties, languages in contact with other languages, bilingualism and sociocultural factors in language use.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "402",
+        "title": "Spanish for Healthcare Professionals",
+        "description": "Prerequisite: Completion of the lower division writing requirement. This course is appropriate for beginning-level Spanish learners pursuing a career in the medical healthcare profession who wish to increase their effectiveness in communicating with the Spanish speaking communities. The course includes how to greet patients, brief conversations, preliminary patient information, checking into the hospital, at the pediatrician office, at the gynecologist office, and other general health subjects. The course includes: medical terminology, grammar lessons that include gender and numbers, articles, subject pronouns, present indicative of the verbs ser and estar, present indicative of regular -ar, -er and -ir verbs, adjectives, and more. This course is of interest to a wide range of health professionals such as nurses, physicians, psychologists, counselors, and administrative staff. Conducted in Spanish. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "409",
+        "title": "Literature of the Renaissance",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Study of the literary and intellectual developments in Spain during the Renaissance. Analysis of the development of major genres. Conducted in Spanish. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "411",
+        "title": "Literature of the Golden Age",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Study of the literary and intellectual developments in Spain from the end of the 15th century to the end of the 17th century. Study of the major trends in prose, poetry and drama. Conducted in Spanish. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "421",
+        "title": "Central American Literature",
+        "description": "Prerequisites: For Spanish Majors: SPAN 306, SPAN 307. For CAS Minors: CAS 201; Upper division standing or instructor consent. Recommended Corequisite: SPAN 521. Examines Central American literary traditions, with emphasis on the 20th century. Focuses on the aesthetic proposals, the historical and political context in which Central American literature is produced, the Central American transnational experience, and the ways in which literary production contributes to the construction of a contemporary version of Central American identity. Emphasizes application of recent trends in literary theories and critical methodologies. Variable topics. Conducted in Spanish. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{{For Spanish Majors: SPAN 306, SPAN 307} || {For CAS Minors: CAS 201}} && {{Upper division standing} || {instructor consent}}}",
+        "corequisites": "{SPAN 521}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "425",
+        "title": "Spanish Phonetics",
+        "description": "Prerequisite: Upper division standing in Spanish. Improves pronunciation, and consolidates and supplements basic theoretical knowledge about sounds, sound relationships and sentence inflection. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{Upper division standing in Spanish}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "462",
+        "title": "Advanced Spanish Translation: Legal and Business",
+        "description": "Prerequisite: SPAN 362. A course designed to train students in written translation of legal, administrative, commercial and business documents. Students will develop the skills necessary for the acquisition of more advanced terminology in those fields. Discussion will emphasize the importance of accuracy in translation as well as ethical considerations that arise in legal and commercial documentation. Practice includes speed reading, vocabulary building and translation. English into Spanish and vice versa. Conducted in Spanish. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{SPAN 362}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "463",
+        "title": "Advanced Spanish Translation: Medical and Scientific",
+        "description": "Prerequisite: SPAN 362. A course designed to train students in written translation of medical and scientific documents. Students will develop the skills necessary for the acquisition of more advanced terminology in those fields. Discussion will emphasize the importance of accuracy in translation as well as ethical considerations that arise in medical and scientific documentation. Practice includes speed reading, vocabulary building and translation. English into Spanish and vice versa. Conducted in Spanish. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{SPAN 362}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "472",
+        "title": "Advanced Spanish Interpretation: Legal and Business",
+        "description": "Prerequisite: SPAN 372. A course designed to train students in interpretation in the legal, administrative, business and commercial fields. Students will develop the skills necessary for the acquisition of more advanced terminology in those fields, essential for consecutive, simultaneous and sight interpretation. Discussion will emphasize the importance of interpreting accuracy as well as ethical considerations that arise in legal and commercial contexts. English into Spanish and vice versa. Conducted in Spanish. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{SPAN 372}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "473",
+        "title": "Advanced Spanish Interpretation: Medical and Scientific",
+        "description": "Prerequisite: SPAN 372. A course designed to train students in interpretation in the medical and scientific fields. Students will develop the skills necessary for the acquisition of more advanced terminology in those fields, essential for consecutive, simultaneous and sight interpretation. Discussion will emphasize the importance of interpreting accuracy as well as ethical considerations that arise in medical and scientific contexts. English into Spanish and vice versa. Conducted in Spanish. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{SPAN 372}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "497",
+        "title": "Comparative Structure of Spanish and English",
+        "description": "Prerequisite: SPAN 425 or instructor\u2019s consent. Recommended for native speakers or near native speakers of Spanish and English. Comparative study of the Spanish and English linguistic structures at the phonemic, morphemic, syntactic and semantic levels as they interact in the bilingual learning process. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{SPAN 425} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "505",
+        "title": "The Art of Translation",
+        "description": "Study of the morphemic, syntactic and semantic problems of translating Spanish into English and vice versa, complemented by practical work in both areas. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "506",
+        "title": "Advanced Written Expression",
+        "description": "Advanced expository writing designed to take the student beyond the basic skills of clarity and organization to improved language mastery and use of stylistic modes. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "512",
+        "title": "Golden Age Prose",
+        "description": "Study of the major trends in the prose literature of the Golden Age, including Cervantes and the novel, mystic prose, the essay and historiography. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "513",
+        "title": "Golden Age Poetry",
+        "description": "Study of the principal trends and types of Golden Age poetry, including epic, lyric and drama. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "518",
+        "title": "Spanish Neoclassicism and Romanticism",
+        "description": "Study of the aesthetic, social and philosophical ideas in the writings of major Spanish neoclassic and romantic figures. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "519",
+        "title": "Spanish Realism and Naturalism",
+        "description": "Study of the major realistic and naturalistic authors. Analysis of the development of aesthetic theory and the influence of growing social consciousness and scientific theory on literature. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "520",
+        "title": "Latin American Cinema and Literatures",
+        "description": "Studies the relationship between film and literature in Latin America, focusing on cinematic adaptations of literary works. Films are viewed by the students outside of the classroom. Class time is devoted almost entirely to discussions of readings and films. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "521",
+        "title": "Central American Literature",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Recommended Corequisite: SPAN 421. Examines Central American literary traditions, with emphasis on the 20th century. Focuses on the aesthetic proposals, the historical and political context in which Central American literature is produced, the Central American transnational experience, and the ways in which literary production contributes to the construction of a contemporary version of Central American identity. Application of recent trends in literary theories and critical methodologies are emphasized. Variable topics. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{SPAN 421}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "530",
+        "title": "Spanish Dialectology",
+        "description": "Study of the objective, methods and issues involved in Spanish dialectology. Exploration of major differences between Iberian and Latin American Spanish, and in-depth analysis of phonetic, morphosyntactic and lexical characteristics of regional and national varieties, including the Spanish of the U.S. Students conduct a research project that includes a small-scale linguistic survey involving native speakers of such dialects. Relevant findings reported through oral presentations and a research paper. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "560",
+        "title": "Latin American Women Writers",
+        "description": "Topical study of selected works of Latin American women writers, exploring women\u2019s literary traditions and their relationships to mainstream literary movements. Application of recent trends in literary theories and critical methodologies are emphasized. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "561",
+        "title": "Spanish Women Writers",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Topical study of selected works of Spanish women writers, exploring women\u2019s literary traditions and their relationship to mainstream literary movements. Application of recent trends in literary theories and critical methodologies are emphasized. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "580",
+        "title": "Spanish Literature from 1898 to 1936",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Study of social, philosophical and aesthetic issues as reflected in Spanish literature from 1898 to 1936. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "581",
+        "title": "Spanish Literature Since 1936",
+        "description": "Prerequisites: SPAN 306 307. Study of the major works of Spanish literature from 1936 to the present including those of writers exiled during the Spanish Civil War (1936-39). All works are studied within the framework of life in Spain during and after the Civil War and in relation to the Spanish literary tradition. Conducted in Spanish.\n",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "584",
+        "title": "The Novel of the Mexican Revolution",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Study of selected novels that describe the revolutionary struggle during the years 1910-1915 and the profound changes that the revolution produced in Mexican society. Also emphasizes the novelists\u2019 disillusion with many of the revolutionary governments. Conducted in Spanish. (Cross-listed with CHS 584.)",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "587",
+        "title": "The Contemporary Mexican Novel",
+        "description": "Prerequisites: SPAN 306, SPAN 307. Study of the recent trends in the Mexican novel through the reading of selected works by the best-known contemporary Mexican novelists. Conducted in Spanish. (Cross-listed with CHS 587.)",
+        "units": "3",
+        "prerequisites": "{{SPAN 306} && {SPAN 307}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "594A",
+        "title": "Selected Topics in Hispanic Literatures, Cultures, and Linguistics",
+        "description": "In-depth study of an advanced selected theme or issue in Hispanic literatures, cultures, or linguistics that is not covered in other Spanish graduate courses. Topics will change from semester to semester and be restricted in scope and aimed at gaining depth on a particular issue in the literatures, cultures, or linguistics of the Spanish-speaking world. Students in the course will develop skills related to research and analysis appropriate to the graduate level. May be repeated twice for credit, provided the topic is different.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "600",
+        "title": "History of the Spanish Language",
+        "description": "Development of Spanish from Latin to the present. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "603",
+        "title": "Seminar in Romance Linguistics",
+        "description": "Major linguistic problems, with specific reference to Spanish. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "606",
+        "title": "Seminar in a Genre",
+        "description": "Topics vary from semester to semester. May be taken for credit for a total of two times, or for a maximum of 6 units. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "607",
+        "title": "Seminar in a Literary Period",
+        "description": "Period studied varies from semester to semester. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "608",
+        "title": "Seminar in Selected Authors",
+        "description": "This course will focus attention on a specific author or group of authors, either in Spanish or Latin American literature. This course may be repeatable for credit only if the topic for the semester changes.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "609",
+        "title": "Seminar in Style",
+        "description": "Review of principal stylistic theories and their application to Spanish. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "620",
+        "title": "Spanish Literary Criticism",
+        "description": "Historical development of Spanish literary criticism, including analysis of representative critics. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "680",
+        "title": "Selected Topics in Latin American Culture",
+        "description": "Preparatory: SPAN 380 or its equivalent, or instructor consent. Detailed analysis of the complex interplay of political, artistic and intellectual forces at work at any given moment in history. Period or area treated varies from semester to semester. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "681",
+        "title": "Topics in Spanish Culture",
+        "description": "Preparatory: SPAN 381 or its equivalent, or instructor consent. Detailed analysis of the complex interplay of political, artistic and intellectual forces at work at any given moment in history. Period treated varies from semester to semester. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "697",
+        "title": "Directed Comprehensive Studies",
+        "description": "Required for comprehensive examinations. Taken in final semester. Conducted in Spanish.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "SPAN",
+        "catalog_number": "699A",
+        "title": "Independent Study",
+        "description": "Conducted in Spanish.",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    }
+]

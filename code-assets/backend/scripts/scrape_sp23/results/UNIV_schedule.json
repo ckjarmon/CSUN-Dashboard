@@ -1,862 +1,1242 @@
 {
-    "UNIV 108A": {
-        "10871": {
-            "class_number": "10871",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Norris,Sonia",
+    "UNIV 60AA": {
+        "21009": {
+            "class_number": "21009",
+            "enrollment_cap": 25,
+            "enrollment_count": 4,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
             "days": "MW",
-            "location": "NH214",
+            "location": "BB1206",
             "start_time": "1100h",
-            "end_time": "1240h"
+            "end_time": "1150h"
         },
-        "10901": {
-            "class_number": "10901",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Norris,Sonia",
-            "days": "TR",
-            "location": "TH159",
-            "start_time": "1200h",
-            "end_time": "1340h"
-        }
-    },
-    "UNIV 110": {
-        "11292": {
-            "class_number": "11292",
-            "enrollment_cap": 70,
-            "enrollment_count": 0,
-            "instructor": "Morrison,J'aime B",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 111": {
-        "10911": {
-            "class_number": "10911",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Clark,Ronnie",
+        "20542": {
+            "class_number": "20542",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
             "days": "MW",
-            "location": "NH111",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH314",
+            "start_time": "1230h",
+            "end_time": "1320h"
         },
-        "10797": {
-            "class_number": "10797",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Clark,Ronnie",
-            "days": "F",
-            "location": "NH214",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "10548": {
-            "class_number": "10548",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Aviles Rodriguez,Guillermo G.",
-            "days": "TR",
-            "location": "NH111",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "10518": {
-            "class_number": "10518",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TH159",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        },
-        "10912": {
-            "class_number": "10912",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "NH214",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        }
-    },
-    "UNIV 111HON": {
-        "11320": {
-            "class_number": "11320",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Kaback,Douglas E",
+        "20503": {
+            "class_number": "20503",
+            "enrollment_cap": 25,
+            "enrollment_count": 6,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
             "days": "MW",
-            "location": "NH111",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "UNIV 142M": {
-        "10872": {
-            "class_number": "10872",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Pai,Nikhil",
-            "days": "MW",
-            "location": "NH214",
-            "start_time": "1500h",
-            "end_time": "1640h"
-        },
-        "10914": {
-            "class_number": "10914",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Morrison,J'aime B",
-            "days": "MW",
-            "location": "NH214",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        }
-    },
-    "UNIV 143V": {
-        "10873": {
-            "class_number": "10873",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Dennis,AnnaMarie S",
-            "days": "TR",
-            "location": "NH214",
-            "start_time": "1200h",
-            "end_time": "1340h"
-        },
-        "10915": {
-            "class_number": "10915",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Dennis,AnnaMarie S",
-            "days": "TR",
-            "location": "NH214",
-            "start_time": "1000h",
-            "end_time": "1140h"
-        }
-    },
-    "UNIV 155": {
-        "10877": {
-            "class_number": "10877",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Weingarten,Dan S",
-            "days": "F",
-            "location": "TH361",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        }
-    },
-    "UNIV 190": {
-        "11293": {
-            "class_number": "11293",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "11321": {
-            "class_number": "11321",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 208A": {
-        "10848": {
-            "class_number": "10848",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Norris,Sonia",
-            "days": "TR",
-            "location": "NH214",
+            "location": "SH108",
             "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "UNIV 222": {
-        "10868": {
-            "class_number": "10868",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Lim,Stephanie J",
-            "days": "MW",
-            "location": "NH209",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "UNIV 261": {
-        "11169": {
-            "class_number": "11169",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TH158",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "UNIV 261P": {
-        "10874": {
-            "class_number": "10874",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    },
-    "UNIV 262": {
-        "11295": {
-            "class_number": "11295",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Cox,Elizabeth A",
-            "days": "TR",
-            "location": "TH365",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "UNIV 262P": {
-        "10875": {
-            "class_number": "10875",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Cox,Elizabeth A",
-            "days": "F",
-            "location": "TH365",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "UNIV 263": {
-        "11170": {
-            "class_number": "11170",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Weingarten,Dan S",
-            "days": "TR",
-            "location": "TH160",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "UNIV 263P": {
-        "10876": {
-            "class_number": "10876",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Weingarten,Dan S",
-            "days": "F",
-            "location": "TH160",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "UNIV 290": {
-        "11294": {
-            "class_number": "11294",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "end_time": "1450h"
         },
-        "11322": {
-            "class_number": "11322",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 308A": {
-        "11300": {
-            "class_number": "11300",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Norris,Sonia",
+        "20547": {
+            "class_number": "20547",
+            "enrollment_cap": 25,
+            "enrollment_count": 2,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
             "days": "MW",
-            "location": "TH159",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "UNIV 310": {
-        "11057": {
-            "class_number": "11057",
-            "enrollment_cap": 51,
-            "enrollment_count": 0,
-            "instructor": "Kaback,Douglas E",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 321A": {
-        "10869": {
-            "class_number": "10869",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Tsai,Stefani",
-            "days": "MW",
-            "location": "NH209",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "UNIV 321B": {
-        "10870": {
-            "class_number": "10870",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Tsai,Stefani",
-            "days": "TR",
-            "location": "NH209",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "UNIV 325": {
-        "11587": {
-            "class_number": "11587",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kiani,Ali",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "11588": {
-            "class_number": "11588",
-            "enrollment_cap": 51,
-            "enrollment_count": 0,
-            "instructor": "Kiani,Ali",
-            "days": "R",
-            "location": "NH209",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "UNIV 333": {
-        "11853": {
-            "class_number": "11853",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 342M": {
-        "11051": {
-            "class_number": "11051",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Morrison,J'aime B",
-            "days": "MW",
-            "location": "TH159",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "UNIV 346": {
-        "11028": {
-            "class_number": "11028",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "NH100",
-            "start_time": "1000h",
-            "end_time": "1245h"
-        }
-    },
-    "UNIV 350": {
-        "10510": {
-            "class_number": "10510",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Cox,Elizabeth A",
-            "days": "TR",
-            "location": "TH361",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "UNIV 361B": {
-        "11012": {
-            "class_number": "11012",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Morales,Natalie",
-            "days": "MW",
-            "location": "TH361",
+            "location": "SH221",
             "start_time": "1530h",
-            "end_time": "1710h"
+            "end_time": "1620h"
+        },
+        "20548": {
+            "class_number": "20548",
+            "enrollment_cap": 25,
+            "enrollment_count": 3,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH224",
+            "start_time": "1700h",
+            "end_time": "1750h"
+        },
+        "20549": {
+            "class_number": "20549",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BB1107",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "21006": {
+            "class_number": "21006",
+            "enrollment_cap": 25,
+            "enrollment_count": 4,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH102",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "21007": {
+            "class_number": "21007",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH312",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "21008": {
+            "class_number": "21008",
+            "enrollment_cap": 25,
+            "enrollment_count": 3,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH307",
+            "start_time": "1530h",
+            "end_time": "1620h"
         }
     },
-    "UNIV 361P": {
-        "1002": {
-            "class_number": "1002",
-            "enrollment_cap": 29,
+    "UNIV 60BB": {
+        "20491": {
+            "class_number": "20491",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Morales,Natalie",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH317",
+            "start_time": "1230h",
+            "end_time": "1320h"
         }
     },
-    "UNIV 362A": {
-        "11175": {
-            "class_number": "11175",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
+    "UNIV 60C": {
+        "20171": {
+            "class_number": "20171",
+            "enrollment_cap": 24,
+            "enrollment_count": 13,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
             "location": "TBA",
-            "start_time": "TBA",
-            "end_time": "TBA"
-        }
-    },
-    "UNIV 362B": {
-        "11013": {
-            "class_number": "11013",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lennon,Garry D",
-            "days": "MW",
-            "location": "TH361",
+            "start_time": "1030h",
+            "end_time": "1120h"
+        },
+        "20352": {
+            "class_number": "20352",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
             "start_time": "1300h",
-            "end_time": "1440h"
-        }
-    },
-    "UNIV 362P": {
-        "1003": {
-            "class_number": "1003",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Lennon,Garry D",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 363A": {
-        "11296": {
-            "class_number": "11296",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TH160",
-            "start_time": "1200h",
-            "end_time": "1340h"
-        }
-    },
-    "UNIV 363P": {
-        "1004": {
-            "class_number": "1004",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Weingarten,Dan S",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 371": {
-        "10684": {
-            "class_number": "10684",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Kaback,Douglas E",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "0900h",
-            "end_time": "0950h"
+            "end_time": "1350h"
         },
-        "11297": {
-            "class_number": "11297",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kaback,Douglas E",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1200h",
-            "end_time": "1250h"
-        },
-        "11956": {
-            "class_number": "11956",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+        "20566": {
+            "class_number": "20566",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
             "days": "MW",
-            "location": "NH209",
+            "location": "TBA",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
+        "20567": {
+            "class_number": "20567",
+            "enrollment_cap": 24,
+            "enrollment_count": 20,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1830h",
+            "end_time": "1920h"
+        },
+        "20569": {
+            "class_number": "20569",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "20570": {
+            "class_number": "20570",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20571": {
+            "class_number": "20571",
+            "enrollment_cap": 24,
+            "enrollment_count": 18,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20572": {
+            "class_number": "20572",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "mahyar.hashemi-alavi.669@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1130h",
+            "end_time": "1220h"
+        },
+        "20573": {
+            "class_number": "20573",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20574": {
+            "class_number": "20574",
+            "enrollment_cap": 24,
+            "enrollment_count": 10,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20578": {
+            "class_number": "20578",
+            "enrollment_cap": 24,
+            "enrollment_count": 16,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "0830h",
+            "end_time": "0920h"
+        },
+        "20579": {
+            "class_number": "20579",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20580": {
+            "class_number": "20580",
+            "enrollment_cap": 24,
+            "enrollment_count": 2,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "21031": {
+            "class_number": "21031",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "21032": {
+            "class_number": "21032",
+            "enrollment_cap": 24,
+            "enrollment_count": 20,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "21033": {
+            "class_number": "21033",
+            "enrollment_cap": 24,
+            "enrollment_count": 3,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "TBA",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "20560": {
+            "class_number": "20560",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        },
+        "20561": {
+            "class_number": "20561",
+            "enrollment_cap": 24,
+            "enrollment_count": 12,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        }
+    },
+    "UNIV 60NN": {
+        "20539": {
+            "class_number": "20539",
+            "enrollment_cap": 30,
+            "enrollment_count": 10,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BB1202",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "21005": {
+            "class_number": "21005",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH207",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20557": {
+            "class_number": "20557",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH221",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    },
+    "UNIV 60O": {
+        "20501": {
+            "class_number": "20501",
+            "enrollment_cap": 30,
+            "enrollment_count": 1,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BH317",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20497": {
+            "class_number": "20497",
+            "enrollment_cap": 30,
+            "enrollment_count": 1,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BH317",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "20499": {
+            "class_number": "20499",
+            "enrollment_cap": 30,
+            "enrollment_count": 2,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH319",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    },
+    "UNIV 60S": {
+        "20504": {
+            "class_number": "20504",
+            "enrollment_cap": 30,
+            "enrollment_count": 2,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BH317",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    },
+    "UNIV 60X": {
+        "20223": {
+            "class_number": "20223",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH224",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20233": {
+            "class_number": "20233",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH302",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20330": {
+            "class_number": "20330",
+            "enrollment_cap": 20,
+            "enrollment_count": 9,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH224",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
+        "20331": {
+            "class_number": "20331",
+            "enrollment_cap": 20,
+            "enrollment_count": 1,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH205",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
+        "20334": {
+            "class_number": "20334",
+            "enrollment_cap": 20,
+            "enrollment_count": 5,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "JD1552",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "20335": {
+            "class_number": "20335",
+            "enrollment_cap": 20,
+            "enrollment_count": 1,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH305",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "20336": {
+            "class_number": "20336",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "JD2522",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        },
+        "20337": {
+            "class_number": "20337",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH371",
             "start_time": "1600h",
             "end_time": "1650h"
         }
     },
-    "UNIV 371L": {
-        "10685": {
-            "class_number": "10685",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Kaback,Douglas E",
+    "UNIV 61A": {
+        "20419": {
+            "class_number": "20419",
+            "enrollment_cap": 22,
+            "enrollment_count": 5,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
             "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        },
-        "11298": {
-            "class_number": "11298",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kaback,Douglas E",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1300h",
-            "end_time": "1350h"
-        },
-        "11972": {
-            "class_number": "11972",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "NH209",
-            "start_time": "1700h",
-            "end_time": "1750h"
+            "location": "TBA",
+            "start_time": "1230h",
+            "end_time": "1320h"
         }
     },
-    "UNIV 381": {
-        "20752": {
-            "class_number": "20752",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": "F",
-            "location": "NH111",
+    "UNIV 61C": {
+        "21096": {
+            "class_number": "21096",
+            "enrollment_cap": 22,
+            "enrollment_count": 2,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        }
+    },
+    "UNIV 61E": {
+        "20244": {
+            "class_number": "20244",
+            "enrollment_cap": 22,
+            "enrollment_count": 3,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH317",
             "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "UNIV 382A": {
-        "10519": {
-            "class_number": "10519",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 382B": {
-        "10520": {
-            "class_number": "10520",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 382C": {
-        "10521": {
-            "class_number": "10521",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 384": {
-        "10841": {
-            "class_number": "10841",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
+            "end_time": "1450h"
+        },
+        "20346": {
+            "class_number": "20346",
+            "enrollment_cap": 22,
+            "enrollment_count": 4,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH317",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        },
+        "20347": {
+            "class_number": "20347",
+            "enrollment_cap": 22,
+            "enrollment_count": 2,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH317",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20348": {
+            "class_number": "20348",
+            "enrollment_cap": 22,
+            "enrollment_count": 5,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BH319",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "20353": {
+            "class_number": "20353",
+            "enrollment_cap": 22,
+            "enrollment_count": 1,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "NH121",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "UNIV 390B": {
-        "11025": {
-            "class_number": "11025",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "location": "SH371",
+            "start_time": "1100h",
+            "end_time": "1150h"
         },
-        "10888": {
-            "class_number": "10888",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+        "20356": {
+            "class_number": "20356",
+            "enrollment_cap": 22,
+            "enrollment_count": 11,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH310",
+            "start_time": "1230h",
+            "end_time": "1320h"
         },
-        "10889": {
-            "class_number": "10889",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "10890": {
-            "class_number": "10890",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 397": {
-        "10513": {
-            "class_number": "10513",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "NH104",
-            "start_time": "1300h",
-            "end_time": "1350h"
-        }
-    },
-    "UNIV 410": {
-        "20753": {
-            "class_number": "20753",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Tsai,Stefani",
+        "20389": {
+            "class_number": "20389",
+            "enrollment_cap": 22,
+            "enrollment_count": 5,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
             "days": "MW",
-            "location": "NH209",
+            "location": "BH317",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20421": {
+            "class_number": "20421",
+            "enrollment_cap": 22,
+            "enrollment_count": 9,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "JD1593",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     },
-    "UNIV 444": {
-        "10514": {
-            "class_number": "10514",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Biederman,Larry R",
-            "days": "TR",
-            "location": "TH159",
+    "UNIV 61L": {
+        "20428": {
+            "class_number": "20428",
+            "enrollment_cap": 22,
+            "enrollment_count": 16,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BH319",
             "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "UNIV 448": {
-        "11889": {
-            "class_number": "11889",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Gould,Eric S",
+            "end_time": "1450h"
+        },
+        "20429": {
+            "class_number": "20429",
+            "enrollment_cap": 22,
+            "enrollment_count": 15,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
             "days": "TR",
-            "location": "UL037",
-            "start_time": "0930h",
-            "end_time": "1215h"
+            "location": "BH319",
+            "start_time": "1400h",
+            "end_time": "1450h"
         }
     },
-    "UNIV 449": {
-        "10846": {
-            "class_number": "10846",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
+    "UNIV 62A": {
+        "20227": {
+            "class_number": "20227",
+            "enrollment_cap": 22,
+            "enrollment_count": 13,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH317",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "20305": {
+            "class_number": "20305",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH319",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    },
+    "UNIV 62C": {
+        "20225": {
+            "class_number": "20225",
+            "enrollment_cap": 22,
+            "enrollment_count": 11,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "JD1593",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20228": {
+            "class_number": "20228",
+            "enrollment_cap": 22,
+            "enrollment_count": 4,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH207",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    },
+    "UNIV 62E": {
+        "20226": {
+            "class_number": "20226",
+            "enrollment_cap": 22,
+            "enrollment_count": 11,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH319",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "20229": {
+            "class_number": "20229",
+            "enrollment_cap": 22,
+            "enrollment_count": 7,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "JD1552",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "20245": {
+            "class_number": "20245",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH307",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20246": {
+            "class_number": "20246",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20247": {
+            "class_number": "20247",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH305",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20249": {
+            "class_number": "20249",
+            "enrollment_cap": 22,
+            "enrollment_count": 18,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH207",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20251": {
+            "class_number": "20251",
+            "enrollment_cap": 22,
+            "enrollment_count": 8,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "BH319",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        },
+        "20253": {
+            "class_number": "20253",
+            "enrollment_cap": 22,
+            "enrollment_count": 6,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BH317",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        },
+        "20261": {
+            "class_number": "20261",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "JD1552",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20262": {
+            "class_number": "20262",
+            "enrollment_cap": 22,
+            "enrollment_count": 13,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH224",
+            "start_time": "0930h",
+            "end_time": "1020h"
+        },
+        "20263": {
+            "class_number": "20263",
+            "enrollment_cap": 22,
+            "enrollment_count": 12,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BH319",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        },
+        "20264": {
+            "class_number": "20264",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH371",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20265": {
+            "class_number": "20265",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BH319",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        }
+    },
+    "UNIV 62H": {
+        "20231": {
+            "class_number": "20231",
+            "enrollment_cap": 22,
+            "enrollment_count": 5,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "BB1107",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20310": {
+            "class_number": "20310",
+            "enrollment_cap": 22,
+            "enrollment_count": 6,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH224",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20311": {
+            "class_number": "20311",
+            "enrollment_cap": 22,
+            "enrollment_count": 4,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "MZ124",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20312": {
+            "class_number": "20312",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "TBA",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "20313": {
+            "class_number": "20313",
+            "enrollment_cap": 22,
+            "enrollment_count": 5,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "MZ124",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    },
+    "UNIV 62L": {
+        "20437": {
+            "class_number": "20437",
+            "enrollment_cap": 22,
+            "enrollment_count": 19,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "JD1552",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20473": {
+            "class_number": "20473",
+            "enrollment_cap": 22,
+            "enrollment_count": 6,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "JD1552",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20475": {
+            "class_number": "20475",
+            "enrollment_cap": 22,
+            "enrollment_count": 5,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "SH224",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20973": {
+            "class_number": "20973",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH205",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    },
+    "UNIV 62P": {
+        "20232": {
+            "class_number": "20232",
+            "enrollment_cap": 22,
+            "enrollment_count": 6,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": "R",
-            "location": "SH302",
+            "days": "TR",
+            "location": "SH305",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    },
+    "UNIV 62Q": {
+        "20394": {
+            "class_number": "20394",
+            "enrollment_cap": 22,
+            "enrollment_count": 12,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "TR",
+            "location": "JD1552",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20402": {
+            "class_number": "20402",
+            "enrollment_cap": 22,
+            "enrollment_count": 4,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "andrea.cabadas.737@my.csun.edu",
+            "days": "MW",
+            "location": "SH371",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        }
+    },
+    "UNIV 100": {
+        "20193": {
+            "class_number": "20193",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "lisa.riccomini@csun.edu",
+            "days": "MW",
+            "location": "SH205",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "20170": {
+            "class_number": "20170",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "lisa.riccomini@csun.edu",
+            "days": "MW",
+            "location": "SH205",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "20198": {
+            "class_number": "20198",
+            "enrollment_cap": 25,
+            "enrollment_count": 13,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "lisa.riccomini@csun.edu",
+            "days": "MW",
+            "location": "SH205",
             "start_time": "1230h",
             "end_time": "1345h"
-        }
-    },
-    "UNIV 454": {
-        "11916": {
-            "class_number": "11916",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Biederman,Larry R",
-            "days": "F",
-            "location": "TH159",
-            "start_time": "1200h",
-            "end_time": "1725h"
-        }
-    },
-    "UNIV 457": {
-        "10572": {
-            "class_number": "10572",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TH160",
-            "start_time": "1000h",
-            "end_time": "1200h"
-        }
-    },
-    "UNIV 473": {
-        "10724": {
-            "class_number": "10724",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "NH209",
-            "start_time": "1100h",
-            "end_time": "1240h"
-        }
-    },
-    "UNIV 473L": {
-        "10725": {
-            "class_number": "10725",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "NH209",
-            "start_time": "1100h",
-            "end_time": "1240h"
-        }
-    },
-    "UNIV 490B": {
-        "11029": {
-            "class_number": "11029",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
         },
-        "10891": {
-            "class_number": "10891",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "10892": {
-            "class_number": "10892",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "10893": {
-            "class_number": "10893",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 498F": {
-        "10516": {
-            "class_number": "10516",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "UNIV 544": {
-        "11930": {
-            "class_number": "11930",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Biederman,Larry R",
+        "20210": {
+            "class_number": "20210",
+            "enrollment_cap": 25,
+            "enrollment_count": 12,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "catherine.givertz@csun.edu",
             "days": "TR",
-            "location": "TH159",
+            "location": "SH205",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "20211": {
+            "class_number": "20211",
+            "enrollment_cap": 25,
+            "enrollment_count": 6,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "catherine.givertz@csun.edu",
+            "days": "TR",
+            "location": "SH205",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "20212": {
+            "class_number": "20212",
+            "enrollment_cap": 25,
+            "enrollment_count": 7,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "conchita.battle@csun.edu",
+            "days": "TR",
+            "location": "SH205",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "20396": {
+            "class_number": "20396",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.riegos@csun.edu",
+            "days": "MW",
+            "location": "SG108",
             "start_time": "1400h",
-            "end_time": "1645h"
+            "end_time": "1515h"
+        },
+        "20397": {
+            "class_number": "20397",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "movillan@csun.edu",
+            "days": "TR",
+            "location": "UL002",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "20490": {
+            "class_number": "20490",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "gretchelle.quiambao@csun.edu",
+            "days": "TR",
+            "location": "BB1107",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
-    "UNIV 545": {
-        "11888": {
-            "class_number": "11888",
-            "enrollment_cap": 5,
+    "UNIV 396A": {
+        "20906": {
+            "class_number": "20906",
+            "enrollment_cap": 25,
+            "enrollment_count": 7,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "michelle.street@csun.edu",
+            "days": "W",
+            "location": "SG110",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20907": {
+            "class_number": "20907",
+            "enrollment_cap": 25,
+            "enrollment_count": 10,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "janice.robinson@csun.edu",
+            "days": "W",
+            "location": "SH305",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "20908": {
+            "class_number": "20908",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "sevetlana.pirjan@csun.edu",
+            "days": "W",
+            "location": "SH305",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "20909": {
+            "class_number": "20909",
+            "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructor": "Biederman,Larry R",
-            "days": "F",
-            "location": "TH159",
-            "start_time": "1200h",
-            "end_time": "1725h"
-        }
-    },
-    "UNIV 698C": {
-        "10524": {
-            "class_number": "10524",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "mary.dudley@csun.edu",
+            "days": "T",
+            "location": "SH285",
+            "start_time": "1530h",
+            "end_time": "1620h"
+        },
+        "20910": {
+            "class_number": "20910",
+            "enrollment_cap": 25,
+            "enrollment_count": 1,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "janice.robinson@csun.edu",
+            "days": "T",
+            "location": "SH205",
+            "start_time": "1700h",
+            "end_time": "1750h"
+        },
+        "20911": {
+            "class_number": "20911",
+            "enrollment_cap": 25,
+            "enrollment_count": 2,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "janice.robinson@csun.edu",
+            "days": "W",
+            "location": "MZ113",
+            "start_time": "1700h",
+            "end_time": "1750h"
+        },
+        "21253": {
+            "class_number": "21253",
+            "enrollment_cap": 25,
+            "enrollment_count": 5,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "sevetlana.pirjan@csun.edu",
+            "days": "R",
+            "location": "BB1236",
+            "start_time": "1100h",
+            "end_time": "1150h"
         }
     }
 }

@@ -1,242 +1,382 @@
 {
-    "SPAN 120": {
-        "13553": {
-            "class_number": "13553",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gupta,Akash",
-            "days": "TR",
-            "location": "BB1232",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13644": {
-            "class_number": "13644",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Sheng,Qiuhua",
+    "SPAN 101": {
+        "14222": {
+            "class_number": "14222",
+            "enrollment_cap": 32,
+            "enrollment_count": 25,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "jacqueline.loza@csun.edu",
             "days": "MW",
-            "location": "BB1230",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "location": "JR203",
+            "start_time": "0800h",
+            "end_time": "0940h"
         },
-        "13651": {
-            "class_number": "13651",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Sankaran,Siva R",
+        "14223": {
+            "class_number": "14223",
+            "enrollment_cap": 32,
+            "enrollment_count": 9,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "fidel.jimenez.61@my.csun.edu",
             "days": "MW",
-            "location": "BB1232",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "location": "JR212",
+            "start_time": "0930h",
+            "end_time": "1110h"
         },
-        "13681": {
-            "class_number": "13681",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Sheng,Qiuhua",
+        "14224": {
+            "class_number": "14224",
+            "enrollment_cap": 32,
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 1,
+            "instructor": "jacqueline.loza@csun.edu",
             "days": "MW",
-            "location": "BB1230",
+            "location": "JR301",
             "start_time": "1100h",
-            "end_time": "1215h"
+            "end_time": "1240h"
+        },
+        "14350": {
+            "class_number": "14350",
+            "enrollment_cap": 32,
+            "enrollment_count": 20,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "ethan.margolis@csun.edu",
+            "days": "MW",
+            "location": "JR315",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "14225": {
+            "class_number": "14225",
+            "enrollment_cap": 32,
+            "enrollment_count": 22,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "norma.s.castro@my.csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1800h",
+            "end_time": "1940h"
+        },
+        "14226": {
+            "class_number": "14226",
+            "enrollment_cap": 32,
+            "enrollment_count": 10,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "jose.rojas-torres@csun.edu",
+            "days": "TR",
+            "location": "JR203",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "14250": {
+            "class_number": "14250",
+            "enrollment_cap": 32,
+            "enrollment_count": 18,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "gabriela.aprato@csun.edu",
+            "days": "TR",
+            "location": "JR330",
+            "start_time": "0930h",
+            "end_time": "1110h"
+        },
+        "14771": {
+            "class_number": "14771",
+            "enrollment_cap": 32,
+            "enrollment_count": 20,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "jose.rojas-torres@csun.edu",
+            "days": "TR",
+            "location": "ED1126",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "14772": {
+            "class_number": "14772",
+            "enrollment_cap": 32,
+            "enrollment_count": 25,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "gabriela.aprato@csun.edu",
+            "days": "TR",
+            "location": "JR330",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "14773": {
+            "class_number": "14773",
+            "enrollment_cap": 32,
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "jose.rojas-torres@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1700h",
+            "end_time": "1840h"
+        },
+        "14774": {
+            "class_number": "14774",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 3,
+            "instructor": "svetlana.tyutina@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14775": {
+            "class_number": "14775",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 6,
+            "instructor": "fernando.hernandez@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "15154": {
+            "class_number": "15154",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 5,
+            "instructor": "fernando.hernandez@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPAN 102": {
+        "14221": {
+            "class_number": "14221",
+            "enrollment_cap": 32,
+            "enrollment_count": 29,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "carlos.ortizalizieri@csun.edu",
+            "days": "TR",
+            "location": "JR203",
+            "start_time": "1500h",
+            "end_time": "1640h"
+        },
+        "14393": {
+            "class_number": "14393",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 9,
+            "instructor": "ethan.margolis@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPAN 103": {
+        "20883": {
+            "class_number": "20883",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 1,
+            "instructor": "jose.rojas-torres@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPAN 220A": {
+        "14251": {
+            "class_number": "14251",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "adriana.benvenuto@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPAN 304": {
+        "13913": {
+            "class_number": "13913",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "manuel.villalba@csun.edu",
+            "days": "W",
+            "location": "SH221",
+            "start_time": "1800h",
+            "end_time": "1915h"
         }
     },
     "SPAN 306": {
-        "13521": {
-            "class_number": "13521",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lee,Jun-Yeon",
-            "days": "R",
-            "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "13554": {
-            "class_number": "13554",
-            "enrollment_cap": 104,
-            "enrollment_count": 0,
-            "instructor": "Vessal,Ahmad",
+        "13914": {
+            "class_number": "13914",
+            "enrollment_cap": 40,
+            "enrollment_count": 13,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "adrian.perez-boluda@csun.edu",
             "days": "F",
-            "location": "NA101",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "13555": {
-            "class_number": "13555",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Tierney,Jane E",
-            "days": "R",
-            "location": "BB2230",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "13556": {
-            "class_number": "13556",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Li,Kunpeng",
-            "days": "R",
-            "location": "JA100",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        },
-        "13579": {
-            "class_number": "13579",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Tierney,Jane E",
-            "days": "M",
-            "location": "NA101",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "13591": {
-            "class_number": "13591",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Behnezhad,Ali",
-            "days": "TR",
-            "location": "BB1230",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "13796": {
-            "class_number": "13796",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Behnezhad,Ali",
-            "days": "TR",
-            "location": "BB1230",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "SPAN 306BH": {
-        "13682": {
-            "class_number": "13682",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Behnezhad,Ali",
-            "days": "TR",
-            "location": "BB1230",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "SPAN 307": {
-        "13557": {
-            "class_number": "13557",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gupta,Akash",
-            "days": "TR",
-            "location": "BB2125",
-            "start_time": "1730h",
-            "end_time": "1845h"
-        },
-        "13880": {
-            "class_number": "13880",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Vessal,Ahmad",
-            "days": "MW",
-            "location": "BB2125",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "SPAN 416": {
-        "13754": {
-            "class_number": "13754",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Tierney,Jane E",
-            "days": "TR",
-            "location": "BB2230",
-            "start_time": "1730h",
-            "end_time": "1845h"
-        }
-    },
-    "SPAN 464": {
-        "13848": {
-            "class_number": "13848",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lee,Jun-Yeon",
-            "days": "MW",
-            "location": "BB2125",
-            "start_time": "1730h",
-            "end_time": "1845h"
-        },
-        "13905": {
-            "class_number": "13905",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "BB2125",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "SPAN 467": {
-        "13766": {
-            "class_number": "13766",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Houshmand Azad,Kaveh",
-            "days": "W",
-            "location": "EH2228",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "SPAN 485": {
-        "13466": {
-            "class_number": "13466",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Abrams,Behnam",
-            "days": "R",
-            "location": "BB2125",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "13882": {
-            "class_number": "13882",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Abrams,Behnam",
-            "days": "S",
-            "location": "BB2125",
+            "location": "JR315",
             "start_time": "1000h",
             "end_time": "1245h"
         }
     },
-    "SPAN 591": {
-        "13746": {
-            "class_number": "13746",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Wedel,Thomas",
-            "days": "M",
-            "location": "BB1232",
+    "SPAN 307": {
+        "13915": {
+            "class_number": "13915",
+            "enrollment_cap": 40,
+            "enrollment_count": 23,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "axel.montepeque@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPAN 363": {
+        "14926": {
+            "class_number": "14926",
+            "enrollment_cap": 40,
+            "enrollment_count": 31,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "axel.montepeque@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPAN 372": {
+        "15245": {
+            "class_number": "15245",
+            "enrollment_cap": 34,
+            "enrollment_count": 14,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "ane.icardo@csun.edu",
+            "days": "W",
+            "location": "JR330",
+            "start_time": "1500h",
+            "end_time": "1745h"
+        }
+    },
+    "SPAN 380": {
+        "14665": {
+            "class_number": "14665",
+            "enrollment_cap": 35,
+            "enrollment_count": 29,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "svetlana.tyutina@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPAN 428": {
+        "20884": {
+            "class_number": "20884",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "axel.montepeque@csun.edu",
+            "days": "T",
+            "location": "JR315",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "SPAN 472": {
+        "20885": {
+            "class_number": "20885",
+            "enrollment_cap": 30,
+            "enrollment_count": 12,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "svetlana.tyutina@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "SPAN 497": {
+        "14649": {
+            "class_number": "14649",
+            "enrollment_cap": 34,
+            "enrollment_count": 21,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "ane.icardo@csun.edu",
+            "days": "R",
+            "location": "JR330",
+            "start_time": "1730h",
+            "end_time": "1845h"
+        }
+    },
+    "SPAN 603": {
+        "14998": {
+            "class_number": "14998",
+            "enrollment_cap": 20,
+            "enrollment_count": 1,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "ane.icardo@csun.edu",
+            "days": "R",
+            "location": "JR330",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
-    "SPAN 686": {
-        "13425": {
-            "class_number": "13425",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Li,Kunpeng",
-            "days": "M",
-            "location": "BB1230",
+    "SPAN 606": {
+        "14648": {
+            "class_number": "14648",
+            "enrollment_cap": 20,
+            "enrollment_count": 2,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "axel.montepeque@csun.edu",
+            "days": "T",
+            "location": "JR315",
             "start_time": "1900h",
             "end_time": "2145h"
+        }
+    },
+    "SPAN 697": {
+        "14301": {
+            "class_number": "14301",
+            "enrollment_cap": 10,
+            "enrollment_count": 3,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "adrian.perez-boluda@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     }
 }

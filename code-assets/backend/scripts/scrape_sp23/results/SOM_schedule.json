@@ -1,1012 +1,286 @@
 {
-    "SOM 150": {
-        "13260": {
-            "class_number": "13260",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Pereira,Ana P",
+    "SOM 120": {
+        "13553": {
+            "class_number": "13553",
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "akash.gupta@csun.edu",
             "days": "TR",
-            "location": "JA100",
+            "location": "BB1232",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "13644": {
+            "class_number": "13644",
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "qiuhua.sheng@csun.edu",
+            "days": "MW",
+            "location": "BB1230",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "13651": {
+            "class_number": "13651",
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "siva.sankaran@csun.edu",
+            "days": "MW",
+            "location": "BB1232",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        "12241": {
-            "class_number": "12241",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Missari,Stacy A",
-            "days": "TR",
-            "location": "UL025",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        },
-        "12255": {
-            "class_number": "12255",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Carter,Michael J",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+        "13681": {
+            "class_number": "13681",
+            "enrollment_cap": 40,
+            "enrollment_count": 42,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "qiuhua.sheng@csun.edu",
+            "days": "MW",
+            "location": "BB1230",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
-    "SOM 200": {
-        "20774": {
-            "class_number": "20774",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Scaife,Michele L",
-            "days": "F",
-            "location": "ONLINE",
+    "SOM 306": {
+        "13521": {
+            "class_number": "13521",
+            "enrollment_cap": 135,
+            "enrollment_count": 135,
+            "waitlist_cap": 120,
+            "waitlist_count": 52,
+            "instructor": "junyeon.lee@csun.edu",
+            "days": "T",
+            "location": "NA101",
             "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "13554": {
+            "class_number": "13554",
+            "enrollment_cap": 135,
+            "enrollment_count": 29,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "ahmad.vessal@csun.edu",
+            "days": "F",
+            "location": "NA101",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "13555": {
+            "class_number": "13555",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 30,
+            "waitlist_count": 9,
+            "instructor": "jane.tierney@csun.edu",
+            "days": "R",
+            "location": "BB2230",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13556": {
+            "class_number": "13556",
+            "enrollment_cap": 135,
+            "enrollment_count": 135,
+            "waitlist_cap": 120,
+            "waitlist_count": 20,
+            "instructor": "kunpeng.li@csun.edu",
+            "days": "R",
+            "location": "JA100",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13579": {
+            "class_number": "13579",
+            "enrollment_cap": 135,
+            "enrollment_count": 135,
+            "waitlist_cap": 120,
+            "waitlist_count": 12,
+            "instructor": "jane.tierney@csun.edu",
+            "days": "M",
+            "location": "NA101",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "13591": {
+            "class_number": "13591",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "ali.behnezhad@csun.edu",
+            "days": "TR",
+            "location": "BB1230",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13796": {
+            "class_number": "13796",
+            "enrollment_cap": 20,
+            "enrollment_count": 7,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "ali.behnezhad@csun.edu",
+            "days": "TR",
+            "location": "BB1230",
+            "start_time": "1230h",
             "end_time": "1345h"
         }
     },
-    "SOM 230": {
-        "20775": {
-            "class_number": "20775",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Prior,Emily E",
+    "SOM 306BH": {
+        "13682": {
+            "class_number": "13682",
+            "enrollment_cap": 20,
+            "enrollment_count": 6,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "ali.behnezhad@csun.edu",
             "days": "TR",
-            "location": "SH209",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        }
-    },
-    "SOM 303": {
-        "13219": {
-            "class_number": "13219",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "McDonald,Lauren E",
-            "days": "TR",
-            "location": "SH209",
-            "start_time": "1800h",
-            "end_time": "1915h"
-        }
-    },
-    "SOM 304": {
-        "13257": {
-            "class_number": "13257",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Prior,Emily E",
-            "days": "TR",
-            "location": "SH342",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "SOM 305": {
-        "12516": {
-            "class_number": "12516",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Shaw,Victor N",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "location": "BB1230",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
     "SOM 307": {
-        "12178": {
-            "class_number": "12178",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Olmos,Daniel",
-            "days": "MW",
-            "location": "JA100",
-            "start_time": "1400h",
-            "end_time": "1515h"
+        "13557": {
+            "class_number": "13557",
+            "enrollment_cap": 51,
+            "enrollment_count": 51,
+            "waitlist_cap": 51,
+            "waitlist_count": 0,
+            "instructor": "akash.gupta@csun.edu",
+            "days": "TR",
+            "location": "BB2125",
+            "start_time": "1730h",
+            "end_time": "1845h"
         },
-        "20777": {
-            "class_number": "20777",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Guevara,Monicka",
+        "13880": {
+            "class_number": "13880",
+            "enrollment_cap": 51,
+            "enrollment_count": 33,
+            "waitlist_cap": 51,
+            "waitlist_count": 0,
+            "instructor": "ahmad.vessal@csun.edu",
             "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2015h"
-        }
-    },
-    "SOM 324": {
-        "12518": {
-            "class_number": "12518",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Missari,Stacy A",
-            "days": "TR",
-            "location": "UL025",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "13220": {
-            "class_number": "13220",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Meyers,Kari A",
-            "days": "MW",
-            "location": "JA100",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "SOM 325": {
-        "12184": {
-            "class_number": "12184",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Meyers,Kari A",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2015h"
-        }
-    },
-    "SOM 332": {
-        "20776": {
-            "class_number": "20776",
-            "enrollment_cap": 33,
-            "enrollment_count": 0,
-            "instructor": "Mahdi,Ali Akbar",
-            "days": "M",
-            "location": "SH209",
-            "start_time": "1700h",
-            "end_time": "1945h"
-        }
-    },
-    "SOM 335": {
-        "13307": {
-            "class_number": "13307",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Thompson,Jennifer A",
-            "days": "TR",
-            "location": "SH209",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "SOM 340": {
-        "13258": {
-            "class_number": "13258",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Bogumil,David D",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "SOM 345": {
-        "12361": {
-            "class_number": "12361",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mavaddat,Roya",
-            "days": "MW",
-            "location": "SH225",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13221": {
-            "class_number": "13221",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Scaife,Michele L",
-            "days": "F",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        }
-    },
-    "SOM 348": {
-        "13259": {
-            "class_number": "13259",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Scaife,Michele L",
-            "days": "TR",
-            "location": "SH342",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        }
-    },
-    "SOM 350": {
-        "12946": {
-            "class_number": "12946",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "McDonald,Lauren E",
-            "days": "TR",
-            "location": "SH225",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        }
-    },
-    "SOM 355": {
-        "20778": {
-            "class_number": "20778",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Scaife,Michele L",
-            "days": "TR",
-            "location": "SH225",
-            "start_time": "1800h",
-            "end_time": "1915h"
-        }
-    },
-    "SOM 356": {
-        "12122": {
-            "class_number": "12122",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Abelson,Mark",
-            "days": "MW",
-            "location": "SH280",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "SOM 357": {
-        "12164": {
-            "class_number": "12164",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Jakubanis,Beth",
-            "days": "MW",
-            "location": "SH380",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "SOM 400": {
-        "12230": {
-            "class_number": "12230",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
-            "instructor": "Bogumil,David D",
-            "days": "MW",
-            "location": "SH182",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        }
-    },
-    "SOM 401": {
-        "12432": {
-            "class_number": "12432",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Bogumil,David D",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        }
-    },
-    "SOM 410": {
-        "20779": {
-            "class_number": "20779",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ribet,Elizabeth",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2015h"
-        }
-    },
-    "SOM 411": {
-        "12947": {
-            "class_number": "12947",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Campbell,Lori A",
-            "days": "MW",
-            "location": "SH225",
+            "location": "BB2125",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     },
-    "SOM 424": {
-        "13131": {
-            "class_number": "13131",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Davidson,James",
-            "days": "MW",
-            "location": "SH209",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "13132": {
-            "class_number": "13132",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructor": "Godard,Ellis",
+    "SOM 416": {
+        "13754": {
+            "class_number": "13754",
+            "enrollment_cap": 50,
+            "enrollment_count": 51,
+            "waitlist_cap": 50,
+            "waitlist_count": 6,
+            "instructor": "jane.tierney@csun.edu",
             "days": "TR",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        },
-        "13133": {
-            "class_number": "13133",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Campbell,Lori A",
+            "location": "BB2230",
+            "start_time": "1730h",
+            "end_time": "1845h"
+        }
+    },
+    "SOM 464": {
+        "13848": {
+            "class_number": "13848",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 3,
+            "instructor": "junyeon.lee@csun.edu",
             "days": "MW",
-            "location": "SH209",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "BB2125",
+            "start_time": "1730h",
+            "end_time": "1845h"
         },
-        "13134": {
-            "class_number": "13134",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Schutte,Jerald G",
-            "days": null,
-            "location": "SH180",
-            "start_time": "1200h",
-            "end_time": "1445h"
-        },
-        "13135": {
-            "class_number": "13135",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Mavaddat,Roya",
-            "days": "F",
-            "location": "ONLINE",
-            "start_time": "1000h",
-            "end_time": "1245h"
-        },
-        "13136": {
-            "class_number": "13136",
-            "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "Berger,Raqota T",
-            "days": "TR",
-            "location": "SH203",
-            "start_time": "1800h",
-            "end_time": "1915h"
-        }
-    },
-    "SOM 424L": {
-        "13138": {
-            "class_number": "13138",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Davidson,James",
-            "days": "M",
-            "location": "SH180",
-            "start_time": "1530h",
-            "end_time": "1710h"
-        },
-        "13139": {
-            "class_number": "13139",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Davidson,James",
-            "days": "W",
-            "location": "SH180",
-            "start_time": "1530h",
-            "end_time": "1710h"
-        },
-        "13141": {
-            "class_number": "13141",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Godard,Ellis",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "0930h",
-            "end_time": "1110h"
-        },
-        "13142": {
-            "class_number": "13142",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Godard,Ellis",
-            "days": "R",
-            "location": "ONLINE",
-            "start_time": "0930h",
-            "end_time": "1110h"
-        },
-        "13144": {
-            "class_number": "13144",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Campbell,Lori A",
-            "days": "MW",
-            "location": "SH180",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "13145": {
-            "class_number": "13145",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Campbell,Lori A",
-            "days": "MW",
-            "location": "SH180",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        },
-        "13147": {
-            "class_number": "13147",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Schutte,Jerald G",
-            "days": null,
-            "location": "SH180",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "13150": {
-            "class_number": "13150",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Mavaddat,Roya",
-            "days": "F",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        },
-        "13151": {
-            "class_number": "13151",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Mavaddat,Roya",
-            "days": "F",
-            "location": "ONLINE",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        },
-        "13197": {
-            "class_number": "13197",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Berger,Raqota T",
-            "days": "T",
-            "location": "SH180",
-            "start_time": "1930h",
-            "end_time": "2110h"
-        },
-        "13198": {
-            "class_number": "13198",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Berger,Raqota T",
-            "days": "R",
-            "location": "SH180",
-            "start_time": "1930h",
-            "end_time": "2110h"
-        }
-    },
-    "SOM 426": {
-        "12239": {
-            "class_number": "12239",
-            "enrollment_cap": 55,
-            "enrollment_count": 0,
-            "instructor": "Guevara,Monicka",
-            "days": "MW",
-            "location": "SH309",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "SOM 430": {
-        "13117": {
-            "class_number": "13117",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Appelrouth,Scott A",
-            "days": "TR",
-            "location": "SH365",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        },
-        "13118": {
-            "class_number": "13118",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Appelrouth,Scott A",
-            "days": "TR",
-            "location": "SH102",
-            "start_time": "1800h",
-            "end_time": "1940h"
-        },
-        "13119": {
-            "class_number": "13119",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Karageorgis,Stavros N",
-            "days": "F",
-            "location": "SH102",
-            "start_time": "0800h",
-            "end_time": "1140h"
-        },
-        "13120": {
-            "class_number": "13120",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kouri,Kristyan M",
-            "days": "S",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "1140h"
-        },
-        "13121": {
-            "class_number": "13121",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Barron,Cecillia N",
-            "days": "S",
-            "location": "SH265",
-            "start_time": "1100h",
-            "end_time": "1440h"
-        },
-        "13299": {
-            "class_number": "13299",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Karageorgis,Stavros N",
-            "days": "MW",
-            "location": "SH102",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        }
-    },
-    "SOM 433": {
-        "13122": {
-            "class_number": "13122",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Olmos,Daniel",
-            "days": "MW",
-            "location": "SH209",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        }
-    },
-    "SOM 434": {
-        "12418": {
-            "class_number": "12418",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ribet,Elizabeth",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1700h",
-            "end_time": "1815h"
-        }
-    },
-    "SOM 440": {
-        "12427": {
-            "class_number": "12427",
-            "enrollment_cap": 38,
-            "enrollment_count": 0,
-            "instructor": "Prior,Emily E",
-            "days": "TR",
-            "location": "SH120",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "SOM 450": {
-        "13305": {
-            "class_number": "13305",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Bogumil,David D",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1700h",
-            "end_time": "1815h"
-        }
-    },
-    "SOM 452": {
-        "12428": {
-            "class_number": "12428",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Abelson,Mark",
-            "days": "MW",
-            "location": "SH225",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "SOM 459": {
-        "20780": {
-            "class_number": "20780",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Bogumil,David D",
-            "days": "MW",
-            "location": "SH280",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "SOM 461": {
-        "13304": {
-            "class_number": "13304",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
+        "13905": {
+            "class_number": "13905",
+            "enrollment_cap": 50,
+            "enrollment_count": 34,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": "MW",
-            "location": "SH209",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "days": "M",
+            "location": "BB2125",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
     "SOM 467": {
-        "13195": {
-            "class_number": "13195",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Meyers,Kari A",
-            "days": "MW",
-            "location": "SH120",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "SOM 468": {
-        "13123": {
-            "class_number": "13123",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mahdi,Ali Akbar",
-            "days": "MW",
-            "location": "SH160",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        },
-        "13124": {
-            "class_number": "13124",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mahdi,Ali Akbar",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1740h"
-        },
-        "13125": {
-            "class_number": "13125",
-            "enrollment_cap": -2,
-            "enrollment_count": 0,
-            "instructor": "Johnson,Briauna A",
-            "days": "S",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "1140h"
-        },
-        "13126": {
-            "class_number": "13126",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Kouri,Kristyan M",
-            "days": "TR",
-            "location": "SH182",
-            "start_time": "1800h",
-            "end_time": "1940h"
-        },
-        "13127": {
-            "class_number": "13127",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Karageorgis,Stavros N",
-            "days": "MW",
-            "location": "SH102",
-            "start_time": "1800h",
-            "end_time": "1940h"
-        }
-    },
-    "SOM 490F": {
-        "13128": {
-            "class_number": "13128",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Capous-Desyllas,Moshoula",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SOM 490S": {
-        "13129": {
-            "class_number": "13129",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Capous-Desyllas,Moshoula",
-            "days": "T",
-            "location": "BB1206",
-            "start_time": "0930h",
-            "end_time": "1115h"
-        }
-    },
-    "SOM 492": {
-        "12677": {
-            "class_number": "12677",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Capous-Desyllas,Moshoula",
+        "13766": {
+            "class_number": "13766",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 7,
+            "instructor": "kaveh.houshmand@csun.edu",
             "days": "W",
-            "location": "ONLINE",
-            "start_time": "1800h",
-            "end_time": "2045h"
+            "location": "EH2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
-    "SOM 493": {
-        "20781": {
-            "class_number": "20781",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Johnson,Briauna A",
-            "days": "MW",
-            "location": "SH365",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "SOM 496ASM": {
-        "21023": {
-            "class_number": "21023",
-            "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "Morgaine,Karen L",
-            "days": "MW",
-            "location": "SH160",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "SOM 497": {
-        "12133": {
-            "class_number": "12133",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mavaddat,Roya",
-            "days": "MW",
-            "location": "BB1127",
-            "start_time": "0800h",
-            "end_time": "0915h"
+    "SOM 485": {
+        "13466": {
+            "class_number": "13466",
+            "enrollment_cap": 51,
+            "enrollment_count": 51,
+            "waitlist_cap": 51,
+            "waitlist_count": 14,
+            "instructor": "behnam.abrams@csun.edu",
+            "days": "R",
+            "location": "BB2125",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
-        "12134": {
-            "class_number": "12134",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Godard,Ellis",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "12121": {
-            "class_number": "12121",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Johnson,Briauna A",
-            "days": "MW",
-            "location": "SH225",
-            "start_time": "1600h",
-            "end_time": "1715h"
-        },
-        "12202": {
-            "class_number": "12202",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Berger,Raqota T",
+        "13882": {
+            "class_number": "13882",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 1,
+            "instructor": "behnam.abrams@csun.edu",
             "days": "S",
-            "location": "SH342",
+            "location": "BB2125",
             "start_time": "1000h",
             "end_time": "1245h"
-        },
-        "12172": {
-            "class_number": "12172",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Schutte,Jerald G",
-            "days": null,
-            "location": "SH180",
-            "start_time": "1515h",
-            "end_time": "1800h"
         }
     },
-    "SOM 497L": {
-        "12128": {
-            "class_number": "12128",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mavaddat,Roya",
+    "SOM 591": {
+        "13746": {
+            "class_number": "13746",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "thomas.wedel@csun.edu",
             "days": "M",
-            "location": "ED2119",
-            "start_time": "0930h",
-            "end_time": "1110h"
-        },
-        "12135": {
-            "class_number": "12135",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mavaddat,Roya",
-            "days": "W",
-            "location": "ED2119",
-            "start_time": "0930h",
-            "end_time": "1110h"
-        },
-        "12366": {
-            "class_number": "12366",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Godard,Ellis",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "1530h",
-            "end_time": "1710h"
-        },
-        "12367": {
-            "class_number": "12367",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Godard,Ellis",
-            "days": "R",
-            "location": "ONLINE",
-            "start_time": "1530h",
-            "end_time": "1710h"
-        },
-        "12127": {
-            "class_number": "12127",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Johnson,Briauna A",
+            "location": "BB1232",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SOM 686": {
+        "13425": {
+            "class_number": "13425",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "kunpeng.li@csun.edu",
             "days": "M",
-            "location": "SH303",
-            "start_time": "1730h",
-            "end_time": "1910h"
-        },
-        "12368": {
-            "class_number": "12368",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Johnson,Briauna A",
-            "days": "W",
-            "location": "SH303",
-            "start_time": "1730h",
-            "end_time": "1910h"
-        },
-        "12370": {
-            "class_number": "12370",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Berger,Raqota T",
-            "days": "S",
-            "location": "SH180",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        },
-        "12256": {
-            "class_number": "12256",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Berger,Raqota T",
-            "days": "S",
-            "location": "SH180",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        },
-        "12372": {
-            "class_number": "12372",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Schutte,Jerald G",
-            "days": null,
-            "location": "SH180",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SOM 545": {
-        "20782": {
-            "class_number": "20782",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Carter,Michael J",
-            "days": "T",
-            "location": "SH264",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        }
-    },
-    "SOM 670": {
-        "12123": {
-            "class_number": "12123",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Pereira,Ana P",
-            "days": "R",
-            "location": "SH184",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        }
-    },
-    "SOM 690": {
-        "12999": {
-            "class_number": "12999",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Davidson,James",
-            "days": "M",
-            "location": "SH180",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        }
-    },
-    "SOM 697": {
-        "12421": {
-            "class_number": "12421",
-            "enrollment_cap": -3,
-            "enrollment_count": 0,
-            "instructor": "Morgaine,Karen L",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SOM 698": {
-        "13192": {
-            "class_number": "13192",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Morgaine,Karen L",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SOM 699A": {
-        "12126": {
-            "class_number": "12126",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Morgaine,Karen L",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SOM 699B": {
-        "12124": {
-            "class_number": "12124",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Morgaine,Karen L",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SOM 699C": {
-        "12125": {
-            "class_number": "12125",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Morgaine,Karen L",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "location": "BB1230",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     }
 }

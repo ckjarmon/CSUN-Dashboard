@@ -1,26 +1,58 @@
 {
-    "SUST 510": {
-        "21159": {
-            "class_number": "21159",
-            "enrollment_cap": 8,
+    "SUST 300": {
+        "14425": {
+            "class_number": "14425",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Lundquist,Loraine",
-            "days": "T",
-            "location": "SH224",
-            "start_time": "1800h",
-            "end_time": "2040h"
+            "instructor": "Tiwari,Abhishek",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "14942": {
+            "class_number": "14942",
+            "enrollment_cap": 34,
+            "enrollment_count": 0,
+            "instructor": "Chaudhari,Lisa",
+            "days": "R",
+            "location": "JR246",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     },
-    "SUST 520": {
-        "21162": {
-            "class_number": "21162",
-            "enrollment_cap": 7,
+    "SUST 310": {
+        "14369": {
+            "class_number": "14369",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "SH224",
-            "start_time": "1800h",
-            "end_time": "2040h"
+            "instructor": "Vrat,Dev",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "14911": {
+            "class_number": "14911",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Vrat,Dev",
+            "days": "MW",
+            "location": "EU130",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "SUST 401": {
+        "14426": {
+            "class_number": "14426",
+            "enrollment_cap": 18,
+            "enrollment_count": 0,
+            "instructor": "Chaudhari,Lisa",
+            "days": "TR",
+            "location": "SH225",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     }
 }

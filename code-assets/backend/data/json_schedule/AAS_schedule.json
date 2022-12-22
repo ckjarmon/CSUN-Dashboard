@@ -1,472 +1,558 @@
 {
-    "AAS 100": [
-        {
+    "AAS 100": {
+        "14046": {
             "class_number": "14046",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Carroll,Kimberly Teaman",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 1,
+            "instructor": "kimberly.carroll@csun.edu",
             "days": "M",
             "location": "JR134",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "14047": {
             "class_number": "14047",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lan,Lawrence",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 3,
+            "instructor": "kimberly.carroll@csun.edu",
             "days": "W",
             "location": "JR134",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "14211": {
             "class_number": "14211",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Aquino,Allan A",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 1,
+            "instructor": "allan.aquino@csun.edu",
             "days": "MW",
             "location": "JR214",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "14429": {
             "class_number": "14429",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Kim,Song M",
+            "enrollment_cap": 36,
+            "enrollment_count": 7,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "Staff",
             "days": "TR",
             "location": "SH225",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "14675": {
             "class_number": "14675",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Masequesmay,Gina",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "gina.masequesmay@csun.edu",
             "days": "TR",
             "location": "JR134",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "14676": {
             "class_number": "14676",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Song,David K",
-            "days": null,
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 6,
+            "instructor": "david.song@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "14682": {
             "class_number": "14682",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Shrake,Eunai K",
-            "days": null,
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "eunai.shrake@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AAS 113A": [
-        {
+    },
+    "AAS 113A": {
+        "21072": {
             "class_number": "21072",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Turnmeyer,Maria M",
+            "enrollment_cap": 19,
+            "enrollment_count": 5,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "maria.m.turnmeyer@csun.edu",
             "days": "TR",
             "location": "ED1127",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AAS 113B": [
-        {
+    },
+    "AAS 113B": {
+        "14380": {
             "class_number": "14380",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Turnmeyer,Maria M",
+            "enrollment_cap": 19,
+            "enrollment_count": 13,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "maria.m.turnmeyer@csun.edu",
             "days": "TR",
             "location": "JR221",
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "14293": {
             "class_number": "14293",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Turnmeyer,Maria M",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "maria.m.turnmeyer@csun.edu",
             "days": "TR",
             "location": "JR221",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AAS 113BOP": [
-        {
+    },
+    "AAS 113BOP": {
+        "14611": {
             "class_number": "14611",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Omatsu,Glenn K",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "glenn.omatsu@csun.edu",
             "days": "MW",
             "location": "EU135",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "14612": {
             "class_number": "14612",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Hutchison,Phillip A",
+            "enrollment_cap": 19,
+            "enrollment_count": 20,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "phllip.hutchison@csun.edu",
             "days": "MW",
             "location": "ED1126",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AAS 114B": [
-        {
+    },
+    "AAS 114B": {
+        "14862": {
             "class_number": "14862",
-            "enrollment_cap": -3,
-            "enrollment_count": 0,
-            "instructor": "Turnmeyer,Maria M",
+            "enrollment_cap": 19,
+            "enrollment_count": 22,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "maria.m.turnmeyer@csun.edu",
             "days": "TR",
             "location": "ED1127",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AAS 115": [
-        {
+    },
+    "AAS 115": {
+        "14776": {
             "class_number": "14776",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Gamboa-Wong,Margeaux Aegel C",
+            "enrollment_cap": 24,
+            "enrollment_count": 2,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "margeaux.gamboa-wong@csun.edu",
             "days": "MW",
             "location": "JR242",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "21071": {
             "class_number": "21071",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Tang,Derek A",
+            "enrollment_cap": 24,
+            "enrollment_count": 4,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "derek.tang@csun.edu",
             "days": "TR",
             "location": "SH321",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AAS 151": [
-        {
+    },
+    "AAS 151": {
+        "14161": {
             "class_number": "14161",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Tang,Derek A",
+            "enrollment_cap": 28,
+            "enrollment_count": 28,
+            "waitlist_cap": 28,
+            "waitlist_count": 0,
+            "instructor": "derek.tang@csun.edu",
             "days": "MW",
             "location": "JR134",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "14199": {
             "class_number": "14199",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lee,Daehwan",
+            "enrollment_cap": 28,
+            "enrollment_count": 28,
+            "waitlist_cap": 28,
+            "waitlist_count": 0,
+            "instructor": "daehwan.lee@csun.edu",
             "days": "TR",
             "location": "JR352",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "14210": {
             "class_number": "14210",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Tang,Derek A",
+            "enrollment_cap": 28,
+            "enrollment_count": 28,
+            "waitlist_cap": 28,
+            "waitlist_count": 0,
+            "instructor": "derek.tang@csun.edu",
             "days": "MW",
             "location": "ED1127",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        {
+        "14492": {
             "class_number": "14492",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gamboa-Wong,Margeaux Aegel C",
+            "enrollment_cap": 28,
+            "enrollment_count": 28,
+            "waitlist_cap": 28,
+            "waitlist_count": 2,
+            "instructor": "margeaux.gamboa-wong@csun.edu",
             "days": "MW",
             "location": "JR221",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "14777": {
             "class_number": "14777",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gamboa-Wong,Margeaux Aegel C",
+            "enrollment_cap": 28,
+            "enrollment_count": 28,
+            "waitlist_cap": 28,
+            "waitlist_count": 0,
+            "instructor": "margeaux.gamboa-wong@csun.edu",
             "days": "MW",
             "location": "JR221",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "15162": {
             "class_number": "15162",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lee,Daehwan",
+            "enrollment_cap": 28,
+            "enrollment_count": 28,
+            "waitlist_cap": 28,
+            "waitlist_count": 0,
+            "instructor": "daehwan.lee@csun.edu",
             "days": "TR",
             "location": "SH321",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "15238": {
             "class_number": "15238",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Turnmeyer,Maria M",
+            "enrollment_cap": 28,
+            "enrollment_count": 28,
+            "waitlist_cap": 28,
+            "waitlist_count": 0,
+            "instructor": "maria.m.turnmeyer@csun.edu",
             "days": "TR",
             "location": "ED1127",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "AAS 151EOP": [
-        {
+    },
+    "AAS 151EOP": {
+        "15376": {
             "class_number": "15376",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Gamboa-Wong,Margeaux Aegel C",
+            "enrollment_cap": 27,
+            "enrollment_count": 25,
+            "waitlist_cap": 27,
+            "waitlist_count": 0,
+            "instructor": "margeaux.gamboa-wong@csun.edu",
             "days": "TR",
             "location": "ED1123",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AAS 201": [
-        {
+    },
+    "AAS 201": {
+        "14048": {
             "class_number": "14048",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "enrollment_cap": 36,
+            "enrollment_count": 34,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "0800h",
             "end_time": "0915h"
         },
-        {
+        "14382": {
             "class_number": "14382",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ohm,Sung W",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 2,
+            "instructor": "sung.ohm@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "14383": {
             "class_number": "14383",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Hutchison,Phillip A",
+            "enrollment_cap": 36,
+            "enrollment_count": 27,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "phllip.hutchison@csun.edu",
             "days": "MW",
             "location": "EU130",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "14071": {
             "class_number": "14071",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Masequesmay,Gina",
+            "enrollment_cap": 36,
+            "enrollment_count": 12,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "gina.masequesmay@csun.edu",
             "days": "TR",
             "location": "JR134",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "14072": {
             "class_number": "14072",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Masequesmay,Gina",
+            "enrollment_cap": 36,
+            "enrollment_count": 11,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "gina.masequesmay@csun.edu",
             "days": "TR",
             "location": "JR134",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "14049": {
             "class_number": "14049",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Makhijani,Simmy",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 1,
+            "instructor": "simmy.makhijani@csun.edu",
             "days": "TR",
             "location": "SH384",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "14050": {
             "class_number": "14050",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Makhijani,Simmy",
+            "enrollment_cap": 38,
+            "enrollment_count": 20,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "simmy.makhijani@csun.edu",
             "days": "TR",
             "location": "JR221",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "AAS 210": [
-        {
+    },
+    "AAS 210": {
+        "14116": {
             "class_number": "14116",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Lai,Clement K",
+            "enrollment_cap": 36,
+            "enrollment_count": 21,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "clement.lai@csun.edu",
             "days": "TR",
             "location": "JR246",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AAS 220": [
-        {
+    },
+    "AAS 220": {
+        "14051": {
             "class_number": "14051",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Ohm,Sung W",
+            "enrollment_cap": 0,
+            "enrollment_count": 6,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "sung.ohm@csun.edu",
             "days": "T",
             "location": "SH108",
             "start_time": "1600h",
             "end_time": "1845h"
         },
-        {
+        "20659": {
             "class_number": "20659",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Carroll,Kimberly Teaman",
-            "days": null,
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 3,
+            "instructor": "kimberly.carroll@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "AAS 230EOP": [
-        {
+    },
+    "AAS 230EOP": {
+        "14195": {
             "class_number": "14195",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Aquino,Allan A",
+            "enrollment_cap": 35,
+            "enrollment_count": 16,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "allan.aquino@csun.edu",
             "days": "TR",
             "location": "JR134",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AAS 321": [
-        {
+    },
+    "AAS 321": {
+        "20661": {
             "class_number": "20661",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gamboa-Wong,Margeaux Aegel C",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 3,
+            "instructor": "margeaux.gamboa-wong@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AAS 340": [
-        {
+    },
+    "AAS 340": {
+        "14053": {
             "class_number": "14053",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Kim,Jinah",
+            "enrollment_cap": 36,
+            "enrollment_count": 20,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "jinah.kim@csun.edu",
             "days": "TR",
             "location": "ED1130",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AAS 340HON": [
-        {
+    },
+    "AAS 340HON": {
+        "15398": {
             "class_number": "15398",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Carroll,Kimberly Teaman",
+            "enrollment_cap": 36,
+            "enrollment_count": 29,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "kimberly.carroll@csun.edu",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AAS 345": [
-        {
+    },
+    "AAS 345": {
+        "14150": {
             "class_number": "14150",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lan,Lawrence",
+            "enrollment_cap": 36,
+            "enrollment_count": 33,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "lawrence.lan@csun.edu",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AAS 347": [
-        {
+    },
+    "AAS 347": {
+        "14117": {
             "class_number": "14117",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Hutchison,Phillip A",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "phllip.hutchison@csun.edu",
             "days": "MW",
             "location": "EU131",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "14344": {
             "class_number": "14344",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Hutchison,Phillip A",
+            "enrollment_cap": 36,
+            "enrollment_count": 23,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "phllip.hutchison@csun.edu",
             "days": "M",
             "location": "JR134",
             "start_time": "1600h",
             "end_time": "1845h"
         },
-        {
+        "15163": {
             "class_number": "15163",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Hutchison,Phillip A",
+            "enrollment_cap": 36,
+            "enrollment_count": 12,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "phllip.hutchison@csun.edu",
             "days": "W",
             "location": "JR134",
             "start_time": "1600h",
             "end_time": "1845h"
         },
-        {
+        "20797": {
             "class_number": "20797",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lan,Lawrence",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 3,
+            "instructor": "lawrence.lan@csun.edu",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AAS 350": [
-        {
+    },
+    "AAS 350": {
+        "14259": {
             "class_number": "14259",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Garcia,Kristina C",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 4,
+            "instructor": "kristina.garcia@csun.edu",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AAS 360": [
-        {
+    },
+    "AAS 360": {
+        "14431": {
             "class_number": "14431",
             "enrollment_cap": 0,
             "enrollment_count": 0,
@@ -476,75 +562,87 @@
             "start_time": "TBA",
             "end_time": "TBA"
         }
-    ],
-    "AAS 390": [
-        {
+    },
+    "AAS 390": {
+        "14260": {
             "class_number": "14260",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Aquino,Allan A",
+            "enrollment_cap": 20,
+            "enrollment_count": 8,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "allan.aquino@csun.edu",
             "days": "R",
             "location": "JR134",
             "start_time": "1600h",
             "end_time": "1740h"
         }
-    ],
-    "AAS 390F": [
-        {
+    },
+    "AAS 390F": {
+        "14261": {
             "class_number": "14261",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Aquino,Allan A",
+            "enrollment_cap": 20,
+            "enrollment_count": 8,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "allan.aquino@csun.edu",
             "days": "R",
             "location": "JR134",
             "start_time": "1740h",
             "end_time": "1845h"
         }
-    ],
-    "AAS 417": [
-        {
+    },
+    "AAS 417": {
+        "14685": {
             "class_number": "14685",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Shrake,Eunai K",
-            "days": null,
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 2,
+            "instructor": "eunai.shrake@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "20798": {
             "class_number": "20798",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Kim,Song M",
+            "enrollment_cap": 36,
+            "enrollment_count": 11,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "song.kim@csun.edu",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h"
         }
-    ],
-    "AAS 440": [
-        {
+    },
+    "AAS 440": {
+        "20660": {
             "class_number": "20660",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Lai,Clement K",
+            "enrollment_cap": 20,
+            "enrollment_count": 6,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "clement.lai@csun.edu",
             "days": "TR",
             "location": "JR244",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "AAS 450": [
-        {
+    },
+    "AAS 450": {
+        "14055": {
             "class_number": "14055",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Kim,Song M",
-            "days": null,
+            "enrollment_cap": 36,
+            "enrollment_count": 18,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "song.kim@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ]
+    }
 }

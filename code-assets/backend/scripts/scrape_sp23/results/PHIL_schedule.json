@@ -1,26 +1,708 @@
 {
-    "PHIL 101": {
-        "14255": {
-            "class_number": "14255",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Esfarjani,Homa",
+    "PHIL 100": {
+        "14068": {
+            "class_number": "14068",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 3,
+            "instructor": "jacob.hale@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14173": {
+            "class_number": "14173",
+            "enrollment_cap": 34,
+            "enrollment_count": 19,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "takashi.yagisawa@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "14097": {
+            "class_number": "14097",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 4,
+            "instructor": "jacob.hale@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14327": {
+            "class_number": "14327",
+            "enrollment_cap": 34,
+            "enrollment_count": 18,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1600h",
-            "end_time": "1740h"
+            "location": "SH108",
+            "start_time": "1230h",
+            "end_time": "1410h"
+        },
+        "14797": {
+            "class_number": "14797",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 5,
+            "instructor": "jacob.hale@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "15065": {
+            "class_number": "15065",
+            "enrollment_cap": 34,
+            "enrollment_count": 19,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "takashi.yagisawa@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        },
+        "15366": {
+            "class_number": "15366",
+            "enrollment_cap": 34,
+            "enrollment_count": 17,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH314",
+            "start_time": "0930h",
+            "end_time": "1110h"
+        },
+        "20626": {
+            "class_number": "20626",
+            "enrollment_cap": 30,
+            "enrollment_count": 7,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "takashi.yagisawa@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
         }
     },
-    "PHIL 102": {
-        "14275": {
-            "class_number": "14275",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Esfarjani,Homa",
+    "PHIL 150": {
+        "14074": {
+            "class_number": "14074",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "mitchell.herschbach@csun.edu",
+            "days": "MW",
+            "location": "JR204",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "14075": {
+            "class_number": "14075",
+            "enrollment_cap": 34,
+            "enrollment_count": 12,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "abel.franco@csun.edu",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1800h",
-            "end_time": "1940h"
+            "location": "JR204",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "14365": {
+            "class_number": "14365",
+            "enrollment_cap": 34,
+            "enrollment_count": 13,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "abel.franco@csun.edu",
+            "days": "TR",
+            "location": "JR204",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14645": {
+            "class_number": "14645",
+            "enrollment_cap": 34,
+            "enrollment_count": 9,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "abel.franco@csun.edu",
+            "days": "TR",
+            "location": "JR204",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "14373": {
+            "class_number": "14373",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 7,
+            "instructor": "sarah.hansen@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHIL 165": {
+        "14567": {
+            "class_number": "14567",
+            "enrollment_cap": 34,
+            "enrollment_count": 21,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "vladimir.kalugin@csun.edu",
+            "days": "TR",
+            "location": "EU134",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14899": {
+            "class_number": "14899",
+            "enrollment_cap": 34,
+            "enrollment_count": 24,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "vladimir.kalugin@csun.edu",
+            "days": "TR",
+            "location": "SH190",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHIL 170": {
+        "14855": {
+            "class_number": "14855",
+            "enrollment_cap": 34,
+            "enrollment_count": 28,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JR204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14856": {
+            "class_number": "14856",
+            "enrollment_cap": 34,
+            "enrollment_count": 22,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "EU132",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "PHIL 200": {
+        "14197": {
+            "class_number": "14197",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "weimin.sun@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14146": {
+            "class_number": "14146",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "weimin.sun@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14128": {
+            "class_number": "14128",
+            "enrollment_cap": 34,
+            "enrollment_count": 18,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14397": {
+            "class_number": "14397",
+            "enrollment_cap": 34,
+            "enrollment_count": 8,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHIL 200HON": {
+        "14794": {
+            "class_number": "14794",
+            "enrollment_cap": 34,
+            "enrollment_count": 18,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "justin.kitchen@csun.edu",
+            "days": "TR",
+            "location": "JR315",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "PHIL 201": {
+        "14291": {
+            "class_number": "14291",
+            "enrollment_cap": 34,
+            "enrollment_count": 11,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH190",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "PHIL 202": {
+        "14096": {
+            "class_number": "14096",
+            "enrollment_cap": 34,
+            "enrollment_count": 13,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "EU136",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "PHIL 230": {
+        "14203": {
+            "class_number": "14203",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 2,
+            "instructor": "kristina.meshelski@csun.edu",
+            "days": "TR",
+            "location": "SH190",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14134": {
+            "class_number": "14134",
+            "enrollment_cap": 34,
+            "enrollment_count": 20,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "mitchell.herschbach@csun.edu",
+            "days": "MW",
+            "location": "EU133",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14153": {
+            "class_number": "14153",
+            "enrollment_cap": 34,
+            "enrollment_count": 12,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH190",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "14216": {
+            "class_number": "14216",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 3,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH190",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "14351": {
+            "class_number": "14351",
+            "enrollment_cap": 34,
+            "enrollment_count": 21,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "kristina.meshelski@csun.edu",
+            "days": "TR",
+            "location": "JR243",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "14730": {
+            "class_number": "14730",
+            "enrollment_cap": 34,
+            "enrollment_count": 30,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "EU136",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14970": {
+            "class_number": "14970",
+            "enrollment_cap": 34,
+            "enrollment_count": 29,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "kristina.meshelski@csun.edu",
+            "days": "TR",
+            "location": "SH190",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        }
+    },
+    "PHIL 250": {
+        "15369": {
+            "class_number": "15369",
+            "enrollment_cap": 34,
+            "enrollment_count": 2,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "johnathan.flowers@csun.edu",
+            "days": "MW",
+            "location": "EU136",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15370": {
+            "class_number": "15370",
+            "enrollment_cap": 34,
+            "enrollment_count": 2,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "johnathan.flowers@csun.edu",
+            "days": "MW",
+            "location": "JR204",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "PHIL 260": {
+        "20839": {
+            "class_number": "20839",
+            "enrollment_cap": 34,
+            "enrollment_count": 19,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "sarah.hansen@csun.edu",
+            "days": "MW",
+            "location": "EU133",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "PHIL 305": {
+        "15016": {
+            "class_number": "15016",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 10,
+            "instructor": "adam.swenson@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14098": {
+            "class_number": "14098",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 11,
+            "instructor": "adam.swenson@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14086": {
+            "class_number": "14086",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 3,
+            "instructor": "vladimir.kalugin@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14257": {
+            "class_number": "14257",
+            "enrollment_cap": 40,
+            "enrollment_count": 1,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "BB1208",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "14099": {
+            "class_number": "14099",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "robert.gressis@csun.edu",
+            "days": "TR",
+            "location": "EU136",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14337": {
+            "class_number": "14337",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 2,
+            "instructor": "christopher.pallotti@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14155": {
+            "class_number": "14155",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 4,
+            "instructor": "mitchell.herschbach@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14158": {
+            "class_number": "14158",
+            "enrollment_cap": 40,
+            "enrollment_count": 28,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "robert.gressis@csun.edu",
+            "days": "TR",
+            "location": "JR204",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        }
+    },
+    "PHIL 317": {
+        "15372": {
+            "class_number": "15372",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 2,
+            "instructor": "robin.muller@csun.edu",
+            "days": "TR",
+            "location": "EU130",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "15392": {
+            "class_number": "15392",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 1,
+            "instructor": "robin.muller@csun.edu",
+            "days": "TR",
+            "location": "JR202",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        }
+    },
+    "PHIL 330": {
+        "14204": {
+            "class_number": "14204",
+            "enrollment_cap": 34,
+            "enrollment_count": 7,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "weimin.sun@csun.edu",
+            "days": "MW",
+            "location": "JR204",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHIL 343": {
+        "14861": {
+            "class_number": "14861",
+            "enrollment_cap": 34,
+            "enrollment_count": 8,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "justin.kitchen@csun.edu",
+            "days": "MW",
+            "location": "EU136",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "PHIL 349": {
+        "14105": {
+            "class_number": "14105",
+            "enrollment_cap": 34,
+            "enrollment_count": 18,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "SH190",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "14106": {
+            "class_number": "14106",
+            "enrollment_cap": 34,
+            "enrollment_count": 20,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "johnathan.flowers@csun.edu",
+            "days": "MW",
+            "location": "EU132",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "PHIL 350": {
+        "14860": {
+            "class_number": "14860",
+            "enrollment_cap": 34,
+            "enrollment_count": 16,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "justin.kitchen@csun.edu",
+            "days": "MW",
+            "location": "EU135",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "PHIL 353": {
+        "15373": {
+            "class_number": "15373",
+            "enrollment_cap": 34,
+            "enrollment_count": 7,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "abel.franco@csun.edu",
+            "days": "TR",
+            "location": "JR204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "PHIL 354": {
+        "20628": {
+            "class_number": "20628",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 1,
+            "instructor": "tim.black@csun.edu",
+            "days": "TR",
+            "location": "EU136",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHIL 360": {
+        "14566": {
+            "class_number": "14566",
+            "enrollment_cap": 34,
+            "enrollment_count": 16,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "SH190",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHIL 446": {
+        "14564": {
+            "class_number": "14564",
+            "enrollment_cap": 20,
+            "enrollment_count": 5,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "kristina.meshelski@csun.edu",
+            "days": "TR",
+            "location": "SH224",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "PHIL 455": {
+        "14853": {
+            "class_number": "14853",
+            "enrollment_cap": 20,
+            "enrollment_count": 8,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "julie.yoo@csun.edu",
+            "days": "TR",
+            "location": "SH224",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        }
+    },
+    "PHIL 497": {
+        "14102": {
+            "class_number": "14102",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 2,
+            "instructor": "robert.gressis@csun.edu",
+            "days": "TR",
+            "location": "SH224",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     }
 }

@@ -1,66 +1,78 @@
 {
-    "CLAS 101L": [
-        {
+    "CLAS 101L": {
+        "15136": {
             "class_number": "15136",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Watson,Tim William",
+            "enrollment_cap": 35,
+            "enrollment_count": 13,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "tim.watson@csun.edu",
             "days": "TR",
             "location": "EU135",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "CLAS 315": [
-        {
+    },
+    "CLAS 315": {
+        "13909": {
             "class_number": "13909",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Piros,Elliott",
-            "days": null,
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 42,
+            "waitlist_count": 7,
+            "instructor": "elliott.piros@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "14093": {
             "class_number": "14093",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Watson,Tim William",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "tim.watson@csun.edu",
             "days": "TR",
             "location": "EU135",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "13910": {
             "class_number": "13910",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Graf,Beverly J",
-            "days": null,
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 42,
+            "waitlist_count": 4,
+            "instructor": "beverly.graf@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "14258": {
             "class_number": "14258",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Watson,Tim William",
+            "enrollment_cap": 34,
+            "enrollment_count": 34,
+            "waitlist_cap": 34,
+            "waitlist_count": 0,
+            "instructor": "tim.watson@csun.edu",
             "days": "TR",
             "location": "EU135",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        {
+        "13911": {
             "class_number": "13911",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Graf,Beverly J",
+            "enrollment_cap": 42,
+            "enrollment_count": 21,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
+            "instructor": "beverly.graf@csun.edu",
             "days": "M",
             "location": "EU131",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ]
+    }
 }

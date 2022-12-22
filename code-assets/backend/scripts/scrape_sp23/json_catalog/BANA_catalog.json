@@ -1,0 +1,29 @@
+[
+    {
+        "subject": "BANA",
+        "catalog_number": "310",
+        "title": "Data Visualization for Business",
+        "description": "Prerequisite: SOM 120 or MATH 140 (Business Analytics majors and minors must attain a grade of \u201cC\u201d or higher). (MATH 140 is cross-listed with MATH 140BUS, MATH 140SCI, and MATH 141/L.) This course covers the concepts and methods in data mining and analysis relating to exploration and visualization of business data, leading to knowledge discovery from large data sets and better managerial decision making. This course examines a comprehensive set of ways useful in understanding and presenting data using the latest data visualization software and tools. Major topics of this course will include summarizing data using tables and plots. Students will learn through a combination of lectures and hands-on short case studies. Ethics is one of the integral parts of this course since charts and tables can lead the users to a particular direction and action that the analyst wants. Students will learn how to responsibly visualize data.",
+        "units": "3",
+        "prerequisites": "{{{SOM 120} || {MATH 140}} && {(Business Analytics majors and minors must attain a grade of \u201cC\u201d or higher)}}",
+        "corequisites": "None"
+    },
+    {
+        "subject": "BANA",
+        "catalog_number": "320",
+        "title": "Predictive Analytics for Business",
+        "description": "Prerequisite: SOM 307 (Business Analytics majors must attain a grade of \u201cC\u201d or higher). An introduction to some of the most widely used predictive modeling techniques and relevant core principles. This course covers a solid foundation of predictive analytics, which refers to tools and techniques for building statistical or machine learning models to make predictions based on data. Students will learn how to carry out exploratory data analysis to gain insights and prepare data for predictive modeling, one of the essential skills valued in the business.",
+        "units": "3",
+        "prerequisites": "{{SOM 307} && {(Business Analytics majors must attain a grade of \u201cC\u201d or higher)}}",
+        "corequisites": "None"
+    },
+    {
+        "subject": "BANA",
+        "catalog_number": "410",
+        "title": "Machine Learning for Business",
+        "description": "Prerequisite: SOM 307 (Business Analytics majors must attain a grade of \u201cC\u201d or higher). BUS 302 and BUS 302L are prerequisites for Business majors. This course covers machine learning approaches to discover patterns hidden in large datasets. What can we predict about the future, given the data from the past? What kind of models can we construct with this information, and how can we assess these models\u2019 behavior and reliability? Finally, how can we represent the data and devise tools for discovering these models efficiently and effectively? This course focuses on tools for data analytics. Furthermore, it covers the mathematical formulations underlying statistical processing, and the development and analysis of learning algorithms.",
+        "units": "3",
+        "prerequisites": "{{SOM 307} && {(Business Analytics majors must attain a grade of \u201cC\u201d or higher)}}",
+        "corequisites": "None"
+    }
+]

@@ -1,386 +1,124 @@
 {
-    "LRS 113A": {
-        "15036": {
-            "class_number": "15036",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Ganjavi,Shadi",
-            "days": "MW",
-            "location": "JR218",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "15037": {
-            "class_number": "15037",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Crawford,Anne C",
-            "days": "TR",
-            "location": "JR218",
-            "start_time": "1230h",
-            "end_time": "1345h"
+    "LRS 150": {
+        "14121": {
+            "class_number": "14121",
+            "enrollment_cap": 37,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "patrick.polk@csun.edu",
+            "days": "T",
+            "location": "JR243",
+            "start_time": "1630h",
+            "end_time": "1810h"
         }
     },
-    "LRS 113B": {
-        "15083": {
-            "class_number": "15083",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "JR218",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "15084": {
-            "class_number": "15084",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Karras-Lazaris,Vasiliki B",
-            "days": "TR",
-            "location": "ED1123",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "15086": {
-            "class_number": "15086",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "JR218",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "15087": {
-            "class_number": "15087",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Gides,John C",
-            "days": "MW",
-            "location": "JR212",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "LRS 200": {
-        "14723": {
-            "class_number": "14723",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ganjavi,Shadi",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14742": {
-            "class_number": "14742",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "TR",
-            "location": "JR214",
-            "start_time": "1100h",
-            "end_time": "1215h"
+    "LRS 150F": {
+        "14101": {
+            "class_number": "14101",
+            "enrollment_cap": 37,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "diana.portillo@csun.edu",
+            "days": "R",
+            "location": "JR243",
+            "start_time": "1630h",
+            "end_time": "1810h"
         }
     },
     "LRS 250": {
-        "14299": {
-            "class_number": "14299",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Medeiros,David J",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15005": {
-            "class_number": "15005",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Medeiros,David J",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "LRS 303": {
-        "15400": {
-            "class_number": "15400",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Medeiros,David J",
-            "days": "MW",
-            "location": "JR214",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "LRS 309": {
-        "15401": {
-            "class_number": "15401",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Kim,Stephanie Hyeri",
+        "14119": {
+            "class_number": "14119",
+            "enrollment_cap": 35,
+            "enrollment_count": 33,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "robert.gressis@csun.edu",
             "days": "TR",
-            "location": "JR214",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "LRS 310": {
-        "14300": {
-            "class_number": "14300",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ruth-Hirrel,Laura",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15143": {
-            "class_number": "15143",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ruth-Hirrel,Laura",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15335": {
-            "class_number": "15335",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Crawford,Anne C",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15437": {
-            "class_number": "15437",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Crawford,Anne C",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "LRS 325": {
-        "14534": {
-            "class_number": "14534",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mathis,Terrie D",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14831": {
-            "class_number": "14831",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mathis,Terrie D",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "LRS 330": {
-        "20792": {
-            "class_number": "20792",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Gides,John C",
-            "days": "MW",
-            "location": "JR214",
+            "location": "SH390",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     },
-    "LRS 402": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
-            "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+    "LRS 250F": {
+        "14120": {
+            "class_number": "14120",
+            "enrollment_cap": 35,
+            "enrollment_count": 33,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "renee.ziolkowska@csun.edu",
+            "days": "TR",
+            "location": "SH390",
+            "start_time": "1215h",
+            "end_time": "1305h"
         }
     },
-    "LRS 404": {
-        "14539": {
-            "class_number": "14539",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Medeiros,David J",
-            "days": "W",
-            "location": "JR214",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "LRS 417": {
-        "13949": {
-            "class_number": "13949",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Yoon,Hyung-Jo",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "LRS 300": {
+        "14143": {
+            "class_number": "14143",
+            "enrollment_cap": 36,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "sean.pessin@csun.edu",
+            "days": "MW",
+            "location": "JR202",
+            "start_time": "1100h",
+            "end_time": "1150h"
         },
-        "13952": {
-            "class_number": "13952",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ganjavi,Shadi",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+        "14142": {
+            "class_number": "14142",
+            "enrollment_cap": 36,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "sean.pessin@csun.edu",
+            "days": "R",
+            "location": "SH390",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        }
+    },
+    "LRS 300F": {
+        "20912": {
+            "class_number": "20912",
+            "enrollment_cap": 36,
+            "enrollment_count": 15,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "gina.srmabekian@csun.edu",
+            "days": "MW",
+            "location": "JR202",
+            "start_time": "1150h",
+            "end_time": "1240h"
         },
-        "13950": {
-            "class_number": "13950",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Galasso,Joseph A",
-            "days": "F",
-            "location": "JR214",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "LRS 427": {
-        "14281": {
-            "class_number": "14281",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Sanchez-Munoz,Ana",
+        "20913": {
+            "class_number": "20913",
+            "enrollment_cap": 36,
+            "enrollment_count": 13,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "tina.bertacchi-love@csun.edu",
             "days": "R",
-            "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "location": "SH390",
+            "start_time": "1740h",
+            "end_time": "1920h"
         }
     },
-    "LRS 505": {
-        "15242": {
-            "class_number": "15242",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Kim,Stephanie Hyeri",
-            "days": "R",
-            "location": "JR212",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "LRS 506": {
-        "15179": {
-            "class_number": "15179",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "T",
-            "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "LRS 520": {
-        "14833": {
-            "class_number": "14833",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Yoon,Hyung-Jo",
-            "days": "W",
-            "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "LRS 525": {
-        "14828": {
-            "class_number": "14828",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Karras-Lazaris,Vasiliki B",
+    "LRS 425MC": {
+        "15416": {
+            "class_number": "15416",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "krystal.howard@csun.edu",
             "days": "M",
-            "location": "JR352",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "LRS 541": {
-        "15006": {
-            "class_number": "15006",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Ruth-Hirrel,Laura",
-            "days": "T",
-            "location": "JR214",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "LRS 555": {
-        "14727": {
-            "class_number": "14727",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Kim,Stephanie Hyeri",
-            "days": "R",
-            "location": "JR212",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "LRS 566": {
-        "14728": {
-            "class_number": "14728",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Yoon,Hyung-Jo",
-            "days": "M",
-            "location": "JR214",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "LRS 578": {
-        "15007": {
-            "class_number": "15007",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Yoon,Hyung-Jo",
-            "days": "W",
-            "location": "JR218",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "LRS 698D": {
-        "15178": {
-            "class_number": "15178",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Ruth-Hirrel,Laura",
-            "days": "R",
-            "location": "JR214",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "location": "EU133",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     }
 }

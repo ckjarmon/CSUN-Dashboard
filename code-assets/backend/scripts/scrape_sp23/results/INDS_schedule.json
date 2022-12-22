@@ -1,14 +1,42 @@
 {
-    "INDS 300": {
-        "15417": {
-            "class_number": "15417",
-            "enrollment_cap": 1,
+    "INDS 250": {
+        "15383": {
+            "class_number": "15383",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Meade,Colette C",
-            "days": "TR",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "INDS 300": {
+        "15384": {
+            "class_number": "15384",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "mauro.carassai@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "INDS 350": {
+        "20808": {
+            "class_number": "20808",
+            "enrollment_cap": 30,
+            "enrollment_count": 11,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "mauro.carassai@csun.edu",
+            "days": "MW",
+            "location": "ED1126",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     }
 }

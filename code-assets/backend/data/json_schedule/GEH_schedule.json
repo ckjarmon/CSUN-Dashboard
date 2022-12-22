@@ -1,24 +1,28 @@
 {
-    "GEH 333": [
-        {
+    "GEH 333": {
+        "20550": {
             "class_number": "20550",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Kleinman,Scott",
+            "enrollment_cap": 25,
+            "enrollment_count": 5,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "scott.kleinman@csun.edu",
             "days": "TR",
             "location": "UL002",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        {
+        "20551": {
             "class_number": "20551",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Giotta,Gina N",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "gina.giotta@csun.edu",
             "days": "TR",
             "location": "ONCAMP",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ]
+    }
 }

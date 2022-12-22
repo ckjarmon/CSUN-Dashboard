@@ -1,62 +1,72 @@
 {
-    "AIS 101": [
-        {
+    "AIS 101": {
+        "14298": {
             "class_number": "14298",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Claveria,Alesha",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "Staff",
             "days": "TR",
             "location": "JR214",
             "start_time": "1230h",
             "end_time": "1345h"
         }
-    ],
-    "AIS 210": [
-        {
+    },
+    "AIS 210": {
+        "20680": {
             "class_number": "20680",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Worthington,Gina",
+            "enrollment_cap": 35,
+            "enrollment_count": 13,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "gina.worthington@csun.edu",
             "days": "MW",
             "location": "JR221",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "AIS 301": [
-        {
+    },
+    "AIS 301": {
+        "15220": {
             "class_number": "15220",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Claveria,Alesha",
+            "enrollment_cap": 35,
+            "enrollment_count": 21,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "Staff",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "AIS 304": [
-        {
+    },
+    "AIS 304": {
+        "14669": {
             "class_number": "14669",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Coates,Julia",
+            "enrollment_cap": 35,
+            "enrollment_count": 28,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "julia.coates@csun.edu",
             "days": "MW",
             "location": "JR217",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "AIS 318": [
-        {
+    },
+    "AIS 318": {
+        "21029": {
             "class_number": "21029",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Andrews,Scott D",
-            "days": null,
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 2,
+            "instructor": "Staff",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ]
+    }
 }

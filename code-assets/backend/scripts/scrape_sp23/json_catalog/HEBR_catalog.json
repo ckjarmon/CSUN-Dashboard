@@ -1,0 +1,20 @@
+[
+    {
+        "subject": "HEBR",
+        "catalog_number": "101",
+        "title": "Elementary Hebrew I",
+        "description": "Prerequisite: Not open to students with oral and writing proficiency or who attended schools where Hebrew was the language of instruction. Study of the fundamentals of Hebrew, including grammatical structure, reading and practice in the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "4",
+        "prerequisites": "{Not open to students with oral and writing proficiency or who attended schools where Hebrew was the language of instruction}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HEBR",
+        "catalog_number": "102",
+        "title": "Elementary Hebrew II",
+        "description": "Prerequisite: HEBR 101 or instructor consent. Not open to students with oral and writing proficiency or who attended schools where Hebrew was the language of instruction. HEBR 102 is the continuation of the study of the fundamentals of Hebrew: grammatical structures, reading, practice in spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{{HEBR 101} && {instructor consent}}",
+        "corequisites": "{None}"
+    }
+]

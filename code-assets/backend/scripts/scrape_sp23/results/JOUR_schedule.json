@@ -1,102 +1,726 @@
 {
-    "JOUR 101": {
-        "14234": {
-            "class_number": "14234",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Takemori,Kanzo",
-            "days": "MW",
-            "location": "JR315",
-            "start_time": "0900h",
-            "end_time": "1040h"
+    "JOUR 100": {
+        "11099": {
+            "class_number": "11099",
+            "enrollment_cap": 70,
+            "enrollment_count": 23,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "taehyun.kim@csun.edu",
+            "days": "TR",
+            "location": "MZ361",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "JOUR 110": {
+        "11717": {
+            "class_number": "11717",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "taehyun.kim@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
         },
-        "14349": {
-            "class_number": "14349",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Takemori,Kanzo",
-            "days": "MW",
-            "location": "JR315",
+        "11718": {
+            "class_number": "11718",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "SH305",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        }
+    },
+    "JOUR 110L": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "taehyun.kim@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ360",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        }
+    },
+    "JOUR 210": {
+        "11729": {
+            "class_number": "11729",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "joshua.molina@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2040h"
+        },
+        "11730": {
+            "class_number": "11730",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "taehyun.kim@csun.edu",
+            "days": "T",
+            "location": "MZ361",
             "start_time": "1100h",
             "end_time": "1240h"
+        }
+    },
+    "JOUR 210L": {
+        "11736": {
+            "class_number": "11736",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "joshua.molina@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2040h"
         },
-        "14651": {
-            "class_number": "14651",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Snyder,Wendy K",
-            "days": "MW",
-            "location": "JR203",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        },
-        "14652": {
-            "class_number": "14652",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Kato,Nina",
-            "days": "TR",
-            "location": "JR301",
+        "11737": {
+            "class_number": "11737",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "taehyun.kim@csun.edu",
+            "days": "R",
+            "location": "MZ360",
             "start_time": "1100h",
             "end_time": "1240h"
         }
     },
-    "JOUR 102": {
-        "14235": {
-            "class_number": "14235",
-            "enrollment_cap": -4,
-            "enrollment_count": 0,
-            "instructor": "Kato,Nina",
-            "days": "TR",
-            "location": "JR301",
-            "start_time": "0900h",
-            "end_time": "1040h"
+    "JOUR 225": {
+        "11993": {
+            "class_number": "11993",
+            "enrollment_cap": 20,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 2,
+            "instructor": "gretchen.macchiarella@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
         },
-        "14368": {
-            "class_number": "14368",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Huang,Junliang",
+        "11994": {
+            "class_number": "11994",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "david.grewe@csun.edu",
+            "days": "W",
+            "location": "MZ360",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "JOUR 250": {
+        "11429": {
+            "class_number": "11429",
+            "enrollment_cap": 70,
+            "enrollment_count": 31,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "david.blumenkrantz@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "JOUR 255": {
+        "11903": {
+            "class_number": "11903",
+            "enrollment_cap": 30,
+            "enrollment_count": 15,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "edward.hoffman@csun.edu",
+            "days": "R",
+            "location": "MZ361",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "JOUR 310": {
+        "10646": {
+            "class_number": "10646",
+            "enrollment_cap": 20,
+            "enrollment_count": 11,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "julie.bien@csun.edu",
+            "days": "M",
+            "location": "MZ360",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "JOUR 315": {
+        "10055": {
+            "class_number": "10055",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "aron.bender@csun.edu",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "1230h",
+            "end_time": "1515h"
+        }
+    },
+    "JOUR 325": {
+        "10536": {
+            "class_number": "10536",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ211",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "10858": {
+            "class_number": "10858",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "ryan.fonseca@csun.edu",
+            "days": "R",
+            "location": "SH268",
+            "start_time": "1200h",
+            "end_time": "1445h"
+        },
+        "11324": {
+            "class_number": "11324",
+            "enrollment_cap": 20,
+            "enrollment_count": 8,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "david.grewe@csun.edu",
+            "days": "M",
+            "location": "MZ211",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    },
+    "JOUR 341": {
+        "10598": {
+            "class_number": "10598",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "stacy.long@csun.edu",
+            "days": "M",
+            "location": "MZ211",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "JOUR 350": {
+        "10056": {
+            "class_number": "10056",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "david.grewe@csun.edu",
+            "days": "M",
+            "location": "MZ360",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "JOUR 365": {
+        "11909": {
+            "class_number": "11909",
+            "enrollment_cap": 70,
+            "enrollment_count": 38,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "bobbie.eisenstock@csun.edu",
             "days": "MW",
-            "location": "JR303",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        }
-    },
-    "JOUR 202": {
-        "14236": {
-            "class_number": "14236",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Kato,Nina",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "12036": {
+            "class_number": "12036",
+            "enrollment_cap": 70,
+            "enrollment_count": 22,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "bobbie.eisenstock@csun.edu",
             "days": "TR",
-            "location": "JR203",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        }
-    },
-    "JOUR 205": {
-        "14837": {
-            "class_number": "14837",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Takemori,Kanzo",
-            "days": "MW",
-            "location": "JR202",
-            "start_time": "1300h",
-            "end_time": "1415h"
-        }
-    },
-    "JOUR 304": {
-        "14277": {
-            "class_number": "14277",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Langford,Drake",
-            "days": "TR",
-            "location": "JR316",
+            "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
+        }
+    },
+    "JOUR 371": {
+        "10532": {
+            "class_number": "10532",
+            "enrollment_cap": 70,
+            "enrollment_count": 60,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "bobbie.eisenstock@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "JOUR 372": {
+        "10057": {
+            "class_number": "10057",
+            "enrollment_cap": 70,
+            "enrollment_count": 33,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "bobbie.eisenstock@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "JOUR 375": {
+        "11920": {
+            "class_number": "11920",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "julie.bien@csun.edu",
+            "days": "W",
+            "location": "MZ360",
+            "start_time": "1000h",
+            "end_time": "1245h"
+        },
+        "11997": {
+            "class_number": "11997",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "julie.bien@csun.edu",
+            "days": "R",
+            "location": "SH302",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    },
+    "JOUR 395B": {
+        "11496": {
+            "class_number": "11496",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "aron.bender@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "JOUR 395C": {
+        "11905": {
+            "class_number": "11905",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "aron.bender@csun.edu",
+            "days": "M",
+            "location": "MZ360",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "JOUR 397B": {
+        "10060": {
+            "class_number": "10060",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "arvli.ward@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "JOUR 397C": {
+        "11906": {
+            "class_number": "11906",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "arvli.ward@csun.edu",
+            "days": "M",
+            "location": "MZ140",
+            "start_time": "0930h",
+            "end_time": "1110h"
+        }
+    },
+    "JOUR 398B": {
+        "10651": {
+            "class_number": "10651",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "stacy.long@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "JOUR 398C": {
+        "11907": {
+            "class_number": "11907",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "stacy.long@csun.edu",
+            "days": "W",
+            "location": "MZ211",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    },
+    "JOUR 400": {
+        "10533": {
+            "class_number": "10533",
+            "enrollment_cap": 40,
+            "enrollment_count": 34,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.blakey@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "10534": {
+            "class_number": "10534",
+            "enrollment_cap": 40,
+            "enrollment_count": 15,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.blakey@csun.edu",
+            "days": "R",
+            "location": "MZ101",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "JOUR 410": {
+        "10691": {
+            "class_number": "10691",
+            "enrollment_cap": 20,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "david.blumenkrantz@csun.edu",
+            "days": "T",
+            "location": "MZ360",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    },
+    "JOUR 415": {
+        "10540": {
+            "class_number": "10540",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "MZ211",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "JOUR 430": {
+        "11908": {
+            "class_number": "11908",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "MZ150E",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "JOUR 440": {
+        "10061": {
+            "class_number": "10061",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "christopher.cathcart@csun.edu",
+            "days": "M",
+            "location": "MZ361",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "JOUR 445": {
+        "10541": {
+            "class_number": "10541",
+            "enrollment_cap": 20,
+            "enrollment_count": 11,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "MZ150E",
+            "start_time": "1100h",
+            "end_time": "1645h"
+        }
+    },
+    "JOUR 460": {
+        "10652": {
+            "class_number": "10652",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "david.blumenkrantz@csun.edu",
+            "days": "W",
+            "location": "MZ211",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "JOUR 474SLJ": {
+        "10599": {
+            "class_number": "10599",
+            "enrollment_cap": 20,
+            "enrollment_count": 13,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "MZ113",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "JOUR 478": {
+        "10062": {
+            "class_number": "10062",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 5,
+            "instructor": "melissa.a.wall@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        }
+    },
+    "JOUR 494AEE": {
+        "11585": {
+            "class_number": "11585",
+            "enrollment_cap": 25,
+            "enrollment_count": 10,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "julie.bien@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "JOUR 494BEE": {
+        "11586": {
+            "class_number": "11586",
+            "enrollment_cap": 25,
+            "enrollment_count": 10,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "julie.bien@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "JOUR 495DA": {
+        "20897": {
+            "class_number": "20897",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "gretchen.macchiarella@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "JOUR 495POD": {
+        "12001": {
+            "class_number": "12001",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 2,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "MZ361",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "JOUR 495SJ": {
+        "11925": {
+            "class_number": "11925",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "timothy.whyte@csun.edu",
+            "days": "T",
+            "location": "MZ361",
+            "start_time": "1300h",
+            "end_time": "1545h"
+        }
+    },
+    "JOUR 498": {
+        "10064": {
+            "class_number": "10064",
+            "enrollment_cap": 13,
+            "enrollment_count": 9,
+            "waitlist_cap": 13,
+            "waitlist_count": 0,
+            "instructor": "david.blumenkrantz@csun.edu",
+            "days": "M",
+            "location": "MZ212",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "10067": {
+            "class_number": "10067",
+            "enrollment_cap": 13,
+            "enrollment_count": 10,
+            "waitlist_cap": 13,
+            "waitlist_count": 0,
+            "instructor": "christopher.cathcart@csun.edu",
+            "days": "T",
+            "location": "MZ212",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "10815": {
+            "class_number": "10815",
+            "enrollment_cap": 13,
+            "enrollment_count": 9,
+            "waitlist_cap": 13,
+            "waitlist_count": 0,
+            "instructor": "sahar.elzahed@csun.edu",
+            "days": "T",
+            "location": "MZ212",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        },
+        "10063": {
+            "class_number": "10063",
+            "enrollment_cap": 13,
+            "enrollment_count": 7,
+            "waitlist_cap": 13,
+            "waitlist_count": 0,
+            "instructor": "joshua.molina@csun.edu",
+            "days": "T",
+            "location": "MZ212",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        },
+        "10546": {
+            "class_number": "10546",
+            "enrollment_cap": 13,
+            "enrollment_count": 7,
+            "waitlist_cap": 13,
+            "waitlist_count": 0,
+            "instructor": "taehyun.kim@csun.edu",
+            "days": "M",
+            "location": "MZ212",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        },
+        "10066": {
+            "class_number": "10066",
+            "enrollment_cap": 13,
+            "enrollment_count": 10,
+            "waitlist_cap": 13,
+            "waitlist_count": 0,
+            "instructor": "david.grewe@csun.edu",
+            "days": "R",
+            "location": "MZ212",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        },
+        "11154": {
+            "class_number": "11154",
+            "enrollment_cap": 13,
+            "enrollment_count": 2,
+            "waitlist_cap": 13,
+            "waitlist_count": 0,
+            "instructor": "bobbie.eisenstock@csun.edu",
+            "days": "W",
+            "location": "MZ212",
+            "start_time": "1400h",
+            "end_time": "1450h"
         }
     }
 }

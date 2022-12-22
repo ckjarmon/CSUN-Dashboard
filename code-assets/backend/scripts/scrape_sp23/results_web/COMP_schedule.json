@@ -2,7 +2,7 @@
     "COMP 100": {
         "16185": {
             "class_number": "16185",
-            "enrollment_cap": 12,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Bendavid,Cecile S",
             "days": "TR",
@@ -42,19 +42,9 @@
         }
     },
     "COMP 108": {
-        "16195": {
-            "class_number": "16195",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "JD1618",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
         "16715": {
             "class_number": "16715",
-            "enrollment_cap": 17,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
@@ -240,7 +230,7 @@
     "COMP 111B": {
         "16953": {
             "class_number": "16953",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Stepanek,Steven G",
             "days": "MW",
@@ -250,7 +240,7 @@
         },
         "17010": {
             "class_number": "17010",
-            "enrollment_cap": 28,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
@@ -272,7 +262,7 @@
         },
         "16952": {
             "class_number": "16952",
-            "enrollment_cap": 28,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
@@ -548,6 +538,16 @@
             "days": "TR",
             "location": "JD1618",
             "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "20815": {
+            "class_number": "20815",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "TBA",
+            "start_time": "1100h",
             "end_time": "1345h"
         }
     },
@@ -1244,7 +1244,7 @@
         },
         "21274": {
             "class_number": "21274",
-            "enrollment_cap": 20,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
@@ -1437,6 +1437,18 @@
             "end_time": "1245h"
         }
     },
+    "COMP 585": {
+        "16585": {
+            "class_number": "16585",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "S",
+            "location": "ONLINE",
+            "start_time": "1000h",
+            "end_time": "1245h"
+        }
+    },
     "COMP 589": {
         "16615": {
             "class_number": "16615",
@@ -1452,7 +1464,7 @@
     "COMP 610": {
         "16223": {
             "class_number": "16223",
-            "enrollment_cap": 7,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Noga,John J",
             "days": "F",
@@ -1464,7 +1476,7 @@
     "COMP 620": {
         "17011": {
             "class_number": "17011",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
@@ -1474,7 +1486,7 @@
         },
         "17051": {
             "class_number": "17051",
-            "enrollment_cap": 10,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -1588,23 +1600,23 @@
         },
         "17067": {
             "class_number": "17067",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "17068": {
             "class_number": "17068",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "COMP 698C": {

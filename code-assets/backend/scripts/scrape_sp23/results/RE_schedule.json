@@ -1,548 +1,72 @@
 {
-    "RE 100": {
-        "14078": {
-            "class_number": "14078",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
+    "RE 412": {
+        "13862": {
+            "class_number": "13862",
+            "enrollment_cap": 48,
+            "enrollment_count": 48,
+            "waitlist_cap": 48,
+            "waitlist_count": 7,
             "instructor": "Staff",
+            "days": "T",
+            "location": "BB1121",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "RE 414": {
+        "13863": {
+            "class_number": "13863",
+            "enrollment_cap": 48,
+            "enrollment_count": 40,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "suyan.zheng@csun.edu",
             "days": "MW",
-            "location": "SH390",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "14079": {
-            "class_number": "14079",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Baugh,Amanda",
-            "days": "R",
-            "location": "SH314",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "14080": {
-            "class_number": "14080",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Baugh,Amanda",
-            "days": "R",
-            "location": "SH384",
+            "location": "BB1121",
             "start_time": "1400h",
             "end_time": "1515h"
-        },
-        "14558": {
-            "class_number": "14558",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ruzgar,Mustafa",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14716": {
-            "class_number": "14716",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Goodfriend,Elaine A",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
         }
     },
-    "RE 101": {
-        "14083": {
-            "class_number": "14083",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Talbott,Rick F",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15027": {
-            "class_number": "15027",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Talbott,Rick F",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 150": {
-        "14081": {
-            "class_number": "14081",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH384",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "14532": {
-            "class_number": "14532",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH384",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "14082": {
-            "class_number": "14082",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "An,Yountae",
-            "days": "TR",
-            "location": "SH314",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "14091": {
-            "class_number": "14091",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Alvizo,Xochitl",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14267": {
-            "class_number": "14267",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Tevanyan,Albert",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 204": {
-        "14168": {
-            "class_number": "14168",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Tevanyan,Albert",
-            "days": "MW",
-            "location": "SH192",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "14169": {
-            "class_number": "14169",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Tevanyan,Albert",
-            "days": "MW",
-            "location": "SH192",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "14795": {
-            "class_number": "14795",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Nkulu-N'Sengha,Mutombo",
-            "days": "TR",
-            "location": "SH192",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "14937": {
-            "class_number": "14937",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH192",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "14938": {
-            "class_number": "14938",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Findlay,James D",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14974": {
-            "class_number": "14974",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Findlay,James D",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15003": {
-            "class_number": "15003",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Findlay,James D",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 240": {
-        "15190": {
-            "class_number": "15190",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
-            "instructor": "Findlay,James D",
-            "days": "MW",
-            "location": "JR214",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "RE 255": {
-        "14170": {
-            "class_number": "14170",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Donnell,Mary Jane",
-            "days": "MW",
-            "location": "SH285",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
-    "RE 256": {
-        "15270": {
-            "class_number": "15270",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Donnell,Mary Jane",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15271": {
-            "class_number": "15271",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Donnell,Mary Jane",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15329": {
-            "class_number": "15329",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Donnell,Mary Jane",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 304": {
-        "14863": {
-            "class_number": "14863",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Alvizo,Xochitl",
-            "days": "MW",
-            "location": "SH390",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "15091": {
-            "class_number": "15091",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 306": {
-        "14849": {
-            "class_number": "14849",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Nkulu-N'Sengha,Mutombo",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15188": {
-            "class_number": "15188",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Nkulu-N'Sengha,Mutombo",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 307": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 310": {
-        "14882": {
-            "class_number": "14882",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Goodfriend,Elaine A",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 311": {
-        "15191": {
-            "class_number": "15191",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Cummings,Randal L",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 325": {
-        "20961": {
-            "class_number": "20961",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Findlay,James D",
-            "days": "MW",
-            "location": "JR352",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "RE 345": {
-        "15273": {
-            "class_number": "15273",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
-            "instructor": "Nkulu-N'Sengha,Mutombo",
-            "days": "TR",
-            "location": "EU133",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "RE 356": {
-        "14850": {
-            "class_number": "14850",
-            "enrollment_cap": 33,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH390",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "RE 361": {
-        "14084": {
-            "class_number": "14084",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH384",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "14085": {
-            "class_number": "14085",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH342",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "14574": {
-            "class_number": "14574",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH108",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "14720": {
-            "class_number": "14720",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Cummings,Randal L",
-            "days": "TR",
-            "location": "SH314",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "14864": {
-            "class_number": "14864",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "An,Yountae",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14881": {
-            "class_number": "14881",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Cummings,Randal L",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14939": {
-            "class_number": "14939",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Cummings,Randal L",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15020": {
-            "class_number": "15020",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "An,Yountae",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 362": {
-        "20889": {
-            "class_number": "20889",
-            "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "An,Yountae",
-            "days": "TR",
-            "location": "EU135",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "RE 365": {
-        "15090": {
-            "class_number": "15090",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Ruzgar,Mustafa",
-            "days": "R",
-            "location": "SH192",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "RE 366": {
-        "15385": {
-            "class_number": "15385",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "White,Claire",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 367": {
-        "15268": {
-            "class_number": "15268",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "White,Claire",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 380": {
-        "20960": {
-            "class_number": "20960",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Cummings,Randal L",
-            "days": "TR",
-            "location": "SH365",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "RE 390": {
-        "14341": {
-            "class_number": "14341",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Malhotra,Vikas",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "14721": {
-            "class_number": "14721",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Malhotra,Vikas",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "RE 497J": {
-        "15431": {
-            "class_number": "15431",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Malhotra,Vikas",
+    "RE 416": {
+        "13864": {
+            "class_number": "13864",
+            "enrollment_cap": 55,
+            "enrollment_count": 55,
+            "waitlist_cap": 42,
+            "waitlist_count": 7,
+            "instructor": "ryan.hargrove@csun.edu",
             "days": "W",
-            "location": "SH384",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "RE 418": {
+        "13865": {
+            "class_number": "13865",
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 42,
+            "waitlist_count": 1,
+            "instructor": "suyan.zheng@csun.edu",
+            "days": "W",
+            "location": "BB1232",
             "start_time": "1600h",
             "end_time": "1845h"
+        }
+    },
+    "RE 420": {
+        "13856": {
+            "class_number": "13856",
+            "enrollment_cap": 48,
+            "enrollment_count": 48,
+            "waitlist_cap": 42,
+            "waitlist_count": 2,
+            "instructor": "suyan.zheng@csun.edu",
+            "days": "M",
+            "location": "BB1123",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     }
 }

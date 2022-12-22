@@ -1,934 +1,1096 @@
 {
-    "GEOG 101": [
-        {
+    "GEOG 101": {
+        "12157": {
             "class_number": "12157",
-            "enrollment_cap": 43,
-            "enrollment_count": 0,
+            "enrollment_cap": 84,
+            "enrollment_count": 34,
+            "waitlist_cap": 84,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "MW",
             "location": "SH120",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "GEOG 101A": [
-        {
+    },
+    "GEOG 101A": {
+        "13222": {
             "class_number": "13222",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
+            "enrollment_cap": 42,
+            "enrollment_count": 39,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 101AL": [
-        {
+    },
+    "GEOG 101AL": {
+        "13223": {
             "class_number": "13223",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "enrollment_cap": 42,
+            "enrollment_count": 40,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 101HON": [
-        {
+    },
+    "GEOG 101HON": {
+        "13351": {
             "class_number": "13351",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Craine,James W",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "james.w.craine@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "GEOG 102": [
-        {
+    },
+    "GEOG 102": {
+        "12501": {
             "class_number": "12501",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
+            "enrollment_cap": 48,
+            "enrollment_count": 16,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "SH170",
             "start_time": "1100h",
             "end_time": "1240h"
         },
-        {
+        "12502": {
             "class_number": "12502",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
+            "enrollment_cap": 48,
+            "enrollment_count": 6,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "SH170",
             "start_time": "1100h",
             "end_time": "1240h"
         }
-    ],
-    "GEOG 103": [
-        {
+    },
+    "GEOG 103": {
+        "12679": {
             "class_number": "12679",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Giraldo,Mario A",
-            "days": null,
+            "enrollment_cap": 84,
+            "enrollment_count": 58,
+            "waitlist_cap": 84,
+            "waitlist_count": 0,
+            "instructor": "mario.giraldo@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 103A": [
-        {
+    },
+    "GEOG 103A": {
+        "13224": {
             "class_number": "13224",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
+            "enrollment_cap": 41,
+            "enrollment_count": 10,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 103AL": [
-        {
+    },
+    "GEOG 103AL": {
+        "13225": {
             "class_number": "13225",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
+            "enrollment_cap": 41,
+            "enrollment_count": 10,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 105": [
-        {
+    },
+    "GEOG 105": {
+        "12073": {
             "class_number": "12073",
-            "enrollment_cap": 32,
-            "enrollment_count": 0,
+            "enrollment_cap": 48,
+            "enrollment_count": 15,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "T",
             "location": "SH170",
             "start_time": "1400h",
             "end_time": "1540h"
         },
-        {
+        "12680": {
             "class_number": "12680",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
+            "enrollment_cap": 48,
+            "enrollment_count": 6,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "R",
             "location": "SH170",
             "start_time": "1400h",
             "end_time": "1540h"
         }
-    ],
-    "GEOG 107": [
-        {
+    },
+    "GEOG 107": {
+        "12442": {
             "class_number": "12442",
-            "enrollment_cap": 91,
-            "enrollment_count": 0,
-            "instructor": "Graves,Steven M",
+            "enrollment_cap": 125,
+            "enrollment_count": 33,
+            "waitlist_cap": 125,
+            "waitlist_count": 0,
+            "instructor": "steve.graves@csun.edu",
             "days": "TR",
             "location": "SQ104",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "GEOG 111": [
-        {
+    },
+    "GEOG 111": {
+        "13226": {
             "class_number": "13226",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 111L": [
-        {
+    },
+    "GEOG 111L": {
+        "13227": {
             "class_number": "13227",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
+            "enrollment_cap": 42,
+            "enrollment_count": 25,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 150": [
-        {
+    },
+    "GEOG 150": {
+        "12651": {
             "class_number": "12651",
-            "enrollment_cap": 74,
-            "enrollment_count": 0,
-            "instructor": "Sun,Yifei",
+            "enrollment_cap": 120,
+            "enrollment_count": 43,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "yifei.sun@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        {
+        "13099": {
             "class_number": "13099",
-            "enrollment_cap": 61,
-            "enrollment_count": 0,
-            "instructor": "Davidson,Ronald A",
+            "enrollment_cap": 82,
+            "enrollment_count": 20,
+            "waitlist_cap": 82,
+            "waitlist_count": 0,
+            "instructor": "ronald.davidson@csun.edu",
             "days": "MW",
             "location": "SH386",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "GEOG 170": [
-        {
+    },
+    "GEOG 170": {
+        "20669": {
             "class_number": "20669",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "enrollment_cap": 30,
+            "enrollment_count": 28,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 206": [
-        {
+    },
+    "GEOG 206": {
+        "12207": {
             "class_number": "12207",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Sun,Yifei",
+            "enrollment_cap": 24,
+            "enrollment_count": 7,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "yifei.sun@csun.edu",
             "days": "MW",
             "location": "SH103",
             "start_time": "1230h",
             "end_time": "1320h"
         },
-        {
+        "12871": {
             "class_number": "12871",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Maas,Regan M",
+            "enrollment_cap": 24,
+            "enrollment_count": 7,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "regan.maas@csun.edu",
             "days": "T",
             "location": "SH103",
             "start_time": "1400h",
             "end_time": "1540h"
         },
-        {
+        "20645": {
             "class_number": "20645",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Rader,Alana",
-            "days": null,
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "alana.rader@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 206L": [
-        {
+    },
+    "GEOG 206L": {
+        "12208": {
             "class_number": "12208",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Sun,Yifei",
+            "enrollment_cap": 24,
+            "enrollment_count": 7,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "yifei.sun@csun.edu",
             "days": "MW",
             "location": "SH103",
             "start_time": "1320h",
             "end_time": "1410h"
         },
-        {
+        "12423": {
             "class_number": "12423",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Maas,Regan M",
+            "enrollment_cap": 24,
+            "enrollment_count": 7,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "regan.maas@csun.edu",
             "days": "T",
             "location": "SH103",
             "start_time": "1540h",
             "end_time": "1735h"
         },
-        {
+        "20646": {
             "class_number": "20646",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Rader,Alana",
-            "days": null,
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "alana.rader@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 300": [
-        {
+    },
+    "GEOG 300": {
+        "12183": {
             "class_number": "12183",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Drake,Luke P",
+            "enrollment_cap": 24,
+            "enrollment_count": 6,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "luke.drake@csun.edu",
             "days": "M",
             "location": "SH166",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "GEOG 301": [
-        {
+    },
+    "GEOG 301": {
+        "13262": {
             "class_number": "13262",
-            "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "Davidson,Ronald A",
+            "enrollment_cap": 41,
+            "enrollment_count": 9,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
+            "instructor": "ronald.davidson@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "GEOG 304": [
-        {
+    },
+    "GEOG 304": {
+        "13296": {
             "class_number": "13296",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 5,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "SH103",
             "start_time": "1530h",
             "end_time": "1710h"
         }
-    ],
-    "GEOG 304L": [
-        {
+    },
+    "GEOG 304L": {
+        "13297": {
             "class_number": "13297",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 5,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "W",
             "location": "SH103",
             "start_time": "1710h",
             "end_time": "1850h"
         }
-    ],
-    "GEOG 306": [
-        {
+    },
+    "GEOG 306": {
+        "12077": {
             "class_number": "12077",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 18,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "SH107",
             "start_time": "0930h",
             "end_time": "1020h"
         },
-        {
+        "12804": {
             "class_number": "12804",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Boroushaki,Soheil",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "soheil.boroushaki@csun.edu",
             "days": "TR",
             "location": "SH107",
             "start_time": "1530h",
             "end_time": "1620h"
         }
-    ],
-    "GEOG 306L": [
-        {
+    },
+    "GEOG 306L": {
+        "12078": {
             "class_number": "12078",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 18,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "SH107",
             "start_time": "1020h",
             "end_time": "1145h"
         },
-        {
+        "12805": {
             "class_number": "12805",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Boroushaki,Soheil",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "soheil.boroushaki@csun.edu",
             "days": "TR",
             "location": "SH107",
             "start_time": "1620h",
             "end_time": "1745h"
         }
-    ],
-    "GEOG 311": [
-        {
+    },
+    "GEOG 311": {
+        "13228": {
             "class_number": "13228",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 6,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "MW",
             "location": "SH166",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "GEOG 316": [
-        {
+    },
+    "GEOG 316": {
+        "12663": {
             "class_number": "12663",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 8,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "SH166",
             "start_time": "1530h",
             "end_time": "1645h"
         }
-    ],
-    "GEOG 318": [
-        {
+    },
+    "GEOG 318": {
+        "12945": {
             "class_number": "12945",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Davidson,Ronald A",
-            "days": null,
+            "enrollment_cap": 70,
+            "enrollment_count": 68,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "ronald.davidson@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 321": [
-        {
+    },
+    "GEOG 321": {
+        "12497": {
             "class_number": "12497",
-            "enrollment_cap": -6,
-            "enrollment_count": 0,
-            "instructor": "Craine,James W",
-            "days": null,
+            "enrollment_cap": 120,
+            "enrollment_count": 124,
+            "waitlist_cap": 120,
+            "waitlist_count": 12,
+            "instructor": "james.w.craine@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 322": [
-        {
+    },
+    "GEOG 322": {
+        "12821": {
             "class_number": "12821",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Jackiewicz,Edward L",
-            "days": null,
+            "enrollment_cap": 70,
+            "enrollment_count": 56,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "ed.jackiewicz@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 324": [
-        {
+    },
+    "GEOG 324": {
+        "12772": {
             "class_number": "12772",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Sun,Yifei",
+            "enrollment_cap": 42,
+            "enrollment_count": 6,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
+            "instructor": "yifei.sun@csun.edu",
             "days": "TR",
             "location": "SH160",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "GEOG 330": [
-        {
+    },
+    "GEOG 330": {
+        "12707": {
             "class_number": "12707",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Davidson,Ronald A",
-            "days": null,
+            "enrollment_cap": 65,
+            "enrollment_count": 52,
+            "waitlist_cap": 65,
+            "waitlist_count": 0,
+            "instructor": "ronald.davidson@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 364": [
-        {
+    },
+    "GEOG 364": {
+        "13230": {
             "class_number": "13230",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Giraldo,Mario A",
+            "enrollment_cap": 24,
+            "enrollment_count": 3,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "mario.giraldo@csun.edu",
             "days": "T",
             "location": "ONLINE",
             "start_time": "1530h",
             "end_time": "1710h"
         }
-    ],
-    "GEOG 364L": [
-        {
+    },
+    "GEOG 364L": {
+        "13231": {
             "class_number": "13231",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Giraldo,Mario A",
+            "enrollment_cap": 24,
+            "enrollment_count": 3,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "mario.giraldo@csun.edu",
             "days": "R",
             "location": "SH103",
             "start_time": "1530h",
             "end_time": "1710h"
         }
-    ],
-    "GEOG 365": [
-        {
+    },
+    "GEOG 365": {
+        "13252": {
             "class_number": "13252",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Rader,Alana",
+            "enrollment_cap": 24,
+            "enrollment_count": 3,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "alana.rader@csun.edu",
             "days": "MW",
             "location": "SH166",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "GEOG 365L": [
-        {
+    },
+    "GEOG 365L": {
+        "13253": {
             "class_number": "13253",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Rader,Alana",
+            "enrollment_cap": 24,
+            "enrollment_count": 2,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "alana.rader@csun.edu",
             "days": "MW",
             "location": "SH166",
             "start_time": "1530h",
             "end_time": "1620h"
         }
-    ],
-    "GEOG 366": [
-        {
+    },
+    "GEOG 366": {
+        "13263": {
             "class_number": "13263",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 4,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "SH166",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "GEOG 370": [
-        {
+    },
+    "GEOG 370": {
+        "12872": {
             "class_number": "12872",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 8,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "TR",
             "location": "SH166",
             "start_time": "1400h",
             "end_time": "1515h"
         }
-    ],
-    "GEOG 375": [
-        {
+    },
+    "GEOG 375": {
+        "20667": {
             "class_number": "20667",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Drake,Luke P",
-            "days": null,
+            "enrollment_cap": 24,
+            "enrollment_count": 12,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 404AC": [
-        {
+    },
+    "GEOG 404AC": {
+        "13232": {
             "class_number": "13232",
-            "enrollment_cap": 33,
-            "enrollment_count": 0,
-            "instructor": "Graves,Steven M",
+            "enrollment_cap": 41,
+            "enrollment_count": 7,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
+            "instructor": "steve.graves@csun.edu",
             "days": "F",
             "location": "SH106",
             "start_time": "0800h",
             "end_time": "1300h"
         }
-    ],
-    "GEOG 404BC": [
-        {
+    },
+    "GEOG 404BC": {
+        "13233": {
             "class_number": "13233",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Drake,Luke P",
+            "enrollment_cap": 24,
+            "enrollment_count": 4,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "luke.drake@csun.edu",
             "days": "F",
             "location": "SH103",
             "start_time": "1100h",
             "end_time": "1600h"
         }
-    ],
-    "GEOG 406": [
-        {
+    },
+    "GEOG 406": {
+        "12234": {
             "class_number": "12234",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Boroushaki,Soheil",
+            "enrollment_cap": 24,
+            "enrollment_count": 12,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "soheil.boroushaki@csun.edu",
             "days": "TR",
             "location": "SH107",
             "start_time": "1230h",
             "end_time": "1320h"
         }
-    ],
-    "GEOG 406L": [
-        {
+    },
+    "GEOG 406L": {
+        "12235": {
             "class_number": "12235",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Boroushaki,Soheil",
+            "enrollment_cap": 24,
+            "enrollment_count": 12,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "soheil.boroushaki@csun.edu",
             "days": "TR",
             "location": "SH107",
             "start_time": "1320h",
             "end_time": "1445h"
         }
-    ],
-    "GEOG 408B": [
-        {
+    },
+    "GEOG 408B": {
+        "13234": {
             "class_number": "13234",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 6,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "SH103",
             "start_time": "1700h",
             "end_time": "1840h"
         }
-    ],
-    "GEOG 408BL": [
-        {
+    },
+    "GEOG 408BL": {
+        "13235": {
             "class_number": "13235",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
+            "enrollment_cap": 24,
+            "enrollment_count": 6,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "M",
             "location": "SH103",
             "start_time": "1840h",
             "end_time": "2110h"
         }
-    ],
-    "GEOG 408E": [
-        {
+    },
+    "GEOG 408E": {
+        "13100": {
             "class_number": "13100",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Boroushaki,Soheil",
+            "enrollment_cap": 24,
+            "enrollment_count": 13,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "soheil.boroushaki@csun.edu",
             "days": "TR",
             "location": "SH107",
             "start_time": "1800h",
             "end_time": "1825h"
         }
-    ],
-    "GEOG 408EL": [
-        {
+    },
+    "GEOG 408EL": {
+        "20639": {
             "class_number": "20639",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Boroushaki,Soheil",
+            "enrollment_cap": 24,
+            "enrollment_count": 13,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "soheil.boroushaki@csun.edu",
             "days": "TR",
             "location": "SH107",
             "start_time": "1825h",
             "end_time": "2110h"
         }
-    ],
-    "GEOG 449": [
-        {
+    },
+    "GEOG 449": {
+        "20670": {
             "class_number": "20670",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_cap": 24,
+            "enrollment_count": 3,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "luke.drake@csun.edu",
             "days": "M",
             "location": "SH107",
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "GEOG 482": [
-        {
+    },
+    "GEOG 482": {
+        "20641": {
             "class_number": "20641",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Maas,Regan M",
+            "enrollment_cap": 24,
+            "enrollment_count": 6,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "regan.maas@csun.edu",
             "days": "W",
             "location": "SH107",
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "GEOG 490": [
-        {
+    },
+    "GEOG 490": {
+        "12150": {
             "class_number": "12150",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Maas,Regan M",
+            "enrollment_cap": 9,
+            "enrollment_count": 7,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "regan.maas@csun.edu",
             "days": "M",
             "location": "SH170",
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "12173": {
             "class_number": "12173",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Drake,Luke P",
+            "enrollment_cap": 9,
+            "enrollment_count": 9,
+            "waitlist_cap": 10,
+            "waitlist_count": 2,
+            "instructor": "luke.drake@csun.edu",
             "days": "W",
             "location": "SH130A",
             "start_time": "1400h",
             "end_time": "1645h"
         },
-        {
+        "13251": {
             "class_number": "13251",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
+            "enrollment_cap": 9,
+            "enrollment_count": 6,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 494": [
-        {
+    },
+    "GEOG 494": {
+        "13254": {
             "class_number": "13254",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
+            "enrollment_cap": 9,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
+            "days": "A",
             "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1645h"
         }
-    ],
-    "GEOG 499A": [
-        {
+    },
+    "GEOG 499A": {
+        "12362": {
             "class_number": "12362",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 499B": [
-        {
+    },
+    "GEOG 499B": {
+        "12074": {
             "class_number": "12074",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 499C": [
-        {
+    },
+    "GEOG 499C": {
+        "12144": {
             "class_number": "12144",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12145": {
             "class_number": "12145",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12963": {
             "class_number": "12963",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 550F": [
-        {
+    },
+    "GEOG 550F": {
+        "13238": {
             "class_number": "13238",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Graves,Steven M",
+            "enrollment_cap": 24,
+            "enrollment_count": 5,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "steve.graves@csun.edu",
             "days": "MW",
             "location": "SH103",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
-    ],
-    "GEOG 610E": [
-        {
+    },
+    "GEOG 610E": {
+        "20668": {
             "class_number": "20668",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Rader,Alana",
+            "enrollment_cap": 15,
+            "enrollment_count": 4,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "alana.rader@csun.edu",
             "days": "W",
             "location": "SH166",
             "start_time": "1800h",
             "end_time": "2045h"
         }
-    ],
-    "GEOG 690B": [
-        {
+    },
+    "GEOG 690B": {
+        "21165": {
             "class_number": "21165",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Maas,Regan M",
+            "enrollment_cap": 15,
+            "enrollment_count": 7,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "regan.maas@csun.edu",
             "days": "M",
             "location": "ONLINE",
             "start_time": "1800h",
             "end_time": "2045h"
         }
-    ],
-    "GEOG 690C": [
-        {
+    },
+    "GEOG 690C": {
+        "20773": {
             "class_number": "20773",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Deis,David A",
+            "enrollment_cap": 15,
+            "enrollment_count": 6,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "david.deis@csun.edu",
             "days": "R",
             "location": "SH103",
             "start_time": "1730h",
             "end_time": "2015h"
         }
-    ],
-    "GEOG 696": [
-        {
+    },
+    "GEOG 696": {
+        "20642": {
             "class_number": "20642",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Craine,James W",
-            "days": null,
+            "enrollment_cap": 15,
+            "enrollment_count": 8,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "james.w.craine@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 697": [
-        {
+    },
+    "GEOG 697": {
+        "12176": {
             "class_number": "12176",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12179": {
             "class_number": "12179",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 698": [
-        {
+    },
+    "GEOG 698": {
+        "12075": {
             "class_number": "12075",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12159": {
             "class_number": "12159",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12160": {
             "class_number": "12160",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12161": {
             "class_number": "12161",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12198": {
             "class_number": "12198",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "13353": {
             "class_number": "13353",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 699A": [
-        {
+    },
+    "GEOG 699A": {
+        "12080": {
             "class_number": "12080",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 699B": [
-        {
+    },
+    "GEOG 699B": {
+        "12076": {
             "class_number": "12076",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "GEOG 699C": [
-        {
+    },
+    "GEOG 699C": {
+        "12079": {
             "class_number": "12079",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        {
+        "12146": {
             "class_number": "12146",
             "enrollment_cap": 1,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ]
+    }
 }

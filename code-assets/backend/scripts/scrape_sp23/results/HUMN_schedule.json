@@ -1,124 +1,14 @@
 {
-    "HUMN 101": {
-        "15103": {
-            "class_number": "15103",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ditch,Corri C",
-            "days": null,
+    "HUMN 300": {
+        "15417": {
+            "class_number": "15417",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "colette.meade@csun.edu",
+            "days": "TR",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15114": {
-            "class_number": "15114",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Beadle,Jon A",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15115": {
-            "class_number": "15115",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Swenson,Patricia J",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15116": {
-            "class_number": "15116",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Swenson,Patricia J",
-            "days": "MW",
-            "location": "JR352",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "15113": {
-            "class_number": "15113",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Polk,Patrick A",
-            "days": "MW",
-            "location": "JR246",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "15112": {
-            "class_number": "15112",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Barnhart,Eric S",
-            "days": "MW",
-            "location": "JR246",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "15111": {
-            "class_number": "15111",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Srmabekian,Gina A",
-            "days": "MW",
-            "location": "JR246",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "15110": {
-            "class_number": "15110",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Boyer,Teresa S",
-            "days": "TR",
-            "location": "JR202",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "15109": {
-            "class_number": "15109",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Boyer,Teresa S",
-            "days": "TR",
-            "location": "JR202",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "15108": {
-            "class_number": "15108",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Barnhart,Eric S",
-            "days": "TR",
-            "location": "JR202",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "15107": {
-            "class_number": "15107",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Barnhart,Eric S",
-            "days": "TR",
-            "location": "JR246",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "HUMN 106": {
-        "15120": {
-            "class_number": "15120",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Walsh,Philip W",
-            "days": "TR",
-            "location": "JR132",
             "start_time": "1400h",
             "end_time": "1515h"
         }

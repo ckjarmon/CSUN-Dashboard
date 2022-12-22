@@ -1,0 +1,29 @@
+[
+    {
+        "subject": "KOR",
+        "catalog_number": "101",
+        "title": "Elementary Korean I",
+        "description": "Prerequisite: Not open to students with oral and writing proficiency or who attended schools where Korean was the language of instruction. Study of the fundamentals of Korean: alphabet and additional sounds, grammatical structure, reading, writing and practice in the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "4",
+        "prerequisites": "{Not open to students with oral and writing proficiency or who attended schools where Korean was the language of instruction}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "KOR",
+        "catalog_number": "102",
+        "title": "Elementary Korean II",
+        "description": "Prerequisite: KOR 101 or instructor consent. Not open to students with oral proficiency or who attended schools where Korean was the language of instruction. Study of the fundamentals of Korean, including alphabet and additional sounds, grammatical structure, reading, writing and practice in the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "4",
+        "prerequisites": "{{KOR 101} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "KOR",
+        "catalog_number": "201",
+        "title": "Intermediate Korean I",
+        "description": "Prerequisite: KOR 102 or permission of instructor. Designed to develop intermediate or survival level skills in Korean on topics related to daily life and everyday situations. Emphasis will be placed on activities designed to enhance all four linguistic skills, namely, listening, speaking, reading, and writing as well as knowledge of the Korean people and their culture. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{{KOR 102} || {permission of instructor}}",
+        "corequisites": "{None}"
+    }
+]

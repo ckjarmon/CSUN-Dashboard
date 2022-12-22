@@ -1,50 +1,58 @@
 {
-    "ARMN 101": [
-        {
+    "ARMN 101": {
+        "13908": {
             "class_number": "13908",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Shemmassian,Vahram L",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "vahram.shemmassian@csun.edu",
             "days": "TR",
             "location": "EU133",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "ARMN 310": [
-        {
+    },
+    "ARMN 310": {
+        "14386": {
             "class_number": "14386",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Shemmassian,Vahram L",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "vahram.shemmassian@csun.edu",
             "days": "T",
             "location": "EU133",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "ARMN 360": [
-        {
+    },
+    "ARMN 360": {
+        "14254": {
             "class_number": "14254",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Baran,Hasmig",
+            "enrollment_cap": 30,
+            "enrollment_count": 10,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "hasmig.baran@csun.edu",
             "days": "W",
             "location": "SH221",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "ARMN 417": [
-        {
+    },
+    "ARMN 417": {
+        "20806": {
             "class_number": "20806",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Baran,Hasmig",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "hasmig.baran@csun.edu",
             "days": "W",
             "location": "SH221",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ]
+    }
 }

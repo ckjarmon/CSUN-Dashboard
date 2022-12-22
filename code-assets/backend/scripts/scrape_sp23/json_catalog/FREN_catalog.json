@@ -1,0 +1,173 @@
+[
+    {
+        "subject": "FREN",
+        "catalog_number": "101",
+        "title": "Elementary French I",
+        "description": "Prerequisite: Not open to students with oral and writing proficiency or who attended schools where French was the language of instruction. Study of the fundamentals of French, including grammatical structures, reading and practice in the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{Not open to students with oral and writing proficiency or who attended schools where French was the language of instruction}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "102",
+        "title": "Elementary French II",
+        "description": "Prerequisites: FREN 101. Not open to students with oral and writing proficiency or who attended schools where French was the language of instruction. Continuation of the study of the fundamentals of French, including grammatical structures, reading and practice in the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "4",
+        "prerequisites": "{FREN 101}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "204",
+        "title": "Review Of French Grammar",
+        "description": "Prerequisite: FREN 102. Recommended Corequisite: FREN 208. Extensive grammar study intended to clarify and deepen the students understanding of French grammar through a thorough review of its basic concepts. May not be challenged if principal schooling has been in French. (Available for General Education Comparative Cultural Studies.)\n",
+        "units": "3",
+        "prerequisites": "{FREN 102}",
+        "corequisites": "{FREN 208}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "208",
+        "title": "Intermediate French Reading And Writing",
+        "description": "Prerequisite: FREN 102 or equivalent. Students acquire the techniques and strategies necessary to read and write French at appropriate intermediate levels. May not be challenged if principal schooling has been in French.\n",
+        "units": "3",
+        "prerequisites": "{FREN 102}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "300",
+        "title": "Advanced French Conversation",
+        "description": "Prerequisite: Upper Division standing in French. Not open to students who have attended schools where French was the language of instruction. Intended to encourage Majors and Minors in French engaged in the junior-year program to further develop their ability to express themselves in the French language. May not be challenged.\n",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "305",
+        "title": "French Pronunciation And Diction",
+        "description": "Prerequisite: Upper Division standing in French. Applied phonetics. Students apply what they learn about the nature of French sounds toward improving their pronunciation by means of dramatic readings ranging from simple prose to poetry and drama.\n",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "306",
+        "title": "Advanced Composition",
+        "description": "Prerequisites: Upper Division standing in French. Devoted to the analysis of types of French style and to the practical application of these type patterns in writing.\n",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "312",
+        "title": "Readings in French for Business",
+        "description": "Prerequisite: Upper division standing in French. Preparatory: FREN 306. Readings and discussion of texts dealing with various aspects of business, designed to introduce the students to the basic vocabulary and structures of commercial French.",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "313",
+        "title": "Beginning Commercial Correspondence",
+        "description": "Prerequisites: FREN 312. Introduction to the basic principles of business correspondence in French.\n",
+        "units": "3",
+        "prerequisites": "{FREN 312}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "315A",
+        "title": "Masterpieces Of French Literature",
+        "description": "Prerequisite: Upper Division standing in French. Introduction to the highlights of French literature from the Middle Ages to the Classical period.\n",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "315B",
+        "title": "Masterpieces Of French Literature Ii",
+        "description": "Prerequisite: Upper Division standing in French. Introduction to the highlights of French literature from the 18th century to the contemporary period.\n",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "380",
+        "title": "French Civilization",
+        "description": "Prerequisite: Upper division standing in French. Study of the historical, cultural and societal evolution of the French people from the earliest records to the contemporary period.",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "381",
+        "title": "The Contemporary French World",
+        "description": "Prerequisite: Upper division standing in French. Advanced conversation, focusing on aspects of modern culture.",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "405",
+        "title": "The Art of Translation",
+        "description": "Prerequisite: Upper division standing in French or instructor consent. Examination of the similarities and differences between English and French idiom and syntax by means of translation exercises ranging from colloquial to literary in nature.",
+        "units": "3",
+        "prerequisites": "{{Upper Division standing in French} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "406",
+        "title": "Textual Analysis And Composition",
+        "description": "Prerequisites: FREN 306 or 313 and 315A or 315B. Preparatory: It is recommended that this course be taken before enrollment in FREN 415D 415F or 415P. Assists students in acquiring literary analytical faculties and in applying these stylistic techniques to written analysis based on classroom discussion explication in class and students developing sensitivities to structure style and composition.\n",
+        "units": "3",
+        "prerequisites": "{{{FREN 306 || FREN 313}} && {{FREN 315A || FREN 315B}}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "415D",
+        "title": "French Drama",
+        "description": "Prerequisite: Upper Division standing in French. Preparatory: FREN 406. Examination of French drama from the medieval period to the 20th century.\n",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "415F",
+        "title": "French Fiction",
+        "description": "Prerequisite: Upper Division standing in French. Preparatory: FREN 406. Study of selected French novels and short stories tracing the development of the genre from the Middle Ages to the present.\n",
+        "units": "3",
+        "prerequisites": "{Upper Division standing in French}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "415P",
+        "title": "French Poetry",
+        "description": "Prerequisite: Upper Division standing in French or instructor consent. Preparatory: FREN 406. Study of French poetry as a genre from its origins to its modern manifestations in the 19th and 20th centuries.\n",
+        "units": "3",
+        "prerequisites": "{{Upper Division standing in French} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FREN",
+        "catalog_number": "499C",
+        "title": "Independent Study",
+        "description": "Independent Study\n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    }
+]

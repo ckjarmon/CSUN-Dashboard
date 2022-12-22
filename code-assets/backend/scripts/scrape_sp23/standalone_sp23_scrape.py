@@ -70,6 +70,7 @@ class_codes = [
     "GEOL",
     "GWS",
     "HEBR",
+    "HHD",
     "HIST",
     "HSCI",
     "HUM",
@@ -117,7 +118,7 @@ class_codes = [
     "SWRK",
     "TH",
     "UNIV",
-    "URBS", ]
+    "URBS"]
 
 
 try:
@@ -462,7 +463,7 @@ import multiprocessing
 if __name__ == "__main__":  
     
     t = []
-    
+   
     for code in class_codes:
         t.append(threading.Thread(target=gather, args=(class_codes.index(code),)))
         t[len(t)-1].start()
@@ -482,7 +483,8 @@ if __name__ == "__main__":
                 try:
                     rootCursor.execute(f"select title from csun.{code}_view where catalog_number = '{course['catalog_number']}'")
                 except mariadb.ProgrammingError:
-                    tta.append(f"csun.{code}_view")
+                    # tta.append(f"csun.{code}_view")
+                    rootCursor.execute(f'create view {code}_view as select * from catalog where subject = "{code}"')
                 except TypeError:
                     print(course)
                     
@@ -594,7 +596,7 @@ if __name__ == "__main__":
                                            end_time = '{s[c][course]['end_time']}',
                                            location =  '{s[c][course]['location']}',
                                            semester = 'spring',
-                                           year = 2023,
+                                           year = 2023
                                            where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))      
             except AttributeError:
                 continue
@@ -612,7 +614,7 @@ if __name__ == "__main__":
                                                waitlist_cap = '{s[c][course]['waitlist_cap']}', 
                                                waitlist_count = '{s[c][course]['waitlist_count']}',
                                                semester = 'spring',
-                                                year = 2023,
+                                               year = 2023
                                                where class_number = '{s[c][course]['class_number']}'""", (s[c][course]['instructor'], ))         
             except AttributeError:
                 continue

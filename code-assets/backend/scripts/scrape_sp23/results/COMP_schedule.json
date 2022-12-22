@@ -50,18 +50,6 @@
         }
     },
     "COMP 108": {
-        "16195": {
-            "class_number": "16195",
-            "enrollment_cap": 28,
-            "enrollment_count": 4,
-            "waitlist_cap": 28,
-            "waitlist_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "JD1618",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
         "16715": {
             "class_number": "16715",
             "enrollment_cap": 28,
@@ -654,6 +642,16 @@
             "days": "TR",
             "location": "JD1618",
             "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "20815": {
+            "class_number": "20815",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "TBA",
+            "start_time": "1100h",
             "end_time": "1345h"
         }
     },
@@ -1480,7 +1478,7 @@
         },
         "21274": {
             "class_number": "21274",
-            "enrollment_cap": 20,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
@@ -1703,6 +1701,18 @@
             "instructor": "Staff",
             "days": "F",
             "location": "TBA",
+            "start_time": "1000h",
+            "end_time": "1245h"
+        }
+    },
+    "COMP 585": {
+        "16585": {
+            "class_number": "16585",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "S",
+            "location": "ONLINE",
             "start_time": "1000h",
             "end_time": "1245h"
         }

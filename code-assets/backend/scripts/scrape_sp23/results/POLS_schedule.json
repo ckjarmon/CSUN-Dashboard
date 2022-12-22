@@ -1,611 +1,509 @@
 {
-    "POLS 100A": {
-        "17182": {
-            "class_number": "17182",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "EH2132",
-            "start_time": "1230h",
+    "POLS 155": {
+        "12082": {
+            "class_number": "12082",
+            "enrollment_cap": 160,
+            "enrollment_count": 38,
+            "waitlist_cap": 160,
+            "waitlist_count": 0,
+            "instructor": "gloria.guevara@csun.edu",
+            "days": "F",
+            "location": "NH113",
+            "start_time": "1100h",
             "end_time": "1345h"
         },
-        "17467": {
-            "class_number": "17467",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+        "12083": {
+            "class_number": "12083",
+            "enrollment_cap": 231,
+            "enrollment_count": 216,
+            "waitlist_cap": 231,
+            "waitlist_count": 0,
+            "instructor": "david.leitch@csun.edu",
             "days": "MW",
-            "location": "CR5125",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        }
-    },
-    "POLS 100AL": {
-        "17185": {
-            "class_number": "17185",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Collins,Eric M",
-            "days": "M",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17184": {
-            "class_number": "17184",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "EH2109",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17217": {
-            "class_number": "17217",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "EH2109",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "17252": {
-            "class_number": "17252",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
-            "instructor": "Collins,Eric M",
-            "days": "T",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17461": {
-            "class_number": "17461",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "EH2109",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "POLS 100B": {
-        "17188": {
-            "class_number": "17188",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Cadavid,Ana C",
-            "days": "TR",
-            "location": "CR5122",
+            "location": "LA181",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "17809": {
-            "class_number": "17809",
-            "enrollment_cap": 69,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+        "12084": {
+            "class_number": "12084",
+            "enrollment_cap": 138,
+            "enrollment_count": 138,
+            "waitlist_cap": 138,
+            "waitlist_count": 1,
+            "instructor": "alan.buckley@csun.edu",
             "days": "MW",
-            "location": "CR5125",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        }
-    },
-    "POLS 100BL": {
-        "17191": {
-            "class_number": "17191",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "LO1107",
-            "start_time": "1100h",
+            "location": "ONLINE",
+            "start_time": "1230h",
             "end_time": "1345h"
         },
-        "17192": {
-            "class_number": "17192",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17193": {
-            "class_number": "17193",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+        "12085": {
+            "class_number": "12085",
+            "enrollment_cap": 155,
+            "enrollment_count": 13,
+            "waitlist_cap": 155,
+            "waitlist_count": 0,
+            "instructor": "thomas.hartman@csun.edu",
             "days": "W",
-            "location": "LO1107",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "location": "CR5122",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
-        "17468": {
-            "class_number": "17468",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17597": {
-            "class_number": "17597",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "LO1107",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17631": {
-            "class_number": "17631",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "POLS 220A": {
-        "17331": {
-            "class_number": "17331",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+        "12199": {
+            "class_number": "12199",
+            "enrollment_cap": 185,
+            "enrollment_count": 74,
+            "waitlist_cap": 185,
+            "waitlist_count": 0,
+            "instructor": "keiko.hirata@csun.edu",
             "days": "TR",
-            "location": "JA100",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "NH113",
+            "start_time": "1400h",
+            "end_time": "1515h"
         },
-        "17194": {
-            "class_number": "17194",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructor": "Beloborodov,Igor",
-            "days": "MW",
+        "12200": {
+            "class_number": "12200",
+            "enrollment_cap": 231,
+            "enrollment_count": 75,
+            "waitlist_cap": 231,
+            "waitlist_count": 0,
+            "instructor": "maria.garcia-acevedo@csun.edu",
+            "days": "TR",
             "location": "LA181",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "12424": {
+            "class_number": "12424",
+            "enrollment_cap": 121,
+            "enrollment_count": 121,
+            "waitlist_cap": 121,
+            "waitlist_count": 6,
+            "instructor": null,
+            "days": "TR",
+            "location": "ONLINE",
             "start_time": "1230h",
             "end_time": "1345h"
         }
     },
-    "POLS 220AL": {
-        "17197": {
-            "class_number": "17197",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "EH2109",
-            "start_time": "1100h",
+    "POLS 155HON": {
+        "12816": {
+            "class_number": "12816",
+            "enrollment_cap": 41,
+            "enrollment_count": 41,
+            "waitlist_cap": 41,
+            "waitlist_count": 3,
+            "instructor": "jennifer.demaio@csun.edu",
+            "days": "TR",
+            "location": "SH266",
+            "start_time": "1230h",
             "end_time": "1345h"
-        },
-        "17196": {
-            "class_number": "17196",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "EH2109",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17438": {
-            "class_number": "17438",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "EH2109",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "17462": {
-            "class_number": "17462",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "18034": {
-            "class_number": "18034",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "18044": {
-            "class_number": "18044",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "18100": {
-            "class_number": "18100",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "1400h",
-            "end_time": "1645h"
         }
     },
-    "POLS 220B": {
-        "17199": {
-            "class_number": "17199",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructor": "Doty,Duane R",
-            "days": "TR",
-            "location": "CR5122",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        },
-        "17927": {
-            "class_number": "17927",
-            "enrollment_cap": 52,
-            "enrollment_count": 0,
-            "instructor": "Beloborodov,Igor",
+    "POLS 197": {
+        "12815": {
+            "class_number": "12815",
+            "enrollment_cap": 74,
+            "enrollment_count": 47,
+            "waitlist_cap": 74,
+            "waitlist_count": 0,
+            "instructor": "boris.ricks@csun.edu",
             "days": "MW",
-            "location": "CR5125",
+            "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
-        }
-    },
-    "POLS 220BL": {
-        "17202": {
-            "class_number": "17202",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "LO1102",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "17201": {
-            "class_number": "17201",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "LO1102",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17598": {
-            "class_number": "17598",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "LO1102",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17665": {
-            "class_number": "17665",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "LO1102",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "17666": {
-            "class_number": "17666",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "LO1102",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "18036": {
-            "class_number": "18036",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "LO1102",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "18037": {
-            "class_number": "18037",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "LO1102",
-            "start_time": "1400h",
-            "end_time": "1645h"
         }
     },
     "POLS 225": {
-        "17318": {
-            "class_number": "17318",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+        "12201": {
+            "class_number": "12201",
+            "enrollment_cap": 62,
+            "enrollment_count": 62,
+            "waitlist_cap": 62,
+            "waitlist_count": 2,
+            "instructor": "jennifer.demaio@csun.edu",
             "days": "TR",
-            "location": "LO1127",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "SH342",
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     },
-    "POLS 227": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        }
-    },
-    "POLS 227L": {
-        "17203": {
-            "class_number": "17203",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "LO1100",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "POLS 305": {
-        "18002": {
-            "class_number": "18002",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Miller,Justin W",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "18003": {
-            "class_number": "18003",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Miller,Justin W",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "POLS 305L": {
-        "17998": {
-            "class_number": "17998",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Miller,Justin W",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17999": {
-            "class_number": "17999",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Miller,Justin W",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "POLS 331": {
-        "18404": {
-            "class_number": "18404",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "LO1127",
+    "POLS 310": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 84,
+            "enrollment_count": 28,
+            "waitlist_cap": 84,
+            "waitlist_count": 0,
+            "instructor": "james.mitchell@csun.edu",
+            "days": "TR",
+            "location": "SH120",
             "start_time": "0930h",
             "end_time": "1045h"
         }
     },
-    "POLS 366": {
-        "17469": {
-            "class_number": "17469",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "POLS 321": {
+        "12530": {
+            "class_number": "12530",
+            "enrollment_cap": 41,
+            "enrollment_count": 26,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
+            "instructor": "talin.saroukhanian@csun.edu",
             "days": "MW",
-            "location": "LO1100",
-            "start_time": "0930h",
-            "end_time": "1215h"
+            "location": "SH266",
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     },
-    "POLS 375": {
-        "17470": {
-            "class_number": "17470",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Cadavid,Ana C",
+    "POLS 332": {
+        "12632": {
+            "class_number": "12632",
+            "enrollment_cap": 74,
+            "enrollment_count": 74,
+            "waitlist_cap": 74,
+            "waitlist_count": 1,
+            "instructor": "linda.alvarez@csun.edu",
             "days": "TR",
-            "location": "LO1127",
+            "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     },
-    "POLS 402": {
-        "17471": {
-            "class_number": "17471",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "POLS 347": {
+        "12491": {
+            "class_number": "12491",
+            "enrollment_cap": 43,
+            "enrollment_count": 10,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "adam.feldman@csun.edu",
+            "days": "F",
+            "location": "SH270",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "POLS 350": {
+        "12488": {
+            "class_number": "12488",
+            "enrollment_cap": 43,
+            "enrollment_count": 27,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "nicholas.dungey@csun.edu",
+            "days": "MW",
+            "location": "SH270",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "12149": {
+            "class_number": "12149",
+            "enrollment_cap": 45,
+            "enrollment_count": 15,
+            "waitlist_cap": 45,
+            "waitlist_count": 0,
+            "instructor": null,
+            "days": "TR",
+            "location": "SH267",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "12898": {
+            "class_number": "12898",
+            "enrollment_cap": 41,
+            "enrollment_count": 4,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
+            "instructor": "ahmad.motameni@csun.edu",
+            "days": "TR",
+            "location": "SH266",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "20903": {
+            "class_number": "20903",
+            "enrollment_cap": 45,
+            "enrollment_count": 42,
+            "waitlist_cap": 45,
+            "waitlist_count": 0,
+            "instructor": "nicholas.dungey@csun.edu",
+            "days": "MW",
+            "location": "SH267",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "POLS 355": {
+        "12088": {
+            "class_number": "12088",
+            "enrollment_cap": 84,
+            "enrollment_count": 9,
+            "waitlist_cap": 84,
+            "waitlist_count": 0,
+            "instructor": "alan.buckley@csun.edu",
+            "days": "MW",
+            "location": "SH120",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "12489": {
+            "class_number": "12489",
+            "enrollment_cap": 74,
+            "enrollment_count": 74,
+            "waitlist_cap": 74,
+            "waitlist_count": 3,
+            "instructor": "linda.alvarez@csun.edu",
             "days": "TR",
             "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12490": {
+            "class_number": "12490",
+            "enrollment_cap": 74,
+            "enrollment_count": 30,
+            "waitlist_cap": 74,
+            "waitlist_count": 0,
+            "instructor": "james.mitchell@csun.edu",
+            "days": "TR",
+            "location": "SH309",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "12534": {
+            "class_number": "12534",
+            "enrollment_cap": 41,
+            "enrollment_count": 22,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
+            "instructor": "talin.saroukhanian@csun.edu",
+            "days": "MW",
+            "location": "SH266",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "POLS 360": {
+        "12633": {
+            "class_number": "12633",
+            "enrollment_cap": 43,
+            "enrollment_count": 29,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "talin.saroukhanian@csun.edu",
+            "days": "MW",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "POLS 361": {
+        "12554": {
+            "class_number": "12554",
+            "enrollment_cap": 43,
+            "enrollment_count": 43,
+            "waitlist_cap": 43,
+            "waitlist_count": 3,
+            "instructor": "gloria.guevara@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "POLS 372": {
+        "12236": {
+            "class_number": "12236",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "alexandra.cole@csun.edu",
+            "days": "MW",
+            "location": "SH303",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "12237": {
+            "class_number": "12237",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "alexandra.cole@csun.edu",
+            "days": "MW",
+            "location": "SH303",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "12238": {
+            "class_number": "12238",
+            "enrollment_cap": 30,
+            "enrollment_count": 20,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "gloria.guevara@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "12471": {
+            "class_number": "12471",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "gloria.guevara@csun.edu",
+            "days": "TR",
+            "location": "SH303",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "POLS 403": {
+        "12219": {
+            "class_number": "12219",
+            "enrollment_cap": 43,
+            "enrollment_count": 43,
+            "waitlist_cap": 43,
+            "waitlist_count": 2,
+            "instructor": "ahmad.motameni@csun.edu",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "POLS 405": {
+        "13282": {
+            "class_number": "13282",
+            "enrollment_cap": 41,
+            "enrollment_count": 15,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
+            "instructor": "talin.saroukhanian@csun.edu",
+            "days": "W",
+            "location": "SH266",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "POLS 406": {
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 43,
+            "enrollment_count": 19,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "thomas.hartman@csun.edu",
+            "days": "TR",
+            "location": "SH270",
             "start_time": "1230h",
             "end_time": "1345h"
         }
     },
     "POLS 410": {
-        "17472": {
-            "class_number": "17472",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+        "12905": {
+            "class_number": "12905",
+            "enrollment_cap": 43,
+            "enrollment_count": 43,
+            "waitlist_cap": 43,
+            "waitlist_count": 3,
+            "instructor": "ahmad.motameni@csun.edu",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "location": "SH270",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
-    "POLS 420": {
-        "17599": {
-            "class_number": "17599",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "POLS 412": {
+        "12915": {
+            "class_number": "12915",
+            "enrollment_cap": 43,
+            "enrollment_count": 43,
+            "waitlist_cap": 43,
+            "waitlist_count": 1,
+            "instructor": "nicholas.dungey@csun.edu",
             "days": "MW",
-            "location": "LO1127",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "POLS 466": {
-        "17320": {
-            "class_number": "17320",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "LO1100",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "POLS 489": {
-        "18168": {
-            "class_number": "18168",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "LO1127",
+            "location": "SH270",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     },
-    "POLS 493": {
-        "17204": {
-            "class_number": "17204",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "POLS 420D": {
+        "13309": {
+            "class_number": "13309",
+            "enrollment_cap": 43,
+            "enrollment_count": 29,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "ahmad.motameni@csun.edu",
             "days": "W",
-            "location": "BP3100",
-            "start_time": "1530h",
-            "end_time": "1650h"
+            "location": "SH270",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
-    "POLS 495B": {
-        "18643": {
-            "class_number": "18643",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "POLS 495C": {
-        "17975": {
-            "class_number": "17975",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "POLS 497": {
-        "18319": {
-            "class_number": "18319",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "POLS 427A": {
+        "12918": {
+            "class_number": "12918",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jennifer.demaio@csun.edu",
             "days": "F",
-            "location": "LO1100",
+            "location": "SH303",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        }
+    },
+    "POLS 427AL": {
+        "12919": {
+            "class_number": "12919",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jennifer.demaio@csun.edu",
+            "days": "F",
+            "location": "SH303",
             "start_time": "0900h",
-            "end_time": "1145h"
+            "end_time": "1250h"
         }
     },
-    "POLS 498": {
-        "17206": {
-            "class_number": "17206",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Postma,Hendrik W C",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17255": {
-            "class_number": "17255",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 429": {
+        "12155": {
+            "class_number": "12155",
+            "enrollment_cap": 43,
+            "enrollment_count": 20,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "alan.buckley@csun.edu",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     },
-    "POLS 499A": {
-        "17207": {
-            "class_number": "17207",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 433A": {
+        "12509": {
+            "class_number": "12509",
+            "enrollment_cap": 43,
+            "enrollment_count": 43,
+            "waitlist_cap": 43,
+            "waitlist_count": 9,
+            "instructor": "linda.alvarez@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     },
-    "POLS 588": {
-        "18395": {
-            "class_number": "18395",
+    "POLS 439A": {
+        "12636": {
+            "class_number": "12636",
             "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
@@ -615,270 +513,420 @@
             "end_time": "TBA"
         }
     },
-    "POLS 610": {
-        "17219": {
-            "class_number": "17219",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "LO1124",
-            "start_time": "1500h",
-            "end_time": "1640h"
+    "POLS 440": {
+        "12637": {
+            "class_number": "12637",
+            "enrollment_cap": 43,
+            "enrollment_count": 16,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "richard.groper@csun.edu",
+            "days": "R",
+            "location": "SH270",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
-    "POLS 630": {
-        "17220": {
-            "class_number": "17220",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "POLS 441": {
+        "12494": {
+            "class_number": "12494",
+            "enrollment_cap": 41,
+            "enrollment_count": 32,
+            "waitlist_cap": 41,
+            "waitlist_count": 0,
+            "instructor": null,
             "days": "MW",
-            "location": "LO1127",
-            "start_time": "1700h",
-            "end_time": "1815h"
+            "location": "SH266",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
-    "POLS 651": {
-        "18045": {
-            "class_number": "18045",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "POLS 443": {
+        "12733": {
+            "class_number": "12733",
+            "enrollment_cap": 43,
+            "enrollment_count": 43,
+            "waitlist_cap": 43,
+            "waitlist_count": 2,
+            "instructor": "lawrence.becker@csun.edu",
             "days": "TR",
             "location": "ONLINE",
-            "start_time": "1700h",
-            "end_time": "1815h"
+            "start_time": "1530h",
+            "end_time": "1645h"
         }
     },
-    "POLS 696A": {
-        "17210": {
-            "class_number": "17210",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 445": {
+        "12997": {
+            "class_number": "12997",
+            "enrollment_cap": 41,
+            "enrollment_count": 41,
+            "waitlist_cap": 41,
+            "waitlist_count": 1,
+            "instructor": null,
+            "days": "MW",
+            "location": "SH266",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
-    "POLS 696B": {
-        "17211": {
-            "class_number": "17211",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Luchko,Tyler A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 446": {
+        "12508": {
+            "class_number": "12508",
+            "enrollment_cap": 43,
+            "enrollment_count": 17,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "lawrence.becker@csun.edu",
+            "days": "T",
+            "location": "SH270",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
-    "POLS 696C": {
-        "17212": {
-            "class_number": "17212",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17261": {
-            "class_number": "17261",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17286": {
-            "class_number": "17286",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17287": {
-            "class_number": "17287",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 450": {
+        "12851": {
+            "class_number": "12851",
+            "enrollment_cap": 41,
+            "enrollment_count": 41,
+            "waitlist_cap": 41,
+            "waitlist_count": 6,
+            "instructor": "david.leitch@csun.edu",
+            "days": "MW",
+            "location": "SH266",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
-    "POLS 697": {
-        "17213": {
-            "class_number": "17213",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 455": {
+        "12220": {
+            "class_number": "12220",
+            "enrollment_cap": 43,
+            "enrollment_count": 43,
+            "waitlist_cap": 43,
+            "waitlist_count": 7,
+            "instructor": "leigh.bradberry@csun.edu",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "12817": {
+            "class_number": "12817",
+            "enrollment_cap": 43,
+            "enrollment_count": 33,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "craig.renetzky@csun.edu",
+            "days": "M",
+            "location": "SH270",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
-    "POLS 698C": {
-        "17221": {
-            "class_number": "17221",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Choudhary,Debi Prasad",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17222": {
-            "class_number": "17222",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17292": {
-            "class_number": "17292",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17293": {
-            "class_number": "17293",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 457A": {
+        "12934": {
+            "class_number": "12934",
+            "enrollment_cap": 43,
+            "enrollment_count": 24,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "arthur.zverev@csun.edu",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     },
-    "POLS 698F": {
-        "17214": {
-            "class_number": "17214",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17264": {
-            "class_number": "17264",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17295": {
-            "class_number": "17295",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 457B": {
+        "12086": {
+            "class_number": "12086",
+            "enrollment_cap": 43,
+            "enrollment_count": 37,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "adam.feldman@csun.edu",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
-    "POLS 699A": {
-        "17215": {
-            "class_number": "17215",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17265": {
-            "class_number": "17265",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 461": {
+        "12922": {
+            "class_number": "12922",
+            "enrollment_cap": 43,
+            "enrollment_count": 19,
+            "waitlist_cap": 43,
+            "waitlist_count": 0,
+            "instructor": "thomas.hartman@csun.edu",
+            "days": "MW",
+            "location": "SH270",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     },
-    "POLS 699B": {
-        "17216": {
-            "class_number": "17216",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Choudhary,Debi Prasad",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "17266": {
-            "class_number": "17266",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 467": {
+        "12818": {
+            "class_number": "12818",
+            "enrollment_cap": 45,
+            "enrollment_count": 20,
+            "waitlist_cap": 45,
+            "waitlist_count": 0,
+            "instructor": "justin.mcbride@csun.edu",
+            "days": "MW",
+            "location": "SH267",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
-    "POLS 699C": {
-        "17224": {
-            "class_number": "17224",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 471A": {
+        "12162": {
+            "class_number": "12162",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 5,
+            "instructor": "boris.ricks@csun.edu",
+            "days": "MW",
+            "location": "SH290",
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     },
-    "POLS 699D": {
-        "17377": {
-            "class_number": "17377",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "POLS 471B": {
+        "12425": {
+            "class_number": "12425",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 4,
+            "instructor": "maria.garcia-acevedo@csun.edu",
+            "days": "TR",
+            "location": "SH290",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "POLS 471C": {
+        "12496": {
+            "class_number": "12496",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "alan.buckley@csun.edu",
+            "days": "TR",
+            "location": "SH290",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "POLS 471D": {
+        "12681": {
+            "class_number": "12681",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 7,
+            "instructor": "nicholas.dungey@csun.edu",
+            "days": "MW",
+            "location": "SH290",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "POLS 471E": {
+        "12426": {
+            "class_number": "12426",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "thomas.hartman@csun.edu",
+            "days": "R",
+            "location": "SH290",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "POLS 471F": {
+        "12413": {
+            "class_number": "12413",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "leigh.bradberry@csun.edu",
+            "days": "W",
+            "location": "SH290",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
-        "17378": {
-            "class_number": "17378",
+        "20756": {
+            "class_number": "20756",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "adam.feldman@csun.edu",
+            "days": "F",
+            "location": "SH290",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    },
+    "POLS 480": {
+        "13310": {
+            "class_number": "13310",
+            "enrollment_cap": 43,
+            "enrollment_count": 43,
+            "waitlist_cap": 43,
+            "waitlist_count": 4,
+            "instructor": "lale.pakradounian@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        }
+    },
+    "POLS 490CA": {
+        "12557": {
+            "class_number": "12557",
+            "enrollment_cap": 15,
+            "enrollment_count": 10,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "alexandra.cole@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "POLS 494I": {
+        "12482": {
+            "class_number": "12482",
+            "enrollment_cap": 15,
+            "enrollment_count": 5,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "alexandra.cole@csun.edu",
+            "days": "F",
+            "location": "SH104",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "POLS 494IA": {
+        "12932": {
+            "class_number": "12932",
+            "enrollment_cap": 15,
+            "enrollment_count": 5,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "alexandra.cole@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "POLS 494IB": {
+        "21268": {
+            "class_number": "21268",
+            "enrollment_cap": 20,
+            "enrollment_count": 7,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "POLS 494J": {
+        "12481": {
+            "class_number": "12481",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "leigh.bradberry@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "POLS 494JA": {
+        "12929": {
+            "class_number": "12929",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "leigh.bradberry@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "POLS 522C": {
+        "20757": {
+            "class_number": "20757",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "james.mitchell@csun.edu",
+            "days": "S",
+            "location": "ONLINE",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    },
+    "POLS 540F": {
+        "20758": {
+            "class_number": "20758",
+            "enrollment_cap": 25,
+            "enrollment_count": 12,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tom.hogen-esch@csun.edu",
+            "days": "T",
+            "location": "SH290",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "POLS 599C": {
+        "12089": {
+            "class_number": "12089",
             "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "alexandra.cole@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "POLS 698D": {
+        "12938": {
+            "class_number": "12938",
+            "enrollment_cap": 12,
+            "enrollment_count": 4,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "alexandra.cole@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     }
 }

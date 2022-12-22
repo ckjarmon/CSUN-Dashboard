@@ -1,764 +1,1010 @@
 {
-    "TH 502": {
-        "12166": {
-            "class_number": "12166",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Paez,Jose M",
-            "days": "F",
-            "location": "SH160",
-            "start_time": "0900h",
-            "end_time": "1145h"
+    "TH 108A": {
+        "10871": {
+            "class_number": "10871",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "sonia.norris@csun.edu",
+            "days": "MW",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1240h"
         },
-        "12180": {
-            "class_number": "12180",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Bartlett,Michele",
-            "days": "F",
-            "location": "SH182",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "12188": {
-            "class_number": "12188",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Terrill,Victoria M",
-            "days": "F",
-            "location": "SH266",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "12189": {
-            "class_number": "12189",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
+        "10901": {
+            "class_number": "10901",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "sonia.norris@csun.edu",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    },
+    "TH 110": {
+        "11292": {
+            "class_number": "11292",
+            "enrollment_cap": 140,
+            "enrollment_count": 55,
+            "waitlist_cap": 140,
+            "waitlist_count": 0,
+            "instructor": "jaime.morrison@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 111": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 36,
+            "enrollment_count": 19,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": "F",
-            "location": "SH279",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    },
-    "TH 503": {
-        "12438": {
-            "class_number": "12438",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Deutsch,David",
-            "days": "T",
-            "location": "SH310",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12439": {
-            "class_number": "12439",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Lipscomb,Allen E",
-            "days": "T",
-            "location": "SH102",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12440": {
-            "class_number": "12440",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mortimer,Katie D",
-            "days": "T",
-            "location": "SH160",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12441": {
-            "class_number": "12441",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Knetge,Taiann Catherine",
-            "days": "T",
-            "location": "SH106",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "13048": {
-            "class_number": "13048",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Bartlett,Michele",
-            "days": "R",
-            "location": "SH287",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        },
-        "13049": {
-            "class_number": "13049",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "SH284",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        }
-    },
-    "TH 520": {
-        "12167": {
-            "class_number": "12167",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Paez,Jose M",
-            "days": "F",
-            "location": "SH160",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        },
-        "12168": {
-            "class_number": "12168",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ramos Jr,Jose A",
-            "days": "F",
-            "location": "SH182",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        },
-        "12211": {
-            "class_number": "12211",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Abelson,Mark",
-            "days": "F",
-            "location": "SH266",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        },
-        "12270": {
-            "class_number": "12270",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Curiel,Luis O",
-            "days": "F",
-            "location": "SH279",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        }
-    },
-    "TH 523": {
-        "12609": {
-            "class_number": "12609",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Curiel,Luis O",
-            "days": "T",
-            "location": "SH302",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12610": {
-            "class_number": "12610",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Novack,Caroline N",
-            "days": "T",
-            "location": "SH310",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12611": {
-            "class_number": "12611",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Pereira,Luis A",
-            "days": "T",
-            "location": "SH371",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12612": {
-            "class_number": "12612",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Mortimer,Katie D",
-            "days": "T",
-            "location": "SH284",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12613": {
-            "class_number": "12613",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Bartlett,Michele",
-            "days": "T",
-            "location": "SH279",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12614": {
-            "class_number": "12614",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "SH302",
-            "start_time": "1800h",
-            "end_time": "1850h"
-        },
-        "12615": {
-            "class_number": "12615",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Zeledon,Jonathan X",
-            "days": "T",
-            "location": "SH310",
-            "start_time": "1800h",
-            "end_time": "1850h"
-        },
-        "12616": {
-            "class_number": "12616",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Novack,Caroline N",
-            "days": "T",
-            "location": "SH371",
-            "start_time": "1800h",
-            "end_time": "1850h"
-        }
-    },
-    "TH 523P": {
-        "12617": {
-            "class_number": "12617",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Curiel,Luis O",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12618": {
-            "class_number": "12618",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Novack,Caroline N",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12619": {
-            "class_number": "12619",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Pereira,Luis A",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12620": {
-            "class_number": "12620",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Mortimer,Katie D",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12621": {
-            "class_number": "12621",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Bartlett,Michele",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12622": {
-            "class_number": "12622",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12623": {
-            "class_number": "12623",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Zeledon,Jonathan X",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12624": {
-            "class_number": "12624",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Novack,Caroline N",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "TH 525": {
-        "12263": {
-            "class_number": "12263",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Healy,Megan K",
-            "days": "T",
-            "location": "SH284",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "12264": {
-            "class_number": "12264",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "SH279",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "TH 535": {
-        "12169": {
-            "class_number": "12169",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Park,Hyun Sun",
-            "days": "T",
-            "location": "SH310",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "12170": {
-            "class_number": "12170",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "SH279",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "12190": {
-            "class_number": "12190",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "DeBonis,Judith A",
-            "days": "T",
-            "location": "SH102",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "12683": {
-            "class_number": "12683",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "ED3115",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "12433": {
-            "class_number": "12433",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "DeBonis,Judith A",
-            "days": "T",
-            "location": "SH160",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "12434": {
-            "class_number": "12434",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jacobsen,Jeanna",
-            "days": "T",
-            "location": "SH106",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "TH 601": {
-        "12436": {
-            "class_number": "12436",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Villanueva,Dolores",
-            "days": "R",
-            "location": "SH268",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        },
-        "12437": {
-            "class_number": "12437",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mortimer,Katie D",
-            "days": "R",
-            "location": "SH279",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        }
-    },
-    "TH 602": {
-        "12171": {
-            "class_number": "12171",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mortimer,Katie D",
-            "days": "T",
-            "location": "SH302",
-            "start_time": "0930h",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
             "end_time": "1215h"
         },
-        "12181": {
-            "class_number": "12181",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Bartlett,Michele",
-            "days": "T",
-            "location": "SH106",
-            "start_time": "0930h",
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 36,
+            "enrollment_count": 7,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 36,
+            "enrollment_count": 25,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "g.avilesrodriguez@csun.edu",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
             "end_time": "1215h"
         },
-        "12212": {
-            "class_number": "12212",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Zamora-Sanchez,Marcos A",
-            "days": "T",
-            "location": "SH268",
-            "start_time": "0930h",
-            "end_time": "1215h"
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 36,
+            "enrollment_count": 5,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
         },
-        "12225": {
-            "class_number": "12225",
-            "enrollment_cap": 0,
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 5,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    },
+    "TH 111HON": {
+        "11320": {
+            "class_number": "11320",
+            "enrollment_cap": 36,
+            "enrollment_count": 1,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "doug.kaback@csun.edu",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "TH 142M": {
+        "10872": {
+            "class_number": "10872",
+            "enrollment_cap": 22,
+            "enrollment_count": 7,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "nikhil.pai@csun.edu",
+            "days": "MW",
+            "location": "NH214",
+            "start_time": "1500h",
+            "end_time": "1640h"
+        },
+        "10914": {
+            "class_number": "10914",
+            "enrollment_cap": 22,
+            "enrollment_count": 22,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "jaime.morrison@csun.edu",
+            "days": "MW",
+            "location": "NH214",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    },
+    "TH 143V": {
+        "10873": {
+            "class_number": "10873",
+            "enrollment_cap": 22,
+            "enrollment_count": 18,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "NH214",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        },
+        "10915": {
+            "class_number": "10915",
+            "enrollment_cap": 22,
+            "enrollment_count": 21,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "NH214",
+            "start_time": "1000h",
+            "end_time": "1140h"
+        }
+    },
+    "TH 155": {
+        "10877": {
+            "class_number": "10877",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 7,
+            "instructor": "daniel.weingarten@csun.edu",
+            "days": "F",
+            "location": "TH361",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    },
+    "TH 190": {
+        "11293": {
+            "class_number": "11293",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Knetge,Taiann Catherine",
-            "days": "T",
-            "location": "SH104",
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "matthew.jackson@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "11321": {
+            "class_number": "11321",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "matthew.jackson@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 208A": {
+        "10848": {
+            "class_number": "10848",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 8,
+            "instructor": "sonia.norris@csun.edu",
+            "days": "TR",
+            "location": "NH214",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "TH 222": {
+        "10868": {
+            "class_number": "10868",
+            "enrollment_cap": 40,
+            "enrollment_count": 15,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "NH209",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "TH 261": {
+        "11169": {
+            "class_number": "11169",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "TH158",
             "start_time": "0930h",
             "end_time": "1215h"
         }
     },
-    "TH 623": {
-        "12194": {
-            "class_number": "12194",
-            "enrollment_cap": 4,
+    "TH 261P": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    },
+    "TH 262": {
+        "11295": {
+            "class_number": "11295",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.cox@csun.edu",
+            "days": "TR",
+            "location": "TH365",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "TH 262P": {
+        "10875": {
+            "class_number": "10875",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.cox@csun.edu",
+            "days": "F",
+            "location": "TH365",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 263": {
+        "11170": {
+            "class_number": "11170",
+            "enrollment_cap": 20,
+            "enrollment_count": 12,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "daniel.weingarten@csun.edu",
+            "days": "TR",
+            "location": "TH160",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 263P": {
+        "10876": {
+            "class_number": "10876",
+            "enrollment_cap": 20,
+            "enrollment_count": 12,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "daniel.weingarten@csun.edu",
+            "days": "F",
+            "location": "TH160",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 290": {
+        "11294": {
+            "class_number": "11294",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "matthew.jackson@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "11322": {
+            "class_number": "11322",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 308A": {
+        "11300": {
+            "class_number": "11300",
+            "enrollment_cap": 20,
+            "enrollment_count": 7,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "sonia.norris@csun.edu",
+            "days": "MW",
+            "location": "TH159",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "TH 310": {
+        "11057": {
+            "class_number": "11057",
+            "enrollment_cap": 140,
+            "enrollment_count": 71,
+            "waitlist_cap": 140,
+            "waitlist_count": 0,
+            "instructor": "doug.kaback@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 321A": {
+        "10869": {
+            "class_number": "10869",
+            "enrollment_cap": 36,
+            "enrollment_count": 26,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "stefani.tsai@csun.edu",
+            "days": "MW",
+            "location": "NH209",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 321B": {
+        "10870": {
+            "class_number": "10870",
+            "enrollment_cap": 35,
+            "enrollment_count": 17,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "stefani.tsai@csun.edu",
+            "days": "TR",
+            "location": "NH209",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "TH 325": {
+        "11587": {
+            "class_number": "11587",
+            "enrollment_cap": 60,
+            "enrollment_count": 60,
+            "waitlist_cap": 60,
+            "waitlist_count": 1,
+            "instructor": "ali.kiani@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "11588": {
+            "class_number": "11588",
+            "enrollment_cap": 60,
+            "enrollment_count": 5,
+            "waitlist_cap": 60,
+            "waitlist_count": 0,
+            "instructor": "ali.kiani@csun.edu",
+            "days": "R",
+            "location": "NH209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "TH 333": {
+        "11853": {
+            "class_number": "11853",
+            "enrollment_cap": 140,
+            "enrollment_count": 116,
+            "waitlist_cap": 140,
+            "waitlist_count": 0,
+            "instructor": "matthew.jackson@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 342M": {
+        "11051": {
+            "class_number": "11051",
+            "enrollment_cap": 22,
+            "enrollment_count": 10,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "jaime.morrison@csun.edu",
+            "days": "MW",
+            "location": "TH159",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 346": {
+        "11028": {
+            "class_number": "11028",
+            "enrollment_cap": 25,
+            "enrollment_count": 3,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "NH100",
+            "start_time": "1000h",
+            "end_time": "1245h"
+        }
+    },
+    "TH 350": {
+        "10510": {
+            "class_number": "10510",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.cox@csun.edu",
+            "days": "TR",
+            "location": "TH361",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 361B": {
+        "11012": {
+            "class_number": "11012",
+            "enrollment_cap": 20,
+            "enrollment_count": 11,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "TH361",
+            "start_time": "1530h",
+            "end_time": "1710h"
+        }
+    },
+    "TH 361P": {
+        "1002": {
+            "class_number": "1002",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 362A": {
+        "11175": {
+            "class_number": "11175",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "TH 362B": {
+        "11013": {
+            "class_number": "11013",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 3,
+            "instructor": "garry.lennon@csun.edu",
+            "days": "MW",
+            "location": "TH361",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    },
+    "TH 362P": {
+        "1003": {
+            "class_number": "1003",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "garry.lennon@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 363A": {
+        "11296": {
+            "class_number": "11296",
+            "enrollment_cap": 20,
+            "enrollment_count": 6,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "TH160",
+            "start_time": "1200h",
+            "end_time": "1340h"
+        }
+    },
+    "TH 363P": {
+        "1004": {
+            "class_number": "1004",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "daniel.weingarten@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 371": {
+        "10684": {
+            "class_number": "10684",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "doug.kaback@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        },
+        "11297": {
+            "class_number": "11297",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "doug.kaback@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1200h",
+            "end_time": "1250h"
+        },
+        "11956": {
+            "class_number": "11956",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "NH209",
+            "start_time": "1600h",
+            "end_time": "1650h"
+        }
+    },
+    "TH 371L": {
+        "10685": {
+            "class_number": "10685",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "doug.kaback@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        },
+        "11298": {
+            "class_number": "11298",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "doug.kaback@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        },
+        "11972": {
+            "class_number": "11972",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "NH209",
+            "start_time": "1700h",
+            "end_time": "1750h"
+        }
+    },
+    "TH 381": {
+        "20752": {
+            "class_number": "20752",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 2,
+            "instructor": "matthew.jackson@csun.edu",
+            "days": "F",
+            "location": "NH111",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "TH 382A": {
+        "10519": {
+            "class_number": "10519",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 382B": {
+        "10520": {
+            "class_number": "10520",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 382C": {
+        "10521": {
+            "class_number": "10521",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 384": {
+        "10841": {
+            "class_number": "10841",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "NH121",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 390B": {
+        "11025": {
+            "class_number": "11025",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "10888": {
+            "class_number": "10888",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "10889": {
+            "class_number": "10889",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "matthew.jackson@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "10890": {
+            "class_number": "10890",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 397": {
+        "10513": {
+            "class_number": "10513",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "NH104",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    },
+    "TH 410": {
+        "20753": {
+            "class_number": "20753",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "stefani.tsai@csun.edu",
+            "days": "MW",
+            "location": "NH209",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "TH 444": {
+        "10514": {
+            "class_number": "10514",
+            "enrollment_cap": 19,
+            "enrollment_count": 19,
+            "waitlist_cap": 19,
+            "waitlist_count": 1,
+            "instructor": "larry.biederman@csun.edu",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "TH 448": {
+        "11889": {
+            "class_number": "11889",
+            "enrollment_cap": 22,
+            "enrollment_count": 9,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "UL037",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 449": {
+        "10846": {
+            "class_number": "10846",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
             "days": "R",
             "location": "SH302",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12195": {
-            "class_number": "12195",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Mortimer,Katie D",
-            "days": "R",
-            "location": "SH310",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12196": {
-            "class_number": "12196",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mankassarian,Rupal",
-            "days": "R",
-            "location": "SH371",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12197": {
-            "class_number": "12197",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Auerbach,Felicia D",
-            "days": "R",
-            "location": "SH284",
-            "start_time": "0745h",
-            "end_time": "0850h"
-        },
-        "12227": {
-            "class_number": "12227",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Curiel,Luis O",
-            "days": "T",
-            "location": "SH284",
-            "start_time": "1800h",
-            "end_time": "1850h"
-        },
-        "12265": {
-            "class_number": "12265",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Flores-Holguin,M Xiomara",
-            "days": "T",
-            "location": "SH279",
-            "start_time": "1800h",
-            "end_time": "1850h"
-        },
-        "12266": {
-            "class_number": "12266",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Mankassarian,Rupal",
-            "days": "T",
-            "location": "SH160",
-            "start_time": "1800h",
-            "end_time": "1850h"
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
-    "TH 623P": {
-        "12625": {
-            "class_number": "12625",
+    "TH 454": {
+        "11916": {
+            "class_number": "11916",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "larry.biederman@csun.edu",
+            "days": "F",
+            "location": "TH159",
+            "start_time": "1200h",
+            "end_time": "1725h"
+        }
+    },
+    "TH 457": {
+        "10572": {
+            "class_number": "10572",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "W",
+            "location": "TH160",
+            "start_time": "1000h",
+            "end_time": "1200h"
+        }
+    },
+    "TH 473": {
+        "10724": {
+            "class_number": "10724",
+            "enrollment_cap": 25,
+            "enrollment_count": 9,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "NH209",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    },
+    "TH 473L": {
+        "10725": {
+            "class_number": "10725",
+            "enrollment_cap": 25,
+            "enrollment_count": 9,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "NH209",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        }
+    },
+    "TH 490B": {
+        "11029": {
+            "class_number": "11029",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "matthew.jackson@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "10891": {
+            "class_number": "10891",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "10892": {
+            "class_number": "10892",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "10893": {
+            "class_number": "10893",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 498F": {
+        "10516": {
+            "class_number": "10516",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "TH 544": {
+        "11930": {
+            "class_number": "11930",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "larry.biederman@csun.edu",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    },
+    "TH 545": {
+        "11888": {
+            "class_number": "11888",
             "enrollment_cap": 5,
             "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "larry.biederman@csun.edu",
+            "days": "F",
+            "location": "TH159",
+            "start_time": "1200h",
+            "end_time": "1725h"
+        }
+    },
+    "TH 698C": {
+        "10524": {
+            "class_number": "10524",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12626": {
-            "class_number": "12626",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Mortimer,Katie D",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12627": {
-            "class_number": "12627",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Mankassarian,Rupal",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12628": {
-            "class_number": "12628",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Auerbach,Felicia D",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12629": {
-            "class_number": "12629",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Curiel,Luis O",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12630": {
-            "class_number": "12630",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Flores-Holguin,M Xiomara",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "12631": {
-            "class_number": "12631",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Mankassarian,Rupal",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "TH 645": {
-        "12267": {
-            "class_number": "12267",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Paez,Jose M",
-            "days": "R",
-            "location": "SH102",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12268": {
-            "class_number": "12268",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Abelson,Mark",
-            "days": "R",
-            "location": "SH160",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12269": {
-            "class_number": "12269",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Ramos Jr,Jose A",
-            "days": "R",
-            "location": "SH106",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12435": {
-            "class_number": "12435",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Woo,Darlene",
-            "days": "R",
-            "location": "SH182",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "TH 650A": {
-        "12517": {
-            "class_number": "12517",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Curiel,Luis O",
-            "days": "R",
-            "location": "SH102",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "12757": {
-            "class_number": "12757",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "SH310",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "TH 650C": {
-        "13051": {
-            "class_number": "13051",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Paez,Jose M",
-            "days": "R",
-            "location": "SH106",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "12853": {
-            "class_number": "12853",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "SH371",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "TH 650M": {
-        "13311": {
-            "class_number": "13311",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Brooks,Tiffani A",
-            "days": "R",
-            "location": "SH279",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    },
-    "TH 698": {
-        "12174": {
-            "class_number": "12174",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Park,Hyun Sun",
-            "days": "T",
-            "location": "SH268",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12175": {
-            "class_number": "12175",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "DeBonis,Judith A",
-            "days": "T",
-            "location": "SH182",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12191": {
-            "class_number": "12191",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Jacobsen,Jeanna",
-            "days": "T",
-            "location": "SH266",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12192": {
-            "class_number": "12192",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Brown,Jodi L",
-            "days": "T",
-            "location": "SH104",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "12226": {
-            "class_number": "12226",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Park,Hyun Sun",
-            "days": "R",
-            "location": "SH160",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        },
-        "12532": {
-            "class_number": "12532",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "DeBonis,Judith A",
-            "days": "R",
-            "location": "SH106",
-            "start_time": "1800h",
-            "end_time": "2045h"
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     }
 }

@@ -1,0 +1,20 @@
+[
+    {
+        "subject": "CCE",
+        "catalog_number": "200",
+        "title": "Introduction to Civic and Community Engagement",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Introduces students to the rewards, opportunities and challenges of collaborating with community service partners, which can include charitable or nonprofit organizations and government offices or agencies. Students will learn how to identify opportunities for civic and community engagement, how to locate resources for such projects, and how to collaborate effectively with community partners. Requires at least 20 hours of community service. (Available for General Education, E Lifelong Learning.)",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "CCE",
+        "catalog_number": "490",
+        "title": "Civic and Community Engagement Capstone",
+        "description": "Prerequisites: CCE 200; Upper division standing. Through coursework and a collaborative project with a community partner, students complete requirements for the Civic and Community Engagement minor. The collaborative project can include community service, fieldwork or an internship with a government or nonprofit agency, with the approval of the CCE advisor. Requires up to 40 hours of community service during the semester.",
+        "units": "3",
+        "prerequisites": "{{CCE 200} && {Upper division standing}}",
+        "corequisites": "{None}"
+    }
+]

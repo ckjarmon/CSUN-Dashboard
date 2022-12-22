@@ -1,0 +1,38 @@
+[
+    {
+        "subject": "CHIN",
+        "catalog_number": "101",
+        "title": "Elementary Mandarin Chinese I",
+        "description": "Prerequisite: Not open to students with oral and writing proficiency or who attended schools where Mandarin was the language of instruction. Study of the fundamentals of Mandarin Chinese, including grammatical structure, alphabet, writing and practice of the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{Not open to students with oral and writing proficiency or who attended schools where Mandarin was the language of instruction}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "CHIN",
+        "catalog_number": "102",
+        "title": "Elementary Mandarin Chinese II",
+        "description": "Prerequisite: CHIN 101 or instructor consent. Not open to students with oral and writing proficiency or who attended schools where Mandarin was the language of instruction. Continuation of the study of the fundamentals of Mandarin, including grammatical structures, reading, writing, practice in the spoken language. May not be challenged by exam. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "4",
+        "prerequisites": "{{CHIN 101} || {instructor consent}}",
+        "corequisites": "None"
+    },
+    {
+        "subject": "CHIN",
+        "catalog_number": "202",
+        "title": "Intermediate Mandarin Chinese II",
+        "description": "Prerequisite: CHIN 201. Recapitulation of basic grammar, including intense practice in reading and writing, reading of short stories, poems and essays and analysis of the reading. May not be challenged if principal schooling has been in Mandarin. (Available for General Education, F Comparative Cultural Studies.)",
+        "units": "3",
+        "prerequisites": "{CHIN 201}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "CHIN",
+        "catalog_number": "312",
+        "title": "Business Chinese",
+        "description": "Prerequisite: CHIN 202 or permission of instructor. This course is designed for students who have completed at least two years of Chinese study (or equivalent) and are interested in working or doing business with China. It focuses on developing Chinese language proficiency and business oriented vocabulary by using practical real world commercial applications. Students will become familiar with the Chinese business culture, customs, strategies, etiquette and taboos necessary for success in doing business in China. Emphasis will be placed on the examination of case studies in both Chinese and English of multinational business development in China and global expansion by Chinese companies.",
+        "units": "3",
+        "prerequisites": "{{CHIN 202} || {permission of instructor}}",
+        "corequisites": "{None}"
+    }
+]

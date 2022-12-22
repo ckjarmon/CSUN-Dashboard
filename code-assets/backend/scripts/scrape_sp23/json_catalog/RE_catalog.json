@@ -1,0 +1,47 @@
+[
+    {
+        "subject": "RE",
+        "catalog_number": "412",
+        "title": "Real Estate Practice",
+        "description": "Pre/Corequisites: BUS 302 and BUS 302L for Business majors. This course explores the practical applications of real estate theory to the operation of a real estate business. Legal, ethical, marketing and financial aspects of running a real estate business, including property management and leasing will be introduced. Economic factors affecting real estate value are emphasized. Available for graduate credit in the real estate certificate program.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{BUS 302 and BUS 302L for Business majors}"
+    },
+    {
+        "subject": "RE",
+        "catalog_number": "414",
+        "title": "Real Estate Principles",
+        "description": "Corequisites: BUS 302 and BUS 302L for Business majors. A survey of real estate, including the nature of real property, ownership, transactions, contracts, agency, lending, appraisal, taxation and governmental restrictions on use. Topics include property management, civil rights and fair housing. The course covers the regulation of real estate professions, including ethics and professional responsibility. Available for graduate credit in the real estate certificate program.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{BUS 302 and BUS 302L for Business majors}"
+    },
+    {
+        "subject": "RE",
+        "catalog_number": "416",
+        "title": "Real Estate Appraisal",
+        "description": "Prerequisite: RE 414. BUS 302 and BUS 302L are prerequisites for Business majors. Analysis of the various determinants of real estate appraisal and the methods used in practice to estimate such value. Economic factors affecting real estate value are emphasized and traditional appraisal techniques are critically examined. Available for graduate credit in the real estate certificate program.",
+        "units": "3",
+        "prerequisites": "{RE 414}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "RE",
+        "catalog_number": "418",
+        "title": "Real Estate Market and Development Analysis",
+        "description": "Prerequisite: Completion of the lower division writing requirement. BUS 302 and BUS 302L are co/prerequisites for Business majors. This course will present fundamental analytical techniques and practical applications for market analysis of various forms of real estate. It explores macro and micro aspects of residential, retail, office, and industrial markets and examines methodologies for analyzing such markets for real estate development/investment purposes. Available for graduate credit in the real estate certificate program.",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "RE",
+        "catalog_number": "420",
+        "title": "Real Estate Finance",
+        "description": "Prerequisites: RE 412; RE 414. BUS 302 and BUS 302L are prerequisites for Business majors. Theory and methods of real estate mortgages and investment analysis. Analysis of the instruments, institutions, agencies, and operations involved in the funding and underwriting of real estate investments. Includes emphasis on analytical techniques and computer applications. Available for graduate credit in the real estate certificate program.",
+        "units": "3",
+        "prerequisites": "{{RE 412} && {RE 414}}",
+        "corequisites": "{None}"
+    }
+]

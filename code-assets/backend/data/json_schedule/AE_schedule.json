@@ -1,26 +1,30 @@
 {
-    "AE 486B": [
-        {
+    "AE 486B": {
+        "16304": {
             "class_number": "16304",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Mahjoob,Shadi",
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "shadi.mahjoob@csun.edu",
             "days": "TR",
             "location": "JD1130A",
             "start_time": "1230h",
             "end_time": "1520h"
         }
-    ],
-    "AE 572": [
-        {
+    },
+    "AE 572": {
+        "16944": {
             "class_number": "16944",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Maron Sauer,Vinicius",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 20,
+            "waitlist_count": 12,
+            "instructor": "vmsauer@csun.edu",
             "days": "MW",
             "location": "JD1553",
             "start_time": "1600h",
             "end_time": "1715h"
         }
-    ]
+    }
 }

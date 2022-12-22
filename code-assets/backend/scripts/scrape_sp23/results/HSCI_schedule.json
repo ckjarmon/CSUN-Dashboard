@@ -1,442 +1,1346 @@
 {
-    "HSCI 110": {
-        "12844": {
-            "class_number": "12844",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Marcos,Moyses",
+    "HSCI 131": {
+        "19023": {
+            "class_number": "19023",
+            "enrollment_cap": 50,
+            "enrollment_count": 18,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "lisa.chaudhari@csun.edu",
             "days": "TR",
-            "location": "SH184",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "12925": {
-            "class_number": "12925",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Marcos,Moyses",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "HSCI 111": {
-        "12602": {
-            "class_number": "12602",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Goldner,Erik H",
-            "days": "TR",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12603": {
-            "class_number": "12603",
-            "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "Goldner,Erik H",
-            "days": "TR",
-            "location": "SH186",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "HSCI 150": {
-        "12222": {
-            "class_number": "12222",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Addison,Kathleen E",
-            "days": "TR",
-            "location": "SH309",
+            "location": "JD3502",
             "start_time": "1400h",
             "end_time": "1515h"
-        }
-    },
-    "HSCI 151": {
-        "13243": {
-            "class_number": "13243",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Addison,Kathleen E",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "0930h",
-            "end_time": "1045h"
         },
-        "13244": {
-            "class_number": "13244",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Morgenstern,Adam Edward",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "HSCI 161": {
-        "12209": {
-            "class_number": "12209",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Juarez-Dappe,Patricia I",
-            "days": "T",
-            "location": "SH184",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "HSCI 185": {
-        "12795": {
-            "class_number": "12795",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructor": "Howes,Rachel T",
-            "days": "MW",
-            "location": "SH286",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "HSCI 270": {
-        "12746": {
-            "class_number": "12746",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Nuno,John Paul A",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "12842": {
-            "class_number": "12842",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Traviolia,Tristan J",
-            "days": "MW",
+        "19202": {
+            "class_number": "19202",
+            "enrollment_cap": 110,
+            "enrollment_count": 37,
+            "waitlist_cap": 110,
+            "waitlist_count": 0,
+            "instructor": "robyn.parks@csun.edu",
+            "days": "TR",
             "location": "JA100",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19869": {
+            "class_number": "19869",
+            "enrollment_cap": 50,
+            "enrollment_count": 41,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD3514",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     },
-    "HSCI 271": {
-        "12526": {
-            "class_number": "12526",
+    "HSCI 132": {
+        "18692": {
+            "class_number": "18692",
+            "enrollment_cap": 40,
+            "enrollment_count": 27,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "craig.winkelman@csun.edu",
+            "days": "MW",
+            "location": "JD3502",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19141": {
+            "class_number": "19141",
+            "enrollment_cap": 40,
+            "enrollment_count": 18,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "craig.winkelman@csun.edu",
+            "days": "MW",
+            "location": "JD3502",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 170": {
+        "18685": {
+            "class_number": "18685",
             "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Devine,Thomas W",
-            "days": "TR",
-            "location": "CR5122",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "12443": {
-            "class_number": "12443",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kim,Jessica M",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "12527": {
-            "class_number": "12527",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Maar III,Henry Richard",
-            "days": "TR",
-            "location": "SH386",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "HSCI 301": {
-        "12430": {
-            "class_number": "12430",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Fitzpatrick-Behrens,Susan R",
-            "days": "F",
-            "location": "SH380",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        },
-        "12800": {
-            "class_number": "12800",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kaja,Jeffrey D",
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "renee.peace@csun.edu",
             "days": "T",
-            "location": "SH184",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "location": "JD3516",
+            "start_time": "1400h",
+            "end_time": "1540h"
         },
-        "20733": {
-            "class_number": "20733",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Neirick,Miriam B",
-            "days": "TR",
-            "location": "SH279",
-            "start_time": "1230h",
-            "end_time": "1345h"
+        "18686": {
+            "class_number": "18686",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "renee.peace@csun.edu",
+            "days": "T",
+            "location": "JD3516",
+            "start_time": "1600h",
+            "end_time": "1740h"
+        },
+        "19125": {
+            "class_number": "19125",
+            "enrollment_cap": 25,
+            "enrollment_count": 12,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "renee.peace@csun.edu",
+            "days": "S",
+            "location": "JD3516",
+            "start_time": "0900h",
+            "end_time": "1040h"
         }
     },
-    "HSCI 303": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
+    "HSCI 182": {
+        "18789": {
+            "class_number": "18789",
+            "enrollment_cap": 24,
+            "enrollment_count": 15,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jennifer.little@csun.edu",
             "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
+            "location": "JD1124",
+            "start_time": "0800h",
             "end_time": "1215h"
         }
     },
-    "HSCI 304": {
-        "20734": {
-            "class_number": "20734",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
+    "HSCI 231": {
+        "18687": {
+            "class_number": "18687",
+            "enrollment_cap": 110,
+            "enrollment_count": 39,
+            "waitlist_cap": 110,
+            "waitlist_count": 0,
+            "instructor": "robyn.parks@csun.edu",
             "days": "MW",
-            "location": "SH265",
+            "location": "SQ104",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "18688": {
+            "class_number": "18688",
+            "enrollment_cap": 110,
+            "enrollment_count": 28,
+            "waitlist_cap": 110,
+            "waitlist_count": 0,
+            "instructor": "robyn.parks@csun.edu",
+            "days": "TR",
+            "location": "SQ104",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19691": {
+            "class_number": "19691",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 9,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 281": {
+        "18680": {
+            "class_number": "18680",
+            "enrollment_cap": 12,
+            "enrollment_count": 8,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "iisha.coleman@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19560": {
+            "class_number": "19560",
+            "enrollment_cap": 12,
+            "enrollment_count": 6,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "iisha.coleman@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 284": {
+        "18681": {
+            "class_number": "18681",
+            "enrollment_cap": 12,
+            "enrollment_count": 8,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "iisha.coleman@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19561": {
+            "class_number": "19561",
+            "enrollment_cap": 12,
+            "enrollment_count": 5,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "iisha.coleman@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 286": {
+        "18790": {
+            "class_number": "18790",
+            "enrollment_cap": 24,
+            "enrollment_count": 15,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "doris.abrishami@csun.edu",
+            "days": "F",
+            "location": "JD1124",
+            "start_time": "0900h",
+            "end_time": "1450h"
+        }
+    },
+    "HSCI 302": {
+        "18846": {
+            "class_number": "18846",
+            "enrollment_cap": 24,
+            "enrollment_count": 12,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "TR",
+            "location": "JD1124",
             "start_time": "0930h",
             "end_time": "1045h"
         }
     },
-    "HSCI 341": {
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "HSCI 342": {
-        "12542": {
-            "class_number": "12542",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Horowitz,Richard S",
-            "days": "TR",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
+    "HSCI 312": {
+        "19046": {
+            "class_number": "19046",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "jennifer.newman@csun.edu",
+            "days": "R",
+            "location": "JD3502",
+            "start_time": "1100h",
+            "end_time": "1345h"
         },
-        "12605": {
-            "class_number": "12605",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Horowitz,Richard S",
+        "19214": {
+            "class_number": "19214",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jennifer.newman@csun.edu",
             "days": "W",
-            "location": "ONLINE",
+            "location": "JD3502",
             "start_time": "1600h",
             "end_time": "1845h"
+        }
+    },
+    "HSCI 313": {
+        "18670": {
+            "class_number": "18670",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "carmen.saunders@csun.edu",
+            "days": "T",
+            "location": "JD3502",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19236": {
+            "class_number": "19236",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "carmen.saunders@csun.edu",
+            "days": "R",
+            "location": "JD3502",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19353": {
+            "class_number": "19353",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "joo.kim@csun.edu",
+            "days": "W",
+            "location": "JD2522",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 314": {
+        "19215": {
+            "class_number": "19215",
+            "enrollment_cap": 25,
+            "enrollment_count": 22,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "steven.stumpf@csun.edu",
+            "days": "M",
+            "location": "SG108",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "19585": {
+            "class_number": "19585",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 6,
+            "instructor": "grishma.bhavsar@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19586": {
+            "class_number": "19586",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 6,
+            "instructor": "steven.stumpf@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19693": {
+            "class_number": "19693",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 8,
+            "instructor": "steven.stumpf@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 331": {
+        "19235": {
+            "class_number": "19235",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "mary.valdez@csun.edu",
+            "days": "MW",
+            "location": "JD3516",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19212": {
+            "class_number": "19212",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "mary.valdez@csun.edu",
+            "days": "MW",
+            "location": "JD3516",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19559": {
+            "class_number": "19559",
+            "enrollment_cap": 25,
+            "enrollment_count": 15,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "mary.valdez@csun.edu",
+            "days": "W",
+            "location": "JD3516",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19743": {
+            "class_number": "19743",
+            "enrollment_cap": 25,
+            "enrollment_count": 22,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "mary.valdez@csun.edu",
+            "days": "TR",
+            "location": "SG101",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "HSCI 335": {
+        "19374": {
+            "class_number": "19374",
+            "enrollment_cap": 30,
+            "enrollment_count": 24,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "joo.kim@csun.edu",
+            "days": "F",
+            "location": "JD2524",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 336": {
+        "18690": {
+            "class_number": "18690",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 4,
+            "instructor": "anita.slechta@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18691": {
+            "class_number": "18691",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "19028": {
+            "class_number": "19028",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 15,
+            "instructor": "sloane.burke@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19198": {
+            "class_number": "19198",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "sloane.burke@csun.edu",
+            "days": "T",
+            "location": "JD2528",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19459": {
+            "class_number": "19459",
+            "enrollment_cap": 30,
+            "enrollment_count": 20,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JD2528",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 337": {
+        "19193": {
+            "class_number": "19193",
+            "enrollment_cap": 230,
+            "enrollment_count": 230,
+            "waitlist_cap": 230,
+            "waitlist_count": 1,
+            "instructor": "robin.edmonds@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19221": {
+            "class_number": "19221",
+            "enrollment_cap": 50,
+            "enrollment_count": 37,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "robin.edmonds@csun.edu",
+            "days": "TR",
+            "location": "JD3514",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
     "HSCI 345": {
-        "12978": {
-            "class_number": "12978",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Fitzpatrick-Behrens,Susan R",
-            "days": "R",
-            "location": "SH186",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "HSCI 350": {
-        "12741": {
-            "class_number": "12741",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Addison,Kathleen E",
-            "days": "M",
-            "location": "SH160",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "HSCI 351": {
-        "20736": {
-            "class_number": "20736",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Santana,Daniel",
+        "19244": {
+            "class_number": "19244",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 13,
+            "instructor": "vicki.ebin@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18898": {
+            "class_number": "18898",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "Staff",
             "days": "MW",
-            "location": "SH160",
+            "location": "JD3514",
             "start_time": "1230h",
             "end_time": "1345h"
+        },
+        "18941": {
+            "class_number": "18941",
+            "enrollment_cap": 110,
+            "enrollment_count": 60,
+            "waitlist_cap": 110,
+            "waitlist_count": 0,
+            "instructor": "gretta.madjzoob@csun.edu",
+            "days": "W",
+            "location": "SQ104",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19024": {
+            "class_number": "19024",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "joy.c.williams@csun.edu",
+            "days": "M",
+            "location": "JD2522",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19332": {
+            "class_number": "19332",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "gretta.madjzoob@csun.edu",
+            "days": "T",
+            "location": "SG109",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19531": {
+            "class_number": "19531",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 12,
+            "instructor": "vicki.ebin@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19645": {
+            "class_number": "19645",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "19694": {
+            "class_number": "19694",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "19722": {
+            "class_number": "19722",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "HSCI 369": {
-        "12431": {
-            "class_number": "12431",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ward,Michael K",
-            "days": "TR",
-            "location": "SH209",
-            "start_time": "1400h",
-            "end_time": "1515h"
+        "20142": {
+            "class_number": "20142",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "bobbie.emetu@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     },
-    "HSCI 370": {
-        "12742": {
-            "class_number": "12742",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Blakley,Christopher",
+    "HSCI 385": {
+        "18682": {
+            "class_number": "18682",
+            "enrollment_cap": 24,
+            "enrollment_count": 16,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "corey.hidalgo@csun.edu",
+            "days": "R",
+            "location": "JD1124",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 390": {
+        "19224": {
+            "class_number": "19224",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "kaitlin.bahr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19542": {
+            "class_number": "19542",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "kaitlin.bahr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19724": {
+            "class_number": "19724",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "kaitlin.bahr@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19918": {
+            "class_number": "19918",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "lawrence.chu@csun.edu",
             "days": "MW",
-            "location": "SH186",
+            "location": "UL001",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19922": {
+            "class_number": "19922",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "lawrence.chu@csun.edu",
+            "days": "MW",
+            "location": "RE153",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19543": {
+            "class_number": "19543",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "john.pineda@csun.edu",
+            "days": "T",
+            "location": "SH305",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 390L": {
+        "18695": {
+            "class_number": "18695",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19225": {
+            "class_number": "19225",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19725": {
+            "class_number": "19725",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19920": {
+            "class_number": "19920",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "RE276",
+            "start_time": "1230h",
+            "end_time": "1320h"
+        },
+        "19924": {
+            "class_number": "19924",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "JD2521",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        "19226": {
+            "class_number": "19226",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "T",
+            "location": "RE276",
+            "start_time": "1900h",
+            "end_time": "2045h"
+        }
+    },
+    "HSCI 391": {
+        "19632": {
+            "class_number": "19632",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "todd.larson@csun.edu",
+            "days": "T",
+            "location": "JD2521",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19633": {
+            "class_number": "19633",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "todd.larson@csun.edu",
+            "days": "W",
+            "location": "JD2521",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19634": {
+            "class_number": "19634",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "yazeed.alhiyari@csun.edu",
+            "days": "M",
+            "location": "JD2521",
+            "start_time": "1900h",
+            "end_time": "2015h"
+        },
+        "19882": {
+            "class_number": "19882",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "yazeed.alhiyari@csun.edu",
+            "days": "R",
+            "location": "JD2521",
+            "start_time": "1600h",
+            "end_time": "1715h"
+        },
+        "19991": {
+            "class_number": "19991",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "yazeed.alhiyari@csun.edu",
+            "days": "T",
+            "location": "JD2521",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "20035": {
+            "class_number": "20035",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 17,
+            "instructor": "steven.stumpf@csun.edu",
+            "days": "R",
+            "location": "JD2521",
             "start_time": "0930h",
             "end_time": "1045h"
         }
     },
-    "HSCI 370HON": {
-        "12759": {
-            "class_number": "12759",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
-            "instructor": "Kaja,Jeffrey D",
-            "days": "TR",
-            "location": "SH184",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "HSCI 371": {
-        "12221": {
-            "class_number": "12221",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Traviolia,Tristan J",
-            "days": "MW",
-            "location": "SH280",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "HSCI 380": {
-        "13060": {
-            "class_number": "13060",
-            "enrollment_cap": 26,
-            "enrollment_count": 0,
-            "instructor": "Sides,Josh",
-            "days": "TR",
-            "location": "SH265",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "HSCI 417": {
-        "12691": {
-            "class_number": "12691",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Ward,Michael K",
-            "days": "F",
-            "location": "SH186",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "13180": {
-            "class_number": "13180",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kovalesky,Brian R",
-            "days": "S",
-            "location": "SH184",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "13241": {
-            "class_number": "13241",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kovalesky,Brian R",
-            "days": "S",
-            "location": "SH184",
-            "start_time": "1230h",
-            "end_time": "1515h"
-        }
-    },
-    "HSCI 420": {
-        "20737": {
-            "class_number": "20737",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH106",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "HSCI 426": {
-        "13106": {
-            "class_number": "13106",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Howes,Rachel T",
+    "HSCI 412": {
+        "18671": {
+            "class_number": "18671",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 6,
+            "instructor": "damon.cianci@csun.edu",
             "days": "W",
-            "location": "SH182",
+            "location": "JD3514",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19299": {
+            "class_number": "19299",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "stephan.chung@csun.edu",
+            "days": "M",
+            "location": "JD3516",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19721": {
+            "class_number": "19721",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 9,
+            "instructor": "stephan.chung@csun.edu",
+            "days": "T",
+            "location": "JD2528",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 413": {
+        "18672": {
+            "class_number": "18672",
+            "enrollment_cap": 25,
+            "enrollment_count": 20,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "louis.rubino@csun.edu",
+            "days": "T",
+            "location": "JD3514",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19030": {
+            "class_number": "19030",
+            "enrollment_cap": 25,
+            "enrollment_count": 22,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "randy.farber@csun.edu",
+            "days": "M",
+            "location": "JD1124",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19462": {
+            "class_number": "19462",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrew.oppenberg@csun.edu",
+            "days": "W",
+            "location": "SG103",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 414": {
+        "18673": {
+            "class_number": "18673",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrew.oppenberg@csun.edu",
+            "days": "R",
+            "location": "JD3514",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19302": {
+            "class_number": "19302",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jerry.jackson@csun.edu",
+            "days": "W",
+            "location": "JD3514",
             "start_time": "1900h",
             "end_time": "2145h"
+        },
+        "19727": {
+            "class_number": "19727",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "andrew.oppenberg@csun.edu",
+            "days": "M",
+            "location": "RE153",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 415": {
+        "18674": {
+            "class_number": "18674",
+            "enrollment_cap": 25,
+            "enrollment_count": 20,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "brian.malec@csun.edu",
+            "days": "R",
+            "location": "JD2528",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "19199": {
+            "class_number": "19199",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "brian.malec@csun.edu",
+            "days": "T",
+            "location": "UL002",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 416": {
+        "18909": {
+            "class_number": "18909",
+            "enrollment_cap": 25,
+            "enrollment_count": 15,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "M",
+            "location": "SG101",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "19728": {
+            "class_number": "19728",
+            "enrollment_cap": 25,
+            "enrollment_count": 23,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "dennis.fliegelman@csun.edu",
+            "days": "W",
+            "location": "JD2520",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 419": {
+        "18890": {
+            "class_number": "18890",
+            "enrollment_cap": 25,
+            "enrollment_count": 22,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "marsha.chan@csun.edu",
+            "days": "T",
+            "location": "SG110",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 424": {
+        "18675": {
+            "class_number": "18675",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "jennifer.newman@csun.edu",
+            "days": "M",
+            "location": "SQ103",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19729": {
+            "class_number": "19729",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jennifer.newman@csun.edu",
+            "days": "R",
+            "location": "JD3516",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 425": {
+        "18676": {
+            "class_number": "18676",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "james.sherman@csun.edu",
+            "days": "MW",
+            "location": "SQ104",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19300": {
+            "class_number": "19300",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "dennis.fliegelman@csun.edu",
+            "days": "M",
+            "location": "JD3516",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 431": {
+        "18663": {
+            "class_number": "18663",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kacie.blackman@csun.edu",
+            "days": "MW",
+            "location": "JD2524",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19465": {
+            "class_number": "19465",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kacie.blackman@csun.edu",
+            "days": "R",
+            "location": "SG105",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19808": {
+            "class_number": "19808",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "19865": {
+            "class_number": "19865",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "kacie.blackman@csun.edu",
+            "days": "MW",
+            "location": "JD2524",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "HSCI 433": {
+        "20001": {
+            "class_number": "20001",
+            "enrollment_cap": 40,
+            "enrollment_count": 9,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "peter.sepsis@csun.edu",
+            "days": "M",
+            "location": "RE155",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 434": {
+        "19472": {
+            "class_number": "19472",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 6,
+            "instructor": "fran.jaffe@csun.edu",
+            "days": "M",
+            "location": "JD2520",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19584": {
+            "class_number": "19584",
+            "enrollment_cap": 20,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 9,
+            "instructor": "fran.jaffe@csun.edu",
+            "days": "M",
+            "location": "JD2520",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 435": {
+        "19156": {
+            "class_number": "19156",
+            "enrollment_cap": 40,
+            "enrollment_count": 13,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "gretta.madjzoob@csun.edu",
+            "days": "F",
+            "location": "SG109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 436": {
+        "19157": {
+            "class_number": "19157",
+            "enrollment_cap": 40,
+            "enrollment_count": 29,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "kacie.blackman@csun.edu",
+            "days": "MW",
+            "location": "SG109",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 437": {
+        "18847": {
+            "class_number": "18847",
+            "enrollment_cap": 25,
+            "enrollment_count": 5,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jenny.yi@csun.edu",
+            "days": "M",
+            "location": "JD2520",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19216": {
+            "class_number": "19216",
+            "enrollment_cap": 25,
+            "enrollment_count": 6,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jenny.yi@csun.edu",
+            "days": "T",
+            "location": "SG105",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19847": {
+            "class_number": "19847",
+            "enrollment_cap": 25,
+            "enrollment_count": 22,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "mirna.sawyer@csun.edu",
+            "days": "MW",
+            "location": "JD2524",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "19877": {
+            "class_number": "19877",
+            "enrollment_cap": 25,
+            "enrollment_count": 23,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "mirna.sawyer@csun.edu",
+            "days": "TR",
+            "location": "JD3516",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 438": {
+        "19158": {
+            "class_number": "19158",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "joo.kim@csun.edu",
+            "days": "T",
+            "location": "SG103",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 439": {
+        "19029": {
+            "class_number": "19029",
+            "enrollment_cap": 25,
+            "enrollment_count": 15,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "crystal.adams@csun.edu",
+            "days": "W",
+            "location": "JD2522",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19466": {
+            "class_number": "19466",
+            "enrollment_cap": 25,
+            "enrollment_count": 10,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "crystal.adams@csun.edu",
+            "days": "W",
+            "location": "SG101",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "19564": {
+            "class_number": "19564",
+            "enrollment_cap": 25,
+            "enrollment_count": 7,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "crystal.adams@csun.edu",
+            "days": "TR",
+            "location": "JD2524",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19848": {
+            "class_number": "19848",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "crystal.adams@csun.edu",
+            "days": "TR",
+            "location": "SH207",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
     "HSCI 441": {
-        "12798": {
-            "class_number": "12798",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH102",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "HSCI 450": {
-        "12709": {
-            "class_number": "12709",
+        "19307": {
+            "class_number": "19307",
             "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Neirick,Miriam B",
+            "enrollment_count": 18,
+            "waitlist_cap": 18,
+            "waitlist_count": 1,
+            "instructor": "Staff",
             "days": "TR",
-            "location": "SH279",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "HSCI 456": {
-        "12983": {
-            "class_number": "12983",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Goldner,Erik H",
+            "location": "RE279",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19701": {
+            "class_number": "19701",
+            "enrollment_cap": 18,
+            "enrollment_count": 13,
+            "waitlist_cap": 18,
+            "waitlist_count": 0,
+            "instructor": "jeffrey.goodman@csun.edu",
             "days": "R",
-            "location": "SH265",
+            "location": "JD1609",
             "start_time": "1600h",
             "end_time": "1845h"
-        }
-    },
-    "HSCI 463": {
-        "12944": {
-            "class_number": "12944",
-            "enrollment_cap": 0,
+        },
+        "19732": {
+            "class_number": "19732",
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -445,280 +1349,884 @@
             "end_time": "TBA"
         }
     },
-    "HSCI 466": {
-        "21243": {
-            "class_number": "21243",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "MZ115",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "HSCI 471": {
-        "12987": {
-            "class_number": "12987",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kaja,Jeffrey D",
+    "HSCI 442": {
+        "19809": {
+            "class_number": "19809",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "peter.sepsis@csun.edu",
             "days": "R",
-            "location": "SH186",
+            "location": "JD3516",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
-    "HSCI 473B": {
-        "12860": {
-            "class_number": "12860",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "TBA",
-            "end_time": "TBA"
-        }
-    },
-    "HSCI 474A": {
-        "21252": {
-            "class_number": "21252",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Devine,Thomas W",
-            "days": "TR",
-            "location": "SH267",
+    "HSCI 445": {
+        "18665": {
+            "class_number": "18665",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "jeffrey.goodman@csun.edu",
+            "days": "MW",
+            "location": "SG109",
             "start_time": "1100h",
             "end_time": "1215h"
-        }
-    },
-    "HSCI 485C": {
-        "13250": {
-            "class_number": "13250",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Neirick,Miriam B",
-            "days": "F",
-            "location": "SH225",
+        },
+        "19308": {
+            "class_number": "19308",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "sloane.burke@csun.edu",
+            "days": "R",
+            "location": "SG108",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19733": {
+            "class_number": "19733",
+            "enrollment_cap": 25,
+            "enrollment_count": 19,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "lauren.walter@csun.edu",
+            "days": "TR",
+            "location": "JD2528",
             "start_time": "0930h",
-            "end_time": "1215h"
+            "end_time": "1045h"
+        },
+        "19874": {
+            "class_number": "19874",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "lauren.walter@csun.edu",
+            "days": "TR",
+            "location": "SQ109",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "19980": {
+            "class_number": "19980",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jeffrey.goodman@csun.edu",
+            "days": "MW",
+            "location": "JD2528",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
-    "HSCI 491A": {
-        "12832": {
-            "class_number": "12832",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Horowitz,Richard S",
-            "days": "TR",
-            "location": "SH276",
+    "HSCI 446": {
+        "20063": {
+            "class_number": "20063",
+            "enrollment_cap": 20,
+            "enrollment_count": 24,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "merav.efrat@csun.edu",
+            "days": "W",
+            "location": "JD2520",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "20064": {
+            "class_number": "20064",
+            "enrollment_cap": 20,
+            "enrollment_count": 22,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "merav.efrat@csun.edu",
+            "days": "W",
+            "location": "JD2520",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 465ELM": {
+        "19261": {
+            "class_number": "19261",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19262": {
+            "class_number": "19262",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19831": {
+            "class_number": "19831",
+            "enrollment_cap": 15,
+            "enrollment_count": 14,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 466ADO": {
+        "19263": {
+            "class_number": "19263",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 2,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19264": {
+            "class_number": "19264",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19884": {
+            "class_number": "19884",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20034": {
+            "class_number": "20034",
+            "enrollment_cap": 15,
+            "enrollment_count": 17,
+            "waitlist_cap": 15,
+            "waitlist_count": 2,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20124": {
+            "class_number": "20124",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20125": {
+            "class_number": "20125",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 2,
+            "instructor": "kathleen.young@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 478": {
+        "19474": {
+            "class_number": "19474",
+            "enrollment_cap": 25,
+            "enrollment_count": 23,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "grishma.bhavsar@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 485": {
+        "18683": {
+            "class_number": "18683",
+            "enrollment_cap": 24,
+            "enrollment_count": 12,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "nader.binesh@csun.edu",
+            "days": "T",
+            "location": "JD1124",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 486A": {
+        "19223": {
+            "class_number": "19223",
+            "enrollment_cap": 24,
+            "enrollment_count": 15,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "corey.hidalgo@csun.edu",
+            "days": "W",
+            "location": "JD1124",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "HSCI 486B": {
+        "19217": {
+            "class_number": "19217",
+            "enrollment_cap": 25,
+            "enrollment_count": 13,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jennifer.little@csun.edu",
+            "days": "R",
+            "location": "JD1124",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     },
-    "HSCI 494SOC": {
-        "12081": {
-            "class_number": "12081",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Kim,Jessica M",
-            "days": null,
+    "HSCI 487": {
+        "19043": {
+            "class_number": "19043",
+            "enrollment_cap": 25,
+            "enrollment_count": 12,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "doris.abrishami@csun.edu",
+            "days": "R",
+            "location": "JD1124",
+            "start_time": "1300h",
+            "end_time": "1545h"
+        }
+    },
+    "HSCI 488": {
+        "18698": {
+            "class_number": "18698",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 19,
+            "instructor": "shoshanna.nakelsky@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "HSCI 497A": {
-        "12654": {
-            "class_number": "12654",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "M",
-            "location": "SH288",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
-        "13084": {
-            "class_number": "13084",
-            "enrollment_cap": -5,
-            "enrollment_count": 0,
-            "instructor": "Juarez-Dappe,Patricia I",
+        "18699": {
+            "class_number": "18699",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 12,
+            "instructor": "shoshanna.nakelsky@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19009": {
+            "class_number": "19009",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "claudia.toledo-corral@csun.edu",
+            "days": "TR",
+            "location": "JD2520",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19205": {
+            "class_number": "19205",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 4,
+            "instructor": "claudia.toledo-corral@csun.edu",
+            "days": "TR",
+            "location": "UL001",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "19662": {
+            "class_number": "19662",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "sona.oksuzyan@csun.edu",
             "days": "T",
-            "location": "SH288",
+            "location": "SH287",
             "start_time": "1600h",
             "end_time": "1845h"
         },
-        "20754": {
-            "class_number": "20754",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Sides,Josh",
-            "days": "R",
-            "location": "SH288",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "21261": {
-            "class_number": "21261",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Blakley,Christopher",
-            "days": "W",
-            "location": "SH160",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "HSCI 498C": {
-        "12240": {
-            "class_number": "12240",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+        "19827": {
+            "class_number": "19827",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "sona.oksuzyan@csun.edu",
             "days": "T",
-            "location": "SH186",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "12606": {
-            "class_number": "12606",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Howes,Rachel T",
-            "days": "MW",
-            "location": "SH182",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "12743": {
-            "class_number": "12743",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kim,Jessica M",
-            "days": "W",
-            "location": "SH184",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "HSCI 563": {
-        "20746": {
-            "class_number": "20746",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Fitzpatrick-Behrens,Susan R",
-            "days": "R",
-            "location": "SH288",
+            "location": "JD2528",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
-    "HSCI 570": {
-        "12930": {
-            "class_number": "12930",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Kaja,Jeffrey D",
-            "days": "W",
-            "location": "SH288",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "HSCI 594": {
-        "21262": {
-            "class_number": "21262",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "HSCI 596AN": {
-        "20747": {
-            "class_number": "20747",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Nuno,John Paul A",
-            "days": "M",
-            "location": "SH106",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "HSCI 596EG": {
-        "13108": {
-            "class_number": "13108",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Goldner,Erik H",
+    "HSCI 494HA": {
+        "20126": {
+            "class_number": "20126",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "cathy.rusch@csun.edu",
             "days": "T",
-            "location": "SH384",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "HSCI 601": {
-        "12608": {
-            "class_number": "12608",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Horowitz,Richard S",
+            "location": "JA100",
+            "start_time": "0900h",
+            "end_time": "1100h"
+        },
+        "20127": {
+            "class_number": "20127",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "cathy.rusch@csun.edu",
             "days": "T",
-            "location": "SH265",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "HSCI 641": {
-        "12928": {
-            "class_number": "12928",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "W",
-            "location": "SH288",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "HSCI 692C": {
-        "20901": {
-            "class_number": "20901",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Zappia,Natale A",
-            "days": "M",
-            "location": "SH184",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "HSCI 694": {
-        "21166": {
-            "class_number": "21166",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
             "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0900h",
+            "end_time": "1100h"
+        },
+        "20128": {
+            "class_number": "20128",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "cathy.rusch@csun.edu",
+            "days": "T",
+            "location": "ONCAMP",
+            "start_time": "0900h",
+            "end_time": "1100h"
         }
     },
-    "HSCI 698D": {
-        "20784": {
-            "class_number": "20784",
-            "enrollment_cap": -2,
+    "HSCI 494IHA": {
+        "19297": {
+            "class_number": "19297",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "cathy.rusch@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19298": {
+            "class_number": "19298",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "cathy.rusch@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19309": {
+            "class_number": "19309",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "cathy.rusch@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 494IPH": {
+        "20136": {
+            "class_number": "20136",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "cathy.rusch@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20137": {
+            "class_number": "20137",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanya.wicks@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20138": {
+            "class_number": "20138",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanya.wicks@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20139": {
+            "class_number": "20139",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanya.wicks@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20140": {
+            "class_number": "20140",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanya.wicks@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 494PH": {
+        "20130": {
+            "class_number": "20130",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "cathy.rusch@csun.edu",
+            "days": "F",
+            "location": "JD3514",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        "20131": {
+            "class_number": "20131",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanya.wicks@csun.edu",
+            "days": "F",
+            "location": "ONCAMP",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        "20132": {
+            "class_number": "20132",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanya.wicks@csun.edu",
+            "days": "F",
+            "location": "ONCAMP",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        "20133": {
+            "class_number": "20133",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanya.wicks@csun.edu",
+            "days": "F",
+            "location": "ONCAMP",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        "20134": {
+            "class_number": "20134",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanya.wicks@csun.edu",
+            "days": "F",
+            "location": "JD3516",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    },
+    "HSCI 505A": {
+        "20845": {
+            "class_number": "20845",
+            "enrollment_cap": 25,
+            "enrollment_count": 6,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "carmen.saunders@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "HSCI 518": {
+        "19130": {
+            "class_number": "19130",
+            "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructor": "Neirick,Miriam B",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "HSCI 521": {
+        "19000": {
+            "class_number": "19000",
+            "enrollment_cap": 25,
+            "enrollment_count": 13,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "carrie.pullen@csun.edu",
+            "days": "W",
+            "location": "JD2520",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 531": {
+        "19783": {
+            "class_number": "19783",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "suzanne.spear@csun.edu",
+            "days": "M",
+            "location": "JD3514",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 533": {
+        "18666": {
+            "class_number": "18666",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "christopher.rogers@csun.edu",
             "days": "T",
-            "location": "SH266",
+            "location": "SG101",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 537": {
+        "19762": {
+            "class_number": "19762",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "sloane.burke@csun.edu",
+            "days": "R",
+            "location": "JD2520",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 538": {
+        "18667": {
+            "class_number": "18667",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "R",
+            "location": "JD2524",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 539": {
+        "19242": {
+            "class_number": "19242",
+            "enrollment_cap": 25,
+            "enrollment_count": 1,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "jose.salazar@csun.edu",
+            "days": "W",
+            "location": "RE153",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 541": {
+        "18668": {
+            "class_number": "18668",
+            "enrollment_cap": 30,
+            "enrollment_count": 24,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "james.sherman@csun.edu",
+            "days": "W",
+            "location": "JD1124",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 588": {
+        "19457": {
+            "class_number": "19457",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "kaitlin.bahr@csun.edu",
+            "days": "M",
+            "location": "RE279",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 592": {
+        "18669": {
+            "class_number": "18669",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "christopher.rogers@csun.edu",
+            "days": "M",
+            "location": "JD2520",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "19467": {
+            "class_number": "19467",
+            "enrollment_cap": 25,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "HSCI 592A": {
+        "19917": {
+            "class_number": "19917",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "myriam.forster@csun.edu",
+            "days": "M",
+            "location": "JD2521",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "HSCI 613": {
+        "20144": {
+            "class_number": "20144",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "salvador.esparza@csun.edu",
+            "days": "R",
+            "location": "JD2522",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 614": {
+        "18677": {
+            "class_number": "18677",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "james.sherman@csun.edu",
+            "days": "M",
+            "location": "JD1124",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 615": {
+        "18889": {
+            "class_number": "18889",
+            "enrollment_cap": 25,
+            "enrollment_count": 19,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "grishma.bhavsar@csun.edu",
+            "days": "T",
+            "location": "SQ246",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 619": {
+        "18678": {
+            "class_number": "18678",
+            "enrollment_cap": 25,
+            "enrollment_count": 19,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "stephan.chung@csun.edu",
+            "days": "W",
+            "location": "JD1124",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 620": {
+        "20848": {
+            "class_number": "20848",
+            "enrollment_cap": 30,
+            "enrollment_count": 6,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "damon.cianci@csun.edu",
+            "days": "M",
+            "location": "SG101",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 625": {
+        "18679": {
+            "class_number": "18679",
+            "enrollment_cap": 25,
+            "enrollment_count": 13,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "ronald.sorensen@csun.edu",
+            "days": "R",
+            "location": "JD2528",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 696": {
+        "19947": {
+            "class_number": "19947",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "lawrence.chu@csun.edu",
+            "days": "T",
+            "location": "JD2521",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "HSCI 697": {
+        "19154": {
+            "class_number": "19154",
+            "enrollment_cap": 25,
+            "enrollment_count": 13,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "louis.rubino@csun.edu",
+            "days": "R",
+            "location": "JD2520",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19155": {
+            "class_number": "19155",
+            "enrollment_cap": 33,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "HSCI 698E": {
+        "20145": {
+            "class_number": "20145",
+            "enrollment_cap": 18,
+            "enrollment_count": 8,
+            "waitlist_cap": 18,
+            "waitlist_count": 0,
+            "instructor": "myriam.forster@csun.edu",
+            "days": "T",
+            "location": "RE151",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "20146": {
+            "class_number": "20146",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "bobbie.emetu@csun.edu",
+            "days": "T",
+            "location": "JD2524",
             "start_time": "1900h",
             "end_time": "2145h"
         }

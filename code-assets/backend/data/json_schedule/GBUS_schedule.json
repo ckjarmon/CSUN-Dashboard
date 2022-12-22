@@ -1,38 +1,44 @@
 {
-    "GBUS 600": [
-        {
+    "GBUS 600": {
+        "13372": {
             "class_number": "13372",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Semnani Azad,Zhaleh",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "zhaleh.semnaniazad@csun.edu",
             "days": "T",
             "location": "BB1133",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "GBUS 607": [
-        {
+    },
+    "GBUS 607": {
+        "13829": {
             "class_number": "13829",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Sankaran,Siva R",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "siva.sankaran@csun.edu",
             "days": "W",
             "location": "BB2125",
             "start_time": "1900h",
             "end_time": "2145h"
         }
-    ],
-    "GBUS 698A": [
-        {
+    },
+    "GBUS 698A": {
+        "13623": {
             "class_number": "13623",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
             "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ]
+    }
 }

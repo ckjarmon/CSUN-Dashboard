@@ -1,564 +1,204 @@
 {
-    "QS 703": {
-        "19289": {
-            "class_number": "19289",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Adams,Janet M",
-            "days": "W",
-            "location": "JD2528",
+    "QS 101": {
+        "20764": {
+            "class_number": "20764",
+            "enrollment_cap": 38,
+            "enrollment_count": 38,
+            "waitlist_cap": 38,
+            "waitlist_count": 3,
+            "instructor": "jacob.lau@csun.edu",
+            "days": "TR",
+            "location": "SH321",
             "start_time": "1100h",
-            "end_time": "1240h"
+            "end_time": "1215h"
         }
     },
-    "QS 703L": {
-        "19290": {
-            "class_number": "19290",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "JD1580",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "19291": {
-            "class_number": "19291",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 706": {
-        "19983": {
-            "class_number": "19983",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Chang,Julia W",
-            "days": "W",
-            "location": "JD2520",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        }
-    },
-    "QS 706L": {
-        "19984": {
-            "class_number": "19984",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Chang,Julia W",
-            "days": "F",
-            "location": "JD2520",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "19985": {
-            "class_number": "19985",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Chang,Julia W",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 711": {
-        "20051": {
-            "class_number": "20051",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "JD1580",
-            "start_time": "1200h",
-            "end_time": "1340h"
-        }
-    },
-    "QS 711L": {
-        "20052": {
-            "class_number": "20052",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "JD1580",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "20053": {
-            "class_number": "20053",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 712": {
-        "20055": {
-            "class_number": "20055",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "JD1580",
-            "start_time": "1200h",
-            "end_time": "1340h"
-        }
-    },
-    "QS 712L": {
-        "20056": {
-            "class_number": "20056",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "JD1580",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "20057": {
-            "class_number": "20057",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 720": {
-        "19292": {
-            "class_number": "19292",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "JD2202",
-            "start_time": "1200h",
-            "end_time": "1315h"
-        }
-    },
-    "QS 720L": {
-        "19293": {
-            "class_number": "19293",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "JD1621",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "19294": {
-            "class_number": "19294",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 732": {
-        "19669": {
-            "class_number": "19669",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Cardoso Ferreira,Isabel Grace",
-            "days": "M",
-            "location": "JD1625",
-            "start_time": "1115h",
-            "end_time": "1255h"
-        }
-    },
-    "QS 732L": {
-        "19670": {
-            "class_number": "19670",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "JD1621",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "19671": {
-            "class_number": "19671",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 740": {
-        "20632": {
-            "class_number": "20632",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "JD1625",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        }
-    },
-    "QS 740L": {
-        "20633": {
-            "class_number": "20633",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "JD1625",
-            "start_time": "1500h",
-            "end_time": "1745h"
-        },
-        "20634": {
-            "class_number": "20634",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 742": {
-        "20629": {
-            "class_number": "20629",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Druz,Viktoria",
-            "days": "F",
-            "location": "JD1580",
-            "start_time": "0800h",
-            "end_time": "0945h"
-        },
-        "20640": {
-            "class_number": "20640",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Huntsman-Lannom,Debra L",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 742L": {
-        "20630": {
-            "class_number": "20630",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Druz,Viktoria",
-            "days": "F",
-            "location": "JD1580",
-            "start_time": "1000h",
-            "end_time": "1245h"
-        },
-        "20631": {
-            "class_number": "20631",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Huntsman-Lannom,Debra L",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 746L": {
-        "20006": {
-            "class_number": "20006",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "JD1621",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "20007": {
-            "class_number": "20007",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 752A": {
-        "19436": {
-            "class_number": "19436",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Mathiyakom,Witaya",
-            "days": "R",
-            "location": "SG103",
-            "start_time": "0900h",
-            "end_time": "1040h"
-        }
-    },
-    "QS 752C": {
-        "19437": {
-            "class_number": "19437",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Ferreira,Paula",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "19438": {
-            "class_number": "19438",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Jaber,Hatem M",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "19439": {
-            "class_number": "19439",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Kachingwe,Aimie F",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "19440": {
-            "class_number": "19440",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Mathiyakom,Witaya",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "19441": {
-            "class_number": "19441",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Phillips,Beth Jo",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "19442": {
-            "class_number": "19442",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Bartlett,Andrew",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "19539": {
-            "class_number": "19539",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 772": {
-        "20002": {
-            "class_number": "20002",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Adams,Janet M",
-            "days": "T",
-            "location": "JD1625",
-            "start_time": "1330h",
-            "end_time": "1420h"
-        }
-    },
-    "QS 772L": {
-        "20003": {
-            "class_number": "20003",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Adams,Janet M",
-            "days": "T",
-            "location": "JD1625",
-            "start_time": "1430h",
-            "end_time": "1715h"
-        },
-        "20004": {
-            "class_number": "20004",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Adams,Janet M",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 773": {
-        "20054": {
-            "class_number": "20054",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Ferreira,Paula",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "0900h",
-            "end_time": "1045h"
-        }
-    },
-    "QS 774": {
-        "19672": {
-            "class_number": "19672",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Jaber,Hatem M",
-            "days": "F",
-            "location": "JD1625",
-            "start_time": "1130h",
-            "end_time": "1310h"
-        }
-    },
-    "QS 778": {
-        "20028": {
-            "class_number": "20028",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "JD1580",
+    "QS 113B": {
+        "14824": {
+            "class_number": "14824",
+            "enrollment_cap": 19,
+            "enrollment_count": 12,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "emily.havey@csun.edu",
+            "days": "TR",
+            "location": "EU132",
             "start_time": "1100h",
-            "end_time": "1150h"
-        }
-    },
-    "QS 778L": {
-        "19550": {
-            "class_number": "19550",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "JD1580",
-            "start_time": "1200h",
-            "end_time": "1445h"
+            "end_time": "1215h"
         },
-        "19551": {
-            "class_number": "19551",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "QS 780": {
-        "20005": {
-            "class_number": "20005",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Katz,Richard S",
-            "days": "M",
-            "location": "JD2528",
-            "start_time": "1530h",
-            "end_time": "1710h"
-        }
-    },
-    "QS 785H": {
-        "20060": {
-            "class_number": "20060",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Hawson,Suzanne C",
-            "days": "W",
-            "location": "JD1580",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    },
-    "QS 785I": {
-        "20902": {
-            "class_number": "20902",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Bartlett,Andrew",
-            "days": "W",
-            "location": "JD1580",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        }
-    },
-    "QS 790": {
-        "19295": {
-            "class_number": "19295",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Stewart,Myra Nichole",
-            "days": "R",
-            "location": "JD2528",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        }
-    },
-    "QS 792": {
-        "19435": {
-            "class_number": "19435",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Stewart,Myra Nichole",
-            "days": "M",
-            "location": "JD1580",
+        "14943": {
+            "class_number": "14943",
+            "enrollment_cap": 19,
+            "enrollment_count": 4,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "nicole.eschen@csun.edu",
+            "days": "MW",
+            "location": "ED1123",
             "start_time": "0930h",
-            "end_time": "1020h"
+            "end_time": "1045h"
         }
     },
-    "QS 797": {
-        "19553": {
-            "class_number": "19553",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+    "QS 115": {
+        "15309": {
+            "class_number": "15309",
+            "enrollment_cap": 24,
+            "enrollment_count": 4,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "rebecca.lawson@csun.edu",
+            "days": "TR",
+            "location": "JR217",
+            "start_time": "1100h",
+            "end_time": "1215h"
         },
-        "19554": {
-            "class_number": "19554",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+        "15310": {
+            "class_number": "15310",
+            "enrollment_cap": 24,
+            "enrollment_count": 2,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "maseri.schultz@csun.edu",
+            "days": "MW",
+            "location": "JR202",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "QS 151": {
+        "15361": {
+            "class_number": "15361",
+            "enrollment_cap": 27,
+            "enrollment_count": 27,
+            "waitlist_cap": 27,
+            "waitlist_count": 3,
+            "instructor": "joe.martinez@csun.edu",
+            "days": "MW",
+            "location": "JR330",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "QS 201": {
+        "15362": {
+            "class_number": "15362",
+            "enrollment_cap": 38,
+            "enrollment_count": 38,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "jacob.lau@csun.edu",
+            "days": "T",
+            "location": "EU131",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "20765": {
+            "class_number": "20765",
+            "enrollment_cap": 38,
+            "enrollment_count": 30,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "jacob.lau@csun.edu",
+            "days": "R",
+            "location": "EU131",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "QS 204": {
+        "15248": {
+            "class_number": "15248",
+            "enrollment_cap": 38,
+            "enrollment_count": 22,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "amanda.harrison@csun.edu",
+            "days": "W",
+            "location": "EU131",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "QS 208": {
+        "15363": {
+            "class_number": "15363",
+            "enrollment_cap": 38,
+            "enrollment_count": 13,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "bobbie.emetu@csun.edu",
+            "days": "W",
+            "location": "JR352",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "QS 301": {
+        "14160": {
+            "class_number": "14160",
+            "enrollment_cap": 38,
+            "enrollment_count": 22,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "omar.gonzalez.93@csun.edu",
+            "days": "TR",
+            "location": "JR204",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "QS 302": {
+        "14209": {
+            "class_number": "14209",
+            "enrollment_cap": 38,
+            "enrollment_count": 16,
+            "waitlist_cap": 38,
+            "waitlist_count": 0,
+            "instructor": "marie.cartier@csun.edu",
+            "days": "T",
+            "location": "JR246",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "QS 304": {
+        "15364": {
+            "class_number": "15364",
+            "enrollment_cap": 38,
+            "enrollment_count": 38,
+            "waitlist_cap": 38,
+            "waitlist_count": 6,
+            "instructor": "heidi.schumacher@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "QS 369": {
+        "15365": {
+            "class_number": "15365",
+            "enrollment_cap": 38,
+            "enrollment_count": 38,
+            "waitlist_cap": 38,
+            "waitlist_count": 9,
+            "instructor": "robert.doyle@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15411": {
+            "class_number": "15411",
+            "enrollment_cap": 38,
+            "enrollment_count": 38,
+            "waitlist_cap": 38,
+            "waitlist_count": 1,
+            "instructor": "sarah.hansen@csun.edu",
+            "days": "W",
+            "location": "JR134",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     }
 }

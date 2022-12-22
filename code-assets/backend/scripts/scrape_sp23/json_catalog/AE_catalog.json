@@ -1,0 +1,29 @@
+[
+    {
+        "subject": "AE",
+        "catalog_number": "472",
+        "title": "Aeropropulsion Systems",
+        "description": "Prerequisites: ME 370, ME 390. Analysis of aeropropulsion systems: gas turbine, fan jet, ram jet, scram jet, scram-rocket, solid rocket and liquid rocket systems. Introduction to aero-thermodynamics and advanced propellant combustion processes. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{ME 370} && {ME 390}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "AE",
+        "catalog_number": "480",
+        "title": "Fundamentals of Aerospace Engineering",
+        "description": "Prerequisites: ME 390; PHYS 220A and PHYS 220AL. Atmospheric structure/space environment. Aircraft/spacecraft configurations. Aircraft/missile systems performance, including flight envelope, aerodynamic approximations, available propulsion systems, structural form, take-off, landing, climb and range. Introduction to vehicle stability and control. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{ME 390} && {PHYS 220A && PHYS 220AL}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "AE",
+        "catalog_number": "486A",
+        "title": "Senior Design in Aerospace Engineering I",
+        "description": "Prerequisites: ME 309 and ME 330; Corequisite: ME 386/L. First semester of a two-semester capstone design experience, simulating professional aerospace engineering practice. Emphasis is on the application of engineering fundamentals to a comprehensive design project utilizing computer-aided design and analysis tools. Addresses effective group participation and preparation of written and oral preliminary and critical design reviews. Ethical, regulatory, manufacturing and economic issues are considered as required by the project definition. Two 3-hour labs per week.",
+        "units": "2",
+        "prerequisites": "{{ME 309} && {ME 330}}",
+        "corequisites": "{ME 386/L}"
+    }
+]

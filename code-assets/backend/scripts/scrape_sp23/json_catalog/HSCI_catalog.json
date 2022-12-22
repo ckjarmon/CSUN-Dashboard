@@ -1,0 +1,1019 @@
+[
+    {
+        "subject": "HSCI",
+        "catalog_number": "131",
+        "title": "Health and Society",
+        "description": "Analysis of major health problems affecting the life of an individual, the family and community-at-large. Evaluation, planning and implementation of approaches to meeting personal and societal health needs. (Available for General Education, E Lifelong Learning.)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "132",
+        "title": "History of Preventive Medicine and Public Health",
+        "description": "Historical development of the disease processes, concepts and the institutions concerned with public health. (Available for General Education, D1 Social Sciences.)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "170",
+        "title": "Emergency Health Procedures",
+        "description": "This course provides students with the knowledge and skills needed to serve as a non-traditional first responder in a variety of settings. Topics include: basic life support, medical documentation, medical terminology, occupational safety and security for health professionals, professional ethics for health professionals, and universal safety precautions and infections control. Additionally, the American Red Cross \u201cResponding to Emergencies\u201d certificate is issued upon successful completion of the course requirements (includes both First Aid and CPR/AED). (Available for General Education, E Lifelong Learning.)",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "181",
+        "title": "Medical Imaging Sciences I",
+        "description": "Prerequisite: Acceptance into the Radiologic Technology Program or instructor consent. Introduction to the role of the radiologic technologist. Study of the function and manipulation of equipment and technical factors used in the production of X-ray and in imaging systems used within radiology. Includes a progressive series of radiographic exercises in preparation for clinical experiences. (Offered Fall semester.)",
+        "units": "3",
+        "prerequisites": "{{Acceptance into the Radiologic Technology Program} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "182",
+        "title": "Medical Imaging Sciences II",
+        "description": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification. Corequisite: HSCI 281. Study of imaging modalities and equipment utilized in radiology. Includes a progressive series of exercises involving radiation protection procedures, problem-solving techniques and quality assurance programs to be used during clinical education. Considers the manipulation and use of body section radiography, phototiming, image intensification and stereoscopic equipment. (Offered Spring semester.)",
+        "units": "4",
+        "prerequisites": "{{HSCI 181} || {HSCI 280} || {HSCI 285} || {PHYS 376} || {ARRT Certification}}",
+        "corequisites": "{HSCI 281}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "231",
+        "title": "Women and Health",
+        "description": "Study of factors affecting health and women in our society. (Available for General Education, E Lifelong Learning.)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "280",
+        "title": "Radiological Sciences: Clinical Education I",
+        "description": "Prerequisite: Acceptance into the Radiologic Sciences Program. Corequisite: HSCI 285. Orientation and introduction to clinical education in medical radiography. At an affiliated hospital, each student participates with direct supervision in selected darkroom, clerical and basic radiographic procedures. Includes lectures in hospital organization, departmental administration and medical ethics. (Offered Fall semester.)",
+        "units": "2",
+        "prerequisites": "{Acceptance into the Radiologic Sciences Program}",
+        "corequisites": "{HSCI 285}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "281",
+        "title": "Radiological Sciences: Clinical Education II",
+        "description": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification. Corequisites: HSCI 182, HSCI 286, HSCI 385. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors, film analysis and methods of patient care. (Offered Spring semester.)",
+        "units": "1",
+        "prerequisites": "{{HSCI 181} || {HSCI 280} || {HSCI 285} || {PHYS 376} || {ARRT Certification}}",
+        "corequisites": "{{HSCI 182} && {HSCI 286} && {HSCI 385}}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "282",
+        "title": "Radiological Sciences: Clinical Education III",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 286, HSCI 385, or ARRT Certification. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors, film analysis and methods of patient care.",
+        "units": "3",
+        "prerequisites": "{{HSCI 182} || {HSCI 281} || {HSCI 286} || {HSCI 385} || {ARRT Certification}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "283",
+        "title": "Radiological Sciences: Clinical Education IV",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385, or ARRT Certification. Corequisites: HSCI 380, HSCI 384, HSCI 480, HSCI 482. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors and advanced film analysis. (Offered Fall semester.)",
+        "units": "3",
+        "prerequisites": "{{HSCI 182} || {HSCI 281} || {HSCI 282} || {HSCI 286} || {HSCI 385} || {ARRT Certification}}",
+        "corequisites": "{{HSCI 380} && {HSCI 384} && {HSCI 480} && {HSCI 482}}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "284",
+        "title": "Radiological Sciences: Clinical Education V",
+        "description": "Prerequisites: HSCI 283, HSCI 380, HSCI 384, HSCI 480, HSCI 482, or ARRT Certification. Corequisites: HSCI 302, HSCI 485, HSCI 487. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors and advanced film analysis. (Offered Spring semester.)",
+        "units": "4",
+        "prerequisites": "{{HSCI 283} || {HSCI 380} || {HSCI 384} || {HSCI 480} || {HSCI 482} || {ARRT Certification}}",
+        "corequisites": "{{HSCI 302} && {HSCI 485} && {HSCI 487}}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "285",
+        "title": "Radiographic Anatomy and Positioning I",
+        "description": "Prerequisites: BIOL 211, BIOL 212; Acceptance into the Radiologic Technology Program. Corequisite: HSCI 280. Comprehensive modular approach to radiographic positioning of the appendicular skeleton, vertebral column, genito-urinary tract, chest and abdomen, with emphasis on the associated anatomy, physiology and medical terminology.",
+        "units": "6",
+        "prerequisites": "{{BIOL 211} && {BIOL 212} && {Acceptance into the Radiologic Technology Program}}",
+        "corequisites": "{HSCI 280}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "286",
+        "title": "Radiographic Anatomy and Positioning II",
+        "description": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification. Corequisite: HSCI 281. Methodologies and elements of pediatric radiology in depth, including positioning of the skull, facial bones, paranasal sinuses, mastoids and intraoral and extraoral radiography. Continuation of advanced technical film analysis.",
+        "units": "5",
+        "prerequisites": "{{HSCI 181} || {HSCI 280} || {HSCI 285} || {PHYS 376} || {ARRT Certification}}",
+        "corequisites": "{HSCI 281}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "302",
+        "title": "Basic Pathophysiology",
+        "description": "Prerequisites: HSCI 283, HSCI 380, HSCI 384, HSCI 480, HSCI 482, or ARRT Certification. Corequisite: HSCI 284. Study of the pathogenesis and clinical picture of common disease processes that impact the self-care of individuals. Focuses on the impact of environmental, genetic and individual factors in creating or perpetuating disturbed physiology, as well as on physiological adaptive responses and the interdependence of body systems. (See Program advisor for information on credit by challenge examination.)",
+        "units": "3",
+        "prerequisites": "{{HSCI 283} || {HSCI 380} || {HSCI 384} || {HSCI 480} || {HSCI 482} || {ARRT Certification}}",
+        "corequisites": "{HSCI 284}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "312",
+        "title": "Introduction to Health Administration",
+        "description": "Prerequisites: MATH 102 or MATH 103; SOC 150, PSY 150. Fundamentals of health administration including role integration between health administrators, health professionals and allied health personnel.",
+        "units": "3",
+        "prerequisites": "{{{MATH 102} || {MATH 103}} && {SOC 150} && {PSY 150}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "313",
+        "title": "Health Administration",
+        "description": "Prerequisite: HSCI 312. Theory and practice of health administration in various types of health organizations.",
+        "units": "3",
+        "prerequisites": "{HSCI 312}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "314",
+        "title": "Organization and Delivery of Health Services",
+        "description": "Examines how the behavior and interaction of health system components, consumers and the diverse interest groups in our nation impact the distribution and availability of healthcare resources, impede or increase access to care, change or create health entitlements like Medicare and Medi-Cal, and change provider reimbursement mechanisms. U.S., California and Los Angeles County public and private health systems are overviewed, as are systems of health delivery in other nations.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "331",
+        "title": "Principles and Foundations of Health Education",
+        "description": "Prerequisite: Public Health major with junior or senior standing. Recommended Corequisite: ENGL 305 or ENGL 306. The purpose of health education is to positively influence the health behaviors with the goal of promoting health and wellness, and improving health status for individuals, populations, and communities. The course will focus on concepts essential to public health education practice, public health history, health education ethics, the basics of program planning, the settings where health education is implemented, and an introduction to health behavior change theory.",
+        "units": "3",
+        "prerequisites": "{Public Health major with junior or senior standing}",
+        "corequisites": "{{ENGL 305} || {ENGL 306}}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "335",
+        "title": "Holistic Health",
+        "description": "Critical examination of the holistic health model and selected holistic techniques.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "336",
+        "title": "Health Aspects of Drug Use",
+        "description": "Prerequisite: Completion of the lower division writing requirement. In-depth analysis of the factors and problems related to the use and misuse of drugs and their effect on the health and welfare of the individual, family and society. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning or E Lifelong Learning.)",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "337",
+        "title": "Nutrition and Health",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Fundamentals of nutrition, emphasizing practices and problems related to consumer and health. Credit not allowed for both HSCI 337 and FCS 207. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning or E Lifelong Learning.)",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "345",
+        "title": "Public Health Issues",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Exploration and analysis of the issues that define public health. Economics, politics, history, theory, organization and contemporary practice methodologies are probed in light of such topics as infectious and chronic diseases, maternal and child health, drug abuse, ethnic health, mental health, nutrition, poverty and sexually transmitted infections (disease). (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning or D1 Social Sciences.)",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "365LS",
+        "title": "Health Science for Liberal Studies ITEP",
+        "description": "This course is designed for the Integrated Teacher Education Program (ITEP). The course focuses on how overall health and well-being affect successful learning experiences in the elementary-school child. Topics of discussion include morbidity and mortality among children, including the impact of issues such as nutrition, substance abuse, child abuse, accidents and chronic and infectious diseases. The key roles and responsibilities that elementary-school personnel acting in loco parentis have in promoting the health and well-being of children are explored. Additional emphases include the teaching of health science subject matter in the elementary-school classroom. Lesson planning strategies are developed that emphasize health standards, multiple intelligences and varied instructional resources/practices.",
+        "units": "2",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "369",
+        "title": "Public Health Strategies in HIV and STI Prevention",
+        "description": "Prerequisite: Completion of the lower division writing requirement. This course examines the epidemiology of HIV and other sexually transmitted infections (STIs), and applies approaches used in public health prevention. Topics covered include epidemiological trends and determinants associated with HIV and STIs nationally and globally, theoretical frameworks applied in the field, interventional designs, policy considerations, and the evolution of testing and treatment mechanisms for HIV/STIs. (Available for General Education, D1 Social Sciences.)",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "380",
+        "title": "Cross-Sectional Anatomy for Radiographers",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification. Corequisite: HSCI 283. Introduction to cross-sectional anatomy with the use of advanced imaging techniques, including Computerized Tomography, Magnetic Resonance Imaging and Ultrasonography. Includes comparisons of the various modalities in demonstrating certain anatomy.",
+        "units": "2",
+        "prerequisites": "{{HSCI 182} || {HSCI 281} || {HSCI 282} || {HSCI 286} || {HSCI 385} || {ARRT Certification}}",
+        "corequisites": "{HSCI 283}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "382",
+        "title": "Mammography",
+        "description": "Prerequisite: California State Certificate for Radiologic Technology (CRT) or senior status in an accredited RT program. Study of breast anatomy, physiology and pathology, with an emphasis on breast cancer, risk factors and detection techniques. Additionally, mammography imaging, instrumentation requirements and mammographic techniques are emphasized. Labs in quality assurance are scheduled off site. (Offered only through Open University, Fall semester.)",
+        "units": "3",
+        "prerequisites": "{{California State Certificate for Radiologic Technology (CRT)} || {senior status in an accredited RT program}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "384",
+        "title": "Computers in Diagnostic Imaging",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification. Corequisite: HSCI 283. Study of state-of-the-art equipment and procedures available to radiology departments. Focuses on computer software, algorithms and digitization of imaging data. Topics prepare the student for specific computer applications in advanced imaging coursework for MRI, CT and Digital Subtraction Angiography. Clinical applications and processes that highlight the course content are conducted at affiliated medical centers.",
+        "units": "2",
+        "prerequisites": "{{HSCI 182} || {HSCI 281} || {HSCI 282} || {HSCI 286} || {HSCI 385} || {ARRT Certification}}",
+        "corequisites": "{HSCI 283}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "385",
+        "title": "Quality Assurance and Evaluation of Radiology Imaging Equipment",
+        "description": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification. Corequisite: HSCI 281. Study of quality assurance concepts and application for radiology departments. Includes evaluation of imaging equipment in one of the affiliated medical centers.",
+        "units": "2",
+        "prerequisites": "{{HSCI 181} || {HSCI 280} || {HSCI 285} || {PHYS 376} || {ARRT Certification}}",
+        "corequisites": "{HSCI 281}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "387",
+        "title": "Radiologic Sciences Clinical Education VII",
+        "description": "Prerequisites: HSCI 386, or ARRT Certification. Corequisite: HSCI 483A. Clinical participation in the radiology department of an affiliated hospital. Includes patient positioning, manipulation of exposure factors and advanced film analysis. Advanced Imaging techniques in MR, CT, IR and Cardiac Cath are included.",
+        "units": "3",
+        "prerequisites": "{{HSCI 386} || {ARRT Certification}}",
+        "corequisites": "{HSCI 483A}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "390",
+        "title": "Biostatistics",
+        "description": "Corequisite: HSCI 390L. Preparatory: MATH 102 or MATH 103 or MATH 105 or MATH 106 or MATH 140. Principles, theory and practice of statistical analysis in health as they apply to health planning, epidemiological research and experimental research. 3 hours lecture, 2 hours lab.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{HSCI 390L}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "390L",
+        "title": "Biostatistics Lab",
+        "description": "Corequisite: HSCI 390L. Preparatory: MATH 102 or MATH 103 or MATH 105 or MATH 106 or MATH 140. Principles, theory and practice of statistical analysis in health as they apply to health planning, epidemiological research and experimental research. 3 hours lecture, 2 hours lab.",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{HSCI 390}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "391",
+        "title": "Computer Application in Health Sciences",
+        "description": "This course covers information technology software from a user perspective, as well as its current application to health disciplines. Students will complete assignments that involve hands-on, practical application with a focus on problem solving and critical thinking.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "412",
+        "title": "Medical Care Organization in the U.S.",
+        "description": "Prerequisite: HSCI 314. Problems in the administration of health services from a societal perspective. Questions of equity in service availability and cost are contrasted with administrative issues. Critique of national health insurance and comparison of the recent and proposed U.S. system with health systems of other nations.",
+        "units": "3",
+        "prerequisites": "{HSCI 314}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "413",
+        "title": "Leadership and Direction in the Administration of Health Services",
+        "description": "Prerequisites: HSCI 313 and HSCI 412. Lecture, discussion, demonstrations and case analyses. Introduction to the basic principles of leadership and direction for students interested in supervision and management of health programs.",
+        "units": "3",
+        "prerequisites": "{{HSCI 313} && {HSCI 412}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "414",
+        "title": "Health Law",
+        "description": "Prerequisites: HSCI 312, HSCI 314. Overview of the legal aspects of healthcare delivery and the health administrator\u2019s and health professional\u2019s responsibility in the area of patient care, consumer rights and malpractice.",
+        "units": "3",
+        "prerequisites": "{{HSCI 312} && {HSCI 314}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "415",
+        "title": "Health Information Systems",
+        "description": "Prerequisite: HSCI 412. Introduces the healthcare information systems required in the healthcare industry and develops an understanding of the scope and applications of these systems. Both clinical and administration information systems in the healthcare industry are covered. Discusses strategic and tactical information management needs of healthcare executives.",
+        "units": "3",
+        "prerequisites": "{HSCI 412}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "416",
+        "title": "Utilization of Professional and Allied Health Personnel",
+        "description": "Prerequisites: HSCI 312, HSCI 412. Principles, methods and procedures in the utilization of professional and allied health personnel in health organizations.",
+        "units": "3",
+        "prerequisites": "{{HSCI 312} && {HSCI 412}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "419",
+        "title": "Hospital Administration",
+        "description": "Prerequisites: HSCI 312, HSCI 412. Introduction to the administration, organization and evaluation of hospital services and the role of the hospital in the community health system. Topics include governance, financing, medical staff relations and other current topics.",
+        "units": "3",
+        "prerequisites": "{{HSCI 312} && {HSCI 412}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "422",
+        "title": "Health Services for the Elderly and the Mentally Ill",
+        "description": "Prerequisite: HSCI 412. Problems in planning, financing, delivering and evaluating health services for the elderly and the mentally ill. Administrative structures and public and private delivery systems are compared and critiqued. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{HSCI 412}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "424",
+        "title": "Health Planning",
+        "description": "Prerequisites: HSCI 312, HSCI 390, HSCI 412. Emphasizes current approaches to the administration of community-wide health planning agencies and the administration of in-house facility health planning programs.",
+        "units": "3",
+        "prerequisites": "{{HSCI 312} && {HSCI 390} && {HSCI 412}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "425",
+        "title": "Financial Planning and Reimbursement in Healthcare",
+        "description": "Prerequisites: ACCT 220 or equivalent; HSCI 312, HSCI 412. Consideration of the highly specialized application of financial planning principles and reimbursement procedures in health organizations, including government regulations and legal restraints.",
+        "units": "3",
+        "prerequisites": "{{ACCT 220} && {HSCI 312} && {HSCI 412}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "431",
+        "title": "Health Behavior Theory",
+        "description": "Prerequisites: HSCI 331; PSY 150. This course provides an understanding and application of health behavior theory and models that can be applied to behavior change, program planning, and evaluation. Students are exposed to skills and competencies necessary to understand how health behavior theories and models are used in health promotion research and practice.",
+        "units": "3",
+        "prerequisites": "{{HSCI 331} && {PSY 150}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "433",
+        "title": "Counseling of Health Problems",
+        "description": "Consideration of concepts and techniques of counseling and guidance as they apply directly to the reduction of specific health problems. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "434",
+        "title": "Lactation Education: Prenatal and Perinatal Period",
+        "description": "Prerequisite: Junior standing. This course provides students with the knowledge and skills necessary to provide families in the community with breastfeeding education and support during the prenatal and perinatal period. Topics covered in this course include: the history of infant feeding, national and international breastfeeding promotion initiatives, careers in lactation, counseling skills, nutrition during pregnancy and breastfeeding, anatomy and physiology of lactation, common breastfeeding barriers and strategies to overcome those barriers, hospital practices that influence breastfeeding and key concepts for getting breastfeeding off to a good start. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{Junior standing}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "435",
+        "title": "Health Science for Children and Youth",
+        "description": "Examination of biological and environmental factors influencing health of children and youth, and means of solving selected health problems, including cardiopulmonary resuscitation. Available for graduate credit. (Available for General Education, Lifelong Learning\u2014Credential candidates only.)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "436",
+        "title": "Health Concerns of Adolescents",
+        "description": "In-depth study of the health concerns of adolescents, including cardiopulmonary resuscitation. Available for graduate credit. (Available for General Education, Lifelong Learning\u2014Credential candidates only.)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "437",
+        "title": "Effective Strategies and Methods for Public Health Practice",
+        "description": "Prerequisite: HSCI 331. This course will provide Public Health students with the techniques to develop, select, adapt, and apply strategies to enhance health education and health promotion programs. Emphasis will be placed on the development of specific professional strategies and tools needed in health education and promotion such as cultural and health communication competencies, social marketing principles, development of effective presentation methodologies, group facilitation development, and the skills needed in the pursuit of policies, systems and environmental changes.",
+        "units": "3",
+        "prerequisites": "{HSCI 331}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "438",
+        "title": "International Health",
+        "description": "Analysis of health problems in selected countries. Study of the origin, orientation and purposes of agencies functioning in this field. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "439",
+        "title": "Community Health Action",
+        "description": "Prerequisite: HSCI 331. Basic concepts and techniques of community health action as applied to the initiation and enhancement of community health and health-related services.",
+        "units": "3",
+        "prerequisites": "{HSCI 331}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "440",
+        "title": "Family Health",
+        "description": "Health aspects of the home and the family, including health and personal qualifications for marriage, prenatal care, pregnancy, infant and maternal mortality, children\u2019s diseases, home accidents, health plans for the family, and health problems of the older members of the family.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "441",
+        "title": "Public Health Program Planning",
+        "description": "Prerequisite: HSCI 431. Public health program planning as applied to the practice of health education in the community. This course focuses on needs assessment methods and activities, developing program goals and objectives, and utilizing theory-based strategies to develop successful programs.",
+        "units": "3",
+        "prerequisites": "{HSCI 431}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "442",
+        "title": "Health, Culture, and Diversity",
+        "description": "An in-depth analysis of how culture impacts individual and community health. Includes an exploration of how social determinants of health affect health disparities. Effective evidence-based health education strategies are presented as ways to address racial and ethnic health disparities.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "445",
+        "title": "Program Evaluation for Health Education",
+        "description": "Prerequisites: \u201cC-\u201d grade or better in HSCI 441; Senior standing. This course provides instruction on program evaluation for community health programs and interventions. Emphasis is placed on community partnerships, evaluation design, methods, ethics, data analysis and report writing.",
+        "units": "3",
+        "prerequisites": "{{HSCI 441} && {Senior standing}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "446",
+        "title": "Lactation Education: Postpartum Period",
+        "description": "Prerequisite: HSCI 434. This course provides students with the knowledge and skills necessary to provide families in the community with breastfeeding education and support from one week postpartum and beyond. Topics covered in this course include: Causes and solutions for common breastfeeding problems, infant assessment and infant development, controversies of co-sleeping, breastfeeding techniques and devices, maintaining milk production when mother and infant are separated, breastfeeding beyond the first month, breastfeeding and returning to work and/or school, breastfeeding the high-risk infant, milk banks and donor milk, problems with milk production and transfer, inadequate weight gain in the breastfed infant, hyperbilirubinemia and hypoglycemia and the breastfed newborn, and induced lactation and relactation. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{HSCI 434}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "465ELM",
+        "title": "Teaching Health in the Elementary School Classroom",
+        "description": "Prerequisite: Restricted to College of Education Credential Students or permission of instructor. The course explores the practical application of selected instructional strategies for teaching health subjects in accordance with the California Health Framework and the California Health Standards. Instructional methods utilized include classroom discussion and problem-solving topics. Content covers health services and a safe and healthy environment within the whole school community which are accessible to all students, are inclusive and culturally relevant, and age appropriate. Students\u2019 cognitive, physical, social and emotional health are also addressed. This course is required for the Multiple Subject Credential.",
+        "units": "1",
+        "prerequisites": "{{Restricted to College of Education Credential Students} || {permission of instructor}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "466ADO",
+        "title": "Health Issues of the Adolescent",
+        "description": "Prerequisite: Restricted to College of Education Credential Students or permission of instructor. The course addresses health concerns of adolescents and teens in a secondary school setting. Emphasis is placed on the role of the teacher as model and observer for students and their unique needs. Topics are in alliance with the California Health Framework and the California Health Education Standards, under the guidance and theme of a holistic approach to education with a \u201cwhole school,\u201d \u201cwhole community,\u201d and \u201cwhole child\u201d model. Students\u2019 cognitive, physical, social, and emotional health are also addressed. This course is required for the Single Subject Credential.",
+        "units": "1",
+        "prerequisites": "{{Restricted to College of Education Credential Students} || {permission of instructor}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "478",
+        "title": "Seminar in Current Trends",
+        "description": "Prerequisites: Senior standing; Consent of instructor. Seminar to identify and analyze current trends, issues and challenges in the healthcare industry. Subject matter varies weekly. Course contains a substantial off-site service learning component that will match students\u2019 career objectives. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{Senior standing} && {Consent of instructor}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "480",
+        "title": "Computed Tomography",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification. Corequisite: HSCI 283. Principles of Computed Tomography provide the Radiologic Technology student with a broad understanding of the applied physics and imaging techniques used in clinical Computed Tomography Imaging. Overviews all five generations of CT imaging. Clinical applications and processes that highlight the course content are conducted at the affiliated medical centers. (Offered Fall semester.)",
+        "units": "2",
+        "prerequisites": "{{HSCI 182} || {HSCI 281} || {HSCI 282} || {HSCI 286} || {HSCI 385} || {ARRT Certification}}",
+        "corequisites": "{HSCI 283}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "482",
+        "title": "Angiography and Interventional Technology",
+        "description": "Prerequisites: HSCI 182, HSCI 281, HSCI 282, HSCI 286, HSCI 385 or ARRT Certification. Corequisite: HSCI 283. Radiographic examinations involving surgical procedures and specialized equipment. (Offered Fall semester.)",
+        "units": "4",
+        "prerequisites": "{{HSCI 182} || {HSCI 281} || {HSCI 282} || {HSCI 286} || {HSCI 385} || {ARRT Certification}}",
+        "corequisites": "{HSCI 283}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "483A",
+        "title": "Medical Imaging Pathology",
+        "description": "Prerequisites: HSCI 284, HSCI 302, or ARRT Certification. Corequisite: HSCI 387. Understanding the basic principles of pathology is an essential part of the radiologic technologist\u2019s training. Knowing how disease processes work and recognizing the radiographic appearance of specific diseases can aid the technologist in selecting proper modalities and determining the need for repeat radiographs in different situations. This kind of knowledge enables the radiologic technologist to become a more competent professional and a contributing member of the diagnostic team.",
+        "units": "2",
+        "prerequisites": "{{HSCI 284} || {HSCI 302} || {ARRT Certification}}",
+        "corequisites": "{HSCI 387}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "484A",
+        "title": "Positron Emission Tomography: Fusion Imaging",
+        "description": "Prerequisites: HSCI 380, HSCI 480, HSCI 483A, HSCI 485 and EOH 467. The Fusion Positron Emission Tomography: Fusion Imaging (PET/CT) course instructs students in the use of radioactive material through proper utilization of specialized equipment and techniques. This course prepares students to perform dose calculations, prepare radiopharmaceuticals, and discuss related quality control and quality assurance procedures on instrumentation. Course includes topics on radiation safety and radiobiology with an emphasis in radiation protection, storage and disposal of radioactive materials and inventory and control of radiopharmaceuticals.",
+        "units": "3",
+        "prerequisites": "{{HSCI 380} && {HSCI 480} && {HSCI 483A} && {HSCI 485} && {EOH 467}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "485",
+        "title": "Principles of MRI",
+        "description": "Prerequisites: HSCI 283, HSCI 380, HSCI 384, HSCI 480, HSCI 482, or ARRT Certification. Corequisite: HSCI 284. Principles of Magnetic Resonance Imaging (MRI) provides the Radiologic Technology student with a basic understanding of the applied physics, imaging techniques and imaged anatomy/pathology used in clinical magnetic resonance imaging. Clinical applications and processes that highlight the course content are conducted at the affiliated medical centers. (Offered Spring semester.)",
+        "units": "3",
+        "prerequisites": "{{HSCI 283} || {HSCI 380} || {HSCI 384} || {HSCI 480} || {HSCI 482} || {ARRT Certification}}",
+        "corequisites": "{HSCI 284}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "486A",
+        "title": "Seminar: Advances in Radiologic Imaging I",
+        "description": "Prerequisites: HSCI 181, HSCI 280, HSCI 285, PHYS 376 or ARRT Certification. Research of diagnostic, interventional or therapeutic processes being developed or used in radiologic imaging for the purpose of improving the health and/or well-being of the patient population. Students work under the guidance of the instructor to research an approved topic and to develop a scientific paper, display or project. Students participate in seminar discussions on current research, present their research findings and demonstrate professional communication and critical-thinking skills.",
+        "units": "1",
+        "prerequisites": "{{HSCI 181} || {HSCI 280} || {HSCI 285} || {PHYS 376} || {ARRT Certification}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "486B",
+        "title": "Seminar: Advances in Radiologic Imaging II",
+        "description": "Prerequisites: HSCI 283, HSCI 380, HSCI 384, HSCI 480, HSCI 482, or ARRT Certification. Corequisite: HSCI 284. Research of diagnostic, interventional or therapeutic processes being developed or used in radiologic imaging for the purpose of improving the health and/or well-being of the patient population. Students work under the guidance of the instructor to research an approved topic and to develop a scientific paper, display or project. Students participate in seminar discussions on current research, present their research findings and demonstrate outstanding professional communication, teaching and critical-thinking skills.",
+        "units": "1",
+        "prerequisites": "{{HSCI 283} || {HSCI 380} || {HSCI 384} || {HSCI 480} || {HSCI 482} || {ARRT Certification}}",
+        "corequisites": "{HSCI 284}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "487",
+        "title": "Professional Development for Radiographers",
+        "description": "Prerequisites: HSCI 283, HSCI 380, HSCI 384, HSCI 480, HSCI 482, or ARRT Certification. Corequisite: HSCI 284. Seminar includes discussion and application of instructional interventions used in accredited radiography programs. Discussions center on current issues and changes in practice as they apply to continuing curriculum development, the national accreditation process and patient education. Additional discussions center around the professionalization of the radiographer with topics covering professional ethics, professional codes of conduct and management of professionals. (Offered Fall semester.)",
+        "units": "3",
+        "prerequisites": "{{HSCI 283} || {HSCI 380} || {HSCI 384} || {HSCI 480} || {HSCI 482} || {ARRT Certification}}",
+        "corequisites": "{HSCI 284}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "488",
+        "title": "Epidemiology",
+        "description": "Preparatory: HSCI 390. Nature, transmission, prevention and control of disease from a public-health approach. Historical background, current problems and trends in disease control.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "494HA",
+        "title": "Academic Internship for Health Administration",
+        "description": "Prerequisites: HSCI 425 and graduating senior standing. Corequisite: HSCI 494IHA. Supervised internship and field experience within an approved agency. This course provides the academic supervision and facilitation of the corequisite on-site course (HSCI 494IHA). Health Administration majors must complete a total of 135 hours. (Credit/No Credit only)",
+        "units": "3",
+        "prerequisites": "{{HSCI 425} && {graduating senior standing}}",
+        "corequisites": "{HSCI 494IHA}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "494IHA",
+        "title": "Academic Internship Evaluation in Health Administration",
+        "description": "Prerequisites: HSCI 425 and graduating senior standing for Health Administration. Corequisite: HSCI 494HA. Supervised internship and field experience within an approved agency. This course provides the academic supervision and facilitation of the corequisite on-site course (HSCI 494HA). Health Administration majors must complete a total of 135 hours. (Credit/No Credit only).",
+        "units": "1",
+        "prerequisites": "{{HSCI 425} && {graduating senior standing for Health Administration}}",
+        "corequisites": "{HSCI 494HA}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "494IPH",
+        "title": "Academic Internship Evaluation in Public Health",
+        "description": "Prerequisites: HSCI 441 and graduating senior standing. Corequisite: HSCI 494PH. Supervised internship and field experience within an approved agency. This course provides the academic supervision and facilitation of the corequisite on-site course (HSCI 494PH). 135 hours are required. (Credit/No Credit only)",
+        "units": "1",
+        "prerequisites": "{{HSCI 441} && {graduating senior standing}}",
+        "corequisites": "{HSCI 494PH}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "494PH",
+        "title": "Academic Internship for Public Health",
+        "description": "Prerequisites: HSCI 441 and graduating senior standing. Corequisite: HSCI 494IPH. Supervised internship and field experience within an approved agency. This course provides the academic supervision and facilitation of the corequisite on-site course (HSCI 494IPH). Students must complete a total of 135 hours. (Credit/No Credit only)",
+        "units": "2",
+        "prerequisites": "{{HSCI 441} && {graduating senior standing}}",
+        "corequisites": "{HSCI 494IPH}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "499A",
+        "title": "Independent Study",
+        "description": "Independent Study",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "505A",
+        "title": "Health Informatics",
+        "description": "The course prepares students of healthcare administration or similar background to lead in the field of healthcare administration informatics by providing a wide ranging exploration of topics related to informatics and health information technology in the U.S. healthcare delivery system. The course starts with the unique needs of the U.S. healthcare industry by introducing the basic components of the U.S. healthcare system, payment systems, and healthcare reform issues related to health information technology. Other topics will include: basic concepts of computer science, health information management, the electronic medical records (EMR), workflow analysis tools and approaches to re-design of healthcare processes.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "510",
+        "title": "Systems for Health Delivery in the U.S.",
+        "description": "Introductory course describes the organization of public and private systems of care, role of governments and private healthcare systems, the evolution of health services in the U.S., and key federal and state legislation and regulation impacting provider reimbursement, healthcare entitlements, quality of care, preparation of healing arts professionals, and how healthcare organizations develop and function.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "511",
+        "title": "Health Services Administration Theory and Practice",
+        "description": "Preparatory: Bachelor\u2019s degree; Conditionally classified status for the master\u2019s degree in Health Administration. Introduction to the basic historical and current theory and practice of the administration of health services organizations. Emphasis on the administrator\u2019s role in a systems approach to assessing and responding proactively to the external forces in the health services delivery system and in the development of the organization\u2019s culture and processes for the provision of quality service.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "513",
+        "title": "Leadership in Health Administration Practice",
+        "description": "Seminar in which special emphasis is placed on the leadership skills needed in healthcare organizations. Describes basic leadership principles, reviews literature, examines factors associated with successful leadership and discusses case studies on leadership strategies used in the healthcare field. In addition, a personal assessment of leadership styles are conducted, as well as a culminating community class project.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "515",
+        "title": "Seminar in Healthcare Information Management",
+        "description": "Prerequisites: Graduate status; Basic computer literacy. Investigates current status of both clinical and administrative healthcare information management systems. Topics include, emerging technology, selection of information systems, management of information, electronic medical records, the Internet\u2019s impact on a healthcare organization\u2019s business processes, and other current events. For MSHA, MPT, MPH and other graduate students.",
+        "units": "3",
+        "prerequisites": "{{Graduate status} && {Basic computer literacy}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "517",
+        "title": "Health Economics and National Health Policy",
+        "description": "Application of economic theory and concepts to the analysis and formulation of both managerial decision and healthcare policy. Provides a basic introduction to the relevant technical and economic aspects of the healthcare industry and local, state and national health-policy issues.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "518",
+        "title": "Managed Care",
+        "description": "Prerequisite: HSCI 412 or graduate standing. Consideration of alternate healthcare delivery systems emphasizing the planning, development, start-up and operation of health maintenance organizations.",
+        "units": "3",
+        "prerequisites": "{{HSCI 412} || {graduate standing}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "521",
+        "title": "Managerial Ethics and Healthcare Law",
+        "description": "Prerequisite: Graduate standing. Framework for analysis of legal and ethical issues in the provision of healthcare, including conceptual foundations for societal, institutional and individual dilemmas in healthcare delivery and the legal aspects of clinical and financial decision making in the administration of healthcare.",
+        "units": "3",
+        "prerequisites": "{Graduate standing}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "523",
+        "title": "Introduction to the U.S. Healthcare System",
+        "description": "This introductory healthcare organization course examines the structure and interrelationships of health status and healthcare resources, including human resources, facilities and services. The approach is interdisciplinary and designed to provide the student with an understanding of issues in healthcare delivery. Emphasis is placed on providers and populations within the clinical, legal, political and economic systems.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "526",
+        "title": "Global Women\u2019s Health",
+        "description": "The course examines women\u2019s global health within the content of health inequities.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "531",
+        "title": "Program Planning and Evaluation",
+        "description": "Prerequisite: HSCI 533. Preparatory: Graduate standing as a conditional or classified student in the MPH program. Graduate students not in the program may enroll with permission of course instructor. In-depth study of the conceptual/theoretical and practice-based methodologies of public health program planning and evaluation.",
+        "units": "3",
+        "prerequisites": "{HSCI 533}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "533",
+        "title": "Advanced Health Behavior Theory",
+        "description": "Critical analysis of theoretical issues and current methodologies related to influencing health behavior. Special emphasis will be given to the selection and application of principles to the field of public health.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "534",
+        "title": "Lactation Education for the Healthcare Professional",
+        "description": "This course provides graduate students from various health disciplines with the opportunity to learn and apply approaches used by public health professionals to promote breastfeeding in the community. Emphasis will be given to analyzing current breastfeeding behavior using a social-ecological model of thinking. Topics covered will include: epidemiological trends in breastfeeding, health outcomes associated with breastfeeding, public health initiatives and policies that influence breastfeeding, social norms and cultural factors influencing breastfeeding, and key concepts women and their families need to know to successfully breastfeed. Students will have the opportunity to develop skills needed to effectively promote breastfeeding including: understanding the lactation educator\u2019s scope of practice, counseling skills, application of theory to understand factors influencing breastfeeding behavior and selection of strategies to influence breastfeeding behavior.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "535",
+        "title": "Curriculum Development in Public Health",
+        "description": "Prerequisites: HSCI 531, HSCI 533 and HSCI 538. Critical analysis of curriculum development and its application in public health and community health education.",
+        "units": "3",
+        "prerequisites": "{{HSCI 531} && {HSCI 533} && {HSCI 538}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "536",
+        "title": "Cultural Issues in Healthcare",
+        "description": "Preparatory: Graduate standing or instructor consent. Provides the health professions student with an increased understanding of the cross-cultural factors that can influence health and disease practices across a wide range of cultural groups. Using readings, classroom exercises and student-developed case studies, participants explore the cultural variables impacting the delivery of health promotion/disease prevention programs and services.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "537",
+        "title": "Principles of Communication in Public Health",
+        "description": "This course provides learners with principles, theories and methods for effective individual and community health communication strategies. Students will analyze the basic components of communication; identify persuasive communication strategies applicable to public health communication practice; and evaluate the role of communication in public health settings.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "538",
+        "title": "Community Health Action",
+        "description": "Prerequisite: HSCI 533. Comprehensive analysis of methods and techniques appropriate to community health action.",
+        "units": "3",
+        "prerequisites": "{HSCI 533}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "539",
+        "title": "Current Issues in Public Health",
+        "description": "Theory, principles and research applicable to public health. Investigation of problems of social, economic, cultural and educational origin as they apply to sound public health programs.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "540",
+        "title": "Grantsmanship for Health and Human Development",
+        "description": "An introductory course in grant writing for graduate students. The course will focus on the fundamental characteristics of grant writing for the health and human services, including identifying sources of funding, writing a proposal narrative, developing a realistic budget, reviewing and editing proposal content, and understanding how to manage an awarded grant. The course will examine the criteria for fundable projects in the health and human service arena and provide students with knowledge and tools for producing a grant application.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "541",
+        "title": "Administration and Management in Public Health",
+        "description": "In-depth exploration of organizational, administrative and policy-based aspects of public health programs and systems. Students will learn principles of leadership, governance and management; and ultimately develop mediation and negotiation skills, and learn how to apply systems-thinking tools.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "569",
+        "title": "Public Health Strategies in HIV and STI Prevention",
+        "description": "This course aims to provide advance understanding of epidemiology, determinants, preventive efforts, theoretical framework, interventional designs, policy considerations, and testing/treatment mechanisms for sexually transmitted infections (STIs) and HIV/AIDS. This course will address health disparities, social, behavioral, medical, and political correlates as well as examine the consequences of HIV/STIs through discussions, assigned readings, assignments, and guest lectures.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "587",
+        "title": "Seminar: Epidemiology",
+        "description": "Prerequisite: HSCI 488 or graduate standing. Critical analysis of literature related to the newer concepts of epidemiology as applied to preventative medicine, healthcare management and public health.",
+        "units": "3",
+        "prerequisites": "{{HSCI 488} || {graduate standing}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "588",
+        "title": "Epidemiology of Infectious Diseases",
+        "description": "Prerequisite: HSCI 587. Critical review of infectious diseases, their transmission, control, prevention and significance in the past, present and future.",
+        "units": "3",
+        "prerequisites": "{HSCI 587}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "589",
+        "title": "Epidemiology of Common Chronic Diseases I",
+        "description": "Prerequisite: HSCI 587. Selected models to evaluate, analyze and investigate risk factors related to common chronic diseases.",
+        "units": "3",
+        "prerequisites": "{HSCI 587}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "591",
+        "title": "Quantitative Demography in Public Health",
+        "description": "Preparatory: HSCI 592. Quantitative demographic methods and public access databases to study population change, fertility and mortality, marriage and cohabitation, migration patterns and other influences on population growth and health over time.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "592",
+        "title": "Advanced Biostatistics",
+        "description": "Prerequisites: Graduate standing. Combines data collection, design of data gathering instruments, data analysis, statistical methods and statistical reasoning for public health.",
+        "units": "3",
+        "prerequisites": "{Graduate standing}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "592A",
+        "title": "Advanced Biostatistics II",
+        "description": "Prerequisites: HSCI 592 and instructor permission. Advanced techniques in statistical analysis used in epidemiologic research, including complex sampling strategies, secondary data analysis and topics in applied regression utilizing various data software packages (SAS and SPSS).",
+        "units": "3",
+        "prerequisites": "{{HSCI 592} && {instructor permission}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "613",
+        "title": "Organizational Behavior and Development in Health Administration",
+        "description": "Prerequisites: HSCI 513; Classified Graduate standing in Health Administration. A graduate seminar on administrative trends and issues in health services management, specifically pertaining to strategic human resources management and managing change.",
+        "units": "3",
+        "prerequisites": "{{HSCI 513} && {Classified Graduate standing in Health Administration}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "614",
+        "title": "Health Administration: Financial Analysis and Management",
+        "description": "Prerequisite: Graduate standing in Health Administration. ACCT 220 or equivalent. Theory, analysis and application of techniques of fiscal management in selected healthcare systems, including financial statement analysis, budgeting and productivity.",
+        "units": "3",
+        "prerequisites": "{Graduate standing in Health Administration}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "615",
+        "title": "Data Management and Analysis for Decision Making in Healthcare",
+        "description": "Prerequisite: Graduate standing in Health Administration. Overview of data and analytics in the healthcare industry. Application of structured problem-solving tools, analysis and quantitative decision making will be used to translate data into meaningful information. Analysis will be practiced to facilitate hands-on experience working with and interpreting data.",
+        "units": "3",
+        "prerequisites": "{Graduate standing in Health Administration}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "616",
+        "title": "Continuous Quality Improvement in Healthcare",
+        "description": "Prerequisite: Graduate standing in Health Administration. Overview of fundamentals and tools using a systems approach to quality management and process improvement in healthcare. Use practical approaches with an exposure to real-world healthcare settings to translate tools, theory, concepts and knowledge into practice. Understand tools that managers need to know including managerial, organizational, regulatory and policy issues related to healthcare quality.",
+        "units": "3",
+        "prerequisites": "{Graduate standing in Health Administration}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "618",
+        "title": "Strategic Planning in Health Administration",
+        "description": "Prerequisites: HSCI 614; HSCI 615; Classified graduate status in Health Administration. This graduate seminar is intended to integrate the various disciplines\u2014finance, human resources, law, ethics, policy, etc.\u2014into a comprehensive and practical framework. This course requires the student to put the acquired skills, theories and strategies into practice within the healthcare industry.",
+        "units": "3",
+        "prerequisites": "{{HSCI 614} && {HSCI 615} && {Classified graduate status in Health Administration}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "619",
+        "title": "Third Party Payer Impact on Health Delivery",
+        "description": "Prerequisite: Classified graduate status in Health Administration. Examines how third-party pay mechanisms, including traditional indemnity insurance/fee-for-service, Medicare and Medicaid, prospective payment systems, various managed care models and other forms, impact provider and consumer behavior, and risk management. Other items include, Workers Compensation, disability insurance and liability insurance for the healing arts professions, self-insured employers and ERISA, and the impact of these mechanisms on access to care, quality and consumer/provider economic incentives.",
+        "units": "3",
+        "prerequisites": "{Classified graduate status in Health Administration}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "620",
+        "title": "Seminar in Hospital Administration",
+        "description": "Preparatory: Graduate status in the College of Health and Human Development. Hospital organization; governance; relationship of administration to the medical staff; inpatient and outpatient services; professional staff organization; implications of changing MediCal and Medicare and private payer reimbursement; payer contracting; Title 22 and 24 requirements; licensing; make vs. buy decisions; community need and community benefit; differences and similarities between public, private nonprofit and private investor-owned hospitals; and DSH and District and teaching hospitals are examined. Course may involve field trips to area hospitals.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "625",
+        "title": "Integrative Seminar in Health Administration",
+        "description": "Prerequisite: Permission of instructor. Last semester of coursework. Integrative seminar. Students apply the knowledge and analytic skills obtained from health administration courses to the solution of organization and system-wide problems in healthcare.",
+        "units": "3",
+        "prerequisites": "{Permission of instructor}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "693A",
+        "title": "Supervised Field Training",
+        "description": "Prerequisite: Instructor consent. Corequisite: HSCI 693C. Supervised field experience/training in selected agencies or organizations. (Credit/No Credit only)",
+        "units": "2",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{HSCI 693C}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "694",
+        "title": "Research Design and Methodology",
+        "description": "Prerequisite or Corequisite: HSCI 592. Principles of research design and implementation including methodology, sampling, data analysis strategies and results interpretation as applied to public health.",
+        "units": "3",
+        "prerequisites": "{HSCI 592}",
+        "corequisites": "{HSCI 592}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "695",
+        "title": "Public Health Program Evaluation",
+        "description": "Prerequisites: HSCI 533, HSCI 694 and instructor permission. Critical exploration of concepts, principles, and practices for the evaluation of public health programs. This course provides professional skills for developing, implementing and conducting evaluation plans.",
+        "units": "3",
+        "prerequisites": "{{HSCI 533} && {HSCI 694} && {instructor permission}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "696",
+        "title": "Advanced Epidemiologic Research Methods",
+        "description": "Prerequisites: HSCI 587, HSCI 592, HSCI 694. Critical analysis of epidemiologic study design, data analysis and causal inference in epidemiologic research.",
+        "units": "3",
+        "prerequisites": "{{HSCI 587} && {HSCI 592} && {HSCI 694}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "697",
+        "title": "Directed Comprehensive Studies",
+        "description": "(Credit/No Credit only)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "698C",
+        "title": "Graduate Thesis",
+        "description": "This culminating graduate course meets the university requirement for a culminating experience by guiding students on how to prepare and write a master\u2019s thesis. Approximately 90 minutes of independent and/or class work each week. (Credit/No Credit only)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HSCI",
+        "catalog_number": "698E",
+        "title": "Integrative Learning Graduate Project",
+        "description": "This culminating graduate course meets the university requirement for a culminating experience by guiding students to complete an Integrative Learning Experience (ILE). Students will complete either a resource document or research project to address core competencies as well as concentration-specific competencies. The purpose of the ILE is to synthesize the knowledge, concepts, and skills learned in coursework, internship, and other related experiences as they demonstrate application in the field. (Credit/No Credit only)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    }
+]

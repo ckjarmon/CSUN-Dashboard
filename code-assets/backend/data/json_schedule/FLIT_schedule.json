@@ -1,86 +1,100 @@
 {
-    "FLIT 150": [
-        {
+    "FLIT 150": {
+        "14118": {
             "class_number": "14118",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Watson,Tim William",
+            "enrollment_cap": 30,
+            "enrollment_count": 18,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "tim.watson@csun.edu",
             "days": "MW",
             "location": "JR330",
             "start_time": "1100h",
             "end_time": "1215h"
         }
-    ],
-    "FLIT 151": [
-        {
+    },
+    "FLIT 151": {
+        "15395": {
             "class_number": "15395",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Huang,Junliang",
-            "days": null,
+            "enrollment_cap": 42,
+            "enrollment_count": 18,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
+            "instructor": "junliang.huang@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "FLIT 234": [
-        {
+    },
+    "FLIT 234": {
+        "14196": {
             "class_number": "14196",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Benvenuto,Adriana Marcela",
-            "days": null,
+            "enrollment_cap": 42,
+            "enrollment_count": 17,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
+            "instructor": "adriana.benvenuto@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "FLIT 380": [
-        {
+    },
+    "FLIT 380": {
+        "15209": {
             "class_number": "15209",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Mokhnatkin,Dina",
-            "days": null,
+            "enrollment_cap": 30,
+            "enrollment_count": 12,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "dina.mokhnatkin@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "FLIT 381": [
-        {
+    },
+    "FLIT 381": {
+        "14388": {
             "class_number": "14388",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Weisberg,Alessia Nanni",
-            "days": null,
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "alessia.weisberg@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "FLIT 402": [
-        {
+    },
+    "FLIT 402": {
+        "15172": {
             "class_number": "15172",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Langford,Drake",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "drake.langford@csun.edu",
             "days": "TR",
             "location": "JR316",
             "start_time": "0930h",
             "end_time": "1045h"
         }
-    ],
-    "FLIT 491": [
-        {
+    },
+    "FLIT 491": {
+        "14130": {
             "class_number": "14130",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Langford,Drake",
+            "enrollment_cap": 20,
+            "enrollment_count": 5,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "drake.langford@csun.edu",
             "days": "T",
             "location": "JR316",
             "start_time": "1530h",
             "end_time": "1815h"
         }
-    ]
+    }
 }

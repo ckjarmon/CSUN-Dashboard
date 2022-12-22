@@ -1,1042 +1,386 @@
 {
-    "URBS 60AA": {
-        "21009": {
-            "class_number": "21009",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "URBS 150": {
+        "12041": {
+            "class_number": "12041",
+            "enrollment_cap": 49,
+            "enrollment_count": 20,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "claude.willey@csun.edu",
             "days": "MW",
-            "location": "BB1206",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20542": {
-            "class_number": "20542",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH314",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20503": {
-            "class_number": "20503",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH108",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20547": {
-            "class_number": "20547",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH221",
-            "start_time": "1530h",
-            "end_time": "1620h"
-        },
-        "20548": {
-            "class_number": "20548",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH224",
-            "start_time": "1700h",
-            "end_time": "1750h"
-        },
-        "20549": {
-            "class_number": "20549",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BB1107",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "21006": {
-            "class_number": "21006",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH102",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "21007": {
-            "class_number": "21007",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH312",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "21008": {
-            "class_number": "21008",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH307",
-            "start_time": "1530h",
-            "end_time": "1620h"
-        }
-    },
-    "URBS 60BB": {
-        "20491": {
-            "class_number": "20491",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH317",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        }
-    },
-    "URBS 60C": {
-        "20171": {
-            "class_number": "20171",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1030h",
-            "end_time": "1120h"
-        },
-        "20352": {
-            "class_number": "20352",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1300h",
-            "end_time": "1350h"
-        },
-        "20566": {
-            "class_number": "20566",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1650h"
-        },
-        "20567": {
-            "class_number": "20567",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1830h",
-            "end_time": "1920h"
-        },
-        "20569": {
-            "class_number": "20569",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        },
-        "20570": {
-            "class_number": "20570",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20571": {
-            "class_number": "20571",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20572": {
-            "class_number": "20572",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1130h",
-            "end_time": "1220h"
-        },
-        "20573": {
-            "class_number": "20573",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20574": {
-            "class_number": "20574",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20578": {
-            "class_number": "20578",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0830h",
-            "end_time": "0920h"
-        },
-        "20579": {
-            "class_number": "20579",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20580": {
-            "class_number": "20580",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "21031": {
-            "class_number": "21031",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "21032": {
-            "class_number": "21032",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "21033": {
-            "class_number": "21033",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "20560": {
-            "class_number": "20560",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1300h",
-            "end_time": "1350h"
-        },
-        "20561": {
-            "class_number": "20561",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1530h",
-            "end_time": "1620h"
-        }
-    },
-    "URBS 60NN": {
-        "20539": {
-            "class_number": "20539",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BB1202",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "21005": {
-            "class_number": "21005",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH207",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20557": {
-            "class_number": "20557",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH221",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        }
-    },
-    "URBS 60O": {
-        "20501": {
-            "class_number": "20501",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH317",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20497": {
-            "class_number": "20497",
-            "enrollment_cap": 29,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH317",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "20499": {
-            "class_number": "20499",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH319",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        }
-    },
-    "URBS 60S": {
-        "20504": {
-            "class_number": "20504",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH317",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        }
-    },
-    "URBS 60X": {
-        "20223": {
-            "class_number": "20223",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH224",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20233": {
-            "class_number": "20233",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH302",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20330": {
-            "class_number": "20330",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH224",
-            "start_time": "1600h",
-            "end_time": "1650h"
-        },
-        "20331": {
-            "class_number": "20331",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH205",
-            "start_time": "1600h",
-            "end_time": "1650h"
-        },
-        "20334": {
-            "class_number": "20334",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "JD1552",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        },
-        "20335": {
-            "class_number": "20335",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH305",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        },
-        "20336": {
-            "class_number": "20336",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "JD2522",
-            "start_time": "1600h",
-            "end_time": "1650h"
-        },
-        "20337": {
-            "class_number": "20337",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH371",
-            "start_time": "1600h",
-            "end_time": "1650h"
-        }
-    },
-    "URBS 61A": {
-        "20419": {
-            "class_number": "20419",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        }
-    },
-    "URBS 61C": {
-        "21096": {
-            "class_number": "21096",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1530h",
-            "end_time": "1620h"
-        }
-    },
-    "URBS 61E": {
-        "20244": {
-            "class_number": "20244",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH317",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20346": {
-            "class_number": "20346",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH317",
-            "start_time": "1530h",
-            "end_time": "1620h"
-        },
-        "20347": {
-            "class_number": "20347",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH317",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20348": {
-            "class_number": "20348",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH319",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "20353": {
-            "class_number": "20353",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH371",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20356": {
-            "class_number": "20356",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH310",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20389": {
-            "class_number": "20389",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH317",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20421": {
-            "class_number": "20421",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "JD1593",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "URBS 61L": {
-        "20428": {
-            "class_number": "20428",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH319",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20429": {
-            "class_number": "20429",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH319",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        }
-    },
-    "URBS 62A": {
-        "20227": {
-            "class_number": "20227",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH317",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "20305": {
-            "class_number": "20305",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH319",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        }
-    },
-    "URBS 62C": {
-        "20225": {
-            "class_number": "20225",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "JD1593",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20228": {
-            "class_number": "20228",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH207",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        }
-    },
-    "URBS 62E": {
-        "20226": {
-            "class_number": "20226",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH319",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "20229": {
-            "class_number": "20229",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "JD1552",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "20245": {
-            "class_number": "20245",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH307",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20246": {
-            "class_number": "20246",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20247": {
-            "class_number": "20247",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH305",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20249": {
-            "class_number": "20249",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH207",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20251": {
-            "class_number": "20251",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "BH319",
-            "start_time": "1530h",
-            "end_time": "1620h"
-        },
-        "20253": {
-            "class_number": "20253",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH317",
-            "start_time": "1530h",
-            "end_time": "1620h"
-        },
-        "20261": {
-            "class_number": "20261",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "JD1552",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20262": {
-            "class_number": "20262",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH224",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        },
-        "20263": {
-            "class_number": "20263",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH319",
-            "start_time": "1530h",
-            "end_time": "1620h"
-        },
-        "20264": {
-            "class_number": "20264",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH371",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20265": {
-            "class_number": "20265",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BH319",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        }
-    },
-    "URBS 62H": {
-        "20231": {
-            "class_number": "20231",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "BB1107",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20310": {
-            "class_number": "20310",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH224",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20311": {
-            "class_number": "20311",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "MZ124",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20312": {
-            "class_number": "20312",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        "20313": {
-            "class_number": "20313",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "MZ124",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        }
-    },
-    "URBS 62L": {
-        "20437": {
-            "class_number": "20437",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "JD1552",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20473": {
-            "class_number": "20473",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "JD1552",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20475": {
-            "class_number": "20475",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH224",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20973": {
-            "class_number": "20973",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH205",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        }
-    },
-    "URBS 62P": {
-        "20232": {
-            "class_number": "20232",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "SH305",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        }
-    },
-    "URBS 62Q": {
-        "20394": {
-            "class_number": "20394",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "JD1552",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20402": {
-            "class_number": "20402",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SH371",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        }
-    },
-    "URBS 100": {
-        "20193": {
-            "class_number": "20193",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Riccomini,Lisa D",
-            "days": "MW",
-            "location": "SH205",
+            "location": "SH286",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "20170": {
-            "class_number": "20170",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Riccomini,Lisa D",
+        "12042": {
+            "class_number": "12042",
+            "enrollment_cap": 49,
+            "enrollment_count": 32,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "claude.willey@csun.edu",
             "days": "MW",
-            "location": "SH205",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "20198": {
-            "class_number": "20198",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Riccomini,Lisa D",
-            "days": "MW",
-            "location": "SH205",
+            "location": "SH286",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        "20210": {
-            "class_number": "20210",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Givertz,Catherine E S",
-            "days": "TR",
-            "location": "SH205",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "20211": {
-            "class_number": "20211",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Givertz,Catherine E S",
-            "days": "TR",
-            "location": "SH205",
+        "12043": {
+            "class_number": "12043",
+            "enrollment_cap": 49,
+            "enrollment_count": 49,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "bradley.calvert@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        "20212": {
-            "class_number": "20212",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Battle,Conchita Y",
+        "12044": {
+            "class_number": "12044",
+            "enrollment_cap": 49,
+            "enrollment_count": 28,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "claude.willey@csun.edu",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "12652": {
+            "class_number": "12652",
+            "enrollment_cap": 49,
+            "enrollment_count": 8,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "bradley.calvert@csun.edu",
+            "days": "F",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "12701": {
+            "class_number": "12701",
+            "enrollment_cap": 49,
+            "enrollment_count": 7,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "pgiottonini@csun.edu",
             "days": "TR",
-            "location": "SH205",
+            "location": "SH286",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12738": {
+            "class_number": "12738",
+            "enrollment_cap": 49,
+            "enrollment_count": 21,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "claude.willey@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "URBS 206": {
+        "12768": {
+            "class_number": "12768",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "pgiottonini@csun.edu",
+            "days": "TR",
+            "location": "SH278B",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "URBS 300": {
+        "12047": {
+            "class_number": "12047",
+            "enrollment_cap": 30,
+            "enrollment_count": 28,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "brettany.shannon@csun.edu",
+            "days": "TR",
+            "location": "SH286",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "URBS 310": {
+        "12045": {
+            "class_number": "12045",
+            "enrollment_cap": 138,
+            "enrollment_count": 14,
+            "waitlist_cap": 138,
+            "waitlist_count": 0,
+            "instructor": "ward.thomas@csun.edu",
+            "days": "TR",
+            "location": "UL025",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12046": {
+            "class_number": "12046",
+            "enrollment_cap": 49,
+            "enrollment_count": 49,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "dev.vrat@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        "12059": {
+            "class_number": "12059",
+            "enrollment_cap": 49,
+            "enrollment_count": 31,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "dev.vrat@csun.edu",
+            "days": "TR",
+            "location": "SH286",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "URBS 340B": {
+        "12048": {
+            "class_number": "12048",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "zeynep.toker@csun.edu",
+            "days": "TR",
+            "location": "SH303",
             "start_time": "1230h",
             "end_time": "1345h"
         },
-        "20396": {
-            "class_number": "20396",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Riegos-Olmos,Elizabeth",
-            "days": "MW",
-            "location": "SG108",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "20397": {
-            "class_number": "20397",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Villanueva,Marvin O",
+        "12049": {
+            "class_number": "12049",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "zeynep.toker@csun.edu",
             "days": "TR",
-            "location": "UL002",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "location": "SH278B",
+            "start_time": "0930h",
+            "end_time": "1045h"
         },
-        "20490": {
-            "class_number": "20490",
-            "enrollment_cap": 4,
+        "21285": {
+            "class_number": "21285",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Quiambao,Gretchelle",
+            "instructor": "Romine,Nathan",
+            "days": "S",
+            "location": "SH286",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "URBS 350": {
+        "12739": {
+            "class_number": "12739",
+            "enrollment_cap": 49,
+            "enrollment_count": 49,
+            "waitlist_cap": 49,
+            "waitlist_count": 16,
+            "instructor": "claude.willey@csun.edu",
             "days": "TR",
-            "location": "BB1107",
+            "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h"
         }
     },
-    "URBS 396A": {
-        "20906": {
-            "class_number": "20906",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Street,Michelle M B",
-            "days": "W",
-            "location": "SG110",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20907": {
-            "class_number": "20907",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Robinson,Janice",
-            "days": "W",
-            "location": "SH305",
-            "start_time": "1400h",
-            "end_time": "1450h"
-        },
-        "20908": {
-            "class_number": "20908",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Pirjan,Sevetlana",
-            "days": "W",
-            "location": "SH305",
-            "start_time": "1230h",
-            "end_time": "1320h"
-        },
-        "20909": {
-            "class_number": "20909",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Dudley,Mary M",
-            "days": "T",
-            "location": "SH285",
+    "URBS 380": {
+        "12901": {
+            "class_number": "12901",
+            "enrollment_cap": 49,
+            "enrollment_count": 18,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "brettany.shannon@csun.edu",
+            "days": "F",
+            "location": "SH286",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "URBS 400": {
+        "12943": {
+            "class_number": "12943",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "pgiottonini@csun.edu",
+            "days": "TR",
+            "location": "SH286",
             "start_time": "1530h",
-            "end_time": "1620h"
-        },
-        "20910": {
-            "class_number": "20910",
-            "enrollment_cap": 23,
+            "end_time": "1645h"
+        }
+    },
+    "URBS 415": {
+        "12902": {
+            "class_number": "12902",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "dev.vrat@csun.edu",
+            "days": "MW",
+            "location": "SH286",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "URBS 435": {
+        "12054": {
+            "class_number": "12054",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ward.thomas@csun.edu",
+            "days": "TR",
+            "location": "SH286",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "URBS 450": {
+        "12055": {
+            "class_number": "12055",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "henrik.minassians@csun.edu",
+            "days": "MW",
+            "location": "SH286",
+            "start_time": "1600h",
+            "end_time": "1715h"
+        }
+    },
+    "URBS 490C": {
+        "12057": {
+            "class_number": "12057",
+            "enrollment_cap": 12,
+            "enrollment_count": 10,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "craig.olwert@csun.edu",
+            "days": "F",
+            "location": "SH286",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    },
+    "URBS 494C": {
+        "12058": {
+            "class_number": "12058",
+            "enrollment_cap": 9,
+            "enrollment_count": 9,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "Staff",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "URBS 615": {
+        "12906": {
+            "class_number": "12906",
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Robinson,Janice",
-            "days": "T",
-            "location": "SH205",
-            "start_time": "1700h",
-            "end_time": "1750h"
-        },
-        "20911": {
-            "class_number": "20911",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Robinson,Janice",
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "craig.olwert@csun.edu",
             "days": "W",
-            "location": "MZ113",
-            "start_time": "1700h",
-            "end_time": "1750h"
-        },
-        "21253": {
-            "class_number": "21253",
-            "enrollment_cap": 19,
+            "location": "SH278B",
+            "start_time": "1800h",
+            "end_time": "2045h"
+        }
+    },
+    "URBS 620": {
+        "12769": {
+            "class_number": "12769",
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Pirjan,Sevetlana",
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "david.weintraub@csun.edu",
+            "days": "M",
+            "location": "SH278B",
+            "start_time": "1800h",
+            "end_time": "2045h"
+        }
+    },
+    "URBS 640": {
+        "12904": {
+            "class_number": "12904",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "ward.thomas@csun.edu",
             "days": "R",
-            "location": "BB1236",
-            "start_time": "1100h",
-            "end_time": "1150h"
+            "location": "SH286",
+            "start_time": "1800h",
+            "end_time": "2045h"
+        }
+    },
+    "URBS 650": {
+        "13130": {
+            "class_number": "13130",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "henrik.minassians@csun.edu",
+            "days": "T",
+            "location": "SH278B",
+            "start_time": "1800h",
+            "end_time": "2045h"
+        }
+    },
+    "URBS 685": {
+        "12771": {
+            "class_number": "12771",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "zeynep.toker@csun.edu",
+            "days": "S",
+            "location": "SH278B",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "URBS 698": {
+        "12903": {
+            "class_number": "12903",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "craig.olwert@csun.edu",
+            "days": "S",
+            "location": "SH303",
+            "start_time": "0930h",
+            "end_time": "1215h"
         }
     }
 }

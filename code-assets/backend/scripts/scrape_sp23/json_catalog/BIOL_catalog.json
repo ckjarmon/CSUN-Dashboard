@@ -1,0 +1,1667 @@
+[
+    {
+        "subject": "BIOL",
+        "catalog_number": "100",
+        "title": "Introductory Biology",
+        "description": "Corequisite: BIOL 100L. Not for credit in the Biology major. May not be taken for credit by students who have completed BIOL 101, BIOL 102, BIOL 106 or BIOL 107. Analysis of selected topics illustrating major biological concepts, including ecology, evolution, heredity and organismal and cellular structure and physiology. Primarily designed for non-science majors. Lecture 2 hours. (Available for General Education, B2 Life Science. Students satisfy the B3 Science Laboratory Activity requirement by completing BIOL 100L.)",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{BIOL 100L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "100L",
+        "title": "Introductory Biology Lab Lab",
+        "description": "Corequisite: BIOL 100. Not for credit in the Biology major. Observations, experiments, demonstrations and required field trips to augment Introductory Biology. Emphasis on the methods of science, basic biological principles, the natural environment and the effects of human activity on the environment. Lab 3 hours. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B2 Life Science requirement by completing BIOL 100.)",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{BIOL 100}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "101",
+        "title": "General Biology",
+        "description": "Not for credit in the Biology major and may not be taken for credit by students who have completed BIOL 106 or BIOL 107. Analysis of selected topics illustrating major concepts in biology, including evolution, environmental relationships, heredity, the cell, energetics and functions of living systems, and development. (Available for General Education, B2 Life Science. Students may satisfy the B3 Science Laboratory Activity requirement by completing BIOL 101L.)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "101L",
+        "title": "General Biology Lab Lab",
+        "description": "Corequisite: BIOL 101. Not for credit in the Biology major and may not be taken for credit by students who have completed BIOL 106 or BIOL 107. Analysis of selected topics illustrating major concepts in biology, including evolution, environmental relationships, heredity, the cell, energetics and functions of living systems, and development. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B2 Life Science requirement by completing BIOL 101.)",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{BIOL 101}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "106",
+        "title": "Biological Principles I",
+        "description": "Corequisite: BIOL 106L. Primarily for Biology majors. Half of a two-semester sequence that includes BIOL 107 and BIOL 107L. Selected topics illustrating major concepts in biology, including the scientific process, heredity, evolution, taxonomy and systematics, ecology and animal behavior. Observations, experiments and demonstrations. Emphasis on unifying biological concepts and methods in science. Lecture 3 hours. (Available for General Education, B2 Life Science *if required in a student\u2019s major. Students may satisfy the B3 Science Laboratory Activity requirement by completing BIOL 106L.)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{BIOL 106L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "106L",
+        "title": "Biological Principles I Lab Lab",
+        "description": "Corequisite: BIOL 106. Primarily for Biology majors. Half of a two-semester sequence that includes BIOL 107 and BIOL 107L. Selected topics illustrating major concepts in biology, including the scientific process, heredity, evolution, taxonomy and systematics, ecology and animal behavior. Observations, experiments and demonstrations. Emphasis on unifying biological concepts and methods in science. Lab 3 hours. (Available for General Education, B3 Science Laboratory Activity *if required in a student\u2019s major. Students satisfy the B2 Life Science requirement by completing BIOL 106.)",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{BIOL 106}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "107",
+        "title": "Biological Principles II",
+        "description": "Corequisite: BIOL 107L. Recommended Corequisite or Preparatory: CHEM 102 and CHEM 102L. Half of a two-semester sequence that includes BIOL 106 and BIOL 106L. Selected topics illustrating major concepts in biology, including biological chemistry, cells, molecular genetics, animal development and plant and animal physiology. Observations, experiments and demonstrations. Emphasis on unifying biological concepts and methods in science. Lecture 3 hours. (Available for General Education, B2 Life Science *if required in a student\u2019s major. Students may satisfy the B3 Science Laboratory Activity requirement by completing BIOL 107L.)",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{BIOL 107L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "107L",
+        "title": "Biological Principles II Lab Lab",
+        "description": "Corequisite: BIOL 107. Recommended Corequisite or Preparatory: CHEM 102 and CHEM 102L. Half of a two-semester sequence that includes BIOL 106 and BIOL 106L. Selected topics illustrating major concepts in biology, including biological chemistry, cells, molecular genetics, animal development and plant and animal physiology. Observations, experiments and demonstrations. Emphasis on unifying biological concepts and methods in science. Lab 3 hours. (Available for General Education, B3 Science Laboratory Activity *if required in a student\u2019s major. Students satisfy the B2 Life Science requirement by completing BIOL 107.)",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{BIOL 107}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "211",
+        "title": "Human Anatomy",
+        "description": "Prerequisites: BIOL 101 and BIOL 101L, or BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L. Not for credit in Biology major. Survey of the gross anatomy and histology of the major human organ systems, including the muscle, skeletal, digestive, circulatory, respiratory, excretory, endocrine and reproductive systems. Lecture 2 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "212",
+        "title": "Laboratory Studies in Human Anatomy",
+        "description": "Prerequisites: BIOL 101 and BIOL 101L, or BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L. Not for credit in Biology major. Examination of the anatomy and histology of the major organ systems by dissection and microscopic study. Lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "213",
+        "title": "Human Anatomy for Health Sciences",
+        "description": "Prerequisites: BIOL 101 and BIOL 101L passed with grades of \u201cC\u201d or better, or BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L each passed with grades of \u201cC\u201d or better. Not for credit in Biology major. Survey of the gross anatomy and histology of the major human organ systems, including the muscle, skeletal, digestive, circulatory, respiratory, excretory, endocrine, lymphatic, and reproductive systems.",
+        "units": "3",
+        "prerequisites": "{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "215",
+        "title": "Introductory Microbiology",
+        "description": "Prerequisites: BIOL 101 and BIOL 101L, or BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L; CHEM 100 and CHEM 100L, or CHEM 101 and CHEM 101L, or CHEM 103 and CHEM 103L. Corequisite: BIOL 215L. Preparatory: BIOL 281 or CHEM 235. Introduction to the biology of major groups of microorganisms, including their role in infectious diseases, their role in nature and their relationship to humankind. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}}} && {{CHEM 100/L} || {CHEM 101/L} || {CHEM 103/L}}}",
+        "corequisites": "{BIOL 215L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "215L",
+        "title": "Introductory Microbiology Lab",
+        "description": "Prerequisites: BIOL 101 and BIOL 101L, or BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L; CHEM 100 and CHEM 100L, or CHEM 101 and CHEM 101L, or CHEM 103 and CHEM 103L. Corequisite: BIOL 215L. Preparatory: BIOL 281 or CHEM 235. Introduction to the biology of major groups of microorganisms, including their role in infectious diseases, their role in nature and their relationship to humankind. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}}} && {{CHEM 100/L} || {CHEM 101/L} || {CHEM 103/L}}}",
+        "corequisites": "{BIOL 215}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "218",
+        "title": "Microbes and People",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Corequisite: BIOL 218L. Not available for Biology majors. Acquaints non-science majors with the microbial world, explores the involvement of microbes in disease, food production, and the environment. Lecture 2 hours. (Available for General Education, B2 Life Science. Students satisfy the B3 Science Laboratory Activity requirement by completing BIOL 218L.)",
+        "units": "2",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{BIOL 218L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "218L",
+        "title": "Microbes and People Lab Lab",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Corequisite: BIOL 218. Not available for Biology majors. Acquaints non-science majors with the microbial world, explores the involvement of microbes in disease, food production, and the environment. Lab 3 hours. (Available for General Education, B3 Science Laboratory Activity. Students satisfy the B2 Life Science requirement by completing BIOL 218.)",
+        "units": "1",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{BIOL 218}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "247L",
+        "title": "Introduction to Molecular Biology Research Lab Lab",
+        "description": "Prerequisites: BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; CHEM 101. Introduction to theory and techniques used in molecular biology research. Students learn through hands-on experience in the laboratory the experimental design, technical mechanisms, and interpretation of commonly used molecular biology experiments including: issues of laboratory safety, using bioinformatics in research, isolation and manipulation of DNA, polymerase chain reaction (PCR), cloning, transformation of bacteria, growth and selection of bacteria, and sequencing. Lab 9 hours.",
+        "units": "3",
+        "prerequisites": "{{BIOL 107/L} && {CHEM 101}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "281",
+        "title": "Human Physiology",
+        "description": "Prerequisites: BIOL 101 and BIOL 101L passed with grades of \u201cC\u201d or better, or  BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L each passed with grades of \u201cC\u201d or better. Survey of the physiology of nerve and muscle, as well as the digestive, circulatory, respiratory, excretory, endocrine and reproductive systems. Lecture 3 hours.",
+        "units": "3",
+        "prerequisites": "{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "282",
+        "title": "Lab Experiments in Human Physiology",
+        "description": "Prerequisites: BIOL 101 and BIOL 101L passed with grades of \u201cC\u201d or better, or both BIOL 106/L and BIOL 107/L each passed with grades of \u201cC\u201d or better. Recommended Corequisite: BIOL 281. Selected lab experiments in human physiology. Lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}}}",
+        "corequisites": "BIOL 281"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "285",
+        "title": "Biology Of Cancer",
+        "description": "Not for credit in Biology major. Study of the disease of cancer from a biological viewpoint emphasizing the cellular biochemical and environmental aspects of the disease with discussion on the types of cancer their diagnosis and treatment. Lecture 2 hours. (Available for General Education Lifelong Learning.)\n",
+        "units": "2",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "299A",
+        "title": "Introduction To Biological Research",
+        "description": "Prerequisite: Instructor Consent. Not for credit in Biology major. Introduction to original biological literature and the use of the scientific method in investigating biological problems. Under the guidance of a faculty mentor students take part in individual lab or field studies including the reading and discussion of the literature pertinent to the study. May be repeated but no more than 3 units may be counted toward degree requirements. (Credit/No Credit only) \n",
+        "units": "1",
+        "prerequisites": "{Instructor Consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "306",
+        "title": "In the Light of Evolution",
+        "description": "Prerequisite: Completion of the lower division writing requirement. No prior knowledge of biology is required. This course popularizes the processes of biological evolution, evidence that evolution has occurred, dips into how evolution guides research, and serves as a conceptual theme and sketches evolutionary history retrospective from humans. Not for credit in the Biology major. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.)",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "312",
+        "title": "Vertebrate Biology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 312L, BIOL 392F. Introduction to the biology of vertebrates, including aspects of their evolution, ecology, life history, and behavior. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 312L} && {BIOL 392F}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "312L",
+        "title": "Vertebrate Biology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 312L, BIOL 392F. Introduction to the biology of vertebrates, including aspects of their evolution, ecology, life history, and behavior. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 312L} && {BIOL 392F}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "313",
+        "title": "Invertebrate Zoology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 313L, BIOL 392B. Biology and classification of the invertebrate animals, with emphasis on marine forms. Evolutionary and adaptive implications of form and function will be considered. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 313L} && {BIOL 392B}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "313L",
+        "title": "Invertebrate Zoology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 313L, BIOL 392B. Biology and classification of the invertebrate animals, with emphasis on marine forms. Evolutionary and adaptive implications of form and function will be considered. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 313L} && {BIOL 392B}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "315",
+        "title": "Principles of Microbiology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; CHEM 102 and CHEM 102L. Corequisite: BIOL 315L. Preparatory: CHEM 333. Credit will not be allowed for both BIOL 215 and BIOL 315. Introduction to the biology of microorganisms with emphasis on the bacteria. General course designed for Biology majors and students who wish to pursue further study in microbiology or bacteriology. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} && {CHEM 102/L}}",
+        "corequisites": "{BIOL 315L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "315L",
+        "title": "Principles of Microbiology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; CHEM 102 and CHEM 102L. Corequisite: BIOL 315L. Preparatory: CHEM 333. Credit will not be allowed for both BIOL 215 and BIOL 315. Introduction to the biology of microorganisms with emphasis on the bacteria. General course designed for Biology majors and students who wish to pursue further study in microbiology or bacteriology. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} && {CHEM 102/L}}",
+        "corequisites": "{BIOL 315}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "316CS",
+        "title": "Plant Biology",
+        "description": "Prerequisites: BIOL 101 and BIOL 101L, or BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 316LCS. Survey course with lecture and lab sections covering aspects of the cytology, anatomy, development, physiology, genetics, and evolution unique to plants. Offers a community-based learning opportunity with activities relating to concepts and theories presented. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}}}",
+        "corequisites": "{BIOL 316LCS}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "317",
+        "title": "Microbes And Society",
+        "description": "Prerequisites: BIOL 100/L or 101/L or 102/L or 106/L or 107/L; Completion of Lower Division writing requirement. Corequisite: BIOL 317L. Introduces microorganisms and how they influence all life on Earth. Students will explore the workings of microbes and their influence on history medicine economics the environment and human lives through lectures assigned readings videos writing assignments internet activities discussions and lab activities. This course cannot be substituted for credit for either BIOL 215/L or BIOL 315/L. Lcutre 3 hours lab 3 hours. (Available for General Education Natural Sciences.) (IC)\n",
+        "units": "3",
+        "prerequisites": "{{BIOL 100/L || BIOL 101/L || BIOL 102/L || BIOL 106/L || BIOL 107/L} && {Completion of Lower Division writing requirement}}",
+        "corequisites": "{BIOL 317L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "317L",
+        "title": "Microbes And Society Lab",
+        "description": "Prerequisites: BIOL 100/L or 101/L or 102/L or 106/L or 107/L; Completion of Lower Division writing requirement. Corequisite: BIOL 317. Introduces microorganisms and how they influence all life on Earth. Students will explore the workings of microbes and their influence on history medicine economics the environment and human lives through lectures assigned readings videos writing assignments internet activities discussions and lab activities. This course cannot be substituted for credit for either BIOL 215/L or BIOL 315/L. Lcutre 3 hours lab 3 hours. (Available for General Education Natural Sciences.) (IC)\n",
+        "units": "1",
+        "prerequisites": "{{BIOL 100/L || BIOL 101/L || BIOL 102/L || BIOL 106/L || BIOL 107/L} && {Completion of Lower Division writing requirement}}",
+        "corequisites": "{BIOL 317}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "322",
+        "title": "Evolutionary Biology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Introduction to the mechanisms of evolution, drawing heavily on relevant principles in ecology, population genetics and systematics. Lecture 3 hours.",
+        "units": "3",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "323",
+        "title": "Plants and Animals of Southern California",
+        "description": "Prerequisite: Completion of the lower division writing requirement. For non-science majors to acquaint them with the classification, behavior, ecology and distribution of the more important plants and animals of Southern California. Lecture 3 hours. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.)",
+        "units": "2",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "325",
+        "title": "Life in the Sea",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Not for credit in the Biology major. From the shore to the depths, analysis of the diversity of life in the world\u2019s oceans with emphasis on the Southern California biota. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.) (IC)",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "325L",
+        "title": "Life in the Sea Lab Lab",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Recommended Corequisite: BIOL 325. Not for credit in Biology major. Studies of the classification, anatomy, physiology, behavior and ecology of marine organisms through lab and field exercises.",
+        "units": "1",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{BIOL 325}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "327",
+        "title": "Ecology and People",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Our influence on the environment and the influence of the environment on us. Lecture 3 hours. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning or E Lifelong Learning.) (IC)",
+        "units": "2",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "330",
+        "title": "Design and Analysis of Experiments",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; One of the following: MATH 105, MATH 140 or MATH 255A. Corequisite: BIOL 330L. Structuring biological experiments to maximize useful results and presenting the results graphically and quantitatively. Although emphasis is placed on data collected during ecological field trips, other kinds of biological experiments are also analyzed. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} && {{MATH 105} || {MATH 140} || {MATH 255A}}}",
+        "corequisites": "{BIOL 330L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "330L",
+        "title": "Design and Analysis of Experiments Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; One of the following: MATH 105, MATH 140 or MATH 255A. Corequisite: BIOL 330L. Structuring biological experiments to maximize useful results and presenting the results graphically and quantitatively. Although emphasis is placed on data collected during ecological field trips, other kinds of biological experiments are also analyzed. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} && {{MATH 105} || {MATH 140} || {MATH 255A}}}",
+        "corequisites": "{BIOL 330}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "341",
+        "title": "Human Pregnancy and Embryology",
+        "description": "Prerequisites: BIOL 100, or BIOL 101 and BIOL 101L, or BIOL 102/L, or BIOL 106 and BIOL 106L, or BIOL 107 and BIOL 107L and completion of the lower division writing requirement. Available for Biology minor credit but not for Biology major. Description of biological events leading up to ovulation, emission, conception, implantation and pregnancy, and the resulting stages of human development, including placenta development and birth, with a discussion of biological aspects of genetic counseling, birth defects, miscarriage, and abortion. Lecture 3 hours. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.)",
+        "units": "3",
+        "prerequisites": "{{{BIOL 100} || {BIOL 101/L} || {BIOL 102/L} || {BIOL 106/L} || {BIOL 107/L}} && {completion of the lower division writing requirement}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "360",
+        "title": "Genetics",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; CHEM 101 and CHEM 101L, or CHEM 103 and CHEM 103L; MATH 105 (or MATH 102 and MATH 104) or equivalent pre-calculus preparation; Completion of the lower division writing requirement. Role of genes in heredity, development, cellular metabolism and function of organisms; introduction of cytogenetics, genomics and molecular genetics; genetic basis of human disease, including cancer. Lecture 3 hours.",
+        "units": "3",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} && {{CHEM 101/L} || {CHEM 103/L}} && {{MATH 105} || {{MATH 102} && {MATH 104}}} && {Completion of the lower division writing requirement}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "362",
+        "title": "Genetics and Society",
+        "description": "Prerequisites: BIOL 100 and BIOL 100L, or BIOL 101 and BIOL 101L, or BIOL 102/L, or BIOL 106 and BIOL 106L, or BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better and completion of the lower division writing requirement. A non-technical introduction to current topics in genetics and their impact on society and life. Students will learn about the application of genetics to agriculture, environment, human health, and medicine. Students will understand issues pertaining to genetic engineering, cloning, gene therapy, stem cells, etc. Lecture 3 hours. Not for credit in Biology major. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning.) (IC)",
+        "units": "3",
+        "prerequisites": "{{{BIOL 100/L} || {BIOL 101/L} || {BIOL 102/L} || {BIOL 106/L} || {BIOL 107/L}} && {completion of the lower division writing requirement}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "362L",
+        "title": "Genetics and Society Lab Lab",
+        "description": "Prerequisites: BIOL 100 and BIOL 100L, or BIOL 101 and BIOL 101L, or BIOL 102/L, or BIOL 106 and BIOL 106L, or BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; Completion of the lower division writing requirement. Corequisite: BIOL 362. Introduction to current topics in genetics and their impact on society and life, in language that is non-technical. Learn about the application of genetics to agriculture, environment, human health and medicine. Understand issues pertaining to genetic engineering, cloning, gene therapy, stem cells etc. Not for credit in Biology major. Lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{{BIOL 100/L} || {BIOL 101/L} || {BIOL 102/L} || {BIOL 106/L} || {BIOL 107/L}} && {completion of the lower division writing requirement}}",
+        "corequisites": "{BIOL 362}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "375",
+        "title": "Emerging Issues in Regenerative Medicine",
+        "description": "Prerequisite: Completion of the lower division writing requirement. Basic concepts, experimental approaches and the therapeutic potential of human embryonic stem cells, human adult stem cells and induced pluripotent stem cells in regenerative medicine will be discussed in this course. The politics and ethics of this emerging field of medicine and how these will affect you will be a major component of this course. This course emphasizes active student participation. (Available for General Education, B5 Scientific Inquiry and Quantitative Reasoning or E Lifelong Learning.) (IC)",
+        "units": "3",
+        "prerequisites": "{Completion of the lower division writing requirement}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "380",
+        "title": "Cell Biology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; CHEM 102 and CHEM 102L, or CHEM 104. Preparatory: CHEM 235 or CHEM 333. Study of the organization of cells with emphasis on structure, chemical composition, bioenergetics, metabolism, regulation of the metabolism, cell differentiation and special cell functions. (BIOL 381 is required of Biology majors in B.S. Options I and IV.) Lecture 3 hours.",
+        "units": "3",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} && {{CHEM 102/L} || {CHEM 104}}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "381",
+        "title": "Cell Biology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; CHEM 102 and CHEM 102L, or CHEM 104. Preparatory: CHEM 235 or CHEM 333. Recommended Corequisite: BIOL 380. Basic lab techniques in cell biology, including calorimetry and spectrophotometry, centrifugation, enzymological assays, respirometry, cell counting and molecular methods. Lab 3 hours. (Required of Biology majors in B.S. Options I and IV.)",
+        "units": "1",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} && {{CHEM 102/L} || {CHEM 104}}}",
+        "corequisites": "{Recommended Corequisite: BIOL 380}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "382",
+        "title": "Human Anatomy and Physiology I",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. A consideration of the structure and workings of the integumentary, skeletal, muscular, and nervous systems, with special reference to humans. Lecture 3 hours, lab 3 hours.",
+        "units": "3",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "382L",
+        "title": "Human Anatomy and Physiology I Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. A consideration of the structure and workings of the integumentary, skeletal, muscular, and nervous systems, with special reference to humans. Lecture 3 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "383",
+        "title": "Human Anatomy and Physiology II",
+        "description": "Prerequisites: BIOL 382/L. A consideration of the structure and workings of the cardiovascular, renal, reproductive, endocrine and immune systems, with special reference to humans. Lecture 3 hours, lab 3 hours.",
+        "units": "3",
+        "prerequisites": "{BIOL 382/L}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "383L",
+        "title": "Human Anatomy and Physiology II Lab",
+        "description": "Prerequisites: BIOL 382/L. A consideration of the structure and workings of the cardiovascular, renal, reproductive, endocrine and immune systems, with special reference to humans. Lecture 3 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{BIOL 382/L}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "404",
+        "title": "Phycology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; or enrollment in the Biology M.S. program. Corequisites: BIOL 404L, BIOL 492Y. Preparatory: BIOL 322. Study of the algae with emphasis on their systematics, morphology, physiology and ecology. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 404L} && {BIOL 492Y}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "404L",
+        "title": "Phycology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; or enrollment in the Biology M.S. program. Corequisites: BIOL 404L, BIOL 492Y. Preparatory: BIOL 322. Study of the algae with emphasis on their systematics, morphology, physiology and ecology. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 404L} && {BIOL 492Y}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "406",
+        "title": "Flowering Plant Systematics",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 406L, BIOL 492K. Classification, identification and evolutionary relationships of flowering plants. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 406L} && {BIOL 492K}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "406L",
+        "title": "Flowering Plant Systematics Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 406L, BIOL 492K. Classification, identification and evolutionary relationships of flowering plants. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 406L} && {BIOL 492K}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "407",
+        "title": "Plant Ecology",
+        "description": "Prerequisites: BIOL 106/L; BIOL 107/L. All prerequisite courses must be passed with grades of \u201cC\u201d or better; BIOL 322. Corequisites: BIOL 407L, BIOL 492N. Examination of plants and their habitats from an ecological and evolutionary perspective. Concepts of adaptation, species diversity and biological change over time are stressed. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L} && {BIOL 322}}",
+        "corequisites": "{{BIOL 407L} && {BIOL 492N}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "407L",
+        "title": "Plant Ecology Lab",
+        "description": "Prerequisites: BIOL 106/L; BIOL 107/L. All prerequisite courses must be passed with grades of \u201cC\u201d or better; BIOL 322. Corequisites: BIOL 407L, BIOL 492N. Examination of plants and their habitats from an ecological and evolutionary perspective. Concepts of adaptation, species diversity and biological change over time are stressed. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L} && {BIOL 322}}",
+        "corequisites": "{{BIOL 407L} && {BIOL 492N}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "408",
+        "title": "Applied Microbiology",
+        "description": "Prerequisites: BIOL 101/L or 106/L and 107/L passed with grades of C or better 215/L or 315/L. Corequisite: BIOL 408L. Examination of the role of microbes and their control in the production and deterioration of foods in industry in agriculture in waste disposal and in the production of energy. Lecture 2 hours lab 6 hours.\n",
+        "units": "3",
+        "prerequisites": "{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}} || {BIOL 215/L} || {BIOL 315/L}}",
+        "corequisites": "{BIOL 408L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "408L",
+        "title": "Applied Microbiology Lab",
+        "description": "Prerequisites: BIOL 101/L or 106/L and 107/L passed with grades of C or better 215/L or 315/L. Corequisite: BIOL 408. Examination of the role of microbes and their control in the production and deterioration of foods in industry in agriculture in waste disposal and in the production of energy. Lecture 2 hours lab 6 hours.\n",
+        "units": "1",
+        "prerequisites": "{{BIOL 101/L} || {{BIOL 106/L} && {BIOL 107/L}} || {BIOL 215/L} || {BIOL 315/L}}",
+        "corequisites": "{BIOL 408}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "409",
+        "title": "Non-Flowering Plants",
+        "description": "Prerequisites: BIOL 106 and BIOL 106L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 409L, BIOL 492J. The diversity of land plants other than angiosperms (mosses, ferns, conifers, etc.): their phylogeny, life cycles, ecological niches, biogeography, identification and comparative biology. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 106/L}",
+        "corequisites": "{{BIOL 409L} && {BIOL 492J}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "409L",
+        "title": "Non-Flowering Plants Lab",
+        "description": "Prerequisites: BIOL 106 and BIOL 106L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 409L, BIOL 492J. The diversity of land plants other than angiosperms (mosses, ferns, conifers, etc.): their phylogeny, life cycles, ecological niches, biogeography, identification and comparative biology. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{BIOL 106/L}",
+        "corequisites": "{{BIOL 409L} && {BIOL 492J}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "410",
+        "title": "Medical Microbiology",
+        "description": "Prerequisites: BIOL 315 and BIOL 380 passed with grades of \u201cC\u201d or better; BIOL 315L; CHEM 101 and CHEM 101L, or CHEM 103 and CHEM 103L; MATH 105 (or MATH 102 and MATH 104) or MPT2A; Completion of the lower division writing requirement. Corequisite: BIOL 410L. Study of microbial pathogens with emphasis on bacterial mechanisms of pathogenicity, diagnosis, chemotherapy and host interaction. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 315} && {BIOL 380}} && {BIOL 315/L} && {{CHEM 101/L} || {CHEM 103/L}} && {{{MATH 105} || {{MATH 102} && {MATH 104}}} || {MPT2A}} && {Completion of the lower division writing requirement}}",
+        "corequisites": "{BIOL 410L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "410L",
+        "title": "Medical Microbiology Lab",
+        "description": "Prerequisites: BIOL 315 and BIOL 380 passed with grades of \u201cC\u201d or better; BIOL 315L; CHEM 101 and CHEM 101L, or CHEM 103 and CHEM 103L; MATH 105 (or MATH 102 and MATH 104) or MPT2A; Completion of the lower division writing requirement. Corequisite: BIOL 410L. Study of microbial pathogens with emphasis on bacterial mechanisms of pathogenicity, diagnosis, chemotherapy and host interaction. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 315} && {BIOL 380}} && {BIOL 315/L} && {{CHEM 101/L} || {CHEM 103/L}} && {{{MATH 105} || {{MATH 102} && {MATH 104}}} || {MPT2A}} && {Completion of the lower division writing requirement}}",
+        "corequisites": "{BIOL 410}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "411",
+        "title": "Animal Histology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 411L. Preparatory: CHEM 334. Microscopical and histochemical analysis of mammalian cells as organized into tissue and organ systems. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 411L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "411L",
+        "title": "Animal Histology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 411L. Preparatory: CHEM 334. Microscopical and histochemical analysis of mammalian cells as organized into tissue and organ systems. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 411}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "412",
+        "title": "Herpetology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; or enrollment in the Biology M.S. program. Corequisites: BIOL 412L, BIOL 492E. Biology, ecology and evolution of amphibians and reptiles. Adaptive significance of form and function is stressed. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 412L} && {BIOL 492E}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "412L",
+        "title": "Herpetology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better; or enrollment in the Biology M.S. program. Corequisites: BIOL 412L, BIOL 492E. Biology, ecology and evolution of amphibians and reptiles. Adaptive significance of form and function is stressed. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 412L} && {BIOL 492E}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "413",
+        "title": "Entomology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L and BIOL 107L passed with grades of \u201cC\u201d or better; or enrollment in the Biology M.S. program. Corequisites: BIOL 413L, BIOL 492AA. Biology and classification of insects with emphasis on phylogeny and on adaptive implications of morphology. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 413L} && {BIOL 492AA}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "413L",
+        "title": "Entomology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L and BIOL 107L passed with grades of \u201cC\u201d or better; or enrollment in the Biology M.S. program. Corequisites: BIOL 413L, BIOL 492AA. Biology and classification of insects with emphasis on phylogeny and on adaptive implications of morphology. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 106/L} && {BIOL 107/L}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 413L} && {BIOL 492AA}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "414",
+        "title": "Avian Ecology",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 414L, BIOL 492A. Consideration of the interactions between birds and their environment, including such topics as habitat requirements, resource utilization, species interactions, territoriality and reproduction. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 414L} && {BIOL 492A}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "414L",
+        "title": "Avian Ecology Lab",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 414L, BIOL 492A. Consideration of the interactions between birds and their environment, including such topics as habitat requirements, resource utilization, species interactions, territoriality and reproduction. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 414L} && {BIOL 492A}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "415",
+        "title": "Mammalogy",
+        "description": "Prerequisite: BIOL 322. Corequisite: BIOL 492M. Classification, ethology and ecology of mammals. Adaptive and evolutionary significance of form and function are considered. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 322}",
+        "corequisites": "{BIOL 492M}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "415L",
+        "title": "Mammalogy Lab",
+        "description": "Prerequisite: BIOL 322. Corequisite: BIOL 492M. Classification, ethology and ecology of mammals. Adaptive and evolutionary significance of form and function are considered. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 322}",
+        "corequisites": "{BIOL 492M}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "417",
+        "title": "Microbial Physiology",
+        "description": "Prerequisites: BIOL 215/L or BIOL 315/L. Corequisite: BIOL 417L. Preparatory: CHEM 333; BIOL 380. Metabolism and special physiology of microbial forms of life, with special emphasis on the bacteria. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 215/L} || {BIOL 315/L}}",
+        "corequisites": "{BIOL 417L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "417L",
+        "title": "Microbial Physiology Lab",
+        "description": "Prerequisites: BIOL 215/L or BIOL 315/L. Corequisite: BIOL 417L. Preparatory: CHEM 333; BIOL 380. Metabolism and special physiology of microbial forms of life, with special emphasis on the bacteria. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 215/L} || {BIOL 315/L}}",
+        "corequisites": "{BIOL 417}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "418",
+        "title": "Bacterial Diversity",
+        "description": "Prerequisites: BIOL 315/L. Corequisite: BIOL 418L. Analysis of evolution, diversity and relationships among the bacteria, as illustrated by a detailed study of the more specialized groups of bacteria with regard to cell form, habitat and developmental abilities. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 315/L}",
+        "corequisites": "{BIOL 418L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "418L",
+        "title": "Bacterial Diversity Lab",
+        "description": "Prerequisites: BIOL 315/L. Corequisite: BIOL 418L. Analysis of evolution, diversity and relationships among the bacteria, as illustrated by a detailed study of the more specialized groups of bacteria with regard to cell form, habitat and developmental abilities. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 315/L}",
+        "corequisites": "{BIOL 418}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "419",
+        "title": "Microbial Ecology",
+        "description": "Prerequisites: BIOL 315/L. Corequisites: BIOL 419L, BIOL 492C. Examination of the natural distribution of bacteria, fungi, algae and protozoa in the biosphere and a study of the physical, chemical and biological factors that govern their distribution. Inquiry into the role of microbes as they interact directly and indirectly with higher organisms in the ecosystem. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 315/L}",
+        "corequisites": "{{BIOL 419L} && {BIOL 492C}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "419L",
+        "title": "Microbial Ecology Lab",
+        "description": "Prerequisites: BIOL 315/L. Corequisites: BIOL 419L, BIOL 492C. Examination of the natural distribution of bacteria, fungi, algae and protozoa in the biosphere and a study of the physical, chemical and biological factors that govern their distribution. Inquiry into the role of microbes as they interact directly and indirectly with higher organisms in the ecosystem. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{BIOL 315/L}",
+        "corequisites": "{{BIOL 419L} && {BIOL 492C}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "421",
+        "title": "Marine Biology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 421L, BIOL 492B. Preparatory: BIOL 322. Marine life of the world with special emphasis on the shore and shallow sea. Identification, distribution, physiological and morphological adaptation of marine forms. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 421L} && {BIOL 492B}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "421L",
+        "title": "Marine Biology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisites: BIOL 421L, BIOL 492B. Preparatory: BIOL 322. Marine life of the world with special emphasis on the shore and shallow sea. Identification, distribution, physiological and morphological adaptation of marine forms. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 421} && {BIOL 492B}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "422",
+        "title": "Physiological Ecology",
+        "description": "Prerequisites: BIOL 106 and BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 422L. Preparatory: BIOL 322. Study of physiological, morphological and behavioral responses of organisms to physical environmental factors such as temperature, light and water salinity. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 422L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "422L",
+        "title": "Physiological Ecology Lab",
+        "description": "Prerequisites: BIOL 106 and BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 422L. Preparatory: BIOL 322. Study of physiological, morphological and behavioral responses of organisms to physical environmental factors such as temperature, light and water salinity. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 422L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "423",
+        "title": "Field Ecology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 492F. Techniques used in studying population dynamics, the development and functioning of biological communities and the interaction among organisms in the natural environment. Available for graduate credit. Lecture 2 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 492F}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "426",
+        "title": "Biology Of Deserts",
+        "description": "Prerequisite: BIOL 322. Corequisites: BIOL 426L 492P. Study of life in deserts with emphasis on the organisms of the deserts of Southwestern U.S.; structural physiological and behavioral adaptations for survival; identification and ecology of desert organisms; techniques for studying desert ecology. Lecture 2 hours lab 3 hours. \n",
+        "units": "2",
+        "prerequisites": "{BIOL 322}",
+        "corequisites": "{{BIOL 426L} && {BIOL 492P}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "426L",
+        "title": "Biology Of Deserts Lab",
+        "description": "Prerequisite: BIOL 322. Corequisites: BIOL 426 492P. Study of life in deserts with emphasis on the organisms of the deserts of Southwestern U.S.; structural physiological and behavioral adaptations for survival; identification and ecology of desert organisms; techniques for studying desert ecology. Lecture 2 hours lab 3 hours. \n",
+        "units": "1",
+        "prerequisites": "{BIOL 322}",
+        "corequisites": "{{BIOL 426} && {BIOL 492P}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "427",
+        "title": "Biology of Pelagic Organisms",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 427AL, BIOL 492L. Survey of organisms occupying the open ocean environment; ecological, morphological and physiological adaptations of selected groups; population dynamics, community structure and fisheries biology. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 492L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "427A",
+        "title": "Biology of Pelagic Organisms",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 427AL, BIOL 492L. Survey of organisms occupying the open ocean environment; ecological, morphological and physiological adaptations of selected groups; population dynamics, community structure and fisheries biology. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 427AL}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "427AL",
+        "title": "Biology of Pelagic Organisms Lab",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 427AL, BIOL 492L. Survey of organisms occupying the open ocean environment; ecological, morphological and physiological adaptations of selected groups; population dynamics, community structure and fisheries biology. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 427A}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "427L",
+        "title": "Principles of Ecology Lab",
+        "description": "Prerequisite: BIOL 322. Corequisites: BIOL 427L, BIOL 492H. Lectures summarize the major concepts and controversies of ecology. Discussions and activities focus on case studies from the classic and recent original literature. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{BIOL 322}",
+        "corequisites": "{{BIOL 427L} && {BIOL 492H}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "428",
+        "title": "Wildlife Ecology and Management",
+        "description": "Prerequisites: BIOL 106, BIOL 106L; BIOL 107, BIOL 107L. All prerequisite courses must be passed with grades of \u201cC\u201d or better; BIOL 322. Corequisites: BIOL 428L, BIOL 492W. Recommended Preparatory: BIOL 330/L. Study and application of ecological principles used in the management of wildlife. Practical examination of management techniques and tools used in monitoring and managing wildlife populations, include censusing techniques, measurement and analysis of vital rates, and population modeling techniques. Course is computationally and writing intensive. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 428L} && {BIOL 492W}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "428L",
+        "title": "Wildlife Ecology and Management Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L; BIOL 107, BIOL 107L. All prerequisite courses must be passed with grades of \u201cC\u201d or better; BIOL 322. Corequisites: BIOL 428L, BIOL 492W. Recommended Preparatory: BIOL 330/L. Study and application of ecological principles used in the management of wildlife. Practical examination of management techniques and tools used in monitoring and managing wildlife populations, include censusing techniques, measurement and analysis of vital rates, and population modeling techniques. Course is computationally and writing intensive. Available for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{{BIOL 428} && {BIOL 492W}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "429",
+        "title": "Marine Ecology",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 429L, BIOL 492I. Marine community structure and dynamics. Study of the open seas, rocky and sandy shores, and bays are used to illustrate the basic features of marine communities. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 429L} && {BIOL 492I}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "429L",
+        "title": "Marine Ecology Lab",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 429L, BIOL 492I. Marine community structure and dynamics. Study of the open seas, rocky and sandy shores, and bays are used to illustrate the basic features of marine communities. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 429} && {BIOL 492I}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "430",
+        "title": "Ichthyology",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 430L, BIOL 492BB. Biology, ecology and evolution of fish. Emphasis placed on adaptive significance of form and function. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 430L} && {BIOL 492BB}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "430L",
+        "title": "Ichthyology Lab",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 430L, BIOL 492BB. Biology, ecology and evolution of fish. Emphasis placed on adaptive significance of form and function. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 430} && {BIOL 492BB}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "431",
+        "title": "Food Microbiology",
+        "description": "Prerequisites: BIOL 215/L, BIOL 315/L or equivalent. Corequisite: BIOL 431L. The biology, ecology and physiology of microorganisms associated with food and beverage production, preservation, spoilage, food borne illness and contamination control. Procedures and techniques for isolation, detection, identification and enumeration of food microorganisms. Methods and principles for controlling microbial contamination and preventing growth of undesirable microorganisms in raw and processed food. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 215/L} && {BIOL 315/L}}",
+        "corequisites": "{BIOL 431L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "431L",
+        "title": "Food Microbiology Lab",
+        "description": "Prerequisites: BIOL 215/L, BIOL 315/L or equivalent. Corequisite: BIOL 431L. The biology, ecology and physiology of microorganisms associated with food and beverage production, preservation, spoilage, food borne illness and contamination control. Procedures and techniques for isolation, detection, identification and enumeration of food microorganisms. Methods and principles for controlling microbial contamination and preventing growth of undesirable microorganisms in raw and processed food. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 215/L} && {BIOL 315/L}}",
+        "corequisites": "{BIOL 431}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "432",
+        "title": "Comparative Anatomy",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 432L. Evolution of vertebrate structure. Comparative morphology and function of vertebrate systems. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 432L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "432L",
+        "title": "Comparative Anatomy Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 432L. Evolution of vertebrate structure. Comparative morphology and function of vertebrate systems. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 432}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "433",
+        "title": "Biology of Marine Tetrapods",
+        "description": "Prerequisites: BIOL 106 and BIOL 106L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 433L. Recommended Preparatory: BIOL 322. Several groups of reptiles, birds and mammals exhibit many specializations for living in the marine realm. These animals are secondarily adapted to the marine environment, having evolved from terrestrial ancestors. This course will explore the evolution, diversity, ecology and morphological and physiological adaptations of these animals. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 433L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "433L",
+        "title": "Biology of Marine Tetrapods Lab",
+        "description": "Prerequisites: BIOL 106 and BIOL 106L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 433L. Recommended Preparatory: BIOL 322. Several groups of reptiles, birds and mammals exhibit many specializations for living in the marine realm. These animals are secondarily adapted to the marine environment, having evolved from terrestrial ancestors. This course will explore the evolution, diversity, ecology and morphological and physiological adaptations of these animals. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 433}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "434",
+        "title": "Ecology of Marine Fishes",
+        "description": "Prerequisites: BIOL 430/L, BIOL 492BB. Corequisites: BIOL 434L, BIOL 492Q. Species assemblages, general ecology, adaptations and behavioral ecology of near shore marine fishes. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 430/L} && {BIOL 492BB}}",
+        "corequisites": "{{BIOL 434L} && {BIOL 492Q}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "434L",
+        "title": "Ecology of Marine Fishes Lab",
+        "description": "Prerequisites: BIOL 430/L, BIOL 492BB. Corequisites: BIOL 434L, BIOL 492Q. Species assemblages, general ecology, adaptations and behavioral ecology of near shore marine fishes. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 430/L} && {BIOL 492BB}}",
+        "corequisites": "{{BIOL 434} && {BIOL 492Q}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "435",
+        "title": "Parasitology",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 435L. Study of the biology of parasites and other symbionts. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 435L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "435L",
+        "title": "Parasitology Lab",
+        "description": "Prerequisites: BIOL 106, BIOL 106L, BIOL 107 and BIOL 107L passed with grades of \u201cC\u201d or better. Corequisite: BIOL 435L. Study of the biology of parasites and other symbionts. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 106/L} && {BIOL 107/L}}",
+        "corequisites": "{BIOL 435}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "437",
+        "title": "Biology of Fungi",
+        "description": "Prerequisites: BIOL 315/L; BIOL 380; CHEM 333. Corequisites: BIOL 437L; BIOL 492V. Recommended Preparatory: BIOL 407/L; BIOL 492N. A survey of the diversity of fungi, their phylogeny, genetics, structure, life cycles, habitats, mutualisms, pathogenesis and laboratory identification. Field trips are conducted to collect macroscopic and microscopic fungi as well as mutualistic and non-human pathogenic microscopic fungi. Macroscopic fungi from field trips are identified in the teaching lab using standard manuals while microfungi are stained and characterized microscopically; reference cultures will be used when natural isolates are unavailable. Samples will be grown and observed for culture characteristics, biochemistry and morphology. In the laboratory section, students will perform basic genetics and physiology experiments using yeast and bioluminescent fungi as model organisms. This course may be taken for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 315/L} && {BIOL 380} && {CHEM 333}}",
+        "corequisites": "{{BIOL 437L} && {BIOL 492V}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "437L",
+        "title": "Biology of Fungi Lab",
+        "description": "Prerequisites: BIOL 315/L; BIOL 380; CHEM 333. Corequisites: BIOL 437L; BIOL 492V. Recommended Preparatory: BIOL 407/L; BIOL 492N. A survey of the diversity of fungi, their phylogeny, genetics, structure, life cycles, habitats, mutualisms, pathogenesis and laboratory identification. Field trips are conducted to collect macroscopic and microscopic fungi as well as mutualistic and non-human pathogenic microscopic fungi. Macroscopic fungi from field trips are identified in the teaching lab using standard manuals while microfungi are stained and characterized microscopically; reference cultures will be used when natural isolates are unavailable. Samples will be grown and observed for culture characteristics, biochemistry and morphology. In the laboratory section, students will perform basic genetics and physiology experiments using yeast and bioluminescent fungi as model organisms. This course may be taken for graduate credit. Lecture 2 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 315/L} && {BIOL 380} && {CHEM 333}}",
+        "corequisites": "{{BIOL 437} && {BIOL 492V}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "439",
+        "title": "Tropical Ecology and Conservation",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: Students taking this course must also be enrolled in other linked courses that are part of the Tropical Biology semester (BIOL 438/L, BIOL 446/L, BIOL 448, BIOL 449 as offered). Preparatory: BIOL 312, BIOL 316CS, BIOL 330, BIOL 427. Intensive, hands-on immersion in the ecology and conservation of tropical organisms and ecosystems. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": " {{BIOL 439L} && {{BIOL 438/L} || {BIOL 446/L} || {BIOL 448} || {BIOL 449}}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "439L",
+        "title": "Tropical Ecology and Conservation Lab",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: Students taking this course must also be enrolled in other linked courses that are part of the Tropical Biology semester (BIOL 438/L, BIOL 446/L, BIOL 448, BIOL 449 as offered). Preparatory: BIOL 312, BIOL 316CS, BIOL 330, BIOL 427. Intensive, hands-on immersion in the ecology and conservation of tropical organisms and ecosystems. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": " {{BIOL 439} && {{BIOL 438/L} || {BIOL 446/L} || {BIOL 448} || {BIOL 449}}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "441",
+        "title": "Embryology",
+        "description": "Prerequisite: BIOL 360 or BIOL 380. Corequisite: BIOL 441L. Cellular, physiological and anatomical aspects of embryonic development with emphasis on vertebrates. Mechanisms of morphogenesis and differentiation. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 360} || {BIOL 380}}",
+        "corequisites": "{BIOL 441L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "441L",
+        "title": "Embryology Lab",
+        "description": "Prerequisite: BIOL 360 or BIOL 380. Corequisite: BIOL 441L. Cellular, physiological and anatomical aspects of embryonic development with emphasis on vertebrates. Mechanisms of morphogenesis and differentiation. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 360} || {BIOL 380}}",
+        "corequisites": "{BIOL 441}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "442",
+        "title": "Developmental Biology",
+        "description": "Prerequisites: Previously passed or concurrently enrolled in BIOL 360 or BIOL 380; or enrolled in the Biology M.S. program. Corequisite: BIOL 442L. The mechanisms of cell and organ differentiation in animals (e.g., Caenorhabditis) and plants (e.g., Arabidopsis). The majority of topics involve working with mutants and wildtypes on the relationship between genetics and phenotypes. Some lab projects will use RNA-interference technologies. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "4",
+        "prerequisites": "{{{Previously passed or concurrently enrolled in BIOL 360} || {Previously passed or concurrently enrolled in BIOL 380}} || {enrolled in the Biology M.S. program}}",
+        "corequisites": "{BIOL 442L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "442L",
+        "title": "Developmental Biology Lab",
+        "description": "Prerequisites: Previously passed or concurrently enrolled in BIOL 360 or BIOL 380; or enrolled in the Biology M.S. program. Corequisite: BIOL 442L. The mechanisms of cell and organ differentiation in animals (e.g., Caenorhabditis) and plants (e.g., Arabidopsis). The majority of topics involve working with mutants and wildtypes on the relationship between genetics and phenotypes. Some lab projects will use RNA-interference technologies. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{{Previously passed or concurrently enrolled in BIOL 360} || {Previously passed or concurrently enrolled in BIOL 380}} || {enrolled in the Biology M.S. program}}",
+        "corequisites": "{BIOL 442}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "444",
+        "title": "Biology of Viruses",
+        "description": "Prerequisites: BIOL 360 and BIOL 380; or enrollment in the Biology M.S. program. Comparative survey of the structure, gene expression and replication of viruses. Lecture 3 hours. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{{BIOL 360} && {BIOL 380}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "446",
+        "title": "Biology of Tropical Vertebrates",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: Students taking this course must also be enrolled in other linked courses that are part of the Tropical Biology semester (BIOL 438/L, BIOL 439/L, BIOL 448, BIOL 449 as offered). Preparatory: BIOL 312, BIOL 316CS, BIOL 330, BIOL 427. Intensive, hands-on immersion into the biology of tropical vertebrates, including morphology, behavior, ecology, systematics and evolution. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": " {{BIOL 446L} && {{BIOL 438/L} || {BIOL 439/L} || {BIOL 448} || {BIOL 449}}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "446L",
+        "title": "Biology of Tropical Vertebrates Lab",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: Students taking this course must also be enrolled in other linked courses that are part of the Tropical Biology semester (BIOL 438/L, BIOL 439/L, BIOL 448, BIOL 449 as offered). Preparatory: BIOL 312, BIOL 316CS, BIOL 330, BIOL 427. Intensive, hands-on immersion into the biology of tropical vertebrates, including morphology, behavior, ecology, systematics and evolution. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": " {{BIOL 446} && {{BIOL 438/L} || {BIOL 439/L} || {BIOL 448} || {BIOL 449}}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "447",
+        "title": "Full Immersion Research Experience (FIRE)",
+        "description": "Prerequisites: BIOL 380; CHEM 333, CHEM 334; PHYS 100A, PHYS 100B. Corequisite: BIOL 447L. Innovative undergraduate experience in creativity that invites participants to engage scientific research in its fullness as co-learners. Student-initiated ideas ascend through a system of collaborative and independent strategies involving peer review, recitation, tutorials, experimental work and oral and written communication. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 380} && {CHEM 333} && {CHEM 334} && {PHYS 100A} && {PHYS 100B}}",
+        "corequisites": "{BIOL 447L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "447L",
+        "title": "Full Immersion Research Experience (FIRE) Lab",
+        "description": "Prerequisites: BIOL 380; CHEM 333, CHEM 334; PHYS 100A, PHYS 100B. Corequisite: BIOL 447L. Innovative undergraduate experience in creativity that invites participants to engage scientific research in its fullness as co-learners. Student-initiated ideas ascend through a system of collaborative and independent strategies involving peer review, recitation, tutorials, experimental work and oral and written communication. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 380} && {CHEM 333} && {CHEM 334} && {PHYS 100A} && {PHYS 100B}}",
+        "corequisites": "{BIOL 447}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "448",
+        "title": "Tropical Biodiversity",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: Students taking this course must also be enrolled in other linked courses that are part of the Tropical Biology semester (BIOL 438/L, BIOL 439/L, BIOL 446/L, BIOL 449 as offered). Preparatory: BIOL 312, BIOL 316CS, BIOL 330, BIOL 427. Examination of the generation and maintenance of biodiversity, with particular reference to tropical groups of organisms. Lectures, discussions and intensive hands on field experience.  Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": " {{BIOL 446} && {{BIOL 438/L} || {BIOL 439/L} || {BIOL 448} || {BIOL 449}}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "449",
+        "title": "Seminar on Topics in Tropical Biology",
+        "description": "Prerequisite: BIOL 322. Corequisites: Students taking this course must also be enrolled in other linked courses that are part of the Tropical Biology semester (BIOL 438/L, BIOL 439/L, BIOL 446/L, BIOL 448 as offered). Preparatory: BIOL 312, BIOL 316CS, BIOL 330, BIOL 427. Seminar addressing topics in tropical biology in the context of physical science, culture and politics.",
+        "units": "3",
+        "prerequisites": "{BIOL 322}",
+        "corequisites": " {{BIOL 446} && {{BIOL 438/L} || {BIOL 439/L} || {BIOL 448} || {BIOL 449}}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "452",
+        "title": "Molecular Markers in Evolutionary Studies",
+        "description": "Prerequisites: BIOL 322 and BIOL 360; or enrollment in the Biology M.S. program. Corequisite: BIOL 452L. The use of molecular data in ecology and evolutionary biology. Material will cover techniques and applications of molecular data in conservation, behavior, ecology, population biology, evolution and systematics. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 322} && {BIOL 360}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 452L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "452L",
+        "title": "Molecular Markers in Evolutionary Studies Lab",
+        "description": "Prerequisites: BIOL 322 and BIOL 360; or enrollment in the Biology M.S. program. Corequisite: BIOL 452L. The use of molecular data in ecology and evolutionary biology. Material will cover techniques and applications of molecular data in conservation, behavior, ecology, population biology, evolution and systematics. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 322} && {BIOL 360}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 452}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "453",
+        "title": "Behavioral Ecology",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 453L, BIOL 492Z. Study of the interactions between individuals and the environment. Emphasis placed on the behavioral adaptations of animals. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 453L} && {BIOL 492Z}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "453L",
+        "title": "Behavioral Ecology Lab",
+        "description": "Prerequisite: BIOL 322 or enrollment in the Biology M.S. program. Corequisites: BIOL 453L, BIOL 492Z. Study of the interactions between individuals and the environment. Emphasis placed on the behavioral adaptations of animals. Lecture 2 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{{BIOL 453} && {BIOL 492Z}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "456",
+        "title": "Conservation Biology",
+        "description": "Prerequisites: BIOL 322 or enrollment in the Biology M.S. program. Corequisite: BIOL 492O. Application of ecological and evolutionary principles to problems in environmental biology. Factors affecting biodiversity and causes of species extinction receive particular attention. Lecture 3 hours. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{BIOL 322} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 492O}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "462",
+        "title": "Molecular Genetics of Eukaryotic Organisms",
+        "description": "Prerequisites: BIOL 360, BIOL 380; CHEM 333, CHEM 334; or enrollment in the Biology M.S. program. Examination of the structure and function of chromatin, the structure of DNA and its associated proteins in chromosomes, replication of DNA and chromatin, transcription, RNA processing, recombination and the regulation of gene expression in eukaryotes. Lecture 3 hours. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{{BIOL 360} && {BIOL 380} && {CHEM 333} && {CHEM 334}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "467",
+        "title": "Bacterial Genetics",
+        "description": "Prerequisites: BIOL 315/L. Corequisite: BIOL 467L. Recommended Preparatory: BIOL 380; CHEM 333. A survey of the genetic systems found in bacteria and their viruses including, transformation, conjugation, transduction, mutant isolation, complementation, plasmids, transposons, gene expression and regulation. Viral replication, recombination and interaction with their bacterial hosts are investigated from a genetic perspective. The laboratory consists of bacterial genetic experiments to reinforce understanding of the lecture material utilizing semester-long projects involving current research of the faculty. This course may be taken for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 315/L}",
+        "corequisites": "{BIOL 467L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "467L",
+        "title": "Bacterial Genetics Lab",
+        "description": "Prerequisites: BIOL 315/L. Corequisite: BIOL 467L. Recommended Preparatory: BIOL 380; CHEM 333. A survey of the genetic systems found in bacteria and their viruses including, transformation, conjugation, transduction, mutant isolation, complementation, plasmids, transposons, gene expression and regulation. Viral replication, recombination and interaction with their bacterial hosts are investigated from a genetic perspective. The laboratory consists of bacterial genetic experiments to reinforce understanding of the lecture material utilizing semester-long projects involving current research of the faculty. This course may be taken for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 315/L}",
+        "corequisites": "{BIOL 467}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "468",
+        "title": "Human Genetics",
+        "description": "Prerequisites: BIOL 360; MATH 105 or MATH 140 or score on Mathematics Placement Test (MPT) sufficient for admission to MATH 255A. Study of variation and heredity in humans. Includes immunogenetics, polygenic inheritance and population genetics, as well as abnormalities of chromosomes and metabolism and their consequences. Available for graduate credit. Lecture 3 hours.",
+        "units": "3",
+        "prerequisites": "{{BIOL 360} && {{MATH 105} || {MATH 140} || {score on Mathematics Placement Test (MPT) sufficient for admission to MATH 255A}}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "470",
+        "title": "Biotechnology",
+        "description": "Prerequisite: BIOL 360. Recommended Corequisite or Preparatory: BIOL 380. Application of organisms, biological systems and processes to manufacturing and service industries. Role of microorganisms in industrial, agricultural and pharmaceutical processes, biologically produced sources of energy, single cell protein, waste management, mining and other areas. Impact of genetic engineering; enzyme biotechnology; recent advances in the genetics and physiology of industrial microorganisms for strain improvement. Available for graduate credit. Lecture 3 hours.",
+        "units": "3",
+        "prerequisites": "{BIOL 360}",
+        "corequisites": "{Recommended Corequisite: BIOL 380}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "471A",
+        "title": "Molecular Diagnostics",
+        "description": "Prerequisites: BIOL 360; MATH 105 or MATH 140 or score on the Mathematics Placement Test (MPT) sufficient for admission to MATH 225A; or enrollment in the Biology M.S. program. Survey of current techniques, applications and goals of molecular genetics research, including cloning strategies and techniques, genetic engineering techniques, progress in the Human Genome Project and related work, gene therapy and ethical ramifications. Lecture 3 hours. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{{BIOL 360} && {{MATH 105} || {MATH 140} || {score on Mathematics Placement Test (MPT) sufficient for admission to MATH 255A}}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "472",
+        "title": "Recombinant DNA Techniques",
+        "description": "Prerequisites: BIOL 360, CHEM 102 and CHEM 102L; or enrollment in the Biology M.S. program. Corequisite: BIOL 472L. Preparatory: BIOL 380. Handling and processing of recombinant DNA, including DNA isolation, use of restriction enzymes, gel electrophoresis, ligation, cloning, blots, hybridization and associated microbiological techniques. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 360} && {CHEM 102/L}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 472L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "472L",
+        "title": "Recombinant DNA Techniques Lab",
+        "description": "Prerequisites: BIOL 360, CHEM 102 and CHEM 102L; or enrollment in the Biology M.S. program. Corequisite: BIOL 472L. Preparatory: BIOL 380. Handling and processing of recombinant DNA, including DNA isolation, use of restriction enzymes, gel electrophoresis, ligation, cloning, blots, hybridization and associated microbiological techniques. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{{BIOL 360} && {CHEM 102/L}} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 472}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "475",
+        "title": "Biological Imaging",
+        "description": "Prerequisite: BIOL 380 or enrollment in the Biology M.S. program. Corequisite: BIOL 475L. Theoretical and practical aspects of imaging as applied to cellular and molecular biology, biotechnology and histology. Covers transmission and scanning electron microscopy, and light microscopy, including confocal microscopy, as well as MRI, PET and CAT scanning. Computer image processing and analysis, and the use of ultramicrotomy, fluorescent labels and immunochemistry to study macromolecules, cells and tissues will also be studied. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 380} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 475L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "475L",
+        "title": "Biological Imaging Lab",
+        "description": "Prerequisite: BIOL 380 or enrollment in the Biology M.S. program. Corequisite: BIOL 475L. Theoretical and practical aspects of imaging as applied to cellular and molecular biology, biotechnology and histology. Covers transmission and scanning electron microscopy, and light microscopy, including confocal microscopy, as well as MRI, PET and CAT scanning. Computer image processing and analysis, and the use of ultramicrotomy, fluorescent labels and immunochemistry to study macromolecules, cells and tissues will also be studied. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 380} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 475}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "476",
+        "title": "Topics in Stem Cell Research",
+        "description": "Prerequisites: BIOL 360, BIOL 380. Student analyses of novel biological research methods associated with emerging stem cell technologies. Topics will include all types of stem cells and development of each, a detailed examination of relevant human stem cell techniques, including both basic research and translational/clinical research methods. Not available for graduate credit. May be repeated once for credit.",
+        "units": "3",
+        "prerequisites": "{{BIOL 360} && {BIOL 380}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "477",
+        "title": "Cell and Tissue Culture",
+        "description": "Prerequisite: BIOL 380 or enrollment in the Biology M.S. program. Corequisite: BIOL 477L. Preparatory: BIOL 315/L. Theoretical and practical studies of animal and plant cell cultures. Techniques for primary and continuous cultures and the production of hybridomas and monoclonal antibodies are covered. Other topics include cell culture storage, karyotyping, somatic embryogenesis, cytodifferentiation and application of cell cultures in solving biological problems. Lectures and labs are highly integrated. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 380} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 477L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "477L",
+        "title": "Cell and Tissue Culture Lab",
+        "description": "Prerequisite: BIOL 380 or enrollment in the Biology M.S. program. Corequisite: BIOL 477L. Preparatory: BIOL 315/L. Theoretical and practical studies of animal and plant cell cultures. Techniques for primary and continuous cultures and the production of hybridomas and monoclonal antibodies are covered. Other topics include cell culture storage, karyotyping, somatic embryogenesis, cytodifferentiation and application of cell cultures in solving biological problems. Lectures and labs are highly integrated. Lecture 2 hours, lab 6 hours. Available for graduate credit.",
+        "units": "2",
+        "prerequisites": "{{BIOL 380} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 477}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "481",
+        "title": "Plant Physiology",
+        "description": "Prerequisites: BIOL 380; CHEM 334. Corequisite: BIOL 481L. Plant functions: photosynthesis, respiration, cell mechanics, growth and water relationships. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 380} && {CHEM 334}}",
+        "corequisites": "{BIOL 481L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "481L",
+        "title": "Plant Physiology Lab",
+        "description": "Prerequisites: BIOL 380; CHEM 334. Corequisite: BIOL 481L. Plant functions: photosynthesis, respiration, cell mechanics, growth and water relationships. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 380} && {CHEM 334}}",
+        "corequisites": "{BIOL 481}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "482",
+        "title": "Animal Physiology",
+        "description": "Prerequisite: BIOL 380. Corequisite: BIOL 482L. Preparatory: PHYS 100A and PHYS 100AL; PHYS 100B and PHYS 100BL; CHEM 334. Examination of the processes and mechanisms by which organisms maintain themselves and interact with their environment. Adaptive significance of physiologic mechanisms is treated under certain topics. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 380}",
+        "corequisites": "{BIOL 482L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "482L",
+        "title": "Animal Physiology Lab",
+        "description": "Prerequisite: BIOL 380. Corequisite: BIOL 482L. Preparatory: PHYS 100A and PHYS 100AL; PHYS 100B and PHYS 100BL; CHEM 334. Examination of the processes and mechanisms by which organisms maintain themselves and interact with their environment. Adaptive significance of physiologic mechanisms is treated under certain topics. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 380}",
+        "corequisites": "{BIOL 482}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "483",
+        "title": "Principles of Neurophysiology",
+        "description": "Prerequisite: BIOL 380 or enrollment in the Biology M.S. program. Preparatory: BIOL 480 or BIOL 482; CHEM 334; PHYS 100A, PHYS 100B. Recommended Corequisite: BIOL 483L. Examination of the structure, function and physiological principles of the nervous system. Surveys neuroanatomy, molecular neurobiology, sensory reception and relevant human neurological disorders. Lecture 3 hours, lab 3 hours. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{BIOL 380} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 483L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "483L",
+        "title": "Principles of Neurophysiology Lab",
+        "description": "Prerequisite: BIOL 380 or enrollment in the Biology M.S. program. Preparatory: BIOL 480 or BIOL 482; CHEM 334; PHYS 100A, PHYS 100B. Recommended Corequisite: BIOL 483L. Examination of the structure, function and physiological principles of the nervous system. Surveys neuroanatomy, molecular neurobiology, sensory reception and relevant human neurological disorders. Lecture 3 hours, lab 3 hours. Available for graduate credit.",
+        "units": "1",
+        "prerequisites": "{{BIOL 380} || {enrollment in the Biology M.S. program}}",
+        "corequisites": "{BIOL 483}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "485",
+        "title": "Immunology with Serology Lab",
+        "description": "Prerequisite: BIOL 380. Corequisite: BIOL 485L. Preparatory: BIOL 381. Study of the immune response examining humoral and cellular immunity, the nature, structure and reactions of antigens and antibodies, mediators of immunity, hypersensitivity and immuno-hematology. The lab emphasizes the principles and uses of serological methods for evaluation of the immune response. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 380}",
+        "corequisites": "{BIOL 485L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "485L",
+        "title": "Immunology with Serology Lab Lab",
+        "description": "Prerequisite: BIOL 380. Corequisite: BIOL 485L. Preparatory: BIOL 381. Study of the immune response examining humoral and cellular immunity, the nature, structure and reactions of antigens and antibodies, mediators of immunity, hypersensitivity and immuno-hematology. The lab emphasizes the principles and uses of serological methods for evaluation of the immune response. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 380}",
+        "corequisites": "{BIOL 485}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "487",
+        "title": "Hematology",
+        "description": "Prerequisites: BIOL 380; CHEM 334. Corequisite: BIOL 487L. Histological, biochemical and clinical diagnostic study of blood, blood cell formation, iron metabolism, blood pathology and practical lab technology. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "3",
+        "prerequisites": "{{BIOL 380} && {CHEM 334}}",
+        "corequisites": "{BIOL 487L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "487L",
+        "title": "Hematology Lab",
+        "description": "Prerequisites: BIOL 380; CHEM 334. Corequisite: BIOL 487L. Histological, biochemical and clinical diagnostic study of blood, blood cell formation, iron metabolism, blood pathology and practical lab technology. Available for graduate credit. Lecture 2 hours, lab 6 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 380} && {CHEM 334}}",
+        "corequisites": "{BIOL 487}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "490",
+        "title": "Tutorial Studies",
+        "description": "Prerequisite: With consent of instructor, open to senior Biology majors. Supervised individual projects involving reading and discussion, lab research or field studies in specific areas of biology. May be repeated for a maximum of 3 units. Does not carry graduate credit toward the M.S. degree in Biology.",
+        "units": "1",
+        "prerequisites": "{With consent of instructor, open to senior Biology majors}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "495A",
+        "title": "Directed Undergraduate Research",
+        "description": "Designed for students of advanced rank and proven competence in Biology. Program of original research, culminating in a written report, to be carried out with one of the Biology faculty. May be repeated for credit but no more than 3 units may be applied to the elective section of options that allows its use.\nCourse Title\nBIOL 495A Microbiology\nBIOL 495B Marine Biology\nBIOL 495C Cellular/Molecular/Physiology\nBIOL 495D Genetics/Developmental Biology\nBIOL 495E Ecology and Evolution",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "495B",
+        "title": "Directed Undergraduate Research: Ecology And Evolution",
+        "description": "Designed for students of advanced rank and proven competence in Biology. Program of original research culminating in a written report to be carried out with one of the Biology faculty. May be repeated for credit but no more than 3 units may be applied to the elective section of options that allows its use.  495A. Cellular/Molecular/Physiology  495B. Ecology and Evolution  495C. Microbiology  495D. Genetics/Developmental Biology  495E. Marine Biology \n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "495C",
+        "title": "Directed Undergraduate Research: Microbiology",
+        "description": "Designed for students of advanced rank and proven competence in Biology. Program of original research culminating in a written report to be carried out with one of the Biology faculty. May be repeated for credit but no more than 3 units may be applied to the elective section of options that allows its use.  495A. Cellular/Molecular/Physiology  495B. Ecology and Evolution  495C. Microbiology  495D. Genetics/Developmental Biology  495E. Marine Biology \n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "495D",
+        "title": "Directed Undergraduate Research: Genetics/developmental Biology",
+        "description": "Designed for students of advanced rank and proven competence in Biology. Program of original research culminating in a written report to be carried out with one of the Biology faculty. May be repeated for credit but no more than 3 units may be applied to the elective section of options that allows its use.  495A. Cellular/Molecular/Physiology  495B. Ecology and Evolution  495C. Microbiology  495D. Genetics/Developmental Biology  495E. Marine Biology \n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "495E",
+        "title": "Directed Undergraduate Research: Marine Biology",
+        "description": "Designed for students of advanced rank and proven competence in Biology. Program of original research culminating in a written report to be carried out with one of the Biology faculty. May be repeated for credit but no more than 3 units may be applied to the elective section of options that allows its use.  495A. Cellular/Molecular/Physiology  495B. Ecology and Evolution  495C. Microbiology  495D. Genetics/Developmental Biology  495E. Marine Biology \n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "497EEA",
+        "title": "Supervised Off-campus Experiential Education",
+        "description": "Not for graduate credit toward M.S. Degree in Biology. Student work experiences that are planned organized and evaluated by faculty in cooperation with organizations other than the Universitys academic departments. No remuneration for this work may be received in addition to academic credit. Academic/Internship course. (Credit/No Credit only)\n",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "498",
+        "title": "Senior Thesis",
+        "description": "Prerequisites: Senior standing in Biology; Consent of instructor. Recommended Corequisite or Preparatory: BIOL 330, BIOL 499. Student selects and does original research on a topic of current biological interest in consultation with a sponsoring faculty member. Results of this research are presented both orally and in a written report in scientific format.",
+        "units": "2",
+        "prerequisites": "{Senior standing in Biology; Consent of instructor}",
+        "corequisites": "{{BIOL 330} && {BIOL 499}}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "499A",
+        "title": "Independent Study",
+        "description": "Not for graduate credit toward M.S. degree in Biology. Maximum of 3 units of Independent Study may be applied to satisfy unit requirements of elective areas for the baccalaureate degree in Biology.",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "502",
+        "title": "Biometry",
+        "description": "Application of quantitative methods to variation patterns in biological systems, their analysis and interpretation. Lecture 3 hours.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "502L",
+        "title": "Biometry Lab Lab",
+        "description": "Corequisite: BIOL 502. Students have supervised time to work problem sets. Lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{BIOL 502}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "503",
+        "title": "Bioinformatics",
+        "description": "Prerequisites: BIOL 360, BIOL 322. Corequisite: BIOL 503L. Bioinformatics tools (statistics and computer analysis) and their application to molecular data analysis. Lecture 3 hours, computer lab 3 hours.",
+        "units": "3",
+        "prerequisites": "{{BIOL 360} && {BIOL 322}}",
+        "corequisites": "{BIOL 503L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "503L",
+        "title": "Bioinformatics Lab",
+        "description": "Prerequisites: BIOL 360, BIOL 322. Corequisite: BIOL 503L. Bioinformatics tools (statistics and computer analysis) and their application to molecular data analysis. Lecture 3 hours, computer lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 360} && {BIOL 322}}",
+        "corequisites": "{BIOL 503}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "532",
+        "title": "Advanced Ichthyology",
+        "description": "Prerequisites: BIOL 430/L; BIOL 492BB; Graduate standing. Corequisite: BIOL 532L. Advanced topics in ichthyology and fisheries biology. Advanced biosystematics of fishes; reproduction; age and growth; ecology, including feeding and community structure. Lecture 3 hours, lab 3 hours.",
+        "units": "3",
+        "prerequisites": "{{BIOL 430/L} && {BIOL 492BB} && {Graduate standing}}",
+        "corequisites": "{BIOL 532L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "532L",
+        "title": "Advanced Ichthyology Lab",
+        "description": "Prerequisites: BIOL 430/L; BIOL 492BB; Graduate standing. Corequisite: BIOL 532L. Advanced topics in ichthyology and fisheries biology. Advanced biosystematics of fishes; reproduction; age and growth; ecology, including feeding and community structure. Lecture 3 hours, lab 3 hours.",
+        "units": "1",
+        "prerequisites": "{{BIOL 430/L} && {BIOL 492BB} && {Graduate standing}}",
+        "corequisites": "{BIOL 532}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "551",
+        "title": "Computer Modeling in Biology",
+        "description": "Prerequisites: BIOL 322, BIOL 360. Corequisite: BIOL 551L. Selected topics illustrating methods of computer modeling of biological systems. Students will be introduced in lecture and in computer laboratories to programming skills related to biological sciences and statistical analysis, including population genetics, cellular and molecular biology, physiological biology and ecology. Emphasis on understanding the role that computer modeling and analysis can play in research questions. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{{BIOL 322} && {BIOL 360}}",
+        "corequisites": "{BIOL 551L}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "551L",
+        "title": "Computer Modeling in Biology Lab",
+        "description": "Prerequisites: BIOL 322, BIOL 360. Corequisite: BIOL 551L. Selected topics illustrating methods of computer modeling of biological systems. Students will be introduced in lecture and in computer laboratories to programming skills related to biological sciences and statistical analysis, including population genetics, cellular and molecular biology, physiological biology and ecology. Emphasis on understanding the role that computer modeling and analysis can play in research questions. Lecture 2 hours, lab 6 hours.",
+        "units": "2",
+        "prerequisites": "{BIOL 322} && {BIOL 360}",
+        "corequisites": "{BIOL 551}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "615B",
+        "title": "Seminar in Organismal and Population Biology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study, including student preparation and presentation of reports, in one of the following areas of biology:\nCourse Title\nBIOL 615B Morphology\nBIOL 615C Ecology\nBIOL 615E Biogeography\nBIOL 615F Evolution\nBIOL 615G Tropical Biology",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "615C",
+        "title": "Seminar In Organismal And Population Biology: Ecology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Systematics and Phylogeny; (B) Morphology; (C) Ecology; (D) Ethology; (E) Biogeography; (F) Evolution; and (G) Tropical Biology. \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "615D",
+        "title": "Seminar In Organismal And Population Biology: Ethology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Systematics and Phylogeny; (B) Morphology; (C) Ecology; (D) Ethology; (E) Biogeography; (F) Evolution; and (G) Tropical Biology. \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "615E",
+        "title": "Seminar In Organismal And Population Biology: Biogeography",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Systematics and Phylogeny; (B) Morphology; (C) Ecology; (D) Ethology; (E) Biogeography; (F) Evolution; and (G) Tropical Biology. \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "615F",
+        "title": "Seminar In Organismal And Population Biology: Evolution",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Systematics and Phylogeny; (B) Morphology; (C) Ecology; (D) Ethology; (E) Biogeography; (F) Evolution; and (G) Tropical Biology. \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "615G",
+        "title": "Seminar In Organismal And Population Biology: Tropical Biology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Systematics and Phylogeny; (B) Morphology; (C) Ecology; (D) Ethology; (E) Biogeography; (F) Evolution; and (G) Tropical Biology. \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "655A",
+        "title": "Seminar in Cellular and Molecular Biology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study, including student preparation and presentation of reports, in one of the following areas of biology:\nCourse Title\nBIOL 655A Microbiology\nBIOL 655B Cellular Biology\nBIOL 655C Development\nBIOL 655D Genetics\nBIOL 655E Physiology\nBIOL 655G Molecular Biology\nBIOL 655H Biotechnology",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "655B",
+        "title": "Seminar In Cellular And Molecular Biology: Cellular Biology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Microbiology; (B) Cellular Biology; (C) Development; (D) Genetics; (E) Physiology; (F) Immunology; (G) Molecular Biology;(H) Biotechnology; (I) Molecular Evolution; and (J) Medical Genetics.  \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "655C",
+        "title": "Seminar In Cellular And Molecular Biology: Development",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Microbiology; (B) Cellular Biology; (C) Development; (D) Genetics; (E) Physiology; (F) Immunology; (G) Molecular Biology;(H) Biotechnology; (I) Molecular Evolution; and (J) Medical Genetics.  \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "655D",
+        "title": "Seminar In Cellular And Molecular Biology: Genetics",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Microbiology; (B) Cellular Biology; (C) Development; (D) Genetics; (E) Physiology; (F) Immunology; (G) Molecular Biology;(H) Biotechnology; (I) Molecular Evolution; and (J) Medical Genetics.  \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "655E",
+        "title": "Seminar In Cellular And Molecular Biology: Physiology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Microbiology; (B) Cellular Biology; (C) Development; (D) Genetics; (E) Physiology; (F) Immunology; (G) Molecular Biology;(H) Biotechnology; (I) Molecular Evolution; and (J) Medical Genetics.  \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "655G",
+        "title": "Seminar In Cellular And Molecular Biology: Molecular Biology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Microbiology; (B) Cellular Biology; (C) Development; (D) Genetics; (E) Physiology; (F) Immunology; (G) Molecular Biology;(H) Biotechnology; (I) Molecular Evolution; and (J) Medical Genetics.  \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "655H",
+        "title": "Seminar In Cellular And Molecular Biology: Biotechnology",
+        "description": "Prerequisites: BIOL 691; One or more 400-level courses in the area of specialization; Graduate status. Advanced study including student preparation and presentation of reports in one of the following areas of biology: (A) Microbiology; (B) Cellular Biology; (C) Development; (D) Genetics; (E) Physiology; (F) Immunology; (G) Molecular Biology;(H) Biotechnology; (I) Molecular Evolution; and (J) Medical Genetics.  \n",
+        "units": "3",
+        "prerequisites": "{{BIOL 691} && {One or more 400-level courses in the area of specialization} && {Graduate status}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "691",
+        "title": "Graduate Proseminar",
+        "description": "Recommended to be taken early in the graduate program in preparation for further graduate coursework and the presentation of papers at professional meetings. Preparation and presentation of seminars based on current literature in biology.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "692",
+        "title": "Biology Colloquium",
+        "description": "Guest lecturers (contemporary researchers) presenting talks on a variety of topics in biological research. Each presentation will be followed by discussion involving student participation. (Credit/No Credit only)",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "696A",
+        "title": "Directed Graduate Research",
+        "description": "Designed for M.S. students conducting thesis research. May be repeated for credit but no more than 6 units may be applied to the M.S. degree.\nCourse Title\nBIOL 696A Microbiology\nBIOL 696B Marine Biology\nBIOL 696C Cellular/Molecular/Physiology\nBIOL 696D Genetics/Developmental\nBIOL 696E Ecology and Evolution",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "696B",
+        "title": "Directed Graduate Research: Ecology And Evolution",
+        "description": "Designed for M.S. students conducting thesis research. May be repeated for credit but no more than 6 units may be applied to the M.S. Degree. (A) Cellular/Molecular/Physiology; (B) Ecology and Evolution; (C) Microbiology; (D) Genetics/Developmental; and (E) Marine Biology. May be repeated for graduate credit but no more than 6 units may be applied toward the M.S. Degree.  \n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "696C",
+        "title": "Directed Graduate Research: Microbiology",
+        "description": "Designed for M.S. students conducting thesis research. May be repeated for credit but no more than 6 units may be applied to the M.S. Degree. (A) Cellular/Molecular/Physiology; (B) Ecology and Evolution; (C) Microbiology; (D) Genetics/Developmental; and (E) Marine Biology. May be repeated for graduate credit but no more than 6 units may be applied toward the M.S. Degree.  \n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "696D",
+        "title": "Directed Graduate Research: Genetics/developmental",
+        "description": "Designed for M.S. students conducting thesis research. May be repeated for credit but no more than 6 units may be applied to the M.S. Degree. (A) Cellular/Molecular/Physiology; (B) Ecology and Evolution; (C) Microbiology; (D) Genetics/Developmental; and (E) Marine Biology. May be repeated for graduate credit but no more than 6 units may be applied toward the M.S. Degree.  \n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "696E",
+        "title": "Directed Graduate Research: Marine Biology",
+        "description": "Designed for M.S. students conducting thesis research. May be repeated for credit but no more than 6 units may be applied to the M.S. Degree. (A) Cellular/Molecular/Physiology; (B) Ecology and Evolution; (C) Microbiology; (D) Genetics/Developmental; and (E) Marine Biology. May be repeated for graduate credit but no more than 6 units may be applied toward the M.S. Degree.  \n",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "698C",
+        "title": "Thesis",
+        "description": "Prerequisites: Classified status in Biology; Consent of instructor. Preparing and writing the Masters thesis. May be repeated for a maximum of 18 units.\n",
+        "units": "3",
+        "prerequisites": "Classified status in Biology; Consent of instructor",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "BIOL",
+        "catalog_number": "699A",
+        "title": "Independent Study",
+        "description": "Independent Study",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    }
+]

@@ -1,0 +1,371 @@
+[
+    {
+        "subject": "DEAF",
+        "catalog_number": "160",
+        "title": "American Sign Language I",
+        "description": "Not open to native signers. Study of the fundamentals of American Sign Language. Preparation for visual/gestural communication, including basic information relating to Deaf culture, intensive work on comprehension skills and grammatical structures.",
+        "units": "4",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "161",
+        "title": "American Sign Language II",
+        "description": "Prerequisite: DEAF 160 or equivalent. Not open to native signers. Continuation of the study of the fundamentals of American Sign Language. Comprehension skills, grammatical structures, practice in the production aspects of the language and exposure to Deaf culture.",
+        "units": "4",
+        "prerequisites": "DEAF 160 or equivalent",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "200",
+        "title": "Introduction to Deaf Studies",
+        "description": "Preparatory: DEAF 160. This course introduces students to the basic information of the American Deaf experience in the United States: Deaf community/culture and American Sign Language. This course exposes students to the history, contributions and contemporary lives of Deaf people in America. This course is interdisciplinary in that it introduces a range of issues that are developed in the purview of Deaf Studies \u2014 linguistics, education, sociology, psychology and other fields.",
+        "units": "3",
+        "prerequisites": "{None}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "280",
+        "title": "American Sign Language III",
+        "description": "Prerequisite: DEAF 161 or equivalent. Not open to native signers. Continuation of the study of the fundamentals of American Sign Language. Comprehension skills, advanced grammatical structures, continued emphasis on production skills and aspects of Deaf culture.",
+        "units": "4",
+        "prerequisites": "{DEAF 161}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "281",
+        "title": "American Sign Language IV",
+        "description": "Prerequisite: DEAF 280 or equivalent. Not open to native signers. Emphasis on production/conversational skills in American Sign Language, along with continued focus on grammatical and cultural features.",
+        "units": "4",
+        "prerequisites": "{DEAF 280}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "300",
+        "title": "Advanced ASL Conversation",
+        "description": "Prerequisite: DEAF 281 or equivalent or instructor consent. Not open to native signers. Provides further development of conversational abilities in American Sign Language, emphasizing the area of self-expression. Strongly recommended for prospective teachers, interpreters and other professionals working with Deaf people.",
+        "units": "3",
+        "prerequisites": "{{DEAF 281} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "350",
+        "title": "Principles of Sign Language Interpretation",
+        "description": "Prerequisite: DEAF 200. Introductory overview of the profession of sign language interpretation. Forms the theoretical foundation for all other work in sign language interpretation. Particular emphasis on the professional code of ethics and other professional concerns. (Offered Spring semester only.)",
+        "units": "3",
+        "prerequisites": "{DEAF 200}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "360",
+        "title": "American Deaf Culture",
+        "description": "Prerequisite: DEAF 200. Discussion of the various aspects of American Deaf culture, including the description of deafness, Deaf people, the deaf community as defined by audiological and/or cultural means, services for and by Deaf people and culture as reflected in the arts and language of Deaf people.",
+        "units": "3",
+        "prerequisites": "{DEAF 200}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "370",
+        "title": "American Sign Language/English Translation",
+        "description": "Prerequisites: DEAF 281 or equivalent. Intensive examination of translation as an issue in applied linguistics. Practice in translation between ASL and English, and extensive discussion of problems encountered in the translation process between the two languages.",
+        "units": "3",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "380",
+        "title": "Sign Language Interpreting I",
+        "description": "Prerequisite: DEAF 370. Corequisite: DEAF 383. Training in receptive and expressive sign language interpreting for Deaf individuals, emphasis on the development of consecutive sign language interpreting skills (sign-to-voice and voice-to sign).",
+        "units": "3",
+        "prerequisites": "{DEAF 370}",
+        "corequisites": "{DEAF 383}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "381",
+        "title": "Sign Language Interpreting II",
+        "description": "Prerequisite: DEAF 380. Corequisite: DEAF 383. Further training in receptive and expressive sign language interpreting for Deaf individuals. Sequenced series of activities leading from consecutive interpreting to the development of simultaneous interpreting skills (sign-to-voice and voice-to-sign).",
+        "units": "3",
+        "prerequisites": "{DEAF 380}",
+        "corequisites": "{DEAF 383}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "383",
+        "title": "Sign Language Interpretation Lab",
+        "description": "Recommended Corequisite: DEAF 380 or DEAF 381. Refines sign language interpretation and transliteration skills through individualized instruction. May be repeated once for credit.",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{{DEAF 380} || {DEAF 381}}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "400",
+        "title": "Deaf and Hearing People: A Comparative Cultural Analysis",
+        "description": "Prerequisite: DEAF 360. Preparatory: DEAF 281. For students entering the world of Deaf people in professional and/or social capacities to conduct comparative/contrastive analysis between Deaf and hearing cultures. Students apply observational techniques to identify and record cultural conflicts/interactions between Deaf and hearing people. Students attempt to describe characteristics of the Deaf/hearing group known as the \u201cThird Culture.\u201d Results of this examination are viewed from the perspective of the persons in professional, educational and social fields. Conducted in American Sign Language.",
+        "units": "3",
+        "prerequisites": "{DEAF 360}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "401",
+        "title": "Deaf History",
+        "description": "Prerequisite: DEAF 360. Preparatory: DEAF 281. Examines selected points of the history of Deaf people and the Deaf community as well as the Deaf experience in a historical perspective. Emphasis on historical forces impacting the educational, social, political and economic aspects of the Deaf community, from both the Deaf perspective and a historical perspective, including discussion of Deaf Americans\u2019 adjustment to these influences. Discussion of major reforms impacting the lives of Deaf people at various times. Conducted in American Sign Language. (Offered Spring semester only.)",
+        "units": "3",
+        "prerequisites": "{DEAF 360}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "402",
+        "title": "Deaf Literature",
+        "description": "Prerequisite: DEAF 360. Preparatory: ENGL 255; DEAF 281 and DEAF 370. Provides an overview of all genres of both American Sign Language and English literature about deaf/Deaf characters written by deaf/Deaf and hearing authors, and explores Western society\u2019s views of the deaf/Deaf experience as depicted in novels, short stories, drama, poetry, folklore, humor, media and other forms of literature. Prevailing views toward Deaf people in each era are contrasted with the Deaf perspective in the same period as shown through Deaf literature. Conducted in American Sign Language. (Offered Fall semester.)",
+        "units": "3",
+        "prerequisites": "{DEAF 360}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "404",
+        "title": "Issues and Trends in the Deaf Community",
+        "description": "Prerequisites: DEAF 281, DEAF 360. The course examines issues and trends in the Deaf community. The course begins with a critical analysis of historical issues confronting the Deaf community. Major emphasis on social, cultural, linguistic, political and economic patterns affecting Deaf people in the U.S. Issues of audism and linguicism also are addressed. The course concludes with students\u2019 discussions of current trends in the Deaf movement and current situations in the Deaf community. (Offered Fall semester.)",
+        "units": "3",
+        "prerequisites": "{{DEAF 281} && {DEAF 360}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "405",
+        "title": "ASL/Deaf Theatre",
+        "description": "Prerequisite: DEAF 281 or equivalent. A survey of theatre works staged with Deaf and hearing performers in American Sign Language and intended for Deaf and hearing audiences. The course will explore different genres of this type of American Sign Language/Deaf theatre, including sign language adaptations of plays, original works involving Deaf issues, plays concerning cross-cultural conflicts (Deaf-Hearing)and other genres. It also will analyze specific aspects of sign language on Deaf theatre performances, including choice of theme, use of sign language styles, nature of Deaf or hearing performers/characters, the theatre space for the visual and signing needs of the Deaf community, technical and production considerations, and the philosophy or concept of the presenting theatre or individual artists. These skills and knowledge will be integrated into a final class staged production.",
+        "units": "3",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "406",
+        "title": "The Deaf Learner",
+        "description": "Prerequisites: DEAF 281, DEAF 360. This course examines the linguistic, historical, social and educational development of the Deaf learner. Students are exposed to various perspectives and practices of the traditional and current systems for educating Deaf youngsters. Particular attention on the importance of maximizing visual input for the Deaf learners as part of their cognitive development. Students learn how the environments promoting deaf bilingualism enhance the Deaf learner linguistically, socially, emotionally and educationally in terms of grade-level academic achievement, participation in both Deaf and hearing worlds and fluency in both languages: ASL and English.",
+        "units": "3",
+        "prerequisites": "{{DEAF 281} && {DEAF 360}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "407",
+        "title": "Law and the Deaf",
+        "description": "Prerequisites: DEAF 281, 360. This course focuses on the laws affecting Deaf people and the role laws and the legal system play in ameliorating the inequalities that Deaf people face through living in a hearing world. Emphasis is on the laws and the legal system of the U.S., although legal situations pertaining to Deaf people in other countries may be introduced. (Offered Fall semester.)",
+        "units": "3",
+        "prerequisites": "{{DEAF 281} && {DEAF 360}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "410",
+        "title": "Deaf Women in Today\u2019s American Society",
+        "description": "Prerequisites: DEAF 281 and DEAF 360, or instructor consent. This course is a multidisciplinary analysis of Deaf women in the Deaf community and in American society, and includes the study of the historical, social, political, educational and economic factors that have influenced and impacted the role and status of Deaf women, including some important events of the women\u2019s movement. Areas of exploration are Deaf women\u2019s struggles and successes. The course also features contemporary Deaf women\u2019s issues within the context of the Deaf community.",
+        "units": "3",
+        "prerequisites": "{{{DEAF 281} && {DEAF 360}} || {instructor consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "412",
+        "title": "Black Deaf Communities",
+        "description": "Prerequisites: DEAF 200 and DEAF 360. Recommended Preparatory: DEAF 400 and DEAF 404. The course will explore the history of Black Deaf education and culture in the U.S. and the role racism, audism, hearing privilege, and resistance played in its development. Contemporary realities and issues within Black Deaf education, language, employment, family and culture in the United States, the Caribbean Islands and specific African countries will be compared and contrasted. Using a strengths-based approach, various critical theories and literature, this course will highlight the positive influence Black Deaf culture has made within Deaf and Black hearing communities through the arts and activism. The course\u2019s overarching goal is to push scholarly thought and inquiry using an interdisciplinary Deaf, Black, Critical and Educational Studies lens to understand the complexities of Black Deaf life. Available for graduate credit.",
+        "units": "3",
+        "prerequisites": "{{DEAF 200} && {DEAF 360}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "415",
+        "title": "Deaf Studies Community Services",
+        "description": "Prerequisites: DEAF 281, DEAF 360. Corequisite: DEAF 404. Field study, observation and participation in selected Deaf community institutions and agencies to be conducted under supervision and after preparatory instruction to acquaint the student with field and service learning techniques.",
+        "units": "3",
+        "prerequisites": "{{DEAF 281} && {DEAF 360}}",
+        "corequisites": "{DEAF 404}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "420",
+        "title": "Sign Language Interpreting III",
+        "description": "Prerequisite: DEAF 381 or equivalent. This course will continue development of students\u2019 interpreting skills through exercises that focus on memory, processing, discourse analysis and interpretation/transliteration of various communication genres. Throughout the semester, students will be exposed to and practice interpreting and transliterating texts from a variety of specialized settings.",
+        "units": "4",
+        "prerequisites": "{DEAF 381}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "430",
+        "title": "American Sign Language: Individual Skills Development",
+        "description": "Prerequisite: DEAF 281. A supervised individual/small group activity designed to provide feedback on comprehension and production skills in American Sign Language. Designed primarily for students whose individual performance after completing ASL IV or equivalent indicates the need for additional support from a fluent ASL sign language model/tutor. Individualized attention and feedback can be provided in such areas as grammatical accuracy, vocabulary development, fluency, accent and comprehension. May be repeated once for credit. (Credit/No Credit only)",
+        "units": "3",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "434A",
+        "title": "Fingerspelling I",
+        "description": "Prerequisite: DEAF 280 or equivalent. Strongly recommended for prospective teachers, interpreters and other professionals working with Deaf people. Develops basic skills in receptive and expressive fingerspelling. May be repeated once for credit.",
+        "units": "1",
+        "prerequisites": "{DEAF 280}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "434B",
+        "title": "Fingerspelling Ii",
+        "description": "Prerequisite: DEAF 434A. Strongly recommended for prospective teachers interpreters and other professionals working with Deaf people. Further development of receptive and expressive fingerspelling skills. May be repeated once for credit.\n",
+        "units": "1",
+        "prerequisites": "{DEAF 434A}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "435",
+        "title": "Communication Variations In The Deaf Community",
+        "description": "Prerequisite: DEAF 281 or equivalent and 360. Examination of the various philosophies and strategies of manual communication used by deaf and Hard of Hearing people. Includes information and current research on American Sign Language Pidgin Signed English manual codes for English Fingerspelling Cued Speech Simultaneous Communication and Oral Communication and their relationship to the educational process.\n",
+        "units": "3",
+        "prerequisites": "{{DEAF 281} && {DEAF 360}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "482",
+        "title": "Practicum in Sign Language Interpreting",
+        "description": "Prerequisites: DEAF 381, DEAF 383, DEAF 420. Advanced exposure to and practical experience in sign language interpreting and transliterating. (Offered Spring semester only.)",
+        "units": "3",
+        "prerequisites": "{{DEAF 381} && {DEAF 383} && {DEAF 420}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "484",
+        "title": "Structure of American Sign Language",
+        "description": "Prerequisite: DEAF 281 or equivalent. Focus on the grammatical structures and patterns of American Sign Language. View of ASL phonology, morphology and syntax, with emphasis on the practical use of such knowledge.",
+        "units": "3",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "485",
+        "title": "Issues in American Sign Language",
+        "description": "Prerequisite: DEAF 484. Addresses questions of syntax, language acquisition and discourse structure in American Sign Language. (Offered Spring semester only.)",
+        "units": "3",
+        "prerequisites": "{DEAF 484}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "489",
+        "title": "Introduction to ASL Translation of Literary and Artistic Works/Creative Uses of American Sign Language",
+        "description": "Prerequisite: DEAF 281 or equivalent. Corequisite: DEAF 489L. Introduction to the basic principles of American Sign Language as applied in various artistic settings. Explores the techniques and principles of translating artistic and literary works from English into ASL and from ASL into English. Lab: Provides training in the artistic expression of poetry, storytelling and song-translation using American Sign Language. Lab may be repeated once for credit.",
+        "units": "1",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{DEAF 489L}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "489L",
+        "title": "Introduction to ASL Translation of Literary and Artistic Works/Creative Uses of American Sign Language Lab",
+        "description": "Prerequisite: DEAF 281 or equivalent. Corequisite: DEAF 489L. Introduction to the basic principles of American Sign Language as applied in various artistic settings. Explores the techniques and principles of translating artistic and literary works from English into ASL and from ASL into English. Lab: Provides training in the artistic expression of poetry, storytelling and song-translation using American Sign Language. Lab may be repeated once for credit.",
+        "units": "2",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{DEAF 489}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "490A",
+        "title": "Essential Features of ASL/Signed Languages",
+        "description": "Prerequisite: DEAF 281. This group of seven 1-unit courses continues developing advanced ASL/signed language skills and covers a multitude of topics examining applications of specific ASL/signed language skills. Linguistic competence is enhanced through interactive discourse in class. Each 1-unit course focuses on a specific topic/skill and includes practice of the requisite skills and process tasks of increased complexity needed to master that particular topic/skill: (A) Classifiers; (C) Foreign Signs; (D) Sentence Types; (E) ASL Number Systems; (F) Visual-Gestural Communication; and (G) Public Signing.",
+        "units": "1",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "490C",
+        "title": "Essential Features Of Asl/ Signed Languages: Foreign Signs",
+        "description": "Prerequisite: DEAF 281. This group of seven 1-unit courses continues developing advanced ASL/signed language skills and covers a multitude of topics examining applications of specific ASL/signed language skills. Linguistic competence is enhanced through interactive discourse in class. Each 1e-unit course focuses on a specific topic/skill and includes practice of the requisite skills and process tasks of increased complexity needed to master that particular topic/skill: (A) Classifiers; (B) Technical Signs; (C) Foreign Signs; (D) Sentence Types; (E) ASL Number Systems; (F) Visual-Gestural Communication; and (G) Public Signing.\n",
+        "units": "1",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "490D",
+        "title": "Essential Features Of Asl/ Signed Languages: Sentence Types",
+        "description": "Prerequisite: DEAF 281. This group of seven 1-unit courses continues developing advanced ASL/signed language skills and covers a multitude of topics examining applications of specific ASL/signed language skills. Linguistic competence is enhanced through interactive discourse in class. Each 1e-unit course focuses on a specific topic/skill and includes practice of the requisite skills and process tasks of increased complexity needed to master that particular topic/skill: (A) Classifiers; (B) Technical Signs; (C) Foreign Signs; (D) Sentence Types; (E) ASL Number Systems; (F) Visual-Gestural Communication; and (G) Public Signing.\n",
+        "units": "1",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "490E",
+        "title": "Essential Features Of Asl/ Signed Languages: Asl Number Systems",
+        "description": "Prerequisite: DEAF 281. This group of seven 1-unit courses continues developing advanced ASL/signed language skills and covers a multitude of topics examining applications of specific ASL/signed language skills. Linguistic competence is enhanced through interactive discourse in class. Each 1e-unit course focuses on a specific topic/skill and includes practice of the requisite skills and process tasks of increased complexity needed to master that particular topic/skill: (A) Classifiers; (B) Technical Signs; (C) Foreign Signs; (D) Sentence Types; (E) ASL Number Systems; (F) Visual-Gestural Communication; and (G) Public Signing.\n",
+        "units": "1",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "490G",
+        "title": "Essential Features Of Asl/ Signed Languages: Public Signing",
+        "description": "Prerequisite: DEAF 281. This group of seven 1-unit courses continues developing advanced ASL/signed language skills and covers a multitude of topics examining applications of specific ASL/signed language skills. Linguistic competence is enhanced through interactive discourse in class. Each 1e-unit course focuses on a specific topic/skill and includes practice of the requisite skills and process tasks of increased complexity needed to master that particular topic/skill: (A) Classifiers; (B) Technical Signs; (C) Foreign Signs; (D) Sentence Types; (E) ASL Number Systems; (F) Visual-Gestural Communication; and (G) Public Signing.\n",
+        "units": "1",
+        "prerequisites": "{DEAF 281}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "491D",
+        "title": "Specialized Areas Of Sign Language Interpreting: Ethics And Professional Standards",
+        "description": "Prerequisite: DEAF 380. This group of six 1-unit courses introduces students to the broad range of career paths that are available to them within the profession of sign language interpreting. Continuation of skills development within interpretation processes includes application of production and comprehension skills in different topical areas. Content areas in each course include theory best practices setting-specific vocabulary cultural implications and protocol. Applications of techniques vocabulary information and skills are the main ingredients for course activities. (A) Deaf Interpreting I; (B) Deaf Interpreting II (Prerequisite: DEAF 491A); (C) Technological Applications within Interpreting; (D) Ethics and Professional Standards; (E) Educational Interpreting; and (F) Professional Settings.\n",
+        "units": "1",
+        "prerequisites": "{DEAF 380}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "491E",
+        "title": "Specialized Areas Of Sign Language Interpreting: Educational Interpreting",
+        "description": "Prerequisite: DEAF 380. This group of six 1-unit courses introduces students to the broad range of career paths that are available to them within the profession of sign language interpreting. Continuation of skills development within interpretation processes includes application of production and comprehension skills in different topical areas. Content areas in each course include theory best practices setting-specific vocabulary cultural implications and protocol. Applications of techniques vocabulary information and skills are the main ingredients for course activities. (A) Deaf Interpreting I; (B) Deaf Interpreting II (Prerequisite: DEAF 491A); (C) Technological Applications within Interpreting; (D) Ethics and Professional Standards; (E) Educational Interpreting; and (F) Professional Settings.\n",
+        "units": "1",
+        "prerequisites": "{DEAF 380}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "491F",
+        "title": "Specialized Areas Of Sign Language Interpreting: Professional Settings",
+        "description": "Prerequisite: DEAF 380. This group of six 1-unit courses introduces students to the broad range of career paths that are available to them within the profession of sign language interpreting. Continuation of skills development within interpretation processes includes application of production and comprehension skills in different topical areas. Content areas in each course include theory best practices setting-specific vocabulary cultural implications and protocol. Applications of techniques vocabulary information and skills are the main ingredients for course activities. (A) Deaf Interpreting I; (B) Deaf Interpreting II (Prerequisite: DEAF 491A); (C) Technological Applications within Interpreting; (D) Ethics and Professional Standards; (E) Educational Interpreting; and (F) Professional Settings.\n",
+        "units": "1",
+        "prerequisites": "{DEAF 380}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "DEAF",
+        "catalog_number": "497",
+        "title": "Deaf Studies Capstone",
+        "description": "Prerequisite: Graduating senior standing or instructor consent. Restricted to students majoring in Deaf Studies. Capstone course for the Deaf Studies major, usually taken during the final semester before baccalaureate graduation. Focus on a synthesis of the information, concepts, material and methodologies provided in the previous Deaf Studies classes. Completion of a project resulting from the research of a significant topic in the Deaf community.",
+        "units": "3",
+        "prerequisites": "{{Graduating senior standing} || {instructor consent}}",
+        "corequisites": "{None}"
+    }
+]
