@@ -1,7 +1,6 @@
 
 
 DROP TABLE IF EXISTS `rating`;
-
 CREATE TABLE `rating` (
   `professor_first_name` varchar(50) NOT NULL,
   `professor_last_name` varchar(50) NOT NULL,
@@ -9,20 +8,19 @@ CREATE TABLE `rating` (
   `subject` varchar(6) NOT NULL,
   `catalog_number` varchar(10) NOT NULL,
   `star_rating` double(2,1) DEFAULT NULL,
-  `grade` varchar(14) DEFAULT NULL,
+  `grade` varchar(2) DEFAULT NULL,
   `difficulty` double(2,1) DEFAULT NULL,
   `retake_professor` varchar(4) DEFAULT NULL,
   `require_textbooks` varchar(4) DEFAULT NULL,
   `mandatory` varchar(4) DEFAULT NULL,
   `review` varchar(1000) NOT NULL,
   `class_type` varchar(20) NOT NULL,
-  CONSTRAINT `ck_class_type` CHECK ((`class_type` in ('Online - Async','Online - Sync','In-Person'))),
+  CONSTRAINT `ck_class_type` CHECK ((`class_type` in (_utf8mb4'Online - Async',_utf8mb4'Online - Sync',_utf8mb4'In-Person'))),
   CONSTRAINT `ck_difficulty` CHECK (((0.0 < `difficulty`) and (`difficulty` < 5.0))),
-  CONSTRAINT `ck_grade` CHECK ((`grade` in ('A','A-','B+','B','B-','C+','C','C-','D+','D', 'D-','F',  "Audit/No Grade", "Drop/Withdrawl", "Incomplete", "Not Sure Yet", "Rather Not Say"))),
-  CONSTRAINT `ck_mandatory` CHECK ((`mandatory` in ('yes','no'))),
-  CONSTRAINT `ck_retake` CHECK ((`retake_professor` in ('yes','no'))),
+  CONSTRAINT `ck_grade` CHECK ((`grade` in (_utf8mb4'A+',_utf8mb4'A',_utf8mb4'A-',_utf8mb4'B+',_utf8mb4'B',_utf8mb4'B-',_utf8mb4'C+',_utf8mb4'C',_utf8mb4'C-',_utf8mb4'D',_utf8mb4'D',_utf8mb4'F'))),
+  CONSTRAINT `ck_mandatory` CHECK ((`mandatory` in (_utf8mb4'yes',_utf8mb4'no'))),
+  CONSTRAINT `ck_retake` CHECK ((`retake_professor` in (_utf8mb4'yes',_utf8mb4'no'))),
   CONSTRAINT `ck_star` CHECK (((0.0 >= `star_rating`) and (`star_rating` <= 5.0))),
-  CONSTRAINT `ck_textbooks` CHECK ((`require_textbooks` in ('yes','no')))
+  CONSTRAINT `ck_textbooks` CHECK ((`require_textbooks` in (_utf8mb4'yes',_utf8mb4'no')))
 );
-
 

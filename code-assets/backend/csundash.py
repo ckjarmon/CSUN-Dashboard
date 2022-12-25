@@ -104,7 +104,7 @@ def get(**kwargs):
     "title":x[2],
     "description":x[3],
     "units":x[4],
-    "prerequisites":parse(x[5], "Take "),
+    "prerequisites": parse(x[5], "Take "),
     "corequisites":x[6]} for x in rootCursor.fetchall()]
 # @app.route('/sql')
 # def sql(**kwargs):
