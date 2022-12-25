@@ -747,7 +747,7 @@ def parse(_sp, _res):
             case '{':
                 if sp[c+1] == '{':
                     bb = sp[c:].index('}}')
-                    res += parse(sp[c:][0:bb+2], "")
+                    res += parse(sp[c:][0:bb+3], "")
                     c += bb + 1
                 else:
                     p_stack.append(sp[c])
@@ -793,10 +793,10 @@ if __name__ == "__main__":
     
     rootCursor.execute("select catalog_number,prerequisites from catalog where subject = 'COMP'")
     for r in rootCursor.fetchall():
-        if len(r[1]) < 50:
-            print("\n--------------")
-            print(r[0])
-            print(parse(r[1], "Take "))
+
+        print("\n--------------")
+        print(r[0])
+        print(parse(r[1], "Take "))
     
     
     
