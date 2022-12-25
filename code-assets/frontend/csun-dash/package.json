@@ -57,6 +57,7 @@
   "babel": {
     "presets": [
       "@babel/preset-react",
+      "@babel/react",
       "@babel/env"
     ],
     "plugins": [

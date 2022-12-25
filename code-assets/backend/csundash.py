@@ -87,11 +87,25 @@ Primarily used for testing
 """
 
 
-@app.route('/<string:subject>/<string:data>')
+@app.route('/<string:subject>/catalog')
 def get(**kwargs):
-    return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
-
-
+    # return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+    rootCursor.execute(f"""SELECT
+                       subject
+                       catalog_number
+                       title
+                       description
+                       units
+                       prerequisites
+                       corequisites from catalog WHERE subject = '{kwargs['subject'].upper()}'
+                       """)
+    return [{"subject":x[0],
+    "catalog_number":x[1],
+    "title":x[2],
+    "description":x[3],
+    "units":x[4],
+    "prerequisites":parse(x[5], "Take "),
+    "corequisites":x[6]} for x in rootCursor.fetchall()]
 # @app.route('/sql')
 # def sql(**kwargs):
 #    rootCursor.execute("SELECT * FROM csun.COMP_view")
