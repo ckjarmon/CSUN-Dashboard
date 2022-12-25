@@ -8,7 +8,7 @@ import mariadb
 app = Flask(__name__)
 CORS(app)
 
-rootConnection, rootCursor = None, None
+
 
 def establish_conn():
     try:
@@ -21,6 +21,10 @@ def establish_conn():
         return rootConnection
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
+        
+        
+rootConnection = establish_conn()
+rootCursor = rootConnection.cursor()
 
 # create function to teardown connection after every return 
 
