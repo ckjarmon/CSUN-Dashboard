@@ -48,7 +48,7 @@ def parse(_sp, _res):
             case '{':
                 if sp[c+1] == '{':
                     bb = sp[c:].index('}}')
-                    res += parse(sp[c:][0:bb+2], "")
+                    res += parse(sp[c:][0:bb+3], "")
                     c += bb + 1
                 else:
                     p_stack.append(sp[c])
@@ -78,7 +78,6 @@ def parse(_sp, _res):
     res = res.replace('Take Permission', 'Permission')
     return res.replace('\n ', '\n').replace('  ', ' ') # .replace('or a passing score', 'or Earn a passing score')
     
-
 
 @app.route('/')
 def home():
