@@ -28,6 +28,54 @@ def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
 
 
+
+# do not call initial parse call with empty string
+# all initial calls should start with _res = "Take "
+def parse(_sp, _res):
+    sp = _sp[1:-1]
+    print(sp)
+    p_stack = []
+    c = 0
+    res = _res
+    
+    
+    while c < len(sp):
+        match sp[c]:
+            case '{':
+                if sp[c+1] == '{':
+                    bb = sp[c:].index('}}')
+                    res += parse(sp[c:][0:bb+2], "")
+                    c += bb + 1
+                else:
+                    p_stack.append(sp[c])
+            case '}':
+                try:
+                    p_stack.pop()
+                except IndexError:
+                    pass
+            case '&':
+                if _res == "":
+                    res += "AND Take "
+                else:
+                    res += "\nAND\nTake "
+                c += 1
+            case '|':
+                if _res == "":
+                    res += "OR Take"
+                else:     
+                    res += "\nor\nTake"
+                c += 1               
+            case _:
+                res += sp[c]
+        c += 1
+    # cba programming the logic to avoid these from happening so just do replace calls lol
+    res = res.replace('Take Obtain', 'Obtain')
+    res = res.replace('Take Earn', 'Earn')
+    res = res.replace('Take Permission', 'Permission')
+    return res.replace('\n ', '\n').replace('  ', ' ') # .replace('or a passing score', 'or Earn a passing score')
+    
+
+
 @app.route('/')
 def home():
     return "<h1 style='color:blue'>Hello There!</h1>"

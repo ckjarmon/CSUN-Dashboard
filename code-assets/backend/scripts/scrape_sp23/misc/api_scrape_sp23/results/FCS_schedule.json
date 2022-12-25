@@ -1,53 +1,67 @@
 {
     "FCS 111": [
         {
-            "class_number": "20799",
+            "class_number": "20777",
             "enrollment_cap": 25,
-            "enrollment_count": 45,
+            "enrollment_count": 31,
             "waitlist_cap": 25,
             "waitlist_count": 1,
             "instructor": "tatyana.zhukova@csun.edu",
             "days": "F",
             "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    ],
+    "FCS 113": [
+        {
+            "class_number": "18920",
+            "enrollment_cap": 25,
+            "enrollment_count": 27,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "kristin.king@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "1045h"
         }
     ],
     "FCS 150": [
         {
-            "class_number": "18882",
-            "enrollment_cap": 20,
-            "enrollment_count": 14,
-            "waitlist_cap": 20,
+            "class_number": "19708",
+            "enrollment_cap": 22,
+            "enrollment_count": 21,
+            "waitlist_cap": 22,
             "waitlist_count": 0,
-            "instructor": "eunju.kim@csun.edu",
+            "instructor": "cynthia.williams@csun.edu",
             "days": "F",
             "location": "SQ241",
-            "start_time": "0900h",
-            "end_time": "1040h"
+            "start_time": "1100h",
+            "end_time": "1240h"
         }
     ],
     "FCS 150L": [
         {
-            "class_number": "19210",
-            "enrollment_cap": 20,
-            "enrollment_count": 14,
-            "waitlist_cap": 20,
+            "class_number": "19709",
+            "enrollment_cap": 22,
+            "enrollment_count": 21,
+            "waitlist_cap": 22,
             "waitlist_count": 0,
-            "instructor": "eunju.kim@csun.edu",
+            "instructor": "cynthia.williams@csun.edu",
             "days": "F",
             "location": "SQ241",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "start_time": "1300h",
+            "end_time": "1545h"
         }
     ],
     "FCS 160": [
         {
-            "class_number": "18910",
-            "enrollment_cap": 35,
-            "enrollment_count": 35,
-            "waitlist_cap": 35,
-            "waitlist_count": 3,
+            "class_number": "18692",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
             "instructor": "tracie.tung@csun.edu",
             "days": "W",
             "location": "SQ100",
@@ -55,52 +69,76 @@
             "end_time": "1815h"
         },
         {
-            "class_number": "20017",
-            "enrollment_cap": 35,
-            "enrollment_count": 29,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
+            "class_number": "18898",
+            "enrollment_cap": 30,
+            "enrollment_count": 31,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
             "instructor": "tracie.tung@csun.edu",
             "days": "R",
-            "location": "SQ109",
+            "location": "SG105",
             "start_time": "1530h",
             "end_time": "1815h"
         }
     ],
     "FCS 170": [
         {
-            "class_number": "18849",
-            "enrollment_cap": 35,
+            "class_number": "18694",
+            "enrollment_cap": 15,
             "enrollment_count": 15,
-            "waitlist_cap": 35,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "hira.cho@csun.edu",
-            "days": "W",
-            "location": "SQ101",
-            "start_time": "1530h",
-            "end_time": "1710h"
+            "instructor": "shirley.tmask@csun.edu",
+            "days": "TR",
+            "location": "JD1563",
+            "start_time": "0825h",
+            "end_time": "0915h"
+        },
+        {
+            "class_number": "19041",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "shirley.tmask@csun.edu",
+            "days": "TR",
+            "location": "JD1563",
+            "start_time": "0825h",
+            "end_time": "0915h"
+        },
+        {
+            "class_number": "19406",
+            "enrollment_cap": 35,
+            "enrollment_count": 34,
+            "waitlist_cap": 35,
+            "waitlist_count": 1,
+            "instructor": "shirley.tmask@csun.edu",
+            "days": "F",
+            "location": "SQ100",
+            "start_time": "0900h",
+            "end_time": "1040h"
         }
     ],
     "FCS 201": [
         {
-            "class_number": "18793",
-            "enrollment_cap": 32,
-            "enrollment_count": 22,
-            "waitlist_cap": 32,
+            "class_number": "18695",
+            "enrollment_cap": 42,
+            "enrollment_count": 29,
+            "waitlist_cap": 42,
             "waitlist_count": 0,
             "instructor": "brittany.allison@csun.edu",
             "days": "M",
-            "location": "SQ112",
+            "location": "SQ100",
             "start_time": "1530h",
             "end_time": "1710h"
         }
     ],
     "FCS 201L": [
         {
-            "class_number": "18794",
-            "enrollment_cap": 16,
-            "enrollment_count": 15,
-            "waitlist_cap": 16,
+            "class_number": "18696",
+            "enrollment_cap": 14,
+            "enrollment_count": 13,
+            "waitlist_cap": 14,
             "waitlist_count": 0,
             "instructor": "brittany.allison@csun.edu",
             "days": "T",
@@ -109,313 +147,379 @@
             "end_time": "1645h"
         },
         {
-            "class_number": "18992",
-            "enrollment_cap": 16,
+            "class_number": "18995",
+            "enrollment_cap": 14,
             "enrollment_count": 7,
-            "waitlist_cap": 16,
+            "waitlist_cap": 14,
             "waitlist_count": 0,
             "instructor": "brittany.allison@csun.edu",
             "days": "R",
             "location": "SQ112",
             "start_time": "1400h",
             "end_time": "1645h"
+        },
+        {
+            "class_number": "19407",
+            "enrollment_cap": 14,
+            "enrollment_count": 9,
+            "waitlist_cap": 14,
+            "waitlist_count": 0,
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "F",
+            "location": "SQ112",
+            "start_time": "1200h",
+            "end_time": "1445h"
         }
     ],
     "FCS 207": [
         {
-            "class_number": "18795",
+            "class_number": "18697",
             "enrollment_cap": 40,
-            "enrollment_count": 31,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "roya.pouldar@csun.edu",
-            "days": "MW",
+            "enrollment_count": 42,
+            "waitlist_cap": 50,
+            "waitlist_count": 1,
+            "instructor": "dena.herman@csun.edu",
+            "days": "TR",
             "location": "SQ101",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        {
-            "class_number": "18894",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
-            "waitlist_count": 4,
-            "instructor": "setareh.esfahani@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    ],
-    "FCS 210": [
-        {
-            "class_number": "19347",
-            "enrollment_cap": 25,
-            "enrollment_count": 34,
-            "waitlist_cap": 25,
-            "waitlist_count": 3,
-            "instructor": "bryan.angara@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    ],
-    "FCS 213": [
-        {
-            "class_number": "18937",
-            "enrollment_cap": 20,
-            "enrollment_count": 24,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "rodica.kohn@csun.edu",
-            "days": "TR",
-            "location": "SQ246",
-            "start_time": "0800h",
-            "end_time": "0825h"
-        }
-    ],
-    "FCS 213L": [
-        {
-            "class_number": "18918",
-            "enrollment_cap": 20,
-            "enrollment_count": 24,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "rodica.kohn@csun.edu",
-            "days": "TR",
-            "location": "SQ246",
-            "start_time": "0825h",
-            "end_time": "1110h"
-        }
-    ],
-    "FCS 217": [
-        {
-            "class_number": "20081",
-            "enrollment_cap": 25,
-            "enrollment_count": 43,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "tatyana.zhukova@csun.edu",
-            "days": "TR",
-            "location": "SQ201",
-            "start_time": "1230h",
-            "end_time": "1515h"
-        }
-    ],
-    "FCS 232": [
-        {
-            "class_number": "18797",
-            "enrollment_cap": 45,
-            "enrollment_count": 24,
-            "waitlist_cap": 45,
-            "waitlist_count": 0,
-            "instructor": "erin.matthews@csun.edu",
-            "days": "TR",
-            "location": "SQ100",
             "start_time": "1100h",
             "end_time": "1215h"
         },
         {
-            "class_number": "18994",
-            "enrollment_cap": 45,
-            "enrollment_count": 5,
-            "waitlist_cap": 45,
-            "waitlist_count": 0,
-            "instructor": "juan.c.oliva@csun.edu",
-            "days": "W",
-            "location": "SQ100",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "FCS 234": [
-        {
-            "class_number": "19027",
+            "class_number": "19192",
             "enrollment_cap": 50,
-            "enrollment_count": 42,
+            "enrollment_count": 38,
             "waitlist_cap": 50,
             "waitlist_count": 0,
-            "instructor": "shelly.gray@csun.edu",
+            "instructor": "dena.herman@csun.edu",
+            "days": "TR",
+            "location": "SQ101",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    ],
+    "FCS 211": [
+        {
+            "class_number": "18698",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 5,
+            "instructor": "anna.frise@csun.edu",
             "days": "MW",
+            "location": "SQ201",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "FCS 213": [
+        {
+            "class_number": "18999",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "rodica.kohn@csun.edu",
+            "days": "TR",
+            "location": "SQ246",
+            "start_time": "1535h",
+            "end_time": "1600h"
+        }
+    ],
+    "FCS 213L": [
+        {
+            "class_number": "18941",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "rodica.kohn@csun.edu",
+            "days": "TR",
+            "location": "SQ246",
+            "start_time": "1605h",
+            "end_time": "1845h"
+        }
+    ],
+    "FCS 214": [
+        {
+            "class_number": "18997",
+            "enrollment_cap": 25,
+            "enrollment_count": 27,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "kristin.king@csun.edu",
+            "days": "T",
+            "location": "SQ215",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    ],
+    "FCS 214L": [
+        {
+            "class_number": "18998",
+            "enrollment_cap": 25,
+            "enrollment_count": 27,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "kristin.king@csun.edu",
+            "days": "TR",
+            "location": "SQ215",
+            "start_time": "1500h",
+            "end_time": "1640h"
+        }
+    ],
+    "FCS 232": [
+        {
+            "class_number": "18699",
+            "enrollment_cap": 55,
+            "enrollment_count": 51,
+            "waitlist_cap": 55,
+            "waitlist_count": 0,
+            "instructor": "liza.v.keating@csun.edu",
+            "days": "TR",
             "location": "SQ100",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "start_time": "1400h",
+            "end_time": "1515h"
         },
         {
-            "class_number": "19942",
-            "enrollment_cap": 45,
-            "enrollment_count": 8,
-            "waitlist_cap": 45,
+            "class_number": "19042",
+            "enrollment_cap": 55,
+            "enrollment_count": 47,
+            "waitlist_cap": 55,
             "waitlist_count": 0,
             "instructor": "erin.matthews@csun.edu",
-            "days": "R",
-            "location": "SQ100",
+            "days": "W",
+            "location": "SQ101",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
-    "FCS 250": [
+    "FCS 234": [
         {
-            "class_number": "18798",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "cynthia.williams@csun.edu",
-            "days": "W",
-            "location": "SQ241",
-            "start_time": "0900h",
-            "end_time": "1040h"
-        }
-    ],
-    "FCS 250L": [
+            "class_number": "18700",
+            "enrollment_cap": 45,
+            "enrollment_count": 45,
+            "waitlist_cap": 55,
+            "waitlist_count": 2,
+            "instructor": "joyce.brusasco.61@csun.edu",
+            "days": "MW",
+            "location": "SQ100",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         {
-            "class_number": "18799",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "cynthia.williams@csun.edu",
-            "days": "W",
-            "location": "SQ241",
-            "start_time": "1050h",
-            "end_time": "1335h"
+            "class_number": "20006",
+            "enrollment_cap": 45,
+            "enrollment_count": 40,
+            "waitlist_cap": 55,
+            "waitlist_count": 2,
+            "instructor": "shelly.gray@csun.edu",
+            "days": "TR",
+            "location": "SG109",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     ],
     "FCS 255": [
         {
-            "class_number": "18850",
+            "class_number": "18701",
             "enrollment_cap": 25,
-            "enrollment_count": 22,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "hira.cho@csun.edu",
+            "days": "T",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        {
+            "class_number": "18911",
+            "enrollment_cap": 25,
+            "enrollment_count": 20,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "hira.cho@csun.edu",
-            "days": "T",
-            "location": "SQ102",
-            "start_time": "1545h",
-            "end_time": "1830h"
+            "days": "W",
+            "location": "SG110",
+            "start_time": "1530h",
+            "end_time": "1815h"
         }
     ],
     "FCS 271": [
         {
-            "class_number": "18914",
+            "class_number": "18702",
             "enrollment_cap": 25,
-            "enrollment_count": 25,
+            "enrollment_count": 30,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "shirley.tmask@csun.edu",
             "days": "T",
-            "location": "SQ109",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "SQ241",
+            "start_time": "0930h",
+            "end_time": "1215h"
         }
     ],
     "FCS 271L": [
         {
-            "class_number": "18915",
+            "class_number": "18703",
             "enrollment_cap": 25,
-            "enrollment_count": 23,
+            "enrollment_count": 30,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "shirley.tmask@csun.edu",
             "days": "R",
             "location": "SQ241",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "start_time": "0930h",
+            "end_time": "1110h"
+        }
+    ],
+    "FCS 296A": [
+        {
+            "class_number": "21639",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "tracie.tung@csun.edu",
+            "days": "F",
+            "location": "SQ246",
+            "start_time": "1200h",
+            "end_time": "1445h"
+        }
+    ],
+    "FCS 300": [
+        {
+            "class_number": "18899",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "juan.c.oliva@csun.edu",
+            "days": "W",
+            "location": "RE104",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "FCS 301": [
         {
-            "class_number": "18800",
-            "enrollment_cap": 30,
-            "enrollment_count": 20,
-            "waitlist_cap": 30,
+            "class_number": "18704",
+            "enrollment_cap": 35,
+            "enrollment_count": 24,
+            "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "rosalia.garciatorres@csun.edu",
-            "days": "R",
-            "location": "SQ102",
+            "days": "T",
+            "location": "SQ101",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     ],
+    "FCS 302": [
+        {
+            "class_number": "18705",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "TR",
+            "location": "SQ112",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    ],
     "FCS 304": [
         {
-            "class_number": "18801",
-            "enrollment_cap": 35,
-            "enrollment_count": 14,
-            "waitlist_cap": 35,
+            "class_number": "19025",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "brittany.allison@csun.edu",
-            "days": "F",
-            "location": "SQ112",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "W",
+            "location": "SQ101",
+            "start_time": "0800h",
+            "end_time": "1040h"
         }
     ],
     "FCS 307": [
         {
-            "class_number": "18802",
-            "enrollment_cap": 35,
-            "enrollment_count": 12,
-            "waitlist_cap": 35,
+            "class_number": "18706",
+            "enrollment_cap": 30,
+            "enrollment_count": 31,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "setareh.esfahani@csun.edu",
             "days": "F",
-            "location": "SQ102",
+            "location": "SQ100",
             "start_time": "1100h",
             "end_time": "1345h"
         }
     ],
     "FCS 308": [
         {
-            "class_number": "18988",
-            "enrollment_cap": 20,
-            "enrollment_count": 15,
-            "waitlist_cap": 20,
+            "class_number": "19034",
+            "enrollment_cap": 15,
+            "enrollment_count": 18,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "amanda.blake@csun.edu",
-            "days": "T",
+            "days": "TR",
             "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     ],
-    "FCS 312": [
+    "FCS 311": [
         {
-            "class_number": "18804",
+            "class_number": "18946",
+            "enrollment_cap": 25,
+            "enrollment_count": 43,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "rodica.kohn@csun.edu",
+            "days": "TR",
+            "location": "SQ201",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    ],
+    "FCS 314": [
+        {
+            "class_number": "18921",
             "enrollment_cap": 25,
             "enrollment_count": 40,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "kristin.king@csun.edu",
             "days": "M",
-            "location": "SQ215",
-            "start_time": "1230h",
-            "end_time": "1410h"
+            "location": "SQ201",
+            "start_time": "1100h",
+            "end_time": "1240h"
         }
     ],
-    "FCS 312L": [
+    "FCS 314L": [
         {
-            "class_number": "18805",
+            "class_number": "18922",
             "enrollment_cap": 25,
             "enrollment_count": 40,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "kristin.king@csun.edu",
             "days": "W",
-            "location": "SQ215",
-            "start_time": "1230h",
-            "end_time": "1410h"
+            "location": "SQ201",
+            "start_time": "1100h",
+            "end_time": "1345h"
         }
     ],
     "FCS 315": [
         {
-            "class_number": "19275",
+            "class_number": "19383",
             "enrollment_cap": 45,
-            "enrollment_count": 28,
+            "enrollment_count": 46,
             "waitlist_cap": 45,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "yali.yang@csun.edu",
             "days": "TR",
             "location": "SQ100",
@@ -423,27 +527,41 @@
             "end_time": "1345h"
         }
     ],
-    "FCS 317": [
+    "FCS 316": [
         {
-            "class_number": "20084",
-            "enrollment_cap": 20,
-            "enrollment_count": 40,
-            "waitlist_cap": 20,
-            "waitlist_count": 7,
-            "instructor": "rodica.kohn@csun.edu",
-            "days": "MW",
-            "location": "SQ215",
-            "start_time": "0930h",
-            "end_time": "1215h"
+            "class_number": "19000",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "bryan.angara@csun.edu",
+            "days": "S",
+            "location": "SQ246",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    ],
+    "FCS 318": [
+        {
+            "class_number": "20778",
+            "enrollment_cap": 30,
+            "enrollment_count": 33,
+            "waitlist_cap": 30,
+            "waitlist_count": 15,
+            "instructor": "hessam.ghamari@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ],
     "FCS 320": [
         {
-            "class_number": "19127",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "class_number": "18707",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
             "instructor": "yoko.mimura@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -451,11 +569,23 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "19274",
-            "enrollment_cap": 30,
+            "class_number": "18708",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 10,
+            "instructor": "erin.matthews@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "19043",
+            "enrollment_cap": 25,
             "enrollment_count": 25,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
             "instructor": "yoko.mimura@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -465,77 +595,37 @@
     ],
     "FCS 321": [
         {
-            "class_number": "18807",
-            "enrollment_cap": 32,
-            "enrollment_count": 24,
-            "waitlist_cap": 32,
+            "class_number": "18709",
+            "enrollment_cap": 30,
+            "enrollment_count": 21,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "ava.mckay@csun.edu",
-            "days": "R",
+            "days": "TR",
             "location": "SQ246",
-            "start_time": "1230h",
-            "end_time": "1320h"
+            "start_time": "1100h",
+            "end_time": "1150h"
         }
     ],
     "FCS 321L": [
         {
-            "class_number": "18808",
-            "enrollment_cap": 32,
-            "enrollment_count": 24,
-            "waitlist_cap": 32,
+            "class_number": "18710",
+            "enrollment_cap": 30,
+            "enrollment_count": 21,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "ava.mckay@csun.edu",
-            "days": "R",
-            "location": "SQ246",
-            "start_time": "1320h",
-            "end_time": "1525h"
-        }
-    ],
-    "FCS 322": [
-        {
-            "class_number": "18809",
-            "enrollment_cap": 20,
-            "enrollment_count": 4,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "julie.ellis@csun.edu",
             "days": "TR",
-            "location": "SQ112",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        }
-    ],
-    "FCS 322L": [
-        {
-            "class_number": "18810",
-            "enrollment_cap": 10,
-            "enrollment_count": 3,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "julie.ellis@csun.edu",
-            "days": "T",
-            "location": "SQ112",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        {
-            "class_number": "18916",
-            "enrollment_cap": 10,
-            "enrollment_count": 1,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "julie.ellis@csun.edu",
-            "days": "R",
-            "location": "SQ112",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "location": "SQ246",
+            "start_time": "1200h",
+            "end_time": "1315h"
         }
     ],
     "FCS 323": [
         {
-            "class_number": "19008",
+            "class_number": "18711",
             "enrollment_cap": 40,
-            "enrollment_count": 22,
+            "enrollment_count": 39,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "linda.bradley@csun.edu",
@@ -545,11 +635,11 @@
             "end_time": "1845h"
         },
         {
-            "class_number": "19448",
+            "class_number": "19271",
             "enrollment_cap": 40,
-            "enrollment_count": 40,
+            "enrollment_count": 39,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 2,
             "instructor": "linda.bradley@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -557,11 +647,11 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "20085",
+            "class_number": "19519",
             "enrollment_cap": 40,
-            "enrollment_count": 40,
+            "enrollment_count": 39,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "linda.bradley@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -571,12 +661,24 @@
     ],
     "FCS 324": [
         {
-            "class_number": "19449",
+            "class_number": "18783",
             "enrollment_cap": 45,
-            "enrollment_count": 45,
+            "enrollment_count": 47,
+            "waitlist_cap": 45,
+            "waitlist_count": 2,
+            "instructor": "yali.yang@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18784",
+            "enrollment_cap": 45,
+            "enrollment_count": 44,
             "waitlist_cap": 45,
             "waitlist_count": 1,
-            "instructor": "yali.yang@csun.edu",
+            "instructor": "miguel.fernandez@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
@@ -585,87 +687,51 @@
     ],
     "FCS 330": [
         {
-            "class_number": "18811",
+            "class_number": "18786",
             "enrollment_cap": 50,
-            "enrollment_count": 18,
-            "waitlist_cap": 50,
-            "waitlist_count": 0,
-            "instructor": "shelly.gray@csun.edu",
-            "days": "MW",
-            "location": "SQ100",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        {
-            "class_number": "18812",
-            "enrollment_cap": 50,
-            "enrollment_count": 40,
+            "enrollment_count": 35,
             "waitlist_cap": 50,
             "waitlist_count": 0,
             "instructor": "joyce.brusasco.61@csun.edu",
-            "days": "TR",
-            "location": "SQ100",
-            "start_time": "0930h",
+            "days": "F",
+            "location": "SQ101",
+            "start_time": "0800h",
             "end_time": "1045h"
+        },
+        {
+            "class_number": "18787",
+            "enrollment_cap": 40,
+            "enrollment_count": 39,
+            "waitlist_cap": 40,
+            "waitlist_count": 1,
+            "instructor": "shelly.gray@csun.edu",
+            "days": "MW",
+            "location": "SQ101",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     ],
     "FCS 335": [
         {
-            "class_number": "18963",
+            "class_number": "18788",
             "enrollment_cap": 35,
-            "enrollment_count": 25,
+            "enrollment_count": 19,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "liza.v.keating@csun.edu",
             "days": "MW",
-            "location": "SQ101",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "location": "SQ102",
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     ],
     "FCS 340": [
         {
-            "class_number": "18814",
-            "enrollment_cap": 50,
-            "enrollment_count": 50,
-            "waitlist_cap": 50,
-            "waitlist_count": 0,
-            "instructor": "joyce.brusasco.61@csun.edu",
-            "days": "TR",
-            "location": "SQ101",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        {
-            "class_number": "18815",
-            "enrollment_cap": 50,
-            "enrollment_count": 11,
-            "waitlist_cap": 50,
-            "waitlist_count": 0,
-            "instructor": "angie.giordano@csun.edu",
-            "days": "M",
-            "location": "SQ100",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "18816",
+            "class_number": "18789",
             "enrollment_cap": 105,
-            "enrollment_count": 7,
+            "enrollment_count": 107,
             "waitlist_cap": 105,
-            "waitlist_count": 0,
-            "instructor": "juan.c.oliva@csun.edu",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "18817",
-            "enrollment_cap": 105,
-            "enrollment_count": 105,
-            "waitlist_cap": 105,
-            "waitlist_count": 7,
+            "waitlist_count": 1,
             "instructor": "heather.mccollum@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -673,23 +739,11 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "19126",
+            "class_number": "18790",
             "enrollment_cap": 105,
-            "enrollment_count": 61,
+            "enrollment_count": 106,
             "waitlist_cap": 105,
-            "waitlist_count": 0,
-            "instructor": "angie.giordano@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "19178",
-            "enrollment_cap": 105,
-            "enrollment_count": 105,
-            "waitlist_cap": 105,
-            "waitlist_count": 1,
+            "waitlist_count": 3,
             "instructor": "uma.krishnan@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -697,12 +751,74 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "19249",
+            "class_number": "19177",
+            "enrollment_cap": 105,
+            "enrollment_count": 106,
+            "waitlist_cap": 105,
+            "waitlist_count": 2,
+            "instructor": "angie.giordano@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "19272",
             "enrollment_cap": 105,
             "enrollment_count": 105,
             "waitlist_cap": 105,
-            "waitlist_count": 2,
+            "waitlist_count": 1,
             "instructor": "sean.jefferson@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "19413",
+            "enrollment_cap": 55,
+            "enrollment_count": 53,
+            "waitlist_cap": 55,
+            "waitlist_count": 1,
+            "instructor": "angie.giordano@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "19414",
+            "enrollment_cap": 105,
+            "enrollment_count": 98,
+            "waitlist_cap": 105,
+            "waitlist_count": 0,
+            "instructor": "juan.c.oliva@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "19532",
+            "enrollment_cap": 55,
+            "enrollment_count": 57,
+            "waitlist_cap": 55,
+            "waitlist_count": 2,
+            "instructor": "heather.mccollum@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "FCS 352": [
+        {
+            "class_number": "19150",
+            "enrollment_cap": 35,
+            "enrollment_count": 34,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
@@ -711,24 +827,24 @@
     ],
     "FCS 356": [
         {
-            "class_number": "18818",
-            "enrollment_cap": 20,
-            "enrollment_count": 19,
-            "waitlist_cap": 20,
+            "class_number": "18989",
+            "enrollment_cap": 22,
+            "enrollment_count": 22,
+            "waitlist_cap": 22,
             "waitlist_count": 0,
             "instructor": "shirley.tmask@csun.edu",
             "days": "T",
-            "location": "SQ109",
+            "location": "SQ241",
             "start_time": "1600h",
             "end_time": "1740h"
         }
     ],
     "FCS 356L": [
         {
-            "class_number": "18819",
-            "enrollment_cap": 20,
-            "enrollment_count": 19,
-            "waitlist_cap": 20,
+            "class_number": "18990",
+            "enrollment_cap": 22,
+            "enrollment_count": 22,
+            "waitlist_cap": 22,
             "waitlist_count": 0,
             "instructor": "shirley.tmask@csun.edu",
             "days": "R",
@@ -739,10 +855,10 @@
     ],
     "FCS 357": [
         {
-            "class_number": "20086",
-            "enrollment_cap": 50,
-            "enrollment_count": 50,
-            "waitlist_cap": 45,
+            "class_number": "20812",
+            "enrollment_cap": 55,
+            "enrollment_count": 55,
+            "waitlist_cap": 40,
             "waitlist_count": 2,
             "instructor": "alona.tevel@csun.edu",
             "days": "A",
@@ -753,10 +869,10 @@
     ],
     "FCS 360": [
         {
-            "class_number": "18885",
-            "enrollment_cap": 30,
-            "enrollment_count": 20,
-            "waitlist_cap": 30,
+            "class_number": "18791",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "wei.cao@csun.edu",
             "days": "A",
@@ -767,10 +883,10 @@
     ],
     "FCS 360L": [
         {
-            "class_number": "18886",
-            "enrollment_cap": 15,
-            "enrollment_count": 14,
-            "waitlist_cap": 15,
+            "class_number": "18792",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
             "waitlist_count": 0,
             "instructor": "wei.cao@csun.edu",
             "days": "W",
@@ -779,309 +895,267 @@
             "end_time": "1215h"
         },
         {
-            "class_number": "19451",
-            "enrollment_cap": 15,
-            "enrollment_count": 6,
-            "waitlist_cap": 15,
+            "class_number": "18793",
+            "enrollment_cap": 12,
+            "enrollment_count": 12,
+            "waitlist_cap": 12,
             "waitlist_count": 0,
             "instructor": "wei.cao@csun.edu",
             "days": "W",
             "location": "SQ230",
-            "start_time": "1245h",
-            "end_time": "1530h"
-        }
-    ],
-    "FCS 371": [
-        {
-            "class_number": "18820",
-            "enrollment_cap": 20,
-            "enrollment_count": 19,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "cynthia.williams@csun.edu",
-            "days": "M",
-            "location": "SQ241",
-            "start_time": "0900h",
-            "end_time": "1040h"
-        }
-    ],
-    "FCS 371L": [
-        {
-            "class_number": "18821",
-            "enrollment_cap": 20,
-            "enrollment_count": 19,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "cynthia.williams@csun.edu",
-            "days": "M",
-            "location": "SQ241",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "start_time": "1300h",
+            "end_time": "1545h"
         }
     ],
     "FCS 380": [
         {
-            "class_number": "18822",
+            "class_number": "18794",
             "enrollment_cap": 25,
-            "enrollment_count": 25,
+            "enrollment_count": 22,
             "waitlist_cap": 25,
             "waitlist_count": 1,
-            "instructor": "yali.yang@csun.edu",
+            "instructor": "erin.matthews@csun.edu",
+            "days": "MW",
+            "location": "SQ102",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "18795",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "yoko.mimura@csun.edu",
             "days": "MW",
             "location": "SQ102",
             "start_time": "1230h",
             "end_time": "1345h"
         },
         {
-            "class_number": "18823",
+            "class_number": "18796",
             "enrollment_cap": 25,
-            "enrollment_count": 11,
+            "enrollment_count": 24,
             "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "yoko.mimura@csun.edu",
-            "days": "TR",
-            "location": "SQ102",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        {
-            "class_number": "18895",
-            "enrollment_cap": 25,
-            "enrollment_count": 27,
-            "waitlist_cap": 25,
-            "waitlist_count": 2,
+            "waitlist_count": 1,
             "instructor": "yali.yang@csun.edu",
-            "days": "R",
-            "location": "JD1124",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "days": "TR",
+            "location": "UL001",
+            "start_time": "1400h",
+            "end_time": "1515h"
         },
         {
-            "class_number": "19036",
+            "class_number": "19044",
             "enrollment_cap": 25,
-            "enrollment_count": 14,
+            "enrollment_count": 24,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "erin.matthews@csun.edu",
             "days": "F",
             "location": "SQ101",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    ],
-    "FCS 401": [
-        {
-            "class_number": "18824",
-            "enrollment_cap": 15,
-            "enrollment_count": 8,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "brittany.allison@csun.edu",
-            "days": "M",
-            "location": "SQ112",
-            "start_time": "0900h",
-            "end_time": "1040h"
-        }
-    ],
-    "FCS 401L": [
-        {
-            "class_number": "18825",
-            "enrollment_cap": 15,
-            "enrollment_count": 7,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "brittany.allison@csun.edu",
-            "days": "M",
-            "location": "SQ134",
             "start_time": "1100h",
             "end_time": "1345h"
         }
     ],
     "FCS 402": [
         {
-            "class_number": "19055",
-            "enrollment_cap": 16,
-            "enrollment_count": 11,
-            "waitlist_cap": 16,
+            "class_number": "19071",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
-            "instructor": "amanda.blake@csun.edu",
-            "days": "W",
-            "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "instructor": "dena.herman@csun.edu",
+            "days": "TR",
+            "location": "SQ100",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "FCS 403": [
+        {
+            "class_number": "19135",
+            "enrollment_cap": 15,
+            "enrollment_count": 9,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "setareh.esfahani@csun.edu",
+            "days": "F",
+            "location": "JD1552",
+            "start_time": "0800h",
+            "end_time": "1045h"
         }
     ],
     "FCS 404": [
         {
-            "class_number": "19039",
+            "class_number": "19060",
             "enrollment_cap": 30,
-            "enrollment_count": 26,
+            "enrollment_count": 27,
             "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "rosalia.garciatorres@csun.edu",
+            "instructor": "brittany.allison@csun.edu",
+            "days": "W",
+            "location": "JD2528",
+            "start_time": "1400h",
+            "end_time": "1540h"
+        }
+    ],
+    "FCS 404L": [
+        {
+            "class_number": "19061",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "brittany.allison@csun.edu",
+            "days": "W",
+            "location": "SG108",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "FCS 408": [
+        {
+            "class_number": "19010",
+            "enrollment_cap": 20,
+            "enrollment_count": 11,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "karmen.ovsepyan@csun.edu",
+            "days": "MW",
+            "location": "SQ100",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "FCS 410": [
+        {
+            "class_number": "19524",
+            "enrollment_cap": 20,
+            "enrollment_count": 40,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "tatyana.zhukova@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         }
     ],
-    "FCS 404L": [
-        {
-            "class_number": "19040",
-            "enrollment_cap": 30,
-            "enrollment_count": 26,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "rosalia.garciatorres@csun.edu",
-            "days": "F",
-            "location": "SQ112",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        }
-    ],
     "FCS 411": [
         {
-            "class_number": "18946",
-            "enrollment_cap": 25,
-            "enrollment_count": 18,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
+            "class_number": "19001",
+            "enrollment_cap": 15,
+            "enrollment_count": 24,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
             "instructor": "rodica.kohn@csun.edu",
             "days": "MW",
             "location": "SQ215",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     ],
     "FCS 412": [
         {
-            "class_number": "18851",
-            "enrollment_cap": 25,
-            "enrollment_count": 28,
-            "waitlist_cap": 20,
-            "waitlist_count": 1,
-            "instructor": "anna.frise@csun.edu",
+            "class_number": "18797",
+            "enrollment_cap": 15,
+            "enrollment_count": 14,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "hessam.ghamari@csun.edu",
             "days": "T",
-            "location": "SQ102",
+            "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     ],
-    "FCS 413": [
-        {
-            "class_number": "19581",
-            "enrollment_cap": 25,
-            "enrollment_count": 11,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "kristin.king@csun.edu",
-            "days": "M",
-            "location": "SQ201",
-            "start_time": "0800h",
-            "end_time": "0940h"
-        }
-    ],
-    "FCS 413L": [
-        {
-            "class_number": "19582",
-            "enrollment_cap": 25,
-            "enrollment_count": 10,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "kristin.king@csun.edu",
-            "days": "W",
-            "location": "SQ201",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        }
-    ],
     "FCS 414": [
         {
-            "class_number": "18827",
-            "enrollment_cap": 25,
-            "enrollment_count": 27,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "anna.frise@csun.edu",
+            "class_number": "19031",
+            "enrollment_cap": 15,
+            "enrollment_count": 23,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "kristin.king@csun.edu",
             "days": "TR",
             "location": "SQ215",
-            "start_time": "0930h",
-            "end_time": "1335h"
+            "start_time": "0800h",
+            "end_time": "1205h"
         }
     ],
-    "FCS 420": [
+    "FCS 423": [
         {
-            "class_number": "18828",
+            "class_number": "20814",
             "enrollment_cap": 15,
             "enrollment_count": 10,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "miguel.fernandez@csun.edu",
-            "days": "R",
-            "location": "SQ101",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "FCS 422": [
-        {
-            "class_number": "19572",
-            "enrollment_cap": 15,
-            "enrollment_count": 11,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "linda.bradley@csun.edu",
-            "days": "R",
-            "location": "SQ101",
+            "days": "W",
+            "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
     "FCS 426": [
         {
-            "class_number": "19047",
+            "class_number": "18894",
             "enrollment_cap": 25,
-            "enrollment_count": 18,
+            "enrollment_count": 5,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "erin.matthews@csun.edu",
-            "days": "TR",
-            "location": "SQ100",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "days": "MW",
+            "location": "JD2522",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "FCS 429": [
+        {
+            "class_number": "19526",
+            "enrollment_cap": 15,
+            "enrollment_count": 19,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "yali.yang@csun.edu",
+            "days": "R",
+            "location": "UL001",
+            "start_time": "1800h",
+            "end_time": "2045h"
         }
     ],
     "FCS 431": [
         {
-            "class_number": "18831",
+            "class_number": "19029",
             "enrollment_cap": 30,
-            "enrollment_count": 24,
+            "enrollment_count": 27,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "liza.v.keating@csun.edu",
             "days": "M",
-            "location": "SQ102",
+            "location": "SQ101",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         {
-            "class_number": "20088",
+            "class_number": "20887",
             "enrollment_cap": 30,
-            "enrollment_count": 27,
+            "enrollment_count": 23,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "liza.v.keating@csun.edu",
             "days": "W",
-            "location": "SQ102",
+            "location": "SQ109",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
     "FCS 431L": [
         {
-            "class_number": "18843",
+            "class_number": "18799",
             "enrollment_cap": 30,
-            "enrollment_count": 20,
+            "enrollment_count": 22,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "christa.dunlap@csun.edu",
@@ -1091,9 +1165,9 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "20089",
+            "class_number": "20888",
             "enrollment_cap": 30,
-            "enrollment_count": 6,
+            "enrollment_count": 23,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "christa.dunlap@csun.edu",
@@ -1105,80 +1179,80 @@
     ],
     "FCS 432": [
         {
-            "class_number": "19206",
-            "enrollment_cap": 15,
+            "class_number": "19030",
+            "enrollment_cap": 30,
             "enrollment_count": 16,
-            "waitlist_cap": 15,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "heather.mccollum@csun.edu",
-            "days": "M",
-            "location": "SQ100",
+            "instructor": "sean.jefferson@csun.edu",
+            "days": "R",
+            "location": "JD2520",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
-    "FCS 435": [
+    "FCS 434": [
         {
-            "class_number": "20010",
+            "class_number": "20810",
             "enrollment_cap": 15,
-            "enrollment_count": 4,
+            "enrollment_count": 6,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "shelly.gray@csun.edu",
-            "days": "MW",
-            "location": "SQ100",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "days": "TR",
+            "location": "JD1593",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     ],
     "FCS 436": [
         {
-            "class_number": "18832",
+            "class_number": "19032",
             "enrollment_cap": 25,
-            "enrollment_count": 16,
+            "enrollment_count": 22,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "shelly.gray@csun.edu",
-            "days": "F",
-            "location": "JD2528",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "days": "R",
+            "location": "JD1124",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "FCS 438": [
         {
-            "class_number": "18833",
-            "enrollment_cap": 25,
-            "enrollment_count": 14,
-            "waitlist_cap": 25,
+            "class_number": "19194",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "joyce.brusasco.61@csun.edu",
-            "days": "T",
-            "location": "SQ101",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "days": "W",
+            "location": "UL001",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "FCS 441": [
         {
-            "class_number": "18834",
+            "class_number": "18868",
             "enrollment_cap": 25,
-            "enrollment_count": 18,
+            "enrollment_count": 19,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "heather.mccollum@csun.edu",
-            "days": "M",
-            "location": "SQ100",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "days": "TR",
+            "location": "RE151",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     ],
     "FCS 453": [
         {
-            "class_number": "19751",
-            "enrollment_cap": 20,
-            "enrollment_count": 18,
-            "waitlist_cap": 20,
+            "class_number": "19423",
+            "enrollment_cap": 22,
+            "enrollment_count": 14,
+            "waitlist_cap": 22,
             "waitlist_count": 0,
             "instructor": "hira.cho@csun.edu",
             "days": "A",
@@ -1189,23 +1263,23 @@
     ],
     "FCS 453L": [
         {
-            "class_number": "19752",
-            "enrollment_cap": 20,
-            "enrollment_count": 18,
-            "waitlist_cap": 20,
+            "class_number": "19424",
+            "enrollment_cap": 22,
+            "enrollment_count": 14,
+            "waitlist_cap": 22,
             "waitlist_count": 0,
             "instructor": "hira.cho@csun.edu",
             "days": "W",
             "location": "SQ241",
-            "start_time": "1340h",
-            "end_time": "1520h"
+            "start_time": "1230h",
+            "end_time": "1410h"
         }
     ],
     "FCS 455": [
         {
-            "class_number": "18836",
+            "class_number": "18943",
             "enrollment_cap": 20,
-            "enrollment_count": 19,
+            "enrollment_count": 10,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "hira.cho@csun.edu",
@@ -1217,24 +1291,24 @@
     ],
     "FCS 455L": [
         {
-            "class_number": "18837",
+            "class_number": "18944",
             "enrollment_cap": 20,
-            "enrollment_count": 19,
+            "enrollment_count": 10,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "hira.cho@csun.edu",
             "days": "T",
-            "location": "SQ246",
+            "location": "RE276",
             "start_time": "1350h",
             "end_time": "1530h"
         }
     ],
     "FCS 460": [
         {
-            "class_number": "19622",
-            "enrollment_cap": 16,
-            "enrollment_count": 16,
-            "waitlist_cap": 16,
+            "class_number": "19195",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "wei.cao@csun.edu",
             "days": "A",
@@ -1245,91 +1319,105 @@
     ],
     "FCS 460L": [
         {
-            "class_number": "19623",
-            "enrollment_cap": 16,
-            "enrollment_count": 16,
-            "waitlist_cap": 16,
+            "class_number": "19196",
+            "enrollment_cap": 15,
+            "enrollment_count": 10,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "wei.cao@csun.edu",
             "days": "T",
             "location": "SQ230",
-            "start_time": "1050h",
-            "end_time": "1230h"
+            "start_time": "0930h",
+            "end_time": "1110h"
         }
     ],
-    "FCS 475": [
+    "FCS 471": [
         {
-            "class_number": "18838",
-            "enrollment_cap": 20,
-            "enrollment_count": 14,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "eunju.kim@csun.edu",
-            "days": "R",
-            "location": "SQ246",
-            "start_time": "1530h",
-            "end_time": "1710h"
-        }
-    ],
-    "FCS 475L": [
-        {
-            "class_number": "18839",
-            "enrollment_cap": 20,
-            "enrollment_count": 14,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "eunju.kim@csun.edu",
-            "days": "R",
-            "location": "SQ246",
-            "start_time": "1725h",
-            "end_time": "1905h"
-        }
-    ],
-    "FCS 476": [
-        {
-            "class_number": "18940",
+            "class_number": "18869",
             "enrollment_cap": 15,
-            "enrollment_count": 13,
+            "enrollment_count": 18,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "cynthia.williams@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "FCS 471L": [
+        {
+            "class_number": "18870",
+            "enrollment_cap": 15,
+            "enrollment_count": 18,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "cynthia.williams@csun.edu",
-            "days": "TR",
+            "days": "M",
             "location": "SQ241",
+            "start_time": "1230h",
+            "end_time": "1515h"
+        }
+    ],
+    "FCS 472": [
+        {
+            "class_number": "18923",
+            "enrollment_cap": 15,
+            "enrollment_count": 14,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "eunju.kim@csun.edu",
+            "days": "TR",
+            "location": "SQ246",
             "start_time": "0800h",
-            "end_time": "1205h"
+            "end_time": "0850h"
+        }
+    ],
+    "FCS 472L": [
+        {
+            "class_number": "18924",
+            "enrollment_cap": 15,
+            "enrollment_count": 14,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "eunju.kim@csun.edu",
+            "days": "TR",
+            "location": "SQ246",
+            "start_time": "0900h",
+            "end_time": "1015h"
         }
     ],
     "FCS 480": [
         {
-            "class_number": "18842",
+            "class_number": "18981",
             "enrollment_cap": 35,
-            "enrollment_count": 35,
+            "enrollment_count": 31,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "uma.krishnan@csun.edu",
             "days": "T",
-            "location": "SQ100",
+            "location": "RE155",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
     "FCS 485": [
         {
-            "class_number": "19838",
-            "enrollment_cap": 25,
-            "enrollment_count": 11,
-            "waitlist_cap": 25,
+            "class_number": "18900",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "angie.giordano@csun.edu",
             "days": "M",
-            "location": "SQ100",
+            "location": "RE153",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "FCS 491A": [
         {
-            "class_number": "19167",
+            "class_number": "19162",
             "enrollment_cap": 1,
             "enrollment_count": 0,
             "waitlist_cap": 10,
@@ -1343,7 +1431,7 @@
     ],
     "FCS 491B": [
         {
-            "class_number": "19168",
+            "class_number": "19163",
             "enrollment_cap": 1,
             "enrollment_count": 0,
             "waitlist_cap": 10,
@@ -1357,9 +1445,9 @@
     ],
     "FCS 491C": [
         {
-            "class_number": "19169",
+            "class_number": "19164",
             "enrollment_cap": 1,
-            "enrollment_count": 1,
+            "enrollment_count": 0,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "christa.dunlap@csun.edu",
@@ -1371,315 +1459,349 @@
     ],
     "FCS 494": [
         {
-            "class_number": "19276",
-            "enrollment_cap": 21,
-            "enrollment_count": 23,
-            "waitlist_cap": 21,
+            "class_number": "19315",
+            "enrollment_cap": 18,
+            "enrollment_count": 10,
+            "waitlist_cap": 18,
             "waitlist_count": 0,
             "instructor": "ava.mckay@csun.edu",
-            "days": "R",
-            "location": "SQ103",
+            "days": "W",
+            "location": "SQ210",
             "start_time": "0930h",
-            "end_time": "1045h"
+            "end_time": "1100h"
         },
         {
-            "class_number": "19277",
+            "class_number": "19316",
             "enrollment_cap": 15,
             "enrollment_count": 5,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "rosalia.garciatorres@csun.edu",
-            "days": "M",
+            "days": "W",
             "location": "SQ210",
-            "start_time": "1400h",
-            "end_time": "1545h"
+            "start_time": "1115h",
+            "end_time": "1245h"
         },
         {
-            "class_number": "19280",
+            "class_number": "19318",
+            "enrollment_cap": 18,
+            "enrollment_count": 22,
+            "waitlist_cap": 18,
+            "waitlist_count": 0,
+            "instructor": "hessam.ghamari@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "19319",
             "enrollment_cap": 15,
-            "enrollment_count": 12,
+            "enrollment_count": 4,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "uma.krishnan@csun.edu",
             "days": "T",
-            "location": "SQ100",
+            "location": "UL001",
             "start_time": "1600h",
             "end_time": "1715h"
         },
         {
-            "class_number": "19281",
-            "enrollment_cap": 15,
+            "class_number": "19477",
+            "enrollment_cap": 18,
             "enrollment_count": 10,
-            "waitlist_cap": 15,
+            "waitlist_cap": 18,
             "waitlist_count": 0,
-            "instructor": "shirley.tmask@csun.edu",
-            "days": "F",
-            "location": "SQ210",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        {
-            "class_number": "19343",
-            "enrollment_cap": 25,
-            "enrollment_count": 26,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "tatyana.zhukova@csun.edu",
-            "days": "F",
-            "location": "ONLINE",
-            "start_time": "1400h",
+            "instructor": "tracie.tung@csun.edu",
+            "days": "R",
+            "location": "SG103",
+            "start_time": "1300h",
             "end_time": "1450h"
         }
     ],
     "FCS 494I": [
         {
-            "class_number": "19282",
-            "enrollment_cap": 21,
-            "enrollment_count": 23,
-            "waitlist_cap": 21,
+            "class_number": "19320",
+            "enrollment_cap": 18,
+            "enrollment_count": 10,
+            "waitlist_cap": 18,
             "waitlist_count": 0,
             "instructor": "ava.mckay@csun.edu",
             "days": "A",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         },
         {
-            "class_number": "19283",
+            "class_number": "19321",
             "enrollment_cap": 15,
-            "enrollment_count": 6,
+            "enrollment_count": 5,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "rosalia.garciatorres@csun.edu",
             "days": "A",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         },
         {
-            "class_number": "19286",
+            "class_number": "19323",
+            "enrollment_cap": 18,
+            "enrollment_count": 22,
+            "waitlist_cap": 18,
+            "waitlist_count": 0,
+            "instructor": "hessam.ghamari@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "19324",
             "enrollment_cap": 15,
-            "enrollment_count": 12,
+            "enrollment_count": 4,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "uma.krishnan@csun.edu",
             "days": "A",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         },
         {
-            "class_number": "19287",
-            "enrollment_cap": 15,
+            "class_number": "19478",
+            "enrollment_cap": 18,
             "enrollment_count": 10,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "shirley.tmask@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "19344",
-            "enrollment_cap": 25,
-            "enrollment_count": 26,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "tatyana.zhukova@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    ],
-    "FCS 497": [
-        {
-            "class_number": "19641",
-            "enrollment_cap": 15,
-            "enrollment_count": 9,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "shirley.tmask@csun.edu",
-            "days": "M",
-            "location": "SQ241",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "FCS 535": [
-        {
-            "class_number": "19931",
-            "enrollment_cap": 10,
-            "enrollment_count": 7,
-            "waitlist_cap": 10,
+            "waitlist_cap": 18,
             "waitlist_count": 0,
             "instructor": "tracie.tung@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "FCS 505": [
+        {
+            "class_number": "19028",
+            "enrollment_cap": 12,
+            "enrollment_count": 14,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "roya.pouldar@csun.edu",
             "days": "T",
-            "location": "SQ210",
-            "start_time": "1530h",
-            "end_time": "1815h"
+            "location": "JR247",
+            "start_time": "1800h",
+            "end_time": "2045h"
         }
     ],
     "FCS 570": [
         {
-            "class_number": "19774",
+            "class_number": "19716",
             "enrollment_cap": 10,
             "enrollment_count": 6,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "karmen.ovsepyan@csun.edu",
             "days": "A",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         }
     ],
     "FCS 571": [
         {
-            "class_number": "19775",
+            "class_number": "19717",
             "enrollment_cap": 10,
             "enrollment_count": 6,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "karmen.ovsepyan@csun.edu",
-            "days": "W",
-            "location": "JD2524",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ],
     "FCS 572": [
         {
-            "class_number": "19776",
+            "class_number": "19718",
+            "enrollment_cap": 10,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "karmen.ovsepyan@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "FCS 573": [
+        {
+            "class_number": "19081",
             "enrollment_cap": 10,
             "enrollment_count": 6,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "annette.besnilian@csun.edu",
-            "days": "F",
-            "location": "SQ100",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "days": "MW",
+            "location": "SQ112",
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     ],
-    "FCS 573": [
+    "FCS 601": [
         {
-            "class_number": "18852",
+            "class_number": "20811",
             "enrollment_cap": 10,
-            "enrollment_count": 6,
+            "enrollment_count": 12,
             "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "karmen.ovsepyan@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
+            "waitlist_count": 1,
+            "instructor": "dena.herman@csun.edu",
+            "days": "M",
+            "location": "SQ102",
+            "start_time": "1800h",
+            "end_time": "2045h"
         }
     ],
-    "FCS 575": [
+    "FCS 606": [
         {
-            "class_number": "19642",
+            "class_number": "19011",
             "enrollment_cap": 10,
-            "enrollment_count": 8,
+            "enrollment_count": 13,
             "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "wei.cao@csun.edu",
-            "days": "T",
+            "waitlist_count": 1,
+            "instructor": "elizabeth.sussman@csun.edu",
+            "days": "M",
             "location": "SQ210",
-            "start_time": "1530h",
-            "end_time": "1815h"
+            "start_time": "1800h",
+            "end_time": "2045h"
         }
     ],
-    "FCS 609": [
+    "FCS 623": [
         {
-            "class_number": "20895",
-            "enrollment_cap": 10,
-            "enrollment_count": 10,
-            "waitlist_cap": 10,
-            "waitlist_count": 2,
-            "instructor": "nelida.duran@csun.edu",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "class_number": "19985",
+            "enrollment_cap": 12,
+            "enrollment_count": 8,
+            "waitlist_cap": 12,
+            "waitlist_count": 0,
+            "instructor": "yali.yang@csun.edu",
+            "days": "R",
+            "location": "UL001",
+            "start_time": "1800h",
+            "end_time": "2045h"
         }
     ],
-    "FCS 682": [
+    "FCS 681": [
         {
-            "class_number": "18841",
-            "enrollment_cap": 15,
+            "class_number": "18876",
+            "enrollment_cap": 20,
             "enrollment_count": 14,
-            "waitlist_cap": 15,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "sean.jefferson@csun.edu",
             "days": "W",
-            "location": "RE153",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "FCS 690J": [
-        {
-            "class_number": "19837",
-            "enrollment_cap": 10,
-            "enrollment_count": 1,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "sean.jefferson@csun.edu",
-            "days": "R",
-            "location": "SQ102",
+            "location": "RE151",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "FCS 694C": [
+    "FCS 694B": [
         {
-            "class_number": "19138",
-            "enrollment_cap": 4,
+            "class_number": "19168",
+            "enrollment_cap": 1,
             "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "yi.cai@csun.edu",
             "days": "A",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         }
     ],
     "FCS 696C": [
         {
-            "class_number": "18853",
+            "class_number": "18878",
             "enrollment_cap": 0,
             "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "yoko.mimura@csun.edu",
             "days": "A",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         },
         {
-            "class_number": "18854",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
+            "class_number": "18879",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 1,
+            "instructor": "yi.cai@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18880",
+            "enrollment_cap": 2,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18881",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "hira.cho@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18882",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "tracie.tung@csun.edu",
             "days": "A",
-            "location": "TBA",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18883",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         }
     ],
     "FCS 697C": [
         {
-            "class_number": "19211",
+            "class_number": "19212",
             "enrollment_cap": 2,
-            "enrollment_count": 5,
+            "enrollment_count": 3,
             "waitlist_cap": 10,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "yoko.mimura@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1689,76 +1811,28 @@
     ],
     "FCS 698C": [
         {
-            "class_number": "18859",
+            "class_number": "18886",
             "enrollment_cap": 1,
             "enrollment_count": 2,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "yoko.mimura@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "18860",
-            "enrollment_cap": 1,
-            "enrollment_count": 1,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "hira.cho@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "18861",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "tracie.tung@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "18862",
-            "enrollment_cap": 1,
-            "enrollment_count": 2,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "annette.besnilian@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "18863",
-            "enrollment_cap": 1,
-            "enrollment_count": 1,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "wei.cao@csun.edu",
+            "instructor": "yi.cai@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
             "end_time": "0000h"
         }
     ],
-    "FCS 699A": [
+    "FCS 699B": [
         {
-            "class_number": "21271",
+            "class_number": "21937",
             "enrollment_cap": 1,
-            "enrollment_count": 0,
+            "enrollment_count": 2,
             "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "yi.cai@csun.edu",
             "days": "A",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         }

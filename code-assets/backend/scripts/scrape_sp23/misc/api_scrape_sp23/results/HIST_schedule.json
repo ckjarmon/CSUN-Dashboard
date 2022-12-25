@@ -1,11 +1,77 @@
 {
+    "HIST 110": [
+        {
+            "class_number": "12223",
+            "enrollment_cap": 49,
+            "enrollment_count": 49,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "rachel.howes@csun.edu",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "12786",
+            "enrollment_cap": 49,
+            "enrollment_count": 46,
+            "waitlist_cap": 49,
+            "waitlist_count": 2,
+            "instructor": "kathleen.addison@csun.edu",
+            "days": "MW",
+            "location": "SH280",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
     "HIST 111": [
         {
-            "class_number": "12602",
+            "class_number": "12839",
             "enrollment_cap": 49,
-            "enrollment_count": 21,
-            "waitlist_cap": 30,
+            "enrollment_count": 46,
+            "waitlist_cap": 49,
             "waitlist_count": 0,
+            "instructor": "moyses.marcos@csun.edu",
+            "days": "TR",
+            "location": "JR118",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        }
+    ],
+    "HIST 150": [
+        {
+            "class_number": "12245",
+            "enrollment_cap": 49,
+            "enrollment_count": 46,
+            "waitlist_cap": 49,
+            "waitlist_count": 1,
+            "instructor": "kathleen.addison@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        {
+            "class_number": "12861",
+            "enrollment_cap": 49,
+            "enrollment_count": 44,
+            "waitlist_cap": 49,
+            "waitlist_count": 0,
+            "instructor": "kathleen.addison@csun.edu",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "HIST 151": [
+        {
+            "class_number": "12569",
+            "enrollment_cap": 49,
+            "enrollment_count": 47,
+            "waitlist_cap": 49,
+            "waitlist_count": 1,
             "instructor": "erik.goldner@csun.edu",
             "days": "TR",
             "location": "SH186",
@@ -13,10 +79,10 @@
             "end_time": "1215h"
         },
         {
-            "class_number": "12603",
+            "class_number": "13012",
             "enrollment_cap": 49,
-            "enrollment_count": 14,
-            "waitlist_cap": 30,
+            "enrollment_count": 48,
+            "waitlist_cap": 49,
             "waitlist_count": 0,
             "instructor": "erik.goldner@csun.edu",
             "days": "TR",
@@ -27,10 +93,10 @@
     ],
     "HIST 161": [
         {
-            "class_number": "12209",
+            "class_number": "12775",
             "enrollment_cap": 49,
-            "enrollment_count": 50,
-            "waitlist_cap": 30,
+            "enrollment_count": 52,
+            "waitlist_cap": 49,
             "waitlist_count": 4,
             "instructor": "patricia.juarez-dappe@csun.edu",
             "days": "T",
@@ -39,381 +105,593 @@
             "end_time": "1215h"
         }
     ],
-    "HIST 185": [
+    "HIST 192": [
         {
-            "class_number": "12795",
+            "class_number": "12880",
             "enrollment_cap": 49,
-            "enrollment_count": 12,
-            "waitlist_cap": 30,
+            "enrollment_count": 50,
+            "waitlist_cap": 49,
+            "waitlist_count": 3,
+            "instructor": "richard.horowitz@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "13020",
+            "enrollment_cap": 49,
+            "enrollment_count": 48,
+            "waitlist_cap": 49,
+            "waitlist_count": 1,
+            "instructor": "richard.horowitz@csun.edu",
+            "days": "TR",
+            "location": "SH186",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
+    "HIST 210": [
+        {
+            "class_number": "13071",
+            "enrollment_cap": 20,
+            "enrollment_count": 13,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "rachel.howes@csun.edu",
+            "instructor": "elaine.goodfriend@csun.edu",
             "days": "MW",
-            "location": "SH286",
+            "location": "SH160",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
     "HIST 270": [
         {
-            "class_number": "12746",
+            "class_number": "12225",
             "enrollment_cap": 155,
-            "enrollment_count": 155,
-            "waitlist_cap": 30,
-            "waitlist_count": 12,
+            "enrollment_count": 156,
+            "waitlist_cap": 155,
+            "waitlist_count": 2,
             "instructor": "johnpaul.nuno@csun.edu",
-            "days": "MW",
+            "days": "TR",
             "location": "ONLINE",
             "start_time": "1230h",
             "end_time": "1345h"
+        },
+        {
+            "class_number": "12459",
+            "enrollment_cap": 155,
+            "enrollment_count": 157,
+            "waitlist_cap": 155,
+            "waitlist_count": 0,
+            "instructor": "michael.ward@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "12791",
+            "enrollment_cap": 138,
+            "enrollment_count": 133,
+            "waitlist_cap": 138,
+            "waitlist_count": 0,
+            "instructor": "tristan.traviolia@csun.edu",
+            "days": "F",
+            "location": "UL025",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "13087",
+            "enrollment_cap": 49,
+            "enrollment_count": 50,
+            "waitlist_cap": 49,
+            "waitlist_count": 2,
+            "instructor": "christopher.blakley@csun.edu",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     ],
     "HIST 271": [
         {
-            "class_number": "12443",
-            "enrollment_cap": 130,
-            "enrollment_count": 130,
-            "waitlist_cap": 130,
-            "waitlist_count": 29,
-            "instructor": "jessica.kim@csun.edu",
+            "class_number": "12478",
+            "enrollment_cap": 138,
+            "enrollment_count": 137,
+            "waitlist_cap": 138,
+            "waitlist_count": 1,
+            "instructor": "henry.maar@csun.edu",
             "days": "MW",
-            "location": "ONLINE",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "location": "UL025",
+            "start_time": "1100h",
+            "end_time": "1215h"
         },
         {
-            "class_number": "12526",
+            "class_number": "12492",
+            "enrollment_cap": 49,
+            "enrollment_count": 49,
+            "waitlist_cap": 49,
+            "waitlist_count": 3,
+            "instructor": "jessica.kim@csun.edu",
+            "days": "TR",
+            "location": "SH342",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "12665",
             "enrollment_cap": 155,
-            "enrollment_count": 104,
-            "waitlist_cap": 30,
+            "enrollment_count": 155,
+            "waitlist_cap": 155,
             "waitlist_count": 0,
             "instructor": "tom.devine@csun.edu",
-            "days": "TR",
+            "days": "MW",
             "location": "CR5122",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        {
+            "class_number": "12792",
+            "enrollment_cap": 74,
+            "enrollment_count": 72,
+            "waitlist_cap": 74,
+            "waitlist_count": 1,
+            "instructor": "christopher.blakley@csun.edu",
+            "days": "TR",
+            "location": "SH309",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     ],
     "HIST 301": [
         {
-            "class_number": "12430",
+            "class_number": "12146",
             "enrollment_cap": 20,
-            "enrollment_count": 4,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "susan.fitzpatrick-behrens@csun.edu",
-            "days": "F",
-            "location": "SH380",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        },
-        {
-            "class_number": "12800",
-            "enrollment_cap": 20,
-            "enrollment_count": 16,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "jeffrey.kaja@csun.edu",
-            "days": "T",
-            "location": "SH184",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        {
-            "class_number": "20733",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 2,
             "instructor": "miriam.neirick@csun.edu",
             "days": "TR",
+            "location": "SH268",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        {
+            "class_number": "12226",
+            "enrollment_cap": 20,
+            "enrollment_count": 23,
+            "waitlist_cap": 20,
+            "waitlist_count": 2,
+            "instructor": "donal.osullivan@csun.edu",
+            "days": "MW",
             "location": "SH279",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "12476",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "jeffrey.kaja@csun.edu",
+            "days": "T",
+            "location": "SH270",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
     "HIST 303": [
         {
-            "class_number": "12499",
+            "class_number": "12199",
             "enrollment_cap": 49,
-            "enrollment_count": 15,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "enrollment_count": 49,
+            "waitlist_cap": 49,
+            "waitlist_count": 1,
             "instructor": "clementine.oliver@csun.edu",
             "days": "MW",
-            "location": "SH186",
+            "location": "SH184",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
-    "HIST 304": [
+    "HIST 340": [
         {
-            "class_number": "20734",
-            "enrollment_cap": 49,
-            "enrollment_count": 19,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "donal.osullivan@csun.edu",
-            "days": "MW",
-            "location": "SH265",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    ],
-    "HIST 341": [
-        {
-            "class_number": "12907",
-            "enrollment_cap": 49,
-            "enrollment_count": 17,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "donal.osullivan@csun.edu",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    ],
-    "HIST 342": [
-        {
-            "class_number": "12542",
-            "enrollment_cap": 49,
-            "enrollment_count": 25,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "richard.horowitz@csun.edu",
-            "days": "TR",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        {
-            "class_number": "12605",
-            "enrollment_cap": 49,
-            "enrollment_count": 47,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "richard.horowitz@csun.edu",
-            "days": "W",
-            "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "HIST 345": [
-        {
-            "class_number": "12978",
-            "enrollment_cap": 40,
+            "class_number": "20752",
+            "enrollment_cap": 30,
             "enrollment_count": 21,
             "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "susan.fitzpatrick-behrens@csun.edu",
+            "instructor": "erik.goldner@csun.edu",
             "days": "R",
-            "location": "SH186",
+            "location": "SH279",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
-    "HIST 370HON": [
+    "HIST 350": [
         {
-            "class_number": "12759",
-            "enrollment_cap": 49,
+            "class_number": "12683",
+            "enrollment_cap": 40,
+            "enrollment_count": 35,
+            "waitlist_cap": 40,
+            "waitlist_count": 1,
+            "instructor": "miriam.neirick@csun.edu",
+            "days": "F",
+            "location": "SH279",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    ],
+    "HIST 366": [
+        {
+            "class_number": "12773",
+            "enrollment_cap": 42,
             "enrollment_count": 19,
-            "waitlist_cap": 30,
+            "waitlist_cap": 42,
             "waitlist_count": 0,
-            "instructor": "jeffrey.kaja@csun.edu",
-            "days": "TR",
-            "location": "SH184",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    ],
-    "HIST 380": [
-        {
-            "class_number": "13060",
-            "enrollment_cap": 49,
-            "enrollment_count": 22,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "josh.sides@csun.edu",
-            "days": "TR",
-            "location": "SH265",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    ],
-    "HIST 420": [
-        {
-            "class_number": "20737",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "clementine.oliver@csun.edu",
+            "instructor": "susan.fitzpatrick-behrens@csun.edu",
             "days": "MW",
-            "location": "SH106",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "location": "SH268",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     ],
-    "HIST 426": [
+    "HIST 369": [
         {
-            "class_number": "13106",
-            "enrollment_cap": 30,
-            "enrollment_count": 10,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "rachel.howes@csun.edu",
-            "days": "W",
-            "location": "SH182",
+            "class_number": "12793",
+            "enrollment_cap": 49,
+            "enrollment_count": 47,
+            "waitlist_cap": 49,
+            "waitlist_count": 6,
+            "instructor": "johnpaul.nuno@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "HIST 441": [
+    "HIST 370": [
         {
-            "class_number": "12798",
-            "enrollment_cap": 30,
-            "enrollment_count": 28,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "donal.osullivan@csun.edu",
-            "days": "MW",
-            "location": "SH102",
+            "class_number": "12711",
+            "enrollment_cap": 49,
+            "enrollment_count": 49,
+            "waitlist_cap": 49,
+            "waitlist_count": 22,
+            "instructor": "jeffrey.kaja@csun.edu",
+            "days": "TR",
+            "location": "SH386",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
-    "HIST 450": [
+    "HIST 370HON": [
         {
-            "class_number": "12709",
+            "class_number": "12876",
+            "enrollment_cap": 40,
+            "enrollment_count": 32,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "jeffrey.kaja@csun.edu",
+            "days": "TR",
+            "location": "SH268",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "HIST 371": [
+        {
+            "class_number": "12160",
+            "enrollment_cap": 42,
+            "enrollment_count": 41,
+            "waitlist_cap": 42,
+            "waitlist_count": 0,
+            "instructor": "kathleen.addison@csun.edu",
+            "days": "S",
+            "location": "SH184",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "12161",
+            "enrollment_cap": 48,
+            "enrollment_count": 49,
+            "waitlist_cap": 49,
+            "waitlist_count": 1,
+            "instructor": "neil.thompson@csun.edu",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    ],
+    "HIST 380": [
+        {
+            "class_number": "13132",
+            "enrollment_cap": 49,
+            "enrollment_count": 50,
+            "waitlist_cap": 49,
+            "waitlist_count": 1,
+            "instructor": "josh.sides@csun.edu",
+            "days": "TR",
+            "location": "SH184",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "HIST 410": [
+        {
+            "class_number": "12147",
             "enrollment_cap": 30,
-            "enrollment_count": 11,
+            "enrollment_count": 27,
             "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "miriam.neirick@csun.edu",
+            "instructor": "moyses.marcos@csun.edu",
             "days": "TR",
             "location": "SH279",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     ],
-    "HIST 456": [
+    "HIST 417": [
         {
-            "class_number": "12983",
+            "class_number": "12607",
             "enrollment_cap": 30,
-            "enrollment_count": 19,
+            "enrollment_count": 36,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "erik.goldner@csun.edu",
-            "days": "R",
-            "location": "SH265",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "HIST 471": [
-        {
-            "class_number": "12987",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
-            "waitlist_count": 2,
-            "instructor": "jeffrey.kaja@csun.edu",
-            "days": "R",
-            "location": "SH186",
+            "waitlist_count": 9,
+            "instructor": "brian.kovalesky@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
+        },
+        {
+            "class_number": "13136",
+            "enrollment_cap": 30,
+            "enrollment_count": 26,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "michael.ward@csun.edu",
+            "days": "F",
+            "location": "SH279",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "20753",
+            "enrollment_cap": 30,
+            "enrollment_count": 26,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "brian.kovalesky@csun.edu",
+            "days": "S",
+            "location": "SH268",
+            "start_time": "0800h",
+            "end_time": "1045h"
         }
     ],
-    "HIST 474A": [
+    "HIST 425": [
         {
-            "class_number": "21252",
+            "class_number": "12762",
             "enrollment_cap": 30,
-            "enrollment_count": 14,
-            "waitlist_cap": 0,
+            "enrollment_count": 11,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "tom.devine@csun.edu",
-            "days": "TR",
-            "location": "SH267",
+            "instructor": "rachel.howes@csun.edu",
+            "days": "MW",
+            "location": "SH276",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
-    "HIST 485C": [
+    "HIST 429": [
         {
-            "class_number": "13250",
+            "class_number": "13215",
             "enrollment_cap": 30,
-            "enrollment_count": 18,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "patricia.juarez-dappe@csun.edu",
+            "days": "T",
+            "location": "SH184",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "HIST 444": [
+        {
+            "class_number": "12868",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "clementine.oliver@csun.edu",
+            "days": "MW",
+            "location": "SH279",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
+    "HIST 450": [
+        {
+            "class_number": "12154",
+            "enrollment_cap": 30,
+            "enrollment_count": 28,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "miriam.neirick@csun.edu",
-            "days": "F",
-            "location": "SH225",
-            "start_time": "0930h",
+            "days": "TR",
+            "location": "SH279",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "HIST 457": [
+        {
+            "class_number": "12867",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "donal.osullivan@csun.edu",
+            "days": "MW",
+            "location": "SH268",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
+    "HIST 463": [
+        {
+            "class_number": "12878",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "susan.fitzpatrick-behrens@csun.edu",
+            "days": "M",
+            "location": "SH184",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "HIST 470": [
+        {
+            "class_number": "12690",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "jeffrey.kaja@csun.edu",
+            "days": "R",
+            "location": "SH184",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "HIST 472": [
+        {
+            "class_number": "12765",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "tristan.traviolia@csun.edu",
+            "days": "MW",
+            "location": "SH268",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "HIST 479B": [
+        {
+            "class_number": "13236",
+            "enrollment_cap": 30,
+            "enrollment_count": 15,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "tristan.traviolia@csun.edu",
+            "days": "MW",
+            "location": "SH279",
+            "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
-    "HIST 491A": [
+    "HIST 488": [
         {
-            "class_number": "12832",
+            "class_number": "12734",
             "enrollment_cap": 30,
-            "enrollment_count": 12,
+            "enrollment_count": 29,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "michael.ward@csun.edu",
+            "days": "TR",
+            "location": "SH268",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "HIST 490": [
+        {
+            "class_number": "12574",
+            "enrollment_cap": 30,
+            "enrollment_count": 24,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "richard.horowitz@csun.edu",
             "days": "TR",
-            "location": "SH276",
+            "location": "SH279",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
     "HIST 494SOC": [
         {
-            "class_number": "12081",
+            "class_number": "12097",
             "enrollment_cap": 15,
-            "enrollment_count": 5,
+            "enrollment_count": 17,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "jessica.kim@csun.edu",
             "days": "A",
-            "location": "ONLINE",
+            "location": "TBA",
             "start_time": "0000h",
             "end_time": "0000h"
         }
     ],
     "HIST 497A": [
         {
-            "class_number": "12654",
+            "class_number": "12692",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 8,
+            "instructor": "patricia.juarez-dappe@csun.edu",
+            "days": "TR",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
+    "HIST 497B": [
+        {
+            "class_number": "12733",
             "enrollment_cap": 15,
             "enrollment_count": 15,
             "waitlist_cap": 15,
-            "waitlist_count": 3,
-            "instructor": "clementine.oliver@csun.edu",
+            "waitlist_count": 1,
+            "instructor": "richard.horowitz@csun.edu",
+            "days": "R",
+            "location": "SH288",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "HIST 497C": [
+        {
+            "class_number": "12735",
+            "enrollment_cap": 15,
+            "enrollment_count": 14,
+            "waitlist_cap": 15,
+            "waitlist_count": 2,
+            "instructor": "tristan.traviolia@csun.edu",
             "days": "M",
             "location": "SH288",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "HIST 497D": [
         {
-            "class_number": "13084",
+            "class_number": "13024",
             "enrollment_cap": 15,
-            "enrollment_count": 20,
+            "enrollment_count": 11,
             "waitlist_cap": 15,
-            "waitlist_count": 5,
-            "instructor": "patricia.juarez-dappe@csun.edu",
-            "days": "T",
-            "location": "SH288",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        {
-            "class_number": "20754",
-            "enrollment_cap": 15,
-            "enrollment_count": 15,
-            "waitlist_cap": 15,
-            "waitlist_count": 3,
-            "instructor": "josh.sides@csun.edu",
-            "days": "R",
+            "waitlist_count": 0,
+            "instructor": "donal.osullivan@csun.edu",
+            "days": "W",
             "location": "SH288",
             "start_time": "1600h",
             "end_time": "1845h"
@@ -421,140 +699,178 @@
     ],
     "HIST 498C": [
         {
-            "class_number": "12606",
+            "class_number": "12222",
             "enrollment_cap": 15,
-            "enrollment_count": 13,
+            "enrollment_count": 14,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "rachel.howes@csun.edu",
-            "days": "MW",
-            "location": "SH182",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "waitlist_count": 1,
+            "instructor": "susan.fitzpatrick-behrens@csun.edu",
+            "days": "F",
+            "location": "SH288",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         {
-            "class_number": "12743",
+            "class_number": "12523",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "donal.osullivan@csun.edu",
+            "days": "M",
+            "location": "SH279",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "12727",
+            "enrollment_cap": 15,
+            "enrollment_count": 21,
             "waitlist_cap": 15,
             "waitlist_count": 2,
-            "instructor": "jessica.kim@csun.edu",
+            "instructor": "miriam.neirick@csun.edu",
+            "days": "T",
+            "location": "SH288",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "12864",
+            "enrollment_cap": 15,
+            "enrollment_count": 14,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "natale.zappia@csun.edu",
             "days": "W",
-            "location": "SH184",
+            "location": "SH266",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
-    "HIST 563": [
+    "HIST 510": [
         {
-            "class_number": "20746",
+            "class_number": "13102",
             "enrollment_cap": 15,
-            "enrollment_count": 12,
+            "enrollment_count": 10,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "susan.fitzpatrick-behrens@csun.edu",
+            "instructor": "moyses.marcos@csun.edu",
             "days": "R",
-            "location": "SH288",
+            "location": "SH302",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "HIST 570": [
+    "HIST 548": [
         {
-            "class_number": "12930",
+            "class_number": "20749",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 16,
             "waitlist_cap": 15,
-            "waitlist_count": 1,
-            "instructor": "jeffrey.kaja@csun.edu",
-            "days": "W",
-            "location": "SH288",
+            "waitlist_count": 2,
+            "instructor": "jessica.kim@csun.edu",
+            "days": "T",
+            "location": "SH268",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
-    "HIST 596AN": [
+    "HIST 574": [
         {
-            "class_number": "20747",
+            "class_number": "13018",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 3,
+            "instructor": "tom.devine@csun.edu",
+            "days": "W",
+            "location": "SH279",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "HIST 594": [
+        {
+            "class_number": "12883",
             "enrollment_cap": 15,
             "enrollment_count": 8,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "johnpaul.nuno@csun.edu",
-            "days": "M",
-            "location": "SH106",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "jessica.kim@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ],
-    "HIST 596EG": [
+    "HIST 596WR": [
         {
-            "class_number": "13108",
+            "class_number": "20731",
             "enrollment_cap": 15,
-            "enrollment_count": 5,
+            "enrollment_count": 14,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "erik.goldner@csun.edu",
-            "days": "T",
-            "location": "SH384",
+            "waitlist_count": 1,
+            "instructor": "clementine.oliver@csun.edu",
+            "days": "M",
+            "location": "SH288",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
     "HIST 601": [
         {
-            "class_number": "12608",
+            "class_number": "12207",
             "enrollment_cap": 15,
-            "enrollment_count": 2,
+            "enrollment_count": 14,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "richard.horowitz@csun.edu",
-            "days": "T",
-            "location": "SH265",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "waitlist_count": 1,
+            "instructor": "josh.sides@csun.edu",
+            "days": "R",
+            "location": "SH288",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
-    "HIST 641": [
+    "HIST 630": [
         {
-            "class_number": "12928",
+            "class_number": "13013",
             "enrollment_cap": 15,
-            "enrollment_count": 13,
+            "enrollment_count": 10,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "donal.osullivan@csun.edu",
+            "instructor": "rachel.howes@csun.edu",
             "days": "W",
             "location": "SH288",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "HIST 692C": [
+    "HIST 640": [
         {
-            "class_number": "20901",
+            "class_number": "20750",
             "enrollment_cap": 15,
-            "enrollment_count": 4,
+            "enrollment_count": 15,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "natale.zappia@csun.edu",
-            "days": "M",
-            "location": "SH184",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "HIST 698D": [
-        {
-            "class_number": "20784",
-            "enrollment_cap": 15,
-            "enrollment_count": 17,
-            "waitlist_cap": 15,
-            "waitlist_count": 4,
-            "instructor": "miriam.neirick@csun.edu",
+            "waitlist_count": 1,
+            "instructor": "erik.goldner@csun.edu",
             "days": "T",
-            "location": "SH266",
+            "location": "SH279",
             "start_time": "1900h",
             "end_time": "2145h"
+        }
+    ],
+    "HIST 694": [
+        {
+            "class_number": "12291",
+            "enrollment_cap": 15,
+            "enrollment_count": 10,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "susan.fitzpatrick-behrens@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ]
 }

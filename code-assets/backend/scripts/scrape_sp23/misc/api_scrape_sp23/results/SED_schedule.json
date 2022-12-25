@@ -1,75 +1,135 @@
 {
     "SED 511": [
         {
-            "class_number": "15481",
+            "class_number": "15499",
             "enrollment_cap": 25,
-            "enrollment_count": 12,
+            "enrollment_count": 26,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
+            "waitlist_count": 6,
             "instructor": "tae.chang@csun.edu",
-            "days": "T",
-            "location": "ED2101",
+            "days": "M",
+            "location": "ED2121B",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "15517",
+            "enrollment_cap": 27,
+            "enrollment_count": 26,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "tae.chang@csun.edu",
+            "days": "M",
+            "location": "ED2121B",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "15527",
-            "enrollment_cap": 25,
-            "enrollment_count": 13,
+            "class_number": "15519",
+            "enrollment_cap": 26,
+            "enrollment_count": 27,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "mark.ryan@csun.edu",
-            "days": "T",
-            "location": "ED2101",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "SED 514": [
-        {
-            "class_number": "16101",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 15,
-            "waitlist_count": 6,
-            "instructor": "christopher.mclemore@csun.edu",
+            "waitlist_count": 2,
+            "instructor": "alison.hunsaker@csun.edu",
             "days": "T",
             "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "16102",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
+            "class_number": "15699",
+            "enrollment_cap": 27,
+            "enrollment_count": 31,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "tae.chang@csun.edu",
-            "days": "W",
+            "waitlist_count": 1,
+            "instructor": "mark.ryan@csun.edu",
+            "days": "T",
+            "location": "ED1127",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "16220",
+            "enrollment_cap": 27,
+            "enrollment_count": 25,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "alen.harootunian@csun.edu",
+            "days": "T",
+            "location": "ED1126",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16221",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 4,
+            "instructor": "alen.harootunian@csun.edu",
+            "days": "R",
+            "location": "BB1236",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "SED 514": [
+        {
+            "class_number": "15500",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "norm.herr@csun.edu",
+            "days": "T",
             "location": "ED2101",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         {
-            "class_number": "16103",
+            "class_number": "15664",
+            "enrollment_cap": 25,
+            "enrollment_count": 27,
+            "waitlist_cap": 15,
+            "waitlist_count": 5,
+            "instructor": "christopher.mclemore@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16069",
             "enrollment_cap": 20,
-            "enrollment_count": 13,
+            "enrollment_count": 24,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "norm.herr@csun.edu",
-            "days": "T",
-            "location": "ED2103",
+            "instructor": "christopher.mclemore@csun.edu",
+            "days": "M",
+            "location": "ED2115B",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         {
-            "class_number": "16104",
-            "enrollment_cap": 20,
-            "enrollment_count": 12,
+            "class_number": "16107",
+            "enrollment_cap": 5,
+            "enrollment_count": 27,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
+            "waitlist_count": 4,
             "instructor": "tae.chang@csun.edu",
-            "days": "W",
+            "days": "T",
+            "location": "ED2101",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "20501",
+            "enrollment_cap": 20,
+            "enrollment_count": 25,
+            "waitlist_cap": 15,
+            "waitlist_count": 2,
+            "instructor": "christopher.mclemore@csun.edu",
+            "days": "M",
             "location": "ED2101",
             "start_time": "1900h",
             "end_time": "2145h"
@@ -77,157 +137,229 @@
     ],
     "SED 521": [
         {
-            "class_number": "15484",
+            "class_number": "15521",
             "enrollment_cap": 25,
             "enrollment_count": 25,
             "waitlist_cap": 15,
-            "waitlist_count": 5,
+            "waitlist_count": 1,
             "instructor": "ronald.klemp@csun.edu",
             "days": "M",
-            "location": "SH310",
+            "location": "ED1126",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         {
-            "class_number": "15493",
-            "enrollment_cap": 24,
-            "enrollment_count": 25,
+            "class_number": "15522",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
             "waitlist_cap": 15,
-            "waitlist_count": 3,
+            "waitlist_count": 1,
             "instructor": "ronald.klemp@csun.edu",
             "days": "M",
-            "location": "SH310",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "15494",
-            "enrollment_cap": 25,
-            "enrollment_count": 26,
-            "waitlist_cap": 15,
-            "waitlist_count": 5,
-            "instructor": "ronald.klemp@csun.edu",
-            "days": "W",
             "location": "ED1126",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "15619",
-            "enrollment_cap": 22,
-            "enrollment_count": 10,
+            "class_number": "15652",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 15,
+            "waitlist_count": 7,
+            "instructor": "ronald.klemp@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "SED 525A": [
+        {
+            "class_number": "15700",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "michael.alvarez@csun.edu",
-            "days": "R",
-            "location": "ED1127",
+            "instructor": "penelope.venola@csun.edu",
+            "days": "W",
+            "location": "BB1234",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
+    "SED 525BL": [
+        {
+            "class_number": "15942",
+            "enrollment_cap": 20,
+            "enrollment_count": 11,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "marlene.batista@csun.edu",
+            "days": "M",
+            "location": "BB1125",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
     "SED 525EN": [
         {
-            "class_number": "15487",
+            "class_number": "15510",
             "enrollment_cap": 25,
-            "enrollment_count": 19,
+            "enrollment_count": 23,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "matthew.brown@csun.edu",
+            "days": "W",
+            "location": "BB1204",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "16218",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "traci.dennis@csun.edu",
+            "instructor": "jenn.wolfe@csun.edu",
             "days": "W",
-            "location": "BH314",
+            "location": "EU130",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "SED 525HE": [
+        {
+            "class_number": "15513",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "catherine.davis@csun.edu",
+            "days": "R",
+            "location": "ED1129",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "SED 525MA": [
         {
-            "class_number": "15530",
+            "class_number": "15525",
             "enrollment_cap": 25,
-            "enrollment_count": 9,
+            "enrollment_count": 25,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "ivan.cheng@csun.edu",
             "days": "W",
             "location": "ED2117",
-            "start_time": "1700h",
-            "end_time": "1845h"
+            "start_time": "1600h",
+            "end_time": "1740h"
         }
     ],
     "SED 525MAL": [
         {
-            "class_number": "15531",
+            "class_number": "15526",
             "enrollment_cap": 25,
-            "enrollment_count": 9,
+            "enrollment_count": 25,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "ivan.cheng@csun.edu",
             "days": "W",
             "location": "ED2117",
-            "start_time": "1900h",
-            "end_time": "2045h"
+            "start_time": "1800h",
+            "end_time": "1940h"
+        }
+    ],
+    "SED 525MU": [
+        {
+            "class_number": "15514",
+            "enrollment_cap": 20,
+            "enrollment_count": 26,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "linda.mouradian@csun.edu",
+            "days": "W",
+            "location": "CY110",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "SED 525PE": [
+        {
+            "class_number": "15758",
+            "enrollment_cap": 25,
+            "enrollment_count": 23,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "mark.ryan@csun.edu",
+            "days": "W",
+            "location": "RE155",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
     "SED 525S": [
         {
-            "class_number": "15490",
+            "class_number": "15515",
             "enrollment_cap": 25,
-            "enrollment_count": 7,
+            "enrollment_count": 22,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "norm.herr@csun.edu",
             "days": "W",
             "location": "ED2103",
-            "start_time": "1700h",
-            "end_time": "1845h"
+            "start_time": "1600h",
+            "end_time": "1740h"
         }
     ],
     "SED 525SL": [
         {
-            "class_number": "15491",
+            "class_number": "15653",
             "enrollment_cap": 25,
-            "enrollment_count": 7,
+            "enrollment_count": 22,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "norm.herr@csun.edu",
             "days": "W",
             "location": "ED2103",
-            "start_time": "1900h",
-            "end_time": "2045h"
+            "start_time": "1800h",
+            "end_time": "1950h"
         }
     ],
     "SED 525SS": [
         {
-            "class_number": "15573",
+            "class_number": "15527",
             "enrollment_cap": 25,
-            "enrollment_count": 12,
+            "enrollment_count": 26,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "tomer.kleinman@csun.edu",
             "days": "W",
-            "location": "SH310",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "location": "BB1232",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "SED 525WL": [
+        {
+            "class_number": "15512",
+            "enrollment_cap": 25,
+            "enrollment_count": 14,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "fataneh.tabatabai@csun.edu",
+            "days": "W",
+            "location": "BB1230",
+            "start_time": "1600h",
+            "end_time": "1850h"
         }
     ],
     "SED 529": [
         {
-            "class_number": "15819",
-            "enrollment_cap": 18,
-            "enrollment_count": 23,
+            "class_number": "15921",
+            "enrollment_cap": 25,
+            "enrollment_count": 27,
             "waitlist_cap": 15,
-            "waitlist_count": 5,
-            "instructor": "monica.g.garcia@csun.edu",
-            "days": "M",
-            "location": "ED1126",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        {
-            "class_number": "15820",
-            "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 15,
-            "waitlist_count": 8,
+            "waitlist_count": 1,
             "instructor": "monica.g.garcia@csun.edu",
             "days": "T",
             "location": "ED3117",
@@ -235,11 +367,11 @@
             "end_time": "1845h"
         },
         {
-            "class_number": "15821",
-            "enrollment_cap": 20,
-            "enrollment_count": 21,
+            "class_number": "15922",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
             "waitlist_cap": 15,
-            "waitlist_count": 8,
+            "waitlist_count": 1,
             "instructor": "monica.g.garcia@csun.edu",
             "days": "T",
             "location": "ED3117",
@@ -247,26 +379,26 @@
             "end_time": "2145h"
         },
         {
-            "class_number": "15893",
-            "enrollment_cap": 25,
-            "enrollment_count": 23,
+            "class_number": "15923",
+            "enrollment_cap": 24,
+            "enrollment_count": 25,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "michael.alvarez@csun.edu",
+            "waitlist_count": 9,
+            "instructor": "monica.g.garcia@csun.edu",
             "days": "M",
             "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "SED 554": [
         {
-            "class_number": "15601",
-            "enrollment_cap": 100,
-            "enrollment_count": 3,
-            "waitlist_cap": 25,
+            "class_number": "15701",
+            "enrollment_cap": 125,
+            "enrollment_count": 139,
+            "waitlist_cap": 50,
             "waitlist_count": 0,
-            "instructor": "julie.gainsburg@csun.edu",
+            "instructor": "delora.mitchell@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -275,12 +407,12 @@
     ],
     "SED 555": [
         {
-            "class_number": "15666",
-            "enrollment_cap": 150,
-            "enrollment_count": 29,
+            "class_number": "15821",
+            "enrollment_cap": 100,
+            "enrollment_count": 67,
             "waitlist_cap": 25,
             "waitlist_count": 0,
-            "instructor": "julie.gainsburg@csun.edu",
+            "instructor": "delora.mitchell@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -289,10 +421,52 @@
     ],
     "SED 593": [
         {
-            "class_number": "15602",
+            "class_number": "15702",
             "enrollment_cap": 15,
-            "enrollment_count": 8,
+            "enrollment_count": 37,
             "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "delora.mitchell@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "SED 599A": [
+        {
+            "class_number": "15932",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "waitlist_cap": 1,
+            "waitlist_count": 0,
+            "instructor": "julie.gainsburg@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "SED 599B": [
+        {
+            "class_number": "15933",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "waitlist_cap": 1,
+            "waitlist_count": 0,
+            "instructor": "julie.gainsburg@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "SED 599C": [
+        {
+            "class_number": "15934",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "waitlist_cap": 1,
             "waitlist_count": 0,
             "instructor": "julie.gainsburg@csun.edu",
             "days": "A",
@@ -303,78 +477,38 @@
     ],
     "SED 600": [
         {
-            "class_number": "15574",
-            "enrollment_cap": 15,
-            "enrollment_count": 7,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "brian.foley@csun.edu",
-            "days": "T",
-            "location": "ED2121B",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        {
-            "class_number": "15599",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "waitlist_cap": 15,
+            "class_number": "15669",
+            "enrollment_cap": 25,
+            "enrollment_count": 11,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "michael.alvarez@csun.edu",
-            "days": "R",
+            "days": "T",
             "location": "ED1126",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "SED 610CI": [
+        {
+            "class_number": "16200",
+            "enrollment_cap": 25,
+            "enrollment_count": 15,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "paul.payne@csun.edu",
+            "days": "T",
+            "location": "ED1117",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "SED 610ET": [
+    "SED 616": [
         {
-            "class_number": "20796",
-            "enrollment_cap": 15,
-            "enrollment_count": 7,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "tae.chang@csun.edu",
-            "days": "T",
-            "location": "ED2117",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "SED 633": [
-        {
-            "class_number": "15648",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "jenn.wolfe@csun.edu",
-            "days": "R",
-            "location": "ED1126",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "SED 651": [
-        {
-            "class_number": "16110",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "steven.rivas@csun.edu",
-            "days": "M",
-            "location": "SH371",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "SED 656": [
-        {
-            "class_number": "16092",
-            "enrollment_cap": 25,
-            "enrollment_count": 7,
-            "waitlist_cap": 25,
+            "class_number": "16198",
+            "enrollment_cap": 20,
+            "enrollment_count": 25,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "norm.herr@csun.edu",
             "days": "T",
@@ -383,44 +517,144 @@
             "end_time": "2145h"
         }
     ],
-    "SED 690CI": [
+    "SED 617": [
         {
-            "class_number": "16114",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "waitlist_cap": 25,
+            "class_number": "15895",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "paul.payne@csun.edu",
-            "days": "T",
-            "location": "ED1126",
+            "instructor": "matthew.brown@csun.edu",
+            "days": "R",
+            "location": "ED2117",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "SED 697": [
+    "SED 625E": [
         {
-            "class_number": "15668",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "waitlist_cap": 25,
+            "class_number": "15896",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "mira.pak@csun.edu",
-            "days": "T",
-            "location": "ED1126",
+            "instructor": "jenn.wolfe@csun.edu",
+            "days": "R",
+            "location": "BB1238",
             "start_time": "1600h",
             "end_time": "1845h"
-        },
+        }
+    ],
+    "SED 625SC": [
         {
-            "class_number": "15669",
-            "enrollment_cap": 25,
-            "enrollment_count": 7,
-            "waitlist_cap": 25,
+            "class_number": "16004",
+            "enrollment_cap": 15,
+            "enrollment_count": 26,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "brian.foley@csun.edu",
+            "days": "T",
+            "location": "ED2103",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "SED 641": [
+        {
+            "class_number": "16211",
+            "enrollment_cap": 20,
+            "enrollment_count": 11,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "david.l.moguel@csun.edu",
+            "days": "M",
+            "location": "BB1232",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "SED 647": [
+        {
+            "class_number": "20505",
+            "enrollment_cap": 15,
+            "enrollment_count": 7,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "allison.chalco@csun.edu",
+            "days": "M",
+            "location": "BH313",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "SED 671": [
+        {
+            "class_number": "16007",
+            "enrollment_cap": 15,
+            "enrollment_count": 20,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "tae.chang@csun.edu",
+            "days": "T",
+            "location": "ED2121B",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "SED 690ET": [
+        {
+            "class_number": "20504",
+            "enrollment_cap": 15,
+            "enrollment_count": 19,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "scott.cooper@csun.edu",
             "days": "T",
             "location": "ED2121B",
             "start_time": "1900h",
             "end_time": "2145h"
+        }
+    ],
+    "SED 699A": [
+        {
+            "class_number": "15935",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "waitlist_cap": 1,
+            "waitlist_count": 0,
+            "instructor": "julie.gainsburg@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "SED 699B": [
+        {
+            "class_number": "15936",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "waitlist_cap": 1,
+            "waitlist_count": 0,
+            "instructor": "julie.gainsburg@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "SED 699C": [
+        {
+            "class_number": "15937",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "waitlist_cap": 1,
+            "waitlist_count": 0,
+            "instructor": "julie.gainsburg@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ]
 }

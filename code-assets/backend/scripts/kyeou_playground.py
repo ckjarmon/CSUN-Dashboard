@@ -211,30 +211,7 @@ def four():
                     f.write("\n")
 
 
-"""
-To get operator stack for current hierarchy
-    print symbol stack
-    if || or && operator and stack length is 1
 
-"""
-def parse(prereq):
-    prereq = prereq.replace(' && ', '&').replace(' || ', '|')
-    parse_stack = []
-    parsed_prereq = ""
-    if not prereq.__contains__('|') and not prereq.__contains__('&') and prereq != "{}" and prereq != "":
-        parsed_prereq += " " + prereq.lstrip('{').rstrip('}')
-    else:
-        for char in prereq:
-            
-            parse_stack.append(char)
-            
-            if parse_stack.count('{') - 1 == parse_stack.count('}'):
-                print(f"New parse stack call {''.join(parse_stack[1:])}")
-                parsed_prereq += str(parse(''.join(parse_stack[1:])))
-                parse_stack = ['{']
-            
-    return parsed_prereq
-    
 
 
 
@@ -260,156 +237,6 @@ def six():
         json.dump(time_dict, open(f"{os.getcwd()}/../statistical-data/time_stats.json", "w"), indent=4)
 
 
-
-major_links = [
-"https://catalog.csun.edu/academics/acct/programs/bs-accountancy-ii/information-systems/"
-,"https://catalog.csun.edu/academics/acct/programs/bs-accountancy-i/professional-accountancy/"
-,"https://catalog.csun.edu/academics/afrs/programs/ba-africana-studies-i/african-and-african-american-social-sciences/"
-,"https://catalog.csun.edu/academics/afrs/programs/ba-africana-studies-ii/african-and-african-american-humanities-and-cultural-studies/"
-,"https://catalog.csun.edu/academics/afrs/programs/ba-africana-studies-iii/african-american-urban-education/"
-,"https://catalog.csun.edu/academics/anth/programs/ba-anthropology/"
-,"https://catalog.csun.edu/academics/art/programs/ba-art/"
-,"https://catalog.csun.edu/academics/aas/programs/ba-asian-american-studies-i/standard-major/"
-,"https://catalog.csun.edu/academics/aas/programs/ba-asian-american-studies-ii/double-major/"
-,"https://catalog.csun.edu/academics/kin/programs/bs-athletic-training/"
-,"https://catalog.csun.edu/academics/chem/programs/bs-biochemistry/"
-,"https://catalog.csun.edu/academics/biol/programs/ba-biology/"
-,"https://catalog.csun.edu/academics/biol/programs/bs-biology-i/cell-and-molecular-biology/"
-,"https://catalog.csun.edu/academics/biol/programs/bs-biology-ii/ecology-and-evolutionary-biology/"
-,"https://catalog.csun.edu/academics/biol/programs/bs-biology-iii/microbiology/"
-,"https://catalog.csun.edu/academics/biol/programs/bs-biology-iv/biotechnology-medical-technology/"
-,"https://catalog.csun.edu/academics/biol/programs/bs-biology-v/marine-biology/"
-,"https://catalog.csun.edu/academics/som/programs/bs-business-administration-iii/business-analytics/"
-,"https://catalog.csun.edu/academics/blaw/programs/bs-business-administration-i/business-law/"
-,"https://catalog.csun.edu/academics/fin/programs/bs-business-administration-vi/financial-analysis/"
-,"https://catalog.csun.edu/academics/fin/programs/bs-business-administration-vii/financial-planning/"
-,"https://catalog.csun.edu/academics/som/programs/bs-business-administration-ii/global-supply-chain-management/"
-,"https://catalog.csun.edu/academics/mgt/programs/bs-business-administration-ix/management/"
-,"https://catalog.csun.edu/academics/mkt/programs/bs-business-administration-x/marketing/"
-,"https://catalog.csun.edu/academics/blaw/programs/bs-business-administration-iv/real-estate/"
-,"https://catalog.csun.edu/academics/fin/programs/bs-business-administration-viii/risk-management-and-insurance/"
-,"https://catalog.csun.edu/academics/som/programs/bs-business-administration-v/systems-and-operations-management/"
-,"https://catalog.csun.edu/academics/cas/programs/ba-central-american-studies-i/standard-major/"
-,"https://catalog.csun.edu/academics/cas/programs/ba-central-american-studies-ii/double-major/"
-,"https://catalog.csun.edu/academics/chem/programs/ba-chemistry/"
-,"https://catalog.csun.edu/academics/chem/programs/bs-chemistry/"
-,"https://catalog.csun.edu/academics/chs/programs/ba-chicano-and-chicana-studies-i/single-major/"
-,"https://catalog.csun.edu/academics/chs/programs/ba-chicano-and-chicana-studies-ii/double-major/"
-,"https://catalog.csun.edu/academics/chs/programs/ba-chicana-and-chicano-studies-iii/chicana-o-studies-social-science-subject-matter-waiver-program/"
-,"https://catalog.csun.edu/academics/cadv/programs/ba-child-and-adolescent-development-i/applied-developmental-science/"
-,"https://catalog.csun.edu/academics/cadv/programs/ba-child-and-adolescent-development-ii/early-childhood-development/"
-,"https://catalog.csun.edu/academics/ctva/programs/ba-cinema-and-television-arts-vii/entertainment-media-management/"
-,"https://catalog.csun.edu/academics/ctva/programs/ba-cinema-and-television-arts-vi/film-production/"
-,"https://catalog.csun.edu/academics/ctva/programs/ba-cinema-and-television-arts-v/media-theory-and-criticism/"
-,"https://catalog.csun.edu/academics/ctva/programs/ba-cinema-and-television-arts-iv/emerging-media-production/"
-,"https://catalog.csun.edu/academics/ctva/programs/ba-cinema-and-television-arts-ii/screenwriting/"
-,"https://catalog.csun.edu/academics/ctva/programs/ba-cinema-and-television-arts-i/television-production/"
-,"https://catalog.csun.edu/academics/cecm/programs/bs-civil-engineering/"
-,"https://catalog.csun.edu/academics/coms/programs/ba-communication-studies/"
-,"https://catalog.csun.edu/academics/cd/programs/ba-communicative-disorders/"
-,"https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/"
-,"https://catalog.csun.edu/academics/comp/programs/bs-computer-information-technology/"
-,"https://catalog.csun.edu/academics/comp/programs/bs-computer-science/"
-,"https://catalog.csun.edu/academics/cecm/programs/bs-construction-management/"
-,"https://catalog.csun.edu/academics/cjs/programs/ba-criminology-and-justice-studies/"
-,"https://catalog.csun.edu/academics/deaf/programs/ba-deaf-studies/"
-,"https://catalog.csun.edu/academics/econ/programs/ba-economics/"
-,"https://catalog.csun.edu/academics/ece/programs/bs-electrical-engineering/"
-,"https://catalog.csun.edu/academics/msem/programs/bs-engineering-management-technology/"
-,"https://catalog.csun.edu/academics/engl/programs/ba-english-i/literature/"
-,"https://catalog.csun.edu/academics/engl/programs/ba-english-ii/creative-writing/"
-,"https://catalog.csun.edu/academics/engl/programs/ba-english-iii/subject-matter-program-for-the-single-subject-credential/"
-,"https://catalog.csun.edu/academics/engl/programs/ba-english-iv/four-year-integrated-fyi-english-subject-matter-program-for-the-single-subject-credential/"
-,"https://catalog.csun.edu/academics/engl/programs/ba-english-v/junior-year-integrated-jyi-english-subject-matter-program-for-the-single-subject-credential/"
-,"https://catalog.csun.edu/academics/engl/programs/ba-english-vi/honors/"
-,"https://catalog.csun.edu/academics/eoh/programs/bs-environmental-and-occupational-health-ii/industrial-hygiene/"
-,"https://catalog.csun.edu/academics/eoh/programs/bs-environmental-and-occupational-health-i/"
-,"https://catalog.csun.edu/academics/geol/programs/ba-environmental-science/"
-,"https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-i/apparel-design-and-merchandising/"
-,"https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-ii/consumer-affairs/"
-,"https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-iii/family-and-consumer-sciences-education/"
-,"https://catalog.csun.edu/academics/fcs/programs/bs-family-and-consumer-sciences-iv/family-studies/"
-,"https://catalog.csun.edu/academics/gws/programs/ba-gender-womens-studies-ii/double-major/"
-,"https://catalog.csun.edu/academics/gws/programs/ba-gender-and-womens-studies-i/"
-,"https://catalog.csun.edu/academics/geog/programs/bs-geographic-information-science/"
-,"https://catalog.csun.edu/academics/geog/programs/bs-geography-and-environmental-studies/"
-,"https://catalog.csun.edu/academics/geol/programs/bs-geology-i/geology/"
-,"https://catalog.csun.edu/academics/geol/programs/bs-geology-ii/geophysics/"
-,"https://catalog.csun.edu/academics/hsci/programs/bs-health-administration/"
-,"https://catalog.csun.edu/academics/hist/programs/ba-history-i/"
-,"https://catalog.csun.edu/academics/hist/programs/ba-history-ii/four-year-integrated-fyi-history-subject-matter-program-for-the-single-subject-credential/"
-,"https://catalog.csun.edu/academics/hist/programs/ba-history-iii/junior-year-integrated-jyi-history-subject-matter-program-for-the-single-subject-credential/"
-,"https://catalog.csun.edu/academics/som/programs/bs-information-systems-i/business-systems/"
-,"https://catalog.csun.edu/academics/som/programs/bs-information-systems-ii/software-technology/"
-,"https://catalog.csun.edu/academics/som/programs/bs-information-systems-iii/computer-information-technology/"
-,"https://catalog.csun.edu/academics/som/programs/bs-information-systems-iv/health-systems/"
-,"https://catalog.csun.edu/academics/lrs/programs/ba-interdisciplinary-studies/"
-,"https://catalog.csun.edu/academics/fcs/programs/bs-interior-design/"
-,"https://catalog.csun.edu/academics/js/programs/ba-jewish-studies/"
-,"https://catalog.csun.edu/academics/jour/programs/ba-journalism-i/"
-,"https://catalog.csun.edu/academics/jour/programs/ba-journalism-ii/broadcast/"
-,"https://catalog.csun.edu/academics/jour/programs/ba-journalism-iii/public-relations/"
-,"https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-ii/exercise-science/"
-,"https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-iii/dance/"
-,"https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-iv/sport-studies/"
-,"https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-v/applied-fitness-and-active-lifestyle-development/"
-,"https://catalog.csun.edu/academics/kin/programs/bs-kinesiology-i/physical-education/"
-,"https://catalog.csun.edu/academics/mcll/programs/ba-languages-and-cultures-i/armenian/"
-,"https://catalog.csun.edu/academics/mcll/programs/ba-languages-and-cultures-ii/french/"
-,"https://catalog.csun.edu/academics/mcll/programs/ba-languages-and-cultures-iii/italian/"
-,"https://catalog.csun.edu/academics/mcll/programs/ba-languages-and-cultures-iv/japanese/"
-,"https://catalog.csun.edu/academics/lrs/programs/ba-liberal-studies-i/pre-credential-program/"
-,"https://catalog.csun.edu/academics/lrs/programs/ba-liberal-studies-ii/integrated-teacher-education-program-itep-junior/"
-,"https://catalog.csun.edu/academics/lrs/programs/ba-liberal-studies-iii/integrated-teacher-education-program-itep-freshman/"
-,"https://catalog.csun.edu/academics/ling/programs/ba-linguistics/"
-,"https://catalog.csun.edu/academics/msem/programs/bs-manufacturing-systems-engineering/"
-,"https://catalog.csun.edu/academics/math/programs/ba-mathematics-iii/four-year-integrated-fyi-mathematics-subject-matter-program-for-the-single-subject-credential/"
-,"https://catalog.csun.edu/academics/math/programs/ba-mathematics-iv/junior-year-integrated-jyi-mathematics-subject-matter-program-for-the-single-subject-credential/"
-,"https://catalog.csun.edu/academics/math/programs/ba-mathematics-i/general/"
-,"https://catalog.csun.edu/academics/math/programs/ba-mathematics-ii/secondary-teaching/"
-,"https://catalog.csun.edu/academics/math/programs/bs-mathematics-i/mathematics/"
-,"https://catalog.csun.edu/academics/math/programs/bs-mathematics-ii/statistics/"
-,"https://catalog.csun.edu/academics/math/programs/bs-mathematics-iii/applied-mathematical-sciences/"
-,"https://catalog.csun.edu/academics/me/programs/bs-mechanical-engineering/"
-,"https://catalog.csun.edu/academics/mus/programs/ba-music-i/breadth-studies/"
-,"https://catalog.csun.edu/academics/mus/programs/ba-music-ii/music-industry-studies/"
-,"https://catalog.csun.edu/academics/mus/programs/ba-music-iii/music-education/"
-,"https://catalog.csun.edu/academics/mus/programs/ba-music-iv/music-therapy/"
-,"https://catalog.csun.edu/academics/mus/programs/bm-music-i/jazz-studies/"
-,"https://catalog.csun.edu/academics/mus/programs/bm-music-ii/composition-commercial-and-media-writing/"
-,"https://catalog.csun.edu/academics/mus/programs/bm-music-iii/vocal-arts/"
-,"https://catalog.csun.edu/academics/mus/programs/bm-music-iv/keyboard/"
-,"https://catalog.csun.edu/academics/mus/programs/bm-music-v/percussion/"
-,"https://catalog.csun.edu/academics/mus/programs/bm-music-vi/winds/"
-,"https://catalog.csun.edu/academics/mus/programs/bm-music-vii/strings/"
-,"https://catalog.csun.edu/academics/nurs/programs/bs-nursing-ii/accelerated/"
-,"https://catalog.csun.edu/academics/nurs/programs/bs-nursing-i/rn-to-bsn/"
-,"https://catalog.csun.edu/academics/fcs/programs/bs-nutrition-dietetics-and-food-science-i/nutrition-and-dietetics/"
-,"https://catalog.csun.edu/academics/fcs/programs/bs-nutrition-dietetics-and-food-science-ii/food-science/"
-,"https://catalog.csun.edu/academics/phil/programs/ba-philosophy-ii/double-major/"
-,"https://catalog.csun.edu/academics/phil/programs/ba-philosophy-i/"
-,"https://catalog.csun.edu/academics/phys/programs/ba-physics/"
-,"https://catalog.csun.edu/academics/phys/programs/bs-physics-i/physics/"
-,"https://catalog.csun.edu/academics/phys/programs/bs-physics-ii/astrophysics/"
-,"https://catalog.csun.edu/academics/pols/programs/ba-political-science-i/politics-and-government/"
-,"https://catalog.csun.edu/academics/pols/programs/ba-political-science-ii/public-policy-and-management/"
-,"https://catalog.csun.edu/academics/pols/programs/ba-political-science-iii/law-and-society/"
-,"https://catalog.csun.edu/academics/psy/programs/ba-psychology-i/"
-,"https://catalog.csun.edu/academics/psy/programs/ba-psychology-ii/honors/"
-,"https://catalog.csun.edu/academics/hsci/programs/bs-public-health/"
-,"https://catalog.csun.edu/academics/psm/programs/ba-public-sector-management/"
-,"https://catalog.csun.edu/academics/hsci/programs/bs-radiologic-sciences/"
-,"https://catalog.csun.edu/academics/rs/programs/ba-religious-studies-ii/double-major/"
-,"https://catalog.csun.edu/academics/rs/programs/ba-religious-studies-i/"
-,"https://catalog.csun.edu/academics/soc/programs/ba-sociology/"
-,"https://catalog.csun.edu/academics/mcll/programs/ba-spanish-iii/hispanic-linguistics/"
-,"https://catalog.csun.edu/academics/mcll/programs/ba-spanish-iv/translation-and-interpretation/"
-,"https://catalog.csun.edu/academics/mcll/programs/ba-spanish-i/literature/"
-,"https://catalog.csun.edu/academics/mcll/programs/ba-spanish-ii/language-and-culture/"
-,"https://catalog.csun.edu/academics/th/programs/ba-theatre/"
-,"https://catalog.csun.edu/academics/rtm/programs/bs-tourism-hospitality-and-recreation-management/"
-,"https://catalog.csun.edu/academics/urbs/programs/ba-urban-studies-and-planning/"
-]
 
 
 def seven():
@@ -705,359 +532,6 @@ def twelve():
     driver = webdriver.Chrome(service=s, options=op)
 
     broken = []
-    """
-    Broken links, classes dont exist on csun.edu
-https://catalog.csun.edu/academics/acct/courses/acct-499C/
-https://catalog.csun.edu/academics/ais/courses/ais-401/
-https://catalog.csun.edu/academics/anth/courses/anth-346/
-https://catalog.csun.edu/academics/anth/courses/anth-490B/
-https://catalog.csun.edu/academics/anth/courses/anth-490C/
-https://catalog.csun.edu/academics/anth/courses/anth-490E/
-https://catalog.csun.edu/academics/anth/courses/anth-698A/
-https://catalog.csun.edu/academics/anth/courses/anth-698B/
-https://catalog.csun.edu/academics/art/courses/art-219/
-https://catalog.csun.edu/academics/art/courses/art-300/
-https://catalog.csun.edu/academics/art/courses/art-313/
-https://catalog.csun.edu/academics/art/courses/art-337A/
-https://catalog.csun.edu/academics/art/courses/art-337B/
-https://catalog.csun.edu/academics/art/courses/art-400/
-https://catalog.csun.edu/academics/art/courses/art-400L/
-https://catalog.csun.edu/academics/art/courses/art-412/
-https://catalog.csun.edu/academics/art/courses/art-415/
-https://catalog.csun.edu/academics/art/courses/art-424/
-https://catalog.csun.edu/academics/art/courses/art-425/
-https://catalog.csun.edu/academics/art/courses/art-445/
-https://catalog.csun.edu/academics/art/courses/art-484/
-https://catalog.csun.edu/academics/art/courses/art-686/
-https://catalog.csun.edu/academics/athl/courses/athl-197BKM/
-https://catalog.csun.edu/academics/athl/courses/athl-197BKW/
-https://catalog.csun.edu/academics/athl/courses/athl-197CCM/
-https://catalog.csun.edu/academics/athl/courses/athl-197CCW/
-https://catalog.csun.edu/academics/athl/courses/athl-197SOM/
-https://catalog.csun.edu/academics/athl/courses/athl-197SOW/
-https://catalog.csun.edu/academics/athl/courses/athl-197VBW/
-https://catalog.csun.edu/academics/biol/courses/biol-285/
-https://catalog.csun.edu/academics/biol/courses/biol-299A/
-https://catalog.csun.edu/academics/biol/courses/biol-317/
-https://catalog.csun.edu/academics/biol/courses/biol-317L/
-https://catalog.csun.edu/academics/biol/courses/biol-408/
-https://catalog.csun.edu/academics/biol/courses/biol-408L/
-https://catalog.csun.edu/academics/biol/courses/biol-426/
-https://catalog.csun.edu/academics/biol/courses/biol-426L/
-https://catalog.csun.edu/academics/biol/courses/biol-495B/
-https://catalog.csun.edu/academics/biol/courses/biol-495C/
-https://catalog.csun.edu/academics/biol/courses/biol-495D/
-https://catalog.csun.edu/academics/biol/courses/biol-495E/
-https://catalog.csun.edu/academics/biol/courses/biol-497EEA/
-https://catalog.csun.edu/academics/biol/courses/biol-615C/
-https://catalog.csun.edu/academics/biol/courses/biol-615D/
-https://catalog.csun.edu/academics/biol/courses/biol-615E/
-https://catalog.csun.edu/academics/biol/courses/biol-615F/
-https://catalog.csun.edu/academics/biol/courses/biol-615G/
-https://catalog.csun.edu/academics/biol/courses/biol-655B/
-https://catalog.csun.edu/academics/biol/courses/biol-655C/
-https://catalog.csun.edu/academics/biol/courses/biol-655D/
-https://catalog.csun.edu/academics/biol/courses/biol-655E/
-https://catalog.csun.edu/academics/biol/courses/biol-655G/
-https://catalog.csun.edu/academics/biol/courses/biol-655H/
-https://catalog.csun.edu/academics/biol/courses/biol-696B/
-https://catalog.csun.edu/academics/biol/courses/biol-696C/
-https://catalog.csun.edu/academics/biol/courses/biol-696D/
-https://catalog.csun.edu/academics/biol/courses/biol-696E/
-https://catalog.csun.edu/academics/biol/courses/biol-698C/
-https://catalog.csun.edu/academics/bus/courses/bus-296BHG/
-https://catalog.csun.edu/academics/bus/courses/bus-296BHK/
-https://catalog.csun.edu/academics/bus/courses/bus-296BHN/
-https://catalog.csun.edu/academics/bus/courses/bus-296BHO/
-https://catalog.csun.edu/academics/bus/courses/bus-296BHP/
-https://catalog.csun.edu/academics/bus/courses/bus-296BHR/
-https://catalog.csun.edu/academics/bus/courses/bus-480/
-https://catalog.csun.edu/academics/cadv/courses/cadv-497AB/
-https://catalog.csun.edu/academics/cadv/courses/cadv-497AC/
-https://catalog.csun.edu/academics/cadv/courses/cadv-497AD/
-https://catalog.csun.edu/academics/cas/courses/cas-460/
-https://catalog.csun.edu/academics/chs/courses/chs-102/
-https://catalog.csun.edu/academics/chs/courses/chs-215/
-https://catalog.csun.edu/academics/chs/courses/chs-215L/
-https://catalog.csun.edu/academics/chs/courses/chs-270F/
-https://catalog.csun.edu/academics/chs/courses/chs-280/
-https://catalog.csun.edu/academics/chs/courses/chs-471/
-https://catalog.csun.edu/academics/chs/courses/chs-486B/
-https://catalog.csun.edu/academics/chs/courses/chs-488/
-https://catalog.csun.edu/academics/chs/courses/chs-495C/
-https://catalog.csun.edu/academics/chs/courses/chs-495E/
-https://catalog.csun.edu/academics/chs/courses/chs-495P/
-https://catalog.csun.edu/academics/chs/courses/chs-495S/
-https://catalog.csun.edu/academics/chs/courses/chs-560/
-https://catalog.csun.edu/academics/chem/courses/chem-595D/
-https://catalog.csun.edu/academics/chem/courses/chem-698B/
-https://catalog.csun.edu/academics/comp/courses/comp-105BAS/
-https://catalog.csun.edu/academics/comp/courses/comp-581/
-https://catalog.csun.edu/academics/comp/courses/comp-696C/
-https://catalog.csun.edu/academics/ctva/courses/ctva-401/
-https://catalog.csun.edu/academics/ctva/courses/ctva-415C/
-https://catalog.csun.edu/academics/ctva/courses/ctva-415J/
-https://catalog.csun.edu/academics/ctva/courses/ctva-415S/
-https://catalog.csun.edu/academics/ctva/courses/ctva-501/
-https://catalog.csun.edu/academics/ctva/courses/ctva-512/
-https://catalog.csun.edu/academics/ctva/courses/ctva-595D/
-https://catalog.csun.edu/academics/ctva/courses/ctva-595E/
-https://catalog.csun.edu/academics/ctva/courses/ctva-595F/
-https://catalog.csun.edu/academics/ctva/courses/ctva-595G/
-https://catalog.csun.edu/academics/ctva/courses/ctva-595H/
-https://catalog.csun.edu/academics/ctva/courses/ctva-622/
-https://catalog.csun.edu/academics/deaf/courses/deaf-434B/
-https://catalog.csun.edu/academics/deaf/courses/deaf-435/
-https://catalog.csun.edu/academics/deaf/courses/deaf-490C/
-https://catalog.csun.edu/academics/deaf/courses/deaf-490D/
-https://catalog.csun.edu/academics/deaf/courses/deaf-490E/
-https://catalog.csun.edu/academics/deaf/courses/deaf-490G/
-https://catalog.csun.edu/academics/deaf/courses/deaf-491D/
-https://catalog.csun.edu/academics/deaf/courses/deaf-491E/
-https://catalog.csun.edu/academics/deaf/courses/deaf-491F/
-https://catalog.csun.edu/academics/econ/courses/econ-348/
-https://catalog.csun.edu/academics/econ/courses/econ-375/
-https://catalog.csun.edu/academics/engl/courses/engl-400/
-https://catalog.csun.edu/academics/engl/courses/engl-431/
-https://catalog.csun.edu/academics/engl/courses/engl-449/
-https://catalog.csun.edu/academics/engl/courses/engl-452/
-https://catalog.csun.edu/academics/engl/courses/engl-457HN/
-https://catalog.csun.edu/academics/engl/courses/engl-457IL/
-https://catalog.csun.edu/academics/engl/courses/engl-457WSF/
-https://catalog.csun.edu/academics/engl/courses/engl-459RS/
-https://catalog.csun.edu/academics/engl/courses/engl-459WR/
-https://catalog.csun.edu/academics/engl/courses/engl-463A/
-https://catalog.csun.edu/academics/engl/courses/engl-470GS/
-https://catalog.csun.edu/academics/engl/courses/engl-495AGE/
-https://catalog.csun.edu/academics/engl/courses/engl-495AUS/
-https://catalog.csun.edu/academics/engl/courses/engl-495BB/
-https://catalog.csun.edu/academics/engl/courses/engl-495JB/
-https://catalog.csun.edu/academics/engl/courses/engl-495LVE/
-https://catalog.csun.edu/academics/engl/courses/engl-495RTW/
-https://catalog.csun.edu/academics/engl/courses/engl-495SG/
-https://catalog.csun.edu/academics/engl/courses/engl-495SH/
-https://catalog.csun.edu/academics/engl/courses/engl-501CP/
-https://catalog.csun.edu/academics/engl/courses/engl-502AF/
-https://catalog.csun.edu/academics/engl/courses/engl-502P/
-https://catalog.csun.edu/academics/engl/courses/engl-502PF/
-https://catalog.csun.edu/academics/engl/courses/engl-595PB/
-https://catalog.csun.edu/academics/engl/courses/engl-620M/
-https://catalog.csun.edu/academics/engl/courses/engl-630AA/
-https://catalog.csun.edu/academics/engl/courses/engl-630B/
-https://catalog.csun.edu/academics/engl/courses/engl-630DW/
-https://catalog.csun.edu/academics/engl/courses/engl-630FA/
-https://catalog.csun.edu/academics/engl/courses/engl-630LR/
-https://catalog.csun.edu/academics/engl/courses/engl-630SN/
-https://catalog.csun.edu/academics/engl/courses/engl-685/
-https://catalog.csun.edu/academics/engl/courses/engl-698C/
-https://catalog.csun.edu/academics/engl/courses/engl-90/
-https://catalog.csun.edu/academics/epc/courses/epc-695S/
-https://catalog.csun.edu/academics/epc/courses/epc-695WC/
-https://catalog.csun.edu/academics/epc/courses/epc-699C/
-https://catalog.csun.edu/academics/fcs/courses/fcs-114L/
-https://catalog.csun.edu/academics/fcs/courses/fcs-394A/
-https://catalog.csun.edu/academics/fcs/courses/fcs-409/
-https://catalog.csun.edu/academics/fcs/courses/fcs-496S/
-https://catalog.csun.edu/academics/fcs/courses/fcs-543/
-https://catalog.csun.edu/academics/fcs/courses/fcs-635/
-https://catalog.csun.edu/academics/fcs/courses/fcs-690B/
-https://catalog.csun.edu/academics/fcs/courses/fcs-690C/
-https://catalog.csun.edu/academics/fcs/courses/fcs-690I/
-https://catalog.csun.edu/academics/fcs/courses/fcs-690J/
-https://catalog.csun.edu/academics/fcs/courses/fcs-690K/
-https://catalog.csun.edu/academics/fcs/courses/fcs-690M/
-https://catalog.csun.edu/academics/fcs/courses/fcs-696A/
-https://catalog.csun.edu/academics/fin/courses/fin-338/
-https://catalog.csun.edu/academics/fin/courses/fin-433/
-https://catalog.csun.edu/academics/fin/courses/fin-439/
-https://catalog.csun.edu/academics/flit/courses/flit-295B/
-https://catalog.csun.edu/academics/flit/courses/flit-383/
-https://catalog.csun.edu/academics/flit/courses/flit-455/
-https://catalog.csun.edu/academics/flit/courses/flit-485/
-https://catalog.csun.edu/academics/fren/courses/fren-204/
-https://catalog.csun.edu/academics/fren/courses/fren-208/
-https://catalog.csun.edu/academics/fren/courses/fren-300/
-https://catalog.csun.edu/academics/fren/courses/fren-305/
-https://catalog.csun.edu/academics/fren/courses/fren-306/
-https://catalog.csun.edu/academics/fren/courses/fren-313/
-https://catalog.csun.edu/academics/fren/courses/fren-315A/
-https://catalog.csun.edu/academics/fren/courses/fren-315B/
-https://catalog.csun.edu/academics/fren/courses/fren-406/
-https://catalog.csun.edu/academics/fren/courses/fren-415D/
-https://catalog.csun.edu/academics/fren/courses/fren-415F/
-https://catalog.csun.edu/academics/fren/courses/fren-415P/
-https://catalog.csun.edu/academics/fren/courses/fren-499C/
-https://catalog.csun.edu/academics/gbus/courses/gbus-599C/
-https://catalog.csun.edu/academics/geog/courses/geog-630C/
-https://catalog.csun.edu/academics/geog/courses/geog-630E/
-https://catalog.csun.edu/academics/geog/courses/geog-650C/
-https://catalog.csun.edu/academics/geog/courses/geog-690B/
-https://catalog.csun.edu/academics/geog/courses/geog-690E/
-https://catalog.csun.edu/academics/geog/courses/geog-697/
-https://catalog.csun.edu/academics/hist/courses/hist-402/
-https://catalog.csun.edu/academics/hist/courses/hist-445/
-https://catalog.csun.edu/academics/hist/courses/hist-461/
-https://catalog.csun.edu/academics/hist/courses/hist-485A/
-https://catalog.csun.edu/academics/hist/courses/hist-495SS/
-https://catalog.csun.edu/academics/hist/courses/hist-498A/
-https://catalog.csun.edu/academics/hist/courses/hist-498C/
-https://catalog.csun.edu/academics/hist/courses/hist-499C/
-https://catalog.csun.edu/academics/hist/courses/hist-505/
-https://catalog.csun.edu/academics/hist/courses/hist-596EG/
-https://catalog.csun.edu/academics/hist/courses/hist-596G/
-https://catalog.csun.edu/academics/hist/courses/hist-610/
-https://catalog.csun.edu/academics/hist/courses/hist-693/
-https://catalog.csun.edu/academics/hist/courses/hist-699C/
-https://catalog.csun.edu/academics/is/courses/is-497B/
-https://catalog.csun.edu/academics/is/courses/is-497C/
-https://catalog.csun.edu/academics/is/courses/is-499B/
-https://catalog.csun.edu/academics/is/courses/is-599C/
-https://catalog.csun.edu/academics/is/courses/is-655/
-https://catalog.csun.edu/academics/is/courses/is-699C/
-https://catalog.csun.edu/academics/ital/courses/ital-204/
-https://catalog.csun.edu/academics/ital/courses/ital-305/
-https://catalog.csun.edu/academics/ital/courses/ital-315/
-https://catalog.csun.edu/academics/ital/courses/ital-499C/
-https://catalog.csun.edu/academics/japn/courses/japn-401/
-https://catalog.csun.edu/academics/jour/courses/jour-495DME/
-https://catalog.csun.edu/academics/jour/courses/jour-495LF/
-https://catalog.csun.edu/academics/jour/courses/jour-495SLT/
-https://catalog.csun.edu/academics/kin/courses/kin-134/
-https://catalog.csun.edu/academics/kin/courses/kin-155A/
-https://catalog.csun.edu/academics/kin/courses/kin-167A/
-https://catalog.csun.edu/academics/kin/courses/kin-511/
-https://catalog.csun.edu/academics/kin/courses/kin-512/
-https://catalog.csun.edu/academics/kin/courses/kin-603/
-https://catalog.csun.edu/academics/ling/courses/ling-407/
-https://catalog.csun.edu/academics/me/courses/me-698B/
-https://catalog.csun.edu/academics/me/courses/me-698C/
-https://catalog.csun.edu/academics/math/courses/math-582C/
-https://catalog.csun.edu/academics/math/courses/math-592C/
-https://catalog.csun.edu/academics/mcom/courses/mcom-694C/
-https://catalog.csun.edu/academics/mgt/courses/mgt-491/
-https://catalog.csun.edu/academics/mgt/courses/mgt-667/
-https://catalog.csun.edu/academics/mkt/courses/mkt-641/
-https://catalog.csun.edu/academics/mkt/courses/mkt-642/
-https://catalog.csun.edu/academics/mse/courses/mse-105/
-https://catalog.csun.edu/academics/mse/courses/mse-499C/
-https://catalog.csun.edu/academics/mse/courses/mse-608C/
-https://catalog.csun.edu/academics/mus/courses/mus-219B/
-https://catalog.csun.edu/academics/mus/courses/mus-232B/
-https://catalog.csun.edu/academics/mus/courses/mus-233/
-https://catalog.csun.edu/academics/mus/courses/mus-235B/
-https://catalog.csun.edu/academics/mus/courses/mus-235C/
-https://catalog.csun.edu/academics/mus/courses/mus-235D/
-https://catalog.csun.edu/academics/mus/courses/mus-339B/
-https://catalog.csun.edu/academics/mus/courses/mus-339D/
-https://catalog.csun.edu/academics/mus/courses/mus-385/
-https://catalog.csun.edu/academics/mus/courses/mus-406B/
-https://catalog.csun.edu/academics/mus/courses/mus-603B/
-https://catalog.csun.edu/academics/mus/courses/mus-603C/
-https://catalog.csun.edu/academics/mus/courses/mus-603D/
-https://catalog.csun.edu/academics/mus/courses/mus-603E/
-https://catalog.csun.edu/academics/mus/courses/mus-673/
-https://catalog.csun.edu/academics/phil/courses/phil-319/
-https://catalog.csun.edu/academics/phil/courses/phil-331/
-https://catalog.csun.edu/academics/phil/courses/phil-380/
-https://catalog.csun.edu/academics/phil/courses/phil-390/
-https://catalog.csun.edu/academics/phil/courses/phil-495/
-https://catalog.csun.edu/academics/phys/courses/phys-698C/
-https://catalog.csun.edu/academics/pols/courses/pols-420B/
-https://catalog.csun.edu/academics/pols/courses/pols-420C/
-https://catalog.csun.edu/academics/pols/courses/pols-420D/
-https://catalog.csun.edu/academics/pols/courses/pols-420E/
-https://catalog.csun.edu/academics/pols/courses/pols-420F/
-https://catalog.csun.edu/academics/pols/courses/pols-420G/
-https://catalog.csun.edu/academics/pols/courses/pols-420H/
-https://catalog.csun.edu/academics/pols/courses/pols-432B/
-https://catalog.csun.edu/academics/pols/courses/pols-434A/
-https://catalog.csun.edu/academics/pols/courses/pols-434B/
-https://catalog.csun.edu/academics/pols/courses/pols-435B/
-https://catalog.csun.edu/academics/pols/courses/pols-460/
-https://catalog.csun.edu/academics/pols/courses/pols-471B/
-https://catalog.csun.edu/academics/pols/courses/pols-471C/
-https://catalog.csun.edu/academics/pols/courses/pols-471D/
-https://catalog.csun.edu/academics/pols/courses/pols-471E/
-https://catalog.csun.edu/academics/pols/courses/pols-471F/
-https://catalog.csun.edu/academics/pols/courses/pols-530D/
-https://catalog.csun.edu/academics/pols/courses/pols-530E/
-https://catalog.csun.edu/academics/pols/courses/pols-530H/
-https://catalog.csun.edu/academics/pols/courses/pols-530I/
-https://catalog.csun.edu/academics/pols/courses/pols-530J/
-https://catalog.csun.edu/academics/pols/courses/pols-540C/
-https://catalog.csun.edu/academics/pols/courses/pols-540E/
-https://catalog.csun.edu/academics/pols/courses/pols-540F/
-https://catalog.csun.edu/academics/pols/courses/pols-540G/
-https://catalog.csun.edu/academics/pols/courses/pols-540H/
-https://catalog.csun.edu/academics/pols/courses/pols-540J/
-https://catalog.csun.edu/academics/pols/courses/pols-599B/
-https://catalog.csun.edu/academics/psy/courses/psy-200/
-https://catalog.csun.edu/academics/psy/courses/psy-370/
-https://catalog.csun.edu/academics/psy/courses/psy-383/
-https://catalog.csun.edu/academics/psy/courses/psy-421J/
-https://catalog.csun.edu/academics/psy/courses/psy-421M/
-https://catalog.csun.edu/academics/psy/courses/psy-421N/
-https://catalog.csun.edu/academics/psy/courses/psy-464/
-https://catalog.csun.edu/academics/psy/courses/psy-471ABS/
-https://catalog.csun.edu/academics/psy/courses/psy-471C/
-https://catalog.csun.edu/academics/psy/courses/psy-471CN/
-https://catalog.csun.edu/academics/psy/courses/psy-471PH/
-https://catalog.csun.edu/academics/psy/courses/psy-471PHS/
-https://catalog.csun.edu/academics/psy/courses/psy-473CN/
-https://catalog.csun.edu/academics/psy/courses/psy-473CNS/
-https://catalog.csun.edu/academics/psy/courses/psy-479AS/
-https://catalog.csun.edu/academics/psy/courses/psy-479ASS/
-https://catalog.csun.edu/academics/psy/courses/psy-485GT/
-https://catalog.csun.edu/academics/psy/courses/psy-485GTS/
-https://catalog.csun.edu/academics/psy/courses/psy-488C/
-https://catalog.csun.edu/academics/psy/courses/psy-488CF/
-https://catalog.csun.edu/academics/psy/courses/psy-488CFS/
-https://catalog.csun.edu/academics/psy/courses/psy-488CS/
-https://catalog.csun.edu/academics/psy/courses/psy-488DM/
-https://catalog.csun.edu/academics/psy/courses/psy-488DMS/
-https://catalog.csun.edu/academics/psy/courses/psy-594HC/
-https://catalog.csun.edu/academics/psy/courses/psy-594RD/
-https://catalog.csun.edu/academics/psy/courses/psy-655AC/
-https://catalog.csun.edu/academics/psy/courses/psy-655BC/
-https://catalog.csun.edu/academics/psy/courses/psy-691A/
-https://catalog.csun.edu/academics/pt/courses/pt-785B/
-https://catalog.csun.edu/academics/pt/courses/pt-785C/
-https://catalog.csun.edu/academics/qs/courses/qs-401L/
-https://catalog.csun.edu/academics/rs/courses/rs-346/
-https://catalog.csun.edu/academics/rs/courses/rs-497B/
-https://catalog.csun.edu/academics/soc/courses/soc-486SOC/
-https://catalog.csun.edu/academics/soc/courses/soc-498AEE/
-https://catalog.csun.edu/academics/som/courses/som-498C/
-https://catalog.csun.edu/academics/span/courses/span-581/
-https://catalog.csun.edu/academics/sped/courses/sped-506ECA/
-https://catalog.csun.edu/academics/sped/courses/sped-595T/
-https://catalog.csun.edu/academics/sped/courses/sped-652/
-https://catalog.csun.edu/academics/th/courses/th-396VT/
-https://catalog.csun.edu/academics/univ/courses/univ-60C/
-https://catalog.csun.edu/academics/univ/courses/univ-60E/
-https://catalog.csun.edu/academics/univ/courses/univ-60G/
-https://catalog.csun.edu/academics/univ/courses/univ-60JJ/
-https://catalog.csun.edu/academics/univ/courses/univ-60K/
-https://catalog.csun.edu/academics/univ/courses/univ-60KK/
-https://catalog.csun.edu/academics/univ/courses/univ-60L/
-https://catalog.csun.edu/academics/univ/courses/univ-60N/
-https://catalog.csun.edu/academics/univ/courses/univ-60T/
-https://catalog.csun.edu/academics/univ/courses/univ-60X/
-https://catalog.csun.edu/academics/univ/courses/univ-61A/
-https://catalog.csun.edu/academics/univ/courses/univ-61E/
-https://catalog.csun.edu/academics/univ/courses/univ-61H/
-https://catalog.csun.edu/academics/univ/courses/univ-61Q/
-https://catalog.csun.edu/academics/univ/courses/univ-62A/
-https://catalog.csun.edu/academics/univ/courses/univ-62C/
-https://catalog.csun.edu/academics/univ/courses/univ-62E/
-https://catalog.csun.edu/academics/univ/courses/univ-62EOP/
-https://catalog.csun.edu/academics/univ/courses/univ-62H/
-https://catalog.csun.edu/academics/univ/courses/univ-62P/
-https://catalog.csun.edu/academics/univ/courses/univ-62Q/
-https://catalog.csun.edu/academics/urbs/courses/urbs-408/
-https://catalog.csun.edu/academics/urbs/courses/urbs-494C/
-https://catalog.csun.edu/academics/urbs/courses/urbs-412/
-    """
     titles = {}
     for code in class_codes:
         print(code.upper())
@@ -1232,13 +706,98 @@ def t18():
 
 
 
-def t19():
-    for code in class_codes:  
-        with open(f"../data/json_catalog/{code}_history.json") as catalog_file:
-            json.dump(OrderedDict(sorted(json.load(catalog_file).items())), open(f"../data/json_historical_profs/{code}_history.json", "w"), indent=4)
+                    
+"""
+To get operator stack for current hierarchy
+    print symbol stack
+    if || or && operator and stack length is 1
 
+"""
+def parse_dead(prereq):
+    prereq = prereq.replace(' && ', '&').replace(' || ', '|')
+    parse_stack = []
+    parsed_prereq = ""
+    if not prereq.__contains__('|') and not prereq.__contains__('&') and prereq != "{}" and prereq != "":
+        parsed_prereq += " " + prereq.lstrip('{').rstrip('}')
+    else:
+        for char in prereq:
+            
+            parse_stack.append(char)
+            
+            if parse_stack.count('{') - 1 == parse_stack.count('}'):
+                print(f"New parse stack call {''.join(parse_stack[1:])}")
+                parsed_prereq += str(parse(''.join(parse_stack[1:])))
+                parse_stack = ['{']
+            
+    return parsed_prereq
+           
+    
+# do not call initial parse call with empty string
+# all initial calls should start with _res = "Take "
+def parse(_sp, _res):
+    sp = _sp[1:-1]
+    print(sp)
+    p_stack = []
+    c = 0
+    res = _res
+    
+    
+    while c < len(sp):
+        match sp[c]:
+            case '{':
+                if sp[c+1] == '{':
+                    bb = sp[c:].index('}}')
+                    res += parse(sp[c:][0:bb+2], "")
+                    c += bb + 1
+                else:
+                    p_stack.append(sp[c])
+            case '}':
+                try:
+                    p_stack.pop()
+                except IndexError:
+                    pass
+            case '&':
+                if _res == "":
+                    res += "AND Take "
+                else:
+                    res += "\nAND\nTake "
+                c += 1
+            case '|':
+                if _res == "":
+                    res += "OR Take"
+                else:     
+                    res += "\nor\nTake"
+                c += 1               
+            case _:
+                res += sp[c]
+        c += 1
+    # cba programming the logic to avoid these from happening so just do replace calls lol
+    res = res.replace('Take Obtain', 'Obtain')
+    res = res.replace('Take Earn', 'Earn')
+    res = res.replace('Take Permission', 'Permission')
+    return res.replace('\n ', '\n').replace('  ', ' ') # .replace('or a passing score', 'or Earn a passing score')
+    
+import mariadb
 if __name__ == "__main__":
-    t17()
+    try:
+        rootConnection = mariadb.connect(
+            user="py_serv",
+            password=json.load(open("./secret.json", "r"))["db_pass"],
+            host='127.0.0.1',
+            port=3306,
+            database='csun')
+        rootCursor = rootConnection.cursor()
+    except mariadb.Error as err:
+        print(f"Error connecting to MariaDB Platform: {err}")
+        
+    
+    rootCursor.execute("select catalog_number,prerequisites from catalog where subject = 'COMP'")
+    for r in rootCursor.fetchall():
+        if len(r[1]) < 50:
+            print("\n--------------")
+            print(r[0])
+            print(parse(r[1], "Take "))
+    
     
     
         

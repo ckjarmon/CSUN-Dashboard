@@ -1,262 +1,10 @@
 {
-    "MSE 220": [
+    "MSE 101": [
         {
-            "class_number": "16404",
-            "enrollment_cap": 30,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "lisa.reiner@csun.edu",
-            "days": "W",
-            "location": "SG110",
-            "start_time": "0930h",
-            "end_time": "1110h"
-        }
-    ],
-    "MSE 220L": [
-        {
-            "class_number": "16405",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "lisa.reiner@csun.edu",
-            "days": "W",
-            "location": "JD1504",
-            "start_time": "1130h",
-            "end_time": "1355h"
-        }
-    ],
-    "MSE 227": [
-        {
-            "class_number": "16339",
-            "enrollment_cap": 35,
-            "enrollment_count": 35,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "aline.avanessian@csun.edu",
-            "days": "TR",
-            "location": "JD3504",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        {
-            "class_number": "16369",
-            "enrollment_cap": 35,
-            "enrollment_count": 10,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "lisa.reiner@csun.edu",
-            "days": "TR",
-            "location": "JD3504",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        {
-            "class_number": "16503",
-            "enrollment_cap": 35,
-            "enrollment_count": 3,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "hans.shin@csun.edu",
-            "days": "M",
-            "location": "SG105",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        {
-            "class_number": "16591",
-            "enrollment_cap": 35,
-            "enrollment_count": 35,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "aline.avanessian@csun.edu",
-            "days": "MW",
-            "location": "JD3504",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        {
-            "class_number": "16648",
-            "enrollment_cap": 35,
-            "enrollment_count": 25,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "aline.avanessian@csun.edu",
-            "days": "MW",
-            "location": "JD3504",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    ],
-    "MSE 227L": [
-        {
-            "class_number": "16370",
-            "enrollment_cap": 18,
-            "enrollment_count": 18,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "anthony.magee@csun.edu",
-            "days": "M",
-            "location": "JD1504",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "16371",
-            "enrollment_cap": 18,
-            "enrollment_count": 8,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "lisa.reiner@csun.edu",
-            "days": "T",
-            "location": "JD1504",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        {
-            "class_number": "16372",
-            "enrollment_cap": 18,
-            "enrollment_count": 18,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "anthony.magee@csun.edu",
-            "days": "T",
-            "location": "JD1504",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "16446",
-            "enrollment_cap": 18,
-            "enrollment_count": 9,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "lisa.reiner@csun.edu",
-            "days": "R",
-            "location": "JD1504",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        {
-            "class_number": "16592",
-            "enrollment_cap": 18,
-            "enrollment_count": 16,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "chima.ojukwu@csun.edu",
-            "days": "F",
-            "location": "JD1504",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        {
-            "class_number": "16692",
-            "enrollment_cap": 18,
-            "enrollment_count": 7,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "chima.ojukwu@csun.edu",
-            "days": "F",
-            "location": "JD1504",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        {
-            "class_number": "16728",
-            "enrollment_cap": 18,
-            "enrollment_count": 18,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "jaleh.jahangiri@csun.edu",
-            "days": "M",
-            "location": "JD1504",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        {
-            "class_number": "16729",
-            "enrollment_cap": 18,
-            "enrollment_count": 7,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "quido.canzona@csun.edu",
-            "days": "W",
-            "location": "JD1504",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "16738",
-            "enrollment_cap": 18,
-            "enrollment_count": 4,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "quido.canzona@csun.edu",
-            "days": "R",
-            "location": "JD1504",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "MSE 248": [
-        {
-            "class_number": "16427",
+            "class_number": "16664",
             "enrollment_cap": 24,
-            "enrollment_count": 12,
+            "enrollment_count": 21,
             "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "khashayar.behdinan@csun.edu",
-            "days": "M",
-            "location": "JD1126",
-            "start_time": "1600h",
-            "end_time": "1740h"
-        }
-    ],
-    "MSE 248L": [
-        {
-            "class_number": "16428",
-            "enrollment_cap": 24,
-            "enrollment_count": 11,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "khashayar.behdinan@csun.edu",
-            "days": "M",
-            "location": "JD1126",
-            "start_time": "1800h",
-            "end_time": "2045h"
-        }
-    ],
-    "MSE 302": [
-        {
-            "class_number": "16594",
-            "enrollment_cap": 35,
-            "enrollment_count": 35,
-            "waitlist_cap": 35,
-            "waitlist_count": 2,
-            "instructor": "lisa.reiner@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "16624",
-            "enrollment_cap": 35,
-            "enrollment_count": 35,
-            "waitlist_cap": 35,
-            "waitlist_count": 3,
-            "instructor": "salpy.tovar@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "16625",
-            "enrollment_cap": 35,
-            "enrollment_count": 3,
-            "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "gus.elias@csun.edu",
             "days": "A",
@@ -265,13 +13,327 @@
             "end_time": "0000h"
         }
     ],
+    "MSE 101L": [
+        {
+            "class_number": "16246",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "gus.elias@csun.edu",
+            "days": "S",
+            "location": "JD1126",
+            "start_time": "1000h",
+            "end_time": "1245h"
+        }
+    ],
+    "MSE 220": [
+        {
+            "class_number": "20709",
+            "enrollment_cap": 30,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "lisa.reiner@csun.edu",
+            "days": "W",
+            "location": "JD1600",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    ],
+    "MSE 220L": [
+        {
+            "class_number": "20711",
+            "enrollment_cap": 16,
+            "enrollment_count": 14,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "lisa.reiner@csun.edu",
+            "days": "W",
+            "location": "JD1504",
+            "start_time": "1100h",
+            "end_time": "1325h"
+        }
+    ],
+    "MSE 227": [
+        {
+            "class_number": "16249",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "hans.shin@csun.edu",
+            "days": "TR",
+            "location": "JD3504",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "16408",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "sepideh.abolghasem@csun.edu",
+            "days": "W",
+            "location": "JD1593",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16499",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "sepideh.abolghasem@csun.edu",
+            "days": "MW",
+            "location": "JD3504",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "16583",
+            "enrollment_cap": 25,
+            "enrollment_count": 20,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "lisa.reiner@csun.edu",
+            "days": "TR",
+            "location": "JD3504",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        {
+            "class_number": "16730",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "behzad.bavarian@csun.edu",
+            "days": "MW",
+            "location": "JD3504",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "16787",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 10,
+            "waitlist_count": 1,
+            "instructor": "lisa.reiner@csun.edu",
+            "days": "TR",
+            "location": "JD3504",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "16826",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "aline.avanessian@csun.edu",
+            "days": "S",
+            "location": "JD1609",
+            "start_time": "1300h",
+            "end_time": "1545h"
+        }
+    ],
+    "MSE 227L": [
+        {
+            "class_number": "16250",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 8,
+            "waitlist_count": 1,
+            "instructor": "anthony.magee@csun.edu",
+            "days": "W",
+            "location": "JD1504",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16251",
+            "enrollment_cap": 18,
+            "enrollment_count": 17,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "lisa.reiner@csun.edu",
+            "days": "W",
+            "location": "JD1504",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "16426",
+            "enrollment_cap": 16,
+            "enrollment_count": 17,
+            "waitlist_cap": 8,
+            "waitlist_count": 3,
+            "instructor": "jaleh.jahangiri@csun.edu",
+            "days": "T",
+            "location": "JD1504",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "16475",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 8,
+            "waitlist_count": 1,
+            "instructor": "anthony.magee@csun.edu",
+            "days": "M",
+            "location": "JD1504",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16508",
+            "enrollment_cap": 16,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "aline.avanessian@csun.edu",
+            "days": "R",
+            "location": "JD1504",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "16584",
+            "enrollment_cap": 16,
+            "enrollment_count": 17,
+            "waitlist_cap": 8,
+            "waitlist_count": 3,
+            "instructor": "chima.ojukwu@csun.edu",
+            "days": "F",
+            "location": "JD1504",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        {
+            "class_number": "16602",
+            "enrollment_cap": 16,
+            "enrollment_count": 18,
+            "waitlist_cap": 8,
+            "waitlist_count": 1,
+            "instructor": "chima.ojukwu@csun.edu",
+            "days": "F",
+            "location": "JD1504",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "16771",
+            "enrollment_cap": 16,
+            "enrollment_count": 15,
+            "waitlist_cap": 8,
+            "waitlist_count": 1,
+            "instructor": "quido.canzona@csun.edu",
+            "days": "R",
+            "location": "JD1504",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16828",
+            "enrollment_cap": 16,
+            "enrollment_count": 15,
+            "waitlist_cap": 8,
+            "waitlist_count": 1,
+            "instructor": "aline.avanessian@csun.edu",
+            "days": "T",
+            "location": "JD1504",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    ],
+    "MSE 300": [
+        {
+            "class_number": "20704",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "gus.elias@csun.edu",
+            "days": "R",
+            "location": "JD3504",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "20715",
+            "enrollment_cap": 30,
+            "enrollment_count": 17,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "gus.elias@csun.edu",
+            "days": "S",
+            "location": "JD1593",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "MSE 302": [
+        {
+            "class_number": "16600",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "lisa.reiner@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "16737",
+            "enrollment_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "shahriar.vazan@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "16766",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "gus.elias@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "20717",
+            "enrollment_cap": 30,
+            "enrollment_count": 32,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "salpy.tovar@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
     "MSE 303": [
         {
-            "class_number": "16595",
-            "enrollment_cap": 35,
-            "enrollment_count": 25,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
+            "class_number": "16601",
+            "enrollment_cap": 30,
+            "enrollment_count": 27,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
             "instructor": "khashayar.behdinan@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -281,197 +343,203 @@
     ],
     "MSE 304": [
         {
-            "class_number": "16341",
-            "enrollment_cap": 35,
-            "enrollment_count": 35,
-            "waitlist_cap": 35,
-            "waitlist_count": 3,
-            "instructor": "ahmad.sarfaraz@csun.edu",
+            "class_number": "16252",
+            "enrollment_cap": 30,
+            "enrollment_count": 31,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "salpy.tovar@csun.edu",
             "days": "MW",
             "location": "JD3504",
             "start_time": "1530h",
             "end_time": "1645h"
         },
         {
-            "class_number": "16593",
-            "enrollment_cap": 35,
-            "enrollment_count": 1,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "scott.wainess@csun.edu",
-            "days": "S",
-            "location": "JD3504",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        {
-            "class_number": "16650",
-            "enrollment_cap": 35,
-            "enrollment_count": 35,
-            "waitlist_cap": 35,
-            "waitlist_count": 3,
-            "instructor": "ahmad.sarfaraz@csun.edu",
-            "days": "MW",
-            "location": "JD3504",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        {
-            "class_number": "16651",
-            "enrollment_cap": 35,
+            "class_number": "16745",
+            "enrollment_cap": 25,
             "enrollment_count": 22,
-            "waitlist_cap": 35,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
-            "instructor": "salpy.tovar@csun.edu",
-            "days": "R",
-            "location": "JD3504",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "16787",
-            "enrollment_cap": 35,
-            "enrollment_count": 24,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "salpy.tovar@csun.edu",
+            "instructor": "khashayar.behdinan@csun.edu",
             "days": "M",
             "location": "JD3504",
             "start_time": "1900h",
             "end_time": "2145h"
-        }
-    ],
-    "MSE 362": [
+        },
         {
-            "class_number": "16498",
+            "class_number": "16746",
             "enrollment_cap": 30,
-            "enrollment_count": 11,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "scott.wainess@csun.edu",
-            "days": "MW",
-            "location": "JD3510",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    ],
-    "MSE 402": [
+            "enrollment_count": 29,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "ahmad.sarfaraz@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         {
-            "class_number": "16274",
-            "enrollment_cap": 35,
-            "enrollment_count": 23,
-            "waitlist_cap": 35,
+            "class_number": "16747",
+            "enrollment_cap": 25,
+            "enrollment_count": 31,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "salpy.tovar@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16748",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "khashayar.behdinan@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16772",
+            "enrollment_cap": 30,
+            "enrollment_count": 28,
+            "waitlist_cap": 25,
+            "waitlist_count": 4,
+            "instructor": "ahmad.sarfaraz@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "16773",
+            "enrollment_cap": 30,
+            "enrollment_count": 28,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "khashayar.behdinan@csun.edu",
             "days": "MW",
             "location": "JD3504",
             "start_time": "1700h",
             "end_time": "1815h"
-        }
-    ],
-    "MSE 406": [
+        },
         {
-            "class_number": "16471",
-            "enrollment_cap": 35,
-            "enrollment_count": 8,
-            "waitlist_cap": 35,
+            "class_number": "16984",
+            "enrollment_cap": 25,
+            "enrollment_count": 31,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
+            "instructor": "salpy.tovar@csun.edu",
+            "days": "MW",
+            "location": "JD3504",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        {
+            "class_number": "17095",
+            "enrollment_cap": 25,
+            "enrollment_count": 29,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "scott.wainess@csun.edu",
-            "days": "R",
+            "days": "F",
             "location": "JD3504",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "0900h",
+            "end_time": "1145h"
         }
     ],
-    "MSE 407": [
+    "MSE 401": [
         {
-            "class_number": "16337",
-            "enrollment_cap": 35,
-            "enrollment_count": 15,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "gus.elias@csun.edu",
-            "days": "R",
-            "location": "JD1600",
+            "class_number": "16507",
+            "enrollment_cap": 30,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "salpy.tovar@csun.edu",
+            "days": "M",
+            "location": "JD1609",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "MSE 410": [
+    "MSE 403CS": [
         {
-            "class_number": "16275",
-            "enrollment_cap": 24,
-            "enrollment_count": 5,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "khashayar.behdinan@csun.edu",
-            "days": "F",
-            "location": "JD1126",
+            "class_number": "16491",
+            "enrollment_cap": 25,
+            "enrollment_count": 27,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "scott.wainess@csun.edu",
+            "days": "R",
+            "location": "JD1609",
             "start_time": "1400h",
-            "end_time": "1540h"
+            "end_time": "1645h"
         }
     ],
-    "MSE 410L": [
+    "MSE 409": [
         {
-            "class_number": "16276",
-            "enrollment_cap": 24,
-            "enrollment_count": 5,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "khashayar.behdinan@csun.edu",
-            "days": "F",
-            "location": "JD1126",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "MSE 412": [
-        {
-            "class_number": "16429",
-            "enrollment_cap": 24,
-            "enrollment_count": 8,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "sepideh.abolghasem@csun.edu",
-            "days": "T",
-            "location": "JD1126",
-            "start_time": "1700h",
-            "end_time": "1840h"
-        }
-    ],
-    "MSE 412L": [
-        {
-            "class_number": "16430",
-            "enrollment_cap": 24,
-            "enrollment_count": 7,
+            "class_number": "16253",
+            "enrollment_cap": 20,
+            "enrollment_count": 12,
             "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "cesar.gonzales@csun.edu",
-            "days": "T",
+            "days": "M",
             "location": "JD1126",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "start_time": "1330h",
+            "end_time": "1510h"
         }
     ],
-    "MSE 488BCS": [
+    "MSE 409L": [
         {
-            "class_number": "16277",
-            "enrollment_cap": 25,
-            "enrollment_count": 12,
+            "class_number": "16254",
+            "enrollment_cap": 20,
+            "enrollment_count": 13,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "cesar.gonzales@csun.edu",
+            "days": "M",
+            "location": "JD1126",
+            "start_time": "1515h",
+            "end_time": "1720h"
+        }
+    ],
+    "MSE 420": [
+        {
+            "class_number": "16994",
+            "enrollment_cap": 32,
+            "enrollment_count": 30,
             "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "hamidg@csun.edu",
+            "days": "MW",
+            "location": "JD3508",
+            "start_time": "1730h",
+            "end_time": "1845h"
+        }
+    ],
+    "MSE 488A": [
+        {
+            "class_number": "16462",
+            "enrollment_cap": 15,
+            "enrollment_count": 13,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "gus.elias@csun.edu",
             "days": "TR",
             "location": "JD1126",
             "start_time": "0900h",
-            "end_time": "1145h"
+            "end_time": "1150h"
         }
     ],
     "MSE 494A": [
         {
-            "class_number": "16406",
-            "enrollment_cap": 10,
-            "enrollment_count": 1,
+            "class_number": "16435",
+            "enrollment_cap": 7,
+            "enrollment_count": 5,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "pan@csun.edu",
@@ -481,373 +549,331 @@
             "end_time": "0000h"
         }
     ],
-    "MSE 504": [
-        {
-            "class_number": "16702",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
-            "waitlist_count": 10,
-            "instructor": "mark.rajai@csun.edu",
-            "days": "M",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "MSE 505": [
-        {
-            "class_number": "16366",
-            "enrollment_cap": 30,
-            "enrollment_count": 13,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "salpy.tovar@csun.edu",
-            "days": "W",
-            "location": "JD1555",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
     "MSE 507": [
         {
-            "class_number": "16438",
-            "enrollment_cap": 30,
-            "enrollment_count": 28,
+            "class_number": "16436",
+            "enrollment_cap": 35,
+            "enrollment_count": 34,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "jay.hamade.56@csun.edu",
             "days": "T",
-            "location": "JD3504",
+            "location": "JD3508",
             "start_time": "1600h",
             "end_time": "1845h"
-        }
-    ],
-    "MSE 509": [
-        {
-            "class_number": "16431",
-            "enrollment_cap": 24,
-            "enrollment_count": 15,
-            "waitlist_cap": 24,
-            "waitlist_count": 0,
-            "instructor": "cesar.gonzales@csun.edu",
-            "days": "T",
-            "location": "JD1115",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "MSE 515": [
-        {
-            "class_number": "20794",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
-            "waitlist_count": 3,
-            "instructor": "silvia.carpitella@csun.edu",
-            "days": "R",
-            "location": "JD1555",
-            "start_time": "1900h",
-            "end_time": "2145h"
         },
         {
-            "class_number": "20904",
-            "enrollment_cap": 30,
-            "enrollment_count": 17,
+            "class_number": "16786",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
             "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "hamidg@csun.edu",
+            "days": "R",
+            "location": "JD3516",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "21938",
+            "enrollment_cap": 35,
+            "enrollment_count": 24,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
-            "instructor": "silvia.carpitella@csun.edu",
-            "days": "W",
-            "location": "JD1563",
+            "instructor": "david.shternberg@csun.edu",
+            "days": "T",
+            "location": "JD3508",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "MSE 516": [
+    "MSE 508": [
         {
-            "class_number": "16987",
-            "enrollment_cap": 24,
-            "enrollment_count": 5,
-            "waitlist_cap": 0,
+            "class_number": "16482",
+            "enrollment_cap": 20,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "khashayar.behdinan@csun.edu",
-            "days": "W",
+            "instructor": "sepideh.abolghasem@csun.edu",
+            "days": "F",
             "location": "JD1126",
             "start_time": "1700h",
             "end_time": "1840h"
         }
     ],
-    "MSE 516L": [
+    "MSE 508L": [
         {
-            "class_number": "16988",
+            "class_number": "16483",
+            "enrollment_cap": 20,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "sepideh.abolghasem@csun.edu",
+            "days": "F",
+            "location": "JD1126",
+            "start_time": "1900h",
+            "end_time": "2130h"
+        }
+    ],
+    "MSE 511": [
+        {
+            "class_number": "16256",
             "enrollment_cap": 24,
-            "enrollment_count": 5,
+            "enrollment_count": 17,
             "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "khashayar.behdinan@csun.edu",
-            "days": "W",
+            "days": "R",
             "location": "JD1126",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "start_time": "1800h",
+            "end_time": "1940h"
         }
     ],
-    "MSE 536": [
+    "MSE 511L": [
         {
-            "class_number": "20836",
-            "enrollment_cap": 30,
-            "enrollment_count": 5,
-            "waitlist_cap": 30,
+            "class_number": "16257",
+            "enrollment_cap": 24,
+            "enrollment_count": 17,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
-            "instructor": "aline.avanessian@csun.edu",
-            "days": "M",
-            "location": "JD3510",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "khashayar.behdinan@csun.edu",
+            "days": "R",
+            "location": "JD1126",
+            "start_time": "1945h",
+            "end_time": "2215h"
         }
     ],
-    "MSE 540": [
+    "MSE 515": [
         {
-            "class_number": "16835",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
+            "class_number": "17013",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 25,
             "waitlist_count": 3,
             "instructor": "sj.gandhi@csun.edu",
             "days": "R",
             "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
+        },
+        {
+            "class_number": "21783",
+            "enrollment_cap": 35,
+            "enrollment_count": 37,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "silvia.carpitella@csun.edu",
+            "days": "R",
+            "location": "JD3510",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
-    "MSE 550": [
+    "MSE 528": [
         {
-            "class_number": "16500",
-            "enrollment_cap": 30,
-            "enrollment_count": 16,
-            "waitlist_cap": 30,
+            "class_number": "16640",
+            "enrollment_cap": 18,
+            "enrollment_count": 23,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "behzad.bavarian@csun.edu",
             "days": "T",
-            "location": "JD1600",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "location": "JD1504",
+            "start_time": "1800h",
+            "end_time": "1940h"
+        }
+    ],
+    "MSE 528L": [
+        {
+            "class_number": "16641",
+            "enrollment_cap": 18,
+            "enrollment_count": 23,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "behzad.bavarian@csun.edu",
+            "days": "T",
+            "location": "JD1504",
+            "start_time": "2000h",
+            "end_time": "2150h"
         }
     ],
     "MSE 600": [
         {
-            "class_number": "16788",
+            "class_number": "16860",
             "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
+            "enrollment_count": 29,
+            "waitlist_cap": 25,
             "waitlist_count": 2,
-            "instructor": "shahriar.vazan@csun.edu",
-            "days": "T",
-            "location": "JD3520",
+            "instructor": "maryam.tabibzadeh@csun.edu",
+            "days": "W",
+            "location": "JD1609",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "16789",
+            "class_number": "16861",
             "enrollment_cap": 30,
-            "enrollment_count": 17,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "enrollment_count": 29,
+            "waitlist_cap": 32,
+            "waitlist_count": 2,
             "instructor": "maryam.tabibzadeh@csun.edu",
             "days": "M",
-            "location": "JD3520",
+            "location": "JD1563",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "MSE 602": [
         {
-            "class_number": "16439",
+            "class_number": "16409",
             "enrollment_cap": 30,
-            "enrollment_count": 21,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "sean.genovese@csun.edu",
+            "enrollment_count": 35,
+            "waitlist_cap": 25,
+            "waitlist_count": 8,
+            "instructor": "shahriar.vazan@csun.edu",
             "days": "S",
-            "location": "JD3520",
+            "location": "JD3502",
             "start_time": "1300h",
             "end_time": "1545h"
         },
         {
-            "class_number": "16633",
-            "enrollment_cap": 30,
-            "enrollment_count": 26,
-            "waitlist_cap": 30,
+            "class_number": "16515",
+            "enrollment_cap": 35,
+            "enrollment_count": 31,
+            "waitlist_cap": 32,
+            "waitlist_count": 1,
+            "instructor": "sean.genovese@csun.edu",
+            "days": "S",
+            "location": "JD3504",
+            "start_time": "1300h",
+            "end_time": "1545h"
+        }
+    ],
+    "MSE 603": [
+        {
+            "class_number": "16465",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
-            "instructor": "hamidg@csun.edu",
-            "days": "M",
-            "location": "SG105",
+            "instructor": "adrian.sita@csun.edu",
+            "days": "T",
+            "location": "JD1552",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "MSE 604": [
         {
-            "class_number": "16295",
+            "class_number": "16261",
             "enrollment_cap": 30,
             "enrollment_count": 30,
-            "waitlist_cap": 30,
+            "waitlist_cap": 25,
             "waitlist_count": 1,
             "instructor": "ahmad.sarfaraz@csun.edu",
-            "days": "W",
-            "location": "JD3510",
+            "days": "M",
+            "location": "JD1593",
             "start_time": "1900h",
             "end_time": "2145h"
-        },
-        {
-            "class_number": "16448",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
-            "waitlist_count": 3,
-            "instructor": "shahriar.vazan@csun.edu",
-            "days": "S",
-            "location": "JD3520",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        {
-            "class_number": "20840",
-            "enrollment_cap": 30,
-            "enrollment_count": 2,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "gus.elias@csun.edu",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h"
         }
     ],
     "MSE 606": [
         {
-            "class_number": "16790",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
-            "waitlist_count": 4,
+            "class_number": "16862",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 25,
+            "waitlist_count": 2,
             "instructor": "silvia.carpitella@csun.edu",
             "days": "T",
-            "location": "JD3514",
+            "location": "JD2528",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "16791",
-            "enrollment_cap": 30,
-            "enrollment_count": 7,
+            "class_number": "16863",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
             "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "silvia.carpitella@csun.edu",
+            "days": "S",
+            "location": "JD3502",
+            "start_time": "1600h",
+            "end_time": "1900h"
+        },
+        {
+            "class_number": "21939",
+            "enrollment_cap": 35,
+            "enrollment_count": 16,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "david.shternberg@csun.edu",
-            "days": "W",
-            "location": "JD3508",
+            "days": "R",
+            "location": "JD3502",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "MSE 608B": [
         {
-            "class_number": "16441",
-            "enrollment_cap": 30,
-            "enrollment_count": 23,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "mark.rajai@csun.edu",
-            "days": "W",
-            "location": "JD3516",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "class_number": "16451",
+            "enrollment_cap": 35,
+            "enrollment_count": 34,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "shahriar.vazan@csun.edu",
+            "days": "S",
+            "location": "JD3510",
+            "start_time": "0900h",
+            "end_time": "1145h"
         },
         {
-            "class_number": "16606",
-            "enrollment_cap": 30,
-            "enrollment_count": 20,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "class_number": "16749",
+            "enrollment_cap": 40,
+            "enrollment_count": 34,
+            "waitlist_cap": 25,
+            "waitlist_count": 4,
             "instructor": "sean.genovese@csun.edu",
-            "days": "R",
-            "location": "JD3514",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "days": "S",
+            "location": "JD3504",
+            "start_time": "0900h",
+            "end_time": "1145h"
         }
     ],
-    "MSE 611": [
+    "MSE 609": [
         {
-            "class_number": "16432",
-            "enrollment_cap": 30,
-            "enrollment_count": 8,
-            "waitlist_cap": 30,
+            "class_number": "16464",
+            "enrollment_cap": 25,
+            "enrollment_count": 28,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
-            "instructor": "adrian.sita@csun.edu",
-            "days": "T",
-            "location": "JD3516",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "MSE 614": [
-        {
-            "class_number": "16433",
-            "enrollment_cap": 30,
-            "enrollment_count": 7,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "adrian.sita@csun.edu",
-            "days": "R",
-            "location": "JD1609",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "MSE 618": [
-        {
-            "class_number": "16403",
-            "enrollment_cap": 30,
-            "enrollment_count": 30,
-            "waitlist_cap": 30,
-            "waitlist_count": 6,
-            "instructor": "jay.hamade.56@csun.edu",
-            "days": "M",
-            "location": "SG100",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "16449",
-            "enrollment_cap": 30,
-            "enrollment_count": 11,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "sepideh.abolghasem@csun.edu",
-            "days": "M",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    ],
-    "MSE 629": [
-        {
-            "class_number": "16501",
-            "enrollment_cap": 30,
-            "enrollment_count": 14,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "behzad.bavarian@csun.edu",
+            "instructor": "bingbing.li@csun.edu",
             "days": "W",
-            "location": "JD1610",
+            "location": "JD1126",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "MSE 617": [
+        {
+            "class_number": "16663",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "jay.hamade.56@csun.edu",
+            "days": "F",
+            "location": "JD3504",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "MSE 690": [
         {
-            "class_number": "16340",
-            "enrollment_cap": 10,
-            "enrollment_count": 1,
+            "class_number": "16263",
+            "enrollment_cap": 6,
+            "enrollment_count": 5,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "behzad.bavarian@csun.edu",
@@ -859,12 +885,12 @@
     ],
     "MSE 697MFS": [
         {
-            "class_number": "16510",
-            "enrollment_cap": 15,
-            "enrollment_count": 2,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "sepideh.abolghasem@csun.edu",
+            "class_number": "16457",
+            "enrollment_cap": 10,
+            "enrollment_count": 10,
+            "waitlist_cap": 10,
+            "waitlist_count": 1,
+            "instructor": "bingbing.li@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -873,22 +899,10 @@
     ],
     "MSE 697MGT": [
         {
-            "class_number": "16511",
-            "enrollment_cap": 15,
-            "enrollment_count": 13,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "ahmad.sarfaraz@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        {
-            "class_number": "16605",
-            "enrollment_cap": 15,
-            "enrollment_count": 11,
-            "waitlist_cap": 15,
+            "class_number": "16456",
+            "enrollment_cap": 6,
+            "enrollment_count": 12,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "maryam.tabibzadeh@csun.edu",
             "days": "A",
@@ -897,12 +911,12 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "16740",
-            "enrollment_cap": 15,
-            "enrollment_count": 15,
-            "waitlist_cap": 15,
-            "waitlist_count": 1,
-            "instructor": "mark.rajai@csun.edu",
+            "class_number": "16633",
+            "enrollment_cap": 10,
+            "enrollment_count": 13,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "ahmad.sarfaraz@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -911,10 +925,10 @@
     ],
     "MSE 697MTL": [
         {
-            "class_number": "16512",
-            "enrollment_cap": 15,
-            "enrollment_count": 2,
-            "waitlist_cap": 15,
+            "class_number": "16458",
+            "enrollment_cap": 6,
+            "enrollment_count": 4,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "behzad.bavarian@csun.edu",
             "days": "A",

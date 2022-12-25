@@ -1,11 +1,35 @@
 {
     "CTVA 100": [
         {
-            "class_number": "10072",
-            "enrollment_cap": 75,
-            "enrollment_count": 64,
-            "waitlist_cap": 75,
-            "waitlist_count": 0,
+            "class_number": "10626",
+            "enrollment_cap": 70,
+            "enrollment_count": 68,
+            "waitlist_cap": 70,
+            "waitlist_count": 1,
+            "instructor": "maria.e.delascarreras@csun.edu",
+            "days": "M",
+            "location": "SH309",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "10812",
+            "enrollment_cap": 70,
+            "enrollment_count": 71,
+            "waitlist_cap": 70,
+            "waitlist_count": 4,
+            "instructor": "dan.watanabe@csun.edu",
+            "days": "MW",
+            "location": "JD3516",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        {
+            "class_number": "11413",
+            "enrollment_cap": 70,
+            "enrollment_count": 69,
+            "waitlist_cap": 70,
+            "waitlist_count": 1,
             "instructor": "andrea.fuller@csun.edu",
             "days": "MW",
             "location": "ONLINE",
@@ -13,199 +37,273 @@
             "end_time": "1045h"
         },
         {
-            "class_number": "11046",
-            "enrollment_cap": 65,
-            "enrollment_count": 42,
-            "waitlist_cap": 75,
+            "class_number": "11865",
+            "enrollment_cap": 70,
+            "enrollment_count": 70,
+            "waitlist_cap": 70,
             "waitlist_count": 0,
-            "instructor": "maria.e.delascarreras@csun.edu",
-            "days": "TR",
-            "location": "BB1131",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "instructor": "andrea.fuller@csun.edu",
+            "days": "T",
+            "location": "MZ361",
+            "start_time": "1600h",
+            "end_time": "1845h"
         },
         {
-            "class_number": "11107",
-            "enrollment_cap": 75,
-            "enrollment_count": 46,
-            "waitlist_cap": 75,
-            "waitlist_count": 0,
-            "instructor": "maria.e.delascarreras@csun.edu",
-            "days": "TR",
-            "location": "BB1131",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "class_number": "11996",
+            "enrollment_cap": 70,
+            "enrollment_count": 70,
+            "waitlist_cap": 70,
+            "waitlist_count": 1,
+            "instructor": "olga.legg@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
     "CTVA 210": [
         {
-            "class_number": "10655",
-            "enrollment_cap": 55,
-            "enrollment_count": 55,
-            "waitlist_cap": 55,
-            "waitlist_count": 4,
+            "class_number": "10252",
+            "enrollment_cap": 100,
+            "enrollment_count": 98,
+            "waitlist_cap": 100,
+            "waitlist_count": 1,
             "instructor": "jacob.bohrod@csun.edu",
-            "days": "T",
-            "location": "SH203",
+            "days": "W",
+            "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1645h"
         },
         {
-            "class_number": "11048",
-            "enrollment_cap": 90,
-            "enrollment_count": 56,
-            "waitlist_cap": 100,
-            "waitlist_count": 0,
+            "class_number": "10542",
+            "enrollment_cap": 50,
+            "enrollment_count": 51,
+            "waitlist_cap": 50,
+            "waitlist_count": 1,
+            "instructor": "david.desser@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "11174",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 3,
             "instructor": "jacob.bohrod@csun.edu",
+            "days": "M",
+            "location": "MZ100",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "11836",
+            "enrollment_cap": 100,
+            "enrollment_count": 95,
+            "waitlist_cap": 100,
+            "waitlist_count": 1,
+            "instructor": "jacob.bohrod@csun.edu",
+            "days": "F",
+            "location": "MZ100",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    ],
+    "CTVA 215": [
+        {
+            "class_number": "20829",
+            "enrollment_cap": 100,
+            "enrollment_count": 101,
+            "waitlist_cap": 100,
+            "waitlist_count": 3,
+            "instructor": "david.desser@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "CTVA 220": [
+        {
+            "class_number": "10253",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "sam.golzari@csun.edu",
+            "days": "TR",
+            "location": "MZ124",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "10254",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "adrian.vina.170@my.csun.edu",
+            "days": "MW",
+            "location": "SH302",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "10255",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "kate.powers@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
         },
         {
-            "class_number": "11325",
-            "enrollment_cap": 55,
-            "enrollment_count": 55,
-            "waitlist_cap": 55,
-            "waitlist_count": 2,
-            "instructor": "jacob.bohrod@csun.edu",
-            "days": "T",
-            "location": "MZ100",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "CTVA 220": [
-        {
-            "class_number": "10074",
+            "class_number": "10256",
             "enrollment_cap": 20,
-            "enrollment_count": 20,
+            "enrollment_count": 21,
             "waitlist_cap": 20,
             "waitlist_count": 1,
-            "instructor": "scott.sturgeon@csun.edu",
+            "instructor": "thomas.ptasinski.210@my.csun.edu",
             "days": "MW",
-            "location": "ONLINE",
+            "location": "MZ124",
             "start_time": "1400h",
             "end_time": "1515h"
         },
         {
-            "class_number": "10075",
+            "class_number": "10399",
             "enrollment_cap": 20,
-            "enrollment_count": 18,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "christopher.childs@csun.edu",
+            "days": "MW",
+            "location": "JR301",
+            "start_time": "1600h",
+            "end_time": "1715h"
+        },
+        {
+            "class_number": "10699",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "carrie.newell.43@my.csun.edu",
+            "days": "TR",
+            "location": "MZ124",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "11197",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "thomas.mcwilliams@csun.edu",
             "days": "TR",
             "location": "MZ124",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "start_time": "1400h",
+            "end_time": "1515h"
         },
         {
-            "class_number": "10796",
+            "class_number": "11198",
             "enrollment_cap": 20,
-            "enrollment_count": 12,
+            "enrollment_count": 20,
             "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "thomas.ptasinski.210@my.csun.edu",
-            "days": "MW",
-            "location": "MZ124",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        {
-            "class_number": "10821",
-            "enrollment_cap": 20,
-            "enrollment_count": 15,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "kate.powers@csun.edu",
-            "days": "MW",
-            "location": "MZ113",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        {
-            "class_number": "11052",
-            "enrollment_cap": 20,
-            "enrollment_count": 8,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "adrian.vina.170@my.csun.edu",
+            "waitlist_count": 4,
+            "instructor": "scott.sturgeon@csun.edu",
             "days": "TR",
-            "location": "MZ113",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1715h"
         },
         {
-            "class_number": "11066",
+            "class_number": "11414",
             "enrollment_cap": 20,
-            "enrollment_count": 9,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "thomas.mcwilliams@csun.edu",
+            "days": "W",
+            "location": "MZ124",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "11433",
+            "enrollment_cap": 20,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "christopher.childs@csun.edu",
+            "days": "R",
+            "location": "MZ124",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "11560",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "nancy.riley@csun.edu",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "days": "F",
+            "location": "MZ124",
+            "start_time": "1100h",
+            "end_time": "1345h"
         }
     ],
     "CTVA 240": [
         {
-            "class_number": "10077",
+            "class_number": "10258",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 1,
-            "instructor": "moses.guerrero@csun.edu",
-            "days": "TR",
-            "location": "MZ180",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        {
-            "class_number": "11018",
-            "enrollment_cap": 24,
-            "enrollment_count": 23,
+            "enrollment_count": 20,
             "waitlist_cap": 24,
             "waitlist_count": 0,
-            "instructor": "moses.guerrero@csun.edu",
+            "instructor": "william.stratford@csun.edu",
             "days": "TR",
             "location": "MZ180",
             "start_time": "1400h",
             "end_time": "1645h"
+        },
+        {
+            "class_number": "10259",
+            "enrollment_cap": 24,
+            "enrollment_count": 17,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "william.stratford@csun.edu",
+            "days": "MW",
+            "location": "MZ180",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "10260",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "william.stratford@csun.edu",
+            "days": "TR",
+            "location": "MZ180",
+            "start_time": "1100h",
+            "end_time": "1345h"
         }
     ],
     "CTVA 250": [
         {
-            "class_number": "10078",
-            "enrollment_cap": 24,
+            "class_number": "10261",
+            "enrollment_cap": 20,
             "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 13,
-            "instructor": "karen.carpenter@csun.edu",
-            "days": "M",
-            "location": "MZ170",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        {
-            "class_number": "10079",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 3,
-            "instructor": "jeffrey.lengyel@csun.edu",
-            "days": "M",
-            "location": "MZ103",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        {
-            "class_number": "10080",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 2,
             "instructor": "alonso.llosa@csun.edu",
             "days": "TR",
             "location": "MZ170",
@@ -213,99 +311,135 @@
             "end_time": "2145h"
         },
         {
-            "class_number": "11019",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 1,
-            "instructor": "henryk.cymerman@csun.edu",
+            "class_number": "10262",
+            "enrollment_cap": 20,
+            "enrollment_count": 23,
+            "waitlist_cap": 20,
+            "waitlist_count": 4,
+            "instructor": "karen.carpenter@csun.edu",
             "days": "MW",
-            "location": "MZ113",
+            "location": "MZ170",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "10263",
+            "enrollment_cap": 20,
+            "enrollment_count": 24,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "nancy.riley@csun.edu",
+            "days": "MW",
+            "location": "MZ130",
             "start_time": "1400h",
             "end_time": "1645h"
+        },
+        {
+            "class_number": "10264",
+            "enrollment_cap": 20,
+            "enrollment_count": 23,
+            "waitlist_cap": 20,
+            "waitlist_count": 6,
+            "instructor": "jeffrey.lengyel@csun.edu",
+            "days": "MW",
+            "location": "MZ113",
+            "start_time": "1100h",
+            "end_time": "1345h"
         }
     ],
     "CTVA 260": [
         {
-            "class_number": "11798",
-            "enrollment_cap": 25,
-            "enrollment_count": 17,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
+            "class_number": "11808",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
             "instructor": "karen.carpenter@csun.edu",
             "days": "MW",
-            "location": "MZ113",
+            "location": "MZ124",
             "start_time": "0800h",
             "end_time": "1045h"
         },
         {
-            "class_number": "11799",
-            "enrollment_cap": 25,
-            "enrollment_count": 25,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "henryk.cymerman@csun.edu",
+            "class_number": "11809",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 4,
+            "instructor": "annamarie.piersimoni@csun.edu",
             "days": "MW",
-            "location": "MZ101",
+            "location": "MZ124",
             "start_time": "1100h",
             "end_time": "1345h"
         }
     ],
     "CTVA 301": [
         {
-            "class_number": "10611",
+            "class_number": "10266",
             "enrollment_cap": 30,
-            "enrollment_count": 15,
+            "enrollment_count": 31,
             "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "billie.mason@csun.edu",
+            "instructor": "dan.watanabe@csun.edu",
             "days": "MW",
-            "location": "MZ124",
+            "location": "MZ113",
             "start_time": "0930h",
             "end_time": "1045h"
         },
         {
-            "class_number": "11045",
+            "class_number": "11401",
             "enrollment_cap": 30,
-            "enrollment_count": 13,
+            "enrollment_count": 25,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "billie.mason@csun.edu",
-            "days": "MW",
+            "waitlist_count": 1,
+            "instructor": "hamidou.soumah@csun.edu",
+            "days": "TR",
             "location": "MZ113",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "start_time": "1400h",
+            "end_time": "1515h"
         },
         {
-            "class_number": "11339",
+            "class_number": "11539",
             "enrollment_cap": 30,
-            "enrollment_count": 23,
+            "enrollment_count": 30,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "dan.watanabe@csun.edu",
-            "days": "TR",
+            "days": "M",
             "location": "MZ113",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "CTVA 305": [
         {
-            "class_number": "10711",
+            "class_number": "10543",
             "enrollment_cap": 60,
-            "enrollment_count": 30,
+            "enrollment_count": 52,
             "waitlist_cap": 60,
             "waitlist_count": 0,
-            "instructor": "andrea.fuller@csun.edu",
-            "days": "W",
-            "location": "MZ361",
+            "instructor": "dianah.wynter@csun.edu",
+            "days": "R",
+            "location": "MZ122",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         {
-            "class_number": "11068",
+            "class_number": "11141",
             "enrollment_cap": 60,
-            "enrollment_count": 36,
+            "enrollment_count": 43,
+            "waitlist_cap": 60,
+            "waitlist_count": 0,
+            "instructor": "andrea.fuller@csun.edu",
+            "days": "F",
+            "location": "MZ130",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "11415",
+            "enrollment_cap": 60,
+            "enrollment_count": 58,
             "waitlist_cap": 60,
             "waitlist_count": 0,
             "instructor": "andrea.fuller@csun.edu",
@@ -317,62 +451,86 @@
     ],
     "CTVA 309": [
         {
-            "class_number": "10081",
+            "class_number": "10267",
+            "enrollment_cap": 70,
+            "enrollment_count": 51,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "hamidou.soumah@csun.edu",
+            "days": "F",
+            "location": "MZ100",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "10269",
             "enrollment_cap": 70,
             "enrollment_count": 70,
             "waitlist_cap": 70,
-            "waitlist_count": 1,
-            "instructor": "dianah.wynter@csun.edu",
+            "waitlist_count": 2,
+            "instructor": "maria.e.delascarreras@csun.edu",
             "days": "T",
             "location": "MZ100",
             "start_time": "1400h",
             "end_time": "1645h"
         },
         {
-            "class_number": "10082",
+            "class_number": "10824",
             "enrollment_cap": 70,
-            "enrollment_count": 44,
+            "enrollment_count": 64,
             "waitlist_cap": 70,
             "waitlist_count": 0,
-            "instructor": "hamidou.soumah@csun.edu",
-            "days": "F",
+            "instructor": "dianah.wynter@csun.edu",
+            "days": "W",
             "location": "MZ100",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     ],
     "CTVA 310": [
         {
-            "class_number": "10083",
-            "enrollment_cap": 60,
-            "enrollment_count": 29,
-            "waitlist_cap": 60,
-            "waitlist_count": 0,
-            "instructor": "maria.e.delascarreras@csun.edu",
-            "days": "M",
+            "class_number": "10396",
+            "enrollment_cap": 70,
+            "enrollment_count": 69,
+            "waitlist_cap": 70,
+            "waitlist_count": 1,
+            "instructor": "andrea.fuller@csun.edu",
+            "days": "T",
             "location": "MZ100",
             "start_time": "1100h",
             "end_time": "1345h"
         },
         {
-            "class_number": "11952",
-            "enrollment_cap": 60,
-            "enrollment_count": 55,
-            "waitlist_cap": 60,
+            "class_number": "11897",
+            "enrollment_cap": 70,
+            "enrollment_count": 56,
+            "waitlist_cap": 70,
             "waitlist_count": 0,
-            "instructor": null,
-            "days": "F",
+            "instructor": "maria.e.delascarreras@csun.edu",
+            "days": "R",
+            "location": "MZ100",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "21455",
+            "enrollment_cap": 70,
+            "enrollment_count": 71,
+            "waitlist_cap": 70,
+            "waitlist_count": 1,
+            "instructor": "david.desser@csun.edu",
+            "days": "W",
             "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     ],
     "CTVA 315": [
         {
-            "class_number": "10084",
-            "enrollment_cap": 41,
-            "enrollment_count": 8,
-            "waitlist_cap": 41,
+            "class_number": "10465",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "annamarie.piersimoni@csun.edu",
             "days": "TR",
@@ -383,11 +541,47 @@
     ],
     "CTVA 319": [
         {
-            "class_number": "10085",
+            "class_number": "10275",
             "enrollment_cap": 55,
-            "enrollment_count": 47,
+            "enrollment_count": 55,
             "waitlist_cap": 55,
-            "waitlist_count": 0,
+            "waitlist_count": 7,
+            "instructor": "hamidou.soumah@csun.edu",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "11768",
+            "enrollment_cap": 55,
+            "enrollment_count": 55,
+            "waitlist_cap": 55,
+            "waitlist_count": 11,
+            "instructor": null,
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "11769",
+            "enrollment_cap": 55,
+            "enrollment_count": 57,
+            "waitlist_cap": 55,
+            "waitlist_count": 3,
+            "instructor": "hamidou.soumah@csun.edu",
+            "days": "F",
+            "location": "MZ100",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "20795",
+            "enrollment_cap": 55,
+            "enrollment_count": 58,
+            "waitlist_cap": 55,
+            "waitlist_count": 4,
             "instructor": "hamidou.soumah@csun.edu",
             "days": "M",
             "location": "MZ100",
@@ -395,87 +589,51 @@
             "end_time": "1645h"
         },
         {
-            "class_number": "11804",
+            "class_number": "21550",
             "enrollment_cap": 55,
-            "enrollment_count": 55,
+            "enrollment_count": 56,
             "waitlist_cap": 55,
-            "waitlist_count": 3,
-            "instructor": null,
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        {
-            "class_number": "11953",
-            "enrollment_cap": 55,
-            "enrollment_count": 55,
-            "waitlist_cap": 55,
-            "waitlist_count": 3,
+            "waitlist_count": 7,
             "instructor": null,
             "days": "W",
             "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h"
-        },
-        {
-            "class_number": "11954",
-            "enrollment_cap": 55,
-            "enrollment_count": 32,
-            "waitlist_cap": 55,
-            "waitlist_count": 0,
-            "instructor": "hamidou.soumah@csun.edu",
-            "days": "R",
-            "location": "MZ100",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        {
-            "class_number": "12023",
-            "enrollment_cap": 55,
-            "enrollment_count": 43,
-            "waitlist_cap": 55,
-            "waitlist_count": 0,
-            "instructor": "hamidou.soumah@csun.edu",
-            "days": "F",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1645h"
         }
     ],
     "CTVA 320": [
         {
-            "class_number": "10086",
+            "class_number": "10279",
             "enrollment_cap": 20,
-            "enrollment_count": 20,
+            "enrollment_count": 21,
             "waitlist_cap": 20,
-            "waitlist_count": 2,
+            "waitlist_count": 5,
             "instructor": "thomas.mcwilliams@csun.edu",
-            "days": "TR",
-            "location": "MZ124",
+            "days": "MW",
+            "location": "SH302",
             "start_time": "1230h",
             "end_time": "1345h"
         },
         {
-            "class_number": "10931",
+            "class_number": "10871",
             "enrollment_cap": 20,
-            "enrollment_count": 12,
+            "enrollment_count": 20,
             "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "christopher.childs@csun.edu",
-            "days": "T",
-            "location": "MZ124",
+            "waitlist_count": 1,
+            "instructor": "nancy.riley@csun.edu",
+            "days": "R",
+            "location": "MZ113",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         {
-            "class_number": "11155",
+            "class_number": "11402",
             "enrollment_cap": 20,
-            "enrollment_count": 15,
+            "enrollment_count": 21,
             "waitlist_cap": 20,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "thomas.mcwilliams@csun.edu",
-            "days": "W",
+            "days": "T",
             "location": "MZ124",
             "start_time": "1600h",
             "end_time": "1845h"
@@ -483,9 +641,9 @@
     ],
     "CTVA 329A": [
         {
-            "class_number": "10087",
+            "class_number": "10281",
             "enrollment_cap": 35,
-            "enrollment_count": 16,
+            "enrollment_count": 43,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "jared.h.rappaport@csun.edu",
@@ -497,9 +655,9 @@
     ],
     "CTVA 329B": [
         {
-            "class_number": "10105",
+            "class_number": "10282",
             "enrollment_cap": 35,
-            "enrollment_count": 17,
+            "enrollment_count": 19,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "jared.h.rappaport@csun.edu",
@@ -511,10 +669,10 @@
     ],
     "CTVA 329C": [
         {
-            "class_number": "10088",
-            "enrollment_cap": 105,
-            "enrollment_count": 31,
-            "waitlist_cap": 105,
+            "class_number": "10283",
+            "enrollment_cap": 75,
+            "enrollment_count": 65,
+            "waitlist_cap": 75,
             "waitlist_count": 0,
             "instructor": "jared.h.rappaport@csun.edu",
             "days": "A",
@@ -525,7 +683,7 @@
     ],
     "CTVA 331": [
         {
-            "class_number": "11955",
+            "class_number": "20601",
             "enrollment_cap": 24,
             "enrollment_count": 18,
             "waitlist_cap": 24,
@@ -537,21 +695,35 @@
             "end_time": "1345h"
         }
     ],
-    "CTVA 341": [
+    "CTVA 340": [
         {
-            "class_number": "10098",
+            "class_number": "10284",
             "enrollment_cap": 24,
-            "enrollment_count": 15,
+            "enrollment_count": 23,
             "waitlist_cap": 24,
             "waitlist_count": 0,
-            "instructor": "erik.boccio@csun.edu",
-            "days": "TR",
-            "location": "MZ130",
-            "start_time": "0800h",
-            "end_time": "1045h"
+            "instructor": null,
+            "days": "MW",
+            "location": "MZ180",
+            "start_time": "1400h",
+            "end_time": "1645h"
         },
         {
-            "class_number": "10809",
+            "class_number": "10612",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": null,
+            "days": "MW",
+            "location": "MZ180",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    ],
+    "CTVA 341": [
+        {
+            "class_number": "10285",
             "enrollment_cap": 24,
             "enrollment_count": 15,
             "waitlist_cap": 24,
@@ -563,7 +735,19 @@
             "end_time": "1345h"
         },
         {
-            "class_number": "11249",
+            "class_number": "10613",
+            "enrollment_cap": 24,
+            "enrollment_count": 17,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "ashley.york@csun.edu",
+            "days": "TR",
+            "location": "MZ130",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "11588",
             "enrollment_cap": 24,
             "enrollment_count": 14,
             "waitlist_cap": 24,
@@ -577,24 +761,24 @@
     ],
     "CTVA 342": [
         {
-            "class_number": "10774",
+            "class_number": "10548",
             "enrollment_cap": 22,
-            "enrollment_count": 17,
+            "enrollment_count": 22,
             "waitlist_cap": 22,
             "waitlist_count": 0,
             "instructor": "erik.boccio@csun.edu",
-            "days": "F",
+            "days": "TR",
             "location": "MZ180",
-            "start_time": "1100h",
-            "end_time": "1645h"
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "CTVA 346": [
         {
-            "class_number": "12003",
-            "enrollment_cap": 24,
-            "enrollment_count": 21,
-            "waitlist_cap": 24,
+            "class_number": "20616",
+            "enrollment_cap": 30,
+            "enrollment_count": 23,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "quinn.saunders@csun.edu",
             "days": "MW",
@@ -605,23 +789,23 @@
     ],
     "CTVA 350": [
         {
-            "class_number": "10090",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 20,
-            "waitlist_count": 7,
-            "instructor": "jeffrey.lengyel@csun.edu",
-            "days": "MW",
+            "class_number": "10286",
+            "enrollment_cap": 22,
+            "enrollment_count": 21,
+            "waitlist_cap": 22,
+            "waitlist_count": 1,
+            "instructor": "harvey.laidman@csun.edu",
+            "days": "TR",
             "location": "MZ170",
             "start_time": "1400h",
             "end_time": "1645h"
         },
         {
-            "class_number": "10102",
-            "enrollment_cap": 20,
+            "class_number": "10557",
+            "enrollment_cap": 22,
             "enrollment_count": 21,
-            "waitlist_cap": 20,
-            "waitlist_count": 4,
+            "waitlist_cap": 22,
+            "waitlist_count": 1,
             "instructor": "harvey.laidman@csun.edu",
             "days": "TR",
             "location": "MZ170",
@@ -629,13 +813,13 @@
             "end_time": "1345h"
         },
         {
-            "class_number": "11519",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 20,
-            "waitlist_count": 5,
-            "instructor": "harvey.laidman@csun.edu",
-            "days": "TR",
+            "class_number": "10872",
+            "enrollment_cap": 22,
+            "enrollment_count": 21,
+            "waitlist_cap": 22,
+            "waitlist_count": 1,
+            "instructor": "jeffrey.lengyel@csun.edu",
+            "days": "MW",
             "location": "MZ170",
             "start_time": "1400h",
             "end_time": "1645h"
@@ -643,10 +827,10 @@
     ],
     "CTVA 351": [
         {
-            "class_number": "10091",
-            "enrollment_cap": 60,
-            "enrollment_count": 55,
-            "waitlist_cap": 60,
+            "class_number": "10287",
+            "enrollment_cap": 70,
+            "enrollment_count": 73,
+            "waitlist_cap": 70,
             "waitlist_count": 0,
             "instructor": "nate.thomas@csun.edu",
             "days": "R",
@@ -657,9 +841,21 @@
     ],
     "CTVA 352": [
         {
-            "class_number": "10700",
+            "class_number": "10288",
             "enrollment_cap": 20,
-            "enrollment_count": 11,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "kyle.keris@csun.edu",
+            "days": "MW",
+            "location": "MZ295",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "10466",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "paul.petschek@csun.edu",
@@ -669,9 +865,9 @@
             "end_time": "1345h"
         },
         {
-            "class_number": "11073",
+            "class_number": "11203",
             "enrollment_cap": 20,
-            "enrollment_count": 11,
+            "enrollment_count": 16,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "paul.petschek@csun.edu",
@@ -683,21 +879,9 @@
     ],
     "CTVA 355": [
         {
-            "class_number": "10099",
+            "class_number": "10289",
             "enrollment_cap": 25,
-            "enrollment_count": 24,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "michael.hoggan@csun.edu",
-            "days": "MW",
-            "location": "MZ170",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        {
-            "class_number": "10100",
-            "enrollment_cap": 25,
-            "enrollment_count": 18,
+            "enrollment_count": 28,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "nate.thomas@csun.edu",
@@ -705,13 +889,25 @@
             "location": "MZ170",
             "start_time": "0800h",
             "end_time": "1045h"
+        },
+        {
+            "class_number": "10290",
+            "enrollment_cap": 25,
+            "enrollment_count": 29,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "michael.hoggan@csun.edu",
+            "days": "MW",
+            "location": "MZ170",
+            "start_time": "0800h",
+            "end_time": "1045h"
         }
     ],
     "CTVA 356": [
         {
-            "class_number": "10101",
+            "class_number": "10291",
             "enrollment_cap": 20,
-            "enrollment_count": 10,
+            "enrollment_count": 18,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "michael.hoggan@csun.edu",
@@ -723,9 +919,9 @@
     ],
     "CTVA 357": [
         {
-            "class_number": "10103",
+            "class_number": "10292",
             "enrollment_cap": 20,
-            "enrollment_count": 11,
+            "enrollment_count": 20,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "ino.yang.popper@csun.edu",
@@ -737,9 +933,9 @@
     ],
     "CTVA 358": [
         {
-            "class_number": "11058",
+            "class_number": "10801",
             "enrollment_cap": 20,
-            "enrollment_count": 12,
+            "enrollment_count": 19,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "russell.williams@csun.edu",
@@ -751,21 +947,9 @@
     ],
     "CTVA 359": [
         {
-            "class_number": "10686",
+            "class_number": "10553",
             "enrollment_cap": 20,
-            "enrollment_count": 13,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "joel.krantz@csun.edu",
-            "days": "M",
-            "location": "MZ295",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        {
-            "class_number": "11160",
-            "enrollment_cap": 20,
-            "enrollment_count": 12,
+            "enrollment_count": 20,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "joel.krantz@csun.edu",
@@ -777,9 +961,9 @@
     ],
     "CTVA 363": [
         {
-            "class_number": "11980",
+            "class_number": "20570",
             "enrollment_cap": 24,
-            "enrollment_count": 10,
+            "enrollment_count": 23,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "elizabeth.leister@csun.edu",
@@ -787,13 +971,25 @@
             "location": "MZ285",
             "start_time": "1100h",
             "end_time": "1345h"
+        },
+        {
+            "class_number": "20571",
+            "enrollment_cap": 24,
+            "enrollment_count": 10,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "alonso.llosa@csun.edu",
+            "days": "TR",
+            "location": "MZ285",
+            "start_time": "0800h",
+            "end_time": "1045h"
         }
     ],
     "CTVA 364": [
         {
-            "class_number": "11951",
+            "class_number": "20572",
             "enrollment_cap": 24,
-            "enrollment_count": 25,
+            "enrollment_count": 21,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "jarmick@csun.edu",
@@ -805,11 +1001,11 @@
     ],
     "CTVA 370": [
         {
-            "class_number": "11981",
+            "class_number": "20573",
             "enrollment_cap": 20,
-            "enrollment_count": 8,
+            "enrollment_count": 20,
             "waitlist_cap": 20,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "joel.krantz@csun.edu",
             "days": "T",
             "location": "MZ265",
@@ -819,13 +1015,13 @@
     ],
     "CTVA 384": [
         {
-            "class_number": "10093",
+            "class_number": "10294",
             "enrollment_cap": 40,
-            "enrollment_count": 22,
+            "enrollment_count": 34,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "todd.holmes@csun.edu",
-            "days": "T",
+            "days": "W",
             "location": "MZ101",
             "start_time": "1600h",
             "end_time": "1845h"
@@ -833,237 +1029,221 @@
     ],
     "CTVA 400": [
         {
-            "class_number": "10776",
-            "enrollment_cap": 41,
-            "enrollment_count": 9,
-            "waitlist_cap": 41,
-            "waitlist_count": 0,
-            "instructor": "annamarie.piersimoni@csun.edu",
-            "days": "MW",
-            "location": "MZ101",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    ],
-    "CTVA 405": [
-        {
-            "class_number": "11049",
-            "enrollment_cap": 40,
-            "enrollment_count": 11,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "todd.lituchy@csun.edu",
-            "days": "W",
-            "location": "MZ103",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "CTVA 410": [
-        {
-            "class_number": "11172",
+            "class_number": "10295",
             "enrollment_cap": 30,
-            "enrollment_count": 10,
+            "enrollment_count": 20,
             "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "hamidou.soumah@csun.edu",
-            "days": "W",
-            "location": "MZ100",
+            "instructor": "dianah.wynter@csun.edu",
+            "days": "R",
+            "location": "JD3520",
             "start_time": "1100h",
             "end_time": "1345h"
         }
     ],
     "CTVA 412": [
         {
-            "class_number": "11069",
-            "enrollment_cap": 30,
-            "enrollment_count": 14,
-            "waitlist_cap": 30,
+            "class_number": "11206",
+            "enrollment_cap": 45,
+            "enrollment_count": 25,
+            "waitlist_cap": 45,
             "waitlist_count": 0,
-            "instructor": "dianah.wynter@csun.edu",
-            "days": "M",
-            "location": "MZ101",
-            "start_time": "1400h",
-            "end_time": "1645h"
+            "instructor": "david.desser@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1345h"
         }
     ],
-    "CTVA 415C": [
+    "CTVA 413": [
         {
-            "class_number": "11857",
-            "enrollment_cap": 40,
-            "enrollment_count": 8,
-            "waitlist_cap": 40,
+            "class_number": "11142",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": null,
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "instructor": "joi.carr@csun.edu",
+            "days": "W",
+            "location": "MZ100",
+            "start_time": "1100h",
+            "end_time": "1345h"
         }
     ],
     "CTVA 416": [
         {
-            "class_number": "10775",
-            "enrollment_cap": 33,
-            "enrollment_count": 28,
-            "waitlist_cap": 33,
-            "waitlist_count": 0,
-            "instructor": "david.de-rozas@csun.edu",
-            "days": "TR",
+            "class_number": "10296",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "maria.e.delascarreras@csun.edu",
+            "days": "R",
             "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     ],
     "CTVA 420": [
         {
-            "class_number": "10653",
+            "class_number": "10582",
             "enrollment_cap": 18,
-            "enrollment_count": 18,
+            "enrollment_count": 19,
             "waitlist_cap": 18,
-            "waitlist_count": 0,
-            "instructor": "laurence.walshhodson@csun.edu",
+            "waitlist_count": 1,
+            "instructor": "morgan.land@csun.edu",
             "days": "M",
             "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "start_time": "1600h",
+            "end_time": "1845h"
         },
         {
-            "class_number": "11094",
+            "class_number": "10583",
             "enrollment_cap": 18,
-            "enrollment_count": 18,
+            "enrollment_count": 20,
             "waitlist_cap": 18,
-            "waitlist_count": 2,
-            "instructor": "morgan.land@csun.edu",
+            "waitlist_count": 1,
+            "instructor": "nancy.riley@csun.edu",
             "days": "T",
             "location": "MZ113",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         {
-            "class_number": "12029",
+            "class_number": "20566",
             "enrollment_cap": 18,
-            "enrollment_count": 11,
+            "enrollment_count": 17,
             "waitlist_cap": 18,
             "waitlist_count": 0,
             "instructor": "laurence.walshhodson@csun.edu",
-            "days": "F",
-            "location": "MZ124",
-            "start_time": "1400h",
-            "end_time": "1645h"
+            "days": "W",
+            "location": "SH224",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
     "CTVA 421": [
         {
-            "class_number": "10552",
+            "class_number": "10584",
             "enrollment_cap": 20,
             "enrollment_count": 20,
             "waitlist_cap": 20,
-            "waitlist_count": 4,
-            "instructor": "nancy.riley@csun.edu",
+            "waitlist_count": 1,
+            "instructor": "jennifer.prediger.484@my.csun.edu",
             "days": "M",
-            "location": "SH302",
+            "location": "SH371",
             "start_time": "1100h",
             "end_time": "1345h"
         },
         {
-            "class_number": "11391",
+            "class_number": "11403",
             "enrollment_cap": 20,
-            "enrollment_count": 19,
+            "enrollment_count": 18,
             "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "scott.sturgeon@csun.edu",
-            "days": "MW",
+            "instructor": "justin.winters.418@my.csun.edu",
+            "days": "W",
             "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "21540",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "carrie.newell.43@my.csun.edu",
+            "days": "F",
+            "location": "MZ114",
             "start_time": "1100h",
-            "end_time": "1215h"
+            "end_time": "1345h"
         }
     ],
     "CTVA 422": [
         {
-            "class_number": "11805",
+            "class_number": "11867",
             "enrollment_cap": 15,
-            "enrollment_count": 16,
+            "enrollment_count": 20,
             "waitlist_cap": 15,
             "waitlist_count": 4,
-            "instructor": "patricia.carr@csun.edu",
-            "days": "W",
-            "location": "ONLINE",
+            "instructor": "kate.powers@csun.edu",
+            "days": "R",
+            "location": "MZ111",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "11982",
+            "class_number": "20567",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 22,
             "waitlist_cap": 15,
-            "waitlist_count": 1,
-            "instructor": "kate.powers@csun.edu",
-            "days": "R",
-            "location": "MZ124",
+            "waitlist_count": 0,
+            "instructor": "hugh.fink@csun.edu",
+            "days": "W",
+            "location": "MZ363",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "CTVA 425": [
         {
-            "class_number": "10701",
-            "enrollment_cap": 18,
-            "enrollment_count": 20,
-            "waitlist_cap": 18,
-            "waitlist_count": 2,
+            "class_number": "10585",
+            "enrollment_cap": 20,
+            "enrollment_count": 22,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
             "instructor": "nancy.riley@csun.edu",
-            "days": "W",
-            "location": "ONLINE",
+            "days": "T",
+            "location": "MZ363",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "12031",
-            "enrollment_cap": 17,
-            "enrollment_count": 17,
+            "class_number": "11207",
+            "enrollment_cap": 18,
+            "enrollment_count": 19,
             "waitlist_cap": 18,
-            "waitlist_count": 1,
-            "instructor": "michael.bucklin@csun.edu",
+            "waitlist_count": 2,
+            "instructor": "laurence.walshhodson@csun.edu",
             "days": "F",
-            "location": "MZ113",
+            "location": "MZ363",
             "start_time": "1400h",
             "end_time": "1645h"
         }
     ],
     "CTVA 428": [
         {
-            "class_number": "10094",
+            "class_number": "10586",
             "enrollment_cap": 18,
-            "enrollment_count": 16,
+            "enrollment_count": 18,
             "waitlist_cap": 18,
-            "waitlist_count": 0,
-            "instructor": "christopher.moore@csun.edu",
-            "days": "W",
-            "location": "JR218",
+            "waitlist_count": 4,
+            "instructor": "jon.stahl@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         {
-            "class_number": "11848",
-            "enrollment_cap": 17,
-            "enrollment_count": 17,
+            "class_number": "11667",
+            "enrollment_cap": 18,
+            "enrollment_count": 18,
             "waitlist_cap": 18,
-            "waitlist_count": 4,
-            "instructor": "hugh.fink@csun.edu",
-            "days": "R",
-            "location": "ONLINE",
+            "waitlist_count": 0,
+            "instructor": "jon.vandergriff@csun.edu",
+            "days": "W",
+            "location": "MZ111",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
     "CTVA 440": [
         {
-            "class_number": "10095",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
+            "class_number": "10345",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
             "instructor": "quinn.saunders@csun.edu",
             "days": "T",
             "location": "MZ180",
@@ -1071,21 +1251,9 @@
             "end_time": "1045h"
         },
         {
-            "class_number": "11086",
+            "class_number": "11204",
             "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 20,
-            "waitlist_count": 3,
-            "instructor": "christine.shin@csun.edu",
-            "days": "W",
-            "location": "MZ130",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        {
-            "class_number": "11688",
-            "enrollment_cap": 20,
-            "enrollment_count": 11,
+            "enrollment_count": 15,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "alessandro.jacchia@csun.edu",
@@ -1093,28 +1261,40 @@
             "location": "MZ180",
             "start_time": "0800h",
             "end_time": "1045h"
+        },
+        {
+            "class_number": "11699",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 2,
+            "instructor": "christine.shin@csun.edu",
+            "days": "W",
+            "location": "SH390",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
     "CTVA 441": [
         {
-            "class_number": "10554",
+            "class_number": "10579",
             "enrollment_cap": 24,
-            "enrollment_count": 18,
+            "enrollment_count": 24,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "judy.korin@csun.edu",
             "days": "MW",
-            "location": "MZ281",
-            "start_time": "0800h",
-            "end_time": "1045h"
+            "location": "MZ122",
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     ],
     "CTVA 442": [
         {
-            "class_number": "10811",
-            "enrollment_cap": 21,
-            "enrollment_count": 14,
-            "waitlist_cap": 21,
+            "class_number": "10580",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "quinn.saunders@csun.edu",
             "days": "MW",
@@ -1123,10 +1303,10 @@
             "end_time": "1515h"
         },
         {
-            "class_number": "11411",
-            "enrollment_cap": 21,
-            "enrollment_count": 11,
-            "waitlist_cap": 21,
+            "class_number": "11297",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "alessandro.jacchia@csun.edu",
             "days": "TR",
@@ -1137,9 +1317,9 @@
     ],
     "CTVA 452A": [
         {
-            "class_number": "10104",
+            "class_number": "10346",
             "enrollment_cap": 48,
-            "enrollment_count": 30,
+            "enrollment_count": 51,
             "waitlist_cap": 48,
             "waitlist_count": 0,
             "instructor": "nate.thomas@csun.edu",
@@ -1151,11 +1331,11 @@
     ],
     "CTVA 452B": [
         {
-            "class_number": "11983",
+            "class_number": "20849",
             "enrollment_cap": 30,
-            "enrollment_count": 32,
+            "enrollment_count": 61,
             "waitlist_cap": 30,
-            "waitlist_count": 2,
+            "waitlist_count": 0,
             "instructor": "nate.thomas@csun.edu",
             "days": "TR",
             "location": "MZ103",
@@ -1165,21 +1345,21 @@
     ],
     "CTVA 453": [
         {
-            "class_number": "11984",
+            "class_number": "20851",
             "enrollment_cap": 20,
-            "enrollment_count": 20,
+            "enrollment_count": 30,
             "waitlist_cap": 20,
-            "waitlist_count": 2,
+            "waitlist_count": 0,
             "instructor": "joel.krantz@csun.edu",
             "days": "F",
-            "location": "MZ265",
+            "location": "MZ361",
             "start_time": "0900h",
             "end_time": "1400h"
         },
         {
-            "class_number": "12009",
+            "class_number": "20853",
             "enrollment_cap": 20,
-            "enrollment_count": 14,
+            "enrollment_count": 28,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "michael.hoggan@csun.edu",
@@ -1191,33 +1371,33 @@
     ],
     "CTVA 455": [
         {
-            "class_number": "11886",
+            "class_number": "11759",
             "enrollment_cap": 30,
-            "enrollment_count": 18,
+            "enrollment_count": 22,
             "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "christina.sibul@csun.edu",
+            "instructor": "joel.mcdonell@csun.edu",
             "days": "M",
-            "location": "ONLINE",
+            "location": "MZ363",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "11985",
+            "class_number": "11957",
             "enrollment_cap": 30,
-            "enrollment_count": 15,
+            "enrollment_count": 21,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "karen.carpenter@csun.edu",
             "days": "W",
-            "location": "MZ103",
+            "location": "SH287",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
     "CTVA 462": [
         {
-            "class_number": "12005",
+            "class_number": "20574",
             "enrollment_cap": 24,
             "enrollment_count": 14,
             "waitlist_cap": 24,
@@ -1231,9 +1411,9 @@
     ],
     "CTVA 463CS": [
         {
-            "class_number": "12004",
+            "class_number": "20575",
             "enrollment_cap": 24,
-            "enrollment_count": 14,
+            "enrollment_count": 11,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "elizabeth.leister@csun.edu",
@@ -1243,127 +1423,155 @@
             "end_time": "1645h"
         }
     ],
+    "CTVA 467": [
+        {
+            "class_number": "10352",
+            "enrollment_cap": 65,
+            "enrollment_count": 68,
+            "waitlist_cap": 65,
+            "waitlist_count": 1,
+            "instructor": "gregory.ciaccio@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
     "CTVA 475": [
         {
-            "class_number": "10883",
-            "enrollment_cap": 40,
-            "enrollment_count": 33,
-            "waitlist_cap": 40,
+            "class_number": "10348",
+            "enrollment_cap": 30,
+            "enrollment_count": 31,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "todd.holmes@csun.edu",
+            "days": "T",
+            "location": "MZ115",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        {
+            "class_number": "10701",
+            "enrollment_cap": 30,
+            "enrollment_count": 28,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "todd.holmes@csun.edu",
             "days": "M",
-            "location": "MZ103",
+            "location": "MZ114",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "CTVA 480": [
         {
-            "class_number": "10902",
-            "enrollment_cap": 40,
-            "enrollment_count": 7,
-            "waitlist_cap": 40,
+            "class_number": "10349",
+            "enrollment_cap": 35,
+            "enrollment_count": 21,
+            "waitlist_cap": 35,
             "waitlist_count": 0,
+            "instructor": "roger.smith@csun.edu",
+            "days": "W",
+            "location": "JR119",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "10822",
+            "enrollment_cap": 35,
+            "enrollment_count": 33,
+            "waitlist_cap": 35,
+            "waitlist_count": 2,
+            "instructor": "christina.sibul@csun.edu",
+            "days": "R",
+            "location": "MZ101",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "20576",
+            "enrollment_cap": 35,
+            "enrollment_count": 34,
+            "waitlist_cap": 35,
+            "waitlist_count": 2,
             "instructor": "james.overman@csun.edu",
             "days": "T",
             "location": "MZ101",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "CTVA 481": [
+        {
+            "class_number": "10350",
+            "enrollment_cap": 40,
+            "enrollment_count": 23,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "james.overman@csun.edu",
+            "days": "W",
+            "location": "JR130",
             "start_time": "1900h",
             "end_time": "2145h"
-        },
-        {
-            "class_number": "10927",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "christina.sibul@csun.edu",
-            "days": "T",
-            "location": "NH209",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        {
-            "class_number": "11987",
-            "enrollment_cap": 40,
-            "enrollment_count": 26,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "todd.holmes@csun.edu",
-            "days": "W",
-            "location": "MZ101",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        {
-            "class_number": "11988",
-            "enrollment_cap": 40,
-            "enrollment_count": 9,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "roger.smith@csun.edu",
-            "days": "F",
-            "location": "MZ101",
-            "start_time": "1400h",
-            "end_time": "1645h"
         }
     ],
     "CTVA 482": [
         {
-            "class_number": "10096",
+            "class_number": "10464",
             "enrollment_cap": 35,
-            "enrollment_count": 3,
+            "enrollment_count": 22,
             "waitlist_cap": 35,
             "waitlist_count": 0,
-            "instructor": "earlene.gray@csun.edu",
-            "days": "M",
-            "location": "MZ113",
+            "instructor": "christina.sibul@csun.edu",
+            "days": "W",
+            "location": "MZ103",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "11061",
+            "class_number": "10835",
             "enrollment_cap": 35,
             "enrollment_count": 35,
             "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "julieann.sipos@csun.edu",
-            "days": "W",
+            "waitlist_count": 1,
+            "instructor": "christina.sibul@csun.edu",
+            "days": "M",
             "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         {
-            "class_number": "11989",
+            "class_number": "11900",
             "enrollment_cap": 35,
-            "enrollment_count": 23,
+            "enrollment_count": 36,
             "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "christina.sibul@csun.edu",
+            "waitlist_count": 2,
+            "instructor": "earlene.gray@csun.edu",
             "days": "R",
-            "location": "MZ113",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "CTVA 483": [
         {
-            "class_number": "11990",
+            "class_number": "20578",
             "enrollment_cap": 30,
-            "enrollment_count": 6,
+            "enrollment_count": 19,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "john.lynch@csun.edu",
             "days": "M",
-            "location": "MZ124",
+            "location": "MZ103",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "CTVA 487": [
         {
-            "class_number": "10097",
+            "class_number": "10351",
             "enrollment_cap": 30,
-            "enrollment_count": 18,
+            "enrollment_count": 30,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "david.marlett@csun.edu",
@@ -1373,9 +1581,9 @@
             "end_time": "1845h"
         },
         {
-            "class_number": "11991",
+            "class_number": "11881",
             "enrollment_cap": 30,
-            "enrollment_count": 15,
+            "enrollment_count": 23,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "david.marlett@csun.edu",
@@ -1385,21 +1593,9 @@
             "end_time": "2145h"
         },
         {
-            "class_number": "11992",
+            "class_number": "20579",
             "enrollment_cap": 30,
-            "enrollment_count": 14,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "david.marlett@csun.edu",
-            "days": "W",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "12025",
-            "enrollment_cap": 30,
-            "enrollment_count": 17,
+            "enrollment_count": 27,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "david.marlett@csun.edu",
@@ -1407,28 +1603,40 @@
             "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1345h"
-        }
-    ],
-    "CTVA 489": [
+        },
         {
-            "class_number": "21242",
-            "enrollment_cap": 20,
-            "enrollment_count": 27,
-            "waitlist_cap": 20,
-            "waitlist_count": 1,
-            "instructor": "todd.holmes@csun.edu",
-            "days": "R",
-            "location": "MZ111",
+            "class_number": "20580",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "david.marlett@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
+    "CTVA 489": [
+        {
+            "class_number": "20581",
+            "enrollment_cap": 20,
+            "enrollment_count": 25,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "todd.holmes@csun.edu",
+            "days": "W",
+            "location": "RE279",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    ],
     "CTVA 494A": [
         {
-            "class_number": "11822",
-            "enrollment_cap": 85,
-            "enrollment_count": 17,
-            "waitlist_cap": 85,
+            "class_number": "11853",
+            "enrollment_cap": 70,
+            "enrollment_count": 57,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "julieann.sipos@csun.edu",
             "days": "A",
@@ -1439,10 +1647,10 @@
     ],
     "CTVA 494B": [
         {
-            "class_number": "11823",
-            "enrollment_cap": 80,
-            "enrollment_count": 17,
-            "waitlist_cap": 80,
+            "class_number": "11854",
+            "enrollment_cap": 70,
+            "enrollment_count": 56,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "julieann.sipos@csun.edu",
             "days": "A",
@@ -1453,10 +1661,10 @@
     ],
     "CTVA 494C": [
         {
-            "class_number": "11824",
-            "enrollment_cap": 40,
-            "enrollment_count": 6,
-            "waitlist_cap": 40,
+            "class_number": "11855",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "julieann.sipos@csun.edu",
             "days": "A",
@@ -1467,10 +1675,10 @@
     ],
     "CTVA 494D": [
         {
-            "class_number": "11825",
-            "enrollment_cap": 34,
-            "enrollment_count": 6,
-            "waitlist_cap": 34,
+            "class_number": "11856",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "julieann.sipos@csun.edu",
             "days": "A",
@@ -1481,138 +1689,98 @@
     ],
     "CTVA 495V": [
         {
-            "class_number": "21027",
+            "class_number": "21464",
             "enrollment_cap": 30,
-            "enrollment_count": 23,
+            "enrollment_count": 29,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_count": 3,
             "instructor": "shi.qiu@csun.edu",
-            "days": "W",
+            "days": "M",
             "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     ],
-    "CTVA 500": [
+    "CTVA 505": [
         {
-            "class_number": "11803",
+            "class_number": "11755",
             "enrollment_cap": 15,
-            "enrollment_count": 9,
+            "enrollment_count": 12,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "maria.e.delascarreras@csun.edu",
+            "instructor": "scott.sturgeon@csun.edu",
             "days": "M",
-            "location": "MZ101",
+            "location": "MZ115",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
     "CTVA 510": [
         {
-            "class_number": "11648",
+            "class_number": "11294",
             "enrollment_cap": 15,
-            "enrollment_count": 9,
+            "enrollment_count": 12,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "jon.vandergriff@csun.edu",
+            "instructor": "morgan.land@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "CTVA 595A": [
+        {
+            "class_number": "11880",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "kate.powers@csun.edu",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "CTVA 525": [
+    "CTVA 595D": [
         {
-            "class_number": "10887",
+            "class_number": "11540",
             "enrollment_cap": 15,
-            "enrollment_count": 9,
+            "enrollment_count": 12,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "morgan.land@csun.edu",
-            "days": "T",
+            "instructor": "patricia.carr@csun.edu",
+            "days": "W",
             "location": "MZ113",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "CTVA 595F": [
+    "CTVA 625": [
         {
-            "class_number": "11649",
+            "class_number": "11295",
             "enrollment_cap": 15,
-            "enrollment_count": 10,
+            "enrollment_count": 11,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "james.jones@csun.edu",
-            "days": "M",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "CTVA 595G": [
-        {
-            "class_number": "11650",
-            "enrollment_cap": 15,
-            "enrollment_count": 9,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "jon.stahl@csun.edu",
+            "instructor": "scott.sturgeon@csun.edu",
             "days": "R",
             "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     ],
-    "CTVA 694A": [
+    "CTVA 692": [
         {
-            "class_number": "11859",
-            "enrollment_cap": 10,
-            "enrollment_count": 8,
-            "waitlist_cap": 10,
+            "class_number": "10485",
+            "enrollment_cap": 15,
+            "enrollment_count": 11,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "scott.sturgeon@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    ],
-    "CTVA 694B": [
-        {
-            "class_number": "11860",
-            "enrollment_cap": 10,
-            "enrollment_count": 8,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "scott.sturgeon@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    ],
-    "CTVA 698C": [
-        {
-            "class_number": "10703",
-            "enrollment_cap": 7,
-            "enrollment_count": 5,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "kate.powers@csun.edu",
-            "days": "W",
-            "location": "MZ308",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        {
-            "class_number": "10967",
-            "enrollment_cap": 5,
-            "enrollment_count": 5,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "scott.sturgeon@csun.edu",
-            "days": "R",
-            "location": "MZ308",
+            "instructor": "laurence.walshhodson@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }

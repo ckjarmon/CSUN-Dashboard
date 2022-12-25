@@ -1,12 +1,12 @@
 {
     "RTM 150": [
         {
-            "class_number": "19575",
+            "class_number": "19402",
             "enrollment_cap": 25,
-            "enrollment_count": 21,
+            "enrollment_count": 30,
             "waitlist_cap": 25,
             "waitlist_count": 0,
-            "instructor": "alan.wright@csun.edu",
+            "instructor": "chris.whitesides@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
@@ -15,94 +15,80 @@
     ],
     "RTM 151A": [
         {
-            "class_number": "18951",
+            "class_number": "19213",
             "enrollment_cap": 16,
-            "enrollment_count": 15,
+            "enrollment_count": 17,
             "waitlist_cap": 16,
-            "waitlist_count": 0,
-            "instructor": "brittany.applen@csun.edu",
+            "waitlist_count": 3,
+            "instructor": "timothy.szczepanski@csun.edu",
             "days": "S",
             "location": "RE151",
-            "start_time": "1000h",
-            "end_time": "1140h"
+            "start_time": "0900h",
+            "end_time": "1040h"
         }
     ],
     "RTM 151B": [
         {
-            "class_number": "19163",
+            "class_number": "19133",
             "enrollment_cap": 16,
-            "enrollment_count": 14,
+            "enrollment_count": 16,
             "waitlist_cap": 16,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "jason.schmidt@csun.edu",
             "days": "S",
             "location": "RE151",
-            "start_time": "1000h",
-            "end_time": "1140h"
+            "start_time": "1100h",
+            "end_time": "1240h"
         }
     ],
-    "RTM 151C": [
+    "RTM 151D": [
         {
-            "class_number": "19832",
+            "class_number": "18954",
             "enrollment_cap": 16,
-            "enrollment_count": 4,
+            "enrollment_count": 10,
             "waitlist_cap": 16,
             "waitlist_count": 0,
-            "instructor": "thomas.smith@csun.edu",
+            "instructor": "christina.weyant@csun.edu",
             "days": "S",
-            "location": "RE151",
-            "start_time": "1200h",
-            "end_time": "1340h"
-        }
-    ],
-    "RTM 151F": [
-        {
-            "class_number": "19164",
-            "enrollment_cap": 16,
-            "enrollment_count": 14,
-            "waitlist_cap": 16,
-            "waitlist_count": 0,
-            "instructor": "brittany.applen@csun.edu",
-            "days": "S",
-            "location": "RE151",
-            "start_time": "0800h",
-            "end_time": "0940h"
+            "location": "OFFCAM",
+            "start_time": "0900h",
+            "end_time": "1040h"
         }
     ],
     "RTM 151G": [
         {
-            "class_number": "18997",
+            "class_number": "19074",
             "enrollment_cap": 16,
-            "enrollment_count": 6,
+            "enrollment_count": 12,
             "waitlist_cap": 16,
             "waitlist_count": 0,
-            "instructor": "kassandra.wilsey@csun.edu",
+            "instructor": "alan.wright@csun.edu",
             "days": "S",
-            "location": "HR0000",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "RE151",
+            "start_time": "1500h",
+            "end_time": "1640h"
         }
     ],
     "RTM 151H": [
         {
-            "class_number": "19051",
+            "class_number": "18955",
             "enrollment_cap": 16,
-            "enrollment_count": 5,
+            "enrollment_count": 9,
             "waitlist_cap": 16,
             "waitlist_count": 0,
             "instructor": "joel.despain@csun.edu",
             "days": "S",
             "location": "RE151",
-            "start_time": "1200h",
-            "end_time": "1340h"
+            "start_time": "1300h",
+            "end_time": "1450h"
         }
     ],
     "RTM 202": [
         {
-            "class_number": "18923",
-            "enrollment_cap": 31,
-            "enrollment_count": 8,
-            "waitlist_cap": 31,
+            "class_number": "18956",
+            "enrollment_cap": 30,
+            "enrollment_count": 32,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "leanne.vincent@csun.edu",
             "days": "T",
@@ -113,10 +99,10 @@
     ],
     "RTM 202L": [
         {
-            "class_number": "18924",
-            "enrollment_cap": 31,
-            "enrollment_count": 8,
-            "waitlist_cap": 31,
+            "class_number": "18957",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "leanne.vincent@csun.edu",
             "days": "R",
@@ -127,10 +113,10 @@
     ],
     "RTM 204": [
         {
-            "class_number": "19005",
-            "enrollment_cap": 30,
-            "enrollment_count": 14,
-            "waitlist_cap": 30,
+            "class_number": "18958",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "delfina.newton@csun.edu",
             "days": "TR",
@@ -141,11 +127,11 @@
     ],
     "RTM 251": [
         {
-            "class_number": "19330",
+            "class_number": "19396",
             "enrollment_cap": 45,
-            "enrollment_count": 45,
-            "waitlist_cap": 45,
-            "waitlist_count": 0,
+            "enrollment_count": 46,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
             "instructor": "lawrence.luo@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -153,24 +139,38 @@
             "end_time": "0000h"
         }
     ],
+    "RTM 265": [
+        {
+            "class_number": "18959",
+            "enrollment_cap": 16,
+            "enrollment_count": 9,
+            "waitlist_cap": 16,
+            "waitlist_count": 0,
+            "instructor": "bradley.batesole@csun.edu",
+            "days": "F",
+            "location": "OFFCAM",
+            "start_time": "0900h",
+            "end_time": "1140h"
+        }
+    ],
     "RTM 278": [
         {
-            "class_number": "18928",
-            "enrollment_cap": 26,
-            "enrollment_count": 6,
-            "waitlist_cap": 26,
+            "class_number": "18962",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "heekyung.sung@csun.edu",
             "days": "TR",
-            "location": "RE153",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "location": "RE151",
+            "start_time": "1100h",
+            "end_time": "1215h"
         },
         {
-            "class_number": "19331",
-            "enrollment_cap": 26,
-            "enrollment_count": 13,
-            "waitlist_cap": 26,
+            "class_number": "19397",
+            "enrollment_cap": 25,
+            "enrollment_count": 28,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "heekyung.sung@csun.edu",
             "days": "A",
@@ -181,10 +181,10 @@
     ],
     "RTM 300": [
         {
-            "class_number": "18947",
-            "enrollment_cap": 26,
-            "enrollment_count": 11,
-            "waitlist_cap": 26,
+            "class_number": "19051",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "veda.ward@csun.edu",
             "days": "TR",
@@ -195,52 +195,52 @@
     ],
     "RTM 302": [
         {
-            "class_number": "18980",
-            "enrollment_cap": 26,
-            "enrollment_count": 19,
-            "waitlist_cap": 26,
+            "class_number": "19604",
+            "enrollment_cap": 20,
+            "enrollment_count": 35,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "timothy.szczepanski@csun.edu",
-            "days": "TR",
-            "location": "RE153",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "instructor": "alan.wright@csun.edu",
+            "days": "T",
+            "location": "JD2520",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
     "RTM 303": [
         {
-            "class_number": "18948",
-            "enrollment_cap": 26,
-            "enrollment_count": 19,
-            "waitlist_cap": 26,
+            "class_number": "19052",
+            "enrollment_cap": 25,
+            "enrollment_count": 31,
+            "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "jimmy.xie@csun.edu",
             "days": "TR",
-            "location": "RE151",
+            "location": "RE153",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
     "RTM 304": [
         {
-            "class_number": "19025",
+            "class_number": "18965",
             "enrollment_cap": 30,
-            "enrollment_count": 22,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "nathalie.virem@csun.edu",
-            "days": "T",
+            "enrollment_count": 33,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "alan.wright@csun.edu",
+            "days": "A",
             "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ],
     "RTM 305": [
         {
-            "class_number": "18930",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
+            "class_number": "18966",
+            "enrollment_cap": 30,
+            "enrollment_count": 36,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "robin.sachs@csun.edu",
             "days": "A",
@@ -249,11 +249,11 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "19333",
+            "class_number": "19033",
             "enrollment_cap": 40,
-            "enrollment_count": 37,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "enrollment_count": 39,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
             "instructor": "francisca.castillo@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -263,53 +263,53 @@
     ],
     "RTM 310": [
         {
-            "class_number": "18953",
+            "class_number": "19072",
             "enrollment_cap": 22,
             "enrollment_count": 22,
             "waitlist_cap": 22,
             "waitlist_count": 0,
             "instructor": "kassandra.wilsey@csun.edu",
-            "days": "F",
-            "location": "RE153",
-            "start_time": "1100h",
-            "end_time": "1240h"
+            "days": "T",
+            "location": "SG103",
+            "start_time": "1230h",
+            "end_time": "1410h"
         }
     ],
     "RTM 310L": [
         {
-            "class_number": "18954",
+            "class_number": "19022",
             "enrollment_cap": 22,
             "enrollment_count": 22,
             "waitlist_cap": 22,
             "waitlist_count": 0,
             "instructor": "kassandra.wilsey@csun.edu",
-            "days": "F",
-            "location": "RE153",
-            "start_time": "0900h",
-            "end_time": "1040h"
+            "days": "T",
+            "location": "SG103",
+            "start_time": "1420h",
+            "end_time": "1550h"
         }
     ],
     "RTM 314": [
         {
-            "class_number": "19197",
-            "enrollment_cap": 26,
-            "enrollment_count": 15,
-            "waitlist_cap": 26,
-            "waitlist_count": 0,
+            "class_number": "18967",
+            "enrollment_cap": 31,
+            "enrollment_count": 31,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
             "instructor": "joongwon.lee@csun.edu",
-            "days": "R",
+            "days": "TR",
             "location": "RE153",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     ],
     "RTM 330": [
         {
-            "class_number": "19165",
-            "enrollment_cap": 33,
-            "enrollment_count": 18,
-            "waitlist_cap": 33,
-            "waitlist_count": 0,
+            "class_number": "19187",
+            "enrollment_cap": 25,
+            "enrollment_count": 27,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
             "instructor": "veda.ward@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -317,11 +317,11 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "19334",
-            "enrollment_cap": 33,
-            "enrollment_count": 33,
-            "waitlist_cap": 33,
-            "waitlist_count": 6,
+            "class_number": "19403",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
             "instructor": "francisca.castillo@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -331,10 +331,10 @@
     ],
     "RTM 352": [
         {
-            "class_number": "18931",
-            "enrollment_cap": 36,
-            "enrollment_count": 24,
-            "waitlist_cap": 36,
+            "class_number": "18968",
+            "enrollment_cap": 30,
+            "enrollment_count": 40,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "delfina.newton@csun.edu",
             "days": "A",
@@ -343,54 +343,26 @@
             "end_time": "0000h"
         }
     ],
-    "RTM 353": [
-        {
-            "class_number": "19833",
-            "enrollment_cap": 35,
-            "enrollment_count": 6,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "dianne.philibosian@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    ],
-    "RTM 353L": [
-        {
-            "class_number": "19834",
-            "enrollment_cap": 35,
-            "enrollment_count": 6,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "dianne.philibosian@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    ],
     "RTM 403": [
         {
-            "class_number": "18950",
-            "enrollment_cap": 25,
-            "enrollment_count": 13,
-            "waitlist_cap": 25,
+            "class_number": "19053",
+            "enrollment_cap": 30,
+            "enrollment_count": 22,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "jimmy.xie@csun.edu",
+            "instructor": "lawrence.luo@csun.edu",
             "days": "TR",
-            "location": "RE151",
+            "location": "RE153",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     ],
     "RTM 406": [
         {
-            "class_number": "19337",
-            "enrollment_cap": 40,
-            "enrollment_count": 43,
-            "waitlist_cap": 40,
+            "class_number": "19398",
+            "enrollment_cap": 30,
+            "enrollment_count": 40,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "robin.sachs@csun.edu",
             "days": "A",
@@ -401,10 +373,10 @@
     ],
     "RTM 406L": [
         {
-            "class_number": "19338",
-            "enrollment_cap": 40,
-            "enrollment_count": 43,
-            "waitlist_cap": 40,
+            "class_number": "19399",
+            "enrollment_cap": 30,
+            "enrollment_count": 40,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "robin.sachs@csun.edu",
             "days": "A",
@@ -413,92 +385,120 @@
             "end_time": "0000h"
         }
     ],
-    "RTM 415": [
+    "RTM 414": [
         {
-            "class_number": "19481",
-            "enrollment_cap": 31,
-            "enrollment_count": 5,
-            "waitlist_cap": 31,
+            "class_number": "19313",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "veda.ward@csun.edu",
-            "days": "TR",
-            "location": "RE153",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "instructor": "babette.shade@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
-    "RTM 444": [
+    "RTM 424": [
         {
-            "class_number": "19339",
-            "enrollment_cap": 25,
-            "enrollment_count": 11,
-            "waitlist_cap": 25,
+            "class_number": "19548",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "heekyung.sung@csun.edu",
-            "days": "TR",
-            "location": "RE151",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    ],
-    "RTM 452": [
-        {
-            "class_number": "19248",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "kassandra.wilsey@csun.edu",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "RTM 490": [
-        {
-            "class_number": "18933",
-            "enrollment_cap": 25,
-            "enrollment_count": 16,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "joongwon.lee@csun.edu",
             "days": "TR",
             "location": "RE151",
             "start_time": "1230h",
             "end_time": "1345h"
         }
     ],
-    "RTM 494C": [
+    "RTM 480": [
         {
-            "class_number": "19340",
+            "class_number": "19243",
             "enrollment_cap": 20,
-            "enrollment_count": 0,
+            "enrollment_count": 11,
             "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "heekyung.sung@csun.edu",
-            "days": "S",
-            "location": "RE151",
-            "start_time": "1500h",
-            "end_time": "1745h"
-        },
-        {
-            "class_number": "19341",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "veda.ward@csun.edu",
-            "days": "S",
-            "location": "RE151",
-            "start_time": "1800h",
-            "end_time": "2045h"
+            "instructor": "joongwon.lee@csun.edu",
+            "days": "R",
+            "location": "RE153",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     ],
-    "RTM 499C": [
+    "RTM 490": [
         {
-            "class_number": "20113",
-            "enrollment_cap": 2,
+            "class_number": "18970",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "joongwon.lee@csun.edu",
+            "days": "TR",
+            "location": "RE151",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "RTM 494C": [
+        {
+            "class_number": "19341",
+            "enrollment_cap": 10,
+            "enrollment_count": 8,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "veda.ward@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "19401",
+            "enrollment_cap": 10,
+            "enrollment_count": 7,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "veda.ward@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1300h",
+            "end_time": "1545h"
+        }
+    ],
+    "RTM 498A": [
+        {
+            "class_number": "18971",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "nathan.martin@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "RTM 498B": [
+        {
+            "class_number": "18972",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "nathan.martin@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "RTM 499A": [
+        {
+            "class_number": "20843",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "waitlist_cap": 10,
             "waitlist_count": 0,
@@ -509,65 +509,107 @@
             "end_time": "0000h"
         }
     ],
-    "RTM 550": [
+    "RTM 499B": [
         {
-            "class_number": "19045",
-            "enrollment_cap": 15,
-            "enrollment_count": 3,
-            "waitlist_cap": 15,
+            "class_number": "20844",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "jimmy.xie@csun.edu",
+            "instructor": "nathan.martin@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "RTM 499C": [
+        {
+            "class_number": "20845",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "nathan.martin@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "RTM 540": [
+        {
+            "class_number": "19054",
+            "enrollment_cap": 10,
+            "enrollment_count": 8,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "renee.peace@csun.edu",
             "days": "R",
-            "location": "ED1130",
+            "location": "RE151",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
-    "RTM 610": [
+    "RTM 620": [
         {
-            "class_number": "20114",
+            "class_number": "19404",
             "enrollment_cap": 10,
-            "enrollment_count": 2,
+            "enrollment_count": 8,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "joongwon.lee@csun.edu",
-            "days": "T",
-            "location": "ED1130",
+            "instructor": "thomas.smith@csun.edu",
+            "days": "R",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    ],
+    "RTM 684": [
+        {
+            "class_number": "19235",
+            "enrollment_cap": 15,
+            "enrollment_count": 6,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "jimmy.xie@csun.edu",
+            "days": "W",
+            "location": "RE151",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
     "RTM 693B": [
         {
-            "class_number": "19342",
+            "class_number": "19800",
             "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "waitlist_cap": 10,
-            "waitlist_count": 0,
-            "instructor": "joongwon.lee@csun.edu",
-            "days": "M",
-            "location": "RE151",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    ],
-    "RTM 697": [
-        {
-            "class_number": "19836",
-            "enrollment_cap": 5,
-            "enrollment_count": 3,
+            "enrollment_count": 6,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "joongwon.lee@csun.edu",
             "days": "F",
-            "location": "RE276",
+            "location": "RE153",
+            "start_time": "1300h",
+            "end_time": "1545h"
+        }
+    ],
+    "RTM 697": [
+        {
+            "class_number": "19686",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "nathan.martin@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     ],
     "RTM 698": [
         {
-            "class_number": "19035",
+            "class_number": "20846",
             "enrollment_cap": 1,
             "enrollment_count": 0,
             "waitlist_cap": 10,

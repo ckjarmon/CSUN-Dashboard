@@ -1,16 +1,30 @@
 {
-    "SUS 510": [
+    "SUS 500": [
         {
-            "class_number": "21159",
+            "class_number": "20847",
             "enrollment_cap": 15,
-            "enrollment_count": 7,
+            "enrollment_count": 9,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "loraine.lundquist@csun.edu",
             "days": "T",
-            "location": "SH224",
+            "location": "SH267",
             "start_time": "1800h",
-            "end_time": "2040h"
+            "end_time": "2045h"
+        }
+    ],
+    "SUS 530": [
+        {
+            "class_number": "20848",
+            "enrollment_cap": 15,
+            "enrollment_count": 10,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "regan.maas@csun.edu",
+            "days": "M",
+            "location": "SH107",
+            "start_time": "1800h",
+            "end_time": "2045h"
         }
     ]
 }

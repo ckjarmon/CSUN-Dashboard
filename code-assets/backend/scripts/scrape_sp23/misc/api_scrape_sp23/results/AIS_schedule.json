@@ -1,30 +1,94 @@
 {
-    "AIS 210": [
+    "AIS 101": [
         {
-            "class_number": "20680",
+            "class_number": "13931",
             "enrollment_cap": 35,
-            "enrollment_count": 13,
+            "enrollment_count": 31,
             "waitlist_cap": 35,
             "waitlist_count": 0,
-            "instructor": "gina.worthington@csun.edu",
+            "instructor": "julia.coates@csun.edu",
             "days": "MW",
-            "location": "JR221",
+            "location": "JR202",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "14339",
+            "enrollment_cap": 35,
+            "enrollment_count": 33,
+            "waitlist_cap": 35,
+            "waitlist_count": 1,
+            "instructor": "alesha.claveria@csun.edu",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "14978",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "alesha.claveria@csun.edu",
+            "days": "TR",
+            "location": "JR243",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
+    "AIS 210": [
+        {
+            "class_number": "20755",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "bert.cueva@csun.edu",
+            "days": "MW",
+            "location": "JR202",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "AIS 222": [
+        {
+            "class_number": "15451",
+            "enrollment_cap": 35,
+            "enrollment_count": 29,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "bert.cueva@csun.edu",
+            "days": "TR",
+            "location": "JR243",
             "start_time": "0930h",
             "end_time": "1045h"
         }
     ],
     "AIS 304": [
         {
-            "class_number": "14669",
-            "enrollment_cap": 35,
+            "class_number": "13932",
+            "enrollment_cap": 34,
             "enrollment_count": 28,
-            "waitlist_cap": 35,
+            "waitlist_cap": 34,
             "waitlist_count": 0,
+            "instructor": "nicole.blalock@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "15426",
+            "enrollment_cap": 35,
+            "enrollment_count": 34,
+            "waitlist_cap": 35,
+            "waitlist_count": 3,
             "instructor": "julia.coates@csun.edu",
-            "days": "MW",
-            "location": "JR217",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ]
 }

@@ -14,7 +14,7 @@ function RatingsPage() {
 
 
     function fetchRatingsAndClasses() {
-        fetch(`http://130.166.160.102/${email}/ratings`)
+        fetch(`https://api.kyeou.xyz/${email}/ratings`)
             .then(response => response.json())
             .then(ratings => {
                 let ratingsArray = []
@@ -26,7 +26,7 @@ function RatingsPage() {
                 setRatings(ratingsArray)
             })
 
-        fetch(`http://130.166.160.102/${subject}/classes`)
+        fetch(`https://api.kyeou.xyz/${subject}/classes`)
             .then(response => response.json())
             .then(classes => {
                 let classesArray = []
@@ -40,7 +40,7 @@ function RatingsPage() {
     }
 
     function fetchProfessor(){
-        fetch(`http://130.166.160.102/${subject}/professors`)
+        fetch(`https://api.kyeou.xyz/${subject}/professors`)
             .then(response => response.json())
             .then(professors => {
                 professors.map((professor) => {

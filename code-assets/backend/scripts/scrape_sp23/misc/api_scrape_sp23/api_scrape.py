@@ -32,7 +32,7 @@ except mariadb.Error as err:
 
 def gather(code):
     sub_dict = {}
-    _url = f"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Spring-2023/classes/{code}"
+    _url = f"https://api.metalab.csun.edu/curriculum/api/2.0/terms/Fall-2022/classes/{code}"
     while True:
         try:
             data = json.loads(urllib3.PoolManager().request("GET", _url).data)
@@ -191,37 +191,37 @@ if __name__ == "__main__":
     for a in t:
         a.join()
 
-    for code in class_codes:
-        with open(f"./results/{code}_schedule.json") as s:
-            s = json.load(s)
-            try:
-                for c in s.keys():
-                    for course in s[c]:
-                        rootCursor.execute(f"""update section set 
-                                               enrollment_cap = '{course['enrollment_cap']}', 
-                                               enrollment_count = '{course['enrollment_count']}', 
-                                               instructor = %s, 
-                                               waitlist_cap = '{course['waitlist_cap']}', 
-                                               waitlist_count = '{course['waitlist_count']}'
-                                               where class_number = '{course['class_number']}'""", (course['instructor'], ))
-            except AttributeError:
-                continue
-    for code in class_codes:
-        with open(f"./results/{code}_schedule.json") as new_ss:
-            new_ss = json.load(new_ss)
-            for new_c in new_ss.keys():
-                for course in new_ss[new_c]:
-                    with open(f"../web_scrape_sp23/results/{code}_schedule.json") as old_ss:
-                        old_ss = json.load(old_ss)
-                        for c1 in old_ss[new_c]:
-                            if course["class_number"] == c1["class_number"]:
-                                old_ss[new_c][old_ss[new_c].index(c1)] = course
-                                json.dump(old_ss, open(f"../web_scrape_sp23/results/{code}_schedule.json", "w"), indent=4)
-                                break
+#     for code in class_codes:
+#         with open(f"./results/{code}_schedule.json") as s:
+#             s = json.load(s)
+#             try:
+#                 for c in s.keys():
+#                     for course in s[c]:
+#                         rootCursor.execute(f"""update section set 
+#                                                enrollment_cap = '{course['enrollment_cap']}', 
+#                                                enrollment_count = '{course['enrollment_count']}', 
+#                                                instructor = %s, 
+#                                                waitlist_cap = '{course['waitlist_cap']}', 
+#                                                waitlist_count = '{course['waitlist_count']}'
+#                                                where class_number = '{course['class_number']}'""", (course['instructor'], ))
+#             except AttributeError:
+#                 continue
+#     for code in class_codes:
+#         with open(f"./results/{code}_schedule.json") as new_ss:
+#             new_ss = json.load(new_ss)
+#             for new_c in new_ss.keys():
+#                 for course in new_ss[new_c]:
+#                     with open(f"../web_scrape_sp23/results/{code}_schedule.json") as old_ss:
+#                         old_ss = json.load(old_ss)
+#                         for c1 in old_ss[new_c]:
+#                             if course["class_number"] == c1["class_number"]:
+#                                 old_ss[new_c][old_ss[new_c].index(c1)] = course
+#                                 json.dump(old_ss, open(f"../web_scrape_sp23/results/{code}_schedule.json", "w"), indent=4)
+#                                 break
                                 
                 
     
             
-    rootConnection.commit()
-    rootCursor.close()
-    rootConnection.close()
+#     rootConnection.commit()
+#     rootCursor.close()
+#     rootConnection.close()

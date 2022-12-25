@@ -1,25 +1,267 @@
 {
     "GEOL 101": [
         {
-            "class_number": "17358",
+            "class_number": "17318",
             "enrollment_cap": 60,
-            "enrollment_count": 21,
+            "enrollment_count": 80,
             "waitlist_cap": 60,
             "waitlist_count": 0,
-            "instructor": "dayanthie.weeraratne@csun.edu",
+            "instructor": "karen.savage@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "17319",
+            "enrollment_cap": 80,
+            "enrollment_count": 79,
+            "waitlist_cap": 60,
+            "waitlist_count": 1,
+            "instructor": "karen.savage@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "17320",
+            "enrollment_cap": 55,
+            "enrollment_count": 54,
+            "waitlist_cap": 55,
+            "waitlist_count": 0,
+            "instructor": "danielle.brand@csun.edu",
             "days": "MW",
-            "location": "CR5125",
+            "location": "LO1231",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17321",
+            "enrollment_cap": 55,
+            "enrollment_count": 55,
+            "waitlist_cap": 55,
+            "waitlist_count": 0,
+            "instructor": "erin.wales@csun.edu",
+            "days": "MW",
+            "location": "LO1231",
             "start_time": "0930h",
             "end_time": "1045h"
+        },
+        {
+            "class_number": "17322",
+            "enrollment_cap": 55,
+            "enrollment_count": 53,
+            "waitlist_cap": 55,
+            "waitlist_count": 0,
+            "instructor": "erin.wales@csun.edu",
+            "days": "MW",
+            "location": "LO1231",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "17947",
+            "enrollment_cap": 55,
+            "enrollment_count": 54,
+            "waitlist_cap": 55,
+            "waitlist_count": 0,
+            "instructor": "karen.savage@csun.edu",
+            "days": "TR",
+            "location": "LO1231",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18044",
+            "enrollment_cap": 55,
+            "enrollment_count": 54,
+            "waitlist_cap": 55,
+            "waitlist_count": 1,
+            "instructor": "dayanthie.weeraratne@csun.edu",
+            "days": "TR",
+            "location": "LO1231",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        {
+            "class_number": "18070",
+            "enrollment_cap": 60,
+            "enrollment_count": 60,
+            "waitlist_cap": 55,
+            "waitlist_count": 1,
+            "instructor": "dayanthie.weeraratne@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "18201",
+            "enrollment_cap": 55,
+            "enrollment_count": 58,
+            "waitlist_cap": 55,
+            "waitlist_count": 0,
+            "instructor": "dayanthie.weeraratne@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "GEOL 102": [
+        {
+            "class_number": "17323",
+            "enrollment_cap": 36,
+            "enrollment_count": 31,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "ryan.kellis.57@my.csun.edu",
+            "days": "M",
+            "location": "EH2221",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17432",
+            "enrollment_cap": 36,
+            "enrollment_count": 35,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "francine.robles.082@my.csun.edu",
+            "days": "M",
+            "location": "EH2221",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "17433",
+            "enrollment_cap": 36,
+            "enrollment_count": 34,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "nicholas-david.madera.218@my.csun.edu",
+            "days": "M",
+            "location": "EH2221",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17455",
+            "enrollment_cap": 36,
+            "enrollment_count": 34,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "ryan.kellis.57@my.csun.edu",
+            "days": "T",
+            "location": "EH2221",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "17575",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "abigail.travers.844@my.csun.edu",
+            "days": "T",
+            "location": "EH2221",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17576",
+            "enrollment_cap": 36,
+            "enrollment_count": 17,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "monica.diazsegovia.107@my.csun.edu",
+            "days": "T",
+            "location": "EH2221",
+            "start_time": "1700h",
+            "end_time": "1945h"
+        },
+        {
+            "class_number": "17578",
+            "enrollment_cap": 36,
+            "enrollment_count": 35,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "jonathan.bixler.041@my.csun.edu",
+            "days": "W",
+            "location": "EH2221",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18030",
+            "enrollment_cap": 36,
+            "enrollment_count": 22,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "jonathan.bixler.041@my.csun.edu",
+            "days": "W",
+            "location": "EH2221",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "18031",
+            "enrollment_cap": 36,
+            "enrollment_count": 18,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "nicholas-david.madera.218@my.csun.edu",
+            "days": "W",
+            "location": "EH2221",
+            "start_time": "1700h",
+            "end_time": "1945h"
+        },
+        {
+            "class_number": "18202",
+            "enrollment_cap": 36,
+            "enrollment_count": 22,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "monica.diazsegovia.107@my.csun.edu",
+            "days": "R",
+            "location": "EH2221",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18253",
+            "enrollment_cap": 36,
+            "enrollment_count": 26,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "gillian.rhea.645@my.csun.edu",
+            "days": "R",
+            "location": "EH2221",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "18254",
+            "enrollment_cap": 36,
+            "enrollment_count": 12,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "gillian.rhea.645@my.csun.edu",
+            "days": "R",
+            "location": "EH2221",
+            "start_time": "1700h",
+            "end_time": "1945h"
         }
     ],
     "GEOL 106LRS": [
         {
             "class_number": "17435",
             "enrollment_cap": 60,
-            "enrollment_count": 60,
-            "waitlist_cap": 60,
-            "waitlist_count": 0,
+            "enrollment_count": 59,
+            "waitlist_cap": 48,
+            "waitlist_count": 4,
             "instructor": "brittany.huerta@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -29,12 +271,50 @@
     ],
     "GEOL 107": [
         {
-            "class_number": "20868",
+            "class_number": "20949",
             "enrollment_cap": 60,
-            "enrollment_count": 51,
-            "waitlist_cap": 0,
+            "enrollment_count": 61,
+            "waitlist_cap": 60,
             "waitlist_count": 0,
-            "instructor": "julian.lozos@csun.edu",
+            "instructor": "jennifer.pavia@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "20951",
+            "enrollment_cap": 60,
+            "enrollment_count": 60,
+            "waitlist_cap": 60,
+            "waitlist_count": 0,
+            "instructor": "jennifer.pavia@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "GEOL 107L": [
+        {
+            "class_number": "20950",
+            "enrollment_cap": 60,
+            "enrollment_count": 61,
+            "waitlist_cap": 60,
+            "waitlist_count": 0,
+            "instructor": "alicia.ruplinger.123@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "20952",
+            "enrollment_cap": 60,
+            "enrollment_count": 60,
+            "waitlist_cap": 60,
+            "waitlist_count": 0,
+            "instructor": "joella.campbell.983@my.csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
@@ -43,39 +323,127 @@
     ],
     "GEOL 110": [
         {
-            "class_number": "18096",
+            "class_number": "17324",
             "enrollment_cap": 55,
-            "enrollment_count": 55,
+            "enrollment_count": 57,
             "waitlist_cap": 55,
             "waitlist_count": 4,
             "instructor": "brittany.huerta@csun.edu",
             "days": "TR",
-            "location": "LO1219",
+            "location": "LO1231",
             "start_time": "0930h",
             "end_time": "1045h"
+        },
+        {
+            "class_number": "17325",
+            "enrollment_cap": 55,
+            "enrollment_count": 60,
+            "waitlist_cap": 55,
+            "waitlist_count": 5,
+            "instructor": "brittany.huerta@csun.edu",
+            "days": "TR",
+            "location": "LO1231",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     ],
-    "GEOL 117": [
+    "GEOL 112": [
         {
-            "class_number": "21167",
-            "enrollment_cap": 40,
-            "enrollment_count": 9,
-            "waitlist_cap": 0,
+            "class_number": "17326",
+            "enrollment_cap": 33,
+            "enrollment_count": 26,
+            "waitlist_cap": 33,
+            "waitlist_count": 0,
+            "instructor": "scott.jedrusiak.671@my.csun.edu",
+            "days": "T",
+            "location": "LO1205",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "GEOL 122": [
+        {
+            "class_number": "18341",
+            "enrollment_cap": 55,
+            "enrollment_count": 53,
+            "waitlist_cap": 55,
+            "waitlist_count": 1,
+            "instructor": "julian.lozos@csun.edu",
+            "days": "MW",
+            "location": "LO1231",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18593",
+            "enrollment_cap": 55,
+            "enrollment_count": 56,
+            "waitlist_cap": 55,
+            "waitlist_count": 0,
+            "instructor": "danielle.brand@csun.edu",
+            "days": "MW",
+            "location": "LO1231",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
+    "GEOL 123": [
+        {
+            "class_number": "18342",
+            "enrollment_cap": 36,
+            "enrollment_count": 21,
+            "waitlist_cap": 36,
+            "waitlist_count": 0,
+            "instructor": "scott.jedrusiak.671@my.csun.edu",
+            "days": "T",
+            "location": "LO1205",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    ],
+    "GEOL 300": [
+        {
+            "class_number": "17327",
+            "enrollment_cap": 50,
+            "enrollment_count": 60,
+            "waitlist_cap": 55,
+            "waitlist_count": 1,
+            "instructor": "nicholas.rousseau@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18203",
+            "enrollment_cap": 55,
+            "enrollment_count": 16,
+            "waitlist_cap": 55,
             "waitlist_count": 0,
             "instructor": "scott.hauswirth@csun.edu",
             "days": "MW",
-            "location": "LO1205",
-            "start_time": "1000h",
-            "end_time": "1050h"
-        }
-    ],
-    "GEOL 117L": [
+            "location": "LO1219",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         {
-            "class_number": "21168",
-            "enrollment_cap": 40,
-            "enrollment_count": 9,
-            "waitlist_cap": 0,
+            "class_number": "18589",
+            "enrollment_cap": 55,
+            "enrollment_count": 13,
+            "waitlist_cap": 55,
             "waitlist_count": 0,
+            "instructor": "scott.hauswirth@csun.edu",
+            "days": "MW",
+            "location": "LO1219",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18602",
+            "enrollment_cap": 60,
+            "enrollment_count": 59,
+            "waitlist_cap": 55,
+            "waitlist_count": 1,
             "instructor": "scott.hauswirth@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -83,53 +451,67 @@
             "end_time": "0000h"
         }
     ],
-    "GEOL 122": [
+    "GEOL 301": [
         {
-            "class_number": "18207",
-            "enrollment_cap": 55,
-            "enrollment_count": 31,
-            "waitlist_cap": 55,
+            "class_number": "17328",
+            "enrollment_cap": 36,
+            "enrollment_count": 33,
+            "waitlist_cap": 36,
+            "waitlist_count": 1,
+            "instructor": "shelby.littleton.446@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "GEOL 307": [
+        {
+            "class_number": "18580",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "priya.ganguli@csun.edu",
+            "instructor": "joshua.schwartz@csun.edu",
+            "days": "TR",
+            "location": "LO1210",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    ],
+    "GEOL 307L": [
+        {
+            "class_number": "18581",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "joshua.schwartz@csun.edu",
+            "days": "R",
+            "location": "LO1210",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "GEOL 309": [
+        {
+            "class_number": "18582",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "julian.lozos@csun.edu",
             "days": "MW",
-            "location": "LO1219",
+            "location": "LO1212",
             "start_time": "0930h",
             "end_time": "1045h"
         }
     ],
-    "GEOL 125": [
+    "GEOL 309L": [
         {
-            "class_number": "20829",
-            "enrollment_cap": 36,
-            "enrollment_count": 40,
-            "waitlist_cap": 36,
-            "waitlist_count": 4,
-            "instructor": "jennifer.cotton@csun.edu",
-            "days": "TR",
-            "location": "LO1219",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    ],
-    "GEOL 300": [
-        {
-            "class_number": "17163",
-            "enrollment_cap": 55,
-            "enrollment_count": 3,
-            "waitlist_cap": 55,
-            "waitlist_count": 0,
-            "instructor": "scott.hauswirth@csun.edu",
-            "days": "MW",
-            "location": "LO1219",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    ],
-    "GEOL 303": [
-        {
-            "class_number": "18163",
+            "class_number": "18583",
             "enrollment_cap": 25,
-            "enrollment_count": 25,
+            "enrollment_count": 17,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "julian.lozos@csun.edu",
@@ -139,96 +521,220 @@
             "end_time": "1645h"
         }
     ],
-    "GEOL 306": [
+    "GEOL 314": [
         {
-            "class_number": "18409",
-            "enrollment_cap": 25,
-            "enrollment_count": 12,
-            "waitlist_cap": 25,
+            "class_number": "18251",
+            "enrollment_cap": 24,
+            "enrollment_count": 16,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
-            "instructor": "robinson.cecil@csun.edu",
-            "days": "TR",
-            "location": "LO1210",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    ],
-    "GEOL 306L": [
-        {
-            "class_number": "18410",
-            "enrollment_cap": 25,
-            "enrollment_count": 12,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "robinson.cecil@csun.edu",
-            "days": "T",
-            "location": "LO1210",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    ],
-    "GEOL 310": [
-        {
-            "class_number": "18411",
-            "enrollment_cap": 20,
-            "enrollment_count": 6,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "brittany.huerta@csun.edu",
-            "days": "TR",
+            "instructor": "jennifer.cotton@csun.edu",
+            "days": "MW",
             "location": "LO1212",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
-    "GEOL 310L": [
+    "GEOL 314L": [
         {
-            "class_number": "18412",
+            "class_number": "18252",
+            "enrollment_cap": 24,
+            "enrollment_count": 16,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jennifer.cotton@csun.edu",
+            "days": "M",
+            "location": "LO1212",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "GEOL 324": [
+        {
+            "class_number": "20985",
+            "enrollment_cap": 60,
+            "enrollment_count": 62,
+            "waitlist_cap": 60,
+            "waitlist_count": 5,
+            "instructor": "jennifer.pavia@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "GEOL 341": [
+        {
+            "class_number": "20991",
             "enrollment_cap": 20,
-            "enrollment_count": 6,
+            "enrollment_count": 8,
             "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "brittany.huerta@csun.edu",
+            "instructor": "kathie.marsaglia@csun.edu",
+            "days": "TR",
+            "location": "LO1212",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "GEOL 341L": [
+        {
+            "class_number": "20992",
+            "enrollment_cap": 20,
+            "enrollment_count": 8,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "kathie.marsaglia@csun.edu",
             "days": "T",
             "location": "LO1212",
             "start_time": "1400h",
             "end_time": "1645h"
         }
     ],
-    "GEOL 344": [
+    "GEOL 406LRS": [
         {
-            "class_number": "18415",
-            "enrollment_cap": 40,
+            "class_number": "17436",
+            "enrollment_cap": 36,
+            "enrollment_count": 36,
+            "waitlist_cap": 36,
+            "waitlist_count": 5,
+            "instructor": "alicia.ruplinger.123@my.csun.edu",
+            "days": "M",
+            "location": "LO1227",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        {
+            "class_number": "17437",
+            "enrollment_cap": 31,
+            "enrollment_count": 34,
+            "waitlist_cap": 36,
+            "waitlist_count": 1,
+            "instructor": "joella.campbell.983@my.csun.edu",
+            "days": "R",
+            "location": "LO1227",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    ],
+    "GEOL 497": [
+        {
+            "class_number": "17728",
+            "enrollment_cap": 10,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "jennifer.cotton@csun.edu",
+            "days": "W",
+            "location": "LO1221",
+            "start_time": "0900h",
+            "end_time": "0950h"
+        }
+    ],
+    "GEOL 499A": [
+        {
+            "class_number": "17482",
+            "enrollment_cap": 5,
             "enrollment_count": 1,
-            "waitlist_cap": 40,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "julian.lozos@csun.edu",
+            "instructor": "eileen.evans@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "GEOL 499B": [
+        {
+            "class_number": "17438",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "priya.ganguli@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "GEOL 533": [
+        {
+            "class_number": "20937",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "eileen.evans@csun.edu",
+            "days": "MW",
+            "location": "LO1221",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    ],
+    "GEOL 533L": [
+        {
+            "class_number": "20938",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "eileen.evans@csun.edu",
+            "days": "W",
+            "location": "LO1221",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "GEOL 536": [
+        {
+            "class_number": "21655",
+            "enrollment_cap": 20,
+            "enrollment_count": 5,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "joshua.schwartz@csun.edu",
+            "days": "M",
+            "location": "LO1210",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "GEOL 590": [
+        {
+            "class_number": "17750",
+            "enrollment_cap": 15,
+            "enrollment_count": 7,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "jennifer.cotton@csun.edu",
+            "days": "W",
+            "location": "LO1221",
+            "start_time": "1000h",
+            "end_time": "1050h"
+        }
+    ],
+    "GEOL 595U": [
+        {
+            "class_number": "18586",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "priya.ganguli@csun.edu",
             "days": "MW",
             "location": "LO1205",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     ],
-    "GEOL 490": [
+    "GEOL 694": [
         {
-            "class_number": "18403",
-            "enrollment_cap": 20,
-            "enrollment_count": 7,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "scott.hauswirth@csun.edu",
-            "days": "W",
-            "location": "LO1212",
-            "start_time": "1700h",
-            "end_time": "1945h"
-        }
-    ],
-    "GEOL 499A": [
-        {
-            "class_number": "17360",
-            "enrollment_cap": 5,
-            "enrollment_count": 1,
-            "waitlist_cap": 10,
+            "class_number": "17751",
+            "enrollment_cap": 15,
+            "enrollment_count": 6,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "jennifer.cotton@csun.edu",
             "days": "A",
@@ -237,82 +743,50 @@
             "end_time": "0000h"
         }
     ],
-    "GEOL 510": [
-        {
-            "class_number": "20864",
-            "enrollment_cap": 25,
-            "enrollment_count": 4,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "jennifer.cotton@csun.edu",
-            "days": "R",
-            "location": "LO1212",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    ],
-    "GEOL 548": [
-        {
-            "class_number": "20830",
-            "enrollment_cap": 25,
-            "enrollment_count": 3,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "dayanthie.weeraratne@csun.edu",
-            "days": "MW",
-            "location": "LO1221",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    ],
-    "GEOL 548L": [
-        {
-            "class_number": "20831",
-            "enrollment_cap": 25,
-            "enrollment_count": 3,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "dayanthie.weeraratne@csun.edu",
-            "days": "MW",
-            "location": "LO1221",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    ],
-    "GEOL 551": [
-        {
-            "class_number": "20905",
-            "enrollment_cap": 30,
-            "enrollment_count": 9,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "robinson.cecil@csun.edu",
-            "days": "W",
-            "location": "LO1212",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    ],
     "GEOL 696C": [
         {
-            "class_number": "17364",
+            "class_number": "17445",
             "enrollment_cap": 5,
             "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "julian.lozos@csun.edu",
+            "instructor": "eileen.evans@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
             "end_time": "0000h"
         },
         {
-            "class_number": "17420",
+            "class_number": "17485",
             "enrollment_cap": 5,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "jennifer.cotton@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "17500",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "joshua.schwartz@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "17504",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "priya.ganguli@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -321,24 +795,36 @@
     ],
     "GEOL 698C": [
         {
-            "class_number": "17365",
+            "class_number": "17486",
             "enrollment_cap": 5,
             "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "robinson.cecil@csun.edu",
+            "instructor": "scott.hauswirth@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
             "end_time": "0000h"
         },
         {
-            "class_number": "17366",
+            "class_number": "17487",
             "enrollment_cap": 5,
             "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "jennifer.cotton@csun.edu",
+            "instructor": "joshua.schwartz@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "17785",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "richard.heermance@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -347,7 +833,21 @@
     ],
     "GEOL 699A": [
         {
-            "class_number": "17368",
+            "class_number": "17441",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "priya.ganguli@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "GEOL 699B": [
+        {
+            "class_number": "17491",
             "enrollment_cap": 5,
             "enrollment_count": 1,
             "waitlist_cap": 10,
@@ -359,28 +859,38 @@
             "end_time": "0000h"
         }
     ],
-    "GEOL 699B": [
+    "GEOL 699C": [
         {
-            "class_number": "17371",
+            "class_number": "17495",
             "enrollment_cap": 5,
-            "enrollment_count": 1,
+            "enrollment_count": 2,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "jennifer.cotton@csun.edu",
+            "instructor": "eileen.evans@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
             "end_time": "0000h"
-        }
-    ],
-    "GEOL 699C": [
+        },
         {
-            "class_number": "17535",
+            "class_number": "18029",
             "enrollment_cap": 5,
-            "enrollment_count": 0,
+            "enrollment_count": 2,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "jennifer.cotton@csun.edu",
+            "instructor": "joshua.schwartz@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18072",
+            "enrollment_cap": 5,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "richard.heermance@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",

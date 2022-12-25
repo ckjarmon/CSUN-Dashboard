@@ -1,177 +1,707 @@
 {
     "BIOL 100": [
         {
-            "class_number": "17074",
-            "enrollment_cap": 75,
-            "enrollment_count": 54,
-            "waitlist_cap": 0,
+            "class_number": "17153",
+            "enrollment_cap": 119,
+            "enrollment_count": 58,
+            "waitlist_cap": 119,
             "waitlist_count": 0,
-            "instructor": "cynthia.kay-nishiyama@csun.edu",
-            "days": "MW",
-            "location": "EH2132",
-            "start_time": "0800h",
-            "end_time": "0850h"
-        },
-        {
-            "class_number": "17566",
-            "enrollment_cap": 120,
-            "enrollment_count": 121,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "cheryl.vanbuskirk@csun.edu",
+            "instructor": "joshua.cohen@csun.edu",
             "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        },
-        {
-            "class_number": "18114",
-            "enrollment_cap": 80,
-            "enrollment_count": 80,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "allea.cauilan@csun.edu",
-            "days": "MW",
             "location": "EH2132",
             "start_time": "1230h",
             "end_time": "1320h"
-        }
-    ],
-    "BIOL 101": [
-        {
-            "class_number": "17446",
-            "enrollment_cap": 119,
-            "enrollment_count": 119,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "ali.ebneshahidi@csun.edu",
-            "days": "MW",
-            "location": "EH2132",
-            "start_time": "1100h",
-            "end_time": "1215h"
         },
         {
-            "class_number": "17925",
-            "enrollment_cap": 119,
-            "enrollment_count": 119,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "cody.russell@csun.edu",
-            "days": "TR",
-            "location": "EH2132",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        {
-            "class_number": "17981",
-            "enrollment_cap": 119,
-            "enrollment_count": 119,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "ali.ebneshahidi@csun.edu",
+            "class_number": "17154",
+            "enrollment_cap": 160,
+            "enrollment_count": 162,
+            "waitlist_cap": 150,
+            "waitlist_count": 1,
+            "instructor": "cheryl.vanbuskirk@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         },
         {
-            "class_number": "17983",
-            "enrollment_cap": 100,
-            "enrollment_count": 99,
-            "waitlist_cap": 0,
+            "class_number": "17505",
+            "enrollment_cap": 60,
+            "enrollment_count": 60,
+            "waitlist_cap": 60,
             "waitlist_count": 0,
+            "instructor": "alison.koontz@csun.edu",
+            "days": "MW",
+            "location": "LO1117",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        },
+        {
+            "class_number": "17950",
+            "enrollment_cap": 119,
+            "enrollment_count": 105,
+            "waitlist_cap": 119,
+            "waitlist_count": 0,
+            "instructor": "alison.koontz@csun.edu",
+            "days": "MW",
+            "location": "EH2132",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        {
+            "class_number": "18144",
+            "enrollment_cap": 119,
+            "enrollment_count": 117,
+            "waitlist_cap": 119,
+            "waitlist_count": 0,
+            "instructor": "cindy.malone@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 100L": [
+        {
+            "class_number": "17363",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 2,
+            "instructor": "elizabeth.ortiz.697@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18424",
+            "enrollment_cap": 50,
+            "enrollment_count": 48,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "jack.corso.837@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18425",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 1,
+            "instructor": "elizabeth.ortiz.697@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18426",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "jack.corso.837@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18427",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "elizabeth.ortiz.697@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18428",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 1,
+            "instructor": "joshua.gamez.730@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18429",
+            "enrollment_cap": 50,
+            "enrollment_count": 49,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "joshua.gamez.730@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18433",
+            "enrollment_cap": 50,
+            "enrollment_count": 48,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "jessica.peria.472@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18435",
+            "enrollment_cap": 50,
+            "enrollment_count": 49,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "ashlee.ochoa.571@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18436",
+            "enrollment_cap": 50,
+            "enrollment_count": 47,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "cindy.fajardo.625@my.csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 101": [
+        {
+            "class_number": "17155",
+            "enrollment_cap": 119,
+            "enrollment_count": 122,
+            "waitlist_cap": 119,
+            "waitlist_count": 1,
             "instructor": "georgios.tsounis@csun.edu",
-            "days": "F",
-            "location": "CR5122",
+            "days": "TR",
+            "location": "CR5125",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "17156",
+            "enrollment_cap": 119,
+            "enrollment_count": 117,
+            "waitlist_cap": 119,
+            "waitlist_count": 2,
+            "instructor": "ali.ebneshahidi@csun.edu",
+            "days": "MW",
+            "location": "CR5125",
             "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        {
+            "class_number": "17953",
+            "enrollment_cap": 119,
+            "enrollment_count": 111,
+            "waitlist_cap": 119,
+            "waitlist_count": 0,
+            "instructor": "cynthia.kay-nishiyama@csun.edu",
+            "days": "TR",
+            "location": "CR5125",
+            "start_time": "0930h",
             "end_time": "1045h"
         },
         {
-            "class_number": "18042",
-            "enrollment_cap": 100,
-            "enrollment_count": 98,
-            "waitlist_cap": 0,
+            "class_number": "18142",
+            "enrollment_cap": 119,
+            "enrollment_count": 116,
+            "waitlist_cap": 119,
+            "waitlist_count": 1,
+            "instructor": "cindy.malone@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18166",
+            "enrollment_cap": 119,
+            "enrollment_count": 101,
+            "waitlist_cap": 119,
             "waitlist_count": 0,
             "instructor": "terri.richardson@csun.edu",
-            "days": "MW",
-            "location": "CR5122",
+            "days": "TR",
+            "location": "CR5125",
             "start_time": "1700h",
             "end_time": "1815h"
-        }
-    ],
-    "BIOL 102CS": [
+        },
         {
-            "class_number": "18267",
-            "enrollment_cap": 48,
-            "enrollment_count": 30,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "virginia.vandergon@csun.edu",
-            "days": "MW",
-            "location": "CR5126",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    ],
-    "BIOL 102LCS": [
-        {
-            "class_number": "18268",
-            "enrollment_cap": 18,
-            "enrollment_count": 12,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "virginia.vandergon@csun.edu",
-            "days": "M",
-            "location": "CR5227",
-            "start_time": "1400h",
+            "class_number": "18648",
+            "enrollment_cap": 119,
+            "enrollment_count": 118,
+            "waitlist_cap": 76,
+            "waitlist_count": 1,
+            "instructor": "georgios.tsounis@csun.edu",
+            "days": "TR",
+            "location": "EH2132",
+            "start_time": "1530h",
             "end_time": "1645h"
+        }
+    ],
+    "BIOL 101L": [
+        {
+            "class_number": "17157",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "elizabeth.burns.467@my.csun.edu",
+            "days": "T",
+            "location": "CR5235",
+            "start_time": "0800h",
+            "end_time": "1050h"
+        },
+        {
+            "class_number": "17158",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jocelyn.coreas.541@my.csun.edu",
+            "days": "T",
+            "location": "CR5235",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17159",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jocelyn.coreas.541@my.csun.edu",
+            "days": "W",
+            "location": "CR5235",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17161",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 2,
+            "instructor": "cindy.fajardo.625@my.csun.edu",
+            "days": "T",
+            "location": "CR5235",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17334",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "hannah.merges.839@my.csun.edu",
+            "days": "F",
+            "location": "CR5231",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17407",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "elizabeth.burns.467@my.csun.edu",
+            "days": "W",
+            "location": "CR5235",
+            "start_time": "0800h",
+            "end_time": "1050h"
+        },
+        {
+            "class_number": "17414",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "kyaw-hsu.thway.803@my.csun.edu",
+            "days": "W",
+            "location": "CR5235",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17502",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "ashlee.ochoa.571@my.csun.edu",
+            "days": "R",
+            "location": "CR5235",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17507",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jose.munoz.375@my.csun.edu",
+            "days": "R",
+            "location": "CR5235",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17509",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "alitzel.villanueva.614@my.csun.edu",
+            "days": "W",
+            "location": "CR5231",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17511",
+            "enrollment_cap": 24,
+            "enrollment_count": 18,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jessica.hunter.754@my.csun.edu",
+            "days": "T",
+            "location": "CR5235",
+            "start_time": "1800h",
+            "end_time": "2050h"
+        },
+        {
+            "class_number": "18076",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "kyaw-hsu.thway.803@my.csun.edu",
+            "days": "T",
+            "location": "CR5231",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "18078",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "diego.gomez.519@my.csun.edu",
+            "days": "W",
+            "location": "CR5231",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "18100",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "kimberly.grob.159@my.csun.edu",
+            "days": "R",
+            "location": "CR5231",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "18101",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "cindy.fajardo.625@my.csun.edu",
+            "days": "R",
+            "location": "CR5231",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "18102",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "jose.munoz.375@my.csun.edu",
+            "days": "R",
+            "location": "CR5231",
+            "start_time": "1830h",
+            "end_time": "2120h"
+        },
+        {
+            "class_number": "18171",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "ashlee.ochoa.571@my.csun.edu",
+            "days": "T",
+            "location": "CR5231",
+            "start_time": "0800h",
+            "end_time": "1050h"
+        },
+        {
+            "class_number": "18172",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "kristen.howard.739@my.csun.edu",
+            "days": "F",
+            "location": "CR5235",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "18174",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 2,
+            "instructor": "kristen.howard.739@my.csun.edu",
+            "days": "F",
+            "location": "CR5235",
+            "start_time": "0800h",
+            "end_time": "1100h"
         }
     ],
     "BIOL 106": [
         {
-            "class_number": "17090",
-            "enrollment_cap": 130,
-            "enrollment_count": 129,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "casey.terhorst@csun.edu",
-            "days": "TR",
-            "location": "EH2132",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        {
-            "class_number": "18266",
-            "enrollment_cap": 140,
-            "enrollment_count": 140,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "kerry.nickols@csun.edu",
+            "class_number": "17163",
+            "enrollment_cap": 110,
+            "enrollment_count": 111,
+            "waitlist_cap": 119,
+            "waitlist_count": 2,
+            "instructor": "jeanne.robertson@csun.edu",
             "days": "MW",
             "location": "CR5122",
             "start_time": "1100h",
             "end_time": "1215h"
+        },
+        {
+            "class_number": "17246",
+            "enrollment_cap": 155,
+            "enrollment_count": 143,
+            "waitlist_cap": 155,
+            "waitlist_count": 0,
+            "instructor": "tim.karels@csun.edu",
+            "days": "TR",
+            "location": "CR5122",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17949",
+            "enrollment_cap": 85,
+            "enrollment_count": 83,
+            "waitlist_cap": 50,
+            "waitlist_count": 2,
+            "instructor": "tim.karels@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 106L": [
+        {
+            "class_number": "17165",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "lexi.atler.097@my.csun.edu",
+            "days": "M",
+            "location": "CR5236",
+            "start_time": "1800h",
+            "end_time": "2050h"
+        },
+        {
+            "class_number": "17166",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "lexi.atler.097@my.csun.edu",
+            "days": "M",
+            "location": "CR5236",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17167",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "olivia.diehl.545@my.csun.edu",
+            "days": "W",
+            "location": "CR5236",
+            "start_time": "0800h",
+            "end_time": "1050h"
+        },
+        {
+            "class_number": "17169",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "olivia.diehl.545@my.csun.edu",
+            "days": "W",
+            "location": "CR5236",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17170",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "robert.hogg.261@my.csun.edu",
+            "days": "T",
+            "location": "CR5236",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17171",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "rachel.gutner.474@my.csun.edu",
+            "days": "T",
+            "location": "CR5236",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17172",
+            "enrollment_cap": 20,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "melissa.gutterman.945@my.csun.edu",
+            "days": "F",
+            "location": "CR5236",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17173",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "diego.gomez.519@my.csun.edu",
+            "days": "R",
+            "location": "CR5236",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17380",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "melissa.gutterman.945@my.csun.edu",
+            "days": "F",
+            "location": "CR5236",
+            "start_time": "0800h",
+            "end_time": "1050h"
+        },
+        {
+            "class_number": "17409",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "kaela.tyler.239@my.csun.edu",
+            "days": "R",
+            "location": "CR5236",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17554",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "rachel.gutner.474@my.csun.edu",
+            "days": "T",
+            "location": "CR5236",
+            "start_time": "1800h",
+            "end_time": "2050h"
+        },
+        {
+            "class_number": "17555",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "diego.gomez.519@my.csun.edu",
+            "days": "W",
+            "location": "CR5236",
+            "start_time": "1800h",
+            "end_time": "2050h"
+        },
+        {
+            "class_number": "17556",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "kaela.tyler.239@my.csun.edu",
+            "days": "R",
+            "location": "CR5236",
+            "start_time": "1800h",
+            "end_time": "2050h"
         }
     ],
     "BIOL 107": [
         {
-            "class_number": "17097",
-            "enrollment_cap": 120,
-            "enrollment_count": 120,
-            "waitlist_cap": 0,
+            "class_number": "17405",
+            "enrollment_cap": 119,
+            "enrollment_count": 60,
+            "waitlist_cap": 119,
             "waitlist_count": 0,
-            "instructor": "yoshie.hanzawa@csun.edu",
-            "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "instructor": "mariano.lozacoll@csun.edu",
+            "days": "TR",
+            "location": "CR5122",
+            "start_time": "1530h",
+            "end_time": "1645h"
         },
         {
-            "class_number": "18043",
-            "enrollment_cap": 100,
-            "enrollment_count": 58,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
+            "class_number": "18105",
+            "enrollment_cap": 125,
+            "enrollment_count": 129,
+            "waitlist_cap": 120,
+            "waitlist_count": 1,
             "instructor": "yoshie.hanzawa@csun.edu",
             "days": "MW",
             "location": "CR5125",
@@ -179,40 +709,210 @@
             "end_time": "1515h"
         }
     ],
+    "BIOL 107L": [
+        {
+            "class_number": "17177",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "riley.jones.255@my.csun.edu",
+            "days": "W",
+            "location": "CR5232",
+            "start_time": "0800h",
+            "end_time": "1050h"
+        },
+        {
+            "class_number": "17178",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "hannah.merges.839@my.csun.edu",
+            "days": "W",
+            "location": "CR5232",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17179",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "marisa.mackie.156@my.csun.edu",
+            "days": "W",
+            "location": "CR5232",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17180",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "albertfred.aquino.85@my.csun.edu",
+            "days": "R",
+            "location": "CR5232",
+            "start_time": "0800h",
+            "end_time": "1050h"
+        },
+        {
+            "class_number": "17182",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "marisa.mackie.156@my.csun.edu",
+            "days": "R",
+            "location": "CR5232",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17247",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "alitzel.villanueva.614@my.csun.edu",
+            "days": "R",
+            "location": "CR5232",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17410",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "riley.jones.255@my.csun.edu",
+            "days": "T",
+            "location": "CR5232",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17411",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "tamryn.spinner.163@my.csun.edu",
+            "days": "T",
+            "location": "CR5232",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17514",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jesse.jones.432@my.csun.edu",
+            "days": "T",
+            "location": "CR5232",
+            "start_time": "1800h",
+            "end_time": "2050h"
+        }
+    ],
     "BIOL 211": [
         {
-            "class_number": "17103",
+            "class_number": "17183",
             "enrollment_cap": 119,
-            "enrollment_count": 119,
+            "enrollment_count": 38,
             "waitlist_cap": 119,
-            "waitlist_count": 3,
+            "waitlist_count": 0,
             "instructor": "joshua.cohen@csun.edu",
+            "days": "TR",
+            "location": "EH2132",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        {
+            "class_number": "18165",
+            "enrollment_cap": 119,
+            "enrollment_count": 115,
+            "waitlist_cap": 119,
+            "waitlist_count": 2,
+            "instructor": "cody.russell@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
-        },
-        {
-            "class_number": "18364",
-            "enrollment_cap": 119,
-            "enrollment_count": 35,
-            "waitlist_cap": 119,
-            "waitlist_count": 0,
-            "instructor": "joshua.cohen@csun.edu",
-            "days": "W",
-            "location": "EH2132",
-            "start_time": "1700h",
-            "end_time": "1840h"
         }
     ],
     "BIOL 212": [
         {
-            "class_number": "18287",
-            "enrollment_cap": 100,
-            "enrollment_count": 100,
-            "waitlist_cap": 90,
+            "class_number": "17184",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 2,
+            "instructor": "jack.dirck.506@my.csun.edu",
+            "days": "W",
+            "location": "EH2211",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17186",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 3,
+            "instructor": "ricardo.gibert.496@my.csun.edu",
+            "days": "W",
+            "location": "EH2211",
+            "start_time": "0800h",
+            "end_time": "1050h"
+        },
+        {
+            "class_number": "17188",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
             "waitlist_count": 5,
-            "instructor": "joshua.cohen@csun.edu",
+            "instructor": "matteo.mlinarevic.601@my.csun.edu",
+            "days": "T",
+            "location": "EH2211",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17406",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 3,
+            "instructor": "ricardo.gibert.496@my.csun.edu",
+            "days": "W",
+            "location": "EH2211",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "18032",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "matteo.mlinarevic.601@my.csun.edu",
+            "days": "T",
+            "location": "EH2211",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18415",
+            "enrollment_cap": 100,
+            "enrollment_count": 99,
+            "waitlist_cap": 100,
+            "waitlist_count": 4,
+            "instructor": "elliott.bloom@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
@@ -221,91 +921,25 @@
     ],
     "BIOL 213": [
         {
-            "class_number": "18398",
-            "enrollment_cap": 119,
-            "enrollment_count": 62,
-            "waitlist_cap": 119,
+            "class_number": "21630",
+            "enrollment_cap": 100,
+            "enrollment_count": 102,
+            "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "cody.russell@csun.edu",
-            "days": "MW",
-            "location": "CR5125",
+            "days": "TR",
+            "location": "LA181",
             "start_time": "1230h",
             "end_time": "1345h"
         }
     ],
     "BIOL 215": [
         {
-            "class_number": "17108",
-            "enrollment_cap": 36,
-            "enrollment_count": 34,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "sean.murray@csun.edu",
-            "days": "MW",
-            "location": "LO1117",
-            "start_time": "1100h",
-            "end_time": "1150h"
-        }
-    ],
-    "BIOL 215L": [
-        {
-            "class_number": "17109",
-            "enrollment_cap": 16,
-            "enrollment_count": 16,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "arsalan.amirali@csun.edu",
-            "days": "MW",
-            "location": "MG4207",
-            "start_time": "1400h",
-            "end_time": "1650h"
-        }
-    ],
-    "BIOL 247L": [
-        {
-            "class_number": "18262",
-            "enrollment_cap": 22,
-            "enrollment_count": 22,
-            "waitlist_cap": 22,
-            "waitlist_count": 0,
-            "instructor": "cindy.malone@csun.edu",
-            "days": "MWF",
-            "location": "CR5436",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    ],
-    "BIOL 281": [
-        {
-            "class_number": "17110",
-            "enrollment_cap": 119,
-            "enrollment_count": 27,
-            "waitlist_cap": 119,
-            "waitlist_count": 0,
-            "instructor": "randy.cohen@csun.edu",
-            "days": "TR",
-            "location": "CR5125",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        },
-        {
-            "class_number": "17443",
-            "enrollment_cap": 119,
-            "enrollment_count": 110,
-            "waitlist_cap": 119,
-            "waitlist_count": 0,
-            "instructor": "ali.ebneshahidi@csun.edu",
-            "days": "TR",
-            "location": "CR5125",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        {
-            "class_number": "18088",
-            "enrollment_cap": 119,
-            "enrollment_count": 36,
-            "waitlist_cap": 119,
-            "waitlist_count": 0,
+            "class_number": "17189",
+            "enrollment_cap": 32,
+            "enrollment_count": 33,
+            "waitlist_cap": 32,
+            "waitlist_count": 1,
             "instructor": "sean.murray@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -313,12 +947,150 @@
             "end_time": "0000h"
         }
     ],
+    "BIOL 215L": [
+        {
+            "class_number": "17190",
+            "enrollment_cap": 16,
+            "enrollment_count": 15,
+            "waitlist_cap": 16,
+            "waitlist_count": 1,
+            "instructor": "arsalan.amirali@csun.edu",
+            "days": "TR",
+            "location": "MG4207",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17415",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 16,
+            "waitlist_count": 0,
+            "instructor": "aaron.stibelman.50@my.csun.edu",
+            "days": "TR",
+            "location": "MG4207",
+            "start_time": "0900h",
+            "end_time": "1150h"
+        }
+    ],
+    "BIOL 281": [
+        {
+            "class_number": "17248",
+            "enrollment_cap": 119,
+            "enrollment_count": 118,
+            "waitlist_cap": 119,
+            "waitlist_count": 2,
+            "instructor": "ali.ebneshahidi@csun.edu",
+            "days": "MW",
+            "location": "EH2132",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18143",
+            "enrollment_cap": 119,
+            "enrollment_count": 45,
+            "waitlist_cap": 119,
+            "waitlist_count": 0,
+            "instructor": "daniel.odom@csun.edu",
+            "days": "MW",
+            "location": "CR5125",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "18322",
+            "enrollment_cap": 90,
+            "enrollment_count": 101,
+            "waitlist_cap": 119,
+            "waitlist_count": 1,
+            "instructor": "sean.murray@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 282": [
+        {
+            "class_number": "17193",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "evan.rank.21@my.csun.edu",
+            "days": "R",
+            "location": "CS3209",
+            "start_time": "1100h",
+            "end_time": "1350h"
+        },
+        {
+            "class_number": "17194",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "sean.farmer.876@my.csun.edu",
+            "days": "W",
+            "location": "CS3209",
+            "start_time": "0930h",
+            "end_time": "1220h"
+        },
+        {
+            "class_number": "17195",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "evan.rank.21@my.csun.edu",
+            "days": "W",
+            "location": "CS3209",
+            "start_time": "1530h",
+            "end_time": "1820h"
+        },
+        {
+            "class_number": "17401",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "amanda.dimaso.96@my.csun.edu",
+            "days": "W",
+            "location": "CS3209",
+            "start_time": "1230h",
+            "end_time": "1520h"
+        },
+        {
+            "class_number": "17446",
+            "enrollment_cap": 24,
+            "enrollment_count": 13,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "sean.farmer.876@my.csun.edu",
+            "days": "W",
+            "location": "CS3209",
+            "start_time": "1830h",
+            "end_time": "2120h"
+        },
+        {
+            "class_number": "17518",
+            "enrollment_cap": 24,
+            "enrollment_count": 6,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jack.dirck.506@my.csun.edu",
+            "days": "R",
+            "location": "CS3209",
+            "start_time": "1730h",
+            "end_time": "2020h"
+        }
+    ],
     "BIOL 306": [
         {
-            "class_number": "20635",
-            "enrollment_cap": 75,
-            "enrollment_count": 43,
-            "waitlist_cap": 100,
+            "class_number": "20482",
+            "enrollment_cap": 50,
+            "enrollment_count": 83,
+            "waitlist_cap": 50,
             "waitlist_count": 0,
             "instructor": "dave.gray@csun.edu",
             "days": "A",
@@ -329,141 +1101,137 @@
     ],
     "BIOL 315": [
         {
-            "class_number": "17115",
+            "class_number": "17205",
             "enrollment_cap": 119,
-            "enrollment_count": 116,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "sean.murray@csun.edu",
+            "enrollment_count": 138,
+            "waitlist_cap": 119,
+            "waitlist_count": 5,
+            "instructor": "melissa.takahashi@csun.edu",
             "days": "MW",
             "location": "CR5122",
             "start_time": "1230h",
-            "end_time": "1345h"
+            "end_time": "1320h"
         }
     ],
     "BIOL 315L": [
         {
-            "class_number": "17116",
+            "class_number": "17206",
             "enrollment_cap": 20,
             "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "karen.koch@csun.edu",
-            "days": "TR",
-            "location": "MG4209",
-            "start_time": "0900h",
-            "end_time": "1150h"
-        },
-        {
-            "class_number": "17118",
-            "enrollment_cap": 20,
-            "enrollment_count": 19,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
             "instructor": "allea.cauilan@csun.edu",
             "days": "MW",
-            "location": "MG4209",
+            "location": "MG4211",
             "start_time": "0900h",
             "end_time": "1150h"
         },
         {
-            "class_number": "17119",
+            "class_number": "17207",
             "enrollment_cap": 20,
             "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "karen.koch@csun.edu",
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "allea.cauilan@csun.edu",
             "days": "TR",
-            "location": "MG4209",
-            "start_time": "1400h",
-            "end_time": "1650h"
+            "location": "MG4211",
+            "start_time": "0900h",
+            "end_time": "1150h"
         },
         {
-            "class_number": "17379",
-            "enrollment_cap": 20,
-            "enrollment_count": 18,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
+            "class_number": "17208",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
             "instructor": "arsalan.amirali@csun.edu",
-            "days": "TR",
-            "location": "MG4211",
+            "days": "MW",
+            "location": "MG4207",
             "start_time": "1400h",
             "end_time": "1650h"
         },
         {
-            "class_number": "17458",
+            "class_number": "17209",
             "enrollment_cap": 20,
             "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "allea.cauilan@csun.edu",
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "karen.koch@csun.edu",
+            "days": "TR",
+            "location": "MG4209",
+            "start_time": "0900h",
+            "end_time": "1150h"
+        },
+        {
+            "class_number": "17416",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "gilberto.flores@csun.edu",
             "days": "MW",
-            "location": "MG4211",
+            "location": "MG4209",
             "start_time": "1400h",
             "end_time": "1650h"
-        }
-    ],
-    "BIOL 316CS": [
+        },
         {
-            "class_number": "18279",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 0,
+            "class_number": "17498",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "yoshie.hanzawa@csun.edu",
-            "days": "TR",
-            "location": "CR5230",
-            "start_time": "0830h",
-            "end_time": "0920h"
-        }
-    ],
-    "BIOL 316LCS": [
+            "instructor": "amanda.dimaso.96@my.csun.edu",
+            "days": "MW",
+            "location": "MG4209",
+            "start_time": "0900h",
+            "end_time": "1150h"
+        },
         {
-            "class_number": "18280",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 0,
+            "class_number": "18147",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "yoshie.hanzawa@csun.edu",
+            "instructor": "karen.koch@csun.edu",
             "days": "TR",
-            "location": "CR5230",
-            "start_time": "0930h",
-            "end_time": "1215h"
+            "location": "MG4209",
+            "start_time": "1400h",
+            "end_time": "1650h"
         }
     ],
     "BIOL 322": [
         {
-            "class_number": "17552",
+            "class_number": "17249",
             "enrollment_cap": 76,
             "enrollment_count": 77,
             "waitlist_cap": 76,
-            "waitlist_count": 8,
-            "instructor": "georgios.tsounis@csun.edu",
+            "waitlist_count": 0,
+            "instructor": "jeremy.yoder@csun.edu",
+            "days": "MW",
+            "location": "CR5126",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17450",
+            "enrollment_cap": 76,
+            "enrollment_count": 76,
+            "waitlist_cap": 76,
+            "waitlist_count": 0,
+            "instructor": "jeremy.yoder@csun.edu",
             "days": "TR",
             "location": "CR5126",
             "start_time": "1400h",
             "end_time": "1515h"
-        },
-        {
-            "class_number": "17591",
-            "enrollment_cap": 119,
-            "enrollment_count": 105,
-            "waitlist_cap": 119,
-            "waitlist_count": 0,
-            "instructor": "georgios.tsounis@csun.edu",
-            "days": "TR",
-            "location": "CR5125",
-            "start_time": "1700h",
-            "end_time": "1815h"
         }
     ],
     "BIOL 325": [
         {
-            "class_number": "17969",
-            "enrollment_cap": 50,
-            "enrollment_count": 56,
-            "waitlist_cap": 75,
-            "waitlist_count": 3,
+            "class_number": "18163",
+            "enrollment_cap": 119,
+            "enrollment_count": 117,
+            "waitlist_cap": 119,
+            "waitlist_count": 2,
             "instructor": "michael.franklin@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -471,342 +1239,332 @@
             "end_time": "0000h"
         },
         {
-            "class_number": "18362",
-            "enrollment_cap": 50,
-            "enrollment_count": 50,
-            "waitlist_cap": 75,
-            "waitlist_count": 2,
+            "class_number": "18585",
+            "enrollment_cap": 119,
+            "enrollment_count": 79,
+            "waitlist_cap": 240,
+            "waitlist_count": 0,
             "instructor": "janet.kubler@csun.edu",
-            "days": "A",
+            "days": "W",
             "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     ],
     "BIOL 325L": [
         {
-            "class_number": "18363",
-            "enrollment_cap": 50,
-            "enrollment_count": 30,
-            "waitlist_cap": 75,
+            "class_number": "18566",
+            "enrollment_cap": 119,
+            "enrollment_count": 34,
+            "waitlist_cap": 180,
             "waitlist_count": 0,
             "instructor": "georgios.tsounis@csun.edu",
-            "days": "F",
+            "days": "R",
             "location": "ONLINE",
-            "start_time": "1300h",
-            "end_time": "1545h"
+            "start_time": "0800h",
+            "end_time": "1045h"
         }
     ],
     "BIOL 327": [
         {
-            "class_number": "17457",
-            "enrollment_cap": 100,
-            "enrollment_count": 20,
+            "class_number": "17466",
+            "enrollment_cap": 119,
+            "enrollment_count": 21,
             "waitlist_cap": 119,
             "waitlist_count": 0,
             "instructor": "janet.kubler@csun.edu",
-            "days": "A",
+            "days": "R",
             "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     ],
-    "BIOL 360": [
+    "BIOL 330": [
         {
-            "class_number": "17122",
-            "enrollment_cap": 76,
-            "enrollment_count": 76,
-            "waitlist_cap": 76,
-            "waitlist_count": 15,
-            "instructor": "eduardo.amorim@csun.edu",
-            "days": "MW",
-            "location": "CR5126",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        {
-            "class_number": "17123",
-            "enrollment_cap": 119,
-            "enrollment_count": 79,
-            "waitlist_cap": 119,
+            "class_number": "17352",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "daniel.odom@csun.edu",
+            "instructor": "steve.dudgeon@csun.edu",
             "days": "TR",
-            "location": "CR5125",
+            "location": "CR5427",
+            "start_time": "1300h",
+            "end_time": "1350h"
+        }
+    ],
+    "BIOL 330L": [
+        {
+            "class_number": "17353",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "steve.dudgeon@csun.edu",
+            "days": "TR",
+            "location": "CR5427",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     ],
+    "BIOL 341": [
+        {
+            "class_number": "18579",
+            "enrollment_cap": 100,
+            "enrollment_count": 26,
+            "waitlist_cap": 100,
+            "waitlist_count": 0,
+            "instructor": "mariaelena.debellard@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        }
+    ],
+    "BIOL 360": [
+        {
+            "class_number": "17253",
+            "enrollment_cap": 119,
+            "enrollment_count": 117,
+            "waitlist_cap": 119,
+            "waitlist_count": 6,
+            "instructor": "rheem.medh@csun.edu",
+            "days": "TR",
+            "location": "CR5125",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17952",
+            "enrollment_cap": 119,
+            "enrollment_count": 119,
+            "waitlist_cap": 119,
+            "waitlist_count": 2,
+            "instructor": "mariano.lozacoll@csun.edu",
+            "days": "MW",
+            "location": "CR5125",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
     "BIOL 380": [
         {
-            "class_number": "17124",
+            "class_number": "17254",
             "enrollment_cap": 76,
-            "enrollment_count": 75,
+            "enrollment_count": 43,
             "waitlist_cap": 76,
             "waitlist_count": 0,
             "instructor": "lisa.banner@csun.edu",
             "days": "MW",
             "location": "CR5126",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "start_time": "0800h",
+            "end_time": "0915h"
         },
         {
-            "class_number": "18092",
+            "class_number": "17402",
             "enrollment_cap": 119,
-            "enrollment_count": 69,
+            "enrollment_count": 113,
             "waitlist_cap": 119,
             "waitlist_count": 0,
             "instructor": "daniel.odom@csun.edu",
             "days": "TR",
-            "location": "CR5125",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "location": "EH2132",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     ],
-    "BIOL 383": [
+    "BIOL 381": [
         {
-            "class_number": "18158",
-            "enrollment_cap": 72,
-            "enrollment_count": 53,
-            "waitlist_cap": 72,
+            "class_number": "17255",
+            "enrollment_cap": 24,
+            "enrollment_count": 18,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
+            "instructor": "vivianvy.le.568@my.csun.edu",
+            "days": "M",
+            "location": "CS3209",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "17256",
+            "enrollment_cap": 24,
+            "enrollment_count": 16,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "matthew.wallace.69@my.csun.edu",
+            "days": "M",
+            "location": "CS3209",
+            "start_time": "1700h",
+            "end_time": "1950h"
+        },
+        {
+            "class_number": "17257",
+            "enrollment_cap": 24,
+            "enrollment_count": 20,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "cynthia.petrossian.385@my.csun.edu",
+            "days": "T",
+            "location": "CS3209",
+            "start_time": "1400h",
+            "end_time": "1650h"
+        },
+        {
+            "class_number": "18169",
+            "enrollment_cap": 24,
+            "enrollment_count": 13,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "matthew.wallace.69@my.csun.edu",
+            "days": "T",
+            "location": "CS3209",
+            "start_time": "1700h",
+            "end_time": "1945h"
+        }
+    ],
+    "BIOL 382": [
+        {
+            "class_number": "18243",
+            "enrollment_cap": 72,
+            "enrollment_count": 73,
+            "waitlist_cap": 72,
+            "waitlist_count": 1,
             "instructor": "cody.russell@csun.edu",
             "days": "TR",
             "location": "CR5126",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     ],
-    "BIOL 404": [
+    "BIOL 382L": [
         {
-            "class_number": "20663",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "janet.kubler@csun.edu",
-            "days": "F",
-            "location": "MG4111",
+            "class_number": "18248",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "sean.farmer.876@my.csun.edu",
+            "days": "T",
+            "location": "EH2211",
             "start_time": "0800h",
-            "end_time": "0940h"
-        }
-    ],
-    "BIOL 404L": [
+            "end_time": "1045h"
+        },
         {
-            "class_number": "20664",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
+            "class_number": "18249",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
-            "instructor": "janet.kubler@csun.edu",
-            "days": "F",
-            "location": "MG4111",
-            "start_time": "1000h",
-            "end_time": "1245h"
-        }
-    ],
-    "BIOL 406": [
+            "instructor": "sean.farmer.876@my.csun.edu",
+            "days": "R",
+            "location": "EH2211",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
         {
-            "class_number": "17479",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
+            "class_number": "18250",
+            "enrollment_cap": 24,
+            "enrollment_count": 25,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
-            "instructor": "jeremy.yoder@csun.edu",
-            "days": "MW",
-            "location": "CR5335",
-            "start_time": "1300h",
-            "end_time": "1350h"
-        }
-    ],
-    "BIOL 406L": [
-        {
-            "class_number": "17480",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "jeremy.yoder@csun.edu",
-            "days": "M",
-            "location": "CR5335",
+            "instructor": "jack.dirck.506@my.csun.edu",
+            "days": "R",
+            "location": "EH2211",
             "start_time": "1400h",
             "end_time": "1645h"
-        }
-    ],
-    "BIOL 407": [
-        {
-            "class_number": "17347",
-            "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "paula.schiffman@csun.edu",
-            "days": "TR",
-            "location": "CR5335",
-            "start_time": "0800h",
-            "end_time": "0850h"
-        }
-    ],
-    "BIOL 407L": [
-        {
-            "class_number": "17348",
-            "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "paula.schiffman@csun.edu",
-            "days": "T",
-            "location": "CR5335",
-            "start_time": "0900h",
-            "end_time": "1145h"
         }
     ],
     "BIOL 410": [
         {
-            "class_number": "17127",
-            "enrollment_cap": 16,
-            "enrollment_count": 16,
-            "waitlist_cap": 0,
+            "class_number": "17258",
+            "enrollment_cap": 32,
+            "enrollment_count": 17,
+            "waitlist_cap": 32,
             "waitlist_count": 0,
             "instructor": "david.bermudes@csun.edu",
             "days": "MW",
             "location": "LO1117",
-            "start_time": "0830h",
-            "end_time": "0920h"
+            "start_time": "1300h",
+            "end_time": "1350h"
         }
     ],
     "BIOL 410L": [
         {
-            "class_number": "17128",
+            "class_number": "18146",
             "enrollment_cap": 16,
-            "enrollment_count": 16,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
+            "enrollment_count": 17,
+            "waitlist_cap": 16,
+            "waitlist_count": 1,
             "instructor": "david.bermudes@csun.edu",
             "days": "MW",
             "location": "MG4213",
-            "start_time": "0930h",
-            "end_time": "1220h"
+            "start_time": "1400h",
+            "end_time": "1650h"
         }
     ],
-    "BIOL 412": [
+    "BIOL 415": [
         {
-            "class_number": "18272",
-            "enrollment_cap": 10,
-            "enrollment_count": 17,
-            "waitlist_cap": 0,
+            "class_number": "17643",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "robert.e.espinoza@csun.edu",
-            "days": "TR",
+            "instructor": "fritz.hertel@csun.edu",
+            "days": "MW",
             "location": "CR5330",
             "start_time": "1300h",
             "end_time": "1350h"
         }
     ],
-    "BIOL 412L": [
+    "BIOL 415L": [
         {
-            "class_number": "20589",
-            "enrollment_cap": 10,
-            "enrollment_count": 17,
-            "waitlist_cap": 0,
+            "class_number": "17644",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "robert.e.espinoza@csun.edu",
-            "days": "T",
+            "instructor": "cody.russell@csun.edu",
+            "days": "M",
             "location": "CR5330",
             "start_time": "1400h",
             "end_time": "1645h"
         }
     ],
-    "BIOL 413": [
+    "BIOL 417": [
         {
-            "class_number": "18180",
-            "enrollment_cap": 17,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
+            "class_number": "17262",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "randy.cohen@csun.edu",
-            "days": "F",
-            "location": "CR5332",
-            "start_time": "1000h",
-            "end_time": "1140h"
-        }
-    ],
-    "BIOL 413L": [
-        {
-            "class_number": "18181",
-            "enrollment_cap": 17,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "james.n.hogue@csun.edu",
-            "days": "S",
-            "location": "CR5332",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    ],
-    "BIOL 414": [
-        {
-            "class_number": "18200",
-            "enrollment_cap": 16,
-            "enrollment_count": 19,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "fritz.hertel@csun.edu",
-            "days": "MW",
-            "location": "CR5330",
-            "start_time": "0800h",
-            "end_time": "0850h"
-        }
-    ],
-    "BIOL 414L": [
-        {
-            "class_number": "18201",
-            "enrollment_cap": 16,
-            "enrollment_count": 19,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "fritz.hertel@csun.edu",
-            "days": "M",
-            "location": "CR5335",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    ],
-    "BIOL 418": [
-        {
-            "class_number": "17649",
-            "enrollment_cap": 24,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "rachel.mackelprang@csun.edu",
-            "days": "MW",
-            "location": "EH2202",
+            "instructor": "cristian.ruizrueda@csun.edu",
+            "days": "TR",
+            "location": "MG4211",
             "start_time": "1300h",
             "end_time": "1350h"
         }
     ],
-    "BIOL 418L": [
+    "BIOL 417L": [
         {
-            "class_number": "17650",
-            "enrollment_cap": 24,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
+            "class_number": "17263",
+            "enrollment_cap": 20,
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "rachel.mackelprang@csun.edu",
-            "days": "MW",
-            "location": "EH2202",
+            "instructor": "cristian.ruizrueda@csun.edu",
+            "days": "TR",
+            "location": "MG4211",
             "start_time": "1400h",
-            "end_time": "1650h"
+            "end_time": "1645h"
         }
     ],
     "BIOL 421": [
         {
-            "class_number": "17589",
+            "class_number": "17364",
             "enrollment_cap": 20,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "michael.franklin@csun.edu",
             "days": "TR",
@@ -817,10 +1575,10 @@
     ],
     "BIOL 421L": [
         {
-            "class_number": "17590",
+            "class_number": "17365",
             "enrollment_cap": 20,
-            "enrollment_count": 22,
-            "waitlist_cap": 0,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "michael.franklin@csun.edu",
             "days": "T",
@@ -831,10 +1589,10 @@
     ],
     "BIOL 427A": [
         {
-            "class_number": "18278",
+            "class_number": "18289",
             "enrollment_cap": 20,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "michael.franklin@csun.edu",
             "days": "MW",
@@ -845,247 +1603,261 @@
     ],
     "BIOL 427AL": [
         {
-            "class_number": "18284",
+            "class_number": "18290",
             "enrollment_cap": 20,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "michael.franklin@csun.edu",
             "days": "M",
             "location": "MG4111",
             "start_time": "1400h",
-            "end_time": "1650h"
+            "end_time": "1645h"
         }
     ],
-    "BIOL 428": [
+    "BIOL 429": [
         {
-            "class_number": "17481",
-            "enrollment_cap": 18,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
+            "class_number": "18441",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "tim.karels@csun.edu",
-            "days": "TR",
+            "instructor": "nyssa.silbiger@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 429L": [
+        {
+            "class_number": "18442",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "nyssa.silbiger@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 430": [
+        {
+            "class_number": "18293",
+            "enrollment_cap": 20,
+            "enrollment_count": 22,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "mark.steele@csun.edu",
+            "days": "F",
+            "location": "MG4111",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        }
+    ],
+    "BIOL 430L": [
+        {
+            "class_number": "18294",
+            "enrollment_cap": 20,
+            "enrollment_count": 22,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "mark.steele@csun.edu",
+            "days": "F",
+            "location": "MG4111",
+            "start_time": "1000h",
+            "end_time": "1245h"
+        }
+    ],
+    "BIOL 434": [
+        {
+            "class_number": "18295",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "larry.allen@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 434L": [
+        {
+            "class_number": "18296",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "larry.allen@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 435": [
+        {
+            "class_number": "17557",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "cheryl.hogue@csun.edu",
+            "days": "MW",
             "location": "CR5332",
             "start_time": "0800h",
             "end_time": "0850h"
         }
     ],
-    "BIOL 428L": [
+    "BIOL 435L": [
         {
-            "class_number": "17482",
-            "enrollment_cap": 18,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
+            "class_number": "17558",
+            "enrollment_cap": 24,
+            "enrollment_count": 22,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
-            "instructor": "tim.karels@csun.edu",
-            "days": "T",
+            "instructor": "cheryl.hogue@csun.edu",
+            "days": "MW",
             "location": "CR5332",
             "start_time": "0900h",
             "end_time": "1145h"
         }
     ],
-    "BIOL 429": [
+    "BIOL 442": [
         {
-            "class_number": "18182",
+            "class_number": "18298",
             "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "mark.steele@csun.edu",
+            "instructor": "ray.hong@csun.edu",
             "days": "TR",
-            "location": "CR5335",
-            "start_time": "1300h",
-            "end_time": "1350h"
-        }
-    ],
-    "BIOL 429L": [
-        {
-            "class_number": "18184",
-            "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "mark.steele@csun.edu",
-            "days": "T",
-            "location": "CR5335",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    ],
-    "BIOL 431": [
-        {
-            "class_number": "17659",
-            "enrollment_cap": 24,
-            "enrollment_count": 19,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "cristian.ruizrueda@csun.edu",
-            "days": "TR",
-            "location": "EH2202",
-            "start_time": "1300h",
-            "end_time": "1350h"
-        }
-    ],
-    "BIOL 431L": [
-        {
-            "class_number": "17660",
-            "enrollment_cap": 24,
-            "enrollment_count": 19,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "cristian.ruizrueda@csun.edu",
-            "days": "TR",
-            "location": "EH2202",
-            "start_time": "1400h",
-            "end_time": "1650h"
-        }
-    ],
-    "BIOL 435": [
-        {
-            "class_number": "17638",
-            "enrollment_cap": 23,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "cheryl.hogue@csun.edu",
-            "days": "MW",
-            "location": "CR5332",
-            "start_time": "0830h",
-            "end_time": "0920h"
-        }
-    ],
-    "BIOL 435L": [
-        {
-            "class_number": "17639",
-            "enrollment_cap": 23,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "cheryl.hogue@csun.edu",
-            "days": "MW",
-            "location": "CR5332",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    ],
-    "BIOL 441": [
-        {
-            "class_number": "17129",
-            "enrollment_cap": 18,
-            "enrollment_count": 17,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "mariaelena.debellard@csun.edu",
-            "days": "MW",
             "location": "CS3219",
             "start_time": "1230h",
             "end_time": "1320h"
         }
     ],
-    "BIOL 441L": [
+    "BIOL 442L": [
         {
-            "class_number": "17982",
-            "enrollment_cap": 18,
-            "enrollment_count": 17,
-            "waitlist_cap": 0,
+            "class_number": "18299",
+            "enrollment_cap": 20,
+            "enrollment_count": 16,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "mariaelena.debellard@csun.edu",
-            "days": "MW",
+            "instructor": "ray.hong@csun.edu",
+            "days": "TR",
             "location": "CS3219",
             "start_time": "1330h",
             "end_time": "1615h"
         }
     ],
+    "BIOL 444": [
+        {
+            "class_number": "18300",
+            "enrollment_cap": 70,
+            "enrollment_count": 71,
+            "waitlist_cap": 70,
+            "waitlist_count": 0,
+            "instructor": "lisa.banner@csun.edu",
+            "days": "MW",
+            "location": "CR5126",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
     "BIOL 447": [
         {
-            "class_number": "17992",
-            "enrollment_cap": 20,
-            "enrollment_count": 19,
-            "waitlist_cap": 0,
+            "class_number": "17567",
+            "enrollment_cap": 19,
+            "enrollment_count": 18,
+            "waitlist_cap": 19,
             "waitlist_count": 0,
-            "instructor": "mariano.lozacoll@csun.edu",
-            "days": "TR",
-            "location": "CS3219",
+            "instructor": "cheryl.vanbuskirk@csun.edu",
+            "days": "MW",
+            "location": "CR5201",
             "start_time": "1300h",
             "end_time": "1350h"
         }
     ],
     "BIOL 447L": [
         {
-            "class_number": "17993",
-            "enrollment_cap": 20,
-            "enrollment_count": 19,
-            "waitlist_cap": 0,
+            "class_number": "17568",
+            "enrollment_cap": 19,
+            "enrollment_count": 18,
+            "waitlist_cap": 19,
             "waitlist_count": 0,
-            "instructor": "mariano.lozacoll@csun.edu",
-            "days": "TR",
+            "instructor": "cheryl.vanbuskirk@csun.edu",
+            "days": "MW",
             "location": "CS3219",
             "start_time": "1400h",
             "end_time": "1645h"
         }
     ],
-    "BIOL 452": [
+    "BIOL 453": [
         {
-            "class_number": "18178",
+            "class_number": "18291",
             "enrollment_cap": 20,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "jeanne.robertson@csun.edu",
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "dave.gray@csun.edu",
             "days": "TR",
-            "location": "CR5436",
+            "location": "CR5332",
             "start_time": "0800h",
             "end_time": "0850h"
         }
     ],
-    "BIOL 452L": [
+    "BIOL 453L": [
         {
-            "class_number": "18179",
+            "class_number": "18292",
             "enrollment_cap": 20,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "jeanne.robertson@csun.edu",
-            "days": "TR",
-            "location": "CR5436",
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "dave.gray@csun.edu",
+            "days": "T",
+            "location": "CR5332",
             "start_time": "0900h",
-            "end_time": "1145h"
+            "end_time": "1150h"
         }
     ],
-    "BIOL 467": [
+    "BIOL 456": [
         {
-            "class_number": "18117",
-            "enrollment_cap": 24,
-            "enrollment_count": 16,
-            "waitlist_cap": 0,
+            "class_number": "18297",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
-            "instructor": "melissa.takahashi@csun.edu",
-            "days": "MW",
-            "location": "EH2202",
-            "start_time": "0830h",
-            "end_time": "0920h"
+            "instructor": "paula.schiffman@csun.edu",
+            "days": "TR",
+            "location": "CR5335",
+            "start_time": "0800h",
+            "end_time": "0915h"
         }
     ],
-    "BIOL 467L": [
+    "BIOL 468": [
         {
-            "class_number": "18118",
-            "enrollment_cap": 24,
-            "enrollment_count": 14,
-            "waitlist_cap": 0,
+            "class_number": "17266",
+            "enrollment_cap": 60,
+            "enrollment_count": 30,
+            "waitlist_cap": 60,
             "waitlist_count": 0,
-            "instructor": "melissa.takahashi@csun.edu",
-            "days": "MW",
-            "location": "EH2202",
-            "start_time": "0930h",
-            "end_time": "1220h"
+            "instructor": "rheem.medh@csun.edu",
+            "days": "TR",
+            "location": "CR5125",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     ],
     "BIOL 470": [
         {
-            "class_number": "17567",
+            "class_number": "17569",
             "enrollment_cap": 119,
-            "enrollment_count": 88,
+            "enrollment_count": 40,
             "waitlist_cap": 119,
             "waitlist_count": 0,
             "instructor": "chhandak.basu@csun.edu",
@@ -1095,27 +1867,13 @@
             "end_time": "1045h"
         }
     ],
-    "BIOL 471A": [
-        {
-            "class_number": "18206",
-            "enrollment_cap": 60,
-            "enrollment_count": 60,
-            "waitlist_cap": 60,
-            "waitlist_count": 2,
-            "instructor": "rheem.medh@csun.edu",
-            "days": "TR",
-            "location": "LO1117",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    ],
     "BIOL 472": [
         {
-            "class_number": "18190",
+            "class_number": "18305",
             "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
             "instructor": "chhandak.basu@csun.edu",
             "days": "TR",
             "location": "CS3219",
@@ -1125,10 +1883,10 @@
     ],
     "BIOL 472L": [
         {
-            "class_number": "18191",
+            "class_number": "18306",
             "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "chhandak.basu@csun.edu",
             "days": "TR",
@@ -1137,85 +1895,99 @@
             "end_time": "1215h"
         }
     ],
-    "BIOL 481": [
+    "BIOL 476": [
         {
-            "class_number": "17693",
-            "enrollment_cap": 20,
-            "enrollment_count": 11,
-            "waitlist_cap": 0,
+            "class_number": "18026",
+            "enrollment_cap": 35,
+            "enrollment_count": 38,
+            "waitlist_cap": 10,
+            "waitlist_count": 1,
+            "instructor": "cindy.malone@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1500h",
+            "end_time": "1745h"
+        }
+    ],
+    "BIOL 477": [
+        {
+            "class_number": "18309",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "mariaelena.zavala@csun.edu",
             "days": "MW",
-            "location": "CS3214",
+            "location": "CR5430",
+            "start_time": "0800h",
+            "end_time": "0850h"
+        }
+    ],
+    "BIOL 477L": [
+        {
+            "class_number": "18310",
+            "enrollment_cap": 24,
+            "enrollment_count": 23,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jonathan.kelber@csun.edu",
+            "days": "MW",
+            "location": "CR5430",
+            "start_time": "0900h",
+            "end_time": "1150h"
+        }
+    ],
+    "BIOL 481": [
+        {
+            "class_number": "20483",
+            "enrollment_cap": 30,
+            "enrollment_count": 24,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "yoshie.hanzawa@csun.edu",
+            "days": "TR",
+            "location": "CR5227",
             "start_time": "1300h",
             "end_time": "1350h"
         }
     ],
     "BIOL 481L": [
         {
-            "class_number": "17694",
-            "enrollment_cap": 20,
-            "enrollment_count": 11,
-            "waitlist_cap": 0,
+            "class_number": "20484",
+            "enrollment_cap": 30,
+            "enrollment_count": 24,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "mariaelena.zavala@csun.edu",
-            "days": "MW",
-            "location": "CS3214",
+            "instructor": "yoshie.hanzawa@csun.edu",
+            "days": "TR",
+            "location": "CR5230",
             "start_time": "1400h",
             "end_time": "1645h"
         }
     ],
-    "BIOL 482": [
+    "BIOL 483": [
         {
-            "class_number": "18399",
-            "enrollment_cap": 18,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "randy.cohen@csun.edu",
-            "days": "TR",
-            "location": "CS3214",
-            "start_time": "0800h",
-            "end_time": "0850h"
-        }
-    ],
-    "BIOL 482L": [
-        {
-            "class_number": "18400",
-            "enrollment_cap": 18,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "randy.cohen@csun.edu",
-            "days": "TR",
-            "location": "CS3214",
-            "start_time": "0900h",
-            "end_time": "1150h"
-        }
-    ],
-    "BIOL 485": [
-        {
-            "class_number": "17130",
+            "class_number": "18311",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
             "instructor": "lisa.banner@csun.edu",
             "days": "MW",
             "location": "CR5430",
-            "start_time": "1300h",
-            "end_time": "1350h"
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     ],
-    "BIOL 485L": [
+    "BIOL 483L": [
         {
-            "class_number": "17317",
+            "class_number": "18312",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 0,
+            "enrollment_count": 18,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "lisa.banner@csun.edu",
-            "days": "MW",
+            "days": "M",
             "location": "CR5430",
             "start_time": "1400h",
             "end_time": "1645h"
@@ -1223,230 +1995,216 @@
     ],
     "BIOL 487": [
         {
-            "class_number": "17712",
-            "enrollment_cap": 17,
+            "class_number": "17371",
+            "enrollment_cap": 20,
             "enrollment_count": 22,
-            "waitlist_cap": 0,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "cynthia.kay-nishiyama@csun.edu",
-            "days": "MW",
+            "days": "TR",
             "location": "CR5436",
-            "start_time": "1300h",
-            "end_time": "1350h"
+            "start_time": "1230h",
+            "end_time": "1320h"
         }
     ],
     "BIOL 487L": [
         {
-            "class_number": "17713",
-            "enrollment_cap": 17,
-            "enrollment_count": 22,
-            "waitlist_cap": 0,
+            "class_number": "17372",
+            "enrollment_cap": 20,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "cynthia.kay-nishiyama@csun.edu",
-            "days": "MW",
+            "days": "TR",
             "location": "CR5436",
-            "start_time": "1400h",
-            "end_time": "1645h"
+            "start_time": "1330h",
+            "end_time": "1615h"
         }
     ],
     "BIOL 490": [
         {
-            "class_number": "17704",
-            "enrollment_cap": 65,
-            "enrollment_count": 43,
-            "waitlist_cap": 65,
+            "class_number": "17721",
+            "enrollment_cap": 60,
+            "enrollment_count": 42,
+            "waitlist_cap": 60,
             "waitlist_count": 0,
-            "instructor": "ray.hong@csun.edu",
+            "instructor": "gilberto.flores@csun.edu",
             "days": "F",
             "location": "CR5125",
             "start_time": "1400h",
-            "end_time": "1515h"
+            "end_time": "1550h"
         },
         {
-            "class_number": "17705",
+            "class_number": "17722",
             "enrollment_cap": 20,
-            "enrollment_count": 2,
+            "enrollment_count": 23,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "mariaelena.zavala@csun.edu",
             "days": "F",
             "location": "LO1117",
             "start_time": "1030h",
-            "end_time": "1500h"
+            "end_time": "1430h"
         },
         {
-            "class_number": "17706",
-            "enrollment_cap": 20,
-            "enrollment_count": 10,
-            "waitlist_cap": 20,
+            "class_number": "18418",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "cindy.malone@csun.edu",
             "days": "F",
-            "location": "CR5430",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        }
-    ],
-    "BIOL 492A": [
-        {
-            "class_number": "18204",
-            "enrollment_cap": 16,
-            "enrollment_count": 19,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "fritz.hertel@csun.edu",
-            "days": "W",
-            "location": "CR5330",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    ],
-    "BIOL 492AA": [
-        {
-            "class_number": "18197",
-            "enrollment_cap": 17,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "randy.cohen@csun.edu",
-            "days": "S",
-            "location": "CR5332",
-            "start_time": "1200h",
-            "end_time": "1445h"
+            "location": "CR5436",
+            "start_time": "0830h",
+            "end_time": "1115h"
         }
     ],
     "BIOL 492B": [
         {
-            "class_number": "17671",
+            "class_number": "17669",
+            "enrollment_cap": 20,
+            "enrollment_count": 21,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "michael.franklin@csun.edu",
+            "days": "R",
+            "location": "MG4111",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "BIOL 492BB": [
+        {
+            "class_number": "18316",
             "enrollment_cap": 20,
             "enrollment_count": 22,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "michael.franklin@csun.edu",
-            "days": "R",
-            "location": "MG4111",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    ],
-    "BIOL 492E": [
-        {
-            "class_number": "18273",
-            "enrollment_cap": 10,
-            "enrollment_count": 17,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "robert.e.espinoza@csun.edu",
-            "days": "R",
-            "location": "CR5330",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    ],
-    "BIOL 492I": [
-        {
-            "class_number": "18198",
-            "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "mark.steele@csun.edu",
-            "days": "R",
-            "location": "CR5335",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    ],
-    "BIOL 492K": [
-        {
-            "class_number": "17673",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "jeremy.yoder@csun.edu",
-            "days": "W",
-            "location": "CR5335",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    ],
-    "BIOL 492L": [
-        {
-            "class_number": "18285",
-            "enrollment_cap": 20,
-            "enrollment_count": 23,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "michael.franklin@csun.edu",
-            "days": "W",
-            "location": "MG4111",
-            "start_time": "1400h",
-            "end_time": "1650h"
-        }
-    ],
-    "BIOL 492N": [
-        {
-            "class_number": "17674",
-            "enrollment_cap": 20,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "paula.schiffman@csun.edu",
-            "days": "R",
-            "location": "CR5335",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    ],
-    "BIOL 492W": [
-        {
-            "class_number": "17699",
-            "enrollment_cap": 18,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "tim.karels@csun.edu",
-            "days": "R",
-            "location": "CR5332",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        }
-    ],
-    "BIOL 492Y": [
-        {
-            "class_number": "20665",
-            "enrollment_cap": 20,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
-            "waitlist_count": 0,
-            "instructor": "janet.kubler@csun.edu",
             "days": "F",
             "location": "MG4111",
             "start_time": "1300h",
             "end_time": "1545h"
         }
     ],
+    "BIOL 492I": [
+        {
+            "class_number": "18443",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "nyssa.silbiger@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 492L": [
+        {
+            "class_number": "18317",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "michael.franklin@csun.edu",
+            "days": "W",
+            "location": "MG4111",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "BIOL 492M": [
+        {
+            "class_number": "18042",
+            "enrollment_cap": 22,
+            "enrollment_count": 20,
+            "waitlist_cap": 22,
+            "waitlist_count": 0,
+            "instructor": "cody.russell@csun.edu",
+            "days": "W",
+            "location": "CR5330",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "BIOL 492O": [
+        {
+            "class_number": "18314",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "paula.schiffman@csun.edu",
+            "days": "R",
+            "location": "CR5335",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    ],
+    "BIOL 492Q": [
+        {
+            "class_number": "18319",
+            "enrollment_cap": 20,
+            "enrollment_count": 18,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "larry.allen@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 492Z": [
+        {
+            "class_number": "18339",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "dave.gray@csun.edu",
+            "days": "R",
+            "location": "CR5332",
+            "start_time": "0900h",
+            "end_time": "1150h"
+        }
+    ],
+    "BIOL 495B": [
+        {
+            "class_number": "17772",
+            "enrollment_cap": 17,
+            "enrollment_count": 18,
+            "waitlist_cap": 17,
+            "waitlist_count": 0,
+            "instructor": "cheryl.hogue@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
     "BIOL 495C": [
         {
-            "class_number": "18144",
-            "enrollment_cap": 24,
-            "enrollment_count": 6,
-            "waitlist_cap": 24,
+            "class_number": "17724",
+            "enrollment_cap": 15,
+            "enrollment_count": 18,
+            "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "cheryl.vanbuskirk@csun.edu",
-            "days": "F",
-            "location": "CR5209",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "instructor": "cindy.malone@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ],
     "BIOL 495D": [
         {
-            "class_number": "18142",
-            "enrollment_cap": 45,
+            "class_number": "17773",
+            "enrollment_cap": 40,
             "enrollment_count": 17,
-            "waitlist_cap": 45,
+            "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "steven.oppenheimer@csun.edu",
             "days": "A",
@@ -1455,25 +2213,53 @@
             "end_time": "0000h"
         }
     ],
-    "BIOL 496BC": [
+    "BIOL 496MC": [
         {
-            "class_number": "21250",
-            "enrollment_cap": 24,
-            "enrollment_count": 20,
-            "waitlist_cap": 0,
+            "class_number": "21451",
+            "enrollment_cap": 30,
+            "enrollment_count": 18,
+            "waitlist_cap": 30,
             "waitlist_count": 0,
-            "instructor": "mariano.lozacoll@csun.edu",
-            "days": "TR",
-            "location": "CR5330",
-            "start_time": "1030h",
-            "end_time": "1145h"
+            "instructor": "kerry.nickols@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ],
-    "BIOL 498": [
+    "BIOL 496MCF": [
         {
-            "class_number": "17972",
-            "enrollment_cap": 12,
-            "enrollment_count": 11,
+            "class_number": "21452",
+            "enrollment_cap": 30,
+            "enrollment_count": 18,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kerry.nickols@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 496MCL": [
+        {
+            "class_number": "21453",
+            "enrollment_cap": 30,
+            "enrollment_count": 18,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kerry.nickols@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 497EEB": [
+        {
+            "class_number": "17378",
+            "enrollment_cap": 2,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "cindy.malone@csun.edu",
@@ -1483,110 +2269,178 @@
             "end_time": "0000h"
         }
     ],
-    "BIOL 551": [
+    "BIOL 497EEC": [
         {
-            "class_number": "17701",
-            "enrollment_cap": 15,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
+            "class_number": "17305",
+            "enrollment_cap": 2,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "nyssa.silbiger@csun.edu",
-            "days": "TR",
-            "location": "LO1322",
-            "start_time": "1300h",
-            "end_time": "1350h"
+            "instructor": "cindy.malone@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ],
-    "BIOL 551L": [
+    "BIOL 502": [
         {
-            "class_number": "17702",
-            "enrollment_cap": 15,
-            "enrollment_count": 21,
-            "waitlist_cap": 0,
+            "class_number": "17307",
+            "enrollment_cap": 21,
+            "enrollment_count": 24,
+            "waitlist_cap": 21,
             "waitlist_count": 0,
-            "instructor": "nyssa.silbiger@csun.edu",
-            "days": "TR",
-            "location": "LO1322",
-            "start_time": "1400h",
-            "end_time": "1650h"
-        }
-    ],
-    "BIOL 615C": [
-        {
-            "class_number": "17445",
-            "enrollment_cap": 12,
-            "enrollment_count": 16,
-            "waitlist_cap": 12,
-            "waitlist_count": 3,
             "instructor": "casey.terhorst@csun.edu",
-            "days": "W",
-            "location": "ONCAMP",
+            "days": "TR",
+            "location": "CR5332",
             "start_time": "1700h",
+            "end_time": "1815h"
+        }
+    ],
+    "BIOL 502L": [
+        {
+            "class_number": "17308",
+            "enrollment_cap": 21,
+            "enrollment_count": 24,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "casey.terhorst@csun.edu",
+            "days": "TR",
+            "location": "CR5332",
+            "start_time": "1830h",
             "end_time": "1945h"
+        }
+    ],
+    "BIOL 503": [
+        {
+            "class_number": "18335",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "virginia.vandergon@csun.edu",
+            "days": "T",
+            "location": "CR5427",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    ],
+    "BIOL 503L": [
+        {
+            "class_number": "18336",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "virginia.vandergon@csun.edu",
+            "days": "R",
+            "location": "CR5427",
+            "start_time": "0900h",
+            "end_time": "1145h"
         }
     ],
     "BIOL 615F": [
         {
-            "class_number": "18093",
+            "class_number": "17642",
             "enrollment_cap": 12,
-            "enrollment_count": 15,
+            "enrollment_count": 17,
             "waitlist_cap": 12,
-            "waitlist_count": 5,
-            "instructor": "kerry.nickols@csun.edu",
-            "days": "M",
+            "waitlist_count": 3,
+            "instructor": "jeanne.robertson@csun.edu",
+            "days": "F",
+            "location": "ONCAMP",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        }
+    ],
+    "BIOL 655A": [
+        {
+            "class_number": "17651",
+            "enrollment_cap": 13,
+            "enrollment_count": 16,
+            "waitlist_cap": 12,
+            "waitlist_count": 1,
+            "instructor": "melissa.takahashi@csun.edu",
+            "days": "W",
             "location": "ONCAMP",
             "start_time": "1700h",
             "end_time": "1945h"
         }
     ],
-    "BIOL 655E": [
-        {
-            "class_number": "17588",
-            "enrollment_cap": 12,
-            "enrollment_count": 12,
-            "waitlist_cap": 12,
-            "waitlist_count": 5,
-            "instructor": "lisa.banner@csun.edu",
-            "days": "W",
-            "location": "ONCAMP",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        }
-    ],
     "BIOL 691": [
         {
-            "class_number": "17677",
-            "enrollment_cap": 14,
-            "enrollment_count": 8,
-            "waitlist_cap": 14,
-            "waitlist_count": 0,
+            "class_number": "17719",
+            "enrollment_cap": 12,
+            "enrollment_count": 13,
+            "waitlist_cap": 10,
+            "waitlist_count": 3,
             "instructor": "robert.e.espinoza@csun.edu",
             "days": "W",
-            "location": "ONCAMP",
+            "location": "CR5201",
             "start_time": "1800h",
             "end_time": "2045h"
+        },
+        {
+            "class_number": "17720",
+            "enrollment_cap": 14,
+            "enrollment_count": 14,
+            "waitlist_cap": 13,
+            "waitlist_count": 1,
+            "instructor": "cheryl.vanbuskirk@csun.edu",
+            "days": "F",
+            "location": "CR5201",
+            "start_time": "0900h",
+            "end_time": "1145h"
         }
     ],
     "BIOL 692": [
         {
-            "class_number": "17134",
-            "enrollment_cap": 35,
-            "enrollment_count": 9,
-            "waitlist_cap": 35,
+            "class_number": "17723",
+            "enrollment_cap": 40,
+            "enrollment_count": 19,
+            "waitlist_cap": 40,
             "waitlist_count": 0,
-            "instructor": "ray.hong@csun.edu",
+            "instructor": "gilberto.flores@csun.edu",
             "days": "F",
             "location": "ONCAMP",
             "start_time": "1400h",
-            "end_time": "1450h"
+            "end_time": "1550h"
+        }
+    ],
+    "BIOL 696B": [
+        {
+            "class_number": "17776",
+            "enrollment_cap": 15,
+            "enrollment_count": 18,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "janet.kubler@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "BIOL 696C": [
+        {
+            "class_number": "17777",
+            "enrollment_cap": 15,
+            "enrollment_count": 7,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "steve.dudgeon@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     ],
     "BIOL 698C": [
         {
-            "class_number": "17700",
-            "enrollment_cap": 30,
-            "enrollment_count": 11,
-            "waitlist_cap": 30,
+            "class_number": "17744",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "tim.karels@csun.edu",
             "days": "A",

@@ -1,36 +1,36 @@
 {
     "ITAL 101": [
         {
-            "class_number": "14231",
+            "class_number": "14005",
             "enrollment_cap": 32,
-            "enrollment_count": 31,
-            "waitlist_cap": 32,
-            "waitlist_count": 0,
-            "instructor": "alessia.weisberg@csun.edu",
-            "days": "TR",
-            "location": "JR243",
-            "start_time": "1100h",
-            "end_time": "1240h"
-        },
-        {
-            "class_number": "14232",
-            "enrollment_cap": 32,
-            "enrollment_count": 32,
+            "enrollment_count": 26,
             "waitlist_cap": 32,
             "waitlist_count": 1,
             "instructor": "alessia.weisberg@csun.edu",
             "days": "T",
-            "location": "SH221",
+            "location": "JR203",
             "start_time": "1300h",
             "end_time": "1440h"
+        },
+        {
+            "class_number": "14144",
+            "enrollment_cap": 32,
+            "enrollment_count": 31,
+            "waitlist_cap": 32,
+            "waitlist_count": 2,
+            "instructor": "alessia.weisberg@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1240h"
         }
     ],
     "ITAL 102": [
         {
-            "class_number": "14233",
-            "enrollment_cap": 25,
-            "enrollment_count": 11,
-            "waitlist_cap": 25,
+            "class_number": "20788",
+            "enrollment_cap": 35,
+            "enrollment_count": 22,
+            "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "alessia.weisberg@csun.edu",
             "days": "A",
@@ -39,18 +39,18 @@
             "end_time": "0000h"
         }
     ],
-    "ITAL 204": [
+    "ITAL 496MAF": [
         {
-            "class_number": "14836",
+            "class_number": "21556",
             "enrollment_cap": 25,
-            "enrollment_count": 5,
+            "enrollment_count": 7,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "pat.miller@csun.edu",
-            "days": "T",
-            "location": "EU132",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "days": "R",
+            "location": "ONCAMP",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     ]
 }
