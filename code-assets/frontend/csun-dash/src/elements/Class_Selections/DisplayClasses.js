@@ -34,7 +34,7 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
                         catalogInfo = catalogData[i]
                     }
                 }
-                catalogInfo["prerequisites"] = catalogInfo["prerequisites"].slice(1, -1)
+                catalogInfo["prerequisites"] = catalogInfo["prerequisites"]
 
                 setSelectedCourseInfo(catalogInfo)
             })

@@ -775,7 +775,10 @@ def parse(_sp, _res):
     res = res.replace('Take Obtain', 'Obtain')
     res = res.replace('Take Earn', 'Earn')
     res = res.replace('Take Permission', 'Permission')
-    return res.replace('\n ', '\n').replace('  ', ' ') # .replace('or a passing score', 'or Earn a passing score')
+    res = res.replace('Take None', 'None')
+    res = res.replace('Take Be', 'Be')
+    res = res.replace('\n ', '\n').replace('  ', ' ')
+    return repr(res) # .replace('or a passing score', 'or Earn a passing score')
     
 import mariadb
 if __name__ == "__main__":
@@ -792,12 +795,14 @@ if __name__ == "__main__":
         
     
     rootCursor.execute("select catalog_number,prerequisites from catalog where subject = 'COMP'")
-    for r in rootCursor.fetchall():
-
+    ccs = rootCursor.fetchall()
+    for r in ccs:
         print("\n--------------")
         print(r[0])
+        rootCursor.execute(f"""update catalog set parsed_prereq = %s
+                           where subject = 'COMP' and catalog_number = '{r[0]}'""", (parse(r[1], "Take "),))
         print(parse(r[1], "Take "))
     
-    
+    rootConnection.commit()
     
         
