@@ -33,6 +33,7 @@ def name_normalize(str):
 
 
 
+    
 # do not call initial parse call with empty string
 # all initial calls should start with _res = "Take "
 def parse(_sp, _res):
@@ -76,8 +77,10 @@ def parse(_sp, _res):
     res = res.replace('Take Obtain', 'Obtain')
     res = res.replace('Take Earn', 'Earn')
     res = res.replace('Take Permission', 'Permission')
-    return res.replace('\n ', '\n').replace('  ', ' ') # .replace('or a passing score', 'or Earn a passing score')
-    
+    res = res.replace('Take None', 'None')
+    res = res.replace('Take Be', 'Be')
+    res = res.replace('\n ', '\n').replace('  ', ' ')
+    return repr(res) # .replace('or a passing score', 'or Earn a passing score')
 
 @app.route('/')
 def home():
