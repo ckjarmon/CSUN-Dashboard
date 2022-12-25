@@ -95,12 +95,12 @@ Primarily used for testing
 def get(**kwargs):
     # return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
     rootCursor.execute(f"""SELECT
-                       subject
-                       catalog_number
-                       title
-                       description
-                       units
-                       prerequisites
+                       subject,
+                       catalog_number,
+                       title,
+                       description,
+                       units,
+                       prerequisites,
                        corequisites from catalog WHERE subject = '{kwargs['subject'].upper()}'
                        """)
     return [{"subject":x[0],
