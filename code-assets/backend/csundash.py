@@ -22,9 +22,7 @@ def establish_conn():
     except mariadb.Error as err:
         print(f"Error connecting to MariaDB Platform: {err}")
         
-        
-rootConnection = establish_conn()
-rootCursor = rootConnection.cursor()
+
 
 # create function to teardown connection after every return 
 
@@ -96,6 +94,8 @@ Primarily used for testing
 @app.route('/<string:subject>/catalog')
 def get(**kwargs):
     # return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT
                        subject,
                        catalog_number,
@@ -119,6 +119,8 @@ def get(**kwargs):
 
 @app.route('/<string:subject>/professors')
 def professors(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
                        email, 
                        first_name, 
@@ -203,6 +205,8 @@ Example:
 
 @app.route('/<string:subject>/rating', methods=['POST'])
 def new_rating(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     new_rating = request.get_json(force=True)
     print(new_rating)
     tup = (name_normalize(new_rating["professor_first_name"]),
@@ -285,6 +289,8 @@ def new_rating(**kwargs):
 
 @app.route('/<string:email>/ratings')
 def get_ratings(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
                         professor_first_name,
                         professor_last_name,
@@ -355,6 +361,8 @@ def prof_name(**kwargs):
     # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
     #    profs = json.load(profs)
     #    return profs[kwargs['prof_email']]
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
                        first_name, 
                        last_name 
@@ -440,6 +448,8 @@ Example:
 
 @app.route('/<string:subject>/classes')
 def classes(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     while True:
         try:        
             rootCursor.execute(f"""SELECT 
@@ -455,6 +465,8 @@ def classes(**kwargs):
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
 def schedule(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     try:
         rootCursor.execute(f"""SELECT 
                            class_number, 
@@ -505,6 +517,8 @@ def schedule(**kwargs):
 
 @app.route('/planner', methods=['POST'])
 def cost(**kwargs):
+    rootConnection = establish_conn()
+    rootCursor = rootConnection.cursor()
     new_data = request.get_json(force=True)
     units = 0
     for c in new_data["selections"]:
@@ -516,6 +530,4 @@ def cost(**kwargs):
 
 
 if __name__ == "__main__":
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
     app.run(threaded=True, host='0.0.0.0')
