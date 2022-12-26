@@ -6,7 +6,7 @@ function LandingPageSeciong() {
         <div style={landingSectionContainer}>
             <div>
                 <h1 style={headerText}>The CSUN course planner <br></br> you've been looking for</h1>
-                <h3 style={headerparagraph}>Free online platform that provides college students like you <br></br> with the tools to effectively plan <br></br> your upcomming schedule</h3>
+                <h3 style={headerparagraph}>Free online platform that provides college students like you <br></br> with the tools to effectively plan <br></br> your upcoming schedule</h3>
                 <Link to="/planner"><Button style={headerButton} variant="contained">Get Started</Button></Link>
             </div>
             <div style={imgContainer}>

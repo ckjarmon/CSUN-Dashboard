@@ -101,7 +101,8 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
                             {selectedCourseInfo.description}
                         </Typography>
                         <Typography sx={{ mt: 2, fontWeight: "bold" }}>
-                            {"Prerequisites: " + selectedCourseInfo.prerequisites}
+                            {"Prerequisites: " }
+                            <div dangerouslySetInnerHTML={{ __html:selectedCourseInfo.prerequisites}}  />
                         </Typography>
                     </Box>
                 </Fade>

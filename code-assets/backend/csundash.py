@@ -74,7 +74,7 @@ def parse(_parseable, _start):
     parsed_ret = parsed_ret.replace('Take None', 'None')
     parsed_ret = parsed_ret.replace('Take Be', 'Be')
     parsed_ret = parsed_ret.replace('\n ', '\n').replace('  ', ' ')
-    return repr(parsed_ret) # .replace('or a passing score', 'or Earn a passing score')
+    return repr(parsed_ret).replace('\'', '')[1:-1] # .replace('or a passing score', 'or Earn a passing score')
 
 @app.route('/')
 def home():
