@@ -52,7 +52,7 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
                         <TableRow>
                             <TableCell style={tableCellStyle} align="center"></TableCell>
                             <TableCell style={tableCellStyle} align="center">Section</TableCell>
-                            <TableCell style={tableCellStyle} align="center">Subject</TableCell>
+                            <TableCell style={tableCellStyle} align="center">Class</TableCell>
                             <TableCell style={tableCellStyle} align="center">Available Seats</TableCell>
                             <TableCell style={tableCellStyle} align="center">Location</TableCell>
                             <TableCell style={tableCellStyle} align="center">Days</TableCell>
