@@ -35,13 +35,8 @@ def name_normalize(str):
 # do not call initial parse call with empty string
 # all initial calls should start with _res = "Take "
 def parse(_sp, _res):
-    sp = _sp[1:-1]
-    print(sp)
-    p_stack = []
-    c = 0
-    res = _res
-    
-    
+    sp, res, c, p_stack = _sp[1:-1], _res, 0, []
+
     while c < len(sp):
         match sp[c]:
             case '{':
@@ -82,13 +77,7 @@ def parse(_sp, _res):
 
 @app.route('/')
 def home():
-    return "<h1 style='color:blue'>Hello There!</h1>"
-
-
-"""
-Abstract that returns any and all {subject} data FROM json_{data}
-Primarily used for testing
-"""
+    return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
 
 
 @app.route('/<string:subject>/catalog')
