@@ -34,46 +34,46 @@ def name_normalize(str):
     
 # do not call initial parse call with empty string
 # all initial calls should start with _res = "Take "
-def parse(_sp, _res):
-    sp, res, c, p_stack = _sp[1:-1], _res, 0, []
+def parse(_parseable, _start):
+    unparsed, parsed_ret, c_iterate, parse_stack = _parseable[1:-1], _start, 0, []
 
-    while c < len(sp):
-        match sp[c]:
+    while c_iterate < len(unparsed):
+        match unparsed[c_iterate]:
             case '{':
-                if sp[c+1] == '{':
-                    bb = sp[c:].index('}}')
-                    res += parse(sp[c:][0:bb+3], "")
-                    c += bb + 1
+                if unparsed[c_iterate+1] == '{':
+                    sub_unparsed_end = unparsed[c_iterate:].index('}}')
+                    parsed_ret += parse(unparsed[c_iterate:][0:sub_unparsed_end+3], "")
+                    c_iterate += sub_unparsed_end + 1
                 else:
-                    p_stack.append(sp[c])
+                    parse_stack.append(unparsed[c_iterate])
             case '}':
                 try:
-                    p_stack.pop()
+                    parse_stack.pop()
                 except IndexError:
                     pass
             case '&':
-                if _res == "":
-                    res += "AND Take "
+                if _start == "":
+                    parsed_ret += "AND Take "
                 else:
-                    res += "\nAND\nTake "
-                c += 1
+                    parsed_ret += "\nAND\nTake "
+                c_iterate += 1
             case '|':
-                if _res == "":
-                    res += "OR Take"
+                if _start == "":
+                    parsed_ret += "OR Take"
                 else:     
-                    res += "\nor\nTake"
-                c += 1               
+                    parsed_ret += "\nor\nTake"
+                c_iterate += 1               
             case _:
-                res += sp[c]
-        c += 1
+                parsed_ret += unparsed[c_iterate]
+        c_iterate += 1
     # cba programming the logic to avoid these from happening so just do replace calls lol
-    res = res.replace('Take Obtain', 'Obtain')
-    res = res.replace('Take Earn', 'Earn')
-    res = res.replace('Take Permission', 'Permission')
-    res = res.replace('Take None', 'None')
-    res = res.replace('Take Be', 'Be')
-    res = res.replace('\n ', '\n').replace('  ', ' ')
-    return repr(res) # .replace('or a passing score', 'or Earn a passing score')
+    parsed_ret = parsed_ret.replace('Take Obtain', 'Obtain')
+    parsed_ret = parsed_ret.replace('Take Earn', 'Earn')
+    parsed_ret = parsed_ret.replace('Take Permission', 'Permission')
+    parsed_ret = parsed_ret.replace('Take None', 'None')
+    parsed_ret = parsed_ret.replace('Take Be', 'Be')
+    parsed_ret = parsed_ret.replace('\n ', '\n').replace('  ', ' ')
+    return repr(parsed_ret) # .replace('or a passing score', 'or Earn a passing score')
 
 @app.route('/')
 def home():
