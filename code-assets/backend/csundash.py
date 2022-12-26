@@ -33,10 +33,11 @@ def name_normalize(str):
 
     
 # do not call initial parse call with empty string
-# all initial calls should start with _res = "Take "
+# all initial calls should start with _start = "Take "
 def parse(_parseable, _start):
-    unparsed, parsed_ret, c_iterate, parse_stack = _parseable[1:-1], _start, 0, []
-
+    unparsed, parsed_ret = _parseable[1:-1], _start
+    c_iterate, parse_stack = 0, []
+    
     while c_iterate < len(unparsed):
         match unparsed[c_iterate]:
             case '{':
@@ -55,13 +56,13 @@ def parse(_parseable, _start):
                 if _start == "":
                     parsed_ret += "AND Take "
                 else:
-                    parsed_ret += "\nAND\nTake "
+                    parsed_ret += "<br>AND<br>Take "
                 c_iterate += 1
             case '|':
                 if _start == "":
                     parsed_ret += "OR Take"
                 else:     
-                    parsed_ret += "\nor\nTake"
+                    parsed_ret += "<br>or<b>Take"
                 c_iterate += 1               
             case _:
                 parsed_ret += unparsed[c_iterate]
@@ -238,24 +239,6 @@ def new_rating(**kwargs):
         class_type) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, %s, %s)""", tup)
     rootConnection.commit()
 
-#             rootCursor.execute(f"""SELECT 
-#                                professor_first_name,
-#                                professor_last_name,
-#                                email,
-#                                subject,
-#                                catalog_number,
-#                                star_rating,
-#                                grade,
-#                                difficulty,
-#                                retake_professor,
-#                                require_textbooks,
-#                                mandatory,
-#                                review,
-#                                class_type
-#                                FROM rating WHERE professor_first_name = '{name_normalize(new_rating['professor_first_name'])}' 
-#                                                  AND 
-#                                                  professor_last_name = '{name_normalize(new_rating['professor_last_name'])}' """) 
-
     rootCursor.execute(f"""SELECT 
                         professor_first_name,
                         professor_last_name,
@@ -404,59 +387,7 @@ Example:
   "122L - Computer Architecture And Assembly Language Lab",
   "182 - Data Structures And Program Design",
   "182L - Data Structures And Program Design Lab",
-  "222 - Computer Organization",
-  "256 - Discrete Structures For Computer Science",
-  "256L - Discrete Structures For Computer Science Lab",
-  "282 - Advanced Data Structures",
-  "300 - Computer Fluency",
-  "310 - Automata, Languages, And Computation",
-  "322 - Introduction To Operating Systems And System Architecture",
-  "322L - Introduction To Operating Systems And System Architecture Lab",
-  "333 - Concepts Of Programming Languages",
-  "380 - Introduction To Software Engineering",
-  "380L - Introduction To Software Engineering Lab",
-  "410 - Logic Programming",
-  "424 - Computer System Security",
-  "429 - Computer Network Software",
-  "430 - Language Design And Compilers",
-  "440 - Database Design",
-  "442 - Machine Learning",
-  "465 - Computer Graphic Systems And Design",
-  "465L - Computer Graphic Systems And Design Lab",
-  "467 - Multimedia Systems Design",
-  "469 - Introduction To Artificial Intelligence",
-  "482 - Algorithm Design",
-  "484 - Web Engineering I",
-  "484L - Web Engineering I Lab",
-  "485 - Human-computer Interaction",
-  "490 - Senior Design Project",
-  "490L - Senior Design Project Lab",
-  "491L - Senior Project Lab",
-  "522 - Embedded Apps",
-  "528 - Mobile Computing",
-  "528L - Mobile Comp Lab",
-  "529 - Advanced Network Topics",
-  "529L - Adv Network Lab",
-  "539 - Network Infras",
-  "541 - Data Mining",
-  "542 - Machine Learning",
-  "560 - Expert Systems",
-  "565 - Advanced Computer Graphics",
-  "581 - Open Source Software Engineering",
-  "582 - Software Requirements Analysis And Specification",
-  "583 - Software Engineering Management",
-  "584 - Advanced Web Engineering",
-  "585 - Graphical User Interfaces",
-  "586 - Object-oriented Software Development",
-  "587 - Software V And V",
-  "589 - Software Metrics",
-  "610 - Data Structures And Algorithms",
-  "615 - Advanced Topics In Computation Theory",
-  "620 - Computer System Architecture",
-  "680 - Advanced Topics In Software Engineering",
-  "684 - Software Architecture And Design",
-  "696C - Directed Graduate Research",
-  "698C - Thesis Or Graduate Project"
+    ... and so on
 ]
 """
 
