@@ -62,7 +62,7 @@ def parse(_parseable, _start):
                 if _start == "":
                     parsed_ret += "OR Take"
                 else:     
-                    parsed_ret += "<br>or<b>Take"
+                    parsed_ret += "<br>or<br>Take"
                 c_iterate += 1               
             case _:
                 parsed_ret += unparsed[c_iterate]
