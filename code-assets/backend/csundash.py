@@ -105,13 +105,18 @@ def get(**kwargs):
                        prerequisites,
                        corequisites from catalog WHERE subject = '{kwargs['subject'].upper()}'
                        """)
+    le_fetch = rootCursor.fetchall()
+    
+    rootConnection.commit()
+    rootCursor.close()
+    rootConnection.close()
     return [{"subject":x[0],
     "catalog_number":x[1],
     "title":x[2],
     "description":x[3],
     "units":x[4],
     "prerequisites": parse(x[5], "Take "),
-    "corequisites":x[6]} for x in rootCursor.fetchall()]
+    "corequisites":x[6]} for x in le_fetch]
 # @app.route('/sql')
 # def sql(**kwargs):
 #    rootCursor.execute("SELECT * FROM csun.COMP_view")
@@ -133,6 +138,11 @@ def professors(**kwargs):
                        subject, 
                        office 
                        FROM professor WHERE subject = '{kwargs['subject'].upper()}'""")
+    le_fetch = rootCursor.fetchall()
+    
+    rootConnection.commit()
+    rootCursor.close()
+    rootConnection.close()
     return sorted([{"email": x[0],
                     "first_name": name_normalize(x[1]),
                     "last_name": name_normalize(x[2]),
@@ -143,7 +153,7 @@ def professors(**kwargs):
                     "mail_drop": x[7] if x[7] not in [None, ""] else "N/A",
                     "subject": x[8] if x[8] not in [None, ""] else "N/A",
                     "office": x[9] if x[9] not in [None, ""] else "N/A"}
-                   for x in rootCursor.fetchall()], key=lambda x: x["last_name"])
+                   for x in le_fetch], key=lambda x: x["last_name"])
 
 
 """
@@ -272,6 +282,11 @@ def new_rating(**kwargs):
                         review,
                         class_type
                         FROM rating WHERE email = '{new_rating['email'].lower()}' """)            
+    le_fetch = rootCursor.fetchall()
+    
+    rootConnection.commit()
+    rootCursor.close()
+    rootConnection.close()
     return [{"professor_first_name": c[0],
              "professor_last_name": c[1],
              "email": c[2],
@@ -284,7 +299,7 @@ def new_rating(**kwargs):
              "require_textbooks": c[9],
              "mandatory": c[10],
              "review": c[11],
-             "class_type": c[12]} for c in rootCursor.fetchall()]
+             "class_type": c[12]} for c in le_fetch]
 
 
 @app.route('/<string:email>/ratings')
@@ -306,6 +321,11 @@ def get_ratings(**kwargs):
                         review,
                         class_type
                         FROM rating WHERE email = '{kwargs['email'].lower()}' """)            
+    le_fetch = rootCursor.fetchall()
+    
+    rootConnection.commit()
+    rootCursor.close()
+    rootConnection.close()
     return [{"professor_first_name": c[0],
              "professor_last_name": c[1],
              "email": c[2],
@@ -318,7 +338,7 @@ def get_ratings(**kwargs):
              "require_textbooks": c[9],
              "mandatory": c[10],
              "review": c[11],
-             "class_type": c[12]} for c in rootCursor.fetchall()]
+             "class_type": c[12]} for c in le_fetch]
 
 
 """
@@ -367,7 +387,13 @@ def prof_name(**kwargs):
                        first_name, 
                        last_name 
                        FROM professor WHERE subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'""")
-    return [f"{x[0]} {x[1]}" for x in rootCursor.fetchall()][0]
+    le_fetch = rootCursor.fetchall()
+    
+    rootConnection.commit()
+    rootCursor.close()
+    rootConnection.close()
+    
+    return [f"{x[0]} {x[1]}" for x in le_fetch][0]
 
 
 
@@ -450,15 +476,17 @@ Example:
 def classes(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
-    while True:
-        try:        
-            rootCursor.execute(f"""SELECT 
-                               catalog_number, 
-                               title 
-                               FROM csun.{kwargs['subject'].upper()}_view""")
-            return [f"{x[0]} - {x[1]}" for x in rootCursor.fetchall()]
-        except mariadb.InterfaceError:
-            continue
+      
+    rootCursor.execute(f"""SELECT 
+                       catalog_number, 
+                       title 
+                       FROM csun.{kwargs['subject'].upper()}_view""")
+    le_fetch = rootCursor.fetchall()
+    
+    rootConnection.commit()
+    rootCursor.close()
+    rootConnection.close()
+    return [f"{x[0]} - {x[1]}" for x in le_fetch]
 
 
 
@@ -503,6 +531,11 @@ def schedule(**kwargs):
                            catalog_number, 
                            subject 
                            FROM section WHERE subject = '{kwargs['subject'].upper()}'""")
+        le_fetch = rootCursor.fetchall()
+    
+        rootConnection.commit()
+        rootCursor.close()
+        rootConnection.close()
         return [{"class_number": c[0],
                  "enrollment_cap": c[1],
                  "enrollment_count": c[2],
@@ -512,7 +545,7 @@ def schedule(**kwargs):
                  "start_time": c[6],
                  "end_time": c[7],
                  "catalog_number": c[8],
-                 "subject": c[9]} for c in rootCursor.fetchall()]
+                 "subject": c[9]} for c in le_fetch]
 
 
 @app.route('/planner', methods=['POST'])
