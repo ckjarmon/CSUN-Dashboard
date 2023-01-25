@@ -3,10 +3,10 @@
         "14561": {
             "class_number": "14561",
             "enrollment_cap": 41,
-            "enrollment_count": 8,
+            "enrollment_count": 21,
             "waitlist_cap": 41,
             "waitlist_count": 0,
-            "instructor": "elaine.goodfriend@csun.edu",
+            "instructor": "melissa.weininger@csun.edu",
             "days": "TR",
             "location": "SH108",
             "start_time": "1100h",
@@ -17,7 +17,7 @@
         "20898": {
             "class_number": "20898",
             "enrollment_cap": 36,
-            "enrollment_count": 16,
+            "enrollment_count": 22,
             "waitlist_cap": 36,
             "waitlist_count": 0,
             "instructor": "melissa.weininger@csun.edu",
@@ -31,35 +31,21 @@
         "14748": {
             "class_number": "14748",
             "enrollment_cap": 40,
-            "enrollment_count": 34,
+            "enrollment_count": 41,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "elaine.goodfriend@csun.edu",
+            "waitlist_count": 4,
+            "instructor": "melissa.weininger@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
             "end_time": "0000h"
         }
     },
-    "JS 333": {
-        "20688": {
-            "class_number": "20688",
-            "enrollment_cap": 41,
-            "enrollment_count": 5,
-            "waitlist_cap": 41,
-            "waitlist_count": 0,
-            "instructor": "melissa.weininger@csun.edu",
-            "days": "MW",
-            "location": "SH108",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
     "JS 335": {
         "15378": {
             "class_number": "15378",
             "enrollment_cap": 15,
-            "enrollment_count": 4,
+            "enrollment_count": 5,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "jennifer.a.thompson@csun.edu",
@@ -72,15 +58,13 @@
     "JS 390CS": {
         "14296": {
             "class_number": "14296",
-            "enrollment_cap": 12,
-            "enrollment_count": 2,
-            "waitlist_cap": 12,
-            "waitlist_count": 0,
-            "instructor": "melissa.weininger@csun.edu",
-            "days": "F",
-            "location": "JR204",
-            "start_time": "0930h",
-            "end_time": "1215h"
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     }
 }

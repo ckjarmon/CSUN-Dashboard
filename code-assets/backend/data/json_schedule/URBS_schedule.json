@@ -3,7 +3,7 @@
         "12041": {
             "class_number": "12041",
             "enrollment_cap": 49,
-            "enrollment_count": 20,
+            "enrollment_count": 49,
             "waitlist_cap": 49,
             "waitlist_count": 0,
             "instructor": "claude.willey@csun.edu",
@@ -15,7 +15,7 @@
         "12042": {
             "class_number": "12042",
             "enrollment_cap": 49,
-            "enrollment_count": 32,
+            "enrollment_count": 49,
             "waitlist_cap": 49,
             "waitlist_count": 0,
             "instructor": "claude.willey@csun.edu",
@@ -29,8 +29,8 @@
             "enrollment_cap": 49,
             "enrollment_count": 49,
             "waitlist_cap": 49,
-            "waitlist_count": 0,
-            "instructor": "bradley.calvert@csun.edu",
+            "waitlist_count": 1,
+            "instructor": "ward.thomas@csun.edu",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1100h",
@@ -39,7 +39,7 @@
         "12044": {
             "class_number": "12044",
             "enrollment_cap": 49,
-            "enrollment_count": 28,
+            "enrollment_count": 49,
             "waitlist_cap": 49,
             "waitlist_count": 0,
             "instructor": "claude.willey@csun.edu",
@@ -51,10 +51,10 @@
         "12652": {
             "class_number": "12652",
             "enrollment_cap": 49,
-            "enrollment_count": 8,
+            "enrollment_count": 15,
             "waitlist_cap": 49,
             "waitlist_count": 0,
-            "instructor": "bradley.calvert@csun.edu",
+            "instructor": "pgiottonini@csun.edu",
             "days": "F",
             "location": "SH186",
             "start_time": "1100h",
@@ -62,20 +62,18 @@
         },
         "12701": {
             "class_number": "12701",
-            "enrollment_cap": 49,
-            "enrollment_count": 7,
-            "waitlist_cap": 49,
-            "waitlist_count": 0,
-            "instructor": "pgiottonini@csun.edu",
-            "days": "TR",
-            "location": "SH286",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "12738": {
             "class_number": "12738",
             "enrollment_cap": 49,
-            "enrollment_count": 21,
+            "enrollment_count": 49,
             "waitlist_cap": 49,
             "waitlist_count": 0,
             "instructor": "claude.willey@csun.edu",
@@ -89,7 +87,7 @@
         "12768": {
             "class_number": "12768",
             "enrollment_cap": 20,
-            "enrollment_count": 14,
+            "enrollment_count": 19,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "pgiottonini@csun.edu",
@@ -103,7 +101,7 @@
         "12047": {
             "class_number": "12047",
             "enrollment_cap": 30,
-            "enrollment_count": 28,
+            "enrollment_count": 38,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "brettany.shannon@csun.edu",
@@ -117,12 +115,12 @@
         "12045": {
             "class_number": "12045",
             "enrollment_cap": 138,
-            "enrollment_count": 14,
+            "enrollment_count": 45,
             "waitlist_cap": 138,
             "waitlist_count": 0,
             "instructor": "ward.thomas@csun.edu",
             "days": "TR",
-            "location": "UL025",
+            "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h"
         },
@@ -131,7 +129,7 @@
             "enrollment_cap": 49,
             "enrollment_count": 49,
             "waitlist_cap": 49,
-            "waitlist_count": 0,
+            "waitlist_count": 4,
             "instructor": "dev.vrat@csun.edu",
             "days": "F",
             "location": "ONLINE",
@@ -141,9 +139,9 @@
         "12059": {
             "class_number": "12059",
             "enrollment_cap": 49,
-            "enrollment_count": 31,
+            "enrollment_count": 49,
             "waitlist_cap": 49,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "dev.vrat@csun.edu",
             "days": "TR",
             "location": "SH286",
@@ -152,37 +150,25 @@
         }
     },
     "URBS 340B": {
-        "12048": {
-            "class_number": "12048",
-            "enrollment_cap": 20,
-            "enrollment_count": 10,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "zeynep.toker@csun.edu",
-            "days": "TR",
-            "location": "SH303",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
         "12049": {
             "class_number": "12049",
-            "enrollment_cap": 20,
-            "enrollment_count": 10,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "zeynep.toker@csun.edu",
-            "days": "TR",
-            "location": "SH278B",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "21285": {
             "class_number": "21285",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Romine,Nathan",
+            "enrollment_cap": 20,
+            "enrollment_count": 23,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "nathan.romine@csun.edu",
             "days": "S",
-            "location": "SH286",
+            "location": "SH303",
             "start_time": "0930h",
             "end_time": "1215h"
         }
@@ -193,7 +179,7 @@
             "enrollment_cap": 49,
             "enrollment_count": 49,
             "waitlist_cap": 49,
-            "waitlist_count": 16,
+            "waitlist_count": 18,
             "instructor": "claude.willey@csun.edu",
             "days": "TR",
             "location": "ONLINE",
@@ -205,7 +191,7 @@
         "12901": {
             "class_number": "12901",
             "enrollment_cap": 49,
-            "enrollment_count": 18,
+            "enrollment_count": 29,
             "waitlist_cap": 49,
             "waitlist_count": 0,
             "instructor": "brettany.shannon@csun.edu",
@@ -219,7 +205,7 @@
         "12943": {
             "class_number": "12943",
             "enrollment_cap": 30,
-            "enrollment_count": 14,
+            "enrollment_count": 21,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "pgiottonini@csun.edu",
@@ -247,12 +233,12 @@
         "12054": {
             "class_number": "12054",
             "enrollment_cap": 30,
-            "enrollment_count": 17,
+            "enrollment_count": 25,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "ward.thomas@csun.edu",
             "days": "TR",
-            "location": "SH286",
+            "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1515h"
         }
@@ -261,7 +247,7 @@
         "12055": {
             "class_number": "12055",
             "enrollment_cap": 30,
-            "enrollment_count": 13,
+            "enrollment_count": 16,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "henrik.minassians@csun.edu",
@@ -289,7 +275,7 @@
         "12058": {
             "class_number": "12058",
             "enrollment_cap": 9,
-            "enrollment_count": 9,
+            "enrollment_count": 11,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "Staff",
@@ -303,7 +289,7 @@
         "12906": {
             "class_number": "12906",
             "enrollment_cap": 15,
-            "enrollment_count": 0,
+            "enrollment_count": 8,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "craig.olwert@csun.edu",
@@ -317,7 +303,7 @@
         "12769": {
             "class_number": "12769",
             "enrollment_cap": 15,
-            "enrollment_count": 0,
+            "enrollment_count": 7,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "david.weintraub@csun.edu",
@@ -331,12 +317,12 @@
         "12904": {
             "class_number": "12904",
             "enrollment_cap": 15,
-            "enrollment_count": 0,
+            "enrollment_count": 8,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "ward.thomas@csun.edu",
             "days": "R",
-            "location": "SH286",
+            "location": "ONLINE",
             "start_time": "1800h",
             "end_time": "2045h"
         }
@@ -345,7 +331,7 @@
         "13130": {
             "class_number": "13130",
             "enrollment_cap": 15,
-            "enrollment_count": 0,
+            "enrollment_count": 8,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "henrik.minassians@csun.edu",
@@ -359,12 +345,12 @@
         "12771": {
             "class_number": "12771",
             "enrollment_cap": 15,
-            "enrollment_count": 0,
+            "enrollment_count": 8,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "zeynep.toker@csun.edu",
+            "instructor": "michael.pesses@csun.edu",
             "days": "S",
-            "location": "SH278B",
+            "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1215h"
         }
@@ -373,12 +359,12 @@
         "12903": {
             "class_number": "12903",
             "enrollment_cap": 15,
-            "enrollment_count": 0,
+            "enrollment_count": 9,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "craig.olwert@csun.edu",
             "days": "S",
-            "location": "SH303",
+            "location": "SH278B",
             "start_time": "0930h",
             "end_time": "1215h"
         }

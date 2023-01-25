@@ -3,9 +3,9 @@
         "14118": {
             "class_number": "14118",
             "enrollment_cap": 30,
-            "enrollment_count": 18,
+            "enrollment_count": 30,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "tim.watson@csun.edu",
             "days": "MW",
             "location": "JR330",
@@ -17,9 +17,9 @@
         "15395": {
             "class_number": "15395",
             "enrollment_cap": 42,
-            "enrollment_count": 18,
+            "enrollment_count": 42,
             "waitlist_cap": 42,
-            "waitlist_count": 0,
+            "waitlist_count": 3,
             "instructor": "junliang.huang@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -31,7 +31,7 @@
         "14196": {
             "class_number": "14196",
             "enrollment_cap": 42,
-            "enrollment_count": 17,
+            "enrollment_count": 42,
             "waitlist_cap": 42,
             "waitlist_count": 0,
             "instructor": "adriana.benvenuto@csun.edu",
@@ -41,27 +41,23 @@
             "end_time": "0000h"
         }
     },
-    "FLIT 380": {
+    "FLIT 381": {
         "15209": {
             "class_number": "15209",
-            "enrollment_cap": 30,
-            "enrollment_count": 12,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "dina.mokhnatkin@csun.edu",
-            "days": "A",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Mokhnatkin,Dina",
+            "days": null,
             "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    },
-    "FLIT 381": {
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
         "14388": {
             "class_number": "14388",
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 6,
             "instructor": "alessia.weisberg@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -70,31 +66,27 @@
         }
     },
     "FLIT 402": {
+        "15209": {
+            "class_number": "15209",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Mokhnatkin,Dina",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
         "15172": {
             "class_number": "15172",
             "enrollment_cap": 20,
-            "enrollment_count": 14,
+            "enrollment_count": 21,
             "waitlist_cap": 20,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "drake.langford@csun.edu",
             "days": "TR",
             "location": "JR316",
             "start_time": "0930h",
             "end_time": "1045h"
-        }
-    },
-    "FLIT 491": {
-        "14130": {
-            "class_number": "14130",
-            "enrollment_cap": 20,
-            "enrollment_count": 5,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "drake.langford@csun.edu",
-            "days": "T",
-            "location": "JR316",
-            "start_time": "1530h",
-            "end_time": "1815h"
         }
     }
 }
