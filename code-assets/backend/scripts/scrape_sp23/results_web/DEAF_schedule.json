@@ -2,7 +2,7 @@
     "DEAF 160": {
         "15469": {
             "class_number": "15469",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Duong,Desiree A",
             "days": "MW",
@@ -12,7 +12,7 @@
         },
         "15558": {
             "class_number": "15558",
-            "enrollment_cap": 10,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Duong,Desiree A",
             "days": "MW",
@@ -22,7 +22,7 @@
         },
         "15468": {
             "class_number": "15468",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Khorsandi,Shmuel",
             "days": "TR",
@@ -42,7 +42,7 @@
         },
         "15467": {
             "class_number": "15467",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Smith,Kimberly C",
             "days": "TR",
@@ -66,7 +66,7 @@
     "DEAF 200": {
         "15585": {
             "class_number": "15585",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Ramirez- Stapleton,Lissa D",
             "days": "W",
@@ -78,7 +78,7 @@
     "DEAF 280": {
         "15554": {
             "class_number": "15554",
-            "enrollment_cap": 9,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Hermatz,Lisa Patrice",
             "days": "TR",
@@ -90,7 +90,7 @@
     "DEAF 281": {
         "15559": {
             "class_number": "15559",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Hermatz,Lisa Patrice",
             "days": "TR",
@@ -112,11 +112,11 @@
         },
         "15901": {
             "class_number": "15901",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Daigle,Matthew W",
             "days": "R",
-            "location": "ED1125",
+            "location": "ED3115",
             "start_time": "1230h",
             "end_time": "1515h"
         },
@@ -136,13 +136,13 @@
             "enrollment_count": 0,
             "instructor": "Elmira Yingst,Melissa",
             "days": "T",
-            "location": "TBA",
+            "location": "ED1121",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         "15904": {
             "class_number": "15904",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Garcia-Fernandez,Carla M.",
             "days": "R",
@@ -164,7 +164,7 @@
         },
         "15892": {
             "class_number": "15892",
-            "enrollment_cap": 5,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Del Castillo,Catherine D",
             "days": "R",
@@ -186,7 +186,7 @@
         },
         "15657": {
             "class_number": "15657",
-            "enrollment_cap": 12,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Garcia-Fernandez,Carla M.",
             "days": "W",
@@ -198,7 +198,7 @@
     "DEAF 370": {
         "15767": {
             "class_number": "15767",
-            "enrollment_cap": 6,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Webb,Jonathan Michael",
             "days": "W",
@@ -208,11 +208,11 @@
         },
         "15768": {
             "class_number": "15768",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Elmira Yingst,Melissa",
             "days": "T",
-            "location": "TBA",
+            "location": "ED2107",
             "start_time": "1230h",
             "end_time": "1515h"
         }
@@ -220,7 +220,7 @@
     "DEAF 381": {
         "15905": {
             "class_number": "15905",
-            "enrollment_cap": 10,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Webb,Jonathan Michael",
             "days": "MW",
@@ -230,7 +230,7 @@
         },
         "15906": {
             "class_number": "15906",
-            "enrollment_cap": 10,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Leyva,Andrew S",
             "days": "MW",
@@ -239,34 +239,12 @@
             "end_time": "1145h"
         }
     },
-    "DEAF 383": {
-        "15907": {
-            "class_number": "15907",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Webb,Jonathan Michael",
-            "days": "MW",
-            "location": "ED3117",
-            "start_time": "1145h",
-            "end_time": "1210h"
-        },
-        "15908": {
-            "class_number": "15908",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Leyva,Andrew S",
-            "days": "MW",
-            "location": "ED1129",
-            "start_time": "1145h",
-            "end_time": "1210h"
-        }
-    },
     "DEAF 400": {
         "15862": {
             "class_number": "15862",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Fleischer,Flavia S",
+            "instructor": "Staff",
             "days": "W",
             "location": "JA100",
             "start_time": "1600h",
@@ -276,7 +254,7 @@
             "class_number": "15863",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Garrow,William G",
+            "instructor": "Staff",
             "days": "W",
             "location": "ONCAMP",
             "start_time": "1600h",
@@ -286,7 +264,7 @@
     "DEAF 401": {
         "15526": {
             "class_number": "15526",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Eickman,Jordan T",
             "days": "T",
@@ -296,7 +274,7 @@
         },
         "15894": {
             "class_number": "15894",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Eickman,Jordan T",
             "days": "R",
@@ -320,7 +298,7 @@
     "DEAF 404": {
         "16009": {
             "class_number": "16009",
-            "enrollment_cap": 14,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Garrow,William G",
             "days": "W",
@@ -332,7 +310,7 @@
     "DEAF 405": {
         "15628": {
             "class_number": "15628",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Whetter,Jevon Ross",
             "days": "W",
@@ -346,7 +324,7 @@
             "class_number": "15581",
             "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Hatrak,Marla",
             "days": "M",
             "location": "BB1230",
             "start_time": "1600h",
@@ -356,7 +334,7 @@
     "DEAF 412": {
         "16093": {
             "class_number": "16093",
-            "enrollment_cap": 21,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Ramirez- Stapleton,Lissa D",
             "days": "M",
@@ -365,22 +343,10 @@
             "end_time": "1515h"
         }
     },
-    "DEAF 430": {
-        "15575": {
-            "class_number": "15575",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Hermatz,Lisa Patrice",
-            "days": "TR",
-            "location": "ED3113",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
     "DEAF 434A": {
         "15909": {
             "class_number": "15909",
-            "enrollment_cap": 5,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Duong,Desiree A",
             "days": "M",
@@ -392,7 +358,7 @@
     "DEAF 482": {
         "15939": {
             "class_number": "15939",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Webb,Jonathan Michael",
             "days": "F",
@@ -404,7 +370,7 @@
     "DEAF 484": {
         "15634": {
             "class_number": "15634",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Thornton,Casey J",
             "days": "M",
@@ -414,7 +380,7 @@
         },
         "15769": {
             "class_number": "15769",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Thornton,Casey J",
             "days": "R",
@@ -426,7 +392,7 @@
     "DEAF 485": {
         "15534": {
             "class_number": "15534",
-            "enrollment_cap": 6,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Thornton,Casey J",
             "days": "M",
@@ -436,7 +402,7 @@
         },
         "15855": {
             "class_number": "15855",
-            "enrollment_cap": 5,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Thornton,Casey J",
             "days": "R",
@@ -445,22 +411,10 @@
             "end_time": "1215h"
         }
     },
-    "DEAF 489": {
-        "15910": {
-            "class_number": "15910",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Daigle,Matthew W",
-            "days": "R",
-            "location": "ED3115",
-            "start_time": "0930h",
-            "end_time": "1020h"
-        }
-    },
     "DEAF 489L": {
         "15911": {
             "class_number": "15911",
-            "enrollment_cap": 7,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Daigle,Matthew W",
             "days": "R",
@@ -472,11 +426,11 @@
     "DEAF 490C": {
         "15621": {
             "class_number": "15621",
-            "enrollment_cap": 6,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Khorsandi,Shmuel",
             "days": "R",
-            "location": "ED3115",
+            "location": "ED1125",
             "start_time": "1230h",
             "end_time": "1320h"
         }
@@ -484,11 +438,11 @@
     "DEAF 490E": {
         "15586": {
             "class_number": "15586",
-            "enrollment_cap": 6,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Daigle,Matthew W",
             "days": "R",
-            "location": "ED3113",
+            "location": "ED3115",
             "start_time": "0830h",
             "end_time": "0920h"
         }
@@ -496,7 +450,7 @@
     "DEAF 490G": {
         "15587": {
             "class_number": "15587",
-            "enrollment_cap": 6,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Whetter,Jevon Ross",
             "days": "W",
@@ -508,7 +462,7 @@
     "DEAF 491F": {
         "15791": {
             "class_number": "15791",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Webb,Jonathan Michael",
             "days": "F",
@@ -520,7 +474,7 @@
     "DEAF 497": {
         "15589": {
             "class_number": "15589",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Garrow,William G",
             "days": "M",
@@ -530,7 +484,7 @@
         },
         "15607": {
             "class_number": "15607",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Eickman,Jordan T",
             "days": "R",
@@ -540,7 +494,7 @@
         },
         "15801": {
             "class_number": "15801",
-            "enrollment_cap": 8,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Eickman,Jordan T",
             "days": "T",
@@ -550,7 +504,7 @@
         },
         "15946": {
             "class_number": "15946",
-            "enrollment_cap": 9,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Garrow,William G",
             "days": "T",

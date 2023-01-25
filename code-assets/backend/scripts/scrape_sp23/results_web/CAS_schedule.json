@@ -2,7 +2,7 @@
     "CAS 100": {
         "14033": {
             "class_number": "14033",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Duarte,Jocelyn E",
             "days": "TR",
@@ -12,7 +12,7 @@
         },
         "14030": {
             "class_number": "14030",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Simonds,Celia",
             "days": "MW",
@@ -22,7 +22,7 @@
         },
         "14032": {
             "class_number": "14032",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Duarte,Jocelyn E",
             "days": "TR",
@@ -32,9 +32,9 @@
         },
         "14031": {
             "class_number": "14031",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Carranza,Douglas G",
+            "instructor": "Simonds,Celia",
             "days": "R",
             "location": "JR246",
             "start_time": "1230h",
@@ -42,7 +42,7 @@
         },
         "14976": {
             "class_number": "14976",
-            "enrollment_cap": 18,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Simonds,Celia",
             "days": "M",
@@ -64,67 +64,35 @@
         }
     },
     "CAS 113A": {
-        "21095": {
-            "class_number": "21095",
-            "enrollment_cap": 16,
+        "21327": {
+            "class_number": "21327",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Alonzi,Giovan",
+            "instructor": "Encinias,Shahrazad M",
             "days": "TR",
-            "location": "JR242",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "location": "EU132",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
     "CAS 113B": {
         "14317": {
             "class_number": "14317",
-            "enrollment_cap": 6,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Alonzi,Giovan",
             "days": "TR",
-            "location": "ED1123",
+            "location": "JR217",
             "start_time": "0930h",
             "end_time": "1045h"
-        },
-        "14318": {
-            "class_number": "14318",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Alonzi,Giovan",
-            "days": "TR",
-            "location": "SH307",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
-    "CAS 115": {
-        "14759": {
-            "class_number": "14759",
-            "enrollment_cap": 23,
-            "enrollment_count": 0,
-            "instructor": "Encinias,Shahrazad M",
-            "days": "TR",
-            "location": "SH285",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "21094": {
-            "class_number": "21094",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Encinias,Shahrazad M",
-            "days": "TR",
-            "location": "EU133",
-            "start_time": "1400h",
-            "end_time": "1515h"
         }
     },
     "CAS 151": {
         "14617": {
             "class_number": "14617",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
-            "instructor": "Cortez,Beatriz",
+            "instructor": "Encinias,Shahrazad M",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -162,7 +130,7 @@
         },
         "15165": {
             "class_number": "15165",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lemus,Stephanie Y",
             "days": "F",
@@ -172,13 +140,23 @@
         },
         "15328": {
             "class_number": "15328",
-            "enrollment_cap": 9,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Rodriguez,Leslie",
             "days": "F",
             "location": "JR244",
             "start_time": "1100h",
             "end_time": "1345h"
+        },
+        "21292": {
+            "class_number": "21292",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Encinias,Shahrazad M",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "CAS 201": {
@@ -196,7 +174,7 @@
     "CAS 270": {
         "14321": {
             "class_number": "14321",
-            "enrollment_cap": 16,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Simonds,Celia",
             "days": "F",
@@ -208,7 +186,7 @@
     "CAS 270F": {
         "14334": {
             "class_number": "14334",
-            "enrollment_cap": 16,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Simonds,Celia",
             "days": "F",
@@ -220,7 +198,7 @@
     "CAS 309": {
         "14575": {
             "class_number": "14575",
-            "enrollment_cap": 29,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Carranza,Douglas G",
             "days": "TR",
@@ -229,22 +207,10 @@
             "end_time": "1215h"
         }
     },
-    "CAS 310": {
-        "14035": {
-            "class_number": "14035",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Simonds,Celia",
-            "days": "MW",
-            "location": "EU130",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
     "CAS 311": {
         "14036": {
             "class_number": "14036",
-            "enrollment_cap": 10,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lemus,Stephanie Y",
             "days": "MW",
@@ -253,22 +219,10 @@
             "end_time": "1045h"
         }
     },
-    "CAS 350": {
-        "15194": {
-            "class_number": "15194",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Carranza,Douglas G",
-            "days": "W",
-            "location": "EU134",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
     "CAS 365": {
         "14249": {
             "class_number": "14249",
-            "enrollment_cap": 26,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Duarte,Jocelyn E",
             "days": "MW",
@@ -277,22 +231,10 @@
             "end_time": "1515h"
         }
     },
-    "CAS 369": {
-        "14159": {
-            "class_number": "14159",
-            "enrollment_cap": 31,
-            "enrollment_count": 0,
-            "instructor": "Carranza,Douglas G",
-            "days": "W",
-            "location": "EU133",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
     "CAS 410": {
         "14576": {
             "class_number": "14576",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ruiztorres,Lizbeth",
             "days": "M",

@@ -2,9 +2,9 @@
     "GEOG 101": {
         "12157": {
             "class_number": "12157",
-            "enrollment_cap": 43,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Rader,Alana",
             "days": "MW",
             "location": "SH120",
             "start_time": "0930h",
@@ -14,9 +14,9 @@
     "GEOG 101A": {
         "13222": {
             "class_number": "13222",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Hurst,Tracy A",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -38,7 +38,7 @@
     "GEOG 101HON": {
         "13351": {
             "class_number": "13351",
-            "enrollment_cap": 6,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Craine,James W",
             "days": "MW",
@@ -50,7 +50,7 @@
     "GEOG 102": {
         "12501": {
             "class_number": "12501",
-            "enrollment_cap": 30,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -60,19 +60,19 @@
         },
         "12502": {
             "class_number": "12502",
-            "enrollment_cap": 42,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "W",
-            "location": "SH170",
-            "start_time": "1100h",
-            "end_time": "1240h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 103": {
         "12679": {
             "class_number": "12679",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Giraldo,Mario A",
             "days": null,
@@ -84,9 +84,9 @@
     "GEOG 103A": {
         "13224": {
             "class_number": "13224",
-            "enrollment_cap": 27,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Hurst,Tracy A",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -96,7 +96,7 @@
     "GEOG 103AL": {
         "13225": {
             "class_number": "13225",
-            "enrollment_cap": 27,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -108,7 +108,7 @@
     "GEOG 105": {
         "12073": {
             "class_number": "12073",
-            "enrollment_cap": 31,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -118,19 +118,19 @@
         },
         "12680": {
             "class_number": "12680",
-            "enrollment_cap": 42,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "R",
-            "location": "SH170",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 107": {
         "12442": {
             "class_number": "12442",
-            "enrollment_cap": 87,
+            "enrollment_cap": 41,
             "enrollment_count": 0,
             "instructor": "Graves,Steven M",
             "days": "TR",
@@ -139,24 +139,12 @@
             "end_time": "1215h"
         }
     },
-    "GEOG 111": {
-        "13226": {
-            "class_number": "13226",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
     "GEOG 111L": {
         "13227": {
             "class_number": "13227",
-            "enrollment_cap": 17,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Sonksen,Karen D",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -166,7 +154,7 @@
     "GEOG 150": {
         "12651": {
             "class_number": "12651",
-            "enrollment_cap": 74,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Sun,Yifei",
             "days": "MW",
@@ -176,7 +164,7 @@
         },
         "13099": {
             "class_number": "13099",
-            "enrollment_cap": 60,
+            "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructor": "Davidson,Ronald A",
             "days": "MW",
@@ -190,7 +178,7 @@
             "class_number": "20669",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Sonksen,Karen D",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -200,7 +188,7 @@
     "GEOG 206": {
         "12207": {
             "class_number": "12207",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Sun,Yifei",
             "days": "MW",
@@ -210,9 +198,9 @@
         },
         "12871": {
             "class_number": "12871",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Maas,Regan M",
+            "instructor": "Rader,Alana",
             "days": "T",
             "location": "SH103",
             "start_time": "1400h",
@@ -220,41 +208,9 @@
         },
         "20645": {
             "class_number": "20645",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Rader,Alana",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "GEOG 206L": {
-        "12208": {
-            "class_number": "12208",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Sun,Yifei",
-            "days": "MW",
-            "location": "SH103",
-            "start_time": "1320h",
-            "end_time": "1410h"
-        },
-        "12423": {
-            "class_number": "12423",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Maas,Regan M",
-            "days": "T",
-            "location": "SH103",
-            "start_time": "1540h",
-            "end_time": "1735h"
-        },
-        "20646": {
-            "class_number": "20646",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Rader,Alana",
+            "instructor": "Pesses,Michael W",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -264,7 +220,7 @@
     "GEOG 300": {
         "12183": {
             "class_number": "12183",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Drake,Luke P",
             "days": "M",
@@ -276,7 +232,7 @@
     "GEOG 301": {
         "13262": {
             "class_number": "13262",
-            "enrollment_cap": 32,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Davidson,Ronald A",
             "days": "MW",
@@ -288,25 +244,25 @@
     "GEOG 304": {
         "13296": {
             "class_number": "13296",
-            "enrollment_cap": 18,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "SH103",
-            "start_time": "1530h",
-            "end_time": "1710h"
+            "instructor": "Pesses,Michael W",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "GEOG 304L": {
         "13297": {
             "class_number": "13297",
-            "enrollment_cap": 18,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "SH103",
-            "start_time": "1710h",
-            "end_time": "1850h"
+            "instructor": "Pesses,Michael W",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "GEOG 306": {
@@ -356,21 +312,21 @@
     "GEOG 311": {
         "13228": {
             "class_number": "13228",
-            "enrollment_cap": 17,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "MW",
-            "location": "SH166",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 316": {
         "12663": {
             "class_number": "12663",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "O'Keefe,Robert",
             "days": "TR",
             "location": "SH166",
             "start_time": "1530h",
@@ -392,7 +348,7 @@
     "GEOG 321": {
         "12497": {
             "class_number": "12497",
-            "enrollment_cap": -5,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Craine,James W",
             "days": null,
@@ -404,7 +360,7 @@
     "GEOG 322": {
         "12821": {
             "class_number": "12821",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Jackiewicz,Edward L",
             "days": null,
@@ -416,13 +372,13 @@
     "GEOG 324": {
         "12772": {
             "class_number": "12772",
-            "enrollment_cap": 34,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Sun,Yifei",
-            "days": "TR",
-            "location": "SH160",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "GEOG 330": {
@@ -440,69 +396,45 @@
     "GEOG 364": {
         "13230": {
             "class_number": "13230",
-            "enrollment_cap": 20,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Giraldo,Mario A",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "1530h",
-            "end_time": "1710h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 364L": {
         "13231": {
             "class_number": "13231",
-            "enrollment_cap": 20,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Giraldo,Mario A",
-            "days": "R",
-            "location": "SH103",
-            "start_time": "1530h",
-            "end_time": "1710h"
-        }
-    },
-    "GEOG 365": {
-        "13252": {
-            "class_number": "13252",
-            "enrollment_cap": 21,
-            "enrollment_count": 0,
-            "instructor": "Rader,Alana",
-            "days": "MW",
-            "location": "SH166",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "GEOG 365L": {
-        "13253": {
-            "class_number": "13253",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Rader,Alana",
-            "days": "MW",
-            "location": "SH166",
-            "start_time": "1530h",
-            "end_time": "1620h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 366": {
         "13263": {
             "class_number": "13263",
-            "enrollment_cap": 19,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
-            "location": "SH166",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 370": {
         "12872": {
             "class_number": "12872",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Sonksen,Karen D",
             "days": "TR",
             "location": "SH166",
             "start_time": "1400h",
@@ -512,7 +444,7 @@
     "GEOG 375": {
         "20667": {
             "class_number": "20667",
-            "enrollment_cap": 8,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Drake,Luke P",
             "days": null,
@@ -524,7 +456,7 @@
     "GEOG 404AC": {
         "13232": {
             "class_number": "13232",
-            "enrollment_cap": 33,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Graves,Steven M",
             "days": "F",
@@ -536,7 +468,7 @@
     "GEOG 404BC": {
         "13233": {
             "class_number": "13233",
-            "enrollment_cap": 20,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Drake,Luke P",
             "days": "F",
@@ -548,7 +480,7 @@
     "GEOG 406": {
         "12234": {
             "class_number": "12234",
-            "enrollment_cap": 11,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Boroushaki,Soheil",
             "days": "TR",
@@ -560,7 +492,7 @@
     "GEOG 406L": {
         "12235": {
             "class_number": "12235",
-            "enrollment_cap": 11,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Boroushaki,Soheil",
             "days": "TR",
@@ -572,31 +504,31 @@
     "GEOG 408B": {
         "13234": {
             "class_number": "13234",
-            "enrollment_cap": 18,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "SH103",
-            "start_time": "1700h",
-            "end_time": "1840h"
+            "instructor": "Pesses,Michael W",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "GEOG 408BL": {
         "13235": {
             "class_number": "13235",
-            "enrollment_cap": 18,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "SH103",
-            "start_time": "1840h",
-            "end_time": "2110h"
+            "instructor": "Pesses,Michael W",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "GEOG 408E": {
         "13100": {
             "class_number": "13100",
-            "enrollment_cap": 10,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Boroushaki,Soheil",
             "days": "TR",
@@ -608,7 +540,7 @@
     "GEOG 408EL": {
         "20639": {
             "class_number": "20639",
-            "enrollment_cap": 10,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Boroushaki,Soheil",
             "days": "TR",
@@ -632,19 +564,19 @@
     "GEOG 482": {
         "20641": {
             "class_number": "20641",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Maas,Regan M",
-            "days": "W",
-            "location": "SH107",
-            "start_time": "1400h",
-            "end_time": "1645h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 490": {
         "12150": {
             "class_number": "12150",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Maas,Regan M",
             "days": "M",
@@ -658,15 +590,15 @@
             "enrollment_count": 0,
             "instructor": "Drake,Luke P",
             "days": "W",
-            "location": "SH130A",
+            "location": "SH166",
             "start_time": "1400h",
             "end_time": "1645h"
         },
         "13251": {
             "class_number": "13251",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Sun,Yifei",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -678,7 +610,7 @@
             "class_number": "13254",
             "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Rader,Alana",
             "days": null,
             "location": "ONLINE",
             "start_time": "1400h",
@@ -744,7 +676,7 @@
     "GEOG 550F": {
         "13238": {
             "class_number": "13238",
-            "enrollment_cap": 19,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Graves,Steven M",
             "days": "MW",
@@ -756,19 +688,19 @@
     "GEOG 610E": {
         "20668": {
             "class_number": "20668",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Rader,Alana",
-            "days": "W",
-            "location": "SH166",
-            "start_time": "1800h",
-            "end_time": "2045h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 690B": {
         "21165": {
             "class_number": "21165",
-            "enrollment_cap": 8,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Maas,Regan M",
             "days": "M",
@@ -780,7 +712,7 @@
     "GEOG 690C": {
         "20773": {
             "class_number": "20773",
-            "enrollment_cap": 9,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Deis,David A",
             "days": "R",
@@ -792,7 +724,7 @@
     "GEOG 696": {
         "20642": {
             "class_number": "20642",
-            "enrollment_cap": 7,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Craine,James W",
             "days": null,
@@ -826,9 +758,9 @@
     "GEOG 698": {
         "12075": {
             "class_number": "12075",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jackiewicz,Edward L",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -836,9 +768,9 @@
         },
         "12159": {
             "class_number": "12159",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Maas,Regan M",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -846,9 +778,9 @@
         },
         "12160": {
             "class_number": "12160",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Boroushaki,Soheil",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -856,7 +788,7 @@
         },
         "12161": {
             "class_number": "12161",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -912,7 +844,7 @@
     "GEOG 699C": {
         "12079": {
             "class_number": "12079",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -922,7 +854,7 @@
         },
         "12146": {
             "class_number": "12146",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,

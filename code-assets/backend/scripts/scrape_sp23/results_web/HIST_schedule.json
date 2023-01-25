@@ -12,7 +12,7 @@
         },
         "12925": {
             "class_number": "12925",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Marcos,Moyses",
             "days": "MW",
@@ -24,7 +24,7 @@
     "HIST 111": {
         "12602": {
             "class_number": "12602",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Goldner,Erik H",
             "days": "TR",
@@ -34,7 +34,7 @@
         },
         "12603": {
             "class_number": "12603",
-            "enrollment_cap": 29,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Goldner,Erik H",
             "days": "TR",
@@ -46,11 +46,11 @@
     "HIST 150": {
         "12222": {
             "class_number": "12222",
-            "enrollment_cap": 23,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Addison,Kathleen E",
             "days": "TR",
-            "location": "SH309",
+            "location": "SH386",
             "start_time": "1400h",
             "end_time": "1515h"
         }
@@ -58,7 +58,7 @@
     "HIST 151": {
         "13243": {
             "class_number": "13243",
-            "enrollment_cap": 29,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Addison,Kathleen E",
             "days": "MW",
@@ -68,7 +68,7 @@
         },
         "13244": {
             "class_number": "13244",
-            "enrollment_cap": 23,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Morgenstern,Adam Edward",
             "days": "MW",
@@ -80,7 +80,7 @@
     "HIST 161": {
         "12209": {
             "class_number": "12209",
-            "enrollment_cap": -1,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Juarez-Dappe,Patricia I",
             "days": "T",
@@ -92,7 +92,7 @@
     "HIST 185": {
         "12795": {
             "class_number": "12795",
-            "enrollment_cap": 33,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Howes,Rachel T",
             "days": "MW",
@@ -104,7 +104,7 @@
     "HIST 270": {
         "12746": {
             "class_number": "12746",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Nuno,John Paul A",
             "days": "MW",
@@ -114,7 +114,7 @@
         },
         "12842": {
             "class_number": "12842",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Traviolia,Tristan J",
             "days": "MW",
@@ -126,7 +126,7 @@
     "HIST 271": {
         "12526": {
             "class_number": "12526",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Devine,Thomas W",
             "days": "TR",
@@ -136,7 +136,7 @@
         },
         "12443": {
             "class_number": "12443",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Kim,Jessica M",
             "days": "MW",
@@ -158,7 +158,7 @@
     "HIST 301": {
         "12430": {
             "class_number": "12430",
-            "enrollment_cap": 12,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Fitzpatrick-Behrens,Susan R",
             "days": "F",
@@ -168,7 +168,7 @@
         },
         "12800": {
             "class_number": "12800",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kaja,Jeffrey D",
             "days": "T",
@@ -187,10 +187,10 @@
             "end_time": "1345h"
         }
     },
-    "HIST 303": {
+    "HIST 304": {
         "12499": {
             "class_number": "12499",
-            "enrollment_cap": 29,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Oliver,Clementine",
             "days": "MW",
@@ -199,22 +199,32 @@
             "end_time": "1215h"
         }
     },
-    "HIST 304": {
-        "20734": {
-            "class_number": "20734",
-            "enrollment_cap": 28,
+    "HIST 341": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
+            "instructor": "Oliver,Clementine",
             "days": "MW",
-            "location": "SH265",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
-    "HIST 341": {
+    "HIST 342": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "12907": {
             "class_number": "12907",
-            "enrollment_cap": 31,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "O'Sullivan,Donal B",
             "days": "MW",
@@ -223,32 +233,30 @@
             "end_time": "1515h"
         }
     },
-    "HIST 342": {
-        "12542": {
-            "class_number": "12542",
-            "enrollment_cap": 18,
+    "HIST 345": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Horowitz,Richard S",
-            "days": "TR",
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
             "location": "SH184",
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        "12605": {
-            "class_number": "12605",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Horowitz,Richard S",
-            "days": "W",
-            "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "HIST 345": {
         "12978": {
             "class_number": "12978",
-            "enrollment_cap": 18,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Fitzpatrick-Behrens,Susan R",
             "days": "R",
@@ -258,9 +266,29 @@
         }
     },
     "HIST 350": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12741": {
             "class_number": "12741",
-            "enrollment_cap": 23,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Addison,Kathleen E",
             "days": "M",
@@ -270,9 +298,29 @@
         }
     },
     "HIST 351": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "20736": {
             "class_number": "20736",
-            "enrollment_cap": 15,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Santana,Daniel",
             "days": "MW",
@@ -282,9 +330,29 @@
         }
     },
     "HIST 369": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12431": {
             "class_number": "12431",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ward,Michael K",
             "days": "TR",
@@ -294,6 +362,26 @@
         }
     },
     "HIST 370": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12742": {
             "class_number": "12742",
             "enrollment_cap": 0,
@@ -306,9 +394,29 @@
         }
     },
     "HIST 370HON": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12759": {
             "class_number": "12759",
-            "enrollment_cap": 29,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructor": "Kaja,Jeffrey D",
             "days": "TR",
@@ -318,9 +426,29 @@
         }
     },
     "HIST 371": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12221": {
             "class_number": "12221",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Traviolia,Tristan J",
             "days": "MW",
@@ -330,9 +458,29 @@
         }
     },
     "HIST 380": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13060": {
             "class_number": "13060",
-            "enrollment_cap": 26,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Sides,Josh",
             "days": "TR",
@@ -342,9 +490,29 @@
         }
     },
     "HIST 417": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12691": {
             "class_number": "12691",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ward,Michael K",
             "days": "F",
@@ -354,29 +522,49 @@
         },
         "13180": {
             "class_number": "13180",
-            "enrollment_cap": 0,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Kovalesky,Brian R",
             "days": "S",
-            "location": "SH184",
+            "location": "ONLINE",
             "start_time": "0800h",
             "end_time": "1045h"
         },
         "13241": {
             "class_number": "13241",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Kovalesky,Brian R",
             "days": "S",
-            "location": "SH184",
+            "location": "ONLINE",
             "start_time": "1230h",
             "end_time": "1515h"
         }
     },
     "HIST 420": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "20737": {
             "class_number": "20737",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Oliver,Clementine",
             "days": "MW",
@@ -386,9 +574,29 @@
         }
     },
     "HIST 426": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13106": {
             "class_number": "13106",
-            "enrollment_cap": 18,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Howes,Rachel T",
             "days": "W",
@@ -398,9 +606,29 @@
         }
     },
     "HIST 441": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12798": {
             "class_number": "12798",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "O'Sullivan,Donal B",
             "days": "MW",
@@ -410,9 +638,29 @@
         }
     },
     "HIST 450": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12709": {
             "class_number": "12709",
-            "enrollment_cap": 18,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Neirick,Miriam B",
             "days": "TR",
@@ -422,9 +670,29 @@
         }
     },
     "HIST 456": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12983": {
             "class_number": "12983",
-            "enrollment_cap": 10,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Goldner,Erik H",
             "days": "R",
@@ -434,6 +702,26 @@
         }
     },
     "HIST 463": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12944": {
             "class_number": "12944",
             "enrollment_cap": 0,
@@ -446,18 +734,58 @@
         }
     },
     "HIST 466": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "21243": {
             "class_number": "21243",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Santana,Daniel",
             "days": "MW",
-            "location": "MZ115",
+            "location": "JR242",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     },
     "HIST 471": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12987": {
             "class_number": "12987",
             "enrollment_cap": 0,
@@ -470,6 +798,26 @@
         }
     },
     "HIST 473B": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12860": {
             "class_number": "12860",
             "enrollment_cap": 0,
@@ -482,21 +830,51 @@
         }
     },
     "HIST 474A": {
-        "21252": {
-            "class_number": "21252",
-            "enrollment_cap": 15,
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Devine,Thomas W",
-            "days": "TR",
-            "location": "SH267",
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
             "start_time": "1100h",
             "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     },
     "HIST 485C": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13250": {
             "class_number": "13250",
-            "enrollment_cap": 12,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Neirick,Miriam B",
             "days": "F",
@@ -506,9 +884,29 @@
         }
     },
     "HIST 491A": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12832": {
             "class_number": "12832",
-            "enrollment_cap": 18,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Horowitz,Richard S",
             "days": "TR",
@@ -518,9 +916,29 @@
         }
     },
     "HIST 494SOC": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12081": {
             "class_number": "12081",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Kim,Jessica M",
             "days": null,
@@ -530,9 +948,29 @@
         }
     },
     "HIST 497A": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12654": {
             "class_number": "12654",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Oliver,Clementine",
             "days": "M",
@@ -552,7 +990,7 @@
         },
         "20754": {
             "class_number": "20754",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Sides,Josh",
             "days": "R",
@@ -562,7 +1000,7 @@
         },
         "21261": {
             "class_number": "21261",
-            "enrollment_cap": 2,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Blakley,Christopher",
             "days": "W",
@@ -572,11 +1010,31 @@
         }
     },
     "HIST 498C": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12240": {
             "class_number": "12240",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Simon,Rebecca",
             "days": "T",
             "location": "SH186",
             "start_time": "1900h",
@@ -584,7 +1042,7 @@
         },
         "12606": {
             "class_number": "12606",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Howes,Rachel T",
             "days": "MW",
@@ -594,7 +1052,7 @@
         },
         "12743": {
             "class_number": "12743",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kim,Jessica M",
             "days": "W",
@@ -604,6 +1062,26 @@
         }
     },
     "HIST 563": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "20746": {
             "class_number": "20746",
             "enrollment_cap": 1,
@@ -616,6 +1094,26 @@
         }
     },
     "HIST 570": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12930": {
             "class_number": "12930",
             "enrollment_cap": 0,
@@ -628,9 +1126,29 @@
         }
     },
     "HIST 594": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "21262": {
             "class_number": "21262",
-            "enrollment_cap": 8,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -640,6 +1158,26 @@
         }
     },
     "HIST 596AN": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "20747": {
             "class_number": "20747",
             "enrollment_cap": 6,
@@ -652,9 +1190,29 @@
         }
     },
     "HIST 596EG": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13108": {
             "class_number": "13108",
-            "enrollment_cap": 9,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Goldner,Erik H",
             "days": "T",
@@ -664,6 +1222,26 @@
         }
     },
     "HIST 601": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12608": {
             "class_number": "12608",
             "enrollment_cap": 0,
@@ -676,9 +1254,29 @@
         }
     },
     "HIST 641": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "12928": {
             "class_number": "12928",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "O'Sullivan,Donal B",
             "days": "W",
@@ -688,9 +1286,29 @@
         }
     },
     "HIST 692C": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "20901": {
             "class_number": "20901",
-            "enrollment_cap": 11,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Zappia,Natale A",
             "days": "M",
@@ -700,9 +1318,29 @@
         }
     },
     "HIST 694": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "21166": {
             "class_number": "21166",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -712,9 +1350,29 @@
         }
     },
     "HIST 698D": {
+        "12499": {
+            "class_number": "12499",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Oliver,Clementine",
+            "days": "MW",
+            "location": "SH186",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "O'Sullivan,Donal B",
+            "days": "MW",
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "20784": {
             "class_number": "20784",
-            "enrollment_cap": -2,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Neirick,Miriam B",
             "days": "T",
@@ -724,7 +1382,7 @@
         },
         "21288": {
             "class_number": "21288",
-            "enrollment_cap": 14,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Horowitz,Richard S",
             "days": "T",

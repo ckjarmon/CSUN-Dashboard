@@ -2,7 +2,7 @@
     "ART 100": {
         "10002": {
             "class_number": "10002",
-            "enrollment_cap": 20,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Pozen,Donna M",
             "days": "MW",
@@ -12,7 +12,7 @@
         },
         "10004": {
             "class_number": "10004",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pozen,Donna M",
             "days": "MW",
@@ -22,17 +22,17 @@
         },
         "10849": {
             "class_number": "10849",
-            "enrollment_cap": 21,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructor": "Pozen,Donna M",
-            "days": "TR",
-            "location": "AC210",
-            "start_time": "0800h",
-            "end_time": "0825h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11108": {
             "class_number": "11108",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pozen,Donna M",
             "days": "TR",
@@ -42,7 +42,7 @@
         },
         "11138": {
             "class_number": "11138",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Liu,Vida",
             "days": "T",
@@ -54,7 +54,7 @@
     "ART 100L": {
         "10003": {
             "class_number": "10003",
-            "enrollment_cap": 20,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Pozen,Donna M",
             "days": "MW",
@@ -64,7 +64,7 @@
         },
         "10005": {
             "class_number": "10005",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pozen,Donna M",
             "days": "MW",
@@ -74,17 +74,17 @@
         },
         "10823": {
             "class_number": "10823",
-            "enrollment_cap": 21,
+            "enrollment_cap": 28,
             "enrollment_count": 0,
-            "instructor": "Pozen,Donna M",
-            "days": "TR",
-            "location": "AC210",
-            "start_time": "0825h",
-            "end_time": "1005h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10850": {
             "class_number": "10850",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pozen,Donna M",
             "days": "TR",
@@ -94,7 +94,7 @@
         },
         "11140": {
             "class_number": "11140",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Liu,Vida",
             "days": "T",
@@ -168,7 +168,7 @@
         },
         "11319": {
             "class_number": "11319",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Moss,Juliet",
             "days": "T",
@@ -190,7 +190,7 @@
     "ART 114": {
         "10713": {
             "class_number": "10713",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Wang,Meiqin",
             "days": "R",
@@ -200,7 +200,7 @@
         },
         "11153": {
             "class_number": "11153",
-            "enrollment_cap": 19,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Wang,Meiqin",
             "days": "R",
@@ -232,7 +232,7 @@
         },
         "10009": {
             "class_number": "10009",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Boruck,Holly",
             "days": "MW",
@@ -242,7 +242,7 @@
         },
         "10620": {
             "class_number": "10620",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Panjarian,Fabia",
             "days": "MW",
@@ -252,7 +252,7 @@
         },
         "10045": {
             "class_number": "10045",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Yip,Calvin",
             "days": "TR",
@@ -272,7 +272,7 @@
         },
         "11117": {
             "class_number": "11117",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Familton,Kent",
             "days": "TR",
@@ -294,13 +294,23 @@
     "ART 124B": {
         "10011": {
             "class_number": "10011",
-            "enrollment_cap": 6,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Korman,Ira M",
             "days": "TR",
             "location": "AC602",
             "start_time": "0800h",
             "end_time": "1045h"
+        },
+        "10046": {
+            "class_number": "10046",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kinsella,Adrienne",
+            "days": "MW",
+            "location": "AC604",
+            "start_time": "1400h",
+            "end_time": "1645h"
         },
         "10670": {
             "class_number": "10670",
@@ -311,6 +321,26 @@
             "location": "AC602",
             "start_time": "1100h",
             "end_time": "1345h"
+        },
+        "10010": {
+            "class_number": "10010",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Nacorda,Christian",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "11274": {
+            "class_number": "11274",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Boruck,Holly",
+            "days": "MW",
+            "location": "AC602",
+            "start_time": "0800h",
+            "end_time": "1045h"
         }
     },
     "ART 140": {
@@ -320,7 +350,7 @@
             "enrollment_count": 0,
             "instructor": "Chan,Matthew",
             "days": "MW",
-            "location": "AC333",
+            "location": "AC331",
             "start_time": "1100h",
             "end_time": "1345h"
         },
@@ -346,7 +376,7 @@
         },
         "10722": {
             "class_number": "10722",
-            "enrollment_cap": 19,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Orouji,Omid",
             "days": "F",
@@ -356,9 +386,9 @@
         },
         "11145": {
             "class_number": "11145",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Hendrickson,David Charles",
+            "instructor": "Orouji,Omid",
             "days": "R",
             "location": "ONLINE",
             "start_time": "0800h",
@@ -386,6 +416,16 @@
             "start_time": "0800h",
             "end_time": "1045h"
         },
+        "10018": {
+            "class_number": "10018",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Campbell,Kari",
+            "days": "TR",
+            "location": "AC511",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
         "10682": {
             "class_number": "10682",
             "enrollment_cap": 0,
@@ -396,9 +436,29 @@
             "start_time": "1100h",
             "end_time": "1345h"
         },
+        "10020": {
+            "class_number": "10020",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Campbell,Kari",
+            "days": "TR",
+            "location": "AC511",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "10047": {
+            "class_number": "10047",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Campbell,Kari",
+            "days": "TR",
+            "location": "AC511",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
         "11118": {
             "class_number": "11118",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Brodsky,Tanya",
             "days": "F",
@@ -417,22 +477,10 @@
             "end_time": "1645h"
         }
     },
-    "ART 148": {
-        "10021": {
-            "class_number": "10021",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Boruck,Holly",
-            "days": "MW",
-            "location": "AC600",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    },
     "ART 151": {
         "10672": {
             "class_number": "10672",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kashef,Niku Bayesteh",
             "days": "MW",
@@ -442,7 +490,7 @@
         },
         "10673": {
             "class_number": "10673",
-            "enrollment_cap": 22,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Cheney,Ryan M",
             "days": "M",
@@ -474,7 +522,7 @@
     "ART 200": {
         "10680": {
             "class_number": "10680",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Ashby,Craig",
             "days": "W",
@@ -484,7 +532,7 @@
         },
         "10023": {
             "class_number": "10023",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Courtney,Jeff P",
             "days": "M",
@@ -528,35 +576,13 @@
     "ART 222": {
         "10971": {
             "class_number": "10971",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kinsella,Adrienne",
             "days": "MW",
             "location": "AC507",
             "start_time": "0800h",
             "end_time": "1045h"
-        }
-    },
-    "ART 224A": {
-        "10721": {
-            "class_number": "10721",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Jones Jr,Kenneth C",
-            "days": "TR",
-            "location": "AC602",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "11917": {
-            "class_number": "11917",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jones Jr,Kenneth C",
-            "days": "MW",
-            "location": "AC604",
-            "start_time": "1100h",
-            "end_time": "1345h"
         }
     },
     "ART 227": {
@@ -576,7 +602,7 @@
             "class_number": "10025",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Alexander- Dunajski,Stacey Janelle",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1400h",
@@ -596,7 +622,7 @@
     "ART 235": {
         "10972": {
             "class_number": "10972",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Tedeschi,Christian R",
             "days": "MW",
@@ -642,7 +668,7 @@
         },
         "10977": {
             "class_number": "10977",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mendelson,Bruce",
             "days": "TR",
@@ -674,7 +700,7 @@
         },
         "11035": {
             "class_number": "11035",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Alfano,Edward C",
             "days": "TR",
@@ -684,9 +710,9 @@
         },
         "11036": {
             "class_number": "11036",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Ashby,Craig",
             "days": "TR",
             "location": "AC334",
             "start_time": "1400h",
@@ -696,7 +722,7 @@
     "ART 263": {
         "10978": {
             "class_number": "10978",
-            "enrollment_cap": 5,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Hu,Caroline",
             "days": "F",
@@ -706,7 +732,7 @@
         },
         "10979": {
             "class_number": "10979",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Farquhar,Mark R",
             "days": "TR",
@@ -738,9 +764,9 @@
     "ART 267": {
         "10980": {
             "class_number": "10980",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Cox,Patsy",
+            "instructor": "Eleniak,Erin M",
             "days": "MW",
             "location": "AC509",
             "start_time": "1400h",
@@ -760,11 +786,11 @@
     "ART 296PV": {
         "12007": {
             "class_number": "12007",
-            "enrollment_cap": 17,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Bunn,Anita E",
             "days": "MW",
-            "location": "AC331",
+            "location": "AC333",
             "start_time": "1100h",
             "end_time": "1345h"
         }
@@ -796,11 +822,11 @@
             "class_number": "11164",
             "enrollment_cap": 24,
             "enrollment_count": 0,
-            "instructor": "Ashby,Craig",
-            "days": "MW",
-            "location": "AC401",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "ART 305": {
@@ -816,7 +842,7 @@
         },
         "10790": {
             "class_number": "10790",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Klein,Jennifer S",
             "days": "TR",
@@ -836,7 +862,7 @@
         },
         "11123": {
             "class_number": "11123",
-            "enrollment_cap": 31,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Klein,Jennifer S",
             "days": "F",
@@ -846,7 +872,7 @@
         },
         "11136": {
             "class_number": "11136",
-            "enrollment_cap": 27,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Klein,Jennifer S",
             "days": "F",
@@ -888,7 +914,7 @@
     "ART 306": {
         "10985": {
             "class_number": "10985",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Rizk,Magdy",
             "days": "TR",
@@ -930,19 +956,29 @@
         },
         "11533": {
             "class_number": "11533",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kinsella,Adrienne",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1345h"
+        },
+        "11534": {
+            "class_number": "11534",
+            "enrollment_cap": -5,
+            "enrollment_count": 0,
+            "instructor": "Taylor,Curtis Neal",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "ART 309": {
         "11589": {
             "class_number": "11589",
-            "enrollment_cap": 7,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Ames,Curtis",
             "days": "TR",
@@ -952,7 +988,7 @@
         },
         "11960": {
             "class_number": "11960",
-            "enrollment_cap": 7,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Ames,Curtis",
             "days": "MW",
@@ -964,7 +1000,7 @@
     "ART 315": {
         "10029": {
             "class_number": "10029",
-            "enrollment_cap": 36,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Moss,Juliet",
             "days": "MW",
@@ -984,7 +1020,7 @@
         },
         "11137": {
             "class_number": "11137",
-            "enrollment_cap": 28,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Rosenblum,Beth T",
             "days": "TR",
@@ -994,7 +1030,7 @@
         },
         "11150": {
             "class_number": "11150",
-            "enrollment_cap": 51,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Moss,Juliet",
             "days": "TR",
@@ -1004,7 +1040,7 @@
         },
         "11410": {
             "class_number": "11410",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Enholm,Molly A",
             "days": null,
@@ -1016,19 +1052,19 @@
     "ART 318": {
         "10792": {
             "class_number": "10792",
-            "enrollment_cap": 25,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Ontiveros,Mario",
-            "days": "W",
-            "location": "SG103",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11542": {
             "class_number": "11542",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Witte,Michael",
+            "instructor": "Ontiveros,Mario",
             "days": "R",
             "location": "SG103",
             "start_time": "1600h",
@@ -1038,7 +1074,7 @@
             "class_number": "11796",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Enholm,Molly A",
+            "instructor": "Witte,Michael",
             "days": "R",
             "location": "ONLINE",
             "start_time": "1700h",
@@ -1046,7 +1082,7 @@
         },
         "11838": {
             "class_number": "11838",
-            "enrollment_cap": 18,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Rosenblum,Beth T",
             "days": "M",
@@ -1063,12 +1099,22 @@
             "location": "ONLINE",
             "start_time": "ARR",
             "end_time": "ARR"
+        },
+        "21305": {
+            "class_number": "21305",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Enholm,Molly A",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "ART 322A": {
         "10986": {
             "class_number": "10986",
-            "enrollment_cap": 12,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Freshwater,Shannon",
             "days": "MW",
@@ -1114,7 +1160,7 @@
     "ART 324A": {
         "10030": {
             "class_number": "10030",
-            "enrollment_cap": 0,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Jones Jr,Kenneth C",
             "days": "MW",
@@ -1124,7 +1170,7 @@
         },
         "11971": {
             "class_number": "11971",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Hendrickson,David Charles",
             "days": "F",
@@ -1156,7 +1202,7 @@
         },
         "11970": {
             "class_number": "11970",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Hendrickson,David Charles",
             "days": "F",
@@ -1166,7 +1212,7 @@
         },
         "12035": {
             "class_number": "12035",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Nacorda,Christian",
             "days": "MW",
@@ -1178,7 +1224,7 @@
     "ART 326": {
         "10032": {
             "class_number": "10032",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Forcum,Tim D",
             "days": "TR",
@@ -1190,7 +1236,7 @@
     "ART 327": {
         "10970": {
             "class_number": "10970",
-            "enrollment_cap": 7,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Reynolds,Victoria J",
             "days": "MW",
@@ -1214,7 +1260,7 @@
     "ART 330": {
         "10033": {
             "class_number": "10033",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Panjarian,Fabia",
             "days": "MW",
@@ -1226,7 +1272,7 @@
     "ART 335": {
         "10989": {
             "class_number": "10989",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Tedeschi,Christian R",
             "days": "MW",
@@ -1238,7 +1284,7 @@
     "ART 337D": {
         "11575": {
             "class_number": "11575",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Taylor,Curtis Neal",
             "days": "TR",
@@ -1250,7 +1296,7 @@
     "ART 341": {
         "10991": {
             "class_number": "10991",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Solis,Louis A",
             "days": "MW",
@@ -1274,7 +1320,7 @@
     "ART 344": {
         "10994": {
             "class_number": "10994",
-            "enrollment_cap": 15,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Kelley,James R",
             "days": "MW",
@@ -1296,7 +1342,7 @@
     "ART 345": {
         "11478": {
             "class_number": "11478",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bautista,Joe G",
             "days": "T",
@@ -1320,7 +1366,7 @@
     "ART 351": {
         "11037": {
             "class_number": "11037",
-            "enrollment_cap": 6,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Bunn,Anita E",
             "days": "MW",
@@ -1332,7 +1378,7 @@
     "ART 352": {
         "11038": {
             "class_number": "11038",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Amrani,Noah S",
             "days": "MW",
@@ -1342,7 +1388,7 @@
         },
         "11543": {
             "class_number": "11543",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Owens,Caleb R",
             "days": "TR",
@@ -1366,7 +1412,7 @@
     "ART 354": {
         "10996": {
             "class_number": "10996",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Solis,Louis A",
             "days": "TR",
@@ -1378,11 +1424,11 @@
     "ART 357": {
         "11303": {
             "class_number": "11303",
-            "enrollment_cap": 8,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Alfano,Edward C",
             "days": "TR",
-            "location": "AC409",
+            "location": "AC335",
             "start_time": "1400h",
             "end_time": "1645h"
         }
@@ -1390,7 +1436,7 @@
     "ART 358": {
         "11927": {
             "class_number": "11927",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Juarez,Shally",
             "days": "T",
@@ -1402,7 +1448,7 @@
     "ART 363A": {
         "11039": {
             "class_number": "11039",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Mortcheva,Aglaia",
             "days": "TR",
@@ -1424,7 +1470,7 @@
     "ART 363B": {
         "11009": {
             "class_number": "11009",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "St. Pierre,Robert J",
             "days": "MW",
@@ -1434,7 +1480,7 @@
         },
         "11834": {
             "class_number": "11834",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "St. Pierre,Robert J",
             "days": "MW",
@@ -1446,7 +1492,7 @@
     "ART 364": {
         "10997": {
             "class_number": "10997",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Owens,Caleb R",
             "days": "TR",
@@ -1456,7 +1502,7 @@
         },
         "10998": {
             "class_number": "10998",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Bonitatis,Michael",
             "days": "MW",
@@ -1466,7 +1512,7 @@
         },
         "11968": {
             "class_number": "11968",
-            "enrollment_cap": -6,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Bladh,Caleb C",
             "days": "TR",
@@ -1476,7 +1522,7 @@
         },
         "21286": {
             "class_number": "21286",
-            "enrollment_cap": 14,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Bonitatis,Michael",
             "days": "TR",
@@ -1488,7 +1534,7 @@
     "ART 365": {
         "11829": {
             "class_number": "11829",
-            "enrollment_cap": -3,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Itokazu,Hiroki",
             "days": "F",
@@ -1510,9 +1556,9 @@
     "ART 366": {
         "11000": {
             "class_number": "11000",
-            "enrollment_cap": 0,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
-            "instructor": "Cox,Patsy",
+            "instructor": "Eleniak,Erin M",
             "days": "MW",
             "location": "AC509",
             "start_time": "1100h",
@@ -1522,7 +1568,7 @@
     "ART 368": {
         "11919": {
             "class_number": "11919",
-            "enrollment_cap": 3,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Daly,Aaron I",
             "days": "S",
@@ -1666,7 +1712,7 @@
     "ART 389CS": {
         "11961": {
             "class_number": "11961",
-            "enrollment_cap": 7,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "DiMarco,Paula J",
             "days": "M",
@@ -1678,7 +1724,7 @@
     "ART 402": {
         "10867": {
             "class_number": "10867",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Bunn,Anita E",
             "days": "MW",
@@ -1702,7 +1748,7 @@
     "ART 405": {
         "11482": {
             "class_number": "11482",
-            "enrollment_cap": 19,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Juarez,Shally",
             "days": "MW",
@@ -1714,7 +1760,7 @@
     "ART 414": {
         "10885": {
             "class_number": "10885",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Wang,Meiqin",
             "days": "R",
@@ -1726,9 +1772,9 @@
     "ART 421": {
         "10903": {
             "class_number": "10903",
-            "enrollment_cap": 20,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Butz,Patricia",
             "days": "M",
             "location": "SG103",
             "start_time": "1600h",
@@ -1760,7 +1806,7 @@
         },
         "11957": {
             "class_number": "11957",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Reynolds,Victoria J",
             "days": "MW",
@@ -1772,7 +1818,7 @@
     "ART 429": {
         "10683": {
             "class_number": "10683",
-            "enrollment_cap": 9,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Reynolds,Victoria J",
             "days": "MW",
@@ -1818,7 +1864,7 @@
     "ART 437": {
         "11004": {
             "class_number": "11004",
-            "enrollment_cap": 9,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Taylor,Curtis Neal",
             "days": "TR",
@@ -1851,10 +1897,22 @@
             "end_time": "2120h"
         }
     },
+    "ART 442": {
+        "11289": {
+            "class_number": "11289",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Gustafson,Glen A",
+            "days": "S",
+            "location": "ONLINE",
+            "start_time": "1000h",
+            "end_time": "1530h"
+        }
+    },
     "ART 443": {
         "11030": {
             "class_number": "11030",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Hu,Caroline",
             "days": "TR",
@@ -1864,7 +1922,7 @@
         },
         "11546": {
             "class_number": "11546",
-            "enrollment_cap": 5,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Souza,Robert",
             "days": "MW",
@@ -1876,7 +1934,7 @@
     "ART 444": {
         "11006": {
             "class_number": "11006",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Longo,Nicholas T",
             "days": "MW",
@@ -1888,7 +1946,7 @@
     "ART 446": {
         "11007": {
             "class_number": "11007",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Rizk,Magdy",
             "days": "T",
@@ -1900,7 +1958,7 @@
     "ART 448": {
         "11483": {
             "class_number": "11483",
-            "enrollment_cap": 6,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Ontiveros,Mario",
             "days": "T",
@@ -1910,7 +1968,7 @@
         },
         "11831": {
             "class_number": "11831",
-            "enrollment_cap": 18,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Ontiveros,Mario",
             "days": "W",
@@ -1934,7 +1992,7 @@
     "ART 455A": {
         "11041": {
             "class_number": "11041",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Patugan,Rollence",
             "days": "MW",
@@ -1958,7 +2016,7 @@
     "ART 455C": {
         "11043": {
             "class_number": "11043",
-            "enrollment_cap": 7,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Patugan,Rollence",
             "days": "MW",
@@ -1970,7 +2028,7 @@
     "ART 458": {
         "11547": {
             "class_number": "11547",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Bautista,Joe G",
             "days": "F",
@@ -1980,7 +2038,7 @@
         },
         "11928": {
             "class_number": "11928",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Moon,Dave Y",
             "days": "R",
@@ -1992,7 +2050,7 @@
     "ART 460": {
         "11969": {
             "class_number": "11969",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ulene,Nancy J",
             "days": "T",
@@ -2048,7 +2106,7 @@
     "ART 463": {
         "11008": {
             "class_number": "11008",
-            "enrollment_cap": -6,
+            "enrollment_cap": -8,
             "enrollment_count": 0,
             "instructor": "Clisset,John M",
             "days": "MW",
@@ -2058,7 +2116,7 @@
         },
         "11830": {
             "class_number": "11830",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bonitatis,Michael",
             "days": "S",
@@ -2070,7 +2128,7 @@
     "ART 465": {
         "11291": {
             "class_number": "11291",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Owens,Caleb R",
             "days": "TR",
@@ -2082,9 +2140,9 @@
     "ART 467": {
         "11001": {
             "class_number": "11001",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Cox,Patsy",
+            "instructor": "Eleniak,Erin M",
             "days": "MW",
             "location": "AC509",
             "start_time": "1100h",
@@ -2094,7 +2152,7 @@
     "ART 478": {
         "20741": {
             "class_number": "20741",
-            "enrollment_cap": 6,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Henderson,Lynette K",
             "days": "T",
@@ -2106,7 +2164,7 @@
     "ART 478L": {
         "20742": {
             "class_number": "20742",
-            "enrollment_cap": 6,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Henderson,Lynette K",
             "days": "T",
@@ -2118,7 +2176,7 @@
     "ART 483": {
         "20743": {
             "class_number": "20743",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Taylor,Kristin A",
             "days": "M",
@@ -2130,7 +2188,7 @@
     "ART 483L": {
         "20744": {
             "class_number": "20744",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Taylor,Kristin A",
             "days": "M",
@@ -2142,7 +2200,7 @@
     "ART 488CS": {
         "11950": {
             "class_number": "11950",
-            "enrollment_cap": 7,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Brodsky,Tanya",
             "days": "TR",
@@ -2154,7 +2212,7 @@
     "ART 491": {
         "11929": {
             "class_number": "11929",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Moon,Dave Y",
             "days": "M",
@@ -2166,7 +2224,7 @@
     "ART 494": {
         "10943": {
             "class_number": "10943",
-            "enrollment_cap": 13,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Moon,Dave Y",
             "days": null,
@@ -2176,7 +2234,7 @@
         },
         "11861": {
             "class_number": "11861",
-            "enrollment_cap": 1,
+            "enrollment_cap": -9,
             "enrollment_count": 0,
             "instructor": "Farquhar,Mark R",
             "days": null,
@@ -2188,9 +2246,9 @@
     "ART 499C": {
         "12022": {
             "class_number": "12022",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Cox,Patsy",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -2200,7 +2258,7 @@
     "ART 520": {
         "11595": {
             "class_number": "11595",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ames,Curtis",
             "days": "TR",
@@ -2212,7 +2270,7 @@
     "ART 521": {
         "11582": {
             "class_number": "11582",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Forcum,Tim D",
             "days": "TR",
@@ -2224,7 +2282,7 @@
     "ART 522": {
         "11326": {
             "class_number": "11326",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Sandberg,Erik Mark",
             "days": "MW",
@@ -2236,7 +2294,7 @@
     "ART 525": {
         "11701": {
             "class_number": "11701",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Rozic,Michelle M",
             "days": "TR",
@@ -2260,7 +2318,7 @@
     "ART 560": {
         "11485": {
             "class_number": "11485",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Cox,Patsy",
             "days": "MW",
@@ -2320,7 +2378,7 @@
     "ART 588": {
         "11548": {
             "class_number": "11548",
-            "enrollment_cap": 4,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Brodsky,Tanya",
             "days": "TR",
@@ -2344,7 +2402,7 @@
     "ART 620": {
         "10696": {
             "class_number": "10696",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Ames,Curtis",
             "days": "TR",
@@ -2356,7 +2414,7 @@
     "ART 621": {
         "10052": {
             "class_number": "10052",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Forcum,Tim D",
             "days": "TR",
@@ -2368,7 +2426,7 @@
     "ART 622": {
         "11332": {
             "class_number": "11332",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Sandberg,Erik Mark",
             "days": "MW",
@@ -2380,7 +2438,7 @@
     "ART 625": {
         "10944": {
             "class_number": "10944",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Rozic,Michelle M",
             "days": "TR",
@@ -2392,7 +2450,7 @@
     "ART 635": {
         "10945": {
             "class_number": "10945",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Tedeschi,Christian R",
             "days": "F",
@@ -2404,7 +2462,7 @@
     "ART 660": {
         "11622": {
             "class_number": "11622",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Cox,Patsy",
             "days": "MW",
@@ -2428,7 +2486,7 @@
     "ART 691A": {
         "10928": {
             "class_number": "10928",
-            "enrollment_cap": 9,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Leister,Elizabeth J",
             "days": "R",
@@ -2440,7 +2498,7 @@
     "ART 696C": {
         "10044": {
             "class_number": "10044",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -2452,7 +2510,7 @@
     "ART 698D": {
         "11797": {
             "class_number": "11797",
-            "enrollment_cap": -4,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Krane,Lesley S",
             "days": "TR",

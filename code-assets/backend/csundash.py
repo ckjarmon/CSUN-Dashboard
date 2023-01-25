@@ -40,6 +40,7 @@ def parse(_parseable, _start):
     
     while c_iterate < len(unparsed):
         match unparsed[c_iterate]:
+            
             case '{':
                 if unparsed[c_iterate+1] == '{':
                     sub_unparsed_end = unparsed[c_iterate:].index('}}')
@@ -47,26 +48,27 @@ def parse(_parseable, _start):
                     c_iterate += sub_unparsed_end + 1
                 else:
                     parse_stack.append(unparsed[c_iterate])
+                    
             case '}':
                 try:
                     parse_stack.pop()
                 except IndexError:
-                    pass
+                    return "??????????"
+                
             case '&':
-                if _start == "":
-                    parsed_ret += "AND Take "
-                else:
-                    parsed_ret += "<br>AND<br>Take "
+                parsed_ret += "AND Take " if _start == "" else "<br>AND<br>Take "
                 c_iterate += 1
+            
             case '|':
-                if _start == "":
-                    parsed_ret += "OR Take"
-                else:     
-                    parsed_ret += "<br>or<br>Take"
-                c_iterate += 1               
+                parsed_ret += "OR Take" if _start == "" else "<br>or<br>Take" 
+                c_iterate += 1            
+                
             case _:
                 parsed_ret += unparsed[c_iterate]
+                
         c_iterate += 1
+        
+        
     # cba programming the logic to avoid these from happening so just do replace calls lol
     parsed_ret = parsed_ret.replace('Take Obtain', 'Obtain')
     parsed_ret = parsed_ret.replace('Take Earn', 'Earn')
@@ -107,6 +109,9 @@ def get(**kwargs):
     "units":x[4],
     "prerequisites": parse(x[5], "Take "),
     "corequisites":x[6]} for x in le_fetch]
+    
+    
+
 # @app.route('/sql')
 # def sql(**kwargs):
 #    rootCursor.execute("SELECT * FROM csun.COMP_view")

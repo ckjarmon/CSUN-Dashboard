@@ -2,25 +2,13 @@
     "FCS 111": {
         "20799": {
             "class_number": "20799",
-            "enrollment_cap": -20,
+            "enrollment_cap": -21,
             "enrollment_count": 0,
             "instructor": "Zhukova,Tatyana",
             "days": "F",
             "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1345h"
-        }
-    },
-    "FCS 113": {
-        "19443": {
-            "class_number": "19443",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "SQ201",
-            "start_time": "1230h",
-            "end_time": "1515h"
         }
     },
     "FCS 150": {
@@ -47,7 +35,7 @@
             "end_time": "1345h"
         }
     },
-    "FCS 160": {
+    "FCS 170": {
         "18910": {
             "class_number": "18910",
             "enrollment_cap": 0,
@@ -60,21 +48,19 @@
         },
         "20017": {
             "class_number": "20017",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Tung,Tracie",
             "days": "R",
             "location": "SQ109",
             "start_time": "1530h",
             "end_time": "1815h"
-        }
-    },
-    "FCS 170": {
+        },
         "18792": {
             "class_number": "18792",
-            "enrollment_cap": 17,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Kim,EunJu",
             "days": "MW",
             "location": "SQ102",
             "start_time": "1400h",
@@ -82,7 +68,7 @@
         },
         "18849": {
             "class_number": "18849",
-            "enrollment_cap": 17,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Cho,Hira",
             "days": "W",
@@ -92,18 +78,58 @@
         }
     },
     "FCS 201": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18793": {
             "class_number": "18793",
-            "enrollment_cap": 10,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Allison,Brittany",
             "days": "M",
-            "location": "SQ112",
+            "location": "SQ101",
             "start_time": "1530h",
             "end_time": "1710h"
         }
     },
     "FCS 201L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18794": {
             "class_number": "18794",
             "enrollment_cap": 0,
@@ -116,7 +142,7 @@
         },
         "18992": {
             "class_number": "18992",
-            "enrollment_cap": 10,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Allison,Brittany",
             "days": "R",
@@ -126,9 +152,29 @@
         }
     },
     "FCS 207": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18795": {
             "class_number": "18795",
-            "enrollment_cap": 7,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Pouldar,Roya R",
             "days": "MW",
@@ -138,7 +184,7 @@
         },
         "18894": {
             "class_number": "18894",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Torabian-Riasati,Setareh",
             "days": null,
@@ -148,21 +194,51 @@
         }
     },
     "FCS 210": {
-        "19347": {
-            "class_number": "19347",
-            "enrollment_cap": -11,
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Angara,Bryan A",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         }
     },
     "FCS 213": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18937": {
             "class_number": "18937",
-            "enrollment_cap": -4,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Kohn,Rodica R",
             "days": "TR",
@@ -172,9 +248,29 @@
         }
     },
     "FCS 213L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18918": {
             "class_number": "18918",
-            "enrollment_cap": -4,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Kohn,Rodica R",
             "days": "TR",
@@ -184,6 +280,26 @@
         }
     },
     "FCS 217": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "20081": {
             "class_number": "20081",
             "enrollment_cap": -21,
@@ -196,9 +312,29 @@
         }
     },
     "FCS 232": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18797": {
             "class_number": "18797",
-            "enrollment_cap": 19,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Matthews,Erin M",
             "days": "TR",
@@ -208,19 +344,39 @@
         },
         "18994": {
             "class_number": "18994",
-            "enrollment_cap": 38,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Oliva,Juan C",
-            "days": "W",
-            "location": "SQ100",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "FCS 234": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19027": {
             "class_number": "19027",
-            "enrollment_cap": 8,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Gray,Shelly L",
             "days": "MW",
@@ -230,7 +386,7 @@
         },
         "19942": {
             "class_number": "19942",
-            "enrollment_cap": 35,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Matthews,Erin M",
             "days": "R",
@@ -240,9 +396,29 @@
         }
     },
     "FCS 250": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18798": {
             "class_number": "18798",
-            "enrollment_cap": -3,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Williams,Cynthia R",
             "days": "W",
@@ -252,9 +428,29 @@
         }
     },
     "FCS 250L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18799": {
             "class_number": "18799",
-            "enrollment_cap": -3,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Williams,Cynthia R",
             "days": "W",
@@ -264,9 +460,29 @@
         }
     },
     "FCS 255": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18850": {
             "class_number": "18850",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Cho,Hira",
             "days": "T",
@@ -276,9 +492,29 @@
         }
     },
     "FCS 271": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18914": {
             "class_number": "18914",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Warren,Shirley T",
             "days": "T",
@@ -288,21 +524,51 @@
         }
     },
     "FCS 271L": {
-        "18915": {
-            "class_number": "18915",
-            "enrollment_cap": 2,
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Warren,Shirley T",
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
             "days": "R",
-            "location": "SQ241",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         }
     },
     "FCS 301": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18800": {
             "class_number": "18800",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Garcia-Torres,Rosalia",
             "days": "R",
@@ -312,9 +578,29 @@
         }
     },
     "FCS 304": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18801": {
             "class_number": "18801",
-            "enrollment_cap": 21,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Allison,Brittany",
             "days": "F",
@@ -324,9 +610,29 @@
         }
     },
     "FCS 307": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18802": {
             "class_number": "18802",
-            "enrollment_cap": 22,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Torabian-Riasati,Setareh",
             "days": "F",
@@ -336,9 +642,29 @@
         }
     },
     "FCS 308": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18988": {
             "class_number": "18988",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Blake,Amanda A",
             "days": "T",
@@ -348,9 +674,29 @@
         }
     },
     "FCS 312": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18804": {
             "class_number": "18804",
-            "enrollment_cap": -15,
+            "enrollment_cap": -21,
             "enrollment_count": 0,
             "instructor": "King,Kristin",
             "days": "M",
@@ -360,21 +706,51 @@
         }
     },
     "FCS 312L": {
-        "18805": {
-            "class_number": "18805",
-            "enrollment_cap": -15,
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "King,Kristin",
+            "instructor": "Tung,Tracie",
             "days": "W",
-            "location": "SQ215",
-            "start_time": "1230h",
-            "end_time": "1410h"
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         }
     },
     "FCS 315": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19275": {
             "class_number": "19275",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Yang,Yali",
             "days": "TR",
@@ -384,11 +760,31 @@
         }
     },
     "FCS 316": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18920": {
             "class_number": "18920",
-            "enrollment_cap": -7,
+            "enrollment_cap": -10,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Golshany,Nasrin",
             "days": "T",
             "location": "ONLINE",
             "start_time": "1600h",
@@ -396,9 +792,29 @@
         }
     },
     "FCS 317": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "20084": {
             "class_number": "20084",
-            "enrollment_cap": -23,
+            "enrollment_cap": -26,
             "enrollment_count": 0,
             "instructor": "Kohn,Rodica R",
             "days": "MW",
@@ -408,6 +824,26 @@
         }
     },
     "FCS 320": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19127": {
             "class_number": "19127",
             "enrollment_cap": 0,
@@ -420,7 +856,7 @@
         },
         "19274": {
             "class_number": "19274",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Mimura,Yoko",
             "days": null,
@@ -430,9 +866,29 @@
         }
     },
     "FCS 321": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18807": {
             "class_number": "18807",
-            "enrollment_cap": 8,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "McKay,Ava Lara",
             "days": "R",
@@ -442,9 +898,29 @@
         }
     },
     "FCS 321L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18808": {
             "class_number": "18808",
-            "enrollment_cap": 8,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "McKay,Ava Lara",
             "days": "R",
@@ -454,43 +930,103 @@
         }
     },
     "FCS 322": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18809": {
             "class_number": "18809",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Ellis,Julie L",
-            "days": "TR",
-            "location": "SQ112",
-            "start_time": "1000h",
-            "end_time": "1050h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "FCS 322L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18810": {
             "class_number": "18810",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Ellis,Julie L",
-            "days": "T",
-            "location": "SQ112",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "18916": {
             "class_number": "18916",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Ellis,Julie L",
-            "days": "R",
-            "location": "SQ112",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "FCS 323": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19008": {
             "class_number": "19008",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bradley,Linda A",
             "days": "T",
@@ -520,11 +1056,31 @@
         }
     },
     "FCS 324": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19128": {
             "class_number": "19128",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Yang,Yali",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -542,9 +1098,29 @@
         }
     },
     "FCS 330": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18811": {
             "class_number": "18811",
-            "enrollment_cap": 33,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
             "instructor": "Gray,Shelly L",
             "days": "MW",
@@ -554,7 +1130,7 @@
         },
         "18812": {
             "class_number": "18812",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Brusasco,Joyce Marie",
             "days": "TR",
@@ -564,9 +1140,29 @@
         }
     },
     "FCS 335": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18963": {
             "class_number": "18963",
-            "enrollment_cap": 11,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Keating,Liza V",
             "days": "MW",
@@ -576,11 +1172,31 @@
         }
     },
     "FCS 340": {
-        "18814": {
-            "class_number": "18814",
+        "18910": {
+            "class_number": "18910",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Brusasco,Joyce Marie",
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18814": {
+            "class_number": "18814",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Jefferson,Sean",
             "days": "TR",
             "location": "SQ101",
             "start_time": "1100h",
@@ -588,7 +1204,7 @@
         },
         "18815": {
             "class_number": "18815",
-            "enrollment_cap": 38,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructor": "Giordano,Angie M",
             "days": "M",
@@ -598,7 +1214,7 @@
         },
         "18816": {
             "class_number": "18816",
-            "enrollment_cap": 92,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Oliva,Juan C",
             "days": "T",
@@ -618,7 +1234,7 @@
         },
         "18817": {
             "class_number": "18817",
-            "enrollment_cap": 0,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "McCollum,Heather R",
             "days": null,
@@ -628,7 +1244,7 @@
         },
         "19178": {
             "class_number": "19178",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Krishnan,Uma",
             "days": null,
@@ -648,9 +1264,29 @@
         }
     },
     "FCS 356": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18818": {
             "class_number": "18818",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Warren,Shirley T",
             "days": "T",
@@ -660,9 +1296,29 @@
         }
     },
     "FCS 356L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18819": {
             "class_number": "18819",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Warren,Shirley T",
             "days": "R",
@@ -672,6 +1328,26 @@
         }
     },
     "FCS 357": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "20086": {
             "class_number": "20086",
             "enrollment_cap": 0,
@@ -684,9 +1360,29 @@
         }
     },
     "FCS 360": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18885": {
             "class_number": "18885",
-            "enrollment_cap": 9,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Cao,Wei",
             "days": null,
@@ -696,9 +1392,29 @@
         }
     },
     "FCS 360L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18886": {
             "class_number": "18886",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Cao,Wei",
             "days": "W",
@@ -708,7 +1424,7 @@
         },
         "19451": {
             "class_number": "19451",
-            "enrollment_cap": 8,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Cao,Wei",
             "days": "W",
@@ -718,9 +1434,29 @@
         }
     },
     "FCS 371": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18820": {
             "class_number": "18820",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Williams,Cynthia R",
             "days": "M",
@@ -730,9 +1466,29 @@
         }
     },
     "FCS 371L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18821": {
             "class_number": "18821",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Williams,Cynthia R",
             "days": "M",
@@ -742,11 +1498,31 @@
         }
     },
     "FCS 380": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18822": {
             "class_number": "18822",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Yang,Yali",
+            "instructor": "Brusasco,Joyce Marie",
             "days": "MW",
             "location": "SQ102",
             "start_time": "1230h",
@@ -754,7 +1530,7 @@
         },
         "18823": {
             "class_number": "18823",
-            "enrollment_cap": 12,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Mimura,Yoko",
             "days": "TR",
@@ -764,17 +1540,17 @@
         },
         "18895": {
             "class_number": "18895",
-            "enrollment_cap": -2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Yang,Yali",
             "days": "R",
-            "location": "JD1124",
+            "location": "SQ103",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         "19036": {
             "class_number": "19036",
-            "enrollment_cap": 9,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Matthews,Erin M",
             "days": "F",
@@ -784,9 +1560,29 @@
         }
     },
     "FCS 401": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18824": {
             "class_number": "18824",
-            "enrollment_cap": 7,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Allison,Brittany",
             "days": "M",
@@ -796,9 +1592,29 @@
         }
     },
     "FCS 401L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18825": {
             "class_number": "18825",
-            "enrollment_cap": 8,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Allison,Brittany",
             "days": "M",
@@ -808,9 +1624,29 @@
         }
     },
     "FCS 402": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19055": {
             "class_number": "19055",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Blake,Amanda A",
             "days": "W",
@@ -820,11 +1656,31 @@
         }
     },
     "FCS 403": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19038": {
             "class_number": "19038",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Paydar,Mehrnaz",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "0800h",
@@ -832,9 +1688,29 @@
         }
     },
     "FCS 404": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19039": {
             "class_number": "19039",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Garcia-Torres,Rosalia",
             "days": null,
@@ -844,9 +1720,29 @@
         }
     },
     "FCS 404L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19040": {
             "class_number": "19040",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Garcia-Torres,Rosalia",
             "days": "F",
@@ -856,11 +1752,31 @@
         }
     },
     "FCS 408": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18826": {
             "class_number": "18826",
-            "enrollment_cap": 3,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Paydar,Mehrnaz",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1530h",
@@ -868,9 +1784,29 @@
         }
     },
     "FCS 411": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18946": {
             "class_number": "18946",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Kohn,Rodica R",
             "days": "MW",
@@ -880,9 +1816,29 @@
         }
     },
     "FCS 412": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18851": {
             "class_number": "18851",
-            "enrollment_cap": -4,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Frise,Anna P",
             "days": "T",
@@ -892,9 +1848,29 @@
         }
     },
     "FCS 413": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19581": {
             "class_number": "19581",
-            "enrollment_cap": 13,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "King,Kristin",
             "days": "M",
@@ -904,9 +1880,29 @@
         }
     },
     "FCS 413L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19582": {
             "class_number": "19582",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "King,Kristin",
             "days": "W",
@@ -916,6 +1912,26 @@
         }
     },
     "FCS 414": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18827": {
             "class_number": "18827",
             "enrollment_cap": -2,
@@ -928,9 +1944,29 @@
         }
     },
     "FCS 420": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18828": {
             "class_number": "18828",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Fernandez,Miguel A",
             "days": null,
@@ -940,9 +1976,29 @@
         }
     },
     "FCS 422": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19572": {
             "class_number": "19572",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Bradley,Linda A",
             "days": null,
@@ -952,9 +2008,29 @@
         }
     },
     "FCS 426": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19047": {
             "class_number": "19047",
-            "enrollment_cap": 5,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Matthews,Erin M",
             "days": "TR",
@@ -964,31 +2040,71 @@
         }
     },
     "FCS 431": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18831": {
             "class_number": "18831",
             "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Keating,Liza V",
             "days": "M",
-            "location": "SQ102",
+            "location": "SQ109",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         "20088": {
             "class_number": "20088",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Keating,Liza V",
             "days": "W",
-            "location": "SQ102",
+            "location": "SG109",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     },
     "FCS 431L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18843": {
             "class_number": "18843",
-            "enrollment_cap": 10,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Dunlap,Christa C",
             "days": null,
@@ -998,7 +2114,7 @@
         },
         "20089": {
             "class_number": "20089",
-            "enrollment_cap": 22,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Dunlap,Christa C",
             "days": null,
@@ -1008,9 +2124,29 @@
         }
     },
     "FCS 432": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19206": {
             "class_number": "19206",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "McCollum,Heather R",
             "days": "M",
@@ -1020,6 +2156,26 @@
         }
     },
     "FCS 435": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "20010": {
             "class_number": "20010",
             "enrollment_cap": 10,
@@ -1032,9 +2188,29 @@
         }
     },
     "FCS 436": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18832": {
             "class_number": "18832",
-            "enrollment_cap": 7,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Gray,Shelly L",
             "days": "F",
@@ -1044,6 +2220,26 @@
         }
     },
     "FCS 438": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18833": {
             "class_number": "18833",
             "enrollment_cap": 10,
@@ -1056,9 +2252,29 @@
         }
     },
     "FCS 441": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18834": {
             "class_number": "18834",
-            "enrollment_cap": 6,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "McCollum,Heather R",
             "days": null,
@@ -1068,9 +2284,29 @@
         }
     },
     "FCS 453": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19751": {
             "class_number": "19751",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Cho,Hira",
             "days": null,
@@ -1080,6 +2316,26 @@
         }
     },
     "FCS 453L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19752": {
             "class_number": "19752",
             "enrollment_cap": 1,
@@ -1092,9 +2348,29 @@
         }
     },
     "FCS 455": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18836": {
             "class_number": "18836",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Cho,Hira",
             "days": null,
@@ -1104,9 +2380,29 @@
         }
     },
     "FCS 455L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18837": {
             "class_number": "18837",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Cho,Hira",
             "days": "T",
@@ -1116,6 +2412,26 @@
         }
     },
     "FCS 460": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19622": {
             "class_number": "19622",
             "enrollment_cap": 0,
@@ -1128,6 +2444,26 @@
         }
     },
     "FCS 460L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19623": {
             "class_number": "19623",
             "enrollment_cap": 0,
@@ -1140,9 +2476,29 @@
         }
     },
     "FCS 475": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18838": {
             "class_number": "18838",
-            "enrollment_cap": 6,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Kim,EunJu",
             "days": "R",
@@ -1152,9 +2508,29 @@
         }
     },
     "FCS 475L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18839": {
             "class_number": "18839",
-            "enrollment_cap": 6,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Kim,EunJu",
             "days": "R",
@@ -1164,9 +2540,29 @@
         }
     },
     "FCS 476": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18940": {
             "class_number": "18940",
-            "enrollment_cap": 1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Williams,Cynthia R",
             "days": "TR",
@@ -1176,9 +2572,29 @@
         }
     },
     "FCS 480": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18842": {
             "class_number": "18842",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Krishnan,Uma",
             "days": null,
@@ -1188,9 +2604,29 @@
         }
     },
     "FCS 485": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19838": {
             "class_number": "19838",
-            "enrollment_cap": 13,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Giordano,Angie M",
             "days": null,
@@ -1200,6 +2636,26 @@
         }
     },
     "FCS 491A": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19167": {
             "class_number": "19167",
             "enrollment_cap": 1,
@@ -1212,6 +2668,26 @@
         }
     },
     "FCS 491B": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19168": {
             "class_number": "19168",
             "enrollment_cap": 1,
@@ -1224,9 +2700,29 @@
         }
     },
     "FCS 491C": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19169": {
             "class_number": "19169",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Dunlap,Christa C",
             "days": null,
@@ -1236,9 +2732,29 @@
         }
     },
     "FCS 494": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19276": {
             "class_number": "19276",
-            "enrollment_cap": -3,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "McKay,Ava Lara",
             "days": "R",
@@ -1248,7 +2764,7 @@
         },
         "19277": {
             "class_number": "19277",
-            "enrollment_cap": 9,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Garcia-Torres,Rosalia",
             "days": "M",
@@ -1258,17 +2774,17 @@
         },
         "19278": {
             "class_number": "19278",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "R",
-            "location": "SQ210",
-            "start_time": "1900h",
-            "end_time": "1950h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "19280": {
             "class_number": "19280",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Krishnan,Uma",
             "days": null,
@@ -1278,7 +2794,7 @@
         },
         "19281": {
             "class_number": "19281",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Warren,Shirley T",
             "days": "F",
@@ -1291,16 +2807,36 @@
             "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Zhukova,Tatyana",
-            "days": "F",
+            "days": null,
             "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1450h"
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "FCS 494I": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19282": {
             "class_number": "19282",
-            "enrollment_cap": -3,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "McKay,Ava Lara",
             "days": null,
@@ -1310,7 +2846,7 @@
         },
         "19283": {
             "class_number": "19283",
-            "enrollment_cap": 8,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Garcia-Torres,Rosalia",
             "days": null,
@@ -1320,13 +2856,13 @@
         },
         "19284": {
             "class_number": "19284",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "OFFCAM",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "19286": {
             "class_number": "19286",
@@ -1340,7 +2876,7 @@
         },
         "19287": {
             "class_number": "19287",
-            "enrollment_cap": 5,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Warren,Shirley T",
             "days": null,
@@ -1360,9 +2896,29 @@
         }
     },
     "FCS 497": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19641": {
             "class_number": "19641",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Warren,Shirley T",
             "days": "M",
@@ -1372,6 +2928,26 @@
         }
     },
     "FCS 535": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19931": {
             "class_number": "19931",
             "enrollment_cap": 3,
@@ -1384,6 +2960,26 @@
         }
     },
     "FCS 570": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19774": {
             "class_number": "19774",
             "enrollment_cap": 4,
@@ -1396,6 +2992,26 @@
         }
     },
     "FCS 571": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19775": {
             "class_number": "19775",
             "enrollment_cap": 4,
@@ -1408,6 +3024,26 @@
         }
     },
     "FCS 572": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19776": {
             "class_number": "19776",
             "enrollment_cap": 4,
@@ -1420,6 +3056,26 @@
         }
     },
     "FCS 573": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18852": {
             "class_number": "18852",
             "enrollment_cap": 4,
@@ -1432,6 +3088,26 @@
         }
     },
     "FCS 575": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "19642": {
             "class_number": "19642",
             "enrollment_cap": 2,
@@ -1444,9 +3120,29 @@
         }
     },
     "FCS 609": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "20895": {
             "class_number": "20895",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Duran,Nelida",
             "days": "T",
@@ -1455,7 +3151,27 @@
             "end_time": "1845h"
         }
     },
-    "FCS 690J": {
+    "FCS 682": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
         "18841": {
             "class_number": "18841",
             "enrollment_cap": 0,
@@ -1467,16 +3183,58 @@
             "end_time": "1845h"
         }
     },
-    "FCS 694C": {
-        "18841": {
-            "class_number": "18841",
+    "FCS 690J": {
+        "18910": {
+            "class_number": "18910",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Jefferson,Sean",
+            "instructor": "Tung,Tracie",
             "days": "W",
-            "location": "RE153",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19837": {
+            "class_number": "19837",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "FCS 694C": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         },
         "19138": {
             "class_number": "19138",
@@ -1490,15 +3248,25 @@
         }
     },
     "FCS 696C": {
-        "18841": {
-            "class_number": "18841",
+        "18910": {
+            "class_number": "18910",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Jefferson,Sean",
+            "instructor": "Tung,Tracie",
             "days": "W",
-            "location": "RE153",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         },
         "18853": {
             "class_number": "18853",
@@ -1522,19 +3290,29 @@
         }
     },
     "FCS 697C": {
-        "18841": {
-            "class_number": "18841",
+        "18910": {
+            "class_number": "18910",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Jefferson,Sean",
+            "instructor": "Tung,Tracie",
             "days": "W",
-            "location": "RE153",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         },
         "19211": {
             "class_number": "19211",
-            "enrollment_cap": -3,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Mimura,Yoko",
             "days": null,
@@ -1544,15 +3322,25 @@
         }
     },
     "FCS 698C": {
-        "18841": {
-            "class_number": "18841",
+        "18910": {
+            "class_number": "18910",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Jefferson,Sean",
+            "instructor": "Tung,Tracie",
             "days": "W",
-            "location": "RE153",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         },
         "18859": {
             "class_number": "18859",
@@ -1576,7 +3364,7 @@
         },
         "18861": {
             "class_number": "18861",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Tung,Tracie",
             "days": null,
@@ -1606,9 +3394,19 @@
         },
         "18866": {
             "class_number": "18866",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Jefferson,Sean",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "18869": {
+            "class_number": "18869",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Cai,Yi",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
@@ -1616,15 +3414,25 @@
         }
     },
     "FCS 699A": {
-        "18841": {
-            "class_number": "18841",
+        "18910": {
+            "class_number": "18910",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Jefferson,Sean",
+            "instructor": "Tung,Tracie",
             "days": "W",
-            "location": "RE153",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         },
         "21271": {
             "class_number": "21271",

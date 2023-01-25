@@ -2,7 +2,7 @@
     "MSE 220": {
         "16404": {
             "class_number": "16404",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Reiner,Lisa R",
             "days": "W",
@@ -26,9 +26,9 @@
     "MSE 227": {
         "16339": {
             "class_number": "16339",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Avanessian,Aline",
+            "instructor": "Shin,Hans",
             "days": "TR",
             "location": "JD3504",
             "start_time": "1100h",
@@ -36,7 +36,7 @@
         },
         "16369": {
             "class_number": "16369",
-            "enrollment_cap": 24,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Reiner,Lisa R",
             "days": "TR",
@@ -46,17 +46,17 @@
         },
         "16503": {
             "class_number": "16503",
-            "enrollment_cap": 31,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Avanessian,Aline",
-            "days": "MW",
-            "location": "SG105",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "days": "S",
+            "location": "JD3502",
+            "start_time": "0900h",
+            "end_time": "1145h"
         },
         "16591": {
             "class_number": "16591",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Shin,Hans",
             "days": "MW",
@@ -66,7 +66,7 @@
         },
         "16648": {
             "class_number": "16648",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Shin,Hans",
             "days": "MW",
@@ -88,7 +88,7 @@
         },
         "16371": {
             "class_number": "16371",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Reiner,Lisa R",
             "days": "T",
@@ -108,7 +108,7 @@
         },
         "16446": {
             "class_number": "16446",
-            "enrollment_cap": 6,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Reiner,Lisa R",
             "days": "R",
@@ -118,7 +118,7 @@
         },
         "16592": {
             "class_number": "16592",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ojukwu,Chima O",
             "days": "F",
@@ -128,7 +128,7 @@
         },
         "16692": {
             "class_number": "16692",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ojukwu,Chima O",
             "days": "F",
@@ -148,7 +148,7 @@
         },
         "16729": {
             "class_number": "16729",
-            "enrollment_cap": 9,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Canzona,Guido",
             "days": "W",
@@ -158,7 +158,7 @@
         },
         "16738": {
             "class_number": "16738",
-            "enrollment_cap": 14,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Canzona,Guido",
             "days": "R",
@@ -170,7 +170,7 @@
     "MSE 248": {
         "16427": {
             "class_number": "16427",
-            "enrollment_cap": 11,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Behdinan,Khashayar",
             "days": "M",
@@ -182,13 +182,25 @@
     "MSE 248L": {
         "16428": {
             "class_number": "16428",
-            "enrollment_cap": 12,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Behdinan,Khashayar",
             "days": "M",
             "location": "JD1126",
             "start_time": "1800h",
             "end_time": "2045h"
+        }
+    },
+    "MSE 300": {
+        "20793": {
+            "class_number": "20793",
+            "enrollment_cap": 20,
+            "enrollment_count": 0,
+            "instructor": "Tovar,Salpy R",
+            "days": "MW",
+            "location": "SG100",
+            "start_time": "1700h",
+            "end_time": "1815h"
         }
     },
     "MSE 302": {
@@ -214,19 +226,29 @@
         },
         "16625": {
             "class_number": "16625",
-            "enrollment_cap": 21,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Elias,Gus H",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
             "end_time": "ARR"
+        },
+        "16649": {
+            "class_number": "16649",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tovar,Salpy R",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
-    "MSE 303": {
+    "MSE 304": {
         "16595": {
             "class_number": "16595",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Behdinan,Khashayar",
             "days": null,
@@ -235,72 +257,32 @@
             "end_time": "ARR"
         }
     },
-    "MSE 304": {
-        "16341": {
-            "class_number": "16341",
+    "MSE 362": {
+        "16595": {
+            "class_number": "16595",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Sarfaraz,Ahmad R",
-            "days": "MW",
-            "location": "JD3504",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        },
-        "16593": {
-            "class_number": "16593",
-            "enrollment_cap": 27,
-            "enrollment_count": 0,
-            "instructor": "Wainess,Scott R",
-            "days": "MW",
-            "location": "JD1600",
-            "start_time": "1530h",
-            "end_time": "1645h"
-        },
-        "16650": {
-            "class_number": "16650",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Sarfaraz,Ahmad R",
-            "days": "MW",
-            "location": "JD3504",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "16651": {
-            "class_number": "16651",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Tovar,Salpy R",
-            "days": "R",
-            "location": "JD3504",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "16787": {
-            "class_number": "16787",
-            "enrollment_cap": 11,
-            "enrollment_count": 0,
-            "instructor": "Tovar,Salpy R",
-            "days": "M",
-            "location": "JD3504",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "21257": {
-            "class_number": "21257",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructor": "Gholami,Hamid",
-            "days": "MW",
-            "location": "SG100",
-            "start_time": "1700h",
-            "end_time": "1815h"
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
-    "MSE 362": {
+    "MSE 402": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
         "16498": {
             "class_number": "16498",
-            "enrollment_cap": 16,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Wainess,Scott R",
             "days": "MW",
@@ -309,22 +291,30 @@
             "end_time": "1515h"
         }
     },
-    "MSE 402": {
-        "16274": {
-            "class_number": "16274",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Tovar,Salpy R",
-            "days": "MW",
-            "location": "JD3504",
-            "start_time": "1700h",
-            "end_time": "1815h"
-        }
-    },
     "MSE 406": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16471": {
             "class_number": "16471",
-            "enrollment_cap": 25,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Wainess,Scott R",
             "days": "R",
@@ -334,9 +324,29 @@
         }
     },
     "MSE 407": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16337": {
             "class_number": "16337",
-            "enrollment_cap": 18,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Elias,Gus H",
             "days": "R",
@@ -345,34 +355,30 @@
             "end_time": "2145h"
         }
     },
-    "MSE 410": {
-        "16275": {
-            "class_number": "16275",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Behdinan,Khashayar",
-            "days": "F",
-            "location": "JD1126",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        }
-    },
-    "MSE 410L": {
-        "16276": {
-            "class_number": "16276",
-            "enrollment_cap": 19,
-            "enrollment_count": 0,
-            "instructor": "Behdinan,Khashayar",
-            "days": "F",
-            "location": "JD1126",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
     "MSE 412": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16429": {
             "class_number": "16429",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Abolghasem,Sepideh",
             "days": "T",
@@ -382,9 +388,29 @@
         }
     },
     "MSE 412L": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16430": {
             "class_number": "16430",
-            "enrollment_cap": 16,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Gonzales,Cesar",
             "days": "T",
@@ -394,9 +420,29 @@
         }
     },
     "MSE 488BCS": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16277": {
             "class_number": "16277",
-            "enrollment_cap": 13,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Elias,Gus H",
             "days": "TR",
@@ -406,9 +452,29 @@
         }
     },
     "MSE 494A": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16406": {
             "class_number": "16406",
-            "enrollment_cap": 8,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Pan,John",
             "days": null,
@@ -418,6 +484,26 @@
         }
     },
     "MSE 504": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16702": {
             "class_number": "16702",
             "enrollment_cap": 0,
@@ -430,9 +516,29 @@
         }
     },
     "MSE 505": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16366": {
             "class_number": "16366",
-            "enrollment_cap": 17,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Tovar,Salpy R",
             "days": "W",
@@ -442,9 +548,29 @@
         }
     },
     "MSE 507": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16438": {
             "class_number": "16438",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Hamade,Jay N",
             "days": "T",
@@ -454,9 +580,29 @@
         }
     },
     "MSE 509": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16431": {
             "class_number": "16431",
-            "enrollment_cap": 7,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Gonzales,Cesar",
             "days": "T",
@@ -466,6 +612,26 @@
         }
     },
     "MSE 515": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "20794": {
             "class_number": "20794",
             "enrollment_cap": 0,
@@ -478,7 +644,7 @@
         },
         "20904": {
             "class_number": "20904",
-            "enrollment_cap": 6,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Carpitella,Silvia",
             "days": "W",
@@ -487,48 +653,32 @@
             "end_time": "2145h"
         }
     },
-    "MSE 516": {
-        "16987": {
-            "class_number": "16987",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Behdinan,Khashayar",
-            "days": "W",
-            "location": "JD1126",
-            "start_time": "1700h",
-            "end_time": "1840h"
-        }
-    },
-    "MSE 516L": {
-        "16988": {
-            "class_number": "16988",
-            "enrollment_cap": 18,
-            "enrollment_count": 0,
-            "instructor": "Behdinan,Khashayar",
-            "days": "W",
-            "location": "JD1126",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "MSE 536": {
-        "20836": {
-            "class_number": "20836",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Avanessian,Aline",
-            "days": "M",
-            "location": "JD3510",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
     "MSE 540": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16835": {
             "class_number": "16835",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Gandhi,Shereazad Jimmy",
             "days": "R",
             "location": "ONLINE",
             "start_time": "1900h",
@@ -536,9 +686,29 @@
         }
     },
     "MSE 550": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16500": {
             "class_number": "16500",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Bavarian,Behzad B",
             "days": "T",
@@ -548,6 +718,26 @@
         }
     },
     "MSE 600": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16788": {
             "class_number": "16788",
             "enrollment_cap": 0,
@@ -560,7 +750,7 @@
         },
         "16789": {
             "class_number": "16789",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Tabibzadeh,Maryam",
             "days": "M",
@@ -570,6 +760,26 @@
         }
     },
     "MSE 602": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16633": {
             "class_number": "16633",
             "enrollment_cap": 3,
@@ -582,7 +792,7 @@
         },
         "16439": {
             "class_number": "16439",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Genovese,Sean",
             "days": "S",
@@ -592,6 +802,26 @@
         }
     },
     "MSE 604": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16295": {
             "class_number": "16295",
             "enrollment_cap": 0,
@@ -614,16 +844,36 @@
         },
         "20840": {
             "class_number": "20840",
-            "enrollment_cap": 25,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Elias,Gus H",
             "days": "W",
-            "location": "TBA",
+            "location": "JD3508",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     },
     "MSE 606": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16790": {
             "class_number": "16790",
             "enrollment_cap": 0,
@@ -636,7 +886,7 @@
         },
         "16791": {
             "class_number": "16791",
-            "enrollment_cap": 21,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Shternberg,David C",
             "days": "W",
@@ -646,9 +896,29 @@
         }
     },
     "MSE 608B": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16441": {
             "class_number": "16441",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rajai,Mark R",
             "days": "W",
@@ -658,7 +928,7 @@
         },
         "16606": {
             "class_number": "16606",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Genovese,Sean",
             "days": "R",
@@ -668,21 +938,51 @@
         }
     },
     "MSE 611": {
-        "16432": {
-            "class_number": "16432",
-            "enrollment_cap": 20,
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Sita,Adrian",
-            "days": "T",
-            "location": "JD3516",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     },
     "MSE 614": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16433": {
             "class_number": "16433",
-            "enrollment_cap": 22,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Sita,Adrian",
             "days": "R",
@@ -692,6 +992,26 @@
         }
     },
     "MSE 618": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16403": {
             "class_number": "16403",
             "enrollment_cap": 0,
@@ -704,7 +1024,7 @@
         },
         "16449": {
             "class_number": "16449",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Abolghasem,Sepideh",
             "days": "M",
@@ -714,9 +1034,29 @@
         }
     },
     "MSE 629": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16501": {
             "class_number": "16501",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Bavarian,Behzad B",
             "days": "W",
@@ -726,6 +1066,26 @@
         }
     },
     "MSE 690": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16340": {
             "class_number": "16340",
             "enrollment_cap": 9,
@@ -738,6 +1098,26 @@
         }
     },
     "MSE 697MFS": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16510": {
             "class_number": "16510",
             "enrollment_cap": 11,
@@ -750,9 +1130,29 @@
         }
     },
     "MSE 697MGT": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16511": {
             "class_number": "16511",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Sarfaraz,Ahmad R",
             "days": null,
@@ -762,7 +1162,7 @@
         },
         "16605": {
             "class_number": "16605",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Tabibzadeh,Maryam",
             "days": null,
@@ -782,9 +1182,29 @@
         }
     },
     "MSE 697MTL": {
+        "16595": {
+            "class_number": "16595",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Behdinan,Khashayar",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16498": {
+            "class_number": "16498",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Wainess,Scott R",
+            "days": "MW",
+            "location": "JD3510",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "16512": {
             "class_number": "16512",
-            "enrollment_cap": 13,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Bavarian,Behzad B",
             "days": null,

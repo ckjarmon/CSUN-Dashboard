@@ -3,9 +3,9 @@
         "14234": {
             "class_number": "14234",
             "enrollment_cap": 32,
-            "enrollment_count": 31,
+            "enrollment_count": 32,
             "waitlist_cap": 32,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "kanzo.takemori@csun.edu",
             "days": "MW",
             "location": "JR315",
@@ -17,7 +17,7 @@
             "enrollment_cap": 32,
             "enrollment_count": 32,
             "waitlist_cap": 32,
-            "waitlist_count": 3,
+            "waitlist_count": 1,
             "instructor": "kanzo.takemori@csun.edu",
             "days": "MW",
             "location": "JR315",
@@ -27,10 +27,10 @@
         "14651": {
             "class_number": "14651",
             "enrollment_cap": 32,
-            "enrollment_count": 17,
+            "enrollment_count": 32,
             "waitlist_cap": 32,
             "waitlist_count": 0,
-            "instructor": "wendy.snyder@csun.edu",
+            "instructor": "drake.langford@csun.edu",
             "days": "MW",
             "location": "JR203",
             "start_time": "1300h",
@@ -39,10 +39,10 @@
         "14652": {
             "class_number": "14652",
             "enrollment_cap": 32,
-            "enrollment_count": 29,
+            "enrollment_count": 32,
             "waitlist_cap": 32,
-            "waitlist_count": 0,
-            "instructor": "nina.kato@csun.edu",
+            "waitlist_count": 1,
+            "instructor": "drake.langford@csun.edu",
             "days": "TR",
             "location": "JR301",
             "start_time": "1100h",
@@ -53,9 +53,9 @@
         "14235": {
             "class_number": "14235",
             "enrollment_cap": 25,
-            "enrollment_count": 29,
+            "enrollment_count": 28,
             "waitlist_cap": 25,
-            "waitlist_count": 3,
+            "waitlist_count": 5,
             "instructor": "nina.kato@csun.edu",
             "days": "TR",
             "location": "JR301",
@@ -67,7 +67,7 @@
             "enrollment_cap": 25,
             "enrollment_count": 25,
             "waitlist_cap": 25,
-            "waitlist_count": 0,
+            "waitlist_count": 3,
             "instructor": "junliang.huang@csun.edu",
             "days": "MW",
             "location": "JR303",
@@ -79,7 +79,7 @@
         "14236": {
             "class_number": "14236",
             "enrollment_cap": 25,
-            "enrollment_count": 16,
+            "enrollment_count": 20,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "nina.kato@csun.edu",
@@ -87,34 +87,6 @@
             "location": "JR203",
             "start_time": "1300h",
             "end_time": "1440h"
-        }
-    },
-    "JAPN 205": {
-        "14837": {
-            "class_number": "14837",
-            "enrollment_cap": 25,
-            "enrollment_count": 10,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "kanzo.takemori@csun.edu",
-            "days": "MW",
-            "location": "JR202",
-            "start_time": "1300h",
-            "end_time": "1415h"
-        }
-    },
-    "JAPN 304": {
-        "14277": {
-            "class_number": "14277",
-            "enrollment_cap": 30,
-            "enrollment_count": 5,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "drake.langford@csun.edu",
-            "days": "TR",
-            "location": "JR316",
-            "start_time": "1100h",
-            "end_time": "1215h"
         }
     }
 }

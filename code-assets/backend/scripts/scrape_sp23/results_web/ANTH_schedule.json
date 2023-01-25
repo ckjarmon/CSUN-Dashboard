@@ -26,7 +26,7 @@
     "ANTH 151": {
         "12204": {
             "class_number": "12204",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Haradon,Catherine M",
             "days": "TR",
@@ -48,7 +48,7 @@
     "ANTH 152": {
         "12641": {
             "class_number": "12641",
-            "enrollment_cap": 26,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "McHale,Timothy",
             "days": "MW",
@@ -60,7 +60,7 @@
     "ANTH 153": {
         "12205": {
             "class_number": "12205",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Snead,James E",
             "days": "TR",
@@ -72,7 +72,7 @@
     "ANTH 212": {
         "12223": {
             "class_number": "12223",
-            "enrollment_cap": 43,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Campbell,Christina J",
             "days": "TR",
@@ -84,7 +84,7 @@
     "ANTH 222": {
         "12718": {
             "class_number": "12718",
-            "enrollment_cap": 32,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kirner,Kimberly D",
             "days": "MW",
@@ -108,7 +108,7 @@
     "ANTH 262": {
         "12965": {
             "class_number": "12965",
-            "enrollment_cap": 46,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Liu,Chin-hsin",
             "days": "MW",
@@ -129,18 +129,6 @@
             "end_time": "ARR"
         }
     },
-    "ANTH 303": {
-        "12165": {
-            "class_number": "12165",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Von Mayrhauser,Christina L",
-            "days": "TR",
-            "location": "SH234",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        }
-    },
     "ANTH 308": {
         "12071": {
             "class_number": "12071",
@@ -154,7 +142,7 @@
         },
         "12523": {
             "class_number": "12523",
-            "enrollment_cap": 42,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Zemlicka,Kevin",
             "days": "S",
@@ -166,7 +154,7 @@
     "ANTH 310": {
         "12072": {
             "class_number": "12072",
-            "enrollment_cap": 10,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Browder,Jennifer K",
             "days": null,
@@ -176,7 +164,7 @@
         },
         "12724": {
             "class_number": "12724",
-            "enrollment_cap": 51,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
             "instructor": "Cohen,Martin M",
             "days": "MW",
@@ -186,7 +174,7 @@
         },
         "12653": {
             "class_number": "12653",
-            "enrollment_cap": 62,
+            "enrollment_cap": 37,
             "enrollment_count": 0,
             "instructor": "Cohen,Martin M",
             "days": "TR",
@@ -198,7 +186,7 @@
     "ANTH 319": {
         "12642": {
             "class_number": "12642",
-            "enrollment_cap": 30,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Costin,Cathy L",
             "days": "MW",
@@ -210,7 +198,7 @@
     "ANTH 326": {
         "12849": {
             "class_number": "12849",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Polk,Patrick A",
             "days": "MW",
@@ -220,25 +208,13 @@
         },
         "12967": {
             "class_number": "12967",
-            "enrollment_cap": 39,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Polk,Patrick A",
             "days": "F",
             "location": "SH203",
             "start_time": "1400h",
             "end_time": "1645h"
-        }
-    },
-    "ANTH 341": {
-        "13085": {
-            "class_number": "13085",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Steindal,Vivian I",
-            "days": "TR",
-            "location": "SH234",
-            "start_time": "0930h",
-            "end_time": "1045h"
         }
     },
     "ANTH 345": {
@@ -256,7 +232,7 @@
     "ANTH 346": {
         "21020": {
             "class_number": "21020",
-            "enrollment_cap": 32,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Scheld,Suzanne",
             "days": "MW",
@@ -268,7 +244,7 @@
     "ANTH 396B": {
         "21021": {
             "class_number": "21021",
-            "enrollment_cap": 16,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Costin,Cathy L",
             "days": "MW",
@@ -280,7 +256,7 @@
     "ANTH 421": {
         "13169": {
             "class_number": "13169",
-            "enrollment_cap": -2,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Campbell,Christina J",
             "days": "TR",
@@ -292,13 +268,13 @@
     "ANTH 430": {
         "21019": {
             "class_number": "21019",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "W",
-            "location": "SH234",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "ANTH 449": {
@@ -328,7 +304,7 @@
     "ANTH 475": {
         "12153": {
             "class_number": "12153",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Giraudo,Rachel F",
             "days": "TR",
@@ -340,7 +316,7 @@
     "ANTH 476A": {
         "20876": {
             "class_number": "20876",
-            "enrollment_cap": 10,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Snead,James E",
             "days": "F",
@@ -388,9 +364,9 @@
     "ANTH 527": {
         "20814": {
             "class_number": "20814",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Ringelstein,Austin Todd",
             "days": "M",
             "location": "SH234",
             "start_time": "1900h",
@@ -402,7 +378,7 @@
             "class_number": "13330",
             "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Zunner-Keating,Amanda J",
             "days": "T",
             "location": "SH234",
             "start_time": "1900h",
@@ -412,7 +388,7 @@
     "ANTH 608": {
         "12874": {
             "class_number": "12874",
-            "enrollment_cap": 5,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Von Mayrhauser,Christina L",
             "days": "R",
@@ -448,7 +424,7 @@
     "ANTH 697": {
         "12695": {
             "class_number": "12695",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Scheld,Suzanne",
             "days": null,

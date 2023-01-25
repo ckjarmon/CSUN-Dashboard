@@ -6,17 +6,17 @@
             "enrollment_count": 0,
             "instructor": "Chumney,Wade M",
             "days": "TR",
-            "location": "BB1234",
+            "location": "BB1117",
             "start_time": "0930h",
             "end_time": "1045h"
         },
         "13536": {
             "class_number": "13536",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Carr,Nanci K",
             "days": "MW",
-            "location": "BB1234",
+            "location": "BB1133",
             "start_time": "1100h",
             "end_time": "1215h"
         },
@@ -32,7 +32,7 @@
         },
         "13559": {
             "class_number": "13559",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Samuels,Sandor",
             "days": "TR",
@@ -42,11 +42,11 @@
         },
         "13560": {
             "class_number": "13560",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Ng,Christopher E",
             "days": "R",
-            "location": "BB1121",
+            "location": "BB1131",
             "start_time": "1600h",
             "end_time": "1845h"
         },
@@ -62,11 +62,11 @@
         },
         "13562": {
             "class_number": "13562",
-            "enrollment_cap": 32,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Mosesian Kashani,Adena",
             "days": "M",
-            "location": "BB1121",
+            "location": "UL002",
             "start_time": "1900h",
             "end_time": "2145h"
         },
@@ -76,7 +76,7 @@
             "enrollment_count": 0,
             "instructor": "Campbell,Mark D",
             "days": "W",
-            "location": "BB1121",
+            "location": "SQ101",
             "start_time": "1900h",
             "end_time": "2145h"
         },
@@ -98,13 +98,13 @@
             "enrollment_count": 0,
             "instructor": "Ross,Lauren",
             "days": "MW",
-            "location": "BB1121",
+            "location": "LO1219",
             "start_time": "1100h",
             "end_time": "1215h"
         },
         "13500": {
             "class_number": "13500",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Denham,Reid",
             "days": "W",
@@ -124,7 +124,7 @@
         },
         "13539": {
             "class_number": "13539",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Denham,Reid",
             "days": "TR",
@@ -134,7 +134,7 @@
         },
         "13540": {
             "class_number": "13540",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Simons,Lawrence D",
             "days": "T",
@@ -158,33 +158,33 @@
             "enrollment_count": 0,
             "instructor": "Knox,KC",
             "days": "M",
-            "location": "BB1125",
+            "location": "SG109",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         "13566": {
             "class_number": "13566",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Knox,KC",
             "days": "R",
-            "location": "BB1121",
+            "location": "SG109",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         "13567": {
             "class_number": "13567",
-            "enrollment_cap": 10,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Ghodoosi,Farshad",
             "days": "W",
-            "location": "UL002",
+            "location": "JR315",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         "21287": {
             "class_number": "21287",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ghodoosi,Farshad",
             "days": "S",
@@ -210,7 +210,7 @@
             "enrollment_count": 0,
             "instructor": "Samuels,Sandor",
             "days": "R",
-            "location": "BB1228",
+            "location": "BB1121",
             "start_time": "1600h",
             "end_time": "1845h"
         }
@@ -242,7 +242,7 @@
     "BLAW 428": {
         "13859": {
             "class_number": "13859",
-            "enrollment_cap": 13,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Saunders,Kurt",
             "days": "TR",
@@ -278,7 +278,7 @@
     "BLAW 453": {
         "13773": {
             "class_number": "13773",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Golden,Nina G",
             "days": "TR",
@@ -307,18 +307,6 @@
             "location": "BB1121",
             "start_time": "0900h",
             "end_time": "1145h"
-        }
-    },
-    "BLAW 653": {
-        "20701": {
-            "class_number": "20701",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Flugge Goyer,Valerie",
-            "days": "R",
-            "location": "BB1232",
-            "start_time": "1900h",
-            "end_time": "2145h"
         }
     }
 }

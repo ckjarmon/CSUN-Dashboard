@@ -5,8 +5,8 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 2,
-            "instructor": "alicia.estrada@csun.edu",
+            "waitlist_count": 1,
+            "instructor": "francisco.tamayo@csun.edu",
             "days": "MW",
             "location": "JR130",
             "start_time": "0930h",
@@ -27,7 +27,7 @@
         "13956": {
             "class_number": "13956",
             "enrollment_cap": 40,
-            "enrollment_count": 26,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "francisco.tamayo@csun.edu",
@@ -39,10 +39,10 @@
         "13955": {
             "class_number": "13955",
             "enrollment_cap": 40,
-            "enrollment_count": 30,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
-            "instructor": "denise.sandoval@csun.edu",
+            "instructor": "jaime.cruz@csun.edu",
             "days": "TR",
             "location": "JR130",
             "start_time": "1100h",
@@ -51,10 +51,10 @@
         "14354": {
             "class_number": "14354",
             "enrollment_cap": 40,
-            "enrollment_count": 28,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
-            "instructor": "g.avilesrodriguez@csun.edu",
+            "instructor": "ana.sanchezmunoz@csun.edu",
             "days": "F",
             "location": "JR130",
             "start_time": "0800h",
@@ -63,9 +63,9 @@
         "14246": {
             "class_number": "14246",
             "enrollment_cap": 40,
-            "enrollment_count": 40,
+            "enrollment_count": 41,
             "waitlist_cap": 40,
-            "waitlist_count": 10,
+            "waitlist_count": 11,
             "instructor": "alicia.estrada@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -75,9 +75,9 @@
         "14573": {
             "class_number": "14573",
             "enrollment_cap": 40,
-            "enrollment_count": 40,
+            "enrollment_count": 41,
             "waitlist_cap": 40,
-            "waitlist_count": 6,
+            "waitlist_count": 7,
             "instructor": "alicia.estrada@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -85,25 +85,11 @@
             "end_time": "0000h"
         }
     },
-    "CHS 102": {
-        "14557": {
-            "class_number": "14557",
-            "enrollment_cap": 25,
-            "enrollment_count": 3,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "ana.sanchezmunoz@csun.edu",
-            "days": "TR",
-            "location": "JR115",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
     "CHS 111": {
         "13961": {
             "class_number": "13961",
             "enrollment_cap": 40,
-            "enrollment_count": 34,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "xilomen.herrera@csun.edu",
@@ -115,7 +101,7 @@
         "13962": {
             "class_number": "13962",
             "enrollment_cap": 40,
-            "enrollment_count": 38,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "sandra.delaloza@csun.edu",
@@ -127,7 +113,7 @@
         "13963": {
             "class_number": "13963",
             "enrollment_cap": 40,
-            "enrollment_count": 11,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "sandra.delaloza@csun.edu",
@@ -139,7 +125,7 @@
         "14123": {
             "class_number": "14123",
             "enrollment_cap": 40,
-            "enrollment_count": 9,
+            "enrollment_count": 20,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "harry.gamboa@csun.edu",
@@ -151,10 +137,10 @@
         "14559": {
             "class_number": "14559",
             "enrollment_cap": 40,
-            "enrollment_count": 7,
+            "enrollment_count": 31,
             "waitlist_cap": 40,
             "waitlist_count": 0,
-            "instructor": "xilomen.herrera@csun.edu",
+            "instructor": "sandra.delaloza@csun.edu",
             "days": "F",
             "location": "SH198",
             "start_time": "1100h",
@@ -179,7 +165,7 @@
         "14331": {
             "class_number": "14331",
             "enrollment_cap": 19,
-            "enrollment_count": 5,
+            "enrollment_count": 9,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "renee.m.moreno@csun.edu",
@@ -190,20 +176,18 @@
         },
         "14544": {
             "class_number": "14544",
-            "enrollment_cap": 19,
-            "enrollment_count": 6,
-            "waitlist_cap": 19,
-            "waitlist_count": 0,
-            "instructor": "renee.m.moreno@csun.edu",
-            "days": "MW",
-            "location": "SH224",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "14545": {
             "class_number": "14545",
             "enrollment_cap": 19,
-            "enrollment_count": 4,
+            "enrollment_count": 14,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "francisco.tamayo@csun.edu",
@@ -215,7 +199,7 @@
         "14546": {
             "class_number": "14546",
             "enrollment_cap": 19,
-            "enrollment_count": 19,
+            "enrollment_count": 18,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "omar.gonzalez.93@csun.edu",
@@ -227,7 +211,7 @@
         "14547": {
             "class_number": "14547",
             "enrollment_cap": 19,
-            "enrollment_count": 5,
+            "enrollment_count": 10,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "francisco.tamayo@csun.edu",
@@ -241,7 +225,7 @@
         "14568": {
             "class_number": "14568",
             "enrollment_cap": 19,
-            "enrollment_count": 21,
+            "enrollment_count": 20,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "carlos.guerrero@csun.edu",
@@ -267,7 +251,7 @@
         "14332": {
             "class_number": "14332",
             "enrollment_cap": 19,
-            "enrollment_count": 12,
+            "enrollment_count": 19,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "carlos.guerrero@csun.edu",
@@ -277,26 +261,12 @@
             "end_time": "0915h"
         }
     },
-    "CHS 115": {
-        "14632": {
-            "class_number": "14632",
-            "enrollment_cap": 24,
-            "enrollment_count": 3,
-            "waitlist_cap": 24,
-            "waitlist_count": 0,
-            "instructor": "francisco.tamayo@csun.edu",
-            "days": "MW",
-            "location": "JR115",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
+    "CHS 151": {
         "15302": {
             "class_number": "15302",
-            "enrollment_cap": 24,
-            "enrollment_count": 3,
-            "waitlist_cap": 24,
-            "waitlist_count": 0,
-            "instructor": "harry.gamboa@csun.edu",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
             "days": "TR",
             "location": "SH108",
             "start_time": "0930h",
@@ -304,192 +274,40 @@
         },
         "15303": {
             "class_number": "15303",
-            "enrollment_cap": 24,
-            "enrollment_count": 5,
-            "waitlist_cap": 24,
-            "waitlist_count": 0,
-            "instructor": "harry.gamboa@csun.edu",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
             "days": "TR",
             "location": "SH221",
             "start_time": "1100h",
             "end_time": "1215h"
         }
     },
-    "CHS 151": {
-        "13965": {
-            "class_number": "13965",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "xilomen.herrera@csun.edu",
-            "days": "MW",
-            "location": "JR119",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        },
-        "14356": {
-            "class_number": "14356",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 1,
-            "instructor": "jose.amaro@csun.edu",
-            "days": "MW",
-            "location": "JR301",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "13966": {
-            "class_number": "13966",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "xilomen.herrera@csun.edu",
-            "days": "M",
-            "location": "JR119",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "13967": {
-            "class_number": "13967",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "mildred.fuenteschung@csun.edu",
-            "days": "W",
-            "location": "JR117",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "14107": {
-            "class_number": "14107",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 1,
-            "instructor": "jose.amaro@csun.edu",
-            "days": "MW",
-            "location": "JR301",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "13968": {
-            "class_number": "13968",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 1,
-            "instructor": "mario.lopez@csun.edu",
-            "days": "M",
-            "location": "JR132",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "13970": {
-            "class_number": "13970",
-            "enrollment_cap": 27,
-            "enrollment_count": 19,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "george.sanchez@csun.edu",
-            "days": "F",
-            "location": "JR118",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "14092": {
-            "class_number": "14092",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "yarma.velazquez@csun.edu",
-            "days": "T",
-            "location": "JR115",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "13971": {
-            "class_number": "13971",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 1,
-            "instructor": "v.villela@csun.edu",
-            "days": "R",
-            "location": "JR115",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "13972": {
-            "class_number": "13972",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "mildred.fuenteschung@csun.edu",
-            "days": "TR",
-            "location": "JR115",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "14805": {
-            "class_number": "14805",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "v.villela@csun.edu",
-            "days": "TR",
-            "location": "JR119",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "14809": {
-            "class_number": "14809",
-            "enrollment_cap": 27,
-            "enrollment_count": 9,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "jose.amaro@csun.edu",
-            "days": "F",
-            "location": "JR115",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        },
-        "14810": {
-            "class_number": "14810",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "jose.amaro@csun.edu",
-            "days": "F",
-            "location": "JR115",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "14814": {
-            "class_number": "14814",
-            "enrollment_cap": 27,
-            "enrollment_count": 27,
-            "waitlist_cap": 27,
-            "waitlist_count": 0,
-            "instructor": "jesse.valadez@csun.edu",
-            "days": "F",
-            "location": "JR117",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    },
     "CHS 151EOP": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "15355": {
             "class_number": "15355",
             "enrollment_cap": 19,
-            "enrollment_count": 25,
+            "enrollment_count": 23,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "jose.amaro@csun.edu",
@@ -513,7 +331,7 @@
         "20648": {
             "class_number": "20648",
             "enrollment_cap": 19,
-            "enrollment_count": 24,
+            "enrollment_count": 23,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "mildred.fuenteschung@csun.edu",
@@ -524,10 +342,30 @@
         }
     },
     "CHS 201": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14706": {
             "class_number": "14706",
             "enrollment_cap": 40,
-            "enrollment_count": 37,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "ramon.garcia@csun.edu",
@@ -539,9 +377,9 @@
         "14029": {
             "class_number": "14029",
             "enrollment_cap": 40,
-            "enrollment_count": 22,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "ramon.garcia@csun.edu",
             "days": "W",
             "location": "JR132",
@@ -550,12 +388,32 @@
         }
     },
     "CHS 202": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14136": {
             "class_number": "14136",
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 5,
+            "waitlist_count": 4,
             "instructor": "jesse.valadez@csun.edu",
             "days": "W",
             "location": "SH198",
@@ -567,7 +425,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 4,
+            "waitlist_count": 3,
             "instructor": "jesse.valadez@csun.edu",
             "days": "MW",
             "location": "SH198",
@@ -579,8 +437,8 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 3,
-            "instructor": "jesse.valadez@csun.edu",
+            "waitlist_count": 4,
+            "instructor": "ramon.garcia@csun.edu",
             "days": "MW",
             "location": "JR132",
             "start_time": "1400h",
@@ -615,7 +473,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "omar.gonzalez.93@csun.edu",
             "days": "F",
             "location": "JR118",
@@ -624,24 +482,62 @@
         }
     },
     "CHS 214": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14801": {
             "class_number": "14801",
-            "enrollment_cap": 15,
-            "enrollment_count": 1,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "everto.ruiz@csun.edu",
-            "days": "MW",
-            "location": "JR120",
-            "start_time": "1230h",
-            "end_time": "1500h"
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "CHS 230": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "13978": {
             "class_number": "13978",
             "enrollment_cap": 25,
-            "enrollment_count": 11,
+            "enrollment_count": 13,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "gabriel.gutierrez@csun.edu",
@@ -652,12 +548,32 @@
         }
     },
     "CHS 245": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "13981": {
             "class_number": "13981",
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 3,
+            "waitlist_count": 6,
             "instructor": "tony.sandoval@csun.edu",
             "days": "MW",
             "location": "JR118",
@@ -669,8 +585,8 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 1,
-            "instructor": "jaime.cruz@csun.edu",
+            "waitlist_count": 2,
+            "instructor": "gerard.meraz@csun.edu",
             "days": "MW",
             "location": "JR118",
             "start_time": "1100h",
@@ -681,7 +597,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 2,
             "instructor": "jaime.cruz@csun.edu",
             "days": "M",
             "location": "JR118",
@@ -693,7 +609,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 2,
+            "waitlist_count": 1,
             "instructor": "jaime.cruz@csun.edu",
             "days": "W",
             "location": "JR118",
@@ -703,9 +619,9 @@
         "14360": {
             "class_number": "14360",
             "enrollment_cap": 40,
-            "enrollment_count": 40,
+            "enrollment_count": 41,
             "waitlist_cap": 40,
-            "waitlist_count": 1,
+            "waitlist_count": 2,
             "instructor": "carlos.a.hernandez@csun.edu",
             "days": "MW",
             "location": "JR118",
@@ -715,7 +631,7 @@
         "14361": {
             "class_number": "14361",
             "enrollment_cap": 40,
-            "enrollment_count": 21,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "gerard.meraz@csun.edu",
@@ -729,7 +645,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 3,
+            "waitlist_count": 2,
             "instructor": "lucila.chavez@csun.edu",
             "days": "T",
             "location": "JR118",
@@ -739,7 +655,7 @@
         "13979": {
             "class_number": "13979",
             "enrollment_cap": 40,
-            "enrollment_count": 14,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "gerard.meraz@csun.edu",
@@ -760,12 +676,24 @@
             "start_time": "1230h",
             "end_time": "1345h"
         },
+        "13982": {
+            "class_number": "13982",
+            "enrollment_cap": 0,
+            "enrollment_count": 40,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "gabriel.gutierrez@csun.edu",
+            "days": "MW",
+            "location": "SH264",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14751": {
             "class_number": "14751",
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 1,
+            "waitlist_count": 6,
             "instructor": "gabriel.buelna@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -777,7 +705,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 2,
+            "waitlist_count": 3,
             "instructor": "gabriel.buelna@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -789,7 +717,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 2,
             "instructor": "maythe.ruffino@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -799,9 +727,9 @@
         "14991": {
             "class_number": "14991",
             "enrollment_cap": 40,
-            "enrollment_count": 27,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 2,
             "instructor": "maythe.ruffino@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -813,7 +741,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 4,
+            "waitlist_count": 14,
             "instructor": "daniel.santana@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -822,108 +750,64 @@
         }
     },
     "CHS 260": {
-        "14103": {
-            "class_number": "14103",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "antonio.gallo@csun.edu",
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
             "days": "TR",
-            "location": "EU130",
+            "location": "SH108",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "13984": {
-            "class_number": "13984",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "antonio.gallo@csun.edu",
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
             "days": "TR",
-            "location": "JR132",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "14633": {
-            "class_number": "14633",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "brenda.montes@csun.edu",
-            "days": "T",
-            "location": "JR132",
+            "location": "SH221",
             "start_time": "1100h",
             "end_time": "1215h"
-        },
-        "14707": {
-            "class_number": "14707",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
-            "waitlist_count": 1,
-            "instructor": "martha.d.escobar@csun.edu",
-            "days": "R",
-            "location": "JR132",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "14710": {
-            "class_number": "14710",
-            "enrollment_cap": 40,
-            "enrollment_count": 25,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "guillermo.marquez@csun.edu",
-            "days": "F",
-            "location": "JR118",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "14711": {
-            "class_number": "14711",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
-            "waitlist_count": 6,
-            "instructor": "antonio.gallo@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        },
-        "14753": {
-            "class_number": "14753",
-            "enrollment_cap": 40,
-            "enrollment_count": 40,
-            "waitlist_cap": 40,
-            "waitlist_count": 1,
-            "instructor": "alex.placencio@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
         }
     },
     "CHS 261": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "15250": {
             "class_number": "15250",
             "enrollment_cap": 35,
-            "enrollment_count": 27,
+            "enrollment_count": 35,
             "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "stevie.ruiz@csun.edu",
-            "days": "W",
-            "location": "JR119",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "waitlist_count": 4,
+            "instructor": "cristina.patricio@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         },
         "20652": {
             "class_number": "20652",
             "enrollment_cap": 35,
-            "enrollment_count": 6,
+            "enrollment_count": 19,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "cristina.patricio@csun.edu",
@@ -934,6 +818,26 @@
         }
     },
     "CHS 270F": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14306": {
             "class_number": "14306",
             "enrollment_cap": 20,
@@ -948,6 +852,26 @@
         }
     },
     "CHS 270SOC": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14302": {
             "class_number": "14302",
             "enrollment_cap": 20,
@@ -962,6 +886,26 @@
         }
     },
     "CHS 306": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14363": {
             "class_number": "14363",
             "enrollment_cap": 35,
@@ -976,13 +920,33 @@
         }
     },
     "CHS 310": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "13985": {
             "class_number": "13985",
             "enrollment_cap": 40,
-            "enrollment_count": 31,
+            "enrollment_count": 39,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "xocoyotzin.herrera@csun.edu",
+            "waitlist_count": 3,
+            "instructor": "fermin.herrera@csun.edu",
             "days": "M",
             "location": "SH198",
             "start_time": "1600h",
@@ -991,7 +955,7 @@
         "13986": {
             "class_number": "13986",
             "enrollment_cap": 40,
-            "enrollment_count": 5,
+            "enrollment_count": 12,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "peter.garcia@csun.edu",
@@ -1003,9 +967,9 @@
         "14588": {
             "class_number": "14588",
             "enrollment_cap": 40,
-            "enrollment_count": 41,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 7,
+            "waitlist_count": 6,
             "instructor": "fermin.herrera@csun.edu",
             "days": "MW",
             "location": "SH198",
@@ -1014,12 +978,32 @@
         }
     },
     "CHS 333": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14635": {
             "class_number": "14635",
             "enrollment_cap": 30,
-            "enrollment_count": 25,
+            "enrollment_count": 30,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "ana.sanchezmunoz@csun.edu",
             "days": "T",
             "location": "JR117",
@@ -1028,10 +1012,30 @@
         }
     },
     "CHS 345": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "13988": {
             "class_number": "13988",
             "enrollment_cap": 40,
-            "enrollment_count": 14,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "lucila.chavez@csun.edu",
@@ -1043,9 +1047,9 @@
         "14999": {
             "class_number": "14999",
             "enrollment_cap": 40,
-            "enrollment_count": 40,
+            "enrollment_count": 44,
             "waitlist_cap": 40,
-            "waitlist_count": 3,
+            "waitlist_count": 4,
             "instructor": "carlos.a.hernandez@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1054,13 +1058,33 @@
         }
     },
     "CHS 346": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14238": {
             "class_number": "14238",
             "enrollment_cap": 40,
-            "enrollment_count": 12,
+            "enrollment_count": 32,
             "waitlist_cap": 40,
             "waitlist_count": 0,
-            "instructor": "lucila.chavez@csun.edu",
+            "instructor": "maria.fernandez@csun.edu",
             "days": "TR",
             "location": "JR130",
             "start_time": "1230h",
@@ -1068,12 +1092,32 @@
         }
     },
     "CHS 350": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "13991": {
             "class_number": "13991",
             "enrollment_cap": 35,
-            "enrollment_count": 35,
+            "enrollment_count": 36,
             "waitlist_cap": 35,
-            "waitlist_count": 2,
+            "waitlist_count": 4,
             "instructor": "lara.medina@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1083,9 +1127,9 @@
         "14028": {
             "class_number": "14028",
             "enrollment_cap": 35,
-            "enrollment_count": 35,
+            "enrollment_count": 37,
             "waitlist_cap": 35,
-            "waitlist_count": 3,
+            "waitlist_count": 4,
             "instructor": "lara.medina@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1094,10 +1138,30 @@
         }
     },
     "CHS 361": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14026": {
             "class_number": "14026",
             "enrollment_cap": 35,
-            "enrollment_count": 6,
+            "enrollment_count": 19,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "cristina.patricio@csun.edu",
@@ -1108,10 +1172,30 @@
         }
     },
     "CHS 364": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "13996": {
             "class_number": "13996",
             "enrollment_cap": 35,
-            "enrollment_count": 17,
+            "enrollment_count": 35,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "marta.lopez-garza@csun.edu",
@@ -1122,12 +1206,32 @@
         }
     },
     "CHS 365": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "13997": {
             "class_number": "13997",
             "enrollment_cap": 40,
-            "enrollment_count": 34,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "bert.cueva@csun.edu",
             "days": "R",
             "location": "JR132",
@@ -1139,7 +1243,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 2,
+            "waitlist_count": 4,
             "instructor": "denise.sandoval@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1148,10 +1252,30 @@
         }
     },
     "CHS 366": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "13998": {
             "class_number": "13998",
             "enrollment_cap": 37,
-            "enrollment_count": 7,
+            "enrollment_count": 17,
             "waitlist_cap": 37,
             "waitlist_count": 0,
             "instructor": "maria.fernandez@csun.edu",
@@ -1162,10 +1286,30 @@
         }
     },
     "CHS 380": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14202": {
             "class_number": "14202",
             "enrollment_cap": 35,
-            "enrollment_count": 8,
+            "enrollment_count": 28,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "omar.gonzalez.93@csun.edu",
@@ -1188,12 +1332,32 @@
         }
     },
     "CHS 381": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14239": {
             "class_number": "14239",
             "enrollment_cap": 35,
-            "enrollment_count": 21,
+            "enrollment_count": 35,
             "waitlist_cap": 35,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "alicia.estrada@csun.edu",
             "days": "MW",
             "location": "JR117",
@@ -1201,70 +1365,34 @@
             "end_time": "1215h"
         }
     },
-    "CHS 382": {
-        "20649": {
-            "class_number": "20649",
-            "enrollment_cap": 25,
-            "enrollment_count": 2,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "ramon.garcia@csun.edu",
-            "days": "MW",
-            "location": "JR115",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "CHS 390": {
-        "13999": {
-            "class_number": "13999",
-            "enrollment_cap": 20,
-            "enrollment_count": 4,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "george.sanchez@csun.edu",
+    "CHS 417": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
             "days": "TR",
-            "location": "EU132",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "CHS 401": {
-        "14000": {
-            "class_number": "14000",
-            "enrollment_cap": 35,
-            "enrollment_count": 3,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "fermin.herrera@csun.edu",
-            "days": "MW",
-            "location": "JR119",
+            "location": "SH108",
             "start_time": "0930h",
             "end_time": "1045h"
-        }
-    },
-    "CHS 409": {
-        "14313": {
-            "class_number": "14313",
-            "enrollment_cap": 15,
-            "enrollment_count": 1,
-            "waitlist_cap": 15,
-            "waitlist_count": 0,
-            "instructor": "sandra.delaloza@csun.edu",
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
             "days": "TR",
-            "location": "ONCAMP",
-            "start_time": "1600h",
-            "end_time": "1830h"
-        }
-    },
-    "CHS 417": {
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14024": {
             "class_number": "14024",
             "enrollment_cap": 35,
-            "enrollment_count": 1,
+            "enrollment_count": 30,
             "waitlist_cap": 35,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "guadalupe.cardona@csun.edu",
             "days": "T",
             "location": "JR221",
             "start_time": "1900h",
@@ -1275,7 +1403,7 @@
             "enrollment_cap": 35,
             "enrollment_count": 35,
             "waitlist_cap": 35,
-            "waitlist_count": 24,
+            "waitlist_count": 20,
             "instructor": "mariaelena.cruz@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1284,10 +1412,30 @@
         }
     },
     "CHS 420": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14988": {
             "class_number": "14988",
             "enrollment_cap": 35,
-            "enrollment_count": 4,
+            "enrollment_count": 14,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "gabriel.gutierrez@csun.edu",
@@ -1298,10 +1446,30 @@
         }
     },
     "CHS 430": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14011": {
             "class_number": "14011",
             "enrollment_cap": 35,
-            "enrollment_count": 18,
+            "enrollment_count": 30,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "rosemary.gonzalez@csun.edu",
@@ -1313,7 +1481,7 @@
         "14069": {
             "class_number": "14069",
             "enrollment_cap": 35,
-            "enrollment_count": 21,
+            "enrollment_count": 28,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "rosemary.gonzalez@csun.edu",
@@ -1324,13 +1492,33 @@
         }
     },
     "CHS 431": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14012": {
             "class_number": "14012",
             "enrollment_cap": 35,
-            "enrollment_count": 8,
+            "enrollment_count": 11,
             "waitlist_cap": 35,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "guadalupe.cardona@csun.edu",
             "days": "W",
             "location": "JR132",
             "start_time": "1900h",
@@ -1338,10 +1526,30 @@
         }
     },
     "CHS 432": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14013": {
             "class_number": "14013",
             "enrollment_cap": 35,
-            "enrollment_count": 16,
+            "enrollment_count": 32,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "rosemary.gonzalez@csun.edu",
@@ -1352,10 +1560,30 @@
         }
     },
     "CHS 433": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14015": {
             "class_number": "14015",
             "enrollment_cap": 30,
-            "enrollment_count": 10,
+            "enrollment_count": 14,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "ana.sanchezmunoz@csun.edu",
@@ -1366,10 +1594,30 @@
         }
     },
     "CHS 445": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14021": {
             "class_number": "14021",
             "enrollment_cap": 40,
-            "enrollment_count": 26,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "carlos.a.hernandez@csun.edu",
@@ -1381,7 +1629,7 @@
         "14020": {
             "class_number": "14020",
             "enrollment_cap": 40,
-            "enrollment_count": 5,
+            "enrollment_count": 21,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "gerard.meraz@csun.edu",
@@ -1393,7 +1641,7 @@
         "14362": {
             "class_number": "14362",
             "enrollment_cap": 40,
-            "enrollment_count": 12,
+            "enrollment_count": 40,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "maria.fernandez@csun.edu",
@@ -1402,24 +1650,12 @@
             "start_time": "1400h",
             "end_time": "1515h"
         },
-        "14016": {
-            "class_number": "14016",
-            "enrollment_cap": 40,
-            "enrollment_count": 4,
-            "waitlist_cap": 40,
-            "waitlist_count": 0,
-            "instructor": "maria.fernandez@csun.edu",
-            "days": "R",
-            "location": "JR118",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
         "14754": {
             "class_number": "14754",
             "enrollment_cap": 40,
-            "enrollment_count": 40,
+            "enrollment_count": 39,
             "waitlist_cap": 40,
-            "waitlist_count": 4,
+            "waitlist_count": 8,
             "instructor": "carlos.a.hernandez@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1429,10 +1665,10 @@
         "14755": {
             "class_number": "14755",
             "enrollment_cap": 40,
-            "enrollment_count": 40,
+            "enrollment_count": 42,
             "waitlist_cap": 40,
-            "waitlist_count": 2,
-            "instructor": "gerard.meraz@csun.edu",
+            "waitlist_count": 3,
+            "instructor": "xocoyotzin.herrera@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
@@ -1443,7 +1679,7 @@
             "enrollment_cap": 40,
             "enrollment_count": 40,
             "waitlist_cap": 40,
-            "waitlist_count": 3,
+            "waitlist_count": 5,
             "instructor": "carlos.a.hernandez@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1451,21 +1687,27 @@
             "end_time": "0000h"
         }
     },
-    "CHS 448": {
-        "20653": {
-            "class_number": "20653",
-            "enrollment_cap": 25,
-            "enrollment_count": 5,
-            "waitlist_cap": 25,
-            "waitlist_count": 0,
-            "instructor": "gabriel.gutierrez@csun.edu",
-            "days": "MW",
-            "location": "JR115",
+    "CHS 473": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
             "start_time": "1100h",
             "end_time": "1215h"
-        }
-    },
-    "CHS 473": {
+        },
         "14247": {
             "class_number": "14247",
             "enrollment_cap": 30,
@@ -1479,41 +1721,33 @@
             "end_time": "0000h"
         }
     },
-    "CHS 480": {
-        "14269": {
-            "class_number": "14269",
-            "enrollment_cap": 20,
-            "enrollment_count": 6,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "xilomen.herrera@csun.edu",
-            "days": "M",
-            "location": "JR130",
-            "start_time": "1330h",
-            "end_time": "1510h"
-        }
-    },
-    "CHS 480F": {
-        "14270": {
-            "class_number": "14270",
-            "enrollment_cap": 20,
-            "enrollment_count": 6,
-            "waitlist_cap": 20,
-            "waitlist_count": 0,
-            "instructor": "xilomen.herrera@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
-        }
-    },
     "CHS 486A": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14708": {
             "class_number": "14708",
             "enrollment_cap": 20,
-            "enrollment_count": 22,
+            "enrollment_count": 27,
             "waitlist_cap": 20,
-            "waitlist_count": 3,
+            "waitlist_count": 2,
             "instructor": "fermin.herrera@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1522,12 +1756,32 @@
         }
     },
     "CHS 495S": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14966": {
             "class_number": "14966",
             "enrollment_cap": 25,
-            "enrollment_count": 10,
+            "enrollment_count": 26,
             "waitlist_cap": 25,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "fermin.herrera@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -1536,12 +1790,32 @@
         }
     },
     "CHS 497": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14213": {
             "class_number": "14213",
             "enrollment_cap": 25,
-            "enrollment_count": 27,
+            "enrollment_count": 29,
             "waitlist_cap": 25,
-            "waitlist_count": 1,
+            "waitlist_count": 3,
             "instructor": "christina.ayala-alcantar@csun.edu",
             "days": "T",
             "location": "JR130",
@@ -1550,10 +1824,30 @@
         }
     },
     "CHS 502": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14027": {
             "class_number": "14027",
             "enrollment_cap": 15,
-            "enrollment_count": 3,
+            "enrollment_count": 8,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "peter.garcia@csun.edu",
@@ -1564,22 +1858,52 @@
         }
     },
     "CHS 503": {
-        "14986": {
-            "class_number": "14986",
+        "15302": {
+            "class_number": "15302",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "TBA",
-            "end_time": "TBA"
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
     "CHS 506": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14316": {
             "class_number": "14316",
             "enrollment_cap": 15,
-            "enrollment_count": 7,
+            "enrollment_count": 11,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "theresa.montano@csun.edu",
@@ -1590,10 +1914,30 @@
         }
     },
     "CHS 507": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14923": {
             "class_number": "14923",
             "enrollment_cap": 15,
-            "enrollment_count": 3,
+            "enrollment_count": 7,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "stevie.ruiz@csun.edu",
@@ -1604,13 +1948,33 @@
         }
     },
     "CHS 698C": {
+        "15302": {
+            "class_number": "15302",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "TR",
+            "location": "SH108",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15303": {
+            "class_number": "15303",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gamboa,Harry",
+            "days": "TR",
+            "location": "SH221",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14025": {
             "class_number": "14025",
             "enrollment_cap": 6,
-            "enrollment_count": 2,
+            "enrollment_count": 3,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "martha.d.escobar@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",

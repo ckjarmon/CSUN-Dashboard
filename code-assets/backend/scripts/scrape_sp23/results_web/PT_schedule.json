@@ -2,7 +2,7 @@
     "PT 703": {
         "19289": {
             "class_number": "19289",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Adams,Janet M",
             "days": "W",
@@ -14,7 +14,7 @@
     "PT 703L": {
         "19290": {
             "class_number": "19290",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
@@ -24,7 +24,7 @@
         },
         "19291": {
             "class_number": "19291",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -36,7 +36,7 @@
     "PT 706": {
         "19983": {
             "class_number": "19983",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Chang,Julia W",
             "days": "W",
@@ -48,7 +48,7 @@
     "PT 706L": {
         "19984": {
             "class_number": "19984",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Chang,Julia W",
             "days": "F",
@@ -58,7 +58,7 @@
         },
         "19985": {
             "class_number": "19985",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Chang,Julia W",
             "days": null,
@@ -70,7 +70,7 @@
     "PT 711": {
         "20051": {
             "class_number": "20051",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -82,7 +82,7 @@
     "PT 711L": {
         "20052": {
             "class_number": "20052",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -92,7 +92,7 @@
         },
         "20053": {
             "class_number": "20053",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -104,7 +104,7 @@
     "PT 712": {
         "20055": {
             "class_number": "20055",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
@@ -116,7 +116,7 @@
     "PT 712L": {
         "20056": {
             "class_number": "20056",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
@@ -126,7 +126,7 @@
         },
         "20057": {
             "class_number": "20057",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -138,11 +138,11 @@
     "PT 720": {
         "19292": {
             "class_number": "19292",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "JD2202",
+            "location": "JD2528",
             "start_time": "1200h",
             "end_time": "1315h"
         }
@@ -150,7 +150,7 @@
     "PT 720L": {
         "19293": {
             "class_number": "19293",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -160,7 +160,7 @@
         },
         "19294": {
             "class_number": "19294",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -169,10 +169,10 @@
             "end_time": "ARR"
         }
     },
-    "PT 732": {
+    "PT 732L": {
         "19669": {
             "class_number": "19669",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Cardoso Ferreira,Isabel Grace",
             "days": "M",
@@ -181,32 +181,20 @@
             "end_time": "1255h"
         }
     },
-    "PT 732L": {
-        "19670": {
-            "class_number": "19670",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "JD1621",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "19671": {
-            "class_number": "19671",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
     "PT 740": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20632": {
             "class_number": "20632",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
@@ -216,9 +204,19 @@
         }
     },
     "PT 740L": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20633": {
             "class_number": "20633",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
@@ -228,7 +226,7 @@
         },
         "20634": {
             "class_number": "20634",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -238,9 +236,19 @@
         }
     },
     "PT 742": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20629": {
             "class_number": "20629",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Druz,Viktoria",
             "days": "F",
@@ -250,7 +258,7 @@
         },
         "20640": {
             "class_number": "20640",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Huntsman-Lannom,Debra L",
             "days": null,
@@ -260,9 +268,19 @@
         }
     },
     "PT 742L": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20630": {
             "class_number": "20630",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Druz,Viktoria",
             "days": "F",
@@ -272,7 +290,7 @@
         },
         "20631": {
             "class_number": "20631",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Huntsman-Lannom,Debra L",
             "days": null,
@@ -282,31 +300,31 @@
         }
     },
     "PT 746L": {
-        "20006": {
-            "class_number": "20006",
-            "enrollment_cap": 12,
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "JD1621",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "20007": {
-            "class_number": "20007",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
         }
     },
     "PT 752A": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "19436": {
             "class_number": "19436",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mathiyakom,Witaya",
             "days": "R",
@@ -316,9 +334,19 @@
         }
     },
     "PT 752C": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "19437": {
             "class_number": "19437",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ferreira,Paula",
             "days": null,
@@ -328,9 +356,9 @@
         },
         "19438": {
             "class_number": "19438",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Jaber,Hatem M",
+            "instructor": "Mathiyakom,Witaya",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
@@ -338,7 +366,7 @@
         },
         "19439": {
             "class_number": "19439",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kachingwe,Aimie F",
             "days": null,
@@ -348,7 +376,7 @@
         },
         "19440": {
             "class_number": "19440",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mathiyakom,Witaya",
             "days": null,
@@ -358,7 +386,7 @@
         },
         "19441": {
             "class_number": "19441",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Phillips,Beth Jo",
             "days": null,
@@ -368,7 +396,7 @@
         },
         "19442": {
             "class_number": "19442",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bartlett,Andrew",
             "days": null,
@@ -378,7 +406,7 @@
         },
         "19539": {
             "class_number": "19539",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -388,9 +416,19 @@
         }
     },
     "PT 772": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20002": {
             "class_number": "20002",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Adams,Janet M",
             "days": "T",
@@ -400,9 +438,19 @@
         }
     },
     "PT 772L": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20003": {
             "class_number": "20003",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Adams,Janet M",
             "days": "T",
@@ -412,7 +460,7 @@
         },
         "20004": {
             "class_number": "20004",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Adams,Janet M",
             "days": null,
@@ -422,33 +470,63 @@
         }
     },
     "PT 773": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20054": {
             "class_number": "20054",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ferreira,Paula",
-            "days": "T",
+            "days": "F",
             "location": "ONLINE",
-            "start_time": "0900h",
-            "end_time": "1045h"
+            "start_time": "1000h",
+            "end_time": "1145h"
         }
     },
     "PT 774": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "19672": {
             "class_number": "19672",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Jaber,Hatem M",
-            "days": "F",
-            "location": "JD1625",
-            "start_time": "1130h",
-            "end_time": "1310h"
+            "instructor": "Staff",
+            "days": "T",
+            "location": "JD2520",
+            "start_time": "1230h",
+            "end_time": "1410h"
         }
     },
     "PT 778": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20028": {
             "class_number": "20028",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -458,9 +536,19 @@
         }
     },
     "PT 778L": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "19550": {
             "class_number": "19550",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -470,7 +558,7 @@
         },
         "19551": {
             "class_number": "19551",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -480,9 +568,19 @@
         }
     },
     "PT 780": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20005": {
             "class_number": "20005",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Katz,Richard S",
             "days": "M",
@@ -492,9 +590,19 @@
         }
     },
     "PT 785H": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20060": {
             "class_number": "20060",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Hawson,Suzanne C",
             "days": "W",
@@ -504,9 +612,19 @@
         }
     },
     "PT 785I": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "20902": {
             "class_number": "20902",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bartlett,Andrew",
             "days": "W",
@@ -516,9 +634,19 @@
         }
     },
     "PT 790": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "19295": {
             "class_number": "19295",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Stewart,Myra Nichole",
             "days": "R",
@@ -528,9 +656,19 @@
         }
     },
     "PT 792": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "19435": {
             "class_number": "19435",
-            "enrollment_cap": 24,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Stewart,Myra Nichole",
             "days": "M",
@@ -540,9 +678,19 @@
         }
     },
     "PT 797": {
+        "19669": {
+            "class_number": "19669",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Cardoso Ferreira,Isabel Grace",
+            "days": "M",
+            "location": "JD1625",
+            "start_time": "1115h",
+            "end_time": "1255h"
+        },
         "19553": {
             "class_number": "19553",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -552,7 +700,7 @@
         },
         "19554": {
             "class_number": "19554",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,

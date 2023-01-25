@@ -2,7 +2,7 @@
     "CJS 102": {
         "13001": {
             "class_number": "13001",
-            "enrollment_cap": 46,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Timmer,Anastasiia",
             "days": "TR",
@@ -12,7 +12,7 @@
         },
         "13002": {
             "class_number": "13002",
-            "enrollment_cap": 28,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Sanchez,Crystal",
             "days": "MW",
@@ -54,7 +54,7 @@
         },
         "20690": {
             "class_number": "20690",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Kim,Sohyun",
             "days": "W",
@@ -74,7 +74,7 @@
         },
         "20692": {
             "class_number": "20692",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Posey,Brianne",
             "days": "MW",
@@ -84,9 +84,9 @@
         },
         "20693": {
             "class_number": "20693",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Kim,Sohyun",
             "days": "TR",
             "location": "ONLINE",
             "start_time": "1100h",
@@ -94,7 +94,7 @@
         },
         "20696": {
             "class_number": "20696",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Crosswhite,Michael S",
             "days": "TR",
@@ -146,17 +146,17 @@
         },
         "13004": {
             "class_number": "13004",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Barron,Cecillia N",
             "days": "MW",
-            "location": "SH309",
+            "location": "SH203",
             "start_time": "1400h",
             "end_time": "1515h"
         },
         "13157": {
             "class_number": "13157",
-            "enrollment_cap": 36,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Jakubanis,Beth",
             "days": "TR",
@@ -188,7 +188,7 @@
         },
         "13007": {
             "class_number": "13007",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mangassarian,Megan",
             "days": "S",
@@ -208,7 +208,7 @@
         },
         "13265": {
             "class_number": "13265",
-            "enrollment_cap": 29,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Labertew,Leslie Denice",
             "days": "TR",
@@ -218,7 +218,7 @@
         },
         "13266": {
             "class_number": "13266",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Labertew,Leslie Denice",
             "days": "MW",
@@ -250,7 +250,7 @@
         },
         "20767": {
             "class_number": "20767",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Mangassarian,Megan",
             "days": "MW",
@@ -262,11 +262,11 @@
     "CJS 328": {
         "13267": {
             "class_number": "13267",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Trifone,Jaycynda Michelle",
             "days": "MW",
-            "location": "SH106",
+            "location": "UL002",
             "start_time": "1100h",
             "end_time": "1215h"
         }
@@ -274,7 +274,7 @@
     "CJS 334": {
         "13010": {
             "class_number": "13010",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Oborn,Kathleen M",
             "days": "T",
@@ -284,7 +284,7 @@
         },
         "13156": {
             "class_number": "13156",
-            "enrollment_cap": 10,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Barragan,Javier",
             "days": "F",
@@ -296,7 +296,7 @@
     "CJS 340": {
         "13011": {
             "class_number": "13011",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Mangassarian,Megan",
             "days": null,
@@ -306,7 +306,7 @@
         },
         "13012": {
             "class_number": "13012",
-            "enrollment_cap": 34,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructor": "Shaw,Victor N",
             "days": "W",
@@ -330,13 +330,13 @@
             "enrollment_count": 0,
             "instructor": "Lima,Julio L",
             "days": "M",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1100h",
             "end_time": "1215h"
         },
         "13159": {
             "class_number": "13159",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Trifone,Jaycynda Michelle",
             "days": "TR",
@@ -345,7 +345,7 @@
             "end_time": "1345h"
         }
     },
-    "CJS 344": {
+    "CJS 350": {
         "13015": {
             "class_number": "13015",
             "enrollment_cap": 0,
@@ -358,7 +358,7 @@
         },
         "13016": {
             "class_number": "13016",
-            "enrollment_cap": 16,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Barron,Cecillia N",
             "days": "MW",
@@ -367,62 +367,30 @@
             "end_time": "1645h"
         }
     },
-    "CJS 350": {
-        "13017": {
-            "class_number": "13017",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Pih,Kay Kei-Ho",
-            "days": "M",
-            "location": "SH276",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "13018": {
-            "class_number": "13018",
+    "CJS 360": {
+        "13015": {
+            "class_number": "13015",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Shaw,Victor N",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "13019": {
-            "class_number": "13019",
-            "enrollment_cap": 6,
-            "enrollment_count": 0,
-            "instructor": "Bonfiglio,Kimberly",
-            "days": "MW",
-            "location": "SH264",
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "13020": {
-            "class_number": "13020",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Nguyen,Thuy-Trinh",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        },
-        "13158": {
-            "class_number": "13158",
-            "enrollment_cap": 21,
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Barron,Cecillia N",
-            "days": "F",
-            "location": "SH265",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        }
-    },
-    "CJS 360": {
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13021": {
             "class_number": "13021",
-            "enrollment_cap": 78,
+            "enrollment_cap": 65,
             "enrollment_count": 0,
             "instructor": "Stokes,Trevion",
             "days": "TR",
@@ -432,7 +400,7 @@
         },
         "13022": {
             "class_number": "13022",
-            "enrollment_cap": 0,
+            "enrollment_cap": -10,
             "enrollment_count": 0,
             "instructor": "Oborn,Kathleen M",
             "days": null,
@@ -442,9 +410,9 @@
         },
         "13270": {
             "class_number": "13270",
-            "enrollment_cap": 38,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Oborn,Kathleen M",
             "days": "W",
             "location": "SH342",
             "start_time": "1530h",
@@ -452,6 +420,26 @@
         }
     },
     "CJS 370": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13023": {
             "class_number": "13023",
             "enrollment_cap": 0,
@@ -464,7 +452,7 @@
         },
         "13024": {
             "class_number": "13024",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Oborn,Kathleen M",
             "days": "TR",
@@ -474,6 +462,26 @@
         }
     },
     "CJS 380": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "20760": {
             "class_number": "20760",
             "enrollment_cap": 0,
@@ -506,7 +514,7 @@
         },
         "20763": {
             "class_number": "20763",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Alanis,Jaime",
             "days": "MW",
@@ -516,6 +524,26 @@
         }
     },
     "CJS 380L": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13028": {
             "class_number": "13028",
             "enrollment_cap": 0,
@@ -595,44 +623,74 @@
             "location": "ONLINE",
             "start_time": "2000h",
             "end_time": "2140h"
+        },
+        "13279": {
+            "class_number": "13279",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Alanis,Jaime",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "2000h",
+            "end_time": "2140h"
+        },
+        "21013": {
+            "class_number": "21013",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "S",
+            "location": "TBA",
+            "start_time": "0800h",
+            "end_time": "1045h"
         }
     },
     "CJS 402": {
-        "13025": {
-            "class_number": "13025",
+        "13015": {
+            "class_number": "13015",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Ballard,James D",
+            "instructor": "Glidden,Marc",
             "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13285": {
-            "class_number": "13285",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Alanis,Jaime",
-            "days": "MW",
-            "location": "SH276",
+            "location": "SH265",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "13286": {
-            "class_number": "13286",
-            "enrollment_cap": 16,
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "ONLINE",
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
             "start_time": "1530h",
             "end_time": "1645h"
         }
     },
     "CJS 418": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13026": {
             "class_number": "13026",
-            "enrollment_cap": 13,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Trifone,Jaycynda Michelle",
             "days": "TR",
@@ -652,9 +710,29 @@
         }
     },
     "CJS 422": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13027": {
             "class_number": "13027",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Karpel,Jeremy E",
             "days": "M",
@@ -664,9 +742,29 @@
         }
     },
     "CJS 432": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13032": {
             "class_number": "13032",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Renetzky,Craig Allen",
             "days": null,
@@ -686,6 +784,26 @@
         }
     },
     "CJS 438": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13033": {
             "class_number": "13033",
             "enrollment_cap": 0,
@@ -698,9 +816,29 @@
         }
     },
     "CJS 444": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13034": {
             "class_number": "13034",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Weintraub,Richard M",
             "days": "R",
@@ -710,7 +848,7 @@
         },
         "20787": {
             "class_number": "20787",
-            "enrollment_cap": 26,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "Barron,Cecillia N",
             "days": "MW",
@@ -720,9 +858,29 @@
         }
     },
     "CJS 446": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13035": {
             "class_number": "13035",
-            "enrollment_cap": 21,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Labertew,Leslie Denice",
             "days": "R",
@@ -732,7 +890,7 @@
         },
         "13290": {
             "class_number": "13290",
-            "enrollment_cap": 28,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Biondo,Jill",
             "days": "W",
@@ -742,6 +900,26 @@
         }
     },
     "CJS 448": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13036": {
             "class_number": "13036",
             "enrollment_cap": 0,
@@ -754,9 +932,29 @@
         }
     },
     "CJS 452AV": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13083": {
             "class_number": "13083",
-            "enrollment_cap": 30,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Labertew,Leslie Denice",
             "days": "TR",
@@ -766,9 +964,29 @@
         }
     },
     "CJS 452HR": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13294": {
             "class_number": "13294",
-            "enrollment_cap": 17,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Labertew,Leslie Denice",
             "days": "MW",
@@ -778,9 +996,29 @@
         }
     },
     "CJS 452ME": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13280": {
             "class_number": "13280",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Ramirez,Nayan G.",
             "days": "TR",
@@ -790,30 +1028,90 @@
         }
     },
     "CJS 452MH": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13346": {
             "class_number": "13346",
-            "enrollment_cap": 33,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Jakubanis,Beth",
             "days": "TR",
-            "location": "SH390",
+            "location": "BB1238",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     },
     "CJS 452MO": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13298": {
             "class_number": "13298",
-            "enrollment_cap": 14,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Ojeda,Alex",
             "days": "W",
-            "location": "SH106",
+            "location": "SH342",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "CJS 452PR": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "20788": {
             "class_number": "20788",
             "enrollment_cap": 0,
@@ -826,9 +1124,29 @@
         }
     },
     "CJS 452WD": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "21010": {
             "class_number": "21010",
-            "enrollment_cap": 36,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Giraldo,Mario A",
             "days": "TR",
@@ -838,9 +1156,29 @@
         }
     },
     "CJS 454AC": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13342": {
             "class_number": "13342",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Glidden,Marc",
             "days": "T",
@@ -850,9 +1188,29 @@
         }
     },
     "CJS 454IC": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13082": {
             "class_number": "13082",
-            "enrollment_cap": 32,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Gamino,Eric",
             "days": "R",
@@ -862,9 +1220,29 @@
         }
     },
     "CJS 454MJ": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13292": {
             "class_number": "13292",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Posey,Brianne",
             "days": null,
@@ -874,9 +1252,29 @@
         }
     },
     "CJS 454PL": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "20789": {
             "class_number": "20789",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pyo,Jimin",
             "days": null,
@@ -886,9 +1284,29 @@
         }
     },
     "CJS 454PY": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "20772": {
             "class_number": "20772",
-            "enrollment_cap": 13,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Gamino,Eric",
             "days": "T",
@@ -898,21 +1316,61 @@
         }
     },
     "CJS 454RE": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "20790": {
             "class_number": "20790",
-            "enrollment_cap": 39,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "Caine-Lomberto,Bari",
             "days": "T",
-            "location": "SH276",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "CJS 454WJ": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "20783": {
             "class_number": "20783",
-            "enrollment_cap": 17,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Mitchell,Rick",
             "days": "TR",
@@ -922,9 +1380,29 @@
         }
     },
     "CJS 480": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13037": {
             "class_number": "13037",
-            "enrollment_cap": 30,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Harris,Brandon D",
             "days": "TR",
@@ -934,9 +1412,29 @@
         }
     },
     "CJS 494A": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13042": {
             "class_number": "13042",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Gamino,Eric",
             "days": "R",
@@ -946,9 +1444,29 @@
         }
     },
     "CJS 494AA": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13043": {
             "class_number": "13043",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Gamino,Eric",
             "days": null,
@@ -958,9 +1476,29 @@
         }
     },
     "CJS 494B": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13044": {
             "class_number": "13044",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Zucker,Bruce A",
             "days": "W",
@@ -970,9 +1508,29 @@
         }
     },
     "CJS 494BB": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13045": {
             "class_number": "13045",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Zucker,Bruce A",
             "days": null,
@@ -982,9 +1540,29 @@
         }
     },
     "CJS 494E": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13046": {
             "class_number": "13046",
-            "enrollment_cap": 18,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Bonfiglio,Kimberly",
             "days": "F",
@@ -994,9 +1572,29 @@
         }
     },
     "CJS 494EE": {
+        "13015": {
+            "class_number": "13015",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Glidden,Marc",
+            "days": "TR",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13016": {
+            "class_number": "13016",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Barron,Cecillia N",
+            "days": "MW",
+            "location": "SH276",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
         "13047": {
             "class_number": "13047",
-            "enrollment_cap": 18,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Bonfiglio,Kimberly",
             "days": null,

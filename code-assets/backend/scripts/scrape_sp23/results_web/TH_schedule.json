@@ -12,7 +12,7 @@
         },
         "10901": {
             "class_number": "10901",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Norris,Sonia",
             "days": "TR",
@@ -24,7 +24,7 @@
     "TH 110": {
         "11292": {
             "class_number": "11292",
-            "enrollment_cap": 67,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Morrison,J'aime B",
             "days": null,
@@ -36,7 +36,7 @@
     "TH 111": {
         "10911": {
             "class_number": "10911",
-            "enrollment_cap": 16,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Clark,Ronnie",
             "days": "MW",
@@ -46,9 +46,9 @@
         },
         "10797": {
             "class_number": "10797",
-            "enrollment_cap": 25,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Clark,Ronnie",
+            "instructor": "Kaback,Douglas E",
             "days": "F",
             "location": "NH214",
             "start_time": "1100h",
@@ -56,7 +56,7 @@
         },
         "10548": {
             "class_number": "10548",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Aviles Rodriguez,Guillermo G.",
             "days": "TR",
@@ -66,7 +66,7 @@
         },
         "10518": {
             "class_number": "10518",
-            "enrollment_cap": 30,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Pai,Nikhil",
             "days": "TR",
@@ -76,31 +76,31 @@
         },
         "10912": {
             "class_number": "10912",
-            "enrollment_cap": 31,
+            "enrollment_cap": 36,
             "enrollment_count": 0,
-            "instructor": "Brown,Danye",
-            "days": "F",
-            "location": "NH214",
-            "start_time": "0800h",
-            "end_time": "1045h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "TH 111HON": {
         "11320": {
             "class_number": "11320",
-            "enrollment_cap": 35,
+            "enrollment_cap": 36,
             "enrollment_count": 0,
-            "instructor": "Kaback,Douglas E",
-            "days": "MW",
-            "location": "NH111",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "TH 142M": {
         "10872": {
             "class_number": "10872",
-            "enrollment_cap": 10,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Pai,Nikhil",
             "days": "MW",
@@ -144,35 +144,13 @@
     "TH 155": {
         "10877": {
             "class_number": "10877",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": "F",
             "location": "TH361",
             "start_time": "1300h",
             "end_time": "1440h"
-        }
-    },
-    "TH 190": {
-        "11293": {
-            "class_number": "11293",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "11321": {
-            "class_number": "11321",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
         }
     },
     "TH 208A": {
@@ -190,7 +168,7 @@
     "TH 222": {
         "10868": {
             "class_number": "10868",
-            "enrollment_cap": 18,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Lim,Stephanie J",
             "days": "MW",
@@ -199,43 +177,29 @@
             "end_time": "1045h"
         }
     },
-    "TH 261": {
-        "11169": {
-            "class_number": "11169",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TH158",
-            "start_time": "0930h",
-            "end_time": "1215h"
-        }
-    },
-    "TH 261P": {
+    "TH 262": {
         "10874": {
             "class_number": "10874",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Schmidt,Caitlin M",
             "days": "F",
             "location": "TH158",
             "start_time": "0900h",
             "end_time": "1145h"
         }
     },
-    "TH 262": {
-        "11295": {
-            "class_number": "11295",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Cox,Elizabeth A",
-            "days": "TR",
-            "location": "TH365",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
     "TH 262P": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10875": {
             "class_number": "10875",
             "enrollment_cap": 3,
@@ -248,9 +212,19 @@
         }
     },
     "TH 263": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11170": {
             "class_number": "11170",
-            "enrollment_cap": 5,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": "TR",
@@ -260,9 +234,19 @@
         }
     },
     "TH 263P": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10876": {
             "class_number": "10876",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": "F",
@@ -272,6 +256,16 @@
         }
     },
     "TH 290": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11294": {
             "class_number": "11294",
             "enrollment_cap": 10,
@@ -286,7 +280,7 @@
             "class_number": "11322",
             "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jackson,Matthew A",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -294,21 +288,31 @@
         }
     },
     "TH 308A": {
-        "11300": {
-            "class_number": "11300",
-            "enrollment_cap": 12,
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Norris,Sonia",
-            "days": "MW",
-            "location": "TH159",
-            "start_time": "1400h",
-            "end_time": "1645h"
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
         }
     },
     "TH 310": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11057": {
             "class_number": "11057",
-            "enrollment_cap": 33,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kaback,Douglas E",
             "days": null,
@@ -318,9 +322,19 @@
         }
     },
     "TH 321A": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10869": {
             "class_number": "10869",
-            "enrollment_cap": 5,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Tsai,Stefani",
             "days": "MW",
@@ -330,9 +344,19 @@
         }
     },
     "TH 321B": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10870": {
             "class_number": "10870",
-            "enrollment_cap": 17,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Tsai,Stefani",
             "days": "TR",
@@ -342,9 +366,19 @@
         }
     },
     "TH 325": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11587": {
             "class_number": "11587",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Kiani,Ali",
             "days": null,
@@ -354,7 +388,7 @@
         },
         "11588": {
             "class_number": "11588",
-            "enrollment_cap": 51,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Kiani,Ali",
             "days": "R",
@@ -364,6 +398,16 @@
         }
     },
     "TH 333": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11853": {
             "class_number": "11853",
             "enrollment_cap": 0,
@@ -376,9 +420,19 @@
         }
     },
     "TH 342M": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11051": {
             "class_number": "11051",
-            "enrollment_cap": 11,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Morrison,J'aime B",
             "days": "MW",
@@ -388,21 +442,41 @@
         }
     },
     "TH 346": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11028": {
             "class_number": "11028",
-            "enrollment_cap": 21,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "MW",
-            "location": "NH100",
-            "start_time": "1000h",
-            "end_time": "1245h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "TH 350": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10510": {
             "class_number": "10510",
-            "enrollment_cap": 12,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Cox,Elizabeth A",
             "days": "TR",
@@ -412,9 +486,19 @@
         }
     },
     "TH 361B": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11012": {
             "class_number": "11012",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Morales,Natalie",
             "days": "MW",
@@ -424,9 +508,19 @@
         }
     },
     "TH 361P": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "1002": {
             "class_number": "1002",
-            "enrollment_cap": 29,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Morales,Natalie",
             "days": null,
@@ -436,6 +530,16 @@
         }
     },
     "TH 362A": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11175": {
             "class_number": "11175",
             "enrollment_cap": 0,
@@ -448,6 +552,16 @@
         }
     },
     "TH 362B": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11013": {
             "class_number": "11013",
             "enrollment_cap": 0,
@@ -460,9 +574,19 @@
         }
     },
     "TH 362P": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "1003": {
             "class_number": "1003",
-            "enrollment_cap": 30,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Lennon,Garry D",
             "days": null,
@@ -472,9 +596,19 @@
         }
     },
     "TH 363A": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11296": {
             "class_number": "11296",
-            "enrollment_cap": 12,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Buck,RS",
             "days": "MW",
@@ -484,9 +618,19 @@
         }
     },
     "TH 363P": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "1004": {
             "class_number": "1004",
-            "enrollment_cap": 30,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": null,
@@ -496,6 +640,16 @@
         }
     },
     "TH 371": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10684": {
             "class_number": "10684",
             "enrollment_cap": 0,
@@ -518,9 +672,9 @@
         },
         "11956": {
             "class_number": "11956",
-            "enrollment_cap": 12,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Ahrens,William",
             "days": "MW",
             "location": "NH209",
             "start_time": "1600h",
@@ -528,6 +682,16 @@
         }
     },
     "TH 371L": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10685": {
             "class_number": "10685",
             "enrollment_cap": 0,
@@ -550,9 +714,9 @@
         },
         "11972": {
             "class_number": "11972",
-            "enrollment_cap": 12,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Ahrens,William",
             "days": "MW",
             "location": "NH209",
             "start_time": "1700h",
@@ -560,6 +724,16 @@
         }
     },
     "TH 381": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "20752": {
             "class_number": "20752",
             "enrollment_cap": 0,
@@ -572,11 +746,21 @@
         }
     },
     "TH 382A": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10519": {
             "class_number": "10519",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jackson,Matthew A",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -584,11 +768,21 @@
         }
     },
     "TH 382B": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10520": {
             "class_number": "10520",
-            "enrollment_cap": 10,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jackson,Matthew A",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -596,35 +790,65 @@
         }
     },
     "TH 382C": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10521": {
             "class_number": "10521",
             "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jackson,Matthew A",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
             "end_time": "ARR"
         }
     },
-    "TH 384": {
-        "10841": {
-            "class_number": "10841",
-            "enrollment_cap": 15,
+    "TH 390A": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "NH121",
-            "start_time": "0930h",
-            "end_time": "1215h"
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        "10512": {
+            "class_number": "10512",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Jackson,Matthew A",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "TH 390B": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11025": {
             "class_number": "11025",
-            "enrollment_cap": 20,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jackson,Matthew A",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -632,9 +856,9 @@
         },
         "10888": {
             "class_number": "10888",
-            "enrollment_cap": 20,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Lennon,Garry D",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -644,7 +868,7 @@
             "class_number": "10889",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
+            "instructor": "Biederman,Larry R",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -662,11 +886,21 @@
         }
     },
     "TH 397": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10513": {
             "class_number": "10513",
             "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Kim,Ah-Jeong",
             "days": "M",
             "location": "NH104",
             "start_time": "1300h",
@@ -674,9 +908,19 @@
         }
     },
     "TH 410": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "20753": {
             "class_number": "20753",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Tsai,Stefani",
             "days": "MW",
@@ -686,9 +930,19 @@
         }
     },
     "TH 444": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10514": {
             "class_number": "10514",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Biederman,Larry R",
             "days": "TR",
@@ -698,9 +952,19 @@
         }
     },
     "TH 448": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11889": {
             "class_number": "11889",
-            "enrollment_cap": 12,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Gould,Eric S",
             "days": "TR",
@@ -709,22 +973,20 @@
             "end_time": "1215h"
         }
     },
-    "TH 449": {
-        "10846": {
-            "class_number": "10846",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "SH302",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
     "TH 454": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11916": {
             "class_number": "11916",
-            "enrollment_cap": 9,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Biederman,Larry R",
             "days": "F",
@@ -734,6 +996,16 @@
         }
     },
     "TH 457": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10572": {
             "class_number": "10572",
             "enrollment_cap": 6,
@@ -746,11 +1018,21 @@
         }
     },
     "TH 473": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10724": {
             "class_number": "10724",
-            "enrollment_cap": 15,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Barrett,Jozben A",
             "days": "T",
             "location": "NH209",
             "start_time": "1100h",
@@ -758,18 +1040,60 @@
         }
     },
     "TH 473L": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10725": {
             "class_number": "10725",
-            "enrollment_cap": 15,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Barrett,Jozben A",
             "days": "R",
             "location": "NH209",
             "start_time": "1100h",
             "end_time": "1240h"
         }
     },
+    "TH 490A": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
+        "10515": {
+            "class_number": "10515",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    },
     "TH 490B": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11029": {
             "class_number": "11029",
             "enrollment_cap": 20,
@@ -782,9 +1106,9 @@
         },
         "10891": {
             "class_number": "10891",
-            "enrollment_cap": 20,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Lennon,Garry D",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -794,7 +1118,7 @@
             "class_number": "10892",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Biederman,Larry R",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -812,11 +1136,21 @@
         }
     },
     "TH 498F": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10516": {
             "class_number": "10516",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Kim,Ah-Jeong",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
@@ -824,6 +1158,16 @@
         }
     },
     "TH 544": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11930": {
             "class_number": "11930",
             "enrollment_cap": 1,
@@ -836,6 +1180,16 @@
         }
     },
     "TH 545": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "11888": {
             "class_number": "11888",
             "enrollment_cap": 5,
@@ -848,6 +1202,16 @@
         }
     },
     "TH 698C": {
+        "10874": {
+            "class_number": "10874",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Schmidt,Caitlin M",
+            "days": "F",
+            "location": "TH158",
+            "start_time": "0900h",
+            "end_time": "1145h"
+        },
         "10524": {
             "class_number": "10524",
             "enrollment_cap": 10,

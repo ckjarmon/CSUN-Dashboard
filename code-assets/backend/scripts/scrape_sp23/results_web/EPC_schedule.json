@@ -32,7 +32,7 @@
         },
         "15896": {
             "class_number": "15896",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Dovlatyan,Mane Sona",
             "days": "TR",
@@ -42,7 +42,7 @@
         },
         "16005": {
             "class_number": "16005",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Emmerling-Baker,Denise",
             "days": "W",
@@ -74,13 +74,33 @@
         },
         "15567": {
             "class_number": "15567",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mariano,Karen D",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1515h"
+        },
+        "15538": {
+            "class_number": "15538",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Dovlatyan,Mane Sona",
+            "days": "TR",
+            "location": "ED1121",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "15537": {
+            "class_number": "15537",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Stohl,Ellen R",
+            "days": "TR",
+            "location": "ED1122",
+            "start_time": "0930h",
+            "end_time": "1045h"
         },
         "15541": {
             "class_number": "15541",
@@ -104,7 +124,7 @@
         },
         "21290": {
             "class_number": "21290",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mariano,Karen D",
             "days": "MW",
@@ -116,7 +136,7 @@
     "EPC 420": {
         "15441": {
             "class_number": "15441",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Torvinen,Deanne B",
             "days": "M",
@@ -136,7 +156,7 @@
         },
         "15622": {
             "class_number": "15622",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lubnow,David",
             "days": null,
@@ -146,7 +166,7 @@
         },
         "16053": {
             "class_number": "16053",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ozery,Daphna",
             "days": null,
@@ -156,7 +176,7 @@
         },
         "16172": {
             "class_number": "16172",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ozery,Daphna",
             "days": null,
@@ -166,13 +186,23 @@
         },
         "16173": {
             "class_number": "16173",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ozery,Daphna",
             "days": null,
             "location": "ONLINE",
             "start_time": "TBA",
             "end_time": "TBA"
+        },
+        "20987": {
+            "class_number": "20987",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Lubnow,David",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "EPC 430": {
@@ -190,7 +220,7 @@
             "class_number": "15866",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Guerrero,Aymie Bernice",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1900h",
@@ -220,7 +250,7 @@
         },
         "15439": {
             "class_number": "15439",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Lyden,Eric C",
             "days": "T",
@@ -230,7 +260,7 @@
         },
         "15688": {
             "class_number": "15688",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pioli,Donna L",
             "days": "W",
@@ -240,7 +270,7 @@
         },
         "15891": {
             "class_number": "15891",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lyden,Eric C",
             "days": "W",
@@ -250,9 +280,9 @@
         },
         "16073": {
             "class_number": "16073",
-            "enrollment_cap": 16,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Harris,Sue",
+            "instructor": "Pierce,Michael Charles",
             "days": "R",
             "location": "BB1234",
             "start_time": "1600h",
@@ -262,7 +292,7 @@
     "EPC 500": {
         "15571": {
             "class_number": "15571",
-            "enrollment_cap": 14,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Bowes,Michele F",
             "days": "W",
@@ -286,31 +316,31 @@
     "EPC 602": {
         "15445": {
             "class_number": "15445",
-            "enrollment_cap": 13,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Carrillo,Kelly Alejandra",
             "days": "M",
-            "location": "ED2119",
+            "location": "ED2117",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         "15569": {
             "class_number": "15569",
-            "enrollment_cap": 13,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
-            "location": "ED2121B",
+            "location": "TBA",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         "21258": {
             "class_number": "21258",
-            "enrollment_cap": 6,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Goldschmidt,Pete G",
             "days": "M",
-            "location": "ED2121A",
+            "location": "ED2119",
             "start_time": "1600h",
             "end_time": "1845h"
         }
@@ -318,7 +348,7 @@
     "EPC 603MFA": {
         "16137": {
             "class_number": "16137",
-            "enrollment_cap": 18,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Caldwell,Ben E",
             "days": "W",
@@ -328,7 +358,7 @@
         },
         "16138": {
             "class_number": "16138",
-            "enrollment_cap": 18,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Buttitta,Deborah J",
             "days": "W",
@@ -338,7 +368,7 @@
         },
         "16139": {
             "class_number": "16139",
-            "enrollment_cap": 18,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Caldwell,Ben E",
             "days": "W",
@@ -347,10 +377,10 @@
             "end_time": "1845h"
         }
     },
-    "EPC 609": {
+    "EPC 620": {
         "15555": {
             "class_number": "15555",
-            "enrollment_cap": 25,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Sands,Tovah",
             "days": "M",
@@ -359,19 +389,17 @@
             "end_time": "1845h"
         }
     },
-    "EPC 620": {
-        "15446": {
-            "class_number": "15446",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Castaneda,Grace",
-            "days": "W",
-            "location": "BB1232",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
     "EPC 621": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16054": {
             "class_number": "16054",
             "enrollment_cap": 14,
@@ -384,9 +412,19 @@
         }
     },
     "EPC 635": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15447": {
             "class_number": "15447",
-            "enrollment_cap": 8,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Leon,Katie",
             "days": "T",
@@ -396,9 +434,19 @@
         }
     },
     "EPC 636": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15664": {
             "class_number": "15664",
-            "enrollment_cap": 10,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Busillo-Aguayo,Joannie L",
             "days": "T",
@@ -408,9 +456,19 @@
         }
     },
     "EPC 639C": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15967": {
             "class_number": "15967",
-            "enrollment_cap": 9,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Busillo-Aguayo,Joannie L",
             "days": "W",
@@ -420,7 +478,7 @@
         },
         "15968": {
             "class_number": "15968",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Leon,Katie",
             "days": "T",
@@ -430,9 +488,19 @@
         }
     },
     "EPC 641": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16020": {
             "class_number": "16020",
-            "enrollment_cap": 24,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Carranza,Jose A",
             "days": "R",
@@ -442,9 +510,19 @@
         }
     },
     "EPC 643": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15448": {
             "class_number": "15448",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Minton,Shyrea J",
             "days": "M",
@@ -454,7 +532,7 @@
         },
         "15543": {
             "class_number": "15543",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Galvan,Angelica",
             "days": "M",
@@ -464,33 +542,53 @@
         }
     },
     "EPC 643SP": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "21277": {
             "class_number": "21277",
-            "enrollment_cap": 14,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Williams,Madhavi",
             "days": "T",
-            "location": "ED1121",
+            "location": "ED3113",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     },
     "EPC 648": {
-        "15626": {
-            "class_number": "15626",
-            "enrollment_cap": 21,
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "Laija-Rodriguez,Wilda",
-            "days": "T",
-            "location": "BB1119",
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     },
     "EPC 657A": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15578": {
             "class_number": "15578",
-            "enrollment_cap": -1,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Galvan,Angelica",
             "days": "W",
@@ -500,16 +598,36 @@
         },
         "15582": {
             "class_number": "15582",
-            "enrollment_cap": 3,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Irfani,Yasmin H",
             "days": "W",
             "location": "ED1117",
             "start_time": "1900h",
             "end_time": "2145h"
+        },
+        "15660": {
+            "class_number": "15660",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "EPC 658": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15452": {
             "class_number": "15452",
             "enrollment_cap": 15,
@@ -542,7 +660,7 @@
         },
         "20991": {
             "class_number": "20991",
-            "enrollment_cap": 14,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Sands,Tovah",
             "days": "W",
@@ -552,7 +670,7 @@
         },
         "20995": {
             "class_number": "20995",
-            "enrollment_cap": 3,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Cornejo Jr,Juan",
             "days": "W",
@@ -562,6 +680,16 @@
         }
     },
     "EPC 658L": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15453": {
             "class_number": "15453",
             "enrollment_cap": 15,
@@ -594,7 +722,7 @@
         },
         "20994": {
             "class_number": "20994",
-            "enrollment_cap": 14,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Sands,Tovah",
             "days": null,
@@ -604,7 +732,7 @@
         },
         "20996": {
             "class_number": "20996",
-            "enrollment_cap": 3,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Cornejo Jr,Juan",
             "days": null,
@@ -614,6 +742,16 @@
         }
     },
     "EPC 659B": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15746": {
             "class_number": "15746",
             "enrollment_cap": 10,
@@ -636,7 +774,7 @@
         },
         "15748": {
             "class_number": "15748",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Galvan,Angelica",
             "days": "M",
@@ -646,7 +784,7 @@
         },
         "15749": {
             "class_number": "15749",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lee,Timmy E",
             "days": "M",
@@ -656,7 +794,7 @@
         },
         "15750": {
             "class_number": "15750",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Gutierrez,Ernesto R",
             "days": "M",
@@ -666,61 +804,41 @@
         },
         "20997": {
             "class_number": "20997",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lucore,Lisa Ann",
             "days": "M",
-            "location": "BB1208",
+            "location": "ED3113",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "EPC 659DC": {
-        "15758": {
-            "class_number": "15758",
-            "enrollment_cap": 7,
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
             "enrollment_count": 0,
-            "instructor": "Minton,Shyrea J",
+            "instructor": "Sands,Tovah",
             "days": "M",
-            "location": "ED1121",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        },
-        "15759": {
-            "class_number": "15759",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Lee,Timmy E",
-            "days": "M",
-            "location": "BB1206",
-            "start_time": "1300h",
-            "end_time": "1545h"
-        },
-        "15760": {
-            "class_number": "15760",
-            "enrollment_cap": 7,
-            "enrollment_count": 0,
-            "instructor": "Wang,Steven",
-            "days": "M",
-            "location": "JR212",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "16000": {
-            "class_number": "16000",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "JR247",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     },
     "EPC 659FC": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15761": {
             "class_number": "15761",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Laija-Rodriguez,Wilda",
             "days": "T",
@@ -730,7 +848,7 @@
         },
         "15762": {
             "class_number": "15762",
-            "enrollment_cap": 12,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Ramage,Jean C",
             "days": "T",
@@ -740,9 +858,19 @@
         }
     },
     "EPC 659HC": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15763": {
             "class_number": "15763",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Golden,Joan",
             "days": "R",
@@ -752,7 +880,7 @@
         },
         "15764": {
             "class_number": "15764",
-            "enrollment_cap": 12,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Geisser,Michael S",
             "days": "R",
@@ -762,9 +890,19 @@
         }
     },
     "EPC 659KC": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15765": {
             "class_number": "15765",
-            "enrollment_cap": 5,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Shain,Roman",
             "days": "M",
@@ -774,7 +912,7 @@
         },
         "15766": {
             "class_number": "15766",
-            "enrollment_cap": 6,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Morrow-Bell,Kim D",
             "days": "M",
@@ -784,7 +922,7 @@
         },
         "20988": {
             "class_number": "20988",
-            "enrollment_cap": 7,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Enriquez,Michael V",
             "days": "M",
@@ -794,9 +932,19 @@
         }
     },
     "EPC 659MFB": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16152": {
             "class_number": "16152",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Stevens,Mark A",
             "days": "M",
@@ -806,7 +954,7 @@
         },
         "16153": {
             "class_number": "16153",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pemberton,Jennifer V",
             "days": "M",
@@ -816,7 +964,7 @@
         },
         "16154": {
             "class_number": "16154",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Georgette,Pamela",
             "days": "M",
@@ -826,7 +974,7 @@
         },
         "16155": {
             "class_number": "16155",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Jankovich,Barbara J",
             "days": "M",
@@ -836,7 +984,7 @@
         },
         "16156": {
             "class_number": "16156",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Stevens,Mark A",
             "days": "M",
@@ -846,7 +994,7 @@
         },
         "16157": {
             "class_number": "16157",
-            "enrollment_cap": 8,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kaiser,Stacy Y",
             "days": "M",
@@ -856,7 +1004,7 @@
         },
         "20998": {
             "class_number": "20998",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lemert,Rebecca",
             "days": "M",
@@ -866,9 +1014,19 @@
         }
     },
     "EPC 659MFD": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15955": {
             "class_number": "15955",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mora,Peter",
             "days": "M",
@@ -878,7 +1036,7 @@
         },
         "15956": {
             "class_number": "15956",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Stone,Dana J",
             "days": "M",
@@ -888,7 +1046,7 @@
         },
         "15957": {
             "class_number": "15957",
-            "enrollment_cap": 8,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Keenan,Carine M",
             "days": "M",
@@ -898,7 +1056,7 @@
         },
         "15958": {
             "class_number": "15958",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kaiser,Stacy Y",
             "days": "M",
@@ -908,7 +1066,7 @@
         },
         "15959": {
             "class_number": "15959",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lemert,Rebecca",
             "days": "M",
@@ -918,7 +1076,7 @@
         },
         "15960": {
             "class_number": "15960",
-            "enrollment_cap": 7,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Goldberg-Roth,Kim L",
             "days": "M",
@@ -928,7 +1086,7 @@
         },
         "15961": {
             "class_number": "15961",
-            "enrollment_cap": 8,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Pettit,Pamela",
             "days": "M",
@@ -938,9 +1096,19 @@
         }
     },
     "EPC 659SPB": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "21272": {
             "class_number": "21272",
-            "enrollment_cap": 7,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Geisser,Michael S",
             "days": "T",
@@ -950,7 +1118,7 @@
         },
         "21273": {
             "class_number": "21273",
-            "enrollment_cap": 9,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Bornstein,Suzanne S",
             "days": "T",
@@ -960,9 +1128,19 @@
         }
     },
     "EPC 661": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15454": {
             "class_number": "15454",
-            "enrollment_cap": 23,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Geisser,Michael S",
             "days": "R",
@@ -972,31 +1150,51 @@
         }
     },
     "EPC 663B": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15455": {
             "class_number": "15455",
-            "enrollment_cap": 12,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Golden,Joan",
-            "days": "T",
-            "location": "ED1127",
+            "days": "R",
+            "location": "BB1202",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         "15456": {
             "class_number": "15456",
-            "enrollment_cap": 13,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Vogel,Paul J",
-            "days": "T",
-            "location": "ED3113",
+            "days": "R",
+            "location": "BB1204",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     },
     "EPC 663BL": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15457": {
             "class_number": "15457",
-            "enrollment_cap": 12,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Saggar,Vedeesh Kumar",
             "days": "W",
@@ -1006,7 +1204,7 @@
         },
         "16083": {
             "class_number": "16083",
-            "enrollment_cap": 13,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Saggar,Vedeesh Kumar",
             "days": "W",
@@ -1016,9 +1214,19 @@
         }
     },
     "EPC 668": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15857": {
             "class_number": "15857",
-            "enrollment_cap": 12,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Fish,Janet E",
             "days": "R",
@@ -1028,9 +1236,19 @@
         }
     },
     "EPC 670A": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15458": {
             "class_number": "15458",
-            "enrollment_cap": 10,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Shain,Roman",
             "days": "W",
@@ -1050,9 +1268,19 @@
         }
     },
     "EPC 670MFB": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16149": {
             "class_number": "16149",
-            "enrollment_cap": 18,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kaiser,Stacy Y",
             "days": "M",
@@ -1062,7 +1290,7 @@
         },
         "16150": {
             "class_number": "16150",
-            "enrollment_cap": 18,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Gehart,Diane R",
             "days": "M",
@@ -1072,7 +1300,7 @@
         },
         "16151": {
             "class_number": "16151",
-            "enrollment_cap": 18,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Buttitta,Deborah J",
             "days": "M",
@@ -1082,9 +1310,19 @@
         }
     },
     "EPC 670MFC": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16021": {
             "class_number": "16021",
-            "enrollment_cap": 18,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Samuel,Danielle A",
             "days": "M",
@@ -1094,7 +1332,7 @@
         },
         "16022": {
             "class_number": "16022",
-            "enrollment_cap": 15,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Samuel,Danielle A",
             "days": "M",
@@ -1104,7 +1342,7 @@
         },
         "16023": {
             "class_number": "16023",
-            "enrollment_cap": 18,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Pemberton,Jennifer V",
             "days": "M",
@@ -1114,9 +1352,19 @@
         }
     },
     "EPC 672MFA": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16174": {
             "class_number": "16174",
-            "enrollment_cap": 18,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Keenan,Carine M",
             "days": "W",
@@ -1126,7 +1374,7 @@
         },
         "16175": {
             "class_number": "16175",
-            "enrollment_cap": 18,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Souris,Mark John",
             "days": "W",
@@ -1136,7 +1384,7 @@
         },
         "16176": {
             "class_number": "16176",
-            "enrollment_cap": 18,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Souris,Mark John",
             "days": "W",
@@ -1146,9 +1394,19 @@
         }
     },
     "EPC 672MFB": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16161": {
             "class_number": "16161",
-            "enrollment_cap": 20,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Pemberton,Jennifer V",
             "days": null,
@@ -1158,7 +1416,7 @@
         },
         "16162": {
             "class_number": "16162",
-            "enrollment_cap": 20,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Pemberton,Jennifer V",
             "days": null,
@@ -1168,7 +1426,7 @@
         },
         "16163": {
             "class_number": "16163",
-            "enrollment_cap": 20,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pemberton,Jennifer V",
             "days": null,
@@ -1178,9 +1436,19 @@
         }
     },
     "EPC 673": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16167": {
             "class_number": "16167",
-            "enrollment_cap": -2,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Shain,Roman",
             "days": "T",
@@ -1190,7 +1458,7 @@
         },
         "16168": {
             "class_number": "16168",
-            "enrollment_cap": 4,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -1200,7 +1468,7 @@
         },
         "21259": {
             "class_number": "21259",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
@@ -1210,7 +1478,7 @@
         },
         "21260": {
             "class_number": "21260",
-            "enrollment_cap": 15,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
@@ -1220,9 +1488,19 @@
         }
     },
     "EPC 677MFB": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16158": {
             "class_number": "16158",
-            "enrollment_cap": 20,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Stone,Dana J",
             "days": null,
@@ -1232,7 +1510,7 @@
         },
         "16159": {
             "class_number": "16159",
-            "enrollment_cap": 20,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Stone,Dana J",
             "days": null,
@@ -1242,7 +1520,7 @@
         },
         "16160": {
             "class_number": "16160",
-            "enrollment_cap": 20,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Stone,Dana J",
             "days": null,
@@ -1252,9 +1530,19 @@
         }
     },
     "EPC 679MF": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15963": {
             "class_number": "15963",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Willoughby,Louis D",
             "days": "W",
@@ -1264,9 +1552,9 @@
         },
         "15964": {
             "class_number": "15964",
-            "enrollment_cap": 17,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
-            "instructor": "Willoughby,Louis D",
+            "instructor": "Georgette,Pamela",
             "days": "W",
             "location": "BB1238",
             "start_time": "1230h",
@@ -1274,7 +1562,7 @@
         },
         "15965": {
             "class_number": "15965",
-            "enrollment_cap": 18,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Georgette,Pamela",
             "days": "W",
@@ -1284,6 +1572,16 @@
         }
     },
     "EPC 687": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16058": {
             "class_number": "16058",
             "enrollment_cap": 14,
@@ -1296,9 +1594,19 @@
         }
     },
     "EPC 689": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15461": {
             "class_number": "15461",
-            "enrollment_cap": 23,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Minton,Shyrea J",
             "days": "W",
@@ -1308,6 +1616,16 @@
         }
     },
     "EPC 690C": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15930": {
             "class_number": "15930",
             "enrollment_cap": 15,
@@ -1320,6 +1638,16 @@
         }
     },
     "EPC 690MFA": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "21264": {
             "class_number": "21264",
             "enrollment_cap": 15,
@@ -1332,9 +1660,19 @@
         }
     },
     "EPC 690MFC": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16170": {
             "class_number": "16170",
-            "enrollment_cap": 15,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Gehart,Diane R",
             "days": null,
@@ -1344,7 +1682,7 @@
         },
         "16171": {
             "class_number": "16171",
-            "enrollment_cap": 8,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Willoughby,Louis D",
             "days": null,
@@ -1354,9 +1692,19 @@
         }
     },
     "EPC 695MF": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16145": {
             "class_number": "16145",
-            "enrollment_cap": 15,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Losey,Diana L",
             "days": null,
@@ -1366,7 +1714,7 @@
         },
         "16146": {
             "class_number": "16146",
-            "enrollment_cap": 15,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Losey,Diana L",
             "days": null,
@@ -1376,6 +1724,16 @@
         }
     },
     "EPC 695S": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15462": {
             "class_number": "15462",
             "enrollment_cap": 15,
@@ -1388,9 +1746,19 @@
         }
     },
     "EPC 695WC": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15743": {
             "class_number": "15743",
-            "enrollment_cap": 14,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Leon,Katie",
             "days": null,
@@ -1400,9 +1768,19 @@
         }
     },
     "EPC 696": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15858": {
             "class_number": "15858",
-            "enrollment_cap": 4,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Minton,Shyrea J",
             "days": null,
@@ -1412,7 +1790,7 @@
         },
         "15859": {
             "class_number": "15859",
-            "enrollment_cap": 6,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Goldschmidt,Pete G",
             "days": null,
@@ -1422,7 +1800,7 @@
         },
         "15925": {
             "class_number": "15925",
-            "enrollment_cap": 9,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Lee,Timmy E",
             "days": null,
@@ -1432,7 +1810,7 @@
         },
         "15969": {
             "class_number": "15969",
-            "enrollment_cap": 7,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Busillo-Aguayo,Joannie L",
             "days": null,
@@ -1442,7 +1820,7 @@
         },
         "15974": {
             "class_number": "15974",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -1472,9 +1850,19 @@
         }
     },
     "EPC 696MF": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "16143": {
             "class_number": "16143",
-            "enrollment_cap": 9,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Gehart,Diane R",
             "days": null,
@@ -1484,7 +1872,7 @@
         },
         "16144": {
             "class_number": "16144",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Stone,Dana J",
             "days": null,
@@ -1494,7 +1882,7 @@
         },
         "16164": {
             "class_number": "16164",
-            "enrollment_cap": 7,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Stevens,Mark A",
             "days": null,
@@ -1504,7 +1892,7 @@
         },
         "16165": {
             "class_number": "16165",
-            "enrollment_cap": 9,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Pemberton,Jennifer V",
             "days": null,
@@ -1514,7 +1902,7 @@
         },
         "16166": {
             "class_number": "16166",
-            "enrollment_cap": 9,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Buttitta,Deborah J",
             "days": null,
@@ -1524,9 +1912,19 @@
         }
     },
     "EPC 697": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15673": {
             "class_number": "15673",
-            "enrollment_cap": 39,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Restori,Alberto F",
             "days": null,
@@ -1546,11 +1944,21 @@
         }
     },
     "EPC 698C": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15463": {
             "class_number": "15463",
-            "enrollment_cap": 16,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Restori,Alberto F",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
@@ -1558,9 +1966,9 @@
         },
         "16147": {
             "class_number": "16147",
-            "enrollment_cap": 15,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Laija-Rodriguez,Wilda",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
@@ -1568,6 +1976,16 @@
         }
     },
     "EPC 699C": {
+        "15555": {
+            "class_number": "15555",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Sands,Tovah",
+            "days": "M",
+            "location": "CR5209",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
         "15464": {
             "class_number": "15464",
             "enrollment_cap": 1,

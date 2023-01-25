@@ -2,7 +2,7 @@
     "KIN 115A": {
         "18701": {
             "class_number": "18701",
-            "enrollment_cap": 6,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -12,7 +12,7 @@
         },
         "18702": {
             "class_number": "18702",
-            "enrollment_cap": 7,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -32,7 +32,7 @@
         },
         "19737": {
             "class_number": "19737",
-            "enrollment_cap": 7,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Truong,Jacqueline",
             "days": "TR",
@@ -54,9 +54,9 @@
     "KIN 117": {
         "18721": {
             "class_number": "18721",
-            "enrollment_cap": 6,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Hurtado,Ileana M",
+            "instructor": "Staff",
             "days": "MW",
             "location": "BC126",
             "start_time": "1000h",
@@ -64,7 +64,7 @@
         },
         "18722": {
             "class_number": "18722",
-            "enrollment_cap": 7,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -74,9 +74,9 @@
         },
         "19738": {
             "class_number": "19738",
-            "enrollment_cap": 8,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructor": "Hurtado,Ileana M",
+            "instructor": "Staff",
             "days": "TR",
             "location": "BC126",
             "start_time": "1000h",
@@ -96,7 +96,7 @@
             "class_number": "18872",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Garcia,Liz M",
+            "instructor": "Brolsma,Donald J",
             "days": "TR",
             "location": "BC126",
             "start_time": "1730h",
@@ -106,7 +106,7 @@
     "KIN 118": {
         "19170": {
             "class_number": "19170",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Komori,Timothy J",
             "days": "TR",
@@ -118,7 +118,7 @@
     "KIN 120": {
         "19251": {
             "class_number": "19251",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "M",
@@ -130,7 +130,7 @@
     "KIN 120L": {
         "19252": {
             "class_number": "19252",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "M",
@@ -142,7 +142,7 @@
     "KIN 123A": {
         "20093": {
             "class_number": "20093",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "MacQuarrie,James P",
             "days": "F",
@@ -152,7 +152,7 @@
         },
         "20094": {
             "class_number": "20094",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "MacQuarrie,James P",
             "days": "F",
@@ -174,7 +174,7 @@
     "KIN 124A": {
         "18704": {
             "class_number": "18704",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -184,7 +184,7 @@
         },
         "18705": {
             "class_number": "18705",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -194,7 +194,7 @@
         },
         "19842": {
             "class_number": "19842",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
@@ -206,7 +206,7 @@
     "KIN 125A": {
         "18958": {
             "class_number": "18958",
-            "enrollment_cap": 17,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
@@ -216,7 +216,7 @@
         },
         "19375": {
             "class_number": "19375",
-            "enrollment_cap": 17,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
@@ -238,7 +238,7 @@
     "KIN 126A": {
         "18708": {
             "class_number": "18708",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Farr,John W",
             "days": "MW",
@@ -280,7 +280,7 @@
     "KIN 128": {
         "19495": {
             "class_number": "19495",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -293,32 +293,10 @@
             "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "De La Cruz,Robert D.",
-            "days": null,
-            "location": "FT0000",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "KIN 129A": {
-        "18711": {
-            "class_number": "18711",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "FT0000",
-            "start_time": "0800h",
-            "end_time": "0850h"
-        },
-        "19496": {
-            "class_number": "19496",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
             "days": "F",
             "location": "FT0000",
-            "start_time": "0800h",
-            "end_time": "0940h"
+            "start_time": "1200h",
+            "end_time": "1340h"
         }
     },
     "KIN 130A": {
@@ -346,7 +324,7 @@
     "KIN 131A": {
         "18715": {
             "class_number": "18715",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Gale,Paul J",
             "days": "MW",
@@ -356,7 +334,7 @@
         },
         "18714": {
             "class_number": "18714",
-            "enrollment_cap": 13,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Gale,Paul J",
             "days": "TR",
@@ -368,7 +346,7 @@
     "KIN 132A": {
         "18716": {
             "class_number": "18716",
-            "enrollment_cap": 25,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Komori,Timothy J",
             "days": "MW",
@@ -378,7 +356,7 @@
         },
         "18717": {
             "class_number": "18717",
-            "enrollment_cap": 18,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Komori,Timothy J",
             "days": "F",
@@ -390,7 +368,7 @@
     "KIN 133A": {
         "18718": {
             "class_number": "18718",
-            "enrollment_cap": 13,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Gale,Paul J",
             "days": "T",
@@ -399,32 +377,10 @@
             "end_time": "1940h"
         }
     },
-    "KIN 135A": {
-        "18870": {
-            "class_number": "18870",
-            "enrollment_cap": 24,
-            "enrollment_count": 0,
-            "instructor": "Lenhart,Raquel Rahal",
-            "days": "M",
-            "location": "RE230",
-            "start_time": "0900h",
-            "end_time": "1040h"
-        },
-        "18720": {
-            "class_number": "18720",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Lenhart,Raquel Rahal",
-            "days": "W",
-            "location": "RE230",
-            "start_time": "0900h",
-            "end_time": "1040h"
-        }
-    },
     "KIN 137A": {
         "18723": {
             "class_number": "18723",
-            "enrollment_cap": 21,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "TR",
@@ -434,7 +390,7 @@
         },
         "19849": {
             "class_number": "19849",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Eusanio,Jacqueline C",
             "days": "T",
@@ -444,7 +400,7 @@
         },
         "19951": {
             "class_number": "19951",
-            "enrollment_cap": 15,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Eusanio,Jacqueline C",
             "days": "TR",
@@ -456,7 +412,7 @@
     "KIN 139A": {
         "18724": {
             "class_number": "18724",
-            "enrollment_cap": 15,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "DiVito,Joanne M",
             "days": "R",
@@ -466,7 +422,7 @@
         },
         "19021": {
             "class_number": "19021",
-            "enrollment_cap": 12,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "DiVito,Joanne M",
             "days": "T",
@@ -478,7 +434,7 @@
     "KIN 139B": {
         "19004": {
             "class_number": "19004",
-            "enrollment_cap": 11,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "F",
@@ -490,7 +446,7 @@
     "KIN 141A": {
         "18908": {
             "class_number": "18908",
-            "enrollment_cap": 19,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -500,7 +456,7 @@
         },
         "19118": {
             "class_number": "19118",
-            "enrollment_cap": 14,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "W",
@@ -512,19 +468,19 @@
     "KIN 141B": {
         "19034": {
             "class_number": "19034",
-            "enrollment_cap": 17,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
-            "instructor": "Rosenthal,Bethana A",
-            "days": "TR",
-            "location": "RE292",
-            "start_time": "1300h",
-            "end_time": "1350h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "KIN 142A": {
         "19858": {
             "class_number": "19858",
-            "enrollment_cap": 11,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "M",
@@ -568,19 +524,19 @@
     "KIN 143B": {
         "20865": {
             "class_number": "20865",
-            "enrollment_cap": 24,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
-            "location": "RE230",
-            "start_time": "1200h",
-            "end_time": "1250h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "KIN 144A": {
         "18725": {
             "class_number": "18725",
-            "enrollment_cap": 12,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hassenpflug,Wendy E",
             "days": "M",
@@ -590,7 +546,7 @@
         },
         "18986": {
             "class_number": "18986",
-            "enrollment_cap": 25,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Rosenblatt,Evan R",
             "days": "T",
@@ -604,7 +560,7 @@
             "class_number": "19171",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Lenhart,Raquel Rahal",
+            "instructor": "Hassenpflug,Wendy E",
             "days": "F",
             "location": "RE230",
             "start_time": "1100h",
@@ -614,7 +570,7 @@
             "class_number": "20022",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Lenhart,Raquel Rahal",
+            "instructor": "Hassenpflug,Wendy E",
             "days": "F",
             "location": "RE230",
             "start_time": "0900h",
@@ -624,11 +580,11 @@
     "KIN 148": {
         "19850": {
             "class_number": "19850",
-            "enrollment_cap": 10,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Rosenblatt,Evan R",
             "days": "TR",
-            "location": "RE230",
+            "location": "RE292",
             "start_time": "0800h",
             "end_time": "0850h"
         }
@@ -636,7 +592,7 @@
     "KIN 149": {
         "18739": {
             "class_number": "18739",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hassenpflug,Wendy E",
             "days": "M",
@@ -676,7 +632,7 @@
         },
         "18893": {
             "class_number": "18893",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hassenpflug,Wendy E",
             "days": "W",
@@ -686,7 +642,7 @@
         },
         "18899": {
             "class_number": "18899",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hassenpflug,Wendy E",
             "days": "W",
@@ -706,9 +662,9 @@
         },
         "18921": {
             "class_number": "18921",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Lenhart,Raquel Rahal",
+            "instructor": "Rosenthal,Bethana A",
             "days": "R",
             "location": "RE B1",
             "start_time": "1300h",
@@ -716,9 +672,9 @@
         },
         "18922": {
             "class_number": "18922",
-            "enrollment_cap": 10,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Lenhart,Raquel Rahal",
+            "instructor": "Lamonica,Christine",
             "days": "R",
             "location": "RE B1",
             "start_time": "1500h",
@@ -730,7 +686,7 @@
             "class_number": "18726",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Lenhart,Raquel Rahal",
+            "instructor": "Gale,Paul J",
             "days": "R",
             "location": "RE B1",
             "start_time": "1900h",
@@ -740,7 +696,7 @@
     "KIN 152A": {
         "18729": {
             "class_number": "18729",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -764,7 +720,7 @@
             "class_number": "19485",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Lenhart,Raquel Rahal",
+            "instructor": "Hassenpflug,Wendy E",
             "days": "W",
             "location": "RE251",
             "start_time": "1600h",
@@ -774,7 +730,7 @@
     "KIN 177A": {
         "18733": {
             "class_number": "18733",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lane,Kevin",
             "days": "TR",
@@ -784,7 +740,7 @@
         },
         "20023": {
             "class_number": "20023",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Lane,Kevin",
             "days": "F",
@@ -796,17 +752,17 @@
     "KIN 178A": {
         "18734": {
             "class_number": "18734",
-            "enrollment_cap": 25,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Lane,Kevin",
-            "days": "TR",
-            "location": "RESMPOOL",
-            "start_time": "0900h",
-            "end_time": "0950h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "18735": {
             "class_number": "18735",
-            "enrollment_cap": 14,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Lane,Kevin",
             "days": "MW",
@@ -816,7 +772,7 @@
         },
         "19851": {
             "class_number": "19851",
-            "enrollment_cap": 20,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Lane,Kevin",
             "days": "TR",
@@ -828,17 +784,17 @@
     "KIN 179A": {
         "18736": {
             "class_number": "18736",
-            "enrollment_cap": 23,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Lane,Kevin",
-            "days": "MW",
-            "location": "RESMPOOL",
-            "start_time": "0930h",
-            "end_time": "1020h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "19013": {
             "class_number": "19013",
-            "enrollment_cap": 22,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Lane,Kevin",
             "days": "TR",
@@ -850,7 +806,7 @@
     "KIN 185A": {
         "18737": {
             "class_number": "18737",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "De La Cruz,Robert D.",
             "days": "MW",
@@ -860,7 +816,7 @@
         },
         "18738": {
             "class_number": "18738",
-            "enrollment_cap": 18,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "De La Cruz,Robert D.",
             "days": "MW",
@@ -870,7 +826,7 @@
         },
         "19499": {
             "class_number": "19499",
-            "enrollment_cap": 20,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "De La Cruz,Robert D.",
             "days": "TR",
@@ -880,7 +836,7 @@
         },
         "19500": {
             "class_number": "19500",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "De La Cruz,Robert D.",
             "days": "TR",
@@ -894,7 +850,7 @@
             "class_number": "18874",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Fleck,Eve S",
             "days": "TR",
             "location": "RE160",
             "start_time": "1100h",
@@ -904,7 +860,7 @@
             "class_number": "19502",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Fleck,Eve S",
             "days": "TR",
             "location": "RE160",
             "start_time": "1230h",
@@ -924,7 +880,7 @@
         },
         "19381": {
             "class_number": "19381",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Loy,Steven F",
             "days": "TR",
@@ -946,7 +902,7 @@
     "KIN 236": {
         "18982": {
             "class_number": "18982",
-            "enrollment_cap": 15,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Rosenblatt,Evan R",
             "days": "M",
@@ -958,7 +914,7 @@
     "KIN 236L": {
         "18983": {
             "class_number": "18983",
-            "enrollment_cap": 15,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Rosenblatt,Evan R",
             "days": "W",
@@ -970,11 +926,11 @@
     "KIN 242": {
         "18741": {
             "class_number": "18741",
-            "enrollment_cap": 7,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Eusanio,Jacqueline C",
             "days": "TR",
-            "location": "RE292",
+            "location": "RE230",
             "start_time": "0800h",
             "end_time": "0850h"
         }
@@ -982,7 +938,7 @@
     "KIN 250SW": {
         "18742": {
             "class_number": "18742",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Lane,Kevin",
             "days": "MW",
@@ -994,7 +950,7 @@
     "KIN 271": {
         "19183": {
             "class_number": "19183",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Jung,Yeonhak",
             "days": "T",
@@ -1006,7 +962,7 @@
     "KIN 271L": {
         "19184": {
             "class_number": "19184",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Jung,Yeonhak",
             "days": "R",
@@ -1018,11 +974,11 @@
     "KIN 272": {
         "19361": {
             "class_number": "19361",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Mena,Derek",
             "days": "T",
-            "location": "RE160",
+            "location": "RE159",
             "start_time": "1600h",
             "end_time": "1740h"
         }
@@ -1030,7 +986,7 @@
     "KIN 272L": {
         "19362": {
             "class_number": "19362",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Mena,Derek",
             "days": "T",
@@ -1048,11 +1004,11 @@
             "days": "MW",
             "location": "ONLINE",
             "start_time": "0800h",
-            "end_time": "0915h"
+            "end_time": "0850h"
         },
         "19364": {
             "class_number": "19364",
-            "enrollment_cap": 20,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Mcclain,Christopher S",
             "days": "TR",
@@ -1072,7 +1028,7 @@
         },
         "19503": {
             "class_number": "19503",
-            "enrollment_cap": 29,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Mcclain,Christopher S",
             "days": "F",
@@ -1082,7 +1038,7 @@
         },
         "19952": {
             "class_number": "19952",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Khachatryan,Nvard",
             "days": "M",
@@ -1094,7 +1050,7 @@
     "KIN 303": {
         "20866": {
             "class_number": "20866",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Hatcher,Kevin",
             "days": "MW",
@@ -1106,7 +1062,7 @@
     "KIN 305": {
         "19382": {
             "class_number": "19382",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Hatcher,Kevin",
             "days": "MW",
@@ -1148,7 +1104,7 @@
     "KIN 306": {
         "18743": {
             "class_number": "18743",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Smith,Daniel",
             "days": "MW",
@@ -1188,7 +1144,7 @@
         },
         "19415": {
             "class_number": "19415",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Galli,Nick A",
             "days": null,
@@ -1200,7 +1156,7 @@
     "KIN 310": {
         "19975": {
             "class_number": "19975",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Jensen,Jacob Cannon",
             "days": "W",
@@ -1212,7 +1168,7 @@
     "KIN 311": {
         "18746": {
             "class_number": "18746",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Truong,Jacqueline",
             "days": "MW",
@@ -1222,7 +1178,7 @@
         },
         "18880": {
             "class_number": "18880",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Jung,Taeyou",
             "days": "MW",
@@ -1244,7 +1200,7 @@
             "class_number": "19506",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Garcia,Liz M",
+            "instructor": "Truong,Jacqueline",
             "days": "TR",
             "location": "BC140",
             "start_time": "0800h",
@@ -1252,7 +1208,7 @@
         },
         "19507": {
             "class_number": "19507",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Jung,Taeyou",
             "days": "TR",
@@ -1262,7 +1218,7 @@
         },
         "19604": {
             "class_number": "19604",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Garcia,Liz M",
             "days": "TR",
@@ -1284,7 +1240,7 @@
         },
         "18881": {
             "class_number": "18881",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Garcia,Liz M",
             "days": null,
@@ -1304,7 +1260,7 @@
         },
         "19508": {
             "class_number": "19508",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Truong,Jacqueline",
             "days": null,
@@ -1314,7 +1270,7 @@
         },
         "19509": {
             "class_number": "19509",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Jung,Taeyou",
             "days": null,
@@ -1324,7 +1280,7 @@
         },
         "19605": {
             "class_number": "19605",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Garcia,Liz M",
             "days": null,
@@ -1336,7 +1292,7 @@
     "KIN 313": {
         "18761": {
             "class_number": "18761",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Truong,Jacqueline",
             "days": "MW",
@@ -1346,9 +1302,9 @@
         },
         "18762": {
             "class_number": "18762",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Hurtado,Ileana M",
+            "instructor": "Brolsma,Donald J",
             "days": "MW",
             "location": "BC126",
             "start_time": "1200h",
@@ -1356,9 +1312,9 @@
         },
         "19032": {
             "class_number": "19032",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Todd,Teri A",
+            "instructor": "Garcia,Liz M",
             "days": "MW",
             "location": "BC126",
             "start_time": "1530h",
@@ -1366,7 +1322,7 @@
         },
         "19510": {
             "class_number": "19510",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Garcia,Liz M",
             "days": "TR",
@@ -1378,41 +1334,41 @@
     "KIN 313L": {
         "19185": {
             "class_number": "19185",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Truong,Jacqueline",
             "days": null,
-            "location": "ONCAMP",
+            "location": "TBA",
             "start_time": "ARR",
             "end_time": "ARR"
         },
         "19186": {
             "class_number": "19186",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Hurtado,Ileana M",
+            "instructor": "Brolsma,Donald J",
             "days": null,
-            "location": "ONCAMP",
+            "location": "TBA",
             "start_time": "ARR",
             "end_time": "ARR"
         },
         "19187": {
             "class_number": "19187",
-            "enrollment_cap": 12,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Todd,Teri A",
+            "instructor": "Staff",
             "days": null,
-            "location": "ONCAMP",
+            "location": "TBA",
             "start_time": "ARR",
             "end_time": "ARR"
         },
         "19512": {
             "class_number": "19512",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Garcia,Liz M",
             "days": null,
-            "location": "ONCAMP",
+            "location": "TBA",
             "start_time": "ARR",
             "end_time": "ARR"
         }
@@ -1420,7 +1376,7 @@
     "KIN 314": {
         "18748": {
             "class_number": "18748",
-            "enrollment_cap": 0,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "M",
@@ -1430,7 +1386,7 @@
         },
         "18750": {
             "class_number": "18750",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Eusanio,Jacqueline C",
             "days": "W",
@@ -1442,7 +1398,7 @@
     "KIN 314L": {
         "18749": {
             "class_number": "18749",
-            "enrollment_cap": 0,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "M",
@@ -1452,7 +1408,7 @@
         },
         "18751": {
             "class_number": "18751",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Eusanio,Jacqueline C",
             "days": "W",
@@ -1464,7 +1420,7 @@
     "KIN 315": {
         "19016": {
             "class_number": "19016",
-            "enrollment_cap": 8,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Eusanio,Jacqueline C",
             "days": "T",
@@ -1476,7 +1432,7 @@
     "KIN 315L": {
         "19017": {
             "class_number": "19017",
-            "enrollment_cap": 8,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Eusanio,Jacqueline C",
             "days": "R",
@@ -1488,7 +1444,7 @@
     "KIN 318": {
         "19018": {
             "class_number": "19018",
-            "enrollment_cap": 6,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Thomson,Paula Susan",
             "days": "MWF",
@@ -1500,9 +1456,9 @@
     "KIN 321": {
         "19744": {
             "class_number": "19744",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructor": "Thomson,Paula Susan",
+            "instructor": "Staff",
             "days": "R",
             "location": "RE292",
             "start_time": "1900h",
@@ -1512,7 +1468,7 @@
     "KIN 336": {
         "19606": {
             "class_number": "19606",
-            "enrollment_cap": 1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Islam,Shabnam Akhter",
             "days": "MW",
@@ -1522,7 +1478,7 @@
         },
         "19745": {
             "class_number": "19745",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Islam,Shabnam Akhter",
             "days": "TR",
@@ -1536,7 +1492,7 @@
             "enrollment_count": 0,
             "instructor": "Guillory,Ivan K",
             "days": "F",
-            "location": "RE279",
+            "location": "JD2524",
             "start_time": "1200h",
             "end_time": "1340h"
         }
@@ -1544,7 +1500,7 @@
     "KIN 336L": {
         "19607": {
             "class_number": "19607",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Watkins,Travis B",
             "days": "MW",
@@ -1554,7 +1510,7 @@
         },
         "19608": {
             "class_number": "19608",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Watkins,Travis B",
             "days": "TR",
@@ -1564,7 +1520,7 @@
         },
         "19747": {
             "class_number": "19747",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Islam,Shabnam Akhter",
             "days": "TR",
@@ -1606,7 +1562,7 @@
     "KIN 337": {
         "19648": {
             "class_number": "19648",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "West-Sell,Sharon A",
             "days": null,
@@ -1616,7 +1572,7 @@
         },
         "19652": {
             "class_number": "19652",
-            "enrollment_cap": 19,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rodriguez,Michelle",
             "days": "MW",
@@ -1626,7 +1582,7 @@
         },
         "19891": {
             "class_number": "19891",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Rodriguez,Michelle",
             "days": "MW",
@@ -1638,7 +1594,7 @@
     "KIN 337L": {
         "19646": {
             "class_number": "19646",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -1648,7 +1604,7 @@
         },
         "19647": {
             "class_number": "19647",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Curtis,Emily Catherine",
             "days": "W",
@@ -1658,7 +1614,7 @@
         },
         "19653": {
             "class_number": "19653",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -1668,7 +1624,7 @@
         },
         "19654": {
             "class_number": "19654",
-            "enrollment_cap": 14,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Curtis,Emily Catherine",
             "days": "W",
@@ -1678,11 +1634,11 @@
         },
         "19892": {
             "class_number": "19892",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Curtis,Emily Catherine",
             "days": "W",
-            "location": "RE151",
+            "location": "RE172",
             "start_time": "1600h",
             "end_time": "1740h"
         },
@@ -1700,7 +1656,7 @@
     "KIN 345": {
         "18754": {
             "class_number": "18754",
-            "enrollment_cap": 1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Martinez,Vincent Gregory Falcon",
             "days": "M",
@@ -1710,7 +1666,7 @@
         },
         "18756": {
             "class_number": "18756",
-            "enrollment_cap": 0,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Martinez,Vincent Gregory Falcon",
             "days": "MW",
@@ -1722,7 +1678,7 @@
             "class_number": "19269",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Flanagan,Sean P",
+            "instructor": "Farr,John W",
             "days": "TR",
             "location": "RE155",
             "start_time": "0930h",
@@ -1730,7 +1686,7 @@
         },
         "19369": {
             "class_number": "19369",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mcclain,Christopher S",
             "days": "TR",
@@ -1740,7 +1696,7 @@
         },
         "19609": {
             "class_number": "19609",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mcclain,Christopher S",
             "days": "F",
@@ -1752,7 +1708,7 @@
     "KIN 345L": {
         "18757": {
             "class_number": "18757",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Martinez,Vincent Gregory Falcon",
             "days": "M",
@@ -1762,7 +1718,7 @@
         },
         "18765": {
             "class_number": "18765",
-            "enrollment_cap": 3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -1772,7 +1728,7 @@
         },
         "18766": {
             "class_number": "18766",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
@@ -1822,7 +1778,7 @@
         },
         "19515": {
             "class_number": "19515",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
@@ -1864,17 +1820,17 @@
         },
         "18759": {
             "class_number": "18759",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Fleck,Eve S",
             "days": "MW",
-            "location": "SQ102",
+            "location": "SG105",
             "start_time": "1100h",
             "end_time": "1215h"
         },
         "18758": {
             "class_number": "18758",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Fleck,Eve S",
             "days": "T",
@@ -1882,19 +1838,29 @@
             "start_time": "1600h",
             "end_time": "1845h"
         },
+        "19271": {
+            "class_number": "19271",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Fleck,Eve S",
+            "days": "MW",
+            "location": "UL002",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "19424": {
             "class_number": "19424",
             "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Fleck,Eve S",
             "days": "R",
-            "location": "JD1610",
+            "location": "RE278",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         "19517": {
             "class_number": "19517",
-            "enrollment_cap": 21,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Yaspelkis III,Ben B",
             "days": "TR",
@@ -1904,11 +1870,11 @@
         },
         "19894": {
             "class_number": "19894",
-            "enrollment_cap": 21,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Yaspelkis III,Ben B",
             "days": "R",
-            "location": "JD1600",
+            "location": "RE159",
             "start_time": "1400h",
             "end_time": "1645h"
         }
@@ -1916,13 +1882,13 @@
     "KIN 346L": {
         "19754": {
             "class_number": "19754",
-            "enrollment_cap": 15,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "W",
-            "location": "RE279",
-            "start_time": "0730h",
-            "end_time": "0920h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "18985": {
             "class_number": "18985",
@@ -1936,13 +1902,13 @@
         },
         "19019": {
             "class_number": "19019",
-            "enrollment_cap": 9,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "RE151",
-            "start_time": "0900h",
-            "end_time": "1040h"
+            "instructor": "Khachatryan,Nvard",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         },
         "19020": {
             "class_number": "19020",
@@ -1966,7 +1932,7 @@
         },
         "19272": {
             "class_number": "19272",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Mcclain,Christopher S",
             "days": "M",
@@ -1986,19 +1952,19 @@
         },
         "19425": {
             "class_number": "19425",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "RE159",
-            "start_time": "1600h",
-            "end_time": "1740h"
+            "instructor": "Khachatryan,Nvard",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR"
         },
         "19426": {
             "class_number": "19426",
-            "enrollment_cap": 5,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Watkins,Travis B",
             "days": "F",
             "location": "RE151",
             "start_time": "1200h",
@@ -2006,9 +1972,9 @@
         },
         "19518": {
             "class_number": "19518",
-            "enrollment_cap": 8,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Watkins,Travis B",
             "days": "M",
             "location": "RE278",
             "start_time": "1500h",
@@ -2026,19 +1992,19 @@
         },
         "19895": {
             "class_number": "19895",
-            "enrollment_cap": 10,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "RE151",
-            "start_time": "1700h",
-            "end_time": "1840h"
+            "instructor": "Khachatryan,Nvard",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "KIN 347": {
         "18760": {
             "class_number": "18760",
-            "enrollment_cap": 7,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Fischer,Jay R",
             "days": "F",
@@ -2048,7 +2014,7 @@
         },
         "19959": {
             "class_number": "19959",
-            "enrollment_cap": 14,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Fischer,Jay R",
             "days": "F",
@@ -2060,7 +2026,7 @@
     "KIN 371": {
         "19379": {
             "class_number": "19379",
-            "enrollment_cap": 9,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Jung,Yeonhak",
             "days": "M",
@@ -2072,7 +2038,7 @@
     "KIN 371L": {
         "19378": {
             "class_number": "19378",
-            "enrollment_cap": 9,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Jung,Yeonhak",
             "days": "W",
@@ -2084,7 +2050,7 @@
     "KIN 377": {
         "19390": {
             "class_number": "19390",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Lamonica,Christine",
             "days": "MW",
@@ -2094,7 +2060,7 @@
         },
         "19391": {
             "class_number": "19391",
-            "enrollment_cap": 3,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Lamonica,Christine",
             "days": "MW",
@@ -2204,7 +2170,7 @@
     "KIN 406": {
         "19856": {
             "class_number": "19856",
-            "enrollment_cap": 23,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Smith,Daniel",
             "days": "TR",
@@ -2216,7 +2182,7 @@
     "KIN 407": {
         "18883": {
             "class_number": "18883",
-            "enrollment_cap": 21,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Bolsmann,Chris",
             "days": "F",
@@ -2238,7 +2204,7 @@
     "KIN 408": {
         "19755": {
             "class_number": "19755",
-            "enrollment_cap": 15,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Hatcher,Kevin",
             "days": "F",
@@ -2250,7 +2216,7 @@
     "KIN 409": {
         "19857": {
             "class_number": "19857",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Jensen,Jacob Cannon",
             "days": "R",
@@ -2260,7 +2226,7 @@
         },
         "19887": {
             "class_number": "19887",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Jensen,Jacob Cannon",
             "days": "W",
@@ -2272,9 +2238,9 @@
     "KIN 410": {
         "19639": {
             "class_number": "19639",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Samson,Ashley A",
+            "instructor": "Weinstein,Aaron J",
             "days": "W",
             "location": "ONLINE",
             "start_time": "1600h",
@@ -2282,7 +2248,7 @@
         },
         "19888": {
             "class_number": "19888",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Jensen,Jacob Cannon",
             "days": "R",
@@ -2306,7 +2272,7 @@
     "KIN 417": {
         "19189": {
             "class_number": "19189",
-            "enrollment_cap": 18,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Farr,John W",
             "days": "TR",
@@ -2316,7 +2282,7 @@
         },
         "19658": {
             "class_number": "19658",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Marchetti,Paulo H",
             "days": "F",
@@ -2338,7 +2304,7 @@
         },
         "19613": {
             "class_number": "19613",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Farr,John W",
             "days": "R",
@@ -2348,7 +2314,7 @@
         },
         "19659": {
             "class_number": "19659",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Marchetti,Paulo H",
             "days": "F",
@@ -2358,7 +2324,7 @@
         },
         "19660": {
             "class_number": "19660",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Marchetti,Paulo H",
             "days": "F",
@@ -2370,7 +2336,7 @@
     "KIN 419": {
         "19033": {
             "class_number": "19033",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Rosenblatt,Evan R",
             "days": "F",
@@ -2382,7 +2348,7 @@
     "KIN 420": {
         "18884": {
             "class_number": "18884",
-            "enrollment_cap": 11,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Weinstein,Aaron J",
             "days": "R",
@@ -2392,7 +2358,7 @@
         },
         "19961": {
             "class_number": "19961",
-            "enrollment_cap": -1,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Weinstein,Aaron J",
             "days": null,
@@ -2404,7 +2370,7 @@
     "KIN 427": {
         "19204": {
             "class_number": "19204",
-            "enrollment_cap": 15,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Thomson,Paula Susan",
             "days": "W",
@@ -2428,7 +2394,7 @@
     "KIN 436": {
         "19616": {
             "class_number": "19616",
-            "enrollment_cap": 12,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Yaspelkis III,Ben B",
             "days": "TR",
@@ -2438,7 +2404,7 @@
         },
         "19650": {
             "class_number": "19650",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Jalilvand Tehrani,Farzad",
             "days": null,
@@ -2450,13 +2416,23 @@
     "KIN 445": {
         "18764": {
             "class_number": "18764",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Flanagan,Sean P",
             "days": "W",
             "location": "RE276",
             "start_time": "1600h",
             "end_time": "1845h"
+        },
+        "19519": {
+            "class_number": "19519",
+            "enrollment_cap": 18,
+            "enrollment_count": 0,
+            "instructor": "Flanagan,Sean P",
+            "days": "W",
+            "location": "RE276",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "19538": {
             "class_number": "19538",
@@ -2470,7 +2446,7 @@
         },
         "19764": {
             "class_number": "19764",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Jarvis,Danielle N",
             "days": "TR",
@@ -2492,7 +2468,7 @@
     "KIN 446": {
         "19119": {
             "class_number": "19119",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Amiss,C Scott",
             "days": "M",
@@ -2502,7 +2478,7 @@
         },
         "19120": {
             "class_number": "19120",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Nicoll,Justin",
             "days": "T",
@@ -2522,7 +2498,7 @@
         },
         "19655": {
             "class_number": "19655",
-            "enrollment_cap": 8,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Andrews,Richard A",
             "days": "M",
@@ -2532,7 +2508,7 @@
         },
         "19766": {
             "class_number": "19766",
-            "enrollment_cap": 3,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Andrews,Richard A",
             "days": "M",
@@ -2542,7 +2518,7 @@
         },
         "19769": {
             "class_number": "19769",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Amiss,C Scott",
             "days": "M",
@@ -2554,17 +2530,17 @@
     "KIN 446L": {
         "19121": {
             "class_number": "19121",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Amiss,C Scott",
             "days": "T",
-            "location": "RE278",
+            "location": "SG103",
             "start_time": "0800h",
             "end_time": "1045h"
         },
         "19122": {
             "class_number": "19122",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Amiss,C Scott",
             "days": "R",
@@ -2574,7 +2550,7 @@
         },
         "19123": {
             "class_number": "19123",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Nicoll,Justin",
             "days": "T",
@@ -2584,7 +2560,7 @@
         },
         "19243": {
             "class_number": "19243",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Nicoll,Justin",
             "days": "R",
@@ -2614,7 +2590,7 @@
         },
         "19656": {
             "class_number": "19656",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Andrews,Richard A",
             "days": "T",
@@ -2624,7 +2600,7 @@
         },
         "19657": {
             "class_number": "19657",
-            "enrollment_cap": 8,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Andrews,Richard A",
             "days": "R",
@@ -2644,7 +2620,7 @@
         },
         "19768": {
             "class_number": "19768",
-            "enrollment_cap": 0,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Andrews,Richard A",
             "days": "W",
@@ -2654,7 +2630,7 @@
         },
         "19770": {
             "class_number": "19770",
-            "enrollment_cap": 1,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Amiss,C Scott",
             "days": "W",
@@ -2664,7 +2640,7 @@
         },
         "19771": {
             "class_number": "19771",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Amiss,C Scott",
             "days": "W",
@@ -2676,9 +2652,9 @@
     "KIN 451": {
         "19010": {
             "class_number": "19010",
-            "enrollment_cap": 14,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Hurtado,Ileana M",
+            "instructor": "Garcia,Liz M",
             "days": "M",
             "location": "BC156",
             "start_time": "1630h",
@@ -2688,9 +2664,9 @@
     "KIN 451L": {
         "19011": {
             "class_number": "19011",
-            "enrollment_cap": 14,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Hurtado,Ileana M",
+            "instructor": "Garcia,Liz M",
             "days": "W",
             "location": "BC130",
             "start_time": "1630h",
@@ -2700,7 +2676,7 @@
     "KIN 452": {
         "19965": {
             "class_number": "19965",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Todd,Teri A",
             "days": "M",
@@ -2712,7 +2688,7 @@
     "KIN 452L": {
         "19966": {
             "class_number": "19966",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Todd,Teri A",
             "days": "MW",
@@ -2724,7 +2700,7 @@
     "KIN 456": {
         "19176": {
             "class_number": "19176",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Guillory,Ivan K",
             "days": "MW",
@@ -2734,7 +2710,7 @@
         },
         "19548": {
             "class_number": "19548",
-            "enrollment_cap": 1,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Guillory,Ivan K",
             "days": "MW",
@@ -2744,7 +2720,7 @@
         },
         "19651": {
             "class_number": "19651",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Guillory,Ivan K",
             "days": "MW",
@@ -2756,7 +2732,7 @@
     "KIN 470": {
         "18770": {
             "class_number": "18770",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Mena,Derek",
             "days": "M",
@@ -2776,7 +2752,7 @@
         },
         "18778": {
             "class_number": "18778",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Clemmensen III,James H",
             "days": "W",
@@ -2788,7 +2764,7 @@
     "KIN 470L": {
         "18771": {
             "class_number": "18771",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Mena,Derek",
             "days": "M",
@@ -2808,7 +2784,7 @@
         },
         "18779": {
             "class_number": "18779",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Clemmensen III,James H",
             "days": "W",
@@ -2820,7 +2796,7 @@
     "KIN 476": {
         "19756": {
             "class_number": "19756",
-            "enrollment_cap": 9,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Whiting,William C",
             "days": "MW",
@@ -2830,7 +2806,7 @@
         },
         "19765": {
             "class_number": "19765",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Whiting,William C",
             "days": "MW",
@@ -2842,7 +2818,7 @@
     "KIN 477": {
         "19387": {
             "class_number": "19387",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pena,Rebecca A",
             "days": "MW",
@@ -2852,7 +2828,7 @@
         },
         "19388": {
             "class_number": "19388",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Pena,Rebecca A",
             "days": "MW",
@@ -2862,7 +2838,7 @@
         },
         "19618": {
             "class_number": "19618",
-            "enrollment_cap": 20,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Perez Cuevas,Lino de Jesus",
             "days": "R",
@@ -2872,7 +2848,7 @@
         },
         "19757": {
             "class_number": "19757",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Pena,Rebecca A",
             "days": "M",
@@ -2908,13 +2884,13 @@
             "enrollment_count": 0,
             "instructor": "Perez Cuevas,Lino de Jesus",
             "days": "W",
-            "location": "SH207",
+            "location": "RE160",
             "start_time": "1600h",
             "end_time": "1740h"
         },
         "19626": {
             "class_number": "19626",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -2924,7 +2900,7 @@
         },
         "19627": {
             "class_number": "19627",
-            "enrollment_cap": 7,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Perez Cuevas,Lino de Jesus",
             "days": "W",
@@ -2934,7 +2910,7 @@
         },
         "19628": {
             "class_number": "19628",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Todd,Teri A",
             "days": "T",
@@ -2974,7 +2950,7 @@
         },
         "19758": {
             "class_number": "19758",
-            "enrollment_cap": 8,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
@@ -2984,7 +2960,7 @@
         },
         "19759": {
             "class_number": "19759",
-            "enrollment_cap": 7,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
@@ -2996,7 +2972,7 @@
     "KIN 479": {
         "19866": {
             "class_number": "19866",
-            "enrollment_cap": -1,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Hinkel-Lipsker,Jacob W",
             "days": null,
@@ -3008,7 +2984,7 @@
     "KIN 481": {
         "20025": {
             "class_number": "20025",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Linden,Andy",
             "days": "T",
@@ -3022,7 +2998,7 @@
             "class_number": "19190",
             "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Linden,Andy",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -3030,7 +3006,7 @@
         },
         "19962": {
             "class_number": "19962",
-            "enrollment_cap": 13,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Marchetti,Paulo H",
             "days": null,
@@ -3042,7 +3018,7 @@
     "KIN 494B": {
         "19191": {
             "class_number": "19191",
-            "enrollment_cap": 11,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Linden,Andy",
             "days": null,
@@ -3052,7 +3028,7 @@
         },
         "19979": {
             "class_number": "19979",
-            "enrollment_cap": 15,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Todd,Teri A",
             "days": null,
@@ -3076,7 +3052,7 @@
     "KIN 498WC": {
         "19006": {
             "class_number": "19006",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Rosenthal,Bethana A",
             "days": "R",
@@ -3116,7 +3092,7 @@
             "enrollment_count": 0,
             "instructor": "Jarvis,Danielle N",
             "days": "T",
-            "location": "JD1552",
+            "location": "RE151",
             "start_time": "1600h",
             "end_time": "1845h"
         }
@@ -3124,7 +3100,7 @@
     "KIN 520": {
         "20026": {
             "class_number": "20026",
-            "enrollment_cap": 10,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Weinstein,Aaron J",
             "days": "M",
@@ -3136,31 +3112,31 @@
     "KIN 526": {
         "19970": {
             "class_number": "19970",
-            "enrollment_cap": 13,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Jung,Yeonhak",
-            "days": "T",
-            "location": "RE279",
-            "start_time": "1900h",
-            "end_time": "2040h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "KIN 526L": {
         "19969": {
             "class_number": "19969",
-            "enrollment_cap": 13,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Jung,Yeonhak",
-            "days": "T",
-            "location": "RE279",
-            "start_time": "2100h",
-            "end_time": "2150h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "KIN 595PE": {
         "18774": {
             "class_number": "18774",
-            "enrollment_cap": 16,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Mena,Derek",
             "days": "R",
@@ -3170,7 +3146,7 @@
         },
         "19763": {
             "class_number": "19763",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mena,Derek",
             "days": "T",
@@ -3180,7 +3156,7 @@
         },
         "20117": {
             "class_number": "20117",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Mena,Derek",
             "days": "R",
@@ -3192,7 +3168,7 @@
     "KIN 601": {
         "19971": {
             "class_number": "19971",
-            "enrollment_cap": 10,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Hinkel-Lipsker,Jacob W",
             "days": "M",
@@ -3204,7 +3180,7 @@
     "KIN 605": {
         "18867": {
             "class_number": "18867",
-            "enrollment_cap": 6,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Jaque,Victoria",
             "days": "M",
@@ -3216,7 +3192,7 @@
     "KIN 610": {
         "19527": {
             "class_number": "19527",
-            "enrollment_cap": 4,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Furtado Jr,Ovande",
             "days": "R",
@@ -3228,7 +3204,7 @@
     "KIN 612": {
         "19528": {
             "class_number": "19528",
-            "enrollment_cap": 12,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Bolsmann,Chris",
             "days": "W",
@@ -3240,7 +3216,7 @@
     "KIN 617": {
         "19974": {
             "class_number": "19974",
-            "enrollment_cap": 9,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Marchetti,Paulo H",
             "days": "W",
@@ -3252,13 +3228,13 @@
     "KIN 647": {
         "19116": {
             "class_number": "19116",
-            "enrollment_cap": 14,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
-            "instructor": "Jung,Taeyou",
-            "days": "R",
-            "location": "RE155",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "KIN 696A": {
@@ -3276,9 +3252,9 @@
     "KIN 696C": {
         "18776": {
             "class_number": "18776",
-            "enrollment_cap": -1,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
-            "instructor": "Jaque,Victoria",
+            "instructor": "Staff",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
@@ -3300,9 +3276,9 @@
     "KIN 698C": {
         "18777": {
             "class_number": "18777",
-            "enrollment_cap": -2,
+            "enrollment_cap": -10,
             "enrollment_count": 0,
-            "instructor": "Jaque,Victoria",
+            "instructor": "Staff",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",
@@ -3314,7 +3290,7 @@
             "class_number": "20107",
             "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Jaque,Victoria",
+            "instructor": "Staff",
             "days": null,
             "location": "TBA",
             "start_time": "ARR",

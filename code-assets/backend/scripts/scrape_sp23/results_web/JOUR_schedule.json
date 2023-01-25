@@ -2,7 +2,7 @@
     "JOUR 100": {
         "11099": {
             "class_number": "11099",
-            "enrollment_cap": 46,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Kim,Taehyun",
             "days": "TR",
@@ -14,7 +14,7 @@
     "JOUR 110": {
         "11717": {
             "class_number": "11717",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kim,Taehyun",
             "days": "M",
@@ -36,7 +36,7 @@
     "JOUR 110L": {
         "11723": {
             "class_number": "11723",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kim,Taehyun",
             "days": "W",
@@ -102,7 +102,7 @@
     "JOUR 225": {
         "11993": {
             "class_number": "11993",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Macchiarella,Gretchen",
             "days": "M",
@@ -124,7 +124,7 @@
     "JOUR 250": {
         "11429": {
             "class_number": "11429",
-            "enrollment_cap": 37,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Blumenkrantz,David A",
             "days": "M",
@@ -136,7 +136,7 @@
     "JOUR 255": {
         "11903": {
             "class_number": "11903",
-            "enrollment_cap": 15,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Hoffman,Edward",
             "days": "R",
@@ -148,7 +148,7 @@
     "JOUR 310": {
         "10646": {
             "class_number": "10646",
-            "enrollment_cap": 6,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bien,Julie S",
             "days": "M",
@@ -157,24 +157,12 @@
             "end_time": "1345h"
         }
     },
-    "JOUR 315": {
-        "10055": {
-            "class_number": "10055",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Bender,Aron W",
-            "days": "R",
-            "location": "MZ211",
-            "start_time": "1230h",
-            "end_time": "1515h"
-        }
-    },
     "JOUR 325": {
         "10536": {
             "class_number": "10536",
-            "enrollment_cap": 6,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Grewe,David L",
             "days": "T",
             "location": "MZ211",
             "start_time": "1400h",
@@ -182,7 +170,7 @@
         },
         "10858": {
             "class_number": "10858",
-            "enrollment_cap": 10,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Fonseca,Ryan A",
             "days": "R",
@@ -192,19 +180,19 @@
         },
         "11324": {
             "class_number": "11324",
-            "enrollment_cap": 11,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Grewe,David L",
-            "days": "M",
-            "location": "MZ211",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "JOUR 341": {
         "10598": {
             "class_number": "10598",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Long,Stacy K",
             "days": "M",
@@ -216,7 +204,7 @@
     "JOUR 350": {
         "10056": {
             "class_number": "10056",
-            "enrollment_cap": 13,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Grewe,David L",
             "days": "M",
@@ -228,7 +216,7 @@
     "JOUR 365": {
         "11909": {
             "class_number": "11909",
-            "enrollment_cap": 30,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "MW",
@@ -238,7 +226,7 @@
         },
         "12036": {
             "class_number": "12036",
-            "enrollment_cap": 43,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "TR",
@@ -250,7 +238,7 @@
     "JOUR 371": {
         "10532": {
             "class_number": "10532",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "MW",
@@ -262,7 +250,7 @@
     "JOUR 372": {
         "10057": {
             "class_number": "10057",
-            "enrollment_cap": 35,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "TR",
@@ -274,7 +262,7 @@
     "JOUR 375": {
         "11920": {
             "class_number": "11920",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bien,Julie S",
             "days": "W",
@@ -284,7 +272,7 @@
         },
         "11997": {
             "class_number": "11997",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bien,Julie S",
             "days": "R",
@@ -296,7 +284,7 @@
     "JOUR 395B": {
         "11496": {
             "class_number": "11496",
-            "enrollment_cap": 3,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Bender,Aron W",
             "days": null,
@@ -308,11 +296,11 @@
     "JOUR 395C": {
         "11905": {
             "class_number": "11905",
-            "enrollment_cap": 3,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Bender,Aron W",
             "days": "M",
-            "location": "MZ360",
+            "location": "MZ103",
             "start_time": "1400h",
             "end_time": "1540h"
         }
@@ -344,7 +332,7 @@
     "JOUR 398B": {
         "10651": {
             "class_number": "10651",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Long,Stacy K",
             "days": null,
@@ -356,7 +344,7 @@
     "JOUR 398C": {
         "11907": {
             "class_number": "11907",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Long,Stacy K",
             "days": "W",
@@ -368,7 +356,7 @@
     "JOUR 400": {
         "10533": {
             "class_number": "10533",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Blakey,Elizabeth E",
             "days": "MW",
@@ -378,7 +366,7 @@
         },
         "10534": {
             "class_number": "10534",
-            "enrollment_cap": 21,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Blakey,Elizabeth E",
             "days": "R",
@@ -402,9 +390,9 @@
     "JOUR 415": {
         "10540": {
             "class_number": "10540",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Duran,Jose",
             "days": "T",
             "location": "MZ211",
             "start_time": "1100h",
@@ -414,9 +402,9 @@
     "JOUR 430": {
         "11908": {
             "class_number": "11908",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Keoseyan,Ruben",
             "days": "R",
             "location": "MZ150E",
             "start_time": "1600h",
@@ -426,7 +414,7 @@
     "JOUR 440": {
         "10061": {
             "class_number": "10061",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Cathcart,Christopher",
             "days": "M",
@@ -438,9 +426,9 @@
     "JOUR 445": {
         "10541": {
             "class_number": "10541",
-            "enrollment_cap": 10,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Herrera,Carlos Jonathan",
             "days": "M",
             "location": "MZ150E",
             "start_time": "1100h",
@@ -462,9 +450,9 @@
     "JOUR 474SLJ": {
         "10599": {
             "class_number": "10599",
-            "enrollment_cap": 7,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Duran,Agustin",
             "days": "F",
             "location": "MZ113",
             "start_time": "1100h",
@@ -483,22 +471,10 @@
             "end_time": "1815h"
         }
     },
-    "JOUR 494AEE": {
-        "11585": {
-            "class_number": "11585",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Bien,Julie S",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
     "JOUR 494BEE": {
         "11586": {
             "class_number": "11586",
-            "enrollment_cap": 12,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Bien,Julie S",
             "days": null,
@@ -510,7 +486,7 @@
     "JOUR 495DA": {
         "20897": {
             "class_number": "20897",
-            "enrollment_cap": 3,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Macchiarella,Gretchen",
             "days": "R",
@@ -534,7 +510,7 @@
     "JOUR 495SJ": {
         "11925": {
             "class_number": "11925",
-            "enrollment_cap": 3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Whyte,Timothy J",
             "days": "T",
@@ -556,7 +532,7 @@
         },
         "10067": {
             "class_number": "10067",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Cathcart,Christopher",
             "days": "T",
@@ -566,7 +542,7 @@
         },
         "10815": {
             "class_number": "10815",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "El Zahed,Sahar Y",
             "days": "T",
@@ -576,7 +552,7 @@
         },
         "10063": {
             "class_number": "10063",
-            "enrollment_cap": 5,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Molina,Joshua",
             "days": "T",
@@ -586,7 +562,7 @@
         },
         "10546": {
             "class_number": "10546",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kim,Taehyun",
             "days": "M",
@@ -596,7 +572,7 @@
         },
         "10066": {
             "class_number": "10066",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Grewe,David L",
             "days": "R",
@@ -606,7 +582,7 @@
         },
         "11154": {
             "class_number": "11154",
-            "enrollment_cap": 10,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "W",

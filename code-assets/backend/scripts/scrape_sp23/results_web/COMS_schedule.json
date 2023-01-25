@@ -2,7 +2,7 @@
     "COMS 150": {
         "11183": {
             "class_number": "11183",
-            "enrollment_cap": 21,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Picarelli,Randi Rulayne",
             "days": "TR",
@@ -16,19 +16,19 @@
             "class_number": "10625",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Washburne,Patrice A",
             "days": "MW",
-            "location": "MZ111",
+            "location": "MZ122",
             "start_time": "0800h",
             "end_time": "0915h"
         },
         "10948": {
             "class_number": "10948",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
-            "location": "MZ115",
+            "location": "MZ111",
             "start_time": "0800h",
             "end_time": "0915h"
         },
@@ -54,7 +54,7 @@
         },
         "10627": {
             "class_number": "10627",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kalaji,Motasem",
             "days": "MW",
@@ -86,7 +86,7 @@
             "class_number": "10951",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Heidt,Stephen",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "0930h",
@@ -124,9 +124,9 @@
         },
         "10641": {
             "class_number": "10641",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Anderson,Darla R",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1230h",
@@ -134,7 +134,7 @@
         },
         "10954": {
             "class_number": "10954",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Parker,Todd L",
             "days": "MW",
@@ -148,7 +148,7 @@
             "enrollment_count": 0,
             "instructor": "Washburne,Patrice A",
             "days": "MW",
-            "location": "MZ103",
+            "location": "MZ361",
             "start_time": "1400h",
             "end_time": "1515h"
         },
@@ -166,9 +166,9 @@
             "class_number": "10643",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Marshall,Jennifer A",
             "days": "TR",
-            "location": "MZ111",
+            "location": "MZ363",
             "start_time": "0800h",
             "end_time": "0915h"
         },
@@ -178,7 +178,7 @@
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "TR",
-            "location": "MZ363",
+            "location": "MZ111",
             "start_time": "0800h",
             "end_time": "0915h"
         },
@@ -331,12 +331,32 @@
             "location": "MZ115",
             "start_time": "1600h",
             "end_time": "1845h"
+        },
+        "11199": {
+            "class_number": "11199",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Ashoori,Jasmine Y",
+            "days": "TR",
+            "location": "SH314",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "11270": {
+            "class_number": "11270",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "DeLarkin,Iliana P",
+            "days": "MW",
+            "location": "MZ115",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
     "COMS 151HON": {
         "10793": {
             "class_number": "10793",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "MW",
@@ -358,23 +378,11 @@
     "COMS 195": {
         "10528": {
             "class_number": "10528",
-            "enrollment_cap": 22,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Lemuel,Joel M",
             "days": "R",
             "location": "MZ215",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "COMS 199": {
-        "10555": {
-            "class_number": "10555",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Huell,Jade C",
-            "days": "R",
-            "location": "MZ130",
             "start_time": "1600h",
             "end_time": "1845h"
         }
@@ -392,7 +400,7 @@
         },
         "10645": {
             "class_number": "10645",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Lemuel,Joel M",
             "days": "TR",
@@ -434,7 +442,7 @@
     "COMS 251": {
         "11397": {
             "class_number": "11397",
-            "enrollment_cap": 23,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Anderson,Darla R",
             "days": "MW",
@@ -456,7 +464,7 @@
         },
         "10754": {
             "class_number": "10754",
-            "enrollment_cap": 28,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Delgado PhD,Jenna Monique",
             "days": "MW",
@@ -466,25 +474,13 @@
         },
         "10961": {
             "class_number": "10961",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Delgado PhD,Jenna Monique",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
             "end_time": "ARR"
-        }
-    },
-    "COMS 303": {
-        "11189": {
-            "class_number": "11189",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Simpson,Helen",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
         }
     },
     "COMS 305": {
@@ -500,7 +496,7 @@
         },
         "20749": {
             "class_number": "20749",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Huell,Jade C",
             "days": "T",
@@ -512,17 +508,17 @@
     "COMS 309": {
         "10777": {
             "class_number": "10777",
-            "enrollment_cap": 21,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Tessman,Janice W",
-            "days": "M",
-            "location": "MZ115",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11064": {
             "class_number": "11064",
-            "enrollment_cap": 16,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "DeLarkin,Iliana P",
             "days": "TR",
@@ -542,7 +538,7 @@
         },
         "10814": {
             "class_number": "10814",
-            "enrollment_cap": 21,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Washburne,Patrice A",
             "days": "MW",
@@ -588,7 +584,7 @@
     "COMS 320": {
         "10639": {
             "class_number": "10639",
-            "enrollment_cap": 24,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Litke,Rebecca A",
             "days": "T",
@@ -600,7 +596,7 @@
     "COMS 321": {
         "11237": {
             "class_number": "11237",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "DeLarkin,Iliana P",
             "days": "TR",
@@ -610,7 +606,7 @@
         },
         "11238": {
             "class_number": "11238",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "McDonald,Kevin P",
             "days": "TR",
@@ -620,9 +616,9 @@
         },
         "11240": {
             "class_number": "11240",
-            "enrollment_cap": 14,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Heidt,Stephen",
+            "instructor": "McDonald,Kevin P",
             "days": "W",
             "location": "MZ111",
             "start_time": "1900h",
@@ -630,7 +626,7 @@
         },
         "11241": {
             "class_number": "11241",
-            "enrollment_cap": 14,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "McDonald,Kevin P",
             "days": "MW",
@@ -640,13 +636,13 @@
         },
         "11242": {
             "class_number": "11242",
-            "enrollment_cap": 23,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructor": "McDonald,Kevin P",
-            "days": "F",
-            "location": "MZ111",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11392": {
             "class_number": "11392",
@@ -662,7 +658,7 @@
     "COMS 323": {
         "11204": {
             "class_number": "11204",
-            "enrollment_cap": 13,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Hessamian,Gigi K",
             "days": "MW",
@@ -682,7 +678,7 @@
         },
         "11231": {
             "class_number": "11231",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Lemus,Daisy R",
             "days": null,
@@ -692,7 +688,7 @@
         },
         "11205": {
             "class_number": "11205",
-            "enrollment_cap": 9,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ayala,Joseph Daniel",
             "days": "T",
@@ -712,7 +708,7 @@
         },
         "11088": {
             "class_number": "11088",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ayala,Joseph Daniel",
             "days": "F",
@@ -722,7 +718,7 @@
         },
         "11092": {
             "class_number": "11092",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "LeRette,Denise",
             "days": "MW",
@@ -732,31 +728,41 @@
         },
         "11652": {
             "class_number": "11652",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "LeRette,Denise",
             "days": "MW",
             "location": "MZ122",
             "start_time": "1400h",
             "end_time": "1515h"
+        },
+        "11653": {
+            "class_number": "11653",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Andrade,Luis",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "COMS 323HON": {
         "20985": {
             "class_number": "20985",
-            "enrollment_cap": 27,
+            "enrollment_cap": 35,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
-            "location": "MZ122",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "COMS 325": {
         "10629": {
             "class_number": "10629",
-            "enrollment_cap": 17,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Menjivar,Michelle I",
             "days": "MW",
@@ -768,7 +774,7 @@
     "COMS 327": {
         "10633": {
             "class_number": "10633",
-            "enrollment_cap": 16,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Guzman,Jaime",
             "days": "MW",
@@ -778,7 +784,7 @@
         },
         "10916": {
             "class_number": "10916",
-            "enrollment_cap": 19,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Marston,Peter J",
             "days": "TR",
@@ -800,7 +806,7 @@
     "COMS 350": {
         "10630": {
             "class_number": "10630",
-            "enrollment_cap": 15,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Litke,Rebecca A",
             "days": "TR",
@@ -812,7 +818,7 @@
     "COMS 351": {
         "10929": {
             "class_number": "10929",
-            "enrollment_cap": 14,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "LeRette,Denise",
             "days": "MW",
@@ -822,7 +828,7 @@
         },
         "11243": {
             "class_number": "11243",
-            "enrollment_cap": 7,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Murray,Darrin S",
             "days": null,
@@ -832,7 +838,7 @@
         },
         "11388": {
             "class_number": "11388",
-            "enrollment_cap": 21,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Mega,Michele A",
             "days": "TR",
@@ -854,7 +860,7 @@
     "COMS 354": {
         "10631": {
             "class_number": "10631",
-            "enrollment_cap": 12,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Sun,Lin",
             "days": "TR",
@@ -866,7 +872,7 @@
     "COMS 356": {
         "10678": {
             "class_number": "10678",
-            "enrollment_cap": 20,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Sun,Lin",
             "days": "TR",
@@ -876,7 +882,7 @@
         },
         "11200": {
             "class_number": "11200",
-            "enrollment_cap": 23,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Murray,Darrin S",
             "days": "MW",
@@ -886,7 +892,7 @@
         },
         "10917": {
             "class_number": "10917",
-            "enrollment_cap": 25,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Opdycke,Kelly Louise",
             "days": "W",
@@ -896,7 +902,7 @@
         },
         "11083": {
             "class_number": "11083",
-            "enrollment_cap": 18,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Sun,Lin",
             "days": "TR",
@@ -906,7 +912,7 @@
         },
         "11236": {
             "class_number": "11236",
-            "enrollment_cap": 11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Gobin,Kristo V",
             "days": "M",
@@ -916,7 +922,7 @@
         },
         "11229": {
             "class_number": "11229",
-            "enrollment_cap": 22,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Picarelli,Randi Rulayne",
             "days": "TR",
@@ -926,7 +932,7 @@
         },
         "11186": {
             "class_number": "11186",
-            "enrollment_cap": 26,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Mega,Michele A",
             "days": "T",
@@ -936,7 +942,7 @@
         },
         "10679": {
             "class_number": "10679",
-            "enrollment_cap": 14,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Weiss,Justin M",
             "days": "R",
@@ -956,7 +962,7 @@
         },
         "11413": {
             "class_number": "11413",
-            "enrollment_cap": 21,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Murray,Darrin S",
             "days": "MW",
@@ -1014,9 +1020,19 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
+        "11556": {
+            "class_number": "11556",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
         "11557": {
             "class_number": "11557",
-            "enrollment_cap": 20,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Silverstein,Andrew Young",
             "days": "TR",
@@ -1048,7 +1064,7 @@
     "COMS 360": {
         "11084": {
             "class_number": "11084",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Picarelli,Randi Rulayne",
             "days": "MW",
@@ -1068,7 +1084,7 @@
         },
         "11213": {
             "class_number": "11213",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Gobin,Kristo V",
             "days": "T",
@@ -1095,6 +1111,16 @@
             "location": "ONLINE",
             "start_time": "ARR",
             "end_time": "ARR"
+        },
+        "11350": {
+            "class_number": "11350",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Gharabighi,Anasheh",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "COMS 395": {
@@ -1109,22 +1135,10 @@
             "end_time": "1845h"
         }
     },
-    "COMS 399": {
-        "11711": {
-            "class_number": "11711",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Huell,Jade C",
-            "days": "R",
-            "location": "MZ130",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
     "COMS 400C": {
         "12019": {
             "class_number": "12019",
-            "enrollment_cap": 30,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
             "instructor": "Lawson Jr,James M",
             "days": "T",
@@ -1136,7 +1150,7 @@
     "COMS 401": {
         "11206": {
             "class_number": "11206",
-            "enrollment_cap": 13,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Delgado PhD,Jenna Monique",
             "days": "MW",
@@ -1148,7 +1162,7 @@
     "COMS 404": {
         "11187": {
             "class_number": "11187",
-            "enrollment_cap": 9,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Marston,Peter J",
             "days": "T",
@@ -1160,21 +1174,21 @@
     "COMS 406": {
         "11807": {
             "class_number": "11807",
-            "enrollment_cap": 19,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Huell,Jade C",
-            "days": "R",
-            "location": "MZ130",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "COMS 410": {
         "11245": {
             "class_number": "11245",
-            "enrollment_cap": 7,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Huell,Jade C",
             "days": "TR",
             "location": "MZ115",
             "start_time": "1230h",
@@ -1184,7 +1198,7 @@
     "COMS 420": {
         "11550": {
             "class_number": "11550",
-            "enrollment_cap": 7,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Litke,Rebecca A",
             "days": "TR",
@@ -1196,9 +1210,19 @@
     "COMS 425": {
         "11214": {
             "class_number": "11214",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Lemuel,Joel M",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "11396": {
+            "class_number": "11396",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Heidt,Stephen",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -1208,7 +1232,7 @@
     "COMS 428": {
         "11234": {
             "class_number": "11234",
-            "enrollment_cap": 11,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Guzman,Jaime",
             "days": "MW",
@@ -1220,7 +1244,7 @@
     "COMS 430": {
         "10634": {
             "class_number": "10634",
-            "enrollment_cap": 5,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hessamian,Gigi K",
             "days": "MW",
@@ -1230,9 +1254,19 @@
         },
         "11386": {
             "class_number": "11386",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Clark Mane,Rebeks L",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "11559": {
+            "class_number": "11559",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Heidt,Stephen",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -1242,7 +1276,7 @@
     "COMS 431": {
         "10638": {
             "class_number": "10638",
-            "enrollment_cap": 9,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Kalaji,Motasem",
             "days": "MW",
@@ -1264,7 +1298,7 @@
     "COMS 435": {
         "10663": {
             "class_number": "10663",
-            "enrollment_cap": 9,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Picarelli,Randi Rulayne",
             "days": "MW",
@@ -1274,7 +1308,7 @@
         },
         "11395": {
             "class_number": "11395",
-            "enrollment_cap": 20,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Opdycke,Kelly Louise",
             "days": "R",
@@ -1296,7 +1330,7 @@
     "COMS 436": {
         "12006": {
             "class_number": "12006",
-            "enrollment_cap": 6,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Giotta,Gina N",
             "days": "TR",
@@ -1308,19 +1342,19 @@
     "COMS 437": {
         "10529": {
             "class_number": "10529",
-            "enrollment_cap": 25,
+            "enrollment_cap": 30,
             "enrollment_count": 0,
-            "instructor": "Marshall,Jennifer A",
-            "days": "S",
-            "location": "MZ363",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "COMS 440": {
         "11244": {
             "class_number": "11244",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Clark Mane,Rebeks L",
             "days": "TR",
@@ -1330,7 +1364,7 @@
         },
         "11336": {
             "class_number": "11336",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Delgado PhD,Jenna Monique",
             "days": null,
@@ -1342,7 +1376,7 @@
     "COMS 442": {
         "10640": {
             "class_number": "10640",
-            "enrollment_cap": 15,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Clark Mane,Rebeks L",
             "days": "TR",
@@ -1354,7 +1388,7 @@
     "COMS 444": {
         "11095": {
             "class_number": "11095",
-            "enrollment_cap": 16,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Kephart III,John M",
             "days": "MW",
@@ -1366,7 +1400,7 @@
     "COMS 445": {
         "10964": {
             "class_number": "10964",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kephart III,John M",
             "days": "MW",
@@ -1390,7 +1424,7 @@
     "COMS 448": {
         "11419": {
             "class_number": "11419",
-            "enrollment_cap": 9,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Clark Mane,Rebeks L",
             "days": "TR",
@@ -1402,7 +1436,7 @@
     "COMS 450": {
         "11096": {
             "class_number": "11096",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Tindage,Melissa",
             "days": "MW",
@@ -1412,7 +1446,7 @@
         },
         "11412": {
             "class_number": "11412",
-            "enrollment_cap": 7,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Murray,Darrin S",
             "days": "M",
@@ -1424,7 +1458,7 @@
     "COMS 451": {
         "10632": {
             "class_number": "10632",
-            "enrollment_cap": 17,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Hessamian,Gigi K",
             "days": "MW",
@@ -1448,7 +1482,7 @@
     "COMS 453": {
         "10704": {
             "class_number": "10704",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Lemus,Daisy R",
             "days": null,
@@ -1470,7 +1504,7 @@
     "COMS 464": {
         "11769": {
             "class_number": "11769",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "McDonald,Kevin P",
             "days": "TR",
@@ -1482,7 +1516,7 @@
     "COMS 494": {
         "11493": {
             "class_number": "11493",
-            "enrollment_cap": 5,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Tindage,Melissa",
             "days": "W",
@@ -1494,7 +1528,7 @@
     "COMS 494L": {
         "11494": {
             "class_number": "11494",
-            "enrollment_cap": 5,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Tindage,Melissa",
             "days": null,
@@ -1506,7 +1540,7 @@
     "COMS 601": {
         "10884": {
             "class_number": "10884",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Kephart III,John M",
             "days": "T",
@@ -1542,22 +1576,10 @@
     "COMS 653": {
         "11562": {
             "class_number": "11562",
-            "enrollment_cap": 9,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Lemus,Daisy R",
             "days": "M",
-            "location": "MZ363",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "COMS 654": {
-        "11561": {
-            "class_number": "11561",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
             "location": "MZ363",
             "start_time": "1900h",
             "end_time": "2145h"
@@ -1578,7 +1600,7 @@
     "COMS 698C": {
         "10530": {
             "class_number": "10530",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Carrillo Rowe,Aimee M",
             "days": null,

@@ -2,7 +2,7 @@
     "SOM 120": {
         "13553": {
             "class_number": "13553",
-            "enrollment_cap": 0,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Gupta,Akash",
             "days": "TR",
@@ -22,9 +22,9 @@
         },
         "13651": {
             "class_number": "13651",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Sankaran,Siva R",
+            "instructor": "Wedel,Thomas",
             "days": "MW",
             "location": "BB1232",
             "start_time": "1400h",
@@ -54,7 +54,7 @@
         },
         "13554": {
             "class_number": "13554",
-            "enrollment_cap": 99,
+            "enrollment_cap": 72,
             "enrollment_count": 0,
             "instructor": "Vessal,Ahmad",
             "days": "F",
@@ -104,7 +104,7 @@
         },
         "13796": {
             "class_number": "13796",
-            "enrollment_cap": 12,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Behnezhad,Ali",
             "days": "TR",
@@ -116,7 +116,7 @@
     "SOM 306BH": {
         "13682": {
             "class_number": "13682",
-            "enrollment_cap": 14,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Behnezhad,Ali",
             "days": "TR",
@@ -138,7 +138,7 @@
         },
         "13880": {
             "class_number": "13880",
-            "enrollment_cap": 13,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Vessal,Ahmad",
             "days": "MW",
@@ -150,7 +150,7 @@
     "SOM 416": {
         "13754": {
             "class_number": "13754",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Tierney,Jane E",
             "days": "TR",
@@ -162,7 +162,7 @@
     "SOM 464": {
         "13848": {
             "class_number": "13848",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Lee,Jun-Yeon",
             "days": "MW",
@@ -172,9 +172,9 @@
         },
         "13905": {
             "class_number": "13905",
-            "enrollment_cap": 15,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Fidler,Paul K",
             "days": "M",
             "location": "BB2125",
             "start_time": "1900h",
@@ -218,23 +218,11 @@
     "SOM 591": {
         "13746": {
             "class_number": "13746",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Wedel,Thomas",
             "days": "M",
             "location": "BB1232",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
-    "SOM 686": {
-        "13425": {
-            "class_number": "13425",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Li,Kunpeng",
-            "days": "M",
-            "location": "BB1230",
             "start_time": "1900h",
             "end_time": "2145h"
         }
