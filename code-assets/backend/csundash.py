@@ -1,5 +1,5 @@
 import pprint
-from flask import Flask, request, jsonify
+from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 import json
 import itertools
@@ -78,9 +78,21 @@ def parse(_parseable, _start):
     parsed_ret = parsed_ret.replace('\n ', '\n').replace('  ', ' ')
     return repr(parsed_ret).replace('\'', '') # .replace('or a passing score', 'or Earn a passing score')
 
+# before nima's edits
+"""
 @app.route('/')
 def home():
     return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
+
+# version 2
+@app.route('/')
+def home():
+    return render_template('endpoint_list.html')
+"""
+# find file here -> (templates/endpoint_list.html)
+@app.route('/')
+def home():
+    return render_template('endpoint_list.html')
 
 
 @app.route('/<string:subject>/catalog')
