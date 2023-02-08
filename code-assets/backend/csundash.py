@@ -92,7 +92,7 @@ def home():
 # find file here -> (templates/endpoint_list.html)
 @app.route('/')
 def home():
-    return render_template('endpoint_list.html')
+    return render_template('/docs_html/index.html')
 
 
 @app.route('/<string:subject>/catalog')
