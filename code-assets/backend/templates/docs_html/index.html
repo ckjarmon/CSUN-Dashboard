@@ -17,33 +17,34 @@
       <div class="logo"></div>
       <ul class="menu">
         <div class="menu__item toggle"><span></span></div>
-        <li class="menu__item"><a href="doc.html" class="link link--dark"><i class="fa fa-book"></i> Documentation</a></li>
-        <li class="menu__item"><a href="" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+        <li class="menu__item"><a href="https://github.com/kyeou/CSUN-Dashboard" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
       </ul>
     </nav>
     <div class="hero">
-      <h1 class="hero__title">Scribbler</h1>
-      <p class="hero__description">Take your markdown notes in terminal</p>
+      <h1 class="hero__title">CSUN-Dashboard API Docs</h1>
+      <p class="hero__description">Endpoint docuemntation and more</p>
     </div>
     <div class="hero__terminal">
       <pre>
         <!-- Place your demo code here -->
-        <code class="shell-session demo">hyperyolo ~ $ </code>
+        <code class="shell-session demo">$ python3 csundash.py<br /></code>
       </pre>
     </div>
     <div class="wrapper">
       <div class="installation">
-        <h3 class="section__title">Installation</h3>
+        <h2 class="section__title">Endpoint List</h2>
         <div class="tab__container">
           <ul class="tab__menu">
-            <li class="tab active" data-tab="mac">mac</li>
-            <li class="tab" data-tab="linux">linux</li>
-            <li class="tab" data-tab="win">win</li>
+            <!-- <li class="tab active" data-tab="default">catalog</li> -->
+            <!-- <li class="tab" data-tab="linux">linux</li> -->
           </ul>
+          <li><b><u>Retrieve Catalog of a Specific Subject</b></u></li>
+          <p>
+          Replace <code>&lt;subject&gt;</code> with the subject you would like to see the catalog of
+          </p>
           <pre class="nohighlight code">
-            <code class="tab__pane active mac">$  brew install scribbler</code>
-            <code class="tab__pane linux">$  apt-get install scribbler</code>
-            <code class="tab__pane win">$  gem install scribbler</code>
+            <code class="tab__pane active default">/&lt;string:subject&gt;/catalog</code>
+            <!-- <code class="tab__pane linux">$  apt-get install scribbler</code> -->
           </pre>
         </div>
       </div>
@@ -81,6 +82,15 @@
           <li>Save and Quit <span class="keybinding__label">Ctrl+D</span></li>
           <li>Undo <span class="keybinding__label">Cmd+Z</span></li>
         </ul>
+        <ul class="keybinding__detail">
+          <h3 class="keybinding__title">Default Keybindings</h3>
+          <li>Quit without saving <span class="keybinding__label">Ctrl+C</span></li>
+          <li>Save <span class="keybinding__label">Cmd+S</span></li>
+          <li>Save and Quit <span class="keybinding__label">Ctrl+D</span></li>
+          <li>Undo <span class="keybinding__label">Cmd+Z</span></li>
+        </ul>
+      </div>
+      <div class="keybinding">
         <ul class="keybinding__detail">
           <h3 class="keybinding__title">Markdown Keybindings</h3>
           <li><span class="keybinding__label">Ctrl+A</span> Insert Link Markdown</li>
