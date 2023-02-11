@@ -5,7 +5,7 @@
             "enrollment_cap": 120,
             "enrollment_count": 120,
             "waitlist_cap": 120,
-            "waitlist_count": 20,
+            "waitlist_count": 17,
             "instructor": "yohannes.shiferaw@csun.edu",
             "days": "TR",
             "location": "EH2132",
@@ -15,9 +15,9 @@
         "17467": {
             "class_number": "17467",
             "enrollment_cap": 120,
-            "enrollment_count": 120,
+            "enrollment_count": 111,
             "waitlist_cap": 120,
-            "waitlist_count": 6,
+            "waitlist_count": 3,
             "instructor": "mingliang.zhang@csun.edu",
             "days": "MW",
             "location": "CR5125",
@@ -31,7 +31,7 @@
             "enrollment_cap": 48,
             "enrollment_count": 48,
             "waitlist_cap": 48,
-            "waitlist_count": 1,
+            "waitlist_count": 2,
             "instructor": "eric.collins@csun.edu",
             "days": "M",
             "location": "EH2109",
@@ -41,9 +41,9 @@
         "17184": {
             "class_number": "17184",
             "enrollment_cap": 48,
-            "enrollment_count": 47,
+            "enrollment_count": 44,
             "waitlist_cap": 48,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "soufyane.aqiqi.285@my.csun.edu",
             "days": "M",
             "location": "EH2109",
@@ -53,7 +53,7 @@
         "17217": {
             "class_number": "17217",
             "enrollment_cap": 48,
-            "enrollment_count": 35,
+            "enrollment_count": 32,
             "waitlist_cap": 48,
             "waitlist_count": 0,
             "instructor": "mingliang.zhang@csun.edu",
@@ -65,7 +65,7 @@
         "17252": {
             "class_number": "17252",
             "enrollment_cap": 48,
-            "enrollment_count": 22,
+            "enrollment_count": 19,
             "waitlist_cap": 48,
             "waitlist_count": 0,
             "instructor": "eric.collins@csun.edu",
@@ -91,7 +91,7 @@
         "17188": {
             "class_number": "17188",
             "enrollment_cap": 120,
-            "enrollment_count": 118,
+            "enrollment_count": 120,
             "waitlist_cap": 120,
             "waitlist_count": 1,
             "instructor": "ana.cadavid@csun.edu",
@@ -103,7 +103,7 @@
         "17809": {
             "class_number": "17809",
             "enrollment_cap": 120,
-            "enrollment_count": 56,
+            "enrollment_count": 53,
             "waitlist_cap": 120,
             "waitlist_count": 0,
             "instructor": "duane.doty@csun.edu",
@@ -113,88 +113,12 @@
             "end_time": "1645h"
         }
     },
-    "PHYS 100BL": {
-        "17191": {
-            "class_number": "17191",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 4,
-            "instructor": "jake.klorman.554@my.csun.edu",
-            "days": "T",
-            "location": "LO1107",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17192": {
-            "class_number": "17192",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 1,
-            "instructor": "gerard.valdellon.150@my.csun.edu",
-            "days": "T",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17193": {
-            "class_number": "17193",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 3,
-            "instructor": "giovanna.campisi.280@my.csun.edu",
-            "days": "W",
-            "location": "LO1107",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17468": {
-            "class_number": "17468",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 1,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17597": {
-            "class_number": "17597",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 2,
-            "instructor": "blair.martin.159@my.csun.edu",
-            "days": "R",
-            "location": "LO1107",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17631": {
-            "class_number": "17631",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 0,
-            "instructor": "noorulhoda.kazemi.727@my.csun.edu",
-            "days": "R",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "PHYS 220A": {
+    "PHYS 220AL": {
         "17331": {
             "class_number": "17331",
-            "enrollment_cap": 120,
-            "enrollment_count": 120,
-            "waitlist_cap": 120,
-            "waitlist_count": 0,
-            "instructor": "tony.rowe@csun.edu",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
             "days": "TR",
             "location": "JA100",
             "start_time": "1100h",
@@ -202,108 +126,40 @@
         },
         "17194": {
             "class_number": "17194",
-            "enrollment_cap": 120,
-            "enrollment_count": 104,
-            "waitlist_cap": 120,
-            "waitlist_count": 0,
-            "instructor": "igor.beloborodov@csun.edu",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
             "location": "LA181",
             "start_time": "1230h",
             "end_time": "1345h"
         }
     },
-    "PHYS 220AL": {
-        "17197": {
-            "class_number": "17197",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 1,
-            "instructor": "alexander.stafford.905@my.csun.edu",
-            "days": "R",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17196": {
-            "class_number": "17196",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 6,
-            "instructor": "luis.davila.106@my.csun.edu",
-            "days": "R",
-            "location": "EH2109",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17438": {
-            "class_number": "17438",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 4,
-            "instructor": "mingliang.zhang@csun.edu",
-            "days": "F",
-            "location": "EH2109",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "17462": {
-            "class_number": "17462",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 9,
-            "instructor": "brooke.walterlakes.49@my.csun.edu",
-            "days": "F",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "18034": {
-            "class_number": "18034",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 23,
-            "waitlist_count": 3,
-            "instructor": "alexander.stafford.905@my.csun.edu",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "18044": {
-            "class_number": "18044",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 2,
-            "instructor": "alexander.stafford.905@my.csun.edu",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "18100": {
-            "class_number": "18100",
-            "enrollment_cap": 24,
-            "enrollment_count": 24,
-            "waitlist_cap": 24,
-            "waitlist_count": 6,
-            "instructor": "luis.davila.106@my.csun.edu",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
     "PHYS 220B": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "17199": {
             "class_number": "17199",
             "enrollment_cap": 120,
-            "enrollment_count": 95,
+            "enrollment_count": 100,
             "waitlist_cap": 120,
             "waitlist_count": 0,
             "instructor": "hendrik.postma@csun.edu",
@@ -315,7 +171,7 @@
         "17927": {
             "class_number": "17927",
             "enrollment_cap": 120,
-            "enrollment_count": 70,
+            "enrollment_count": 62,
             "waitlist_cap": 120,
             "waitlist_count": 0,
             "instructor": "igor.beloborodov@csun.edu",
@@ -326,10 +182,30 @@
         }
     },
     "PHYS 220BL": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "17202": {
             "class_number": "17202",
             "enrollment_cap": 24,
-            "enrollment_count": 15,
+            "enrollment_count": 12,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "brendon.orr.519@my.csun.edu",
@@ -353,7 +229,7 @@
         "17598": {
             "class_number": "17598",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
+            "enrollment_count": 22,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "david.katz.265@my.csun.edu",
@@ -365,7 +241,7 @@
         "17665": {
             "class_number": "17665",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
+            "enrollment_count": 22,
             "waitlist_cap": 24,
             "waitlist_count": 1,
             "instructor": "ricardo.barraganramirez.459@my.csun.edu",
@@ -377,7 +253,7 @@
         "17666": {
             "class_number": "17666",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
+            "enrollment_count": 23,
             "waitlist_cap": 24,
             "waitlist_count": 1,
             "instructor": "tanner.rosenberg@csun.edu",
@@ -389,7 +265,7 @@
         "18036": {
             "class_number": "18036",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
+            "enrollment_count": 23,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "tanner.rosenberg@csun.edu",
@@ -401,7 +277,7 @@
         "18037": {
             "class_number": "18037",
             "enrollment_cap": 24,
-            "enrollment_count": 19,
+            "enrollment_count": 21,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "david.katz.265@my.csun.edu",
@@ -412,6 +288,26 @@
         }
     },
     "PHYS 225": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "17318": {
             "class_number": "17318",
             "enrollment_cap": 40,
@@ -425,28 +321,82 @@
             "end_time": "1540h"
         }
     },
-    "PHYS 227L": {
+    "PHYS 227": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "17319": {
             "class_number": "17319",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "enrollment_cap": 30,
+            "enrollment_count": 13,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kahchun.lau@csun.edu",
             "days": "MW",
             "location": "LO1117",
             "start_time": "1400h",
             "end_time": "1540h"
         }
     },
-    "PHYS 305": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+    "PHYS 227L": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHYS 305": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "18002": {
             "class_number": "18002",
@@ -463,7 +413,7 @@
         "18003": {
             "class_number": "18003",
             "enrollment_cap": 44,
-            "enrollment_count": 44,
+            "enrollment_count": 47,
             "waitlist_cap": 44,
             "waitlist_count": 0,
             "instructor": "justin.miller.45@csun.edu",
@@ -474,15 +424,25 @@
         }
     },
     "PHYS 305L": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "17998": {
             "class_number": "17998",
@@ -499,7 +459,7 @@
         "17999": {
             "class_number": "17999",
             "enrollment_cap": 44,
-            "enrollment_count": 44,
+            "enrollment_count": 47,
             "waitlist_cap": 44,
             "waitlist_count": 0,
             "instructor": "justin.miller.45@csun.edu",
@@ -510,75 +470,123 @@
         }
     },
     "PHYS 331": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
-            "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
         },
-        "18404": {
-            "class_number": "18404",
-            "enrollment_cap": 30,
-            "enrollment_count": 9,
-            "waitlist_cap": 30,
-            "waitlist_count": 0,
-            "instructor": "sattar.taheri@csun.edu",
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1127",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
     "PHYS 366": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHYS 375": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "17469": {
             "class_number": "17469",
-            "enrollment_cap": 22,
-            "enrollment_count": 6,
-            "waitlist_cap": 22,
-            "waitlist_count": 0,
-            "instructor": "duane.doty@csun.edu",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
             "days": "MW",
             "location": "LO1100",
             "start_time": "0930h",
             "end_time": "1215h"
-        }
-    },
-    "PHYS 375": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
-            "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
-            "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+        },
+        "17470": {
+            "class_number": "17470",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "ana.cadavid@csun.edu",
+            "days": "TR",
+            "location": "LO1127",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
     "PHYS 402": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17471": {
             "class_number": "17471",
@@ -594,15 +602,35 @@
         }
     },
     "PHYS 410": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17472": {
             "class_number": "17472",
@@ -618,20 +646,40 @@
         }
     },
     "PHYS 420": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17599": {
             "class_number": "17599",
             "enrollment_cap": 30,
-            "enrollment_count": 8,
+            "enrollment_count": 5,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "anna.bezryadina@csun.edu",
@@ -642,20 +690,40 @@
         }
     },
     "PHYS 466": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17320": {
             "class_number": "17320",
             "enrollment_cap": 30,
-            "enrollment_count": 12,
+            "enrollment_count": 13,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "li.gao@csun.edu",
@@ -666,20 +734,40 @@
         }
     },
     "PHYS 489": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18168": {
             "class_number": "18168",
             "enrollment_cap": 30,
-            "enrollment_count": 5,
+            "enrollment_count": 8,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "yang.peng@csun.edu",
@@ -690,15 +778,35 @@
         }
     },
     "PHYS 493": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17204": {
             "class_number": "17204",
@@ -714,23 +822,43 @@
         }
     },
     "PHYS 495B": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18643": {
             "class_number": "18643",
             "enrollment_cap": 3,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "anna.bezryadina@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -738,15 +866,35 @@
         }
     },
     "PHYS 495C": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17975": {
             "class_number": "17975",
@@ -759,23 +907,67 @@
             "location": "TBA",
             "start_time": "0000h",
             "end_time": "0000h"
+        },
+        "18133": {
+            "class_number": "18133",
+            "enrollment_cap": 0,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "tyler.luchko@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "21349": {
+            "class_number": "21349",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "ana.cadavid@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     },
     "PHYS 497": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18319": {
             "class_number": "18319",
             "enrollment_cap": 24,
-            "enrollment_count": 19,
+            "enrollment_count": 20,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "tyler.luchko@csun.edu",
@@ -786,15 +978,35 @@
         }
     },
     "PHYS 498": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17206": {
             "class_number": "17206",
@@ -822,23 +1034,87 @@
         }
     },
     "PHYS 499A": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17207": {
             "class_number": "17207",
             "enrollment_cap": 3,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
+            "instructor": "li.gao@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "PHYS 499C": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
             "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        },
+        "17209": {
+            "class_number": "17209",
+            "enrollment_cap": 0,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "li.gao@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -846,15 +1122,35 @@
         }
     },
     "PHYS 588": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18395": {
             "class_number": "18395",
@@ -868,15 +1164,35 @@
         }
     },
     "PHYS 610": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17219": {
             "class_number": "17219",
@@ -892,20 +1208,40 @@
         }
     },
     "PHYS 630": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17220": {
             "class_number": "17220",
             "enrollment_cap": 30,
-            "enrollment_count": 14,
+            "enrollment_count": 16,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "yohannes.shiferaw@csun.edu",
@@ -916,20 +1252,40 @@
         }
     },
     "PHYS 651": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18045": {
             "class_number": "18045",
             "enrollment_cap": 24,
-            "enrollment_count": 4,
+            "enrollment_count": 3,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "donna.sheng@csun.edu",
@@ -940,23 +1296,43 @@
         }
     },
     "PHYS 696A": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17210": {
             "class_number": "17210",
             "enrollment_cap": 3,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "anna.bezryadina@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -964,25 +1340,59 @@
         },
         "17259": {
             "class_number": "17259",
-            "enrollment_cap": 4,
+            "enrollment_cap": 0,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "xu.zhang@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "17280": {
+            "class_number": "17280",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "tyler.luchko@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     },
     "PHYS 696B": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17211": {
             "class_number": "17211",
@@ -998,23 +1408,43 @@
         }
     },
     "PHYS 696C": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17212": {
             "class_number": "17212",
             "enrollment_cap": 3,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "ana.cadavid@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -1023,10 +1453,10 @@
         "17261": {
             "class_number": "17261",
             "enrollment_cap": 3,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "anna.bezryadina@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -1058,15 +1488,35 @@
         }
     },
     "PHYS 697": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17213": {
             "class_number": "17213",
@@ -1082,15 +1532,35 @@
         }
     },
     "PHYS 698C": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17221": {
             "class_number": "17221",
@@ -1142,15 +1612,35 @@
         }
     },
     "PHYS 698F": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17214": {
             "class_number": "17214",
@@ -1179,10 +1669,10 @@
         "17295": {
             "class_number": "17295",
             "enrollment_cap": 1,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "li.gao@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -1190,15 +1680,35 @@
         }
     },
     "PHYS 699A": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17215": {
             "class_number": "17215",
@@ -1226,15 +1736,35 @@
         }
     },
     "PHYS 699B": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17216": {
             "class_number": "17216",
@@ -1251,10 +1781,10 @@
         "17266": {
             "class_number": "17266",
             "enrollment_cap": 3,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "kahchun.lau@csun.edu",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -1262,15 +1792,35 @@
         }
     },
     "PHYS 699C": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17224": {
             "class_number": "17224",
@@ -1286,15 +1836,35 @@
         }
     },
     "PHYS 699D": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17377": {
             "class_number": "17377",
@@ -1322,15 +1892,35 @@
         }
     },
     "PHYS 699F": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17388": {
             "class_number": "17388",

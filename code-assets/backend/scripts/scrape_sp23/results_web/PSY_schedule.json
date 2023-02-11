@@ -2,7 +2,7 @@
     "PSY 150": {
         "12090": {
             "class_number": "12090",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Huynh,Que-Lam",
             "days": null,
@@ -72,7 +72,7 @@
         },
         "12177": {
             "class_number": "12177",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
@@ -112,7 +112,7 @@
         },
         "12561": {
             "class_number": "12561",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "F",
@@ -124,7 +124,7 @@
     "PSY 250": {
         "12096": {
             "class_number": "12096",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Abara,Jose P",
             "days": "F",
@@ -134,11 +134,11 @@
         },
         "12478": {
             "class_number": "12478",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Abara,Jose P",
             "days": "TR",
-            "location": "EH2132",
+            "location": "JA100",
             "start_time": "1700h",
             "end_time": "1815h"
         }
@@ -156,7 +156,7 @@
         },
         "12262": {
             "class_number": "12262",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Fenn,Elise A",
             "days": null,
@@ -178,7 +178,7 @@
         },
         "12464": {
             "class_number": "12464",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Katz,Gary S",
             "days": "MW",
@@ -188,13 +188,35 @@
         },
         "12500": {
             "class_number": "12500",
-            "enrollment_cap": 7,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Arentoft,Alyssa",
             "days": "MW",
             "location": "LA181",
             "start_time": "0800h",
             "end_time": "0915h"
+        }
+    },
+    "PSY 312": {
+        "12579": {
+            "class_number": "12579",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Hamer,Marc R",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1830h",
+            "end_time": "1945h"
+        },
+        "12913": {
+            "class_number": "12913",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Blum,Nancy A",
+            "days": "MW",
+            "location": "SH386",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
     "PSY 313": {
@@ -220,7 +242,7 @@
         },
         "12828": {
             "class_number": "12828",
-            "enrollment_cap": 0,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Saetermoe,Carrie L",
             "days": "MW",
@@ -242,7 +264,7 @@
         },
         "12104": {
             "class_number": "12104",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Otten,Mark P",
             "days": null,
@@ -292,7 +314,7 @@
         },
         "12398": {
             "class_number": "12398",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Hess,Michael A",
             "days": "TR",
@@ -302,7 +324,7 @@
         },
         "12399": {
             "class_number": "12399",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Abara,Jose P",
             "days": "S",
@@ -354,7 +376,7 @@
         },
         "12109": {
             "class_number": "12109",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Otten,Mark P",
             "days": null,
@@ -454,7 +476,7 @@
         },
         "12401": {
             "class_number": "12401",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hess,Michael A",
             "days": "TR",
@@ -474,7 +496,7 @@
         },
         "12403": {
             "class_number": "12403",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hess,Michael A",
             "days": "R",
@@ -526,7 +548,7 @@
     "PSY 321": {
         "12130": {
             "class_number": "12130",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ruvalcaba,Omar",
             "days": "MW",
@@ -546,7 +568,7 @@
         },
         "12250": {
             "class_number": "12250",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Drew,Stefanie A",
             "days": "TR",
@@ -556,7 +578,7 @@
         },
         "12251": {
             "class_number": "12251",
-            "enrollment_cap": 1,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Sadeh,Michelle",
             "days": "TR",
@@ -576,7 +598,7 @@
         },
         "12293": {
             "class_number": "12293",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Wilson,Essence L",
             "days": "MW",
@@ -586,7 +608,7 @@
         },
         "12294": {
             "class_number": "12294",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Hess,Michael A",
             "days": "F",
@@ -618,7 +640,7 @@
         },
         "12298": {
             "class_number": "12298",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ruvalcaba,Omar",
             "days": null,
@@ -648,7 +670,7 @@
         },
         "12320": {
             "class_number": "12320",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
@@ -668,7 +690,7 @@
         },
         "12694": {
             "class_number": "12694",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "R",
@@ -698,7 +720,7 @@
         },
         "12326": {
             "class_number": "12326",
-            "enrollment_cap": 1,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Sadeh,Michelle",
             "days": "R",
@@ -768,7 +790,7 @@
         },
         "12339": {
             "class_number": "12339",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Wilson,Essence L",
             "days": "W",
@@ -788,7 +810,7 @@
         },
         "12344": {
             "class_number": "12344",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Hess,Michael A",
             "days": "F",
@@ -810,7 +832,7 @@
         },
         "12780": {
             "class_number": "12780",
-            "enrollment_cap": -11,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Viani,Gidget",
             "days": "MW",
@@ -842,7 +864,7 @@
         },
         "12535": {
             "class_number": "12535",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Mahmud,Aida",
             "days": "MW",
@@ -852,7 +874,7 @@
         },
         "12788": {
             "class_number": "12788",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Fritz,Kristina Adela",
             "days": "F",
@@ -874,7 +896,7 @@
         },
         "12781": {
             "class_number": "12781",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kazemi,Ellie",
             "days": "S",
@@ -894,7 +916,7 @@
         },
         "12994": {
             "class_number": "12994",
-            "enrollment_cap": 13,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Rice,Brian J",
             "days": "MW",
@@ -948,7 +970,7 @@
     "PSY 361": {
         "12213": {
             "class_number": "12213",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Blum,Nancy A",
             "days": "MW",
@@ -958,7 +980,7 @@
         },
         "12563": {
             "class_number": "12563",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Blum,Nancy A",
             "days": "F",
@@ -970,7 +992,7 @@
     "PSY 365": {
         "12203": {
             "class_number": "12203",
-            "enrollment_cap": -1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Chan,Thomas",
             "days": "W",
@@ -980,7 +1002,7 @@
         },
         "12417": {
             "class_number": "12417",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Stark,Harry J",
             "days": "TR",
@@ -1012,7 +1034,7 @@
         },
         "12889": {
             "class_number": "12889",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Alsalloom,Sami",
             "days": "W",
@@ -1032,7 +1054,7 @@
         },
         "20891": {
             "class_number": "20891",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Shiffrar,Maggie M",
             "days": "MW",
@@ -1044,7 +1066,7 @@
     "PSY 369": {
         "12247": {
             "class_number": "12247",
-            "enrollment_cap": 0,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Wohldmann,Erica L",
             "days": "MW",
@@ -1066,7 +1088,7 @@
         },
         "12837": {
             "class_number": "12837",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Kramarova,Olga",
             "days": "R",
@@ -1078,7 +1100,7 @@
     "PSY 406": {
         "13182": {
             "class_number": "13182",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rice,Brian J",
             "days": "TR",
@@ -1100,7 +1122,7 @@
         },
         "12838": {
             "class_number": "12838",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Chan,Thomas",
             "days": "W",
@@ -1112,7 +1134,7 @@
     "PSY 455": {
         "12474": {
             "class_number": "12474",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Viani,Gidget",
             "days": "MW",
@@ -1124,7 +1146,7 @@
     "PSY 460": {
         "12113": {
             "class_number": "12113",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rashtian,Andrea M",
             "days": "TR",
@@ -1136,7 +1158,7 @@
     "PSY 471AB": {
         "12246": {
             "class_number": "12246",
-            "enrollment_cap": 29,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
             "instructor": "Jin,Chunying",
             "days": "MW",
@@ -1148,7 +1170,7 @@
     "PSY 471CN": {
         "12712": {
             "class_number": "12712",
-            "enrollment_cap": 30,
+            "enrollment_cap": 32,
             "enrollment_count": 0,
             "instructor": "Mitrushina,Maura N",
             "days": "MW",
@@ -1160,7 +1182,7 @@
     "PSY 485AD": {
         "12878": {
             "class_number": "12878",
-            "enrollment_cap": 9,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Vargas,Jose Hugo",
             "days": "TR",
@@ -1172,7 +1194,7 @@
     "PSY 485ADS": {
         "12880": {
             "class_number": "12880",
-            "enrollment_cap": 10,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Vargas,Jose Hugo",
             "days": "T",
@@ -1196,7 +1218,7 @@
     "PSY 497C": {
         "12468": {
             "class_number": "12468",
-            "enrollment_cap": 10,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Fenn,Elise A",
             "days": null,
@@ -1218,7 +1240,7 @@
         },
         "13088": {
             "class_number": "13088",
-            "enrollment_cap": 17,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Fenn,Elise A",
             "days": null,
@@ -1262,7 +1284,7 @@
         },
         "13090": {
             "class_number": "13090",
-            "enrollment_cap": 16,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Fenn,Elise A",
             "days": null,
@@ -1310,7 +1332,7 @@
     "PSY 581": {
         "12469": {
             "class_number": "12469",
-            "enrollment_cap": 16,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Plunkett,Scott W",
             "days": null,
@@ -1322,7 +1344,7 @@
     "PSY 594AA": {
         "13359": {
             "class_number": "13359",
-            "enrollment_cap": 16,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Chavira,Gabriela",
             "days": "M",
@@ -1382,7 +1404,7 @@
     "PSY 655CC": {
         "12252": {
             "class_number": "12252",
-            "enrollment_cap": 13,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Katz,Gary S",
             "days": "M",
@@ -1394,7 +1416,7 @@
     "PSY 690A": {
         "13183": {
             "class_number": "13183",
-            "enrollment_cap": 7,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Drew,Stefanie A",
             "days": "T",
@@ -1420,7 +1442,7 @@
             "class_number": "13341",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Razani,Jill",
+            "instructor": "Staff",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -1442,9 +1464,9 @@
     "PSY 698C": {
         "12151": {
             "class_number": "12151",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Razani,Jill",
+            "instructor": "Staff",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",

@@ -2,7 +2,7 @@
     "ELPS 203": {
         "15514": {
             "class_number": "15514",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Raby,Rosalind L",
             "days": "TR",
@@ -12,7 +12,7 @@
         },
         "15677": {
             "class_number": "15677",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Raby,Rosalind L",
             "days": "M",
@@ -24,7 +24,7 @@
     "ELPS 417": {
         "15518": {
             "class_number": "15518",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Su,Zhixin",
             "days": "T",
@@ -34,7 +34,7 @@
         },
         "15519": {
             "class_number": "15519",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Simpson,Guadalupe H",
             "days": "M",
@@ -75,18 +75,6 @@
             "end_time": "ARR"
         }
     },
-    "ELPS 650HE": {
-        "15951": {
-            "class_number": "15951",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Davis,Howard N",
-            "days": "W",
-            "location": "SH267",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
     "ELPS 656HE": {
         "15950": {
             "class_number": "15950",
@@ -114,7 +102,7 @@
     "ELPS 672": {
         "15523": {
             "class_number": "15523",
-            "enrollment_cap": 2,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Bennett,Michelle F",
             "days": "M",
@@ -124,7 +112,7 @@
         },
         "15641": {
             "class_number": "15641",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Seegan,Marcee",
             "days": "W",
@@ -145,26 +133,26 @@
             "end_time": "2145h"
         }
     },
-    "ELPS 688": {
-        "15698": {
-            "class_number": "15698",
-            "enrollment_cap": 2,
+    "ELPS 682": {
+        "15596": {
+            "class_number": "15596",
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructor": "Edeburn,Ellen K",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Lucid,Joan M",
+            "days": "M",
+            "location": "ED3111",
+            "start_time": "1600h",
+            "end_time": "1845h"
         },
-        "15699": {
-            "class_number": "15699",
-            "enrollment_cap": 5,
+        "15597": {
+            "class_number": "15597",
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Bagwell,Jack L",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Lucid,Joan M",
+            "days": "W",
+            "location": "ED1123",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     },
     "ELPS 688HE": {
@@ -179,7 +167,7 @@
             "end_time": "1845h"
         }
     },
-    "ELPS 715": {
+    "ELPS 697HE": {
         "16085": {
             "class_number": "16085",
             "enrollment_cap": 0,
@@ -191,20 +179,10 @@
             "end_time": "ARR"
         }
     },
-    "ELPS 725": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
+    "ELPS 735": {
         "15645": {
             "class_number": "15645",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Watford,Tara M",
             "days": "R",
@@ -213,38 +191,16 @@
             "end_time": "2145h"
         }
     },
-    "ELPS 735": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
+    "ELPS 755": {
+        "15645": {
+            "class_number": "15645",
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15917": {
-            "class_number": "15917",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Endrijonas,Erika A",
+            "instructor": "Watford,Tara M",
             "days": "R",
             "location": "ED3111",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "ELPS 755": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "15709": {
             "class_number": "15709",
@@ -258,15 +214,15 @@
         }
     },
     "ELPS 765": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
+        "15645": {
+            "class_number": "15645",
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Watford,Tara M",
+            "days": "R",
+            "location": "ED3111",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "15916": {
             "class_number": "15916",
@@ -280,31 +236,41 @@
         }
     },
     "ELPS 770": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
+        "15645": {
+            "class_number": "15645",
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Watford,Tara M",
+            "days": "R",
+            "location": "ED3111",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "15915": {
+            "class_number": "15915",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Banuelos,Noelle V",
+            "days": "W",
+            "location": "ED3111",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
     "ELPS 789": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
+        "15645": {
+            "class_number": "15645",
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Watford,Tara M",
+            "days": "R",
+            "location": "ED3111",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "15646": {
             "class_number": "15646",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,

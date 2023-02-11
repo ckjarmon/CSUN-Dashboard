@@ -2,7 +2,7 @@
     "FIN 102": {
         "13692": {
             "class_number": "13692",
-            "enrollment_cap": 5,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Avery,Wesley H",
             "days": "W",
@@ -14,7 +14,7 @@
     "FIN 302": {
         "13550": {
             "class_number": "13550",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Wei,Siqi",
             "days": null,
@@ -24,7 +24,7 @@
         },
         "13588": {
             "class_number": "13588",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Wei,Siqi",
             "days": null,
@@ -34,7 +34,7 @@
         },
         "13661": {
             "class_number": "13661",
-            "enrollment_cap": 0,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Hussein,Mangshar M",
             "days": null,
@@ -44,7 +44,7 @@
         },
         "13679": {
             "class_number": "13679",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Russell,David T",
             "days": "MW",
@@ -56,7 +56,7 @@
     "FIN 303": {
         "13388": {
             "class_number": "13388",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Hussein,Mangshar M",
             "days": "W",
@@ -66,7 +66,7 @@
         },
         "13389": {
             "class_number": "13389",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Jin,Yanbo",
             "days": "MW",
@@ -76,7 +76,7 @@
         },
         "13390": {
             "class_number": "13390",
-            "enrollment_cap": 0,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Dow,James P",
             "days": "TR",
@@ -86,7 +86,7 @@
         },
         "13530": {
             "class_number": "13530",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Chang,Mu-Sheng",
             "days": null,
@@ -96,7 +96,7 @@
         },
         "13531": {
             "class_number": "13531",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Chiu,Hsin-Hui",
             "days": null,
@@ -106,7 +106,7 @@
         },
         "13533": {
             "class_number": "13533",
-            "enrollment_cap": 57,
+            "enrollment_cap": 58,
             "enrollment_count": 0,
             "instructor": "Yun,Jiyeon",
             "days": "R",
@@ -116,7 +116,7 @@
         },
         "13634": {
             "class_number": "13634",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Covrig,Vicentiu M",
             "days": "F",
@@ -126,7 +126,7 @@
         },
         "13858": {
             "class_number": "13858",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Covrig,Vicentiu M",
             "days": null,
@@ -135,32 +135,10 @@
             "end_time": "ARR"
         }
     },
-    "FIN 336": {
-        "13487": {
-            "class_number": "13487",
-            "enrollment_cap": 57,
-            "enrollment_count": 0,
-            "instructor": "Russell,David T",
-            "days": "M",
-            "location": "JA100",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "13806": {
-            "class_number": "13806",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Chang,Mu-Sheng",
-            "days": "TR",
-            "location": "BB2228",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "FIN 352": {
+    "FIN 355": {
         "13391": {
             "class_number": "13391",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Yun,Jiyeon",
             "days": "W",
@@ -170,7 +148,7 @@
         },
         "13392": {
             "class_number": "13392",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Chong,James T",
             "days": "TR",
@@ -180,7 +158,7 @@
         },
         "13535": {
             "class_number": "13535",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Wei,Siqi",
             "days": "T",
@@ -190,7 +168,7 @@
         },
         "13572": {
             "class_number": "13572",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Milligan,Michael George",
             "days": "M",
@@ -199,42 +177,50 @@
             "end_time": "2145h"
         }
     },
-    "FIN 355": {
-        "13398": {
-            "class_number": "13398",
-            "enrollment_cap": 17,
+    "FIN 359": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Chiu,Hsin-Hui",
-            "days": "TR",
-            "location": "BB1228",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "13399": {
-            "class_number": "13399",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Wei,Siqi",
+            "instructor": "Yun,Jiyeon",
             "days": "W",
-            "location": "BB1131",
+            "location": "BB1228",
             "start_time": "1900h",
             "end_time": "2145h"
         },
-        "13624": {
-            "class_number": "13624",
-            "enrollment_cap": 1,
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Chiu,Hsin-Hui",
+            "instructor": "Chong,James T",
             "days": "TR",
-            "location": "BB1228",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
-    "FIN 359": {
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13662": {
             "class_number": "13662",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Chong,James T",
             "days": "TR",
@@ -244,7 +230,7 @@
         },
         "13776": {
             "class_number": "13776",
-            "enrollment_cap": 8,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Beck,Kristine L",
             "days": "M",
@@ -264,9 +250,49 @@
         }
     },
     "FIN 430": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13629": {
             "class_number": "13629",
-            "enrollment_cap": 0,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Hussein,Mangshar M",
             "days": "M",
@@ -276,6 +302,46 @@
         }
     },
     "FIN 431": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13493": {
             "class_number": "13493",
             "enrollment_cap": 11,
@@ -288,6 +354,46 @@
         }
     },
     "FIN 434": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13807": {
             "class_number": "13807",
             "enrollment_cap": 15,
@@ -300,18 +406,88 @@
         }
     },
     "FIN 436": {
-        "13472": {
-            "class_number": "13472",
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Rosenthal,Richard A",
-            "days": "R",
-            "location": "BB1228",
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "FIN 438": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13645": {
             "class_number": "13645",
             "enrollment_cap": 0,
@@ -324,9 +500,49 @@
         }
     },
     "FIN 440": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13694": {
             "class_number": "13694",
-            "enrollment_cap": 5,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Castle,Misty H",
             "days": "M",
@@ -336,21 +552,91 @@
         }
     },
     "FIN 442": {
-        "13456": {
-            "class_number": "13456",
-            "enrollment_cap": 5,
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Castle,Misty H",
-            "days": "R",
-            "location": "BB1119",
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "FIN 446": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13769": {
             "class_number": "13769",
-            "enrollment_cap": 7,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Karakachian,Hratch J",
             "days": "T",
@@ -360,9 +646,49 @@
         }
     },
     "FIN 452": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13717": {
             "class_number": "13717",
-            "enrollment_cap": 13,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Beck,Kristine L",
             "days": "M",
@@ -372,9 +698,49 @@
         }
     },
     "FIN 455": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13657": {
             "class_number": "13657",
-            "enrollment_cap": 13,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Ross,Ryan J",
             "days": "R",
@@ -384,6 +750,46 @@
         }
     },
     "FIN 491A": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13770": {
             "class_number": "13770",
             "enrollment_cap": 1,
@@ -396,6 +802,46 @@
         }
     },
     "FIN 491ABH": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13771": {
             "class_number": "13771",
             "enrollment_cap": 6,
@@ -408,6 +854,46 @@
         }
     },
     "FIN 491B": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13891": {
             "class_number": "13891",
             "enrollment_cap": -3,
@@ -420,6 +906,46 @@
         }
     },
     "FIN 491BBH": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13780": {
             "class_number": "13780",
             "enrollment_cap": 7,
@@ -432,9 +958,49 @@
         }
     },
     "FIN 499C": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13396": {
             "class_number": "13396",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Castle,Misty H",
             "days": null,
@@ -444,6 +1010,46 @@
         }
     },
     "FIN 502": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13371": {
             "class_number": "13371",
             "enrollment_cap": 4,
@@ -456,6 +1062,46 @@
         }
     },
     "FIN 635": {
+        "13391": {
+            "class_number": "13391",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Yun,Jiyeon",
+            "days": "W",
+            "location": "BB1228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13392": {
+            "class_number": "13392",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Chong,James T",
+            "days": "TR",
+            "location": "BB2228",
+            "start_time": "1700h",
+            "end_time": "1815h"
+        },
+        "13535": {
+            "class_number": "13535",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Wei,Siqi",
+            "days": "T",
+            "location": "BB2228",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13572": {
+            "class_number": "13572",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Milligan,Michael George",
+            "days": "M",
+            "location": "BB1133",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13474": {
             "class_number": "13474",
             "enrollment_cap": 8,

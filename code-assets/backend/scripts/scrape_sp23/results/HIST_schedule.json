@@ -15,9 +15,9 @@
         "12925": {
             "class_number": "12925",
             "enrollment_cap": 49,
-            "enrollment_count": 49,
+            "enrollment_count": 47,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "moyses.marcos@csun.edu",
             "days": "MW",
             "location": "SH184",
@@ -29,7 +29,7 @@
         "12602": {
             "class_number": "12602",
             "enrollment_cap": 49,
-            "enrollment_count": 40,
+            "enrollment_count": 48,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "erik.goldner@csun.edu",
@@ -41,7 +41,7 @@
         "12603": {
             "class_number": "12603",
             "enrollment_cap": 49,
-            "enrollment_count": 37,
+            "enrollment_count": 48,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "erik.goldner@csun.edu",
@@ -57,10 +57,10 @@
             "enrollment_cap": 49,
             "enrollment_count": 47,
             "waitlist_cap": 30,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "kathleen.addison@csun.edu",
             "days": "TR",
-            "location": "SH309",
+            "location": "SH386",
             "start_time": "1400h",
             "end_time": "1515h"
         }
@@ -69,7 +69,7 @@
         "13243": {
             "class_number": "13243",
             "enrollment_cap": 49,
-            "enrollment_count": 32,
+            "enrollment_count": 47,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "kathleen.addison@csun.edu",
@@ -95,9 +95,9 @@
         "12209": {
             "class_number": "12209",
             "enrollment_cap": 49,
-            "enrollment_count": 51,
+            "enrollment_count": 52,
             "waitlist_cap": 30,
-            "waitlist_count": 9,
+            "waitlist_count": 5,
             "instructor": "patricia.juarez-dappe@csun.edu",
             "days": "T",
             "location": "SH184",
@@ -109,7 +109,7 @@
         "12795": {
             "class_number": "12795",
             "enrollment_cap": 49,
-            "enrollment_count": 33,
+            "enrollment_count": 41,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "rachel.howes@csun.edu",
@@ -123,9 +123,9 @@
         "12746": {
             "class_number": "12746",
             "enrollment_cap": 155,
-            "enrollment_count": 155,
+            "enrollment_count": 157,
             "waitlist_cap": 30,
-            "waitlist_count": 18,
+            "waitlist_count": 13,
             "instructor": "johnpaul.nuno@csun.edu",
             "days": "MW",
             "location": "ONLINE",
@@ -135,9 +135,9 @@
         "12842": {
             "class_number": "12842",
             "enrollment_cap": 138,
-            "enrollment_count": 138,
+            "enrollment_count": 140,
             "waitlist_cap": 30,
-            "waitlist_count": 2,
+            "waitlist_count": 4,
             "instructor": "tristan.traviolia@csun.edu",
             "days": "MW",
             "location": "JA100",
@@ -149,9 +149,9 @@
         "12526": {
             "class_number": "12526",
             "enrollment_cap": 155,
-            "enrollment_count": 156,
+            "enrollment_count": 155,
             "waitlist_cap": 30,
-            "waitlist_count": 2,
+            "waitlist_count": 1,
             "instructor": "tom.devine@csun.edu",
             "days": "TR",
             "location": "CR5122",
@@ -161,9 +161,9 @@
         "12443": {
             "class_number": "12443",
             "enrollment_cap": 130,
-            "enrollment_count": 130,
+            "enrollment_count": 131,
             "waitlist_cap": 130,
-            "waitlist_count": 38,
+            "waitlist_count": 36,
             "instructor": "jessica.kim@csun.edu",
             "days": "MW",
             "location": "ONLINE",
@@ -175,7 +175,7 @@
             "enrollment_cap": 82,
             "enrollment_count": 82,
             "waitlist_cap": 30,
-            "waitlist_count": 5,
+            "waitlist_count": 6,
             "instructor": "henry.maar@csun.edu",
             "days": "TR",
             "location": "SH386",
@@ -187,7 +187,7 @@
         "12430": {
             "class_number": "12430",
             "enrollment_cap": 20,
-            "enrollment_count": 15,
+            "enrollment_count": 12,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "susan.fitzpatrick-behrens@csun.edu",
@@ -199,7 +199,7 @@
         "12800": {
             "class_number": "12800",
             "enrollment_cap": 20,
-            "enrollment_count": 20,
+            "enrollment_count": 21,
             "waitlist_cap": 10,
             "waitlist_count": 2,
             "instructor": "jeffrey.kaja@csun.edu",
@@ -221,77 +221,79 @@
             "end_time": "1345h"
         }
     },
-    "HIST 304": {
+    "HIST 303": {
         "12499": {
             "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
+            "enrollment_cap": 49,
+            "enrollment_count": 43,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "clementine.oliver@csun.edu",
             "days": "MW",
             "location": "SH186",
             "start_time": "1100h",
             "end_time": "1215h"
+        }
+    },
+    "HIST 304": {
+        "20734": {
+            "class_number": "20734",
+            "enrollment_cap": 49,
+            "enrollment_count": 44,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "donal.osullivan@csun.edu",
+            "days": "MW",
+            "location": "SH265",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
     "HIST 341": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
+        "12907": {
+            "class_number": "12907",
+            "enrollment_cap": 49,
+            "enrollment_count": 47,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "donal.osullivan@csun.edu",
             "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH184",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     },
     "HIST 342": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
+        "12542": {
+            "class_number": "12542",
+            "enrollment_cap": 49,
+            "enrollment_count": 48,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "richard.horowitz@csun.edu",
+            "days": "TR",
             "location": "SH184",
             "start_time": "1400h",
             "end_time": "1515h"
+        },
+        "12605": {
+            "class_number": "12605",
+            "enrollment_cap": 49,
+            "enrollment_count": 48,
+            "waitlist_cap": 30,
+            "waitlist_count": 2,
+            "instructor": "richard.horowitz@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     },
     "HIST 345": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12978": {
             "class_number": "12978",
             "enrollment_cap": 40,
-            "enrollment_count": 25,
+            "enrollment_count": 29,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "susan.fitzpatrick-behrens@csun.edu",
@@ -302,30 +304,10 @@
         }
     },
     "HIST 350": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12741": {
             "class_number": "12741",
             "enrollment_cap": 40,
-            "enrollment_count": 20,
+            "enrollment_count": 25,
             "waitlist_cap": 40,
             "waitlist_count": 0,
             "instructor": "kathleen.addison@csun.edu",
@@ -336,30 +318,10 @@
         }
     },
     "HIST 351": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "20736": {
             "class_number": "20736",
             "enrollment_cap": 40,
-            "enrollment_count": 35,
+            "enrollment_count": 38,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "daniel.santana@csun.edu",
@@ -370,26 +332,6 @@
         }
     },
     "HIST 369": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12431": {
             "class_number": "12431",
             "enrollment_cap": 40,
@@ -404,32 +346,12 @@
         }
     },
     "HIST 370": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12742": {
             "class_number": "12742",
             "enrollment_cap": 49,
             "enrollment_count": 49,
             "waitlist_cap": 30,
-            "waitlist_count": 13,
+            "waitlist_count": 10,
             "instructor": "christopher.blakley@csun.edu",
             "days": "MW",
             "location": "SH186",
@@ -438,26 +360,6 @@
         }
     },
     "HIST 370HON": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12759": {
             "class_number": "12759",
             "enrollment_cap": 49,
@@ -472,32 +374,12 @@
         }
     },
     "HIST 371": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12221": {
             "class_number": "12221",
             "enrollment_cap": 84,
             "enrollment_count": 84,
             "waitlist_cap": 40,
-            "waitlist_count": 4,
+            "waitlist_count": 5,
             "instructor": "tristan.traviolia@csun.edu",
             "days": "MW",
             "location": "SH280",
@@ -506,30 +388,10 @@
         }
     },
     "HIST 380": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "13060": {
             "class_number": "13060",
             "enrollment_cap": 49,
-            "enrollment_count": 49,
+            "enrollment_count": 48,
             "waitlist_cap": 30,
             "waitlist_count": 1,
             "instructor": "josh.sides@csun.edu",
@@ -540,26 +402,6 @@
         }
     },
     "HIST 417": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12691": {
             "class_number": "12691",
             "enrollment_cap": 35,
@@ -587,9 +429,9 @@
         "13241": {
             "class_number": "13241",
             "enrollment_cap": 30,
-            "enrollment_count": 33,
+            "enrollment_count": 34,
             "waitlist_cap": 10,
-            "waitlist_count": 2,
+            "waitlist_count": 1,
             "instructor": "brian.kovalesky@csun.edu",
             "days": "S",
             "location": "ONLINE",
@@ -598,26 +440,6 @@
         }
     },
     "HIST 420": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "20737": {
             "class_number": "20737",
             "enrollment_cap": 30,
@@ -632,26 +454,6 @@
         }
     },
     "HIST 426": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "13106": {
             "class_number": "13106",
             "enrollment_cap": 30,
@@ -666,26 +468,6 @@
         }
     },
     "HIST 441": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12798": {
             "class_number": "12798",
             "enrollment_cap": 30,
@@ -700,30 +482,10 @@
         }
     },
     "HIST 450": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12709": {
             "class_number": "12709",
             "enrollment_cap": 30,
-            "enrollment_count": 14,
+            "enrollment_count": 18,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "miriam.neirick@csun.edu",
@@ -734,30 +496,10 @@
         }
     },
     "HIST 456": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12983": {
             "class_number": "12983",
             "enrollment_cap": 30,
-            "enrollment_count": 27,
+            "enrollment_count": 26,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "erik.goldner@csun.edu",
@@ -768,26 +510,6 @@
         }
     },
     "HIST 463": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12944": {
             "class_number": "12944",
             "enrollment_cap": 0,
@@ -800,30 +522,10 @@
         }
     },
     "HIST 466": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "21243": {
             "class_number": "21243",
             "enrollment_cap": 30,
-            "enrollment_count": 26,
+            "enrollment_count": 28,
             "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "daniel.santana@csun.edu",
@@ -834,32 +536,12 @@
         }
     },
     "HIST 471": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12987": {
             "class_number": "12987",
             "enrollment_cap": 30,
-            "enrollment_count": 30,
+            "enrollment_count": 31,
             "waitlist_cap": 30,
-            "waitlist_count": 5,
+            "waitlist_count": 2,
             "instructor": "jeffrey.kaja@csun.edu",
             "days": "R",
             "location": "SH186",
@@ -868,26 +550,6 @@
         }
     },
     "HIST 473B": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12860": {
             "class_number": "12860",
             "enrollment_cap": 0,
@@ -900,52 +562,24 @@
         }
     },
     "HIST 474A": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
+        "21252": {
+            "class_number": "21252",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "tom.devine@csun.edu",
+            "days": "TR",
+            "location": "SH267",
             "start_time": "1100h",
             "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
         }
     },
     "HIST 485C": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "13250": {
             "class_number": "13250",
             "enrollment_cap": 30,
-            "enrollment_count": 22,
+            "enrollment_count": 23,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "miriam.neirick@csun.edu",
@@ -956,30 +590,10 @@
         }
     },
     "HIST 491A": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12832": {
             "class_number": "12832",
             "enrollment_cap": 30,
-            "enrollment_count": 17,
+            "enrollment_count": 16,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "richard.horowitz@csun.edu",
@@ -990,26 +604,6 @@
         }
     },
     "HIST 494SOC": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12081": {
             "class_number": "12081",
             "enrollment_cap": 15,
@@ -1024,32 +618,12 @@
         }
     },
     "HIST 497A": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12654": {
             "class_number": "12654",
             "enrollment_cap": 15,
             "enrollment_count": 17,
             "waitlist_cap": 15,
-            "waitlist_count": 5,
+            "waitlist_count": 3,
             "instructor": "clementine.oliver@csun.edu",
             "days": "M",
             "location": "SH288",
@@ -1061,7 +635,7 @@
             "enrollment_cap": 15,
             "enrollment_count": 20,
             "waitlist_cap": 15,
-            "waitlist_count": 4,
+            "waitlist_count": 2,
             "instructor": "patricia.juarez-dappe@csun.edu",
             "days": "T",
             "location": "SH288",
@@ -1071,7 +645,7 @@
         "20754": {
             "class_number": "20754",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 18,
             "waitlist_cap": 15,
             "waitlist_count": 5,
             "instructor": "josh.sides@csun.edu",
@@ -1083,9 +657,9 @@
         "21261": {
             "class_number": "21261",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 17,
             "waitlist_cap": 15,
-            "waitlist_count": 3,
+            "waitlist_count": 4,
             "instructor": "christopher.blakley@csun.edu",
             "days": "W",
             "location": "SH160",
@@ -1094,33 +668,13 @@
         }
     },
     "HIST 498C": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12240": {
             "class_number": "12240",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 16,
             "waitlist_cap": 15,
             "waitlist_count": 1,
-            "instructor": "rebecca.simon.15@my.csun.edu",
+            "instructor": "rebecca.simon@csun.edu",
             "days": "T",
             "location": "SH186",
             "start_time": "1900h",
@@ -1131,7 +685,7 @@
             "enrollment_cap": 15,
             "enrollment_count": 15,
             "waitlist_cap": 15,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "rachel.howes@csun.edu",
             "days": "MW",
             "location": "SH182",
@@ -1152,30 +706,10 @@
         }
     },
     "HIST 563": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "20746": {
             "class_number": "20746",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 13,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "susan.fitzpatrick-behrens@csun.edu",
@@ -1186,32 +720,12 @@
         }
     },
     "HIST 570": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12930": {
             "class_number": "12930",
             "enrollment_cap": 15,
             "enrollment_count": 15,
             "waitlist_cap": 15,
-            "waitlist_count": 3,
+            "waitlist_count": 2,
             "instructor": "jeffrey.kaja@csun.edu",
             "days": "W",
             "location": "SH288",
@@ -1220,30 +734,10 @@
         }
     },
     "HIST 594": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "21262": {
             "class_number": "21262",
             "enrollment_cap": 15,
-            "enrollment_count": 7,
+            "enrollment_count": 9,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "Staff",
@@ -1254,30 +748,10 @@
         }
     },
     "HIST 596AN": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "20747": {
             "class_number": "20747",
             "enrollment_cap": 15,
-            "enrollment_count": 9,
+            "enrollment_count": 8,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "johnpaul.nuno@csun.edu",
@@ -1288,26 +762,6 @@
         }
     },
     "HIST 596EG": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "13108": {
             "class_number": "13108",
             "enrollment_cap": 15,
@@ -1322,26 +776,6 @@
         }
     },
     "HIST 601": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12608": {
             "class_number": "12608",
             "enrollment_cap": 0,
@@ -1354,30 +788,10 @@
         }
     },
     "HIST 641": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "12928": {
             "class_number": "12928",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 13,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "donal.osullivan@csun.edu",
@@ -1388,33 +802,13 @@
         }
     },
     "HIST 692C": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "20901": {
             "class_number": "20901",
             "enrollment_cap": 15,
-            "enrollment_count": 4,
+            "enrollment_count": 1,
             "waitlist_cap": 15,
             "waitlist_count": 0,
-            "instructor": "natale.zappia@csun.edu",
+            "instructor": "Staff",
             "days": "M",
             "location": "SH184",
             "start_time": "1600h",
@@ -1422,30 +816,10 @@
         }
     },
     "HIST 694": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "21166": {
             "class_number": "21166",
             "enrollment_cap": 12,
-            "enrollment_count": 9,
+            "enrollment_count": 10,
             "waitlist_cap": 0,
             "waitlist_count": 0,
             "instructor": "Staff",
@@ -1456,30 +830,10 @@
         }
     },
     "HIST 698D": {
-        "12499": {
-            "class_number": "12499",
-            "enrollment_cap": 8,
-            "enrollment_count": 0,
-            "instructor": "Oliver,Clementine",
-            "days": "MW",
-            "location": "SH186",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "12907": {
-            "class_number": "12907",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "O'Sullivan,Donal B",
-            "days": "MW",
-            "location": "SH184",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
         "20784": {
             "class_number": "20784",
             "enrollment_cap": 15,
-            "enrollment_count": 15,
+            "enrollment_count": 12,
             "waitlist_cap": 15,
             "waitlist_count": 1,
             "instructor": "miriam.neirick@csun.edu",
@@ -1491,7 +845,7 @@
         "21288": {
             "class_number": "21288",
             "enrollment_cap": 15,
-            "enrollment_count": 7,
+            "enrollment_count": 10,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "richard.horowitz@csun.edu",
@@ -1499,6 +853,32 @@
             "location": "SH265",
             "start_time": "1900h",
             "end_time": "2145h"
+        }
+    },
+    "HIST 699C": {
+        "21350": {
+            "class_number": "21350",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "patricia.juarez-dappe@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "21351": {
+            "class_number": "21351",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "erik.goldner@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     }
 }

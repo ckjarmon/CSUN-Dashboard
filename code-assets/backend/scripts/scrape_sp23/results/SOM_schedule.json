@@ -3,7 +3,7 @@
         "13553": {
             "class_number": "13553",
             "enrollment_cap": 42,
-            "enrollment_count": 42,
+            "enrollment_count": 39,
             "waitlist_cap": 30,
             "waitlist_count": 2,
             "instructor": "akash.gupta@csun.edu",
@@ -27,7 +27,7 @@
         "13651": {
             "class_number": "13651",
             "enrollment_cap": 42,
-            "enrollment_count": 42,
+            "enrollment_count": 41,
             "waitlist_cap": 30,
             "waitlist_count": 5,
             "instructor": "thomas.wedel@csun.edu",
@@ -39,7 +39,7 @@
         "13681": {
             "class_number": "13681",
             "enrollment_cap": 42,
-            "enrollment_count": 42,
+            "enrollment_count": 41,
             "waitlist_cap": 30,
             "waitlist_count": 2,
             "instructor": "qiuhua.sheng@csun.edu",
@@ -53,9 +53,9 @@
         "13521": {
             "class_number": "13521",
             "enrollment_cap": 160,
-            "enrollment_count": 160,
+            "enrollment_count": 158,
             "waitlist_cap": 120,
-            "waitlist_count": 17,
+            "waitlist_count": 12,
             "instructor": "junyeon.lee@csun.edu",
             "days": "T",
             "location": "NA101",
@@ -65,7 +65,7 @@
         "13554": {
             "class_number": "13554",
             "enrollment_cap": 135,
-            "enrollment_count": 73,
+            "enrollment_count": 80,
             "waitlist_cap": 120,
             "waitlist_count": 0,
             "instructor": "ahmad.vessal@csun.edu",
@@ -89,9 +89,9 @@
         "13556": {
             "class_number": "13556",
             "enrollment_cap": 150,
-            "enrollment_count": 149,
+            "enrollment_count": 150,
             "waitlist_cap": 120,
-            "waitlist_count": 16,
+            "waitlist_count": 9,
             "instructor": "kunpeng.li@csun.edu",
             "days": "R",
             "location": "JA100",
@@ -152,10 +152,10 @@
     "SOM 307": {
         "13557": {
             "class_number": "13557",
-            "enrollment_cap": 51,
-            "enrollment_count": 51,
+            "enrollment_cap": 54,
+            "enrollment_count": 53,
             "waitlist_cap": 51,
-            "waitlist_count": 4,
+            "waitlist_count": 2,
             "instructor": "akash.gupta@csun.edu",
             "days": "TR",
             "location": "BB2125",
@@ -164,10 +164,10 @@
         },
         "13880": {
             "class_number": "13880",
-            "enrollment_cap": 51,
-            "enrollment_count": 49,
+            "enrollment_cap": 54,
+            "enrollment_count": 54,
             "waitlist_cap": 51,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "ahmad.vessal@csun.edu",
             "days": "MW",
             "location": "BB2125",
@@ -178,10 +178,10 @@
     "SOM 416": {
         "13754": {
             "class_number": "13754",
-            "enrollment_cap": 50,
+            "enrollment_cap": 55,
             "enrollment_count": 55,
             "waitlist_cap": 50,
-            "waitlist_count": 9,
+            "waitlist_count": 8,
             "instructor": "jane.tierney@csun.edu",
             "days": "TR",
             "location": "BB2230",
@@ -193,7 +193,7 @@
         "13848": {
             "class_number": "13848",
             "enrollment_cap": 50,
-            "enrollment_count": 50,
+            "enrollment_count": 48,
             "waitlist_cap": 50,
             "waitlist_count": 1,
             "instructor": "junyeon.lee@csun.edu",
@@ -205,7 +205,7 @@
         "13905": {
             "class_number": "13905",
             "enrollment_cap": 50,
-            "enrollment_count": 44,
+            "enrollment_count": 49,
             "waitlist_cap": 50,
             "waitlist_count": 0,
             "instructor": "paul.fidler@csun.edu",
@@ -219,7 +219,7 @@
         "13766": {
             "class_number": "13766",
             "enrollment_cap": 65,
-            "enrollment_count": 65,
+            "enrollment_count": 66,
             "waitlist_cap": 50,
             "waitlist_count": 1,
             "instructor": "kaveh.houshmand@csun.edu",
@@ -233,9 +233,9 @@
         "13466": {
             "class_number": "13466",
             "enrollment_cap": 51,
-            "enrollment_count": 51,
+            "enrollment_count": 53,
             "waitlist_cap": 51,
-            "waitlist_count": 11,
+            "waitlist_count": 9,
             "instructor": "behnam.abrams@csun.edu",
             "days": "R",
             "location": "BB2125",
@@ -245,7 +245,7 @@
         "13882": {
             "class_number": "13882",
             "enrollment_cap": 50,
-            "enrollment_count": 50,
+            "enrollment_count": 46,
             "waitlist_cap": 50,
             "waitlist_count": 1,
             "instructor": "behnam.abrams@csun.edu",
@@ -259,12 +259,26 @@
         "13746": {
             "class_number": "13746",
             "enrollment_cap": 25,
-            "enrollment_count": 31,
+            "enrollment_count": 34,
             "waitlist_cap": 25,
             "waitlist_count": 1,
             "instructor": "thomas.wedel@csun.edu",
             "days": "M",
             "location": "BB1232",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SOM 686": {
+        "13425": {
+            "class_number": "13425",
+            "enrollment_cap": 25,
+            "enrollment_count": 10,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "kunpeng.li@csun.edu",
+            "days": "M",
+            "location": "BB1230",
             "start_time": "1900h",
             "end_time": "2145h"
         }

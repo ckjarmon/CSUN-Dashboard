@@ -2,7 +2,7 @@
     "AAS 100": {
         "14046": {
             "class_number": "14046",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Carroll,Kimberly Teaman",
             "days": "M",
@@ -12,7 +12,7 @@
         },
         "14047": {
             "class_number": "14047",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Lan,Lawrence",
             "days": "W",
@@ -22,7 +22,7 @@
         },
         "14211": {
             "class_number": "14211",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Aquino,Allan A",
             "days": "MW",
@@ -32,7 +32,7 @@
         },
         "14429": {
             "class_number": "14429",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Kim,Song M",
             "days": "TR",
@@ -42,7 +42,7 @@
         },
         "14675": {
             "class_number": "14675",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Masequesmay,Gina",
             "days": "TR",
@@ -52,7 +52,7 @@
         },
         "14676": {
             "class_number": "14676",
-            "enrollment_cap": -3,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Williams Le\u00f3n,Teresa K",
             "days": null,
@@ -62,7 +62,7 @@
         },
         "14682": {
             "class_number": "14682",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Shrake,Eunai K",
             "days": null,
@@ -74,7 +74,7 @@
     "AAS 113B": {
         "14380": {
             "class_number": "14380",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Turnmeyer,Maria M",
             "days": "TR",
@@ -84,7 +84,7 @@
         },
         "14293": {
             "class_number": "14293",
-            "enrollment_cap": -3,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Turnmeyer,Maria M",
             "days": "TR",
@@ -115,10 +115,10 @@
             "end_time": "1345h"
         }
     },
-    "AAS 114B": {
+    "AAS 115": {
         "14862": {
             "class_number": "14862",
-            "enrollment_cap": -3,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Turnmeyer,Maria M",
             "days": "TR",
@@ -127,22 +127,20 @@
             "end_time": "1345h"
         }
     },
-    "AAS 115": {
-        "21071": {
-            "class_number": "21071",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Tang,Derek A",
-            "days": "TR",
-            "location": "SH321",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
     "AAS 151": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14161": {
             "class_number": "14161",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Tang,Derek A",
             "days": "MW",
@@ -162,7 +160,7 @@
         },
         "14210": {
             "class_number": "14210",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Tang,Derek A",
             "days": "MW",
@@ -172,7 +170,7 @@
         },
         "14492": {
             "class_number": "14492",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Gamboa-Wong,Margeaux Aegel C",
             "days": "MW",
@@ -202,7 +200,7 @@
         },
         "15162": {
             "class_number": "15162",
-            "enrollment_cap": 1,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Lee,Daehwan",
             "days": "TR",
@@ -212,7 +210,7 @@
         },
         "15238": {
             "class_number": "15238",
-            "enrollment_cap": -4,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Turnmeyer,Maria M",
             "days": "TR",
@@ -222,6 +220,16 @@
         }
     },
     "AAS 151EOP": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "15376": {
             "class_number": "15376",
             "enrollment_cap": 1,
@@ -234,6 +242,16 @@
         }
     },
     "AAS 201": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14048": {
             "class_number": "14048",
             "enrollment_cap": 0,
@@ -266,7 +284,7 @@
         },
         "14071": {
             "class_number": "14071",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Masequesmay,Gina",
             "days": "TR",
@@ -276,7 +294,7 @@
         },
         "14072": {
             "class_number": "14072",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Masequesmay,Gina",
             "days": "TR",
@@ -296,7 +314,7 @@
         },
         "14050": {
             "class_number": "14050",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Makhijani,Simmy",
             "days": "TR",
@@ -306,9 +324,19 @@
         }
     },
     "AAS 210": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14116": {
             "class_number": "14116",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Lai,Clement K",
             "days": "TR",
@@ -318,9 +346,19 @@
         }
     },
     "AAS 220": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "20659": {
             "class_number": "20659",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hattori,Tomo",
             "days": null,
@@ -330,21 +368,53 @@
         }
     },
     "AAS 230EOP": {
-        "14195": {
-            "class_number": "14195",
-            "enrollment_cap": 5,
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
             "enrollment_count": 0,
-            "instructor": "Aquino,Allan A",
+            "instructor": "Turnmeyer,Maria M",
             "days": "TR",
-            "location": "JR134",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "AAS 321": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "20661": {
+            "class_number": "20661",
+            "enrollment_cap": -2,
+            "enrollment_count": 0,
+            "instructor": "Gamboa-Wong,Margeaux Aegel C",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
     "AAS 340": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14053": {
             "class_number": "14053",
-            "enrollment_cap": 1,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Kim,Jinah",
             "days": "TR",
@@ -354,18 +424,28 @@
         }
     },
     "AAS 340HON": {
-        "15398": {
-            "class_number": "15398",
-            "enrollment_cap": 0,
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
             "enrollment_count": 0,
-            "instructor": "Carroll,Kimberly Teaman",
+            "instructor": "Turnmeyer,Maria M",
             "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
     "AAS 345": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14150": {
             "class_number": "14150",
             "enrollment_cap": 0,
@@ -378,9 +458,19 @@
         }
     },
     "AAS 347": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14117": {
             "class_number": "14117",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Hutchison,Phillip A",
             "days": "MW",
@@ -390,7 +480,7 @@
         },
         "14344": {
             "class_number": "14344",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Hutchison,Phillip A",
             "days": "M",
@@ -400,17 +490,17 @@
         },
         "15163": {
             "class_number": "15163",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Hutchison,Phillip A",
             "days": "W",
-            "location": "JR134",
+            "location": "JR221",
             "start_time": "1600h",
             "end_time": "1845h"
         },
         "20797": {
             "class_number": "20797",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Lan,Lawrence",
             "days": "TR",
@@ -419,7 +509,39 @@
             "end_time": "1345h"
         }
     },
+    "AAS 350": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14259": {
+            "class_number": "14259",
+            "enrollment_cap": -2,
+            "enrollment_count": 0,
+            "instructor": "Garcia,Kristina C",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
     "AAS 360": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14431": {
             "class_number": "14431",
             "enrollment_cap": 0,
@@ -432,6 +554,16 @@
         }
     },
     "AAS 390": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14260": {
             "class_number": "14260",
             "enrollment_cap": 9,
@@ -444,6 +576,16 @@
         }
     },
     "AAS 390F": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14261": {
             "class_number": "14261",
             "enrollment_cap": 9,
@@ -456,9 +598,19 @@
         }
     },
     "AAS 417": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14685": {
             "class_number": "14685",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Shrake,Eunai K",
             "days": null,
@@ -468,7 +620,7 @@
         },
         "20798": {
             "class_number": "20798",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kim,Song M",
             "days": "W",
@@ -478,9 +630,19 @@
         }
     },
     "AAS 440": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "20660": {
             "class_number": "20660",
-            "enrollment_cap": 8,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Lai,Clement K",
             "days": "TR",
@@ -490,6 +652,16 @@
         }
     },
     "AAS 450": {
+        "14862": {
+            "class_number": "14862",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Turnmeyer,Maria M",
+            "days": "TR",
+            "location": "ED1127",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14055": {
             "class_number": "14055",
             "enrollment_cap": -1,

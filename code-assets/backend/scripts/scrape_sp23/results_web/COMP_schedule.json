@@ -2,7 +2,7 @@
     "COMP 100": {
         "16185": {
             "class_number": "16185",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Bendavid,Cecile S",
             "days": "TR",
@@ -12,7 +12,7 @@
         },
         "16186": {
             "class_number": "16186",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Bendavid,Cecile S",
             "days": "TR",
@@ -22,7 +22,7 @@
         },
         "16292": {
             "class_number": "16292",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Bendavid,Cecile S",
             "days": "MW",
@@ -32,7 +32,7 @@
         },
         "16187": {
             "class_number": "16187",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Bendavid,Cecile S",
             "days": "MW",
@@ -44,7 +44,7 @@
     "COMP 108": {
         "16715": {
             "class_number": "16715",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Dan,Steve",
             "days": "TR",
@@ -53,10 +53,102 @@
             "end_time": "1215h"
         }
     },
+    "COMP 110": {
+        "16457": {
+            "class_number": "16457",
+            "enrollment_cap": -3,
+            "enrollment_count": 0,
+            "instructor": "Bowles,Chris",
+            "days": "TR",
+            "location": "JD1104",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "16196": {
+            "class_number": "16196",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Zartoshty,Bahram",
+            "days": "MW",
+            "location": "JD1104",
+            "start_time": "1330h",
+            "end_time": "1445h"
+        },
+        "16198": {
+            "class_number": "16198",
+            "enrollment_cap": -4,
+            "enrollment_count": 0,
+            "instructor": "Amini,Afshin",
+            "days": "TR",
+            "location": "JD1107",
+            "start_time": "1430h",
+            "end_time": "1545h"
+        },
+        "16200": {
+            "class_number": "16200",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Bhatt,Vijay J",
+            "days": "MW",
+            "location": "JD1105",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "16384": {
+            "class_number": "16384",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Haghoo,Majid",
+            "days": "TR",
+            "location": "JD1104",
+            "start_time": "1900h",
+            "end_time": "2015h"
+        },
+        "16556": {
+            "class_number": "16556",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Pham,Son",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "16637": {
+            "class_number": "16637",
+            "enrollment_cap": -3,
+            "enrollment_count": 0,
+            "instructor": "Dantes,Edmund",
+            "days": "TR",
+            "location": "JD1104",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "16759": {
+            "class_number": "16759",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Haghoo,Majid",
+            "days": "MW",
+            "location": "JD1104",
+            "start_time": "1000h",
+            "end_time": "1115h"
+        },
+        "16924": {
+            "class_number": "16924",
+            "enrollment_cap": 8,
+            "enrollment_count": 0,
+            "instructor": "Pham,Son",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        }
+    },
     "COMP 110L": {
         "16456": {
             "class_number": "16456",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Bowles,Chris",
             "days": "TR",
@@ -76,7 +168,7 @@
         },
         "16199": {
             "class_number": "16199",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Amini,Afshin",
             "days": "TR",
@@ -86,7 +178,7 @@
         },
         "16201": {
             "class_number": "16201",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Bhatt,Vijay J",
             "days": "MW",
@@ -96,7 +188,7 @@
         },
         "16385": {
             "class_number": "16385",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Haghoo,Majid",
             "days": "TR",
@@ -106,7 +198,7 @@
         },
         "16557": {
             "class_number": "16557",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Pham,Son",
             "days": null,
@@ -116,7 +208,7 @@
         },
         "16638": {
             "class_number": "16638",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Dantes,Edmund",
             "days": "TR",
@@ -124,9 +216,19 @@
             "start_time": "1530h",
             "end_time": "1645h"
         },
+        "16760": {
+            "class_number": "16760",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Haghoo,Majid",
+            "days": "MW",
+            "location": "JD1104",
+            "start_time": "1130h",
+            "end_time": "1245h"
+        },
         "16928": {
             "class_number": "16928",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Pham,Son",
             "days": null,
@@ -136,7 +238,7 @@
         },
         "16929": {
             "class_number": "16929",
-            "enrollment_cap": 1,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Pham,Son",
             "days": null,
@@ -158,7 +260,7 @@
         },
         "17010": {
             "class_number": "17010",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Bowles,Chris",
             "days": "TR",
@@ -180,7 +282,7 @@
         },
         "16952": {
             "class_number": "16952",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Bowles,Chris",
             "days": "TR",
@@ -192,7 +294,7 @@
     "COMP 122": {
         "16202": {
             "class_number": "16202",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Fitzgerald,Steven M",
             "days": "MW",
@@ -202,7 +304,7 @@
         },
         "16204": {
             "class_number": "16204",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Fitzgerald,Steven M",
             "days": "MW",
@@ -222,7 +324,7 @@
         },
         "16559": {
             "class_number": "16559",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Fitzgerald,Steven M",
             "days": "TR",
@@ -232,7 +334,7 @@
         },
         "16639": {
             "class_number": "16639",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Kazandjian,Nerces Kevork",
             "days": "MW",
@@ -242,7 +344,7 @@
         },
         "16761": {
             "class_number": "16761",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Amini,Afshin",
             "days": "TR",
@@ -254,7 +356,7 @@
     "COMP 122L": {
         "16203": {
             "class_number": "16203",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Fitzgerald,Steven M",
             "days": "MW",
@@ -264,7 +366,7 @@
         },
         "16205": {
             "class_number": "16205",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Fitzgerald,Steven M",
             "days": "MW",
@@ -284,7 +386,7 @@
         },
         "16561": {
             "class_number": "16561",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Fitzgerald,Steven M",
             "days": "TR",
@@ -294,7 +396,7 @@
         },
         "16640": {
             "class_number": "16640",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Kazandjian,Nerces Kevork",
             "days": "MW",
@@ -304,7 +406,7 @@
         },
         "16764": {
             "class_number": "16764",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Amini,Afshin",
             "days": "TR",
@@ -356,17 +458,17 @@
         },
         "16641": {
             "class_number": "16641",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Nikjeh,Esmaail M",
             "days": "F",
-            "location": "JD1593",
+            "location": "JD1107",
             "start_time": "0800h",
             "end_time": "1045h"
         },
         "16882": {
             "class_number": "16882",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Zartoshty,Bahram",
             "days": "MW",
@@ -418,17 +520,17 @@
         },
         "16642": {
             "class_number": "16642",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Nikjeh,Esmaail M",
             "days": "F",
-            "location": "JD1593",
+            "location": "JD1107",
             "start_time": "1100h",
             "end_time": "1345h"
         },
         "16884": {
             "class_number": "16884",
-            "enrollment_cap": -1,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Zartoshty,Bahram",
             "days": "MW",
@@ -438,7 +540,7 @@
         },
         "16885": {
             "class_number": "16885",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Zartoshty,Bahram",
             "days": "MW",
@@ -460,7 +562,7 @@
         },
         "16839": {
             "class_number": "16839",
-            "enrollment_cap": 1,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Drobman,Jeffrey H",
             "days": "TR",
@@ -470,7 +572,7 @@
         },
         "16950": {
             "class_number": "16950",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Drobman,Jeffrey H",
             "days": "TR",
@@ -480,7 +582,7 @@
         },
         "20815": {
             "class_number": "20815",
-            "enrollment_cap": 10,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Drobman,Jeffrey H",
             "days": "F",
@@ -492,7 +594,7 @@
     "COMP 256": {
         "16543": {
             "class_number": "16543",
-            "enrollment_cap": -4,
+            "enrollment_cap": -10,
             "enrollment_count": 0,
             "instructor": "Nikjeh,Esmaail M",
             "days": "TR",
@@ -502,7 +604,7 @@
         },
         "16840": {
             "class_number": "16840",
-            "enrollment_cap": 0,
+            "enrollment_cap": -13,
             "enrollment_count": 0,
             "instructor": "Mkrtchyan,Katya",
             "days": "MW",
@@ -512,7 +614,7 @@
         },
         "17026": {
             "class_number": "17026",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Clark,Adam Scott",
             "days": "TR",
@@ -524,7 +626,7 @@
     "COMP 256L": {
         "16544": {
             "class_number": "16544",
-            "enrollment_cap": -4,
+            "enrollment_cap": -10,
             "enrollment_count": 0,
             "instructor": "Nikjeh,Esmaail M",
             "days": "TR",
@@ -534,7 +636,7 @@
         },
         "16841": {
             "class_number": "16841",
-            "enrollment_cap": 0,
+            "enrollment_cap": -13,
             "enrollment_count": 0,
             "instructor": "Mkrtchyan,Katya",
             "days": "MW",
@@ -544,7 +646,7 @@
         },
         "17027": {
             "class_number": "17027",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Clark,Adam Scott",
             "days": "TR",
@@ -556,7 +658,7 @@
     "COMP 282": {
         "16426": {
             "class_number": "16426",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Dastghaiby fard,Gholamhossein",
             "days": "MW",
@@ -570,23 +672,23 @@
             "enrollment_count": 0,
             "instructor": "Alnaji,Loay",
             "days": "M",
-            "location": "JD1553",
+            "location": "JD3510",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         "16697": {
             "class_number": "16697",
-            "enrollment_cap": 16,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Alnaji,Loay",
             "days": "W",
-            "location": "TBA",
+            "location": "JD1105",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         "17028": {
             "class_number": "17028",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Dastghaiby fard,Gholamhossein",
             "days": "S",
@@ -596,7 +698,7 @@
         },
         "17055": {
             "class_number": "17055",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Vasikarla,Shantaram",
             "days": "F",
@@ -608,17 +710,17 @@
     "COMP 310": {
         "16214": {
             "class_number": "16214",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Schwartz,Diane L",
             "days": "MW",
-            "location": "JD3520",
+            "location": "ONLINE",
             "start_time": "0930h",
             "end_time": "1045h"
         },
         "16444": {
             "class_number": "16444",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Benson,Ilia",
             "days": "MW",
@@ -640,7 +742,7 @@
     "COMP 322": {
         "16744": {
             "class_number": "16744",
-            "enrollment_cap": 0,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Freedman,David Alan",
             "days": "TR",
@@ -650,7 +752,7 @@
         },
         "17016": {
             "class_number": "17016",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Zamanifar,Kamran",
             "days": "TR",
@@ -660,17 +762,17 @@
         },
         "17017": {
             "class_number": "17017",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Bowles,Chris",
             "days": "MW",
-            "location": "JD2213",
+            "location": "JD1600A",
             "start_time": "0930h",
             "end_time": "1045h"
         },
         "16795": {
             "class_number": "16795",
-            "enrollment_cap": 0,
+            "enrollment_cap": -29,
             "enrollment_count": 0,
             "instructor": "McIlhenny,Robert D",
             "days": "MW",
@@ -682,7 +784,7 @@
     "COMP 322L": {
         "16215": {
             "class_number": "16215",
-            "enrollment_cap": 0,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Freedman,David Alan",
             "days": "TR",
@@ -692,7 +794,7 @@
         },
         "16873": {
             "class_number": "16873",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Zamanifar,Kamran",
             "days": "TR",
@@ -702,7 +804,7 @@
         },
         "17018": {
             "class_number": "17018",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Bowles,Chris",
             "days": "MW",
@@ -712,7 +814,7 @@
         },
         "16774": {
             "class_number": "16774",
-            "enrollment_cap": 0,
+            "enrollment_cap": -23,
             "enrollment_count": 0,
             "instructor": "McIlhenny,Robert D",
             "days": "MW",
@@ -722,7 +824,7 @@
         },
         "16796": {
             "class_number": "16796",
-            "enrollment_cap": 0,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "McIlhenny,Robert D",
             "days": "MW",
@@ -734,7 +836,7 @@
     "COMP 333": {
         "16212": {
             "class_number": "16212",
-            "enrollment_cap": 0,
+            "enrollment_cap": -15,
             "enrollment_count": 0,
             "instructor": "Covington,Richard G",
             "days": "MW",
@@ -744,7 +846,7 @@
         },
         "16842": {
             "class_number": "16842",
-            "enrollment_cap": 0,
+            "enrollment_cap": -15,
             "enrollment_count": 0,
             "instructor": "Covington,Richard G",
             "days": "TR",
@@ -754,7 +856,7 @@
         },
         "16941": {
             "class_number": "16941",
-            "enrollment_cap": 0,
+            "enrollment_cap": -10,
             "enrollment_count": 0,
             "instructor": "Covington,Richard G",
             "days": "TR",
@@ -766,7 +868,7 @@
     "COMP 380": {
         "16216": {
             "class_number": "16216",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Zamanifar,Kamran",
             "days": "TR",
@@ -776,7 +878,7 @@
         },
         "16218": {
             "class_number": "16218",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Verma,Abhishek",
             "days": "MW",
@@ -786,7 +888,7 @@
         },
         "16562": {
             "class_number": "16562",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Verma,Abhishek",
             "days": "MW",
@@ -796,7 +898,7 @@
         },
         "16843": {
             "class_number": "16843",
-            "enrollment_cap": 0,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Stein,Lawrence J",
             "days": "TR",
@@ -806,11 +908,11 @@
         },
         "17037": {
             "class_number": "17037",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Zamanifar,Kamran",
             "days": "F",
-            "location": "JD1538",
+            "location": "JD1105",
             "start_time": "1400h",
             "end_time": "1540h"
         }
@@ -818,7 +920,7 @@
     "COMP 380L": {
         "16217": {
             "class_number": "16217",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Zamanifar,Kamran",
             "days": "TR",
@@ -828,7 +930,7 @@
         },
         "16219": {
             "class_number": "16219",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Verma,Abhishek",
             "days": "MW",
@@ -838,7 +940,7 @@
         },
         "16563": {
             "class_number": "16563",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Verma,Abhishek",
             "days": "MW",
@@ -848,7 +950,7 @@
         },
         "16845": {
             "class_number": "16845",
-            "enrollment_cap": 0,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Stein,Lawrence J",
             "days": "TR",
@@ -858,11 +960,11 @@
         },
         "17038": {
             "class_number": "17038",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Zamanifar,Kamran",
             "days": "F",
-            "location": "JD1538",
+            "location": "JD1105",
             "start_time": "1600h",
             "end_time": "1845h"
         }
@@ -870,7 +972,7 @@
     "COMP 424": {
         "16220": {
             "class_number": "16220",
-            "enrollment_cap": 0,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Heravi,Mani",
             "days": "R",
@@ -892,7 +994,7 @@
     "COMP 429": {
         "16889": {
             "class_number": "16889",
-            "enrollment_cap": 0,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Yu,Senhua",
             "days": "S",
@@ -902,7 +1004,7 @@
         },
         "16938": {
             "class_number": "16938",
-            "enrollment_cap": 0,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Yu,Senhua",
             "days": "S",
@@ -924,7 +1026,7 @@
     "COMP 430": {
         "16918": {
             "class_number": "16918",
-            "enrollment_cap": 0,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Dewey,Kyle T",
             "days": "MW",
@@ -936,7 +1038,7 @@
     "COMP 440": {
         "16636": {
             "class_number": "16636",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ebrahimi,Mahdi",
             "days": "MW",
@@ -946,7 +1048,7 @@
         },
         "16745": {
             "class_number": "16745",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Ebrahimi,Mahdi",
             "days": "MW",
@@ -956,7 +1058,7 @@
         },
         "17022": {
             "class_number": "17022",
-            "enrollment_cap": 0,
+            "enrollment_cap": -13,
             "enrollment_count": 0,
             "instructor": "Ebrahimi,Mahdi",
             "days": "MW",
@@ -965,10 +1067,32 @@
             "end_time": "1545h"
         }
     },
+    "COMP 467": {
+        "21333": {
+            "class_number": "21333",
+            "enrollment_cap": -50,
+            "enrollment_count": 0,
+            "instructor": "CHAJA,KEVIN",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "21348": {
+            "class_number": "21348",
+            "enrollment_cap": -28,
+            "enrollment_count": 0,
+            "instructor": "CHAJA,KEVIN",
+            "days": "M",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
     "COMP 469": {
         "16584": {
             "class_number": "16584",
-            "enrollment_cap": 0,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Dastghaiby fard,Gholamhossein",
             "days": "F",
@@ -980,7 +1104,7 @@
     "COMP 482": {
         "16856": {
             "class_number": "16856",
-            "enrollment_cap": 0,
+            "enrollment_cap": -8,
             "enrollment_count": 0,
             "instructor": "Clark,Adam Scott",
             "days": "TR",
@@ -990,7 +1114,7 @@
         },
         "16857": {
             "class_number": "16857",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Noga,John J",
             "days": "TR",
@@ -1012,7 +1136,7 @@
     "COMP 484": {
         "16362": {
             "class_number": "16362",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Benson,Ilia",
             "days": "MW",
@@ -1022,7 +1146,7 @@
         },
         "16747": {
             "class_number": "16747",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Benson,Ilia",
             "days": "TR",
@@ -1034,7 +1158,7 @@
     "COMP 484L": {
         "16391": {
             "class_number": "16391",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Benson,Ilia",
             "days": "MW",
@@ -1044,7 +1168,7 @@
         },
         "16748": {
             "class_number": "16748",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Benson,Ilia",
             "days": "TR",
@@ -1056,7 +1180,7 @@
     "COMP 485": {
         "16221": {
             "class_number": "16221",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Abdelrahim,Mohammed F",
             "days": "S",
@@ -1066,7 +1190,7 @@
         },
         "16783": {
             "class_number": "16783",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Karamian,Vahe",
             "days": "W",
@@ -1076,7 +1200,7 @@
         },
         "16847": {
             "class_number": "16847",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Vasikarla,Shantaram",
             "days": "R",
@@ -1086,7 +1210,7 @@
         },
         "16863": {
             "class_number": "16863",
-            "enrollment_cap": 0,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Abdelrahim,Mohammed F",
             "days": "S",
@@ -1094,9 +1218,19 @@
             "start_time": "1100h",
             "end_time": "1345h"
         },
+        "17040": {
+            "class_number": "17040",
+            "enrollment_cap": -2,
+            "enrollment_count": 0,
+            "instructor": "Isayan,Sevada",
+            "days": "S",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
         "17065": {
             "class_number": "17065",
-            "enrollment_cap": 0,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Abdelrahim,Mohammed F",
             "days": "F",
@@ -1128,7 +1262,7 @@
         },
         "16786": {
             "class_number": "16786",
-            "enrollment_cap": 3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Wiegley,Jeffrey",
             "days": "TR",
@@ -1138,7 +1272,7 @@
         },
         "16848": {
             "class_number": "16848",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Modarresi,Alex",
             "days": "MW",
@@ -1148,7 +1282,7 @@
         },
         "16849": {
             "class_number": "16849",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Amini,Afshin",
             "days": "MW",
@@ -1158,7 +1292,7 @@
         },
         "16890": {
             "class_number": "16890",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Amini,Afshin",
             "days": "TR",
@@ -1200,7 +1334,7 @@
     "COMP 522": {
         "16296": {
             "class_number": "16296",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Bhatt,Vijay J",
             "days": "T",
@@ -1210,11 +1344,11 @@
         },
         "21274": {
             "class_number": "21274",
-            "enrollment_cap": 0,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Bhatt,Vijay J",
             "days": "R",
-            "location": "JD2520",
+            "location": "JD3502",
             "start_time": "1900h",
             "end_time": "2145h"
         }
@@ -1222,7 +1356,7 @@
     "COMP 529": {
         "16850": {
             "class_number": "16850",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Elder,Nelson K",
             "days": "TR",
@@ -1232,19 +1366,29 @@
         },
         "21255": {
             "class_number": "21255",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Elder,Nelson K",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "1950h"
+        },
+        "21334": {
+            "class_number": "21334",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Elder,Nelson K",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1700h",
+            "end_time": "1840h"
         }
     },
     "COMP 529L": {
         "17012": {
             "class_number": "17012",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Elder,Nelson K",
             "days": "TR",
@@ -1254,13 +1398,23 @@
         },
         "21256": {
             "class_number": "21256",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Elder,Nelson K",
             "days": "MW",
             "location": "ONLINE",
             "start_time": "2000h",
             "end_time": "2115h"
+        },
+        "21335": {
+            "class_number": "21335",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Elder,Nelson K",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
     "COMP 541": {
@@ -1276,7 +1430,7 @@
         },
         "17035": {
             "class_number": "17035",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Klotzman,Vanessa I",
             "days": "F",
@@ -1286,21 +1440,21 @@
         },
         "21275": {
             "class_number": "21275",
-            "enrollment_cap": 0,
+            "enrollment_cap": -11,
             "enrollment_count": 0,
             "instructor": "Klotzman,Vanessa I",
             "days": "F",
-            "location": "JD1609",
+            "location": "JD3520",
             "start_time": "1400h",
             "end_time": "1645h"
         },
         "21330": {
             "class_number": "21330",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Klotzman,Vanessa I",
             "days": "R",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1400h",
             "end_time": "1645h"
         }
@@ -1308,7 +1462,7 @@
     "COMP 542": {
         "16989": {
             "class_number": "16989",
-            "enrollment_cap": 0,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Lord,Mansoureh",
             "days": "TR",
@@ -1318,7 +1472,7 @@
         },
         "17019": {
             "class_number": "17019",
-            "enrollment_cap": 0,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Lord,Mansoureh",
             "days": "TR",
@@ -1328,7 +1482,7 @@
         },
         "21276": {
             "class_number": "21276",
-            "enrollment_cap": 0,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Lord,Mansoureh",
             "days": "TR",
@@ -1340,7 +1494,7 @@
     "COMP 565": {
         "16365": {
             "class_number": "16365",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Karamian,Vahe",
             "days": "M",
@@ -1350,7 +1504,7 @@
         },
         "17046": {
             "class_number": "17046",
-            "enrollment_cap": 0,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Karamian,Vahe",
             "days": "M",
@@ -1362,7 +1516,7 @@
     "COMP 583": {
         "16643": {
             "class_number": "16643",
-            "enrollment_cap": 0,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Karamian,Vahe",
             "days": "T",
@@ -1372,7 +1526,7 @@
         },
         "17032": {
             "class_number": "17032",
-            "enrollment_cap": 0,
+            "enrollment_cap": -11,
             "enrollment_count": 0,
             "instructor": "Mushkatblat,Yevgeniya",
             "days": "R",
@@ -1384,7 +1538,7 @@
     "COMP 584": {
         "16540": {
             "class_number": "16540",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Marin,Oscar R",
             "days": "F",
@@ -1394,17 +1548,17 @@
         },
         "16749": {
             "class_number": "16749",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Marin,Oscar R",
             "days": "F",
-            "location": "JD1600",
+            "location": "JD2216",
             "start_time": "1900h",
             "end_time": "2145h"
         },
         "17045": {
             "class_number": "17045",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Rabinovich,Felix",
             "days": "F",
@@ -1416,7 +1570,7 @@
     "COMP 585": {
         "16585": {
             "class_number": "16585",
-            "enrollment_cap": 0,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Asadorian,Sevak",
             "days": "S",
@@ -1428,7 +1582,7 @@
     "COMP 589": {
         "16615": {
             "class_number": "16615",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Karamian,Vahe",
             "days": "R",
@@ -1440,7 +1594,7 @@
     "COMP 610": {
         "16223": {
             "class_number": "16223",
-            "enrollment_cap": 3,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Noga,John J",
             "days": "F",
@@ -1452,7 +1606,7 @@
     "COMP 620": {
         "17011": {
             "class_number": "17011",
-            "enrollment_cap": 0,
+            "enrollment_cap": -8,
             "enrollment_count": 0,
             "instructor": "Freedman,David Alan",
             "days": "F",
@@ -1474,7 +1628,7 @@
     "COMP 680": {
         "16224": {
             "class_number": "16224",
-            "enrollment_cap": 0,
+            "enrollment_cap": -9,
             "enrollment_count": 0,
             "instructor": "Mushkatblat,Yevgeniya",
             "days": "R",
@@ -1484,11 +1638,21 @@
         },
         "21331": {
             "class_number": "21331",
-            "enrollment_cap": 0,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Sepetjyan,Harutyun",
             "days": "W",
-            "location": "TBA",
+            "location": "JD3504",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "21336": {
+            "class_number": "21336",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Sepetjyan,Harutyun",
+            "days": "M",
+            "location": "ONLINE",
             "start_time": "1900h",
             "end_time": "2145h"
         }
@@ -1506,7 +1670,7 @@
         },
         "16316": {
             "class_number": "16316",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Nahapetian,Ani",
             "days": null,
@@ -1516,7 +1680,7 @@
         },
         "16322": {
             "class_number": "16322",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Kaplan,Adam B",
             "days": null,
@@ -1526,7 +1690,7 @@
         },
         "16324": {
             "class_number": "16324",
-            "enrollment_cap": 3,
+            "enrollment_cap": -8,
             "enrollment_count": 0,
             "instructor": "Wang,Taehyung",
             "days": null,
@@ -1536,9 +1700,9 @@
         },
         "16326": {
             "class_number": "16326",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jiang,Xunfei",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -1546,9 +1710,9 @@
         },
         "16539": {
             "class_number": "16539",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Lee,Wonjun",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -1556,9 +1720,9 @@
         },
         "16565": {
             "class_number": "16565",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Dewey,Kyle T",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -1566,9 +1730,9 @@
         },
         "16566": {
             "class_number": "16566",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Liu,Li",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -1576,6 +1740,36 @@
         },
         "16567": {
             "class_number": "16567",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Noga,John J",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "17069": {
+            "class_number": "17069",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Modarresi,Alex",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21354": {
+            "class_number": "21354",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Wiegley,Jeffrey",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21355": {
+            "class_number": "21355",
             "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
@@ -1584,31 +1778,21 @@
             "start_time": "ARR",
             "end_time": "ARR"
         },
-        "17067": {
-            "class_number": "17067",
+        "21356": {
+            "class_number": "21356",
             "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
-            "location": "TBA",
-            "start_time": "TBA",
-            "end_time": "TBA"
-        },
-        "17068": {
-            "class_number": "17068",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "TBA",
-            "end_time": "TBA"
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "COMP 698C": {
         "16229": {
             "class_number": "16229",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "McIlhenny,Robert D",
             "days": null,
@@ -1618,7 +1802,7 @@
         },
         "16317": {
             "class_number": "16317",
-            "enrollment_cap": 2,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Verma,Abhishek",
             "days": null,
@@ -1628,7 +1812,7 @@
         },
         "16323": {
             "class_number": "16323",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Nahapetian,Ani",
             "days": null,
@@ -1638,7 +1822,7 @@
         },
         "16325": {
             "class_number": "16325",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Mkrtchyan,Katya",
             "days": null,
@@ -1658,7 +1842,7 @@
         },
         "16358": {
             "class_number": "16358",
-            "enrollment_cap": 2,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Jiang,Xunfei",
             "days": null,
@@ -1668,7 +1852,7 @@
         },
         "16361": {
             "class_number": "16361",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Wang,Taehyung",
             "days": null,
@@ -1678,7 +1862,7 @@
         },
         "16568": {
             "class_number": "16568",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Jalali,Maryam",
             "days": null,
@@ -1689,6 +1873,116 @@
         "16569": {
             "class_number": "16569",
             "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Kaplan,Adam B",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "16570": {
+            "class_number": "16570",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Wiegley,Jeffrey",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21337": {
+            "class_number": "21337",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Lee,Wonjun",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21338": {
+            "class_number": "21338",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Modarresi,Alex",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21339": {
+            "class_number": "21339",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Liu,Li",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21340": {
+            "class_number": "21340",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Dewey,Kyle T",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21341": {
+            "class_number": "21341",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21342": {
+            "class_number": "21342",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21343": {
+            "class_number": "21343",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21344": {
+            "class_number": "21344",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21345": {
+            "class_number": "21345",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21346": {
+            "class_number": "21346",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,

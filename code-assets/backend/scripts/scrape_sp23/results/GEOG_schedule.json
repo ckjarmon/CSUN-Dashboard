@@ -3,7 +3,7 @@
         "12157": {
             "class_number": "12157",
             "enrollment_cap": 84,
-            "enrollment_count": 84,
+            "enrollment_count": 81,
             "waitlist_cap": 84,
             "waitlist_count": 1,
             "instructor": "alana.rader@csun.edu",
@@ -31,10 +31,10 @@
         "13223": {
             "class_number": "13223",
             "enrollment_cap": 42,
-            "enrollment_count": 43,
+            "enrollment_count": 41,
             "waitlist_cap": 42,
             "waitlist_count": 0,
-            "instructor": "Staff",
+            "instructor": "luke.bryden.952@my.csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
@@ -45,7 +45,7 @@
         "13351": {
             "class_number": "13351",
             "enrollment_cap": 25,
-            "enrollment_count": 20,
+            "enrollment_count": 21,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "james.w.craine@csun.edu",
@@ -59,7 +59,7 @@
         "12501": {
             "class_number": "12501",
             "enrollment_cap": 48,
-            "enrollment_count": 32,
+            "enrollment_count": 31,
             "waitlist_cap": 48,
             "waitlist_count": 0,
             "instructor": "Staff",
@@ -77,20 +77,6 @@
             "location": "TBA",
             "start_time": "TBA",
             "end_time": "TBA"
-        }
-    },
-    "GEOG 103": {
-        "12679": {
-            "class_number": "12679",
-            "enrollment_cap": 84,
-            "enrollment_count": 84,
-            "waitlist_cap": 84,
-            "waitlist_count": 2,
-            "instructor": "mario.giraldo@csun.edu",
-            "days": "A",
-            "location": "ONLINE",
-            "start_time": "0000h",
-            "end_time": "0000h"
         }
     },
     "GEOG 103A": {
@@ -111,7 +97,7 @@
         "13225": {
             "class_number": "13225",
             "enrollment_cap": 41,
-            "enrollment_count": 41,
+            "enrollment_count": 42,
             "waitlist_cap": 41,
             "waitlist_count": 0,
             "instructor": "Staff",
@@ -121,35 +107,11 @@
             "end_time": "0000h"
         }
     },
-    "GEOG 105": {
-        "12073": {
-            "class_number": "12073",
-            "enrollment_cap": 48,
-            "enrollment_count": 28,
-            "waitlist_cap": 48,
-            "waitlist_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "SH170",
-            "start_time": "1400h",
-            "end_time": "1540h"
-        },
-        "12680": {
-            "class_number": "12680",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "TBA",
-            "end_time": "TBA"
-        }
-    },
     "GEOG 107": {
         "12442": {
             "class_number": "12442",
             "enrollment_cap": 125,
-            "enrollment_count": 61,
+            "enrollment_count": 97,
             "waitlist_cap": 125,
             "waitlist_count": 0,
             "instructor": "steve.graves@csun.edu",
@@ -159,11 +121,25 @@
             "end_time": "1215h"
         }
     },
+    "GEOG 111": {
+        "13226": {
+            "class_number": "13226",
+            "enrollment_cap": 42,
+            "enrollment_count": 42,
+            "waitlist_cap": 42,
+            "waitlist_count": 5,
+            "instructor": "mario.giraldo@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
     "GEOG 111L": {
         "13227": {
             "class_number": "13227",
             "enrollment_cap": 42,
-            "enrollment_count": 28,
+            "enrollment_count": 29,
             "waitlist_cap": 42,
             "waitlist_count": 0,
             "instructor": "karen.sonksen@csun.edu",
@@ -177,7 +153,7 @@
         "12651": {
             "class_number": "12651",
             "enrollment_cap": 120,
-            "enrollment_count": 78,
+            "enrollment_count": 121,
             "waitlist_cap": 120,
             "waitlist_count": 0,
             "instructor": "yifei.sun@csun.edu",
@@ -189,7 +165,7 @@
         "13099": {
             "class_number": "13099",
             "enrollment_cap": 82,
-            "enrollment_count": 36,
+            "enrollment_count": 54,
             "waitlist_cap": 82,
             "waitlist_count": 0,
             "instructor": "ronald.davidson@csun.edu",
@@ -203,9 +179,9 @@
         "20669": {
             "class_number": "20669",
             "enrollment_cap": 30,
-            "enrollment_count": 30,
+            "enrollment_count": 33,
             "waitlist_cap": 30,
-            "waitlist_count": 3,
+            "waitlist_count": 7,
             "instructor": "karen.sonksen@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -217,7 +193,7 @@
         "12207": {
             "class_number": "12207",
             "enrollment_cap": 24,
-            "enrollment_count": 12,
+            "enrollment_count": 13,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "yifei.sun@csun.edu",
@@ -229,7 +205,7 @@
         "12871": {
             "class_number": "12871",
             "enrollment_cap": 24,
-            "enrollment_count": 21,
+            "enrollment_count": 24,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "alana.rader@csun.edu",
@@ -251,11 +227,49 @@
             "end_time": "0000h"
         }
     },
+    "GEOG 206L": {
+        "12208": {
+            "class_number": "12208",
+            "enrollment_cap": 24,
+            "enrollment_count": 13,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "yifei.sun@csun.edu",
+            "days": "MW",
+            "location": "SH103",
+            "start_time": "1320h",
+            "end_time": "1410h"
+        },
+        "12423": {
+            "class_number": "12423",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "alana.rader@csun.edu",
+            "days": "T",
+            "location": "SH103",
+            "start_time": "1540h",
+            "end_time": "1735h"
+        },
+        "20646": {
+            "class_number": "20646",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "michael.pesses@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
     "GEOG 300": {
         "12183": {
             "class_number": "12183",
             "enrollment_cap": 24,
-            "enrollment_count": 14,
+            "enrollment_count": 12,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "luke.drake@csun.edu",
@@ -269,9 +283,9 @@
         "13262": {
             "class_number": "13262",
             "enrollment_cap": 41,
-            "enrollment_count": 35,
+            "enrollment_count": 40,
             "waitlist_cap": 41,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "ronald.davidson@csun.edu",
             "days": "MW",
             "location": "ONLINE",
@@ -283,38 +297,38 @@
         "13296": {
             "class_number": "13296",
             "enrollment_cap": 24,
-            "enrollment_count": 8,
+            "enrollment_count": 16,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "michael.pesses@csun.edu",
-            "days": "W",
-            "location": "SH103",
-            "start_time": "1530h",
-            "end_time": "1710h"
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     },
     "GEOG 304L": {
         "13297": {
             "class_number": "13297",
             "enrollment_cap": 24,
-            "enrollment_count": 8,
+            "enrollment_count": 16,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "michael.pesses@csun.edu",
-            "days": "W",
-            "location": "SH103",
-            "start_time": "1710h",
-            "end_time": "1850h"
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     },
     "GEOG 306": {
         "12077": {
             "class_number": "12077",
             "enrollment_cap": 24,
-            "enrollment_count": 22,
+            "enrollment_count": 20,
             "waitlist_cap": 24,
             "waitlist_count": 0,
-            "instructor": "kristine.simonyan.523@my.csun.edu",
+            "instructor": "kristine.simonyan@csun.edu",
             "days": "TR",
             "location": "SH107",
             "start_time": "0930h",
@@ -323,7 +337,7 @@
         "12804": {
             "class_number": "12804",
             "enrollment_cap": 24,
-            "enrollment_count": 22,
+            "enrollment_count": 20,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "soheil.boroushaki@csun.edu",
@@ -337,10 +351,10 @@
         "12078": {
             "class_number": "12078",
             "enrollment_cap": 24,
-            "enrollment_count": 22,
+            "enrollment_count": 20,
             "waitlist_cap": 24,
             "waitlist_count": 0,
-            "instructor": "kristine.simonyan.523@my.csun.edu",
+            "instructor": "kristine.simonyan@csun.edu",
             "days": "TR",
             "location": "SH107",
             "start_time": "1020h",
@@ -349,7 +363,7 @@
         "12805": {
             "class_number": "12805",
             "enrollment_cap": 24,
-            "enrollment_count": 22,
+            "enrollment_count": 20,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "soheil.boroushaki@csun.edu",
@@ -375,9 +389,9 @@
         "12663": {
             "class_number": "12663",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
+            "enrollment_count": 22,
             "waitlist_cap": 24,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "rob.okeefe@csun.edu",
             "days": "TR",
             "location": "SH166",
@@ -389,7 +403,7 @@
         "12945": {
             "class_number": "12945",
             "enrollment_cap": 100,
-            "enrollment_count": 87,
+            "enrollment_count": 103,
             "waitlist_cap": 70,
             "waitlist_count": 1,
             "instructor": "ronald.davidson@csun.edu",
@@ -403,9 +417,9 @@
         "12497": {
             "class_number": "12497",
             "enrollment_cap": 150,
-            "enrollment_count": 150,
+            "enrollment_count": 157,
             "waitlist_cap": 120,
-            "waitlist_count": 3,
+            "waitlist_count": 4,
             "instructor": "james.w.craine@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -416,10 +430,10 @@
     "GEOG 322": {
         "12821": {
             "class_number": "12821",
-            "enrollment_cap": 70,
-            "enrollment_count": 80,
+            "enrollment_cap": 100,
+            "enrollment_count": 101,
             "waitlist_cap": 70,
-            "waitlist_count": 1,
+            "waitlist_count": 4,
             "instructor": "ed.jackiewicz@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -431,7 +445,7 @@
         "12772": {
             "class_number": "12772",
             "enrollment_cap": 42,
-            "enrollment_count": 27,
+            "enrollment_count": 63,
             "waitlist_cap": 42,
             "waitlist_count": 0,
             "instructor": "yifei.sun@csun.edu",
@@ -444,10 +458,10 @@
     "GEOG 330": {
         "12707": {
             "class_number": "12707",
-            "enrollment_cap": 65,
-            "enrollment_count": 75,
+            "enrollment_cap": 100,
+            "enrollment_count": 99,
             "waitlist_cap": 65,
-            "waitlist_count": 2,
+            "waitlist_count": 4,
             "instructor": "ronald.davidson@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -495,7 +509,7 @@
         "12872": {
             "class_number": "12872",
             "enrollment_cap": 24,
-            "enrollment_count": 17,
+            "enrollment_count": 22,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "karen.sonksen@csun.edu",
@@ -509,7 +523,7 @@
         "20667": {
             "class_number": "20667",
             "enrollment_cap": 24,
-            "enrollment_count": 24,
+            "enrollment_count": 26,
             "waitlist_cap": 24,
             "waitlist_count": 2,
             "instructor": "luke.drake@csun.edu",
@@ -523,7 +537,7 @@
         "13232": {
             "class_number": "13232",
             "enrollment_cap": 41,
-            "enrollment_count": 10,
+            "enrollment_count": 11,
             "waitlist_cap": 41,
             "waitlist_count": 0,
             "instructor": "steve.graves@csun.edu",
@@ -537,7 +551,7 @@
         "13233": {
             "class_number": "13233",
             "enrollment_cap": 24,
-            "enrollment_count": 6,
+            "enrollment_count": 9,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "luke.drake@csun.edu",
@@ -551,7 +565,7 @@
         "12234": {
             "class_number": "12234",
             "enrollment_cap": 24,
-            "enrollment_count": 14,
+            "enrollment_count": 15,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "soheil.boroushaki@csun.edu",
@@ -565,7 +579,7 @@
         "12235": {
             "class_number": "12235",
             "enrollment_cap": 24,
-            "enrollment_count": 14,
+            "enrollment_count": 15,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "soheil.boroushaki@csun.edu",
@@ -579,7 +593,7 @@
         "13234": {
             "class_number": "13234",
             "enrollment_cap": 24,
-            "enrollment_count": 14,
+            "enrollment_count": 20,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "michael.pesses@csun.edu",
@@ -593,7 +607,7 @@
         "13235": {
             "class_number": "13235",
             "enrollment_cap": 24,
-            "enrollment_count": 14,
+            "enrollment_count": 20,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "michael.pesses@csun.edu",
@@ -607,7 +621,7 @@
         "13100": {
             "class_number": "13100",
             "enrollment_cap": 24,
-            "enrollment_count": 19,
+            "enrollment_count": 21,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "soheil.boroushaki@csun.edu",
@@ -621,7 +635,7 @@
         "20639": {
             "class_number": "20639",
             "enrollment_cap": 24,
-            "enrollment_count": 19,
+            "enrollment_count": 21,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "soheil.boroushaki@csun.edu",
@@ -646,22 +660,20 @@
     "GEOG 482": {
         "20641": {
             "class_number": "20641",
-            "enrollment_cap": 24,
-            "enrollment_count": 8,
-            "waitlist_cap": 24,
-            "waitlist_count": 0,
-            "instructor": "regan.maas@csun.edu",
-            "days": "W",
-            "location": "SH107",
-            "start_time": "1400h",
-            "end_time": "1645h"
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "GEOG 490": {
         "12150": {
             "class_number": "12150",
             "enrollment_cap": 9,
-            "enrollment_count": 9,
+            "enrollment_count": 10,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "regan.maas@csun.edu",
@@ -673,7 +685,7 @@
         "12173": {
             "class_number": "12173",
             "enrollment_cap": 9,
-            "enrollment_count": 9,
+            "enrollment_count": 8,
             "waitlist_cap": 10,
             "waitlist_count": 1,
             "instructor": "luke.drake@csun.edu",
@@ -685,7 +697,7 @@
         "13251": {
             "class_number": "13251",
             "enrollment_cap": 9,
-            "enrollment_count": 9,
+            "enrollment_count": 7,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "yifei.sun@csun.edu",
@@ -699,7 +711,7 @@
         "13254": {
             "class_number": "13254",
             "enrollment_cap": 9,
-            "enrollment_count": 1,
+            "enrollment_count": 2,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "alana.rader@csun.edu",
@@ -779,7 +791,7 @@
         "13238": {
             "class_number": "13238",
             "enrollment_cap": 24,
-            "enrollment_count": 11,
+            "enrollment_count": 12,
             "waitlist_cap": 24,
             "waitlist_count": 0,
             "instructor": "steve.graves@csun.edu",
@@ -805,7 +817,7 @@
         "21165": {
             "class_number": "21165",
             "enrollment_cap": 15,
-            "enrollment_count": 11,
+            "enrollment_count": 13,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "regan.maas@csun.edu",
@@ -819,7 +831,7 @@
         "20773": {
             "class_number": "20773",
             "enrollment_cap": 15,
-            "enrollment_count": 10,
+            "enrollment_count": 12,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "david.deis@csun.edu",
@@ -833,7 +845,7 @@
         "20642": {
             "class_number": "20642",
             "enrollment_cap": 15,
-            "enrollment_count": 13,
+            "enrollment_count": 12,
             "waitlist_cap": 15,
             "waitlist_count": 0,
             "instructor": "james.w.craine@csun.edu",
@@ -885,7 +897,7 @@
         "12159": {
             "class_number": "12159",
             "enrollment_cap": 1,
-            "enrollment_count": 1,
+            "enrollment_count": 3,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "regan.maas@csun.edu",
@@ -897,10 +909,10 @@
         "12160": {
             "class_number": "12160",
             "enrollment_cap": 1,
-            "enrollment_count": 1,
+            "enrollment_count": 0,
             "waitlist_cap": 10,
             "waitlist_count": 0,
-            "instructor": "soheil.boroushaki@csun.edu",
+            "instructor": "Staff",
             "days": "A",
             "location": "TBA",
             "start_time": "0000h",
@@ -909,7 +921,7 @@
         "12161": {
             "class_number": "12161",
             "enrollment_cap": 1,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "Staff",
@@ -947,7 +959,7 @@
         "12080": {
             "class_number": "12080",
             "enrollment_cap": 1,
-            "enrollment_count": 1,
+            "enrollment_count": 0,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "Staff",
@@ -975,7 +987,7 @@
         "12079": {
             "class_number": "12079",
             "enrollment_cap": 1,
-            "enrollment_count": 1,
+            "enrollment_count": 2,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "Staff",
@@ -987,7 +999,7 @@
         "12146": {
             "class_number": "12146",
             "enrollment_cap": 1,
-            "enrollment_count": 0,
+            "enrollment_count": 1,
             "waitlist_cap": 10,
             "waitlist_count": 0,
             "instructor": "Staff",

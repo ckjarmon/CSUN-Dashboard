@@ -2,7 +2,7 @@
     "CE 101": {
         "16545": {
             "class_number": "16545",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Lazaris,Spiridon A",
             "days": "T",
@@ -14,7 +14,7 @@
     "CE 101L": {
         "16546": {
             "class_number": "16546",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Lazaris,Spiridon A",
             "days": "T",
@@ -36,7 +36,7 @@
         },
         "16359": {
             "class_number": "16359",
-            "enrollment_cap": 9,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Aramali,Vartenie",
             "days": "TR",
@@ -46,7 +46,7 @@
         },
         "16420": {
             "class_number": "16420",
-            "enrollment_cap": 8,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Sun,C. Shawn",
             "days": "MW",
@@ -66,7 +66,7 @@
         },
         "16754": {
             "class_number": "16754",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Medina,Ricardo",
             "days": "MW",
@@ -78,7 +78,7 @@
     "CE 280": {
         "16373": {
             "class_number": "16373",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Ananian,Vatche",
             "days": "MW",
@@ -100,7 +100,7 @@
     "CE 280L": {
         "16376": {
             "class_number": "16376",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Ananian,Vatche",
             "days": "MW",
@@ -122,7 +122,7 @@
     "CE 308": {
         "16235": {
             "class_number": "16235",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Amirkhanian,Jora",
             "days": "F",
@@ -132,7 +132,7 @@
         },
         "16660": {
             "class_number": "16660",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Amirkhanian,Jora",
             "days": "S",
@@ -154,7 +154,7 @@
         },
         "16661": {
             "class_number": "16661",
-            "enrollment_cap": 16,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Amirkhanian,Jora",
             "days": "S",
@@ -176,7 +176,7 @@
         },
         "16756": {
             "class_number": "16756",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Ananian,Vatche",
             "days": "S",
@@ -185,10 +185,32 @@
             "end_time": "1045h"
         }
     },
+    "CE 315L": {
+        "16478": {
+            "class_number": "16478",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Alroomi,Anwar S",
+            "days": "R",
+            "location": "JD1565E",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        },
+        "16757": {
+            "class_number": "16757",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Ananian,Vatche",
+            "days": "S",
+            "location": "JD1565E",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
     "CE 335": {
         "16242": {
             "class_number": "16242",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Yadegari,Diba",
             "days": "T",
@@ -198,7 +220,7 @@
         },
         "16956": {
             "class_number": "16956",
-            "enrollment_cap": 0,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Le,Thang H",
             "days": "M",
@@ -210,7 +232,7 @@
     "CE 335L": {
         "16374": {
             "class_number": "16374",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Yadegari,Diba",
             "days": "R",
@@ -220,7 +242,7 @@
         },
         "16955": {
             "class_number": "16955",
-            "enrollment_cap": 0,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Le,Thang H",
             "days": "W",
@@ -229,7 +251,59 @@
             "end_time": "2145h"
         }
     },
-    "CE 408L": {
+    "CE 340": {
+        "16393": {
+            "class_number": "16393",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Le,Thang H",
+            "days": "MW",
+            "location": "JD1563",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "16243": {
+            "class_number": "16243",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Zirakian,Tadeh",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "16655": {
+            "class_number": "16655",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Ananian,Vatche",
+            "days": "TR",
+            "location": "JD1609",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "16755": {
+            "class_number": "16755",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Hao,Tzong-Ying",
+            "days": "TR",
+            "location": "JD1609",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "16860": {
+            "class_number": "16860",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Ahmad,Rais",
+            "days": "MW",
+            "location": "JD1563",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "CE 408": {
         "16333": {
             "class_number": "16333",
             "enrollment_cap": 0,
@@ -242,7 +316,7 @@
         },
         "16693": {
             "class_number": "16693",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Schofield,Bruce K",
             "days": "S",
@@ -251,30 +325,32 @@
             "end_time": "0950h"
         }
     },
-    "CE 426": {
-        "16333": {
-            "class_number": "16333",
+    "CE 408L": {
+        "16334": {
+            "class_number": "16334",
             "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Schofield,Bruce K",
             "days": "F",
             "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
+            "start_time": "1000h",
+            "end_time": "1245h"
         },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
+        "16694": {
+            "class_number": "16694",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Schofield,Bruce K",
             "days": "S",
             "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
+            "start_time": "1000h",
+            "end_time": "1245h"
+        }
+    },
+    "CE 426": {
         "16475": {
             "class_number": "16475",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Haddad,Raymond",
             "days": "S",
@@ -284,26 +360,6 @@
         }
     },
     "CE 426L": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16476": {
             "class_number": "16476",
             "enrollment_cap": 1,
@@ -316,29 +372,9 @@
         }
     },
     "CE 438": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16237": {
             "class_number": "16237",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ahmad,Rais",
             "days": "TR",
@@ -348,29 +384,9 @@
         }
     },
     "CE 439": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16238": {
             "class_number": "16238",
-            "enrollment_cap": 4,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Ahmad,Rais",
             "days": "TR",
@@ -380,29 +396,9 @@
         }
     },
     "CE 460": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16422": {
             "class_number": "16422",
-            "enrollment_cap": -3,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Maalouf,Sami",
             "days": "T",
@@ -412,29 +408,9 @@
         }
     },
     "CE 460L": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16714": {
             "class_number": "16714",
-            "enrollment_cap": -3,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Maalouf,Sami",
             "days": "R",
@@ -444,29 +420,9 @@
         }
     },
     "CE 488A": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16942": {
             "class_number": "16942",
-            "enrollment_cap": 5,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Alwehaidah,Nasser M",
             "days": "TR",
@@ -476,29 +432,9 @@
         }
     },
     "CE 488AL": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16943": {
             "class_number": "16943",
-            "enrollment_cap": 5,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Alwehaidah,Nasser M",
             "days": "TR",
@@ -508,26 +444,6 @@
         }
     },
     "CE 488B": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16239": {
             "class_number": "16239",
             "enrollment_cap": 10,
@@ -540,7 +456,7 @@
         },
         "16616": {
             "class_number": "16616",
-            "enrollment_cap": 8,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Zirakian,Tadeh",
             "days": "TR",
@@ -550,26 +466,6 @@
         }
     },
     "CE 499A": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16548": {
             "class_number": "16548",
             "enrollment_cap": -1,
@@ -581,30 +477,22 @@
             "end_time": "ARR"
         }
     },
+    "CE 499C": {
+        "16241": {
+            "class_number": "16241",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Dermendjian,Nazaret",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    },
     "CE 526": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16421": {
             "class_number": "16421",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Haddad,Raymond",
             "days": "T",
@@ -614,7 +502,7 @@
         },
         "16696": {
             "class_number": "16696",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Haddad,Raymond",
             "days": "W",
@@ -624,58 +512,18 @@
         }
     },
     "CE 638": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "20651": {
             "class_number": "20651",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Hadje-Ghaffari,Hossain",
             "days": "T",
-            "location": "JD1609",
+            "location": "JD3504",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "CE 642": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16828": {
             "class_number": "16828",
             "enrollment_cap": 4,
@@ -688,80 +536,30 @@
         }
     },
     "CE 642L": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
+        "16829": {
+            "class_number": "16829",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
+            "instructor": "Hao,Tzong-Ying",
+            "days": "W",
             "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
     "CE 648": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16830": {
             "class_number": "16830",
-            "enrollment_cap": 6,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Hadje-Ghaffari,Hossain",
             "days": "R",
-            "location": "JD1565",
+            "location": "JD2520",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "CE 697": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16514": {
             "class_number": "16514",
             "enrollment_cap": 2,
@@ -774,26 +572,6 @@
         }
     },
     "CE 698C": {
-        "16333": {
-            "class_number": "16333",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "F",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
-        "16693": {
-            "class_number": "16693",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Schofield,Bruce K",
-            "days": "S",
-            "location": "JD1609",
-            "start_time": "0900h",
-            "end_time": "0950h"
-        },
         "16395": {
             "class_number": "16395",
             "enrollment_cap": 3,

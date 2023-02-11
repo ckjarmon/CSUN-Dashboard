@@ -2,7 +2,7 @@
     "JOUR 100": {
         "11099": {
             "class_number": "11099",
-            "enrollment_cap": 11,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Kim,Taehyun",
             "days": "TR",
@@ -24,16 +24,16 @@
         },
         "11718": {
             "class_number": "11718",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Nu\u00f1ez,Linda",
+            "instructor": "Nunez,Linda",
             "days": "T",
             "location": "SH305",
             "start_time": "0800h",
             "end_time": "0940h"
         }
     },
-    "JOUR 110L": {
+    "JOUR 210": {
         "11723": {
             "class_number": "11723",
             "enrollment_cap": -1,
@@ -46,38 +46,36 @@
         },
         "11724": {
             "class_number": "11724",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Nu\u00f1ez,Linda",
+            "instructor": "Nunez,Linda",
             "days": "R",
-            "location": "MZ360",
+            "location": "MZ211",
             "start_time": "0800h",
             "end_time": "0940h"
         }
     },
-    "JOUR 210": {
-        "11729": {
-            "class_number": "11729",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Molina,Joshua",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2040h"
-        },
-        "11730": {
-            "class_number": "11730",
-            "enrollment_cap": 0,
+    "JOUR 210L": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kim,Taehyun",
-            "days": "T",
-            "location": "MZ361",
-            "start_time": "1100h",
-            "end_time": "1240h"
-        }
-    },
-    "JOUR 210L": {
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11736": {
             "class_number": "11736",
             "enrollment_cap": 0,
@@ -90,7 +88,7 @@
         },
         "11737": {
             "class_number": "11737",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Kim,Taehyun",
             "days": "R",
@@ -100,9 +98,29 @@
         }
     },
     "JOUR 225": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11993": {
             "class_number": "11993",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Macchiarella,Gretchen",
             "days": "M",
@@ -112,19 +130,39 @@
         },
         "11994": {
             "class_number": "11994",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Grewe,David L",
             "days": "W",
-            "location": "MZ360",
+            "location": "MZ363",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     },
     "JOUR 250": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11429": {
             "class_number": "11429",
-            "enrollment_cap": 6,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Blumenkrantz,David A",
             "days": "M",
@@ -134,9 +172,29 @@
         }
     },
     "JOUR 255": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11903": {
             "class_number": "11903",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Hoffman,Edward",
             "days": "R",
@@ -146,6 +204,26 @@
         }
     },
     "JOUR 310": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10646": {
             "class_number": "10646",
             "enrollment_cap": 0,
@@ -157,10 +235,52 @@
             "end_time": "1345h"
         }
     },
+    "JOUR 315": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        }
+    },
     "JOUR 325": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10536": {
             "class_number": "10536",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Grewe,David L",
             "days": "T",
@@ -170,7 +290,7 @@
         },
         "10858": {
             "class_number": "10858",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Fonseca,Ryan A",
             "days": "R",
@@ -190,6 +310,26 @@
         }
     },
     "JOUR 341": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10598": {
             "class_number": "10598",
             "enrollment_cap": 3,
@@ -202,21 +342,51 @@
         }
     },
     "JOUR 350": {
-        "10056": {
-            "class_number": "10056",
-            "enrollment_cap": 11,
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
             "enrollment_count": 0,
-            "instructor": "Grewe,David L",
-            "days": "M",
-            "location": "MZ360",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
         }
     },
     "JOUR 365": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11909": {
             "class_number": "11909",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "MW",
@@ -226,7 +396,7 @@
         },
         "12036": {
             "class_number": "12036",
-            "enrollment_cap": 23,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "TR",
@@ -236,9 +406,29 @@
         }
     },
     "JOUR 371": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10532": {
             "class_number": "10532",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "MW",
@@ -248,9 +438,29 @@
         }
     },
     "JOUR 372": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10057": {
             "class_number": "10057",
-            "enrollment_cap": 1,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "TR",
@@ -260,6 +470,26 @@
         }
     },
     "JOUR 375": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11920": {
             "class_number": "11920",
             "enrollment_cap": 0,
@@ -272,7 +502,7 @@
         },
         "11997": {
             "class_number": "11997",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Bien,Julie S",
             "days": "R",
@@ -282,6 +512,26 @@
         }
     },
     "JOUR 395B": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11496": {
             "class_number": "11496",
             "enrollment_cap": -2,
@@ -294,6 +544,26 @@
         }
     },
     "JOUR 395C": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11905": {
             "class_number": "11905",
             "enrollment_cap": -2,
@@ -306,6 +576,26 @@
         }
     },
     "JOUR 397B": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10060": {
             "class_number": "10060",
             "enrollment_cap": 1,
@@ -318,6 +608,26 @@
         }
     },
     "JOUR 397C": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11906": {
             "class_number": "11906",
             "enrollment_cap": 1,
@@ -330,6 +640,26 @@
         }
     },
     "JOUR 398B": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10651": {
             "class_number": "10651",
             "enrollment_cap": 1,
@@ -342,6 +672,26 @@
         }
     },
     "JOUR 398C": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11907": {
             "class_number": "11907",
             "enrollment_cap": 1,
@@ -354,9 +704,29 @@
         }
     },
     "JOUR 400": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10533": {
             "class_number": "10533",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Blakey,Elizabeth E",
             "days": "MW",
@@ -366,7 +736,7 @@
         },
         "10534": {
             "class_number": "10534",
-            "enrollment_cap": 9,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Blakey,Elizabeth E",
             "days": "R",
@@ -376,6 +746,26 @@
         }
     },
     "JOUR 410": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10691": {
             "class_number": "10691",
             "enrollment_cap": -1,
@@ -388,9 +778,29 @@
         }
     },
     "JOUR 415": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10540": {
             "class_number": "10540",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Duran,Jose",
             "days": "T",
@@ -400,6 +810,26 @@
         }
     },
     "JOUR 430": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11908": {
             "class_number": "11908",
             "enrollment_cap": 0,
@@ -412,9 +842,29 @@
         }
     },
     "JOUR 440": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10061": {
             "class_number": "10061",
-            "enrollment_cap": -4,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Cathcart,Christopher",
             "days": "M",
@@ -424,11 +874,31 @@
         }
     },
     "JOUR 445": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10541": {
             "class_number": "10541",
-            "enrollment_cap": 6,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
-            "instructor": "Herrera,Carlos Jonathan",
+            "instructor": "Herrera,Carlos",
             "days": "M",
             "location": "MZ150E",
             "start_time": "1100h",
@@ -436,6 +906,26 @@
         }
     },
     "JOUR 460": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10652": {
             "class_number": "10652",
             "enrollment_cap": 0,
@@ -448,9 +938,29 @@
         }
     },
     "JOUR 474SLJ": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10599": {
             "class_number": "10599",
-            "enrollment_cap": 6,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Duran,Agustin",
             "days": "F",
@@ -460,9 +970,29 @@
         }
     },
     "JOUR 478": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10062": {
             "class_number": "10062",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Wall,Melissa A",
             "days": "W",
@@ -471,10 +1001,62 @@
             "end_time": "1815h"
         }
     },
+    "JOUR 494AEE": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11585": {
+            "class_number": "11585",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Bien,Julie S",
+            "days": null,
+            "location": "TBA",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    },
     "JOUR 494BEE": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11586": {
             "class_number": "11586",
-            "enrollment_cap": 5,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Bien,Julie S",
             "days": null,
@@ -484,9 +1066,29 @@
         }
     },
     "JOUR 495DA": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "20897": {
             "class_number": "20897",
-            "enrollment_cap": -2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Macchiarella,Gretchen",
             "days": "R",
@@ -496,9 +1098,29 @@
         }
     },
     "JOUR 495POD": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "12001": {
             "class_number": "12001",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Trujillo,Tammy",
             "days": "W",
@@ -508,6 +1130,26 @@
         }
     },
     "JOUR 495SJ": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "11925": {
             "class_number": "11925",
             "enrollment_cap": 1,
@@ -520,6 +1162,26 @@
         }
     },
     "JOUR 498": {
+        "11723": {
+            "class_number": "11723",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Kim,Taehyun",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
+        "11724": {
+            "class_number": "11724",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Nunez,Linda",
+            "days": "R",
+            "location": "MZ211",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        },
         "10064": {
             "class_number": "10064",
             "enrollment_cap": 1,
@@ -532,7 +1194,7 @@
         },
         "10067": {
             "class_number": "10067",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Cathcart,Christopher",
             "days": "T",
@@ -552,7 +1214,7 @@
         },
         "10063": {
             "class_number": "10063",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Molina,Joshua",
             "days": "T",
@@ -572,17 +1234,17 @@
         },
         "10066": {
             "class_number": "10066",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Grewe,David L",
             "days": "R",
-            "location": "MZ212",
+            "location": "MZ360",
             "start_time": "0900h",
             "end_time": "0950h"
         },
         "11154": {
             "class_number": "11154",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Eisenstock,Bobbie",
             "days": "W",

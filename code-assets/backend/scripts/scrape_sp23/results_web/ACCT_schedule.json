@@ -2,7 +2,7 @@
     "ACCT 220": {
         "13383": {
             "class_number": "13383",
-            "enrollment_cap": -2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Primes,David M",
             "days": "MW",
@@ -22,7 +22,7 @@
         },
         "13445": {
             "class_number": "13445",
-            "enrollment_cap": 28,
+            "enrollment_cap": 26,
             "enrollment_count": 0,
             "instructor": "Doron,Michael E",
             "days": "M",
@@ -32,7 +32,7 @@
         },
         "13443": {
             "class_number": "13443",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Chen,Keji",
             "days": "W",
@@ -64,7 +64,7 @@
     "ACCT 230": {
         "13437": {
             "class_number": "13437",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Dantas,Manuela",
             "days": "TR",
@@ -74,7 +74,7 @@
         },
         "13375": {
             "class_number": "13375",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Moon,Joon Seok",
             "days": "MW",
@@ -84,7 +84,7 @@
         },
         "13376": {
             "class_number": "13376",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Chen,Keji",
             "days": "F",
@@ -94,7 +94,7 @@
         },
         "13501": {
             "class_number": "13501",
-            "enrollment_cap": -1,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Lu,Yuan Yuan",
             "days": "MW",
@@ -104,7 +104,7 @@
         },
         "13502": {
             "class_number": "13502",
-            "enrollment_cap": 20,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructor": "Lu,Yuan Yuan",
             "days": "T",
@@ -114,7 +114,7 @@
         },
         "13518": {
             "class_number": "13518",
-            "enrollment_cap": 8,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Chen,Keji",
             "days": "M",
@@ -136,7 +136,7 @@
         },
         "13618": {
             "class_number": "13618",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
             "days": "TR",
@@ -146,7 +146,7 @@
         },
         "13619": {
             "class_number": "13619",
-            "enrollment_cap": 1,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
             "days": "MW",
@@ -156,7 +156,7 @@
         },
         "13620": {
             "class_number": "13620",
-            "enrollment_cap": 1,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
             "days": "M",
@@ -185,139 +185,7 @@
             "end_time": "1215h"
         }
     },
-    "ACCT 292CCS": {
-        "13781": {
-            "class_number": "13781",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "MW",
-            "location": "BB1210",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "13782": {
-            "class_number": "13782",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "TR",
-            "location": "BB1210",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "13783": {
-            "class_number": "13783",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "MW",
-            "location": "BB1210",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13784": {
-            "class_number": "13784",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Nalbandian,Lucy C",
-            "days": "TR",
-            "location": "BB1210",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13785": {
-            "class_number": "13785",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "MW",
-            "location": "BB1210",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "13840": {
-            "class_number": "13840",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "MW",
-            "location": "BB1212",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "13841": {
-            "class_number": "13841",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Nalbandian,Lucy C",
-            "days": "M",
-            "location": "BB1212",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "13851": {
-            "class_number": "13851",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "TR",
-            "location": "BB1212",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "13852": {
-            "class_number": "13852",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "MW",
-            "location": "BB1212",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13853": {
-            "class_number": "13853",
-            "enrollment_cap": 13,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "TR",
-            "location": "BB1212",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13854": {
-            "class_number": "13854",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "MW",
-            "location": "BB1212",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "13855": {
-            "class_number": "13855",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "W",
-            "location": "BB1212",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "13875": {
-            "class_number": "13875",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "F",
-            "location": "BB1212",
-            "start_time": "1230h",
-            "end_time": "1515h"
-        }
-    },
-    "ACCT 292DCS": {
+    "ACCT 350": {
         "13786": {
             "class_number": "13786",
             "enrollment_cap": 10,
@@ -330,7 +198,7 @@
         },
         "13787": {
             "class_number": "13787",
-            "enrollment_cap": 10,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
             "days": "MW",
@@ -360,7 +228,7 @@
         },
         "13868": {
             "class_number": "13868",
-            "enrollment_cap": 8,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
             "days": "R",
@@ -369,22 +237,60 @@
             "end_time": "2145h"
         }
     },
-    "ACCT 350": {
-        "13653": {
-            "class_number": "13653",
-            "enrollment_cap": -13,
+    "ACCT 351": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Weiss,Earl J",
-            "days": "W",
-            "location": "ONLINE",
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
             "start_time": "1900h",
             "end_time": "2145h"
-        }
-    },
-    "ACCT 351": {
+        },
         "13377": {
             "class_number": "13377",
-            "enrollment_cap": 20,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "Chen,Keji",
             "days": "MW",
@@ -394,7 +300,7 @@
         },
         "13378": {
             "class_number": "13378",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Wang,Dongyi",
             "days": "TR",
@@ -404,19 +310,69 @@
         },
         "13515": {
             "class_number": "13515",
-            "enrollment_cap": -8,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Moon,Joon Seok",
             "days": "R",
-            "location": "BB1117",
+            "location": "BB1133",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "ACCT 352": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13479": {
             "class_number": "13479",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Zhan,Jun",
             "days": "W",
@@ -426,7 +382,7 @@
         },
         "13496": {
             "class_number": "13496",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Wang,Dongyi",
             "days": "TR",
@@ -446,9 +402,59 @@
         }
     },
     "ACCT 380": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13379": {
             "class_number": "13379",
-            "enrollment_cap": 5,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Her,Youngwon",
             "days": "MW",
@@ -478,6 +484,56 @@
         }
     },
     "ACCT 392BCS": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13788": {
             "class_number": "13788",
             "enrollment_cap": 10,
@@ -510,68 +566,108 @@
         }
     },
     "ACCT 392CCS": {
-        "13616": {
-            "class_number": "13616",
-            "enrollment_cap": 13,
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
             "days": "TR",
             "location": "BB1210",
-            "start_time": "1700h",
-            "end_time": "1815h"
+            "start_time": "1400h",
+            "end_time": "1515h"
         },
-        "13790": {
-            "class_number": "13790",
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
             "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
-            "days": "T",
-            "location": "BB1210",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
         },
-        "13844": {
-            "class_number": "13844",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Efrat,Rafael",
-            "days": "W",
-            "location": "BB1210",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "13870": {
-            "class_number": "13870",
-            "enrollment_cap": 14,
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
             "days": "MW",
             "location": "BB1212",
-            "start_time": "1700h",
-            "end_time": "1815h"
+            "start_time": "1530h",
+            "end_time": "1645h"
         },
-        "13871": {
-            "class_number": "13871",
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "ACCT 392DCS": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
             "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
             "days": "TR",
             "location": "BB1212",
-            "start_time": "1700h",
-            "end_time": "1815h"
+            "start_time": "1400h",
+            "end_time": "1515h"
         },
-        "13876": {
-            "class_number": "13876",
-            "enrollment_cap": 14,
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Efrat,Rafael",
-            "days": "F",
+            "days": "MW",
             "location": "BB1212",
             "start_time": "1530h",
-            "end_time": "1815h"
-        }
-    },
-    "ACCT 392DCS": {
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13791": {
             "class_number": "13791",
             "enrollment_cap": 12,
@@ -594,9 +690,59 @@
         }
     },
     "ACCT 412L": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "20656": {
             "class_number": "20656",
-            "enrollment_cap": 1,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Primes,David M",
             "days": null,
@@ -605,10 +751,112 @@
             "end_time": "ARR"
         }
     },
+    "ACCT 440": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
     "ACCT 441": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13385": {
             "class_number": "13385",
-            "enrollment_cap": -12,
+            "enrollment_cap": -18,
             "enrollment_count": 0,
             "instructor": "Basmadzhyan,Babken",
             "days": "MW",
@@ -618,7 +866,7 @@
         },
         "13380": {
             "class_number": "13380",
-            "enrollment_cap": 6,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Razani,Rob",
             "days": "R",
@@ -628,9 +876,59 @@
         }
     },
     "ACCT 450": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13381": {
             "class_number": "13381",
-            "enrollment_cap": -4,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Dantas,Manuela",
             "days": "TR",
@@ -640,7 +938,7 @@
         },
         "13386": {
             "class_number": "13386",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Yoon,Sung Wook",
             "days": "M",
@@ -650,9 +948,59 @@
         }
     },
     "ACCT 460": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13382": {
             "class_number": "13382",
-            "enrollment_cap": -15,
+            "enrollment_cap": -16,
             "enrollment_count": 0,
             "instructor": "Doron,Michael E",
             "days": "TR",
@@ -662,7 +1010,7 @@
         },
         "13387": {
             "class_number": "13387",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Doron,Michael E",
             "days": "W",
@@ -672,18 +1020,118 @@
         }
     },
     "ACCT 465": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13877": {
             "class_number": "13877",
             "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Zhan,Jun",
             "days": "R",
-            "location": "JD3502",
+            "location": "NA101",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
     "ACCT 475": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13878": {
             "class_number": "13878",
             "enrollment_cap": -12,
@@ -696,7 +1144,7 @@
         },
         "13899": {
             "class_number": "13899",
-            "enrollment_cap": -2,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Yoon,Sung Wook",
             "days": "W",
@@ -706,9 +1154,59 @@
         }
     },
     "ACCT 498A": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13615": {
             "class_number": "13615",
-            "enrollment_cap": -1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Vedd,Rishma R",
             "days": "R",
@@ -718,9 +1216,59 @@
         }
     },
     "ACCT 511": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13879": {
             "class_number": "13879",
-            "enrollment_cap": -16,
+            "enrollment_cap": -17,
             "enrollment_count": 0,
             "instructor": "Dosanjh,Kiren K",
             "days": null,
@@ -730,6 +1278,56 @@
         }
     },
     "ACCT 542": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13677": {
             "class_number": "13677",
             "enrollment_cap": 0,
@@ -742,6 +1340,56 @@
         }
     },
     "ACCT 605": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13845": {
             "class_number": "13845",
             "enrollment_cap": 6,
@@ -754,6 +1402,56 @@
         }
     },
     "ACCT 620C": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "13846": {
             "class_number": "13846",
             "enrollment_cap": 1,
@@ -766,6 +1464,56 @@
         }
     },
     "ACCT 624": {
+        "13786": {
+            "class_number": "13786",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1210",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13787": {
+            "class_number": "13787",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1210",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13842": {
+            "class_number": "13842",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "TR",
+            "location": "BB1212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13843": {
+            "class_number": "13843",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "MW",
+            "location": "BB1212",
+            "start_time": "1530h",
+            "end_time": "1645h"
+        },
+        "13868": {
+            "class_number": "13868",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Efrat,Rafael",
+            "days": "R",
+            "location": "BB1212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
         "20654": {
             "class_number": "20654",
             "enrollment_cap": 7,

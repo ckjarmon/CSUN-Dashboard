@@ -2,7 +2,7 @@
     "CAS 100": {
         "14033": {
             "class_number": "14033",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Duarte,Jocelyn E",
             "days": "TR",
@@ -12,7 +12,7 @@
         },
         "14030": {
             "class_number": "14030",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Simonds,Celia",
             "days": "MW",
@@ -22,7 +22,7 @@
         },
         "14032": {
             "class_number": "14032",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Duarte,Jocelyn E",
             "days": "TR",
@@ -42,7 +42,7 @@
         },
         "14976": {
             "class_number": "14976",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Simonds,Celia",
             "days": "M",
@@ -66,7 +66,7 @@
     "CAS 113A": {
         "21327": {
             "class_number": "21327",
-            "enrollment_cap": 10,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Encinias,Shahrazad M",
             "days": "TR",
@@ -75,22 +75,10 @@
             "end_time": "1345h"
         }
     },
-    "CAS 113B": {
-        "14317": {
-            "class_number": "14317",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Alonzi,Giovan",
-            "days": "TR",
-            "location": "JR217",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        }
-    },
     "CAS 151": {
         "14617": {
             "class_number": "14617",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Encinias,Shahrazad M",
             "days": null,
@@ -110,7 +98,7 @@
         },
         "14977": {
             "class_number": "14977",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rodriguez,Leslie",
             "days": "W",
@@ -130,7 +118,7 @@
         },
         "15165": {
             "class_number": "15165",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Lemus,Stephanie Y",
             "days": "F",
@@ -150,7 +138,7 @@
         },
         "21292": {
             "class_number": "21292",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Encinias,Shahrazad M",
             "days": null,
@@ -162,7 +150,7 @@
     "CAS 201": {
         "14798": {
             "class_number": "14798",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Marcelo,Susana N.",
             "days": "MW",
@@ -174,7 +162,7 @@
     "CAS 270": {
         "14321": {
             "class_number": "14321",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Simonds,Celia",
             "days": "F",
@@ -186,7 +174,7 @@
     "CAS 270F": {
         "14334": {
             "class_number": "14334",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Simonds,Celia",
             "days": "F",
@@ -195,10 +183,10 @@
             "end_time": "1640h"
         }
     },
-    "CAS 309": {
+    "CAS 311": {
         "14575": {
             "class_number": "14575",
-            "enrollment_cap": 15,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Carranza,Douglas G",
             "days": "TR",
@@ -207,22 +195,42 @@
             "end_time": "1215h"
         }
     },
-    "CAS 311": {
-        "14036": {
-            "class_number": "14036",
-            "enrollment_cap": 0,
+    "CAS 350": {
+        "14575": {
+            "class_number": "14575",
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Lemus,Stephanie Y",
-            "days": "MW",
-            "location": "JR243",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "instructor": "Carranza,Douglas G",
+            "days": "TR",
+            "location": "JR246",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "15194": {
+            "class_number": "15194",
+            "enrollment_cap": 16,
+            "enrollment_count": 0,
+            "instructor": "Carranza,Douglas G",
+            "days": "W",
+            "location": "EU134",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
     "CAS 365": {
+        "14575": {
+            "class_number": "14575",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Carranza,Douglas G",
+            "days": "TR",
+            "location": "JR246",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "14249": {
             "class_number": "14249",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Duarte,Jocelyn E",
             "days": "MW",
@@ -232,15 +240,15 @@
         }
     },
     "CAS 410": {
-        "14576": {
-            "class_number": "14576",
-            "enrollment_cap": 0,
+        "14575": {
+            "class_number": "14575",
+            "enrollment_cap": 12,
             "enrollment_count": 0,
-            "instructor": "Ruiztorres,Lizbeth",
-            "days": "M",
-            "location": "JR243",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "Carranza,Douglas G",
+            "days": "TR",
+            "location": "JR246",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     }
 }
