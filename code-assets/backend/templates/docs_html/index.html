@@ -38,7 +38,7 @@
             <!-- <li class="tab active" data-tab="default">catalog</li> -->
             <!-- <li class="tab" data-tab="linux">linux</li> -->
           </ul>
-          <li><b><u>Retrieve Catalog of a Specific Subject</b></u></li>
+          <li><b>Retrieve Catalog of a Specific Subject</b></li>
           <p>
           Replace <code>&lt;subject&gt;</code> with the subject you would like to see the catalog of
           </p>
@@ -46,6 +46,35 @@
             <code class="tab__pane active default">/&lt;string:subject&gt;/catalog</code>
             <!-- <code class="tab__pane linux">$  apt-get install scribbler</code> -->
           </pre>
+          Example: <a href=https://api.kyeou.xyz/comp/catalog target="_blank">https://api.kyeou.xyz/comp/catalog</a> <br />
+
+            <pre>
+              <!-- Place your demo code here -->
+              <code>
+                {
+                  &quot;subject&quot;: &quot;COMP&quot;,
+                  &quot;catalog_number&quot;: &quot;100&quot;,
+                  &quot;title&quot;: &quot;Computers: Their Impact and Use&quot;,
+                  &quot;description&quot;: &quot;Not open to Computer Science majors. Introduction to the uses, concepts, techniques and terminology of computing. Places the possibilities and problems of computer use in historical, economic and social contexts. Shows how computers can assist in a wide range of personal, commercial and organizational activities. Typical computer applications, including word processing, spreadsheets and databases. (Available for General Education, E Lifelong Learning.) (IC)&quot;,
+                  &quot;units&quot;: &quot;3&quot;,
+                  &quot;prerequisites&quot;: &quot;{None}&quot;,
+                  &quot;corequisites&quot;: &quot;{None}&quot;
+                }
+              </code>
+            </pre>
+
+          Returns JSON with catalog list of courses, one example of an entry <br />
+          <code><span style="white-space: pre;">{
+            &quot;subject&quot;: &quot;COMP&quot;,
+            &quot;catalog_number&quot;: &quot;100&quot;,
+            &quot;title&quot;: &quot;Computers: Their Impact and Use&quot;,
+            &quot;description&quot;: &quot;Not open to Computer Science majors. Introduction to the uses, concepts, techniques and terminology of computing. Places the possibilities and problems of computer use in historical, economic and social contexts. Shows how computers can assist in a wide range of personal, commercial and organizational activities. Typical computer applications, including word processing, spreadsheets and databases. (Available for General Education, E Lifelong Learning.) (IC)&quot;,
+            &quot;units&quot;: &quot;3&quot;,
+            &quot;prerequisites&quot;: &quot;{None}&quot;,
+            &quot;corequisites&quot;: &quot;{None}&quot;
+          }
+        </code></span></pre>
+        <br />
         </div>
       </div>
       <div class="feature">
