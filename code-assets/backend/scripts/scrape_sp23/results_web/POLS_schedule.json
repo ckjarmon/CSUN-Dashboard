@@ -2,7 +2,7 @@
     "POLS 155": {
         "12082": {
             "class_number": "12082",
-            "enrollment_cap": 43,
+            "enrollment_cap": 38,
             "enrollment_count": 0,
             "instructor": "Guevara,Gloria Y",
             "days": "F",
@@ -12,7 +12,7 @@
         },
         "12083": {
             "class_number": "12083",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Leitch,David G",
             "days": "MW",
@@ -22,7 +22,7 @@
         },
         "12084": {
             "class_number": "12084",
-            "enrollment_cap": 0,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Buckley,Alan D",
             "days": "MW",
@@ -32,7 +32,7 @@
         },
         "12085": {
             "class_number": "12085",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Hartman,Thomas R",
             "days": "W",
@@ -42,7 +42,7 @@
         },
         "12199": {
             "class_number": "12199",
-            "enrollment_cap": -1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Hirata,Keiko",
             "days": "TR",
@@ -62,7 +62,7 @@
         },
         "12424": {
             "class_number": "12424",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Wilson,Victoria",
             "days": "TR",
@@ -74,7 +74,7 @@
     "POLS 155HON": {
         "12816": {
             "class_number": "12816",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "De Maio,Jennifer",
             "days": "TR",
@@ -86,7 +86,7 @@
     "POLS 197": {
         "12815": {
             "class_number": "12815",
-            "enrollment_cap": 1,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Ricks,Boris E",
             "days": "MW",
@@ -95,58 +95,54 @@
             "end_time": "1215h"
         }
     },
-    "POLS 225": {
-        "12201": {
-            "class_number": "12201",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "De Maio,Jennifer",
-            "days": "TR",
-            "location": "SH342",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        }
-    },
-    "POLS 310": {
+    "POLS 321": {
         "12729": {
             "class_number": "12729",
-            "enrollment_cap": 24,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Mitchell,James A",
             "days": "TR",
-            "location": "SH120",
+            "location": "BB2204",
             "start_time": "0930h",
             "end_time": "1045h"
         }
     },
-    "POLS 321": {
-        "12530": {
-            "class_number": "12530",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saroukhanian,Talin",
-            "days": "MW",
-            "location": "SH266",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        }
-    },
     "POLS 332": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
         "12632": {
             "class_number": "12632",
             "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Alvarez,Linda",
-            "days": "TR",
+            "days": null,
             "location": "ONLINE",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "POLS 347": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
         "12491": {
             "class_number": "12491",
-            "enrollment_cap": 21,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Feldman,Adam Sean",
             "days": "F",
@@ -156,9 +152,19 @@
         }
     },
     "POLS 350": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
         "12488": {
             "class_number": "12488",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Dungey,Nicholas W",
             "days": "MW",
@@ -168,7 +174,7 @@
         },
         "12149": {
             "class_number": "12149",
-            "enrollment_cap": 21,
+            "enrollment_cap": 24,
             "enrollment_count": 0,
             "instructor": "Wilson,Victoria",
             "days": "TR",
@@ -198,9 +204,19 @@
         }
     },
     "POLS 355": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
         "12088": {
             "class_number": "12088",
-            "enrollment_cap": 64,
+            "enrollment_cap": 65,
             "enrollment_count": 0,
             "instructor": "Buckley,Alan D",
             "days": "MW",
@@ -210,17 +226,17 @@
         },
         "12489": {
             "class_number": "12489",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Alvarez,Linda",
-            "days": "TR",
+            "days": null,
             "location": "ONLINE",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "start_time": "ARR",
+            "end_time": "ARR"
         },
         "12490": {
             "class_number": "12490",
-            "enrollment_cap": 7,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Mitchell,James A",
             "days": "TR",
@@ -230,7 +246,7 @@
         },
         "12534": {
             "class_number": "12534",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Saroukhanian,Talin",
             "days": "MW",
@@ -240,21 +256,31 @@
         }
     },
     "POLS 360": {
-        "12633": {
-            "class_number": "12633",
-            "enrollment_cap": 0,
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Saroukhanian,Talin",
-            "days": "MW",
-            "location": "SH270",
-            "start_time": "1230h",
-            "end_time": "1345h"
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
     "POLS 361": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
         "12554": {
             "class_number": "12554",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Guevara,Gloria Y",
             "days": "TR",
@@ -264,48 +290,28 @@
         }
     },
     "POLS 372": {
-        "12236": {
-            "class_number": "12236",
-            "enrollment_cap": 0,
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Macias,Alexandra",
-            "days": "MW",
-            "location": "SH303",
-            "start_time": "0800h",
-            "end_time": "0915h"
-        },
-        "12237": {
-            "class_number": "12237",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Macias,Alexandra",
-            "days": "MW",
-            "location": "SH303",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "12238": {
-            "class_number": "12238",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Guevara,Gloria Y",
-            "days": "T",
-            "location": "ONLINE",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        },
-        "12471": {
-            "class_number": "12471",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Guevara,Gloria Y",
+            "instructor": "Mitchell,James A",
             "days": "TR",
-            "location": "SH303",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
     "POLS 403": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
         "12219": {
             "class_number": "12219",
             "enrollment_cap": 0,
@@ -318,18 +324,40 @@
         }
     },
     "POLS 405": {
-        "13282": {
-            "class_number": "13282",
-            "enrollment_cap": 13,
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Saroukhanian,Talin",
-            "days": "W",
-            "location": "SH266",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
         }
     },
     "POLS 406": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "POLS 410": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
         "12731": {
             "class_number": "12731",
             "enrollment_cap": 17,
@@ -341,19 +369,27 @@
             "end_time": "1345h"
         }
     },
-    "POLS 410": {
-        "12905": {
-            "class_number": "12905",
-            "enrollment_cap": 0,
+    "POLS 412": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Motameni,Ahmad R",
-            "days": "MW",
-            "location": "SH270",
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
             "start_time": "0930h",
             "end_time": "1045h"
-        }
-    },
-    "POLS 412": {
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12915": {
             "class_number": "12915",
             "enrollment_cap": 0,
@@ -366,9 +402,29 @@
         }
     },
     "POLS 420D": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "13309": {
             "class_number": "13309",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Motameni,Ahmad R",
             "days": "W",
@@ -378,6 +434,26 @@
         }
     },
     "POLS 427A": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12918": {
             "class_number": "12918",
             "enrollment_cap": 7,
@@ -390,6 +466,26 @@
         }
     },
     "POLS 427AL": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12919": {
             "class_number": "12919",
             "enrollment_cap": 8,
@@ -402,9 +498,29 @@
         }
     },
     "POLS 429": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12155": {
             "class_number": "12155",
-            "enrollment_cap": 12,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Buckley,Alan D",
             "days": "TR",
@@ -414,18 +530,58 @@
         }
     },
     "POLS 433A": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12509": {
             "class_number": "12509",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Alvarez,Linda",
-            "days": "TR",
+            "days": null,
             "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "POLS 439A": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12636": {
             "class_number": "12636",
             "enrollment_cap": 0,
@@ -438,9 +594,29 @@
         }
     },
     "POLS 440": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12637": {
             "class_number": "12637",
-            "enrollment_cap": 16,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Groper,Richard P",
             "days": "R",
@@ -450,9 +626,29 @@
         }
     },
     "POLS 441": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12494": {
             "class_number": "12494",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Wilson,Victoria",
             "days": "MW",
@@ -462,9 +658,29 @@
         }
     },
     "POLS 443": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12733": {
             "class_number": "12733",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Becker,Lawrence A",
             "days": "TR",
@@ -474,6 +690,26 @@
         }
     },
     "POLS 445": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12997": {
             "class_number": "12997",
             "enrollment_cap": 0,
@@ -486,6 +722,26 @@
         }
     },
     "POLS 446": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12508": {
             "class_number": "12508",
             "enrollment_cap": 24,
@@ -498,9 +754,29 @@
         }
     },
     "POLS 450": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12851": {
             "class_number": "12851",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Leitch,David G",
             "days": "MW",
@@ -510,9 +786,29 @@
         }
     },
     "POLS 455": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12220": {
             "class_number": "12220",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Bradberry,Leigh A",
             "days": "TR",
@@ -522,7 +818,7 @@
         },
         "12817": {
             "class_number": "12817",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Renetzky,Craig Allen",
             "days": "M",
@@ -532,9 +828,29 @@
         }
     },
     "POLS 457A": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12934": {
             "class_number": "12934",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Zverev,Arthur",
             "days": "MW",
@@ -543,10 +859,62 @@
             "end_time": "0915h"
         }
     },
+    "POLS 457B": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "12086": {
+            "class_number": "12086",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Feldman,Adam Sean",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
     "POLS 461": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12922": {
             "class_number": "12922",
-            "enrollment_cap": 1,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Hartman,Thomas R",
             "days": "MW",
@@ -556,9 +924,29 @@
         }
     },
     "POLS 467": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12818": {
             "class_number": "12818",
-            "enrollment_cap": 9,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "McBride,Justin",
             "days": "MW",
@@ -568,9 +956,29 @@
         }
     },
     "POLS 471A": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12162": {
             "class_number": "12162",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ricks,Boris E",
             "days": "MW",
@@ -580,9 +988,29 @@
         }
     },
     "POLS 471B": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12425": {
             "class_number": "12425",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Garcia-Acevedo,Maria R",
             "days": "TR",
@@ -592,9 +1020,29 @@
         }
     },
     "POLS 471C": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12496": {
             "class_number": "12496",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Buckley,Alan D",
             "days": "TR",
@@ -604,9 +1052,29 @@
         }
     },
     "POLS 471D": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12681": {
             "class_number": "12681",
-            "enrollment_cap": 0,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Dungey,Nicholas W",
             "days": "MW",
@@ -616,9 +1084,29 @@
         }
     },
     "POLS 471E": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12426": {
             "class_number": "12426",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Hartman,Thomas R",
             "days": "R",
@@ -628,6 +1116,26 @@
         }
     },
     "POLS 471F": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12413": {
             "class_number": "12413",
             "enrollment_cap": 0,
@@ -640,7 +1148,7 @@
         },
         "20756": {
             "class_number": "20756",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Feldman,Adam Sean",
             "days": "F",
@@ -650,6 +1158,26 @@
         }
     },
     "POLS 480": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "13310": {
             "class_number": "13310",
             "enrollment_cap": 0,
@@ -662,9 +1190,29 @@
         }
     },
     "POLS 490CA": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12557": {
             "class_number": "12557",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Macias,Alexandra",
             "days": null,
@@ -674,9 +1222,29 @@
         }
     },
     "POLS 494I": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12482": {
             "class_number": "12482",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Macias,Alexandra",
             "days": "F",
@@ -686,9 +1254,29 @@
         }
     },
     "POLS 494IA": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12932": {
             "class_number": "12932",
-            "enrollment_cap": 9,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Macias,Alexandra",
             "days": null,
@@ -698,6 +1286,26 @@
         }
     },
     "POLS 494J": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12481": {
             "class_number": "12481",
             "enrollment_cap": 0,
@@ -710,6 +1318,26 @@
         }
     },
     "POLS 494JA": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12929": {
             "class_number": "12929",
             "enrollment_cap": 0,
@@ -722,9 +1350,29 @@
         }
     },
     "POLS 522C": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "20757": {
             "class_number": "20757",
-            "enrollment_cap": 7,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Mitchell,James A",
             "days": "S",
@@ -734,9 +1382,29 @@
         }
     },
     "POLS 540F": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "20758": {
             "class_number": "20758",
-            "enrollment_cap": 7,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Hogen-Esch,Tom J",
             "days": "T",
@@ -746,6 +1414,26 @@
         }
     },
     "POLS 599C": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12089": {
             "class_number": "12089",
             "enrollment_cap": 3,
@@ -758,9 +1446,29 @@
         }
     },
     "POLS 698D": {
+        "12729": {
+            "class_number": "12729",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Mitchell,James A",
+            "days": "TR",
+            "location": "BB2204",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "12731": {
+            "class_number": "12731",
+            "enrollment_cap": 17,
+            "enrollment_count": 0,
+            "instructor": "Hartman,Thomas R",
+            "days": "TR",
+            "location": "SH270",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "12938": {
             "class_number": "12938",
-            "enrollment_cap": 5,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Macias,Alexandra",
             "days": null,

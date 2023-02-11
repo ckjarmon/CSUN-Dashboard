@@ -2,9 +2,9 @@
     "EOH 101": {
         "18788": {
             "class_number": "18788",
-            "enrollment_cap": 12,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Sullivan,Michael J",
+            "instructor": "Murray,Kenneth S",
             "days": "MW",
             "location": "JD1551",
             "start_time": "1230h",
@@ -12,7 +12,7 @@
         },
         "18901": {
             "class_number": "18901",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Kazanchyan,Gevork",
             "days": null,
@@ -34,7 +34,7 @@
     "EOH 352": {
         "18780": {
             "class_number": "18780",
-            "enrollment_cap": 11,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "McNamara,Katherine A",
             "days": "MW",
@@ -48,7 +48,7 @@
             "class_number": "18786",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Sullivan,Michael J",
+            "instructor": "Murray,Kenneth S",
             "days": "MW",
             "location": "JD1551",
             "start_time": "1100h",
@@ -148,7 +148,7 @@
         },
         "18782": {
             "class_number": "18782",
-            "enrollment_cap": 8,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Machado,Antonio F",
             "days": "TR",
@@ -160,7 +160,7 @@
     "EOH 454": {
         "19054": {
             "class_number": "19054",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Murray,Sandy H",
             "days": "R",
@@ -184,7 +184,7 @@
     "EOH 455L": {
         "18935": {
             "class_number": "18935",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Becerra,Veronica",
             "days": "W",
@@ -196,7 +196,7 @@
     "EOH 456": {
         "18796": {
             "class_number": "18796",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Machado,Antonio F",
             "days": "TR",
@@ -217,22 +217,22 @@
             "end_time": "1845h"
         }
     },
-    "EOH 459": {
-        "20092": {
-            "class_number": "20092",
-            "enrollment_cap": -1,
+    "EOH 466B": {
+        "18784": {
+            "class_number": "18784",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Harden,Christopher D",
+            "instructor": "Staff",
             "days": "T",
-            "location": "JD1551",
-            "start_time": "1900h",
-            "end_time": "2145h"
+            "location": "JD1610",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     },
     "EOH 466BL": {
         "18785": {
             "class_number": "18785",
-            "enrollment_cap": 2,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Dangazyan,Madeleine",
             "days": "R",
@@ -241,22 +241,10 @@
             "end_time": "1845h"
         }
     },
-    "EOH 468": {
-        "18936": {
-            "class_number": "18936",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Harden,Christopher D",
-            "days": "W",
-            "location": "SQ103",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
     "EOH 469": {
         "18938": {
             "class_number": "18938",
-            "enrollment_cap": 3,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Sullivan,Michael J",
             "days": "M",
@@ -268,13 +256,25 @@
     "EOH 494B": {
         "19201": {
             "class_number": "19201",
-            "enrollment_cap": -4,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "McNamara,Katherine A",
             "days": null,
             "location": "OFFCAM",
             "start_time": "ARR",
             "end_time": "ARR"
+        }
+    },
+    "EOH 554": {
+        "20062": {
+            "class_number": "20062",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Machado,Antonio F",
+            "days": "T",
+            "location": "JD1551",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     },
     "EOH 554MPH": {
@@ -302,7 +302,7 @@
     "EOH 555": {
         "18903": {
             "class_number": "18903",
-            "enrollment_cap": -2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "McNamara,Katherine A",
             "days": "M",
@@ -314,7 +314,7 @@
     "EOH 560": {
         "19940": {
             "class_number": "19940",
-            "enrollment_cap": 2,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Sullivan,Michael J",
             "days": "W",
@@ -326,7 +326,7 @@
     "EOH 581": {
         "19906": {
             "class_number": "19906",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Bueche,David A",
             "days": "M",
@@ -338,7 +338,7 @@
     "EOH 693A": {
         "19148": {
             "class_number": "19148",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "McNamara,Katherine A",
             "days": null,

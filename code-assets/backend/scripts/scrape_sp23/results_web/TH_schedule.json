@@ -12,7 +12,7 @@
         },
         "10901": {
             "class_number": "10901",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Norris,Sonia",
             "days": "TR",
@@ -33,10 +33,10 @@
             "end_time": "ARR"
         }
     },
-    "TH 111": {
+    "TH 111HON": {
         "10911": {
             "class_number": "10911",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Clark,Ronnie",
             "days": "MW",
@@ -46,7 +46,7 @@
         },
         "10797": {
             "class_number": "10797",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Kaback,Douglas E",
             "days": "F",
@@ -56,7 +56,7 @@
         },
         "10548": {
             "class_number": "10548",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Aviles Rodriguez,Guillermo G.",
             "days": "TR",
@@ -66,7 +66,7 @@
         },
         "10518": {
             "class_number": "10518",
-            "enrollment_cap": 15,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Pai,Nikhil",
             "days": "TR",
@@ -85,9 +85,49 @@
             "end_time": "TBA"
         }
     },
-    "TH 111HON": {
-        "11320": {
-            "class_number": "11320",
+    "TH 142M": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
             "enrollment_cap": 36,
             "enrollment_count": 0,
             "instructor": "Staff",
@@ -95,9 +135,7 @@
             "location": "TBA",
             "start_time": "TBA",
             "end_time": "TBA"
-        }
-    },
-    "TH 142M": {
+        },
         "10872": {
             "class_number": "10872",
             "enrollment_cap": 4,
@@ -120,9 +158,59 @@
         }
     },
     "TH 143V": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
         "10873": {
             "class_number": "10873",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Dennis,AnnaMarie S",
             "days": "TR",
@@ -142,9 +230,59 @@
         }
     },
     "TH 155": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
         "10877": {
             "class_number": "10877",
-            "enrollment_cap": -3,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": "F",
@@ -153,19 +291,181 @@
             "end_time": "1440h"
         }
     },
-    "TH 208A": {
-        "10848": {
-            "class_number": "10848",
+    "TH 190": {
+        "10911": {
+            "class_number": "10911",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Norris,Sonia",
-            "days": "TR",
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
             "location": "NH214",
-            "start_time": "1400h",
-            "end_time": "1645h"
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "11293": {
+            "class_number": "11293",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Jackson,Matthew A",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "11321": {
+            "class_number": "11321",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Jackson,Matthew A",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    },
+    "TH 208A": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "TH 222": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
         "10868": {
             "class_number": "10868",
             "enrollment_cap": 13,
@@ -177,32 +477,236 @@
             "end_time": "1045h"
         }
     },
-    "TH 262": {
-        "10874": {
-            "class_number": "10874",
+    "TH 261": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "11169": {
+            "class_number": "11169",
             "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Schmidt,Caitlin M",
+            "days": "TR",
+            "location": "NH104",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        }
+    },
+    "TH 261P": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
             "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "TH 262": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "11295": {
+            "class_number": "11295",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Cox,Elizabeth A",
+            "days": "TR",
+            "location": "TH365",
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     },
     "TH 262P": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10875": {
             "class_number": "10875",
-            "enrollment_cap": 3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Cox,Elizabeth A",
             "days": "F",
@@ -212,19 +716,59 @@
         }
     },
     "TH 263": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11170": {
             "class_number": "11170",
-            "enrollment_cap": -1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": "TR",
@@ -234,19 +778,59 @@
         }
     },
     "TH 263P": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10876": {
             "class_number": "10876",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Weingarten,Dan S",
             "days": "F",
@@ -256,19 +840,59 @@
         }
     },
     "TH 290": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11294": {
             "class_number": "11294",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Jackson,Matthew A",
             "days": null,
@@ -278,9 +902,9 @@
         },
         "11322": {
             "class_number": "11322",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
+            "instructor": "Staff",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -288,31 +912,121 @@
         }
     },
     "TH 308A": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "11300": {
+            "class_number": "11300",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Norris,Sonia",
+            "days": "MW",
+            "location": "TH159",
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
     },
     "TH 310": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11057": {
             "class_number": "11057",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Kaback,Douglas E",
             "days": null,
@@ -322,19 +1036,59 @@
         }
     },
     "TH 321A": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10869": {
             "class_number": "10869",
-            "enrollment_cap": 2,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Tsai,Stefani",
             "days": "MW",
@@ -344,15 +1098,55 @@
         }
     },
     "TH 321B": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10870": {
             "class_number": "10870",
@@ -366,19 +1160,59 @@
         }
     },
     "TH 325": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11587": {
             "class_number": "11587",
-            "enrollment_cap": -2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kiani,Ali",
             "days": null,
@@ -388,7 +1222,7 @@
         },
         "11588": {
             "class_number": "11588",
-            "enrollment_cap": 17,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "Kiani,Ali",
             "days": "R",
@@ -398,19 +1232,59 @@
         }
     },
     "TH 333": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11853": {
             "class_number": "11853",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Jackson,Matthew A",
             "days": null,
@@ -420,15 +1294,55 @@
         }
     },
     "TH 342M": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11051": {
             "class_number": "11051",
@@ -442,15 +1356,55 @@
         }
     },
     "TH 346": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11028": {
             "class_number": "11028",
@@ -464,19 +1418,59 @@
         }
     },
     "TH 350": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10510": {
             "class_number": "10510",
-            "enrollment_cap": 8,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Cox,Elizabeth A",
             "days": "TR",
@@ -486,19 +1480,59 @@
         }
     },
     "TH 361B": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11012": {
             "class_number": "11012",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Morales,Natalie",
             "days": "MW",
@@ -508,19 +1542,59 @@
         }
     },
     "TH 361P": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "1002": {
             "class_number": "1002",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Morales,Natalie",
             "days": null,
@@ -530,15 +1604,55 @@
         }
     },
     "TH 362A": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11175": {
             "class_number": "11175",
@@ -552,15 +1666,55 @@
         }
     },
     "TH 362B": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11013": {
             "class_number": "11013",
@@ -574,19 +1728,59 @@
         }
     },
     "TH 362P": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "1003": {
             "class_number": "1003",
-            "enrollment_cap": 18,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Lennon,Garry D",
             "days": null,
@@ -596,19 +1790,59 @@
         }
     },
     "TH 363A": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11296": {
             "class_number": "11296",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Buck,RS",
             "days": "MW",
@@ -618,21 +1852,61 @@
         }
     },
     "TH 363P": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "1004": {
             "class_number": "1004",
-            "enrollment_cap": 27,
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Weingarten,Dan S",
+            "instructor": "Staff",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -640,15 +1914,55 @@
         }
     },
     "TH 371": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10684": {
             "class_number": "10684",
@@ -672,7 +1986,7 @@
         },
         "11956": {
             "class_number": "11956",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Ahrens,William",
             "days": "MW",
@@ -682,15 +1996,55 @@
         }
     },
     "TH 371L": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10685": {
             "class_number": "10685",
@@ -714,7 +2068,7 @@
         },
         "11972": {
             "class_number": "11972",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Ahrens,William",
             "days": "MW",
@@ -724,15 +2078,55 @@
         }
     },
     "TH 381": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "20752": {
             "class_number": "20752",
@@ -746,15 +2140,55 @@
         }
     },
     "TH 382A": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10519": {
             "class_number": "10519",
@@ -768,19 +2202,59 @@
         }
     },
     "TH 382B": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10520": {
             "class_number": "10520",
-            "enrollment_cap": 6,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Jackson,Matthew A",
             "days": null,
@@ -790,15 +2264,55 @@
         }
     },
     "TH 382C": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10521": {
             "class_number": "10521",
@@ -812,71 +2326,59 @@
         }
     },
     "TH 390A": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10512": {
             "class_number": "10512",
-            "enrollment_cap": 9,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "TH 390B": {
-        "10874": {
-            "class_number": "10874",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
-        },
-        "11025": {
-            "class_number": "11025",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Jackson,Matthew A",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "10888": {
-            "class_number": "10888",
-            "enrollment_cap": 15,
-            "enrollment_count": 0,
-            "instructor": "Lennon,Garry D",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "10889": {
-            "class_number": "10889",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Biederman,Larry R",
-            "days": null,
-            "location": "ONCAMP",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "10890": {
-            "class_number": "10890",
-            "enrollment_cap": 20,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -885,20 +2387,152 @@
             "end_time": "ARR"
         }
     },
-    "TH 397": {
-        "10874": {
-            "class_number": "10874",
+    "TH 390B": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "11025": {
+            "class_number": "11025",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "10888": {
+            "class_number": "10888",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "10889": {
+            "class_number": "10889",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "10890": {
+            "class_number": "10890",
+            "enrollment_cap": 19,
+            "enrollment_count": 0,
+            "instructor": "Jackson,Matthew A",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    },
+    "TH 397": {
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
             "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10513": {
             "class_number": "10513",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Kim,Ah-Jeong",
             "days": "M",
@@ -908,19 +2542,59 @@
         }
     },
     "TH 410": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "20753": {
             "class_number": "20753",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Tsai,Stefani",
             "days": "MW",
@@ -930,19 +2604,59 @@
         }
     },
     "TH 444": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10514": {
             "class_number": "10514",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Biederman,Larry R",
             "days": "TR",
@@ -952,19 +2666,59 @@
         }
     },
     "TH 448": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11889": {
             "class_number": "11889",
-            "enrollment_cap": 10,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Gould,Eric S",
             "days": "TR",
@@ -974,19 +2728,59 @@
         }
     },
     "TH 454": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11916": {
             "class_number": "11916",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Biederman,Larry R",
             "days": "F",
@@ -996,15 +2790,55 @@
         }
     },
     "TH 457": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10572": {
             "class_number": "10572",
@@ -1018,15 +2852,55 @@
         }
     },
     "TH 473": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10724": {
             "class_number": "10724",
@@ -1040,15 +2914,55 @@
         }
     },
     "TH 473L": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10725": {
             "class_number": "10725",
@@ -1062,15 +2976,55 @@
         }
     },
     "TH 490A": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10515": {
             "class_number": "10515",
@@ -1084,15 +3038,55 @@
         }
     },
     "TH 490B": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11029": {
             "class_number": "11029",
@@ -1106,7 +3100,7 @@
         },
         "10891": {
             "class_number": "10891",
-            "enrollment_cap": 19,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Lennon,Garry D",
             "days": null,
@@ -1118,7 +3112,7 @@
             "class_number": "10892",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Biederman,Larry R",
+            "instructor": "Staff",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -1128,7 +3122,7 @@
             "class_number": "10893",
             "enrollment_cap": 20,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Jackson,Matthew A",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -1136,15 +3130,55 @@
         }
     },
     "TH 498F": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10516": {
             "class_number": "10516",
@@ -1158,15 +3192,55 @@
         }
     },
     "TH 544": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11930": {
             "class_number": "11930",
@@ -1180,15 +3254,55 @@
         }
     },
     "TH 545": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "11888": {
             "class_number": "11888",
@@ -1202,15 +3316,55 @@
         }
     },
     "TH 698C": {
-        "10874": {
-            "class_number": "10874",
+        "10911": {
+            "class_number": "10911",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Clark,Ronnie",
+            "days": "MW",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10797": {
+            "class_number": "10797",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Kaback,Douglas E",
+            "days": "F",
+            "location": "NH214",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        "10548": {
+            "class_number": "10548",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Schmidt,Caitlin M",
-            "days": "F",
-            "location": "TH158",
-            "start_time": "0900h",
-            "end_time": "1145h"
+            "instructor": "Aviles Rodriguez,Guillermo G.",
+            "days": "TR",
+            "location": "NH111",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "10518": {
+            "class_number": "10518",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Pai,Nikhil",
+            "days": "TR",
+            "location": "TH159",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "10912": {
+            "class_number": "10912",
+            "enrollment_cap": 36,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
         "10524": {
             "class_number": "10524",

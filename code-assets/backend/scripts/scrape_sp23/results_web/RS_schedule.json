@@ -2,7 +2,7 @@
     "RS 100": {
         "14079": {
             "class_number": "14079",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Baugh,Amanda",
             "days": "R",
@@ -32,7 +32,7 @@
         },
         "14716": {
             "class_number": "14716",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Goodfriend,Elaine A",
             "days": null,
@@ -44,7 +44,7 @@
     "RS 101": {
         "14083": {
             "class_number": "14083",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Talbott,Rick F",
             "days": null,
@@ -76,7 +76,7 @@
         },
         "14532": {
             "class_number": "14532",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Findlay,James D",
             "days": "MW",
@@ -86,7 +86,7 @@
         },
         "14082": {
             "class_number": "14082",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "An,Yountae",
             "days": "TR",
@@ -96,7 +96,7 @@
         },
         "14091": {
             "class_number": "14091",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Alvizo,Xochitl",
             "days": null,
@@ -106,7 +106,7 @@
         },
         "14267": {
             "class_number": "14267",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Tevanyan,Albert",
             "days": null,
@@ -148,7 +148,7 @@
         },
         "14937": {
             "class_number": "14937",
-            "enrollment_cap": 3,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Nkulu-N'Sengha,Mutombo",
             "days": "TR",
@@ -178,7 +178,7 @@
         },
         "15003": {
             "class_number": "15003",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Findlay,James D",
             "days": null,
@@ -190,7 +190,7 @@
     "RS 255": {
         "14170": {
             "class_number": "14170",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "O'Donnell,Mary Jane",
             "days": "MW",
@@ -212,7 +212,7 @@
         },
         "15271": {
             "class_number": "15271",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "O'Donnell,Mary Jane",
             "days": null,
@@ -234,7 +234,7 @@
     "RS 304": {
         "14863": {
             "class_number": "14863",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Alvizo,Xochitl",
             "days": "MW",
@@ -256,7 +256,7 @@
     "RS 306": {
         "14849": {
             "class_number": "14849",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Nkulu-N'Sengha,Mutombo",
             "days": null,
@@ -266,7 +266,7 @@
         },
         "15188": {
             "class_number": "15188",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Nkulu-N'Sengha,Mutombo",
             "days": null,
@@ -275,10 +275,10 @@
             "end_time": "ARR"
         }
     },
-    "RS 310": {
+    "RS 307": {
         "14719": {
             "class_number": "14719",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Wilkerson,Ingrid R",
             "days": null,
@@ -287,20 +287,22 @@
             "end_time": "ARR"
         }
     },
-    "RS 311": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
+    "RS 310": {
+        "14882": {
+            "class_number": "14882",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
+            "instructor": "Goodfriend,Elaine A",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
             "end_time": "ARR"
-        },
+        }
+    },
+    "RS 311": {
         "15191": {
             "class_number": "15191",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Cummings,Randal L",
             "days": null,
@@ -310,16 +312,6 @@
         }
     },
     "RS 325": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
         "20961": {
             "class_number": "20961",
             "enrollment_cap": 25,
@@ -332,19 +324,9 @@
         }
     },
     "RS 361": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
         "14085": {
             "class_number": "14085",
-            "enrollment_cap": 18,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "An,Yountae",
             "days": "TR",
@@ -354,7 +336,7 @@
         },
         "14574": {
             "class_number": "14574",
-            "enrollment_cap": 6,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Kuns,Tim N.",
             "days": "MW",
@@ -364,7 +346,7 @@
         },
         "14720": {
             "class_number": "14720",
-            "enrollment_cap": 6,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Cummings,Randal L",
             "days": "TR",
@@ -384,7 +366,7 @@
         },
         "14881": {
             "class_number": "14881",
-            "enrollment_cap": -5,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Cummings,Randal L",
             "days": null,
@@ -394,7 +376,7 @@
         },
         "14939": {
             "class_number": "14939",
-            "enrollment_cap": -2,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Cummings,Randal L",
             "days": null,
@@ -414,16 +396,6 @@
         }
     },
     "RS 365": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
         "15090": {
             "class_number": "15090",
             "enrollment_cap": 23,
@@ -436,16 +408,6 @@
         }
     },
     "RS 366": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
         "15385": {
             "class_number": "15385",
             "enrollment_cap": -1,
@@ -458,19 +420,9 @@
         }
     },
     "RS 367": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
         "15268": {
             "class_number": "15268",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "White,Claire",
             "days": null,
@@ -480,19 +432,9 @@
         }
     },
     "RS 380": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
         "20960": {
             "class_number": "20960",
-            "enrollment_cap": 7,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Cummings,Randal L",
             "days": "TR",
@@ -502,11 +444,21 @@
         }
     },
     "RS 390": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
+        "14341": {
+            "class_number": "14341",
+            "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
+            "instructor": "Malhotra,Vikas",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "14721": {
+            "class_number": "14721",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Malhotra,Vikas",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -514,16 +466,6 @@
         }
     },
     "RS 497J": {
-        "14719": {
-            "class_number": "14719",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Wilkerson,Ingrid R",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
         "15431": {
             "class_number": "15431",
             "enrollment_cap": 16,

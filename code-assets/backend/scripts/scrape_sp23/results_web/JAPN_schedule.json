@@ -2,7 +2,7 @@
     "JAPN 101": {
         "14234": {
             "class_number": "14234",
-            "enrollment_cap": 1,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Takemori,Kanzo",
             "days": "MW",
@@ -12,7 +12,7 @@
         },
         "14349": {
             "class_number": "14349",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Takemori,Kanzo",
             "days": "MW",
@@ -22,7 +22,7 @@
         },
         "14651": {
             "class_number": "14651",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Langford,Drake",
             "days": "MW",
@@ -32,7 +32,7 @@
         },
         "14652": {
             "class_number": "14652",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Langford,Drake",
             "days": "TR",
@@ -44,33 +44,21 @@
     "JAPN 102": {
         "14235": {
             "class_number": "14235",
-            "enrollment_cap": -3,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Kato,Nina",
             "days": "TR",
-            "location": "JR301",
+            "location": "SH286",
             "start_time": "0900h",
             "end_time": "1040h"
         },
         "14368": {
             "class_number": "14368",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Huang,Junliang",
             "days": "MW",
             "location": "JR303",
-            "start_time": "1300h",
-            "end_time": "1440h"
-        }
-    },
-    "JAPN 202": {
-        "14236": {
-            "class_number": "14236",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Kato,Nina",
-            "days": "TR",
-            "location": "JR203",
             "start_time": "1300h",
             "end_time": "1440h"
         }

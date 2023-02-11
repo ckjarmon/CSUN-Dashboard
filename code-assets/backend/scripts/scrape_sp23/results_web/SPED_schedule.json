@@ -2,7 +2,7 @@
     "SPED 200SL": {
         "15984": {
             "class_number": "15984",
-            "enrollment_cap": 1,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Lasky,Beth A",
             "days": "MW",
@@ -24,7 +24,7 @@
     "SPED 400": {
         "15501": {
             "class_number": "15501",
-            "enrollment_cap": 5,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Kennedy,VIrginia E",
             "days": "M",
@@ -34,7 +34,7 @@
         },
         "15661": {
             "class_number": "15661",
-            "enrollment_cap": 26,
+            "enrollment_cap": 27,
             "enrollment_count": 0,
             "instructor": "Kennedy,VIrginia E",
             "days": "T",
@@ -54,7 +54,7 @@
         },
         "15879": {
             "class_number": "15879",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Schneiderman,Ellen S",
             "days": null,
@@ -64,7 +64,7 @@
         },
         "15920": {
             "class_number": "15920",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -76,7 +76,7 @@
     "SPED 402": {
         "20859": {
             "class_number": "20859",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Shepard,Scott",
             "days": "M",
@@ -86,7 +86,7 @@
         },
         "20860": {
             "class_number": "20860",
-            "enrollment_cap": 1,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Macharia,Mercy W.",
             "days": "T",
@@ -107,18 +107,6 @@
             "end_time": "1845h"
         }
     },
-    "SPED 403MME": {
-        "15711": {
-            "class_number": "15711",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "BH315",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
     "SPED 403MS": {
         "15795": {
             "class_number": "15795",
@@ -134,7 +122,7 @@
     "SPED 404": {
         "15712": {
             "class_number": "15712",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Crasnow,Ellis J",
             "days": null,
@@ -144,21 +132,9 @@
         },
         "15713": {
             "class_number": "15713",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Crasnow,Ellis J",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 406": {
-        "15716": {
-            "class_number": "15716",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Deniz,Fatmana",
+            "instructor": "Crasnow,Ellis J",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -168,7 +144,7 @@
     "SPED 407": {
         "20862": {
             "class_number": "20862",
-            "enrollment_cap": 8,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Salazar,Sarah",
             "days": "W",
@@ -190,7 +166,7 @@
         },
         "15798": {
             "class_number": "15798",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Brewington,Valerie J",
             "days": "M",
@@ -202,7 +178,7 @@
     "SPED 420": {
         "15719": {
             "class_number": "15719",
-            "enrollment_cap": 3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Studer,Erin P",
             "days": "M",
@@ -212,7 +188,7 @@
         },
         "15720": {
             "class_number": "15720",
-            "enrollment_cap": -5,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Studer,Erin P",
             "days": "M",
@@ -222,7 +198,7 @@
         },
         "15721": {
             "class_number": "15721",
-            "enrollment_cap": -2,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Eisen,Martin D",
             "days": "T",
@@ -232,7 +208,7 @@
         },
         "15770": {
             "class_number": "15770",
-            "enrollment_cap": 3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Buchinsky,Adie",
             "days": "T",
@@ -242,7 +218,7 @@
         },
         "15887": {
             "class_number": "15887",
-            "enrollment_cap": 3,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Eisen,Martin D",
             "days": "W",
@@ -252,7 +228,7 @@
         },
         "15940": {
             "class_number": "15940",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Jauregui Santillan,Rose",
             "days": "W",
@@ -262,7 +238,7 @@
         },
         "16135": {
             "class_number": "16135",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Stuve,Heather",
             "days": "R",
@@ -272,7 +248,7 @@
         },
         "16136": {
             "class_number": "16136",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Jauregui Santillan,Rose",
             "days": "M",
@@ -284,7 +260,7 @@
     "SPED 502MME": {
         "15508": {
             "class_number": "15508",
-            "enrollment_cap": 2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Goodwin,Vanessa A",
             "days": "R",
@@ -296,7 +272,7 @@
     "SPED 503MME": {
         "15503": {
             "class_number": "15503",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Buchinsky,Adie",
             "days": "T",
@@ -306,7 +282,7 @@
         },
         "15653": {
             "class_number": "15653",
-            "enrollment_cap": 3,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
@@ -342,7 +318,7 @@
     "SPED 506DHC": {
         "15724": {
             "class_number": "15724",
-            "enrollment_cap": 9,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Friedman-Narr,Rachel A",
             "days": null,
@@ -354,7 +330,7 @@
     "SPED 506DHD": {
         "15725": {
             "class_number": "15725",
-            "enrollment_cap": 9,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Friedman-Narr,Rachel A",
             "days": null,
@@ -404,7 +380,7 @@
             "class_number": "15728",
             "enrollment_cap": 25,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Toews,Samantha Gross",
             "days": "M",
             "location": "ONCAMP",
             "start_time": "1900h",
@@ -450,7 +426,7 @@
     "SPED 506MSA": {
         "15733": {
             "class_number": "15733",
-            "enrollment_cap": 23,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -486,7 +462,7 @@
     "SPED 511": {
         "20880": {
             "class_number": "20880",
-            "enrollment_cap": -4,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Goodwin,Vanessa A",
             "days": "T",
@@ -498,7 +474,7 @@
     "SPED 532": {
         "15592": {
             "class_number": "15592",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Wong,Connie",
             "days": "M",
@@ -510,7 +486,7 @@
     "SPED 537": {
         "15553": {
             "class_number": "15553",
-            "enrollment_cap": 7,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Williams,Brianne R",
             "days": "M",
@@ -522,7 +498,7 @@
     "SPED 538": {
         "15784": {
             "class_number": "15784",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Wong,Connie",
             "days": "T",
@@ -544,7 +520,7 @@
         },
         "15562": {
             "class_number": "15562",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Gudoski,Phyllis J",
             "days": "M",
@@ -588,7 +564,7 @@
         },
         "21000": {
             "class_number": "21000",
-            "enrollment_cap": 12,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Druz,Viktoria",
             "days": "T",
@@ -672,7 +648,7 @@
     "SPED 580EC": {
         "15557": {
             "class_number": "15557",
-            "enrollment_cap": 26,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Wong,Connie",
             "days": "T",
@@ -684,7 +660,7 @@
     "SPED 580MME": {
         "15497": {
             "class_number": "15497",
-            "enrollment_cap": 26,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Goodwin,Vanessa A",
             "days": "R",
@@ -696,7 +672,7 @@
     "SPED 580MS": {
         "15498": {
             "class_number": "15498",
-            "enrollment_cap": 29,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -708,7 +684,7 @@
     "SPED 580S": {
         "15737": {
             "class_number": "15737",
-            "enrollment_cap": 28,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Goodwin,Vanessa A",
             "days": null,
@@ -729,34 +705,10 @@
             "end_time": "2145h"
         }
     },
-    "SPED 628DHH": {
-        "16088": {
-            "class_number": "16088",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 628EC": {
-        "16087": {
-            "class_number": "16087",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
     "SPED 628MM": {
         "16089": {
             "class_number": "16089",
-            "enrollment_cap": 22,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "Toews,Samantha Gross",
             "days": "W",
@@ -768,7 +720,7 @@
     "SPED 638": {
         "15861": {
             "class_number": "15861",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Boomgard,Monica C",
             "days": null,
@@ -794,7 +746,7 @@
             "class_number": "15598",
             "enrollment_cap": 1,
             "enrollment_count": 0,
-            "instructor": "Goodwin,Vanessa A",
+            "instructor": "Staff",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -804,9 +756,9 @@
     "SPED 676": {
         "15620": {
             "class_number": "15620",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Kass,Karen A.",
+            "instructor": "Staff",
             "days": null,
             "location": "ONLINE",
             "start_time": "ARR",
@@ -816,7 +768,7 @@
     "SPED 681": {
         "15739": {
             "class_number": "15739",
-            "enrollment_cap": 11,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Friedman-Narr,Rachel A",
             "days": null,
@@ -876,7 +828,7 @@
     "SPED 683": {
         "15509": {
             "class_number": "15509",
-            "enrollment_cap": 18,
+            "enrollment_cap": 16,
             "enrollment_count": 0,
             "instructor": "Murawski,Wendy W",
             "days": "R",
@@ -888,7 +840,7 @@
     "SPED 695A": {
         "16094": {
             "class_number": "16094",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Rearick,Molly",
             "days": null,
@@ -900,7 +852,7 @@
     "SPED 697": {
         "15772": {
             "class_number": "15772",
-            "enrollment_cap": 13,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Ashton,Tamarah M",
             "days": null,
@@ -915,18 +867,6 @@
             "instructor": "Staff",
             "days": null,
             "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
-    "SPED 699X": {
-        "15499": {
-            "class_number": "15499",
-            "enrollment_cap": 10,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
             "start_time": "ARR",
             "end_time": "ARR"
         }

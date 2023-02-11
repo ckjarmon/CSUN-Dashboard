@@ -25,7 +25,6 @@ def establish_conn():
 
 
 # create function to teardown connection after every return 
-
 def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
 
@@ -407,8 +406,6 @@ Example:
     ... and so on
 ]
 """
-
-
 @app.route('/<string:subject>/classes')
 def classes(**kwargs):
     rootConnection = establish_conn()
@@ -484,7 +481,7 @@ def schedule(**kwargs):
                  "catalog_number": c[8],
                  "subject": c[9]} for c in le_fetch]
 
-
+"""
 @app.route('/planner', methods=['POST'])
 def cost(**kwargs):
     rootConnection = establish_conn()
@@ -496,7 +493,7 @@ def cost(**kwargs):
             f"SELECT units FROM csun.{c.split()[0].upper()}_view WHERE catalog_number = '{c.split()[1]}'")
         units += int(rootCursor.fetchall()[0][0])
     return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
-
+"""
 
 
 if __name__ == "__main__":

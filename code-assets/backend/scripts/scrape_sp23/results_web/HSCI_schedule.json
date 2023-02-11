@@ -2,7 +2,7 @@
     "HSCI 131": {
         "19023": {
             "class_number": "19023",
-            "enrollment_cap": 14,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Parks,Robyn G",
             "days": "TR",
@@ -12,7 +12,7 @@
         },
         "19202": {
             "class_number": "19202",
-            "enrollment_cap": 26,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Parks,Robyn G",
             "days": "TR",
@@ -22,7 +22,7 @@
         },
         "19869": {
             "class_number": "19869",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Parks,Robyn G",
             "days": "MW",
@@ -34,20 +34,20 @@
     "HSCI 132": {
         "18692": {
             "class_number": "18692",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Winkelman,Craig D",
-            "days": "MW",
+            "instructor": "Farber,Randy N",
+            "days": "M",
             "location": "BB1129",
             "start_time": "1100h",
             "end_time": "1215h"
         },
         "19141": {
             "class_number": "19141",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Winkelman,Craig D",
-            "days": "MW",
+            "instructor": "Farber,Randy N",
+            "days": "M",
             "location": "BB1119",
             "start_time": "1230h",
             "end_time": "1345h"
@@ -66,7 +66,7 @@
         },
         "18686": {
             "class_number": "18686",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Peace,Renee L",
             "days": "T",
@@ -100,7 +100,7 @@
     "HSCI 231": {
         "18687": {
             "class_number": "18687",
-            "enrollment_cap": 45,
+            "enrollment_cap": 34,
             "enrollment_count": 0,
             "instructor": "Parks,Robyn G",
             "days": "MW",
@@ -110,7 +110,7 @@
         },
         "18688": {
             "class_number": "18688",
-            "enrollment_cap": 53,
+            "enrollment_cap": 51,
             "enrollment_count": 0,
             "instructor": "Parks,Robyn G",
             "days": "TR",
@@ -120,7 +120,7 @@
         },
         "19691": {
             "class_number": "19691",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Valdez,Carla Mary",
             "days": null,
@@ -173,6 +173,18 @@
             "end_time": "ARR"
         }
     },
+    "HSCI 286": {
+        "18790": {
+            "class_number": "18790",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "F",
+            "location": "JD1124",
+            "start_time": "0900h",
+            "end_time": "1450h"
+        }
+    },
     "HSCI 302": {
         "18846": {
             "class_number": "18846",
@@ -188,7 +200,7 @@
     "HSCI 312": {
         "19046": {
             "class_number": "19046",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Newman,Jennifer N",
             "days": "R",
@@ -198,7 +210,7 @@
         },
         "19214": {
             "class_number": "19214",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Newman,Jennifer N",
             "days": "W",
@@ -207,7 +219,7 @@
             "end_time": "1845h"
         }
     },
-    "HSCI 314": {
+    "HSCI 313": {
         "18670": {
             "class_number": "18670",
             "enrollment_cap": 0,
@@ -230,46 +242,68 @@
         },
         "19353": {
             "class_number": "19353",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Kim,Joo Y",
             "days": "W",
-            "location": "JD2522",
+            "location": "SG108",
             "start_time": "1100h",
             "end_time": "1345h"
         }
     },
-    "HSCI 331": {
-        "18670": {
-            "class_number": "18670",
+    "HSCI 314": {
+        "19215": {
+            "class_number": "19215",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
+            "instructor": "Stumpf,Steven H",
+            "days": "M",
+            "location": "SG108",
             "start_time": "1100h",
             "end_time": "1345h"
         },
+        "19585": {
+            "class_number": "19585",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Bhavsar,Grishma P",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "19586": {
+            "class_number": "19586",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Stumpf,Steven H",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "19693": {
+            "class_number": "19693",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Stumpf,Steven H",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "19720": {
+            "class_number": "19720",
+            "enrollment_cap": -3,
+            "enrollment_count": 0,
+            "instructor": "Kim,Joo Y",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    },
+    "HSCI 331": {
         "19235": {
             "class_number": "19235",
             "enrollment_cap": 0,
@@ -312,36 +346,6 @@
         }
     },
     "HSCI 335": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19374": {
             "class_number": "19374",
             "enrollment_cap": 1,
@@ -354,36 +358,6 @@
         }
     },
     "HSCI 336": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18690": {
             "class_number": "18690",
             "enrollment_cap": 0,
@@ -426,7 +400,7 @@
         },
         "19459": {
             "class_number": "19459",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Salazar,Jose C",
             "days": "R",
@@ -436,39 +410,9 @@
         }
     },
     "HSCI 337": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19193": {
             "class_number": "19193",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Edmonds,Robin D",
             "days": null,
@@ -478,7 +422,7 @@
         },
         "19221": {
             "class_number": "19221",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Edmonds,Robin D",
             "days": "TR",
@@ -488,71 +432,101 @@
         }
     },
     "HSCI 345": {
-        "18670": {
-            "class_number": "18670",
+        "19244": {
+            "class_number": "19244",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "instructor": "Ebin,VIcki J",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         },
-        "19236": {
-            "class_number": "19236",
+        "18898": {
+            "class_number": "18898",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Yi,Jenny K",
+            "days": "MW",
+            "location": "JD3514",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "18941": {
+            "class_number": "18941",
             "enrollment_cap": 5,
             "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
+            "instructor": "Madjzoob,Gretta",
+            "days": "W",
+            "location": "SQ104",
             "start_time": "1600h",
             "end_time": "1845h"
         },
-        "19353": {
-            "class_number": "19353",
+        "19024": {
+            "class_number": "19024",
             "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
+            "instructor": "Williams,Joy C",
+            "days": "M",
             "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19332": {
+            "class_number": "19332",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Madjzoob,Gretta",
+            "days": "T",
+            "location": "JD2520",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19531": {
+            "class_number": "19531",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Ebin,VIcki J",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "19645": {
+            "class_number": "19645",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "19694": {
+            "class_number": "19694",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "19722": {
+            "class_number": "19722",
+            "enrollment_cap": 45,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "HSCI 369": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20142": {
             "class_number": "20142",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Emetu,Bobbie E.",
             "days": "M",
@@ -562,36 +536,6 @@
         }
     },
     "HSCI 385": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18682": {
             "class_number": "18682",
             "enrollment_cap": 3,
@@ -604,36 +548,6 @@
         }
     },
     "HSCI 390": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19224": {
             "class_number": "19224",
             "enrollment_cap": -4,
@@ -670,7 +584,7 @@
             "enrollment_count": 0,
             "instructor": "Chu,Lawrence D",
             "days": "MW",
-            "location": "RE157",
+            "location": "RE153",
             "start_time": "1100h",
             "end_time": "1215h"
         },
@@ -686,7 +600,7 @@
         },
         "19543": {
             "class_number": "19543",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Pineda,John",
             "days": "T",
@@ -696,39 +610,9 @@
         }
     },
     "HSCI 390L": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18695": {
             "class_number": "18695",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -758,7 +642,7 @@
         },
         "19920": {
             "class_number": "19920",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
@@ -778,7 +662,7 @@
         },
         "19226": {
             "class_number": "19226",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -788,39 +672,9 @@
         }
     },
     "HSCI 391": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19632": {
             "class_number": "19632",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Larson,Todd S",
             "days": "T",
@@ -850,7 +704,7 @@
         },
         "19882": {
             "class_number": "19882",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Alhiyari,Yazeed",
             "days": "R",
@@ -870,46 +724,16 @@
         },
         "20035": {
             "class_number": "20035",
-            "enrollment_cap": 0,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Stumpf,Steven H",
             "days": "R",
-            "location": "JD2521",
+            "location": "JD3502",
             "start_time": "0930h",
             "end_time": "1045h"
         }
     },
     "HSCI 412": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18671": {
             "class_number": "18671",
             "enrollment_cap": 0,
@@ -922,7 +746,7 @@
         },
         "19299": {
             "class_number": "19299",
-            "enrollment_cap": -2,
+            "enrollment_cap": -5,
             "enrollment_count": 0,
             "instructor": "Chung,Kyusuk",
             "days": "M",
@@ -932,7 +756,7 @@
         },
         "19721": {
             "class_number": "19721",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Chung,Kyusuk",
             "days": "T",
@@ -942,39 +766,9 @@
         }
     },
     "HSCI 413": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18672": {
             "class_number": "18672",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Rubino,Louis G",
             "days": "T",
@@ -984,7 +778,7 @@
         },
         "19030": {
             "class_number": "19030",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Farber,Randy N",
             "days": "M",
@@ -1004,39 +798,9 @@
         }
     },
     "HSCI 414": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18673": {
             "class_number": "18673",
-            "enrollment_cap": 6,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Oppenberg,Andrew A",
             "days": "R",
@@ -1056,7 +820,7 @@
         },
         "19727": {
             "class_number": "19727",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Oppenberg,Andrew A",
             "days": "M",
@@ -1066,39 +830,9 @@
         }
     },
     "HSCI 415": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18674": {
             "class_number": "18674",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Malec,Brian T",
             "days": "R",
@@ -1118,36 +852,6 @@
         }
     },
     "HSCI 416": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18909": {
             "class_number": "18909",
             "enrollment_cap": 6,
@@ -1170,36 +874,6 @@
         }
     },
     "HSCI 419": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18890": {
             "class_number": "18890",
             "enrollment_cap": 1,
@@ -1212,36 +886,6 @@
         }
     },
     "HSCI 424": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18675": {
             "class_number": "18675",
             "enrollment_cap": 2,
@@ -1254,7 +898,7 @@
         },
         "19729": {
             "class_number": "19729",
-            "enrollment_cap": 7,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Newman,Jennifer N",
             "days": "R",
@@ -1264,39 +908,9 @@
         }
     },
     "HSCI 425": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18676": {
             "class_number": "18676",
-            "enrollment_cap": 13,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Sherman,James F",
             "days": "MW",
@@ -1306,7 +920,7 @@
         },
         "19300": {
             "class_number": "19300",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Fliegelman,Dennis",
             "days": "M",
@@ -1316,39 +930,9 @@
         }
     },
     "HSCI 431": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18663": {
             "class_number": "18663",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Blackman,Kacie",
             "days": "MW",
@@ -1388,36 +972,6 @@
         }
     },
     "HSCI 433": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20001": {
             "class_number": "20001",
             "enrollment_cap": 25,
@@ -1430,36 +984,6 @@
         }
     },
     "HSCI 434": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19472": {
             "class_number": "19472",
             "enrollment_cap": 0,
@@ -1482,36 +1006,6 @@
         }
     },
     "HSCI 435": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19156": {
             "class_number": "19156",
             "enrollment_cap": 18,
@@ -1524,78 +1018,18 @@
         }
     },
     "HSCI 436": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19157": {
             "class_number": "19157",
             "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Kim,Joo Y",
-            "days": "MW",
+            "days": "M",
             "location": "SG109",
             "start_time": "1230h",
-            "end_time": "1345h"
+            "end_time": "1515h"
         }
     },
     "HSCI 437": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18847": {
             "class_number": "18847",
             "enrollment_cap": 13,
@@ -1628,7 +1062,7 @@
         },
         "19877": {
             "class_number": "19877",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Sawyer,Mirna T",
             "days": "TR",
@@ -1638,39 +1072,9 @@
         }
     },
     "HSCI 438": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19158": {
             "class_number": "19158",
-            "enrollment_cap": 1,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Pullen,Carrie",
             "days": "T",
@@ -1680,39 +1084,9 @@
         }
     },
     "HSCI 439": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19029": {
             "class_number": "19029",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Adams,Crystal P",
             "days": "W",
@@ -1742,7 +1116,7 @@
         },
         "19848": {
             "class_number": "19848",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Adams,Crystal P",
             "days": "TR",
@@ -1752,36 +1126,6 @@
         }
     },
     "HSCI 441": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19307": {
             "class_number": "19307",
             "enrollment_cap": -1,
@@ -1794,7 +1138,7 @@
         },
         "19701": {
             "class_number": "19701",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Goodman,Jeffrey",
             "days": "R",
@@ -1814,39 +1158,9 @@
         }
     },
     "HSCI 442": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19809": {
             "class_number": "19809",
-            "enrollment_cap": 6,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Sepsis,Peter Gregory",
             "days": "R",
@@ -1856,36 +1170,6 @@
         }
     },
     "HSCI 445": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18665": {
             "class_number": "18665",
             "enrollment_cap": 0,
@@ -1898,7 +1182,7 @@
         },
         "19308": {
             "class_number": "19308",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Friedman,Julie A",
             "days": "R",
@@ -1918,7 +1202,7 @@
         },
         "19874": {
             "class_number": "19874",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Walter,Lauren C",
             "days": "TR",
@@ -1928,7 +1212,7 @@
         },
         "19980": {
             "class_number": "19980",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Goodman,Jeffrey",
             "days": "MW",
@@ -1938,36 +1222,6 @@
         }
     },
     "HSCI 446": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20063": {
             "class_number": "20063",
             "enrollment_cap": 4,
@@ -1990,36 +1244,6 @@
         }
     },
     "HSCI 465ELM": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19261": {
             "class_number": "19261",
             "enrollment_cap": -1,
@@ -2042,7 +1266,7 @@
         },
         "19831": {
             "class_number": "19831",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Young,Kathleen J",
             "days": null,
@@ -2062,7 +1286,7 @@
         },
         "20030": {
             "class_number": "20030",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Young,Kathleen J",
             "days": null,
@@ -2072,7 +1296,7 @@
         },
         "20123": {
             "class_number": "20123",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Young,Kathleen J",
             "days": null,
@@ -2082,36 +1306,6 @@
         }
     },
     "HSCI 466ADO": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19263": {
             "class_number": "19263",
             "enrollment_cap": -4,
@@ -2124,7 +1318,7 @@
         },
         "19264": {
             "class_number": "19264",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Young,Kathleen J",
             "days": null,
@@ -2164,7 +1358,7 @@
         },
         "20125": {
             "class_number": "20125",
-            "enrollment_cap": -3,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Young,Kathleen J",
             "days": null,
@@ -2174,39 +1368,9 @@
         }
     },
     "HSCI 478": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19474": {
             "class_number": "19474",
-            "enrollment_cap": -3,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Bhavsar,Grishma P",
             "days": "M",
@@ -2216,36 +1380,6 @@
         }
     },
     "HSCI 485": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18683": {
             "class_number": "18683",
             "enrollment_cap": 3,
@@ -2258,39 +1392,9 @@
         }
     },
     "HSCI 486A": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19223": {
             "class_number": "19223",
-            "enrollment_cap": 2,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Hidalgo,Corey",
             "days": "W",
@@ -2300,36 +1404,6 @@
         }
     },
     "HSCI 486B": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19217": {
             "class_number": "19217",
             "enrollment_cap": 3,
@@ -2342,36 +1416,6 @@
         }
     },
     "HSCI 487": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19043": {
             "class_number": "19043",
             "enrollment_cap": 4,
@@ -2384,36 +1428,6 @@
         }
     },
     "HSCI 488": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18698": {
             "class_number": "18698",
             "enrollment_cap": 0,
@@ -2466,7 +1480,7 @@
         },
         "19827": {
             "class_number": "19827",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Oksuzyan,Sona",
             "days": "T",
@@ -2476,36 +1490,6 @@
         }
     },
     "HSCI 494HA": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20126": {
             "class_number": "20126",
             "enrollment_cap": 0,
@@ -2538,36 +1522,6 @@
         }
     },
     "HSCI 494IHA": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19297": {
             "class_number": "19297",
             "enrollment_cap": 0,
@@ -2600,36 +1554,6 @@
         }
     },
     "HSCI 494IPH": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20136": {
             "class_number": "20136",
             "enrollment_cap": -2,
@@ -2652,7 +1576,7 @@
         },
         "20138": {
             "class_number": "20138",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Wicks,Tanya R",
             "days": null,
@@ -2682,36 +1606,6 @@
         }
     },
     "HSCI 494PH": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20130": {
             "class_number": "20130",
             "enrollment_cap": -2,
@@ -2734,7 +1628,7 @@
         },
         "20132": {
             "class_number": "20132",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Wicks,Tanya R",
             "days": "F",
@@ -2764,36 +1658,6 @@
         }
     },
     "HSCI 505A": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20845": {
             "class_number": "20845",
             "enrollment_cap": 4,
@@ -2806,36 +1670,6 @@
         }
     },
     "HSCI 518": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19130": {
             "class_number": "19130",
             "enrollment_cap": 25,
@@ -2848,39 +1682,9 @@
         }
     },
     "HSCI 521": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19000": {
             "class_number": "19000",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Pullen,Carrie",
             "days": "W",
@@ -2890,36 +1694,6 @@
         }
     },
     "HSCI 531": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19783": {
             "class_number": "19783",
             "enrollment_cap": 4,
@@ -2932,36 +1706,6 @@
         }
     },
     "HSCI 533": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18666": {
             "class_number": "18666",
             "enrollment_cap": 10,
@@ -2974,36 +1718,6 @@
         }
     },
     "HSCI 537": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19762": {
             "class_number": "19762",
             "enrollment_cap": 25,
@@ -3016,36 +1730,6 @@
         }
     },
     "HSCI 538": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18667": {
             "class_number": "18667",
             "enrollment_cap": 10,
@@ -3058,36 +1742,6 @@
         }
     },
     "HSCI 539": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19242": {
             "class_number": "19242",
             "enrollment_cap": 25,
@@ -3100,39 +1754,9 @@
         }
     },
     "HSCI 541": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18668": {
             "class_number": "18668",
-            "enrollment_cap": 5,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Sherman,James F",
             "days": "W",
@@ -3142,39 +1766,9 @@
         }
     },
     "HSCI 588": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19457": {
             "class_number": "19457",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Bahr,Kaitlin O",
             "days": "M",
@@ -3184,36 +1778,6 @@
         }
     },
     "HSCI 592": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18669": {
             "class_number": "18669",
             "enrollment_cap": 9,
@@ -3236,36 +1800,6 @@
         }
     },
     "HSCI 592A": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19917": {
             "class_number": "19917",
             "enrollment_cap": 6,
@@ -3278,36 +1812,6 @@
         }
     },
     "HSCI 613": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20144": {
             "class_number": "20144",
             "enrollment_cap": 1,
@@ -3320,36 +1824,6 @@
         }
     },
     "HSCI 614": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18677": {
             "class_number": "18677",
             "enrollment_cap": 12,
@@ -3362,36 +1836,6 @@
         }
     },
     "HSCI 615": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18889": {
             "class_number": "18889",
             "enrollment_cap": 6,
@@ -3404,36 +1848,6 @@
         }
     },
     "HSCI 619": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18678": {
             "class_number": "18678",
             "enrollment_cap": 0,
@@ -3446,36 +1860,6 @@
         }
     },
     "HSCI 620": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20848": {
             "class_number": "20848",
             "enrollment_cap": 15,
@@ -3488,39 +1872,9 @@
         }
     },
     "HSCI 625": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "18679": {
             "class_number": "18679",
-            "enrollment_cap": 6,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Sorensen,Ronald D",
             "days": "R",
@@ -3530,39 +1884,9 @@
         }
     },
     "HSCI 696": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19947": {
             "class_number": "19947",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Chu,Lawrence D",
             "days": "T",
@@ -3572,36 +1896,6 @@
         }
     },
     "HSCI 697": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "19154": {
             "class_number": "19154",
             "enrollment_cap": 1,
@@ -3624,36 +1918,6 @@
         }
     },
     "HSCI 698E": {
-        "18670": {
-            "class_number": "18670",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "T",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19236": {
-            "class_number": "19236",
-            "enrollment_cap": 5,
-            "enrollment_count": 0,
-            "instructor": "Saunders-Russell (she/her) EdD,Carmen T",
-            "days": "R",
-            "location": "JD3502",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "19353": {
-            "class_number": "19353",
-            "enrollment_cap": 2,
-            "enrollment_count": 0,
-            "instructor": "Kim,Joo Y",
-            "days": "W",
-            "location": "JD2522",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
         "20145": {
             "class_number": "20145",
             "enrollment_cap": 10,
@@ -3666,7 +1930,7 @@
         },
         "20146": {
             "class_number": "20146",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",

@@ -2,10 +2,10 @@
     "IS 212": {
         "13820": {
             "class_number": "13820",
-            "enrollment_cap": 165,
-            "enrollment_count": 162,
+            "enrollment_cap": 175,
+            "enrollment_count": 172,
             "waitlist_cap": 120,
-            "waitlist_count": 12,
+            "waitlist_count": 10,
             "instructor": "christopher.e.garlington@csun.edu",
             "days": "TR",
             "location": "NH113",
@@ -15,21 +15,21 @@
         "13850": {
             "class_number": "13850",
             "enrollment_cap": 55,
-            "enrollment_count": 57,
+            "enrollment_count": 61,
             "waitlist_cap": 50,
-            "waitlist_count": 14,
+            "waitlist_count": 15,
             "instructor": "seyed.eslami@csun.edu",
             "days": "TR",
-            "location": "BB2230",
+            "location": "JD3520",
             "start_time": "1400h",
             "end_time": "1515h"
         },
         "13887": {
             "class_number": "13887",
-            "enrollment_cap": 140,
-            "enrollment_count": 140,
+            "enrollment_cap": 150,
+            "enrollment_count": 146,
             "waitlist_cap": 120,
-            "waitlist_count": 2,
+            "waitlist_count": 1,
             "instructor": "jerald.savin@csun.edu",
             "days": "W",
             "location": "JA100",
@@ -39,12 +39,12 @@
         "13888": {
             "class_number": "13888",
             "enrollment_cap": 55,
-            "enrollment_count": 58,
+            "enrollment_count": 59,
             "waitlist_cap": 50,
-            "waitlist_count": 18,
+            "waitlist_count": 16,
             "instructor": "seyed.eslami@csun.edu",
             "days": "TR",
-            "location": "BB2230",
+            "location": "JD3520",
             "start_time": "1230h",
             "end_time": "1345h"
         }
@@ -53,7 +53,7 @@
         "13446": {
             "class_number": "13446",
             "enrollment_cap": 35,
-            "enrollment_count": 41,
+            "enrollment_count": 38,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "jeff.zhang@csun.edu",
@@ -67,7 +67,7 @@
             "enrollment_cap": 44,
             "enrollment_count": 44,
             "waitlist_cap": 35,
-            "waitlist_count": 10,
+            "waitlist_count": 6,
             "instructor": "eric.hu@csun.edu",
             "days": "TR",
             "location": "BB2212",
@@ -89,9 +89,9 @@
         "13427": {
             "class_number": "13427",
             "enrollment_cap": 44,
-            "enrollment_count": 44,
+            "enrollment_count": 41,
             "waitlist_cap": 35,
-            "waitlist_count": 2,
+            "waitlist_count": 1,
             "instructor": "mahdi.najafabadi@csun.edu",
             "days": "M",
             "location": "BB2212",
@@ -101,7 +101,7 @@
         "13459": {
             "class_number": "13459",
             "enrollment_cap": 50,
-            "enrollment_count": 50,
+            "enrollment_count": 58,
             "waitlist_cap": 35,
             "waitlist_count": 1,
             "instructor": "mehrdad.sharbaf@csun.edu",
@@ -123,53 +123,35 @@
             "end_time": "1515h"
         }
     },
-    "IS 355": {
+    "IS 431": {
         "13779": {
             "class_number": "13779",
-            "enrollment_cap": 42,
-            "enrollment_count": 26,
-            "waitlist_cap": 42,
-            "waitlist_count": 0,
-            "instructor": "jerald.savin@csun.edu",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
             "days": "MW",
             "location": "BB2212",
             "start_time": "1400h",
             "end_time": "1515h"
         }
     },
-    "IS 431": {
-        "13428": {
-            "class_number": "13428",
-            "enrollment_cap": 44,
-            "enrollment_count": 44,
-            "waitlist_cap": 44,
-            "waitlist_count": 1,
-            "instructor": "eric.hu@csun.edu",
-            "days": "TR",
-            "location": "BB2212",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13762": {
-            "class_number": "13762",
-            "enrollment_cap": 44,
-            "enrollment_count": 43,
-            "waitlist_cap": 44,
-            "waitlist_count": 0,
-            "instructor": "eric.hu@csun.edu",
-            "days": "T",
-            "location": "BH310",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
     "IS 435": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13431": {
             "class_number": "13431",
             "enrollment_cap": 44,
-            "enrollment_count": 44,
+            "enrollment_count": 45,
             "waitlist_cap": 44,
-            "waitlist_count": 4,
+            "waitlist_count": 2,
             "instructor": "dchoi@csun.edu",
             "days": "TR",
             "location": "BB2212",
@@ -179,7 +161,7 @@
         "13763": {
             "class_number": "13763",
             "enrollment_cap": 44,
-            "enrollment_count": 39,
+            "enrollment_count": 41,
             "waitlist_cap": 44,
             "waitlist_count": 0,
             "instructor": "dchoi@csun.edu",
@@ -190,12 +172,22 @@
         }
     },
     "IS 441": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13469": {
             "class_number": "13469",
             "enrollment_cap": 42,
-            "enrollment_count": 42,
+            "enrollment_count": 41,
             "waitlist_cap": 42,
-            "waitlist_count": 2,
+            "waitlist_count": 4,
             "instructor": "jeff.zhang@csun.edu",
             "days": "M",
             "location": "BB1240",
@@ -205,7 +197,7 @@
         "13764": {
             "class_number": "13764",
             "enrollment_cap": 44,
-            "enrollment_count": 43,
+            "enrollment_count": 45,
             "waitlist_cap": 44,
             "waitlist_count": 2,
             "instructor": "alen.davoudian@csun.edu",
@@ -216,10 +208,20 @@
         }
     },
     "IS 451": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13429": {
             "class_number": "13429",
             "enrollment_cap": 60,
-            "enrollment_count": 60,
+            "enrollment_count": 61,
             "waitlist_cap": 44,
             "waitlist_count": 2,
             "instructor": "christopher.e.garlington@csun.edu",
@@ -242,10 +244,20 @@
         }
     },
     "IS 457": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13621": {
             "class_number": "13621",
             "enrollment_cap": 44,
-            "enrollment_count": 12,
+            "enrollment_count": 13,
             "waitlist_cap": 44,
             "waitlist_count": 0,
             "instructor": "dchoi@csun.edu",
@@ -256,10 +268,20 @@
         }
     },
     "IS 497DA": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13826": {
             "class_number": "13826",
             "enrollment_cap": 42,
-            "enrollment_count": 15,
+            "enrollment_count": 17,
             "waitlist_cap": 42,
             "waitlist_count": 0,
             "instructor": "seyed.eslami@csun.edu",
@@ -267,6 +289,18 @@
             "location": "BB1240",
             "start_time": "1900h",
             "end_time": "2145h"
+        }
+    },
+    "IS 530": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     }
 }

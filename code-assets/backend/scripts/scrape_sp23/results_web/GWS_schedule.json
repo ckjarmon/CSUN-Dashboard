@@ -2,7 +2,7 @@
     "GWS 100": {
         "14162": {
             "class_number": "14162",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Brown,Shira J",
             "days": "R",
@@ -12,7 +12,7 @@
         },
         "14164": {
             "class_number": "14164",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Gonzalez,Liliana C",
             "days": "MW",
@@ -22,7 +22,7 @@
         },
         "14163": {
             "class_number": "14163",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Beyene,Tina",
             "days": null,
@@ -42,7 +42,7 @@
         },
         "14198": {
             "class_number": "14198",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Sharif,Rana Adib",
             "days": "M",
@@ -62,7 +62,7 @@
         },
         "15012": {
             "class_number": "15012",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Klein,Melanie C",
             "days": null,
@@ -74,7 +74,7 @@
     "GWS 110": {
         "14165": {
             "class_number": "14165",
-            "enrollment_cap": 1,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kouri,Kristyan M",
             "days": "TR",
@@ -84,7 +84,7 @@
         },
         "14166": {
             "class_number": "14166",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kouri,Kristyan M",
             "days": "TR",
@@ -103,7 +103,7 @@
             "end_time": "1045h"
         }
     },
-    "GWS 230": {
+    "GWS 300": {
         "20644": {
             "class_number": "20644",
             "enrollment_cap": 0,
@@ -115,82 +115,20 @@
             "end_time": "1215h"
         }
     },
-    "GWS 300": {
-        "14205": {
-            "class_number": "14205",
+    "GWS 301": {
+        "20644": {
+            "class_number": "20644",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Klein,Melanie C",
-            "days": "F",
-            "location": "JR221",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "14206": {
-            "class_number": "14206",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Beyene,Tina",
-            "days": "TR",
-            "location": "SH390",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "14264": {
-            "class_number": "14264",
-            "enrollment_cap": -1,
-            "enrollment_count": 0,
-            "instructor": "Klein,Melanie C",
-            "days": "W",
-            "location": "ONLINE",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "14673": {
-            "class_number": "14673",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Schumacher,Heidi A",
+            "instructor": "Berry,Jennifer L",
             "days": "MW",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        },
-        "14674": {
-            "class_number": "14674",
-            "enrollment_cap": 1,
-            "enrollment_count": 0,
-            "instructor": "Beyene,Tina",
-            "days": "TR",
-            "location": "JR221",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "15207": {
-            "class_number": "15207",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Cartier,Marie A",
-            "days": "T",
-            "location": "JR302",
+            "location": "EU133",
             "start_time": "1100h",
             "end_time": "1215h"
         },
-        "15241": {
-            "class_number": "15241",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Cartier,Marie A",
-            "days": "TR",
-            "location": "ONLINE",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "GWS 301": {
         "15171": {
             "class_number": "15171",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Beyene,Tina",
             "days": "R",
@@ -200,6 +138,16 @@
         }
     },
     "GWS 305CS": {
+        "20644": {
+            "class_number": "20644",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Berry,Jennifer L",
+            "days": "MW",
+            "location": "EU133",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "21098": {
             "class_number": "21098",
             "enrollment_cap": 34,
@@ -212,9 +160,19 @@
         }
     },
     "GWS 351": {
+        "20644": {
+            "class_number": "20644",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Berry,Jennifer L",
+            "days": "MW",
+            "location": "EU133",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "15070": {
             "class_number": "15070",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Malhotra,Sheena",
             "days": "T",
@@ -234,7 +192,7 @@
         },
         "15073": {
             "class_number": "15073",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Schumacher,Heidi A",
             "days": "MW",
@@ -244,7 +202,7 @@
         },
         "15074": {
             "class_number": "15074",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Philipose,Elizabeth",
             "days": "R",
@@ -254,7 +212,7 @@
         },
         "15075": {
             "class_number": "15075",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Cartier,Marie A",
             "days": "TR",
@@ -264,9 +222,19 @@
         }
     },
     "GWS 370": {
+        "20644": {
+            "class_number": "20644",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Berry,Jennifer L",
+            "days": "MW",
+            "location": "EU133",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
         "15320": {
             "class_number": "15320",
-            "enrollment_cap": 9,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Sharif,Rana Adib",
             "days": "MW",
@@ -286,7 +254,7 @@
         },
         "15359": {
             "class_number": "15359",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Perez,Irma",
             "days": "TR",
@@ -296,7 +264,7 @@
         },
         "15360": {
             "class_number": "15360",
-            "enrollment_cap": 12,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Sharif,Rana Adib",
             "days": "MW",
@@ -306,7 +274,7 @@
         },
         "15379": {
             "class_number": "15379",
-            "enrollment_cap": 4,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Philipose,Elizabeth",
             "days": "R",
@@ -316,7 +284,7 @@
         },
         "21030": {
             "class_number": "21030",
-            "enrollment_cap": -1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Cartier,Marie A",
             "days": null,
@@ -326,24 +294,34 @@
         }
     },
     "GWS 400": {
-        "14167": {
-            "class_number": "14167",
-            "enrollment_cap": 12,
+        "20644": {
+            "class_number": "20644",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Shaikh,Khanum",
-            "days": "T",
-            "location": "JR221",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "instructor": "Berry,Jennifer L",
+            "days": "MW",
+            "location": "EU133",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
     "GWS 430": {
-        "20638": {
-            "class_number": "20638",
-            "enrollment_cap": 6,
+        "20644": {
+            "class_number": "20644",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gonzalez,Liliana C",
-            "days": "M",
+            "instructor": "Berry,Jennifer L",
+            "days": "MW",
+            "location": "EU133",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "14167": {
+            "class_number": "14167",
+            "enrollment_cap": 11,
+            "enrollment_count": 0,
+            "instructor": "Shaikh,Khanum",
+            "days": "T",
             "location": "JR221",
             "start_time": "1600h",
             "end_time": "1845h"

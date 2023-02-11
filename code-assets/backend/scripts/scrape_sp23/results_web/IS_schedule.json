@@ -2,7 +2,7 @@
     "IS 212": {
         "13820": {
             "class_number": "13820",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Garlington,Christopher",
             "days": "TR",
@@ -12,17 +12,17 @@
         },
         "13850": {
             "class_number": "13850",
-            "enrollment_cap": -3,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Eslami,Seyed Pouyan",
             "days": "TR",
-            "location": "BB2230",
+            "location": "JD3520",
             "start_time": "1400h",
             "end_time": "1515h"
         },
         "13887": {
             "class_number": "13887",
-            "enrollment_cap": -3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Savin,Jerald M",
             "days": "W",
@@ -32,11 +32,11 @@
         },
         "13888": {
             "class_number": "13888",
-            "enrollment_cap": -5,
+            "enrollment_cap": -4,
             "enrollment_count": 0,
             "instructor": "Eslami,Seyed Pouyan",
             "days": "TR",
-            "location": "BB2230",
+            "location": "JD3520",
             "start_time": "1230h",
             "end_time": "1345h"
         }
@@ -44,7 +44,7 @@
     "IS 312": {
         "13446": {
             "class_number": "13446",
-            "enrollment_cap": 3,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Zhang,Yue",
             "days": "MW",
@@ -64,7 +64,7 @@
         },
         "13447": {
             "class_number": "13447",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Najafabadi,Mahdi",
             "days": "MW",
@@ -74,7 +74,7 @@
         },
         "13427": {
             "class_number": "13427",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Najafabadi,Mahdi",
             "days": "M",
@@ -84,7 +84,7 @@
         },
         "13459": {
             "class_number": "13459",
-            "enrollment_cap": 6,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Sharbaf,Mehrdad S",
             "days": "F",
@@ -94,7 +94,7 @@
         },
         "13463": {
             "class_number": "13463",
-            "enrollment_cap": 10,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Zhang,Yue",
             "days": "MW",
@@ -103,10 +103,10 @@
             "end_time": "1515h"
         }
     },
-    "IS 355": {
+    "IS 431": {
         "13779": {
             "class_number": "13779",
-            "enrollment_cap": 17,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Savin,Jerald M",
             "days": "MW",
@@ -115,32 +115,20 @@
             "end_time": "1515h"
         }
     },
-    "IS 431": {
-        "13428": {
-            "class_number": "13428",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Hu,Tao",
-            "days": "TR",
-            "location": "BB2212",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        },
-        "13762": {
-            "class_number": "13762",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Hu,Tao",
-            "days": "T",
-            "location": "BH310",
-            "start_time": "1900h",
-            "end_time": "2145h"
-        }
-    },
     "IS 435": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13431": {
             "class_number": "13431",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Choi,Daeeun",
             "days": "TR",
@@ -150,7 +138,7 @@
         },
         "13763": {
             "class_number": "13763",
-            "enrollment_cap": 6,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Choi,Daeeun",
             "days": "R",
@@ -160,9 +148,19 @@
         }
     },
     "IS 441": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13469": {
             "class_number": "13469",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Zhang,Yue",
             "days": "M",
@@ -172,7 +170,7 @@
         },
         "13764": {
             "class_number": "13764",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Davoudian,Alen",
             "days": "MW",
@@ -182,6 +180,16 @@
         }
     },
     "IS 451": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13429": {
             "class_number": "13429",
             "enrollment_cap": -1,
@@ -194,7 +202,7 @@
         },
         "13889": {
             "class_number": "13889",
-            "enrollment_cap": 26,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Najafabadi,Mahdi",
             "days": "MW",
@@ -204,9 +212,19 @@
         }
     },
     "IS 457": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13621": {
             "class_number": "13621",
-            "enrollment_cap": 32,
+            "enrollment_cap": 31,
             "enrollment_count": 0,
             "instructor": "Choi,Daeeun",
             "days": "TR",
@@ -216,15 +234,37 @@
         }
     },
     "IS 497DA": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
         "13826": {
             "class_number": "13826",
-            "enrollment_cap": 26,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Eslami,Seyed Pouyan",
             "days": "R",
             "location": "BB1240",
             "start_time": "1900h",
             "end_time": "2145h"
+        }
+    },
+    "IS 530": {
+        "13779": {
+            "class_number": "13779",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Savin,Jerald M",
+            "days": "MW",
+            "location": "BB2212",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
     }
 }

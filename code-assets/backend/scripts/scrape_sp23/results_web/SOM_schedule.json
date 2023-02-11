@@ -2,7 +2,7 @@
     "SOM 120": {
         "13553": {
             "class_number": "13553",
-            "enrollment_cap": 5,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Gupta,Akash",
             "days": "TR",
@@ -44,7 +44,7 @@
     "SOM 306": {
         "13521": {
             "class_number": "13521",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Lee,Jun-Yeon",
             "days": "R",
@@ -54,7 +54,7 @@
         },
         "13554": {
             "class_number": "13554",
-            "enrollment_cap": 72,
+            "enrollment_cap": 75,
             "enrollment_count": 0,
             "instructor": "Vessal,Ahmad",
             "days": "F",
@@ -74,7 +74,7 @@
         },
         "13556": {
             "class_number": "13556",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Li,Kunpeng",
             "days": "R",
@@ -104,7 +104,7 @@
         },
         "13796": {
             "class_number": "13796",
-            "enrollment_cap": 8,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Behnezhad,Ali",
             "days": "TR",
@@ -128,7 +128,7 @@
     "SOM 307": {
         "13557": {
             "class_number": "13557",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Gupta,Akash",
             "days": "TR",
@@ -162,7 +162,7 @@
     "SOM 464": {
         "13848": {
             "class_number": "13848",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Lee,Jun-Yeon",
             "days": "MW",
@@ -184,7 +184,7 @@
     "SOM 467": {
         "13766": {
             "class_number": "13766",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Houshmand Azad,Kaveh",
             "days": "W",
@@ -196,7 +196,7 @@
     "SOM 485": {
         "13466": {
             "class_number": "13466",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Abrams,Behnam",
             "days": "R",
@@ -206,7 +206,7 @@
         },
         "13882": {
             "class_number": "13882",
-            "enrollment_cap": 0,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Abrams,Behnam",
             "days": "S",
@@ -223,6 +223,18 @@
             "instructor": "Wedel,Thomas",
             "days": "M",
             "location": "BB1232",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "SOM 686": {
+        "13425": {
+            "class_number": "13425",
+            "enrollment_cap": 15,
+            "enrollment_count": 0,
+            "instructor": "Li,Kunpeng",
+            "days": "M",
+            "location": "BB1230",
             "start_time": "1900h",
             "end_time": "2145h"
         }

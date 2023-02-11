@@ -2,7 +2,7 @@
     "CHS 100": {
         "13958": {
             "class_number": "13958",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Tamayo,Francisco N",
             "days": "MW",
@@ -12,7 +12,7 @@
         },
         "14178": {
             "class_number": "14178",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Garcia,Ramon",
             "days": "MW",
@@ -22,7 +22,7 @@
         },
         "13956": {
             "class_number": "13956",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Tamayo,Francisco N",
             "days": "TR",
@@ -32,7 +32,7 @@
         },
         "13955": {
             "class_number": "13955",
-            "enrollment_cap": 0,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Cruz,Jaime S",
             "days": "TR",
@@ -52,7 +52,7 @@
         },
         "14246": {
             "class_number": "14246",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Estrada,Alicia Ivonne",
             "days": null,
@@ -62,7 +62,7 @@
         },
         "14573": {
             "class_number": "14573",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Estrada,Alicia Ivonne",
             "days": null,
@@ -74,7 +74,7 @@
     "CHS 111": {
         "13961": {
             "class_number": "13961",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Herrera,Xilomen",
             "days": "M",
@@ -94,7 +94,7 @@
         },
         "13963": {
             "class_number": "13963",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "de la Loza,Sandra",
             "days": "R",
@@ -104,7 +104,7 @@
         },
         "14123": {
             "class_number": "14123",
-            "enrollment_cap": 12,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Gamboa,Harry",
             "days": "TR",
@@ -135,7 +135,7 @@
             "end_time": "1215h"
         }
     },
-    "CHS 113B": {
+    "CHS 113BOP": {
         "14331": {
             "class_number": "14331",
             "enrollment_cap": 6,
@@ -168,7 +168,7 @@
         },
         "14546": {
             "class_number": "14546",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Gonzalez,Omar O",
             "days": "TR",
@@ -187,29 +187,57 @@
             "end_time": "1345h"
         }
     },
-    "CHS 113BOP": {
-        "14568": {
-            "class_number": "14568",
-            "enrollment_cap": -1,
+    "CHS 114B": {
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
-            "instructor": "Guerrero,Carlos R",
+            "instructor": "Moreno,Renee M",
             "days": "MW",
-            "location": "JR115",
-            "start_time": "0800h",
-            "end_time": "0915h"
+            "location": "SH224",
+            "start_time": "0930h",
+            "end_time": "1045h"
         },
-        "14571": {
-            "class_number": "14571",
-            "enrollment_cap": -7,
+        "14544": {
+            "class_number": "14544",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "JR115",
-            "start_time": "1400h",
-            "end_time": "1515h"
-        }
-    },
-    "CHS 114B": {
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "14332": {
             "class_number": "14332",
             "enrollment_cap": 2,
@@ -221,7 +249,57 @@
             "end_time": "0915h"
         }
     },
-    "CHS 151": {
+    "CHS 115": {
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "MW",
+            "location": "SH224",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14544": {
+            "class_number": "14544",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
+            "days": "TR",
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "15302": {
             "class_number": "15302",
             "enrollment_cap": 0,
@@ -234,7 +312,7 @@
         },
         "15303": {
             "class_number": "15303",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Gamboa,Harry",
             "days": "TR",
@@ -243,30 +321,252 @@
             "end_time": "1215h"
         }
     },
-    "CHS 151EOP": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+    "CHS 151": {
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "13965": {
+            "class_number": "13965",
+            "enrollment_cap": -1,
+            "enrollment_count": 0,
+            "instructor": "Herrera,Xilomen",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "14356": {
+            "class_number": "14356",
+            "enrollment_cap": -2,
+            "enrollment_count": 0,
+            "instructor": "Amaro,Jose Francisco",
+            "days": "MW",
+            "location": "JR301",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13966": {
+            "class_number": "13966",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Herrera,Xilomen",
+            "days": "M",
+            "location": "JR119",
             "start_time": "1100h",
             "end_time": "1215h"
         },
+        "13967": {
+            "class_number": "13967",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Fuentes-Chung,Mildred S",
+            "days": "W",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14107": {
+            "class_number": "14107",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Amaro,Jose Francisco",
+            "days": "MW",
+            "location": "JR301",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        },
+        "13968": {
+            "class_number": "13968",
+            "enrollment_cap": -3,
+            "enrollment_count": 0,
+            "instructor": "Lopez,Mario A",
+            "days": "M",
+            "location": "JR118",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "13970": {
+            "class_number": "13970",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Sanchez,George B",
+            "days": "F",
+            "location": "JR118",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14092": {
+            "class_number": "14092",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Valadez,Jesse",
+            "days": "T",
+            "location": "JR115",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13971": {
+            "class_number": "13971",
+            "enrollment_cap": -3,
+            "enrollment_count": 0,
+            "instructor": "Villela,Vilma",
+            "days": "R",
+            "location": "JR115",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13972": {
+            "class_number": "13972",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Herrera,Xilomen",
+            "days": "TR",
+            "location": "JR115",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "14805": {
+            "class_number": "14805",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Herrera,Xilomen",
+            "days": "TR",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14809": {
+            "class_number": "14809",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Amaro,Jose Francisco",
+            "days": "F",
+            "location": "JR115",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        "14810": {
+            "class_number": "14810",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Amaro,Jose Francisco",
+            "days": "F",
+            "location": "JR115",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14814": {
+            "class_number": "14814",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Valadez,Jesse",
+            "days": "F",
+            "location": "JR117",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "CHS 151EOP": {
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
+            "enrollment_count": 0,
+            "instructor": "Moreno,Renee M",
+            "days": "MW",
+            "location": "SH224",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14544": {
+            "class_number": "14544",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
+            "days": "TR",
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "15355": {
             "class_number": "15355",
-            "enrollment_cap": -4,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Amaro,Jose Francisco",
             "days": "MW",
@@ -296,67 +596,107 @@
         }
     },
     "CHS 201": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
+            "days": "MW",
+            "location": "SH224",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14544": {
+            "class_number": "14544",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH108",
+            "location": "SH285",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
-            "enrollment_cap": 0,
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Tamayo,Francisco N",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
-        },
-        "14706": {
-            "class_number": "14706",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Garcia,Ramon",
-            "days": "M",
-            "location": "JR132",
-            "start_time": "0930h",
-            "end_time": "1045h"
-        },
-        "14029": {
-            "class_number": "14029",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Garcia,Ramon",
-            "days": "W",
-            "location": "JR132",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
     "CHS 202": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14136": {
             "class_number": "14136",
@@ -380,7 +720,7 @@
         },
         "13976": {
             "class_number": "13976",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Garcia,Ramon",
             "days": "MW",
@@ -390,21 +730,21 @@
         },
         "14140": {
             "class_number": "14140",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Cueva,Bert Maria",
             "days": "T",
-            "location": "SH198",
+            "location": "SH309",
             "start_time": "1100h",
             "end_time": "1215h"
         },
         "14237": {
             "class_number": "14237",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Cueva,Bert Maria",
             "days": "TR",
-            "location": "JR304",
+            "location": "SH309",
             "start_time": "1230h",
             "end_time": "1345h"
         },
@@ -420,25 +760,55 @@
         }
     },
     "CHS 214": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14801": {
             "class_number": "14801",
@@ -452,57 +822,107 @@
         }
     },
     "CHS 230": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
-            "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
-        "13978": {
-            "class_number": "13978",
-            "enrollment_cap": 11,
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Gutierrez,Gabriel",
+            "instructor": "Tamayo,Francisco N",
             "days": "MW",
-            "location": "JR117",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
+            "days": "TR",
+            "location": "SH285",
             "start_time": "0930h",
             "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
     "CHS 245": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "13981": {
             "class_number": "13981",
@@ -516,7 +936,7 @@
         },
         "13980": {
             "class_number": "13980",
-            "enrollment_cap": 0,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Meraz,Gerard A",
             "days": "MW",
@@ -526,7 +946,7 @@
         },
         "14359": {
             "class_number": "14359",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Cruz,Jaime S",
             "days": "M",
@@ -536,7 +956,7 @@
         },
         "14266": {
             "class_number": "14266",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Cruz,Jaime S",
             "days": "W",
@@ -546,7 +966,7 @@
         },
         "14360": {
             "class_number": "14360",
-            "enrollment_cap": -1,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Hernandez,Carlos Armando",
             "days": "MW",
@@ -556,7 +976,7 @@
         },
         "14361": {
             "class_number": "14361",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Meraz,Gerard A",
             "days": "TR",
@@ -566,7 +986,7 @@
         },
         "14141": {
             "class_number": "14141",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Chavez,Lucila",
             "days": "T",
@@ -576,7 +996,7 @@
         },
         "13979": {
             "class_number": "13979",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Meraz,Gerard A",
             "days": "TR",
@@ -586,7 +1006,7 @@
         },
         "14376": {
             "class_number": "14376",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Sandoval,Denise M",
             "days": "TR",
@@ -596,7 +1016,7 @@
         },
         "13982": {
             "class_number": "13982",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Gutierrez,Gabriel",
             "days": "MW",
@@ -606,7 +1026,7 @@
         },
         "14751": {
             "class_number": "14751",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Buelna,Gabriel",
             "days": null,
@@ -626,7 +1046,7 @@
         },
         "14812": {
             "class_number": "14812",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Ruffino,Maythe",
             "days": null,
@@ -636,7 +1056,7 @@
         },
         "14991": {
             "class_number": "14991",
-            "enrollment_cap": 0,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Ruffino,Maythe",
             "days": null,
@@ -656,51 +1076,181 @@
         }
     },
     "CHS 260": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14103": {
+            "class_number": "14103",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Gallo,Antonio",
+            "days": "TR",
+            "location": "EU130",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "13984": {
+            "class_number": "13984",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Gallo,Antonio",
+            "days": "TR",
+            "location": "JR132",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14633": {
+            "class_number": "14633",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Montes,Brenda",
+            "days": "T",
+            "location": "JR132",
             "start_time": "1100h",
             "end_time": "1215h"
+        },
+        "14707": {
+            "class_number": "14707",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Escobar,Martha D",
+            "days": "R",
+            "location": "JR132",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "14710": {
+            "class_number": "14710",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Marquez,Guillermo",
+            "days": "F",
+            "location": "JR118",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "14711": {
+            "class_number": "14711",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "instructor": "Gallo,Antonio",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "14753": {
+            "class_number": "14753",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Placencio,Alex P",
+            "days": null,
+            "location": "ONLINE",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "CHS 261": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "15250": {
             "class_number": "15250",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Santiago,Cristina Patricio",
             "days": null,
@@ -720,25 +1270,55 @@
         }
     },
     "CHS 270F": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14306": {
             "class_number": "14306",
@@ -752,25 +1332,55 @@
         }
     },
     "CHS 270SOC": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14302": {
             "class_number": "14302",
@@ -784,29 +1394,59 @@
         }
     },
     "CHS 306": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14363": {
             "class_number": "14363",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Orona-Cordova,Roberta",
             "days": null,
@@ -816,29 +1456,59 @@
         }
     },
     "CHS 310": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "13985": {
             "class_number": "13985",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Herrera,Fermin",
             "days": "M",
@@ -848,7 +1518,7 @@
         },
         "13986": {
             "class_number": "13986",
-            "enrollment_cap": 19,
+            "enrollment_cap": 20,
             "enrollment_count": 0,
             "instructor": "Garcia,Peter J",
             "days": "TR",
@@ -858,7 +1528,7 @@
         },
         "14588": {
             "class_number": "14588",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Herrera,Fermin",
             "days": "MW",
@@ -868,29 +1538,59 @@
         }
     },
     "CHS 333": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14635": {
             "class_number": "14635",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Sanchez-Munoz,Ana",
             "days": "T",
@@ -900,29 +1600,59 @@
         }
     },
     "CHS 345": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "13988": {
             "class_number": "13988",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Chavez,Lucila",
             "days": "R",
@@ -932,7 +1662,7 @@
         },
         "14999": {
             "class_number": "14999",
-            "enrollment_cap": -5,
+            "enrollment_cap": -9,
             "enrollment_count": 0,
             "instructor": "Hernandez,Carlos Armando",
             "days": null,
@@ -942,29 +1672,59 @@
         }
     },
     "CHS 346": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14238": {
             "class_number": "14238",
-            "enrollment_cap": 1,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Fernandez,Maria Elena",
             "days": "TR",
@@ -974,29 +1734,59 @@
         }
     },
     "CHS 350": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "13991": {
             "class_number": "13991",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Medina,Lara",
             "days": null,
@@ -1006,7 +1796,7 @@
         },
         "14028": {
             "class_number": "14028",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Medina,Lara",
             "days": null,
@@ -1016,29 +1806,59 @@
         }
     },
     "CHS 361": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14026": {
             "class_number": "14026",
-            "enrollment_cap": 10,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Santiago,Cristina Patricio",
             "days": "W",
@@ -1048,29 +1868,59 @@
         }
     },
     "CHS 364": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "13996": {
             "class_number": "13996",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Lopez-Garza,Marta C",
             "days": "MW",
@@ -1080,25 +1930,55 @@
         }
     },
     "CHS 365": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "13997": {
             "class_number": "13997",
@@ -1106,13 +1986,13 @@
             "enrollment_count": 0,
             "instructor": "Cueva,Bert Maria",
             "days": "R",
-            "location": "JR132",
+            "location": "SH309",
             "start_time": "0930h",
             "end_time": "1045h"
         },
         "14987": {
             "class_number": "14987",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Sandoval,Denise M",
             "days": null,
@@ -1122,29 +2002,59 @@
         }
     },
     "CHS 366": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "13998": {
             "class_number": "13998",
-            "enrollment_cap": 15,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Fernandez,Maria Elena",
             "days": "TR",
@@ -1154,29 +2064,59 @@
         }
     },
     "CHS 380": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14202": {
             "class_number": "14202",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Gonzalez,Omar O",
             "days": "F",
@@ -1186,7 +2126,7 @@
         },
         "14713": {
             "class_number": "14713",
-            "enrollment_cap": 0,
+            "enrollment_cap": -3,
             "enrollment_count": 0,
             "instructor": "Orona-Cordova,Roberta",
             "days": null,
@@ -1196,25 +2136,55 @@
         }
     },
     "CHS 381": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14239": {
             "class_number": "14239",
@@ -1228,29 +2198,59 @@
         }
     },
     "CHS 417": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14024": {
             "class_number": "14024",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Cardona,Guadalupe Carrasco",
             "days": "T",
@@ -1270,29 +2270,59 @@
         }
     },
     "CHS 420": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14988": {
             "class_number": "14988",
-            "enrollment_cap": 18,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Gutierrez,Gabriel",
             "days": "M",
@@ -1302,25 +2332,55 @@
         }
     },
     "CHS 430": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14011": {
             "class_number": "14011",
@@ -1334,7 +2394,7 @@
         },
         "14069": {
             "class_number": "14069",
-            "enrollment_cap": 4,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Gonzalez,Rosemary",
             "days": "T",
@@ -1344,29 +2404,59 @@
         }
     },
     "CHS 431": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14012": {
             "class_number": "14012",
-            "enrollment_cap": 21,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Cardona,Guadalupe Carrasco",
             "days": "W",
@@ -1376,25 +2466,55 @@
         }
     },
     "CHS 432": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14013": {
             "class_number": "14013",
@@ -1408,29 +2528,59 @@
         }
     },
     "CHS 433": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14015": {
             "class_number": "14015",
-            "enrollment_cap": 13,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Sanchez-Munoz,Ana",
             "days": "T",
@@ -1440,25 +2590,55 @@
         }
     },
     "CHS 445": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14021": {
             "class_number": "14021",
@@ -1472,7 +2652,7 @@
         },
         "14020": {
             "class_number": "14020",
-            "enrollment_cap": 9,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Meraz,Gerard A",
             "days": "TR",
@@ -1482,7 +2662,7 @@
         },
         "14362": {
             "class_number": "14362",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Fernandez,Maria Elena",
             "days": "R",
@@ -1492,7 +2672,7 @@
         },
         "14754": {
             "class_number": "14754",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Hernandez,Carlos Armando",
             "days": null,
@@ -1502,7 +2682,7 @@
         },
         "14755": {
             "class_number": "14755",
-            "enrollment_cap": -5,
+            "enrollment_cap": -6,
             "enrollment_count": 0,
             "instructor": "Herrera,Xocoyotzin",
             "days": null,
@@ -1512,7 +2692,7 @@
         },
         "15357": {
             "class_number": "15357",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Hernandez,Carlos Armando",
             "days": null,
@@ -1522,29 +2702,59 @@
         }
     },
     "CHS 473": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14247": {
             "class_number": "14247",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Cruz,Maria Elena",
             "days": null,
@@ -1554,25 +2764,55 @@
         }
     },
     "CHS 486A": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14708": {
             "class_number": "14708",
@@ -1586,25 +2826,55 @@
         }
     },
     "CHS 495S": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14966": {
             "class_number": "14966",
@@ -1618,29 +2888,59 @@
         }
     },
     "CHS 497": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14213": {
             "class_number": "14213",
-            "enrollment_cap": -6,
+            "enrollment_cap": -7,
             "enrollment_count": 0,
             "instructor": "Ayala-Alcantar,Christina U",
             "days": "T",
@@ -1650,29 +2950,59 @@
         }
     },
     "CHS 502": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14027": {
             "class_number": "14027",
-            "enrollment_cap": 7,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Garcia,Peter J",
             "days": "T",
@@ -1682,51 +3012,121 @@
         }
     },
     "CHS 503": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14986": {
+            "class_number": "14986",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
     },
     "CHS 506": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14316": {
             "class_number": "14316",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Montano,Theresa",
             "days": "M",
@@ -1736,25 +3136,55 @@
         }
     },
     "CHS 507": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14923": {
             "class_number": "14923",
@@ -1768,29 +3198,59 @@
         }
     },
     "CHS 698C": {
-        "15302": {
-            "class_number": "15302",
-            "enrollment_cap": 0,
+        "14331": {
+            "class_number": "14331",
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Moreno,Renee M",
-            "days": "TR",
-            "location": "SH108",
+            "days": "MW",
+            "location": "SH224",
             "start_time": "0930h",
             "end_time": "1045h"
         },
-        "15303": {
-            "class_number": "15303",
+        "14544": {
+            "class_number": "14544",
             "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Gamboa,Harry",
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "14545": {
+            "class_number": "14545",
+            "enrollment_cap": 4,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "MW",
+            "location": "JR119",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "14546": {
+            "class_number": "14546",
+            "enrollment_cap": 3,
+            "enrollment_count": 0,
+            "instructor": "Gonzalez,Omar O",
             "days": "TR",
-            "location": "SH221",
-            "start_time": "1100h",
-            "end_time": "1215h"
+            "location": "SH285",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "14547": {
+            "class_number": "14547",
+            "enrollment_cap": 7,
+            "enrollment_count": 0,
+            "instructor": "Tamayo,Francisco N",
+            "days": "TR",
+            "location": "JR117",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "14025": {
             "class_number": "14025",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Escobar,Martha D",
             "days": null,

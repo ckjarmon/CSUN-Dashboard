@@ -2,7 +2,7 @@
     "SOC 150": {
         "13260": {
             "class_number": "13260",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Pereira,Ana P",
             "days": "TR",
@@ -46,7 +46,7 @@
     "SOC 230": {
         "20775": {
             "class_number": "20775",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Prior,Emily E",
             "days": "TR",
@@ -58,7 +58,7 @@
     "SOC 303": {
         "13219": {
             "class_number": "13219",
-            "enrollment_cap": 20,
+            "enrollment_cap": 18,
             "enrollment_count": 0,
             "instructor": "McDonald,Lauren E",
             "days": "TR",
@@ -82,7 +82,7 @@
     "SOC 305": {
         "12516": {
             "class_number": "12516",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Shaw,Victor N",
             "days": null,
@@ -94,7 +94,7 @@
     "SOC 307": {
         "12178": {
             "class_number": "12178",
-            "enrollment_cap": -1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Olmos,Daniel",
             "days": "MW",
@@ -104,7 +104,7 @@
         },
         "20777": {
             "class_number": "20777",
-            "enrollment_cap": -2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Guevara,Monicka",
             "days": "MW",
@@ -116,7 +116,7 @@
     "SOC 324": {
         "12518": {
             "class_number": "12518",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Missari,Stacy A",
             "days": "TR",
@@ -138,7 +138,7 @@
     "SOC 325": {
         "12184": {
             "class_number": "12184",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Meyers,Kari A",
             "days": "TR",
@@ -150,7 +150,7 @@
     "SOC 332": {
         "20776": {
             "class_number": "20776",
-            "enrollment_cap": 13,
+            "enrollment_cap": 12,
             "enrollment_count": 0,
             "instructor": "Mahdi,Ali Akbar",
             "days": "M",
@@ -174,7 +174,7 @@
     "SOC 340": {
         "13258": {
             "class_number": "13258",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Bogumil,David D",
             "days": "MW",
@@ -208,7 +208,7 @@
     "SOC 348": {
         "13259": {
             "class_number": "13259",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Scaife,Michele L",
             "days": "TR",
@@ -220,7 +220,7 @@
     "SOC 350": {
         "12946": {
             "class_number": "12946",
-            "enrollment_cap": 3,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "McDonald,Lauren E",
             "days": "TR",
@@ -232,7 +232,7 @@
     "SOC 355": {
         "20778": {
             "class_number": "20778",
-            "enrollment_cap": 16,
+            "enrollment_cap": 15,
             "enrollment_count": 0,
             "instructor": "Scaife,Michele L",
             "days": "TR",
@@ -280,7 +280,7 @@
     "SOC 401": {
         "12432": {
             "class_number": "12432",
-            "enrollment_cap": 0,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Bogumil,David D",
             "days": "TR",
@@ -308,7 +308,7 @@
             "enrollment_count": 0,
             "instructor": "Campbell,Lori A",
             "days": "MW",
-            "location": "SH225",
+            "location": "SH342",
             "start_time": "1400h",
             "end_time": "1515h"
         }
@@ -316,7 +316,7 @@
     "SOC 424": {
         "13131": {
             "class_number": "13131",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Davidson,James",
             "days": "MW",
@@ -326,7 +326,7 @@
         },
         "13132": {
             "class_number": "13132",
-            "enrollment_cap": 20,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Godard,Ellis",
             "days": "TR",
@@ -336,7 +336,7 @@
         },
         "13133": {
             "class_number": "13133",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Campbell,Lori A",
             "days": "MW",
@@ -346,7 +346,7 @@
         },
         "13135": {
             "class_number": "13135",
-            "enrollment_cap": -1,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Mavaddat,Roya",
             "days": "F",
@@ -356,7 +356,7 @@
         },
         "13136": {
             "class_number": "13136",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Berger,Raqota T",
             "days": "TR",
@@ -368,7 +368,7 @@
     "SOC 424L": {
         "13138": {
             "class_number": "13138",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Davidson,James",
             "days": "M",
@@ -378,7 +378,7 @@
         },
         "13139": {
             "class_number": "13139",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Davidson,James",
             "days": "W",
@@ -388,7 +388,7 @@
         },
         "13141": {
             "class_number": "13141",
-            "enrollment_cap": 1,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Godard,Ellis",
             "days": "T",
@@ -408,7 +408,7 @@
         },
         "13144": {
             "class_number": "13144",
-            "enrollment_cap": 4,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Campbell,Lori A",
             "days": "MW",
@@ -428,7 +428,7 @@
         },
         "13150": {
             "class_number": "13150",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Mavaddat,Roya",
             "days": "F",
@@ -438,7 +438,7 @@
         },
         "13151": {
             "class_number": "13151",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mavaddat,Roya",
             "days": "F",
@@ -448,7 +448,7 @@
         },
         "13197": {
             "class_number": "13197",
-            "enrollment_cap": 4,
+            "enrollment_cap": 3,
             "enrollment_count": 0,
             "instructor": "Berger,Raqota T",
             "days": "T",
@@ -460,7 +460,7 @@
     "SOC 426": {
         "12239": {
             "class_number": "12239",
-            "enrollment_cap": 47,
+            "enrollment_cap": 46,
             "enrollment_count": 0,
             "instructor": "Guevara,Monicka",
             "days": "MW",
@@ -472,7 +472,7 @@
     "SOC 430": {
         "13117": {
             "class_number": "13117",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Appelrouth,Scott A",
             "days": "TR",
@@ -482,7 +482,7 @@
         },
         "13118": {
             "class_number": "13118",
-            "enrollment_cap": 8,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Appelrouth,Scott A",
             "days": "TR",
@@ -496,13 +496,13 @@
             "enrollment_count": 0,
             "instructor": "Karageorgis,Stavros N",
             "days": "F",
-            "location": "SH102",
+            "location": "SH203",
             "start_time": "0800h",
             "end_time": "1140h"
         },
         "13120": {
             "class_number": "13120",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Kouri,Kristyan M",
             "days": "S",
@@ -526,7 +526,7 @@
             "enrollment_count": 0,
             "instructor": "Karageorgis,Stavros N",
             "days": "MW",
-            "location": "SH102",
+            "location": "SH309",
             "start_time": "1400h",
             "end_time": "1540h"
         }
@@ -534,7 +534,7 @@
     "SOC 433": {
         "13122": {
             "class_number": "13122",
-            "enrollment_cap": -2,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Olmos,Daniel",
             "days": "MW",
@@ -558,7 +558,7 @@
     "SOC 440": {
         "12427": {
             "class_number": "12427",
-            "enrollment_cap": 14,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Prior,Emily E",
             "days": "TR",
@@ -570,7 +570,7 @@
     "SOC 450": {
         "13305": {
             "class_number": "13305",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Bogumil,David D",
             "days": "TR",
@@ -594,7 +594,7 @@
     "SOC 459": {
         "20780": {
             "class_number": "20780",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Bogumil,David D",
             "days": "MW",
@@ -618,7 +618,7 @@
     "SOC 467": {
         "13195": {
             "class_number": "13195",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Meyers,Kari A",
             "days": "MW",
@@ -630,7 +630,7 @@
     "SOC 468": {
         "13123": {
             "class_number": "13123",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Mahdi,Ali Akbar",
             "days": "MW",
@@ -650,7 +650,7 @@
         },
         "13125": {
             "class_number": "13125",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Johnson,Briauna A",
             "days": "S",
@@ -660,7 +660,7 @@
         },
         "13126": {
             "class_number": "13126",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Kouri,Kristyan M",
             "days": "TR",
@@ -670,11 +670,11 @@
         },
         "13127": {
             "class_number": "13127",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Karageorgis,Stavros N",
             "days": "MW",
-            "location": "SH102",
+            "location": "SH309",
             "start_time": "1800h",
             "end_time": "1940h"
         }
@@ -682,7 +682,7 @@
     "SOC 490F": {
         "13128": {
             "class_number": "13128",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Capous-Desyllas,Moshoula",
             "days": null,
@@ -694,7 +694,7 @@
     "SOC 490S": {
         "13129": {
             "class_number": "13129",
-            "enrollment_cap": 12,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Capous-Desyllas,Moshoula",
             "days": "T",
@@ -706,7 +706,7 @@
     "SOC 492": {
         "12677": {
             "class_number": "12677",
-            "enrollment_cap": 0,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Capous-Desyllas,Moshoula",
             "days": "W",
@@ -730,7 +730,7 @@
     "SOC 496ASM": {
         "21023": {
             "class_number": "21023",
-            "enrollment_cap": 28,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
             "instructor": "Morgaine,Karen L",
             "days": "MW",
@@ -742,7 +742,7 @@
     "SOC 497": {
         "12133": {
             "class_number": "12133",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mavaddat,Roya",
             "days": "MW",
@@ -752,7 +752,7 @@
         },
         "12134": {
             "class_number": "12134",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Godard,Ellis",
             "days": "TR",
@@ -772,7 +772,7 @@
         },
         "12202": {
             "class_number": "12202",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Berger,Raqota T",
             "days": "S",
@@ -794,7 +794,7 @@
         },
         "12135": {
             "class_number": "12135",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Mavaddat,Roya",
             "days": "W",
@@ -804,7 +804,7 @@
         },
         "12366": {
             "class_number": "12366",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Godard,Ellis",
             "days": "T",
@@ -814,7 +814,7 @@
         },
         "12367": {
             "class_number": "12367",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Godard,Ellis",
             "days": "R",
@@ -844,7 +844,7 @@
         },
         "12370": {
             "class_number": "12370",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Berger,Raqota T",
             "days": "S",
@@ -854,7 +854,7 @@
         },
         "12256": {
             "class_number": "12256",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Berger,Raqota T",
             "days": "S",
@@ -878,7 +878,7 @@
     "SOC 670": {
         "12123": {
             "class_number": "12123",
-            "enrollment_cap": 7,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Pereira,Ana P",
             "days": "R",
@@ -890,7 +890,7 @@
     "SOC 690": {
         "12999": {
             "class_number": "12999",
-            "enrollment_cap": 9,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Davidson,James",
             "days": "M",

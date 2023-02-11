@@ -3,7 +3,7 @@
         "14030": {
             "class_number": "14030",
             "enrollment_cap": 35,
-            "enrollment_count": 35,
+            "enrollment_count": 34,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "celia.simonds@csun.edu",
@@ -15,10 +15,10 @@
         "14031": {
             "class_number": "14031",
             "enrollment_cap": 35,
-            "enrollment_count": 35,
+            "enrollment_count": 36,
             "waitlist_cap": 35,
             "waitlist_count": 1,
-            "instructor": "shahrazad.encinias@csun.edu",
+            "instructor": "celia.simonds@csun.edu",
             "days": "R",
             "location": "JR246",
             "start_time": "1230h",
@@ -27,7 +27,7 @@
         "14032": {
             "class_number": "14032",
             "enrollment_cap": 35,
-            "enrollment_count": 35,
+            "enrollment_count": 32,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "jocelyn.duarte@csun.edu",
@@ -42,7 +42,7 @@
             "enrollment_count": 35,
             "waitlist_cap": 35,
             "waitlist_count": 1,
-            "instructor": "celia.simonds@csun.edu",
+            "instructor": "jocelyn.duarte@csun.edu",
             "days": "TR",
             "location": "JR348",
             "start_time": "1100h",
@@ -51,9 +51,9 @@
         "14976": {
             "class_number": "14976",
             "enrollment_cap": 35,
-            "enrollment_count": 34,
+            "enrollment_count": 33,
             "waitlist_cap": 35,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "celia.simonds@csun.edu",
             "days": "M",
             "location": "EU134",
@@ -75,16 +75,30 @@
             "end_time": "0915h"
         }
     },
+    "CAS 113A": {
+        "21327": {
+            "class_number": "21327",
+            "enrollment_cap": 19,
+            "enrollment_count": 18,
+            "waitlist_cap": 19,
+            "waitlist_count": 0,
+            "instructor": "shahrazad.encinias@csun.edu",
+            "days": "TR",
+            "location": "EU132",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
     "CAS 113B": {
         "14317": {
             "class_number": "14317",
             "enrollment_cap": 19,
-            "enrollment_count": 16,
+            "enrollment_count": 15,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "giovan.alonzi@csun.edu",
             "days": "TR",
-            "location": "ED1123",
+            "location": "JR217",
             "start_time": "0930h",
             "end_time": "1045h"
         }
@@ -93,10 +107,10 @@
         "14617": {
             "class_number": "14617",
             "enrollment_cap": 27,
-            "enrollment_count": 27,
+            "enrollment_count": 28,
             "waitlist_cap": 27,
             "waitlist_count": 4,
-            "instructor": "beatriz.cortez@csun.edu",
+            "instructor": "shahrazad.encinias@csun.edu",
             "days": "A",
             "location": "ONLINE",
             "start_time": "0000h",
@@ -105,7 +119,7 @@
         "14887": {
             "class_number": "14887",
             "enrollment_cap": 27,
-            "enrollment_count": 27,
+            "enrollment_count": 26,
             "waitlist_cap": 27,
             "waitlist_count": 1,
             "instructor": "lizbeth.ruiztorres@csun.edu",
@@ -119,7 +133,7 @@
             "enrollment_cap": 27,
             "enrollment_count": 27,
             "waitlist_cap": 27,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "leslie.rodriguez@csun.edu",
             "days": "W",
             "location": "ONLINE",
@@ -153,7 +167,7 @@
         "15328": {
             "class_number": "15328",
             "enrollment_cap": 27,
-            "enrollment_count": 27,
+            "enrollment_count": 28,
             "waitlist_cap": 27,
             "waitlist_count": 1,
             "instructor": "leslie.rodriguez@csun.edu",
@@ -165,9 +179,9 @@
         "21292": {
             "class_number": "21292",
             "enrollment_cap": 27,
-            "enrollment_count": 27,
+            "enrollment_count": 28,
             "waitlist_cap": 27,
-            "waitlist_count": 0,
+            "waitlist_count": 5,
             "instructor": "shahrazad.encinias@csun.edu",
             "days": "A",
             "location": "ONLINE",
@@ -179,7 +193,7 @@
         "14798": {
             "class_number": "14798",
             "enrollment_cap": 35,
-            "enrollment_count": 35,
+            "enrollment_count": 36,
             "waitlist_cap": 35,
             "waitlist_count": 1,
             "instructor": "susana.marcelo@csun.edu",
@@ -193,7 +207,7 @@
         "14321": {
             "class_number": "14321",
             "enrollment_cap": 20,
-            "enrollment_count": 7,
+            "enrollment_count": 9,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "celia.simonds@csun.edu",
@@ -207,7 +221,7 @@
         "14334": {
             "class_number": "14334",
             "enrollment_cap": 20,
-            "enrollment_count": 7,
+            "enrollment_count": 9,
             "waitlist_cap": 20,
             "waitlist_count": 0,
             "instructor": "celia.simonds@csun.edu",
@@ -221,7 +235,7 @@
         "14575": {
             "class_number": "14575",
             "enrollment_cap": 35,
-            "enrollment_count": 14,
+            "enrollment_count": 22,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "douglas.carranza@csun.edu",
@@ -231,27 +245,13 @@
             "end_time": "1215h"
         }
     },
-    "CAS 310": {
-        "14035": {
-            "class_number": "14035",
-            "enrollment_cap": 35,
-            "enrollment_count": 11,
-            "waitlist_cap": 35,
-            "waitlist_count": 0,
-            "instructor": "celia.simonds@csun.edu",
-            "days": "MW",
-            "location": "EU130",
-            "start_time": "1230h",
-            "end_time": "1345h"
-        }
-    },
     "CAS 311": {
         "14036": {
             "class_number": "14036",
             "enrollment_cap": 35,
-            "enrollment_count": 35,
+            "enrollment_count": 33,
             "waitlist_cap": 35,
-            "waitlist_count": 0,
+            "waitlist_count": 1,
             "instructor": "stephanie.lemus@csun.edu",
             "days": "MW",
             "location": "JR243",
@@ -263,7 +263,7 @@
         "15194": {
             "class_number": "15194",
             "enrollment_cap": 30,
-            "enrollment_count": 9,
+            "enrollment_count": 14,
             "waitlist_cap": 30,
             "waitlist_count": 0,
             "instructor": "douglas.carranza@csun.edu",
@@ -277,7 +277,7 @@
         "14249": {
             "class_number": "14249",
             "enrollment_cap": 35,
-            "enrollment_count": 34,
+            "enrollment_count": 32,
             "waitlist_cap": 35,
             "waitlist_count": 0,
             "instructor": "jocelyn.duarte@csun.edu",

@@ -2,7 +2,7 @@
     "PHYS 100A": {
         "17182": {
             "class_number": "17182",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Shiferaw,Yohannes",
             "days": "TR",
@@ -12,7 +12,7 @@
         },
         "17467": {
             "class_number": "17467",
-            "enrollment_cap": 0,
+            "enrollment_cap": 11,
             "enrollment_count": 0,
             "instructor": "Zhang,Mingliang",
             "days": "MW",
@@ -24,7 +24,7 @@
     "PHYS 100AL": {
         "17185": {
             "class_number": "17185",
-            "enrollment_cap": 2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Collins,Eric M",
             "days": "M",
@@ -34,7 +34,7 @@
         },
         "17184": {
             "class_number": "17184",
-            "enrollment_cap": 1,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "M",
@@ -44,7 +44,7 @@
         },
         "17217": {
             "class_number": "17217",
-            "enrollment_cap": 14,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Zhang,Mingliang",
             "days": "T",
@@ -54,7 +54,7 @@
         },
         "17252": {
             "class_number": "17252",
-            "enrollment_cap": 23,
+            "enrollment_cap": 29,
             "enrollment_count": 0,
             "instructor": "Collins,Eric M",
             "days": "T",
@@ -76,7 +76,7 @@
     "PHYS 100B": {
         "17188": {
             "class_number": "17188",
-            "enrollment_cap": 3,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Cadavid,Ana C",
             "days": "TR",
@@ -86,7 +86,7 @@
         },
         "17809": {
             "class_number": "17809",
-            "enrollment_cap": 60,
+            "enrollment_cap": 69,
             "enrollment_count": 0,
             "instructor": "Doty,Duane R",
             "days": "MW",
@@ -95,72 +95,10 @@
             "end_time": "1645h"
         }
     },
-    "PHYS 100BL": {
-        "17191": {
-            "class_number": "17191",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "LO1107",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17192": {
-            "class_number": "17192",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17193": {
-            "class_number": "17193",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "LO1107",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17468": {
-            "class_number": "17468",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Karapetyan,Karapet",
-            "days": "W",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17597": {
-            "class_number": "17597",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "LO1107",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17631": {
-            "class_number": "17631",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "LO1107",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
-    "PHYS 220A": {
+    "PHYS 220AL": {
         "17331": {
             "class_number": "17331",
-            "enrollment_cap": 8,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Rowe,Tony S",
             "days": "TR",
@@ -170,7 +108,7 @@
         },
         "17194": {
             "class_number": "17194",
-            "enrollment_cap": 14,
+            "enrollment_cap": 10,
             "enrollment_count": 0,
             "instructor": "Beloborodov,Igor",
             "days": "MW",
@@ -179,82 +117,30 @@
             "end_time": "1345h"
         }
     },
-    "PHYS 220AL": {
-        "17197": {
-            "class_number": "17197",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "17196": {
-            "class_number": "17196",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "EH2109",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        },
-        "17438": {
-            "class_number": "17438",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Zhang,Mingliang",
-            "days": "F",
-            "location": "EH2109",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "17462": {
-            "class_number": "17462",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "18034": {
-            "class_number": "18034",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "0800h",
-            "end_time": "1045h"
-        },
-        "18044": {
-            "class_number": "18044",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "1100h",
-            "end_time": "1345h"
-        },
-        "18100": {
-            "class_number": "18100",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "EH2109",
-            "start_time": "1400h",
-            "end_time": "1645h"
-        }
-    },
     "PHYS 220B": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "17199": {
             "class_number": "17199",
-            "enrollment_cap": 24,
+            "enrollment_cap": 19,
             "enrollment_count": 0,
             "instructor": "Postma,Hendrik W C",
             "days": "TR",
@@ -274,6 +160,26 @@
         }
     },
     "PHYS 220BL": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "17202": {
             "class_number": "17202",
             "enrollment_cap": 12,
@@ -286,7 +192,7 @@
         },
         "17201": {
             "class_number": "17201",
-            "enrollment_cap": 1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "T",
@@ -306,7 +212,7 @@
         },
         "17665": {
             "class_number": "17665",
-            "enrollment_cap": 1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": "W",
@@ -316,7 +222,7 @@
         },
         "17666": {
             "class_number": "17666",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Rosenberg,Tanner",
             "days": "W",
@@ -346,6 +252,26 @@
         }
     },
     "PHYS 225": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "17318": {
             "class_number": "17318",
             "enrollment_cap": 17,
@@ -357,7 +283,27 @@
             "end_time": "1540h"
         }
     },
-    "PHYS 227L": {
+    "PHYS 227": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
         "17319": {
             "class_number": "17319",
             "enrollment_cap": 17,
@@ -369,16 +315,48 @@
             "end_time": "1540h"
         }
     },
-    "PHYS 305": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+    "PHYS 227L": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHYS 305": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "18002": {
             "class_number": "18002",
@@ -392,7 +370,7 @@
         },
         "18003": {
             "class_number": "18003",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Miller,Justin W",
             "days": null,
@@ -402,15 +380,25 @@
         }
     },
     "PHYS 305L": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "17998": {
             "class_number": "17998",
@@ -424,7 +412,7 @@
         },
         "17999": {
             "class_number": "17999",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Miller,Justin W",
             "days": null,
@@ -434,37 +422,69 @@
         }
     },
     "PHYS 331": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
-            "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
         },
-        "18404": {
-            "class_number": "18404",
-            "enrollment_cap": 18,
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Taheri-Araghi,Sattar",
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1127",
-            "start_time": "0930h",
-            "end_time": "1045h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
     },
     "PHYS 366": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "PHYS 375": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
         },
         "17469": {
             "class_number": "17469",
@@ -475,30 +495,48 @@
             "location": "LO1100",
             "start_time": "0930h",
             "end_time": "1215h"
-        }
-    },
-    "PHYS 375": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        },
+        "17470": {
+            "class_number": "17470",
+            "enrollment_cap": 16,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
-            "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "instructor": "Cadavid,Ana C",
+            "days": "TR",
+            "location": "LO1127",
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
     "PHYS 402": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17471": {
             "class_number": "17471",
@@ -512,15 +550,35 @@
         }
     },
     "PHYS 410": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17472": {
             "class_number": "17472",
@@ -534,19 +592,39 @@
         }
     },
     "PHYS 420": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17599": {
             "class_number": "17599",
-            "enrollment_cap": 23,
+            "enrollment_cap": 25,
             "enrollment_count": 0,
             "instructor": "Bezryadina,Anna",
             "days": "MW",
@@ -556,19 +634,39 @@
         }
     },
     "PHYS 466": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17320": {
             "class_number": "17320",
-            "enrollment_cap": 18,
+            "enrollment_cap": 17,
             "enrollment_count": 0,
             "instructor": "Gao,Li",
             "days": "TR",
@@ -578,19 +676,39 @@
         }
     },
     "PHYS 489": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18168": {
             "class_number": "18168",
-            "enrollment_cap": 24,
+            "enrollment_cap": 22,
             "enrollment_count": 0,
             "instructor": "Peng,Yang",
             "days": "MW",
@@ -600,19 +718,39 @@
         }
     },
     "PHYS 493": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17204": {
             "class_number": "17204",
-            "enrollment_cap": 11,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Bezryadina,Anna",
             "days": "W",
@@ -622,15 +760,35 @@
         }
     },
     "PHYS 495B": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18643": {
             "class_number": "18643",
@@ -644,15 +802,35 @@
         }
     },
     "PHYS 495C": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17975": {
             "class_number": "17975",
@@ -663,22 +841,62 @@
             "location": "ONCAMP",
             "start_time": "ARR",
             "end_time": "ARR"
+        },
+        "18133": {
+            "class_number": "18133",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Luchko,Tyler A",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "21349": {
+            "class_number": "21349",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Cadavid,Ana C",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
         }
     },
     "PHYS 497": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18319": {
             "class_number": "18319",
-            "enrollment_cap": 5,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Luchko,Tyler A",
             "days": "F",
@@ -688,15 +906,35 @@
         }
     },
     "PHYS 498": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17206": {
             "class_number": "17206",
@@ -720,21 +958,83 @@
         }
     },
     "PHYS 499A": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17207": {
             "class_number": "17207",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Gao,Li",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        }
+    },
+    "PHYS 499C": {
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
+            "days": "MW",
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
+        },
+        "17209": {
+            "class_number": "17209",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Gao,Li",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -742,15 +1042,35 @@
         }
     },
     "PHYS 588": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18395": {
             "class_number": "18395",
@@ -764,15 +1084,35 @@
         }
     },
     "PHYS 610": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17219": {
             "class_number": "17219",
@@ -786,19 +1126,39 @@
         }
     },
     "PHYS 630": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17220": {
             "class_number": "17220",
-            "enrollment_cap": 15,
+            "enrollment_cap": 14,
             "enrollment_count": 0,
             "instructor": "Shiferaw,Yohannes",
             "days": "MW",
@@ -808,19 +1168,39 @@
         }
     },
     "PHYS 651": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "18045": {
             "class_number": "18045",
-            "enrollment_cap": 20,
+            "enrollment_cap": 21,
             "enrollment_count": 0,
             "instructor": "Sheng,Dong-Ning",
             "days": "TR",
@@ -830,15 +1210,35 @@
         }
     },
     "PHYS 696A": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17210": {
             "class_number": "17210",
@@ -854,7 +1254,17 @@
             "class_number": "17259",
             "enrollment_cap": 4,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Zhang,Xu",
+            "days": null,
+            "location": "ONCAMP",
+            "start_time": "ARR",
+            "end_time": "ARR"
+        },
+        "17280": {
+            "class_number": "17280",
+            "enrollment_cap": 5,
+            "enrollment_count": 0,
+            "instructor": "Luchko,Tyler A",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -862,19 +1272,39 @@
         }
     },
     "PHYS 696B": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17211": {
             "class_number": "17211",
-            "enrollment_cap": 2,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Luchko,Tyler A",
             "days": null,
@@ -884,15 +1314,35 @@
         }
     },
     "PHYS 696C": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17212": {
             "class_number": "17212",
@@ -906,9 +1356,9 @@
         },
         "17261": {
             "class_number": "17261",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Bezryadina,Anna",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -936,15 +1386,35 @@
         }
     },
     "PHYS 697": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17213": {
             "class_number": "17213",
@@ -958,15 +1428,35 @@
         }
     },
     "PHYS 698C": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17221": {
             "class_number": "17221",
@@ -1010,15 +1500,35 @@
         }
     },
     "PHYS 698F": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17214": {
             "class_number": "17214",
@@ -1052,15 +1562,35 @@
         }
     },
     "PHYS 699A": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17215": {
             "class_number": "17215",
@@ -1084,15 +1614,35 @@
         }
     },
     "PHYS 699B": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17216": {
             "class_number": "17216",
@@ -1106,9 +1656,9 @@
         },
         "17266": {
             "class_number": "17266",
-            "enrollment_cap": 3,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Lau,Kah Chun",
             "days": null,
             "location": "ONCAMP",
             "start_time": "ARR",
@@ -1116,15 +1666,35 @@
         }
     },
     "PHYS 699C": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17224": {
             "class_number": "17224",
@@ -1138,15 +1708,35 @@
         }
     },
     "PHYS 699D": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17377": {
             "class_number": "17377",
@@ -1170,15 +1760,35 @@
         }
     },
     "PHYS 699F": {
-        "17319": {
-            "class_number": "17319",
-            "enrollment_cap": 17,
+        "17331": {
+            "class_number": "17331",
+            "enrollment_cap": 10,
             "enrollment_count": 0,
-            "instructor": "Lau,Kah Chun",
+            "instructor": "Rowe,Tony S",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "17194": {
+            "class_number": "17194",
+            "enrollment_cap": 10,
+            "enrollment_count": 0,
+            "instructor": "Beloborodov,Igor",
             "days": "MW",
-            "location": "LO1117",
-            "start_time": "1400h",
-            "end_time": "1540h"
+            "location": "LA181",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "17469": {
+            "class_number": "17469",
+            "enrollment_cap": 14,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": "MW",
+            "location": "LO1100",
+            "start_time": "0930h",
+            "end_time": "1215h"
         },
         "17388": {
             "class_number": "17388",

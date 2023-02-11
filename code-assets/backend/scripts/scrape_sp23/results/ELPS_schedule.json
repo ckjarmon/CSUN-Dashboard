@@ -3,7 +3,7 @@
         "15514": {
             "class_number": "15514",
             "enrollment_cap": 25,
-            "enrollment_count": 25,
+            "enrollment_count": 23,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "rosalind.raby@csun.edu",
@@ -29,7 +29,7 @@
         "15518": {
             "class_number": "15518",
             "enrollment_cap": 25,
-            "enrollment_count": 25,
+            "enrollment_count": 26,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "zhixin.su@csun.edu",
@@ -41,7 +41,7 @@
         "15519": {
             "class_number": "15519",
             "enrollment_cap": 25,
-            "enrollment_count": 27,
+            "enrollment_count": 25,
             "waitlist_cap": 25,
             "waitlist_count": 2,
             "instructor": "guadalupe.simpson@csun.edu",
@@ -55,7 +55,7 @@
         "15566": {
             "class_number": "15566",
             "enrollment_cap": 25,
-            "enrollment_count": 21,
+            "enrollment_count": 22,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "phyllis.gudoski@csun.edu",
@@ -67,7 +67,7 @@
         "15630": {
             "class_number": "15630",
             "enrollment_cap": 25,
-            "enrollment_count": 30,
+            "enrollment_count": 32,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "phyllis.gudoski@csun.edu",
@@ -79,7 +79,7 @@
         "15647": {
             "class_number": "15647",
             "enrollment_cap": 25,
-            "enrollment_count": 7,
+            "enrollment_count": 8,
             "waitlist_cap": 25,
             "waitlist_count": 0,
             "instructor": "phyllis.gudoski@csun.edu",
@@ -89,25 +89,11 @@
             "end_time": "0000h"
         }
     },
-    "ELPS 650HE": {
-        "15951": {
-            "class_number": "15951",
-            "enrollment_cap": 21,
-            "enrollment_count": 16,
-            "waitlist_cap": 21,
-            "waitlist_count": 0,
-            "instructor": "howard.davis@csun.edu",
-            "days": "W",
-            "location": "SH267",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
     "ELPS 656HE": {
         "15950": {
             "class_number": "15950",
             "enrollment_cap": 21,
-            "enrollment_count": 16,
+            "enrollment_count": 17,
             "waitlist_cap": 21,
             "waitlist_count": 0,
             "instructor": "ifeoma.amah@csun.edu",
@@ -121,7 +107,7 @@
         "15988": {
             "class_number": "15988",
             "enrollment_cap": 21,
-            "enrollment_count": 20,
+            "enrollment_count": 21,
             "waitlist_cap": 21,
             "waitlist_count": 0,
             "instructor": "ahmed.alwan@csun.edu",
@@ -147,7 +133,7 @@
         "15641": {
             "class_number": "15641",
             "enrollment_cap": 19,
-            "enrollment_count": 14,
+            "enrollment_count": 15,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "marcee.seegan@csun.edu",
@@ -161,7 +147,7 @@
         "15989": {
             "class_number": "15989",
             "enrollment_cap": 21,
-            "enrollment_count": 20,
+            "enrollment_count": 21,
             "waitlist_cap": 21,
             "waitlist_count": 0,
             "instructor": "daniel.villanueva@csun.edu",
@@ -171,37 +157,37 @@
             "end_time": "2145h"
         }
     },
-    "ELPS 688": {
-        "15698": {
-            "class_number": "15698",
+    "ELPS 682": {
+        "15596": {
+            "class_number": "15596",
             "enrollment_cap": 21,
             "enrollment_count": 19,
             "waitlist_cap": 21,
             "waitlist_count": 0,
-            "instructor": "ellen.edeburn@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
+            "instructor": "joan.lucid@csun.edu",
+            "days": "M",
+            "location": "ED3111",
+            "start_time": "1600h",
+            "end_time": "1845h"
         },
-        "15699": {
-            "class_number": "15699",
+        "15597": {
+            "class_number": "15597",
             "enrollment_cap": 19,
-            "enrollment_count": 13,
+            "enrollment_count": 15,
             "waitlist_cap": 19,
             "waitlist_count": 0,
-            "instructor": "jack.bagwell@csun.edu",
-            "days": "A",
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h"
+            "instructor": "joan.lucid@csun.edu",
+            "days": "W",
+            "location": "ED1123",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
     },
     "ELPS 688HE": {
         "15949": {
             "class_number": "15949",
             "enrollment_cap": 21,
-            "enrollment_count": 16,
+            "enrollment_count": 17,
             "waitlist_cap": 21,
             "waitlist_count": 0,
             "instructor": "eric.garcia@csun.edu",
@@ -211,76 +197,42 @@
             "end_time": "1845h"
         }
     },
-    "ELPS 715": {
+    "ELPS 697HE": {
         "16085": {
             "class_number": "16085",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
+            "enrollment_cap": 21,
+            "enrollment_count": 21,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "dimpal.jain@csun.edu",
+            "days": "A",
             "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
     },
-    "ELPS 725": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
+    "ELPS 735": {
         "15645": {
             "class_number": "15645",
-            "enrollment_cap": 19,
-            "enrollment_count": 16,
-            "waitlist_cap": 19,
-            "waitlist_count": 0,
-            "instructor": "tara.watford@csun.edu",
+            "enrollment_cap": 2,
+            "enrollment_count": 0,
+            "instructor": "Watford,Tara M",
             "days": "R",
             "location": "ED3111",
             "start_time": "1900h",
             "end_time": "2145h"
         }
     },
-    "ELPS 735": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
+    "ELPS 755": {
+        "15645": {
+            "class_number": "15645",
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15917": {
-            "class_number": "15917",
-            "enrollment_cap": 19,
-            "enrollment_count": 16,
-            "waitlist_cap": 19,
-            "waitlist_count": 0,
-            "instructor": "erika.endrijonas@csun.edu",
+            "instructor": "Watford,Tara M",
             "days": "R",
             "location": "ED3111",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
-    "ELPS 755": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "15709": {
             "class_number": "15709",
@@ -296,20 +248,20 @@
         }
     },
     "ELPS 765": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
+        "15645": {
+            "class_number": "15645",
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Watford,Tara M",
+            "days": "R",
+            "location": "ED3111",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "15916": {
             "class_number": "15916",
             "enrollment_cap": 21,
-            "enrollment_count": 16,
+            "enrollment_count": 17,
             "waitlist_cap": 21,
             "waitlist_count": 0,
             "instructor": "jenn.wolfe@csun.edu",
@@ -320,32 +272,44 @@
         }
     },
     "ELPS 770": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
+        "15645": {
+            "class_number": "15645",
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Watford,Tara M",
+            "days": "R",
+            "location": "ED3111",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "15915": {
+            "class_number": "15915",
+            "enrollment_cap": 21,
+            "enrollment_count": 17,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "noelle.banuelos@csun.edu",
+            "days": "W",
+            "location": "ED3111",
+            "start_time": "1900h",
+            "end_time": "2145h"
         }
     },
     "ELPS 789": {
-        "16085": {
-            "class_number": "16085",
-            "enrollment_cap": 0,
+        "15645": {
+            "class_number": "15645",
+            "enrollment_cap": 2,
             "enrollment_count": 0,
-            "instructor": "Jain,Dimpal",
-            "days": null,
-            "location": "TBA",
-            "start_time": "ARR",
-            "end_time": "ARR"
+            "instructor": "Watford,Tara M",
+            "days": "R",
+            "location": "ED3111",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "15646": {
             "class_number": "15646",
             "enrollment_cap": 19,
-            "enrollment_count": 16,
+            "enrollment_count": 17,
             "waitlist_cap": 19,
             "waitlist_count": 0,
             "instructor": "dimpal.jain@csun.edu",

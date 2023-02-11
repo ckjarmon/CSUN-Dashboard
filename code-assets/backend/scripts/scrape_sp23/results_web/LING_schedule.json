@@ -2,7 +2,7 @@
     "LING 113A": {
         "15036": {
             "class_number": "15036",
-            "enrollment_cap": -1,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Ganjavi,Shadi",
             "days": "MW",
@@ -12,17 +12,17 @@
         },
         "15037": {
             "class_number": "15037",
-            "enrollment_cap": 3,
+            "enrollment_cap": 4,
             "enrollment_count": 0,
             "instructor": "Crawford,Anne C",
             "days": "TR",
-            "location": "JR218",
+            "location": "SH312",
             "start_time": "1230h",
             "end_time": "1345h"
         },
         "15038": {
             "class_number": "15038",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Gides,John C",
             "days": "TR",
@@ -32,7 +32,7 @@
         },
         "15039": {
             "class_number": "15039",
-            "enrollment_cap": 3,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Macki,Mona",
             "days": "TR",
@@ -44,7 +44,7 @@
     "LING 113B": {
         "15083": {
             "class_number": "15083",
-            "enrollment_cap": 0,
+            "enrollment_cap": 1,
             "enrollment_count": 0,
             "instructor": "Macki,Mona",
             "days": "MW",
@@ -54,7 +54,7 @@
         },
         "15084": {
             "class_number": "15084",
-            "enrollment_cap": 6,
+            "enrollment_cap": 7,
             "enrollment_count": 0,
             "instructor": "Karras-Lazaris,Vasiliki B",
             "days": "TR",
@@ -64,7 +64,7 @@
         },
         "15086": {
             "class_number": "15086",
-            "enrollment_cap": 9,
+            "enrollment_cap": 6,
             "enrollment_count": 0,
             "instructor": "Gauthier,Brandon",
             "days": "TR",
@@ -86,7 +86,7 @@
     "LING 200": {
         "14723": {
             "class_number": "14723",
-            "enrollment_cap": 0,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Ganjavi,Shadi",
             "days": null,
@@ -96,7 +96,7 @@
         },
         "14742": {
             "class_number": "14742",
-            "enrollment_cap": -1,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Saltzman,Moira",
             "days": "TR",
@@ -105,32 +105,10 @@
             "end_time": "1215h"
         }
     },
-    "LING 250": {
-        "14299": {
-            "class_number": "14299",
-            "enrollment_cap": -2,
-            "enrollment_count": 0,
-            "instructor": "Medeiros,David J",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        },
-        "15005": {
-            "class_number": "15005",
-            "enrollment_cap": 0,
-            "enrollment_count": 0,
-            "instructor": "Medeiros,David J",
-            "days": null,
-            "location": "ONLINE",
-            "start_time": "ARR",
-            "end_time": "ARR"
-        }
-    },
     "LING 303": {
         "15400": {
             "class_number": "15400",
-            "enrollment_cap": -1,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Medeiros,David J",
             "days": "MW",
@@ -142,7 +120,7 @@
     "LING 309": {
         "15401": {
             "class_number": "15401",
-            "enrollment_cap": 2,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Kim,Stephanie Hyeri",
             "days": "TR",
@@ -154,7 +132,7 @@
     "LING 310": {
         "14300": {
             "class_number": "14300",
-            "enrollment_cap": -2,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Ruth-Hirrel,Laura",
             "days": null,
@@ -206,7 +184,7 @@
         },
         "14831": {
             "class_number": "14831",
-            "enrollment_cap": 0,
+            "enrollment_cap": 2,
             "enrollment_count": 0,
             "instructor": "Mathis,Terrie D",
             "days": null,
@@ -215,10 +193,32 @@
             "end_time": "ARR"
         }
     },
-    "LING 330": {
+    "LING 402": {
         "20792": {
             "class_number": "20792",
-            "enrollment_cap": 25,
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
+            "location": "JR214",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "14533": {
+            "class_number": "14533",
+            "enrollment_cap": 12,
+            "enrollment_count": 0,
+            "instructor": "Saltzman,Moira",
+            "days": "M",
+            "location": "JR214",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "LING 404": {
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
             "instructor": "Yoon,Hyung-Jo",
             "days": "MW",
@@ -227,32 +227,20 @@
             "end_time": "1215h"
         }
     },
-    "LING 404": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
-            "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
     "LING 417": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
             "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1100h",
+            "end_time": "1215h"
         },
         "13949": {
             "class_number": "13949",
-            "enrollment_cap": -5,
+            "enrollment_cap": -2,
             "enrollment_count": 0,
             "instructor": "Yoon,Hyung-Jo",
             "days": null,
@@ -262,7 +250,7 @@
         },
         "13952": {
             "class_number": "13952",
-            "enrollment_cap": -2,
+            "enrollment_cap": -1,
             "enrollment_count": 0,
             "instructor": "Ganjavi,Shadi",
             "days": null,
@@ -272,51 +260,53 @@
         },
         "13950": {
             "class_number": "13950",
-            "enrollment_cap": 10,
+            "enrollment_cap": 8,
             "enrollment_count": 0,
             "instructor": "Galasso,Joseph A",
             "days": "F",
-            "location": "JR214",
+            "location": "JR246",
             "start_time": "1400h",
             "end_time": "1645h"
         }
     },
     "LING 427": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
             "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "14281": {
-            "class_number": "14281",
-            "enrollment_cap": 4,
-            "enrollment_count": 0,
-            "instructor": "Sanchez-Munoz,Ana",
-            "days": "R",
-            "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1100h",
+            "end_time": "1215h"
         }
     },
     "LING 505": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
             "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    },
+    "LING 506": {
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
+            "enrollment_count": 0,
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
+            "location": "JR214",
+            "start_time": "1100h",
+            "end_time": "1215h"
         },
         "15242": {
             "class_number": "15242",
-            "enrollment_cap": 12,
+            "enrollment_cap": 13,
             "enrollment_count": 0,
             "instructor": "Kim,Stephanie Hyeri",
             "days": "R",
@@ -325,50 +315,58 @@
             "end_time": "2145h"
         }
     },
-    "LING 506": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
-            "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
-            "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        },
-        "15179": {
-            "class_number": "15179",
-            "enrollment_cap": 3,
-            "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "T",
-            "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
-        }
-    },
     "LING 525": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
             "location": "JR214",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "15242": {
+            "class_number": "15242",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Kim,Stephanie Hyeri",
+            "days": "R",
+            "location": "JR212",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "14828": {
+            "class_number": "14828",
+            "enrollment_cap": 9,
+            "enrollment_count": 0,
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "M",
+            "location": "JR352",
             "start_time": "1600h",
             "end_time": "1845h"
         }
     },
     "LING 541": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
             "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "15242": {
+            "class_number": "15242",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Kim,Stephanie Hyeri",
+            "days": "R",
+            "location": "JR212",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "15006": {
             "class_number": "15006",
@@ -382,19 +380,29 @@
         }
     },
     "LING 555": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
             "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "15242": {
+            "class_number": "15242",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Kim,Stephanie Hyeri",
+            "days": "R",
+            "location": "JR212",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "14727": {
             "class_number": "14727",
-            "enrollment_cap": 4,
+            "enrollment_cap": 5,
             "enrollment_count": 0,
             "instructor": "Kim,Stephanie Hyeri",
             "days": "R",
@@ -404,15 +412,25 @@
         }
     },
     "LING 566": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
             "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "15242": {
+            "class_number": "15242",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Kim,Stephanie Hyeri",
+            "days": "R",
+            "location": "JR212",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "14728": {
             "class_number": "14728",
@@ -426,19 +444,29 @@
         }
     },
     "LING 698D": {
-        "14533": {
-            "class_number": "14533",
-            "enrollment_cap": 12,
+        "20792": {
+            "class_number": "20792",
+            "enrollment_cap": 23,
             "enrollment_count": 0,
-            "instructor": "Saltzman,Moira",
-            "days": "M",
+            "instructor": "Yoon,Hyung-Jo",
+            "days": "MW",
             "location": "JR214",
-            "start_time": "1600h",
-            "end_time": "1845h"
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "15242": {
+            "class_number": "15242",
+            "enrollment_cap": 13,
+            "enrollment_count": 0,
+            "instructor": "Kim,Stephanie Hyeri",
+            "days": "R",
+            "location": "JR212",
+            "start_time": "1900h",
+            "end_time": "2145h"
         },
         "15178": {
             "class_number": "15178",
-            "enrollment_cap": 10,
+            "enrollment_cap": 9,
             "enrollment_count": 0,
             "instructor": "Ruth-Hirrel,Laura",
             "days": "R",
