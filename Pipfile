@@ -8,6 +8,9 @@ requests = "*"
 fastapi = "*"
 uvicorn = "*"
 jinja2 = "*"
+flask = "*"
+flask-cors = "*"
+mariadb = "*"
 
 [dev-packages]
 
