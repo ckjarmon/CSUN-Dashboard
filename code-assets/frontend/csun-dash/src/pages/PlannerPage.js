@@ -3,7 +3,7 @@ import AddClasses from "../elements/Add_Classes/AddClasses";
 import ClassSelections from "../elements/Class_Selections/ClassSelections";
 import { useState } from 'react'
 
-function PlannerPage() {
+function PlannerPage({handleAlert}) {
     const [addedClasses, setAddedClasses] = useState([])
 
     const [addedClassIcon, setAddedClassIcon] = useState({})
@@ -25,7 +25,10 @@ function PlannerPage() {
                     [event.class_number]: !addedClassIcon[event.class_number]
                 })
                 setAddedClasses(oldArray => [...oldArray, event])
+                console.log(event)
+                handleAlert({severity: "success", message: "Class Has Been Added To Planner"})
             } else {
+                handleAlert({severity: "error", message: "This Class Is Already Added In Your Planner"})
                 console.log("This Class Is Already Added To Your Schedule!")
             }
         } else {

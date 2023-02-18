@@ -21,23 +21,21 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
     const [selectedCourseInfo, setSelectedCourseInfo] = useState({})
 
     function handleInfoButton(event) {
-        console.log(event)
         setOpenModal(!openModal)
-
         fetch(`https://api.kyeou.xyz/${event.subject}/catalog`)
-            .then(response => response.json())
-            .then(catalogData => {
-                let catalogInfo = {}
+        .then(response => response.json())
+        .then(catalogData => {
+            let catalogInfo = {}
 
-                for (let i = 0; i < catalogData.length; i++) {
-                    if (event.catalog_number === catalogData[i].catalog_number) {
-                        catalogInfo = catalogData[i]
-                    }
+            for (let i = 0; i < catalogData.length; i++) {
+                if (event.catalog_number === catalogData[i].catalog_number) {
+                    catalogInfo = catalogData[i]
                 }
-                catalogInfo["prerequisites"] = catalogInfo["prerequisites"]
+            }
+            catalogInfo["prerequisites"] = catalogInfo["prerequisites"]
 
-                setSelectedCourseInfo(catalogInfo)
-            })
+            setSelectedCourseInfo(catalogInfo)
+        })
     }
 
     function handleInfoButtonClose() {
@@ -80,8 +78,6 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
                     </TableBody>
                 </Table>
             </TableContainer>
-
-
 
             <Modal
                 open={openModal}
