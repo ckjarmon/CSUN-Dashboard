@@ -5,12 +5,12 @@ name = "pypi"
 
 [packages]
 requests = "*"
-fastapi = "*"
 uvicorn = "*"
 jinja2 = "*"
 flask = "*"
 flask-cors = "*"
 mariadb = "*"
+fastapi = {extras = ["all"], version = "*"}
 
 [dev-packages]
 
