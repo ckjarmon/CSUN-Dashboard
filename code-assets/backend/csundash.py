@@ -1,5 +1,4 @@
-from pprint import pprint
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 from flask_cors import CORS
 import json
 import itertools
@@ -7,7 +6,6 @@ import mariadb
 
 app = Flask(__name__)
 CORS(app)
-
 
 
 def establish_conn():
@@ -23,14 +21,10 @@ def establish_conn():
         print(f"Error connecting to MariaDB Platform: {err}")
         
 
-
-# create function to teardown connection after every return 
 def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
 
-
-
-    
+ 
 # do not call initial parse call with empty string
 # all initial calls should start with _start = "Take "
 def parse(_parseable, _start):
@@ -122,11 +116,6 @@ def get(**kwargs):
     "corequisites":x[6]} for x in le_fetch]
     
     
-
-# @app.route('/sql')
-# def sql(**kwargs):
-#    rootCursor.execute("SELECT * FROM csun.COMP_view")
-#    return [x for x in rootCursor.fetchall()]
 
 @app.route('/<string:subject>/professors')
 def professors(**kwargs):
@@ -492,20 +481,6 @@ def schedule(**kwargs):
         rootCursor.close()
         rootConnection.close()
         return [c | {"units": course_units[c['catalog_number']]} for c in section_payload]
-       
-"""
-@app.route('/planner', methods=['POST'])
-def cost(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
-    new_data = request.get_json(force=True)
-    units = 0
-    for c in new_data["selections"]:
-        rootCursor.execute(
-            f"SELECT units FROM csun.{c.split()[0].upper()}_view WHERE catalog_number = '{c.split()[1]}'")
-        units += int(rootCursor.fetchall()[0][0])
-    return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
-"""
 
 
 if __name__ == "__main__":
