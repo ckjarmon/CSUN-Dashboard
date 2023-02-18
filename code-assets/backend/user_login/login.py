@@ -29,7 +29,7 @@ def signup():
     rootCursor.execute(f"insert into user (username, password, email) values (%s,%s,%s)", 
                        (signup_data['username'],signup_data['password'], signup_data['email']))
     
-    return json.load(open(f"../../backend/json_users/{hashlib.sha3_256(signup_data['username']).hexdigest()}"))
+    return json.load(open(f"../../backend/json_users/{hashlib.sha3_256(signup_data['username'].encode()).hexdigest()}"))
 
 
 """{"username", "password"}"""
