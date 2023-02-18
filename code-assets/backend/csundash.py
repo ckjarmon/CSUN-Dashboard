@@ -1,4 +1,4 @@
-import pprint
+from pprint import pprint
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
 import json
@@ -430,6 +430,7 @@ def schedule(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     try:
+        assert 'catalog_number' in kwargs
         rootCursor.execute(f"""SELECT 
                            class_number, 
                            enrollment_cap, 
@@ -442,7 +443,9 @@ def schedule(**kwargs):
                            catalog_number, 
                            subject 
                            FROM section WHERE subject = '{kwargs['subject'].upper()}' AND catalog_number = '{kwargs['catalog_number']}'""")
-        return [{"class_number": c[0],
+        le_fetch = rootCursor.fetchall()
+        
+        section_payload = [{"class_number": c[0],
                  "enrollment_cap": c[1],
                  "enrollment_count": c[2],
                  "instructor": c[3],
@@ -451,8 +454,12 @@ def schedule(**kwargs):
                  "start_time": c[6],
                  "end_time": c[7],
                  "catalog_number": c[8],
-                 "subject": c[9]} for c in rootCursor.fetchall()]
-    except KeyError:
+                 "subject": c[9]} for c in le_fetch]
+        rootCursor.execute(f"select units from catalog where catalog_number = '{kwargs['catalog_number']}'")
+        units = rootCursor.fetchall()[0][0]
+        
+        return [c | {"units": units} for c in section_payload]
+    except (KeyError, AssertionError):
         rootCursor.execute(f"""SELECT 
                            class_number, 
                            enrollment_cap, 
@@ -467,10 +474,8 @@ def schedule(**kwargs):
                            FROM section WHERE subject = '{kwargs['subject'].upper()}'""")
         le_fetch = rootCursor.fetchall()
     
-        rootConnection.commit()
-        rootCursor.close()
-        rootConnection.close()
-        return [{"class_number": c[0],
+        
+        section_payload = [{"class_number": c[0],
                  "enrollment_cap": c[1],
                  "enrollment_count": c[2],
                  "instructor": c[3],
@@ -480,7 +485,14 @@ def schedule(**kwargs):
                  "end_time": c[7],
                  "catalog_number": c[8],
                  "subject": c[9]} for c in le_fetch]
-
+        rootCursor.execute(f"select catalog_number, units from catalog where subject = '{kwargs['subject']}'")
+        course_units = rootCursor.fetchall()
+        course_units = dict((x, y) for x, y in course_units)
+        rootConnection.commit()
+        rootCursor.close()
+        rootConnection.close()
+        return [c | {"units": course_units[c['catalog_number']]} for c in section_payload]
+       
 """
 @app.route('/planner', methods=['POST'])
 def cost(**kwargs):
