@@ -8,5 +8,7 @@ __pycache__
 .pytest_cache
 test/frontend/jest_reports/
 test/.coverage
-.hypothesis/examples/
-test/backend/.hypothesis/
+.hypothesis/examples/*
+.hypothesis/examples\*
+test\.hypothesis*
+test/backend/.hypothesis/*

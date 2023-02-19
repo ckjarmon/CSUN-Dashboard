@@ -2,7 +2,9 @@
 from hypothesis import given, strategies as st
 import pytest_mutagen as mg
 from unittest import TestCase, mock
-import sys, os, path
+import sys
+import os
+import path
 
 # determines os and finds files to test
 ################################################################
@@ -14,12 +16,10 @@ os.chdir(currDirectory)
 ################################################################
 
 # import testing modules
-from csundash import home, name_normalize, get, professors, new_rating, get_ratings, prof_name, schedule
-from csundash import establish_conn, historical_profs, cost, classes
+from csundash_fastapi import get, professors, new_rating, get_ratings, classes, schedule
 
 # create a list of all functions we are going to run mutation analysis on
-mutation_list = [home, name_normalize, get, professors, new_rating, get_ratings, prof_name, schedule,
-                establish_conn, historical_profs, cost, classes]
+mutation_list = [get, professors, new_rating, get_ratings, classes, schedule]
 
 @given(st.integers(), st.integers())
 def test_ints_are_commutative(x, y):
