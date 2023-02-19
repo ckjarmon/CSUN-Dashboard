@@ -7,7 +7,7 @@ import ProfessorSearchPage from './pages/ProfessorSearchPage';
 import SignInPage from './pages/SignInPage'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import MajorsMenu from './elements/Majors/MajorsMenu';
-// import CSMajor from './elements/Majors/CS'
+import CSMajor from './elements/Majors/CS'
 import { Alert } from "@mui/material"
 
 import _A242 from './elements/Majors/react_files/a242'
@@ -194,7 +194,7 @@ function App() {
           <Route path='/professor-search' element={<ProfessorSearchPage />} />
           <Route path='/signIn' element={<SignInPage />} />
 
-
+          <Route path='/majors/cs' element={<CSMajor />} />
         
 
           <Route path='/majors/a242' element={<_A242 />} />
