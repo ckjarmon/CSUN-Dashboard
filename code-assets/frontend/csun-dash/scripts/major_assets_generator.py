@@ -1,7 +1,6 @@
 import re
 import json
 from glob import *
-from pprint import pprint
 from hashlib import sha1
 
 path_to_majors = '../../../backend/data/json_majors/*'
@@ -249,29 +248,6 @@ with open('./imports.txt', 'w') as f:
         f.write(imp + '\n')
         
         
-"""for name in glob(path_to_majors):
-    m = json.load(open(name, 'r'))
-    # print(m['prog-reqq-blob'][0])
-    for a, _l in enumerate(m['prog-reqq-blob']):
-        if _l[0:2] == '1.':
-            # print(*m['prog-reqq-blob'][0:a+1], sep='\n')
-            # print()
-            break
-        elif m['prog-reqq-blob'][-1] == _l: 
-            # pprint(m['prog-reqq-blob'])
-            # print()
-"""
-
-# for name in glob(path_to_majors):
-#     m = json.load(open(name, 'r'))
-#     print(name)
-#     name = name.split('\\')[-1].replace(';', ':').replace('---', '/').removesuffix('.json')
-#     
-# 
-
-
-
-   
 
 
 
