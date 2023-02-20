@@ -66,7 +66,7 @@ const prog_reqqs = [
 
 
 
-const titleStyle = { color: '#E31C25', marginLeft: "40%" }
+const titleStyle = { color: '#E31C25', justifyContent: "center", textAlign: "center" }
 const redBoldStyle = { color: 'red', fontWeight: 'bold', textDecorationLine: 'underline', padding: "10px", textAlign: "left" }
 const subRedBoldStyle = { color: 'red', textDecorationLine: 'underline', textAlign: "left", marginLeft: "4%" }
 const subHeaderStyle = { color: 'black', fontweight: 'heavy', textDecorationLine: 'underline', padding: "2px", }
@@ -76,7 +76,7 @@ const sublist_style = { padding: "10px", marginLeft: "6%" }
 const subsequence_style = { padding: "5px" }
 
 const fineprint_style = { fontWeight: 'bold' }
-const option_style = { marginLeft: "2%" }
+const option_style = { marginLeft: "2%" , padding: "5px"}
 const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
 const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
 
@@ -92,8 +92,8 @@ function CS() {
                     <Box color="black" bgcolor="#eeeeee" p={1}>
 
                         <div style={{ marginLeft: '1%', padding: "" }}>
-                            <h2 style={titleStyle}>Computer Science</h2>
-                            <div style={redBoldStyle}>Program Requirements</div>
+                            <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>Computer Science</h2>
+                            <div style={titleStyle}>Program Requirements</div>
 
                             <ul style={information_style}>
                                 <li>The B.S. in Computer Science program requires a total of 120 units, including General Education requirements, major core courses and a 15-unit senior electives package. To graduate, a student must complete a minimum of 18 residency units from the list of upper division required courses listed below in addition to all other institutional residency requirements.</li>
@@ -119,22 +119,20 @@ function CS() {
                             <div style={redBoldStyle}>2. Lower Division Electives (12-14 units)</div>
                             <div style={subRedBoldStyle}>a. Select one of the following science sequences (8-10 units)</div>
                             <ul style={sublist_style}>
-                                <ul style={subsequence_style}>
+                                <ul style={option_style}>
                                     <li>BIOL 106/BIOL 106L Biological Principles I and Lab (3/1)</li>
                                     <li>BIOL 107/BIOL 107L Biological Principles II and Lab (3/1)*</li>
                                 </ul>
-                                <ul style={subsequence_style}>
+                                <ul style={option_style}>
                                     <li>CHEM 101/CHEM 101D/CHEM 101L General Chemistry I and Discussion and Lab (3/1/1)</li>
                                     <li>CHEM 102/CHEM 102D/CHEM 102L General Chemistry II and Discussion and Lab (3/1/1)</li>
                                 </ul>
-                                <ul style={subsequence_style}>
+                                <ul style={option_style}>
                                     <li>PHYS 220A/PHYS 220AL Mechanics and Lab (3/1)</li>
                                     <li>PHYS 220B/PHYS 220BL Electricity and Magnetism and Lab (3/1)</li>
                                 </ul>
                                 <div style={fineprint_style}>*BIOL 107/L has recommended prerequisites of CHEM 101 and CHEM 101L.</div>
                             </ul>
-
-
                             <div style={subRedBoldStyle}>b. Select an additional science course with corresponding lab outside of the sequence selected above (4-5 units)</div>
                             <ul style={sublist_style}>
                                 <li>BIOL 106/BIOL 106L Biological Principles I and Lab (3/1)</li>
@@ -165,8 +163,6 @@ function CS() {
                                     <li>MATH 341 Applied Statistics I (3)</li>
                                 </ul>
                             </ul>
-
-
                             <div style={redBoldStyle}>4. Upper Division Electives (15 units)</div>
                             <ul style={information_style}>
                                 <li>Computer Science majors are required to take 15 units of senior electives.</li>
@@ -186,17 +182,11 @@ function CS() {
                                 <li>General Education Units: 30</li>
                                 <li>Additional Units: 1-3</li>
                                 <li>Total Units Required for the B.S. Degree: 120</li> </ul>
-
-
                         </div>
                     </Box>
-
-
                 </div>
-
             </span>
         </div>
-
     )
 }
 

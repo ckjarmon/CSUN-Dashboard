@@ -1,33 +1,38 @@
-
-    import Header from "../../../components/Header";
-    import Box from '@mui/system/Box'
-    // import WebFont from 'webfontloader';
-
-    const titleStyle = { color: '#E31C25', justifyContent: "center", textAlign: "center" }
-    const redBoldStyle = { color: 'red', fontWeight: 'bold', textDecorationLine: 'underline', padding: "10px", textAlign: "left" }
-    const subRedBoldStyle = { color: 'red', textDecorationLine: 'underline', textAlign: "left", marginLeft: "4%" }
-    const subHeaderStyle = { color: 'black', fontweight: 'heavy', textDecorationLine: 'underline', padding: "2px", }
-
-    const list_style = { marginLeft: "4%" }
-    const sublist_style = { padding: "10px", marginLeft: "6%" }
-    const subsequence_style = { padding: "5px" }
-
-    const fineprint_style = { fontWeight: 'bold' }
-    const option_style = { marginLeft: "2%", padding: "5px" }
-    const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
-    const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+import Header from "../../components/Header";
+import Box from '@mui/system/Box'
+// import WebFont from 'webfontloader';
 
 
-    function _2C06() {
-        return (
 
-            <div style={{ backgroundColor: "white" }}>
-                <Header></Header>
-                <span className="font-link">
-                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
-                        <Box color="black" bgcolor="#eeeeee" p={1}>
-                            <div style={{ marginLeft: '1%', padding: "" }}>
-                            <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>B.S., Computer Science</h2><div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>The B.S. in Computer Science program requires a total of 120 units, including General Education requirements, major core courses and a 15-unit senior electives package. To graduate, a student must complete a minimum of 18 residency units from the list of upper division required courses listed below in addition to all other institutional residency requirements.</li>
+
+
+const titleStyle = { color: '#E31C25', marginLeft: "40%" }
+const redBoldStyle = { color: 'red', fontWeight: 'bold', textDecorationLine: 'underline', padding: "10px", textAlign: "left" }
+const subRedBoldStyle = { color: 'red', textDecorationLine: 'underline', textAlign: "left", marginLeft: "4%" }
+const subHeaderStyle = { color: 'black', fontweight: 'heavy', textDecorationLine: 'underline', padding: "2px", }
+
+const list_style = { marginLeft: "4%" }
+const sublist_style = { padding: "10px", marginLeft: "6%" }
+const subsequence_style = { padding: "5px" }
+
+const fineprint_style = { fontWeight: 'bold' }
+const option_style = { marginLeft: "2%", padding: "5px" }
+const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
+const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+
+
+function CS() {
+    return (
+
+        <div style={{ backgroundColor: "white" }}>
+            <Header></Header>
+            <span className="font-link">
+
+                <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
+                    <Box color="black" bgcolor="#eeeeee" p={1}>
+
+                        <div style={{ marginLeft: '1%', padding: "" }}>
+                        <div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>The B.S. in Computer Science program requires a total of 120 units, including General Education requirements, major core courses and a 15-unit senior electives package. To graduate, a student must complete a minimum of 18 residency units from the list of upper division required courses listed below in addition to all other institutional residency requirements.</li>
 <li>Special Grade Requirements</li>
 <li>Carefully check course prerequisites as many courses in the major require grades of C or better in prerequisite courses.</li>
 <li>No grade lower than a C will be accepted on transfer from another institution to satisfy Computer Science requirements. Where specific grade requirements are not specified, no CSUN grade lower than a C- will be accepted for courses required in the Computer Science program.</li>
@@ -93,7 +98,7 @@
 </ul>
 <div style={redBoldStyle}>4. Upper Division Electives (15 units)</div>
 <ul style={list_style}>
-<li>Computer Science majors are required to take 15 units of senior electives.</li>
+<li>Computer Science majors are required to take 15 units of senior electives.</li>    
 <li>The senior electives must consist of 15 units of 400- or 500-level courses in Computer Science (not COMP 450, 480/L, 482, 490/L, 491L, 494 or 499). The electives may include MATH 481A (Numerical Analysis) as 3 of the 15 units.</li>
 <li>Requests for taking a 400- or 500-level course as a senior elective that does not meet the requirements stated above must be approved by the student's faculty advisor and by the department chair prior to enrollment in the course.</li>
 <li>It is strongly recommended that students discuss their career goals with an advisor prior to selecting their senior electives. The advisor will suggest appropriate courses for the student to consider.</li>
@@ -103,17 +108,22 @@
 <li>Undergraduate students must complete 48 units of General Education as described in this Catalog, including 3 units of coursework meeting the Ethnic Studies (ES) graduation requirement.</li>
 <li>18 units are satisfied by coursework in the major. Completion of the Computer Science major satisfies A3 Critical Thinking. 6 units of Physical Science or Life Science may be used to satisfy sections B1-3. MATH 150A satisfies Basic Skills B4 Mathematics/Quantitative Reasoning; COMP 310 satisfies B5 Scientific Inquiry and Quantitative Reasoning; and COMP 110/L satisfies E Lifelong Learning.</li>
 </ul>
-<br></br><ul style={summary_style}>
+<ul style={summary_style}>
 <li>Total Units in the Major: 87-89</li>
 <li>General Education Units: 30</li>
 <li>Additional Units: 1-3</li>
 <li>Total Units Required for the B.S. Degree: 120</li>
 </ul>
-  </div>
+
+
+                        </div>
                     </Box>
                 </div>
             </span>
         </div>
     )
 }
-export default _2C06
+
+
+export default CS
+
