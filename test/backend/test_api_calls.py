@@ -142,9 +142,9 @@ def test_get_route_returns_code_200():
      subject_kwarg = "COMP"
      #assert isinstance(get(subject=subject_kwarg), dict) == True
      #assert response.status_code == 200\
-     response = client.get("/")
-     print(f"The status code of this: {status_code}")
-     assert True
+     response = client.get("comp/catalog")
+     print(f"The status code of this: {response.status_code}")
+     assert response.status_code == 200
 
 ################################################################
 # KEEP
