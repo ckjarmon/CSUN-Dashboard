@@ -1,6 +1,13 @@
 from unittest import TestCase, mock
-import sys, os, requests, json
-import path, pytest, requests_mock, warnings, mariadb
+import sys
+import os
+import requests
+import json
+import path
+import pytest
+import requests_mock
+import warnings
+import mariadb
 from flask import Flask, request
 
 # determines os and finds files to test
@@ -15,8 +22,9 @@ os.chdir(currDirectory)
 ################################################################
 
 # search for correct dir and file and import the methods to be tested
-from csundash import home, name_normalize, get, professors, get_ratings, prof_name, schedule
-from csundash import establish_conn, historical_profs, classes
+# from csundash import home, name_normalize, get, professors, get_ratings, prof_name, schedule
+# from csundash import establish_conn, historical_profs, classes
+from csundash_fastapi import get, professors, new_rating, get_ratings, classes, schedule
 
 ################################################################
 # test establishing connection to database
@@ -30,41 +38,42 @@ from csundash import establish_conn, historical_profs, classes
 #           host='127.0.0.1',
 #           port=3306,
 #           database='csun'))
-def test_conn_returns_valid():
-     assert type(establish_conn()) == mariadb.connections.Connection
+# def test_conn_returns_valid():
+#      assert type(establish_conn()) == mariadb.connections.Connection
 
 ################################################################
 # test the name_normalization function
-def test_name_normalize_common_returns_regular():
-     string_to_pass = "bOb"
-     assert name_normalize(string_to_pass) == "Bob"
-     string_to_pass = "bob"
-     assert name_normalize(string_to_pass) == "Bob"
+# def test_name_normalize_common_returns_regular():
+#      string_to_pass = "bOb"
+#      assert name_normalize(string_to_pass) == "Bob"
+#      string_to_pass = "bob"
+#      assert name_normalize(string_to_pass) == "Bob"
 
-# name_normalize behavior should throw a type error to be correct
-def test_name_normalize_int_returns_error():
-     int_to_pass = 123
-     with pytest.raises(TypeError):
-          name_normalize(int_to_pass)
+# # name_normalize behavior should throw a type error to be correct
+# def test_name_normalize_int_returns_error():
+#      int_to_pass = 123
+#      with pytest.raises(TypeError):
+#           name_normalize(int_to_pass)
 
 ################################################################
 # test prof_name function
-@pytest.mark.xfail(raises=AttributeError)
-def test_prof_name_returns_correct_name():
-     example_prof = "John Noga"
-     assert prof_name(subject="comp", prof_email="john.noga@csun.edu") == example_prof
+# @pytest.mark.xfail(raises=AttributeError)
+# def test_prof_name_returns_correct_name():
+#      example_prof = "John Noga"
+#      assert prof_name(subject="comp", prof_email="john.noga@csun.edu") == example_prof
 
-# found two different exceptions with this one
-@pytest.mark.xfail(raises=AttributeError)
-# proves that def prof_name(**kwargs) needs to handle invalid input
-# when supplied invalid information, the function returns an index error
-def test_prof_name_incorrect_returns_error():
-     with pytest.raises(TypeError):
-          warnings.warn(UserWarning("prof_name located in code-assets/backend/server.py \n"
-          "Throws an IndexError exception if passed invalid subject/prof_email"))
-          assert prof_name(subject="null", prof_email="unknown@csun.edu")
+# # found two different exceptions with this one
+# @pytest.mark.xfail(raises=AttributeError)
+# # proves that def prof_name(**kwargs) needs to handle invalid input
+# # when supplied invalid information, the function returns an index error
+# def test_prof_name_incorrect_returns_error():
+#      with pytest.raises(TypeError):
+#           warnings.warn(UserWarning("prof_name located in code-assets/backend/server.py \n"
+#           "Throws an IndexError exception if passed invalid subject/prof_email"))
+#           assert prof_name(subject="null", prof_email="unknown@csun.edu")
 
 ################################################################
+# KEEP
 # test classs function (was catalog, needs to be classes)
 # throws an attribute error, needs to be fixed
 @pytest.mark.xfail(raises=AttributeError)
@@ -102,18 +111,19 @@ def test_catalog_returns_correct_class_string():
 #           assert inst()
 
 ################################################################
-# test base home route
-# test to see if home page request status is correct
-def test_home_route_returns_correct_home_page():
-     response = requests.get('http://csundash.kyeou.xyz/')
-     assert response.status_code == 200
+# # test base home route
+# # test to see if home page request status is correct
+# def test_home_route_returns_correct_home_page():
+#      response = requests.get('http://csundash.kyeou.xyz/')
+#      assert response.status_code == 200
 
-# test to see if home page returns correct html code
-def test_home_page_return_correct_html():
-     html_code = "<h1 style='color:blue'>Hello There!</h1>"
-     assert home() == html_code
+# # test to see if home page returns correct html code
+# def test_home_page_return_correct_html():
+#      html_code = "<h1 style='color:blue'>Hello There!</h1>"
+#      assert home() == html_code
 
 ################################################################
+# KEEP
 # test get route
 # tests to see if the get function retrieves a valid JSON file
 def test_get_route_returns_correct_json():
@@ -122,6 +132,7 @@ def test_get_route_returns_correct_json():
      assert isinstance(get(subject=subject_kwarg, data=data_kwarg), dict) == True
 
 ################################################################
+# KEEP
 # test professors
 # throws an attribute error, needs to be fixed
 @pytest.mark.xfail(raises=AttributeError)
@@ -151,6 +162,7 @@ def test_professors():
 
 
 ################################################################
+# KEEP
 # test get ratings
 # found two exceptions thrown here
 @pytest.mark.xfail(raises=AttributeError)
@@ -165,6 +177,7 @@ def test_get_ratings_return_prof_ratings():
 #def test_get_ratings_invalid_connection():
 
 ################################################################
+# KEEP
 # test schedule
 
 # found two exceptions thrown here
@@ -178,18 +191,13 @@ def test_schedule_return_sched():
           assert schedule(subject=subject_kwarg, catalog_number=catalog_number_kwarg)
 
 ################################################################
-# test historical profs
+# # test historical profs
 
-# historical profs are returned
-def test_historical_profs_returns_dict():
-     subject_kwarg = "COMP"
-     catalog_number_kwarg = "110"
-     amount_kwarg = 1
-     assert historical_profs(subject=subject_kwarg,catalog_number=catalog_number_kwarg,amount=amount_kwarg)
-
-################################################################
-# test cost
-# def test_cost_returns_valid():
-#      assert cost()
+# # historical profs are returned
+# def test_historical_profs_returns_dict():
+#      subject_kwarg = "COMP"
+#      catalog_number_kwarg = "110"
+#      amount_kwarg = 1
+#      assert historical_profs(subject=subject_kwarg,catalog_number=catalog_number_kwarg,amount=amount_kwarg)
 
 ################################################################
