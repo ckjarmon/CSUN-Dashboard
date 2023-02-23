@@ -1,19 +1,4 @@
--- MySQL dump 10.13  Distrib 8.0.31, for Win64 (x86_64)
---
--- Host: 127.0.0.1    Database: csun
--- ------------------------------------------------------
--- Server version	8.0.31
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!50503 SET NAMES utf8 */;
-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
-/*!40103 SET TIME_ZONE='+00:00' */;
-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
 -- Temporary view structure for view `fren_view`
@@ -22,7 +7,7 @@
 DROP TABLE IF EXISTS `fren_view`;
 /*!50001 DROP VIEW IF EXISTS `fren_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `fren_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -40,7 +25,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `rs_view`;
 /*!50001 DROP VIEW IF EXISTS `rs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `rs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -58,7 +43,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `blaw_view`;
 /*!50001 DROP VIEW IF EXISTS `blaw_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `blaw_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -76,7 +61,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `mgt_view`;
 /*!50001 DROP VIEW IF EXISTS `mgt_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `mgt_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -94,7 +79,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `coms_view`;
 /*!50001 DROP VIEW IF EXISTS `coms_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `coms_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -112,7 +97,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ctva_view`;
 /*!50001 DROP VIEW IF EXISTS `ctva_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ctva_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -130,7 +115,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `js_view`;
 /*!50001 DROP VIEW IF EXISTS `js_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `js_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -148,7 +133,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `hist_view`;
 /*!50001 DROP VIEW IF EXISTS `hist_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `hist_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -166,7 +151,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `math_view`;
 /*!50001 DROP VIEW IF EXISTS `math_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `math_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -184,7 +169,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `bana_view`;
 /*!50001 DROP VIEW IF EXISTS `bana_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `bana_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -202,7 +187,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `re_view`;
 /*!50001 DROP VIEW IF EXISTS `re_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `re_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -220,7 +205,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `am_view`;
 /*!50001 DROP VIEW IF EXISTS `am_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `am_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -238,7 +223,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `rtm_view`;
 /*!50001 DROP VIEW IF EXISTS `rtm_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `rtm_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -256,7 +241,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `soc_view`;
 /*!50001 DROP VIEW IF EXISTS `soc_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `soc_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -274,7 +259,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `deaf_view`;
 /*!50001 DROP VIEW IF EXISTS `deaf_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `deaf_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -292,7 +277,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `gws_view`;
 /*!50001 DROP VIEW IF EXISTS `gws_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `gws_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -310,7 +295,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `cm_view`;
 /*!50001 DROP VIEW IF EXISTS `cm_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `cm_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -328,7 +313,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `sci_view`;
 /*!50001 DROP VIEW IF EXISTS `sci_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `sci_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -346,7 +331,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `fcs_view`;
 /*!50001 DROP VIEW IF EXISTS `fcs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `fcs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -364,7 +349,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `at_view`;
 /*!50001 DROP VIEW IF EXISTS `at_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `at_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -382,7 +367,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ling_view`;
 /*!50001 DROP VIEW IF EXISTS `ling_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ling_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -400,7 +385,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `jour_view`;
 /*!50001 DROP VIEW IF EXISTS `jour_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `jour_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -418,7 +403,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `cecs_view`;
 /*!50001 DROP VIEW IF EXISTS `cecs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `cecs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -436,7 +421,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ital_view`;
 /*!50001 DROP VIEW IF EXISTS `ital_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ital_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -454,7 +439,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `cce_view`;
 /*!50001 DROP VIEW IF EXISTS `cce_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `cce_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -472,7 +457,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `mcom_view`;
 /*!50001 DROP VIEW IF EXISTS `mcom_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `mcom_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -490,7 +475,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `hhd_view`;
 /*!50001 DROP VIEW IF EXISTS `hhd_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `hhd_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -508,7 +493,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `cadv_view`;
 /*!50001 DROP VIEW IF EXISTS `cadv_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `cadv_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -526,7 +511,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `nurs_view`;
 /*!50001 DROP VIEW IF EXISTS `nurs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `nurs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -544,7 +529,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `qs_view`;
 /*!50001 DROP VIEW IF EXISTS `qs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `qs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -562,7 +547,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `cas_view`;
 /*!50001 DROP VIEW IF EXISTS `cas_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `cas_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -580,7 +565,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `lib_view`;
 /*!50001 DROP VIEW IF EXISTS `lib_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `lib_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -598,7 +583,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `phys_view`;
 /*!50001 DROP VIEW IF EXISTS `phys_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `phys_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -616,7 +601,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `swrk_view`;
 /*!50001 DROP VIEW IF EXISTS `swrk_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `swrk_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -634,7 +619,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `afrs_view`;
 /*!50001 DROP VIEW IF EXISTS `afrs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `afrs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -652,7 +637,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `sust_view`;
 /*!50001 DROP VIEW IF EXISTS `sust_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `sust_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -670,7 +655,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `sped_view`;
 /*!50001 DROP VIEW IF EXISTS `sped_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `sped_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -688,7 +673,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `som_view`;
 /*!50001 DROP VIEW IF EXISTS `som_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `som_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -706,7 +691,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `arab_view`;
 /*!50001 DROP VIEW IF EXISTS `arab_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `arab_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -724,7 +709,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `chs_view`;
 /*!50001 DROP VIEW IF EXISTS `chs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `chs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -742,7 +727,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ae_view`;
 /*!50001 DROP VIEW IF EXISTS `ae_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ae_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -760,7 +745,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `inds_view`;
 /*!50001 DROP VIEW IF EXISTS `inds_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `inds_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -778,7 +763,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `hebr_view`;
 /*!50001 DROP VIEW IF EXISTS `hebr_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `hebr_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -796,7 +781,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `armn_view`;
 /*!50001 DROP VIEW IF EXISTS `armn_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `armn_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -814,7 +799,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `flit_view`;
 /*!50001 DROP VIEW IF EXISTS `flit_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `flit_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -832,7 +817,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `sed_view`;
 /*!50001 DROP VIEW IF EXISTS `sed_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `sed_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -850,7 +835,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `biol_view`;
 /*!50001 DROP VIEW IF EXISTS `biol_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `biol_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -868,7 +853,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `hum_view`;
 /*!50001 DROP VIEW IF EXISTS `hum_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `hum_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -886,7 +871,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `geol_view`;
 /*!50001 DROP VIEW IF EXISTS `geol_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `geol_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -904,7 +889,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `hsci_view`;
 /*!50001 DROP VIEW IF EXISTS `hsci_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `hsci_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -922,7 +907,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `cd_view`;
 /*!50001 DROP VIEW IF EXISTS `cd_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `cd_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -940,7 +925,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `educ_view`;
 /*!50001 DROP VIEW IF EXISTS `educ_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `educ_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -958,7 +943,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `epc_view`;
 /*!50001 DROP VIEW IF EXISTS `epc_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `epc_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -976,7 +961,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `cjs_view`;
 /*!50001 DROP VIEW IF EXISTS `cjs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `cjs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -994,7 +979,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `cit_view`;
 /*!50001 DROP VIEW IF EXISTS `cit_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `cit_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1012,7 +997,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `geh_view`;
 /*!50001 DROP VIEW IF EXISTS `geh_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `geh_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1030,7 +1015,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `univ_view`;
 /*!50001 DROP VIEW IF EXISTS `univ_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `univ_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1048,7 +1033,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `fin_view`;
 /*!50001 DROP VIEW IF EXISTS `fin_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `fin_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1066,7 +1051,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `humn_view`;
 /*!50001 DROP VIEW IF EXISTS `humn_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `humn_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1084,7 +1069,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `urbs_view`;
 /*!50001 DROP VIEW IF EXISTS `urbs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `urbs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1102,7 +1087,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `pols_view`;
 /*!50001 DROP VIEW IF EXISTS `pols_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `pols_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1120,7 +1105,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `geog_view`;
 /*!50001 DROP VIEW IF EXISTS `geog_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `geog_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1138,7 +1123,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `anth_view`;
 /*!50001 DROP VIEW IF EXISTS `anth_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `anth_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1156,7 +1141,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `gbus_view`;
 /*!50001 DROP VIEW IF EXISTS `gbus_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `gbus_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1174,7 +1159,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ais_view`;
 /*!50001 DROP VIEW IF EXISTS `ais_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ais_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1192,7 +1177,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `clas_view`;
 /*!50001 DROP VIEW IF EXISTS `clas_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `clas_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1210,7 +1195,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ece_view`;
 /*!50001 DROP VIEW IF EXISTS `ece_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ece_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1228,7 +1213,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `kor_view`;
 /*!50001 DROP VIEW IF EXISTS `kor_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `kor_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1246,7 +1231,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `kin_view`;
 /*!50001 DROP VIEW IF EXISTS `kin_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `kin_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1264,7 +1249,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `phil_view`;
 /*!50001 DROP VIEW IF EXISTS `phil_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `phil_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1282,7 +1267,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `art_view`;
 /*!50001 DROP VIEW IF EXISTS `art_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `art_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1300,7 +1285,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `russ_view`;
 /*!50001 DROP VIEW IF EXISTS `russ_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `russ_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1318,7 +1303,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `pt_view`;
 /*!50001 DROP VIEW IF EXISTS `pt_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `pt_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1336,7 +1321,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `mus_view`;
 /*!50001 DROP VIEW IF EXISTS `mus_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `mus_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1354,7 +1339,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `scm_view`;
 /*!50001 DROP VIEW IF EXISTS `scm_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `scm_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1372,7 +1357,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `eed_view`;
 /*!50001 DROP VIEW IF EXISTS `eed_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `eed_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1390,7 +1375,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `psy_view`;
 /*!50001 DROP VIEW IF EXISTS `psy_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `psy_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1408,7 +1393,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `chem_view`;
 /*!50001 DROP VIEW IF EXISTS `chem_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `chem_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1426,7 +1411,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ce_view`;
 /*!50001 DROP VIEW IF EXISTS `ce_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ce_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1444,7 +1429,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ar_view`;
 /*!50001 DROP VIEW IF EXISTS `ar_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ar_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1462,7 +1447,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `th_view`;
 /*!50001 DROP VIEW IF EXISTS `th_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `th_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1480,7 +1465,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `mse_view`;
 /*!50001 DROP VIEW IF EXISTS `mse_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `mse_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1498,7 +1483,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `span_view`;
 /*!50001 DROP VIEW IF EXISTS `span_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `span_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1516,7 +1501,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `lrs_view`;
 /*!50001 DROP VIEW IF EXISTS `lrs_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `lrs_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1534,7 +1519,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `phsc_view`;
 /*!50001 DROP VIEW IF EXISTS `phsc_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `phsc_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1552,7 +1537,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `acct_view`;
 /*!50001 DROP VIEW IF EXISTS `acct_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `acct_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1570,7 +1555,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `astr_view`;
 /*!50001 DROP VIEW IF EXISTS `astr_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `astr_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1588,7 +1573,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `ent_view`;
 /*!50001 DROP VIEW IF EXISTS `ent_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `ent_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1606,7 +1591,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `aas_view`;
 /*!50001 DROP VIEW IF EXISTS `aas_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `aas_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1624,7 +1609,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `bus_view`;
 /*!50001 DROP VIEW IF EXISTS `bus_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `bus_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1642,7 +1627,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `engl_view`;
 /*!50001 DROP VIEW IF EXISTS `engl_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `engl_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1660,7 +1645,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `chin_view`;
 /*!50001 DROP VIEW IF EXISTS `chin_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `chin_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1678,7 +1663,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `athl_view`;
 /*!50001 DROP VIEW IF EXISTS `athl_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `athl_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1696,7 +1681,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `pers_view`;
 /*!50001 DROP VIEW IF EXISTS `pers_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `pers_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1714,7 +1699,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `elps_view`;
 /*!50001 DROP VIEW IF EXISTS `elps_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `elps_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1732,7 +1717,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `eoh_view`;
 /*!50001 DROP VIEW IF EXISTS `eoh_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `eoh_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1750,7 +1735,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `sus_view`;
 /*!50001 DROP VIEW IF EXISTS `sus_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `sus_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1768,7 +1753,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `econ_view`;
 /*!50001 DROP VIEW IF EXISTS `econ_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `econ_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1786,7 +1771,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `is_view`;
 /*!50001 DROP VIEW IF EXISTS `is_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `is_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1804,7 +1789,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `comp_view`;
 /*!50001 DROP VIEW IF EXISTS `comp_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `comp_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1822,7 +1807,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `mkt_view`;
 /*!50001 DROP VIEW IF EXISTS `mkt_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `mkt_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1840,7 +1825,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `me_view`;
 /*!50001 DROP VIEW IF EXISTS `me_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `me_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1858,7 +1843,7 @@ SET character_set_client = @saved_cs_client;
 DROP TABLE IF EXISTS `japn_view`;
 /*!50001 DROP VIEW IF EXISTS `japn_view`*/;
 SET @saved_cs_client     = @@character_set_client;
-/*!50503 SET character_set_client = utf8mb4 */;
+
 /*!50001 CREATE VIEW `japn_view` AS SELECT 
  1 AS `subject`,
  1 AS `catalog_number`,
@@ -1877,9 +1862,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `fren_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'FREN') */;
@@ -1895,9 +1880,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `rs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'RS') */;
@@ -1913,9 +1898,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `blaw_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'BLAW') */;
@@ -1931,9 +1916,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `mgt_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'MGT') */;
@@ -1949,9 +1934,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `coms_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'COMS') */;
@@ -1967,9 +1952,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ctva_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CTVA') */;
@@ -1985,9 +1970,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `js_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'JS') */;
@@ -2003,9 +1988,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `hist_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'HIST') */;
@@ -2021,9 +2006,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `math_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'MATH') */;
@@ -2039,9 +2024,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `bana_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'BANA') */;
@@ -2057,9 +2042,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `re_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'RE') */;
@@ -2075,9 +2060,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `am_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'AM') */;
@@ -2093,9 +2078,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `rtm_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'RTM') */;
@@ -2111,9 +2096,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `soc_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SOC') */;
@@ -2129,9 +2114,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `deaf_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'DEAF') */;
@@ -2147,9 +2132,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `gws_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'GWS') */;
@@ -2165,9 +2150,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `cm_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CM') */;
@@ -2183,9 +2168,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `sci_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SCI') */;
@@ -2201,9 +2186,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `fcs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'FCS') */;
@@ -2219,9 +2204,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`py_serv`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `at_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'AT') */;
@@ -2237,9 +2222,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ling_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'LING') */;
@@ -2255,9 +2240,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `jour_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'JOUR') */;
@@ -2273,9 +2258,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `cecs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CECS') */;
@@ -2291,9 +2276,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ital_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ITAL') */;
@@ -2309,9 +2294,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `cce_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CCE') */;
@@ -2327,9 +2312,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `mcom_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'MCOM') */;
@@ -2345,9 +2330,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `hhd_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'HHD') */;
@@ -2363,9 +2348,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `cadv_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CADV') */;
@@ -2381,9 +2366,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `nurs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'NURS') */;
@@ -2399,9 +2384,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `qs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'QS') */;
@@ -2417,9 +2402,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `cas_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CAS') */;
@@ -2435,9 +2420,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`py_serv`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `lib_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'LIB') */;
@@ -2453,9 +2438,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `phys_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'PHYS') */;
@@ -2471,9 +2456,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `swrk_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SWRK') */;
@@ -2489,9 +2474,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `afrs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'AFRS') */;
@@ -2507,9 +2492,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `sust_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SUST') */;
@@ -2525,9 +2510,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `sped_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SPED') */;
@@ -2543,9 +2528,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `som_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SOM') */;
@@ -2561,9 +2546,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `arab_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ARAB') */;
@@ -2579,9 +2564,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `chs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CHS') */;
@@ -2597,9 +2582,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ae_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'AE') */;
@@ -2615,9 +2600,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `inds_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'INDS') */;
@@ -2633,9 +2618,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `hebr_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'HEBR') */;
@@ -2651,9 +2636,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `armn_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ARMN') */;
@@ -2669,9 +2654,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `flit_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'FLIT') */;
@@ -2687,9 +2672,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `sed_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SED') */;
@@ -2705,9 +2690,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `biol_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'BIOL') */;
@@ -2723,9 +2708,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `hum_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'HUM') */;
@@ -2741,9 +2726,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `geol_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'GEOL') */;
@@ -2759,9 +2744,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `hsci_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'HSCI') */;
@@ -2777,9 +2762,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `cd_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CD') */;
@@ -2795,9 +2780,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `educ_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'EDUC') */;
@@ -2813,9 +2798,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `epc_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'EPC') */;
@@ -2831,9 +2816,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `cjs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CJS') */;
@@ -2849,9 +2834,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `cit_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CIT') */;
@@ -2867,9 +2852,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`py_serv`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `geh_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'GEH') */;
@@ -2885,9 +2870,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `univ_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'UNIV') */;
@@ -2903,9 +2888,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `fin_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'FIN') */;
@@ -2921,9 +2906,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`py_serv`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `humn_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'HUMN') */;
@@ -2939,9 +2924,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `urbs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'URBS') */;
@@ -2957,9 +2942,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `pols_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'POLS') */;
@@ -2975,9 +2960,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `geog_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'GEOG') */;
@@ -2993,9 +2978,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `anth_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ANTH') */;
@@ -3011,9 +2996,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `gbus_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'GBUS') */;
@@ -3029,9 +3014,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ais_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'AIS') */;
@@ -3047,9 +3032,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `clas_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CLAS') */;
@@ -3065,9 +3050,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ece_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ECE') */;
@@ -3083,9 +3068,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `kor_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'KOR') */;
@@ -3101,9 +3086,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `kin_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'KIN') */;
@@ -3119,9 +3104,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `phil_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'PHIL') */;
@@ -3137,9 +3122,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `art_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ART') */;
@@ -3155,9 +3140,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `russ_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'RUSS') */;
@@ -3173,9 +3158,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `pt_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'PT') */;
@@ -3191,9 +3176,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `mus_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'MUS') */;
@@ -3209,9 +3194,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `scm_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SCM') */;
@@ -3227,9 +3212,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `eed_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'EED') */;
@@ -3245,9 +3230,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `psy_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'PSY') */;
@@ -3263,9 +3248,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `chem_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CHEM') */;
@@ -3281,9 +3266,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ce_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CE') */;
@@ -3299,9 +3284,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`py_serv`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ar_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'AR') */;
@@ -3317,9 +3302,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `th_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'TH') */;
@@ -3335,9 +3320,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `mse_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'MSE') */;
@@ -3353,9 +3338,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `span_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SPAN') */;
@@ -3371,9 +3356,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `lrs_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'LRS') */;
@@ -3389,9 +3374,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `phsc_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'PHSC') */;
@@ -3407,9 +3392,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `acct_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ACCT') */;
@@ -3425,9 +3410,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `astr_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ASTR') */;
@@ -3443,9 +3428,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`py_serv`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `ent_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ENT') */;
@@ -3461,9 +3446,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `aas_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'AAS') */;
@@ -3479,9 +3464,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `bus_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'BUS') */;
@@ -3497,9 +3482,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `engl_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ENGL') */;
@@ -3515,9 +3500,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `chin_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'CHIN') */;
@@ -3533,9 +3518,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `athl_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ATHL') */;
@@ -3551,9 +3536,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `pers_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'PERS') */;
@@ -3569,9 +3554,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `elps_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ELPS') */;
@@ -3587,9 +3572,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `eoh_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'EOH') */;
@@ -3605,9 +3590,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`py_serv`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `sus_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'SUS') */;
@@ -3623,9 +3608,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `econ_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ECON') */;
@@ -3641,9 +3626,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `is_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'IS') */;
@@ -3659,9 +3644,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `comp_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'COMP') */;
@@ -3677,9 +3662,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `mkt_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'MKT') */;
@@ -3695,9 +3680,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `me_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'ME') */;
@@ -3713,9 +3698,9 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET @saved_cs_client          = @@character_set_client */;
 /*!50001 SET @saved_cs_results         = @@character_set_results */;
 /*!50001 SET @saved_col_connection     = @@collation_connection */;
-/*!50001 SET character_set_client      = utf8mb4 */;
-/*!50001 SET character_set_results     = utf8mb4 */;
-/*!50001 SET collation_connection      = utf8mb4_general_ci */;
+
+
+
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
 /*!50001 VIEW `japn_view` AS select `catalog`.`subject` AS `subject`,`catalog`.`catalog_number` AS `catalog_number`,`catalog`.`title` AS `title`,`catalog`.`description` AS `description`,`catalog`.`units` AS `units`,`catalog`.`prerequisites` AS `prerequisites`,`catalog`.`corequisites` AS `corequisites` from `catalog` where (`catalog`.`subject` = 'JAPN') */;
@@ -3732,4 +3717,4 @@ SET character_set_client = @saved_cs_client;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-25  7:09:40
+
