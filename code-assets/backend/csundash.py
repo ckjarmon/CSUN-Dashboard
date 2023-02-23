@@ -85,7 +85,9 @@ def home():
 # find file here -> (templates/endpoint_list.html)
 @app.route('/')
 def home():
-    return render_template('/docs_html/index.html')
+    # return render_template('/docs_html/index.html')
+    return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
+
 
 
 @app.route('/<string:subject>/catalog')
