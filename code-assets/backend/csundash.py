@@ -403,7 +403,7 @@ def classes(**kwargs):
     rootCursor.execute(f"""SELECT 
                        catalog_number, 
                        title 
-                       FROM csun.{kwargs['subject'].upper()}_view""")
+                       FROM csun.{kwargs['subject'].lower()}_view""")
     le_fetch = rootCursor.fetchall()
     
     rootConnection.commit()
