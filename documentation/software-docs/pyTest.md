@@ -7,7 +7,13 @@ Check to see if you have correctly installed pyTest by running ```pytest --versi
 `'test/'`
 
 3. Run the command
-```pytest```
+```
+pytest
+```
+You may run the variation that provides stdout by running
+```
+pytest -rP
+```
 
 You should see some output in the terminal regarding the results of the tets, see below <br />
 ![pyTest](https://raw.githubusercontent.com/kyeou/CSUN-Dashboard/main/documentation/images/test-result.png "")
