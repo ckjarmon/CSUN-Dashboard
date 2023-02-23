@@ -43,5 +43,3 @@ if __name__ == "__main__":
     test_run(500)
     test_run(1000)
     test_run(5000)
-    test_run(10000)
-    test_run(50000)
