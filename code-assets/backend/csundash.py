@@ -482,7 +482,7 @@ def schedule(**kwargs):
         rootConnection.commit()
         rootCursor.close()
         rootConnection.close()
-        return [c | {"units": course_units[c['catalog_number']]} for c in section_payload]
+    return [c | {"units": course_units[c['catalog_number']]} if c['catalog_number'] in course_units.keys() else c | {"units": 0} for c in section_payload ]
 
 
 if __name__ == "__main__":
