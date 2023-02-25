@@ -38,7 +38,7 @@ client = TestClient(app)
 # def get(subject: str):
 def test_Fun_get_catalog_returns_code_200():
      response = client.get("comp/catalog")
-     print(f"The status code of this 'comp/catalog': {response.status_code}")
+     print(f"The status code of 'comp/catalog': {response.status_code}")
      assert response.status_code == 200
 
 # tests '/{subject}/professors' from professors()
@@ -49,8 +49,8 @@ def test_Fun_get_catalog_returns_code_200():
 
 # tests '/{subject}/ratings' from get_ratings()
 # def get_ratings(email: str = Body(embed=True)):
-     response = client.get("comp/ratings")
-     print(f"The status code of 'comp/ratings': {response.status_code}")
+     response = client.get("comp/rating")
+     print(f"The status code of 'comp/rating': {response.status_code}")
      assert response.status_code == 200
 
 # tests '/{subject}/classes' from classes()
