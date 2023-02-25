@@ -7,7 +7,7 @@ describe("Planner Test Cases", function () {
     })
 
 
-    it("Can view ratings", function () {
+    it("Can View Ratings", function () {
         cy.contains('Select Subject').next().click()
         cy.wait(10)
         cy.get(`[data-value="COMP"]`).click()
@@ -18,6 +18,7 @@ describe("Planner Test Cases", function () {
         })
 
         cy.contains('button', 'Rate Professor Dantes').should('exist')
+        cy.wait(1000)
     })
 
 
@@ -54,7 +55,7 @@ describe("Planner Test Cases", function () {
         cy.contains('Select Grade').next().children().first().click()
         cy.get('ul.MuiList-root').children().first().click()
 
-        cy.contains('Class Type').next().children().first().click()
+        cy.contains('p', 'Class Type').next().click()
         cy.get('ul.MuiList-root').children().first().click()
 
         const now = new Date().getTime()
