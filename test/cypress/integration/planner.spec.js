@@ -81,7 +81,7 @@ describe("Planner Test Cases", function () {
 
         cy.contains("100 - Computers: Their Impact and Use").click()
         cy.contains("16185").prev().click()
-        cy.contains("Class Has Been Added To Planner").should('exist')
+        cy.contains("Class has been added to your planner.").should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]').should('contain.text', '16185')
     })
@@ -113,7 +113,7 @@ describe("Planner Test Cases", function () {
         cy.contains("16185")
         .prev().click()
 
-        cy.contains("Class Has Been Added To Planner")
+        cy.contains("Class has been added to your planner.")
         .should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
@@ -125,7 +125,7 @@ describe("Planner Test Cases", function () {
         cy.contains("16186")
         .prev().click()
 
-        cy.contains("This Class Is Already Added In Your Planner")
+        cy.contains("This class conflicts with current schedule!")
         .should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
