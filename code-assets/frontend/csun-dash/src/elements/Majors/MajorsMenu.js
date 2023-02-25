@@ -12,10 +12,7 @@ function MajorsMenu() {
                 <h1 style={headerStyle}>Majors</h1>
             </div>
 
-            <div style={{ display: "flex", justifyContent: "left", marginLeft: "200px" }}>
-                <h1><Link style={link} to="/majors/cs">B.S., Computer Science</Link></h1>
-            </div>
-
+            
             <div style={{ display: "flex", justifyContent: "left", marginLeft: "200px" }}>
                 <h1><Link style={link} to="/majors/a242">B.A., Africana Studies: African and African-American Humanities and Cultural Studies</Link></h1>
             </div>
@@ -911,3 +908,10 @@ const headerStyle = {
 const link = {
     color: "white"
 }
+
+/* 
+<div style={{ display: "flex", justifyContent: "left", marginLeft: "200px" }}>
+                <h1><Link style={link} to="/majors/cs">B.S., Computer Science</Link></h1>
+            </div>
+
+*/

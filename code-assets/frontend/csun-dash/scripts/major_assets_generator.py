@@ -185,8 +185,10 @@ hashed_major_names = []
 formatted_divs = []
 formatted_routes = []
 imports = []
+major_names = []
 for name in glob(path_to_majors):
     major_name = name.split('\\')[-1].replace(';', ':').replace('---', '/').removesuffix('.json')
+    major_names.append(major_name)
     sha = sha1(major_name.encode()).hexdigest()[1:5]
     
     program_reqq_blob = json.load(open(name, 'r'))["prog-reqq-blob"]
@@ -247,7 +249,8 @@ with open('./imports.txt', 'w') as f:
     for imp in imports:
         f.write(imp + '\n')
         
-        
+from pprint import pprint
+pprint(major_names)    
 
 
 
