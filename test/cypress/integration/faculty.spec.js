@@ -5,5 +5,8 @@ describe("Planner Test Cases", function () {
     })
 
 
-    it("", function () {})
+    it("Can view faculty members", function () {})
+
+    it("Can visit ratings for professor", function () {})
+
 })

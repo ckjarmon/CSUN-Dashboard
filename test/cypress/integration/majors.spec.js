@@ -5,5 +5,12 @@ describe("Planner Test Cases", function () {
     })
 
 
-    it("", function () {})
+    it("Can Visit All Majors", function () {
+        /* 
+        Go through all major names
+        => Contains(name).click()
+        => things should visible
+
+        */
+    })
 })

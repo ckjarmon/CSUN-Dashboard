@@ -5,5 +5,5 @@ describe("Planner Test Cases", function () {
     })
 
 
-    it("", function () {})
+    it("Can see home page", function () {})
 })
