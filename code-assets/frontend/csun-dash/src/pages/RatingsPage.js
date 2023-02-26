@@ -64,7 +64,7 @@ function RatingsPage() {
 
 
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#1C1C1C" }}>
+        <div style={{ minHeight: "100vh", backgroundColor: "#000000" }}>
             <Header></Header>
             {
                 postedReview === true ?

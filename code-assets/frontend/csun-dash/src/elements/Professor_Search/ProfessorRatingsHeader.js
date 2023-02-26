@@ -155,11 +155,9 @@ const mainContainerStyle = {
     display: "flex",
     justifyContent: "center",
     marginTop: "50px",
-
 }
 
 const headerContainerStyle = {
-    backgroundColor: "#1C1C1C",
     color: "white",
     marginBottom: "50px"
 }

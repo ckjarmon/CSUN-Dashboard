@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -23,9 +23,9 @@ function DataTableRow({ professor }) {
 
     return (
         <>
-            <TableRow>
+            <TableRow  style={{outlineColor: "white", outlineStyle: "solid"}}>
                 <TableCell style={rowStyle} align="center">
-                    <IconButton
+                    <IconButton style={{backgroundColor: "white"}}
                         size="small"
                         onClick={() => setOpenRow(!openRow)}>
                         {openRow ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
@@ -37,7 +37,7 @@ function DataTableRow({ professor }) {
                 <TableCell style={rowStyle} align="center">{row.phone_number}</TableCell>
             </TableRow>
 
-            <TableRow style={{ backgroundColor: "#F2F3F4" }}>
+            <TableRow style={{ backgroundColor: "black", borderRadius: "25px", color: "white" }}>
                 <TableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
                     <Collapse in={openRow} timeout="auto" unmountOnExit>
                         <Box sx={{ margin: 1 }}>
@@ -45,10 +45,10 @@ function DataTableRow({ professor }) {
                                 <div style={{ display: "flex", margin: "10px", gap: "40px" }}>
                                     <img style={imageStyle} src={row.image_link} />
                                     <Box>
-                                        <Typography><span style={detailsStyle}>Website: </span><Link target="_blank" href={row.website}>{row.website}</Link></Typography>
-                                        <Typography><span style={detailsStyle}>Phone Number: </span>{row.phone_number}</Typography>
-                                        <Typography><span style={detailsStyle}>Mail Drop: </span>{row.mail_drop}</Typography>
-                                        <Typography><span style={detailsStyle}>Office: </span>{row.office}</Typography>
+                                        <Typography style={{color: "white"}}><span style={detailsStyle}>Website: </span><Link style={{color: "yellow"}}target="_blank" href={row.website}>{row.website}</Link></Typography>
+                                        <Typography style={{color: "white"}}><span style={detailsStyle}>Phone Number: </span>{row.phone_number}</Typography>
+                                        <Typography style={{color: "white"}}><span style={detailsStyle}>Mail Drop: </span>{row.mail_drop}</Typography>
+                                        <Typography style={{color: "white"}}><span style={detailsStyle}>Office: </span>{row.office}</Typography>
                                         <Button style={ratingsButton}>
                                             <Link style={ratingsLinkStyle} target="_blank" to={`/ratings/${row.subject}/${row.email}`}>Professor Ratings</Link>
                                         </Button>
@@ -67,7 +67,8 @@ export default DataTableRow
 
 
 const rowStyle = {
-    fontWeight: "bold"
+    fontWeight: "bold",
+    color: "white"
 }
 
 const imageStyle = {
@@ -76,7 +77,8 @@ const imageStyle = {
 }
 
 const detailsStyle = {
-    fontWeight: "bold"
+    fontWeight: "bold",
+    color: "white"
 }
 
 const ratingsButton = {
@@ -87,7 +89,7 @@ const ratingsButton = {
 
 const ratingsLinkStyle = {
     backgroundColor: "#E31C25",
-    color:"white",
+    color: "white",
     textDecoration: "none",
-    fontWeight:"bold"
+    fontWeight: "bold"
 }

@@ -50,9 +50,9 @@ function StudentRatings({ subject, email, first_name, last_name, postedReview })
             {reviews.length > 0 ?
                 reviews.map((review, i) => (
                     <div key={i} style={{ display: "flex", justifyContent: "center", paddingBottom: "25px", marginTop: "25px" }}>
-                        <Card style={{ width: "1000px", backgroundColor: "white", borderRadius: "25px" }}>
+                        <Card style={{ width: "1000px", backgroundColor: "#4C4E52", borderRadius: "25px" }}>
                             <CardContent>
-                                <div style={{ display: "flex",padding: "25px", marginTop: "25px" }}>
+                                <div style={{ display: "flex",padding: "25px", marginTop: "25px", color: "white" }}>
                                     <div>
                                         <Typography style={ratingHeaderStyle} variant="h5" component="div">Rating</Typography>
                                         <div style={ratingContainer}><h2 style={ratingStyle}>{review.star_rating}/5</h2></div>
