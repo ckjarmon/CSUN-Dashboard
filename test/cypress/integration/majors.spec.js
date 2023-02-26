@@ -1,5 +1,5 @@
 /// <reference types="cypress"/>
-describe("Planner Test Cases", function () {
+describe("Majors Test Cases", function () {
     beforeEach(function () {
         this.major_names = ['B.A., Africana Studies: African and African-American Humanities and Cultural Studies',
             'B.A., Africana Studies: African and African-American Social Sciences',

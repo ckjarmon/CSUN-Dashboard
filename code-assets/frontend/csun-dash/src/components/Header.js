@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 function Header(props) {
     return (
         <div style={{ backgroundColor: "#1C1C1C" }}>
+            <img style={logo} src={require("../matador.png")} alt="MatadorLogo" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" width="50" height="50" ></img>
             <div style={headerContainer}>
                 <ul style={list}>
                     <li style={link}><Link style={link} to="/">Home</Link></li>
@@ -36,6 +37,15 @@ const link = {
     fontSize: 'large',
     cursor: 'pointer',
     color: "white"
+}
+
+const logo = {
+    textDecoration: 'none',
+    marginTop: "9px",
+    paddingLeft: "9px",
+    float: "left",
+    paddingBottom: "10px",
+    display: "inlineFlex"
 }
 
 const toprightContainer = {

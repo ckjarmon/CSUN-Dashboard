@@ -1,5 +1,5 @@
 /// <reference types="cypress"/>
-describe("Planner Test Cases", function () {
+describe("Faculty Test Cases", function () {
     beforeEach(function () {
         cy.intercept('GET', '/*/professors').as('professors')
         cy.viewport(1920, 1080);
@@ -20,9 +20,9 @@ describe("Planner Test Cases", function () {
 
         this.class_codes.forEach((code) => {
             cy.contains('Select Subject').next().click()
-            cy.wait(10)
+            cy.wait(1000)
             cy.get(`[data-value="${code}"]`).click()
-            cy.wait(10)
+            cy.wait(1000)
 
 
             cy.get('@professors').then((res) => {

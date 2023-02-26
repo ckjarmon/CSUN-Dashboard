@@ -159,7 +159,7 @@ describe("Planner Test Cases", function () {
         cy.contains("16185")
         .prev().click()
 
-        cy.contains("Class Has Been Added To Planner")
+        cy.contains("Class has been added to your planner.")
         .should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
@@ -180,6 +180,7 @@ describe("Planner Test Cases", function () {
         cy.contains('Subject').next().click()
         cy.wait(10)
         cy.get(`[data-value="COMP"]`).click()
+        cy.wait(10)
 
         cy.get('@classes').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {

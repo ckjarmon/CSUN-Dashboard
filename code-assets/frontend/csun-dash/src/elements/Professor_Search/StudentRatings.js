@@ -44,7 +44,7 @@ function StudentRatings({ subject, email, first_name, last_name, postedReview })
     return (
         <div>
             <div style={{ display: "flex", justifyContent: "center", paddingBottom: "25px", marginTop: "25px" }}>
-                <h1 style={headerStyle}>Student Reviews</h1>
+                <u style={headerStyle}>Student Reviews</u>
             </div>
 
             {reviews.length > 0 ?
@@ -109,6 +109,7 @@ const ratingContainer = {
 }
 
 const ratingStyle = {
+    borderRadius: "25px", 
     textAlign: "center",
     marginBottom: "50px",
     padding: "25px",
@@ -119,6 +120,7 @@ const ratingStyle = {
 }
 
 const difficultyStyle = {
+    borderRadius: "25px", 
     textAlign: "center",
     marginBottom: "50px",
     padding: "25px",
