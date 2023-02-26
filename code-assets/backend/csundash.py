@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-def establish_conn():
+async def establish_conn():
     try:
         rootConnection = mariadb.connect(
             user="py_serv",
@@ -21,13 +21,13 @@ def establish_conn():
         print(f"Error connecting to MariaDB Platform: {err}")
         
 
-def name_normalize(str):
+async def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
 
  
 # do not call initial parse call with empty string
 # all initial calls should start with _start = "Take "
-def parse(_parseable, _start):
+async def parse(_parseable, _start):
     unparsed, parsed_ret = _parseable[1:-1], _start
     c_iterate, parse_stack = 0, []
     
@@ -74,24 +74,24 @@ def parse(_parseable, _start):
 # before nima's edits
 """
 @app.route('/')
-def home():
+async def home():
     return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
 
 # version 2
 @app.route('/')
-def home():
+async def home():
     return render_template('endpoint_list.html')
 """
 # find file here -> (templates/endpoint_list.html)
 @app.route('/')
-def home():
+async def home():
     # return render_template('/docs_html/index.html')
     return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
 
 
 
 @app.route('/<string:subject>/catalog')
-def get(**kwargs):
+async def get(**kwargs):
     # return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
@@ -120,7 +120,7 @@ def get(**kwargs):
     
 
 @app.route('/<string:subject>/professors')
-def professors(**kwargs):
+async def professors(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
@@ -211,7 +211,7 @@ Example:
 
 
 @app.route('/<string:subject>/rating', methods=['POST'])
-def new_rating(**kwargs):
+async def new_rating(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     new_rating = request.get_json(force=True)
@@ -282,7 +282,7 @@ def new_rating(**kwargs):
 
 
 @app.route('/<string:email>/ratings')
-def get_ratings(**kwargs):
+async def get_ratings(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
@@ -340,7 +340,7 @@ Example: /comp/182/history/5
 
 
 @app.route('/<string:subject>/<string:catalog_number>/history/<int:amount>')
-def historical_profs(**kwargs):
+async def historical_profs(**kwargs):
     with open(f"../backend/data/json_historical_profs/{kwargs['subject'].upper()}_history.json") as subject:
         classes = json.load(subject)
         return dict(itertools.islice(classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number'].upper()}"].items(), kwargs["amount"]))
@@ -356,7 +356,7 @@ Returns: John Noga
 
 # DEPRECATED
 @app.route('/<string:subject>/prof/name/<string:prof_email>')
-def prof_name(**kwargs):
+async def prof_name(**kwargs):
     # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
     #    profs = json.load(profs)
     #    return profs[kwargs['prof_email']]
@@ -398,7 +398,7 @@ Example:
 ]
 """
 @app.route('/<string:subject>/classes')
-def classes(**kwargs):
+async def classes(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
       
@@ -417,7 +417,7 @@ def classes(**kwargs):
 
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
-def schedule(**kwargs):
+async def schedule(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     try:
