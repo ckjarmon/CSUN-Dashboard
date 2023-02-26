@@ -71,8 +71,3 @@ const addIconStyle = {
     fontWeight: 'bold'
 }
 
-const removeIconStyle = {
-    color: 'red',
-    fontSize: '25px',
-    fontWeight: 'bold'
-}

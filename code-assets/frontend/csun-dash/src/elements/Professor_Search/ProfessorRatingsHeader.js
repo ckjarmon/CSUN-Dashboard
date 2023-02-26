@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Button, Rating, Typography, Box, Modal } from "@mui/material"
 import RatingsForm from './RatingsForm'
 
-function ProfessorRatingsHeader({ ratings, professorName, postedReview, setPostedReview, subject, allClassesInSubject }) {
+function ProfessorRatingsHeader({ ratings, professorName, setPostedReview, subject, allClassesInSubject }) {
 
     const [rateModal, setRateModal] = useState(false)
 
@@ -57,6 +57,8 @@ function ProfessorRatingsHeader({ ratings, professorName, postedReview, setPoste
                         break
                     case 1:
                         ratingsOutlook["1"] += 1
+                        break
+                    default:
                         break
                 }
             })

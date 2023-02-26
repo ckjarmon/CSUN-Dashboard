@@ -1,8 +1,6 @@
-import Button from '@mui/material/Button';
-import { textAlign } from '@mui/system';
 import { Link } from 'react-router-dom'
 
-function Header(props) {
+function Header() {
     return (
         <div style={{ backgroundColor: "#1C1C1C" }}>
             <img style={logo} src={require("../matador.png")} alt="MatadorLogo" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" width="50" height="50" ></img>
@@ -59,14 +57,7 @@ const logo = {
     borderRadius: "40px",
 }
 
-const toprightContainer = {
-    float: 'right',
-    display: 'inline',
-    color: 'red',
-    marginTop: 0,
-    width: 100,
-    cursor: 'pointer'
-}
+
 
 const list = {
     textAlign: 'center',

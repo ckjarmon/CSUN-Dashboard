@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Table from '@mui/material/Table';
 import Button from '@mui/material/Button';
 import TableBody from '@mui/material/TableBody';
@@ -32,7 +32,6 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
                     catalogInfo = catalogData[i]
                 }
             }
-            catalogInfo["prerequisites"] = catalogInfo["prerequisites"]
 
             setSelectedCourseInfo(catalogInfo)
         })

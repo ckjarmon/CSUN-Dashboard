@@ -1,11 +1,8 @@
 import { class_codes } from '../../classCodes';
-import { useState } from 'react'
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
 
 function SubjectSearchDropdown({ handleSubjectChange, subject }) {
     return (

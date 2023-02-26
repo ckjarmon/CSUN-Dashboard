@@ -1,4 +1,3 @@
-import React from "react"
 import Header from "../components/Header"
 import Box from '@mui/system/Box'
 import matador from "../matador.png"

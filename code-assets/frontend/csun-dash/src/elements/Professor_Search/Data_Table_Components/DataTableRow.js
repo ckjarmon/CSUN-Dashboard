@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
-import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Box from '@mui/material/Box';
 import Collapse from '@mui/material/Collapse';
@@ -43,7 +40,7 @@ function DataTableRow({ professor }) {
                         <Box sx={{ margin: 1 }}>
                             <Box style={{ margin: "20px 0px" }}>
                                 <div style={{ display: "flex", margin: "10px", gap: "40px" }}>
-                                    <img style={imageStyle} src={row.image_link} />
+                                    <img style={imageStyle} alt="Kyeou was here" src={row.image_link} />
                                     <Box>
                                         <Typography style={{color: "white"}}><span style={detailsStyle}>Website: </span><Link style={{color: "yellow"}}target="_blank" href={row.website}>{row.website}</Link></Typography>
                                         <Typography style={{color: "white"}}><span style={detailsStyle}>Phone Number: </span>{row.phone_number}</Typography>

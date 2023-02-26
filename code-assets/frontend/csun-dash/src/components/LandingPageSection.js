@@ -10,7 +10,7 @@ function LandingPageSeciong() {
                 <Link to="/planner"><Button style={headerButton} variant="contained">Get Started</Button></Link>
             </div>
             <div style={imgContainer}>
-                <img style={imageStyle} src="https://stayhometogether.org/wp-content/uploads/2020/04/Oviatt-Library-Background-1-scaled.jpg"></img>
+                <img style={imageStyle} alt="You found an easter egg, brag about it" src="https://stayhometogether.org/wp-content/uploads/2020/04/Oviatt-Library-Background-1-scaled.jpg"></img>
             </div>
         </div>
     )

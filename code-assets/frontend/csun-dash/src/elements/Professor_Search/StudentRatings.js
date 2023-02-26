@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react"
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
@@ -122,9 +119,6 @@ const ratingStyle = {
 const difficultyStyle = {
     borderRadius: "25px",
     textAlign: "center",
-    // marginBottom: "50px",
-    // padding: "25px",
-    // backgroundColor: "rgb(127, 246, 195)",
     backgroundColor: "rgb(230, 36, 42)",
     fontWeight: "bold",
     fontSize: "35px"

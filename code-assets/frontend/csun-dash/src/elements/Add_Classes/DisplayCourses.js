@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import AllCoursesAccordian from './AllCoursesAccordian';
 
-function DisplayCourses({ term, subject, addedClassHandler, addIcon }) {
+function DisplayCourses({subject, addedClassHandler, addIcon }) {
     const [classList, setClassList] = useState([])
     const [scheduleList, setScheduleList] = useState({})
     const [fullSchedule, setFullSchedule] = useState([])

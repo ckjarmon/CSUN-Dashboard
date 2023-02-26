@@ -17,7 +17,6 @@ function ClassSelections({classesAdded, removeClassHandler}){
     
     return(
         <div>
-            {/* <h2 style={sectionTitle}>Class Selections</h2> */}
             <CostAnalysis totalUnits={totalUnits}/>
             <DisplayClasses classesAdded={classesAdded} removeClassHandler={removeClassHandler}></DisplayClasses>
         </div>
@@ -25,8 +24,3 @@ function ClassSelections({classesAdded, removeClassHandler}){
 }
 
 export default ClassSelections;
-
-const sectionTitle = {
-    color: "#E31C25",
-    textAlign: "center"
-}
