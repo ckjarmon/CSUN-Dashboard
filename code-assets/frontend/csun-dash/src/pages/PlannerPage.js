@@ -19,11 +19,11 @@ function PlannerPage({ handleAlert }) {
             let added_end = addedClasses[i].end_time.substring(0, addedClasses[i].end_time.length - 1)
 
 
-            if (new_start > added_start && new_start < added_end) {return true}
-            if (new_end > added_start && new_end < added_end) {return true}
+            if (new_start >= added_start && new_start < added_end) {return true}
+            if (new_end > added_start && new_end <= added_end) {return true}
 
-            if (added_start > new_start && added_start < new_start) {return true}
-            if (added_end > new_start && added_end < new_end) {return true}
+            if (added_start >= new_start && added_start < new_start) {return true}
+            if (added_end > new_start && added_end <= new_end) {return true}
 
             if (event.catalog_number === addedClasses[i].catalog_number) { return true }
         }

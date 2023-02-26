@@ -50,5 +50,7 @@ const courseListContainer = {
 }
 
 const accordianStyle = {
-    marginTop: "10px"
+    marginTop: "10px",
+    borderRadius: "50px",
+    backgroundColor: "#8F8F8F"
 }

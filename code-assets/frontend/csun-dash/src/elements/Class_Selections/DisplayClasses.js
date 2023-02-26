@@ -44,7 +44,7 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
 
     return (
         <div style={{ margin: "20px" }}>
-            <TableContainer component={Paper} style={{ backgroundColor: "#1C1C1C" }}>
+            <TableContainer component={Paper} style={{ backgroundColor: "#1C1C1C",     borderRadius: "40px" }}>
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                     <TableHead>
                         <TableRow>

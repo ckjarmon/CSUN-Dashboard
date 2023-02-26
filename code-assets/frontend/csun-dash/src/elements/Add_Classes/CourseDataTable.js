@@ -25,7 +25,7 @@ function CourseDataTable({ classes, course, addedClassHandler, addIcon }) {
 
 
     return (
-        <TableContainer component={Paper} style={{ backgroundColor: "#1C1C1C" }}>
+        <TableContainer component={Paper} style={{ backgroundColor: "#1C1C1C",    borderRadius: "40px" }}>
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
                 <TableHead>
                     <TableRow>
@@ -61,7 +61,8 @@ function CourseDataTable({ classes, course, addedClassHandler, addIcon }) {
 export default CourseDataTable;
 
 const tableCellStyle = {
-    color: "white"
+    color: "white",
+
 }
 
 const addIconStyle = {
