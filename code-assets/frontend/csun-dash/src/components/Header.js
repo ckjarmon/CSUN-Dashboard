@@ -21,31 +21,42 @@ function Header(props) {
 export default Header;
 
 const headerContainer = {
-    paddingTop: '20px',
+    paddingTop: '25px',
     paddingBottom: '20px',
-    color: "white",
+    color: "black",
     fontFamily: "Montserrat, Helvetica, Arial, sans-serif",
     backgroundColor: "black",
-    borderShadow: "5px 10px black"
+    borderShadow: "5px 10px black",
+    borderBottomLeftRadius: "30px",
+    borderBottomRightRadius: "30px",
+    outlineStyle: "solid",
+    outlineColor: "red",
+    width: "99.7vw",
+    marginLeft: "3px"
 }
 
 const link = {
+    textAlign: "center",
+    backgroundColor: "#D9001E",
     textDecoration: 'none',
     display: 'inline',
-    padding: '20px 20px',
+    padding: '5px 15px',
     fontWeight: '700',
     fontSize: 'large',
     cursor: 'pointer',
-    color: "white"
+    color: "white",
+    height: "5px",
+    borderRadius: "40px",
 }
 
 const logo = {
     textDecoration: 'none',
-    marginTop: "9px",
-    paddingLeft: "9px",
+    marginTop: "5px",
+    marginLeft: "15px",
     float: "left",
     paddingBottom: "10px",
-    display: "inlineFlex"
+    display: "inlineFlex",
+    borderRadius: "40px",
 }
 
 const toprightContainer = {
@@ -58,6 +69,8 @@ const toprightContainer = {
 }
 
 const list = {
-    textAlign: 'center'
+    textAlign: 'center',
+    justifyContent: "spaceBetween",
+    display: "inlineBlock"
 }
 

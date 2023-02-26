@@ -198,16 +198,12 @@ for name in glob(path_to_majors):
     assert len(set(hashed_major_names)) == len(hashed_major_names)
     
     base_div = """
-          <div style={blob}>
-                <h1><Link style={link} to="/majors/{route}">{name}</Link></h1>
-        </div>
-          
+                <li><h1><Link style={link} to="/majors/{route}">{name}</Link></h1></li>
           """
 
     formatted_div = base_div.format(route = sha1(major_name.encode()).hexdigest()[1:5],
                       name =  major_name, 
-                      link = "{link}",
-                      blob = """{{display: "flex", justifyContent: "left", marginLeft: "200px"}}""")
+                      link = "{link}")
     
     
     formatted_divs.append(formatted_div)
@@ -250,7 +246,7 @@ with open('./imports.txt', 'w') as f:
         f.write(imp + '\n')
         
 from pprint import pprint
-pprint(major_names)    
+# pprint(major_names)    
 
 
 

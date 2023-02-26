@@ -46,6 +46,7 @@ export default AllCoursesAccordian;
 
 const courseListContainer = {
     margin: "20px",
+
 }
 
 const accordianStyle = {

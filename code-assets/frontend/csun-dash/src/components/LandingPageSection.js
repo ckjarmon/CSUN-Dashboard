@@ -34,7 +34,7 @@ const headerText = {
     textShadow: "0px 2px 1px #000000",
     letterSpacing: "-1.3px",
     marginBottom: "35px",
-    color: "#BB000E"
+    color: "white"
 }
 
 const headerparagraph = {
@@ -55,7 +55,6 @@ const headerButton = {
     verticalAlign: "middle",
     touchAction: "manipulation",
     cursor: "pointer",
-    color: "white",
     backgroundColor: "#E31C25",
 }
 
@@ -67,5 +66,6 @@ const imageStyle = {
     width: '540px',
     height: '320px',
     paddingTop: '10px',
+    borderRadius: "35px"
 
 }

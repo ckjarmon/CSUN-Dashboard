@@ -5,7 +5,7 @@ function HomePage() {
 
 
     return (
-        <div style={{ backgroundColor: "#1C1C1C", height: '100vh' }}>
+        <div style={{ backgroundColor: "#000000", height: '100vh' }}>
             <Header></Header>
             <LandingPageSection></LandingPageSection>
         </div>

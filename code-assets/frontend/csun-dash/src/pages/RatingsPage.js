@@ -44,7 +44,7 @@ function RatingsPage() {
             .then(response => response.json())
             .then(professors => {
                 professors.map((professor) => {
-                    if(professor.email == email){
+                    if(professor.email === email){
                         setProfessor(professor)
                     }
                 })
