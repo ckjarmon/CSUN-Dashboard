@@ -34,6 +34,8 @@ const headerContainer = {
 }
 
 const link = {
+    marginLeft:'5px',
+    marginRight:'5px',
     textAlign: "center",
     backgroundColor: "#D9001E",
     textDecoration: 'none',

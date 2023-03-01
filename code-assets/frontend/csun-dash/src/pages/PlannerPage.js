@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from '../components/Footer';
 import AddClasses from "../elements/Add_Classes/AddClasses";
 import ClassSelections from "../elements/Class_Selections/ClassSelections";
 import { useState } from 'react'
@@ -72,6 +73,7 @@ function PlannerPage({ handleAlert }) {
                     <ClassSelections classesAdded={addedClasses} removeClassHandler={handleClassRemoved}></ClassSelections>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     )
 }

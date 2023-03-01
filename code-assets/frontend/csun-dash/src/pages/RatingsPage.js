@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from 'react'
 import Header from "../components/Header"
+import Footer from '../components/Footer'
 import ProfessorRatingsHeader from "../elements/Professor_Search/ProfessorRatingsHeader";
 import StudentRatings from "../elements/Professor_Search/StudentRatings";
 import { Alert } from "@mui/material"
@@ -90,6 +91,7 @@ function RatingsPage() {
                     postedReview={postedReview}>
                 </StudentRatings>
             </div>
+            <Footer></Footer>
 
         </div>
     )
