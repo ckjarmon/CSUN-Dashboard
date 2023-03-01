@@ -2,8 +2,9 @@ import { Link } from 'react-router-dom'
 
 function Header() {
     return (
-        <div style={{ backgroundColor: "#1C1C1C" }}>
-            <img style={logo} src={require("../matador.png")} alt="MatadorLogo" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" width="50" height="50" ></img>
+        <div style={{ backgroundColor: "#000000" }}>
+            <li style={logo}><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img  alt="Matalogo" src={require("../matador.png")} width="50" height="50" /></a></li>
+            
             <div style={headerContainer}>
                 <ul style={list}>
                     <li style={link}><Link style={link} to="/">Home</Link></li>
@@ -57,6 +58,8 @@ const logo = {
     paddingBottom: "10px",
     display: "inlineFlex",
     borderRadius: "40px",
+    width: "50px", 
+    height:"50px"
 }
 
 

@@ -15,17 +15,17 @@
     const fineprint_style = { fontWeight: 'bold' }
     const option_style = { marginLeft: "2%", padding: "5px" }
     const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
-    const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+    const summary_style = { marginLeft: "2%", color: '#18E67F', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
 
 
     function _2B93() {
         return (
 
-            <div style={{ backgroundColor: "white" }}>
+            <div style={{ backgroundColor: "black", paddingBottom: "50px" }}>
                 <Header></Header>
                 <span className="font-link">
-                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
-                        <Box color="black" bgcolor="#eeeeee" p={1}>
+                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%', outlineStyle: "solid", outlineColor: "red", borderRadius: "25px" }}>
+                        <Box color="white" bgcolor="#000000" p={1}>
                             <div style={{ marginLeft: '1%', padding: "" }}>
                             <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>B.S., Business Administration: Financial Analysis</h2><div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>Admission to the BSBA Option in Financial Analysis</li>
 <li>The BSBA option in Financial Analysis is an impacted program. Students seeking an option in Financial Analysis may initially declare an option in Pre-Finance while working to satisfy supplemental criteria, which requires completion of at least 60 units and a minimum cumulative GPA of 2.6. Students must qualify by the time they earn 90 units. Additionally, a grade of C or higher in FIN 303 is a prerequisite for all 400-level Finance (FIN) courses and selected 300-level Finance courses.</li>

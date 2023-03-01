@@ -15,17 +15,17 @@
     const fineprint_style = { fontWeight: 'bold' }
     const option_style = { marginLeft: "2%", padding: "5px" }
     const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
-    const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+    const summary_style = { marginLeft: "2%", color: '#18E67F', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
 
 
     function _F557() {
         return (
 
-            <div style={{ backgroundColor: "white" }}>
+            <div style={{ backgroundColor: "black", paddingBottom: "50px" }}>
                 <Header></Header>
                 <span className="font-link">
-                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
-                        <Box color="black" bgcolor="#eeeeee" p={1}>
+                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%', outlineStyle: "solid", outlineColor: "red", borderRadius: "25px" }}>
+                        <Box color="white" bgcolor="#000000" p={1}>
                             <div style={{ marginLeft: '1%', padding: "" }}>
                             <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>B.A., English: Subject Matter Program for the Single Subject Credential</h2><div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>The English Subject Matter option is designed for prospective secondary school English teachers and is a California Commission on Teacher Credentialing-approved subject matter program. Students receive a B.A. in English and a lifelong single-subject competency verification by completing the approved coursework with no grade below a C, maintaining a GPA of 2.99 or better, and completing an online grammar diagnostic. In compliance with state requirements, students also must complete the Subject Matter Exit Interview, the English department's exit evaluation of single-subject competence and 20 hours of daytime Early Field Experience in schools.</li>
 <li>To be eligible for the credential program in the College of Education, students also must pass the CBEST and complete 45 hours of classroom observation at a school site. The 20 hours of Early Field Experience required for subject matter competency double counts for this credential program requirement. Upon completion of coursework adhering to the above requirements and successful completion of the English Subject Matter Exit Interview, students are eligible to enter a traditional credential program in the College of Education. For further information about the single-subject credential in English, consult the Credential Office.</li>

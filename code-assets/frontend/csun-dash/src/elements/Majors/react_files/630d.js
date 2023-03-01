@@ -15,17 +15,17 @@
     const fineprint_style = { fontWeight: 'bold' }
     const option_style = { marginLeft: "2%", padding: "5px" }
     const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
-    const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+    const summary_style = { marginLeft: "2%", color: '#18E67F', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
 
 
     function _630D() {
         return (
 
-            <div style={{ backgroundColor: "white" }}>
+            <div style={{ backgroundColor: "black", paddingBottom: "50px" }}>
                 <Header></Header>
                 <span className="font-link">
-                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
-                        <Box color="black" bgcolor="#eeeeee" p={1}>
+                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%', outlineStyle: "solid", outlineColor: "red", borderRadius: "25px" }}>
+                        <Box color="white" bgcolor="#000000" p={1}>
                             <div style={{ marginLeft: '1%', padding: "" }}>
                             <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>B.A., Communicative Disorders</h2><div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>There are special requirements for admission to the major. Undergraduate instruction is divided between a Pre-Clinical and a Clinical Phase. There are no preadmission requirements for the department's Pre-Clinical Phase. All entering undergraduate and post-baccalaureate undeclared majors are regarded as Pre-Clinical Phase students. Once junior level or higher academic standing is achieved, Pre-Clinical Phase students must complete CD 405, CD 410, CD 415 and CD 442 or the equivalent and subsequently established themselves as Eligible for Clinical Privileges at the CSUN Language, Speech and Hearing Center as part of the Clinical Phase of instruction. Course equivalents for CD 405, 410, 415 and 442 must be submitted for review and approval by a faculty advisor and the department chair. Application established oneself as Eligible for Clinical Privileges is made during the semester in which the Pre-Clinical Phase courses are in progress of completion.</li>
 <li>Please note that satisfactory completion of Pre-Clinical Phase courses includes a grade of B or better in each of the four classes. Enrollment in clinical courses (e.g., CD 465, CD 475 or CD 469O) is not permitted without department approval of being Eligible for Clinical Privileges. Evaluation for admission to Clinical Privileges includes a faculty assessment of academic and clinical potential, passing of a criminal background check, academic transcripts and satisfactory completion of the Pre-Clinical Phase courses.</li>

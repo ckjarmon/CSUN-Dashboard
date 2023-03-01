@@ -15,17 +15,17 @@
     const fineprint_style = { fontWeight: 'bold' }
     const option_style = { marginLeft: "2%", padding: "5px" }
     const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
-    const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+    const summary_style = { marginLeft: "2%", color: '#18E67F', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
 
 
     function _3358() {
         return (
 
-            <div style={{ backgroundColor: "white" }}>
+            <div style={{ backgroundColor: "black", paddingBottom: "50px" }}>
                 <Header></Header>
                 <span className="font-link">
-                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
-                        <Box color="black" bgcolor="#eeeeee" p={1}>
+                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%', outlineStyle: "solid", outlineColor: "red", borderRadius: "25px" }}>
+                        <Box color="white" bgcolor="#000000" p={1}>
                             <div style={{ marginLeft: '1%', padding: "" }}>
                             <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>B.S., Physics: Physics</h2><div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>To enroll in the first courses in Mathematics and Chemistry, students must obtain a satisfactory score on the Mathematics Placement Test (MPT) and the Chemistry Placement Test (CPT). Without a satisfactory score, students may be required to take additional courses in preparation for the required courses. The student must complete all courses listed under lower division required courses as well as those listed under one of the two options. In addition, all students are required to take two comprehensive exams—one on general physics upon completion of PHYS 227 or its equivalent and one on advanced physics just before graduation. Finally, students are required to do a senior project in their final year and pass the associated class PHYS 497. The dates of these exams will be posted in the department office. For more information, consult the department undergraduate advisor.</li>
 </ul>

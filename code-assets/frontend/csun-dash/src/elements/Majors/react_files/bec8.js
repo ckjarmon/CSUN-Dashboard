@@ -15,17 +15,17 @@
     const fineprint_style = { fontWeight: 'bold' }
     const option_style = { marginLeft: "2%", padding: "5px" }
     const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
-    const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+    const summary_style = { marginLeft: "2%", color: '#18E67F', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
 
 
     function _BEC8() {
         return (
 
-            <div style={{ backgroundColor: "white" }}>
+            <div style={{ backgroundColor: "black", paddingBottom: "50px" }}>
                 <Header></Header>
                 <span className="font-link">
-                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
-                        <Box color="black" bgcolor="#eeeeee" p={1}>
+                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%', outlineStyle: "solid", outlineColor: "red", borderRadius: "25px" }}>
+                        <Box color="white" bgcolor="#000000" p={1}>
                             <div style={{ marginLeft: '1%', padding: "" }}>
                             <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>B.S., Athletic Training</h2><div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>The B.S. in Athletic Training has a separate application from the CSUN admissions process. Admission criteria include GPA, observation hours, letters of recommendation and a personal interview with the selection committee. For further information, please go to the Athletic Training major/AT program page located on the Department of Kinesiology website. The 2-year AT program provides students with academic and clinical experiences designed to prepare them for the Board of Certification, Inc. (BOC) examination and a successful career in the field.</li>
 </ul>

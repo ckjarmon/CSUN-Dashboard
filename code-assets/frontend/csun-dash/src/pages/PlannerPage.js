@@ -82,20 +82,21 @@ export default PlannerPage;
 
 
 const container = {
+    height: '93vh',
     display: 'flex',
     flexDirection: 'row',
     backgroundColor: "#000000"
 }
 
 const coursesContainer = {
-    height: '100vh',
+    // height: '94vh',
     width: '50vw',
     borderRight: '1px solid white',
     overflow: 'auto'
 }
 
 const selectionsContianer = {
-    height: '100vh',
+    // height: '94vh',
     width: '50vw',
     borderLeft: '1px solid white',
     overflow: 'auto'

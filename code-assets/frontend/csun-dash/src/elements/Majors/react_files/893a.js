@@ -15,17 +15,17 @@
     const fineprint_style = { fontWeight: 'bold' }
     const option_style = { marginLeft: "2%", padding: "5px" }
     const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
-    const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+    const summary_style = { marginLeft: "2%", color: '#18E67F', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
 
 
     function _893A() {
         return (
 
-            <div style={{ backgroundColor: "white" }}>
+            <div style={{ backgroundColor: "black", paddingBottom: "50px" }}>
                 <Header></Header>
                 <span className="font-link">
-                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
-                        <Box color="black" bgcolor="#eeeeee" p={1}>
+                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%', outlineStyle: "solid", outlineColor: "red", borderRadius: "25px" }}>
+                        <Box color="white" bgcolor="#000000" p={1}>
                             <div style={{ marginLeft: '1%', padding: "" }}>
                             <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>B.S., Business Administration: Systems and Operations Management</h2><div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>Business Majors</li>
 <li>A Business major is any student majoring in Accountancy; Information Systems; or Business Administration with an option in either Business Analytics, Business Law, Financial Analysis, Financial Planning, Global Supply Chain Management, Management, Marketing, Real Estate, Risk Management and Insurance, or Systems and Operations Management. The following are impacted majors with additional admission requirements: the B.S. in Accountancy and the B.S. in Business Administration with options in Financial Analysis, Financial Planning, and Risk Management and Insurance. All Business majors share 27 units of common lower division core courses and 19 units of common upper division core courses.</li>

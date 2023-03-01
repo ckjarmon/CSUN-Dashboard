@@ -15,17 +15,17 @@
     const fineprint_style = { fontWeight: 'bold' }
     const option_style = { marginLeft: "2%", padding: "5px" }
     const information_style = { inlineSize: "1100px", overflowWrap: "break-word", padding: "10px", marginLeft: "2%" }
-    const summary_style = { marginLeft: "2%", color: 'blue', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
+    const summary_style = { marginLeft: "2%", color: '#18E67F', fontWeight: 'bold', textDecorationLine: 'underline', textAlign: "left", fontSize: "20px" }
 
 
     function _BC18() {
         return (
 
-            <div style={{ backgroundColor: "white" }}>
+            <div style={{ backgroundColor: "black", paddingBottom: "50px" }}>
                 <Header></Header>
                 <span className="font-link">
-                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%' }}>
-                        <Box color="black" bgcolor="#eeeeee" p={1}>
+                    <div style={{ marginRight: '10%', marginLeft: '10%', marginTop: '50px', width: '80%', outlineStyle: "solid", outlineColor: "red", borderRadius: "25px" }}>
+                        <Box color="white" bgcolor="#000000" p={1}>
                             <div style={{ marginLeft: '1%', padding: "" }}>
                             <h2 style={{ color: '#E31C25', justifyContent: "center", textAlign: "center" }}>B.A., English: Junior-Year Integrated (JYI) English Subject Matter Program for the Single Subject Credential</h2><div style={titleStyle}>Program Requirements</div><ul style={information_style}><li>This program integrates undergraduate subject matter knowledge with professional credential preparation content and experiences, and it leads to both the B.A. in English and the Single Subject Preliminary Credential in English. For admission, students must be juniors who have completed the lower division General Education requirements and the lower division core of the English Subject Matter option major.</li>
 <li>Applications are necessary to both the University and, prior to the student's penultimate semester in the program, to the Credential Program. Students will be responsible for successfully completing the English Subject Matter Exit Interview and for meeting the basic skills requirement (generally, passing the California Basic Educational Skills Test). Paralleling the FYI-English Program, the JYI-English option requires students to complete the Extended Study requirement in Literature. Students considering the JYI-English Program should seek advisement as soon as possible for guidance in meeting admission and program requirements.</li>
