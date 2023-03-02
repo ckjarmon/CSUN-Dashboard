@@ -63,7 +63,6 @@ const logo = {
 }
 
 
-
 const list = {
     textAlign: 'center',
     justifyContent: "spaceBetween",

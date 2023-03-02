@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function MajorsMenu() {
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#000000" }}>
+        <div style={{ minHeight: "100vh", backgroundColor: "#000000", paddingBottom: "100px" }}>
             <Header></Header>
 
             <div style={{ display: "flex", justifyContent: "center", marginTop: "25px" }}>

@@ -85,13 +85,15 @@ const container = {
     height: '93vh',
     display: 'flex',
     flexDirection: 'row',
-    backgroundColor: "#000000"
+    backgroundColor: "#000000",
+    paddingBottom: "70px"
 }
 
 const coursesContainer = {
     // height: '94vh',
     width: '50vw',
     borderRight: '1px solid white',
+    borderBottom: '1px solid white',
     overflow: 'auto'
 }
 
@@ -99,5 +101,6 @@ const selectionsContianer = {
     // height: '94vh',
     width: '50vw',
     borderLeft: '1px solid white',
+    borderBottom: '1px solid white',
     overflow: 'auto'
 }
