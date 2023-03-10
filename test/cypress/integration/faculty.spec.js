@@ -16,7 +16,7 @@ describe("Faculty Test Cases", function () {
     })
 
 
-    it("Can view faculty members", function () {
+    it("Can View Faculty Members", function () {
 
         this.class_codes.forEach((code) => {
             cy.contains('Select Subject').next().click()

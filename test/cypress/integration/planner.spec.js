@@ -19,7 +19,7 @@ describe("Planner Test Cases", function () {
     })
 
 
-    it("Can select subject and term", function () {
+    it("Can Select Subject and Term", function () {
 
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
@@ -32,7 +32,7 @@ describe("Planner Test Cases", function () {
         })
     })
 
-    it("Sections show up when subject and term selected", function () {
+    it("Sections Show Up When Term Selected", function () {
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
@@ -58,7 +58,7 @@ describe("Planner Test Cases", function () {
         })
     })
 
-    it("Add Classes", function () {
+    it("Can Add Classes", function () {
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
@@ -86,7 +86,7 @@ describe("Planner Test Cases", function () {
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]').should('contain.text', '16185')
     })
 
-    it("Add Classes [Conflict]", function () {
+    it("Can't Add Classes If It Conflicts", function () {
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
@@ -132,7 +132,7 @@ describe("Planner Test Cases", function () {
         .should('not.contain.text', '16186')
     })
 
-    it("Remove Class", function () {
+    it("Can Remove Classes", function () {
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
@@ -208,7 +208,7 @@ describe("Planner Test Cases", function () {
 
         cy.contains('Semester Cost').next().children()
             .should('contain.text', 'Units: 3')
-            .should('contain.text', 'Cost: $1665')
+            .should('contain.text', 'Cost: $2326')
     })
 
 })

@@ -3,7 +3,7 @@
 describe("Ratings Test Cases", function () {
     beforeEach(function () {
         cy.viewport(1920, 1080);
-        cy.visit(Cypress.config("baseUrl") + '/professor-search');
+        cy.visit(Cypress.config("baseUrl") + '/faculty');
     })
 
 
@@ -103,6 +103,8 @@ describe("Ratings Test Cases", function () {
         cy.get('ul.MuiList-root').children().first().click()
 
         cy.contains('button', 'Post').click()
+
+        // Indicated failure
         cy.contains('All Fields Are Required').should('be.visible')
 
         cy.contains('Post New Rating for Edmund Dantes').should('be.visible')

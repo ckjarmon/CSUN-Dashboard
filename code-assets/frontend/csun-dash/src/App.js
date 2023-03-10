@@ -192,7 +192,7 @@ function App() {
           <Route path='/planner' element={<PlannerPage handleAlert={handleAlert}/>} />
           <Route path='/majors' element={<MajorsMenu />} />
           <Route path='/ratings/:subject/:email' element={<RatingsPage />} />
-          <Route path='/professor-search' element={<ProfessorSearchPage />} />
+          <Route path='/faculty' element={<ProfessorSearchPage />} />
           <Route path='/signIn' element={<SignInPage />} />
 
           <Route path='/majors/cs' element={<CSMajor />} />
