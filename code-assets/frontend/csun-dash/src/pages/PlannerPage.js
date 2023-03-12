@@ -11,14 +11,11 @@ function PlannerPage({ handleAlert }) {
 
     function doesClassConflict(event) {
         for (let i = 0; i < addedClasses.length; i++) {
+            let new_start = event.start_time.substring(0, event.start_time.length - 3)
+            let new_end = event.end_time.substring(0, event.end_time.length - 3)
 
-
-            let new_start = event.start_time.substring(0, event.start_time.length - 1)
-            let new_end = event.end_time.substring(0, event.end_time.length - 1)
-
-            let added_start = addedClasses[i].start_time.substring(0, addedClasses[i].start_time.length - 1)
-            let added_end = addedClasses[i].end_time.substring(0, addedClasses[i].end_time.length - 1)
-
+            let added_start = addedClasses[i].start_time.substring(0, addedClasses[i].start_time.length - 3)
+            let added_end = addedClasses[i].end_time.substring(0, addedClasses[i].end_time.length - 3)
 
             if (new_start >= added_start && new_start < added_end) {return true}
             if (new_end > added_start && new_end <= added_end) {return true}

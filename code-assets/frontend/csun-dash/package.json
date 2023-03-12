@@ -31,7 +31,7 @@
     "webfontloader": "^1.6.28"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start --openssl-legacy-provider",
     "serve": "python ../../backend/server.py",
     "build": "react-scripts build",
     "test": "react-scripts test",
