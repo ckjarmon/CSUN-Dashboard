@@ -1,80 +1,56 @@
 {
-    "SUST 300": [
-        {
+    "SUST 300": {
+        "14425": {
             "class_number": "14425",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 30,
+            "waitlist_count": 7,
+            "instructor": "abhishek.tiwari@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "300",
-            "subject": "SUST"
-        },
-        {
-            "class_number": "14942",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "300",
-            "subject": "SUST"
-        },
-        {
-            "class_number": "15275",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "300",
-            "subject": "SUST"
+            "end_time": "0000h"
         }
-    ],
-    "SUST 310": [
-        {
-            "class_number": "15131",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    },
+    "SUST 310": {
+        "14369": {
+            "class_number": "14369",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 30,
+            "waitlist_count": 8,
+            "instructor": "dev.vrat@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "14911": {
+            "class_number": "14911",
+            "enrollment_cap": 40,
+            "enrollment_count": 31,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "dev.vrat@csun.edu",
             "days": "MW",
-            "location": "TBA",
+            "location": "EU130",
             "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "310",
-            "subject": "SUST"
-        },
-        {
-            "class_number": "15132",
-            "enrollment_cap": 37,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "310",
-            "subject": "SUST"
+            "end_time": "1215h"
         }
-    ],
-    "SUST 401": [
-        {
+    },
+    "SUST 401": {
+        "14426": {
             "class_number": "14426",
             "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 17,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "lisa.chaudhari@csun.edu",
             "days": "TR",
-            "location": "TBA",
+            "location": "EU134",
             "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "401",
-            "subject": "SUST"
+            "end_time": "1215h"
         }
-    ]
+    }
 }

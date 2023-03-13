@@ -1,51 +1,68 @@
 import Header from "../components/Header";
-import AddClasses from "../elements/Add Classes/AddClasses";
-import ClassSelections from "../elements/Class Selections/ClassSelections";
-import {useState} from 'react'
+import Footer from '../components/Footer';
+import AddClasses from "../elements/Add_Classes/AddClasses";
+import ClassSelections from "../elements/Class_Selections/ClassSelections";
+import { useState } from 'react'
 
-function PlannerPage(){
+function PlannerPage({ handleAlert }) {
     const [addedClasses, setAddedClasses] = useState([])
 
     const [addedClassIcon, setAddedClassIcon] = useState({})
 
-    function classAlreadyAdded(event){
-        for(let i = 0; i < addedClasses.length; i++){
-            if(event.catalog_number == addedClasses[i].catalog_number){
-                return true
-            }
+    function doesClassConflict(event) {
+        for (let i = 0; i < addedClasses.length; i++) {
+
+
+            let new_start = event.start_time.substring(0, event.start_time.length - 1)
+            let new_end = event.end_time.substring(0, event.end_time.length - 1)
+
+            let added_start = addedClasses[i].start_time.substring(0, addedClasses[i].start_time.length - 1)
+            let added_end = addedClasses[i].end_time.substring(0, addedClasses[i].end_time.length - 1)
+
+
+            if (new_start >= added_start && new_start < added_end) {return true}
+            if (new_end > added_start && new_end <= added_end) {return true}
+
+            if (added_start >= new_start && added_start < new_start) {return true}
+            if (added_end > new_start && added_end <= new_end) {return true}
+
+            if (event.catalog_number === addedClasses[i].catalog_number) { return true }
         }
         return false
     }
 
-    function handleClassAdded(event){
-        if(!addedClassIcon[event.class_number]){
-            if(!classAlreadyAdded(event)){
+    function handleClassAdded(event) {
+        if (!addedClassIcon[event.class_number]) {
+            if (!doesClassConflict(event)) {
                 setAddedClassIcon({
                     ...addedClassIcon,
-                    [event.class_number]:  !addedClassIcon[event.class_number]
+                    [event.class_number]: !addedClassIcon[event.class_number]
                 })
                 setAddedClasses(oldArray => [...oldArray, event])
-            }else{
-                console.log("This Class Is Already Added To Your Schedule!")
+                console.log(event)
+                handleAlert({ severity: "success", message: "Class has been added to your planner." })
+            } else {
+                handleAlert({ severity: "error", message: "This class conflicts with current schedule!" })
+                console.log("This class conflicts with current schedule!")
             }
-        }else{
-            
+        } else {
+
         }
     }
 
-    function handleClassRemoved(event){
-        let filteredClasses = addedClasses.filter(classItem => classItem.class_number != event.class_number)
+    function handleClassRemoved(event) {
+        let filteredClasses = addedClasses.filter(classItem => classItem.class_number !== event.class_number)
         setAddedClasses(filteredClasses)
 
         setAddedClassIcon({
             ...addedClassIcon,
-            [event.class_number]:  !addedClassIcon[event.class_number]
+            [event.class_number]: !addedClassIcon[event.class_number]
         })
     }
 
     console.log(addedClasses)
 
-    return(
+    return (
         <div>
             <Header></Header>
             <div style={container}>
@@ -56,6 +73,7 @@ function PlannerPage(){
                     <ClassSelections classesAdded={addedClasses} removeClassHandler={handleClassRemoved}></ClassSelections>
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     )
 }
@@ -64,21 +82,25 @@ export default PlannerPage;
 
 
 const container = {
+    height: '93vh',
     display: 'flex',
     flexDirection: 'row',
-    backgroundColor: "#1C1C1C"
+    backgroundColor: "#000000",
+    paddingBottom: "70px"
 }
 
 const coursesContainer = {
-    height: '92vh',
+    // height: '94vh',
     width: '50vw',
-    border: '1px solid black',
+    borderRight: '1px solid white',
+    borderBottom: '1px solid white',
     overflow: 'auto'
 }
 
 const selectionsContianer = {
-    height: '92vh',
+    // height: '94vh',
     width: '50vw',
-    border: '1px solid black',
+    borderLeft: '1px solid white',
+    borderBottom: '1px solid white',
     overflow: 'auto'
 }

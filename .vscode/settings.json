@@ -1,5 +1,7 @@
 {
     "python.analysis.extraPaths": [
-        "./code-assets"
-    ]
+        "./code-assets",
+        "./code-assets/backend"
+    ],
+    "python.analysis.typeCheckingMode": "off"
 }

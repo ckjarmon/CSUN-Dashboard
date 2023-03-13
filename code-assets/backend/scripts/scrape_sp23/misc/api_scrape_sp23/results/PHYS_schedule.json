@@ -1,0 +1,902 @@
+{
+    "PHYS 100A": [
+        {
+            "class_number": "17120",
+            "enrollment_cap": 120,
+            "enrollment_count": 121,
+            "waitlist_cap": 120,
+            "waitlist_count": 1,
+            "instructor": "tony.rowe@csun.edu",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "17121",
+            "enrollment_cap": 120,
+            "enrollment_count": 120,
+            "waitlist_cap": 120,
+            "waitlist_count": 3,
+            "instructor": "yohannes.shiferaw@csun.edu",
+            "days": "MW",
+            "location": "CR5125",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    ],
+    "PHYS 100AL": [
+        {
+            "class_number": "17122",
+            "enrollment_cap": 48,
+            "enrollment_count": 30,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "mingliang.zhang@csun.edu",
+            "days": "M",
+            "location": "EH2109",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17123",
+            "enrollment_cap": 48,
+            "enrollment_count": 26,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "eric.collins@csun.edu",
+            "days": "M",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "17124",
+            "enrollment_cap": 48,
+            "enrollment_count": 43,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "gerard.valdellon.150@my.csun.edu",
+            "days": "M",
+            "location": "EH2109",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17125",
+            "enrollment_cap": 48,
+            "enrollment_count": 34,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "giovanna.campisi.280@my.csun.edu",
+            "days": "T",
+            "location": "EH2109",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17126",
+            "enrollment_cap": 48,
+            "enrollment_count": 20,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "eric.collins@csun.edu",
+            "days": "T",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "17127",
+            "enrollment_cap": 48,
+            "enrollment_count": 47,
+            "waitlist_cap": 48,
+            "waitlist_count": 0,
+            "instructor": "giovanna.campisi.280@my.csun.edu",
+            "days": "T",
+            "location": "EH2109",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "PHYS 100B": [
+        {
+            "class_number": "17129",
+            "enrollment_cap": 120,
+            "enrollment_count": 75,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "ana.cadavid@csun.edu",
+            "days": "MW",
+            "location": "NH113",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17652",
+            "enrollment_cap": 120,
+            "enrollment_count": 49,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "tyler.luchko@csun.edu",
+            "days": "TR",
+            "location": "JA100",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "PHYS 100BL": [
+        {
+            "class_number": "17130",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tanner.rosenberg@csun.edu",
+            "days": "T",
+            "location": "LO1107",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17131",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jake.klorman.554@my.csun.edu",
+            "days": "T",
+            "location": "LO1107",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17132",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 1,
+            "instructor": "noorulhoda.kazemi.727@my.csun.edu",
+            "days": "W",
+            "location": "LO1107",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "17400",
+            "enrollment_cap": 24,
+            "enrollment_count": 21,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "duane.doty@csun.edu",
+            "days": "R",
+            "location": "LO1107",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "17573",
+            "enrollment_cap": 24,
+            "enrollment_count": 12,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "jake.klorman.554@my.csun.edu",
+            "days": "R",
+            "location": "LO1107",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17942",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "noorulhoda.kazemi.727@my.csun.edu",
+            "days": "T",
+            "location": "LO1107",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18099",
+            "enrollment_cap": 24,
+            "enrollment_count": 10,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "blair.martin.159@my.csun.edu",
+            "days": "R",
+            "location": "LO1107",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    ],
+    "PHYS 220A": [
+        {
+            "class_number": "17134",
+            "enrollment_cap": 75,
+            "enrollment_count": 75,
+            "waitlist_cap": 70,
+            "waitlist_count": 3,
+            "instructor": "igor.beloborodov@csun.edu",
+            "days": "MW",
+            "location": "EH2228",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        {
+            "class_number": "17672",
+            "enrollment_cap": 120,
+            "enrollment_count": 96,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "mingliang.zhang@csun.edu",
+            "days": "TR",
+            "location": "CR5122",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        }
+    ],
+    "PHYS 220AL": [
+        {
+            "class_number": "17135",
+            "enrollment_cap": 24,
+            "enrollment_count": 25,
+            "waitlist_cap": 24,
+            "waitlist_count": 2,
+            "instructor": "ron.rahav.1@my.csun.edu",
+            "days": "R",
+            "location": "EH2109",
+            "start_time": "1700h",
+            "end_time": "1945h"
+        },
+        {
+            "class_number": "17136",
+            "enrollment_cap": 24,
+            "enrollment_count": 9,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "alexander.stafford.905@my.csun.edu",
+            "days": "R",
+            "location": "EH2109",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17137",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 10,
+            "instructor": "alexander.stafford.905@my.csun.edu",
+            "days": "R",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "17139",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 5,
+            "instructor": "alexander.stafford.905@my.csun.edu",
+            "days": "W",
+            "location": "EH2109",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "17792",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 2,
+            "instructor": "swosti.choudhury.472@my.csun.edu",
+            "days": "W",
+            "location": "EH2109",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "18162",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 3,
+            "instructor": "brooke.walterlakes.49@my.csun.edu",
+            "days": "F",
+            "location": "EH2109",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18193",
+            "enrollment_cap": 24,
+            "enrollment_count": 24,
+            "waitlist_cap": 24,
+            "waitlist_count": 2,
+            "instructor": "tanner.rosenberg@csun.edu",
+            "days": "F",
+            "location": "EH2109",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "PHYS 220B": [
+        {
+            "class_number": "17140",
+            "enrollment_cap": 120,
+            "enrollment_count": 87,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "say.peng.lim@csun.edu",
+            "days": "MW",
+            "location": "EH2132",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        },
+        {
+            "class_number": "17141",
+            "enrollment_cap": 120,
+            "enrollment_count": 56,
+            "waitlist_cap": 120,
+            "waitlist_count": 0,
+            "instructor": "say.peng.lim@csun.edu",
+            "days": "TR",
+            "location": "CR5125",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        }
+    ],
+    "PHYS 220BL": [
+        {
+            "class_number": "17143",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "mingliang.zhang@csun.edu",
+            "days": "T",
+            "location": "LO1102",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "17404",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "mingliang.zhang@csun.edu",
+            "days": "W",
+            "location": "LO1102",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "17718",
+            "enrollment_cap": 25,
+            "enrollment_count": 20,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "gerard.valdellon.150@my.csun.edu",
+            "days": "W",
+            "location": "LO1102",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "18093",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "duane.doty@csun.edu",
+            "days": "T",
+            "location": "LO1102",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        },
+        {
+            "class_number": "18098",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "soufyane.aqiqi.285@my.csun.edu",
+            "days": "R",
+            "location": "LO1102",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "18159",
+            "enrollment_cap": 25,
+            "enrollment_count": 20,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "soufyane.aqiqi.285@my.csun.edu",
+            "days": "M",
+            "location": "LO1102",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        {
+            "class_number": "18160",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "luis.davila.106@my.csun.edu",
+            "days": "M",
+            "location": "LO1102",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        },
+        {
+            "class_number": "18232",
+            "enrollment_cap": 25,
+            "enrollment_count": 17,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "duane.doty@csun.edu",
+            "days": "T",
+            "location": "LO1102",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "PHYS 226": [
+        {
+            "class_number": "17317",
+            "enrollment_cap": 30,
+            "enrollment_count": 16,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "sattar.taheri@csun.edu",
+            "days": "TR",
+            "location": "SQ102",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    ],
+    "PHYS 301": [
+        {
+            "class_number": "17145",
+            "enrollment_cap": 35,
+            "enrollment_count": 15,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "say.peng.lim@csun.edu",
+            "days": "MW",
+            "location": "LO1117",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "PHYS 305": [
+        {
+            "class_number": "18120",
+            "enrollment_cap": 44,
+            "enrollment_count": 44,
+            "waitlist_cap": 44,
+            "waitlist_count": 0,
+            "instructor": "justin.miller.45@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18121",
+            "enrollment_cap": 44,
+            "enrollment_count": 45,
+            "waitlist_cap": 44,
+            "waitlist_count": 0,
+            "instructor": "justin.miller.45@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 305L": [
+        {
+            "class_number": "18123",
+            "enrollment_cap": 44,
+            "enrollment_count": 44,
+            "waitlist_cap": 44,
+            "waitlist_count": 0,
+            "instructor": "justin.miller.45@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "18124",
+            "enrollment_cap": 44,
+            "enrollment_count": 45,
+            "waitlist_cap": 44,
+            "waitlist_count": 0,
+            "instructor": "justin.miller.45@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 311": [
+        {
+            "class_number": "18241",
+            "enrollment_cap": 30,
+            "enrollment_count": 9,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "farzad.mahfouzi@csun.edu",
+            "days": "TR",
+            "location": "LO1117",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "PHYS 331": [
+        {
+            "class_number": "20801",
+            "enrollment_cap": 30,
+            "enrollment_count": 7,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "say.peng.lim@csun.edu",
+            "days": "MW",
+            "location": "CR5126",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    ],
+    "PHYS 365": [
+        {
+            "class_number": "17151",
+            "enrollment_cap": 24,
+            "enrollment_count": 11,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "kahchun.lau@csun.edu",
+            "days": "MW",
+            "location": "ONLINE",
+            "start_time": "1230h",
+            "end_time": "1515h"
+        }
+    ],
+    "PHYS 376": [
+        {
+            "class_number": "17146",
+            "enrollment_cap": 30,
+            "enrollment_count": 28,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "thomas.oshiro@csun.edu",
+            "days": "MW",
+            "location": "JD1124",
+            "start_time": "0800h",
+            "end_time": "0915h"
+        }
+    ],
+    "PHYS 389": [
+        {
+            "class_number": "21627",
+            "enrollment_cap": 30,
+            "enrollment_count": 15,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "li.gao@csun.edu",
+            "days": "TR",
+            "location": "CR5126",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    ],
+    "PHYS 431": [
+        {
+            "class_number": "17147",
+            "enrollment_cap": 25,
+            "enrollment_count": 20,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "anna.bezryadina@csun.edu",
+            "days": "MW",
+            "location": "LO1127",
+            "start_time": "1700h",
+            "end_time": "1840h"
+        }
+    ],
+    "PHYS 451": [
+        {
+            "class_number": "17574",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "ana.cadavid@csun.edu",
+            "days": "MW",
+            "location": "LO1117",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        }
+    ],
+    "PHYS 465": [
+        {
+            "class_number": "17152",
+            "enrollment_cap": 24,
+            "enrollment_count": 19,
+            "waitlist_cap": 24,
+            "waitlist_count": 0,
+            "instructor": "radha.ranganathan@csun.edu",
+            "days": "TR",
+            "location": "LO1100",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        }
+    ],
+    "PHYS 480": [
+        {
+            "class_number": "18623",
+            "enrollment_cap": 30,
+            "enrollment_count": 7,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "igor.beloborodov@csun.edu",
+            "days": "MW",
+            "location": "LO1127",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    ],
+    "PHYS 490": [
+        {
+            "class_number": "18265",
+            "enrollment_cap": 20,
+            "enrollment_count": 14,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "yang.peng@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 493": [
+        {
+            "class_number": "17148",
+            "enrollment_cap": 35,
+            "enrollment_count": 9,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "anna.bezryadina@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1530h",
+            "end_time": "1650h"
+        }
+    ],
+    "PHYS 495B": [
+        {
+            "class_number": "21952",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "anna.bezryadina@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 585": [
+        {
+            "class_number": "21499",
+            "enrollment_cap": 30,
+            "enrollment_count": 5,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "kahchun.lau@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1000h",
+            "end_time": "1115h"
+        }
+    ],
+    "PHYS 588": [
+        {
+            "class_number": "18622",
+            "enrollment_cap": 30,
+            "enrollment_count": 0,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "nick.kioussis@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 600": [
+        {
+            "class_number": "17149",
+            "enrollment_cap": 30,
+            "enrollment_count": 14,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "yohannes.shiferaw@csun.edu",
+            "days": "TR",
+            "location": "CR5209",
+            "start_time": "1700h",
+            "end_time": "1840h"
+        }
+    ],
+    "PHYS 650": [
+        {
+            "class_number": "17150",
+            "enrollment_cap": 20,
+            "enrollment_count": 10,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "xu.zhang@csun.edu",
+            "days": "TR",
+            "location": "CR5117",
+            "start_time": "1900h",
+            "end_time": "2015h"
+        }
+    ],
+    "PHYS 696A": [
+        {
+            "class_number": "17199",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "li.gao@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 696B": [
+        {
+            "class_number": "17200",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "anna.bezryadina@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 696C": [
+        {
+            "class_number": "17210",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "debiprasad.choudhary@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "17707",
+            "enrollment_cap": 0,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "radha.ranganathan@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 697": [
+        {
+            "class_number": "17276",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "miroslav.peric@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 698C": [
+        {
+            "class_number": "17381",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "debiprasad.choudhary@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "17384",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "anna.bezryadina@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 698F": [
+        {
+            "class_number": "17340",
+            "enrollment_cap": 3,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "ren.deqing@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 699A": [
+        {
+            "class_number": "17345",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "anna.bezryadina@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        {
+            "class_number": "17346",
+            "enrollment_cap": 0,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "donna.sheng@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ],
+    "PHYS 699C": [
+        {
+            "class_number": "17419",
+            "enrollment_cap": 3,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "li.gao@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    ]
+}

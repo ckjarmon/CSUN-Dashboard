@@ -3,3 +3,13 @@
 node_modules
 gitignore
 tempCodeRunnerFile.*
+*pycache
+__pycache__
+.pytest_cache
+test/frontend/jest_reports/
+test/.coverage
+.hypothesis/examples/*
+.hypothesis/examples\*
+test\.hypothesis*
+test/backend/.hypothesis/*
+.hypothesis\unicode_data*

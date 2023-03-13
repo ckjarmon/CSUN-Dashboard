@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8">
+  <head><title>Endpoint List</title></head>
+  <body>
+    <h2>Endpoint List</h2>
+    <p><a href="#subject_list">List of Subjects</a></p>
+    <ul>
+      <li><b><u>Retrieve Catalog of a Specific Subject</b></u></li>
+      <code>&#39;/&lt;string:subject&gt;/catalog&#39;</code>
+      <p>
+      Replace <code>&lt;subject&gt;</code> with the subject you would like to see the catalog of
+      </p>
+      <i>Example: </i><a href=https://api.kyeou.xyz/comp/catalog target="_blank">https://api.kyeou.xyz/comp/catalog</a> <br />
+      Returns JSON with catalog list of courses, one example of an entry <br />
+      <code><span style="white-space: pre;">{
+        &quot;subject&quot;: &quot;COMP&quot;,
+        &quot;catalog_number&quot;: &quot;100&quot;,
+        &quot;title&quot;: &quot;Computers: Their Impact and Use&quot;,
+        &quot;description&quot;: &quot;Not open to Computer Science majors. Introduction to the uses, concepts, techniques and terminology of computing. Places the possibilities and problems of computer use in historical, economic and social contexts. Shows how computers can assist in a wide range of personal, commercial and organizational activities. Typical computer applications, including word processing, spreadsheets and databases. (Available for General Education, E Lifelong Learning.) (IC)&quot;,
+        &quot;units&quot;: &quot;3&quot;,
+        &quot;prerequisites&quot;: &quot;{None}&quot;,
+        &quot;corequisites&quot;: &quot;{None}&quot;
+}
+    </code></span>
+      <br />
+      <li>Tea</li>
+      <br />
+      <li>Milk</li>
+    </ul>
+
+    <br />
+    <p id="subject_list"><h3>Subject List</h3></p>
+  </body>
+</html>

@@ -1,0 +1,344 @@
+[
+    {
+        "subject": "AE",
+        "catalog_number": "486B",
+        "title": "Senior Design in Aerospace Engineering II",
+        "description": "Prerequisite: AE 486A. Continuation of AE 486A. Students carry out the group design project initiated in AE 486A. Influence of technical legal ethical and regulatory constraints are considered. Computer-aided engineering design methods are utilized. Two 3-hour labs per week.\n",
+        "units": "2",
+        "prerequisites": "{AE 486A}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "AE",
+        "catalog_number": "572",
+        "title": "Rocket Propulsion",
+        "description": "Prerequisites: ME 370 and 390 or equivalent background. Flight environment. Mission propulsive requirements staging and optimization. Chemical rockets. Thrust chamber design nozzle design propellant storage and pressurization systems. Liquid propellant combustion and expansion; Monopropellant systems. Solid propellant grain design.Combustion instabilities. Multiple phase reacting nozzle flow. Ram/rocket hybrid engines. Energy limited vs. power limited systems. Introduction to electrical rocket propulsion.\n",
+        "units": "3",
+        "prerequisites": "{{ME 370} && {ME 390}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "ART",
+        "catalog_number": "124B",
+        "title": "Drawing I",
+        "description": "Prerequisite: ART 124A. Basic drawing experiences dealing with the human figure. Emphasis on form structure proportions gesture and systems of perspective and space. 5 hours per week. \n",
+        "units": "2",
+        "prerequisites": "{ART 124A}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "CHEM",
+        "catalog_number": "696B",
+        "title": "Directed Graduate Research",
+        "description": "Prerequisites: Classified status; Consent of a faculty member who will serve as thesis advisor. Program of research conducted under the direction of the thesis advisor in an area of interest to the student. May be repeated but no more than 7 units are allowed toward the M.S. degree. \n",
+        "units": "2",
+        "prerequisites": "{{Classified status} && {Consent of a faculty member who will serve as thesis advisor}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "CTVA",
+        "catalog_number": "329B",
+        "title": "Program Production",
+        "description": "Prerequisite: Instructor consent. CTVA 230 is required for all students working at KCSN. Principles of management programming and production with practical application. Students must work at least 3 hours a week for 1 unit. Maximum of 6 units allowable. (Credit/No Credit only)\n",
+        "units": "2",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "CTVA",
+        "catalog_number": "694B",
+        "title": "Internship",
+        "description": "Prerequisites: CTVA 602; Approval of Graduate Advisor. Intensive on-the-job training beyond the entry level in radio television and allied industries.\n",
+        "units": "2",
+        "prerequisites": "{{CTVA 602} && {Approval of Graduate Advisor}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "ECE",
+        "catalog_number": "610",
+        "title": "Fault Analysis in Power Systems",
+        "description": "Prerequisite: ECE 410/L or instructor Consent. Study of impedance and admittance models network calculations and symmetrical faults using Zbus (impedance matrix) symmetrical components and sequence networks. Unsymmetrical faults using symmetrical components also are covered. The power-flow problem is analyzed and explained in detail using methods including Newton-Raphson and DC-power flow. The effects of distributed generation (DG) in short circuit analysis are discussed. A project is assigned in which students select a topic related to the course perform bibliographical research write a report and make presentations about their findings. Tools used include Matlab and PSPICE.\n",
+        "units": "3",
+        "prerequisites": "{{ECE 410/L} || {Instructor Consent}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "ECE",
+        "catalog_number": "642",
+        "title": "RF Electronics Design",
+        "description": "Prerequisite: Instructor consent. Design of RF amplifiers and tuners is emphasized. Covered are AM/FM RF amplifiers AM/FM tuners and AM/FM detectors. Radar applications are considered: TV circuits including UHF/VHF tuners video amplifiers sync. vertical and horizontal circuits. Automatic control circuits also are covered. Phase lock loop techniques are introduced with emphasis on RF applications including frequency synthesis techniques using digital approaches.\n",
+        "units": "3",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "ECE",
+        "catalog_number": "666",
+        "title": "Fiber-Optic Communications",
+        "description": "Prerequisite: ECE 460. Mode theory waveguide equations and fiber modes calculations. Optical signal dispersion and degradation. Optical sources photo detectors modulation/demodulation techniques and optical system receiver performance. Power and rise-time link budget analysis.\n",
+        "units": "3",
+        "prerequisites": "{ECE 460}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "ECE",
+        "catalog_number": "681",
+        "title": "Nonlinear Control Systems",
+        "description": "Prerequisite: ECE 480. This course studies methods for modeling analysis and design of nonlinear dynamical systems with applications in control. The materials include analysis of nonlinear systems by means of describing functions and phase-plane diagrams; stability studies by means of the first and second methods of Lyapunov Popovs Methods and La Salles Theorem and system design methods including Lyapunov based design feedback linearization sliding mode control and adaptive control.\n",
+        "units": "3",
+        "prerequisites": "{ECE 480}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "EED",
+        "catalog_number": "477B",
+        "title": "Literacy Instruction and English Language Development for Diverse Learners",
+        "description": "Prerequisite: EED 477A; Admission to the Integreated Teacher Education Program. Corequisites: EED 578A 579A. This is the second of two courses designed to prepare credential candidates to teach reading/language arts and ELD (English Language Development) in multicultural/multilingual settings at the elementary-school level. Specifically this course emphasizes instructional approaches for literacy development with regard to: a) second language learners of English; and b) language arts/writing methods within the context of a balanced literacy program. Students will prepare language arts teaching units develop on-going programs of assessment design early intervention strategies and integrate the language arts in all areas of the curriculum. 20 hours of directed observation/participation in the public schools is required This course is to be taken after EED 477A and concurrently with the first semester of EED 578A -- Student Teaching.\n",
+        "units": "3",
+        "prerequisites": "{EED 477A}",
+        "corequisites": "{{EED 578A} && {EED 579A}}"
+    },
+    {
+        "subject": "EED",
+        "catalog_number": "578D",
+        "title": "Student Teaching II",
+        "description": "Recommended Prerequisites: Admission to Multiple Subject Credential Program; Admission to student teaching. Corequisite: EED 480 and 579D. The field experience takes place in a participating public elementary school and provides opportunities for the credential candidate to work under the daily direction and guidance of a qualified supervising elementary teacher who exemplifies best practices in teaching all students including English language learners and students with disabilities. A University faculty member supervises the field work assignment. In this assignment the candidate gradually assumes full responsibility for the complete instructional program. A minimum of 250 hours is required for this course.\n",
+        "units": "6",
+        "prerequisites": "{None}",
+        "corequisites": "{{EED 480} && {EED 579D}}"
+    },
+    {
+        "subject": "EED",
+        "catalog_number": "579D",
+        "title": "Student Teaching Seminar",
+        "description": "Prerequisites: Admission to Multiple Subject Credential program; admission to student teaching. Corequisite: EED 578D.  This course is a 1 unit student teaching seminar in the Multiple Subject Credential program. The seminar provides opportunities for candidates to reflect upon and analyze field work experiences. Student teachers learn to 1) assess their needs 2) gather data 3) analyze results 4) problem solve 5) modify teaching practices 6) determine implications of their experience for future instruction and 7) reflect upon their teaching practice.(Credit/No Credit Only).\n",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{EED 578D}"
+    },
+    {
+        "subject": "EED",
+        "catalog_number": "670",
+        "title": "Research Applications in ESL Instruction",
+        "description": "Prerequisites: EED 570 or equivalent; 610 or equivalent or instructor consent. Designed to prepare teachers to analyze plan and evaluate ESL instruction in a bilingual or multilingual setting at the elementary-school level. Emphasis given to the analysis and development of materials and methods for teaching and assessment. Students will evaluate and synthesize current research related to issues concerning second language acquisition by elementary school students.\n",
+        "units": "3",
+        "prerequisites": "{{EED 570} && {{EED 610} || {Instructor Consent}}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "ELPS",
+        "catalog_number": "735",
+        "title": "Law and Policy in Postsecondary Education",
+        "description": "Prerequisites: Admission to doctoral program in Educational Leadership (Community College cohort only.) This course covers general principles of American school law with particular emphasis on California statutes and community-college regulations. It includes review of the major federal state and local laws and regulations and an analysis of significant court decisions having implications for public postsecondary education.\n",
+        "units": "3",
+        "prerequisites": "{Admission to doctoral program in Educational Leadership (Community College cohort only.)}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "ELPS",
+        "catalog_number": "765",
+        "title": "Field Based Inquiry II",
+        "description": "Prerequisite: Admission to the Doctoral Program in Educational Leadership; Successful completion of Field Based Inquiry I. (P12 cohort only.) Doctoral students complete their field-based inquiry related to organizational change efforts to improve student achievement and present their findings in a seminar session.\n",
+        "units": "3",
+        "prerequisites": "{Refer to Description}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "EPC",
+        "catalog_number": "659KC",
+        "title": "Fieldwork in Clinical Counseling",
+        "description": "Prerequisites: EPC 620 659A/B. Intensive supervised field work experience in an organized program for those specializing in college counseling and student services. Students are required to develop a comprehensive learning plan and spend at least 2 hours per week in individual and/or group supervision. Actual number of units per semester is determined by instructor and student. Normally students will enroll in EPC 659JC/659KC for two 3-unit semester. (Credit/No Credit only)\n",
+        "units": "3",
+        "prerequisites": "{{EPC 620} && {EPC 659A/B}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "EPC",
+        "catalog_number": "670A",
+        "title": "Systemic Family Therapy Theories and Their Evidence Base",
+        "description": "Prerequisite: Admission to a CSUN Masters Degree Program in Counseling. Case conceptualization and treatment planning using systemic marriage and family therapy/counseling theories including structural strategic experiential and intergenerational theories. Addresses the associated evidence base common factors research and epistemological foundations of systemic theories. Applications with diverse clients children and the severely mentally ill are emphasized.\n",
+        "units": "3",
+        "prerequisites": "{Admission to a CSUN Masters Degree Program in Counseling}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "EPC",
+        "catalog_number": "689",
+        "title": "Leadership in School Counseling",
+        "description": "Prerequisites: EPC 682 659A/B. Overview of the knowledge and skills required for effective leadership in schools by school counselors with an emphasis on organizing implementing managing and evaluating comprehensive school guidance and counseling programs. Topics include leadership theory and principles; current research in educational leadership leadership skills education reform movements strategic planning school climate and culture school-based management and collaborative decision making; school counseling management systems; and team building.\n",
+        "units": "3",
+        "prerequisites": "{{EPC 682} && {EPC 659A/B}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FCS",
+        "catalog_number": "491B",
+        "title": "Family and Consumer Sciences Projects",
+        "description": "Prerequisites: Instructor consent. Individual supervised projects involving utilization of the facilities and personnel of the Child and Family Studies Laboratory.\n",
+        "units": "2",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "FCS",
+        "catalog_number": "696C",
+        "title": "Directed Graduate Research",
+        "description": "Prerequisites: Classified graduate standing; Approval of advisor. Investigation of a significant individual research problem.\n",
+        "units": "3",
+        "prerequisites": "{{Classified graduate standing} && {Approval of advisor}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "482",
+        "title": "Population, Migration, and the Environment",
+        "description": "Prerequisite: Lower Division course in Geography. Geographical analysis and study of the distribution composition migration and growth of world population.\n",
+        "units": "3",
+        "prerequisites": "{Lower Division course in Geography}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "GEOG",
+        "catalog_number": "699C",
+        "title": "Independent Study",
+        "description": "Prerequisite: Consent of instructor Graduate Coordinator and Department Chair. Maximum of 3 units may be applied to the students Program and only to the elective requirement in the Option 1 Program.\n",
+        "units": "3",
+        "prerequisites": "{Consent of instructor, Graduate Coordinator, and Department Chair}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "HIST",
+        "catalog_number": "563",
+        "title": "Colloquium in Latin American Political",
+        "description": "Institutional and Military History Prerequisite: Graduate standing or instructor consent. Examines the historical evolution of the political and institutional structure in Mexico Central and South America and the Caribbean. By the end of the semester students have achieved an understanding of the political development of the Latin American states within a broad social and economic context. Emphasis on critical reading in-depth class discussions and the ability to present written analyses of the covered material. Major themes may include colonial institutions caudillismo oligarchic regimes U.S. interventions revolution and reform populism armed forces in politics dictatorships and return to democracy and political neo-liberalism.\n",
+        "units": "3",
+        "prerequisites": "{{Graduate standing} || {instructor consent}}",
+        "corequisites": "{Err}"
+    },
+    {
+        "subject": "KIN",
+        "catalog_number": "451L",
+        "title": "Adapted Aquatic Therapeutic Exercise: Assessment, Evaluation and Program Design Lab",
+        "description": "Evaluation and Program Design Lab Corequisite: KIN 451. Recommended Preparatory: KIN 311/L 313/L. This course is designed to introduce intermediate/advanced knowledge in adapted aquatic therapeutic exercise. Assessment and evaluation processes to be learned include observations screenings and various measurement instruments for the purpose of designing exercise programs for individuals and groups with special needs.\n",
+        "units": "1",
+        "prerequisites": "{None}",
+        "corequisites": "{KIN 451}"
+    },
+    {
+        "subject": "ME",
+        "catalog_number": "675A",
+        "title": "Conductive and Radiative Heat Transfer",
+        "description": "Prerequisite: ME 375. Theory and applications of the conductive and radiative modes of heat transfer. Analytical and numerical methods for single- and multi-dimensional steady state and transient conduction. Numerical and analytical techniques as applied to radiative exchanges between diffuse and specular surfaces and transfer through absorbing-transmitting media.\n",
+        "units": "3",
+        "prerequisites": "{ME 375}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "MGT",
+        "catalog_number": "499C",
+        "title": "Independent Study",
+        "description": "Prerequisites: Consent of Department Chair and consent of an instructor to act as sponsor; Grade of C or higher in MGT 360; Upper Division Writing Proficiency Exam (UDWPE) score of 8 or higher. BUS 302/L is a prerequisite for Business majors. In order to do an Independent Study assignment in the College of Business and Economics a student must have at least a 3.0 overall GPA a 3.0 or higher GPA in all major courses and a 3.0 or higher GPA in his/her option courses. A student who does not meet these grade point requirements will not receive credit for any MGT 499 that he/she may take. Admission is based on evidence of ability to pursue Independent Study in-depth and on approval of a project submitted at the time of registration. Regular progress meetings and reports are required throughout the semester. Completion of the project is required before credit may be received. Enrollment in Independent Study is not allowed for the purpose of substitution for an existing course. A maximum of 6 units of Independent Study (MGT 499) may be earned in the College of Business and Economics. Further a maximum of 12 units may be earned by combining Internship (MGT 498) and Independent Study (MGT 499).\n",
+        "units": "3",
+        "prerequisites": "{Just read the description, I CBA to parse this}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "MKT",
+        "catalog_number": "498B",
+        "title": "Marketing Internship",
+        "description": "Prerequisite: Upper Division Writing Proficiency Exam (UDWPE) score of 8 or higher. BUS 302/L and MKT 304 (Marketing majors must attain a grade ofC or higher) are prerequisites for Business majors. Individual study pertaining to present or future career. Consultation with instructor to determine program that includes field assignments and reports. A maximum of 12 units may be earned by combining Field Assignments and Reports (MKT 498) and Independent Study (MKT 499). An Academic Internship course. (Credit/No Credit only)\n",
+        "units": "2",
+        "prerequisites": "{Refer to Description}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "MSE",
+        "catalog_number": "536",
+        "title": "Introduction to Advanced Biomaterials",
+        "description": "Prerequisite: Instructor consent. The interaction between the human body environment and synthetic materials including materials for medical implants and for dental restoration and appliances is explored. Tissue engineering biosensing imaging and drug delivery interact directly with biomaterials. Consideration of new technologies that dependon overcoming present material limits and improving material/biological environment interactions.\n",
+        "units": "3",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "MSE",
+        "catalog_number": "550",
+        "title": "Thin Film Technology",
+        "description": "Prerequisite: Instructor consent. The basic processes for the deposition of films and coatings. Physical vapor deposition (PVD); evaporation sputtering and ion plating chemical vapor deposition (CVD) and plasma-assisted chemical vapor deposition (PACVD); electrodeposition and electroless plating. Thermal spraying plasma spraying and detonation gun technologies. The scientific background basic processes as well as relationships and applications of each process will be discussed. (Design units: 0.5)\n",
+        "units": "3",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "MSE",
+        "catalog_number": "614",
+        "title": "Intelligent Manufacturing",
+        "description": "Prerequisite: Instructor consent. Software and methodologies for integrating intelligence into manufacturing such as artificial intelligence and expert systems fuzzy logic agent software case-based reasoning feature-recognition intelligent maintenance and monitoring. Methods of capturing expertise and knowledge for developing intelligent systems. Development of knowledge-based systems. Understanding examples of intelligent manufacturing available in industry.\n",
+        "units": "3",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "POLS",
+        "catalog_number": "599C",
+        "title": "Independent Study",
+        "description": "Prerequisite: Instructor consent.\n",
+        "units": "3",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "PSY",
+        "catalog_number": "499C",
+        "title": "Independent Study",
+        "description": "Prerequisites: PSY 150; Completion of the Upper Division Writing Proficiency Exam with a score of 8 or higher. Recommended Preparatory: PSY 301. 6 units maximum may be taken for credit.\n",
+        "units": "3",
+        "prerequisites": "{{PSY 150} && {Completion of the Upper Division Writing Proficiency Exam with a score of 8 or higher}}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "PSY",
+        "catalog_number": "655CC",
+        "title": "Fieldwork in Psychological Services",
+        "description": "Prerequisite: Instructor consent. Taught as an academic University-based experience designed to accompany students supervised practica field work and/or internship. Course content varies as a function of the practicum setting (e.g. hospital community agency) and client age level (e.g. children adolescents adults). May be repeated (up to 4 semesters) and taken for varying number of units (1-5).\n",
+        "units": "3",
+        "prerequisites": "{Instructor consent}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "PSY",
+        "catalog_number": "699C",
+        "title": "Independent Study",
+        "description": "Prerequisites: Written proposals for independent study in areas of special interest to the advanced student must be submitted for Departmental approval prior to registration.\n",
+        "units": "3",
+        "prerequisites": "{Refer to Description}",
+        "corequisites": "{Refer to Description}"
+    },
+    {
+        "subject": "SPED",
+        "catalog_number": "506ECC",
+        "title": "Early Childhood Special Education Internship Field Experience",
+        "description": "Prerequisite: Must be enrolled in the Early Childhood Special Education Specialist Intern Program. SPED 506ECA: Prerequisites or Corequisities with first semester SPED 431 and 402. SPED 506ECB : Prerequisites or Corequisities with second semester SPED 532 537). SPED 506ECC: Prerequisities prior to third semester SPED 500 535 536; Corequisites with third semester SPED 520EC 538. Designed to provide ongoing support to candidates in the Early Childhood Special Education Intern Credential Program. Reflective supervision is provided through on-site visits by the instructor analysis of videos online discussions and monthly meetings. Class sessions involve discussion of teaching experiences video analysis problem-solving resource sharing and collegial support.\n",
+        "units": "3",
+        "prerequisites": "{Refer to Description}",
+        "corequisites": "{Refer to Description}"
+    },
+    {
+        "subject": "SWRK",
+        "catalog_number": "523P",
+        "title": "Generalist Field Education II and Placement",
+        "description": "Prerequisite: SWRK 522. Field education in the professional foundation year is designed to permit the student to apply the knowledge skills and values learned in courses in the liberal arts social work practice social welfare policy and services human behavior in the social environment and social research in an educationally supervised experience. Students are required to complete approximately 250-300 hours of supervised practice during the course in an assigned social service agency. Agency assignments are made by the field coordinator after consultation with the student. (Letter grade only)\n",
+        "units": "1",
+        "prerequisites": "{SWRK 522}",
+        "corequisites": "{None}"
+    },
+    {
+        "subject": "TH",
+        "catalog_number": "382C",
+        "title": "Theatre Management Practicum",
+        "description": "Prerequisites: TH 381; Completion of Lower Division requirements in Theatre Major. Practical application of theatre management techniques. Required participation in a University-sponsored production. Maximum of 3 units may be earned.\n",
+        "units": "3",
+        "prerequisites": "{{TH 381} && {Completion of Lower Division requirements in Theatre Major}}",
+        "corequisites": "{None}"
+    }
+]

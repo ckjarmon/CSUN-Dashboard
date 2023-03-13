@@ -1,122 +1,92 @@
 {
-    "JAPN 101": [
-        {
-            "class_number": "14349",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+    "JAPN 101": {
+        "14234": {
+            "class_number": "14234",
+            "enrollment_cap": 32,
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 1,
+            "instructor": "kanzo.takemori@csun.edu",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "1300h",
-            "end_time": "1440h",
-            "catalog_number": "101",
-            "subject": "JAPN"
+            "location": "JR315",
+            "start_time": "0900h",
+            "end_time": "1040h"
         },
-        {
+        "14349": {
+            "class_number": "14349",
+            "enrollment_cap": 32,
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 1,
+            "instructor": "kanzo.takemori@csun.edu",
+            "days": "MW",
+            "location": "JR315",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "14651": {
             "class_number": "14651",
             "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1240h",
-            "catalog_number": "101",
-            "subject": "JAPN"
-        },
-        {
-            "class_number": "14652",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0900h",
-            "end_time": "1040h",
-            "catalog_number": "101",
-            "subject": "JAPN"
-        },
-        {
-            "class_number": "15334",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "drake.langford@csun.edu",
+            "days": "MW",
+            "location": "JR203",
             "start_time": "1300h",
-            "end_time": "1440h",
-            "catalog_number": "101",
-            "subject": "JAPN"
-        }
-    ],
-    "JAPN 102": [
-        {
-            "class_number": "14235",
-            "enrollment_cap": 34,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "end_time": "1440h"
+        },
+        "14652": {
+            "class_number": "14652",
+            "enrollment_cap": 32,
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 1,
+            "instructor": "drake.langford@csun.edu",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "0900h",
-            "end_time": "1040h",
-            "catalog_number": "102",
-            "subject": "JAPN"
+            "location": "JR301",
+            "start_time": "1100h",
+            "end_time": "1240h"
         }
-    ],
-    "JAPN 202": [
-        {
+    },
+    "JAPN 102": {
+        "14235": {
+            "class_number": "14235",
+            "enrollment_cap": 25,
+            "enrollment_count": 28,
+            "waitlist_cap": 25,
+            "waitlist_count": 5,
+            "instructor": "nina.kato@csun.edu",
+            "days": "TR",
+            "location": "JR301",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        },
+        "14368": {
+            "class_number": "14368",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "junliang.huang@csun.edu",
+            "days": "MW",
+            "location": "JR303",
+            "start_time": "1300h",
+            "end_time": "1440h"
+        }
+    },
+    "JAPN 202": {
+        "14236": {
             "class_number": "14236",
             "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 20,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "nina.kato@csun.edu",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1240h",
-            "catalog_number": "202",
-            "subject": "JAPN"
+            "location": "JR203",
+            "start_time": "1300h",
+            "end_time": "1440h"
         }
-    ],
-    "JAPN 204": [
-        {
-            "class_number": "14217",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "204",
-            "subject": "JAPN"
-        }
-    ],
-    "JAPN 305": [
-        {
-            "class_number": "14925",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1500h",
-            "end_time": "1615h",
-            "catalog_number": "305",
-            "subject": "JAPN"
-        }
-    ],
-    "JAPN 400": [
-        {
-            "class_number": "15244",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "400",
-            "subject": "JAPN"
-        }
-    ]
+    }
 }

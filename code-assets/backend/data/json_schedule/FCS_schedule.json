@@ -1,1054 +1,3704 @@
 {
-    "FCS 113": [
-        {
-            "class_number": "19443",
+    "FCS 111": {
+        "20799": {
+            "class_number": "20799",
             "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "catalog_number": "113",
-            "subject": "FCS"
+            "enrollment_count": 47,
+            "waitlist_cap": 25,
+            "waitlist_count": 5,
+            "instructor": "tatyana.zhukova@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1100h",
+            "end_time": "1345h"
         }
-    ],
-    "FCS 150": [
-        {
+    },
+    "FCS 150": {
+        "18882": {
             "class_number": "18882",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "eunju.kim@csun.edu",
             "days": "F",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "0940h",
-            "catalog_number": "150",
-            "subject": "FCS"
+            "location": "SQ241",
+            "start_time": "0900h",
+            "end_time": "1040h"
         }
-    ],
-    "FCS 150L": [
-        {
+    },
+    "FCS 150L": {
+        "19210": {
             "class_number": "19210",
-            "enrollment_cap": 22,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "eunju.kim@csun.edu",
             "days": "F",
-            "location": "TBA",
-            "start_time": "1000h",
-            "end_time": "1245h",
-            "catalog_number": "150L",
-            "subject": "FCS"
+            "location": "SQ241",
+            "start_time": "1100h",
+            "end_time": "1345h"
         }
-    ],
-    "FCS 160": [
-        {
+    },
+    "FCS 170": {
+        "18910": {
             "class_number": "18910",
-            "enrollment_cap": 30,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1530h",
-            "end_time": "1815h",
-            "catalog_number": "160",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "20017",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Tung,Tracie",
             "days": "W",
-            "location": "TBA",
+            "location": "SQ100",
             "start_time": "1530h",
-            "end_time": "1815h",
-            "catalog_number": "160",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 170": [
-        {
-            "class_number": "18791",
-            "enrollment_cap": 45,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1530h",
-            "end_time": "1710h",
-            "catalog_number": "170",
-            "subject": "FCS"
+            "end_time": "1815h"
         },
-        {
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18792": {
             "class_number": "18792",
-            "enrollment_cap": 45,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_cap": 35,
+            "enrollment_count": 22,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "eunju.kim@csun.edu",
             "days": "MW",
-            "location": "TBA",
+            "location": "SQ102",
             "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "170",
-            "subject": "FCS"
+            "end_time": "1450h"
         },
-        {
+        "18849": {
             "class_number": "18849",
-            "enrollment_cap": 45,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
+            "enrollment_cap": 35,
+            "enrollment_count": 22,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "hira.cho@csun.edu",
+            "days": "W",
+            "location": "SQ101",
             "start_time": "1530h",
-            "end_time": "1710h",
-            "catalog_number": "170",
-            "subject": "FCS"
+            "end_time": "1710h"
         }
-    ],
-    "FCS 201": [
-        {
-            "class_number": "18793",
-            "enrollment_cap": 28,
+    },
+    "FCS 201": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
             "start_time": "1530h",
-            "end_time": "1710h",
-            "catalog_number": "201",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 201L": [
-        {
-            "class_number": "18992",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "catalog_number": "201L",
-            "subject": "FCS"
+            "end_time": "1815h"
         },
-        {
-            "class_number": "19179",
-            "enrollment_cap": 14,
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Tung,Tracie",
             "days": "R",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "catalog_number": "201L",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 207": [
-        {
-            "class_number": "18795",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18793": {
+            "class_number": "18793",
+            "enrollment_cap": 32,
+            "enrollment_count": 27,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "brittany.allison@csun.edu",
             "days": "M",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "207",
-            "subject": "FCS"
+            "location": "SQ112",
+            "start_time": "1530h",
+            "end_time": "1710h"
         }
-    ],
-    "FCS 210": [
-        {
-            "class_number": "19347",
-            "enrollment_cap": 25,
+    },
+    "FCS 201L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1115h",
-            "catalog_number": "210",
-            "subject": "FCS"
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18794": {
+            "class_number": "18794",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 16,
+            "waitlist_count": 1,
+            "instructor": "brittany.allison@csun.edu",
+            "days": "T",
+            "location": "SQ112",
+            "start_time": "1400h",
+            "end_time": "1645h"
+        },
+        "18992": {
+            "class_number": "18992",
+            "enrollment_cap": 16,
+            "enrollment_count": 10,
+            "waitlist_cap": 16,
+            "waitlist_count": 0,
+            "instructor": "brittany.allison@csun.edu",
+            "days": "R",
+            "location": "SQ112",
+            "start_time": "1400h",
+            "end_time": "1645h"
         }
-    ],
-    "FCS 213": [
-        {
+    },
+    "FCS 207": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18795": {
+            "class_number": "18795",
+            "enrollment_cap": 40,
+            "enrollment_count": 39,
+            "waitlist_cap": 40,
+            "waitlist_count": 0,
+            "instructor": "roya.pouldar@csun.edu",
+            "days": "MW",
+            "location": "SQ101",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "18894": {
+            "class_number": "18894",
+            "enrollment_cap": 40,
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 8,
+            "instructor": "setareh.esfahani@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 210": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        }
+    },
+    "FCS 213": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18937": {
             "class_number": "18937",
             "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 27,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "rodica.kohn@csun.edu",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1255h",
-            "catalog_number": "213",
-            "subject": "FCS"
+            "location": "SQ246",
+            "start_time": "0800h",
+            "end_time": "0825h"
         }
-    ],
-    "FCS 213L": [
-        {
+    },
+    "FCS 213L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18918": {
             "class_number": "18918",
             "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 27,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "rodica.kohn@csun.edu",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1255h",
-            "end_time": "1540h",
-            "catalog_number": "213L",
-            "subject": "FCS"
+            "location": "SQ246",
+            "start_time": "0825h",
+            "end_time": "1110h"
         }
-    ],
-    "FCS 217": [
-        {
+    },
+    "FCS 217": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20081": {
             "class_number": "20081",
             "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "catalog_number": "217",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 232": [
-        {
-            "class_number": "18797",
-            "enrollment_cap": 50,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 46,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tatyana.zhukova@csun.edu",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "232",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "18994",
-            "enrollment_cap": 50,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "232",
-            "subject": "FCS"
+            "location": "SQ201",
+            "start_time": "1230h",
+            "end_time": "1515h"
         }
-    ],
-    "FCS 234": [
-        {
-            "class_number": "19027",
-            "enrollment_cap": 60,
+    },
+    "FCS 232": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "0915h",
-            "catalog_number": "234",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 250": [
-        {
-            "class_number": "18798",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "0940h",
-            "catalog_number": "250",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 250L": [
-        {
-            "class_number": "18799",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Tung,Tracie",
             "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18797": {
+            "class_number": "18797",
+            "enrollment_cap": 45,
+            "enrollment_count": 38,
+            "waitlist_cap": 45,
+            "waitlist_count": 0,
+            "instructor": "erin.matthews@csun.edu",
+            "days": "TR",
+            "location": "SQ100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "18994": {
+            "class_number": "18994",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
             "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "1045h",
-            "catalog_number": "250L",
-            "subject": "FCS"
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
-    ],
-    "FCS 255": [
-        {
+    },
+    "FCS 234": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19027": {
+            "class_number": "19027",
+            "enrollment_cap": 50,
+            "enrollment_count": 45,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "shelly.gray@csun.edu",
+            "days": "MW",
+            "location": "SQ100",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19942": {
+            "class_number": "19942",
+            "enrollment_cap": 45,
+            "enrollment_count": 19,
+            "waitlist_cap": 45,
+            "waitlist_count": 0,
+            "instructor": "erin.matthews@csun.edu",
+            "days": "R",
+            "location": "SQ100",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 250": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18798": {
+            "class_number": "18798",
+            "enrollment_cap": 20,
+            "enrollment_count": 25,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "cynthia.williams@csun.edu",
+            "days": "W",
+            "location": "SQ241",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    },
+    "FCS 250L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18799": {
+            "class_number": "18799",
+            "enrollment_cap": 20,
+            "enrollment_count": 25,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "cynthia.williams@csun.edu",
+            "days": "W",
+            "location": "SQ241",
+            "start_time": "1050h",
+            "end_time": "1335h"
+        }
+    },
+    "FCS 255": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18850": {
             "class_number": "18850",
             "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "hira.cho@csun.edu",
             "days": "T",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "255",
-            "subject": "FCS"
+            "location": "SQ102",
+            "start_time": "1545h",
+            "end_time": "1830h"
         }
-    ],
-    "FCS 271": [
-        {
+    },
+    "FCS 271": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18914": {
             "class_number": "18914",
             "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1740h",
-            "catalog_number": "271",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 271L": [
-        {
-            "class_number": "18915",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "W",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1740h",
-            "catalog_number": "271L",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 301": [
-        {
-            "class_number": "18800",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "shirley.tmask@csun.edu",
             "days": "T",
-            "location": "TBA",
+            "location": "SQ109",
             "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "301",
-            "subject": "FCS"
+            "end_time": "1540h"
         }
-    ],
-    "FCS 304": [
-        {
+    },
+    "FCS 271L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        }
+    },
+    "FCS 301": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18800": {
+            "class_number": "18800",
+            "enrollment_cap": 30,
+            "enrollment_count": 20,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "R",
+            "location": "SQ102",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "FCS 304": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18801": {
             "class_number": "18801",
             "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
+            "enrollment_count": 16,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "brittany.allison@csun.edu",
+            "days": "F",
+            "location": "SQ112",
             "start_time": "1400h",
-            "end_time": "1450h",
-            "catalog_number": "304",
-            "subject": "FCS"
+            "end_time": "1540h"
         }
-    ],
-    "FCS 307": [
-        {
+    },
+    "FCS 307": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18802": {
             "class_number": "18802",
             "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 14,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "setareh.esfahani@csun.edu",
             "days": "F",
-            "location": "TBA",
+            "location": "SQ102",
             "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "307",
-            "subject": "FCS"
+            "end_time": "1345h"
         }
-    ],
-    "FCS 308": [
-        {
+    },
+    "FCS 308": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18988": {
             "class_number": "18988",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1700h",
-            "end_time": "1815h",
-            "catalog_number": "308",
-            "subject": "FCS"
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "amanda.blake@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
-    ],
-    "FCS 312": [
-        {
+    },
+    "FCS 312": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18804": {
             "class_number": "18804",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "0850h",
-            "catalog_number": "312",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 312L": [
-        {
-            "class_number": "18805",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0850h",
-            "end_time": "1040h",
-            "catalog_number": "312L",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 315": [
-        {
-            "class_number": "19275",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
+            "enrollment_cap": 25,
+            "enrollment_count": 42,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "kristin.king@csun.edu",
+            "days": "M",
+            "location": "SQ215",
             "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "315",
-            "subject": "FCS"
+            "end_time": "1410h"
         }
-    ],
-    "FCS 316": [
-        {
-            "class_number": "18920",
-            "enrollment_cap": 15,
+    },
+    "FCS 312L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "316",
-            "subject": "FCS"
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         }
-    ],
-    "FCS 317": [
-        {
+    },
+    "FCS 315": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19275": {
+            "class_number": "19275",
+            "enrollment_cap": 45,
+            "enrollment_count": 45,
+            "waitlist_cap": 45,
+            "waitlist_count": 0,
+            "instructor": "yali.yang@csun.edu",
+            "days": "TR",
+            "location": "SQ100",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        }
+    },
+    "FCS 316": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18920": {
+            "class_number": "18920",
+            "enrollment_cap": 20,
+            "enrollment_count": 29,
+            "waitlist_cap": 20,
+            "waitlist_count": 3,
+            "instructor": "nasrin.golshany@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 317": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20084": {
             "class_number": "20084",
             "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "317",
-            "subject": "FCS"
+            "enrollment_count": 43,
+            "waitlist_cap": 20,
+            "waitlist_count": 4,
+            "instructor": "rodica.kohn@csun.edu",
+            "days": "MW",
+            "location": "SQ215",
+            "start_time": "0930h",
+            "end_time": "1215h"
         }
-    ],
-    "FCS 320": [
-        {
-            "class_number": "18806",
-            "enrollment_cap": 60,
+    },
+    "FCS 320": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "320",
-            "subject": "FCS"
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
         },
-        {
-            "class_number": "19407",
-            "enrollment_cap": 60,
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19127": {
+            "class_number": "19127",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 3,
+            "instructor": "yoko.mimura@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "320",
-            "subject": "FCS"
+            "end_time": "0000h"
+        },
+        "19274": {
+            "class_number": "19274",
+            "enrollment_cap": 30,
+            "enrollment_count": 31,
+            "waitlist_cap": 30,
+            "waitlist_count": 1,
+            "instructor": "yoko.mimura@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "FCS 321": [
-        {
+    },
+    "FCS 321": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18807": {
             "class_number": "18807",
             "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "0850h",
-            "catalog_number": "321",
-            "subject": "FCS"
+            "enrollment_count": 27,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "ava.mckay@csun.edu",
+            "days": "R",
+            "location": "SQ246",
+            "start_time": "1230h",
+            "end_time": "1320h"
         }
-    ],
-    "FCS 321L": [
-        {
+    },
+    "FCS 321L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18808": {
             "class_number": "18808",
             "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "0850h",
-            "end_time": "1135h",
-            "catalog_number": "321L",
-            "subject": "FCS"
+            "enrollment_count": 27,
+            "waitlist_cap": 32,
+            "waitlist_count": 0,
+            "instructor": "ava.mckay@csun.edu",
+            "days": "R",
+            "location": "SQ246",
+            "start_time": "1320h",
+            "end_time": "1525h"
         }
-    ],
-    "FCS 322": [
-        {
+    },
+    "FCS 322": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18809": {
             "class_number": "18809",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
+            "days": null,
             "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1150h",
-            "catalog_number": "322",
-            "subject": "FCS"
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
-    ],
-    "FCS 322L": [
-        {
+    },
+    "FCS 322L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18810": {
             "class_number": "18810",
-            "enrollment_cap": 16,
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "TR",
+            "days": null,
             "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "322L",
-            "subject": "FCS"
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "18916": {
+            "class_number": "18916",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
         }
-    ],
-    "FCS 323": [
-        {
+    },
+    "FCS 323": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19008": {
             "class_number": "19008",
             "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 3,
+            "instructor": "linda.bradley@csun.edu",
             "days": "T",
-            "location": "TBA",
+            "location": "ONLINE",
             "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "323",
-            "subject": "FCS"
+            "end_time": "1845h"
         },
-        {
+        "19448": {
             "class_number": "19448",
             "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 6,
+            "instructor": "linda.bradley@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "323",
-            "subject": "FCS"
+            "end_time": "0000h"
         },
-        {
+        "20085": {
             "class_number": "20085",
             "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
+            "enrollment_count": 40,
+            "waitlist_cap": 40,
+            "waitlist_count": 6,
+            "instructor": "linda.bradley@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "323",
-            "subject": "FCS"
+            "end_time": "0000h"
         }
-    ],
-    "FCS 324": [
-        {
-            "class_number": "19128",
-            "enrollment_cap": 52,
+    },
+    "FCS 324": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "324",
-            "subject": "FCS"
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
         },
-        {
-            "class_number": "19449",
-            "enrollment_cap": 63,
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "324",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 330": [
-        {
-            "class_number": "18812",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "330",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "19450",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "330",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 340": [
-        {
-            "class_number": "18814",
-            "enrollment_cap": 60,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "340",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "18815",
-            "enrollment_cap": 110,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "340",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "18816",
-            "enrollment_cap": 55,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Tung,Tracie",
             "days": "R",
-            "location": "TBA",
-            "start_time": "1900h",
-            "end_time": "2145h",
-            "catalog_number": "340",
-            "subject": "FCS"
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
         },
-        {
-            "class_number": "19178",
-            "enrollment_cap": 110,
-            "enrollment_count": 0,
+        "19128": {
+            "class_number": "19128",
+            "enrollment_cap": 45,
+            "enrollment_count": 45,
+            "waitlist_cap": 45,
+            "waitlist_count": 2,
             "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "340",
-            "subject": "FCS"
+            "end_time": "0000h"
         },
-        {
-            "class_number": "19600",
-            "enrollment_cap": 55,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
+        "19449": {
+            "class_number": "19449",
+            "enrollment_cap": 45,
+            "enrollment_count": 45,
+            "waitlist_cap": 45,
+            "waitlist_count": 4,
+            "instructor": "yali.yang@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "340",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "19943",
-            "enrollment_cap": 110,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "340",
-            "subject": "FCS"
+            "end_time": "0000h"
         }
-    ],
-    "FCS 356": [
-        {
+    },
+    "FCS 330": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18811": {
+            "class_number": "18811",
+            "enrollment_cap": 50,
+            "enrollment_count": 22,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "shelly.gray@csun.edu",
+            "days": "MW",
+            "location": "SQ100",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "18812": {
+            "class_number": "18812",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 1,
+            "instructor": "joyce.brusasco.61@csun.edu",
+            "days": "TR",
+            "location": "SQ100",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "FCS 335": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18963": {
+            "class_number": "18963",
+            "enrollment_cap": 35,
+            "enrollment_count": 31,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "liza.v.keating@csun.edu",
+            "days": "MW",
+            "location": "SQ101",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "FCS 340": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18814": {
+            "class_number": "18814",
+            "enrollment_cap": 50,
+            "enrollment_count": 50,
+            "waitlist_cap": 50,
+            "waitlist_count": 1,
+            "instructor": "sean.jefferson@csun.edu",
+            "days": "TR",
+            "location": "SQ101",
+            "start_time": "1100h",
+            "end_time": "1215h"
+        },
+        "18815": {
+            "class_number": "18815",
+            "enrollment_cap": 50,
+            "enrollment_count": 23,
+            "waitlist_cap": 50,
+            "waitlist_count": 0,
+            "instructor": "angie.giordano@csun.edu",
+            "days": "M",
+            "location": "SQ100",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "18816": {
+            "class_number": "18816",
+            "enrollment_cap": 105,
+            "enrollment_count": 93,
+            "waitlist_cap": 105,
+            "waitlist_count": 0,
+            "instructor": "juan.c.oliva@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        },
+        "19126": {
+            "class_number": "19126",
+            "enrollment_cap": 105,
+            "enrollment_count": 105,
+            "waitlist_cap": 105,
+            "waitlist_count": 3,
+            "instructor": "angie.giordano@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18817": {
+            "class_number": "18817",
+            "enrollment_cap": 105,
+            "enrollment_count": 105,
+            "waitlist_cap": 105,
+            "waitlist_count": 12,
+            "instructor": "heather.mccollum@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19178": {
+            "class_number": "19178",
+            "enrollment_cap": 105,
+            "enrollment_count": 107,
+            "waitlist_cap": 105,
+            "waitlist_count": 3,
+            "instructor": "uma.krishnan@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19249": {
+            "class_number": "19249",
+            "enrollment_cap": 105,
+            "enrollment_count": 105,
+            "waitlist_cap": 105,
+            "waitlist_count": 5,
+            "instructor": "sean.jefferson@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 356": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18818": {
             "class_number": "18818",
             "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "shirley.tmask@csun.edu",
             "days": "T",
-            "location": "TBA",
+            "location": "SQ109",
             "start_time": "1600h",
-            "end_time": "1740h",
-            "catalog_number": "356",
-            "subject": "FCS"
+            "end_time": "1740h"
         }
-    ],
-    "FCS 356L": [
-        {
+    },
+    "FCS 356L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18819": {
             "class_number": "18819",
             "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "shirley.tmask@csun.edu",
             "days": "R",
-            "location": "TBA",
+            "location": "SQ241",
             "start_time": "1600h",
-            "end_time": "1740h",
-            "catalog_number": "356L",
-            "subject": "FCS"
+            "end_time": "1740h"
         }
-    ],
-    "FCS 357": [
-        {
+    },
+    "FCS 357": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20086": {
             "class_number": "20086",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
+            "enrollment_cap": 60,
+            "enrollment_count": 60,
+            "waitlist_cap": 45,
+            "waitlist_count": 4,
+            "instructor": "alona.tevel@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "357",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "20087",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "357",
-            "subject": "FCS"
+            "end_time": "0000h"
         }
-    ],
-    "FCS 360": [
-        {
+    },
+    "FCS 360": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18885": {
             "class_number": "18885",
-            "enrollment_cap": 28,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
+            "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
             "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "360",
-            "subject": "FCS"
+            "end_time": "0000h"
         }
-    ],
-    "FCS 360L": [
-        {
+    },
+    "FCS 360L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18886": {
             "class_number": "18886",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
             "days": "W",
-            "location": "TBA",
+            "location": "SQ230",
             "start_time": "0930h",
-            "end_time": "1215h",
-            "catalog_number": "360L",
-            "subject": "FCS"
+            "end_time": "1215h"
         },
-        {
+        "19451": {
             "class_number": "19451",
-            "enrollment_cap": 14,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_cap": 15,
+            "enrollment_count": 10,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
             "days": "W",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1515h",
-            "catalog_number": "360L",
-            "subject": "FCS"
+            "location": "SQ230",
+            "start_time": "1245h",
+            "end_time": "1530h"
         }
-    ],
-    "FCS 371": [
-        {
+    },
+    "FCS 371": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18820": {
             "class_number": "18820",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "371",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 371L": [
-        {
-            "class_number": "18821",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "cynthia.williams@csun.edu",
             "days": "M",
-            "location": "TBA",
-            "start_time": "1300h",
-            "end_time": "1545h",
-            "catalog_number": "371L",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 380": [
-        {
-            "class_number": "18822",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "380",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "18823",
-            "enrollment_cap": 43,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1230h",
-            "end_time": "1345h",
-            "catalog_number": "380",
-            "subject": "FCS"
-        },
-        {
-            "class_number": "19036",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "380",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 401": [
-        {
-            "class_number": "18824",
-            "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
+            "location": "SQ241",
             "start_time": "0900h",
-            "end_time": "1040h",
-            "catalog_number": "401",
-            "subject": "FCS"
+            "end_time": "1040h"
         }
-    ],
-    "FCS 401L": [
-        {
-            "class_number": "18825",
-            "enrollment_cap": 16,
+    },
+    "FCS 371L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18821": {
+            "class_number": "18821",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "cynthia.williams@csun.edu",
             "days": "M",
-            "location": "TBA",
+            "location": "SQ241",
             "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "401L",
-            "subject": "FCS"
+            "end_time": "1345h"
         }
-    ],
-    "FCS 402": [
-        {
+    },
+    "FCS 380": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18822": {
+            "class_number": "18822",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "joyce.brusasco.61@csun.edu",
+            "days": "MW",
+            "location": "SQ102",
+            "start_time": "1230h",
+            "end_time": "1345h"
+        },
+        "18823": {
+            "class_number": "18823",
+            "enrollment_cap": 25,
+            "enrollment_count": 21,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "yoko.mimura@csun.edu",
+            "days": "TR",
+            "location": "SQ102",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "18895": {
+            "class_number": "18895",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 3,
+            "instructor": "yali.yang@csun.edu",
+            "days": "R",
+            "location": "JD1124",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "19036": {
+            "class_number": "19036",
+            "enrollment_cap": 25,
+            "enrollment_count": 25,
+            "waitlist_cap": 25,
+            "waitlist_count": 1,
+            "instructor": "erin.matthews@csun.edu",
+            "days": "F",
+            "location": "SQ101",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "FCS 401": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18824": {
+            "class_number": "18824",
+            "enrollment_cap": 15,
+            "enrollment_count": 10,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "brittany.allison@csun.edu",
+            "days": "M",
+            "location": "SQ112",
+            "start_time": "0900h",
+            "end_time": "1040h"
+        }
+    },
+    "FCS 401L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18825": {
+            "class_number": "18825",
+            "enrollment_cap": 15,
+            "enrollment_count": 9,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "brittany.allison@csun.edu",
+            "days": "M",
+            "location": "SQ134",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "FCS 402": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19055": {
             "class_number": "19055",
             "enrollment_cap": 16,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "402",
-            "subject": "FCS"
+            "enrollment_count": 12,
+            "waitlist_cap": 16,
+            "waitlist_count": 0,
+            "instructor": "amanda.blake@csun.edu",
+            "days": "W",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
-    ],
-    "FCS 403": [
-        {
+    },
+    "FCS 403": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19038": {
             "class_number": "19038",
-            "enrollment_cap": 36,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1345h",
-            "catalog_number": "403",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 404": [
-        {
-            "class_number": "19039",
-            "enrollment_cap": 40,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
+            "enrollment_cap": 30,
+            "enrollment_count": 26,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "mehrnaz.paydar@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
             "start_time": "0800h",
-            "end_time": "0940h",
-            "catalog_number": "404",
-            "subject": "FCS"
+            "end_time": "0915h"
         }
-    ],
-    "FCS 404L": [
-        {
-            "class_number": "19040",
-            "enrollment_cap": 40,
+    },
+    "FCS 404": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "404L",
-            "subject": "FCS"
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19039": {
+            "class_number": "19039",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ],
-    "FCS 408": [
-        {
+    },
+    "FCS 404L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19040": {
+            "class_number": "19040",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "F",
+            "location": "SQ112",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    },
+    "FCS 408": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18826": {
             "class_number": "18826",
             "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "408",
-            "subject": "FCS"
+            "enrollment_count": 15,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "mehrnaz.paydar@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1530h",
+            "end_time": "1645h"
         }
-    ],
-    "FCS 411": [
-        {
+    },
+    "FCS 411": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18946": {
             "class_number": "18946",
             "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "rodica.kohn@csun.edu",
             "days": "MW",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1645h",
-            "catalog_number": "411",
-            "subject": "FCS"
+            "location": "SQ215",
+            "start_time": "1600h",
+            "end_time": "1845h"
         }
-    ],
-    "FCS 412": [
-        {
+    },
+    "FCS 412": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18851": {
             "class_number": "18851",
+            "enrollment_cap": 25,
+            "enrollment_count": 31,
+            "waitlist_cap": 20,
+            "waitlist_count": 1,
+            "instructor": "anna.frise@csun.edu",
+            "days": "T",
+            "location": "SQ102",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "FCS 413": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19581": {
+            "class_number": "19581",
+            "enrollment_cap": 25,
+            "enrollment_count": 13,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "kristin.king@csun.edu",
+            "days": "M",
+            "location": "SQ201",
+            "start_time": "0800h",
+            "end_time": "0940h"
+        }
+    },
+    "FCS 413L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19582": {
+            "class_number": "19582",
+            "enrollment_cap": 25,
+            "enrollment_count": 12,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "kristin.king@csun.edu",
+            "days": "W",
+            "location": "SQ201",
+            "start_time": "0800h",
+            "end_time": "1045h"
+        }
+    },
+    "FCS 414": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18827": {
+            "class_number": "18827",
+            "enrollment_cap": 25,
+            "enrollment_count": 27,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "anna.frise@csun.edu",
+            "days": "TR",
+            "location": "SQ215",
+            "start_time": "0930h",
+            "end_time": "1335h"
+        }
+    },
+    "FCS 420": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18828": {
+            "class_number": "18828",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "miguel.fernandez@csun.edu",
+            "days": "R",
+            "location": "SQ101",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 422": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19572": {
+            "class_number": "19572",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "linda.bradley@csun.edu",
+            "days": "R",
+            "location": "SQ101",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 426": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19047": {
+            "class_number": "19047",
+            "enrollment_cap": 25,
+            "enrollment_count": 22,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "erin.matthews@csun.edu",
+            "days": "TR",
+            "location": "SQ100",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "FCS 431": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18831": {
+            "class_number": "18831",
             "enrollment_cap": 30,
+            "enrollment_count": 25,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "liza.v.keating@csun.edu",
+            "days": "M",
+            "location": "SQ102",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        },
+        "20088": {
+            "class_number": "20088",
+            "enrollment_cap": 30,
+            "enrollment_count": 30,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "liza.v.keating@csun.edu",
+            "days": "W",
+            "location": "SQ102",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 431L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18843": {
+            "class_number": "18843",
+            "enrollment_cap": 30,
+            "enrollment_count": 21,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "christa.dunlap@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "20089": {
+            "class_number": "20089",
+            "enrollment_cap": 30,
+            "enrollment_count": 19,
+            "waitlist_cap": 30,
+            "waitlist_count": 0,
+            "instructor": "christa.dunlap@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 432": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19206": {
+            "class_number": "19206",
+            "enrollment_cap": 15,
+            "enrollment_count": 17,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "heather.mccollum@csun.edu",
+            "days": "M",
+            "location": "SQ100",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 435": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20010": {
+            "class_number": "20010",
+            "enrollment_cap": 15,
+            "enrollment_count": 5,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "shelly.gray@csun.edu",
+            "days": "MW",
+            "location": "SQ100",
+            "start_time": "1400h",
+            "end_time": "1515h"
+        }
+    },
+    "FCS 436": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18832": {
+            "class_number": "18832",
+            "enrollment_cap": 25,
+            "enrollment_count": 20,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "shelly.gray@csun.edu",
+            "days": "F",
+            "location": "JD2528",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "FCS 438": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18833": {
+            "class_number": "18833",
+            "enrollment_cap": 25,
+            "enrollment_count": 15,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "joyce.brusasco.61@csun.edu",
+            "days": "T",
+            "location": "SQ101",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 441": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18834": {
+            "class_number": "18834",
+            "enrollment_cap": 25,
+            "enrollment_count": 24,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "heather.mccollum@csun.edu",
+            "days": "M",
+            "location": "SQ100",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 453": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19751": {
+            "class_number": "19751",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "hira.cho@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 453L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19752": {
+            "class_number": "19752",
+            "enrollment_cap": 20,
+            "enrollment_count": 19,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "hira.cho@csun.edu",
+            "days": "W",
+            "location": "SQ241",
+            "start_time": "1340h",
+            "end_time": "1520h"
+        }
+    },
+    "FCS 455": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18836": {
+            "class_number": "18836",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "hira.cho@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 455L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18837": {
+            "class_number": "18837",
+            "enrollment_cap": 20,
+            "enrollment_count": 20,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "hira.cho@csun.edu",
+            "days": "T",
+            "location": "SQ246",
+            "start_time": "1350h",
+            "end_time": "1530h"
+        }
+    },
+    "FCS 460": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19622": {
+            "class_number": "19622",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 16,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 460L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19623": {
+            "class_number": "19623",
+            "enrollment_cap": 16,
+            "enrollment_count": 16,
+            "waitlist_cap": 16,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
+            "days": "T",
+            "location": "SQ230",
+            "start_time": "1050h",
+            "end_time": "1230h"
+        }
+    },
+    "FCS 475": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18838": {
+            "class_number": "18838",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "eunju.kim@csun.edu",
+            "days": "R",
+            "location": "SQ246",
+            "start_time": "1530h",
+            "end_time": "1710h"
+        }
+    },
+    "FCS 475L": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18839": {
+            "class_number": "18839",
+            "enrollment_cap": 20,
+            "enrollment_count": 17,
+            "waitlist_cap": 20,
+            "waitlist_count": 0,
+            "instructor": "eunju.kim@csun.edu",
+            "days": "R",
+            "location": "SQ246",
+            "start_time": "1725h",
+            "end_time": "1905h"
+        }
+    },
+    "FCS 476": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18940": {
+            "class_number": "18940",
+            "enrollment_cap": 15,
+            "enrollment_count": 16,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "cynthia.williams@csun.edu",
+            "days": "TR",
+            "location": "SQ241",
+            "start_time": "0800h",
+            "end_time": "1205h"
+        }
+    },
+    "FCS 480": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18842": {
+            "class_number": "18842",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 3,
+            "instructor": "uma.krishnan@csun.edu",
+            "days": "T",
+            "location": "SQ100",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 485": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19838": {
+            "class_number": "19838",
+            "enrollment_cap": 25,
+            "enrollment_count": 16,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "angie.giordano@csun.edu",
+            "days": "M",
+            "location": "SQ100",
+            "start_time": "1900h",
+            "end_time": "2145h"
+        }
+    },
+    "FCS 491A": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19167": {
+            "class_number": "19167",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "christa.dunlap@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 491B": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19168": {
+            "class_number": "19168",
+            "enrollment_cap": 1,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "christa.dunlap@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 491C": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19169": {
+            "class_number": "19169",
+            "enrollment_cap": 1,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "christa.dunlap@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 494": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19276": {
+            "class_number": "19276",
+            "enrollment_cap": 21,
+            "enrollment_count": 23,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "ava.mckay@csun.edu",
+            "days": "R",
+            "location": "SQ103",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        },
+        "19277": {
+            "class_number": "19277",
+            "enrollment_cap": 15,
+            "enrollment_count": 7,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "M",
+            "location": "SQ210",
+            "start_time": "1400h",
+            "end_time": "1545h"
+        },
+        "19278": {
+            "class_number": "19278",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
             "days": null,
             "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "412",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 414": [
-        {
-            "class_number": "18827",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "0800h",
-            "end_time": "1205h",
-            "catalog_number": "414",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 420": [
-        {
-            "class_number": "18828",
-            "enrollment_cap": 20,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "R",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "420",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 426": [
-        {
-            "class_number": "19047",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "426",
-            "subject": "FCS"
-        }
-    ],
-    "FCS 431": [
-        {
-            "class_number": "18831",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "M",
-            "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "431",
-            "subject": "FCS"
+            "start_time": "TBA",
+            "end_time": "TBA"
         },
-        {
-            "class_number": "20088",
-            "enrollment_cap": 30,
+        "19280": {
+            "class_number": "19280",
+            "enrollment_cap": 15,
+            "enrollment_count": 13,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "uma.krishnan@csun.edu",
+            "days": "T",
+            "location": "SQ100",
+            "start_time": "1600h",
+            "end_time": "1715h"
+        },
+        "19281": {
+            "class_number": "19281",
+            "enrollment_cap": 15,
+            "enrollment_count": 13,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "shirley.tmask@csun.edu",
+            "days": "F",
+            "location": "SQ210",
+            "start_time": "1100h",
+            "end_time": "1150h"
+        },
+        "19343": {
+            "class_number": "19343",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tatyana.zhukova@csun.edu",
+            "days": "F",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1450h"
+        }
+    },
+    "FCS 494I": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19282": {
+            "class_number": "19282",
+            "enrollment_cap": 21,
+            "enrollment_count": 23,
+            "waitlist_cap": 21,
+            "waitlist_count": 0,
+            "instructor": "ava.mckay@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19283": {
+            "class_number": "19283",
+            "enrollment_cap": 15,
+            "enrollment_count": 8,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "rosalia.garciatorres@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19284": {
+            "class_number": "19284",
+            "enrollment_cap": 0,
             "enrollment_count": 0,
             "instructor": "Staff",
-            "days": "W",
+            "days": null,
             "location": "TBA",
-            "start_time": "1600h",
-            "end_time": "1845h",
-            "catalog_number": "431",
-            "subject": "FCS"
+            "start_time": "TBA",
+            "end_time": "TBA"
+        },
+        "19286": {
+            "class_number": "19286",
+            "enrollment_cap": 15,
+            "enrollment_count": 13,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "uma.krishnan@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19287": {
+            "class_number": "19287",
+            "enrollment_cap": 15,
+            "enrollment_count": 13,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "shirley.tmask@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "19344": {
+            "class_number": "19344",
+            "enrollment_cap": 25,
+            "enrollment_count": 26,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "tatyana.zhukova@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
         }
-    ]
+    },
+    "FCS 497": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19641": {
+            "class_number": "19641",
+            "enrollment_cap": 15,
+            "enrollment_count": 13,
+            "waitlist_cap": 15,
+            "waitlist_count": 0,
+            "instructor": "shirley.tmask@csun.edu",
+            "days": "M",
+            "location": "SQ241",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 535": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19931": {
+            "class_number": "19931",
+            "enrollment_cap": 10,
+            "enrollment_count": 9,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "tracie.tung@csun.edu",
+            "days": "T",
+            "location": "SQ210",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        }
+    },
+    "FCS 570": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19774": {
+            "class_number": "19774",
+            "enrollment_cap": 10,
+            "enrollment_count": 6,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "karmen.ovsepyan@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 571": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19775": {
+            "class_number": "19775",
+            "enrollment_cap": 10,
+            "enrollment_count": 6,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "karmen.ovsepyan@csun.edu",
+            "days": "W",
+            "location": "JD2524",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 572": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19776": {
+            "class_number": "19776",
+            "enrollment_cap": 10,
+            "enrollment_count": 6,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "annette.besnilian@csun.edu",
+            "days": "F",
+            "location": "SQ100",
+            "start_time": "1100h",
+            "end_time": "1345h"
+        }
+    },
+    "FCS 573": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18852": {
+            "class_number": "18852",
+            "enrollment_cap": 10,
+            "enrollment_count": 6,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "karmen.ovsepyan@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 575": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19642": {
+            "class_number": "19642",
+            "enrollment_cap": 10,
+            "enrollment_count": 9,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
+            "days": "T",
+            "location": "SQ210",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        }
+    },
+    "FCS 609": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20895": {
+            "class_number": "20895",
+            "enrollment_cap": 10,
+            "enrollment_count": 14,
+            "waitlist_cap": 10,
+            "waitlist_count": 3,
+            "instructor": "nelida.duran@csun.edu",
+            "days": "T",
+            "location": "ONLINE",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 682": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18841": {
+            "class_number": "18841",
+            "enrollment_cap": 15,
+            "enrollment_count": 15,
+            "waitlist_cap": 15,
+            "waitlist_count": 1,
+            "instructor": "sean.jefferson@csun.edu",
+            "days": "W",
+            "location": "RE153",
+            "start_time": "1600h",
+            "end_time": "1845h"
+        }
+    },
+    "FCS 690J": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19837": {
+            "class_number": "19837",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Staff",
+            "days": null,
+            "location": "TBA",
+            "start_time": "TBA",
+            "end_time": "TBA"
+        }
+    },
+    "FCS 694C": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19138": {
+            "class_number": "19138",
+            "enrollment_cap": 4,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "yi.cai@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 696C": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18853": {
+            "class_number": "18853",
+            "enrollment_cap": 0,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "yoko.mimura@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18854": {
+            "class_number": "18854",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "tracie.tung@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 697C": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "19211": {
+            "class_number": "19211",
+            "enrollment_cap": 2,
+            "enrollment_count": 6,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "yoko.mimura@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 698C": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "18859": {
+            "class_number": "18859",
+            "enrollment_cap": 1,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "yoko.mimura@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18860": {
+            "class_number": "18860",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "hira.cho@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18861": {
+            "class_number": "18861",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "tracie.tung@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18862": {
+            "class_number": "18862",
+            "enrollment_cap": 1,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "annette.besnilian@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18863": {
+            "class_number": "18863",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "wei.cao@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18866": {
+            "class_number": "18866",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "sean.jefferson@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        },
+        "18869": {
+            "class_number": "18869",
+            "enrollment_cap": 1,
+            "enrollment_count": 2,
+            "waitlist_cap": 10,
+            "waitlist_count": 0,
+            "instructor": "yi.cai@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "FCS 699A": {
+        "18910": {
+            "class_number": "18910",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "W",
+            "location": "SQ100",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "20017": {
+            "class_number": "20017",
+            "enrollment_cap": 0,
+            "enrollment_count": 0,
+            "instructor": "Tung,Tracie",
+            "days": "R",
+            "location": "SQ109",
+            "start_time": "1530h",
+            "end_time": "1815h"
+        },
+        "21271": {
+            "class_number": "21271",
+            "enrollment_cap": 1,
+            "enrollment_count": 1,
+            "waitlist_cap": 0,
+            "waitlist_count": 0,
+            "instructor": "yi.cai@csun.edu",
+            "days": "A",
+            "location": "TBA",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    }
 }

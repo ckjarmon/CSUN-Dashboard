@@ -1,82 +1,72 @@
 {
-    "AIS 101": [
-        {
+    "AIS 101": {
+        "14298": {
             "class_number": "14298",
             "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "101",
-            "subject": "AIS"
-        },
-        {
-            "class_number": "14326",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "MW",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "101",
-            "subject": "AIS"
-        }
-    ],
-    "AIS 222": [
-        {
-            "class_number": "15126",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "alesha.claveria@csun.edu",
             "days": "TR",
-            "location": "TBA",
-            "start_time": "1400h",
-            "end_time": "1515h",
-            "catalog_number": "222",
-            "subject": "AIS"
+            "location": "JR214",
+            "start_time": "1230h",
+            "end_time": "1345h"
         }
-    ],
-    "AIS 301": [
-        {
+    },
+    "AIS 210": {
+        "20680": {
+            "class_number": "20680",
+            "enrollment_cap": 35,
+            "enrollment_count": 26,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "gina.worthington@csun.edu",
+            "days": "MW",
+            "location": "JR221",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    },
+    "AIS 301": {
+        "15220": {
             "class_number": "15220",
             "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "F",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "301",
-            "subject": "AIS"
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 0,
+            "instructor": "alesha.claveria@csun.edu",
+            "days": "TR",
+            "location": "ONLINE",
+            "start_time": "1400h",
+            "end_time": "1515h"
         }
-    ],
-    "AIS 304": [
-        {
+    },
+    "AIS 304": {
+        "14669": {
             "class_number": "14669",
             "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 33,
+            "waitlist_cap": 35,
+            "waitlist_count": 1,
+            "instructor": "julia.coates@csun.edu",
             "days": "MW",
-            "location": "TBA",
+            "location": "JR217",
             "start_time": "1100h",
-            "end_time": "1215h",
-            "catalog_number": "304",
-            "subject": "AIS"
-        },
-        {
-            "class_number": "15327",
-            "enrollment_cap": 35,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "304",
-            "subject": "AIS"
+            "end_time": "1215h"
         }
-    ]
+    },
+    "AIS 318": {
+        "21029": {
+            "class_number": "21029",
+            "enrollment_cap": 35,
+            "enrollment_count": 35,
+            "waitlist_cap": 35,
+            "waitlist_count": 4,
+            "instructor": "scott.andrews@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    }
 }

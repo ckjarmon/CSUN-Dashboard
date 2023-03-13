@@ -1,56 +1,56 @@
 {
-    "ITAL 101": [
-        {
+    "ITAL 101": {
+        "14231": {
             "class_number": "14231",
-            "enrollment_cap": 42,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "TR",
-            "location": "TBA",
-            "start_time": "1100h",
-            "end_time": "1240h",
-            "catalog_number": "101",
-            "subject": "ITAL"
-        },
-        {
-            "class_number": "14232",
-            "enrollment_cap": 30,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": "T",
-            "location": "TBA",
-            "start_time": "1300h",
-            "end_time": "1440h",
-            "catalog_number": "101",
-            "subject": "ITAL"
-        }
-    ],
-    "ITAL 102": [
-        {
-            "class_number": "14233",
             "enrollment_cap": 32,
-            "enrollment_count": 0,
-            "instructor": "Staff",
-            "days": null,
-            "location": "TBA",
-            "start_time": "0000h",
-            "end_time": "0000h",
-            "catalog_number": "102",
-            "subject": "ITAL"
-        }
-    ],
-    "ITAL 201": [
-        {
-            "class_number": "15249",
-            "enrollment_cap": 25,
-            "enrollment_count": 0,
-            "instructor": "Staff",
+            "enrollment_count": 32,
+            "waitlist_cap": 32,
+            "waitlist_count": 1,
+            "instructor": "alessia.weisberg@csun.edu",
+            "days": "TR",
+            "location": "JR243",
+            "start_time": "1100h",
+            "end_time": "1240h"
+        },
+        "14232": {
+            "class_number": "14232",
+            "enrollment_cap": 32,
+            "enrollment_count": 31,
+            "waitlist_cap": 32,
+            "waitlist_count": 2,
+            "instructor": "alessia.weisberg@csun.edu",
             "days": "T",
-            "location": "TBA",
-            "start_time": "0930h",
-            "end_time": "1045h",
-            "catalog_number": "201",
-            "subject": "ITAL"
+            "location": "SH221",
+            "start_time": "1300h",
+            "end_time": "1440h"
         }
-    ]
+    },
+    "ITAL 102": {
+        "14233": {
+            "class_number": "14233",
+            "enrollment_cap": 25,
+            "enrollment_count": 18,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "alessia.weisberg@csun.edu",
+            "days": "A",
+            "location": "ONLINE",
+            "start_time": "0000h",
+            "end_time": "0000h"
+        }
+    },
+    "ITAL 204": {
+        "14836": {
+            "class_number": "14836",
+            "enrollment_cap": 25,
+            "enrollment_count": 8,
+            "waitlist_cap": 25,
+            "waitlist_count": 0,
+            "instructor": "pat.miller@csun.edu",
+            "days": "T",
+            "location": "ONCAMP",
+            "start_time": "0930h",
+            "end_time": "1045h"
+        }
+    }
 }

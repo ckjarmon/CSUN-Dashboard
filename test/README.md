@@ -1,9 +1,13 @@
-Directories are being tested based on Windows machines
+# How to start pyTest: #
+Check documentation online: [pyTest website](https://docs.pytest.org/en/7.2.x/ "pyTest")
+1. Install pyTest ```pip install -U pytest```
+Check to see if you have correctly installed pyTest by running ```pytest --version```
 
-If this is run on Linux it won't work based on the navigation of directories between Linux/Windows
+2. Navigate terminal to the testing folder located here:
+`'test/'`
 
-Example:
+3. Run the command
+```pytest```
 
-`import sys
-sys.path.append(".\\code-assets\\backend\\user_login")
-from login import sum_it`
+You should see some output in the terminal regarding the results of the tets, see below <br />
+![pyTest](https://raw.githubusercontent.com/kyeou/CSUN-Dashboard/main/documentation/images/test-result.png "")
