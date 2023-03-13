@@ -1,3 +1,4 @@
+from login import sum_it
 from unittest import TestCase
 import sys
 import path
@@ -23,3 +24,5 @@ Tests functionality from login.py
 # def test_sum_empty() -> None:
 #       sum_it(3)
 
+def test_sum_empty() -> None:
+    sum()
