@@ -8,7 +8,7 @@ path_to_majors = '../../../backend/data/json_majors/*'
 
 def not_conformable(_A):
     return  re.match('[A-Z]{1}\.|[1-9]{1}\.', _A) is None and \
-            re.match('[a-z]{1}\.', _A) is  None and \
+            re.match('[a-z]{1}\.', _A) is None and \
             re.match('[\w \.\/]*\: [\-0-9]{1,}', _A) is None
 
 def conform_to_option(_OPTIONABLE):
