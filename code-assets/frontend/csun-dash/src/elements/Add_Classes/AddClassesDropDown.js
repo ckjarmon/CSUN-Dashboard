@@ -77,12 +77,15 @@ export default AddClassesDropDown;
 
 const dropDownContainers = {
     display: 'flex',
-    justifyContent: "center"
+    justifyContent: "center",
+
+    
 }
 
 const formStyle = {
     width: "150px",
     color: "white",
-    margin: "15px"
+    margin: "15px",
+    borderRadius: "50px"
 }
 

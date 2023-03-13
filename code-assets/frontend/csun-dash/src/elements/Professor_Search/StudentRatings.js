@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react"
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
@@ -44,21 +41,21 @@ function StudentRatings({ subject, email, first_name, last_name, postedReview })
     return (
         <div>
             <div style={{ display: "flex", justifyContent: "center", paddingBottom: "25px", marginTop: "25px" }}>
-                <h1 style={headerStyle}>Student Reviews</h1>
+                <u style={headerStyle}>Student Reviews</u>
             </div>
 
             {reviews.length > 0 ?
                 reviews.map((review, i) => (
                     <div key={i} style={{ display: "flex", justifyContent: "center", paddingBottom: "25px", marginTop: "25px" }}>
-                        <Card style={{ width: "1000px", backgroundColor: "white", borderRadius: "25px" }}>
+                        <Card style={{ width: "1000px", backgroundColor: "#4C4E52", borderRadius: "25px" }}>
                             <CardContent>
-                                <div style={{ display: "flex", padding: "25px", marginTop: "25px" }}>
+                                <div style={{ display: "flex",padding: "25px", marginTop: "25px", color: "white" }}>
                                     <div>
                                         <Typography style={ratingHeaderStyle} variant="h5" component="div">Rating</Typography>
-                                        <div style={ratingContainer}><h2 style={ratingStyle}>{review.star_rating}</h2></div>
-
+                                        <div style={ratingContainer}><h2 style={ratingStyle}>{review.star_rating}/5</h2></div>
+                                        <br></br>
                                         <Typography style={ratingHeaderStyle} variant="h5" component="div">Difficulty</Typography>
-                                        <div style={ratingContainer}><h2 style={ratingStyle}>{review.difficulty}</h2></div>
+                                        <div style={ratingContainer}><h2 style={difficultyStyle}>{review.difficulty}/5</h2></div>
                                     </div>
 
                                     <div style={{ marginLeft: "40px" }}>
@@ -109,12 +106,22 @@ const ratingContainer = {
 }
 
 const ratingStyle = {
+    borderRadius: "25px",
     textAlign: "center",
-    marginBottom: "50px",
-    padding: "25px",
-    backgroundColor: "rgb(127, 246, 195)",
+    // marginBottom: "50px",
+    // padding: "25px",
+    backgroundColor: "rgb(0, 182, 30)",
+    // backgroundColor: "rgb(55, 36, 230)",
     fontWeight: "bold",
-    fontSize: "25px"
+    fontSize: "35px"
+}
+
+const difficultyStyle = {
+    borderRadius: "25px",
+    textAlign: "center",
+    backgroundColor: "rgb(230, 36, 42)",
+    fontWeight: "bold",
+    fontSize: "35px"
 }
 
 const bodyHeaderTextStyle = {

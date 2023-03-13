@@ -1,5 +1,4 @@
-import pprint
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request
 from flask_cors import CORS
 import json
 import itertools
@@ -9,8 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-
-def establish_conn():
+async def establish_conn():
     try:
         rootConnection = mariadb.connect(
             user="py_serv",
@@ -23,17 +21,13 @@ def establish_conn():
         print(f"Error connecting to MariaDB Platform: {err}")
         
 
-
-# create function to teardown connection after every return 
-def name_normalize(str):
+async def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
 
-
-
-    
+ 
 # do not call initial parse call with empty string
 # all initial calls should start with _start = "Take "
-def parse(_parseable, _start):
+async def parse(_parseable, _start):
     unparsed, parsed_ret = _parseable[1:-1], _start
     c_iterate, parse_stack = 0, []
     
@@ -80,22 +74,24 @@ def parse(_parseable, _start):
 # before nima's edits
 """
 @app.route('/')
-def home():
+async def home():
     return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
 
 # version 2
 @app.route('/')
-def home():
+async def home():
     return render_template('endpoint_list.html')
 """
 # find file here -> (templates/endpoint_list.html)
 @app.route('/')
-def home():
-    return render_template('/docs_html/index.html')
+async def home():
+    # return render_template('/docs_html/index.html')
+    return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
+
 
 
 @app.route('/<string:subject>/catalog')
-def get(**kwargs):
+async def get(**kwargs):
     # return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
@@ -123,13 +119,8 @@ def get(**kwargs):
     
     
 
-# @app.route('/sql')
-# def sql(**kwargs):
-#    rootCursor.execute("SELECT * FROM csun.COMP_view")
-#    return [x for x in rootCursor.fetchall()]
-
 @app.route('/<string:subject>/professors')
-def professors(**kwargs):
+async def professors(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
@@ -220,7 +211,7 @@ Example:
 
 
 @app.route('/<string:subject>/rating', methods=['POST'])
-def new_rating(**kwargs):
+async def new_rating(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     new_rating = request.get_json(force=True)
@@ -291,7 +282,7 @@ def new_rating(**kwargs):
 
 
 @app.route('/<string:email>/ratings')
-def get_ratings(**kwargs):
+async def get_ratings(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
@@ -349,7 +340,7 @@ Example: /comp/182/history/5
 
 
 @app.route('/<string:subject>/<string:catalog_number>/history/<int:amount>')
-def historical_profs(**kwargs):
+async def historical_profs(**kwargs):
     with open(f"../backend/data/json_historical_profs/{kwargs['subject'].upper()}_history.json") as subject:
         classes = json.load(subject)
         return dict(itertools.islice(classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number'].upper()}"].items(), kwargs["amount"]))
@@ -365,7 +356,7 @@ Returns: John Noga
 
 # DEPRECATED
 @app.route('/<string:subject>/prof/name/<string:prof_email>')
-def prof_name(**kwargs):
+async def prof_name(**kwargs):
     # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
     #    profs = json.load(profs)
     #    return profs[kwargs['prof_email']]
@@ -407,14 +398,14 @@ Example:
 ]
 """
 @app.route('/<string:subject>/classes')
-def classes(**kwargs):
+async def classes(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
       
     rootCursor.execute(f"""SELECT 
                        catalog_number, 
                        title 
-                       FROM csun.{kwargs['subject'].upper()}_view""")
+                       FROM csun.{kwargs['subject'].lower()}_view""")
     le_fetch = rootCursor.fetchall()
     
     rootConnection.commit()
@@ -426,10 +417,11 @@ def classes(**kwargs):
 
 @app.route('/<string:subject>/schedule')
 @app.route('/<string:subject>/<string:catalog_number>/schedule')
-def schedule(**kwargs):
+async def schedule(**kwargs):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     try:
+        assert 'catalog_number' in kwargs
         rootCursor.execute(f"""SELECT 
                            class_number, 
                            enrollment_cap, 
@@ -442,7 +434,9 @@ def schedule(**kwargs):
                            catalog_number, 
                            subject 
                            FROM section WHERE subject = '{kwargs['subject'].upper()}' AND catalog_number = '{kwargs['catalog_number']}'""")
-        return [{"class_number": c[0],
+        le_fetch = rootCursor.fetchall()
+        
+        section_payload = [{"class_number": c[0],
                  "enrollment_cap": c[1],
                  "enrollment_count": c[2],
                  "instructor": c[3],
@@ -451,8 +445,12 @@ def schedule(**kwargs):
                  "start_time": c[6],
                  "end_time": c[7],
                  "catalog_number": c[8],
-                 "subject": c[9]} for c in rootCursor.fetchall()]
-    except KeyError:
+                 "subject": c[9]} for c in le_fetch]
+        rootCursor.execute(f"select units from catalog where catalog_number = '{kwargs['catalog_number']}'")
+        units = rootCursor.fetchall()[0][0]
+        
+        return [c | {"units": units} for c in section_payload]
+    except (KeyError, AssertionError):
         rootCursor.execute(f"""SELECT 
                            class_number, 
                            enrollment_cap, 
@@ -467,10 +465,8 @@ def schedule(**kwargs):
                            FROM section WHERE subject = '{kwargs['subject'].upper()}'""")
         le_fetch = rootCursor.fetchall()
     
-        rootConnection.commit()
-        rootCursor.close()
-        rootConnection.close()
-        return [{"class_number": c[0],
+        
+        section_payload = [{"class_number": c[0],
                  "enrollment_cap": c[1],
                  "enrollment_count": c[2],
                  "instructor": c[3],
@@ -480,20 +476,13 @@ def schedule(**kwargs):
                  "end_time": c[7],
                  "catalog_number": c[8],
                  "subject": c[9]} for c in le_fetch]
-
-"""
-@app.route('/planner', methods=['POST'])
-def cost(**kwargs):
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
-    new_data = request.get_json(force=True)
-    units = 0
-    for c in new_data["selections"]:
-        rootCursor.execute(
-            f"SELECT units FROM csun.{c.split()[0].upper()}_view WHERE catalog_number = '{c.split()[1]}'")
-        units += int(rootCursor.fetchall()[0][0])
-    return new_data | {"units": units, "cost": 2326.00 if units <= 6 else 3532.00}
-"""
+        rootCursor.execute(f"select catalog_number, units from catalog where subject = '{kwargs['subject']}'")
+        course_units = rootCursor.fetchall()
+        course_units = dict((x, y) for x, y in course_units)
+        rootConnection.commit()
+        rootCursor.close()
+        rootConnection.close()
+    return [c | {"units": course_units[c['catalog_number']]} if c['catalog_number'] in course_units.keys() else c | {"units": 0} for c in section_payload ]
 
 
 if __name__ == "__main__":

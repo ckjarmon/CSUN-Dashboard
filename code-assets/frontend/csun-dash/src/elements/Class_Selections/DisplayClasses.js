@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Table from '@mui/material/Table';
 import Button from '@mui/material/Button';
 import TableBody from '@mui/material/TableBody';
@@ -21,23 +21,20 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
     const [selectedCourseInfo, setSelectedCourseInfo] = useState({})
 
     function handleInfoButton(event) {
-        console.log(event)
         setOpenModal(!openModal)
-
         fetch(`https://api.kyeou.xyz/${event.subject}/catalog`)
-            .then(response => response.json())
-            .then(catalogData => {
-                let catalogInfo = {}
+        .then(response => response.json())
+        .then(catalogData => {
+            let catalogInfo = {}
 
-                for (let i = 0; i < catalogData.length; i++) {
-                    if (event.catalog_number === catalogData[i].catalog_number) {
-                        catalogInfo = catalogData[i]
-                    }
+            for (let i = 0; i < catalogData.length; i++) {
+                if (event.catalog_number === catalogData[i].catalog_number) {
+                    catalogInfo = catalogData[i]
                 }
-                catalogInfo["prerequisites"] = catalogInfo["prerequisites"]
+            }
 
-                setSelectedCourseInfo(catalogInfo)
-            })
+            setSelectedCourseInfo(catalogInfo)
+        })
     }
 
     function handleInfoButtonClose() {
@@ -46,7 +43,7 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
 
     return (
         <div style={{ margin: "20px" }}>
-            <TableContainer component={Paper} style={{ backgroundColor: "#1C1C1C" }}>
+            <TableContainer component={Paper} style={{ backgroundColor: "#1C1C1C",     borderRadius: "40px" }}>
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                     <TableHead>
                         <TableRow>
@@ -80,8 +77,6 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
                     </TableBody>
                 </Table>
             </TableContainer>
-
-
 
             <Modal
                 open={openModal}

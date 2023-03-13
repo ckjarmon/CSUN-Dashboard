@@ -7,7 +7,6 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import { padding } from '@mui/system';
 
 
 function ProfessorsSearchPage({ allProfessors }) {
@@ -21,10 +20,10 @@ function ProfessorsSearchPage({ allProfessors }) {
 
     return (
         <div style={{ margin: "100px 100px 0px 100px", paddingBottom: "50px" }}>
-            <TableContainer component={Paper}>
-                <Table>
-                    <TableHead style={{ backgroundColor: "#E31C25" }}>
-                        <TableRow>
+            <TableContainer style={{ backgroundColor: "#E31C25", borderRadius: "25px" }} component={Paper}>
+                <Table >
+                    <TableHead >
+                        <TableRow >
                             <TableCell style={columnStyles} align="center"></TableCell>
                             <TableCell style={columnStyles} align="center">Name</TableCell>
                             <TableCell style={columnStyles} align="center">Location</TableCell>
@@ -32,7 +31,7 @@ function ProfessorsSearchPage({ allProfessors }) {
                             <TableCell style={columnStyles} align="center">Phone Number</TableCell>
                         </TableRow>
                     </TableHead>
-                    <TableBody>
+                    <TableBody style={{backgroundColor: "black"}}>
                         {professors.map((professor, i) => (
                             <DataTableRow key={i} professor={professor} />
                         ))}

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Button, Rating, Typography, Box, Modal } from "@mui/material"
 import RatingsForm from './RatingsForm'
 
-function ProfessorRatingsHeader({ ratings, professorName, postedReview, setPostedReview, subject, allClassesInSubject }) {
+function ProfessorRatingsHeader({ ratings, professorName, setPostedReview, subject, allClassesInSubject }) {
 
     const [rateModal, setRateModal] = useState(false)
 
@@ -58,6 +58,8 @@ function ProfessorRatingsHeader({ ratings, professorName, postedReview, setPoste
                     case 1:
                         ratingsOutlook["1"] += 1
                         break
+                    default:
+                        break
                 }
             })
         }
@@ -79,42 +81,47 @@ function ProfessorRatingsHeader({ ratings, professorName, postedReview, setPoste
     return (
         <div style={mainContainerStyle}>
             <div style={headerContainerStyle}>
-                <h1 style={ratingStyle}>{overallRating}/5</h1>
+                <h1 style={ratingStyle}>{overallRating}/5.00</h1>
+                <br></br>
                 <h3 style={totalRatingstyle}>Overall Quality Based on {reviews.length} ratings</h3>
+                <br></br>
                 <h1 style={professorNameStyle}>{professorName}</h1>
+                <br></br>
                 <div style={professorStatsStyle}>
                     <div style={wouldTakeAgainStyle}>
                         <h2>{overallRetake}%</h2>
                         <h4>Would take again</h4>
                     </div>
+                    <br></br>
                     <div style={difficultyStyle}>
                         <h2>{overallDifficulty}</h2>
                         <h4>Level of Difficulty</h4>
                     </div>
                 </div>
+                <br></br>
                 <Button style={rateButtonStyle} onClick={handleRateModal}>Rate Professor {professorName.split(/\s(.+)/)[1]}</Button>
             </div>
 
             <div style={starsContainerStyle}>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={5} readOnly />
-                    <Typography component="legend">{ratingsOutlook["5"]} ratings</Typography>
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["5"]} ratings</Typography>
                 </div>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={4} readOnly />
-                    <Typography component="legend">{ratingsOutlook["4"]} ratings</Typography>
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["4"]} ratings</Typography>
                 </div>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={3} readOnly />
-                    <Typography component="legend">{ratingsOutlook["3"]} ratings</Typography>
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["3"]} ratings</Typography>
                 </div>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={2} readOnly />
-                    <Typography component="legend">{ratingsOutlook["2"]} ratings</Typography>
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["2"]} ratings</Typography>
                 </div>
                 <div style={starsRatingsContainer}>
                     <Rating name="read-only" value={1} readOnly />
-                    <Typography component="legend">{ratingsOutlook["1"]} ratings</Typography>
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["1"]} ratings</Typography>
                 </div>
             </div>
 
@@ -150,46 +157,75 @@ const mainContainerStyle = {
     display: "flex",
     justifyContent: "center",
     marginTop: "50px",
-
 }
 
 const headerContainerStyle = {
-    backgroundColor: "#1C1C1C",
     color: "white",
     marginBottom: "50px"
 }
 
 const ratingStyle = {
+    backgroundColor: "black",
+    borderRadius: "15px",
+    outlineStyle: "solid",
+    outlineColor: "green",
     fontSize: "50px",
     fontWeight: "bold",
-    paddingBottom: "8px"
+    paddingBottom: "8px",
+    width: "250px",
+    textAlign:"center"
 }
 
 const totalRatingstyle = {
+    backgroundColor: "black",
+    borderRadius: "15px",
+    outlineStyle: "solid",
+    outlineColor: "white",
+    height: "18px",
+    width: "270px",
     fontSize: "15px",
-    paddingBottom: "8px"
+    paddingBottom: "6px",
+    textAlign:"center"
 }
 
 const professorNameStyle = {
+    backgroundColor: "black",
+    borderRadius: "15px",
+    outlineStyle: "solid",
+    outlineColor: "white",
     fontSize: "50px",
     fontWeight: "bold",
-    paddingBottom: "8px"
+    paddingBottom: "8px",
+    width: "450px",
+    textAlign:"center"
 }
+
 
 const professorStatsStyle = {
     display: "flex",
-    paddingBottom: "8px"
+    paddingRight: "67px",
+    alignItems: "center",
 }
 
 const wouldTakeAgainStyle = {
-    borderRight: "1px solid white",
+    backgroundColor: "black",
+    borderRadius: "25px",
+    outlineStyle: "dotted",
+    outlineColor: "green",
     textAlign: "center",
     padding: "8px"
+    
 }
 
 const difficultyStyle = {
+    backgroundColor: "black",
+    borderRadius: "25px",
+    marginLeft: "5px",
+    outlineStyle: "dotted",
+    outlineColor: "green",
     padding: "8px",
     textAlign: "center"
+
 }
 
 const rateButtonStyle = {
@@ -202,13 +238,20 @@ const rateButtonStyle = {
 }
 
 const starsContainerStyle = {
-    marginLeft: "30px",
+    marginLeft: "150px",
+    backgroundColor: "black",
+    borderRadius: "15px",
+    outlineStyle: "double",
+    outlineColor: "green",
+    height: "245px",
+    width: "280px"
 }
 
 const starsRatingsContainer = {
     color: "white",
     display: "flex",
-    padding: "10px"
+    padding: "12px",
+    marginLeft: "20px"
 }
 
 

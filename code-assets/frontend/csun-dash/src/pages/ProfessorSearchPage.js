@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from '../components/Footer';
 import SubjectSearchDropdown from "../elements/Professor_Search/SubjectSearchDropdown";
 import ProfessorsSearchBody from "../elements/Professor_Search/ProfessorsSearchBody";
 import { useState } from 'react'
@@ -28,20 +29,21 @@ function ProfessorsSearchPage() {
     }
 
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#1C1C1C" }}>
+        <div style={{ minHeight: "100vh", backgroundColor: "#000000" }}>
             <Header></Header>
 
-            <h1 style={{ textAlign: "center", margin: "40px 0px", color: "white" }}>Search For Faculty Members</h1>
+            <h1 style={{ textAlign: "center", marginTop: "20px", color: "white" }}>Search For Faculty Members</h1>
             <SubjectSearchDropdown
                 handleSubjectChange={handleSubjectChange}
                 subject={subject}
             />
 
             {allProfessors.length > 0 ?
-                <ProfessorsSearchBody
+                <ProfessorsSearchBody 
                     allProfessors={allProfessors}
                 /> : !subject ? <div></div> : <h1 style={{ color: "white", marginTop: "100px" }}>No Professors in Selected Department</h1>
             }
+            <Footer></Footer>
         </div>
     )
 }

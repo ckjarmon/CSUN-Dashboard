@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Check documentation online: [pyTest website](https://docs.pytest.org/en/7.2.x/ \"pyTest\")\r 1. Install pyTest ```pip install -U pytest```\r Check to see if you have correctly installed pyTest by running ```pytest --version```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0",
+    "cypress-real-events": "^1.7.6",
+    "cypress-xpath": "^2.0.1",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}

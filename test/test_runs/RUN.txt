@@ -1,0 +1,192 @@
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        12.7.0                                                                         │
+  │ Browser:        Electron 106 (headless)                                                        │
+  │ Node Version:   v18.12.1 (C:\Program Files\nodejs\node.exe)                                    │
+  │ Specs:          5 found (faculty.spec.js, home.spec.js, majors.spec.js, planner.spec.js, ratin │
+  │                 gs.spec.js)                                                                    │
+  │ Searched:       cypress/integration/**/*.spec.js                                               │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  faculty.spec.js                                                                 (1 of 5)
+
+
+  Faculty Test Cases
+    √ Can view faculty members (244630ms)
+
+
+  1 passing (4m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 minutes, 4 seconds                                                             │
+  │ Spec Ran:     faculty.spec.js                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  home.spec.js                                                                    (2 of 5)
+
+
+  Home Test Cases
+    √ Can see home page (738ms)
+
+
+  1 passing (748ms)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     home.spec.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  majors.spec.js                                                                  (3 of 5)
+
+
+  Majors Test Cases
+    √ Can Visit All Majors (87222ms)
+
+
+  1 passing (1m)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 minute, 27 seconds                                                             │
+  │ Spec Ran:     majors.spec.js                                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  planner.spec.js                                                                 (4 of 5)
+
+
+  Planner Test Cases
+    √ Can select subject and term (71716ms)
+    √ Sections show up when subject and term selected (210529ms)
+    √ Add Classes (2661ms)
+    √ Add Classes [Conflict] (2377ms)
+    √ Remove Class (2198ms)
+    1) Cost
+
+
+  5 passing (5m)
+  1 failing
+
+  1) Planner Test Cases
+       Cost:
+     AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Class Has Been Added To Planner' but never did.
+      at Context.eval (webpack:///./cypress/integration/planner.spec.js:204:9)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      5                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     4 minutes, 55 seconds                                                            │
+  │ Spec Ran:     planner.spec.js                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\kyeou\Dropbox\GOTO\Stuff On Github\CSUN-Dashboard\test\cypress\screensh     (1280x720)
+     ots\planner.spec.js\Planner Test Cases -- Cost (failed).png                                    
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  ratings.spec.js                                                                 (5 of 5)
+
+
+  Ratings Test Cases
+    √ Can View Ratings (2596ms)
+    √ Can Add Rating (4228ms)
+    √ Can Add Rating [Negative] (2977ms)
+
+
+  3 passing (10s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     9 seconds                                                                        │
+  │ Spec Ran:     ratings.spec.js                                                                  │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  faculty.spec.js                          04:04        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  home.spec.js                             745ms        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  majors.spec.js                           01:27        1        1        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✖  planner.spec.js                          04:55        6        5        1        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  ratings.spec.js                          00:09        3        3        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 5 failed (20%)                      10:38       12       11        1        -        -  
+
+Run Complete at  Sat, Feb 25, 2023 22:34:15

@@ -1,0 +1,15 @@
+{
+    "plugins": ["cypress"],
+    "extends": ["plugin:cypress/recommended"],
+    "rules": {
+        "jest/expect-expect": "off",
+        "jest/valid-expect": "off",
+        "jest/no-jest-import": "off"
+    },
+    "overrides": [{
+        "files": [ "cypress/integration/*.spec.js" ],
+        "rules": {
+          "no-unused-expressions": 0
+        }
+      }]
+}

@@ -1,5 +1,5 @@
-import React from "react"
 import Header from "../components/Header"
+import Footer from '../components/Footer'
 import Box from '@mui/system/Box'
 import matador from "../matador.png"
 
@@ -36,8 +36,9 @@ function SignInPage() {
                     </Box>
                 </div>
             </span>
+            <Footer></Footer>
         </div>
-
+        
     )
 }
 

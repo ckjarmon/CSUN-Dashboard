@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from 'react'
 import Header from "../components/Header"
+import Footer from '../components/Footer'
 import ProfessorRatingsHeader from "../elements/Professor_Search/ProfessorRatingsHeader";
 import StudentRatings from "../elements/Professor_Search/StudentRatings";
 import { Alert } from "@mui/material"
@@ -44,7 +45,7 @@ function RatingsPage() {
             .then(response => response.json())
             .then(professors => {
                 professors.map((professor) => {
-                    if(professor.email == email){
+                    if(professor.email === email){
                         setProfessor(professor)
                     }
                 })
@@ -64,7 +65,7 @@ function RatingsPage() {
 
 
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#1C1C1C" }}>
+        <div style={{ minHeight: "100vh", backgroundColor: "#000000" }}>
             <Header></Header>
             {
                 postedReview === true ?
@@ -90,6 +91,7 @@ function RatingsPage() {
                     postedReview={postedReview}>
                 </StudentRatings>
             </div>
+            <Footer></Footer>
 
         </div>
     )
