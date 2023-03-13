@@ -21,7 +21,6 @@ describe("Ratings Test Cases", function () {
         cy.wait(1000)
     })
 
-
     it("Can Add Rating", function () {
         cy.contains('Select Subject').next().click()
         cy.wait(10)

@@ -7,8 +7,6 @@ if [ $1 ]; then
         exit 1
     }
 
-
-
     run home &
     run planner &
     run faculty &
