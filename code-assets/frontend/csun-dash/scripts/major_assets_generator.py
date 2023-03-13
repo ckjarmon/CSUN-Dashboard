@@ -7,30 +7,27 @@ path_to_majors = '../../../backend/data/json_majors/*'
 
 
 def not_conformable(_A):
-    return re.match('[A-Z]{1}\.|[1-9]{1}\.', _A) is None and \
-                re.match('[a-z]{1}\.', _A) is  None and \
-                re.match('[\w \.\/]*\: [\-0-9]{1,}', _A) is  None
+    return  re.match('[A-Z]{1}\.|[1-9]{1}\.', _A) is None and \
+            re.match('[a-z]{1}\.', _A) is  None and \
+            re.match('[\w \.\/]*\: [\-0-9]{1,}', _A) is None
 
 def conform_to_option(_OPTIONABLE):
     assert type(_OPTIONABLE) is list
-    L = 0
     result = ""
     result += "<ul style={option_style}>\n" 
-    result += "<li>" + _OPTIONABLE[L] + "</li>\n"
-    result += "<li>" + _OPTIONABLE[L+1] + "</li>\n"
+    result += "<li>" + _OPTIONABLE[0] + "</li>\n"
+    result += "<li>" + _OPTIONABLE[1] + "</li>\n"
     result += "</ul>\n"
-    L += 2
-    return L, result
+    return 2, result
 
 
 def conform_to_list(_LISTABLE):
     assert type(_LISTABLE) is list
-    L = 0
     result = ""
-    result += "<div style={redBoldStyle}>" + _LISTABLE[L] + "</div>\n"
+    result += "<div style={redBoldStyle}>" + _LISTABLE[0] + "</div>\n"
     result += "<ul style={list_style}>\n"
     # print(result)
-    L += 1
+    L = 1
     try:
         while not_conformable(_LISTABLE[L]):  
             if _LISTABLE[L+1].split(' ')[0] in ['and', 'or']:
@@ -47,12 +44,11 @@ def conform_to_list(_LISTABLE):
         
 def conform_to_sublist(_SUBLISTABLE):
     assert type(_SUBLISTABLE) is list
-    L = 0
     result = ""
-    result += "<div style={subRedBoldStyle}>" + _SUBLISTABLE[L] + "</div>\n"
+    result += "<div style={subRedBoldStyle}>" + _SUBLISTABLE[0] + "</div>\n"
     result += "<ul style={sublist_style}>\n"
     # print(result)
-    L += 1
+    L = 1
     try:    
         while not_conformable(_SUBLISTABLE[L]):
             if _SUBLISTABLE[L+1].split(' ')[0] in ['and', 'or']:
@@ -141,29 +137,22 @@ def REACTIFY(m, major_hash, major_name):
             result += "<div style={titleStyle}>Program Requirements</div>"
 
         elif re.match('[A-Z]{1}\.|[1-9]{1}\.', m[L]) is not None:
-            # print(f"LIST => {m[L]}")
             _augmented_L, _augmented_result = conform_to_list(m[L:])
-            # print(_augmented_result)
             L += _augmented_L
             result += _augmented_result
 
         elif re.match('[a-z]{1}\.', m[L]) is not None:
-            # print(f"SUBLIST => {m[L]}")
             _augmented_L, _augmented_result = conform_to_sublist(m[L:])
-            # print(_augmented_result)
             L += _augmented_L
             result += _augmented_result
 
         elif re.match('[\w \.\/]*\: [0-9]{1,}', m[L]) is not None:
-            # print(f"START OF SUMMARY => {m[L]}")
             _augmented_L, _augmented_result = conform_to_summary(m[L:])
-            # print(_augmented_result)
             L += _augmented_L
             result += _augmented_result
 
         else:
             _augmented_L, _augmented_result = conform_to_information(m[L:])
-            # print(_augmented_result)
             L += _augmented_L
             result += _augmented_result
 
@@ -220,10 +209,6 @@ for name in glob(path_to_majors):
     
     
     with open(f'../src/elements/Majors/react_files/{sha}.js', 'w') as f:
-        # f.write(f"function _{sha.upper()}()" + ' {\n')
-        # f.write('\treturn (<h2>STUFF WILL BE HERE...AT SOME POINT</h2>)\n')
-        # f.write('}\n')
-        # f.write(f'export default _{sha.upper()}\n')
         f.write(REACTIFY(program_reqq_blob, sha.upper(), major_name))
         imports.append(f"import _{sha.upper()} from './elements/Majors/react_files/{sha}'")
     
@@ -243,10 +228,7 @@ with open('./formatted_divs.txt', 'w') as f:
         
 with open('./imports.txt', 'w') as f:
     for imp in imports:
-        f.write(imp + '\n')
-        
-from pprint import pprint
-# pprint(major_names)    
+        f.write(imp + '\n') 
 
 
 
