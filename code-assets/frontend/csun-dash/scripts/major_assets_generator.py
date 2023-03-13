@@ -26,7 +26,6 @@ def conform_to_list(_LISTABLE):
     result = ""
     result += "<div style={redBoldStyle}>" + _LISTABLE[0] + "</div>\n"
     result += "<ul style={list_style}>\n"
-    # print(result)
     L = 1
     try:
         while not_conformable(_LISTABLE[L]):  
@@ -47,7 +46,6 @@ def conform_to_sublist(_SUBLISTABLE):
     result = ""
     result += "<div style={subRedBoldStyle}>" + _SUBLISTABLE[0] + "</div>\n"
     result += "<ul style={sublist_style}>\n"
-    # print(result)
     L = 1
     try:    
         while not_conformable(_SUBLISTABLE[L]):
@@ -100,7 +98,6 @@ def REACTIFY(m, major_hash, major_name):
     result = """
     import Header from "../../../components/Header";
     import Box from '@mui/system/Box'
-    // import WebFont from 'webfontloader';
 
     const titleStyle = { color: '#E31C25', justifyContent: "center", textAlign: "center" }
     const redBoldStyle = { color: 'red', fontWeight: 'bold', textDecorationLine: 'underline', padding: "10px", textAlign: "left" }
