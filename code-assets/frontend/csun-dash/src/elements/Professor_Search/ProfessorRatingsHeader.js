@@ -78,7 +78,15 @@ function ProfessorRatingsHeader({ ratings, professorName, setPostedReview, subje
         setRateModal(!rateModal)
     }
 
-    return (
+    let hasRatings = true;
+
+    // checks to see if professor has any ratings, if not we display a more appropriate body
+    (function() {
+        if (isNaN(overallRating))
+            hasRatings = false;
+    })();
+    
+    if (hasRatings) return (
         <div style={mainContainerStyle}>
             <div style={headerContainerStyle}>
                 <h1 style={ratingStyle}>{overallRating}/5.00</h1>
@@ -147,11 +155,65 @@ function ProfessorRatingsHeader({ ratings, professorName, setPostedReview, subje
 
         </div>
     )
+    else return (
+        <div style={mainContainerStyle}>
+            <div style={headerContainerStyle}>
+                <h3 style={ratingStyle}>No Ratings</h3>
+                <br></br>
+                <h3 style={totalRatingstyle}>This professor has no ratings yet</h3>
+                <br></br>
+                <h1 style={professorNameStyle}>{professorName}</h1>
+                <br></br>
+                <Button style={rateButtonStyle} onClick={handleRateModal}>Rate Professor {professorName.split(/\s(.+)/)[1]}</Button>
+            </div>
+
+            <div style={starsContainerStyle}>
+                <div style={starsRatingsContainer}>
+                    <Rating name="read-only" value={5} readOnly />
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["5"]} ratings</Typography>
+                </div>
+                <div style={starsRatingsContainer}>
+                    <Rating name="read-only" value={4} readOnly />
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["4"]} ratings</Typography>
+                </div>
+                <div style={starsRatingsContainer}>
+                    <Rating name="read-only" value={3} readOnly />
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["3"]} ratings</Typography>
+                </div>
+                <div style={starsRatingsContainer}>
+                    <Rating name="read-only" value={2} readOnly />
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["2"]} ratings</Typography>
+                </div>
+                <div style={starsRatingsContainer}>
+                    <Rating name="read-only" value={1} readOnly />
+                    <Typography style={{ fontWeight: "bold", marginLeft: "10px" }} component="legend">  {ratingsOutlook["1"]} ratings</Typography>
+                </div>
+            </div>
+
+            <div>
+                <Modal
+                    open={rateModal}
+                    onClose={handleRateModal}>
+                    <Box sx={modalStyle}>
+                        <Typography variant="h4" component="h2" style={{ textAlign: "center" }}>
+                            Post New Rating for <span style={{ fontWeight: "bold" }}>{professorName}</span>
+                        </Typography>
+                        <RatingsForm
+                            rateModal={rateModal}
+                            setRateModal={setRateModal}
+                            professorName={professorName}
+                            subject={selectedSubject}
+                            setPostedReview={setPostedReview}
+                            allClassesInSubject={allClassesInSubject}>
+                        </RatingsForm>
+                    </Box>
+                </Modal>
+            </div>
+        </div>
+    )
 }
 
 export default ProfessorRatingsHeader
-
-
 
 const mainContainerStyle = {
     display: "flex",
@@ -230,11 +292,10 @@ const difficultyStyle = {
 
 const rateButtonStyle = {
     backgroundColor: "blue",
-    width: "250px",
     height: "35px",
     borderRadius: "15px",
     color: "white",
-    fontWeight: "bold"
+    fontWeight: "bold",
 }
 
 const starsContainerStyle = {
