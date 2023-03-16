@@ -69,7 +69,7 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
                                 <TableCell style={tableCellStyle} align="center">{(row.enrollment_cap - row.enrollment_count)}</TableCell>
                                 <TableCell style={tableCellStyle} align="center">{row.location}</TableCell>
                                 <TableCell style={tableCellStyle} align="center">{row.days}</TableCell>
-                                <TableCell style={tableCellStyle} align="center">{`${row.start_time}` + `-` + `${row.end_time}`}</TableCell>
+                                <TableCell style={tableCellStyle} align="center">{`${row.start_time}` + ` - ` + `${row.end_time}`}</TableCell>
                                 <TableCell style={tableCellStyle} align="center">{row.instructor}</TableCell>
                                 <TableCell style={tableCellStyle} align="center"><Button onClick={() => handleInfoButton(row)}>{<BsInfoCircleFill style={infoIconStyle} />}</Button></TableCell>
                             </TableRow>
