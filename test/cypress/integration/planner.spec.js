@@ -43,7 +43,6 @@ describe("Planner Test Cases", function () {
             cy.contains('Subject').next().click()
             cy.wait(10)
             cy.get(`[data-value="${code}"]`).click()
-            cy.wait(10)
             cy.wait(1000)
             cy.get('@classes').then((res) => {
                 cy.request(`https://api.kyeou.xyz/${code}/classes`).then((api_res) => {
