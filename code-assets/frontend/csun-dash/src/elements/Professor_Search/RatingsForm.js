@@ -1,4 +1,4 @@
-import { TextField, Slider, RadioGroup, Radio, FormControlLabel, Typography, Button, Select, MenuItem, Alert } from "@mui/material"
+import { TextField, Slider, RadioGroup, Radio, FormControlLabel, Typography, Button, Select, MenuItem, Alert, FormHelperText } from "@mui/material"
 import { useState } from 'react'
 
 const gradesPossible = ["A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-", "F", "Audit/No Grade", "Drop/Withdrawl", "Incomplete", "Not Sure Yet", "Rather Not Say"]
@@ -19,6 +19,7 @@ function RatingsForm({ rateModal, setRateModal, professorName, subject, setPoste
     const [doesCourseExist, setDoesCourseExist] = useState(null)
 
     const [postingErrorMessage, setPostingErrorMessage] = useState("")
+    const [count, setCount] = useState(0)
 
     function courseExists(allClasses) {
         let regExArray = []
@@ -167,13 +168,12 @@ function RatingsForm({ rateModal, setRateModal, professorName, subject, setPoste
                     </div>
             </div>
 
-
-
             <div>
                 <Typography style={{ fontWeight: "bold" }}>Write a Review</Typography>
-                <textarea style={textAreaStyle} onChange={(e) => setReviewText(e.target.value)}></textarea>
+                <textarea style={textAreaStyle} id="reviewText" maxLength="1000" onChange={(e) =>
+                     {setReviewText(e.target.value); setCount(e.target.value.length)}}></textarea>
+                <FormHelperText>{count}/1000</FormHelperText>
             </div>
-
             <div style={{ display: "flex", justifyContent: 'center' }}>
                 <Button onClick={handleCancel} style={buttonStyle}>Cancel</Button>
                 <Button onClick={handleSubmit} style={buttonStyle}>Post</Button>
