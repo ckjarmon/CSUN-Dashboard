@@ -21,12 +21,11 @@ describe("Faculty Test Cases", function () {
 
         this.class_codes.forEach((code) => {
             cy.contains('Select Subject').next().click()
-            cy.wait(1000)
+
             cy.get(`[data-value="${code}"]`).click()
-            cy.wait(1000)
 
 
-            cy.get('@professors').then((res) => {
+            cy.wait('@professors').then((res) => {
                 cy.request(`https://api.kyeou.xyz/${code}/professors`).then((api_res) => {
                     expect(res.response.body).eql(api_res.body)
                 })

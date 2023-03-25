@@ -4,7 +4,8 @@
   "description": "Check documentation online: [pyTest website](https://docs.pytest.org/en/7.2.x/ \"pyTest\")\r 1. Install pyTest ```pip install -U pytest```\r Check to see if you have correctly installed pyTest by running ```pytest --version```",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "node_modules\\.bin\\cypress open --config watchForFileChanges=false"
   },
   "author": "",
   "license": "ISC",

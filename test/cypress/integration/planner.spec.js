@@ -27,9 +27,9 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
         this.class_codes.forEach((code) => {
             cy.contains('Subject').next().click()
-            cy.wait(10)
+            
             cy.get(`[data-value="${code}"]`).click()
-            cy.wait(10)
+            
         })
     })
 
@@ -38,18 +38,18 @@ describe("Planner Test Cases", function () {
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
         this.class_codes.forEach((code) => {
-            // Looking for IS selects AIS 
+
             cy.log(code)
             cy.contains('Subject').next().click()
-            cy.wait(10)
+            
             cy.get(`[data-value="${code}"]`).click()
-            cy.wait(1000)
-            cy.get('@classes').then((res) => {
+            
+            cy.wait('@classes').then((res) => {
                 cy.request(`https://api.kyeou.xyz/${code}/classes`).then((api_res) => {
                     expect(res.response.body).eql(api_res.body)
                 })
             })
-            cy.get('@schedule').then((res) => {
+            cy.wait('@schedule').then((res) => {
                 cy.request(`https://api.kyeou.xyz/${code}/schedule`).then((api_res) => {
                     expect(res.response.body).eql(api_res.body)
                 })
@@ -64,15 +64,15 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
 
         cy.contains('Subject').next().click()
-        cy.wait(10)
+        
         cy.get(`[data-value="COMP"]`).click()
 
-        cy.get('@classes').then((res) => {
+        cy.wait('@classes').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
-        cy.get('@schedule').then((res) => {
+        cy.wait('@schedule').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
@@ -92,15 +92,15 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
 
         cy.contains('Subject').next().click()
-        cy.wait(10)
+        
         cy.get(`[data-value="COMP"]`).click()
 
-        cy.get('@classes').then((res) => {
+        cy.wait('@classes').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
-        cy.get('@schedule').then((res) => {
+        cy.wait('@schedule').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
@@ -138,15 +138,15 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
 
         cy.contains('Subject').next().click()
-        cy.wait(10)
+        
         cy.get(`[data-value="COMP"]`).click()
 
-        cy.get('@classes').then((res) => {
+        cy.wait('@classes').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
-        cy.get('@schedule').then((res) => {
+        cy.wait('@schedule').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
@@ -178,16 +178,16 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
 
         cy.contains('Subject').next().click()
-        cy.wait(10)
+        
         cy.get(`[data-value="COMP"]`).click()
-        cy.wait(10)
+        
 
-        cy.get('@classes').then((res) => {
+        cy.wait('@classes').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
-        cy.get('@schedule').then((res) => {
+        cy.wait('@schedule').then((res) => {
             cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
@@ -200,7 +200,7 @@ describe("Planner Test Cases", function () {
         cy.contains("16185")
         .prev().click()
 
-        cy.contains("Class Has Been Added To Planner")
+        cy.contains("Class has been added to your planner.")
         .should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')

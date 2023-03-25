@@ -10,7 +10,7 @@ describe("Ratings Test Cases", function () {
 
     it("Can View Ratings", function () {
         cy.contains('Select Subject').next().click()
-        cy.wait(10)
+        
         cy.get(`[data-value="COMP"]`).click()
 
         cy.contains('Edmund Dantes').prev().click()
@@ -19,12 +19,12 @@ describe("Ratings Test Cases", function () {
         })
 
         cy.contains('button', 'Rate Professor Dantes').should('exist')
-        cy.wait(1000)
+        
     })
 
     it("Can Add Rating", function () {
         cy.contains('Select Subject').next().click()
-        cy.wait(10)
+        
         cy.get(`[data-value="COMP"]`).click()
 
         cy.contains('Edmund Dantes').prev().click()
@@ -68,7 +68,7 @@ describe("Ratings Test Cases", function () {
 
     it("Can Add Rating [Negative]", function () {
         cy.contains('Select Subject').next().click()
-        cy.wait(10)
+        
         cy.get(`[data-value="COMP"]`).click()
 
         cy.contains('Edmund Dantes').prev().click()

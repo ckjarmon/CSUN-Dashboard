@@ -9,7 +9,13 @@ describe("Home Test Cases", function () {
 
     it("Can see home page", function () {
         cy.contains("The CSUN course planner you've been looking for")
-        cy.contains("Get Started").should('be.visible').click()
+        .should('be.visible')
+
+        cy.contains("Get Started")
+        .should('be.visible')
+        .should('have.attr', 'type', 'button')
+        .click()
+
         cy.url().should('eq', Cypress.config("baseUrl") + '/planner')
     })
 })
