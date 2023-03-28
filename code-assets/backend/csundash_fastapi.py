@@ -86,7 +86,7 @@ class CATALOG_LISTING(BaseModel):
 
 
 @app.get('/{subject}/catalog')
-def get(subject: str):
+async def get(subject: str):
     # return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
@@ -127,7 +127,7 @@ class PROFESSOR_LISTING(BaseModel):
     office: str
 
 @app.get('/{subject}/professors')
-def professors(subject: str):
+async def professors(subject: str):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
@@ -178,7 +178,7 @@ class RATING(BaseModel):
     class_type: str
 
 @app.post('/{subject}/rating')
-def new_rating(rating: RATING):
+async def new_rating(rating: RATING):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     
@@ -249,7 +249,7 @@ def new_rating(rating: RATING):
 
 
 @app.get('/{subject}/ratings')
-def get_ratings(email: str = Body(embed=True)):
+async def get_ratings(email: str = Body(embed=True)):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT 
@@ -288,7 +288,7 @@ def get_ratings(email: str = Body(embed=True)):
 
 
 @app.get('/{subject}/classes')
-def classes(subject: str):
+async def classes(subject: str):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
       
@@ -319,7 +319,7 @@ class SECTION_LISTING(BaseModel):
 
 
 @app.get('/{subject}/{catalog_number}/schedule')
-def schedule(subject: str, catalog_number: str | None = None):
+async def schedule(subject: str, catalog_number: str | None = None):
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     try:

@@ -11,10 +11,9 @@ class_codes = ["AE", "AM", "AAS", "ACCT", "AFRS", "AIS", "ANTH", "ARAB", "ARMN",
 
 endpoints = ['classes', 'catalog', 'professors', 'schedule']
 
-
 def req(metadata):
     start = time.time()
-    endpoint = f"127.0.0.1:5000/{class_codes[randint(0, len(class_codes)-1)]}/{endpoints[randint(0, 3)]}"
+    endpoint = f"127.0.0.1:5000/{class_codes[randint(0, len(class_codes)-1)]}/{endpoints[randint(0, len(endpoints)-1)]}"
     s = urllib3.PoolManager().request("GET", endpoint)
     end = time.time()
     if s.status == 200:

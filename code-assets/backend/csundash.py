@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-async def establish_conn():
+def establish_conn():
     try:
         rootConnection = mariadb.connect(
             user="py_serv",
@@ -21,13 +21,13 @@ async def establish_conn():
         print(f"Error connecting to MariaDB Platform: {err}")
         
 
-async def name_normalize(str):
+def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
 
  
 # do not call initial parse call with empty string
 # all initial calls should start with _start = "Take "
-async def parse(_parseable, _start):
+def parse(_parseable, _start):
     unparsed, parsed_ret = _parseable[1:-1], _start
     c_iterate, parse_stack = 0, []
     
