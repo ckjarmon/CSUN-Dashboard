@@ -26,7 +26,7 @@ describe("Faculty Test Cases", function () {
 
 
             cy.wait('@professors').then((res) => {
-                cy.request(`https://api.kyeou.xyz/${code}/professors`).then((api_res) => {
+                cy.request(`${Cypress.config("apiUrl")}/${code}/professors`).then((api_res) => {
                     expect(res.response.body).eql(api_res.body)
                 })
             })

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open": "node_modules\\.bin\\cypress open --config watchForFileChanges=false"
+    "cypress:open": "node_modules\\.bin\\cypress open --config watchForFileChanges=false",
+    "cypress:run": "node_modules/.bin/cypress run --config video=false"
   },
   "author": "",
   "license": "ISC",

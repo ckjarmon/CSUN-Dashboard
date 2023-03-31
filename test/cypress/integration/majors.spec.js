@@ -159,7 +159,7 @@ describe("Majors Test Cases", function () {
             cy.contains(major).click()
             cy.contains(major).should('be.visible')
             cy.url().should((url) => {
-                expect(url).to.match(/https:\/\/csundash.kyeou.xyz\/majors\/[a-z0-9]{4}/)
+                expect(url).to.match(/\/majors\/[a-z0-9]{4}/)
             })
             cy.go('back')
         })

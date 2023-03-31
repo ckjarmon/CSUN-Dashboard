@@ -45,12 +45,12 @@ describe("Planner Test Cases", function () {
             cy.get(`[data-value="${code}"]`).click()
             
             cy.wait('@classes').then((res) => {
-                cy.request(`https://api.kyeou.xyz/${code}/classes`).then((api_res) => {
+                cy.request(`${Cypress.config("apiUrl")}/${code}/classes`).then((api_res) => {
                     expect(res.response.body).eql(api_res.body)
                 })
             })
             cy.wait('@schedule').then((res) => {
-                cy.request(`https://api.kyeou.xyz/${code}/schedule`).then((api_res) => {
+                cy.request(`${Cypress.config("apiUrl")}/${code}/schedule`).then((api_res) => {
                     expect(res.response.body).eql(api_res.body)
                 })
             })
@@ -68,12 +68,12 @@ describe("Planner Test Cases", function () {
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
+            cy.request(`${Cypress.config("apiUrl")}/COMP/classes`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
         cy.wait('@schedule').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
+            cy.request(`${Cypress.config("apiUrl")}/COMP/schedule`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
@@ -96,12 +96,12 @@ describe("Planner Test Cases", function () {
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
+            cy.request(`${Cypress.config("apiUrl")}/COMP/classes`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
         cy.wait('@schedule').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
+            cy.request(`${Cypress.config("apiUrl")}/COMP/schedule`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
@@ -142,12 +142,12 @@ describe("Planner Test Cases", function () {
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
+            cy.request(`${Cypress.config("apiUrl")}/COMP/classes`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
         cy.wait('@schedule').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
+            cy.request(`${Cypress.config("apiUrl")}/COMP/schedule`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
@@ -183,12 +183,12 @@ describe("Planner Test Cases", function () {
         
 
         cy.wait('@classes').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
+            cy.request(`${Cypress.config("apiUrl")}/COMP/classes`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
         cy.wait('@schedule').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
+            cy.request(`${Cypress.config("apiUrl")}/COMP/schedule`).then((api_res) => {
                 expect(res.response.body).eql(api_res.body)
             })
         })
