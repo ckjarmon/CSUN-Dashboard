@@ -4,7 +4,8 @@
 describe("Ratings Test Cases", function () {
     beforeEach(function () {
         cy.viewport(1920, 1080);
-        cy.visit(Cypress.config("baseUrl") + '/faculty');
+        cy.visit('/faculty');
+        
     })
 
 

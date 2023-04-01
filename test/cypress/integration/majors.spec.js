@@ -150,7 +150,7 @@ describe("Majors Test Cases", function () {
             'B.S., Tourism, Hospitality, and Recreation Management']
 
         cy.viewport(1920, 1080);
-        cy.visit(Cypress.config("baseUrl") + '/majors');
+        cy.visit('/majors');
     })
 
 

@@ -16,7 +16,7 @@ describe("Planner Test Cases", function () {
         "SPED", "SUST", "SWRK", "TH", "UNIV", "URBS"]
 
         cy.viewport(1920, 1080);
-        cy.visit(Cypress.config("baseUrl") + '/planner');
+        cy.visit('/planner');
     })
 
 
