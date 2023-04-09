@@ -3,7 +3,6 @@ describe("Home Test Cases", function () {
     before(function () {
         cy.viewport(1920, 1080);
         cy.visit(Cypress.config("baseUrl"));
-    
     })
 
 

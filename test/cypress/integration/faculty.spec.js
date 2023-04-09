@@ -18,12 +18,10 @@ describe("Faculty Test Cases", function () {
 
 
     it("Can View Faculty Members", function () {
-
         this.class_codes.forEach((code) => {
             cy.contains('Select Subject').next().click()
 
             cy.get(`[data-value="${code}"]`).click()
-
 
             cy.wait('@professors').then((res) => {
                 expect(res.response.statusCode).eql(200)
@@ -33,6 +31,4 @@ describe("Faculty Test Cases", function () {
             })
         })
     })
-
-
 })

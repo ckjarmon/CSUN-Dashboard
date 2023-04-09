@@ -21,7 +21,6 @@ describe("Planner Test Cases", function () {
 
 
     it("Can Select Subject and Term", function () {
-
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
@@ -56,7 +55,6 @@ describe("Planner Test Cases", function () {
                 //     expect(res.response.body).eql(api_res.body)
                 // })
             })
-
         })
     })
 
@@ -112,7 +110,6 @@ describe("Planner Test Cases", function () {
             // })
         })
 
-
         cy.contains("100 - Computers: Their Impact and Use")
         .click()
 
@@ -160,7 +157,6 @@ describe("Planner Test Cases", function () {
             // })
         })
 
-
         cy.contains("100 - Computers: Their Impact and Use")
         .click()
 
@@ -179,8 +175,8 @@ describe("Planner Test Cases", function () {
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
         .should('not.contain.text', '16185')
     })
-    it("Cost", function () {
 
+    it("Cost", function () {
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
@@ -220,5 +216,4 @@ describe("Planner Test Cases", function () {
             .should('contain.text', 'Units: 3')
             .should('contain.text', 'Cost: $2326')
     })
-
 })
