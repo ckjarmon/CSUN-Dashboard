@@ -4,7 +4,7 @@ describe("Faculty Test Cases", function () {
     beforeEach(function () {
         cy.intercept('GET', '/*/professors').as('professors')
         cy.viewport(1920, 1080);
-        cy.visit(Cypress.config("baseUrl") + '/faculty');
+        cy.visit('/faculty');
 
         this.class_codes = ["AE", "AM", "AAS", "ACCT", "AFRS", "AIS", "ANTH", "ARAB", "ARMN", "ART",
             "ASTR", "ATHL", "BANA", "BIOL", "BLAW", "BUS", "CE", "CADV", "CAS", "CCE", "CD", "CECS", "CHS",
