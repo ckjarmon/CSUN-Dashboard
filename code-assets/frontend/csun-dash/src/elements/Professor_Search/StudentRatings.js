@@ -10,7 +10,7 @@ function StudentRatings({ subject, email, first_name, last_name, postedReview })
     const [courses, setCourses] = useState([])
 
     useEffect(() => {
-        fetch(`https://api.kyeou.xyz/${email}/ratings`)
+        fetch(`${process.env.REACT_APP_API_URL}/${email}/ratings`)
             .then(response => response.json())
             .then(reviews => {
                 if (!reviews.length) {

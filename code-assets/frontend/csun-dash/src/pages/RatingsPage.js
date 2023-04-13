@@ -15,7 +15,7 @@ function RatingsPage() {
 
 
     function fetchRatingsAndClasses() {
-        fetch(`https://api.kyeou.xyz/${email}/ratings`)
+        fetch(`${process.env.REACT_APP_API_URL}/${email}/ratings`)
             .then(response => response.json())
             .then(ratings => {
                 let ratingsArray = []
@@ -27,7 +27,7 @@ function RatingsPage() {
                 setRatings(ratingsArray)
             })
 
-        fetch(`https://api.kyeou.xyz/${subject}/classes`)
+        fetch(`${process.env.REACT_APP_API_URL}/${subject}/classes`)
             .then(response => response.json())
             .then(classes => {
                 let classesArray = []
@@ -41,7 +41,7 @@ function RatingsPage() {
     }
 
     function fetchProfessor(){
-        fetch(`https://api.kyeou.xyz/${subject}/professors`)
+        fetch(`${process.env.REACT_APP_API_URL}/${subject}/professors`)
             .then(response => response.json())
             .then(professors => {
                 professors.map((professor) => {
