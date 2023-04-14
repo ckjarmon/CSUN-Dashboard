@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "node_modules\\.bin\\cypress open --config watchForFileChanges=false",
-    "cypress:run": "node_modules\\.bin\\cypress run --config video=false"
+    "cypress:run": "node_modules\\.bin\\cypress run --config video=false",
+    "cypress:home": "node_modules\\.bin\\cypress run --config video=false --spec cypress\\integration\\home.spec.js",
+    "cypress:planner": "node_modules\\.bin\\cypress run --config video=false --spec cypress\\integration\\planner.spec.js",
+    "cypress:ratings": "node_modules\\.bin\\cypress run --config video=false --spec cypress\\integration\\ratings.spec.js",
+    "cypress:faculty": "node_modules\\.bin\\cypress run --config video=false --spec cypress\\integration\\faculty.spec.js",
+    "cypress:majors": "node_modules\\.bin\\cypress run --config video=false --spec cypress\\integration\\majors.spec.js"
   },
   "author": "",
   "license": "ISC",

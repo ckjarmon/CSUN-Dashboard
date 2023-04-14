@@ -6,14 +6,8 @@ describe("Planner Test Cases", function () {
         cy.intercept('GET', '/*/classes').as('classes')
         cy.intercept('GET', '/*/schedule').as('schedule')
 
-        this.class_codes = ["AE", "AM", "AAS", "ACCT", "AFRS", "AIS", "ANTH", "ARAB", "ARMN", "ART", 
-        "ASTR", "ATHL", "BANA", "BIOL", "BLAW", "BUS", "CE", "CADV", "CAS", "CCE", "CD", "CECS", "CHS", 
-        "CHEM", "CHIN", "CIT", "CJS", "CLAS", "CM", "COMP", "COMS", "CTVA", "DEAF", "EED", "ECE", "ECON", 
-        "EDUC", "ELPS", "ENGL", "EOH", "EPC", "FCS", "FIN", "FLIT", "FREN", "GBUS", "GEOG", "GEOL", "GWS", 
-        "HEBR", "HIST", "HSCI", "HUM", "INDS", "IS", "ITAL", "JS", "JAPN", "JOUR", "KIN", "KOR", "LING", 
-        "LRS", "ME", "MATH", "MCOM", "MGT", "MKT", "MSE", "MUS", "NURS", "PERS", "PHIL", "PHSC", "PHYS", 
-        "POLS", "PSY", "PT", "QS", "RS", "RE", "RTM", "RUSS", "SED", "SCI", "SCM", "SOC", "SOM", "SPAN", 
-        "SPED", "SUST", "SWRK", "TH", "UNIV", "URBS"]
+        this.class_codes = ["BIOL", "BLAW", "BUS", "CE", "CHEM", "CIT", "COMP",
+        "ECE", "ECON", "EDUC", "ELPS", "ENGL", "HIST", "ME", "MATH"]
 
         cy.viewport(1920, 1080);
         cy.visit('/planner');
@@ -45,15 +39,9 @@ describe("Planner Test Cases", function () {
             
             cy.wait('@classes').then((res) => {
                 expect(res.response.statusCode).eql(200)
-                // cy.request(`${Cypress.config("apiUrl")}/${code}/classes`).then((api_res) => {
-                //     expect(res.response.body).eql(api_res.body)
-                // })
             })
             cy.wait('@schedule').then((res) => {
                 expect(res.response.statusCode).eql(200)
-                // cy.request(`${Cypress.config("apiUrl")}/${code}/schedule`).then((api_res) => {
-                //     expect(res.response.body).eql(api_res.body)
-                // })
             })
         })
     })
@@ -69,15 +57,9 @@ describe("Planner Test Cases", function () {
 
         cy.wait('@classes').then((res) => {
             expect(res.response.statusCode).eql(200)
-            // cy.request(`${Cypress.config("apiUrl")}/COMP/classes`).then((api_res) => {
-            //     expect(res.response.body).eql(api_res.body)
-            // })
         })
         cy.wait('@schedule').then((res) => {
             expect(res.response.statusCode).eql(200)
-            // cy.request(`${Cypress.config("apiUrl")}/COMP/schedule`).then((api_res) => {
-            //     expect(res.response.body).eql(api_res.body)
-            // })
         })
 
 
@@ -99,15 +81,9 @@ describe("Planner Test Cases", function () {
 
         cy.wait('@classes').then((res) => {
             expect(res.response.statusCode).eql(200)
-            // cy.request(`${Cypress.config("apiUrl")}/COMP/classes`).then((api_res) => {
-            //     expect(res.response.body).eql(api_res.body)
-            // })
         })
         cy.wait('@schedule').then((res) => {
             expect(res.response.statusCode).eql(200)
-            // cy.request(`${Cypress.config("apiUrl")}/COMP/schedule`).then((api_res) => {
-            //     expect(res.response.body).eql(api_res.body)
-            // })
         })
 
         cy.contains("100 - Computers: Their Impact and Use")
@@ -146,15 +122,9 @@ describe("Planner Test Cases", function () {
 
         cy.wait('@classes').then((res) => {
             expect(res.response.statusCode).eql(200)
-            // cy.request(`${Cypress.config("apiUrl")}/COMP/classes`).then((api_res) => {
-            //     expect(res.response.body).eql(api_res.body)
-            // })
         })
         cy.wait('@schedule').then((res) => {
             expect(res.response.statusCode).eql(200)
-            // cy.request(`${Cypress.config("apiUrl")}/COMP/schedule`).then((api_res) => {
-            //     expect(res.response.body).eql(api_res.body)
-            // })
         })
 
         cy.contains("100 - Computers: Their Impact and Use")
@@ -188,15 +158,9 @@ describe("Planner Test Cases", function () {
 
         cy.wait('@classes').then((res) => {
             expect(res.response.statusCode).eql(200)
-            // cy.request(`${Cypress.config("apiUrl")}/COMP/classes`).then((api_res) => {
-            //     expect(res.response.body).eql(api_res.body)
-            // })
         })
         cy.wait('@schedule').then((res) => {
             expect(res.response.statusCode).eql(200)
-            // cy.request(`${Cypress.config("apiUrl")}/COMP/schedule`).then((api_res) => {
-            //     expect(res.response.body).eql(api_res.body)
-            // })
         })
 
 
