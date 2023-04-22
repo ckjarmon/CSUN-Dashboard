@@ -70,7 +70,6 @@ function PlannerPage({ handleAlert }) {
                     <ClassSelections classesAdded={addedClasses} removeClassHandler={handleClassRemoved}></ClassSelections>
                 </div>
             </div>
-            <Footer></Footer>
         </div>
     )
 }

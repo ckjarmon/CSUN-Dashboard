@@ -14,110 +14,112 @@ import os
 
 
 
-class_codes = [
-    "AE",
-    "AM",
-    "AR",
-    "AAS",
-    "ACCT",
-    "AFRS",
-    "AIS",
-    "ANTH",
-    "ARAB",
-    "ARMN",
-    "ART",
-    "ASTR",
-    "AT",
-    "ATHL",
-    "BANA",
-    "BIOL",
-    "BLAW",
-    "BUS",
-    "CE",
-    "CADV",
-    "CAS",
-    "CCE",
-    "CD",
-    "CECS",
-    "CHS",
-    "CHEM",
-    "CHIN",
-    "CIT",
-    "CJS",
-    "CLAS",
-    "CM",
-    "COMP",
-    "COMS",
-    "CTVA",
-    "DEAF",
-    "EED",
-    "ECE",
-    "ECON",
-    "EDUC",
-    "ELPS",
-    "ENGL",
-    "ENT",
-    "EOH",
-    "EPC",
-    "FCS",
-    "FIN",
-    "FLIT",
-    "FREN",
-    "GBUS",
-    "GEH",
-    "GEOG",
-    "GEOL",
-    "GWS",
-    "HEBR",
-    "HHD",
-    "HIST",
-    "HSCI",
-    "HUM",
-    "HUMN",
-    "INDS",
-    "IS",
-    "ITAL",
-    "JS",
-    "JAPN",
-    "JOUR",
-    "KIN",
-    "KOR",
-    "LIB",
-    "LING",
-    "LRS",
-    "ME",
-    "MATH",
-    "MCOM",
-    "MGT",
-    "MKT",
-    "MSE",
-    "MUS",
-    "NURS",
-    "PERS",
-    "PHIL",
-    "PHSC",
-    "PHYS",
-    "POLS",
-    "PSY",
-    "PT",
-    "QS",
-    "RS",
-    "RE",
-    "RTM",
-    "RUSS",
-    "SED",
-    "SCI",
-    "SCM",
-    "SOC",
-    "SOM",
-    "SPAN",
-    "SPED",
-    "SUS",
-    "SUST",
-    "SWRK",
-    "TH",
-    "UNIV",
-    "URBS"]
+class_codes = ["AE", 
+"AM", 
+"AR", 
+"AAS", 
+"ACCT", 
+"AFRS", 
+"AIS", 
+"ANTH", 
+"ARAB", 
+"ARMN", 
+"ART", 
+"ASTR", 
+"AT", 
+"ATHL", 
+"BANA", 
+"BIOL", 
+"BLAW", 
+"BUS", 
+"CE", 
+"CADV", 
+"CAS", 
+"CCE", 
+"CD", 
+"CECS", 
+"CHS", 
+"CHEM", 
+"CHIN", 
+"CIT", 
+"CJS", 
+"CLAS", 
+"CM", 
+"COMP", 
+"COMS", 
+"CTVA", 
+"DEAF", 
+"EED", 
+"ECE", 
+"ECON", 
+"EDUC", 
+"ELPS", 
+"ENGL", 
+"ENT", 
+"EOH", 
+"EPC", 
+"FCBE", 
+"FCCA", 
+"FCHC", 
+"FCS", 
+"FIN", 
+"FLIT", 
+"FREN", 
+"GBUS", 
+"GEH", 
+"GEOG", 
+"GEOL", 
+"GWS", 
+"HEBR", 
+"HHD", 
+"HIST", 
+"HSCI", 
+"HUM", 
+"INDS", 
+"IS", 
+"ITAL", 
+"JS", 
+"JAPN", 
+"JOUR", 
+"KIN", 
+"KNFC", 
+"KOR", 
+"LIB", 
+"LING", 
+"LRS", 
+"ME", 
+"MATH", 
+"MCOM", 
+"MGT", 
+"MKT", 
+"MSE", 
+"MUS", 
+"NURS", 
+"PERS", 
+"PHIL", 
+"PHSC", 
+"PHYS", 
+"POLS", 
+"PSY", 
+"PT", 
+"QS", 
+"RS", 
+"RE", 
+"RTM", 
+"RUSS", 
+"SED", 
+"SCI", 
+"SCM", 
+"SOC", 
+"SOM", 
+"SPAN", 
+"SPED", 
+"SUS", 
+"SUST", 
+"SWRK", 
+"TH", 
+"UNIV", 
+"URBS"] 
 
 
 try:
@@ -173,37 +175,20 @@ def convert_time(time):
 
 # This is how the days are stored in the API.
 def convertdays(days_str):
-    match days_str:
-        case "MoWe":
-            return "MW"
-        case "TuTh":
-            return "TR"
-        case "Mo":
-            return "M"
-        case "Tu":
-            return "T"
-        case "We":
-            return "W"
-        case "Th":
-            return "R"
-        case "Fr":
-            return "F"
-        case "MoTuWe":
-            return "MTW"
-        case "MoTuTh":
-            return "MTR"
-        case "MoWeTh":
-            return "MWR"
-        case "MoWeFr":
-            return "MWF"
-        case "MoTuFr":
-            return "MTF"
-        case "MoThFr":
-            return "MRF"
-        case "MoTuWeTh":
-            return "MTWR"
-        case "Sa":
-            return "S"
+    day_map = {
+        "Mo": "M",
+        "Tu": "T",
+        "We": "W",
+        "Th": "R",
+        "Fr": "F",
+        "Sa": "S"
+    }
+
+    for day in day_map:
+        days_str = days_str.replace(day, day_map[day])
+
+    return days_str
+
 
 
 
@@ -211,14 +196,21 @@ def convertdays(days_str):
 def gather(arrow):
         
         
-        s = Service(ChromeDriverManager().install())
+        # s = Service(ChromeDriverManager().install())
         op = webdriver.ChromeOptions()
         op.add_argument('headless')
         op.add_experimental_option('excludeSwitches', ['enable-logging'])
-        driver = webdriver.Chrome(service=s, options=op)
+        driver = webdriver.Chrome(options=op)
         driver.get(catalog_link)
         time.sleep(4)
 
+        # Semester
+        driver.find_element('id', 'NR_SSS_SOC_NWRK_STRM').click()
+        driver.find_element('id', 'NR_SSS_SOC_NWRK_STRM').send_keys('2233', Keys.ENTER)
+        time.sleep(1)
+        
+        
+        driver.find_element('id', 'EXPANDCNT').click()
         id_box = driver.find_element("name", "NR_SSS_SOC_NWRK_SUBJECT")
         id_box.click()
         time.sleep(1)
@@ -366,8 +358,6 @@ def gather(arrow):
                 driver.find_element("id", "SOC_DETAIL1$" + str(a)).click()
                 time.sleep(3)
             except NoSuchElementException:  # if no more classes for a subject
-                # print(nsee.__str__().split('\n')[0])
-                # print(sub_sects)
                 continue
 
                 
@@ -464,8 +454,7 @@ import threading
 
 
 if __name__ == "__main__":  
-    os.mkdir
-    
+
     results_api = {}   
     results_web = {} 
     
@@ -483,11 +472,12 @@ if __name__ == "__main__":
     pta = []
     tta = []
 
+
     for code in class_codes:
         # with open(f"./results_web/{code}_schedule.json") as sub:
-        with results_web[code] as sub:
-            sub = json.load(sub)
-            for course in sub:  
+        # with results_web[code] as sub:
+            # sub = json.load(sub)
+            for course in results_web[code]:  
                 try:
                     rootCursor.execute(f"select title from csun.{code}_view where catalog_number = '{course['catalog_number']}'")
                 except mariadb.ProgrammingError:
@@ -529,19 +519,19 @@ if __name__ == "__main__":
                 
                 
             # json.dump(sub, open(f"./results_web/{code}_schedule.json", "w"), indent=4)
-    json.dump({"courses_to_add": sorted(list(set(cta))), "professors_to_add": sorted(list(set(pta))),
-              "tables_that_dont_exist": sorted(list(set(tta)))}, open("Missing_Items_2.json", "w"), indent=4)
+    # json.dump({"courses_to_add": sorted(list(set(cta))), "professors_to_add": sorted(list(set(pta))),
+    #           "tables_that_dont_exist": sorted(list(set(tta)))}, open("Missing_Items_2.json", "w"), indent=4)
  
 
     for code in class_codes:
         classes = []
         try:
             # with open(f"./results_web/{code}_schedule.json") as schedule_file:
-            with results_web[code] as sch:    
+            # with results_web[code] as sch:    
                 all_classes = {}
-                sf = json.load(sch)
+                # sf = json.load(sch)
                 # pprint.pprint(sf)
-                for course in sf:
+                for course in results_web[code]:
                     try:
                         all_classes[f"{code.upper()} {course['catalog_number']}"].append({
                             "class_number": course["class_number"],
@@ -575,10 +565,13 @@ if __name__ == "__main__":
                            course["start_time"],
                            course["end_time"],
                            "spring",
-                           2023)
+                           2023,
+                           code,
+                           course['catalog_number'])
                     try:
-                        rootCursor.execute("insert into section(class_number,enrollment_cap,enrollment_count,instructor,days,location,start_time,end_time,semester, year) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%d)", tup)
+                        rootCursor.execute("insert into section(class_number,enrollment_cap,enrollment_count,instructor,days,location,start_time,end_time,semester,year,subject,catalog_number) values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%d,%s,%s)", tup)
                     except mariadb.IntegrityError:
+                        print(str(tup))
                         continue
                 sub_dict_section = {}
                 for k in all_classes.keys():
@@ -595,10 +588,10 @@ if __name__ == "__main__":
 
     for code in class_codes:
         # with open(f"./results_web/{code}_schedule.json") as s:
-        with results_web[code] as s:
-            # s = json.load(s)
+        # with results_web[code] as s:
+            s = results_web[code] 
             try:
-                for c in s.keys():
+                for c in results_web[code].keys():
                     for course in s[c].keys():
                             rootCursor.execute(f"""update section set enrollment_cap = '{s[c][course]['enrollment_cap']}', 
                                            instructor = %s, 
@@ -614,8 +607,8 @@ if __name__ == "__main__":
              
     for code in class_codes:
         # with open(f"./results_api/{code}_schedule.json") as s:
-         with results_api[code] as s:
-            # s = json.load(s)
+        # with results_api[code] as s:
+            s = results_api[code]
             try:
                 for c in s.keys():
                     for course in s[c].keys():

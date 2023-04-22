@@ -43,7 +43,6 @@ function ProfessorsSearchPage() {
                     allProfessors={allProfessors}
                 /> : !subject ? <div></div> : <h1 style={{ color: "white", marginTop: "100px" }}>No Professors in Selected Department</h1>
             }
-            <Footer></Footer>
         </div>
     )
 }

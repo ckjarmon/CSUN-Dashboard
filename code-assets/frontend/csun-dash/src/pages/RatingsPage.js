@@ -91,8 +91,6 @@ function RatingsPage() {
                     postedReview={postedReview}>
                 </StudentRatings>
             </div>
-            <Footer></Footer>
-
         </div>
     )
 }
