@@ -451,8 +451,8 @@ import threading
 
 
 
-if __name__ == "__main__":  
-
+ 
+def da_job():
     results_api = {}   
     results_web = {} 
     
@@ -640,3 +640,10 @@ if __name__ == "__main__":
     rootConnection.commit()
     rootCursor.close()
     rootConnection.close()
+    
+    
+if __name__ == "__main__":
+    schedule.every().day.at("00:00").do(da_job)
+    while True:
+        schedule.run_pending()
+        time.sleep(60)

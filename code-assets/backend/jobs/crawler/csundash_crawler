@@ -3,7 +3,7 @@
 case "$1" in
   start)
     echo "Starting csundash_crawler"
-    start-stop-daemon --start --background --name csundash_crawler --exec /usr/bin/python ~CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py
+    start-stop-daemon --start --background --name csundash_crawler --exec xfvb-run /usr/bin/python3 ~/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py
     ;;
   stop)
     echo "Stopping csundash_crawler"
@@ -13,7 +13,7 @@ case "$1" in
     echo "Restarting csundash_crawler"
     start-stop-daemon --stop --name csundash_crawler
     sleep 1
-    start-stop-daemon --start --background --name csundash_crawler --exec /usr/bin/python ~CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py
+    start-stop-daemon --start --background --name csundash_crawler --exec xfvb-run /usr/bin/python3 ~/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py
     ;;
   *)
     echo "Usage: /etc/init.d/csundash_crawler {start|stop|restart}"
