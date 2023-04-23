@@ -313,7 +313,6 @@ function MajorsMenu() {
 
 
             </table>
-            <Footer></Footer>
         </div>
     )
 }

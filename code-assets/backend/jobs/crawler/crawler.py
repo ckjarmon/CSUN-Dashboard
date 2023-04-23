@@ -3,14 +3,12 @@ import selenium.common.exceptions
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
-from webdriver_manager.chrome import ChromeDriverManager
 import time
 import json
 import mariadb
 import urllib3
-import os
+import schedule
 
 
 
@@ -197,8 +195,9 @@ def gather(arrow):
         
         
         # s = Service(ChromeDriverManager().install())
-        op = webdriver.ChromeOptions()
+        op = webdriver.ChromeOptions('/usr/local/bin/chromedriver')
         op.add_argument('headless')
+        op.add_argument('')
         op.add_experimental_option('excludeSwitches', ['enable-logging'])
         driver = webdriver.Chrome(options=op)
         driver.get(catalog_link)
