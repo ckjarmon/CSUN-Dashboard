@@ -196,7 +196,7 @@ def gather(arrow):
         
         # s = Service(ChromeDriverManager().install())
         op = webdriver.ChromeOptions()
-        op.add_argument('headless')
+        op.add_argument('--headless')
         op.add_experimental_option('excludeSwitches', ['enable-logging'])
         driver = webdriver.Chrome('/usr/local/bin/chromedriver', options=op)
         driver.get(catalog_link)
