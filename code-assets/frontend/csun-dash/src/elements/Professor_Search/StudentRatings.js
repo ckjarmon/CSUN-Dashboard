@@ -21,8 +21,8 @@ function StudentRatings({ subject, email, first_name, last_name, postedReview })
                     let classArray = []
 
                     reviews.map((review) => {
-                        reviewArray.push(review)
-                        classArray.push(review.catalog_number)
+                        reviewArray.unshift(review)
+                        classArray.unshift(review.catalog_number)
                     })
 
                     let uniqueClassArray = []
