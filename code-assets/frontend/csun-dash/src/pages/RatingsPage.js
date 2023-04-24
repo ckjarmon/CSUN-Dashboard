@@ -21,10 +21,10 @@ function RatingsPage() {
                 let ratingsArray = []
 
                 ratings.map((rating) => {
-                    ratingsArray.push(rating)
+                    ratingsArray.unshift(rating)
                 })
 
-                setRatings(ratingsArray.reverse())
+                setRatings(ratingsArray)
             })
 
         fetch(`${process.env.REACT_APP_API_URL}/${subject}/classes`)
