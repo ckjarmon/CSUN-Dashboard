@@ -24,7 +24,7 @@ function RatingsPage() {
                     ratingsArray.push(rating)
                 })
 
-                setRatings(ratingsArray)
+                setRatings(ratingsArray.reverse())
             })
 
         fetch(`${process.env.REACT_APP_API_URL}/${subject}/classes`)
