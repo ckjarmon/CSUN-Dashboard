@@ -52,7 +52,7 @@ const link = {
 
 const logo = {
     textDecoration: 'none',
-    marginTop: "5px",
+    marginTop: "-13px",
     marginLeft: "15px",
     float: "left",
     paddingBottom: "10px",
