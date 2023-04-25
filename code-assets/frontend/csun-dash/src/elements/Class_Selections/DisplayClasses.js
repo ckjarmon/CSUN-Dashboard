@@ -22,7 +22,7 @@ function DisplayClasses({ classesAdded, removeClassHandler }) {
 
     function handleInfoButton(event) {
         setOpenModal(!openModal)
-        fetch(`https://api.kyeou.xyz/${event.subject}/catalog`)
+        fetch(`${process.env.REACT_APP_API_URL}/${event.subject}/catalog`)
         .then(response => response.json())
         .then(catalogData => {
             let catalogInfo = {}

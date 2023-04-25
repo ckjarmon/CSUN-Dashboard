@@ -36,7 +36,6 @@ function SignInPage() {
                     </Box>
                 </div>
             </span>
-            <Footer></Footer>
         </div>
         
     )

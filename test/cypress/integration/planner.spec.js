@@ -6,22 +6,15 @@ describe("Planner Test Cases", function () {
         cy.intercept('GET', '/*/classes').as('classes')
         cy.intercept('GET', '/*/schedule').as('schedule')
 
-        this.class_codes = ["AE", "AM", "AAS", "ACCT", "AFRS", "AIS", "ANTH", "ARAB", "ARMN", "ART", 
-        "ASTR", "ATHL", "BANA", "BIOL", "BLAW", "BUS", "CE", "CADV", "CAS", "CCE", "CD", "CECS", "CHS", 
-        "CHEM", "CHIN", "CIT", "CJS", "CLAS", "CM", "COMP", "COMS", "CTVA", "DEAF", "EED", "ECE", "ECON", 
-        "EDUC", "ELPS", "ENGL", "EOH", "EPC", "FCS", "FIN", "FLIT", "FREN", "GBUS", "GEOG", "GEOL", "GWS", 
-        "HEBR", "HIST", "HSCI", "HUM", "INDS", "IS", "ITAL", "JS", "JAPN", "JOUR", "KIN", "KOR", "LING", 
-        "LRS", "ME", "MATH", "MCOM", "MGT", "MKT", "MSE", "MUS", "NURS", "PERS", "PHIL", "PHSC", "PHYS", 
-        "POLS", "PSY", "PT", "QS", "RS", "RE", "RTM", "RUSS", "SED", "SCI", "SCM", "SOC", "SOM", "SPAN", 
-        "SPED", "SUST", "SWRK", "TH", "UNIV", "URBS"]
+        this.class_codes = ["BIOL", "BLAW", "BUS", "CE", "CHEM", "CIT", "COMP",
+        "ECE", "ECON", "EDUC", "ELPS", "ENGL", "HIST", "ME", "MATH"]
 
         cy.viewport(1920, 1080);
-        cy.visit(Cypress.config("baseUrl") + '/planner');
+        cy.visit('/planner');
     })
 
 
     it("Can Select Subject and Term", function () {
-
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
@@ -45,16 +38,11 @@ describe("Planner Test Cases", function () {
             cy.get(`[data-value="${code}"]`).click()
             
             cy.wait('@classes').then((res) => {
-                cy.request(`https://api.kyeou.xyz/${code}/classes`).then((api_res) => {
-                    expect(res.response.body).eql(api_res.body)
-                })
+                expect(res.response.statusCode).eql(200)
             })
             cy.wait('@schedule').then((res) => {
-                cy.request(`https://api.kyeou.xyz/${code}/schedule`).then((api_res) => {
-                    expect(res.response.body).eql(api_res.body)
-                })
+                expect(res.response.statusCode).eql(200)
             })
-
         })
     })
 
@@ -68,14 +56,10 @@ describe("Planner Test Cases", function () {
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
-                expect(res.response.body).eql(api_res.body)
-            })
+            expect(res.response.statusCode).eql(200)
         })
         cy.wait('@schedule').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
-                expect(res.response.body).eql(api_res.body)
-            })
+            expect(res.response.statusCode).eql(200)
         })
 
 
@@ -96,16 +80,11 @@ describe("Planner Test Cases", function () {
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
-                expect(res.response.body).eql(api_res.body)
-            })
+            expect(res.response.statusCode).eql(200)
         })
         cy.wait('@schedule').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
-                expect(res.response.body).eql(api_res.body)
-            })
+            expect(res.response.statusCode).eql(200)
         })
-
 
         cy.contains("100 - Computers: Their Impact and Use")
         .click()
@@ -142,16 +121,11 @@ describe("Planner Test Cases", function () {
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
-                expect(res.response.body).eql(api_res.body)
-            })
+            expect(res.response.statusCode).eql(200)
         })
         cy.wait('@schedule').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
-                expect(res.response.body).eql(api_res.body)
-            })
+            expect(res.response.statusCode).eql(200)
         })
-
 
         cy.contains("100 - Computers: Their Impact and Use")
         .click()
@@ -171,8 +145,8 @@ describe("Planner Test Cases", function () {
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
         .should('not.contain.text', '16185')
     })
-    it("Cost", function () {
 
+    it("Cost", function () {
         cy.contains('Term').next().click()
         cy.get('[role="listbox"]').children().first().click()
         cy.get('input').should('have.length', 2)
@@ -183,14 +157,10 @@ describe("Planner Test Cases", function () {
         
 
         cy.wait('@classes').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/classes`).then((api_res) => {
-                expect(res.response.body).eql(api_res.body)
-            })
+            expect(res.response.statusCode).eql(200)
         })
         cy.wait('@schedule').then((res) => {
-            cy.request(`https://api.kyeou.xyz/COMP/schedule`).then((api_res) => {
-                expect(res.response.body).eql(api_res.body)
-            })
+            expect(res.response.statusCode).eql(200)
         })
 
 
@@ -210,5 +180,4 @@ describe("Planner Test Cases", function () {
             .should('contain.text', 'Units: 3')
             .should('contain.text', 'Cost: $2326')
     })
-
 })

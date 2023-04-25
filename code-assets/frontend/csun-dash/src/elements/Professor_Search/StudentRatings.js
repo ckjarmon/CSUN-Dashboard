@@ -10,7 +10,7 @@ function StudentRatings({ subject, email, first_name, last_name, postedReview })
     const [courses, setCourses] = useState([])
 
     useEffect(() => {
-        fetch(`https://api.kyeou.xyz/${email}/ratings`)
+        fetch(`${process.env.REACT_APP_API_URL}/${email}/ratings`)
             .then(response => response.json())
             .then(reviews => {
                 if (!reviews.length) {
@@ -21,8 +21,8 @@ function StudentRatings({ subject, email, first_name, last_name, postedReview })
                     let classArray = []
 
                     reviews.map((review) => {
-                        reviewArray.push(review)
-                        classArray.push(review.catalog_number)
+                        reviewArray.unshift(review)
+                        classArray.unshift(review.catalog_number)
                     })
 
                     let uniqueClassArray = []

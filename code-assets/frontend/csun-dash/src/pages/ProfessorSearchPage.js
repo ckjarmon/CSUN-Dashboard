@@ -13,7 +13,7 @@ function ProfessorsSearchPage() {
     function handleSubjectChange(event) {
         setSubject(event.target.value)
 
-        fetch(`https://api.kyeou.xyz/${event.target.value}/professors`)
+        fetch(`${process.env.REACT_APP_API_URL}/${event.target.value}/professors`)
             .then(response => response.json())
             .then(professors => {
                 let professorsArray = []
@@ -43,7 +43,6 @@ function ProfessorsSearchPage() {
                     allProfessors={allProfessors}
                 /> : !subject ? <div></div> : <h1 style={{ color: "white", marginTop: "100px" }}>No Professors in Selected Department</h1>
             }
-            <Footer></Footer>
         </div>
     )
 }

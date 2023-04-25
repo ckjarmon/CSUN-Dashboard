@@ -4,7 +4,7 @@
 describe("Ratings Test Cases", function () {
     beforeEach(function () {
         cy.viewport(1920, 1080);
-        cy.visit(Cypress.config("baseUrl") + '/faculty');
+        cy.visit('/faculty');
     })
 
 
@@ -19,7 +19,6 @@ describe("Ratings Test Cases", function () {
         })
 
         cy.contains('button', 'Rate Professor Dantes').should('exist')
-        
     })
 
     it("Can Add Rating", function () {
@@ -108,7 +107,5 @@ describe("Ratings Test Cases", function () {
         cy.contains('All Fields Are Required').should('be.visible')
 
         cy.contains('Post New Rating for Edmund Dantes').should('be.visible')
-
     })
-
 })

@@ -8,7 +8,7 @@ function DisplayCourses({subject, addedClassHandler, addIcon }) {
 
     function fetchAllData() {
 
-        fetch(`https://api.kyeou.xyz/${subject}/classes`)
+        fetch(`${process.env.REACT_APP_API_URL}/${subject}/classes`)
             .then(response => response.json())
             .then(classesData => {
                 let allClassList = []
@@ -21,7 +21,7 @@ function DisplayCourses({subject, addedClassHandler, addIcon }) {
                 setClassList(allClassList)
             })
 
-        fetch(`https://api.kyeou.xyz/${subject}/schedule`)
+        fetch(`${process.env.REACT_APP_API_URL}/${subject}/schedule`)
             .then(response => response.json())
             .then(scheduleData => {
                 let scheduleDict = {}

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, request
 from flask_cors import CORS
 import json
 import itertools
@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-async def establish_conn():
+def establish_conn():
     try:
         rootConnection = mariadb.connect(
             user="py_serv",
@@ -21,13 +21,13 @@ async def establish_conn():
         print(f"Error connecting to MariaDB Platform: {err}")
         
 
-async def name_normalize(str):
+def name_normalize(str):
     return f"{str[0:1].upper()}{str[1:].lower()}"
 
  
 # do not call initial parse call with empty string
 # all initial calls should start with _start = "Take "
-async def parse(_parseable, _start):
+def parse(_parseable, _start):
     unparsed, parsed_ret = _parseable[1:-1], _start
     c_iterate, parse_stack = 0, []
     
@@ -71,19 +71,7 @@ async def parse(_parseable, _start):
     parsed_ret = parsed_ret.replace('\n ', '\n').replace('  ', ' ')
     return repr(parsed_ret).replace('\'', '') # .replace('or a passing score', 'or Earn a passing score')
 
-# before nima's edits
-"""
-@app.route('/')
-async def home():
-    return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
 
-# version 2
-@app.route('/')
-async def home():
-    return render_template('endpoint_list.html')
-"""
-# find file here -> (templates/endpoint_list.html)
-@app.route('/')
 async def home():
     # return render_template('/docs_html/index.html')
     return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
@@ -92,7 +80,6 @@ async def home():
 
 @app.route('/<string:subject>/catalog')
 async def get(**kwargs):
-    # return json.load(open(f'./data/json_{kwargs["data"]}/{kwargs["subject"].upper()}_{kwargs["data"]}.json'))
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     rootCursor.execute(f"""SELECT
