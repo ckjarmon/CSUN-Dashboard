@@ -646,4 +646,4 @@ if __name__ == "__main__":
     schedule.every().day.at("00:00").do(da_job)
     while True:
         schedule.run_pending()
-        time.sleep(60)
+        time.sleep(5)
