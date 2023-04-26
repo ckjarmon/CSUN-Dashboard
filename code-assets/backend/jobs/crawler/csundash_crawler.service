@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=forking
-ExecStart=python3 /home/christian/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py &
+ExecStart=python3 nohup /home/christian/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py &
 ExecStop=pkill -f "python3 /home/christian/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py"
 User=christian
 
