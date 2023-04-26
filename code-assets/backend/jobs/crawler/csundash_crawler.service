@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=forking
-ExecStart=/usr/bin/python /home/christian/CSUN-Dashboard/jobs/crawler/crawler.py &
-ExecStop=pkill -f "/usr/bin/python /home/christian/CSUN-Dashboard/jobs/crawler/crawler.py"
+ExecStart=/usr/bin/python /home/christian/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py &
+ExecStop=pkill -f "/usr/bin/python /home/christian/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py"
 User=kyeou
 
 [Install]
