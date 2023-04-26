@@ -6,7 +6,7 @@ After=network.target
 Type=forking
 ExecStart=python3 /home/christian/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py &
 ExecStop=pkill -f "python3 /home/christian/CSUN-Dashboard/code-assets/backend/jobs/crawler/crawler.py"
-User=kyeou
+User=christian
 
 [Install]
 WantedBy=multi-user.target
