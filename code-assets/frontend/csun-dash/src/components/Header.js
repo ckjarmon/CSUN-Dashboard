@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <div style={{ backgroundColor: "#000000" }}>
-            <li style={logo}><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img  alt="Matalogo" src={require("../matador.png")} width="50" height="50" /></a></li>
+            <div style={logo}><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img  alt="Matalogo" src={require("../matador.png")} width="50" height="50" /></a></div>
             
             <div style={headerContainer}>
                 <ul style={list}>
@@ -52,7 +52,7 @@ const link = {
 
 const logo = {
     textDecoration: 'none',
-    marginTop: "-13px",
+    marginTop: "5px",
     marginLeft: "15px",
     float: "left",
     paddingBottom: "10px",

@@ -6,7 +6,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 function AddClassesDropDown({ searchDone }) {
-    const terms = ["Spring 2023", "Fall 2023"]
+    const terms = ["Spring 2023"]
 
     const [term, setTerm] = useState("")
     const [subject, setSubject] = useState("")

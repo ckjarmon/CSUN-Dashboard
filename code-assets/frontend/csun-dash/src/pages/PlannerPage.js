@@ -58,7 +58,7 @@ function PlannerPage({ handleAlert }) {
     }
 
     console.log(addedClasses)
-
+    document.body.style.overflow = 'hidden';
     return (
         <div>
             <Header></Header>
@@ -78,11 +78,10 @@ export default PlannerPage;
 
 
 const container = {
-    height: '93vh',
+    height: '95vh',
     display: 'flex',
     flexDirection: 'row',
-    backgroundColor: "#000000",
-    paddingBottom: "70px"
+    backgroundColor: "#000000"
 }
 
 const coursesContainer = {
