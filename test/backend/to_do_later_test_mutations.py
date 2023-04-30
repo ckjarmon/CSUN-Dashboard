@@ -16,7 +16,7 @@ os.chdir(currDirectory)
 ################################################################
 
 # import testing modules
-from csundash_fastapi import get, professors, new_rating, get_ratings, classes, schedule
+from playground.csundash_fastapi import get, professors, new_rating, get_ratings, classes, schedule
 
 # create a list of all functions we are going to run mutation analysis on
 mutation_list = [get, professors, new_rating, get_ratings, classes, schedule]

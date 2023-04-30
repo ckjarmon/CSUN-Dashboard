@@ -15,7 +15,7 @@ os.chdir(currDirectory)
 # search for correct dir and file and import the methods to be tested
 # from csundash import home, name_normalize, get, professors, get_ratings, prof_name, schedule
 # from csundash import establish_conn, historical_profs, classes
-from csundash_fastapi import app
+from playground.csundash_fastapi import app
 client = TestClient(app)
 
 # testing all API endpoints
