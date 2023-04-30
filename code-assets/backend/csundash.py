@@ -1,7 +1,6 @@
 from flask import Flask, request
 from flask_cors import CORS
 import json
-import itertools
 import mariadb
 
 app = Flask(__name__)
@@ -73,7 +72,6 @@ def parse(_parseable, _start):
 
 
 async def home():
-    # return render_template('/docs_html/index.html')
     return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
 
 
@@ -195,8 +193,6 @@ Example:
         ...
         ] //End of array
 """
-
-
 @app.route('/<string:subject>/rating', methods=['POST'])
 async def new_rating(**kwargs):
     rootConnection = establish_conn()
@@ -305,61 +301,6 @@ async def get_ratings(**kwargs):
              "mandatory": c[10],
              "review": c[11],
              "class_type": c[12]} for c in le_fetch]
-
-
-"""
-Returns a dictionary of the {int:amount} professors who have taught the Subject Catalog_Number the most in past Fall-Spring iterations.
-{
-prof_email: amt_of_times they taught :: int
-}
-
-
-Example: /comp/182/history/5
-{
-  "bahram.zartoshty@csun.edu": 4,
-  "gholamhossein.dastghaibyfard@csun.edu": 5,
-  "maryam.jalalitabar@csun.edu": 4,
-  "mohammed.abdelrahim@csun.edu": 3,
-  "son.pham@csun.edu": 4
-}
-
-"""
-
-
-@app.route('/<string:subject>/<string:catalog_number>/history/<int:amount>')
-async def historical_profs(**kwargs):
-    with open(f"../backend/data/json_historical_profs/{kwargs['subject'].upper()}_history.json") as subject:
-        classes = json.load(subject)
-        return dict(itertools.islice(classes[f"{kwargs['subject'].upper()} {kwargs['catalog_number'].upper()}"].items(), kwargs["amount"]))
-
-
-"""
-given {string:prof_email} return the name of the prof
-Example:
-/comp/prof/name/john.noga@csun.edu
-
-Returns: John Noga
-"""
-
-# DEPRECATED
-@app.route('/<string:subject>/prof/name/<string:prof_email>')
-async def prof_name(**kwargs):
-    # with open(f"../backend/data/json_profname/{kwargs['subject'].upper()}_profname.json") as profs:
-    #    profs = json.load(profs)
-    #    return profs[kwargs['prof_email']]
-    rootConnection = establish_conn()
-    rootCursor = rootConnection.cursor()
-    rootCursor.execute(f"""SELECT 
-                       first_name, 
-                       last_name 
-                       FROM professor WHERE subject = '{kwargs['subject'].upper()}' and email = '{kwargs['prof_email']}'""")
-    le_fetch = rootCursor.fetchall()
-    
-    rootConnection.commit()
-    rootCursor.close()
-    rootConnection.close()
-    
-    return [f"{x[0]} {x[1]}" for x in le_fetch][0]
 
 
 
