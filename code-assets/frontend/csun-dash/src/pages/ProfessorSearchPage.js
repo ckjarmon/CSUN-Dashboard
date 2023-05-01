@@ -27,7 +27,7 @@ function ProfessorsSearchPage() {
 
 
     }
-
+    document.body.style.overflow = 'visible';
     return (
         <div style={{ minHeight: "100vh", backgroundColor: "#000000" }}>
             <Header></Header>

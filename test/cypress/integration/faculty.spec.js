@@ -7,7 +7,7 @@ describe("Faculty Test Cases", function () {
         cy.visit('/faculty');
 
         this.class_codes = ["BIOL", "BLAW", "BUS", "CE", "CHEM", "CIT", "COMP",
-        "ECE", "ECON", "EDUC", "ELPS", "ENGL", "HIST", "ME", "MATH"]
+            "ECE", "ECON", "EDUC", "ELPS", "ENGL", "HIST", "ME", "MATH"]
     })
 
 

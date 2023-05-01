@@ -40,12 +40,12 @@ function RatingsPage() {
             })
     }
 
-    function fetchProfessor(){
+    function fetchProfessor() {
         fetch(`${process.env.REACT_APP_API_URL}/${subject}/professors`)
             .then(response => response.json())
             .then(professors => {
                 professors.map((professor) => {
-                    if(professor.email === email){
+                    if (professor.email === email) {
                         setProfessor(professor)
                     }
                 })
@@ -63,7 +63,7 @@ function RatingsPage() {
     }, [postedReview])
 
 
-
+    document.body.style.overflow = 'visible';
     return (
         <div style={{ minHeight: "100vh", backgroundColor: "#000000" }}>
             <Header></Header>

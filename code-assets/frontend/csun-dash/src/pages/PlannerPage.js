@@ -81,7 +81,7 @@ const container = {
     height: '95vh',
     display: 'flex',
     flexDirection: 'row',
-    backgroundColor: "#000000"
+    backgroundColor: "#000000",
 }
 
 const coursesContainer = {

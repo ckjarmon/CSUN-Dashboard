@@ -10,7 +10,7 @@ describe("Ratings Test Cases", function () {
 
     it("Can View Ratings", function () {
         cy.contains('Select Subject').next().click()
-        
+
         cy.get(`[data-value="COMP"]`).click()
 
         cy.contains('Edmund Dantes').prev().click()
@@ -23,7 +23,7 @@ describe("Ratings Test Cases", function () {
 
     it("Can Add Rating", function () {
         cy.contains('Select Subject').next().click()
-        
+
         cy.get(`[data-value="COMP"]`).click()
 
         cy.contains('Edmund Dantes').prev().click()
@@ -35,7 +35,7 @@ describe("Ratings Test Cases", function () {
         cy.contains('button', 'Rate Professor Dantes').click()
 
         cy.contains('Course Code')
-        .next().children().next().children().first().type('COMP 490')
+            .next().children().next().children().first().type('COMP 490')
 
         cy.contains('Rate your professor').next().click('right')
         // .children().eq(2).children('input').invoke('attr', 'aria-valuempw', "5")
@@ -43,13 +43,13 @@ describe("Ratings Test Cases", function () {
         cy.contains('How difficult was this professor?').next().click('right')
 
         cy.contains('Would you take this professor again?')
-        .next().children().children().first().click()
+            .next().children().children().first().click()
 
         cy.contains('Did this professor use textbooks?')
-        .next().children().children().first().click()
+            .next().children().children().first().click()
 
         cy.contains('Was attendance mandatory?')
-        .next().children().children().first().click()
+            .next().children().children().first().click()
 
         cy.contains('Select Grade').next().children().first().click()
         cy.get('ul.MuiList-root').children().first().click()
@@ -58,7 +58,7 @@ describe("Ratings Test Cases", function () {
         cy.get('ul.MuiList-root').children().first().click()
 
         const now = new Date().getTime()
-        cy.get('textarea').type(`This rating was made by Cypress :)\nCurrent time ` +  now)
+        cy.get('textarea').type(`This rating was made by Cypress :)\nCurrent time ` + now)
 
         cy.contains('button', 'Post').click()
 
@@ -67,7 +67,7 @@ describe("Ratings Test Cases", function () {
 
     it("Can Add Rating [Negative]", function () {
         cy.contains('Select Subject').next().click()
-        
+
         cy.get(`[data-value="COMP"]`).click()
 
         cy.contains('Edmund Dantes').prev().click()
@@ -79,7 +79,7 @@ describe("Ratings Test Cases", function () {
         cy.contains('button', 'Rate Professor Dantes').click()
 
         cy.contains('Course Code')
-        .next().children().next().children().first().type('COMP 490')
+            .next().children().next().children().first().type('COMP 490')
 
         cy.contains('Rate your professor').next().click('right')
         // .children().eq(2).children('input').invoke('attr', 'aria-valuempw', "5")
@@ -87,13 +87,13 @@ describe("Ratings Test Cases", function () {
         cy.contains('How difficult was this professor?').next().click('right')
 
         cy.contains('Would you take this professor again?')
-        .next().children().children().first().click()
+            .next().children().children().first().click()
 
         cy.contains('Did this professor use textbooks?')
-        .next().children().children().first().click()
+            .next().children().children().first().click()
 
         cy.contains('Was attendance mandatory?')
-        .next().children().children().first().click()
+            .next().children().children().first().click()
 
         cy.contains('Select Grade').next().children().first().click()
         cy.get('ul.MuiList-root').children().first().click()

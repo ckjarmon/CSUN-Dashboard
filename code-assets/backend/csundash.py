@@ -138,61 +138,7 @@ async def professors(**kwargs):
                    for x in le_fetch], key=lambda x: x["last_name"])
 
 
-"""
-Addings a rating for a {string:prof} in a specific {string:subject}
-Returns all previous ratings plus new posted rating for {prof} FROM {subject}
-Blob return: Each professor rating is a an array of ratings with the professor first and last name as the key
-{
-    {professor_first_name formatted} {professor_last_name formatted}: [
-    {
-        "star_rating": int,
-        "professor_first_name": string: any_case,
-        "professor_last_name": string: any_case,
-        "paragraph": string,
-        "author_grade": char: any_case,
-        "subject": string: uppercase,
-        "catalog_number": string: all numbers
-    },
-    {
-        
-        
-    },
-    ...
-    ]   
-}
 
-Example:
-{
-    "John Noga": [
-        {
-            "professor_first_name": "John",
-            "professor_last_name": "Noga",
-            "subject": "COMP",
-            "catalog_number": "Comp 410",
-            "star_rating": 5,
-            "grade": "A",
-            "difficulty": 3,
-            "retake_professor": "Yes",
-            "require_textbooks": "No",
-            "mandatory": "Yes",
-            "review": "Takes long to grade."
-        },
-        {
-            "professor_first_name": "John",
-            "professor_last_name": "Noga",
-            "subject": "COMP",
-            "catalog_number": "Comp 210",
-            "star_rating": 1,
-            "grade": "C",
-            "difficulty": 1,
-            "retake _professor": "No",
-            "require_textbooks": "No",
-            "mandatory": "No",
-            "review": "Bad!"
-        },
-        ...
-        ] //End of array
-"""
 @app.route('/<string:subject>/rating', methods=['POST'])
 async def new_rating(**kwargs):
     rootConnection = establish_conn()

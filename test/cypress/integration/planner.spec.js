@@ -7,7 +7,7 @@ describe("Planner Test Cases", function () {
         cy.intercept('GET', '/*/schedule').as('schedule')
 
         this.class_codes = ["BIOL", "BLAW", "BUS", "CE", "CHEM", "CIT", "COMP",
-        "ECE", "ECON", "EDUC", "ELPS", "ENGL", "HIST", "ME", "MATH"]
+            "ECE", "ECON", "EDUC", "ELPS", "ENGL", "HIST", "ME", "MATH"]
 
         cy.viewport(1920, 1080);
         cy.visit('/planner');
@@ -20,9 +20,9 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
         this.class_codes.forEach((code) => {
             cy.contains('Subject').next().click()
-            
+
             cy.get(`[data-value="${code}"]`).click()
-            
+
         })
     })
 
@@ -34,9 +34,9 @@ describe("Planner Test Cases", function () {
 
             cy.log(code)
             cy.contains('Subject').next().click()
-            
+
             cy.get(`[data-value="${code}"]`).click()
-            
+
             cy.wait('@classes').then((res) => {
                 expect(res.response.statusCode).eql(200)
             })
@@ -52,7 +52,7 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
 
         cy.contains('Subject').next().click()
-        
+
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
@@ -76,7 +76,7 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
 
         cy.contains('Subject').next().click()
-        
+
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
@@ -87,28 +87,28 @@ describe("Planner Test Cases", function () {
         })
 
         cy.contains("100 - Computers: Their Impact and Use")
-        .click()
+            .click()
 
         cy.contains("16185")
-        .prev().click()
+            .prev().click()
 
         cy.contains("Class has been added to your planner.")
-        .should('exist')
+            .should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
-        .should('contain.text', '16185')
+            .should('contain.text', '16185')
 
         cy.contains("100 - Computers: Their Impact and Use")
-        .click()
+            .click()
 
         cy.contains("16186")
-        .prev().click()
+            .prev().click()
 
         cy.contains("This class conflicts with current schedule!")
-        .should('exist')
+            .should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
-        .should('not.contain.text', '16186')
+            .should('not.contain.text', '16186')
     })
 
     it("Can Remove Classes", function () {
@@ -117,7 +117,7 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
 
         cy.contains('Subject').next().click()
-        
+
         cy.get(`[data-value="COMP"]`).click()
 
         cy.wait('@classes').then((res) => {
@@ -128,22 +128,22 @@ describe("Planner Test Cases", function () {
         })
 
         cy.contains("100 - Computers: Their Impact and Use")
-        .click()
+            .click()
 
         cy.contains("16185")
-        .prev().click()
+            .prev().click()
 
         cy.contains("Class has been added to your planner.")
-        .should('exist')
+            .should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
-        .should('contain.text', '16185')
+            .should('contain.text', '16185')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
-        .children().contains('16185').prev().click()
+            .children().contains('16185').prev().click()
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
-        .should('not.contain.text', '16185')
+            .should('not.contain.text', '16185')
     })
 
     it("Cost", function () {
@@ -152,9 +152,9 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
 
         cy.contains('Subject').next().click()
-        
+
         cy.get(`[data-value="COMP"]`).click()
-        
+
 
         cy.wait('@classes').then((res) => {
             expect(res.response.statusCode).eql(200)
@@ -165,16 +165,16 @@ describe("Planner Test Cases", function () {
 
 
         cy.contains("100 - Computers: Their Impact and Use")
-        .click()
+            .click()
 
         cy.contains("16185")
-        .prev().click()
+            .prev().click()
 
         cy.contains("Class has been added to your planner.")
-        .should('exist')
+            .should('exist')
 
         cy.xpath('/html/body/div/div[1]/div[2]/div[2]/div[2]')
-        .should('contain.text', '16185')
+            .should('contain.text', '16185')
 
         cy.contains('Semester Cost').next().children()
             .should('contain.text', 'Units: 3')
