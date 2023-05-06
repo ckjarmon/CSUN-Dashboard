@@ -20,7 +20,6 @@ describe("Planner Test Cases", function () {
         cy.get('input').should('have.length', 2)
         this.class_codes.forEach((code) => {
             cy.contains('Subject').next().click()
-
             cy.get(`[data-value="${code}"]`).click()
 
         })
