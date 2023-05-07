@@ -1,7 +1,6 @@
-import Header from "../../components/Header.js"
-import Footer from "../../components/Footer.js"
-import { major_names } from "../../majorNames"
-import { Link } from 'react-router-dom'
+import Header from "../../components/Header.js";
+import { Link } from 'react-router-dom';
+
 
 
 function MajorsMenu() {

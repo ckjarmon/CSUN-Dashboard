@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-pascal-case */
-import React, {useState} from 'react';
+import {useState} from 'react';
 import HomePage from './pages/HomePage'
 import PlannerPage from './pages/PlannerPage';
 import RatingsPage from './pages/RatingsPage';
 import ProfessorSearchPage from './pages/ProfessorSearchPage';
-import SignInPage from './pages/SignInPage'
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import MajorsMenu from './elements/Majors/MajorsMenu';
 import CSMajor from './elements/Majors/CS'
@@ -193,7 +193,6 @@ document.body.style.backgroundImage = "linear-gradient(to top, #000000, #4C4E52)
           <Route path='/majors' element={<MajorsMenu />} />
           <Route path='/ratings/:subject/:email' element={<RatingsPage />} />
           <Route path='/faculty' element={<ProfessorSearchPage />} />
-          <Route path='/signIn' element={<SignInPage />} />
 
           <Route path='/majors/cs' element={<CSMajor />} />
           <Route path='/majors/cs_2' element={<CSMajor_2 />} />

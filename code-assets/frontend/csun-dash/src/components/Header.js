@@ -1,16 +1,36 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import './gradient.css';
+
 
 function Header() {
     return (
-        <div style={{ backgroundColor: "#000000", borderRadius: "30px" }}>
-            <div style={logo}><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img  alt="Matalogo" src={require("../matador.png")} width="50" height="50" /></a></div>
-            
+        <div style={{ borderRadius: "30px", marginBottom: "5px" }}>
+            <div style={logo}><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img alt="Matalogo" src={require("../matador.png")} width="50" height="50" /></a></div>
+
             <div style={headerContainer}>
                 <ul style={list}>
-                    <li style={link}><Link style={link} to="/">Home</Link></li>
-                    <li style={link}><Link style={link} to="/planner">Planner</Link></li>
-                    <li style={link}><Link style={link} to="/majors">Majors</Link></li>
-                    <li style={link}><Link style={link} to="/faculty">Faculty Members</Link></li>
+
+                    <div style={{ display: "inline" }} >
+                        <Link style={link}
+                            onMouseOver={(e) => { e.target.className = "gradient-animation" }}
+                            onMouseOut={(e) => e.target.style.className = ""} to="/">Home</Link>
+                    </div>
+                    <div style={{ display: "inline" }}>
+                        <Link style={link}
+                            onMouseOver={(e) => { e.target.className = "gradient-animation" }}
+                            onMouseOut={(e) => e.target.style.className = ""} to="/planner">Planner</Link>
+                    </div>
+                    <div style={{ display: "inline" }}>
+                        <Link style={link}
+                            onMouseOver={(e) => { e.target.className = "gradient-animation" }}
+                            onMouseOut={(e) => e.target.style.className = ""} to="/majors">Majors</Link>
+                    </div>
+                    <div style={{ display: "inline" }}>
+                        <Link style={link}
+                            onMouseOver={(e) => { e.target.className = "gradient-animation" }}
+                            onMouseOut={(e) => e.target.style.className = ""} to="/faculty">Faculty Members</Link>
+                    </div>
+
                 </ul>
             </div>
         </div>
@@ -36,15 +56,15 @@ const headerContainer = {
 }
 
 const link = {
-    marginLeft:'5px',
-    marginRight:'5px',
+    marginLeft: '7px',
+    marginRight: '7px',
     textAlign: "center",
     backgroundColor: "#D9001E",
     textDecoration: 'none',
     display: 'inline',
-    padding: '5px 15px',
-    fontWeight: '700',
-    fontSize: 'large',
+    padding: '5px 25px',
+    fontWeight: '600',
+    fontSize: '18px',
     cursor: 'pointer',
     color: "white",
     height: "5px",
@@ -59,8 +79,8 @@ const logo = {
     paddingBottom: "10px",
     display: "inlineFlex",
     borderRadius: "40px",
-    width: "50px", 
-    height:"50px"
+    width: "50px",
+    height: "50px"
 }
 
 
