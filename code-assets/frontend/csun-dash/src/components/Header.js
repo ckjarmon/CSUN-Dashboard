@@ -5,32 +5,42 @@ import './gradient.css';
 function Header() {
     return (
         <div style={{ borderRadius: "30px", marginBottom: "5px" }}>
-            <div style={logo}><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img alt="Matalogo" src={require("../matador.png")} width="50" height="50" /></a></div>
+            <div style={logo}>
+                <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>
+                    <img alt="Matalogo" src={require("../matador.png")} width="50" height="50" />
+                </a>
+            </div>
 
             <div style={headerContainer}>
                 <ul style={list}>
-
                     <div style={{ display: "inline" }} >
                         <Link style={link}
-                            onMouseOver={(e) => { e.target.className = "gradient-animation" }}
-                            onMouseOut={(e) => e.target.style.className = ""} to="/">Home</Link>
+                            onMouseOver={(e) => e.target.className = "gradient-animation"}
+                            onMouseOut={(e) => e.target.className = ""} to="/">
+                            Home
+                        </Link>
                     </div>
                     <div style={{ display: "inline" }}>
                         <Link style={link}
-                            onMouseOver={(e) => { e.target.className = "gradient-animation" }}
-                            onMouseOut={(e) => e.target.style.className = ""} to="/planner">Planner</Link>
+                            onMouseOver={(e) => e.target.className = "gradient-animation"}
+                            onMouseOut={(e) => e.target.className = ""} to="/planner">
+                            Planner
+                        </Link>
                     </div>
                     <div style={{ display: "inline" }}>
                         <Link style={link}
-                            onMouseOver={(e) => { e.target.className = "gradient-animation" }}
-                            onMouseOut={(e) => e.target.style.className = ""} to="/majors">Majors</Link>
+                            onMouseOver={(e) => e.target.className = "gradient-animation"}
+                            onMouseOut={(e) => e.target.className = ""} to="/majors">
+                            Majors
+                        </Link>
                     </div>
                     <div style={{ display: "inline" }}>
                         <Link style={link}
-                            onMouseOver={(e) => { e.target.className = "gradient-animation" }}
-                            onMouseOut={(e) => e.target.style.className = ""} to="/faculty">Faculty Members</Link>
+                            onMouseOver={(e) => e.target.className = "gradient-animation"}
+                            onMouseOut={(e) => e.target.className = ""} to="/faculty">
+                            Faculty Members
+                        </Link>
                     </div>
-
                 </ul>
             </div>
         </div>

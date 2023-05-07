@@ -1,5 +1,5 @@
-import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom'
+import './gradient.css'
 
 function LandingPageSeciong() {
     return (
@@ -7,7 +7,7 @@ function LandingPageSeciong() {
             <div>
                 <h1 style={headerText}>The CSUN course planner <br></br> you've been looking for</h1>
                 <h3 style={headerparagraph}>Free online platform that provides college students like you <br></br> with the tools to effectively plan <br></br> your upcoming schedule</h3>
-                <Link to="/planner"><Button style={headerButton} variant="contained">Get Started</Button></Link>
+                    <Link className='get-started' to="/planner">Get Started</Link>
             </div>
             <div style={imgContainer}>
                 <img style={imageStyle} alt="You found an easter egg, brag about it" src={require("../oviatt.jpg")}></img>

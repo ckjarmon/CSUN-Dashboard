@@ -1,17 +1,43 @@
 .gradient-animation:hover {
-    background: linear-gradient(to right, #D9001E, #000);
-    background-size: 400% 400%;
-    animation: gradient 2s ease infinite;
-  }
+  background: linear-gradient(to right, #D9001E, #000);
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+}
+
+
+.get-started {
+  margin-left: 7px;
+  margin-right: 7px;
+  text-align: center;
+  background-color: #D9001E;
+  text-decoration: none;
+  display: inline;
+  padding: 15px 25px;
+  font-weight: 600;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  border-radius: 40px;
   
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+
+}
+
+.get-started:hover {
+  background: linear-gradient(-45deg, #E31C25, #000, #4C4E52, #FFF);
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
