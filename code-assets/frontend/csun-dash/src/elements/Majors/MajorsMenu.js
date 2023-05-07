@@ -5,8 +5,9 @@ import { Link } from 'react-router-dom'
 
 
 function MajorsMenu() {
+    document.body.style.overflow = 'visible';
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#000000", paddingBottom: "100px" }}>
+        <div style={{ minHeight: "100vh", paddingBottom: "100px" }}>
             <Header></Header>
 
             <div style={{ display: "flex", justifyContent: "center", marginTop: "25px" }}>

@@ -65,7 +65,7 @@ function RatingsPage() {
 
     document.body.style.overflow = 'visible';
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#000000" }}>
+        <div style={{ minHeight: "100vh" }}>
             <Header></Header>
             {
                 postedReview === true ?

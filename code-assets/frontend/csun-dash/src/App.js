@@ -174,7 +174,7 @@ function App() {
     }, 2500)
   }
 
-
+document.body.style.backgroundImage = "linear-gradient(to top, #000000, #4C4E52)"
   return (
     <div className="App">
       {

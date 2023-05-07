@@ -29,7 +29,7 @@ function ProfessorsSearchPage() {
     }
     document.body.style.overflow = 'visible';
     return (
-        <div style={{ minHeight: "100vh", backgroundColor: "#000000" }}>
+        <div style={{ minHeight: "100vh"}}>
             <Header></Header>
 
             <h1 style={{ textAlign: "center", marginTop: "20px", color: "white" }}>Search For Faculty Members</h1>

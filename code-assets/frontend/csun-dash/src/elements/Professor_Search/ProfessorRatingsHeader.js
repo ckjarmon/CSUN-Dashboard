@@ -227,7 +227,6 @@ const headerContainerStyle = {
 }
 
 const ratingStyle = {
-    backgroundColor: "black",
     borderRadius: "15px",
     outlineStyle: "solid",
     outlineColor: "green",
@@ -239,7 +238,6 @@ const ratingStyle = {
 }
 
 const totalRatingstyle = {
-    backgroundColor: "black",
     borderRadius: "15px",
     outlineStyle: "solid",
     outlineColor: "white",
@@ -251,7 +249,6 @@ const totalRatingstyle = {
 }
 
 const professorNameStyle = {
-    backgroundColor: "black",
     borderRadius: "15px",
     outlineStyle: "solid",
     outlineColor: "white",
@@ -270,7 +267,6 @@ const professorStatsStyle = {
 }
 
 const wouldTakeAgainStyle = {
-    backgroundColor: "black",
     borderRadius: "25px",
     outlineStyle: "dotted",
     outlineColor: "green",
@@ -280,7 +276,6 @@ const wouldTakeAgainStyle = {
 }
 
 const difficultyStyle = {
-    backgroundColor: "black",
     borderRadius: "25px",
     marginLeft: "5px",
     outlineStyle: "dotted",

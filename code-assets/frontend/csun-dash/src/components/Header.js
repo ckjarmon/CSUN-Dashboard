@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function Header() {
     return (
-        <div style={{ backgroundColor: "#000000" }}>
+        <div style={{ backgroundColor: "#000000", borderRadius: "30px" }}>
             <div style={logo}><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'><img  alt="Matalogo" src={require("../matador.png")} width="50" height="50" /></a></div>
             
             <div style={headerContainer}>
@@ -17,6 +17,7 @@ function Header() {
     )
 }
 
+
 export default Header;
 
 const headerContainer = {
@@ -24,7 +25,7 @@ const headerContainer = {
     paddingBottom: '20px',
     color: "black",
     fontFamily: "Montserrat, Helvetica, Arial, sans-serif",
-    backgroundColor: "black",
+    backgroundColor: "#4C4E52",
     borderShadow: "5px 10px black",
     borderBottomLeftRadius: "30px",
     borderBottomRightRadius: "30px",
