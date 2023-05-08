@@ -7,7 +7,7 @@ function LandingPageSeciong() {
             <div>
                 <h1 style={headerText}>The CSUN course planner <br></br> you've been looking for</h1>
                 <h3 style={headerparagraph}>Free online platform that provides college students like you <br></br> with the tools to effectively plan <br></br> your upcoming schedule</h3>
-                    <Link className='get-started' to="/planner">Get Started</Link>
+                <Link className='get-started' to="/planner">Get Started</Link>
             </div>
             <div style={imgContainer}>
                 <img style={imageStyle} alt="You found an easter egg, brag about it" src={require("../oviatt.jpg")}></img>
@@ -29,7 +29,7 @@ const landingSectionContainer = {
 const headerText = {
     textAlign: 'left',
     fontSize: '42px',
-    fontFamily: "Montserrat, Helvetica, Arial, sans-serif",
+
     lineHeight: "1.3",
     textShadow: "0px 2px 1px #000000",
     letterSpacing: "-1.3px",
@@ -40,7 +40,6 @@ const headerText = {
 const headerparagraph = {
     textAlign: 'left',
     fontSize: '20px',
-    fontFamily: "Montserrat, Helvetica, Arial, sans-serif",
     lineHeight: "1.5",
     marginBottom: "40px",
     color: 'white'
