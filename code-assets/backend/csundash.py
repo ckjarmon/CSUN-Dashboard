@@ -83,8 +83,6 @@ def parse(_parseable, _start):
     return repr(parsed_ret).replace('\'', '') # .replace('or a passing score', 'or Earn a passing score')
 
 
-def home():
-    return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
 
 
 
