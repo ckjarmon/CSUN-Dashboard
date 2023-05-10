@@ -1,11 +1,23 @@
-from flask import Flask, request
+from flask import Flask, request, render_template, send_from_directory
 from flask_cors import CORS
 import json
 import mariadb
 
+
+
 app = Flask(__name__)
 CORS(app)
 
+
+
+@app.route('/')
+def swagger_ui():
+    return render_template('swagger_ui.html')
+
+
+@app.route('/spec')
+def get_spec():
+    return send_from_directory(app.root_path, 'swagger.yaml')
 
 def establish_conn():
     try:
@@ -71,7 +83,7 @@ def parse(_parseable, _start):
     return repr(parsed_ret).replace('\'', '') # .replace('or a passing score', 'or Earn a passing score')
 
 
-async def home():
+def home():
     return "<h1 style='color:red; background:black;'>This would prolly be a good place to list the endpoints</h1>"
 
 
@@ -140,7 +152,7 @@ async def professors(**kwargs):
 
 
 @app.route('/<string:subject>/rating', methods=['POST'])
-async def new_rating(**kwargs):
+async def new_rating():
     rootConnection = establish_conn()
     rootCursor = rootConnection.cursor()
     new_rating = request.get_json(force=True)
@@ -357,6 +369,7 @@ async def schedule(**kwargs):
         rootCursor.close()
         rootConnection.close()
     return [c | {"units": course_units[c['catalog_number']]} if c['catalog_number'] in course_units.keys() else c | {"units": 0} for c in section_payload ]
+
 
 
 if __name__ == "__main__":

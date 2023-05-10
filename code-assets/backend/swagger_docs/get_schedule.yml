@@ -1,0 +1,48 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Get Schedule API
+  description: API to retrieve schedule by subject and catalog number
+host: example.com
+basePath: /<string:subject>/schedule
+schemes:
+  - http
+paths:
+  /{subject}/schedule:
+    get:
+      tags:
+        - Schedule
+      summary: Get schedule by subject
+      description: Retrieves schedule based on the provided subject
+      parameters:
+        - name: subject
+          in: path
+          description: Subject of the schedule
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Schedule'
+  /{subject}/{catalog_number}/schedule:
+    get:
+      tags:
+        - Schedule
+      summary: Get schedule by subject and catalog number
+      description: Retrieves schedule based on the provided subject and catalog number
+      parameters:
+        - name: subject
+          in: path
+          description: Subject of the schedule
+          required: true
+          type: string
+        - name: catalog_number
+          in: path
+          description: Catalog number of the class
+          required: true
+          type: string
+      responses:
+       

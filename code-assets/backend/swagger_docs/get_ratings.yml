@@ -1,0 +1,59 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Get Ratings API
+  description: API to retrieve ratings by email
+host: example.com
+basePath: /<string:email>/ratings
+schemes:
+  - http
+paths:
+  /{email}/ratings:
+    get:
+      tags:
+        - Ratings
+      summary: Get ratings by email
+      description: Retrieves ratings based on the provided email
+      parameters:
+        - name: email
+          in: path
+          description: Email address of the user
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Rating'
+definitions:
+  Rating:
+    type: object
+    properties:
+      professor_first_name:
+        type: string
+      professor_last_name:
+        type: string
+      email:
+        type: string
+      subject:
+        type: string
+      catalog_number:
+        type: string
+      star_rating:
+        type: number
+      grade:
+        type: string
+      difficulty:
+        type: string
+      retake_professor:
+        type: string
+      require_textbooks:
+        type: string
+      mandatory:
+        type: string
+      review:
+        type: string
+      class_type:
+        type: string

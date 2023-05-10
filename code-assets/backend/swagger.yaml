@@ -1,0 +1,260 @@
+openapi: 3.0.0
+info:
+  title: CSUNDASH API
+  description: API for retrieving catalog information
+  version: 1.0.0
+
+definitions:
+  Rating:
+    type: object
+    properties:
+      professor_first_name:
+        type: string
+      professor_last_name:
+        type: string
+      email:
+        type: string
+      subject:
+        type: string
+      catalog_number:
+        type: string
+      star_rating:
+        type: number
+      grade:
+        type: string
+      difficulty:
+        type: string
+      retake_professor:
+        type: string
+      require_textbooks:
+        type: string
+      mandatory:
+        type: string
+      review:
+        type: string
+      class_type:
+        type: string
+  Catalog:
+    type: array
+    items:
+      type: object
+      properties:
+        subject:
+          type: string
+        catalog_number:
+          type: string
+        title:
+          type: string
+        description:
+          type: string
+        units:
+          type: integer
+        prerequisites:
+          type: string
+        corequisites:
+          type: string
+  Professor:
+    type: array
+    items:
+      type: object
+      properties:
+        email:
+          type: string
+        first_name:
+          type: string
+        last_name:
+          type: string
+        image_link:
+          type: string
+        phone_number:
+          type: string
+        location:
+          type: string
+        website:
+          type: string
+        mail_drop:
+          type: string
+        subject:
+          type: string
+        office:
+          type: string
+  Schedule:
+    type: array
+    items:
+      type: object
+      properties:
+        class_number:
+          type: string
+        enrollment_cap:
+          type: string
+        enrollment_count:
+          type: string
+        instructor:
+          type: string
+        days:
+          type: string
+        location:
+          type: string
+        start_time:
+          type: string
+        end_time:
+          type: string
+        catalog_number:
+          type: string
+        subject:
+          type: string
+
+
+
+paths:
+  /{subject}/catalog:
+    get:
+      tags: 
+        - "Catalog"
+      summary: Get catalog information by subject
+      parameters:
+        - in: path
+          name: subject
+          required: true
+          schema:
+            type: string
+          description: The subject code
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/definitions/Catalog"
+                  
+  /{subject}/professors:
+    get:
+      tags: 
+        - "Professors"
+      summary: Get professors by subject
+      parameters:
+        - in: path
+          name: subject
+          required: true
+          schema:
+            type: string
+          description: The subject code
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/definitions/Professor"
+
+  /<string:email>/rating:
+    post:
+      tags:
+        - "Ratings"
+      summary: "Post a new rating"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: path
+          name: email
+          type: string
+          required: true
+          description: "Email address of the user submitting the rating"
+        - in: body
+          name: rating
+          schema:
+            $ref: "#/definitions/Rating"
+      responses:
+        200:
+          description: "Successful operation"
+          schema:
+            type: object
+            $ref: "#/definitions/Rating"
+
+  /{email}/ratings:
+    get:
+      tags:
+        - Ratings
+      summary: Get ratings by email
+      description: Retrieves ratings based on the provided email
+      parameters:
+        - name: email
+          in: path
+          description: Email address of the user
+          required: true
+          type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Rating"
+
+
+  /{subject}/classes:
+    get:
+      tags:
+        - Catalog
+      summary: Get classes by subject
+      description: Retrieves classes based on the provided subject
+      parameters:
+        - name: subject
+          in: path
+          description: Subject of the classes
+          required: true
+          type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: array
+            items:
+              type: string
+
+  /{subject}/schedule:
+    get:
+      tags:
+        - Schedule
+      summary: Get schedule by subject
+      description: Retrieves schedule based on the provided subject
+      parameters:
+        - name: subject
+          in: path
+          description: Subject of the schedule
+          required: true
+          type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/Schedule"
+
+  /{subject}/{catalog_number}/schedule:
+    get:
+      tags:
+        - Schedule
+      summary: Get schedule by subject and catalog number
+      description: Retrieves schedule based on the provided subject and catalog number
+      parameters:
+        - name: subject
+          in: path
+          description: Subject of the schedule
+          required: true
+          type: string
+        - name: catalog_number
+          in: path
+          description: Catalog number of the class
+          required: true
+          type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: array
+            items:
+              type: string

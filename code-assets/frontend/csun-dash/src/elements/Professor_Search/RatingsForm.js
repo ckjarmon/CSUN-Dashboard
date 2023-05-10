@@ -24,7 +24,7 @@ function RatingsForm({ rateModal, setRateModal, professorName, subject, setPoste
     function courseExists(allClasses) {
         let regExArray = []
         allClasses.map((classItem => {
-            regExArray.push(classItem.split(/\s(.+)/)[0])
+            return regExArray.push(classItem.split(/\s(.+)/)[0])
         }))
         return regExArray.includes(courseCode.split(/\s(.+)/)[1])
     }

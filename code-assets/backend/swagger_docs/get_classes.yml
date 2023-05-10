@@ -1,0 +1,29 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Get Classes API
+  description: API to retrieve classes by subject
+host: example.com
+basePath: /<string:subject>/classes
+schemes:
+  - http
+paths:
+  /{subject}/classes:
+    get:
+      tags:
+        - Classes
+      summary: Get classes by subject
+      description: Retrieves classes based on the provided subject
+      parameters:
+        - name: subject
+          in: path
+          description: Subject of the classes
+          required: true
+          type: string
+      responses:
+        '200':
+          description: OK
+          schema:
+            type: array
+            items:
+              type: string

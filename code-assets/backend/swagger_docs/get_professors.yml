@@ -1,0 +1,46 @@
+openapi: 3.0.0
+info:
+  title: Professors API
+  description: API for retrieving professor information
+  version: 1.0.0
+paths:
+  /{subject}/professors:
+    get:
+      summary: Get professors by subject
+      parameters:
+        - in: path
+          name: subject
+          required: true
+          schema:
+            type: string
+          description: The subject code
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    email:
+                      type: string
+                    first_name:
+                      type: string
+                    last_name:
+                      type: string
+                    image_link:
+                      type: string
+                    phone_number:
+                      type: string
+                    location:
+                      type: string
+                    website:
+                      type: string
+                    mail_drop:
+                      type: string
+                    subject:
+                      type: string
+                    office:
+                      type: string

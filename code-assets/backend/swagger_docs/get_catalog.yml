@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  title: Catalog API
+  description: API for retrieving catalog information
+  version: 1.0.0
+paths:
+  /{subject}/catalog:
+    get:
+      summary: Get catalog information by subject
+      parameters:
+        - in: path
+          name: subject
+          required: true
+          schema:
+            type: string
+          description: The subject code
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    subject:
+                      type: string
+                    catalog_number:
+                      type: string
+                    title:
+                      type: string
+                    description:
+                      type: string
+                    units:
+                      type: integer
+                    prerequisites:
+                      type: string
+                    corequisites:
+                      type: string

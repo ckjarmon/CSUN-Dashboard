@@ -1,0 +1,114 @@
+swagger: "2.0"
+info:
+  title: "Post Rating API"
+  description: "API to post a new rating"
+  version: "1.0.0"
+host: "localhost:5000"
+basePath: "/"
+schemes:
+  - "http"
+paths:
+  /<string:email>/rating:
+    post:
+      tags:
+        - "Ratings"
+      summary: "Post a new rating"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      parameters:
+        - in: path
+          name: email
+          type: string
+          required: true
+          description: "Email address of the user submitting the rating"
+        - in: body
+          name: rating
+          schema:
+            type: object
+            properties:
+              professor_first_name:
+                type: string
+                description: "First name of the professor"
+              professor_last_name:
+                type: string
+                description: "Last name of the professor"
+              email:
+                type: string
+                description: "Email address of the user submitting the rating"
+              subject:
+                type: string
+                description: "Subject of the course"
+              catalog_number:
+                type: string
+                description: "Catalog number of the course"
+              star_rating:
+                type: integer
+                description: "Star rating of the course"
+              grade:
+                type: string
+                description: "Grade received in the course"
+              difficulty:
+                type: string
+                description: "Difficulty level of the course"
+              retake_professor:
+                type: boolean
+                description: "Whether the user would retake the professor"
+              require_textbooks:
+                type: boolean
+                description: "Whether textbooks are required for the course"
+              mandatory:
+                type: boolean
+                description: "Whether the course is mandatory"
+              review:
+                type: string
+                description: "Review of the course"
+              class_type:
+                type: string
+                description: "Type of the course"
+      responses:
+        200:
+          description: "Successful operation"
+          schema:
+            type: object
+            properties:
+              professor_first_name:
+                type: string
+                description: "First name of the professor"
+              professor_last_name:
+                type: string
+                description: "Last name of the professor"
+              email:
+                type: string
+                description: "Email address of the user submitting the rating"
+              subject:
+                type: string
+                description: "Subject of the course"
+              catalog_number:
+                type: string
+                description: "Catalog number of the course"
+              star_rating:
+                type: integer
+                description: "Star rating of the course"
+              grade:
+                type: string
+                description: "Grade received in the course"
+              difficulty:
+                type: string
+                description: "Difficulty level of the course"
+              retake_professor:
+                type: boolean
+                description: "Whether the user would retake the professor"
+              require_textbooks:
+                type: boolean
+                description: "Whether textbooks are required for the course"
+              mandatory:
+                type: boolean
+                description: "Whether the course is mandatory"
+              review:
+                type: string
+                description: "Review of the course"
+              class_type:
+                type: string
+                description: "Type of the course"
