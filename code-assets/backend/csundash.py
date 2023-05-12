@@ -79,6 +79,7 @@ def parse(_parseable, _start):
     parsed_ret = parsed_ret.replace('Take Permission', 'Permission')
     parsed_ret = parsed_ret.replace('Take None', 'None')
     parsed_ret = parsed_ret.replace('Take Be', 'Be')
+    parsed_ret = parsed_ret.replace('Take A', 'A')
     parsed_ret = parsed_ret.replace('\n ', '\n').replace('  ', ' ')
     return repr(parsed_ret).replace('\'', '') # .replace('or a passing score', 'or Earn a passing score')
 
