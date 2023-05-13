@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve myproject
+After=network.target
+
+[Service]
+User=christian
+Group=www-data
+WorkingDirectory=/home/christian/csundash
+Environment="PATH=/home/christian/csundash/csundashenv/bin"
+ExecStart=/home/christian/csundash/csundashenv/bin/uwsgi --ini csundash.ini
+
+[Install]
+WantedBy=multi-user.target
